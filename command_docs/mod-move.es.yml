@@ -1,0 +1,4 @@
+es:
+  short_doc: 'Mueve hasta 20 de los mensajes más recientes en este canal a otro'
+  help: |
+    Mueve hasta 20 de los mensajes más recientes en este canal a otro

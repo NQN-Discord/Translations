@@ -1,0 +1,5 @@
+es:
+  short_doc: 'Muestra todos los alias que pueden ser usados por todos en el servidor'
+  help: |
+    Muestra todos los alias que pueden ser usados por todos en el servidor
+

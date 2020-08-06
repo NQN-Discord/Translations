@@ -1,0 +1,6 @@
+es:
+  short_doc: 'Borra un sticker'
+  help: |
+    Borra un stricker.
+    Solo puedes hacer esto con los Stickers que te pertencen
+

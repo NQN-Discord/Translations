@@ -1,0 +1,48 @@
+es:
+  create:
+    attachment_needed: "Necesitas subir un sticker con este comando"
+    image_needed: "El archivo tiene que ser una imagen"
+    sticker_exists: "Ya existe un sticker llamado %{name}!"
+    filename_invalid: "`%{name}` no es un nombre valido para stickers. Deben ser alfanuméricos, con una extensión alfanumérica."
+    too_large: "Este archivo es demasiado grande. Los stickers no pueen exceder 8MB"
+
+    created: "Ahora puedes usar `:%{name}:`\nNo es lo que deseabas?\n`{prefix}sticker rename %{name} new_name.{ext}`"
+
+  mine:
+    no_stickers: "No tienes ningún sticker"
+
+  delete:
+    no_sticker: "Este sticker no existe"
+    permission_denied: "No puedes eliminar el sticker de otra persona!"
+    sticker_deleted: "Eliminado :%{name}:"
+
+  rename:
+    filename_invalid: "`%{name}` no es un nombre valido para stickers. Deben ser alfanuméricos, con una extensión alfanumérica."
+    no_sticker: "Este sticker no existe"
+    permission_denied: "No puedes renombrar el sticker de otra persona!"
+    destination_taken: "Ese nombre ya esta tomado por otro sticker!"
+
+    renamed: "Renombrado :%{old}: a :%{new}:"
+
+  search:
+    no_stickers: "No se encontró ningún sticker"
+
+  sticker_import:
+    filename_invalid: "`%{name}` no es un nombre valido para stickers. Deben ser alfanuméricos, con una extensión alfanumérica."
+    find_emote: "encuentra un emoji para convertirlo en un sticker!"
+
+    created: "Ahora puedes utilizar `:%{name}:`"
+
+  telegram_import:
+    pack_invalid: "`%{name}` no es un nombre valido de un pack de stickers de Telegram"
+    telegram_unloaded: "Pack de Telegram no cargado - Por favor reportar esto al desarrollador del bot."
+    already_created: "Ya creado por alguien mas; no se puede sobrescribir"
+
+    import_progress:
+      one: "%{count} sticker importado de %{total}:\nPagina %{page} de {total_pages}"
+      many: "%{count} stickers importados de %{total}:\nPagina {page} de {total_pages}"
+    finished_importing:
+      one: "Se termino de importar un sticker"
+      many: "Se termino de importar %{count} stickers"
+
+    search_future: "Para buscar estos stickers en el futuro, usa:\n> `%{prefix}sticker search %{name}`"

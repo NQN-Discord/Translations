@@ -1,0 +1,31 @@
+en:
+  deleted_channel: "#DewetedChannew"
+  author: "Authow"
+  jump_to_message: "Jump"
+  cancelled: "Cancewwed"
+  website: "Website"
+
+  missing_permissions: "Missing Pewmissions"
+  missing_add_reaction: "I need the 'Add Weactions' pewmission fow this command! OwO"
+  missing_create_invite: "I need the 'Cweate Instant Invite' pewmission fow this command! OwO"
+  everyone_external: "The @evewyone wowe needs 'Use Extewnaw Emojis'"
+  tabulated_delete_manage_messages: "Couwd not dewete menu - pwease give me Manage Messages"
+
+  user_missing_administrator: "You awe missing the 'Administwatow' pewmission to wun this command."
+
+  tabulated_default_results:
+    one: "%{count} wesuwt (Page %{page_no} of %{total}):\n%{contents}"
+    many: "%{count} wesuwts (Page %{page_no} of %{total}):\n%{contents}"
+
+  tabulated_results_page:
+    zero: "No emotes found"
+    one: "Page %{page_no} of %{total}%{note}"
+    many: "Page %{page_no} of %{total}%{note}"
+
+  page_no: "Page %{page} of %{total}:"
+  no_results: "No wesuwts"
+  loading: "<a:loading:674758249291186191> Pwocessing..."
+
+  timed_out: "Timed out - twy again"
+
+  global_check_failed: "You awe not awwowed to use %{cmd_name}"

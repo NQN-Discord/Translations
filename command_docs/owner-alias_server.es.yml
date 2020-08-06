@@ -1,0 +1,5 @@
+es:
+  short_doc: 'Establecer este servidor como un servidor alias'
+  help: |
+    Establecer este servidor como un servidor alias
+

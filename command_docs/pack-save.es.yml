@@ -1,0 +1,5 @@
+es:
+  short_doc: 'Sube todos los emojis de un pack a este servidor'
+  help: |
+    Sube todos los emojis de un pack a este servidor
+

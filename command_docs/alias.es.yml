@@ -1,0 +1,11 @@
+es:
+  short_doc: 'Gestiona los emojis individuales que puedes usar'
+  help: |
+    Gestiona los emojis individuales que puedes usar
+
+    Las búsquedas con NQN tienen algunas funciones avanzadas:
+     - `exact`: (false por defecto) solo muestra los emojis con nombre exacto al buscado
+     - `animated`: muestra solo emojis estáticos(false) o animados(true)
+     - `page`: salta hasta la pagina señalada
+     - `order`: cambia el orden a uno de 'uses'(usos), 'random'(aleatorio)
+

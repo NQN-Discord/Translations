@@ -1,0 +1,5 @@
+es:
+  short_doc: 'Encuentra quien envio un mensaje'
+  help: |
+    Encuentra quien envio un mensaje
+

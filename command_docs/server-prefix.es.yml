@@ -1,0 +1,4 @@
+es:
+  short_doc: 'Has que NQN escuche un prefijo diferente.'
+  help: |
+    Has que NQN escuche un prefijo diferente.

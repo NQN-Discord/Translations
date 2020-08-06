@@ -1,0 +1,4 @@
+es:
+  short_doc: 'Muestra los contenidos del pack'
+  help: |
+    Muestra los contenidos del pack
