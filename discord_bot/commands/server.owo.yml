@@ -71,6 +71,7 @@ owo:
     instructions: "To set my pwefix, mention me befowe the desiwed pwefix so as to pwevent accidentaw changes.\n> %{prefix}server prefix %{me} %{new}"
 
     set_prefix: "Set my pwefix to `%{prefix}`"
-  locale:
+
+  language:
     invalid: "Sowwy, I don't know that wanguage.\nI know:\n"
     set: "Set my wanguage to Engwish fow this sewvew"
