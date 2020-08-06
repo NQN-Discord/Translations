@@ -1,0 +1,3 @@
+owo:
+  short_doc: 'Wook fow individuaw emotes to use with NQN'
+  help: "Wook fow individuaw emotes to use with NQN\n\nNQN's seawch awwows fow some advanced featuwes:\n - `exact`: (defauwt false) onwy show emotes with the exact name as seawched fow\n - `animated`: eithew show onwy animated ow static emotes\n - `page`: skip to a cewtain page\n - `order`: one of 'uses', 'random'"

@@ -1,0 +1,5 @@
+en:
+  short_doc: 'Make NQN listen to a different prefix.'
+  help: |
+    Make NQN listen to a different prefix.
+

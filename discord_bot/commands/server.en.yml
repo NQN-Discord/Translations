@@ -1,0 +1,77 @@
+en:
+  alias:
+    set_emote_title: "Set :%{name}: to %{emote} for this server."
+    set_emote_description:
+      zero: "This server has no emotes left!\nFor more aliases, anyone can vote for the bot at %{url}"
+      one: "This server has %{count} emote left before it reaches it's maximum.\nFor more aliases, anyone can vote for the bot at %{url}"
+      many: "This server has %{count} emotes left before it reaches it's maximum.\nFor more aliases, anyone can vote for the bot at %{url}"
+
+    max_title: "This server is at its maximum emote/pack count already!"
+    max_description: ":%{name}: was not added as a server emote.\n\nFor more aliases/packs, anyone can vote for the bot at %{url}"
+
+    no_alias: "This server does not have an alias called %{name}"
+    renamed: "Renamed %{emote} from :%{name}: to :%{new}:"
+
+  announcement_channel:
+    unset: "Unset the announcement channel for this server"
+    set: "Set the announcement channel for this server to %{channel}"
+
+  audit_channel:
+    unset: "Unset the audit channel for this server"
+    set: "Set the audit channel for this server to %{channel}"
+    no_webhooks: "I cannot post webhook messages to %{channel}.\nPlease give me 'Manage Webhooks' there!"
+
+  boost_channel:
+    unset: "Unset the boost channel for this server"
+    set: "Set the boost channel for this server to %{channel}"
+
+  boost_role:
+    unset: "Unset the boost role for this server"
+    set: "Set the boost role for this server to %{role}"
+
+  boolean_options:
+    stickers_on: "Enabled stickers"
+    stickers_off: "Disabled stickers"
+
+    nitro_on: "Enabled free nitro usage in this server!"
+    nitro_off: "Disabled free nitro usage in this server"
+
+    replies_on: "Enabled message replies"
+    replies_off: "Disabled message replies"
+
+    masked_links_on: "Enabled masked URL usage"
+    masked_links_off: "Disabled masked URL usage"
+
+  link:
+    no_animated_emotes: "This server has has no animated emotes!\nYou can only link animated emotes with this command."
+    too_many_static: "This server has too many static emotes! Try deleting some first."
+    animated_only: "This command only works with animated emotes - it makes them available in the emote picker for non-nitro users as static ones!"
+
+    could_not_find_emote: "Could not find that emote! Try aliasing it with `%{prefix}alias search`"
+    upload_later: "Could not upload emote; try again in a few hours"
+
+    choose_emote: "Choose an emote to create a static link for:"
+    create_static: "Create a static emote?"
+    create_static_emote: "Create a static emote for %{emote}?"
+
+    uploaded: "Uploaded %{uploaded}!"
+    uploaded_emote: "Uploaded %{uploaded}!\nUse it to get %{emote}"
+
+  pack:
+    no_pack: "%{name} is not a registered emote pack"
+    joined: "Joined %{name}.\nAnyone in the server may now use the following emotes by typing its name into chat, including colons:"
+
+    max_title: "This server is at its maximum emote/pack count already!"
+    max_description: ":%{name}: was not added as a server pack.\n\nFor more aliases/packs, anyone can vote for the bot at %{url}"
+
+    left_pack: "Left %{name}"
+    not_in_pack: "This server didn't have %{name} as a server pack to start with"
+
+  prefix:
+    instructions: "To set my prefix, mention me before the desired prefix so as to prevent accidental changes.\n> %{prefix}server prefix %{me} %{new}"
+
+    set_prefix: "Set my prefix to `%{prefix}`"
+
+  language:
+    invalid: "Sorry, I don't know that language.\nI know:\n"
+    set: "Set my language to English for this server"

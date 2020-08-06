@@ -1,0 +1,6 @@
+en:
+  short_doc: 'Delete a sticker'
+  help: |
+    Delete a sticker
+    You can only delete stickers you own.
+

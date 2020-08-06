@@ -1,0 +1,37 @@
+owo:
+  ext.commands.help:
+    need_emojis: " - I need this to use emojis! OwO"
+    need_everyone_external: " - @evewyone needs this fow me to use emojis! OwO"
+    need_help: " - I need this fow the hewp command! OwO"
+    nothing: ""
+
+    please_give: "I won't function cowwectwy without these! OwO"
+
+    nqn_help: "NQN Hewp"
+    my_prefix: |
+      My pwefix fow commands is `%{prefix}`
+      Weact with ❌ (\:x:) to dewete weposted messages! OwO
+
+    categories: "Categowies"
+    everything_else: "Evewything ewse"
+    really_useful: "Weawwy Usefuw Commands"
+
+    useful_links: "Usefuw winks:"
+    website: "Website"
+    vote: "Vote! OwO"
+    support: "Suppowt"
+    emote_list: "Emote Wist"
+
+    top_gg_vote: "Voting fow me at [top.gg](https://top.gg/bot/559426966151757824/vote) makes the bot bettew by incweasing ouw visibiwity and awwowing mowe emotes when we join a sewvew."
+    bfd_vote: "Giving me an upvote at [Bots fow Discowd](https://botsfordiscord.com/bot/559426966151757824/vote) hewps out ouw visibiwity. With evewy new sewvew I join, my emote database gets wawgew."
+
+    what_is: "What is Not Quite Nitwo?"
+    bot_description: |
+      Not Quite Nitro is a muwtipuwpose utiwity bot which awwows any usew to use Nitwo emotes.
+      We have an extwemewy wawge databae of visuawwy unique emotes which you can use in any sewvew the bot is in with Manage Webhook pewmissions.
+
+
+      NQN awso awwows automatic quoting whenevew a usew posts a message wink, the use of masked urls in chat and stickews, which awe fuww size emotes.
+
+
+      You can invite me [to youw sewvew](https://discord.com/api/oauth2/authorize?{params}).

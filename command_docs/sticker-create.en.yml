@@ -1,0 +1,10 @@
+en:
+  short_doc: 'Create a sticker from a file'
+  help: |
+    Create a sticker from a file
+    Upload an image and use this command to turn it into a sticker.
+    The sticker's name is determined by the filename, or what you type in. `sticker create BluePat.png` for example.
+    Sticker names are unique across NQN, once a name is taken, it's gone.
+    Stickers can be a maximum of 8MB large, and names can only be alphanumeric.
+    Stickers need a file extension, which is also alphanumeric.
+

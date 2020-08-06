@@ -1,0 +1,63 @@
+en:
+  join:
+    no_pack: "%{name} is not a registered emote pack"
+    already_joined: "You are already joined to %{name}"
+    joined_pack: "Joined %{name}.\nYou may now use the following emotes by typing its name into chat, including colons:"
+
+  leave:
+    no_pack: "%{name} is not a registered emote pack"
+    already_left: "You weren't in %{name} anyway"
+    left: "Left %{name}"
+
+  meta:
+    needs_publishing: "You cannot do this without first publishing this server as an emote pack."
+    show_count: "There are %{count} people in this pack!"
+
+  mine:
+    no_packs: "You don't have any packs!"
+
+  publish:
+    already_published: "This server is already published as a pack!"
+    already_exists: "An emote pack called %{name} already exists"
+    published: "Published emote pack %{name}. Anyone is able to save these emotes to their own server, and you assert that you are the owner of these emotes. To undo this, run `%{prefix}pack unpublish`."
+
+  rename:
+    already_exists: "An emote pack called %{name} already exists"
+    not_published: "This server was not published before."
+    renamed: "Renamed %{old} to %{new}"
+
+  save:
+    none_left: "After filtering out emotes with the same name as ones in this server, there were none left to import!"
+    no_space: "There's no space in this server to add any of the emotes in this pack."
+    failed_batch: "Could not upload entire batch of emotes; try again in a few hours"
+    not_registered: "%{name} is not a registered emote pack"
+
+    upload_question: "Upload these emotes to this server?\n If you are not the owner of all of these emoji, choose N."
+
+    uploaded:
+      one: "Uploaded %{count} emote"
+      many: "Uploaded %{count} emotes"
+
+  search:
+    invalid_group: "<Invalid pack - Please Report>"
+    join_server: "(Join server)"
+    join_text: "Either join this emote pack with <:join:702970568101724331> or:\n> %{prefix}pack join %{name}\n\n"
+    no_longer_registered: "%{name} is no longer a registered emote pack"
+    already_joined: "<@%{author}> is already joined to %{name}"
+    joined_short: "<@%{author}> joined to %{name}"
+    joined_long: "<@%{author}> joined %{name}.\nThey may now use the following emotes by typing its name into chat, including colons:"
+
+  set_public:
+    needs_publishing: "You cannot do this without first publishing this server as an emote pack."
+    public_on: "Allowed invites via NQN."
+    public_off: "Disabled invites via NQN."
+
+  show:
+    not_registered: "%{name} is not a registered emote pack"
+    join_server: "Join Server"
+    pack_empty: "This pack has no emotes in it!"
+    join_pack: "To join `%{name}` and use all of these emotes, use `%{prefix}pack join %{name}`"
+
+  unpublish:
+    not_published: "This server was not published before."
+    unpublished: "Unpublished emote pack %{name}"

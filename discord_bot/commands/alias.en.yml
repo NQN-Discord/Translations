@@ -1,0 +1,19 @@
+en:
+  no_alias: "You don't have an alias called :%{name}:"
+  could_not_find: "Could not find alias"
+  alphanumeric: "Aliases can only contain alphanumerics and underscores"
+  user_zero: "You have no aliases"
+
+  deleted: "Deleted :%{name}:"
+  created: "<@%{author}> created an alias and can use it by typing:\n> :%{name}:"
+  renamed: "Renamed :%{old}: to :%{new}:"
+
+  exported_short: "Here's your exported aliases:"
+  exported_long: "Here's your exported aliases:\nTo share them with other people, they need to run:\n> `%{prefix}alias import %{url}`"
+
+  import_incorrect: "This command is used to import an alias list previously exported with `%{prefix}alias export`.\nTo create an alias, use `%{prefix}alias search`"
+  import_text: "This command needs a text file attachment"
+  import_lines_invalid: "Could not set aliases on lines %{lines_invalid}, invalid format."
+  import_set:
+    one: "Set %{count} alias."
+    many: "Set %{count} aliases."

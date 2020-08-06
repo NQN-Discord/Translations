@@ -1,0 +1,3 @@
+owo:
+  short_doc: 'Cweate a stickew fwom a fiwe'
+  help: "Cweate a stickew fwom a fiwe\nUpwoad an image and use this command to tuwn it into a stickew.\nThe stickew's name is detewmined by the fiwename, ow what you type in. `sticker create BluePat.png` fow exampwe.\nStickew names awe unique acwoss NQN, once a name is taken, it's gone.\nStickews can be a maximum of 8MB wawge, and names can onwy be awphanumewic.\nStickews need a fiwe extension, which is awso awphanumewic."

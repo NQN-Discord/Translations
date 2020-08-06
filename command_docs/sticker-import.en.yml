@@ -1,0 +1,10 @@
+en:
+  short_doc: 'Import stickers from emotes'
+  help: |
+    Import stickers from emotes
+    Either from an emote directly, with an optional alias
+     - sticker import :blue_smirk: smirk.png
+    Or by searching through emotes NQN has.
+     - sticker import blue pat
+    Note that the searching through emotes option does not support aliasing
+

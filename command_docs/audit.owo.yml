@@ -1,0 +1,3 @@
+owo:
+  short_doc: 'Get audit wogs fow weposted messages fow this channew'
+  help: "Get audit wogs fow weposted messages fow this channew\nOptionaw[Channew] -> Fiwtew wogs to this channew onwy\nOptionaw[Membew] -> Fiwtew wogs to this membew onwy\n\nIf both channew and membews awe to be unfiwtewed, use 'audit guiwd'"

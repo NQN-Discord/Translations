@@ -1,0 +1,5 @@
+en:
+  short_doc: 'Purge up to `messages` messages reposted by the bot in this channel, optionally filtering to a specific user'
+  help: |
+    Purge up to `messages` messages reposted by the bot in this channel, optionally filtering to a specific user
+

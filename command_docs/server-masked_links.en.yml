@@ -1,0 +1,5 @@
+en:
+  short_doc: 'Enable or disable masked links in this guild'
+  help: |
+    Enable or disable masked links in this guild
+

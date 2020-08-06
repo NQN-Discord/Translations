@@ -1,0 +1,76 @@
+owo:
+  alias:
+    set_emote_title: "Set :%{name}: to %{emote} fow this sewvew."
+    set_emote_description:
+      zero: "This sewvew has no emotes weft! OwO\nFow mowe awiases, anyone can vote fow the bot at %{url}"
+      one: "This sewvew has %{count} emote weft befowe it weaches it's maximum.\nFow mowe awiases, anyone can vote fow the bot at %{url}"
+      many: "This sewvew has %{count} emotes weft befowe it weaches it's maximum.\nFow mowe awiases, anyone can vote fow the bot at %{url}"
+
+    max_title: "This sewvew is at its maximum emote/pack count awweady! OwO"
+    max_description: ":%{name}: was not added as a sewvew emote.\n\nFow mowe awiases/packs, anyone can vote fow the bot at %{url}"
+
+    no_alias: "This sewvew does not have an awias cawwed %{name}"
+    renamed: "Wenamed %{emote} fwom :%{name}: to :%{new}:"
+
+  announcement_channel:
+    unset: "Unset the announcement channew fow this sewvew"
+    set: "Set the announcement channew fow this sewvew to %{channel}"
+
+  audit_channel:
+    unset: "Unset the audit channew fow this sewvew"
+    set: "Set the audit channew fow this sewvew to %{channel}"
+    no_webhooks: "I cannot post webhook messages to %{channel}.\nPwease give me 'Manage Webhooks' thewe! OwO"
+
+  boost_channel:
+    unset: "Unset the boost channew fow this sewvew"
+    set: "Set the boost channew fow this sewvew to %{channel}"
+
+  boost_role:
+    unset: "Unset the boost wowe fow this sewvew"
+    set: "Set the boost wowe fow this sewvew to %{role}"
+
+  boolean_options:
+    stickers_on: "Enabwed stickews"
+    stickers_off: "Disabwed stickews"
+
+    nitro_on: "Enabwed fwee nitwo usage in this sewvew! OwO"
+    nitro_off: "Disabwed fwee nitwo usage in this sewvew"
+
+    replies_on: "Enabwed message wepwies"
+    replies_off: "Disabwed message wepwies"
+
+    masked_links_on: "Enabwed masked URL usage"
+    masked_links_off: "Disabwed masked URL usage"
+
+  link:
+    no_animated_emotes: "This sewvew has has no animated emotes! OwO\nYou can onwy wink animated emotes with this command."
+    too_many_static: "This sewvew has too many static emotes! OwO Twy deweting some fiwst."
+    animated_only: "This command onwy wowks with animated emotes - it makes them avaiwabwe in the emote pickew fow non-nitwo usews as static ones! OwO"
+
+    could_not_find_emote: "Couwd not find that emote! OwO Twy awiasing it with `%{prefix}alias search`"
+    upload_later: "Couwd not upwoad emote; twy again in a few houws"
+
+    choose_emote: "Choose an emote to cweate a static wink fow:"
+    create_static: "Cweate a static emote?"
+    create_static_emote: "Cweate a static emote fow %{emote}?"
+
+    uploaded: "Upwoaded %{uploaded}! OwO"
+    uploaded_emote: "Upwoaded %{uploaded}! OwO\nUse it to get %{emote}"
+
+  pack:
+    no_pack: "%{name} is not a wegistewed emote pack"
+    joined: "Joined %{name}.\nAnyone in the sewvew may now use the fowwowing emotes by typing its name into chat, incwuding cowons:"
+
+    max_title: "This sewvew is at its maximum emote/pack count awweady! OwO"
+    max_description: ":%{name}: was not added as a sewvew pack.\n\nFow mowe awiases/packs, anyone can vote fow the bot at %{url}"
+
+    left_pack: "Weft %{name}"
+    not_in_pack: "This sewvew didn't have %{name} as a sewvew pack to stawt with"
+
+  prefix:
+    instructions: "To set my pwefix, mention me befowe the desiwed pwefix so as to pwevent accidentaw changes.\n> %{prefix}server prefix %{me} %{new}"
+
+    set_prefix: "Set my pwefix to `%{prefix}`"
+  locale:
+    invalid: "Sowwy, I don't know that wanguage.\nI know:\n"
+    set: "Set my wanguage to Engwish fow this sewvew"

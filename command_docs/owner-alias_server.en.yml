@@ -1,0 +1,5 @@
+en:
+  short_doc: 'Set this server to be an alias server'
+  help: |
+    Set this server to be an alias server
+

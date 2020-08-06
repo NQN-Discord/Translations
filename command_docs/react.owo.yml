@@ -1,0 +1,3 @@
+owo:
+  short_doc: 'Weact to the `n`th most wecent message'
+  help: 'Weact to the `n`th most wecent message\nOptionaw message: The message ID to weact to ow the `n`th most wecent message (up to 20th)\nThe command awwows a wist of weactions, each of which wiww be added in the owdew specified'

@@ -1,0 +1,33 @@
+en:
+  deleted_channel: "#DeletedChannel"
+  author: "Author"
+  jump_to_message: "Jump"
+  cancelled: "Cancelled"
+  website: "Website"
+
+  missing_permissions: "Missing Permissions"
+  missing_add_reaction: "I need the 'Add Reactions' permission for this command!"
+  missing_create_invite: "I need the 'Create Instant Invite' permission for this command!"
+  everyone_external: "The @everyone role needs 'Use External Emojis'"
+  tabulated_delete_manage_messages: "Could not delete menu - please give me Manage Messages"
+
+  user_missing_administrator: "You are missing the 'Administrator' permission to run this command."
+
+  tabulated_default_results:
+    one: "%{count} result (Page %{page_no} of %{total}):\n%{contents}"
+    many: "%{count} results (Page %{page_no} of %{total}):\n%{contents}"
+
+  tabulated_results_page:
+    zero: "No emotes found"
+    one: "Page %{page_no} of %{total}%{note}"
+    many: "Page %{page_no} of %{total}%{note}"
+
+  page_no: "Page %{page} of %{total}:"
+  no_results: "No results"
+  loading: "<a:loading:674758249291186191> Processing..."
+
+  select_alias: "Select a number to alias the emote."
+
+  timed_out: "Timed out - try again"
+
+  global_check_failed: "You are not allowed to use %{cmd_name}"

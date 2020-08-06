@@ -1,0 +1,11 @@
+en:
+  short_doc: 'Look for individual emotes to use with NQN'
+  help: |
+    Look for individual emotes to use with NQN
+
+    NQN's search allows for some advanced features:
+     - `exact`: (default false) only show emotes with the exact name as searched for
+     - `animated`: either show only animated or static emotes
+     - `page`: skip to a certain page
+     - `order`: one of 'uses', 'random'
+
