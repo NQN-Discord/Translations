@@ -75,3 +75,27 @@ es:
   language:
     invalid: "Lo siento, no se hablar ese idioma\nYo sé:\n"
     set: "Mi lenguaje en este servidor ahora es Español"
+ 
+  config:
+    enabled: "Habilitado"
+    disabled: "Deshabilitado"
+    prefix: "Prefijo"
+
+    announcement: "Canal de anuncios"
+    boost_channel: "Canal de votos"
+    boost_role: "Rol de votos"
+    audit: "Canal de auditoria"
+
+    stickers: "Stickers"
+    nitro: "Nitro"
+    replies: "Respuestas"
+    masked: "URLs enmascarados"
+
+    invite: "Enlace de invitación"
+    pack: "Nombre del Pack"
+    public: "Publico"
+
+    settings: "Configuración"
+    channels: "Canales"
+    features: "Funciones"
+    pack_info: "Info del pack"

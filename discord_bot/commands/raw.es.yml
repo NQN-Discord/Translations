@@ -149,7 +149,7 @@ es:
       Esto lo modificaría a `?`, pero cualquier prefijo funciona.
 
       NQN *siempre* escucha sus pings sin importar sus otras configuraciones.
-    page_7_2_name: "Auditoria de mensajes
+    page_7_2_name: "Auditoria de mensajes"
     page_7_2_desc: |
       NQN mantiene un log de los mensajes que reenvía, ya que el mensaje original es removido.
       Esto es en caso de que alguien cambie su nombre y avatar antes de mandar un mensaje ofensivo, o se mal comporta de alguna forma utilizando el bot.
@@ -265,12 +265,12 @@ es:
 
       __Crédito de las traducciones:__
 
-    es: "Spanish:"
+    es: "Español:"
     es_people: |
       > <:OriLove:726475603879919616> OrionVi
       > <:AetherSmile:726474477956759553> Aether Wake
 
-    ru: "Russian:"
+    ru: "Ruso:"
     ru_people: |
       > <:drink:741041666705588255> Трокс
 
