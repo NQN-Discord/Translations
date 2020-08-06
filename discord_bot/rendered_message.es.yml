@@ -1,0 +1,12 @@
+es:
+  great: "Genial!"
+  first_message: |
+    Acabas de empezar con NQN!
+    Serás capaz de utilizar cualquier emoji animado en este servidor, y cualquier otro servidor que compartes conmigo.
+    Si quieres encontrar más emojis, utiliza el comando `%{prefix}tutorial` y selecciona la pagina 3.
+
+  oops: "Oops!"
+  external_emojis: "Para poder utilizar emojis de otros servidores, el rol @everyone requiere del permiso 'Usar emojis externos' en la configuración del servidor al igual que la configuración del canal."
+
+  download: "Descarga"
+

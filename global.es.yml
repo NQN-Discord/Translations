@@ -18,7 +18,7 @@ es:
     many: "%{count} resultados (Pagina %{page_no} de %{total}):\n%{contents}"
 
   tabulated_results_page:
-    zero: "No se encontraron Emojis"
+    zero: "No se han encontrado mojis"
     one: "Pagina %{page_no} de %{total}%{note}"
     many: "Pagina %{page_no} de %{total}%{note}"
 
@@ -29,3 +29,20 @@ es:
   timed_out: "Caduco el tiempo - trata de vuelta"
 
   global_check_failed: "No tienes permitido utilizar %{cmd_name}"
+
+  error_message: |
+    Ha ocurrido un error mientras se procesaba tu comando. Puede que este no se haya completado de manera correcta.
+    Para conseguir ayuda, y reportar el error, por favor unirse al servidor de servicio técnico del bot:
+    https://discord.gg/mv8RbHD
+
+  user_abused: |
+    El dueño del bot o el equipo de moderación global te ha bloqueado el uso del bot debido al abuso de este.
+    No puedes utilizar ni los comandos o ni ninguna funcionalidad del bot.
+
+  support_server: |
+    Puedes unirte a mi servidor de soporte aquí:
+    http://discord.gg/XvzDPca
+    Puedes reportar errores, solicitar nueva funcionalidad o consultar acerca de cómo utilizar me correctamente.
+
+  webhook_limit: "Limite de Webhooks alcanzado! ¡No puedo funcionar en este canal!"
+
