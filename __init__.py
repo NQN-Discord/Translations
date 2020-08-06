@@ -9,6 +9,7 @@ class Translator:
         self.bot = bot
         root_path = pathlib.Path(__file__).parent.absolute()
         i18n.load_path.append(root_path)
+        i18n.set("enable_memoization", True)
 
     @property
     def locales(self):
