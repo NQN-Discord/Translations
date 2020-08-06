@@ -2,6 +2,7 @@ en:
   deleted_channel: "#DeletedChannel"
   author: "Author"
   jump_to_message: "Jump"
+  go_to_message: "Go to message!"
   cancelled: "Cancelled"
   website: "Website"
 
@@ -26,8 +27,23 @@ en:
   no_results: "No results"
   loading: "<a:loading:674758249291186191> Processing..."
 
-  select_alias: "Select a number to alias the emote."
 
   timed_out: "Timed out - try again"
 
   global_check_failed: "You are not allowed to use %{cmd_name}"
+
+  error_message: |
+    An error occurred whilst processing your command. It may not have completed correctly.
+    For help, and to report this as an issue, please join the testing server for this bot:
+    https://discord.gg/mv8RbHD
+
+  user_abused: |
+    The bot owner or global moderators have blocked you from using this bot due to previous abuse.
+    You cannot use any commands or otherwise make use of the bot's functionality.
+
+  support_server: |
+    You can join my support server here:
+    http://discord.gg/XvzDPca
+    You can report bugs, request new features or ask for clarifications on how to use me.
+
+  webhook_limit: "Webhook limit reached! Cannot run in this channel!"

@@ -15,7 +15,8 @@ class Translator:
         return {
             "en": "en",
             "gb": "en",
-            "us": "us",
+            "us": "en",
+            "uk": "en",
             "es": "es",
             "ru": "ru"
         }
@@ -34,6 +35,14 @@ class Translator:
         def translate(text, scope: str = "", **kwargs):
             locale = kwargs.pop("locale", guild_locale)
             return i18n.t(f"{scope or ctx.command.module}.{text}", **kwargs, locale=locale)
+        return translate
+
+    def __call__(self, main_scope: str, guild: Guild):
+        guild_locale = self.get_locale(guild)
+
+        def translate(text, scope: str = "", **kwargs):
+            locale = kwargs.pop("locale", guild_locale)
+            return i18n.t(f"{scope or main_scope}.{text}", **kwargs, locale=locale)
         return translate
 
     def translate_command(self, ctx: Context, command: Command, translation: str):

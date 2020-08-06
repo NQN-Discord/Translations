@@ -75,3 +75,27 @@ en:
   language:
     invalid: "Sorry, I don't know that language.\nI know:\n"
     set: "Set my language to English for this server"
+
+  config:
+    enabled: "Enabled"
+    disabled: "Disabled"
+    prefix: "Prefix"
+
+    announcement: "Announcement channel"
+    boost_channel: "Boost channel"
+    boost_role: "Boost role"
+    audit: "Audit channel"
+
+    stickers: "Stickers"
+    nitro: "Nitro"
+    replies: "Replies"
+    masked: "Masked URLs"
+
+    invite: "Invite Link"
+    pack: "Pack Name"
+    public: "Public"
+
+    settings: "Settings"
+    channels: "Channels"
+    features: "Features"
+    pack_info: "Pack Info"

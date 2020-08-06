@@ -1,0 +1,13 @@
+en:
+  create:
+    invalid_alias: "Invalid name for alias!"
+    not_found: "Could not find emote to add."
+    no_access: "I don't have access to that emote!"
+
+  delete:
+    no_aliases: "No aliases found!"
+    removed: "Removed alias `:%{name}:`."
+
+  search:
+    select_alias: "Select a number to alias the emote."
+    set_emote: "Set :%{name}: to %{emote}"
