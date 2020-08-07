@@ -24,7 +24,11 @@ class Translator:
 
     @property
     def flags(self):
-        return ["gb", "es", "ru"]
+        return {
+            "gb": "English",
+            "es": "Español",
+            "ru": "Русский"
+        }
 
     @property
     def hidden_locales(self):

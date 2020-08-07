@@ -73,5 +73,5 @@ owo:
     set_prefix: "Set my pwefix to `%{prefix}`"
 
   language:
-    invalid: "Sowwy, I don't know that wanguage.\nI know:\n"
+    choose: "Choose my nyew wanguage:"
     set: "Set my wanguage to Engwish fow this sewvew"
