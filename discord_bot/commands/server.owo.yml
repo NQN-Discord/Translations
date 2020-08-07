@@ -75,3 +75,27 @@ owo:
   language:
     choose: "Choose my nyew wanguage:"
     set: "Set my wanguage to Engwish fow this sewvew"
+
+  config:
+    enabled: "Enabwed"
+    disabled: "Disabwed"
+    prefix: "Pwefix"
+
+    announcement: "Announcement channew"
+    boost_channel: "Boost channew"
+    boost_role: "Boost wowe"
+    audit: "Audit channew"
+
+    stickers: "Stickews"
+    nitro: "Nitwo"
+    replies: "Wepwies"
+    masked: "Masked URLs"
+
+    invite: "Invite Wink"
+    pack: "Pack Name"
+    public: "Public"
+
+    settings: "Settings"
+    channels: "Channews"
+    features: "Featuwes"
+    pack_info: "Pack Info"
