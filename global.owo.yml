@@ -1,7 +1,8 @@
-en:
+owo:
   deleted_channel: "#DewetedChannew"
   author: "Authow"
   jump_to_message: "Jump"
+  go_to_message: "Go to message! OwO"
   cancelled: "Cancewwed"
   website: "Website"
 
@@ -29,3 +30,16 @@ en:
   timed_out: "Timed out - twy again"
 
   global_check_failed: "You awe not awwowed to use %{cmd_name}"
+
+  error_message: |
+    An ewwow occuwwed whiwst pwocessing youw command. It may not have compweted cowwectwy.
+    Fow hewp, and to wepowt this as an issue, pwease join the testing sewvew fow this bot:
+    https://discord.gg/mv8RbHD
+  user_abused: |
+    The bot ownew ow gwobaw modewatows have bwocked you fwom using this bot due to pwevious abuse.
+    You cannot use any commands ow othewwise make use of the bot's functionawity.
+  support_server: |
+    You can join my suppowt sewvew hewe:
+    http://discord.gg/XvzDPca
+    You can wepowt bugs, wequest new featuwes ow ask fow cwawifications on how to use me.
+  webhook_limit: "Webhook wimit weached! OwO Cannot wun in this channew! OwO"
