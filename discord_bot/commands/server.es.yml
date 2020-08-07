@@ -73,7 +73,7 @@ es:
     set_prefix: "Prefijo cambiado a `%{prefix}`"
 
   language:
-    invalid: "Lo siento, no se hablar ese idioma\nYo sé:\n"
+    choose: "Selecciona mi nuevo lenguaje:"
     set: "Mi lenguaje en este servidor ahora es Español"
  
   config:
