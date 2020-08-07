@@ -40,6 +40,9 @@ owo:
     default_emoji_list: "Hewe's a wist of aww the animated emotes anyone on this sewvew can use by defauwt - just type them manuawwy, making suwe to incwude :cowons: awound the emote name! OwO"
 
     page_0_title: "Tutowiaw fow Not Quite Nitwo, TLDR"
+    page_0_desc: |
+      :flag_gb: :flag_es: :flag_ru: **Wanguage Options** :flag_gb: :flag_es: :flag_ru:
+      > `%{prefix}server language`
     page_0_0_name: "Mowe Emotes?"
     page_0_0_desc: |
       Evewyone is abwe to use any emote that shawes a sewvew with both you and this bot.
