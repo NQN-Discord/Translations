@@ -10,6 +10,14 @@ class Translator:
         root_path = pathlib.Path(__file__).parent.absolute()
         i18n.load_path.append(root_path)
         i18n.set("enable_memoization", True)
+        for locale in set(self.locales.values()) | set(self.hidden_locales):
+            def inner(locale: str):
+                async def run_locale(ctx, *, rest):
+                    message = ctx.message
+                    message.content = ctx.prefix + rest
+                    await bot.process_commands(message, ctx.prefix, None, locale)
+                return run_locale
+            bot.command(hidden=True, name=locale)(inner(locale))
 
     @property
     def locales(self):
@@ -34,8 +42,9 @@ class Translator:
     def hidden_locales(self):
         return ["owo"]
 
-    def setup_translation(self, ctx: Context):
-        guild_locale = self.get_locale(ctx.guild)
+    def setup_translation(self, ctx: Context, guild_locale: str = None):
+        if guild_locale is None:
+            guild_locale = self.get_locale(ctx.guild)
 
         def translate(text, scope: str = "", **kwargs):
             locale = kwargs.pop("locale", guild_locale)
