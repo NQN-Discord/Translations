@@ -1,0 +1,9 @@
+owo:
+  cropped: "(Cwopped)"
+  nsfw_censored: "<Censowed; %{channel} is NSFW>"
+
+  message_posted: |
+    Message posted in %{channel} by %{author} %{cropped}
+    [Jump Link](%{jump_url})
+  audit_log_post: "NQN on behawf of <@%{author}> (%{author})"
+
