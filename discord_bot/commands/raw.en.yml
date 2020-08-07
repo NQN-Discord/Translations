@@ -40,6 +40,9 @@ en:
     default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
 
     page_0_title: "Tutorial for Not Quite Nitro, TLDR"
+    page_0_desc: |
+      :flag_gb: :flag_es: :flag_ru: **Language Options** :flag_gb: :flag_es: :flag_ru:
+      > `%{prefix}server language`
     page_0_0_name: "More Emotes?"
     page_0_0_desc: |
       Everyone is able to use any emote that shares a server with both you and this bot.
