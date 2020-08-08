@@ -69,6 +69,7 @@ en:
 
   prefix:
     instructions: "To set my prefix, mention me before the desired prefix so as to prevent accidental changes.\n> %{prefix}server prefix %{me} %{new}"
+    no_colon_prefix: "NQN does not support prefixes starting with a colon."
 
     set_prefix: "Set my prefix to `%{prefix}`"
 
