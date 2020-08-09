@@ -1,3 +1,4 @@
+from typing import Callable
 import i18n
 import pathlib
 from discord import Guild
@@ -5,11 +6,13 @@ from discord.ext.commands import Context, Command
 
 
 class Translator:
-    def __init__(self, bot):
-        self.bot = bot
+    def __init__(self, get_locale: Callable[[Guild], str]):
+        self.get_locale = get_locale
         root_path = pathlib.Path(__file__).parent.absolute()
         i18n.load_path.append(root_path)
         i18n.set("enable_memoization", True)
+
+    def add_locale_commands(self, bot):
         for locale in set(self.locales.values()) | set(self.hidden_locales):
             def inner(locale: str):
                 async def run_locale(ctx, *, rest):
@@ -62,9 +65,3 @@ class Translator:
     def translate_command(self, ctx: Context, command: Command, translation: str):
         locale = self.get_locale(ctx.guild)
         return i18n.t(f"command_docs.{command.qualified_name.replace(' ', '-')}.{translation}", locale=locale)
-
-    def get_locale(self, guild: Guild) -> str:
-        guild_settings = self.bot.guild_settings.get_guild(guild)
-        if guild_settings is None:
-            return "en"
-        return guild_settings.locale
