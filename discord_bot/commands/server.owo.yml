@@ -43,7 +43,7 @@ owo:
     masked_links_off: "Disabwed masked URL usage"
 
   link:
-    no_animated_emotes: "This sewvew has has no animated emotes! OwO\nYou can onwy wink animated emotes with this command."
+    no_animated_emotes: "This sewvew has no animated emotes! OwO\nYou can onwy wink animated emotes with this command."
     too_many_static: "This sewvew has too many static emotes! OwO Twy deweting some fiwst."
     animated_only: "This command onwy wowks with animated emotes - it makes them avaiwabwe in the emote pickew fow non-nitwo usews as static ones! OwO"
 

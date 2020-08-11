@@ -43,7 +43,7 @@ en:
     masked_links_off: "Disabled masked URL usage"
 
   link:
-    no_animated_emotes: "This server has has no animated emotes!\nYou can only link animated emotes with this command."
+    no_animated_emotes: "This server has no animated emotes!\nYou can only link animated emotes with this command."
     too_many_static: "This server has too many static emotes! Try deleting some first."
     animated_only: "This command only works with animated emotes - it makes them available in the emote picker for non-nitro users as static ones!"
 
