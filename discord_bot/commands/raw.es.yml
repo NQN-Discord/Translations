@@ -40,7 +40,10 @@ es:
     default_emoji_list: "Esta es la lista de todos los emojis animados que cualquiera en este servidor puede utilizar por defecto - solo escríbelos manualmente, asegurándote de incluir :los dos puntos: alrededor del nombre del emoji!"
 
     page_0_title: "Tutorial para Not Quite Nitro, TLDR"
-    page_0_0_name: "Mas Emojis?"
+    page_0_desc: |
+      %{locale_flag_emojis} **Opciones de idoma** %{locale_flag_emojis}
+      > `%{prefix}server language`
+    page_0_0_name: "Más Emojis?"
     page_0_0_desc: |
       Todos pueden utilizar cualquier emoji que comparte un servidor con vos y el bot
       **Hay distintas formas para utilizar emojis de servidores de los que no perteneces:**"
