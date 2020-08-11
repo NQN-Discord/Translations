@@ -41,7 +41,7 @@ owo:
 
     page_0_title: "Tutowiaw fow Not Quite Nitwo, TLDR"
     page_0_desc: |
-      :flag_gb: :flag_es: :flag_ru: **Wanguage Options** :flag_gb: :flag_es: :flag_ru:
+      %{locale_flag_emojis} **Wanguage Options** %{locale_flag_emojis}
       > `%{prefix}server language`
     page_0_0_name: "Mowe Emotes?"
     page_0_0_desc: |

@@ -41,7 +41,7 @@ en:
 
     page_0_title: "Tutorial for Not Quite Nitro, TLDR"
     page_0_desc: |
-      :flag_gb: :flag_es: :flag_ru: **Language Options** :flag_gb: :flag_es: :flag_ru:
+      %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
       > `%{prefix}server language`
     page_0_0_name: "More Emotes?"
     page_0_0_desc: |

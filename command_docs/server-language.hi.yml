@@ -1,5 +1,5 @@
 hi:
-  short_doc: 'बॉट की भाषा सेट करें'
+  short_doc: 'बॉट की भाषा सेट करें %{locale_flag_emojis}'
   help: |
    	बॉट की भाषा सेट करें
 

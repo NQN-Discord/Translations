@@ -42,26 +42,29 @@ class Translator:
         }
 
     @property
+    def flag_emojis(self):
+        return " ".join(f":flag_{flag}:" for flag in self.flags)
+
+    @property
     def hidden_locales(self):
         return ["owo"]
 
     def setup_translation(self, ctx: Context, guild_locale: str = None):
-        if guild_locale is None:
-            guild_locale = self.get_locale(ctx.guild)
+        defaults = {
+            "locale": guild_locale or self.get_locale(ctx.guild),
+            "locale_flag_emojis": self.flag_emojis
+        }
 
         def translate(text, scope: str = "", **kwargs):
-            locale = kwargs.pop("locale", guild_locale)
-            return i18n.t(f"{scope or ctx.command.module}.{text}", **kwargs, locale=locale)
+            return i18n.t(f"{scope or ctx.command.module}.{text}", **{**defaults, **kwargs})
         return translate
 
     def __call__(self, main_scope: str, guild: Guild):
-        guild_locale = self.get_locale(guild)
+        defaults = {
+            "locale": self.get_locale(guild),
+            "locale_flag_emojis": self.flag_emojis
+        }
 
         def translate(text, scope: str = "", **kwargs):
-            locale = kwargs.pop("locale", guild_locale)
-            return i18n.t(f"{scope or main_scope}.{text}", **kwargs, locale=locale)
+            return i18n.t(f"{scope or main_scope}.{text}", **{**defaults, **kwargs})
         return translate
-
-    def translate_command(self, ctx: Context, command: Command, translation: str):
-        locale = self.get_locale(ctx.guild)
-        return i18n.t(f"command_docs.{command.qualified_name.replace(' ', '-')}.{translation}", locale=locale)

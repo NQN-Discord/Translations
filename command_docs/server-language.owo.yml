@@ -1,3 +1,3 @@
 owo:
-  short_doc: 'Set the bots wanguage :flag_gb: :flag_es: :flag_ru:'
+  short_doc: 'Set the bots wanguage %{locale_flag_emojis}'
   help: 'Set the bots wanguage'
