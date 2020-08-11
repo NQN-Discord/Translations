@@ -1,5 +1,5 @@
 es:
-  short_doc: 'Busca todos los emojis que el bot a visto y subilos a este servidor.'
+  short_doc: 'Busca todos los emojis que el bot a visto y sube los a este servidor.'
   help: |
     Busca todos los emojis que el bot a visto y subilos a este servidor.
     Este comando te permite subir emojis, con soporte para nombrarlos y ajustar su tamaño.

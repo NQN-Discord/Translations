@@ -1,17 +1,17 @@
 es:
   no_alias: "No tienes un alias llamado :%{name}:"
   could_not_find: "No se pudo encontrar el alias"
-  alphanumeric: "Los alias solo pueden llevar caracteres alfanumericos y guiones bajos"
-  user_zero: "No tienes ningun alias"
+  alphanumeric: "Los alias solo pueden llevar caracteres alfanuméricos y guiones bajos"
+  user_zero: "No tienes ningún alias"
 
   deleted: "Eliminado :%{name}:"
   created: "<@%{author}> creo un alias y lo puede utilizar escribiendo :\n> :%{name}:"
   renamed: "Renombrado :%{old}: a :%{new}:"
 
-  exported_short: "Aqui estan tus aliases exportados:"
-  exported_long: "Aqui estan tus aliases exportados:\npara compartirlos con otras personas debes utilizar:\n> `%{prefix}alias import %{url}`"
+  exported_short: "Aquí están tus aliases exportados:"
+  exported_long: "Aquí están tus aliases exportados:\npara compartirlos con otras personas debes utilizar:\n> `%{prefix}alias import %{url}`"
 
-  import_incorrect: "Este comando es utilizado para importar una lista de aliases anteriormenter exportadas con `%{prefix}alias export`.\nPara crear un alias utiliza `%{prefix}alias search`"
+  import_incorrect: "Este comando es utilizado para importar una lista de aliases anteriormente exportadas con `%{prefix}alias export`.\nPara crear un alias utiliza `%{prefix}alias search`"
   import_text: "Este comando necesita un archivo de texto adjuntado"
   import_lines_invalid: "No se pudo poner el alias en lineas %{lines_invalid}, formato invalido."
   import_set:

@@ -1,5 +1,5 @@
 es:
-  short_doc: 'Desubscribe al servidor de un pack'
+  short_doc: 'De-subscribe al servidor de un pack'
   help: |
     Desubscribe al servidor de un pack
 

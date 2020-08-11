@@ -1,5 +1,5 @@
 es:
-  short_doc: 'Explusa el usuario que envio el mensaje'
+  short_doc: 'Expulsa el usuario que envío el mensaje'
   help: |
     Expulsa el usuario que envió el mensaje
 
