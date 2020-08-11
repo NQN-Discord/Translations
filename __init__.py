@@ -38,7 +38,7 @@ class Translator:
         return {
             "gb": "English",
             "es": "Español",
-            "ru": "Русский"
+            #"ru": "Русский"
         }
 
     @property

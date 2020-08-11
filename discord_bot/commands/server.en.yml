@@ -85,7 +85,7 @@ en:
     announcement: "Announcement channel"
     boost_channel: "Boost channel"
     boost_role: "Boost role"
-    audit: "Audit channel"
+    audit_channel: "Audit channel"
 
     stickers: "Stickers"
     nitro: "Nitro"

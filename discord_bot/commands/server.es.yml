@@ -85,7 +85,7 @@ es:
     announcement: "Canal de anuncios"
     boost_channel: "Canal de votos"
     boost_role: "Rol de votos"
-    audit: "Canal de auditoria"
+    audit_channel: "Canal de auditoria"
 
     stickers: "Stickers"
     nitro: "Nitro"
