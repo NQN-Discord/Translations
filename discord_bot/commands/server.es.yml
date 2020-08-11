@@ -47,7 +47,7 @@ es:
     too_many_static: "Este servidor tiene demasiados emojis estáticos! Trata eliminar algunos de estos primero."
     animated_only: "Este comando solo funciona con emojis animados - los hace disponibles en el seleccionador de emojis para usuarios sin nitro como emojis estáticos!"
 
-    could_not_find_emote: "No se pudo encontrar ese emoji! Trata asignarlo con `%{prefix}alias search`"
+    emote_not_found: "No se pudo encontrar ese emoji! Trata asignarlo con `%{prefix}alias search`"
     upload_later: "No se pudo subir el emoji; trata de vuelta en unas horas"
 
     choose_emote: "Selecciona un emoji para el cual crear la conexión estática:"

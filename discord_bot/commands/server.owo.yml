@@ -47,7 +47,7 @@ owo:
     too_many_static: "This sewvew has too many static emotes! OwO Twy deweting some fiwst."
     animated_only: "This command onwy wowks with animated emotes - it makes them avaiwabwe in the emote pickew fow non-nitwo usews as static ones! OwO"
 
-    could_not_find_emote: "Couwd not find that emote! OwO Twy awiasing it with `%{prefix}alias search`"
+    emote_not_found: "Couwd not find that emote! OwO Twy awiasing it with `%{prefix}alias search`"
     upload_later: "Couwd not upwoad emote; twy again in a few houws"
 
     choose_emote: "Choose an emote to cweate a static wink fow:"

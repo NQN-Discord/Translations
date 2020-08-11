@@ -47,7 +47,7 @@ en:
     too_many_static: "This server has too many static emotes! Try deleting some first."
     animated_only: "This command only works with animated emotes - it makes them available in the emote picker for non-nitro users as static ones!"
 
-    could_not_find_emote: "Could not find that emote! Try aliasing it with `%{prefix}alias search`"
+    emote_not_found: "Could not find that emote! Try aliasing it with `%{prefix}alias search`"
     upload_later: "Could not upload emote; try again in a few hours"
 
     choose_emote: "Choose an emote to create a static link for:"
