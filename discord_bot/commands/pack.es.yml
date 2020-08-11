@@ -14,7 +14,7 @@ es:
     show_count: "¡Hay %{count} personas en este pack!"
 
   mine:
-    no_packs: "¡No tienes ningun pack!"
+    no_packs: "¡No tienes ningún pack!"
 
   publish:
     already_published: "¡Este servidor ya esta publicado como un pack!"
@@ -28,7 +28,7 @@ es:
 
   save:
     none_left: "¡Tras filtrar los emoticonos con el mismo nombre con los de este servidor, no hay ninguno mas que importar!"
-    no_space: "No hay espacio en este servidor para añadir ningun emoticono de este pack."
+    no_space: "No hay espacio en este servidor para añadir ningún emoticono de este pack."
     failed_batch: "No fue posible importar el ultimo lote de emoticonos; intenta de nuevo en unas horas"
     not_registered: "%{name} no es un pack registrado"
 

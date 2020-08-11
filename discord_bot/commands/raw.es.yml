@@ -6,7 +6,7 @@ es:
     ignored: "Ignorando `%{name}` por vos."
 
   export:
-    exported_list_short: "Aqui estan exportados tus emojis:"
+    exported_list_short: "Aquí están exportados tus emojis:"
     exported_list_long: |
       Aquí están exportados tus emojis
       Para compartirlos con alguien, ellos tienen que correr:\n> `%{prefix}alias import %{url}`
@@ -37,7 +37,7 @@ es:
 
     wrong_place: "Si elegí el lugar erróneo para mostrar este mensaje, puedes usar %{prefix}tutorial en un canal más apropiado para ver este tutorial allí. Hay múltiples páginas en este tutorial; ejecuta %{prefix}tutorial para mostrarlas luego de que estas desaparezcan."
     default_emojis: "Emojis predeterminados"
-    default_emoji_list: "Esta es la lista de todos los emojis animados que cualquiera en este servidor puede utilizar por defecto - solo escríbelos manualmente, asegurándote de incluir :los dos puntos: alrededor del nombre del emoji!"
+    default_emoji_list: "Esta es la lista de todos los emojis animados que cualquiera en este servidor puede utilizar por defecto - solo escribe los manualmente, asegurándote de incluir :los dos puntos: alrededor del nombre del emoji!"
 
     page_0_title: "Tutorial para Not Quite Nitro, TLDR"
     page_0_desc: |
@@ -52,7 +52,7 @@ es:
     page_0_2_name: "4\u20E3 Aliases - Emojis Individuales"
     page_0_2_desc: "> `%{prefix}alias search NombreDelEmoji`"
 
-    page_1_title: "Reaccionando a mensajes y borrándolos"
+    page_1_title: "Reaccionando a mensajes y borrando los"
     page_1_desc: "Solo puedes reaccionar con emojis que puedes utilizar con NQN."
     page_1_0_name: "Reaccionar al mensaje más reciente:"
     page_1_0_desc: "> `%{prefix}react NombreDelEmoji`"
@@ -201,7 +201,7 @@ es:
 
   react:
     id_large: "ID del mensaje es demasiado grande"
-    not_found: "No existe ningun mensaje en este canal con ese ID"
+    not_found: "No existe ningún mensaje en este canal con ese ID"
     nth_id: "ID debes ser o el ID del mensaje o el mensaje `n` más reciente(hasta 20)"
     channel_empty: "Este canal esta vacío"
     invalid_react:
@@ -316,4 +316,4 @@ es:
     created_emotes: "Se crearon emojis!"
 
   vote_opt_out:
-    success: "Se desuscribió de MDs de manera exitosa"
+    success: "Se de-subscribió de MDs de manera exitosa"

@@ -4,7 +4,7 @@ es:
     image_needed: "El archivo tiene que ser una imagen"
     sticker_exists: "Ya existe un sticker llamado %{name}!"
     filename_invalid: "`%{name}` no es un nombre valido para stickers. Deben ser alfanuméricos, con una extensión alfanumérica."
-    too_large: "Este archivo es demasiado grande. Los stickers no pueen exceder 8MB"
+    too_large: "Este archivo es demasiado grande. Los stickers no pueden exceder 8MB"
 
     created: "Ahora puedes usar `:%{name}:`\nNo es lo que deseabas?\n`{prefix}sticker rename %{name} new_name.{ext}`"
 

@@ -1,5 +1,5 @@
 es:
-  short_doc: 'Envía anuncios del bot en algun canal'
+  short_doc: 'Envía anuncios del bot en algún canal'
   help: |
     Envía anuncios del bot en algún canal
     Esto incluye nuevas funciones y actualizaciones

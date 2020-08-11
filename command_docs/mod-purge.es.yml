@@ -1,4 +1,4 @@
 es:
-  short_doc: 'Purga hasta `messages` mensajes reenviados por el bot en este canal, opcionalmente filtrándolos por un usuario especifico'
+  short_doc: 'Purga hasta `messages` mensajes reenviados por el bot en este canal, opcionalmente filtrando los por un usuario especifico'
   help: |
     Purga hasta `messages` mensajes reenviados por el bot en este canal, opcionalmente filtrándolos por un usuario especifico

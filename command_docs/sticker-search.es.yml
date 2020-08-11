@@ -1,5 +1,5 @@
 es:
-  short_doc: '    Busca todos los stickers que NQN tiene, con terminos de búsqueda opcionales'
+  short_doc: '    Busca todos los stickers que NQN tiene, con términos de búsqueda opcionales'
   help: |
     Busca todos los stickers que NQN tiene, con terminos de búsqueda opcionales
 

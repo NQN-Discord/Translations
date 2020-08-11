@@ -61,10 +61,10 @@ es:
     no_pack: "%{name} no es un pack de emojis registrado"
     joined: "Asignado %{name}.\nTodos en el servidor ahora pueden usar los siguientes emojis escribiendo su nombre en el chat, incluyendo los dos puntos:"
 
-    max_title: "Este servidor se encuntra al numero maximo de  emojis/packs!"
+    max_title: "Este servidor se encuentra al numero maximo de  emojis/packs!"
     max_description: ":%{name}: no se asigno como un pack del servidor.\n\nPara más alias/packs, cualquiera puede votar por el bot en %{url}"
 
-    left_pack: "Desasignado %{name}"
+    left_pack: "Des-asignado %{name}"
     not_in_pack: "Este servidor no tenía a %{name} asignado como pack del servidor"
 
   prefix:
