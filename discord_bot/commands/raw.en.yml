@@ -212,7 +212,7 @@ en:
     emote_not_found:
       one: |
         Could not find emote %{not_found}
-        Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
+        Have you added it as an alias with `%{prefix}alias search` or joined the corresponding emote pack with `%{prefix}pack search`?
       many: |
         Could not find emotes %{not_found}
         Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
