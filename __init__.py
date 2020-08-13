@@ -51,7 +51,7 @@ class Translator:
 
     def setup_translation(self, ctx: Context, guild_locale: str = None):
         defaults = {
-            "locale": guild_locale or self.get_locale(ctx.guild),
+            "locale": (guild_locale or self.get_locale(ctx.guild)).strip(" "),
             "locale_flag_emojis": self.flag_emojis
         }
 
