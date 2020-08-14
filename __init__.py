@@ -1,8 +1,8 @@
-from typing import Callable
+from typing import Callable, Union
 import i18n
 import pathlib
 from discord import Guild
-from discord.ext.commands import Context, Command
+from discord.ext.commands import Context
 
 
 class Translator:
@@ -59,11 +59,17 @@ class Translator:
             return i18n.t(f"{scope or ctx.command.module}.{text}", **{**defaults, **kwargs})
         return translate
 
-    def __call__(self, main_scope: str, guild: Guild):
-        defaults = {
-            "locale": self.get_locale(guild),
-            "locale_flag_emojis": self.flag_emojis
-        }
+    def __call__(self, main_scope: str, guild: Union[Guild, str]):
+        if isinstance(guild, str):
+            defaults = {
+                "locale": guild,
+                "locale_flag_emojis": self.flag_emojis
+            }
+        else:
+            defaults = {
+                "locale": self.get_locale(guild),
+                "locale_flag_emojis": self.flag_emojis
+            }
 
         def translate(text, scope: str = "", **kwargs):
             return i18n.t(f"{scope or main_scope}.{text}", **{**defaults, **kwargs})
