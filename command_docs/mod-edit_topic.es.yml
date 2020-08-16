@@ -1,5 +1,5 @@
 es:
-  short_doc: ''
+  short_doc: 'Agrega emojis animados a la descripción del canal'
   help: |
-    None
+    Cambia la descripción del canal, permitiendo emojis animados en estos también
 

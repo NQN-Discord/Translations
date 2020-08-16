@@ -1,5 +1,5 @@
 es:
-  short_doc: ''
+  short_doc: 'Ve los permisos que el bot requiere'
   help: |
-    None
+    Ve los permisos que el bot requiere
 

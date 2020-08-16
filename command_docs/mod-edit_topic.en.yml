@@ -1,5 +1,5 @@
 en:
-  short_doc: ''
+  short_doc: 'Add animated emojis to channel topics'
   help: |
-    None
+    Changes the channel description, allowing for animated emojis in them as well
 
