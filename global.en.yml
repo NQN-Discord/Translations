@@ -13,6 +13,7 @@ en:
   tabulated_delete_manage_messages: "Could not delete menu - please give me Manage Messages"
 
   user_missing_administrator: "You are missing the 'Administrator' permission to run this command."
+  user_missing_add_reaction: "You are missing the 'Add Reactions' permission to run this command."
 
   tabulated_default_results:
     one: "%{count} result (Page %{page_no} of %{total}):\n%{contents}"
