@@ -200,14 +200,16 @@ en:
   react:
     id_large: "Message ID is too large"
     not_found: "Message in this channel with that ID does not exist"
-    nth_id: "Message must be either an ID or the `n`th most recent message (up to 20th)"
+    nth_id: "Message must be either an ID or the `n`th most recent message (up to 50th)"
     channel_empty: "This channel is empty"
     invalid_react:
       one: |
-        The following emote is not valid:\n> %{not_found}
+        The following emote is not valid:
+        > %{not_found}
         Emotes must only contain alphanumerics, underscores and up to a single dash.
       many: |
-        The following emotes are not valid:\n> %{not_found}
+        The following emotes are not valid:
+        > %{not_found}
         Emotes must only contain alphanumerics, underscores and up to a single dash.
     emote_not_found:
       one: |
