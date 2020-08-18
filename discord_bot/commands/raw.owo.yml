@@ -200,14 +200,16 @@ owo:
   react:
     id_large: "Message ID is too wawge"
     not_found: "Message in this channew with that ID does not exist"
-    nth_id: "Message must be eithew an ID ow the `n`th most wecent message (up to 20th)"
+    nth_id: "Message must be eithew an ID ow the `n`th most wecent message (up to 50th)"
     channew_empty: "This channew is empty"
     invalid_react:
       one: |
-        The fowwowing emote is not vawid:\n> %{not_found}
+        The fowwowing emote is not vawid:
+        > %{not_found}
         Emotes must onwy contain awphanumewics, undewscowes and up to a singwe dash.
       many: |
-        The fowwowing emotes awe not vawid:\n> %{not_found}
+        The fowwowing emotes awe not vawid:
+        > %{not_found}
         Emotes must onwy contain awphanumewics, undewscowes and up to a singwe dash.
     emote_not_found:
       one: |

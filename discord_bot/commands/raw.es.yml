@@ -202,15 +202,17 @@ es:
   react:
     id_large: "ID del mensaje es demasiado grande"
     not_found: "No existe ningún mensaje en este canal con ese ID"
-    nth_id: "ID debes ser o el ID del mensaje o el mensaje `n` más reciente(hasta 20)"
+    nth_id: "ID debes ser o el ID del mensaje o el mensaje `n` más reciente(hasta 50)"
     channel_empty: "Este canal esta vacío"
     invalid_react:
       one: |
-        El siguiente emoji no es válido:\n> %{not_found}
+        El siguiente emoji no es válido:
+        > %{not_found}
         Los emojis deben contener caracteres alfanuméricos, guiones bajos y hasta un solo guion.
 
       many: |
-        Los siguientes emojis no son válidos:\n> %{not_found}
+        Los siguientes emojis no son válidos:
+        > %{not_found}
         Los emojis deben contener caracteres alfanuméricos, guiones bajos y hasta un solo guion.
     emote_not_found:
       one: |
