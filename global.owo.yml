@@ -13,6 +13,7 @@ owo:
   tabulated_delete_manage_messages: "Couwd not dewete menu - pwease give me Manage Messages"
 
   user_missing_administrator: "You awe missing the 'Administwatow' pewmission to wun this command."
+  user_missing_add_reaction: "You awe missing the 'Add Reactions' pewmission to wun this command."
 
   tabulated_default_results:
     one: "%{count} wesuwt (Page %{page_no} of %{total}):\n%{contents}"
