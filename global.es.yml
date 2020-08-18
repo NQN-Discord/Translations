@@ -6,12 +6,13 @@ es:
   website: "Sitio"
 
   missing_permissions: "Permisos insuficientes"
-  missing_add_reaction: "Necesito el permiso 'Agregar Reacciones' para este comando!"
-  missing_create_invite: "Necesito el permiso 'Crear Invitación' para este comando!"
+  missing_add_reaction: "Necesito el permiso 'Agregar Reacciones' para usar este comando!"
+  missing_create_invite: "Necesito el permiso 'Crear Invitación' para usar este comando!"
   everyone_external: "El rol @everyone necesita el permiso 'Usar emojis externos'"
   tabulated_delete_manage_messages: "no se pudo borrar el menú - por favor dame el permiso 'Gestionar Mensajes'"
 
   user_missing_administrator: "No tienes el permiso 'Administrador' para usar este comando."
+  user_missing_add_reaction: "No tienes el permiso 'Agregar Reacciones' para usar este comando."
 
   tabulated_default_results:
     one: "%{count} resultado (Pagina %{page_no} de %{total}):\n%{contents}"
