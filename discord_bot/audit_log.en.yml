@@ -6,4 +6,4 @@ en:
     Message posted in %{channel} by %{author} %{cropped}
     [Jump Link](%{jump_url})
 
-  audit_log_post: "NQN on behalf of <@%{author}> (%{author})"
+  audit_log_post: "NQN on behalf of %{author} (%{id})"
