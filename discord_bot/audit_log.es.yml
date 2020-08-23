@@ -6,4 +6,4 @@ es:
     Mensaje enviado en %{channel} por %{author} %{cropped}
     [Ir al mensaje](%{jump_url})
 
-  audit_log_post: "NQN por parte de <@%{author}> (%{author})"
+  audit_log_post: "NQN por parte de %{author} (%{id})"
