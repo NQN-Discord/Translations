@@ -6,7 +6,7 @@ en:
     filename_invalid: "`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension."
     too_large: "This file is too large. Stickers can only be 8MB"
 
-    created: "You can now use `:%{name}:`\nNot quite right?\n`{prefix}sticker rename %{name} new_name.{ext}`"
+    created: "You can now use `:%{name}:`\nNot quite right?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
 
   mine:
     no_stickers: "You have no stickers"
