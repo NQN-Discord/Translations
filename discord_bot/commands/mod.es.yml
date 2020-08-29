@@ -4,7 +4,6 @@ es:
 
   audit:
     no_messages: "Ningún mensaje a auditar"
-    goto_message: "[Ir al mensaje!](%{jump_url})"
 
   edit_topic:
     edited: "Se edito la descripción de %{channel}"
