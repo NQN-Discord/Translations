@@ -1,0 +1,46 @@
+hi:
+  whois:
+    found: "लेखक है <@%{author}> (%{author})"
+
+  audit:
+    no_messages: "ऑडिट करने के लिए कोई संदेश नहीं।"
+
+  edit_topic:
+    edited: "संपादित %{channel} विषय।"
+    edited_audit: "%{author} संपादित %{channel}का विषय :\n>>> %{description}"
+
+  ban:
+    owner: "मैं मालिक पर प्रतिबंध नहीं लगा सकता!"
+    cannot_ban: "मैं प्रतिबंध नहीं लगा सकता <@%{banee}>!"
+    banned: "<@%{author}> (ID %{banee}) पर प्रतिबंध लगा दिया"
+
+    banned_audit: "{author} ने इन पर<@{banee}> (ID {banee})प्रतिबंध लगा दिया"
+
+  kick:
+    owner: "मैं मालिक को हटा नहीं सकता!"
+    cannot_kick: "मैं हटा नहीं सकता <@%{kickee}>!"
+    kicked: "हटा दिया <@%{kickee}> (ID %{kickee})"
+
+    kicked_audit: "%{author} ने किक किया <@%{kickee}> (ID %{kickee})"
+
+  purge:
+    	"0_100": "एक जगह से ले जाने के लिए संदेशों की संख्या 1 और 100 के बीच होनी चाहिए"
+    audit:
+      one: "%{author} पर्ज  %{count} मैसेज  %{channel} इस चैनल में"
+      many: "%{author} पर्ज  %{count} मैसेजस %{channel} इस चैनल में"
+
+  move:
+    user_no_perms: "आपके पास 'Send Messages' and 'Manage Messages' %{channel} परमिशन इस चैनल में नहीं हैं"
+    	"1_20": "एक जगह से ले जाने के लिए संदेशों की संख्या 1 और 20 के बीच होनी चाहिए"
+
+    moved_to:
+      one: "%{count} मैसेज को  %{to_channel}में ले जाया गया"
+      many: "%{count}मैसेज को %{to_channel} में ले जाया गया"
+
+    moved_from:
+      one: "%{author} ने  %{count} मैसेज को  %{from_channel} से हटा दिया"
+      many: "%{author} ने %{count} मैसेज को  %{from_channel} से हटा दिया"
+
+    moved_to_from:
+      one: "%{author} ने  %{count} मैसेज को  %{from_channel} से हटा कर  %{to_channel} मैं भेज दिया "
+      many: "%{author} ने  %{count} मैसेज को  %{from_channel} से हटा कर  %{to_channel} मैं भेज दिया"
