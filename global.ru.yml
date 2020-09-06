@@ -1,0 +1,33 @@
+﻿ru:
+  deleted_channel: "#удалённый-канал"
+  author: "Автор"
+  jump_to_message: "Перейти"
+  cancelled: "Отменено"
+  website: "Веб-сайт"
+
+  missing_permissions: "Отсувствуют права"
+  missing_add_reaction: "Мне требуется право 'Добавлять реакции' (Add Reactions) для этой команды!"
+  missing_create_invite: "Мне требуется право 'Создавать приглашения' (Create Instant Invite) для этой команды!"
+  everyone_external: "Роль @everyone должна иметь право 'Использовать глобальные эмодзи' (Use External Emojis)"
+  tabulated_delete_manage_messages: "Не удалось удалить меню - Пожалуйста, дайте мне право 'Управлять сообщениями' (Manage Messages)"
+
+  user_missing_administrator: "У вас отсувствует право 'Администратор' (Administrator) для выполнения этой команды."
+
+  tabulated_default_results:
+    one: "%{count} результат (Страница %{page_no} из %{total}):\n%{contents}"
+    many: "%{count} результатов (Страница %{page_no} из %{total}):\n%{contents}"
+
+  tabulated_results_page:
+    zero: "Не найден ни один эмодзи"
+    one: "Страница %{page_no} из %{total}%{note}"
+    many: "Страница %{page_no} из %{total}%{note}"
+
+  page_no: "Страница %{page} из %{total}:"
+  no_results: "Нету результатов"
+  loading: "<a:loading:674758249291186191> Обработка..."
+
+  select_alias: "Выберите номер для обозначения эмодзи."
+
+  timed_out: "Время вышло - попробуйте снова"
+
+  global_check_failed: "Вам не разрешено использовать команду %{cmd_name}"
