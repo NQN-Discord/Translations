@@ -3,7 +3,7 @@
   author: "Автор"
   jump_to_message: "Перейти"
   cancelled: "Отменено"
-  website: "Веб-сайт"
+  website: "Сайт"
 
   missing_permissions: "Отсувствуют права"
   missing_add_reaction: "Мне требуется право 'Добавлять реакции' (Add Reactions) для этой команды!"
@@ -26,7 +26,7 @@
   no_results: "Нету результатов"
   loading: "<a:loading:674758249291186191> Обработка..."
 
-  select_alias: "Выберите номер для обозначения эмодзи."
+  select_alias: "Выберите номер, чтобы добавить эмодзи."
 
   timed_out: "Время вышло - попробуйте снова"
 
