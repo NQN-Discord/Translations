@@ -6,7 +6,7 @@ owo:
     filename_invalid: "`%{name}` is not an awwowed name fow stickews. They must be awphanumewic, with an awphanumewic fiwe extension."
     too_large: "This fiwe is too wawge. Stickews can onwy be 8MB"
 
-    created: "You can now use `:%{name}:`\nNot quite wight?\n`{prefix}sticker rename %{name} new_name.{ext}`"
+    created: "You can now use `:%{name}:`\nNot quite wight?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
 
   mine:
     no_stickers: "You have no stickews"
