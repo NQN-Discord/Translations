@@ -251,8 +251,6 @@ en:
 
     bot_metadata: |
       > Uptime: %{uptime}
-      > Guilds: %{guilds}
-      > Channels: %{channels}
       > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
 
     bot_credits: |
