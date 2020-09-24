@@ -256,8 +256,6 @@ es:
 
     bot_metadata: |
       > Tiempo Online: %{uptime}
-      > Servidores: %{guilds}
-      > Canales: %{channels}
       > Servidores de emojis: %{alias_servers_available} / %{alias_servers_total}
 
     bot_credits: |

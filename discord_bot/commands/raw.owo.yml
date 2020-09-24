@@ -251,8 +251,7 @@ owo:
 
     bot_metadata: |
       > Uptime: %{uptime}
-      > Guiwds: %{guilds}
-      > Channews: %{channels}
+
       > Emote Sewvews: %{alias_servers_available} / %{alias_servers_total}
 
     bot_credits: |
