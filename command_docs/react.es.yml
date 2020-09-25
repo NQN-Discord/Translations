@@ -2,5 +2,6 @@ es:
   short_doc: 'Reacciona al mensaje `n` más reciente'
   help: |
     Reacciona al mensaje `n` más reciente
-    Opcional message: La ID del mensaje al cual reaccionar o el mensaje `n` más reciente(hasta 20 mensajes atrás)
-    El comando permite una lista de emojis, la cual va a ser usada para reaccionar en el orden especifico
+    Opcional message: La ID o el link del mensaje al cual reaccionar o el mensaje `n` más reciente(hasta 20 mensajes atrás)
+    El comando permite una lista de emojis, la cual va a ser usada para reaccionar en el orden especifico.
+    Para reaccionar a mensajes en otro canal utiliza el link del mensaje.
