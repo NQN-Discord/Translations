@@ -220,7 +220,7 @@ en:
         Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
     too_many_reacts:
       one: "This message has too many reactions to add a new one!"
-      many: "This message his too many reactions to add them all!"
+      many: "This message has too many reactions to add them all!"
     blocked: "%{author} has blocked me, so I cannot add that reaction!"
     on_behalf: "NQN on behalf of <@%{author}> (%{author})"
     audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
