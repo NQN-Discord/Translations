@@ -2,6 +2,7 @@ en:
   short_doc: 'React to the `n`th most recent message'
   help: |
     React to the `n`th most recent message
-    Optional message: The message ID to react to or the `n`th most recent message (up to 20th)
-    The command allows a list of reactions, each of which will be added in the order specified
+    Optional message: The message ID or link to react to or the `n`th most recent message (up to 20th)
+    The command allows a list of reactions, each of which will be added in the order specified.
+    To react to a message in another channel use the message link.
 
