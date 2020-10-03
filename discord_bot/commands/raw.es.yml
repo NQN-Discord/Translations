@@ -257,6 +257,7 @@ es:
     bot_metadata: |
       > Tiempo Online: %{uptime}
       > Servidores de emojis: %{alias_servers_available} / %{alias_servers_total}
+      > Servidores Cargados: %{guilds_loaded} / %{guilds}
 
     bot_credits: |
       [Avatar del bot y arte de Wumpus echo por Dooley](https://www.dooleytm.com/) de [Wump Motes](https://discord.gg/pEjCBNF)
