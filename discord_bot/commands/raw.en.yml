@@ -252,6 +252,7 @@ en:
     bot_metadata: |
       > Uptime: %{uptime}
       > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
+      > Servers Loaded: %{guilds_loaded} / %{guilds}
 
     bot_credits: |
       [Bot avatar and Wumpus art by Dooley](https://www.dooleytm.com/) from [Wump Motes](https://discord.gg/pEjCBNF)
