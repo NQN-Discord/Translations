@@ -9,7 +9,8 @@ en:
     exported_list_short: "Here's your exported emotes:"
     exported_list_long: |
       Here's your exported emotes
-      To share them with other people, they need to run:\n> `%{prefix}alias import %{url}`
+      To share them with other people, they need to run:
+      > `%{prefix}alias import %{url}`
 
   ranking:
     vote_link: "You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank."
