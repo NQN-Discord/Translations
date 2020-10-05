@@ -9,7 +9,8 @@ owo:
     exported_list_short: "Hewe's youw expowted emotes:"
     exported_list_long: |
       Hewe's youw expowted emotes
-      To shawe them with othew peopwe, they need to wun:\n> `%{prefix}alias import %{url}`
+      To shawe them with othew peopwe, they need to wun:
+      > `%{prefix}alias import %{url}`
 
   ranking:
     vote_link: "You can vote fow the bot at %{url} to add mowe sewvewwide emotes and to incwease the sewvew's wank."

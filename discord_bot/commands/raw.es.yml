@@ -9,7 +9,8 @@ es:
     exported_list_short: "Aquí están exportados tus emojis:"
     exported_list_long: |
       Aquí están exportados tus emojis
-      Para compartirlos con alguien, ellos tienen que correr:\n> `%{prefix}alias import %{url}`
+      Para compartirlos con alguien, ellos tienen que correr:
+      > `%{prefix}alias import %{url}`
 
   ranking:
     vote_link: "Puedes votar por el bot con %{url} para incrementar el limite de emojis del servidor y su rango."
