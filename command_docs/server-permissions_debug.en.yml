@@ -1,5 +1,5 @@
 en:
-  short_doc: 'Debug the permissions in your server'
+  short_doc: "Let NQN tell you what permissions it's missing"
   help: |
     Debug the permissions in your server
 

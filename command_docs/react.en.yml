@@ -1,5 +1,5 @@
 en:
-  short_doc: 'React to the `n`th most recent message'
+  short_doc: 'React to a message with emojis from NQN'
   help: |
     React to the `n`th most recent message
     Optional message: The message ID or link to react to or the `n`th most recent message (up to 20th)
