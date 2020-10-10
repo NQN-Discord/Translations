@@ -1,0 +1,35 @@
+no:
+  ext.commands.help:
+    need_emojis: " - Jeg trenger dette for å bruke emojis!"
+    need_everyone_external: " - @everyone trenger dette for meg til å bruke emojis!"
+    need_help: " - Jeg trenger dette for hjelp kommando!"
+    nothing: ""
+
+    please_give: "Jeg kommer ikke til å fungere riktig uten disse!"
+
+    nqn_help: "NQN Hjelp"
+    my_prefix: |
+      Min prefix for kommandoer er `%{prefix}`
+      Reager med ❌ (\:x:) for å slette omlagte meldinger!
+
+    categories: "Kategorier"
+    everything_else: "Alt annet"
+    really_useful: "Veldig nyttige kommandoer"
+
+    useful_links: "Nyttige kommandoer:"
+    website: "Nettside"
+    vote: "Stem!"
+    support: "Støtt"
+    emote_list: "Mine emojier"
+
+    top_gg_vote: "Stem for meg på [top.gg](https://top.gg/bot/559426966151757824/vote) gjør botten bedre ved å synligjøre og tillatter mere emojier når vi blir med flere servere."
+    bfd_vote: "Dersom du gir meg en stemme på [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) hjelper du vår synlighet. For hver ny server jeg blir med i, blr min emoji database større."
+
+    what_is: "Hva er Not Quite Nitro?"
+    bot_description: |
+      Not Quite Nitro er en multifunksjonell nytte bot som tillater hvilken som helst bruker til å bruke Nitro emojier.
+      Vi har en ekstremt stor database av visuelt unike emojier som du kan bruke i hvilken som helst servere hvor botten har Manage Webhook tillatelse.
+
+      NQN tillater også automatisk sitering når en bruker sender en meldingslenke, bruken av maskerte lenker i chat og klistremerker, som er full størrelse emojier.
+
+      Du kan invitere med [til din server](https://discord.com/api/oauth2/authorize?{params}).
