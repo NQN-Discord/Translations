@@ -255,6 +255,13 @@ en:
       > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
       > Servers Loaded: %{guilds_loaded} / %{guilds}
 
+    guild_features:
+      zero: ""
+      one: |
+        > Server Feature: %{guild_features}
+      many: |
+        > Server Features: %{guild_features}
+
     bot_credits: |
       [Bot avatar and Wumpus art by Dooley](https://www.dooleytm.com/) from [Wump Motes](https://discord.gg/pEjCBNF)
 
