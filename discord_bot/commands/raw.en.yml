@@ -5,6 +5,11 @@ en:
       If you don't want to see this message again, react with ❌
     ignored: "Ignored `%{name}` for you."
 
+  edit:
+    never_posted: "You've never posted a message with NQN in this channel!"
+    cannot_edit_no_nqn: "You cannot edit this message as it's not a message NQN posted!"
+    cannot_edit_different_user: "You cannot edit this message as it wasn't posted by you!"
+
   export:
     exported_list_short: "Here's your exported emotes:"
     exported_list_long: |
@@ -254,6 +259,13 @@ en:
       > Uptime: %{uptime}
       > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
       > Servers Loaded: %{guilds_loaded} / %{guilds}
+
+    guild_features:
+      zero: ""
+      one: |
+        > Server Feature: %{guild_features}
+      many: |
+        > Server Features: %{guild_features}
 
     bot_credits: |
       [Bot avatar and Wumpus art by Dooley](https://www.dooleytm.com/) from [Wump Motes](https://discord.gg/pEjCBNF)

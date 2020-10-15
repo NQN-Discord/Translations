@@ -5,6 +5,11 @@ es:
       Si no quieres ver este comando de vuelta, reacciona con ❌"
     ignored: "Ignorando `%{name}` por vos."
 
+  edit:
+    never_posted: "Nunca has enviado un mensaje con NQN en este canal!"
+    cannot_edit_no_nqn: "No puedes editar este mensaje ya que no es un mensaje enviado por NQN!"
+    cannot_edit_different_user: "No puedes editar este mensaje ya que este no fue enviado por vos!"
+
   export:
     exported_list_short: "Aquí están exportados tus emojis:"
     exported_list_long: |
@@ -259,6 +264,13 @@ es:
       > Tiempo Online: %{uptime}
       > Servidores de emojis: %{alias_servers_available} / %{alias_servers_total}
       > Servidores Cargados: %{guilds_loaded} / %{guilds}
+
+    guild_features:
+      zero: ""
+      one: |
+        > Funcion Premium: %{guild_features}
+      many: |
+        > Funciones Premium: %{guild_features}
 
     bot_credits: |
       [Avatar del bot y arte de Wumpus echo por Dooley](https://www.dooleytm.com/) de [Wump Motes](https://discord.gg/pEjCBNF)
