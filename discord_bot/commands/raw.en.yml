@@ -5,6 +5,11 @@ en:
       If you don't want to see this message again, react with ❌
     ignored: "Ignored `%{name}` for you."
 
+  edit:
+    never_posted: "You've never posted a message with NQN in this channel!"
+    cannot_edit_no_nqn: "You cannot edit this message as it's not a message NQN posted!"
+    cannot_edit_different_user: "You cannot edit this message as it wasn't posted by you!"
+
   export:
     exported_list_short: "Here's your exported emotes:"
     exported_list_long: |
