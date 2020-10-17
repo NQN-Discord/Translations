@@ -11,6 +11,8 @@ en:
   missing_create_invite: "I need the 'Create Instant Invite' permission for this command!"
   everyone_external: "The @everyone role needs 'Use External Emojis'"
   tabulated_delete_manage_messages: "Could not delete menu - please give me Manage Messages"
+  no_nitro_global: "Nitro usage has been disabled in this server!"
+  no_nitro_role: "Only users with the <@&%{role}> role can use this command!"
 
   user_missing_administrator: "You are missing the 'Administrator' permission to run this command."
   user_missing_add_reaction: "You are missing the 'Add Reactions' permission to run this command."
@@ -46,5 +48,8 @@ en:
     You can join my support server here:
     http://discord.gg/XvzDPca
     You can report bugs, request new features or ask for clarifications on how to use me.
+
+  premium_required: |
+    To do this, you need to be a subscriber to NQN's Patreon: https://www.patreon.com/NQN
 
   webhook_limit: "Webhook limit reached! Cannot run in this channel!"

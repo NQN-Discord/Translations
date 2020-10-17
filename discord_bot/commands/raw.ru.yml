@@ -130,10 +130,10 @@
 
       Вот функции, которые вы можете переключать:
 
-       • Нитро - `{prefix}server nitro`
-       • Стикеры - `{prefix}server stickers`
-       • Цитирование - `{prefix}server replies`
-       • Скрытые ссылки - `{prefix}server masked_links`
+       • Нитро -  `%{prefix}server nitro`
+       • Стикеры - `%{prefix}server stickers`
+       • Цитирование - `%{prefix}server replies`
+       • Скрытые ссылки - `%{prefix}server masked_links`
     page_7_0_name: "Устранение неполадок"
     page_7_0_desc: |
       Для корректной работы NQN необходимы следующие разрешения в __каждом__ канале, в котором вы хотите использовать Nitro.:
