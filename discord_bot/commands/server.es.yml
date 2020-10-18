@@ -12,9 +12,9 @@ es:
     no_alias: "Este servidor no tiene un alias llamado %{name}"
     renamed: "Renombrado %{emote} de :%{name}: a :%{new}:"
 
-  announcement_channel:
-    unset: "Quitado el canal de avisos para este servidor"
-    set: "Establecido en canal de avisos para este servidor a %{channel}"
+  nitro_role:
+    unset: "Todos en este servidor pueden utilizar emojis de nitro gratuitamente con NQN"
+    set: "Ahora solo usuarios con el rol %{role} pueden utilizar emojis de nitro gratuitamente con NQN"
 
   audit_channel:
     unset: "Quitado el registro de auditoria de este servidor"
@@ -86,6 +86,7 @@ es:
     boost_channel: "Canal de votos"
     boost_role: "Rol de votos"
     audit_channel: "Canal de auditoria"
+    nitro_role: "Rol de Nitro"
 
     stickers: "Stickers"
     nitro: "Nitro"
