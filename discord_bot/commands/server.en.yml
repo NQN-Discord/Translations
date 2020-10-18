@@ -12,9 +12,9 @@ en:
     no_alias: "This server does not have an alias called %{name}"
     renamed: "Renamed %{emote} from :%{name}: to :%{new}:"
 
-  announcement_channel:
-    unset: "Unset the announcement channel for this server"
-    set: "Set the announcement channel for this server to %{channel}"
+  nitro_role:
+    unset: "Anyone in this server can use free Nitro emotes with NQN"
+    set: "Now only users with the %{role} role can use free Nitro emotes with NQN"
 
   audit_channel:
     unset: "Unset the audit channel for this server"
@@ -86,6 +86,7 @@ en:
     boost_channel: "Boost channel"
     boost_role: "Boost role"
     audit_channel: "Audit channel"
+    nitro_role: "Nitro role"
 
     stickers: "Stickers"
     nitro: "Nitro"
