@@ -1,4 +1,4 @@
-no:
+"no":
   ext.commands.help:
     need_emojis: " - Jeg trenger dette for å bruke emojis!"
     need_everyone_external: " - @everyone trenger dette for meg til å bruke emojis!"
