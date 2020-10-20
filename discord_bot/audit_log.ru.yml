@@ -4,6 +4,6 @@
 
   message_posted: |
     Сообщение отправлено в %{channel} от %{author} %{cropped}
-    [Перейти на сообщение](%{jump_url})
+    [Ссылка на сообщение](%{jump_url})
 
   audit_log_post: "NQN от имени <@%{author}> (%{author})"
