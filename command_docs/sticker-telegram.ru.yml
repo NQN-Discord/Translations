@@ -1,0 +1,4 @@
+﻿ru:
+  short_doc: 'Импортирует стикеры из Telegram'
+  help: |
+    Импортирует стикеры из Telegram

@@ -1,0 +1,10 @@
+fr:
+  short_doc: 'Gerez les emojis individuels que vous pouvez utiliser'
+  help: |
+    Gerez les emojis individuels que vous pouvez utiliser
+     Les recherches de NQN permettent quelques fonctions avancées:
+     - `exacte`: (default false) Montre seulement les emojis avec le nom exacte recherché
+     - `animé`: Ne chercher que des emojis animés ou statiques
+     - `page`: Passer à une certaine page
+     - `ordre`: Une des 'uses', 'Aléatoire'
+

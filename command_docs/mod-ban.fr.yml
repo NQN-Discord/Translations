@@ -1,0 +1,5 @@
+fr:
+  short_doc: "Ban l'utilisateur qui a posté un message"
+  help: |
+    Ban l'utilisateur qui a posté un message
+
