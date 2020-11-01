@@ -1,0 +1,5 @@
+en:
+  short_doc: 'Enable or disable pings in messages for this server'
+  help: |
+    Enable or disable pings in messages that NQN reposts on this server
+
