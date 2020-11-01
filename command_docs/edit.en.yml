@@ -3,4 +3,3 @@ en:
   help: |
     Edits the content of one of your messages reposted by NQN.
     By default, your most recent message in this channel is edited, but you can optionally supply a message URL to  edit that instead
-
