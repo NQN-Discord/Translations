@@ -13,3 +13,4 @@ es:
       %{guild} ahora puede utiliza %{max_emotes} emojis y tiene el rango #%{guild_rank}
 
     voted: "Votó por NQN"
+    
