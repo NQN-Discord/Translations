@@ -42,8 +42,13 @@ es:
     masked_links_on: "Habilitado el uso de URLs enmascarados"
     masked_links_off: "Deshabilitado el uso de URLs enmascarados"
 
+    pings_on: "Habilitado los pings enn mensajes reenviados por NQN"
+    pings_off: "Deshabilitado los pings enn mensajes reenviados por NQN"
+
   link:
-    no_animated_emotes: "Este servidor no tiene ningún emoji animado!\nSolo puedes conectar emojis animados con este comando."
+    no_animated_emotes: |
+      Este servidor no tiene emojis animados!
+      Solo puedes utilizar este comando con emojis animados.
     too_many_static: "Este servidor tiene demasiados emojis estáticos! Trata eliminar algunos de estos primero."
     animated_only: "Este comando solo funciona con emojis animados - los hace disponibles en el seleccionador de emojis para usuarios sin nitro como emojis estáticos!"
 
@@ -92,6 +97,7 @@ es:
     nitro: "Nitro"
     replies: "Respuestas"
     masked: "URLs enmascarados"
+    pings: "Pings"
 
     invite: "Enlace de invitación"
     pack: "Nombre del Pack"

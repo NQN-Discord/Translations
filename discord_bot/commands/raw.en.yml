@@ -17,6 +17,10 @@ en:
       To share them with other people, they need to run:
       > `%{prefix}alias import %{url}`
 
+  ignore_me:
+    user_ignored: "NQN will no longer repost your messages. Run this command again to re-enable"
+    user_unignored: "NQN will repost your messages as normal"
+
   ranking:
     vote_link: "You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank."
     top_server: "Congrats on being the most supportive server <a:BluePat:679807864327766048>"

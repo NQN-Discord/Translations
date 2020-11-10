@@ -1,0 +1,8 @@
+es:
+  short_doc: 'Haz que NQN deje de reenviar tus mensajes'
+  help: |
+    Usar este comando hace que NQN deje de reenviar tus mensajes en todos los servidores que compartes con el bot.
+    - Otros comandos siguen habilitados, usando este comando nuevamente hace que NQN reenvíe tus mensajes nuevamente.
+    - Aun puedes reenviar mensajes a través de nuestro [sitio](https://nqn.blue)
+    - El bot no responderá a ningún mensaje que envíes que seria reenviado a través de un webhook
+
