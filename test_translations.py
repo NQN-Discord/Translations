@@ -47,7 +47,7 @@ def get_missing(file):
         if tr not in current_file:
             current_file[tr] = set()
         current_file[tr] |= get_translation_values(content)
-    all_translations = {i for tr in current_file.values() for i in tr}
+    all_translations = current_file["en"]
     missing = {tr: all_translations - v for tr, v in current_file.items()}
 
     return missing
