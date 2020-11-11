@@ -72,7 +72,7 @@ def main():
         f_stats = get_stats(data)
         missing = get_missing(data)
         if missing.get("ru"):
-            missing_translations |= {f"{file}.{i}" for i in missing["en"]}
+            missing_translations |= {f"{file}.{i}" for i in missing["ru"]}
         row = [file]
         for header in langs:
             if header in f_stats:
@@ -80,8 +80,8 @@ def main():
             else:
                 row.append("-")
         stats.append(row)
-    print("\n".join(sorted(missing_translations)))
-    #print(tabulate(stats, headers=langs))
+    #print("\n".join(sorted(missing_translations)))
+    print(tabulate(stats, headers=langs))
 
     print("All files loaded successfully!")
 
