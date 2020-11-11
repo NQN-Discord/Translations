@@ -29,9 +29,11 @@ es:
 
   sticker_import:
     filename_invalid: "`%{name}` no es un nombre valido para stickers. Deben ser alfanuméricos, con una extensión alfanumérica."
-    find_emote: "encuentra un emoji para convertirlo en un sticker!"
+    find_emote: "Encuentra un emoji para convertirlo en un sticker!"
 
     created: "Ahora puedes utilizar `:%{name}:`"
+    sticker_exists: "Un sticker llamado `:%{name}:` ya existe; no puedes usar ese nombre."
+
 
   telegram_import:
     pack_invalid: "`%{name}` no es un nombre valido de un pack de stickers de Telegram"
