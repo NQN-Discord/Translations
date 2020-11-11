@@ -1,9 +1,13 @@
 ﻿ru:
   cropped: "(Сокращено)"
-  nsfw_censored: "<Зацензурено; %{channel} это NSFW-канал>"
+  nsfw_censored: "<Зацензурено; %{channel} является NSFW-каналом>"
 
   message_posted: |
     Сообщение отправлено в %{channel} от %{author} %{cropped}
-    [Ссылка на сообщение](%{jump_url})
+    [Перейти на сообщение](%{jump_url})
+
+  message_edited: |
+    Сообщение в канале %{channel} было переименовано %{author} %{cropped}
+    [Перейти на сообщение](%{jump_url})
 
   audit_log_post: "NQN от имени <@%{author}> (%{author})"
