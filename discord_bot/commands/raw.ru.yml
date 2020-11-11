@@ -17,8 +17,8 @@
       Чтобы поделиться ими с другими, им нужно написать:\n> `%{prefix}alias import %{url}`
 
   ignore_me:
-    user_ignored: "NQN больше не будет репостить ваши сообщения. Используйте эту команду ещё раз, чтобы снова включить"
-    user_unignored: "NQN возобнил возможность репостить ваши сообщения"
+    user_ignored: "NQN больше не будет репостить ваши сообщения. Используйте команду снова, чтобы это вернуть"
+    user_unignored: "Вы возобнили возможность репостить ваши сообщения"
 
   ranking:
     vote_link: "Вы можете проголосовать за бота на %{url}, чтобы добавить больше эмодзи на сервере и повысить рейтинг сервера."
@@ -27,12 +27,9 @@
 
     ranking: |
       %{guild} занимает #%{rank} место среди всех серверов, использующих NQN.
-
       %{rank_leaderboard}
       Вы проголосовали %{total_votes} раз за NQN. %{thanks}
-
       %{user_ranking}
-
       %{extra_message}
   search_all:
     disclaimer: |
@@ -221,6 +218,12 @@
       > Время работы: %{uptime}
       > Серверы эмоций: %{alias_servers_available} / %{alias_servers_total}
       > Серверов загружено: %{guilds_loaded} / %{guilds}
+    guild_features:
+      zero: ""
+      one: |
+        > Бонус у сервера: %{guild_features}
+      many: |
+        > Бонусы у сервреа: %{guild_features}
     bot_credits: |
       [Аватар бота и арт Вумпуса от Dooley](https://www.dooleytm.com/) из [Wump Motes](https://discord.gg/pEjCBNF)
       __Особая благодарность следующим людям:__

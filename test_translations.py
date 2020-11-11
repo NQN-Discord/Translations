@@ -47,7 +47,7 @@ def get_missing(file):
         if tr not in current_file:
             current_file[tr] = set()
         current_file[tr] |= get_translation_values(content)
-    all_translations = {i for tr in current_file.values() for i in tr}
+    all_translations = current_file["en"]
     missing = {tr: all_translations - v for tr, v in current_file.items()}
 
     return missing
@@ -72,7 +72,7 @@ def main():
         f_stats = get_stats(data)
         missing = get_missing(data)
         if missing.get("ru"):
-            missing_translations |= {f"{file}.{i}" for i in missing["en"]}
+            missing_translations |= {f"{file}.{i}" for i in missing["ru"]}
         row = [file]
         for header in langs:
             if header in f_stats:
@@ -80,8 +80,8 @@ def main():
             else:
                 row.append("-")
         stats.append(row)
-    print("\n".join(sorted(missing_translations)))
-    #print(tabulate(stats, headers=langs))
+    #print("\n".join(sorted(missing_translations)))
+    print(tabulate(stats, headers=langs))
 
     print("All files loaded successfully!")
 
