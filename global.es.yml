@@ -51,5 +51,15 @@ es:
   premium_required: |
     Para utilizar esto necesitas estar subscripto al Patreon de NQN: https://www.patreon.com/NQN
 
+  invite_bad_perms:
+    title: |
+      Hola, gracias por invitar a NQN a %{guild_name}!
+
+    content: |
+      Hemos visto que no tenemos todos los permisos apropiados para funcionar correctamente.
+      Para solucionar esto y aseguarar el funcionamiento correcto del bot, un link a sido generado el cual otorgara todos los permisos relevantes al bot:
+
+      **[Fix Permissions](%{invite_url})**
+
   webhook_limit: "Limite de Webhooks alcanzado! ¡No puedo funcionar en este canal!"
 
