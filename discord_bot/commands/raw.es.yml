@@ -242,7 +242,7 @@ es:
 
   info:
     shard_data: |
-      > Numero de shards: %{shard_count}
+      > Numero de shards: %{shard_count} (%{shards_down} offline)
       > Latencia promedio: %{average_latency}ms
       > Shard actual: %{current_shard}
       > Latencia de la Shard actual: %{current_latency}ms
