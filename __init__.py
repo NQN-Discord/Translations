@@ -36,9 +36,7 @@ class Translator:
         for locale in set(self.locales.values()) | set(self.hidden_locales):
             def inner(locale: str):
                 async def run_locale(ctx, *, rest):
-                    message = ctx.message
-                    message.content = ctx.prefix + rest
-                    await bot.process_commands(message, ctx.prefix, None, locale)
+                    await bot.process_commands(ctx.message, ctx.prefix, rest, locale)
                 return run_locale
             bot.command(hidden=True, name=locale)(inner(locale))
 
