@@ -223,7 +223,7 @@ owo:
       one: "This message has too many weactions to add a new one! OwO"
       many: "This message his too many weactions to add them aww! OwO"
     blocked: "%{author} has bwocked me, so I cannot add that weaction! OwO"
-    on_behalf: "NQN on behawf of <@%{author}> (%{author})"
+    on_behalf: "NQN on behawf of %{author} (%{author_id})"
     audit_message: "%{author} weacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
 
   info:
