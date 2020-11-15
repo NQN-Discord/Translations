@@ -226,7 +226,7 @@ es:
         Los emojis deben contener caracteres alfanuméricos, guiones bajos y hasta un solo guion.
     emote_unusable:
       one: |
-        El siguiente emoji no puede utilizar en reacciones:
+        El siguiente emoji no se puede utilizar en reacciones:
         > %{unusable}
         Si lo subis a un servidor en el que se encuentra el bot, este se podra utilizar en reacciones!
       many: |
