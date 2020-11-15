@@ -237,7 +237,7 @@ es:
       many: "¡Este mensaje tiene demasiadas reacciones, no se pueden agregar más!"
       
     blocked: "%{author} me tiene bloqueado, no puedo reaccionar al mensaje!"
-    on_behalf: "NQN a nombre de <@%{author}> (%{author})"
+    on_behalf: "NQN a nombre de %{author} (%{author_id})"
     audit_message: "%{author} reacciono a [este mensaje](<%{jump_url}>) en %{channel} con estos emojis:\n"
 
   info:
