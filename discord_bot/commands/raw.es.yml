@@ -224,6 +224,15 @@ es:
         Los siguientes emojis no son válidos:
         > %{not_found}
         Los emojis deben contener caracteres alfanuméricos, guiones bajos y hasta un solo guion.
+    emote_unusable:
+      one: |
+        El siguiente emoji no se puede utilizar en reacciones:
+        > %{unusable}
+        Si lo subis a un servidor en el que se encuentra el bot, este se podra utilizar en reacciones!
+      many: |
+        Los siguientes emojis no pueden ser utilizados en reacciones:
+        > %{unusable}
+        Si los subis a un servidor en el que se encuentra el bot, estos se podran utilizar en reacciones!
     emote_not_found:
       one: |
         No se pudo encontrar el emoji %{not_found}
