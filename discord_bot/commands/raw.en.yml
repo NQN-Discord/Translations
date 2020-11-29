@@ -184,11 +184,7 @@ en:
       NQN stores reposted messages such that users can delete them and for the audit log.
       Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
 
-      When NQN is invited to your server, it will crawl through every message viewable and add new emotes to its database.
-      This normally happens within an hour of joining the server.
-      It does not save any of the message content when doing this.
-
-      On occasion, certain statistics about how the bot is used may be gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
+      Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
 
     page_8_title: "Using emotes with NQN - Advanced"
     page_8_desc: |
@@ -198,10 +194,13 @@ en:
       In the case that you have several emotes with the same name, the following order is used:
 
       1. Aliases
-      2. Emote Packs
-      3. Server wide aliases
-      4. Server wide packs
-      5. Other servers you share with NQN
+      2. The current server
+      3. Emote Packs
+      4. Other servers you share with NQN
+      5. Server wide aliases
+      6. Server wide packs
+      7. Recently used emojis in the current server
+      8. Recently shown packs in the current server
 
       If you find yourself with clashing emotes, create the one you want to use as an alias, and that will override it.
 
