@@ -12,7 +12,7 @@ es:
   ban:
     owner: "No puedo banear al dueño/a"
     cannot_ban: "No puedo banear a <@%{banee}>!"
-    banned: "Baneado <@%{author}> (ID %{banee})"
+    banned: "Baneado <@%{banee}> (ID %{banee})"
 
     banned_audit: "{author} baneo a <@{banee}> (ID {banee})"
 

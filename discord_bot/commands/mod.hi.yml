@@ -12,7 +12,7 @@ hi:
   ban:
     owner: "मैं मालिक पर प्रतिबंध नहीं लगा सकता!"
     cannot_ban: "मैं प्रतिबंध नहीं लगा सकता <@%{banee}>!"
-    banned: "<@%{author}> (ID %{banee}) पर प्रतिबंध लगा दिया"
+    banned: "<@%{banee}> (ID %{banee}) पर प्रतिबंध लगा दिया"
 
     banned_audit: "{author} ने इन पर<@{banee}> (ID {banee})प्रतिबंध लगा दिया"
 
