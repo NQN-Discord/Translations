@@ -12,6 +12,7 @@ es:
   ban:
     owner: "No puedo banear al dueño/a"
     cannot_ban: "No puedo banear a <@%{banee}>!"
+    you_cannot_ban: "No puedes banear a <@%{banee}>!"
     banned: "Baneado <@%{banee}> (ID %{banee})"
 
     banned_audit: "{author} baneo a <@{banee}> (ID {banee})"
@@ -19,6 +20,7 @@ es:
   kick:
     owner: "No puedo expulsar al dueño!"
     cannot_kick: "No puedo expulsar a <@%{kickee}>!"
+    you_cannot_kick: "No puedes expulsar a <@%{kickee}>!"
     kicked: "Expulsado <@%{kickee}> (ID %{kickee})"
 
     kicked_audit: "%{author} expulso <@%{kickee}> (ID %{kickee})"
