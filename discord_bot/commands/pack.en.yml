@@ -29,7 +29,9 @@ en:
   save:
     none_left: "After filtering out emotes with the same name as ones in this server, there were none left to import!"
     no_space: "There's no space in this server to add any of the emotes in this pack."
-    failed_batch: "Could not upload entire batch of emotes; try again in a few hours"
+    failed_batch: |
+      Discord only allows bots to upload 50 emotes per hour.
+      NQN wasn't able to upload all the emotes in this batch, but you can run this command again in an hour to upload the rest
     not_registered: "%{name} is not a registered emote pack"
 
     upload_question: "Upload these emotes to this server?\n If you are not the owner of all of these emoji, choose N."
