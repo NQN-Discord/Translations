@@ -13,7 +13,6 @@
   ban:
     owner: "Я не могу забанить владельца сервера!"
     cannot_ban: "Я не могу забанить <@%{banee}>!"
-    you_cannot_ban: "Вы не можете забанить <@%{banee}>!"
     banned: "Забанен <@%{author}> (ID %{banee})"
 
     banned_audit: "{author} был забанен <@{banee}> (ID {banee})"
@@ -21,7 +20,6 @@
   kick:
     owner: "Я не могу кикнуть владельца сервера!"
     cannot_kick: "Я не могу кикнуть <@%{kickee}>!"
-    you_cannot_kick: "Вы не можете кикнуть <@%{kickee}>!"
     kicked: "Кикнут <@%{kickee}> (ID %{kickee})"
 
     kicked_audit: "%{author} был кикнут <@%{kickee}> (ID %{kickee})"
