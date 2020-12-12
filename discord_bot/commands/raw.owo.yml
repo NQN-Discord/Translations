@@ -30,7 +30,8 @@ owo:
   search_all:
     disclaimer: |
       This command does not awwow you to use these emotes! OwO
-      It's pwovided to awwow an easy seawch thwough the ones avaiwabwe to be added with\n> `%{prefix}alias search %{terms} page: %{page_no}`"
+      It's pwovided to awwow an easy seawch thwough the ones avaiwabwe to be added with
+      > `%{prefix}alias search %{terms} page: %{page_no}`"
 
   tutorial:
     invalid_page: "Thewe awe onwy %{count} pages in the tutowiaw! OwO"

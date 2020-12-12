@@ -39,8 +39,8 @@ owo:
     already_created: "Awweady cweated by someone ewse; cannot ovewwwite"
 
     import_progress:
-      one: "%{count} stickew impowted of %{total}:\nPage %{page} of {total_pages}"
-      many: "%{count} stickews impowted of %{total}:\nPage {page} of {total_pages}"
+      one: "%{count} stickew impowted of %{total}:\nPage %{page} of %{total_pages}"
+      many: "%{count} stickews impowted of %{total}:\nPage %{page} of %{total_pages}"
     finished_importing:
       one: "Finished impowting one stickew"
       many: "Finished impowting %{count} stickews"
