@@ -39,7 +39,8 @@ en:
   search_all:
     disclaimer: |
       This command does not allow you to use these emotes!
-      It's provided to allow an easy search through the ones available to be added with\n> `%{prefix}alias search %{terms} page: %{page_no}`
+      It's provided to allow an easy search through the ones available to be added with
+      > `%{prefix}alias search %{terms} page: %{page_no}`
 
   tutorial:
     invalid_page: "There are only %{count} pages in the tutorial!"

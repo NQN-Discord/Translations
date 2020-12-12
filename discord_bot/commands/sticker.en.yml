@@ -40,8 +40,8 @@ en:
     already_created: "Already created by someone else; cannot overwrite"
 
     import_progress:
-      one: "%{count} sticker imported of %{total}:\nPage %{page} of {total_pages}"
-      many: "%{count} stickers imported of %{total}:\nPage {page} of {total_pages}"
+      one: "%{count} sticker imported of %{total}:\nPage %{page} of %{total_pages}"
+      many: "%{count} stickers imported of %{total}:\nPage %{page} of %{total_pages}"
     finished_importing:
       one: "Finished importing one sticker"
       many: "Finished importing %{count} stickers"

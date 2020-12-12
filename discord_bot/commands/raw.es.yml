@@ -39,7 +39,8 @@ es:
   search_all:
     disclaimer: |
       ¡Este comando no te permite el uso de estos emojis!
-      Es otorgado para facilitar la búsqueda de emojis disponibles a través de\n> `%{prefix}alias search %{terms} page: %{page_no}`"
+      Es otorgado para facilitar la búsqueda de emojis disponibles a través de
+      > `%{prefix}alias search %{terms} page: %{page_no}`"
 
   tutorial:
     invalid_page: "Solo hay %{count} páginas en el tutorial!"
