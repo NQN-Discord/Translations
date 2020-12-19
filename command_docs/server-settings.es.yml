@@ -1,0 +1,4 @@
+es:
+  short_doc: 'Observa la configuracion para este servidor'
+  help: |
+    Observa la configuracion de NQN para este servidor, incluyendo funciones, canales configurados e informacion de pack.

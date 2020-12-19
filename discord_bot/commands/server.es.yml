@@ -102,6 +102,7 @@ es:
     invite: "Enlace de invitación"
     pack: "Nombre del Pack"
     public: "Publico"
+    member_count: "Miembros"
 
     settings: "Configuración"
     channels: "Canales"
