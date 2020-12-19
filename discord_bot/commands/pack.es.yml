@@ -11,7 +11,6 @@ es:
 
   meta:
     needs_publishing: "No puedes hacer esto sin primero publicar este servidor como un pack de emoticonos."
-    show_count: "¡Hay %{count} personas en este pack!"
 
   mine:
     no_packs: "¡No tienes ningún pack!"
