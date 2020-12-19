@@ -47,7 +47,7 @@ class Translator:
             "locale_flag_emojis": " ".join(self.flag_emojis.values())
         }
 
-        return TranslatorWithContext(defaults, ctx.command.module)
+        return TranslatorWithContext(defaults, lambda: ctx.command.module)
 
     def __call__(self, main_scope: str, guild: Union[Guild, str]):
         if isinstance(guild, str):
@@ -65,9 +65,12 @@ class Translator:
 
 
 class TranslatorWithContext:
-    def __init__(self, defaults: Dict[str, str], scope: str):
+    def __init__(self, defaults: Dict[str, str], scope: Union[str, Callable[[], str]]):
         self.defaults = defaults
-        self.scope = scope
+        if isinstance(scope, str):
+            self.scope = lambda: scope
+        else:
+            self.scope = scope
 
     def set_locale(self, locale: str) -> "TranslatorWithContext":
         self.defaults["locale"] = locale
@@ -78,7 +81,7 @@ class TranslatorWithContext:
         return self
 
     def __call__(self, text: str, scope: str = "", **kwargs):
-        return i18n.t(f"{scope or self.scope}.{text}", **{**self.defaults, **kwargs})
+        return i18n.t(f"{scope or self.scope()}.{text}", **{**self.defaults, **kwargs})
 
     def __enter__(self):
         return copy.deepcopy(self)
