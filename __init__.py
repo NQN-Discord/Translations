@@ -1,6 +1,7 @@
-from typing import Callable, Union
+from typing import Callable, Union, Dict
 import i18n
 import pathlib
+import copy
 from discord import Guild
 from discord.ext.commands import Context
 
@@ -46,9 +47,7 @@ class Translator:
             "locale_flag_emojis": " ".join(self.flag_emojis.values())
         }
 
-        def translate(text, scope: str = "", **kwargs):
-            return i18n.t(f"{scope or ctx.command.module}.{text}", **{**defaults, **kwargs})
-        return translate
+        return TranslatorWithContext(defaults, ctx.command.module)
 
     def __call__(self, main_scope: str, guild: Union[Guild, str]):
         if isinstance(guild, str):
@@ -58,10 +57,31 @@ class Translator:
             }
         else:
             defaults = {
-                "locale": self.get_locale(guild),
+                "locale": self.get_locale(guild).strip(" "),
                 "locale_flag_emojis": " ".join(self.flag_emojis.values())
             }
 
-        def translate(text, scope: str = "", **kwargs):
-            return i18n.t(f"{scope or main_scope}.{text}", **{**defaults, **kwargs})
-        return translate
+        return TranslatorWithContext(defaults, main_scope)
+
+
+class TranslatorWithContext:
+    def __init__(self, defaults: Dict[str, str], scope: str):
+        self.defaults = defaults
+        self.scope = scope
+
+    def set_locale(self, locale: str) -> "TranslatorWithContext":
+        self.defaults["locale"] = locale
+        return self
+
+    def set_scope(self, scope: str) -> "TranslatorWithContext":
+        self.scope = scope
+        return self
+
+    def __call__(self, text: str, scope: str = "", **kwargs):
+        return i18n.t(f"{scope or self.scope}.{text}", **{**self.defaults, **kwargs})
+
+    def __enter__(self):
+        return copy.deepcopy(self)
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        pass
