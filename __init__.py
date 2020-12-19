@@ -77,7 +77,7 @@ class TranslatorWithContext:
         return self
 
     def set_scope(self, scope: str) -> "TranslatorWithContext":
-        self.scope = scope
+        self.scope = lambda: scope
         return self
 
     def __call__(self, text: str, scope: str = "", **kwargs):
