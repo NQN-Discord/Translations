@@ -29,9 +29,11 @@ es:
 
   sticker_import:
     filename_invalid: "`%{name}` no es un nombre valido para stickers. Deben ser alfanuméricos, con una extensión alfanumérica."
-    find_emote: "encuentra un emoji para convertirlo en un sticker!"
+    find_emote: "Encuentra un emoji para convertirlo en un sticker!"
 
     created: "Ahora puedes utilizar `:%{name}:`"
+    sticker_exists: "Un sticker llamado `:%{name}:` ya existe; no puedes usar ese nombre."
+
 
   telegram_import:
     pack_invalid: "`%{name}` no es un nombre valido de un pack de stickers de Telegram"
@@ -39,8 +41,8 @@ es:
     already_created: "Ya creado por alguien mas; no se puede sobrescribir"
 
     import_progress:
-      one: "%{count} sticker importado de %{total}:\nPagina %{page} de {total_pages}"
-      many: "%{count} stickers importados de %{total}:\nPagina {page} de {total_pages}"
+      one: "%{count} sticker importado de %{total}:\nPagina %{page} de %{total_pages}"
+      many: "%{count} stickers importados de %{total}:\nPagina %{page} de %{total_pages}"
     finished_importing:
       one: "Se termino de importar un sticker"
       many: "Se termino de importar %{count} stickers"

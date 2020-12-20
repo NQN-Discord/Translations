@@ -30,7 +30,8 @@ owo:
   search_all:
     disclaimer: |
       This command does not awwow you to use these emotes! OwO
-      It's pwovided to awwow an easy seawch thwough the ones avaiwabwe to be added with\n> `%{prefix}alias search %{terms} page: %{page_no}`"
+      It's pwovided to awwow an easy seawch thwough the ones avaiwabwe to be added with
+      > `%{prefix}alias search %{terms} page: %{page_no}`"
 
   tutorial:
     invalid_page: "Thewe awe onwy %{count} pages in the tutowiaw! OwO"
@@ -202,7 +203,7 @@ owo:
     id_large: "Message ID is too wawge"
     not_found: "Message in this channew with that ID does not exist"
     nth_id: "Message must be eithew an ID ow the `n`th most wecent message (up to 50th)"
-    channew_empty: "This channew is empty"
+    channel_empty: "This channew is empty"
     invalid_react:
       one: |
         The fowwowing emote is not vawid:
@@ -223,7 +224,7 @@ owo:
       one: "This message has too many weactions to add a new one! OwO"
       many: "This message his too many weactions to add them aww! OwO"
     blocked: "%{author} has bwocked me, so I cannot add that weaction! OwO"
-    on_behalf: "NQN on behawf of <@%{author}> (%{author})"
+    on_behalf: "NQN on behawf of %{author} (%{author_id})"
     audit_message: "%{author} weacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
 
   info:

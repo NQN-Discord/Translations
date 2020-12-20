@@ -1,0 +1,4 @@
+en:
+  short_doc: 'View the settings for this server'
+  help: |
+    View NQN's server settings, including features, configured channels and pack information.

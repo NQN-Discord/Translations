@@ -39,8 +39,8 @@ hi:
     already_created: "पहले से ही किसी और के द्वारा स्टीकर बनाया गया है; ओवरराइट नहीं कर सकते"
 
     import_progress:
-      one: "%{count} स्टीकर को आयात किया गया %{total}:\nPage %{page} of {total_pages}"
-      many: "%{count} स्टीकर को आयात किया गया %{total}:\nPage {page} of {total_pages}"
+      one: "%{count} स्टीकर को आयात किया गया %{total}:\nPage %{page} of %{total_pages}"
+      many: "%{count} स्टीकर को आयात किया गया %{total}:\nPage %{page} of %{total_pages}"
     finished_importing:
       one: "एक स्टीकर आयात करना समाप्त किया"
       many: "%{count} स्टीकरस का आयात ख़तम हुआ"

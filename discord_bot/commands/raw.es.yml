@@ -39,7 +39,8 @@ es:
   search_all:
     disclaimer: |
       ¡Este comando no te permite el uso de estos emojis!
-      Es otorgado para facilitar la búsqueda de emojis disponibles a través de\n> `%{prefix}alias search %{terms} page: %{page_no}`"
+      Es otorgado para facilitar la búsqueda de emojis disponibles a través de
+      > `%{prefix}alias search %{terms} page: %{page_no}`"
 
   tutorial:
     invalid_page: "Solo hay %{count} páginas en el tutorial!"
@@ -185,11 +186,7 @@ es:
       NQN almacena mensajes reenviados para permitirle a los usuarios borrar mensajes y para los logs.
       Todo emoji en tu servidor es visible por cualquiera utilizando el bot y es buscable aunque sin conexión a tu servidor.
 
-      Cuando NQN es invitado a tu servidor, busca todo mensaje visible y agrega los emojis nuevos a su base de datos.
-      Esto normalmente sucede a, como mucho, una hora después de unirse al servidor.
-      El bot no guarda los contenidos de los mensajes cuando realiza esto.
-
-      En ocasiones, ciertas estadísticas sobre como el bot es utilizado son almacenadas para informar las decisiones de como mejorar el bot pero nunca incluirá mensajes genéricos enviados por tus usuarios.
+      Ciertas estadísticas sobre como el bot es utilizado son almacenadas para informar las decisiones de como mejorar el bot pero nunca incluirá mensajes genéricos enviados por tus usuarios.
 
     page_8_title: "Utilizar emojis con NQN avanzado"
     page_8_desc: |
@@ -199,10 +196,13 @@ es:
       En el caso de tener varios emojis con el mismo nombre se utiliza el siguiente orden.
 
       1. Alias
-      2. Pack de emojis
-      3. Alias del servidor
-      4. Packs del servidor
-      5. Otros servidores que compartes con NQN
+      2. El servidor actual
+      3. Pack de emojis
+      4. Otros servidores que compartes con NQN
+      5. Alias del servidor
+      6. Packs del servidor
+      7. Emojis recientemente usados en el servidor
+      8. Packs recientemente mostrados en el servidor
 
 
       Si te encuentras con conflictos entre los nombres de emojis, crea el que quieras usar como alias, y esto lo va sobrescribir.
@@ -224,6 +224,15 @@ es:
         Los siguientes emojis no son válidos:
         > %{not_found}
         Los emojis deben contener caracteres alfanuméricos, guiones bajos y hasta un solo guion.
+    emote_unusable:
+      one: |
+        El siguiente emoji no se puede utilizar en reacciones:
+        > %{unusable}
+        Si lo subis a un servidor en el que se encuentra el bot, este se podra utilizar en reacciones!
+      many: |
+        Los siguientes emojis no pueden ser utilizados en reacciones:
+        > %{unusable}
+        Si los subis a un servidor en el que se encuentra el bot, estos se podran utilizar en reacciones!
     emote_not_found:
       one: |
         No se pudo encontrar el emoji %{not_found}
@@ -237,12 +246,12 @@ es:
       many: "¡Este mensaje tiene demasiadas reacciones, no se pueden agregar más!"
       
     blocked: "%{author} me tiene bloqueado, no puedo reaccionar al mensaje!"
-    on_behalf: "NQN a nombre de <@%{author}> (%{author})"
+    on_behalf: "NQN a nombre de %{author} (%{author_id})"
     audit_message: "%{author} reacciono a [este mensaje](<%{jump_url}>) en %{channel} con estos emojis:\n"
 
   info:
     shard_data: |
-      > Numero de shards: %{shard_count}
+      > Numero de shards: %{shard_count} (%{shards_down} offline)
       > Latencia promedio: %{average_latency}ms
       > Shard actual: %{current_shard}
       > Latencia de la Shard actual: %{current_latency}ms
@@ -331,6 +340,7 @@ es:
     too_quick: "Se están creando emojis de manera muy rápida, trata de vuelta en unas horas (Error code '%{e}')"
     batch_failed: "No se pudo crear el grupo de emojis a la vez"
 
+    this_emote: "Es este el emoji deseado?"
     emote_preview: "Esto esta bien?\nSi **NO** eres el dueño de este emoji, o no tienes permiso para distribuirlo, selecciona ❎."
     created_emotes: "Se crearon emojis!"
 

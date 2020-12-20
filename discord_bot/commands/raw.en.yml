@@ -39,7 +39,8 @@ en:
   search_all:
     disclaimer: |
       This command does not allow you to use these emotes!
-      It's provided to allow an easy search through the ones available to be added with\n> `%{prefix}alias search %{terms} page: %{page_no}`
+      It's provided to allow an easy search through the ones available to be added with
+      > `%{prefix}alias search %{terms} page: %{page_no}`
 
   tutorial:
     invalid_page: "There are only %{count} pages in the tutorial!"
@@ -184,11 +185,7 @@ en:
       NQN stores reposted messages such that users can delete them and for the audit log.
       Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
 
-      When NQN is invited to your server, it will crawl through every message viewable and add new emotes to its database.
-      This normally happens within an hour of joining the server.
-      It does not save any of the message content when doing this.
-
-      On occasion, certain statistics about how the bot is used may be gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
+      Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
 
     page_8_title: "Using emotes with NQN - Advanced"
     page_8_desc: |
@@ -198,10 +195,13 @@ en:
       In the case that you have several emotes with the same name, the following order is used:
 
       1. Aliases
-      2. Emote Packs
-      3. Server wide aliases
-      4. Server wide packs
-      5. Other servers you share with NQN
+      2. The current server
+      3. Emote Packs
+      4. Other servers you share with NQN
+      5. Server wide aliases
+      6. Server wide packs
+      7. Recently used emojis in the current server
+      8. Recently shown packs in the current server
 
       If you find yourself with clashing emotes, create the one you want to use as an alias, and that will override it.
 
@@ -221,6 +221,15 @@ en:
         The following emotes are not valid:
         > %{not_found}
         Emotes must only contain alphanumerics, underscores and up to a single dash.
+    emote_unusable:
+      one: |
+        The following emote cannot be used in reactions:
+        > %{unusable}
+        If you upload it to a server the bot's in, it will become usable in reactions!
+      many: |
+        The following emotes cannot be used in reactions:
+        > %{unusable}
+        If you upload them all to a server the bot's in, they will become usable in reactions!
     emote_not_found:
       one: |
         Could not find emote %{not_found}
@@ -232,12 +241,12 @@ en:
       one: "This message has too many reactions to add a new one!"
       many: "This message has too many reactions to add them all!"
     blocked: "%{author} has blocked me, so I cannot add that reaction!"
-    on_behalf: "NQN on behalf of <@%{author}> (%{author})"
+    on_behalf: "NQN on behalf of %{author} (%{author_id})"
     audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
 
   info:
     shard_data: |
-      > No shards: %{shard_count}
+      > No shards: %{shard_count} (%{shards_down} down)
       > Average latency: %{average_latency}ms
       > Current shard: %{current_shard}
       > Current shard latency: %{current_latency}ms
@@ -326,6 +335,7 @@ en:
     too_quick: "Emotes are being created too quickly, try again in a few hours (Error code '%{e}')"
     batch_failed: "Couldn't create emote batch all at once"
 
+    this_emote: "Is this the emote you meant?"
     emote_preview: "Is this alright?\nIf you are **NOT** the owner of this emoji, or do not have permission to distribute it, select ❎."
     created_emotes: "Created emotes!"
 
