@@ -13,6 +13,7 @@
     owner: "Я не могу забанить владельца сервера!"
     cannot_ban: "Я не могу забанить <@%{banee}>!"
     you_cannot_ban: "Вы не можете забанить <@%{banee}>!"
+    banned: "Забанен <@%{banee}> (ID %{banee})"
 
     banned_audit: "{author} был забанен <@{banee}> (ID {banee})"
 
