@@ -12,9 +12,9 @@ en:
     no_stickers: "You have no stickers"
 
   delete:
-    no_sticker: "This sticker doesn't exist"
-    permission_denied: "You can't delete someone else's sticker!"
-    sticker_deleted: "Deleted :%{name}:"
+    no_sticker: "- :%{name}: - Doesn't exist"
+    permission_denied: "- :%{name}: - Not your sticker, cannot delete"
+    sticker_deleted: "+ :%{name}: - Deleted"
 
   rename:
     filename_invalid: "`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension."
