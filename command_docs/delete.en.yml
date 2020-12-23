@@ -1,0 +1,6 @@
+en:
+  short_doc: 'Delete one of your messages reposted by NQN'
+  help: |
+    Delete one of your messages reposted by NQN.
+    By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
+    You can also use Discord's message reply functionality to delete that message.
