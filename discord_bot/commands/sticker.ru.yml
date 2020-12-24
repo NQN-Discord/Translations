@@ -41,7 +41,7 @@
 
     import_progress:
       one: "Импортирован %{count} стикер из %{total}:\nСтраница %{page} из {total_pages}"
-      many: "Импортировано %{count} стикеров из %{total}:\nСтраница {page} из {total_pages}"
+      many: "Импортировано %{count} стикеров из %{total}:\nСтраница %{page} из %{total_pages}"
     finished_importing:
       one: "Импорт одного стикера успешно завершён"
       many: "Импорт %{count} стикеров успешно завершён"
