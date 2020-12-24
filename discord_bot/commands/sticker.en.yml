@@ -13,7 +13,7 @@ en:
 
   delete:
     no_sticker: "- :%{name}: - Doesn't exist"
-    permission_denied: "- :%{name}: - Not your sticker, cannot delete"
+    permission_denied: "- :%{name}: - Can not delete someone else's stickers"
     sticker_deleted: "+ :%{name}: - Deleted"
 
   rename:

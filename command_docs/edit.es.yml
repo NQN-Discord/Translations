@@ -3,3 +3,4 @@ es:
   help: |
     Edita el contenido de un de tus mensajes reenviado a través de NQN.
     Por defecto, el mensaje más reciente en este canal es editado, pero puedes proveer el url del mensaje para editar otro mensaje.
+    Tambien puedes utilizar la funcionalidad de respuestas de Discord para editar ese mensaje.
