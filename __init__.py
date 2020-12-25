@@ -1,4 +1,4 @@
-from typing import Callable, Union, Dict
+from typing import Callable, Union, Dict, Awaitable
 import i18n
 import pathlib
 import copy
@@ -27,7 +27,7 @@ class Translator:
     flag_emojis = {flag: "".join(chr(0x1f185+ord(c)) for c in flag) for flag in flags}
     hidden_locales = ["owo", "hi", "fr"]
 
-    def __init__(self, get_locale: Callable[[Guild], str]):
+    def __init__(self, get_locale: Callable[[Guild], Awaitable[str]]):
         self.get_locale = get_locale
         root_path = pathlib.Path(__file__).parent.absolute()
         i18n.load_path.append(root_path)
@@ -41,27 +41,30 @@ class Translator:
                 return run_locale
             bot.command(hidden=True, name=locale)(inner(locale))
 
-    def setup_translation(self, ctx: Context, guild_locale: str = None):
+    async def setup_translation(self, ctx: Context, guild_locale: str = None):
         defaults = {
-            "locale": (guild_locale or self.get_locale(ctx.guild)).strip(" "),
+            "locale": (guild_locale or (await self.get_locale(ctx.guild))).strip(" "),
             "locale_flag_emojis": " ".join(self.flag_emojis.values())
         }
 
         return TranslatorWithContext(defaults, lambda: ctx.command.module)
 
     def __call__(self, main_scope: str, guild: Union[Guild, str]):
-        if isinstance(guild, str):
-            defaults = {
-                "locale": guild,
-                "locale_flag_emojis": " ".join(self.flag_emojis.values())
-            }
-        else:
-            defaults = {
-                "locale": self.get_locale(guild).strip(" "),
-                "locale_flag_emojis": " ".join(self.flag_emojis.values())
-            }
+        async def inner():
+            if isinstance(guild, str):
+                defaults = {
+                    "locale": guild.strip(" "),
+                    "locale_flag_emojis": " ".join(self.flag_emojis.values())
+                }
+            else:
+                locale = await self.get_locale(guild)
+                defaults = {
+                    "locale": locale.strip(" "),
+                    "locale_flag_emojis": " ".join(self.flag_emojis.values())
+                }
 
-        return TranslatorWithContext(defaults, main_scope)
+            return TranslatorWithContext(defaults, main_scope)
+        return inner()
 
 
 class TranslatorWithContext:
