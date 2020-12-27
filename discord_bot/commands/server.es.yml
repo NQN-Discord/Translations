@@ -20,9 +20,9 @@ es:
 
     max_title: "¡Este servidor ha alcanzado el numero maximo de emoticonos/packs!"
     max_description: |
-     :%{name}: No fue añadido como un emoticono en el servidor.
+      :%{name}: No fue añadido como un emoticono en el servidor.
 
-     Para más aliases/packs, cualquiera puede votar por el bot en %{url}
+      Para más aliases/packs, cualquiera puede votar por el bot en %{url}
 
     no_alias: "Este servidor no tiene un alias llamado %{name}"
     renamed: "Renombrado %{emote} de :%{name}: a :%{new}:"
