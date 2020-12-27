@@ -2,12 +2,27 @@ es:
   alias:
     set_emote_title: "Establecido :%{name}: a %{emote} para este servidor."
     set_emote_description:
-      zero: "¡Este servidor no tiene mas emoticonos!\nPara mas aliases, cualquiera puede votar por este bot en %{url}"
-      one: "Este servidor tiene %{count} emoticono restantes hasta que alcance el maximo.\nPara mas aliases, cualquiera puede votar por este bot en %{url}"
-      many: "Este servidor tiene %{count} emoticonos restantes hasta que alcance el maximo.\nPara mas aliases, cualquiera puede votar por este bot en %{url}"
+      zero: |
+        ¡Este servidor no tiene mas emoticonos!
+        Para mas aliases, cualquiera puede votar por este bot en %{url}
+
+        Quien quiera puede utilizar este emoji escribiendo:
+      one: |
+        Este servidor tiene %{count} emoticono restantes hasta que alcance el maximo.
+        Para mas aliases, cualquiera puede votar por este bot en %{url}
+
+        Quien quiera puede utilizar este emoji escribiendo:
+      many: |
+        Este servidor tiene %{count} emoticonos restantes hasta que alcance el maximo.
+        Para mas aliases, cualquiera puede votar por este bot en %{url}
+
+        Quien quiera puede utilizar este emoji escribiendo:
 
     max_title: "¡Este servidor ha alcanzado el numero maximo de emoticonos/packs!"
-    max_description: ":%{name}: No fue añadido como un emoticono en el servidor.\n\nPara mas aliases/packs, cualquiera puede votar por este bot en %{url}"
+    max_description: |
+     :%{name}: No fue añadido como un emoticono en el servidor.
+
+     Para más aliases/packs, cualquiera puede votar por el bot en %{url}
 
     no_alias: "Este servidor no tiene un alias llamado %{name}"
     renamed: "Renombrado %{emote} de :%{name}: a :%{new}:"
