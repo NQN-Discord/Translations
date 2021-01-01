@@ -12,9 +12,15 @@ en:
     no_stickers: "You have no stickers"
 
   delete:
-    no_sticker: "- :%{name}: - Doesn't exist"
-    permission_denied: "- :%{name}: - Can not delete someone else's stickers"
-    sticker_deleted: "+ :%{name}: - Deleted"
+    no_sticker: "- :%{name}: - Doesn't exist or not yours"
+    sticker_deleted: "+ :%{name}:"
+    question:
+      zero: "No stickers to delete!"
+      one: "Do you want to delete this sticker?"
+      many: "Do you want to delete all %{count} stickers?"
+    deleted_all:
+      one: "Deleted %{count} sticker"
+      many: "Deleted %{count} stickers"
 
   rename:
     filename_invalid: "`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension."
@@ -46,4 +52,4 @@ en:
       one: "Finished importing one sticker"
       many: "Finished importing %{count} stickers"
 
-    search_future: "To search for these stickers in the future, use:\n> `%{prefix}sticker search %{name}`"
+    search_future: "To search for these stickers in the future, use:\n> `%{prefix}sticker search %{name}.`"
