@@ -10,17 +10,17 @@ es:
     edited_audit: "%{author} edito la descripción de %{channel} a:\n>>> %{description}"
 
   ban:
-    owner: "No puedo banear al dueño/a"
-    cannot_ban: "No puedo banear a <@%{banee}>!"
-    you_cannot_ban: "No puedes banear a <@%{banee}>!"
+    owner: "¡No puedo banear al dueño/a!"
+    cannot_ban: "¡No puedo banear a <@%{banee}>!"
+    you_cannot_ban: "¡No puedes banear a <@%{banee}>!"
     banned: "Baneado <@%{banee}> (ID %{banee})"
 
     banned_audit: "{author} baneo a <@{banee}> (ID {banee})"
 
   kick:
-    owner: "No puedo expulsar al dueño!"
-    cannot_kick: "No puedo expulsar a <@%{kickee}>!"
-    you_cannot_kick: "No puedes expulsar a <@%{kickee}>!"
+    owner: "¡No puedo expulsar al dueño/a!"
+    cannot_kick: "¡No puedo expulsar a <@%{kickee}>!"
+    you_cannot_kick: "¡No puedes expulsar a <@%{kickee}>!"
     kicked: "Expulsado <@%{kickee}> (ID %{kickee})"
 
     kicked_audit: "%{author} expulso <@%{kickee}> (ID %{kickee})"

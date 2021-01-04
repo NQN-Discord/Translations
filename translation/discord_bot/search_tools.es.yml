@@ -1,11 +1,11 @@
 es:
   create:
-    invalid_alias: "Nombre invalido para el alias!"
+    invalid_alias: "¡Nombre invalido para el alias!"
     not_found: "No se pudo encontrar el emoji a agregar."
-    no_access: "No tengo acceso a ese emoji!"
+    no_access: "¡No tengo acceso a ese emoji!"
 
   delete:
-    no_aliases: "No se encontró ningún alias!"
+    no_aliases: "¡No se encontró ningún alias!"
     removed: "Alias eliminado `:%{name}:`."
 
   search:
