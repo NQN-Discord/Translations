@@ -2,12 +2,27 @@ en:
   alias:
     set_emote_title: "Set :%{name}: to %{emote} for this server."
     set_emote_description:
-      zero: "This server has no emotes left!\nFor more aliases, anyone can vote for the bot at %{url}"
-      one: "This server has %{count} emote left before it reaches it's maximum.\nFor more aliases, anyone can vote for the bot at %{url}"
-      many: "This server has %{count} emotes left before it reaches it's maximum.\nFor more aliases, anyone can vote for the bot at %{url}"
+      zero: |
+        This server has no emotes left!
+        For more aliases, anyone can vote for the bot at %{url}
+
+        Anyone can use this emote by typing:
+      one: |
+        This server has one emote left before it reaches it's maximum.
+        For more aliases, anyone can vote for the bot at %{url}
+
+        Anyone can use this emote by typing:
+      many: |
+        This server has %{count} emotes left before it reaches it's maximum.
+        For more aliases, anyone can vote for the bot at %{url}
+
+        Anyone can use this emote by typing:
 
     max_title: "This server is at its maximum emote/pack count already!"
-    max_description: ":%{name}: was not added as a server emote.\n\nFor more aliases/packs, anyone can vote for the bot at %{url}"
+    max_description: |
+      :%{name}: was not added as a server emote.
+
+      For more aliases/packs, anyone can vote for the bot at %{url}
 
     no_alias: "This server does not have an alias called %{name}"
     renamed: "Renamed %{emote} from :%{name}: to :%{new}:"
