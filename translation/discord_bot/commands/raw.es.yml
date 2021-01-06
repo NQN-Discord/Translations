@@ -6,9 +6,9 @@ es:
     ignored: "Ignorando `%{name}` por vos."
 
   edit:
-    never_posted: "Nunca has enviado un mensaje con NQN en este canal!"
-    cannot_edit_no_nqn: "No puedes editar este mensaje ya que no es un mensaje enviado por NQN!"
-    cannot_edit_different_user: "No puedes editar este mensaje ya que este no fue enviado por vos!"
+    never_posted: "¡Nunca has enviado un mensaje con NQN en este canal!"
+    cannot_edit_no_nqn: "¡No puedes editar este mensaje ya que no es un mensaje enviado por NQN!"
+    cannot_edit_different_user: "¡No puedes editar este mensaje ya que este no fue enviado por vos!"
 
   export:
     exported_list_short: "Aquí están exportados tus emojis:"
@@ -24,7 +24,7 @@ es:
   ranking:
     vote_link: "Puedes votar por el bot con %{url} para incrementar el limite de emojis del servidor y su rango."
     top_server: "Felicidades en ser el servidor que más apoya <a:BluePat:679807864327766048>"
-    thanks: "Gracias por votar por el bot!"
+    thanks: "¡Gracias por votar por el bot!"
 
     ranking: |
       %{guild} ocupa el puesto #%{rank} de todos los servidores utilizando NQN.
@@ -43,18 +43,18 @@ es:
       > `%{prefix}alias search %{terms} page: %{page_no}`"
 
   tutorial:
-    invalid_page: "Solo hay %{count} páginas en el tutorial!"
+    invalid_page: "¡Solo hay %{count} páginas en el tutorial!"
     permissions_missing: "Necesito poder insertar enlaces y agregar reacciones para poder mostrar mi tutorial. Se puede volver a enviar con `%{prefix}tutorial`."
 
     wrong_place: "Si elegí el lugar erróneo para mostrar este mensaje, puedes usar %{prefix}tutorial en un canal más apropiado para ver este tutorial allí. Hay múltiples páginas en este tutorial; ejecuta %{prefix}tutorial para mostrarlas luego de que estas desaparezcan."
     default_emojis: "Emojis predeterminados"
-    default_emoji_list: "Esta es la lista de todos los emojis animados que cualquiera en este servidor puede utilizar por defecto - solo escribe los manualmente, asegurándote de incluir :los dos puntos: alrededor del nombre del emoji!"
+    default_emoji_list: "Por defecto, esta es la lista de todos los emojis animados que cualquiera en este servidor puede utilizar - ¡solo escribe los manualmente, asegurándote de incluir :los dos puntos: alrededor del nombre del emoji!"
 
     page_0_title: "Tutorial para Not Quite Nitro, TLDR"
     page_0_desc: |
       %{locale_flag_emojis} **Opciones de idoma** %{locale_flag_emojis}
       > `%{prefix}server language`
-    page_0_0_name: "Más Emojis?"
+    page_0_0_name: "¿Más Emojis?"
     page_0_0_desc: |
       Todos pueden utilizar cualquier emoji que comparte un servidor con vos y el bot
       **Hay distintas formas para utilizar emojis de servidores de los que no perteneces:**"
@@ -228,11 +228,11 @@ es:
       one: |
         El siguiente emoji no se puede utilizar en reacciones:
         > %{unusable}
-        Si lo subis a un servidor en el que se encuentra el bot, este se podra utilizar en reacciones!
+        ¡Si lo subis a un servidor en el que se encuentra el bot, este se podra utilizar en reacciones!
       many: |
         Los siguientes emojis no pueden ser utilizados en reacciones:
         > %{unusable}
-        Si los subis a un servidor en el que se encuentra el bot, estos se podran utilizar en reacciones!
+        ¡Si los subis a un servidor en el que se encuentra el bot, estos se podran utilizar en reacciones!
     emote_not_found:
       one: |
         No se pudo encontrar el emoji %{not_found}
@@ -340,9 +340,9 @@ es:
     too_quick: "Se están creando emojis de manera muy rápida, trata de vuelta en unas horas (Error code '%{e}')"
     batch_failed: "No se pudo crear el grupo de emojis a la vez"
 
-    this_emote: "Es este el emoji deseado?"
-    emote_preview: "Esto esta bien?\nSi **NO** eres el dueño de este emoji, o no tienes permiso para distribuirlo, selecciona ❎."
-    created_emotes: "Se crearon emojis!"
+    this_emote: "¿Es este el emoji deseado?"
+    emote_preview: "¿Esto esta bien?\nSi **NO** eres el dueño de este emoji, o no tienes permiso para distribuirlo, selecciona ❎."
+    created_emotes: "¡Se crearon emojis!"
 
   vote_opt_out:
     success: "Se de-subscribió de MDs de manera exitosa"
