@@ -33,6 +33,7 @@ es:
 
   move:
     user_no_perms: "No tienes 'Mandar Mensajes' y 'Gestionar Mensajes' en %{channel}."
+    me_no_perms: "No tengo el permiso 'Gestionar Webhooks' en %{channel}."
     "1_20": "El numero de mensajes a mover debe ser entre 1 y 20"
 
     moved_to:
