@@ -1,5 +1,5 @@
 pt:
-  deleted_channel: "#DeletedChannel"
+  deleted_channel: "#CanalExcluido"
   author: "Autor"
   jump_to_message: "Pular"
   go_to_message: "Vá para a mensagem!"
