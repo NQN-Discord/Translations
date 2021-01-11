@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Defina este servidor como um servidor alias'
+  help: |
+    Defina este servidor como um servidor alias
