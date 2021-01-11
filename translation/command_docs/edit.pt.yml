@@ -1,0 +1,6 @@
+pt:
+  short_doc: 'Editar uma mensagem postada por NQN'
+  help: |
+    Edita o conteúdo de uma de suas mensagens republicadas por NQN.
+   Por padrão, sua mensagem mais recente neste canal é editada, mas você pode opcionalmente fornecer um URL de mensagem para editá-la 6 
+   Você também pode usar a funcionalidade de resposta de mensagem do Discord para editar essa mensagem.
