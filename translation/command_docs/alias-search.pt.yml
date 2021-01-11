@@ -1,0 +1,9 @@
+pt:
+  short_doc: 'Procure emotes individuais para usar com NQN'
+  help: |
+    Procure emotes individuais para usar com NQN
+    A pesquisa de NQN permite alguns recursos avançados:
+     - `exato`: (padrão falso) só mostrar emotes com o nome exato pesquisado
+     - `animado`: mostrar apenas emotes animados ou estáticos
+     - `pagina`: pular para uma certa página
+     - `ordem`: um de 'usa', 'aleatória'
