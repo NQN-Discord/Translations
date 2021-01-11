@@ -1,1 +1,13 @@
+pt:
+  create:
+    invalid_alias: "Nome inválido para apelido!"
+    not_found: "Não foi possível encontrar o emoji para adicionar."
+    no_access: "Não tenho acesso a esse emoji!"
 
+  delete:
+    no_aliases: "Nenhum apelido encontrado!"
+    removed: "Apelido excluido`:%{name}:`."
+
+  search:
+    select_alias: "Selecciona un numero para convertir el emoji en un alias."
+    set_emote: "Atribuido:%{name}: a %{emote}"
