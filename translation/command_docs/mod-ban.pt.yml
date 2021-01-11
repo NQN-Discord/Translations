@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Banir o usuário que postou uma mensagem'
+  help: |
+    Banir o usuário que postou uma mensagem
