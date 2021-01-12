@@ -1,0 +1,4 @@
+pt:
+   short_doc: 'Renomear um pacote de emote'
+   help: |
+      Renomear um pacote de emote
