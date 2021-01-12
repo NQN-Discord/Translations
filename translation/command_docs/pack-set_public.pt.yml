@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Permitir que qualquer pessoa entre neste servidor via NQN.'
+  help: |
+    Permitir que qualquer pessoa entre neste servidor via NQN.
