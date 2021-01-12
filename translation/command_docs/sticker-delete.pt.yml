@@ -1,0 +1,5 @@
+pt:
+  short_doc: 'Delete uma figurinha'
+  help: |
+    Delete uma figurinha
+    Você só pode excluir figurinhas que possui.
