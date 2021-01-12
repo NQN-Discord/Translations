@@ -1,5 +1,5 @@
 pt:
-  deleted_channel: "#Canal Excluido"
+  deleted_channel: "#Canal-Excluido"
   author: "Autor"
   jump_to_message: "Pular"
   go_to_message: "Vá para a mensagem!"
@@ -37,7 +37,7 @@ pt:
 
   error_message: |
     Ocorreu um erro ao processar o comando. Pode não ter sido concluído corretamente.
-   Para obter ajuda e relatar isso como um problema, junte-se ao servidor de teste para este bot:
+    Para obter ajuda e relatar isso como um problema, junte-se ao servidor de teste para este bot:
     https://discord.gg/mv8RbHD
   user_abused: |
     O proprietário do bot ou moderadores globais bloquearam você de usar este bot devido a abusos anteriores.
@@ -53,6 +53,6 @@ pt:
      Olá, obrigado por convidar NQN para %{guild_name}!
     content: |
      Nós olhamos ao redor e descobrimos que não temos todas as permissões de que precisamos para funcionar corretamente.
-Para consertar isso para que você possa usar o bot corretamente, foi gerado um link que dará todas as permissões relevantes ao bot:
+     Para consertar isso para que você possa usar o bot corretamente, foi gerado um link que dará todas as permissões relevantes ao bot:
       **[Fix Permissions](%{invite_url})**
   webhook_limit: "Limite de webhook atingido! Não é possível executar neste canal!"
