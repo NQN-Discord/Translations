@@ -1,0 +1,5 @@
+pt:
+  short_doc: 'Renomear uma figurinha'
+  help: |
+    Renomear uma figurinha
+    Você só pode excluir figurinhas que possui.
