@@ -54,5 +54,5 @@ pt:
     content: |
      Nós olhamos ao redor e descobrimos que não temos todas as permissões de que precisamos para funcionar corretamente.
      Para consertar isso para que você possa usar o bot corretamente, foi gerado um link que dará todas as permissões relevantes ao bot:
-      **[Fix Permissions](%{invite_url})**
+      **[Corrigir permissões](%{invite_url})**
   webhook_limit: "Limite de webhook atingido! Não é possível executar neste canal!"
