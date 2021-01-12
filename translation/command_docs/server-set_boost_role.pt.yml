@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Dê a um usuário esta função quando ele impulsionar este servidor via NQN'
+  help: |
+    Dê a um usuário esta função quando ele impulsionar este servidor via NQN

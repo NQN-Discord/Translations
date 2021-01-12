@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Pesquise todos os adesivos que o NQN possui, com uma consulta opcional'
+  help: |
+    Pesquise todos os adesivos que o NQN possui, com uma consulta opcional

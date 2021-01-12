@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Renomear um apelido do servidor'
+  help: |
+    Renomear um apelido do servidor
