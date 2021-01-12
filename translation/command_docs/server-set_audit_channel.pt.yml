@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Postar mensagens que o bot reposta'
+  help: |
+    Postar mensagens que o bot reposta
