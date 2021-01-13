@@ -89,7 +89,7 @@ pt:
 
   language:
     choose: "Escolha meu novo idioma:"
-    set: "Definir meu idioma para português neste servidor "
+    set: "Meu idioma neste servidor agora é Portugês"
 
   config:
     enabled: "ativado"
