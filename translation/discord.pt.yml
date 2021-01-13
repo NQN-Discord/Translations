@@ -1,7 +1,7 @@
 pt:
   ext.commands.help:
     need_emojis: " - Eu preciso disso para usar emojis!"
-    need_everyone_external: " - @everyone precisa disso para eu usar emojis!"
+    need_everyone_external: " - @everyone precisa disso para que eu possa usar emojis!"
     need_help: " - Eu preciso disso para o comando de ajuda!"
     nothing: ""
 
@@ -21,7 +21,7 @@ pt:
     support: "Suporte"
     emote_list: "Meus emojis"
 
-    top_gg_vote: "Vote em mim em [top.gg](https://top.gg/bot/559426966151757824/vote) orna o bot melhor, aumentando nossa visibilidade e permitindo mais emotes quando ingressamos em um servidor."
+    top_gg_vote: "Vote em mim em [top.gg](https://top.gg/bot/559426966151757824/vote) torna o bot melhor, aumentando nossa visibilidade e permitindo mais emotes quando ingressamos em um servidor."
     bfd_vote: "Me dando um voto positivo em [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) ajuda a nossa visibilidade. A cada novo servidor que eu ingresso, meu banco de dados de emote fica maior."
 
     what_is: "O que é Not Quite Nitro?"
