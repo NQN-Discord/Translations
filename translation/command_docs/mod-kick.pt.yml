@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Expulse o usuário que postou uma mensagem'
+  help: |
+    Expulse o usuário que postou uma mensagem

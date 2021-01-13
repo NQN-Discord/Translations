@@ -1,0 +1,58 @@
+pt:
+  deleted_channel: "#Canal-Excluido"
+  author: "Autor"
+  jump_to_message: "Pular"
+  go_to_message: "Vá para a mensagem!"
+  cancelled: "Cancelado"
+  website: "Website"
+
+  missing_permissions: "Ausência de permissôes"
+  missing_add_reaction: "Eu preciso do 'adicionar reações' permissão para este comando!"
+  missing_create_invite: "I need the 'Create Instant Invite' permission for this command!"
+  everyone_external: "A funçao @everyone precisa 'Usar emojis externos'"
+  tabulated_delete_manage_messages: "Não foi possível deletar o menu - Por favor me dê o gerenciamento de mensagens "
+  no_nitro_global: "Uso de nitro foi desabilitado nesse servidor!"
+  no_nitro_role: "Apenas usuários com a função <@&%{role}> pode usar esse comando!"
+
+  user_missing_administrator: "Você não têm permissão de 'Administrador' para executar esse comando."
+  user_missing_add_reaction: "Você não têm permissão de 'adicionar reação' para executar esse comando."
+
+  tabulated_default_results:
+    one: "%{count} resultado (Page %{page_no} do %{total}):\n%{contents}"
+    many: "%{count} resultado (Page %{page_no} do %{total}):\n%{contents}"
+
+  tabulated_results_page:
+    zero: "Nenhum emote encontrado"
+    one: "Página %{page_no} do %{total}%{note}"
+    many: "Página %{page_no} do %{total}%{note}"
+
+  page_no: "Página %{page} do %{total}:"
+  no_results: "Nenhum resultado"
+  loading: "<a:loading:674758249291186191> Processando..."
+
+
+  timed_out: "Tempo esgotado - tente de novo"
+
+  global_check_failed: "Você não têm perssisão para usar %{cmd_name}"
+
+  error_message: |
+    Ocorreu um erro ao processar o comando. Pode não ter sido concluído corretamente.
+    Para obter ajuda e relatar isso como um problema, junte-se ao servidor de teste para este bot:
+    https://discord.gg/mv8RbHD
+  user_abused: |
+    O proprietário do bot ou moderadores globais bloquearam você de usar este bot devido a abusos anteriores.
+    Você não pode usar nenhum comando ou de outra forma usar a funcionalidade do bot.
+  support_server: |
+    Você pode entrar no meu servidor de suporte aqui:
+    http://discord.gg/XvzDPca
+    Você pode relatar bugs, solicitar novos recursos ou pedir esclarecimentos sobre como me usar.
+  premium_required: |
+    Para fazer isso, você precisa ser um assinante do Patreon do NQN: https://www.patreon.com/NQN
+  invite_bad_perms:
+    title: |
+     Olá, obrigado por convidar NQN para %{guild_name}!
+    content: |
+     Nós olhamos ao redor e descobrimos que não temos todas as permissões de que precisamos para funcionar corretamente.
+     Para consertar isso para que você possa usar o bot corretamente, foi gerado um link que dará todas as permissões relevantes ao bot:
+      **[Fix Permissions](%{invite_url})**
+  webhook_limit: "Limite de webhook atingido! Não é possível executar neste canal!"

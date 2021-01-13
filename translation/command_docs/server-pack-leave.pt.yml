@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Cancelar a assinatura de um pacote de emote em todo o servidor'
+  help: |
+    Cancelar a assinatura de um pacote de emote em todo o servidor

@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Faça o NQN usar um prefixo diferente.'
+  help: |
+    Faça o NQN usar um prefixo diferente.

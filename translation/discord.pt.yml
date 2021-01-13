@@ -1,0 +1,32 @@
+pt:
+  ext.commands.help:
+    need_emojis: " - Eu preciso disso para usar emojis!"
+    need_everyone_external: " - @everyone precisa disso para eu usar emojis!"
+    need_help: " - Eu preciso disso para o comando de ajuda!"
+    nothing: ""
+
+    please_give: "Eu não funcionarei corretamente sem estes!"
+
+    nqn_help: "NQN ajuda"
+    my_prefix: |
+      Meu prefixo para comandos é `%{prefix}`
+      Reaja com ❌ (\:x:) para excluir mensagens repostadas!
+    categories: "Categorias"
+    everything_else: "Todo o resto"
+    really_useful: "Comandos realmente úteis"
+
+    useful_links: "Links Úteis:"
+    website: "Website"
+    vote: "Votar!"
+    support: "Suporte"
+    emote_list: "Meus emojis"
+
+    top_gg_vote: "Vote em mim em [top.gg](https://top.gg/bot/559426966151757824/vote) orna o bot melhor, aumentando nossa visibilidade e permitindo mais emotes quando ingressamos em um servidor."
+    bfd_vote: "Me dando um voto positivo em [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) ajuda a nossa visibilidade. A cada novo servidor que eu ingresso, meu banco de dados de emote fica maior."
+
+    what_is: "O que é Not Quite Nitro?"
+    bot_description: |
+      Not Quite Nitro é um bot utilitário multiuso que permite a qualquer usuário usar emotes Nitro.
+      Temos um banco de dados extremamente grande de emotes visualmente exclusivos que você pode usar em qualquer servidor em que o bot esteja com permissões para Gerenciar Webhook.
+      O NQN também permite cotação automática sempre que um usuário posta um link de mensagem, o uso de urls mascaradas no chat e adesivos, que são emotes em tamanho real.
+      Você pode me convidar [para o seu servidor](https://discord.com/api/oauth2/authorize?{params}).
