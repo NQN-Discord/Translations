@@ -52,4 +52,4 @@ pt:
       one: "Concluída a importação de um adesivo"
       many: "Concluída a importação de %{count} adesivos"
 
-    search_future: "Para pesquisar por esses adesivos no futuro, use: \n>`%{prefix} pesquisa de adesivos %{name}.`"
+    search_future: "Para pesquisar por esses adesivos no futuro, use: \n>`%{prefix}sticker search %{name}.`"

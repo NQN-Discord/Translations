@@ -9,5 +9,5 @@ pt:
     removed: "Apelido excluido`:%{name}:`."
 
   search:
-    select_alias: "Selecciona un numero para convertir el emoji en un alias."
+    select_alias: "Selecione um número para transformar o emoji em um apelido."
     set_emote: "Atribuido:%{name}: a %{emote}"
