@@ -1,4 +1,4 @@
 pt:
-  short_doc: 'Defina o idioma dos bots %{locale_flag_emojis}'
+  short_doc: 'Defina o idioma do bot %{locale_flag_emojis}'
   help: |
-    Defina o idioma dos bots
+    Defina o idioma do bot
