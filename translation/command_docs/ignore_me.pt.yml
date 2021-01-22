@@ -1,5 +1,5 @@
 pt:
-  short_doc: 'Impeça o NQN de repostagem de suas mensagens'
+  short_doc: 'Impeça o NQN de repostar suas mensagens'
   help: |
     Executar este comando impede que o NQN reenvie qualquer uma de suas mensagens em qualquer servidor que você compartilhe com o bot.
     - Os comandos ainda estão habilitados, a execução deste comando novamente retorna você ao normal

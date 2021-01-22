@@ -11,7 +11,7 @@ pt:
   exported_short: "Aqui estão seus apelidos exportados:"
   exported_long: "Aqui estão seus aliases exportados: \nPara compartilhá-los com outras pessoas, eles precisam executar:\n> `%{prefix}importar apelido %{url}`"
 
-  import_incorrect: "seu comando é usado para importar uma lista de apelidos previamente exportada com `%{prefix}exportar apelido`.\nPara criar um apelido, use `%{prefix}procurar apelido`"
+  import_incorrect: "seu comando é usado para importar uma lista de apelidos previamente exportada com `%{prefix}exportar apelido`.\nPara criar um apelido, use `%{prefix}alias search`"
   import_text: "Este comando precisa de um anexo de arquivo de texto"
   import_lines_invalid: "Não foi possível definir apelidos nas linhas %{lines_invalid}, formato invalido."
   import_set:

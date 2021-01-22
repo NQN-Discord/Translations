@@ -1,4 +1,4 @@
 pt:
-  short_doc: 'Modifique as configurações de bots neste servidor'
+  short_doc: 'Modifique as configurações do bot neste servidor'
   help: |
-    Modifique as configurações de bots neste servidor
+    Modifique as configurações do bot neste servidor

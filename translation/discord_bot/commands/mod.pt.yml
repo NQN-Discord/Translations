@@ -10,9 +10,9 @@ pt:
     edited_audit: "%{author} editou o topico do %{channel} para:\n>>> %{description}"
 
   ban:
-    owner: "I cannot ban the owner!"
-    cannot_ban: "I cannot ban <@%{banee}>!"
-    you_cannot_ban: "You cannot ban <@%{banee}>!"
+    owner: "Eu não posso banir o dono!"
+    cannot_ban: "Eu não posso banir <@%{banee}>!"
+    you_cannot_ban: "Você não pode banir <@%{banee}>!"
     banned: "Banido <@%{banee}> (ID %{banee})"
 
     banned_audit: "%{author} baniu <@{banee}> (ID %{banee})"

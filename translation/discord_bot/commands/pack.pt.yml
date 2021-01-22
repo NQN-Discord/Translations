@@ -57,7 +57,7 @@ pt:
     not_registered: "%{name} não é um pacote de emote registrado"
     join_server: "juntar-se ao server"
     pack_empty: "Este pacote não tem emotes nele!"
-    join_pack: "junte-se ao `%{name}` e use todos esses emotes, use `% {prefix} juntar emote %{name}`"
+    join_pack: "junte-se ao `%{name}` e use todos esses emotes, use `%{prefix}pack join %{name}`"
 
   unpublish:
     not_published: "Este servidor não foi publicado antes."
