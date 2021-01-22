@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Modifique as configurações do bot neste servidor'
+  help: |
+    Modifique as configurações do bot neste servidor

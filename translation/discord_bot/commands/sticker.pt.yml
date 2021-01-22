@@ -1,0 +1,55 @@
+pt:
+  create:
+    attachment_needed: "Você precisa carregar um adesivo com este comando"
+    image_needed: "O arquivo precisa ser uma imagem"
+    sticker_exists: "Um adesivo chamado %{name} já existe!"
+    filename_invalid: "`%{name}` não é um nome permitido para adesivos. Eles devem ser alfanuméricos, com uma extensão de arquivo alfanumérica."
+    too_large: "This file is too large. Stickers can only be 8MB"
+
+    created: "Agora você pode usar `:%{name}:`\nNão muito certo?\n`%{prefix}renomear adesivo %{name} novo_nome.%{ext}`"
+
+  mine:
+    no_stickers: "Você não tem adesivos"
+
+  delete:
+    no_sticker: "- :%{name}: - Não existe ou não é seu"
+    sticker_deleted: "+ :%{name}:"
+    question:
+      zero: "Sem adesivos para excluir!"
+      one: "Quer excluir este adesivo?"
+      many: "Deseja excluir todos os adesivos de %{count}?"
+    deleted_all:
+      one: "Excluído %{count} adesivo"
+      many: "Excluído %{count} adesivo"
+
+  rename:
+    filename_invalid: "`%{name}` não é um nome permitido para adesivos. Eles devem ser alfanuméricos, com uma extensão de arquivo alfanumérica."
+    no_sticker: "Este adesivo não existe"
+    permission_denied: "Você não pode renomear o adesivo de outra pessoa!"
+    destination_taken: "O nome do destino já foi escolhido!"
+
+    renamed: "Renomeado :%{old}:para :%{new}:"
+
+  search:
+    no_stickers: "Nenhum adesivo encontrado"
+
+  sticker_import:
+    filename_invalid: "`%{name}` não é um nome permitido para adesivos. Eles devem ser alfanuméricos, com uma extensão de arquivo alfanumérica."
+    find_emote: "encontre um emote para se transformar em um adesivo!"
+
+    created: "Agora você pode usar `:%{name}:`"
+    sticker_exists: "Um adesivo chamado `:%{name}:` já existe; você não pode substituí-lo."
+
+  telegram_import:
+    pack_invalid: "`%{name}` não é um nome de pacote de adesivos do Telegram válido "
+    telegram_unloaded: "O pacote do Telegram não foi carregado - informe a um desenvolvedor de bot."
+    already_created: "Já criado por outra pessoa; não pode sobrescrever"
+
+    import_progress:
+      one: "%{count} adesivo importado de %{total}:\nPagina %{page} de %{total_pages}"
+      many: "%{count} adesivo importado de %{total}:\nPagina %{page} de %{total_pages}"
+    finished_importing:
+      one: "Concluída a importação de um adesivo"
+      many: "Concluída a importação de %{count} adesivos"
+
+    search_future: "Para pesquisar por esses adesivos no futuro, use: \n>`%{prefix}sticker search %{name}.`"

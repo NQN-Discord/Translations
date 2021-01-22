@@ -1,0 +1,11 @@
+pt:
+  cropped: "(Recortado)"
+  nsfw_censored: "<Censurado; %{channel} é NSFW>"
+
+  message_posted: |
+    Mensagem postada no %{channel} de %{author} %{cropped}
+    [Jump Link](%{jump_url})
+  message_edited: |
+    Mensagem editada em %{channel} por %{author} %{cropped}
+    [Ir ao link](%{jump_url})
+  audit_log_post: "NQN em nome de %{author} (%{id})"

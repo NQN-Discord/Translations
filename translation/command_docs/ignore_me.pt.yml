@@ -1,0 +1,7 @@
+pt:
+  short_doc: 'Impeça o NQN de repostar suas mensagens'
+  help: |
+    Executar este comando impede que o NQN reenvie qualquer uma de suas mensagens em qualquer servidor que você compartilhe com o bot.
+    - Os comandos ainda estão habilitados, a execução deste comando novamente retorna você ao normal
+    - Você ainda pode repassar mensagens por meio de nosso [painel](https://nqn.blue)
+    - O bot não responderá a nenhuma mensagem enviada por você que será postada novamente por meio de um webhook

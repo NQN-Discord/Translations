@@ -1,0 +1,64 @@
+pt:
+  join:
+    no_pack: "%{name} não é um pacote de emote registrado"
+    already_joined: "Você ja se juntou a %{name}"
+    joined_pack: "Entrou em %{name}. \nVocê agora pode usar os seguintes emotes digitando seu nome no chat, incluindo dois pontos:"
+
+  leave:
+    no_pack: "%{name} não é um pacote de emote registrado"
+    already_left: "Você não estava em %{name} de qualquer maneira"
+    left: "Esquerda %{name}"
+
+  meta:
+    needs_publishing: "Você não pode fazer isso sem primeiro publicar este servidor como um pacote de emote."
+
+  mine:
+    no_packs: "Você não tem pacotes!"
+
+  publish:
+    already_published: "Este servidor já está publicado como um pacote!"
+    already_exists: "Um pacote de emote chamado %{name} já existe"
+    published: "Pacote de emote publicado %{name}. Qualquer pessoa pode salvar esses emotes em seu próprio servidor, e você afirma ser o dono deles. Para desfazer isso, execute `%{prefix}cancelar publicação`."
+
+  rename:
+    already_exists: "Um pacote de emote chamado %{name} já existe"
+    not_published: "Este servidor não foi publicado antes."
+    renamed: "Renomeado %{old} para %{new}"
+
+  save:
+    none_left: "Depois de filtrar os emotes com o mesmo nome que os deste servidor, não sobrou nenhum para importar!"
+    no_space: "Não há espaço neste servidor para adicionar qualquer um dos emotes neste pacote."
+    failed_batch: |
+      O Discord só permite que os bots carreguem 50 emotes por hora.
+      NQN não foi capaz de fazer upload de todos os emotes neste lote, mas você pode executar este comando novamente em uma hora para fazer upload do resto
+    not_registered: "%{name} não é um pacote de emote registrado"
+
+    upload_question: "Fazer upload desses emoticons para este servidor? \n Se você não for o proprietário de todos esses emojis, escolha N."
+
+    uploaded:
+      one: "Carregado %{count} emote"
+      many: "Carregado %{count} emotes"
+
+  search:
+    invalid_group: "<pacote invalido - Por favor reporte>"
+    join_server: "(Entrar no servidor)"
+    join_text: "Junte-se a este pacote de emoticons com <:join:702970568101724331> ou:\n> %{prefix}juntar-se ao pacote %{name}\n\n"
+    no_longer_registered: "%{name} não é mais um pacote de emotes registrado"
+    already_joined: "<@%{author}> Ja se juntou a %{name}"
+    joined_short: "<@%{author}> Juntou-se a %{name}"
+    joined_long: "<@%{author}> Juntou-se a %{name}.\nEles agora podem usar os seguintes emotes digitando seu nome no chat, incluindo dois pontos:"
+
+  set_public:
+    needs_publishing: "Você não pode fazer isso sem primeiro publicar este servidor como um pacote de emote."
+    public_on: "Convite permitido via NqN."
+    public_off: "Convites desativados via NQN."
+
+  show:
+    not_registered: "%{name} não é um pacote de emote registrado"
+    join_server: "juntar-se ao server"
+    pack_empty: "Este pacote não tem emotes nele!"
+    join_pack: "junte-se ao `%{name}` e use todos esses emotes, use `%{prefix}pack join %{name}`"
+
+  unpublish:
+    not_published: "Este servidor não foi publicado antes."
+    unpublished: "Pacote de emote não publicado %{name}"

@@ -1,0 +1,19 @@
+pt:
+  no_alias: "Você não tem um apelido chamado :%{name}:"
+  could_not_find: "Não foi possível encontrar o apelido"
+  alphanumeric: "Os apelidos podem conter apenas alfanuméricos e sublinhados"
+  user_zero: "Você não tem apelidos"
+
+  deleted: "Apagado :%{name}:"
+  created: "<@%{author}> criou um apelido e pode usá-lo digitando:\n> :%{name}:"
+  renamed: "Renomeado :%{old}: para :%{new}:"
+
+  exported_short: "Aqui estão seus apelidos exportados:"
+  exported_long: "Aqui estão seus aliases exportados: \nPara compartilhá-los com outras pessoas, eles precisam executar:\n> `%{prefix}importar apelido %{url}`"
+
+  import_incorrect: "seu comando é usado para importar uma lista de apelidos previamente exportada com `%{prefix}exportar apelido`.\nPara criar um apelido, use `%{prefix}alias search`"
+  import_text: "Este comando precisa de um anexo de arquivo de texto"
+  import_lines_invalid: "Não foi possível definir apelidos nas linhas %{lines_invalid}, formato invalido."
+  import_set:
+    one: "Conunto %{count} apelidos."
+    many: "Definir %{count} apelidos."

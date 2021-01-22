@@ -1,0 +1,285 @@
+pt:
+  depreciated_commands:
+    renamed: |
+      Este comando foi renomeado para `%{prefix}%{new}`.
+      Se você não quiser ver esta mensagem novamente, reaja com ❌
+    ignored: "Ignorou `%{name}` para você."
+
+  edit:
+    never_posted: "Você nunca postou uma mensagem com NQN neste canal!"
+    cannot_edit_no_nqn: "Você não pode editar esta mensagem porque não é uma mensagem postada pelo NQN!"
+    cannot_edit_different_user: "Você não pode editar esta mensagem porque não foi postada por você!"
+
+  export:
+    exported_list_short: "Aqui estão seus emotes exportados:"
+    exported_list_long: |
+      Aqui estão seus emotes exportados
+      Para compartilhá-los com outras pessoas, eles precisam executar:
+      > `%{prefix}alias import %{url}`
+  ignore_me:
+    user_ignored: "NQN não irá mais reenviar suas mensagens. Execute este comando novamente para reativar"
+    user_unignored: "NQN irá reenviar suas mensagens normalmente"
+
+  ranking:
+    vote_link: "Você pode votar no bot em %{url} para adicionar mais emotes em todo o servidor e aumentar a classificação do servidor."
+    top_server: "Parabéns por ser o servidor que mais apoia <a:BluePat:679807864327766048>"
+    thanks: "Obrigado por votar no bot!"
+
+    ranking: |
+      %{guild} está classificado #%{rank} de todos os servidores usando NQN.
+      %{rank_leaderboard}
+      Você votou %{total_votes} vezes no NQN. %{thanks}
+      %{user_ranking}
+      %{extra_message}
+  search_all:
+    disclaimer: |
+      Este comando não permite que você use esses emotes!
+      É fornecido para permitir uma pesquisa fácil através dos disponíveis para serem adicionados com
+      > `%{prefix}alias search %{terms} pagina: %{page_no}`
+  tutorial:
+    invalid_page: "Existem apenas %{count} páginas no tutorial!"
+    permissions_missing: "Eu preciso ser capaz de escrever incorporações e adicionar reações para mostrar meu tutorial. Pode ser refeito com `%{prefix}tutorial`."
+
+    wrong_place: "Se eu escolhi o lugar errado para mostrar esta mensagem, você pode usar %{prefix}tutorial em um canal mais conveniente para executar este tutorial lá. Existem várias páginas para este tutorial; execute %{prefix}tutorial para mostrá-los após terem desaparecido"
+    default_emojis: "Default Emojis"
+    default_emoji_list: "Aqui está uma lista de todos os emotes animados que qualquer pessoa neste servidor pode usar por padrão - basta digitá-los manualmente, certificando-se de incluir: dois pontos: ao redor do nome do emote!"
+
+    page_0_title: "Tutorial para Not Quite Nitro, TLDR"
+    page_0_desc: |
+      %{locale_flag_emojis} **Opções de idioma** %{locale_flag_emojis}
+      > `%{prefix}server lenguage`
+    page_0_0_name: "Mais Emotes?"
+    page_0_0_desc: |
+      Todos podem usar qualquer emote que compartilhe um servidor com você e este bot.
+      **Existem várias outras maneiras de usar emotes em servidores nos quais você não está:**
+    page_0_1_name: "3\u20E3 pacotes de emote - Emote Bundles"
+    page_0_1_desc: "> `%{prefix}pack search`"
+    page_0_2_name: "4\u20E3 Apelidos - Emotes Individuais"
+    page_0_2_desc: "> `%{prefix}alias search EmotName`"
+
+    page_1_title: "Reagir às mensagens e excluí-las"
+    page_1_desc: "Você só pode reagir com emotes que pode usar com NQN."
+    page_1_0_name: "Reagindo à mensagem mais recente:"
+    page_1_0_desc: "> `%{prefix}react EmoteName`"
+    page_1_1_name: "Reagindo a mensagens recentes:"
+    page_1_1_desc: "> `%{prefix}react MessagesAgo EmoteName`\nIsso só funciona até 20 mensagens atrás."
+    page_1_2_name: "Reagindo a mensagens mais antigas:"
+    page_1_2_desc: "> `%{prefix}react IDMensagem EmoteName`"
+    page_1_3_name: "Excluindo mensagens"
+    page_1_3_desc: "Reaja às mensagens enviadas em seu nome com ❌ (\\:x:) para excluí-los."
+
+    page_2_title: "pacotes de emote"
+    page_2_desc: |
+      Os pacotes de emote são pacotes de emotes que vêm de servidores inteiros que decidiram publicar sua coleção de emote.
+      Participar de um pacote de emoticons permite que você use qualquer emote do pacote, embora qualquer pessoa possa usar emotes com :PackName-EmoteName:
+    page_2_0_name: "Entrando em pacotes de emote"
+    page_2_0_desc: |
+      Para pesquisar pacotes de emote, use `%{prefix}pack search` e clique <:join:702970568101724331> para obter acesso aos emoticons dentro.
+    page_2_1_name: "Encontrando os pacotes de emote em que você está"
+    page_2_1_desc: |
+      > `%{prefix}pack mine`
+      This command mostra uma lista de pacotes de emoticons dos quais você é membro, incluindo os nomes dos emotes em cada pacote.
+    page_2_2_name: "Publicar seus próprios pacotes"
+    page_2_2_desc: |
+      Se você tem **Gerenciar Servidor** permissões, você pode publicar seu próprio pacote de emote contendo todos os pacotes de emote do seu servidor:
+      > `%{prefix}pack publish MySuperCoolEmotePackName`
+      Você também pode tornar seu pacote publicamente disponivel com `%{prefix}pack set_public yes` para permitir que pessoas de outros servidores ingressem no seu com o bot, sem um convite.
+    page_3_title: "Apelidos"
+    page_3_desc: |
+      Apelidos são apenas emotes individuais aos quais você dá um nome, o que permite usar o emote por meio desse nome.
+      Se você souber o nome exato do emote que deseja adicionar:
+      > `%{prefix}alias search:EmoteName:`
+      Se você quiser examinar cada emote, o NQN pode permitir que você use:
+      > `%{prefix}procurar apelido tudo` (Sem dois-pontos se você não souber o nome exato)
+    page_3_0_name: "Exemplo de pesquisa:"
+    page_3_0_desc: |
+      > `%{prefix}alias search blob page: 5 animated: true`
+    page_4_title: "Responder a mensagens"
+    page_4_desc: |
+      NQN permite que você responda a mensagens enviadas há muito tempo.
+      Simplesmente copie o link da mensagem via Discord (o botão Compartilhar no celular e depois para a área de transferência) e cole-o em sua mensagem, e ele publicará a mensagem que você está respondendo também.
+      Se você não quiser que o bot repita o link de uma mensagem, pode colocá-lo em \ <\>, e o bot não postará novamente.
+      Se um administrador de servidor deseja desabilitar esta funcionalidade em todo o servidor, ele pode usar `%{prefix}server replies off`.
+    page_5_title: "URLs camufladas"
+    page_5_desc: |
+        O NQN permite que os usuários enviem [URLs camufladas] (% {url}) como parte de suas mensagens regulares.
+        Este usa marcação padrão, `[texto para mostrar](https://url.aqui)`.
+    page_6_title: "Adesivos"
+    page_6_desc: |
+      Se você sempre quis enviar imagens / adesivos / emotes grandes, você veio ao lugar certo.
+      Inspirado no Telegram, NQN traz adesivos para o Discord.
+      Você pode usá-los como se fosse um emote, exceto que os adesivos têm uma extensão de arquivo no final.
+      Cada mensagem pode conter até 10 adesivos.
+      Você pode criar stickers com `%{prefix}sticker create` e fazer o upload de um arquivo de imagem ou importando do Telegram.
+      Isso é feito com `% {prefix} telegrama de adesivos https: // t.me / addstickers / sticker-pack-here`.
+      Para pesquisar adesivos que você pode usar com NQN, use `%{prefix}sticker search` com termos de pesquisa opcionais.
+      Para visualizar seus adesivos, use `%{prefix}stickers mine`.
+      Observação - para usar adesivos do Telegram, você deve primeiro importá-los para o bot. O bot não faz isso automaticamente.
+    page_7_title: "Administração do Servidor"
+    page_7_desc: |
+      O NQN é altamente personalizável em termos de conjuntos de recursos, caso alguns deles não sejam apropriados para o seu servidor.
+      Qualquer pessoa com permissões de ** Gerenciar servidor ** pode alterar as configurações do servidor com o bot
+      Aqui estão os recursos que você pode alternar:
+       • Nitro - `${prefix}server nitro`
+       • Adesivo - `${prefix}server stickers`
+       • Respostas - `${prefix}server replies`
+       • Links camuflados - `${prefix}server masked_links`
+    page_7_0_name: "Resolução de problemas"
+    page_7_0_desc: |
+      Para funcionar corretamente, o NQN precisa das seguintes permissões em __cada__ canal em que deseja usar o Nitro:
+      **Gerenciar webhooks **, ** usar emojis externos **, ** adicionar reações **, ** ler mensagens ** e ** gerenciar mensagens**.
+    page_7_1_name: "Not Quite Nitro prefixos:"
+    page_7_1_desc: |
+      Qualquer pessoa com permissões de ** Gerenciar servidor ** pode alterar o prefixo que o NQN usa.
+      O prefixo atual do bot para comandos é `%{prefix}`, embora possa ser alterado com
+      > %{prefix}server prefix %{ping} ?
+      Isso mudaria para `?`, Embora qualquer prefixo funcione.
+      NQN * sempre * ouvirá seu ping, independentemente de outras configurações.
+    page_7_2_name: "Auditoria de mensagens"
+    page_7_2_desc: |
+      O NQN mantém um registro das mensagens que reenvia, à medida que a mensagem original é removida.
+      Isso ocorre no caso de alguém alterar seu nome e avatar antes de postar uma mensagem ofensiva ou se comportar mal ao usar o bot.
+      Para obter as mensagens auditadas para o servidor, use `%{prefix}audit guild` ou [visite nosso website] (% {url}), selecione seu servidor e clique na engrenagem no topo.
+      Apenas usuários com ** Gerenciar Servidor ** e ** Ver Registro de Auditoria ** podem visualizar as mensagens registradas.
+      Uma abordagem alternativa que permanece dentro do Discord é o Canal de Auditoria, que pode ser configurado com `%{prefix}server set_audit_channel #canal`.
+      Quaisquer mensagens reenviadas serão postadas lá com seu nome de usuário, origem e id de usuário atuais.
+    page_7_3_name: "Permissões:"
+    page_7_3_desc: |
+      O NQN requer a permissão do servidor 'Gerenciar Webhooks' para funcionar corretamente; repostagem de mensagens não funcionará sem isso.
+       • Para desabilitar o funcionamento dos comandos em um canal específico, negue as permissões NQN 'Enviar Mensagem' por meio das permissões do usuário.
+       • Para desabilitar a repostagem de mensagens em um canal específico, negue as permissões de NQN 'Gerenciar Webhook' por meio de permissões de usuário.
+       • Para desabilitar todas as interações em um canal específico, negue as permissões NQN 'Ler Mensagem' por meio das permissões do usuário.
+    page_7_4_name: "Coleta de informações:"
+    page_7_4_desc: |
+      O NQN armazena mensagens repostadas de forma que os usuários possam excluí-las e para o registro de auditoria.
+      Cada emote em seu servidor é visível por qualquer pessoa usando o bot e pode ser pesquisado, embora não possa ser vinculado ao seu servidor.
+      Certas estatísticas sobre como o bot é usado são coletadas para informar as escolhas de como melhorar o bot ainda mais, mas nunca incluirão mensagens genéricas enviadas por seus usuários.
+    page_8_title: "Usando emotes com NQN - Avançado"
+    page_8_desc: |
+      Se alguém usar um emote, o NQN permite que você o use também, mas apenas se tiver sido usado recentemente no servidor.
+      ** NOTA: ** Se você acabou de convidar NQN, ele não saberá sobre nenhum emote usado recentemente antes de ingressar.
+      No caso de você ter vários emotes com o mesmo nome, a seguinte ordem é usada:
+      1. Apelidos
+      2. O servidor atual
+      3. Pacotes de Emote
+      4. Outros servidores que você compartilha com NQN
+      5. Apelidos do servidor
+      6. Pacotes para servidores
+      7. Emojis usados recentemente no servidor atual
+      8. Pacotes mostrados recentemente no servidor atual
+      Se você tiver emoticons conflitantes, crie aquele que deseja usar como apelido e isso o substituirá.
+    table_of_contents: "Índice para o tutorial"
+
+  react:
+    id_large: "O ID da mensagem é muito grande"
+    not_found: "A mensagem neste canal com esse ID não existe"
+    nth_id: " mensagem deve ser um ID ou a `n`ésima mensagem mais recente (até 50)"
+    channel_empty: "Este canal está vazio"
+    invalid_react:
+      one: |
+        O seguinte emote não é válido:
+        > %{not_found}
+        Os emotes devem conter apenas alfanuméricos, sublinhados e até um único traço.
+      many: |
+        Os seguintes emotes não são válidos:
+        > %{not_found}
+        Os emotes devem conter apenas alfanuméricos, sublinhados e até um único travessão.
+    emote_unusable:
+      one: |
+        O seguinte emote não pode ser usado em reações:
+        > %{unusable}
+        Se você fizer o upload para um servidor em que o bot está, ele se tornará utilizável em reações!
+      many: |
+        Os seguintes emotes não podem ser usados em reações:
+        > %{unusable}
+        Se você enviar todos eles para um servidor em que o bot está, eles se tornarão utilizáveis em reações!
+    emote_not_found:
+      one: |
+        Não foi possível encontrar emote %{not_found}
+        Você o adicionou como um apelido com `%{prefix}alias search ou juntou o pacote de emote correspondente com `%{prefix}pack search`?
+      many: | 
+        Não foi possível encontrar emotes %{not_found}
+        Você adicionou todos os emotes como apelidos com `%{prefix}alias search` ou juntou os pacotes de emote correspondentes com `%{prefix}pack search`?
+    too_many_reacts:
+      one: "Esta mensagem tem muitas reações para adicionar uma nova! "
+      many: "Esta mensagem tem muitas reações para adicionar todas!"
+    blocked: "%{author} me bloqueou, então não posso adicionar essa reação!"
+    on_behalf: "NQN em nome de %{author} (%{author_id})"
+    audit_message: "%{author} reagiu a [esta mensagem](<%{jump_url}>) em %{channel} com estes emotes:\n"
+  info:
+    shard_data: |
+      > Sem fragmentos: %{shard_count} (%{shards_down} baixa)
+      > Latência média: %{average_latency}ms
+      > Fragmento atual: %{current_shard}
+      > Fragmento atual latency: %{current_latency}ms
+    process_data: |
+      > Uso de RAM: %{ram_usage}
+      > utilização do CPU: %{cpu_usage}%
+      > Network:
+      > - enviado: %{network_send}
+      > - Recebido: %{network_recv}
+    elasticsearch_metadata: |
+      > Uso de RAM: %{ram_usage}
+      > Espaço do disco: %{disk_use}
+      > Rede total: %{bytes_sent}
+    description: |
+      Autor: %{owner}
+      Nome da Aplicação: %{app_name}
+      Comando de ajuda: `%{prefix}help`
+    bot_metadata: |
+      > Tempo de atividade: %{uptime}
+      > Emotes do servidor: %{alias_servers_available} / %{alias_servers_total}
+      > Servidores carregados: %{guilds_loaded} / %{guilds}
+    guild_features:
+      zero: ""
+      one: |
+        > Recurso de servidor: %{guild_features}
+      many: |
+        > Server Features: %{guild_features}
+    bot_credits: |
+      [Avatar de bot e arte de Wumpus de Dooley](https://www.dooleytm.com/) de [Wump Motes](https://discord.gg/pEjCBNF)
+      __Agradecimentos especiais para as seguintes pessoas:__
+      > <:OriLove:726475603879919616> OrionVi
+      > <:OtterMask:726476220174172267> Ben
+      > <:AetherSmile:726474477956759553> Aether Wake
+      __Créditos de tradução:__
+    es: "Spanish:"
+    es_people: |
+      > <:OriLove:726475603879919616> OrionVi
+      > <:AetherSmile:726474477956759553> Aether Wake
+    ru: "Russian:"
+    ru_people: |
+      > <:drink:741041666705588255> Трокс
+      > <:artemD3V:752244457738469396> artemD3V
+    bot_stats: "Estatísticas do Discord Bot"
+    shard_info_name: "Informações sobre fragmentos"
+    process_data_name: "Dados de processo do bot"
+    elasticsearch_data_name: "Elasticsearch data"
+    package_info_name: "Informação do pacote"
+    bot_metadata_name: "Metadados de bots"
+    credits: "Creditos"
+    author: "Autor"
+    bot_latency: "> API/Bot Latencia: %{bot_latency}ms"
+    help_command: "Comando de ajuda: `%{prefix}help`"
+  upload_emote:
+    note: "Para adicionar um emote a este servidor, clique no ícone correspondente "
+    size_invalid: "O número de emotes em um lado deve estar entre 1 e 4"
+    vote_locked: |
+      Como esse comando usa um tempo computacional considerável, ele foi bloqueado na votação do bot em top.gg.
+      Para ter acesso a ele por 12 horas, vote em mim aqui:
+      %{url}
+    alphanumeric: " - Deve ser alfanumérico com sublinhados"
+    size: " - Deve ter entre 1 e 32 caracteres"
+    filesize: " - Deve ter menos de 256 KB"
+    image: " - Deve ser uma imagem"
+    bad_name: "O nome do emote está incorreto:\n"
+    bad_attachment: "O emote anexado não é válido:\n"
+    more_animated_needed: "Este servidor terá atingido seu limite de emoticons animados, pois requer %{size}. EXcluir %{delete} e tente de novo"
+    more_static_needed: "Este servidor terá atingido seu limite de emotes estáticos, pois requer %{size}. Excluir %{delete} e tente de novo"
+    too_quick: "Emotes estão sendo criados muito rapidamente, tente novamente em algumas horas (Error code '%{e}')"
+    batch_failed: "Não foi possível criar lote de emote de uma vez"
+    this_emote: "Este é o emote que você quis dizer?"
+    emote_preview: "Está tudo bem? \nSe você ** NÃO ** é o proprietário deste emoji, ou não tem permissão para distribuí-lo, selecione ❎."
+    created_emotes: "Emotes criados!"
+  vote_opt_out:
+    success: "Optou com sucesso por não votar mensagens diretas"

@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Adicionar emojis animados aos tópicos do canal'
+  help: |
+   Altera a descrição do canal, permitindo emojis animados neles também

@@ -8,15 +8,16 @@ from discord.ext.commands import Context
 
 class Translator:
     locales = {
-            "en": "en",
-            "gb": "en",
-            "us": "en",
-            "uk": "en",
-            "es": "es",
-            "ru": "ru",
-            "hi": "hi",
-            "fr": "fr"
-        }
+        "en": "en",
+        "gb": "en",
+        "us": "en",
+        "uk": "en",
+        "es": "es",
+        "ru": "ru",
+        "hi": "hi",
+        "fr": "fr",
+        "pt": "pt"
+    }
 
     flags = {
         "gb": "English",
@@ -25,7 +26,7 @@ class Translator:
     }
 
     flag_emojis = {flag: "".join(chr(0x1f185+ord(c)) for c in flag) for flag in flags}
-    hidden_locales = ["owo", "hi", "fr"]
+    hidden_locales = ["owo", "hi", "fr", "pt"]
 
     def __init__(self, get_locale: Callable[[Guild], Awaitable[str]]):
         self.get_locale = get_locale

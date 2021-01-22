@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Mostra esta mensagem'
+  help: |
+    Mostra esta mensagem

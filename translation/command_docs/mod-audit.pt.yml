@@ -1,0 +1,7 @@
+pt:
+  short_doc: 'Obtenha registros de auditoria para mensagens repostadas para este canal'
+  help: |
+    Obtenha registros de auditoria para mensagens repostadas para este canal
+    Opcional[Canal] -> Filtrar registros apenas para este canal
+    Opcional[Membro] -> Filtrar registro apenas para este membro
+    Se o canal e os membros não forem filtrados, use 'audit guild'
