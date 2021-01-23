@@ -202,7 +202,7 @@ es:
       5. Alias del servidor
       6. Packs del servidor
       7. Emojis recientemente usados en el servidor
-      8. Packs recientemente mostrados en el servidor
+      8. Packs recientemente vistos en el servidor
 
 
       Si te encuentras con conflictos entre los nombres de emojis, crea el que quieras usar como alias, y esto lo va sobrescribir.
@@ -304,6 +304,10 @@ es:
     ru_people: |
       > <:drink:741041666705588255> Трокс
       > <:artemD3V:752244457738469396> artemD3V
+
+    pt: "Portugués:"
+    pt_people: |
+      > <:KingKiller:800410618074628146> KingKiller
 
     bot_stats: "Estadísticas del Bot de discord."
     shard_info_name: "Shard Info"

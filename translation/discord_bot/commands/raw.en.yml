@@ -300,6 +300,10 @@ en:
       > <:drink:741041666705588255> Трокс
       > <:artemD3V:752244457738469396> artemD3V
 
+    pt: "Portuguese:"
+    pt_people: |
+      > <:KingKiller:800410618074628146> KingKiller
+
     bot_stats: "Discord Bot Statistics"
     shard_info_name: "Shard Info"
     process_data_name: "Bot process data"
