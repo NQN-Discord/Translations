@@ -43,6 +43,13 @@ es:
     El dueño del bot o el equipo de moderación global te ha bloqueado el uso del bot debido al abuso de este.
     No puedes utilizar ni los comandos o ni ninguna funcionalidad del bot.
 
+  user_spammed: |
+    Tu habilidad de usar del bot ha sido temporalmente bloqueado debido a la detección automática de spam.
+    Este mensaje sera enviado como mucho una vez al día, y no existe manera para apelar este bloqueo.
+
+    Tu habilidad de usar el bot será restaurada dentro de **5 minutos**
+
+
   support_server: |
     Puedes unirte a mi servidor de soporte aquí:
     http://discord.gg/XvzDPca
