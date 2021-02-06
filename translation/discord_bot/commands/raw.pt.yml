@@ -243,14 +243,20 @@ pt:
       > <:OtterMask:726476220174172267> Ben
       > <:AetherSmile:726474477956759553> Aether Wake
       __Créditos de tradução:__
-    es: "Spanish:"
+    es: "Espanhol:"
     es_people: |
       > <:OriLove:726475603879919616> OrionVi
       > <:AetherSmile:726474477956759553> Aether Wake
-    ru: "Russian:"
+      
+    ru: "Russo:"
     ru_people: |
       > <:drink:741041666705588255> Трокс
       > <:artemD3V:752244457738469396> artemD3V
+     
+    pt: "Português:"
+    pt_people: |
+      > <:KingKiller:800410618074628146> KingKiller
+ 
     bot_stats: "Estatísticas do Discord Bot"
     shard_info_name: "Informações sobre fragmentos"
     process_data_name: "Dados de processo do bot"
