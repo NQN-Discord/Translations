@@ -34,7 +34,7 @@ ms:
     no_stickers: "Tiada pelekat dijumpai"
 
   sticker_import:
-    filename_invalid: "Nama `%{name}` tidak dibenarkan bagi pelekat. Namanya mesti ditulis dalam format abjad angka, dengan sambungan fail abjad angka.
+    filename_invalid: "Nama `%{name}` tidak dibenarkan bagi pelekat. Namanya mesti ditulis dalam format abjad angka, dengan sambungan fail abjad angka."
     find_emote: "cari emoji untuk diubah menjadi satu pelekat!"
 
     created: "Anda kini boleh menggunakan `:%{name}:`"
