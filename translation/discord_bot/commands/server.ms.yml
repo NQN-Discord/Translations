@@ -1,0 +1,126 @@
+ms:
+  alias:
+    set_emote_title: "Tetapkan :%{name}: kepada %{emote} bagi pelayan ini."
+    set_emote_description:
+      zero: |
+        Pelayan ini telah mencapai had emoji!
+        Untuk lebih alias, sesiapa sahaja boleh mengundi untuk bot ini di%{url}
+
+        Sesiapa sahaja boleh menggunakan emoji ini dengan menaip:
+      one: |
+        Pelayan ini mempunyai satu ruang emoji sahaja sebelum mencapai hadnya.
+        Untuk lebih alias, sesiapa sahaja boleh mengundi untuk bot ini di%{url}
+
+        Sesiapa sahaja boleh menggunakan emoji ini dengan menaip:
+      many: |
+        Pelayan ini mempunyai %{count} ruang emoji lagi sebelum mencapai hadnya.
+        Untuk lebih alias, sesiapa sahaja boleh mengundi untuk bot ini di%{url}
+
+        Sesiapa sahaja boleh menggunakan emoji ini dengan menaip:
+
+    max_title: "Pelayan ini telah mencapai had emoji/pek!"
+    max_description: |
+      :%{name}: tidak ditambah sebagai emoji pelayan.
+
+      Untuk lebih alias/pek, sesiapa sahaja boleh mengundi untuk bot ini di %{url}
+
+    no_alias: "Pelayan ini tidak mempunyai alias %{name}"
+    renamed: "Menamakan semula %{emote} dari :%{name}: kepada :%{new}:"
+
+  nitro_role:
+    unset: "Sesiapa dalam pelayan ini boleh menggunakan emoji Nitro secara percuma dengan NQN"
+    set: "Kini hanya pengguna dengan peranan %{role} boleh menggunakan emoji Nitro secara percuma dengan NQN"
+
+  audit_channel:
+    unset: "Nyahtetap saluran audit bagi pelayan ini"
+    set: "Tetapkan saluran audit bagi pelayan ini kepada %{channel}"
+    no_webhooks: "Saya tidak boleh menghantar webhook ke %{channel}.\nTolong berikan saya keizinan 'Urus Webhooks' di sana!"
+
+  boost_channel:
+    unset: "Nyahtetap saluran peratanan bagi pelayan ini"
+    set: "Tetapkan saluran peratanan bagi pelayan ini ke %{channel}"
+
+  boost_role:
+    unset: "Nyahtetap peranan peratanan bagi pelayan ini"
+    set: "Tetapkan peranan peratanan bagi pelayan ini ke %{role}"
+
+  boolean_options:
+    stickers_on: "Pelekat didayakan"
+    stickers_off: "Pelekat dinyahdayakan"
+
+    nitro_on: "Penggunaan Nitro secara percuma telah didayakan bagi pelayan ini!"
+    nitro_off: "Penggunaan Nitro secara percuma telah dinyahdayakan bagi pelayan ini"
+
+    replies_on: "Pembalasan mesej didayakan"
+    replies_off: "Pembalasan mesej dinyahdayakan"
+
+    masked_links_on: "Penggunaan URL terlindung didayakan"
+    masked_links_off: "Penggunaan URL terlindung dinyahdayakan"
+
+    pings_on: "Dencingan dalam mesej yang dihantar semula didayakan"
+    pings_off: "Dencingan dalam mesej yang dihantar semula dinyahdayakan"
+
+  link:
+    no_animated_emotes: |
+      Pelayan ini tidak mempunyai emoji beranimasi!
+      Anda hanya boleh memautkan emoji beranimasi dengan perintah ini.
+    too_many_static: "Pelayan ini mempunyai terlalu banyak emoji kaku! Cuba hapuskan beberapa darinya terdahulu."
+    animated_only: "Perintah ini hanya berfungsi dengan emoji beranimasi - ia membuatnya tersedia dalam dialog pemilih emoji bagi pengguna tanpa Nitro!"
+
+    emote_not_found: "Tidak dapat menjumpai emoji itu! Cuba tetapkan alias dengan `%{prefix}alias search`"
+    upload_later: "Tidak dapat memuat naik emoji; sila cuba lagi dalam beberapa jam"
+
+    choose_emote: "Pilih emoji untuk mencipta pautan emoji kaku baginya:"
+    create_static: "Cipta emoji kaku?"
+    create_static_emote: "Cipta emoji kaku bagi %{emote}?"
+
+    uploaded: "Berjaya memuat naik %{uploaded}!"
+    uploaded_emote: "Berjaya memuat naik %{uploaded}!\nGunakannya untuk menggunakan %{emote}"
+
+  pack:
+    no_pack: "%{name} bukan satu pek emoji berdaftar"
+    joined: "Berjaya melanggan %{name}.\nSesiapa sahaja dalam pelayan ini kini boleh menggunakan emoji berikut dengan menaip namanya ke dalam ruang perbualan termasuk noktah bertindih:"
+
+    max_title: "Pelayan ini telah mencapai had pek/emoji!"
+    max_description: ":%{name}: tidak ditambah ke dalam pek pelayan.\n\nUntuk lebih alias/pek, sesiapa sahaja boleh mengundi untuk bot ini di %{url}"
+
+    left_pack: "Telah menarik diri dari melanggan %{name}"
+    not_in_pack: "Pelayan ini tidak melanggan %{name} pun"
+
+  prefix:
+    instructions: "Untuk menetapkan awalan perintah saya, sebut saya sebelum awalan yang dimahukan untuk mengelakkan perubahan yang tidak dimahukan.\n> %{prefix}server prefix %{me} %{new}"
+    no_colon_prefix: "NQN tidak menyokong awalan yang bermula dengan noktah bertindih (:)"
+    no_slash_prefix: "NQN tidak menyokong awalan yang bermula dengan garis condong (/)"
+
+    set_prefix: "Tetapkan awalan saya kepada `%{prefix}`"
+
+  language:
+    choose: "Pilih bahasa baharu saya:"
+    set: "Tetapkan bahasa saya kepada Bahasa Melayu bagi pelayan ini"
+
+  config:
+    enabled: "Didayakan"
+    disabled: "Dinyahdayakan"
+    prefix: "Awalan"
+
+    announcement: "Saluran pengumuman"
+    boost_channel: "Saluran peratanan"
+    boost_role: "Peranan peratanan"
+    audit_channel: "Saluran audit"
+    nitro_role: "Peranan Nitro"
+
+    stickers: "Pelekat"
+    nitro: "Nitro"
+    replies: "Pembalasan"
+    masked: "URL Terlindung"
+    pings: "Dencingan"
+
+    invite: "Pautan Jemputan"
+    pack: "Nama Pek"
+    public: "Awam"
+    member_count: "Ahli"
+
+    settings: "Tetapan"
+    channels: "Saluran"
+    features: "Ciri-ciri"
+    pack_info: "Maklumat Pek"
