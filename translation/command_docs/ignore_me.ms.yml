@@ -1,0 +1,7 @@
+ms:
+  short_doc: 'Hentikan NQN daripada menghantar semula mesej anda'
+  help: |
+    Dengan menjalankan perintah ini, NQN akan berhenti menghantar semula apa-apa mesej anda di mana-mana pelayan bersama bot ini.
+    - Perintah masih didayakan, menjalankan perintah ini sekali lagi akan mengubah semula tetapan ke asal
+    - Anda masih boleh menghantar semula mesej melalui [papan pemuka](https://nqn.blue) kami
+    - Bot ini tidak akan memberi apa-apa respon ke atas mesej anda yang akan dihantar semula melalui satu webhook
