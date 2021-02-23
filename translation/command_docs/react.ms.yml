@@ -1,0 +1,8 @@
+ms:
+  short_doc: 'Tambah reaksi ke mesej dengan emoji menggunakan NQN'
+  help: |
+    Tambah reaksi ke mesej ke-`n` paling terbaharu
+    Mesej pilihan: ID atau pautan mesej sasaran atau mesej ke-`n` paling terbaharu (hingga ke-20)
+    Perintah ini membenarkan input sesenarai reaksi, setiap darinya akan ditambah mengikut aturan yang ditetapkan.
+    Untuk tambah reaksi ke sesuatu mesej dalam saluran lain gunakan pautan mesej.
+

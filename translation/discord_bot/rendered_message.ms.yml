@@ -1,0 +1,11 @@
+ms:
+  great: "Hebat!"
+  first_message: |
+    Anda baru sahaja mula menggunakan NQN!
+    Anda akan boleh menggunakan emoji beranimasi di pelayan ini, dan tambah mana-mana emoji dari pelayan lain yang anda kongsi bersama saya.
+    Jika anda mahu mencari lebih lagi emoji, gunakan perintah `%{prefix}tutorial` dan tatal ke halaman 3.
+
+  oops: "Alamak!"
+  external_emojis: "Untuk menggunakan emoji dari pelayan luar, peranan @everyone perlukan keizinan untuk 'Guna Emoji Luar' bagi kedua-dua Keizinan Tetapan Pelayan dan Tetapan Saluran."
+
+  download: "Muat Turun"

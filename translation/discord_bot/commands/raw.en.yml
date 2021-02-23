@@ -157,7 +157,7 @@ en:
     page_7_1_desc: |
       Anyone with **Manage Server** permissions can change the prefix NQN uses.
 
-      The bot's current prefix for commands is `%{prefix}`, though it can be changed with with
+      The bot's current prefix for commands is `%{prefix}`, though it can be changed with
       > %{prefix}server prefix %{ping} ?
       This would change it to `?`, though any prefix works.
 

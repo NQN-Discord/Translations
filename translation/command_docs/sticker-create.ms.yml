@@ -1,0 +1,10 @@
+ms:
+  short_doc: 'Cipta pelekat daripada satu fail'
+  help: |
+    Cipta satu pelekat daripada satu fail
+    Muat naik satu gambar dan gunakan perintah ini untuk mengubahnya menjadi satu pelekat.
+    Nama pelekat tersebut akan ditentukan berdasarkan nama failnya, atau apa-apa yang anda tulis. `sticker create PetiBiru.png` sebagai contoh.
+    Nama pelekat adalah unik bagi seluruh perbendaharaan NQN, selepas satu nama diambil ia akan hilang.
+    Pelekat tidak boleh lebih besar dari 8MB, dan namanya mesti dalam bentuk abjad angka.
+    Pelekat juga perlukan sambungan fail, juga dalam bentuk abjad angka sahaja.
+

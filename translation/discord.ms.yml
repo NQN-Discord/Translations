@@ -1,0 +1,38 @@
+ms:
+  ext.commands.help:
+    need_emojis: " - Saya perlukan ini untuk menggunakan emoji!"
+    need_everyone_external: " - @everyone memerlukan ini agar saya boleh menggunakan emoji!"
+    need_help: " - Saya perlukan ini bagi perintah bantuan (`%{prefix}help`)!"
+    nothing: ""
+
+    please_give: "Saya tidak dapat berfungsi dengan sempurna tanpa ini!"
+
+    nqn_help: "Bantuan NQN"
+    my_prefix: |
+      Awalan saya bagi perintah ialah `%{prefix}`
+      Tambah reaksi ❌ (\:x:) untuk menghapuskan mesej yang dihantar semula!
+    slash_command_beta: |
+
+      Cuba **[Beta Perintah Garis Condong](%{invite_url})** baharu kami
+
+    categories: "Kategori"
+    everything_else: "Selainnya"
+    really_useful: "Perintah Berguna"
+
+    useful_links: "Pautan Berguna:"
+    website: "Laman Sesawang"
+    vote: "Undi!"
+    support: "Bantuan"
+    emote_list: "Emoji Saya"
+
+    top_gg_vote: "Dengan mengundi saya di [top.gg](https://top.gg/bot/559426966151757824/vote) anda akan bantu menjadikan bot ini lebih baik dengan meningkatkan keterlihatan kami sejurusnya memperluaskan perbendaharaan emoji kami apabila menyertai pelayan baharu."
+    bfd_vote: "Dengan memberi undi naik kepada saya di [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) keterlihatan  kami akan ditingkatkan. Dengan setiap pelayan baharu yang saya sertai, perbendaharaan emoji saya akan terus berkembang."
+
+    what_is: "Apakah itu Not Quite Nitro?"
+    bot_description: |
+      Not Quite Nitro merupakan satu bot kemudahan serbaguna yang membenarkan sesiapa sahaja untuk menggunakan emoji Nitro.
+      Kami mempunyai satu perbendaharaan emoji unik yang amat besar yang anda boleh gunakan di mana-mana pelayan yang mempunyai bot ini dengan keizinan Urus Webhook.
+
+      NQN juga membenarkan petikan automatik apabila seorang pengguna menghantar satu pautan mesej, penggunaan terlindung dalam perbualan dan pelekat, yang merupakan emoji bersaiz penuh.
+
+      Anda boleh menjemput saya [ke pelayan anda](https://discord.com/api/oauth2/authorize?{params}).
