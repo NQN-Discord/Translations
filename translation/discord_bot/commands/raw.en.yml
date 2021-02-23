@@ -340,8 +340,15 @@ en:
     batch_failed: "Couldn't create emote batch all at once"
 
     this_emote: "Is this the emote you meant?"
-    emote_preview: "Is this alright?\nIf you are **NOT** the owner of this emoji, or do not have permission to distribute it, select ❎."
-    created_emotes: "Created emotes!"
+    emote_preview: |
+      Is this alright?
+      If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select ❎.
+    created_emotes: "Created emote!"
+
+    also_upload_static: |
+      Would you also like to upload a static version of this emoji?
+      Users without Nitro can use it from the emoji picker to send %{e}
+
 
   vote_opt_out:
     success: "Successfully opted out of vote DMs"
