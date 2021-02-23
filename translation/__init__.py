@@ -17,7 +17,8 @@ class Translator:
         "hi": "hi",
         "fr": "fr",
         "pt": "pt",
-        "br": "pt"
+        "br": "pt",
+        "ms": "ms"
     }
 
     flags = {
@@ -28,7 +29,7 @@ class Translator:
     }
 
     flag_emojis = {flag: "".join(chr(0x1f185+ord(c)) for c in flag) for flag in flags}
-    hidden_locales = ["owo", "hi", "fr"]
+    hidden_locales = ["owo", "hi", "fr", "ms"]
 
     def __init__(self, get_locale: Callable[[Guild], Awaitable[str]]):
         self.get_locale = get_locale
