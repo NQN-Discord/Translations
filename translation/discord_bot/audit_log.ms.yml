@@ -1,0 +1,13 @@
+ms:
+  cropped: "(Dipangkas)"
+  nsfw_censored: "<Ditapis; %{channel} adalah NSFW>"
+
+  message_posted: |
+    Mesej dihantar dalam %{channel} oleh %{author} %{cropped}
+    [Pautan Loncatan](%{jump_url})
+
+  message_edited: |
+    Mesej disunting dalam %{channel} oleh %{author} %{cropped}
+    [Pautan Loncatan](%{jump_url})
+
+  audit_log_post: "NQN bagi pihak %{author} (%{id})"

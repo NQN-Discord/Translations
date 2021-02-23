@@ -1,0 +1,13 @@
+ms:
+  create:
+    invalid_alias: "Nama tidak sah untuk alias!"
+    not_found: "Tidak menemui emoji untuk ditambah."
+    no_access: "Saya tidak mempunyai akses kepada emoji itu!"
+
+  delete:
+    no_aliases: "Tiada alias ditemui!"
+    removed: "Telah menghapuskan alias `:%{name}:`."
+
+  search:
+    select_alias: "Pilih satu nombor untuk mengaliaskan emoji itu."
+    set_emote: "Tetapkan :%{name}: kepada %{emote}"

@@ -1,0 +1,347 @@
+ms:
+  depreciated_commands:
+    renamed: |
+      Perintah ini telah dinamakan semula kepada `%{prefix}%{new}`.
+      Jika anda tidak mahu melihat mesej ini lagi, tambah reaksi ❌
+    ignored: "Telah mengabaikan `%{name}` bagi anda."
+
+  edit:
+    never_posted: "Anda tidak pernah menghantar apa-apa mesej menggunakan NQN dalam saluran ini!"
+    cannot_edit_no_nqn: "Anda tidak boleh menyunting mesej ini kerana ia bukan mesej yang dihantar NQN!"
+    cannot_edit_different_user: "Anda tidak boleh menyunting mesej ini kerana ia bukan mesej anda!"
+
+  export:
+    exported_list_short: "Berikut merupakan emoji anda yang telah dieksport:"
+    exported_list_long: |
+      Berikut merupakan emoji anda yang telah dieksport
+      Untuk mengongsikannya bersama orang lain, mereka perlu menjalankan perintah:
+      > `%{prefix}alias import %{url}`
+
+  ignore_me:
+    user_ignored: "NQN akan berhenti menghantar semula mesej anda. Jalankan perintah ini sekali lagi untuk mendayakannya semula"
+    user_unignored: "NQN akan menghantar semula mesej anda seperti biasa"
+
+  ranking:
+    vote_link: "Anda boleh mengundi untuk bot ini di %{url} untuk menambah lebih emoji seluruh pelayan dan meningkatkan kedudukan pelayan."
+    top_server: "Tahniah atas kejayaan dalam menjadi pelayan paling kuat menyokong <a:BluePat:679807864327766048>"
+    thanks: "Terima kasih kerana mengundi bot ini!"
+
+    ranking: |
+      %{guild} kini berada pada tangga #%{rank} daripada semua pelayan yang menggunakan NQN.
+
+      %{rank_leaderboard}
+      Anda telah mengundi sebanyak %{total_votes} kali untuk NQN. %{thanks}
+
+      %{user_ranking}
+
+      %{extra_message}
+
+  search_all:
+    disclaimer: |
+      Perintah ini tidak membenarkan anda untuk menggunakan emoji ini!
+      Anda perlu memudahkan penggelintaran bagi semua yang tersedia untuk ditambahkan
+      > `%{prefix}alias search %{terms} page: %{page_no}`
+
+  tutorial:
+    invalid_page: "Hanya ada %{count} halaman dalam tutoran ini!"
+    permissions_missing: "Saya perlu dibenarkan untuk mencipta pembubuhan dan menambah reaksi untuk memaparkan tutoran saya. Ia boleh dijalankan semula dengan perintah `%{prefix}tutorial`."
+
+    wrong_place: "Jika saya memilih tempat yang salah untuk menghantar mesej ini, anda boleh gunakan %{prefix}tutorial dalam saluran yang lebih sesuai untuk menjalankan tutoran di sana. Terdapat beberapa halaman dalam tutoran ini; jalankan %{prefix}tutorial untuk memaparkannya setelah mesej tersebut telah hilang."
+    default_emojis: "Emoji Lalai"
+    default_emoji_list: "Berikut merupakan emoji beranimasi yang sesiapa sahaja dalam pelayan ini boleh menggunakan secara lalai - taipkan nama emoji tersebut seperti biasa, dan pastikan :noktah_bertindih: disertakan sebelum dan selepas nama emoji tersebut!"
+
+    page_0_title: "Ringkasan Tutoran Not Quite Nitro"
+    page_0_desc: |
+      %{locale_flag_emojis} **Pilihan Bahasa** %{locale_flag_emojis}
+      > `%{prefix}server language`
+    page_0_0_name: "Lebih Emoji?"
+    page_0_0_desc: |
+      Semua orang boleh menggunakan mana-mana emoji dari pelayan yang dikongsikan bersama bot ini.
+      **Terdapat memerapa cara lain untuk menggunakan emoji dari sesuatu pelayan yang anda belum sertai:**
+    page_0_1_name: "3\u20E3 Pek emoji - Berkas Emoji"
+    page_0_1_desc: "> `%{prefix}pack search`"
+    page_0_2_name: "4\u20E3 Alias - Emoji Berasingan"
+    page_0_2_desc: "> `%{prefix}alias search NamaEmoji`"
+
+    page_1_title: "Menambah reaksi kepada mesej dan membuangnya"
+    page_1_desc: "Anda hanya boleh menambah reaksi menggunakan emoji yang anda boleh gunakan dengan NQN."
+    page_1_0_name: "Menambah reaksi kepada mesej terbaharu:"
+    page_1_0_desc: "> `%{prefix}react NamaEmoji`"
+    page_1_1_name: "Menambah reaksi kepada mesej keberapa terbaharu:"
+    page_1_1_desc: "> `%{prefix}react MessagesAgo NamaEmoji`\nPerintah ini hanya boleh dijalankan terhadap sebanyak 20 mesej yang lalu sahaja."
+    page_1_2_name: "Menambah reaksi kepada mesej lama:"
+    page_1_2_desc: "> `%{prefix}react MessageID NamaEmoji`"
+    page_1_3_name: "Menghapus mesej"
+    page_1_3_desc: "Tambah reaksi ❌ (\\:x:) kepada mesej yang dihantar bagi pihak anda untuk menghapuskannya."
+
+    page_2_title: "Pek emoji"
+    page_2_desc: |
+      Pek emoji merupakan berkas emoji dari pelayan lain yang telah menerbitkan koleksi emojinya.
+      Dengan melanggan sesuatu pek emoji, anda boleh menggunakan mana-mana emoji dari pek tersebut, namun sesiapa sahaja boleh menggunakannya dengan :NamaPek-NamaEmoji:
+    page_2_0_name: "Melanggan pek emoji"
+    page_2_0_desc: |
+      Untuk mencari pek emoji, gunakan perintah `%{prefix}pack search` dan tekan <:join:702970568101724331> untuk memperolehi akses kepada emojinya.
+    page_2_1_name: "Mencari pek emoji langganan anda"
+    page_2_1_desc: |
+      > `%{prefix}pack mine`
+      Perintah ini memaparkan senarai pek emoji yang anda telah langgani, termasuk nama-nama setiap emojinya.
+    page_2_2_name: "Menerbitkan pek anda sendiri"
+    page_2_2_desc: |
+      Jika anda mempunyai keizinan **Urus Pelayan**, anda boleh terbitkan pek emoji anda sendiri mengandungi kesemua pek emoji pelayan tersebut:
+      > `%{prefix}pack publish NamaHebatPekEmojiku`
+      Anda juga boleh membenarkan orang awam untuk melanggan pek emoji anda dengan perintah `%{prefix}pack set_public yes` untuk membenarkan orang dari pelayan lain untuk melangggan tanpa jemputan.
+
+    page_3_title: "Aliases"
+    page_3_desc: |
+      Ali8as merupakan emoji berasingan yang anda boleh berikan satu nama khas, membenarkan anda untuk menggunakannya dengan nama itu.
+
+      Jika anda tahu nama emoji yang anda mahu gunakan:
+      > `%{prefix}alias search :NamaEmoji:`
+
+      Jika anda mahu mencarinya dalam perbendaharaan emoji NQN anda boleh gunakan:
+      > `%{prefix}alias search ApaSahaja` (Tada noktah bertindih jika anda tidak mengetahui secara tepat nama penuhnya)
+    page_3_0_name: "Contoh penggelintaran:"
+    page_3_0_desc: |
+      > `%{prefix}alias search blob page: 5 animated: true`
+
+    page_4_title: "Membalas mesej"
+    page_4_desc: |
+      NQN membenarkan anda untuk membalas mesej-mesej lama.
+
+      Hanya salin pautan mesej melalui Discord (butang Kongsi pada peranti mudah alih dan kemudiannya ke papan keratan) dan tampalnya ke dalam mesej anda, dan ia akan menghantar mesej yang dibalas itu sekali.
+
+      Jika anda tidak mahu bot ini untuk menghantar semula pautan mesej itu, anda boleh mengelilinginya dengan simbol \<\>, dan bot ini tidak akan menghantarnya semula.
+
+      Jika seorang penyelia pelayan mahu menyahdayakan fungsi ini bagi seluruh pelayan, mereka boleh menggunakan perintah `%{prefix}server replies off`.
+
+    page_5_title: "URL terlindung"
+    page_5_desc: |
+        NQN membenarkan pengguna untuk menghantar URL terlindung sebagai sebahagian daripada mesej biasanya.
+
+        Ini menggunakan penanda piawai, `[teks untuk dipapar](https://url.sini)`.
+
+    page_6_title: "Pelekat"
+    page_6_desc: |
+      Jika anda mahu menghantar imej/pelekat/emoji besar, inilah tempatnya.
+
+      Hasil ilham daripada Telegram, NQN membawa pelekat ke Discord.
+      Anda boleh menggunakannya seperti emoji, dengan tambahan sambungan fail di akhirnya.
+
+      Setiap mesej boleh mengandungi sebanyak 10 pelekat.
+
+      Anda boleh mencipta pelekat dengan perintah `%{prefix}sticker create` dan memuat naik fail imej anda atau dengan mengimportnya dari Telegram.
+      Hal ini boleh dilakukan dengan perintah `%{prefix}sticker telegram https://t.me/addstickers/pek-pelekat-di-sini`.
+
+      Untuk menggelintar pelekar yang boleh digunakan bersama NQN, gunakan perintah `%{prefix}sticker search`. Istilah carian boleh disertakan.
+
+      Untuk melihat pelekat anda, gunakan perintah `%{prefix}stickers mine`.
+
+      Catatan - untuk menggunakan pelekat Telegram, anda perlu importnya ke bot ini terdahlu. Bot ini tidak melakukannya secara automatik.
+
+    page_7_title: "Penyeliaan Pelayan"
+    page_7_desc: |
+      NQN merupakan satu bot aneka penyesuaian tetapan ciri, jika terdapat apa-apa yang tidak sesuai bagi pelayan anda.
+      Sesiapa dengan keizinan **Urus Pelayan** boleh mengubah tetapan pelayan dengan bot ini.
+
+      Berikut merupakan ciri-ciri yang boleh anda togol:
+
+       • Nitro - `${prefix}server nitro`
+       • Pelekat - `${prefix}server stickers`
+       • Pembalasan - `${prefix}server replies`
+       • Pautan Terlindung - `${prefix}server masked_links`
+    page_7_0_name: "Analisis Selesai Masalah"
+    page_7_0_desc: |
+      Untuk berfungsi dengan sebetulnya, NQN memerlukan keizinan berikut bagi __setiap__ saluran di mana Nitro akan digunakan:
+      **Urus Webhook**, **Guna Emoji Luar**, **Tambah Reaksi**, **Baca Mesej** dan **Urus Mesej**.
+    page_7_1_name: "Awalan Perintah Not Quite Nitro:"
+    page_7_1_desc: |
+      Sesiapa dengan keizinan **Urus Pelayan** boleh mengubah awalan bagi penggunaan NQN.
+
+      Awalan perintah bot ini kini ditetapkan sebagai `%{prefix}`, namun ia boleh diubah dengan
+      > %{prefix}server prefix %{ping} ?
+      Ini akan mengubahkannya kepada  `?`, namun apa-apa awalan boleh diterima.
+
+      Walau bagaimanapun, NQN *sentiasa* akan mendengar dencingan kepadanya tidak kira apa yang ditetapkan.
+    page_7_2_name: "Mengaudit Mesej"
+    page_7_2_desc: |
+      NQN boleh menyimpan satu log bagi mesej-mesej yang dihantar semula olehnya, setelah mesej asal dihapuskan.
+      Hal ini adalah sedemikian sekiranya seseorang mengubah nama dan avatarnya sebelum menghantar mesej tidak senonoh atau tidak bersesuaian, ataupun menyalahgunakan bot ini dengan apa-apa cara.
+
+      Untuk mendapatkan mesej diaudit bagi pelayan ini, gunakan perintah `%{prefix}audit guild` atau [lawati laman sesawang kami](%{url}), pilih pelayan anda dan tekan pada simbol gigi roda di atas.
+
+      Hanya pengguna dengan keizinan **Urus Pelayan** dan **Lihat Log Audit** boleh melihat mesej tersebut.
+
+      Satu cara lain yang tidak memerlukan elemen luar Discord ialah Saluran Audit, yang boleh ditetapkan dengan perintah `%{prefix}server set_audit_channel #saluran`.
+      Apa-apa mesej yang dihantar semula akan dihantar ke sana sekali termasuk nama pengguna terkini, pembeza dan ID pengguna mereka.
+    page_7_3_name: "Keizinan:"
+    page_7_3_desc: |
+      NQN memerlukan keizinan 'Urus Webhook' untuk berfungsi dengan sempurna; penghantaran semula mesej tidak akan berfungsi tanpa ini.
+
+       • Untuk menyahdaya perintah daripada berfungsi dalam sesuatu saluran, tarik semula keizinan 'Hantar Mesej' bagi NQN di sana melalui keizinan pengguna.
+       • Untuk menyahdaya penghantaran semula mesej dalam sesuatu saluran, tarik semula keizinan 'Urus Webhook' bagi NQN di sana melalui keizinan pengguna.
+       • Untuk menyahdaya segala jenis interaksi dalam sesuatu saluran, tarik semula keizinan 'Baca Mesej' bagi NQN di sana melalui keizinan pengguna.
+    page_7_4_name: "Pemungutan Maklumat:"
+    page_7_4_desc: |
+      NQN menyimpan mesej yang dihantar semula sekiranya pengguna itu menghapuskannya dan bagi tujuan log audit.
+      Setiap emoji dalam pelayan anda boleh dilihat oleh sesiapa sahaja dengan menggunakan bot ini dan juga boleh digenlintar, namun tidak dapat dipaut ke pelayan anda.
+
+      Sesetengah statistik mengenai bagaimana bot ini digunakan akan dipungut bagi tujuan penambahbaikan bot ini, namun ia tidak termasuk mesej umum yang dihantar oleh pengguna anda.
+
+    page_8_title: "Penggunaan emoji dengan NQN - Lanjutan"
+    page_8_desc: |
+      Jika seseorang menggunakan satu emoji, NQN akan membenarkan anda untuk menggunakannya sekali, tetapi hanya jika ia baru digunakan dalam sesuatu pelayan.
+      **CATATAN:** Jika anda baru sahaja menjemput NQN, ia tidak boleh mengetahui emoji yang baru digunakan sebelum menyertai pelayan tersebut.
+
+      Sekiranya anda mempunyai beberapa emoji dengan nama sama, penggunaannya akan diutamakan seperti berikut:
+
+      1. Alias
+      2. Pelayan ini
+      3. Pek Emoji
+      4. Pelayan lain yang anda kongsi bersama NQN
+      5. Alias seluruh pelayan
+      6. Pek seluruh pelayan
+      7. Emoji yang baru digunakan dalam pelayan ini
+      8. Pek yang baru digunakan dalam pelayan ini
+
+      Jika anda mempunyai emoji bernama bercanggah, cipta satu alias bagi emoji yang anda mahukan, dan ia akan mengatasi yang lain.
+
+    table_of_contents: "Kandungan tutoran"
+
+  react:
+    id_large: "ID mesej terlalu besar"
+    not_found: "Tiada mesej dalam saluran ini dengan ID itu"
+    nth_id: "Mesej mestilah ditetapkan sama ada dalam bentuk ID atau dengan menyatakan kebaharuan mesej tersebut (mesej ke-`n` paling terkini, sehingga 50)"
+    channel_empty: "Saluran ini adalah kosong"
+    invalid_react:
+      one: |
+        Emoji berikut tidak sah:
+        > %{not_found}
+        Emoji hanya boleh mengandungi abjad angka, garis bawah dan tidak lebih satu garis sengkang.
+      many: |
+        Emoji berikut tidak sah:
+        > %{not_found}
+        Emoji hanya boleh mengandungi abjad angka, garis bawah dan tidak lebih satu garis sengkang.
+    emote_unusable:
+      one: |
+        Emoji berikut tidak dapat digunakan dalam reaksi:
+        > %{unusable}
+        Jika anda memuat naiknya ke satu pelayan yang disertai bot ini, maka ia boleh digunakan!
+      many: |
+        Emoji berikut tidak dapat digunakan dalam reaksi:
+        > %{unusable}
+        Jika anda memuat naik kesemuanya ke satu pelayan yang disertai bot ini, maka ia boleh digunakan!
+    emote_not_found:
+      one: |
+        Gagal menemui emoji %{not_found}
+        Telahkah anda menambahnya sebagai satu alias dengan perintah `%{prefix}alias search` atau melanggan pek emoji berkenaan dengan `%{prefix}pack search`?
+      many: |
+        Gagal menemui emoji %{not_found}
+        Telahkah anda menambah kesemuanyanya sebagai alias dengan perintah `%{prefix}alias search` atau melanggan pek emoji berkenaan dengan `%{prefix}pack search`?
+    too_many_reacts:
+      one: "Mesej ini telah mencapai had reaksi!"
+      many: "Mesej ini telah mencapai had reaksi!"
+    blocked: "%{author} telah menyekat saya, maka saya tidak dapat menambah reaksi tersebut!"
+    on_behalf: "NQN bagi pihak %{author} (%{author_id})"
+    audit_message: "%{author} telah menambah reaksi kepada [mesej ini](<%{jump_url}>) di %{channel} dengan emoji berikut:\n"
+
+  info:
+    shard_data: |
+      > Tiada bebeling: %{shard_count} (%{shards_down} rosak)
+      > Kependaman purata: %{average_latency}ms
+      > Bebeling terkini: %{current_shard}
+      > Kependaman bebeling terkini: %{current_latency}ms
+
+    process_data: |
+      > Penggunaan RAM: %{ram_usage}
+      > Penggunaan CPU: %{cpu_usage}%
+      > Rangkaian:
+      > - Dihantar: %{network_send}
+      > - Diterima: %{network_recv}
+
+    elasticsearch_metadata: |
+      > Penggunaan RAM: %{ram_usage}
+      > Ruang cakera: %{disk_use}
+      > Jumlah rangkaian: %{bytes_sent}
+
+    description: |
+      Pengarang: %{owner}
+      Nama perisian: %{app_name}
+      Perintah bantuan: `%{prefix}help`
+
+    bot_metadata: |
+      > Masa hidup: %{uptime}
+      > Pelayan Emoji: %{alias_servers_available} / %{alias_servers_total}
+      > Pelayan Dimuat: %{guilds_loaded} / %{guilds}
+
+    guild_features:
+      zero: ""
+      one: |
+        > Ciri Pelayan: %{guild_features}
+      many: |
+        > Ciri Pelayan: %{guild_features}
+
+    bot_credits: |
+      [Avatar bot dan lukisan Wumpus oleh Dooley](https://www.dooleytm.com/) dari [Wump Motes](https://discord.gg/pEjCBNF)
+
+      __Penghargaan khas kepada individu berikut:__
+      > <:OriLove:726475603879919616> OrionVi
+      > <:OtterMask:726476220174172267> Ben
+      > <:AetherSmile:726474477956759553> Aether Wake
+
+      __Penghargaan Terjemahan:__
+
+    es: "Bahasa Sepanyol:"
+    es_people: |
+      > <:OriLove:726475603879919616> OrionVi
+      > <:AetherSmile:726474477956759553> Aether Wake
+
+    ru: "Bahasa Rusia:"
+    ru_people: |
+      > <:drink:741041666705588255> Трокс
+      > <:artemD3V:752244457738469396> artemD3V
+
+    pt: "Bahasa Portugis:"
+    pt_people: |
+      > <:KingKiller:800410618074628146> KingKiller
+
+    bot_stats: "Statistik Bot Discord"
+    shard_info_name: "Maklumat Bebeling"
+    process_data_name: "Data pemprosesan bot"
+    elasticsearch_data_name: "Data Elasticsearch"
+    package_info_name: "Maklumat pakej"
+    bot_metadata_name: "Metadata Bot"
+    credits: "Penghargaan"
+    author: "Pengarang"
+
+    bot_latency: "> Kependaman Bot/API: %{bot_latency}ms"
+
+    help_command: "Perintah bantuan: `%{prefix}help`"
+
+
+  upload_emote:
+    note: "Untuk menambah satu emoji ke pelayan ini, sila pilih ikon bertetapan"
+
+    size_invalid: "Nombor emoji pada satu sisi haruslah di antara 1 dan 4"
+    vote_locked: |
+      Memandangkan bahawa perintah ini memerlukan masa pengkomputan yang tinggi, ia telah dikunci dari mengundi untuk bot ini di top.gg.
+      Untuk mendapat akses kepadanya selama 12 jam, undi saya di sini:
+      %{url}
+
+    alphanumeric: " - Mesti abjad angka dengan garis bawah"
+    size: " - Panjang mesti di antara 1 hingga 32 aksara"
+    filesize: " - Saiz mesti tidak melebihi 256KB"
+    image: " - Fail mesti satu gambar"
+    bad_name: "Nama emoji tidak sah:\n"
+    bad_attachment: "Emoji dilampir tidak sah:\n"
+
+    more_animated_needed: "Pelayan ini akan mencapai had emoji beranimasinya, kerana ia memerlukan %{size}. Hapuskan %{delete} dan cuba semula"
+    more_static_needed: "Pelayan ini akan mencapai had emoji kakunya, krana ia memerlukan %{size}. Hapuskan %{delete} dan cuba semula"
+    too_quick: "Emoji sedang dicipta pada kadar yang terlalu laju, sila cuba semula dalam beberapa jam (Kod ralat '%{e}')"
+    batch_failed: "Gagal mencipta kelompok emoji sekali gus"
+
+    this_emote: "Adakah ini emoji yang anda maksudkan?"
+    emote_preview: "Elokkah ini?\nJika anda **BUKAN** pemilik emoji ini, atau tidak mempunyai keizinan untuk mengedarnya, pilih ❎."
+    created_emotes: "Berjaya mencipta emoji!"
+
+  vote_opt_out:
+    success: "Berjaya memilih keluar dari perbualan langsung pengundian"
