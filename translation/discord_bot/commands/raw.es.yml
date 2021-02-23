@@ -345,8 +345,14 @@ es:
     batch_failed: "No se pudo crear el grupo de emojis a la vez"
 
     this_emote: "¿Es este el emoji deseado?"
-    emote_preview: "¿Esto esta bien?\nSi **NO** eres el dueño de este emoji, o no tienes permiso para distribuirlo, selecciona ❎."
-    created_emotes: "¡Se crearon emojis!"
+    emote_preview: |
+      ¿Esto esta bien?
+      Si **NO** eres el dueño de este emoji, o no tienes permiso para distribuirlo, selecciona ❎.
+    created_emotes: "¡Se subieron los emoji!"
+
+    also_upload_static: |
+      ¿Quieres también crear una versión estática del emoji?
+      Usuarios sin Nitro podran utilizar este desde el menu de emojis para enviar %{e}
 
   vote_opt_out:
     success: "Se de-subscribió de MDs de manera exitosa"
