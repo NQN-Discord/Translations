@@ -279,7 +279,15 @@ pt:
     too_quick: "Emotes estão sendo criados muito rapidamente, tente novamente em algumas horas (Error code '%{e}')"
     batch_failed: "Não foi possível criar lote de emote de uma vez"
     this_emote: "Este é o emote que você quis dizer?"
-    emote_preview: "Está tudo bem? \nSe você ** NÃO ** é o proprietário deste emoji, ou não tem permissão para distribuí-lo, selecione ❎."
-    created_emotes: "Emotes criados!"
+    emote_preview: |
+      Está tudo certo?
+      Se você ** NÃO ** for o proprietário deste emoji, ou não tiver permissão para distribuí-lo, selecione ❎.
+    created_emotes: "Created emote!"
+    
+    
+    also_upload_static: |
+      Você também gostaria de carregar uma versão estática deste emoji?
+     Usuários sem Nitro podem usá-lo a partir do seletor de emoji para enviar %{e}
+      
   vote_opt_out:
-    success: "Optou com sucesso por não votar mensagens diretas"
+    success: "Optou por não votar mensagens diretas com sucesso"
