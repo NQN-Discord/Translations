@@ -214,7 +214,7 @@ pt:
       > Fragmento atual latency: %{current_latency}ms
     process_data: |
       > Uso de RAM: %{ram_usage}
-      > utilização do CPU: %{cpu_usage}%
+      > utilização da CPU: %{cpu_usage}%
       > Network:
       > - enviado: %{network_send}
       > - Recebido: %{network_recv}
@@ -235,9 +235,9 @@ pt:
       one: |
         > Recurso de servidor: %{guild_features}
       many: |
-        > Server Features: %{guild_features}
+        > Recursos do servidor: %{guild_features}
     bot_credits: |
-      [Avatar de bot e arte de Wumpus de Dooley](https://www.dooleytm.com/) de [Wump Motes](https://discord.gg/pEjCBNF)
+      [Avatar do bot e arte de Wumpus de Dooley](https://www.dooleytm.com/) de [Wump Motes](https://discord.gg/pEjCBNF)
       __Agradecimentos especiais para as seguintes pessoas:__
       > <:OriLove:726475603879919616> OrionVi
       > <:OtterMask:726476220174172267> Ben
@@ -252,17 +252,17 @@ pt:
     ru_people: |
       > <:drink:741041666705588255> Трокс
       > <:artemD3V:752244457738469396> artemD3V
-     
+      
     pt: "Português:"
     pt_people: |
       > <:KingKiller:800410618074628146> KingKiller
- 
+      
     bot_stats: "Estatísticas do Discord Bot"
     shard_info_name: "Informações sobre fragmentos"
     process_data_name: "Dados de processo do bot"
-    elasticsearch_data_name: "Elasticsearch data"
+    elasticsearch_data_name: "data de pesquisa"
     package_info_name: "Informação do pacote"
-    bot_metadata_name: "Metadados de bots"
+    bot_metadata_name: "Metadados do bot"
     credits: "Creditos"
     author: "Autor"
     bot_latency: "> API/Bot Latencia: %{bot_latency}ms"
@@ -285,7 +285,15 @@ pt:
     too_quick: "Emotes estão sendo criados muito rapidamente, tente novamente em algumas horas (Error code '%{e}')"
     batch_failed: "Não foi possível criar lote de emote de uma vez"
     this_emote: "Este é o emote que você quis dizer?"
-    emote_preview: "Está tudo bem? \nSe você ** NÃO ** é o proprietário deste emoji, ou não tem permissão para distribuí-lo, selecione ❎."
-    created_emotes: "Emotes criados!"
+    emote_preview: |
+      Está tudo certo?
+      Se você ** NÃO ** for o proprietário deste emoji, ou não tiver permissão para distribuí-lo, selecione ❎.
+    created_emotes: "Emoji criado!"
+    
+    
+    also_upload_static: |
+      Você também gostaria de carregar uma versão estática deste emoji?
+     Usuários sem Nitro podem usá-lo a partir do seletor de emoji para enviar %{e}
+      
   vote_opt_out:
-    success: "Optou com sucesso por não votar mensagens diretas"
+    success: "Optou por não votar mensagens diretas com sucesso"

@@ -6,6 +6,9 @@ pt:
     nothing: ""
 
     please_give: "Eu não funcionarei corretamente sem estes!"
+    
+    fix_perms: |
+      - **[Corrigir permissões do servidor](%{invite_url})**    
 
     nqn_help: "NQN ajuda"
     my_prefix: |
