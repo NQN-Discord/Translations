@@ -214,7 +214,7 @@ pt:
       > Fragmento atual latency: %{current_latency}ms
     process_data: |
       > Uso de RAM: %{ram_usage}
-      > utilização do CPU: %{cpu_usage}%
+      > utilização da CPU: %{cpu_usage}%
       > Network:
       > - enviado: %{network_send}
       > - Recebido: %{network_recv}
@@ -235,28 +235,34 @@ pt:
       one: |
         > Recurso de servidor: %{guild_features}
       many: |
-        > Server Features: %{guild_features}
+        > Recursos do servidor: %{guild_features}
     bot_credits: |
-      [Avatar de bot e arte de Wumpus de Dooley](https://www.dooleytm.com/) de [Wump Motes](https://discord.gg/pEjCBNF)
+      [Avatar do bot e arte de Wumpus de Dooley](https://www.dooleytm.com/) de [Wump Motes](https://discord.gg/pEjCBNF)
       __Agradecimentos especiais para as seguintes pessoas:__
       > <:OriLove:726475603879919616> OrionVi
       > <:OtterMask:726476220174172267> Ben
       > <:AetherSmile:726474477956759553> Aether Wake
       __Créditos de tradução:__
-    es: "Spanish:"
+    es: "Espanhol:"
     es_people: |
       > <:OriLove:726475603879919616> OrionVi
       > <:AetherSmile:726474477956759553> Aether Wake
-    ru: "Russian:"
+      
+    ru: "Russo:"
     ru_people: |
       > <:drink:741041666705588255> Трокс
       > <:artemD3V:752244457738469396> artemD3V
+      
+    pt: "Português:"
+    pt_people: |
+      > <:KingKiller:800410618074628146> KingKiller
+      
     bot_stats: "Estatísticas do Discord Bot"
     shard_info_name: "Informações sobre fragmentos"
     process_data_name: "Dados de processo do bot"
-    elasticsearch_data_name: "Elasticsearch data"
+    elasticsearch_data_name: "data de pesquisa"
     package_info_name: "Informação do pacote"
-    bot_metadata_name: "Metadados de bots"
+    bot_metadata_name: "Metadados do bot"
     credits: "Creditos"
     author: "Autor"
     bot_latency: "> API/Bot Latencia: %{bot_latency}ms"
@@ -282,7 +288,7 @@ pt:
     emote_preview: |
       Está tudo certo?
       Se você ** NÃO ** for o proprietário deste emoji, ou não tiver permissão para distribuí-lo, selecione ❎.
-    created_emotes: "Created emote!"
+    created_emotes: "Emoji criado!"
     
     
     also_upload_static: |
