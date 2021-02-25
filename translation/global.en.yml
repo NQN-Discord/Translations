@@ -44,6 +44,12 @@ en:
     The bot owner or global moderators have blocked you from using this bot due to previous abuse.
     You cannot use any commands or otherwise make use of the bot's functionality.
 
+  user_spammed: |
+    You have been temporarily blocked from using NQN for triggering our automated spam detection system.
+    This message will only be sent at most once a day, and there is no way to appeal this block.
+
+    You will be unblocked in under **5 minutes** from now.
+
   support_server: |
     You can join my support server here:
     http://discord.gg/XvzDPca

@@ -89,7 +89,8 @@ es:
 
   prefix:
     instructions: "Para seleccionar mi prefijo, mencióname antes del prefijo deseado para prevenir cambios accidentales.\n> %{prefix}server prefix %{me} %{new}"
-    no_colon_prefix: "Los prefijos no pueden comenzar con dos puntos"
+    no_colon_prefix: "El prefijo no puede comenzar con dos puntos (:)"
+    no_slash_prefix: "El prefijo no puede comenzar con barra (/)"
 
     set_prefix: "Prefijo cambiado a `%{prefix}`"
 

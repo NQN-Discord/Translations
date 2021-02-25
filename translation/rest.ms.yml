@@ -1,0 +1,15 @@
+ms:
+  join_server:
+    joined: "%{user} telah menyertai pelayan ini melalui pek emoji awam!"
+
+  vote:
+    guild_rank: "%{guild} kini berada pada tangga #%{guild_rank}"
+    vote_text: |
+      <@%{user}> baru sahaja mengundi untuk pelayah ini di %{site}!
+      %{guild} kini boleh menggunakan %{max_emotes} emoji antara pelayan
+
+    vote_text_rank: |
+      <@%{user}> aru sahaja mengundi untuk pelayah ini di %{site}!
+      %{guild} kini boleh menggunakan %{max_emotes} emoji antara pelayan dan kini berada pada tangga #%{guild_rank}
+
+    voted: "Telah mengundi untuk NQN"

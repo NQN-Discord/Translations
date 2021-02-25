@@ -202,7 +202,7 @@ es:
       5. Alias del servidor
       6. Packs del servidor
       7. Emojis recientemente usados en el servidor
-      8. Packs recientemente mostrados en el servidor
+      8. Packs recientemente vistos en el servidor
 
 
       Si te encuentras con conflictos entre los nombres de emojis, crea el que quieras usar como alias, y esto lo va sobrescribir.
@@ -305,6 +305,10 @@ es:
       > <:drink:741041666705588255> Трокс
       > <:artemD3V:752244457738469396> artemD3V
 
+    pt: "Portugués:"
+    pt_people: |
+      > <:KingKiller:800410618074628146> KingKiller
+
     bot_stats: "Estadísticas del Bot de discord."
     shard_info_name: "Shard Info"
     process_data_name: "Datos del proceso de bot"
@@ -341,8 +345,14 @@ es:
     batch_failed: "No se pudo crear el grupo de emojis a la vez"
 
     this_emote: "¿Es este el emoji deseado?"
-    emote_preview: "¿Esto esta bien?\nSi **NO** eres el dueño de este emoji, o no tienes permiso para distribuirlo, selecciona ❎."
-    created_emotes: "¡Se crearon emojis!"
+    emote_preview: |
+      ¿Esto esta bien?
+      Si **NO** eres el dueño de este emoji, o no tienes permiso para distribuirlo, selecciona ❎.
+    created_emotes: "¡Se subio el emoji!"
+
+    also_upload_static: |
+      ¿Quieres también crear una versión estática del emoji?
+      Usuarios sin Nitro podran utilizar este desde el menu de emojis para enviar %{e}
 
   vote_opt_out:
     success: "Se de-subscribió de MDs de manera exitosa"

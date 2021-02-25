@@ -6,11 +6,16 @@ en:
     nothing: ""
 
     please_give: "I won't function correctly without these!"
+    fix_perms: |
+      - **[Fix Server Permissions](%{invite_url})**
 
     nqn_help: "NQN Help"
     my_prefix: |
       My prefix for commands is `%{prefix}`
       React with ❌ (\:x:) to delete reposted messages!
+    slash_command_beta: |
+
+      Try our new **[Slash Command Beta](%{invite_url})**
 
     categories: "Categories"
     everything_else: "Everything else"

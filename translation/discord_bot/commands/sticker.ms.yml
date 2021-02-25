@@ -1,0 +1,55 @@
+ms:
+  create:
+    attachment_needed: "Anda perlu memuat naik satu pelekat untuk menggunakan perintah ini"
+    image_needed: "Fail yang dihantar haruslah satu fail imej"
+    sticker_exists: "Pelekat dengan nama %{name} telahpun wujud!"
+    filename_invalid: "Nama `%{name}` tidak dibenarkan bagi pelekat. Namanya mesti ditulis dalam format abjad angka, dengan sambungan fail abjad angka."
+    too_large: "Fail ini terlalu besar. Saiz maksimum fail pelekat adalah 8MB"
+
+    created: "Anda kini boleh menggunakan `:%{name}:`\nTidak begitu tepat?\n`%{prefix}sticker rename %{name} nama_baharu.%{ext}`"
+
+  mine:
+    no_stickers: "Anda tidak mempunyai pelekat"
+
+  delete:
+    no_sticker: "- :%{name}: - Tidak wujud atau bukan milik anda"
+    sticker_deleted: "+ :%{name}:"
+    question:
+      zero: "Tiada pelekat untuk dihapuskan!"
+      one: "Adakah anda mahu menghapuskan emoji ini?"
+      many: "Adakah anda mahu menghapuskan kesemua %{count} pelekat?"
+    deleted_all:
+      one: "Telah menghapuskan %{count} pelekat"
+      many: "Telah menghapuskan %{count} pelekat"
+
+  rename:
+    filename_invalid: "Nama `%{name}` tidak dibenarkan bagi pelekat. Namanya mesti ditulis dalam format abjad angka, dengan sambungan fail abjad angka."
+    no_sticker: "Pelekat ini tidak wujud"
+    permission_denied: "Anda tidak boleh menamakan semula pelekat orang lain!"
+    destination_taken: "Nama destinasi telahpun diguna!"
+
+    renamed: "Berjaya menamakan semula :%{old}: kepada :%{new}:"
+
+  search:
+    no_stickers: "Tiada pelekat dijumpai"
+
+  sticker_import:
+    filename_invalid: "Nama `%{name}` tidak dibenarkan bagi pelekat. Namanya mesti ditulis dalam format abjad angka, dengan sambungan fail abjad angka."
+    find_emote: "cari emoji untuk diubah menjadi satu pelekat!"
+
+    created: "Anda kini boleh menggunakan `:%{name}:`"
+    sticker_exists: "Pelekat bernama `:%{name}:` telahpun wujud; anda tidak boleh menulisgantinya."
+
+  telegram_import:
+    pack_invalid: "Nama `%{name}` bukan nama pek pelekat Telegram yang sah"
+    telegram_unloaded: "Pakej Telegram tidak dimuat - sila laporkan hal ini kepada seorang pembangun bot."
+    already_created: "Telah dicipta oleh orang lain; tidak boleh menulis ganti"
+
+    import_progress:
+      one: "%{count} pelekat daripada %{total} pelekat diimport:\nHalaman %{page} daripada %{total_pages}"
+      many: "%{count} pelekat daripada %{total} pelekat diimport:\nHalaman %{page} daripada %{total_pages}"
+    finished_importing:
+      one: "Berjaya mengimport satu pelekat"
+      many: "Berjaya mengimport %{count} pelekat"
+
+    search_future: "Untuk menggelintar pelekat ini pada masa hadapan, gunakan:\n> `%{prefix}sticker search %{name}.`"

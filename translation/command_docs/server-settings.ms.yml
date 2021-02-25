@@ -1,0 +1,4 @@
+ms:
+  short_doc: 'Lihat tetapan pelayan ini'
+  help: |
+    Lihat tetapan palayan bagi NQN, termasuk ciri-ciri, saluran tertatarajah dan maklumat pek.

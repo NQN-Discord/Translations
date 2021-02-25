@@ -1,0 +1,5 @@
+ms:
+  short_doc: 'Tetapkan bahasa bot %{locale_flag_emojis}'
+  help: |
+    Tetapkan bahasa bot
+
