@@ -293,7 +293,7 @@ pt:
     
     also_upload_static: |
       Você também gostaria de carregar uma versão estática deste emoji?
-     Usuários sem Nitro podem usá-lo a partir do seletor de emoji para enviar %{e}
+      Usuários sem Nitro podem usá-lo a partir do seletor de emoji para enviar %{e}
       
   vote_opt_out:
     success: "Optou por não votar mensagens diretas com sucesso"
