@@ -78,14 +78,31 @@ es:
     uploaded_emote: "Se subió %{uploaded}!\nUtilízalo para usar %{emote}"
 
   pack:
-    no_pack: "%{name} no es un pack de emojis registrado"
-    joined: "Asignado %{name}.\nTodos en el servidor ahora pueden usar los siguientes emojis escribiendo su nombre en el chat, incluyendo los dos puntos:"
-
     max_title: "Este servidor se encuentra al numero maximo de  emojis/packs!"
-    max_description: ":%{name}: no se asigno como un pack del servidor.\n\nPara más alias/packs, cualquiera puede votar por el bot en %{url}"
+    max_description: |
+      %{name} no se asigno como un pack del servidor.
 
-    left_pack: "Des-asignado %{name}"
+      Para más alias/packs, cualquiera puede votar por el bot en %{url}
+
+    left_pack: "'%{guild_name}' dejo el pack %{name}"
     not_in_pack: "Este servidor no tenía a %{name} asignado como pack del servidor"
+
+    invalid_group: "<Pack invalido - Por favor reportarlo>"
+    join_server: "(Unite al servidor)"
+    join_text: |
+      Puedes unir el servidor a este pack de emojis con <:join:702970568101724331> o:
+      > %{prefix}server pack join %{name}
+
+    no_longer_registered: "%{name} no es un pack de emojis registrado"
+    already_joined: "%{guild_name} ya esta unido a %{name}"
+    joined_short: "%{guild_name} se unio a %{name}"
+    joined_long: |
+      '%{guild_name}' se unio a %{name}.
+
+      Todos en el servidor ahora pueden usar los siguientes emojis escribiendo su nombre en el chat, incluyendo los dos puntos:
+
+    no_packs: "'%{guild_name}' no esta unido a ningún pack!"
+
 
   prefix:
     instructions: "Para seleccionar mi prefijo, mencióname antes del prefijo deseado para prevenir cambios accidentales.\n> %{prefix}server prefix %{me} %{new}"
