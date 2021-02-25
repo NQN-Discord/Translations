@@ -78,14 +78,30 @@ en:
     uploaded_emote: "Uploaded %{uploaded}!\nUse it to get %{emote}"
 
   pack:
-    no_pack: "%{name} is not a registered emote pack"
-    joined: "Joined %{name}.\nAnyone in the server may now use the following emotes by typing its name into chat, including colons:"
-
     max_title: "This server is at its maximum emote/pack count already!"
-    max_description: ":%{name}: was not added as a server pack.\n\nFor more aliases/packs, anyone can vote for the bot at %{url}"
+    max_description: |
+      %{name} was not added as a server pack.
 
-    left_pack: "Left %{name}"
+      For more aliases/packs, anyone can vote for the bot at %{url}
+
+    left_pack: "'%{guild_name}' left %{name}"
     not_in_pack: "This server didn't have %{name} as a server pack to start with"
+
+    invalid_group: "<Invalid pack - Please Report>"
+    join_server: "(Join server)"
+    join_text: |
+      Either have the server join this emote pack with <:join:702970568101724331> or:
+      > %{prefix}server pack join %{name}
+
+    no_longer_registered: "%{name} is no longer a registered emote pack"
+    already_joined: "%{guild_name} is already joined to %{name}"
+    joined_short: "%{guild_name} joined to %{name}"
+    joined_long: |
+      '%{guild_name}' joined %{name}.
+      Anyone in this server may now use the following emotes by typing its name into chat, including colons:
+
+    no_packs: "'%{guild_name}s' isn't joined to any packs globally!"
+
 
   prefix:
     instructions: "To set my prefix, mention me before the desired prefix so as to prevent accidental changes.\n> %{prefix}server prefix %{me} %{new}"
