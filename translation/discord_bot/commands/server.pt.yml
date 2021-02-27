@@ -1,55 +1,56 @@
 pt:
   alias:
-    set_emote_title: "Defina: %{name}: para %{emote} para este servidor."
+    set_emote_title: "Defina :%{name}: para %{emote} para este servidor."
     set_emote_description:
       zero: |
         Este servidor não tem mais emotes!
-        Para obter mais apelidos, qualquer pessoa pode votar no bot em %{url}
+        Para mais aliases, qualquer pessoa pode votar no bot em %{url}
         Qualquer pessoa pode usar este emote digitando:
       one: |
         Este servidor tem um emote restante antes de atingir seu máximo.
-        Para obter mais apelidos, qualquer pessoa pode votar no bot em %{url}
+        Para mais aliases, qualquer pessoa pode votar no bot em %{url}
         Qualquer pessoa pode usar este emote digitando:
       many: |
         Este servidor tem %{count} emotes restantes antes de atingir seu máximo.
-        Para obter mais apelidos, qualquer pessoa pode votar no bot em %{url}
+        Para obter mais aliases, qualquer pessoa pode votar no bot em %{url}
         Qualquer pessoa pode usar este emote digitando:
-    max_title: "Este servidor já está em sua contagem máxima de emotes / pacotes!"
+    max_title: "Este servidor já está em sua contagem máxima de emotes/pacotes!"
     max_description: |
       :%{name}: não foi adicionado como um emote de servidor.
-      Para mais apelidos / pacotes, qualquer pessoa pode votar no bot em %{url}
-    no_alias: "Este servidor não tem um apelido chamado %{name}"
-    renamed: "Renomear %{emote} de :%{name}: par :%{new}:"
+      Para mais aliases/pacotes, qualquer pessoa pode votar no bot em %{url}
+    no_alias: "Este servidor não tem um alias chamado %{name}"
+    renamed: "%{emote} renomeado de :%{name}: para :%{new}:"
 
   nitro_role:
-    unset: "Qualquer pessoa neste servidor pode usar emotes Nitro grátis com NQN"
-    set: "Agora, apenas usuários com a função %{role} podem usar emotes Nitro gratuitos com NQN"
+    unset: "Qualquer pessoa neste servidor pode usar emotes gratuitos do Nitro com NQN "
+    set: "Agora, apenas usuários com a função %{role} podem usar emotes Nitro gratuitos com NQN
+"
 
   audit_channel:
     unset: "Remova o canal de auditoria para este servidor"
     set: "Defina o canal de auditoria para este servidor para %{channel}"
-    no_webhooks: "Não consigo postar mensagens de webhook em %{channel}.\nMe dê 'Gerenciar Webhooks' lá!"
+    no_webhooks: "Não consigo postar mensagens de webhook em %{channel}. \nPor favor, me dê 'Gerenciar Webhooks' lá!"
 
   boost_channel:
     unset: "Desconfigure o canal de impulso para este servidor"
-    set: "Defina o canal de impulso deste servidor para %{channel}"
+    set: "Defina o canal de impulso para este servidor para %{channel}"
 
   boost_role:
     unset: "Desative a função de impulso para este servidor"
-    set: "Defina a função de impulso deste servidor para %{role}"
+    set: "Defina a função de impulso para este servidor para %{role}"
 
   boolean_options:
-    stickers_on: "Adesivos ativados"
-    stickers_off: "Adesivos desativados"
+    stickers_on: "Stickers ativados"
+    stickers_off: "Stickers desativados"
 
-    nitro_on: "Habilitado o uso gratuito de nitro neste servidor!"
+    nitro_on: "Habilitou o uso de nitro gratuito neste servidor!"
     nitro_off: "Uso de nitro gratuito desativado neste servidor"
 
     replies_on: "Respostas de mensagens ativadas"
     replies_off: "Respostas de mensagens desativadas"
 
-    masked_links_on: "Uso de URL mascarado habilitado"
-    masked_links_off: "Uso de URL mascarado desabilitado"
+    masked_links_on: "Uso de URL disfarçaddo habilitado"
+    masked_links_off: "Uso de URL disfarçado desativado"
 
     pings_on: "Pings ativados em mensagens repostadas"
     pings_off: "Pings desativados em mensagens repostadas"
@@ -61,7 +62,7 @@ pt:
     too_many_static: "Este servidor tem muitos emotes estáticos! Tente excluir alguns primeiro."
     animated_only: "Este comando só funciona com emotes animados - ele os torna disponíveis no seletor de emote para usuários não nitro como estáticos!"
 
-    emote_not_found: "Não foi possível encontrar esse emote! Tente criar um apelidos com `%{prefix}procurar apelidos`"
+    emote_not_found: "Não foi possível encontrar esse emote! Tente criar um alias com `%{prefix}alias search`"
     upload_later: "Não foi possível fazer upload do emote; tente novamente em algumas horas"
 
     choose_emote: "Escolha um emote para criar um link estático para:"
@@ -69,32 +70,45 @@ pt:
     create_static_emote: "Crie um emote estático para %{emote}?"
 
     uploaded: "Carregado %{uploaded}!"
-    uploaded_emote: "Carregado %{uploaded}!\nUse para obter %{emote}"
+    uploaded_emote: "Carregado %{uploaded}! \nUse para obter %{emote}"
 
   pack:
-    no_pack: "%{name} não é um pacote de emote registrado"
-    joined: "Entrou %{name}.\nQualquer pessoa no servidor agora pode usar os seguintes emotes digitando seu nome no chat, incluindo dois pontos:"
+    max_title: "Este servidor já está em sua contagem máxima de emote/pack!"
+    max_description: |
+      %{name} não foi adicionado como um pacote de servidor.
+      Para mais aliases / pacotes, qualquer pessoa pode votar no bot em %{url}
+    left_pack: "'%{guild_name}' saiu de %{name}"
+    not_in_pack: "Este servidor não tinha %{name} como pacote de servidor para começar"
 
-    max_title: "Este servidor já está em sua contagem máxima de emotes / pacotes!"
-    max_description: ":%{name}:não foi adicionado como um pacote de servidor. \n\nPara mais apelidos / pacotes, qualquer pessoa pode votar no bot em %{url}"
+    invalid_group: "<Pacote inválido - por favor, relate>"
+    join_server: "(Entrar no servidor)"
+    join_text: |
+      Faça com que o servidor se junte a este pacote de emote com <:join:702970568101724331> ou:
+      > %{prefix}server pack join %{name}
+    no_longer_registered: "%{name} não é mais um pacote de emoções registrado"
+    already_joined: "%{guild_name} já se juntou a %{name}"
+    joined_short: "%{guild_name} juntou-se a %{name}"
+    joined_long: |
+      '%{guild_name}' ingressou %{name}.
+      Qualquer pessoa neste servidor agora pode usar os seguintes emotes digitando seu nome no bate-papo, incluindo dois pontos:
+    no_packs: "'%{guild_name}s' não está associado a nenhum pacote globalmente!"
 
-    left_pack: "Esquerda %{name}"
-    not_in_pack: "Este servidor não tinha %{name} como um pacote de servidor para começar"
 
   prefix:
-    instructions: "Para definir o meu prefixo, mencione-me antes do prefixo desejado para evitar alterações acidentais.\n> %{prefix}alterar prefixo %{me} %{new}"
-    no_colon_prefix: "NQN não suporta prefixos que começam com dois pontos."
+    instructions: "Para definir meu prefixo, mencione-me antes do prefixo desejado para evitar alterações acidentais.\n> %{prefix}server prefix %{me} %{new}"
+    no_colon_prefix: "NQN não suporta prefixos que começam com dois pontos (:)"
+    no_slash_prefix: "NQN não suporta prefixos que começam com uma barra (/)"
 
     set_prefix: "Defina meu prefixo para `%{prefix}`"
 
   language:
     choose: "Escolha meu novo idioma:"
-    set: "Meu idioma neste servidor agora é Português"
+    set: "Defina meu idioma para portugês neste servidor"
 
   config:
-    enabled: "ativado"
-    disabled: "desativado"
-    prefix: "Prefixo"
+    enabled: "Habilitado"
+    disabled: "Desabilitado"
+    prefix: "Prefix"
 
     announcement: "Canal de anúncio"
     boost_channel: "Canal de Boost"
@@ -102,13 +116,13 @@ pt:
     audit_channel: "Canal de auditoria"
     nitro_role: "Cargo Nitro"
 
-    stickers: "Adesivos"
+    stickers: "Stickers"
     nitro: "Nitro"
     replies: "Respostas"
-    masked: "URLs camuflado"
+    masked: "URLs disfarçadas"
     pings: "Pings"
 
-    invite: "Link de Convite"
+    invite: "Link de convite"
     pack: "Nome do Pacote"
     public: "Público"
     member_count: "Membros"
