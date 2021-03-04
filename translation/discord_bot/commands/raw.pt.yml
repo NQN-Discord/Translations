@@ -102,7 +102,7 @@ pt:
       Se um administrador de servidor deseja desabilitar esta funcionalidade em todo o servidor, ele pode usar `%{prefix}server replies off`.
     page_5_title: "URLs camufladas"
     page_5_desc: |
-        O NQN permite que os usuários enviem [URLs camufladas] (% {url}) como parte de suas mensagens regulares.
+        O NQN permite que os usuários enviem [URLs camufladas] (%{url}) como parte de suas mensagens regulares.
         Este usa marcação padrão, `[texto para mostrar](https://url.aqui)`.
     page_6_title: "Adesivos"
     page_6_desc: |
@@ -111,7 +111,7 @@ pt:
       Você pode usá-los como se fosse um emote, exceto que os adesivos têm uma extensão de arquivo no final.
       Cada mensagem pode conter até 10 adesivos.
       Você pode criar stickers com `%{prefix}sticker create` e fazer o upload de um arquivo de imagem ou importando do Telegram.
-      Isso é feito com `% {prefix} telegrama de adesivos https: // t.me / addstickers / sticker-pack-here`.
+      Isso é feito com `%{prefix} telegrama de adesivos https: // t.me / addstickers / sticker-pack-here`.
       Para pesquisar adesivos que você pode usar com NQN, use `%{prefix}sticker search` com termos de pesquisa opcionais.
       Para visualizar seus adesivos, use `%{prefix}stickers mine`.
       Observação - para usar adesivos do Telegram, você deve primeiro importá-los para o bot. O bot não faz isso automaticamente.
@@ -139,7 +139,7 @@ pt:
     page_7_2_desc: |
       O NQN mantém um registro das mensagens que reenvia, à medida que a mensagem original é removida.
       Isso ocorre no caso de alguém alterar seu nome e avatar antes de postar uma mensagem ofensiva ou se comportar mal ao usar o bot.
-      Para obter as mensagens auditadas para o servidor, use `%{prefix}audit guild` ou [visite nosso website] (% {url}), selecione seu servidor e clique na engrenagem no topo.
+      Para obter as mensagens auditadas para o servidor, use `%{prefix}audit guild` ou [visite nosso website] (%{url}), selecione seu servidor e clique na engrenagem no topo.
       Apenas usuários com ** Gerenciar Servidor ** e ** Ver Registro de Auditoria ** podem visualizar as mensagens registradas.
       Uma abordagem alternativa que permanece dentro do Discord é o Canal de Auditoria, que pode ser configurado com `%{prefix}server set_audit_channel #canal`.
       Quaisquer mensagens reenviadas serão postadas lá com seu nome de usuário, origem e id de usuário atuais.

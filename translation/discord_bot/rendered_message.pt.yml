@@ -3,7 +3,7 @@ pt:
   first_message: |
     Você acabou de começar com NQN!
     Você poderá usar qualquer emote animado neste servidor e qualquer outro servidor que você compartilhe comigo.
-    Se você quiser procurar mais emotes, use o comando `% {prefix} tutorial` e vá para a página 3.
+    Se você quiser procurar mais emotes, use o comando `%{prefix} tutorial` e vá para a página 3.
   oops: "Oops!"
   external_emojis: "Para usar emojis de outros servidores, a função @everyone precisa de permissão para 'Usar Emojis Externos' nas Configurações do Servidor e nas Permissões de Configurações do Canal."
 
