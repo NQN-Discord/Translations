@@ -7,5 +7,6 @@ en:
 
   oops: "Oops!"
   external_emojis: "In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in both the Server Settings and the Channel Settings Permissions."
+  override_external_emojis: "In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the Channel Settings Permissions."
 
   download: "Download"
