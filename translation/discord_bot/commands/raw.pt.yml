@@ -203,6 +203,9 @@ pt:
     too_many_reacts:
       one: "Esta mensagem tem muitas reações para adicionar uma nova! "
       many: "Esta mensagem tem muitas reações para adicionar todas!"
+    reacting:
+      one: "Adicionando %{count} reação; lembre-se de clicar na reação para fazê-los permanecer na mensagem!"
+      many: "Adicionando %{count} reações; lembre-se de clicar nas reações para fazê-las permanecer na mensagem!"
     blocked: "%{author} me bloqueou, então não posso adicionar essa reação!"
     on_behalf: "NQN em nome de %{author} (%{author_id})"
     audit_message: "%{author} reagiu a [esta mensagem](<%{jump_url}>) em %{channel} com estes emotes:\n"
