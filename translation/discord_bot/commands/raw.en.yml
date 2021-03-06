@@ -240,6 +240,9 @@ en:
     too_many_reacts:
       one: "This message has too many reactions to add a new one!"
       many: "This message has too many reactions to add them all!"
+    reacting:
+      one: "Adding %{count} reaction; remember to react yourself for them to stay!"
+      many: "Adding %{count} reactions; remember to react yourself for them to stay!"
     blocked: "%{author} has blocked me, so I cannot add that reaction!"
     on_behalf: "NQN on behalf of %{author} (%{author_id})"
     audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
