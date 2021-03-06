@@ -21,6 +21,9 @@ en:
     user_ignored: "NQN will no longer repost your messages. Run this command again to re-enable"
     user_unignored: "NQN will repost your messages as normal"
 
+  invite:
+    add_nqn: "Add NQN to your server!"
+
   ranking:
     vote_link: "You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank."
     top_server: "Congrats on being the most supportive server <a:BluePat:679807864327766048>"
