@@ -21,6 +21,10 @@ es:
     user_ignored: "NQN no reenviara tus mensajes. Utiliza este comando nuevamente para reactivar"
     user_unignored: "NQN reenviara tus mensajes de manera usual"
 
+  invite:
+    add_nqn: "¡Agrega NQN a tu servidor!"
+
+
   ranking:
     vote_link: "Puedes votar por el bot con %{url} para incrementar el limite de emojis del servidor y su rango."
     top_server: "Felicidades en ser el servidor que más apoya <a:BluePat:679807864327766048>"
