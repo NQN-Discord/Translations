@@ -6,7 +6,7 @@ en:
     If you want to look for more emotes, use the `%{prefix}tutorial` command and scroll to page 3.
 
   oops: "Oops!"
-  external_emojis: "In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in both the Server Settings and the Channel Settings Permissions."
+  external_emojis: "In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the Server Settings."
   override_external_emojis: "In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the Channel Settings Permissions."
 
   download: "Download"

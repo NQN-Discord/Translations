@@ -6,7 +6,8 @@ es:
     Si quieres encontrar más emojis, utiliza el comando `%{prefix}tutorial` y selecciona la pagina 3.
 
   oops: "¡Oops!"
-  external_emojis: "Para poder utilizar emojis de otros servidores, el rol @everyone requiere del permiso 'Usar emojis externos' en la configuración del servidor al igual que la configuración del canal."
+  external_emojis: "Para poder utilizar emojis de otros servidores, el rol @everyone requiere del permiso 'Usar emojis externos' en la configuración del servidor."
+  override_external_emojis: "Para poder utilizar emojis de otros servidores, el rol @everyone requiere del permiso 'Usar emojis externos' en la configuración del canal."
 
   download: "Descarga"
 
