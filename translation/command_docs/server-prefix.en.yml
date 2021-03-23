@@ -3,3 +3,8 @@ en:
   help: |
     Make NQN listen to a different prefix.
 
+    Example invocation:
+    >>> %{prefix}server prefix <@%{bot_id}> ?
+
+  signature: |
+    @NQN#3454 [prefix=!]

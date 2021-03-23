@@ -7,6 +7,9 @@ en:
 
   edit:
     never_posted: "You've never posted a message with NQN in this channel!"
+    message_deleted: |
+      Your most recent message with NQN in this channel has been deleted!
+      Please choose a message either by replying to it with Discord, or by pasting it's jump URL
     cannot_edit_no_nqn: "You cannot edit this message as it's not a message NQN posted!"
     cannot_edit_different_user: "You cannot edit this message as it wasn't posted by you!"
 
