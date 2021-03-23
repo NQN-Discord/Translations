@@ -7,6 +7,9 @@ es:
 
   edit:
     never_posted: "¡Nunca has enviado un mensaje con NQN en este canal!"
+    message_deleted: |
+      ¡El mensaje más reciente que has enviado con NQN en este canal fue borrado!
+      Por favor eliga el mensaje o respondiendo a este con discord, o pegando el link del mensaje.
     cannot_edit_no_nqn: "¡No puedes editar este mensaje ya que no es un mensaje enviado por NQN!"
     cannot_edit_different_user: "¡No puedes editar este mensaje ya que este no fue enviado por vos!"
 
