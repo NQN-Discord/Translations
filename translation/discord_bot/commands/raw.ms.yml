@@ -145,10 +145,10 @@ ms:
 
       Berikut merupakan ciri-ciri yang boleh anda togol:
 
-       • Nitro - `${prefix}server nitro`
-       • Pelekat - `${prefix}server stickers`
-       • Pembalasan - `${prefix}server replies`
-       • Pautan Terlindung - `${prefix}server masked_links`
+       • Nitro - `%{prefix}server nitro`
+       • Pelekat - `%{prefix}server stickers`
+       • Pembalasan - `%{prefix}server replies`
+       • Pautan Terlindung - `%{prefix}server masked_links`
     page_7_0_name: "Analisis Selesai Masalah"
     page_7_0_desc: |
       Untuk berfungsi dengan sebetulnya, NQN memerlukan keizinan berikut bagi __setiap__ saluran di mana Nitro akan digunakan:

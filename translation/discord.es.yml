@@ -40,4 +40,4 @@ es:
       NQN también permite citas automáticas cada vez que un usuario publica un enlace de un mensaje, el uso de URLs enmascarados en chat y stickers, que son emojis de tamaño completo.
 
 
-      Puedes invitarme a [tu servidor](https://discord.com/api/oauth2/authorize?{params}).
+      Puedes invitarme a [tu servidor](https://discord.com/api/oauth2/authorize?%{params}).

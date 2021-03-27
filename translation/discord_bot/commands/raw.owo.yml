@@ -136,10 +136,10 @@ owo:
 
       Hewe awe the featuwes you can toggwe:
 
-       • Nitwo - `${prefix}server nitro`
-       • Stickews - `${prefix}server stickers`
-       • Wepwies - `${prefix}server replies`
-       • Masked Winks - `${prefix}server masked_links`
+       • Nitwo - `%{prefix}server nitro`
+       • Stickews - `%{prefix}server stickers`
+       • Wepwies - `%{prefix}server replies`
+       • Masked Winks - `%{prefix}server masked_links`
     page_7_0_name: "Twoubweshooting Issues"
     page_7_0_desc: |
       In owdew to wun cowwectwy, NQN needs the fowwowing pewmissions in __evewy__ channew you wish to use Nitwo in:

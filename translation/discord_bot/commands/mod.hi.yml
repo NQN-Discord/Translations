@@ -14,7 +14,7 @@ hi:
     cannot_ban: "मैं प्रतिबंध नहीं लगा सकता <@%{banee}>!"
     banned: "<@%{banee}> (ID %{banee}) पर प्रतिबंध लगा दिया"
 
-    banned_audit: "{author} ने इन पर<@{banee}> (ID {banee})प्रतिबंध लगा दिया"
+    banned_audit: "%{author} ने इन पर<@%{banee}> (ID %{banee})प्रतिबंध लगा दिया"
 
   kick:
     owner: "मैं मालिक को हटा नहीं सकता!"

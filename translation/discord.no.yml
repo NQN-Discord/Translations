@@ -32,4 +32,4 @@
 
       NQN tillater også automatisk sitering når en bruker sender en meldingslenke, bruken av maskerte lenker i chat og klistremerker, som er full størrelse emojier.
 
-      Du kan invitere med [til din server](https://discord.com/api/oauth2/authorize?{params}).
+      Du kan invitere med [til din server](https://discord.com/api/oauth2/authorize?%{params}).

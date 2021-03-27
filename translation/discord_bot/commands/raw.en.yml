@@ -151,10 +151,10 @@ en:
 
       Here are the features you can toggle:
 
-       • Nitro - `${prefix}server nitro`
-       • Stickers - `${prefix}server stickers`
-       • Replies - `${prefix}server replies`
-       • Masked Links - `${prefix}server masked_links`
+       • Nitro - `%{prefix}server nitro`
+       • Stickers - `%{prefix}server stickers`
+       • Replies - `%{prefix}server replies`
+       • Masked Links - `%{prefix}server masked_links`
     page_7_0_name: "Troubleshooting Issues"
     page_7_0_desc: |
       In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:

@@ -15,7 +15,7 @@ pt:
     you_cannot_ban: "Você não pode banir <@%{banee}>!"
     banned: "Banido <@%{banee}> (ID %{banee})"
 
-    banned_audit: "%{author} baniu <@{banee}> (ID %{banee})"
+    banned_audit: "%{author} baniu <@%{banee}> (ID %{banee})"
 
   kick:
     owner: "Eu não posso chutar o dono!"

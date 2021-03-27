@@ -35,4 +35,4 @@ ms:
 
       NQN juga membenarkan petikan automatik apabila seorang pengguna menghantar satu pautan mesej, penggunaan terlindung dalam perbualan dan pelekat, yang merupakan emoji bersaiz penuh.
 
-      Anda boleh menjemput saya [ke pelayan anda](https://discord.com/api/oauth2/authorize?{params}).
+      Anda boleh menjemput saya [ke pelayan anda](https://discord.com/api/oauth2/authorize?%{params}).
