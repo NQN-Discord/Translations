@@ -15,7 +15,7 @@ ms:
     you_cannot_ban: "Anda tidak boleh mengharamkan <@%{banee}>!"
     banned: "Berjaya mengharamkan <@%{banee}> (ID %{banee})"
 
-    banned_audit: "%{author} telah mengharamkan <@{banee}> (ID %{banee})"
+    banned_audit: "%{author} telah mengharamkan <@%{banee}> (ID %{banee})"
 
   kick:
     owner: "Saya tidak boleh menendang pemilik pelayan keluar!"

@@ -32,4 +32,4 @@ fr:
 
       NQN permet aussi d'autoriser des citations automatiques lorsqu'un utilisateur post un message avec un lien,l'utilisation d'URLS masqués dans les salons et les stickers,qui sont des emojis avec une grande taille.
 
-      Vous ppuvez m'inviter [vers votre serveur](https://discord.com/api/oauth2/authorize?{params}).
+      Vous ppuvez m'inviter [vers votre serveur](https://discord.com/api/oauth2/authorize?%{params}).

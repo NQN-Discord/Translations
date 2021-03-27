@@ -123,10 +123,10 @@ pt:
       O NQN é altamente personalizável em termos de conjuntos de recursos, caso alguns deles não sejam apropriados para o seu servidor.
       Qualquer pessoa com permissões de ** Gerenciar servidor ** pode alterar as configurações do servidor com o bot
       Aqui estão os recursos que você pode alternar:
-       • Nitro - `${prefix}server nitro`
-       • Adesivo - `${prefix}server stickers`
-       • Respostas - `${prefix}server replies`
-       • Links camuflados - `${prefix}server masked_links`
+       • Nitro - `%{prefix}server nitro`
+       • Adesivo - `%{prefix}server stickers`
+       • Respostas - `%{prefix}server replies`
+       • Links camuflados - `%{prefix}server masked_links`
     page_7_0_name: "Resolução de problemas"
     page_7_0_desc: |
       Para funcionar corretamente, o NQN precisa das seguintes permissões em __cada__ canal em que deseja usar o Nitro:

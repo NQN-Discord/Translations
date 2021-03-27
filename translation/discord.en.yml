@@ -37,4 +37,4 @@ en:
 
       NQN also allows automatic quoting whenever a user posts a message link, the use of masked urls in chat and stickers, which are full size emotes.
 
-      You can invite me [to your server](https://discord.com/api/oauth2/authorize?{params}).
+      You can invite me [to your server](https://discord.com/api/oauth2/authorize?%{params}).

@@ -32,4 +32,4 @@ pt:
       Not Quite Nitro é um bot utilitário multiuso que permite a qualquer usuário usar emotes Nitro.
       Temos um banco de dados extremamente grande de emotes visualmente exclusivos que você pode usar em qualquer servidor em que o bot esteja com permissões para Gerenciar Webhook.
       O NQN também permite cotação automática sempre que um usuário posta um link de mensagem, o uso de urls mascaradas no chat e adesivos, que são emotes em tamanho real.
-      Você pode me convidar [para o seu servidor](https://discord.com/api/oauth2/authorize?{params}).
+      Você pode me convidar [para o seu servidor](https://discord.com/api/oauth2/authorize?%{params}).
