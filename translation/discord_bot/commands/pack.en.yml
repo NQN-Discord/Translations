@@ -19,6 +19,9 @@ en:
     already_published: "This server is already published as a pack!"
     already_exists: "An emote pack called %{name} already exists"
     published: "Published emote pack %{name}. Anyone is able to save these emotes to their own server, and you assert that you are the owner of these emotes. To undo this, run `%{prefix}pack unpublish`."
+    pack_published: |
+      To gain access to all these emotes, run
+      >>> !pack join %{name}
 
   rename:
     already_exists: "An emote pack called %{name} already exists"
