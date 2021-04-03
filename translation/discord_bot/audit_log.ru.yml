@@ -10,4 +10,4 @@
     Сообщение в канале %{channel} было переименовано %{author} %{cropped}
     [Перейти на сообщение](%{jump_url})
 
-  audit_log_post: "NQN от имени <@%{author}> (%{author})"
+  audit_log_post: "NQN от имени <@%{author}> (%{id})"
