@@ -1,0 +1,5 @@
+en:
+  short_doc: 'Enable or disable user aliases and packs for this guild'
+  help: |
+    Enable or disable user aliases and packs for this guild
+

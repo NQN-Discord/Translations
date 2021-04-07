@@ -60,6 +60,14 @@ en:
     pings_on: "Enabled pings in reposted messages"
     pings_off: "Disabled pings in reposted messages"
 
+    user_content_on: |
+      Enabled usage of individual user's aliases and packs
+      Sticker settings have not been changed.
+    user_content_off: |
+      Disabled usage of individual user's aliases and packs.
+      Only aliases and packs added with `%{prefix}server alias search` and `%{prefix}server pack search` will be usable, as well as emojis from this server.
+      Stickers have also been automatically disabled.
+
   link:
     no_animated_emotes: |
       This server has no animated emotes!
@@ -130,6 +138,7 @@ en:
     replies: "Replies"
     masked: "Masked URLs"
     pings: "Pings"
+    user_content: "User Content"
 
     invite: "Invite Link"
     pack: "Pack Name"
