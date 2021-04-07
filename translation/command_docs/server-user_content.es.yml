@@ -1,0 +1,5 @@
+es:
+  short_doc: 'Habilita o deshabilita los alias y packs de los usuarios en este servidor'
+  help: |
+    Habilita o deshabilita los alias y packs de los usuarios en este servidor
+
