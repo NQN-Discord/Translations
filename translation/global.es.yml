@@ -34,6 +34,13 @@ es:
 
   global_check_failed: "No tienes permitido utilizar %{cmd_name}"
 
+  requires_user_content: |
+    El contenido de los usuarios no esta habilitado en este servidor.
+
+  requires_user_content_admin: |
+    El contenido de los usuarios no esta habilitado en este servidor. Lo puedes habilitar usando
+    > ```%{prefix}server user_content on```
+
   error_message: |
     Ha ocurrido un error mientras se procesaba tu comando. Puede que este no se haya completado de manera correcta.
     Para conseguir ayuda, y reportar el error, por favor unirse al servidor de servicio técnico del bot:
