@@ -35,6 +35,13 @@ en:
 
   global_check_failed: "You are not allowed to use %{cmd_name}"
 
+  requires_user_content: |
+    User content is not allowed in this server.
+
+  requires_user_content_admin: |
+    User content is not allowed in this server. You can allow it with
+    > ```%{prefix}server user_content on```
+
   error_message: |
     An error occurred whilst processing your command. It may not have completed correctly.
     For help, and to report this as an issue, please join the testing server for this bot:
