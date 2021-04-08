@@ -60,6 +60,14 @@ es:
     pings_on: "Habilitado los pings enn mensajes reenviados por NQN"
     pings_off: "Deshabilitado los pings enn mensajes reenviados por NQN"
 
+    user_content_on: |
+      Se habilitó el uso de los alias y packs de los usuarios.
+      La configuracion de los stickers no ha cambiado.
+    user_content_off: |
+      Se deshabilito el uso de los alias y packs de los usuarios.
+      Solo los alias y packs agregados con `%{prefix}server alias search` and `%{prefix}server pack search` podran ser usados junto con los emojis de este servidor.
+      Los stickers tambien han sido deshabilitados automaticamente.
+
   link:
     no_animated_emotes: |
       Este servidor no tiene emojis animados!
@@ -131,6 +139,7 @@ es:
     replies: "Respuestas"
     masked: "URLs enmascarados"
     pings: "Pings"
+    user_content: "Contenido de los Usuarios"
 
     invite: "Enlace de invitación"
     pack: "Nombre del Pack"
