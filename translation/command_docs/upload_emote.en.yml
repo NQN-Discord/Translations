@@ -2,6 +2,6 @@ en:
   short_doc: 'Search for all the emotes the bot has ever seen and upload them to this server.'
   help: |
     Search for all the emotes the bot has ever seen and upload them to this server.
-    This command allows you to upload emotes, supporting tiled emotes and resizing.
+    This command allows you to upload emotes.
     You can also attach a file to upload that
 
