@@ -227,24 +227,15 @@ en:
         The following emotes are not valid:
         > %{not_found}
         Emotes must only contain alphanumerics, underscores and up to a single dash.
-    not_in_mutuals:
-      one: |
-        The following emote is not usable:
-        > %{not_in_mutuals}
-        Emotes must be from servers NQN is a member of.
-      many: |
-        The following emotes are not usable:
-        > %{not_in_mutuals}
-        Emotes must be from servers NQN is a member of.
     emote_unusable:
       one: |
         The following emote cannot be used in reactions:
         > %{unusable}
-        If you upload it to a server the bot's in, it will become usable in reactions!
+        Emotes must be from servers NQN is a member of; if you upload it to a server the bot's in, it will become usable in reactions!
       many: |
         The following emotes cannot be used in reactions:
         > %{unusable}
-        If you upload them all to a server the bot's in, they will become usable in reactions!
+        Emotes must be from servers NQN is a member of; if you upload them all to a server the bot's in, they will become usable in reactions!
     emote_not_found:
       one: |
         Could not find emote %{not_found}
