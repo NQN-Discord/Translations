@@ -235,10 +235,12 @@ es:
       one: |
         El siguiente emoji no se puede utilizar en reacciones:
         > %{unusable}
+        El emoji debe pertencer a un servidor que tenga a NQN agregado;
         ¡Si lo subis a un servidor en el que se encuentra el bot, este se podra utilizar en reacciones!
       many: |
         Los siguientes emojis no pueden ser utilizados en reacciones:
         > %{unusable}
+        Los emojis debe pertencer a un servidor que tenga a NQN agregado;
         ¡Si los subis a un servidor en el que se encuentra el bot, estos se podran utilizar en reacciones!
     emote_not_found:
       one: |
