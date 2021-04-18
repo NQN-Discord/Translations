@@ -2,7 +2,7 @@ es:
   deleted_channel: "#Canal-inexistente"
   author: "Autor"
   jump_to_message: "Ir al mensaje"
-  go_to_message: "[¡Ir al mensaje!](%{jump_url})"
+  go_to_message: "¡Ir al mensaje!"
   cancelled: "Cancelado"
   website: "Sitio"
 
