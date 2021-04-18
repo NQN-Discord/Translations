@@ -1,4 +1,20 @@
 en:
+  no_premium: |
+    Your Patreon does not have premium status
+  no_patreon: |
+    No Patreon account associated with this Discord account
+  account_not_changed: |
+    Updated your premium guild list; your linked Discord account has not changed
+  gained_premium: |
+    Linked your Discord account to Patreon! Your premium features are now applied to this account.
+
+  associate_account: |
+    No Patreon account associated with this Discord account.
+    [Associate your Discord account with Patreon](%{patreon_oauth})
+  updated_status: |
+    Your account status has been updated; check your direct messages.
+
+
   user_gained_premium: |
     Hey %{user_mention}, thanks for getting premium! We really appreciate your contribution <:BlueLove:831617205132329040>
     Here's the list of servers that get premium access from you:

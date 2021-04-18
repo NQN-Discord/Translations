@@ -1,0 +1,5 @@
+en:
+  short_doc: "Recalculate your premium information"
+  help: |
+    Recalculates your premium information, including the list of servers gaining premium from you.
+
