@@ -1,0 +1,4 @@
+es:
+  short_doc: "Recalular tu estado premium"
+  help: |
+    Recalculá tu estado premium, incluyendo la lista de servidores que obtiene premium por vos.
