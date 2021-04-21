@@ -18,3 +18,16 @@ en:
   import_set:
     one: "Set %{count} alias."
     many: "Set %{count} aliases."
+
+
+  dm:
+    send_dms:
+      zero: |
+        You have no aliases!
+        Get some with `%{prefix}alias search`
+      one: |
+        This will send you a direct message; do you wish to continue?
+      many: |
+        This will send you %{count} direct messages; do you wish to continue?
+    blocked: |
+      You've blocked me, I can't message you!

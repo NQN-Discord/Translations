@@ -2,6 +2,7 @@ es:
   no_alias: "No tienes un alias llamado :%{name}:"
   could_not_find: "No se pudo encontrar el alias"
   alphanumeric: "Los alias solo pueden llevar caracteres alfanuméricos y guiones bajos"
+  max_length: "Los nombres de los alias solo pueden ser hasta 32 caracteres"
   user_zero: "No tienes ningún alias"
 
   deleted: "Eliminado :%{name}:"
@@ -17,3 +18,16 @@ es:
   import_set:
     one: "Establecido %{count} alias."
     many: "Establecidos %{count} aliases."
+
+  dm:
+    send_dms:
+      zero: |
+        ¡No tienes ningún alias!
+        Asignatelos con `%{prefix}alias search`
+      one: |
+        Esto te enviara un mensaje privado; ¿deseas continuar?
+      many: |
+        Esto te enviara %{count} mensajes privados; ¿deseas continuar?
+    blocked: |
+      Me has bloqueado :c
+      ¡No te puedo evniar mensajes!
