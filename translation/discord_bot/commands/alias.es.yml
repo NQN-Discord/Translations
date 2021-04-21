@@ -2,6 +2,7 @@ es:
   no_alias: "No tienes un alias llamado :%{name}:"
   could_not_find: "No se pudo encontrar el alias"
   alphanumeric: "Los alias solo pueden llevar caracteres alfanuméricos y guiones bajos"
+  max_length: "Los nombres de los alias solo pueden ser hasta 32 caracteres"
   user_zero: "No tienes ningún alias"
 
   deleted: "Eliminado :%{name}:"
