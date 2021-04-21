@@ -18,3 +18,16 @@ es:
   import_set:
     one: "Establecido %{count} alias."
     many: "Establecidos %{count} aliases."
+
+  dm:
+    send_dms:
+      zero: |
+        ¡No tienes ningún alias!
+        Asignatelos con `%{prefix}alias search`
+      one: |
+        Esto te enviara un mensaje privado; ¿deseas continuar?
+      many: |
+        Esto te enviara %{count} mensajes privados; ¿deseas continuar?
+    blocked: |
+      Me has bloqueado :c
+      ¡No te puedo evniar mensajes!
