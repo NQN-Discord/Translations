@@ -240,7 +240,7 @@ es:
       many: |
         Los siguientes emojis no pueden ser utilizados en reacciones:
         > %{unusable}
-        Los emojis debe pertencer a un servidor que tenga a NQN agregado;
+        Los emojis deben pertencer a un servidor que tenga a NQN agregado;
         ¡Si los subis a un servidor en el que se encuentra el bot, estos se podran utilizar en reacciones!
     emote_not_found:
       one: |
