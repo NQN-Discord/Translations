@@ -60,3 +60,16 @@ es:
   unpublish:
     not_published: "Este servidor no fue publicado previamente."
     unpublished: "Se removió el pack %{name}"
+
+  dm:
+    send_dms:
+      zero: |
+        ¡No tienes ningún pack!
+        Asignatelos con `%{prefix}pack search`
+      one: |
+        Esto te enviara un mensaje privado; ¿deseas continuar?
+      many: |
+        Esto te enviara %{count} mensajes privados; ¿deseas continuar?
+    blocked: |
+      Me has bloqueado :c
+      ¡No te puedo evniar mensajes!
