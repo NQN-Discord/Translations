@@ -68,6 +68,15 @@ en:
       Only aliases and packs added with `%{prefix}server alias search` and `%{prefix}server pack search` will be usable, as well as emojis from this server.
       Stickers have also been automatically disabled.
 
+    personas_on: |
+      Enabled usage of personas.
+      This allows anyone to set a customisable username and avatar; be warey of impersonation.
+
+      NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
+      > ```!server set_audit_channel #channel```
+
+    personas_off: "Disabled usage of personas"
+
   link:
     no_animated_emotes: |
       This server has no animated emotes!
@@ -139,6 +148,7 @@ en:
     masked: "Masked URLs"
     pings: "Pings"
     user_content: "User Content"
+    personas: "Personas"
 
     invite: "Invite Link"
     pack: "Pack Name"
