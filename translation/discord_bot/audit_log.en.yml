@@ -6,6 +6,12 @@ en:
     Message posted in %{channel} by %{author} %{cropped}
     [Jump Link](%{jump_url})
 
+  message_posted_persona: |
+    Message posted in %{channel} by %{author} %{cropped}
+    ⚠️ Using Persona ⚠️
+    > **%{persona}**
+    [Jump Link](%{jump_url})
+
   message_edited: |
     Message edited in %{channel} by %{author} %{cropped}
     [Jump Link](%{jump_url})
