@@ -41,6 +41,8 @@ es:
   avatar_url:
     persona_avatar_url: |
       Se fijo el avatar de %{short_name}
+    avatar_regex: |
+      Los avatars deben ser dados como URLs de la imagen que desas usar.
 
   delete:
     persona_deleted: |
