@@ -41,6 +41,8 @@ en:
   avatar_url:
     persona_avatar_url: |
       Set %{short_name}'s avatar.
+    avatar_regex: |
+      Avatars must be given as URLs to the image you want to use.
 
   delete:
     persona_deleted: |
