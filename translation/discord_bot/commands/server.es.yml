@@ -68,6 +68,18 @@ es:
       Solo los alias y packs agregados con `%{prefix}server alias search` and `%{prefix}server pack search` podran ser usados junto con los emojis de este servidor.
       Los stickers tambien han sido deshabilitados automaticamente.
 
+    personas_on: |
+      Se habilitó el uso de personajes.
+      Esto permite a cualquier usuario ajustar un nombre de usuario y avatar personalizados;
+      Este alerta de
+      This allows anyone to set a customisable username and avatar; be warey of impostores.
+
+      El staff de NQN recomienda fijar un canal de auditoria cuando se utiliza esta funcionalidad;
+      Si no lo has echo todavia, se puede fijar usando:
+      > ```!server set_audit_channel #channel```
+
+    personas_off: "Se deshabilito el uso de personajes"
+
   link:
     no_animated_emotes: |
       Este servidor no tiene emojis animados!
