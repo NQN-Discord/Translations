@@ -1,0 +1,4 @@
+es:
+  short_doc: "Registra un personaje para su uso más tarde"
+  help: |
+    Registra un nuevo personaje para su uso más tarde
