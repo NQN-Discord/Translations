@@ -1,0 +1,4 @@
+en:
+  short_doc: "Export your list of personas to a file"
+  help: |
+    Export your list of personas to a file, which is compatible with other bots

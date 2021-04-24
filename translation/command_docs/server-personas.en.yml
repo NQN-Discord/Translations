@@ -1,0 +1,4 @@
+en:
+  short_doc: 'Enable or disable usage of personas'
+  help: |
+    Allows users to post with arbitrary usernames and avatars
