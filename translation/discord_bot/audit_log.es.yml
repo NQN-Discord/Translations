@@ -6,6 +6,12 @@ es:
     Mensaje enviado en %{channel} por %{author} %{cropped}
     [Ir al mensaje](%{jump_url})
 
+  message_posted_persona: |
+    Mensaje enviado en %{channel} por %{author} %{cropped}
+    ⚠️ Utilizando un personaje ⚠️
+    > **%{persona}**
+    [Ir al mensaje](%{jump_url})
+
   message_edited: |
     Mensaje editado en %{channel} por %{author} %{cropped}
     [Ir al mensaje](%{jump_url})
