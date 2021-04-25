@@ -77,6 +77,9 @@ en:
 
     personas_off: "Disabled usage of personas"
 
+    dashboard_posting_on: "Enabled posting messages from the bot's dashboard"
+    dashboard_posting_off: "Disabled posting messages from the bot's dashboard"
+    
   link:
     no_animated_emotes: |
       This server has no animated emotes!
@@ -149,6 +152,7 @@ en:
     pings: "Pings"
     user_content: "User Content"
     personas: "Personas"
+    dashboard_posting: "Dashboard Posting"
 
     invite: "Invite Link"
     pack: "Pack Name"
