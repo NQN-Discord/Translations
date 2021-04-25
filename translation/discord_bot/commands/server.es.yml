@@ -80,6 +80,9 @@ es:
 
     personas_off: "Se deshabilito el uso de personajes"
 
+    dashboard_posting_on: "Se habilita el envío de mensajes dese el panel en sito del bot"
+    dashboard_posting_off: "Se deshabilito el envío de mensajes dese el panel en sito del bot"
+
   link:
     no_animated_emotes: |
       Este servidor no tiene emojis animados!
