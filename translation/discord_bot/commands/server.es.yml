@@ -155,6 +155,7 @@ es:
     masked: "URLs enmascarados"
     pings: "Pings"
     user_content: "Contenido de los Usuarios"
+    dashboard_posting: "Envío de mensajes desde el Sitio"
 
     invite: "Enlace de invitación"
     pack: "Nombre del Pack"
