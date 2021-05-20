@@ -7,6 +7,6 @@ pt:
 
   oops: "Oops!"
   external_emojis: "Para usar emojis de outros servidores, a função @everyone precisa de permissão para 'Usar Emojis Externos' nas Configurações do Servidor."
-  override_external_emojis: "Para usar emojis de outros servidores, a função @everyone precisa de permissão para 'Usar Emojis Externos' nas Permissões de Configurações do Canal."
+  override_external_emojis: "Para usar emojis de outros servidores, a função @everyone precisa de permissão para 'Usar Emojis Externos' nas **Permissões de Configurações do Canal**."
   
   download: "Baixar"
