@@ -39,6 +39,7 @@ es:
 
     created: "Ahora puedes utilizar `:%{name}:`"
     sticker_exists: "Un sticker llamado `:%{name}:` ya existe; no puedes usar ese nombre."
+    duplicate_exists: '¡Un sticker con la misma imagen y nombrado "%{name}" ya existe!'
 
 
   telegram_import:
@@ -46,11 +47,9 @@ es:
     telegram_unloaded: "Pack de Telegram no cargado - Por favor reportar esto al desarrollador del bot."
     already_created: "Ya creado por alguien mas; no se puede sobrescribir"
 
-    import_progress:
-      one: "%{count} sticker importado de %{total}:\nPagina %{page} de %{total_pages}"
-      many: "%{count} stickers importados de %{total}:\nPagina %{page} de %{total_pages}"
     finished_importing:
       one: "Se termino de importar un sticker"
       many: "Se termino de importar %{count} stickers"
 
     search_future: "Para buscar estos stickers en el futuro, usa:\n> `%{prefix}sticker search %{name}.`"
+    view: "Ver Stickers"
