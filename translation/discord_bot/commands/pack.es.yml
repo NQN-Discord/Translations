@@ -1,8 +1,16 @@
 es:
+  buttons:
+    add_to_everyone: "Agregar a @everyone"
+    join_pack: "Unirse al Pack"
+    leave_pack: "Dejar el Pack"
+    all: "Subir todos"
+
   join:
     no_pack: "%{name} no esta registrado como un pack"
     already_joined: "Ya te has unido a %{name}"
-    joined_pack: "Unido a %{name}.\nAhora puedes utilizar los siguientes emoticonos escribiendo su nombre en el chat, incluyendo los dos puntos:"
+    joined_pack: |
+      Unido a %{name}.
+      Ahora puedes utilizar los siguientes emoticonos escribiendo su nombre en el chat, incluyendo los dos puntos:
 
   leave:
     no_pack: "%{name} no esta registrado como un pack"
@@ -40,11 +48,6 @@ es:
   search:
     invalid_group: "<Pack invalido - Reportar por favor >"
     join_server: "(Unirse al servidor)"
-    join_text: "Podes o asignarte este pack con <:join:702970568101724331> o:\n> %{prefix}pack join %{name}\n\n"
-    no_longer_registered: "%{name} ya no es un pack de emojis registrado"
-    already_joined: "<@%{author}> ya esta asignado a %{name}"
-    joined_short: "<@%{author}> se asigno %{name}"
-    joined_long: "<@%{author}> se asigno %{name}.\nAhora pueden usar los siguientes emojis escribiendo su nombre en el chat, incluyendo los dos puntos:"
 
   set_public:
     needs_publishing: "No puedes hacer esto sin primero haber publicado este servidor como un pack de emojis."
@@ -55,7 +58,7 @@ es:
     not_registered: "%{name} no es un pack de emojis registrado"
     join_server: "Únete al Servidor"
     pack_empty: "Este pack no tiene ningún emoji en el!"
-    join_pack: "Para unirse a `%{name}` y poder usar todos estos emojis, utiliza `%{prefix}pack join %{name}`"
+    join_pack: 'Contenidos del pack "%{name}:"'
 
   unpublish:
     not_published: "Este servidor no fue publicado previamente."

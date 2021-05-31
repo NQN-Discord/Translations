@@ -104,7 +104,6 @@ en:
 
       For more aliases/packs, anyone can vote for the bot at %{url}
 
-    join_pack: "Join Pack For Server"
     left_pack: "'%{guild_name}' left %{name}"
     not_in_pack: "This server didn't have %{name} as a server pack to start with"
 

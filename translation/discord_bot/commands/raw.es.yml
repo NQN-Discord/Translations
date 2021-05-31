@@ -70,7 +70,7 @@ es:
     page_0_2_name: "4\u20E3 Aliases - Emojis Individuales"
     page_0_2_desc: "> `%{prefix}alias search NombreDelEmoji`"
 
-    page_1_title: "Reaccionando a mensajes y borrando los"
+    page_1_title: "Reacciones"
     page_1_desc: "Solo puedes reaccionar con emojis que puedes utilizar con NQN."
     page_1_0_name: "Reaccionar al mensaje más reciente:"
     page_1_0_desc: "> `%{prefix}react NombreDelEmoji`"
@@ -81,7 +81,7 @@ es:
     page_1_3_name: "Borrando Mensajes"
     page_1_3_desc: "Reacciona al mensaje a borrar con ❌ (\\:x:) para eliminarlo."
 
-    page_2_title: "Packs de emojis"
+    page_2_title: "Packs"
     page_2_desc: |
       Los packs de emojis son colecciones de emojis las cuales provienen de servidores enteros que decidieron publicar su colección entera de emojis.
       Asignarte/unirse al pack te permite utilizar cualquier emoji perteneciente a este, aunque todos pueden utilizar emojis provenientes de los packs con :NombreDelPack-NombreDelEmoji:
@@ -111,7 +111,7 @@ es:
     page_3_0_desc: |
       > `%{prefix}alias search blob page: 5 animated: true`
 
-    page_4_title: "Respondiendo a mensajes"
+    page_4_title: "Respuestas"
     page_4_desc: |
       NQN permite responder a mensajes mandados hace mucho tiempo. 
 
@@ -195,7 +195,7 @@ es:
 
       Ciertas estadísticas sobre como el bot es utilizado son almacenadas para informar las decisiones de como mejorar el bot pero nunca incluirá mensajes genéricos enviados por tus usuarios.
 
-    page_8_title: "Utilizar emojis con NQN avanzado"
+    page_8_title: "Uso avanzado"
     page_8_desc: |
       Si alguien utiliza un emoji, NQN te permite utilizarlo también, per solo si este fue usado recientemente en el servidor.
       **NOTA:** Si acabas de invitar a NQN, este no sabrá de ningún emoji usado previo a este uniéndose al servidor.
@@ -358,8 +358,12 @@ es:
     this_emote: "¿Es este el emoji deseado?"
     emote_preview: |
       ¿Esto esta bien?
-      Si **NO** eres el dueño de este emoji, o no tienes permiso para distribuirlo, selecciona ❎.
-    created_emotes: "¡Se subio el emoji!"
+      Si **NO** eres el dueño de este emoji, o no tienes permiso para distribuirlo, selecciona 'No'.
+    duplicate_name: |
+      Este servidor ya tiene un emoji llamado %{name}
+      > %{e}
+      ¿Deseas subirlo igualmente?
+    created_emotes: "%{user} subió %{e}"
 
     also_upload_static: |
       ¿Quieres también crear una versión estática del emoji?

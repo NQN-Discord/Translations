@@ -112,13 +112,9 @@ es:
 
     invalid_group: "<Pack invalido - Por favor reportarlo>"
     join_server: "(Unite al servidor)"
-    join_text: |
-      Puedes unir el servidor a este pack de emojis con <:join:702970568101724331> o:
-      > %{prefix}server pack join %{name}
 
     no_longer_registered: "%{name} no es un pack de emojis registrado"
     already_joined: "%{guild_name} ya esta unido a %{name}"
-    joined_short: "%{guild_name} se unio a %{name}"
     joined_long: |
       '%{guild_name}' se unio a %{name}.
 
