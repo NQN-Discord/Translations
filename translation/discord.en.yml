@@ -5,6 +5,8 @@ en:
     need_help: " - I need this for the help command!"
     nothing: ""
 
+    choose_page: "Browse Commands"
+
     please_give: "I won't function correctly without these!"
     fix_perms: |
       - **[Fix Server Permissions](%{invite_url})**
