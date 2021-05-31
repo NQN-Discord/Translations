@@ -69,7 +69,7 @@ en:
     page_0_2_name: "4\u20E3 Aliases - Individual Emotes"
     page_0_2_desc: "> `%{prefix}alias search EmoteName`"
 
-    page_1_title: "Reacting to messages and deleting them"
+    page_1_title: "Reactions"
     page_1_desc: "You can only react with emotes you can use with NQN."
     page_1_0_name: "Reacting to the most recent message:"
     page_1_0_desc: "> `%{prefix}react EmoteName`"
@@ -80,7 +80,7 @@ en:
     page_1_3_name: "Deleting messages"
     page_1_3_desc: "React to messages sent on your behalf with ❌ (\\:x:) to delete them."
 
-    page_2_title: "Emote packs"
+    page_2_title: "Packs"
     page_2_desc: |
       Emote packs are bundles of emotes which come from entire servers who have decided to publish their emote collection.
       Joining an emote pack allows you to use any emote in the pack, though anyone can use emote pack emotes with :PackName-EmoteName:
@@ -110,7 +110,7 @@ en:
     page_3_0_desc: |
       > `%{prefix}alias search blob page: 5 animated: true`
 
-    page_4_title: "Replying to messages"
+    page_4_title: "Replies"
     page_4_desc: |
       NQN allows you to reply to messages sent long ago.
 
@@ -193,7 +193,7 @@ en:
 
       Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
 
-    page_8_title: "Using emotes with NQN - Advanced"
+    page_8_title: "Advanced Usage"
     page_8_desc: |
       If someone uses an emote, NQN allows you to use it as well, but only if it's been recently used in the server.
       **NOTE:** If you've only just invited NQN, it won't know about any recently used emotes before it joined.
@@ -351,8 +351,12 @@ en:
     this_emote: "Is this the emote you meant?"
     emote_preview: |
       Is this alright?
-      If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select ❎.
-    created_emotes: "Created emote!"
+      If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select 'No'.
+    duplicate_name: |
+      This server already has an emote called %{name}
+      > %{e}
+      Do you still want to upload this emote?
+    created_emotes: "%{user} uploaded %{e}"
 
     also_upload_static: |
       Would you also like to upload a static version of this emoji?

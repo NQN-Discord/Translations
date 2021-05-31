@@ -4,6 +4,8 @@ en:
 
   audit:
     no_messages: "No messages to audit."
+    expand: "Expand"
+    truncate: "Truncate"
 
   edit_topic:
     edited: "Edited %{channel}'s topic."
