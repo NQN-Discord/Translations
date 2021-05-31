@@ -1,0 +1,4 @@
+pt:
+  short_doc: "Exporte sua lista de personagens para um arquivo"
+  help: |
+    Exporte sua lista de personagens para um arquivo que é compatível com outros bots

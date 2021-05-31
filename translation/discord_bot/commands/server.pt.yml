@@ -54,6 +54,20 @@ pt:
 
     pings_on: "Pings ativados em mensagens repostadas"
     pings_off: "Pings desativados em mensagens repostadas"
+    
+    user_content_off: |
+      Uso desativado de aliases e pacotes de usuários individuais.
+      Apenas aliases e pacotes adicionados com `%{prefix}server alias search` e` %{prefix}server pack search` serão usados, bem como emojis deste servidor.
+      Stickers have also been automatically disabled.
+    personas_on: |
+      Uso habilitado de personagens.
+      Isso permite que qualquer pessoa defina um nome de usuário e avatar personalizáveis; tenha cuidado com a representação.
+      A equipe do NQN recomenda definir um canal de auditoria ao usar este recurso; se ainda não o fez, pode ser habilitado com
+      > ```!server set_audit_channel #channel```
+    personas_off: "Uso de personagens desabilitado"
+
+    dashboard_posting_on: "Postagem de mensagens do painel do bot habilitado"
+    dashboard_posting_off: "Postagem de mensagens do painel do bot desativada"
 
   link:
     no_animated_emotes: |
