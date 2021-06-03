@@ -50,6 +50,8 @@ es:
       > `%{prefix}alias search %{terms} page: %{page_no}`"
 
   tutorial:
+    choose_page: "Navegar Tutorial"
+
     invalid_page: "¡Solo hay %{count} páginas en el tutorial!"
     permissions_missing: "Necesito poder insertar enlaces y agregar reacciones para poder mostrar mi tutorial. Se puede volver a enviar con `%{prefix}tutorial`."
 
