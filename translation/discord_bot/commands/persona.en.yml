@@ -51,3 +51,15 @@ en:
   display_name:
     renamed_persona_display_name: |
       Set %{short_name}'s username to %{display_name}.
+
+  dm:
+    send_dms:
+      zero: |
+        You have no personas!
+        Get some with `%{prefix}persona register`
+      one: |
+        This will send you a direct message; do you wish to continue?
+      many: |
+        This will send you %{count} direct messages; do you wish to continue?
+    blocked: |
+      You've blocked me, I can't message you!
