@@ -3,6 +3,7 @@ en:
     add_to_everyone: "Add to @everyone"
     join_pack: "Join Pack"
     leave_pack: "Leave Pack"
+    join_server: "Join Server"
     all: "Save All"
 
   join:
@@ -52,7 +53,6 @@ en:
 
   search:
     invalid_group: "<Invalid pack - Please Report>"
-    join_server: "(Join server)"
 
   set_public:
     needs_publishing: "You cannot do this without first publishing this server as an emote pack."
@@ -61,7 +61,6 @@ en:
 
   show:
     not_registered: "%{name} is not a registered emote pack"
-    join_server: "Join Server"
     pack_empty: "This pack has no emotes in it!"
     join_pack: 'Contents of pack "%{name}":'
 
