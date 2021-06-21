@@ -51,3 +51,15 @@ es:
   display_name:
     renamed_persona_display_name: |
       Se fijo el nombre de usuario de %{short_name} a %{display_name}.
+
+  dm:
+    send_dms:
+      zero: |
+        No tienes ningun personaje!
+        Creá algunos con `%{prefix}persona register`
+      one: |
+        Esto te enviara un mensaje directo; ¿Desesas continuar?
+      many: |
+        Esto te enviara %{count} mensajes directos; ¿Desesas continuar?
+    blocked: |
+      Me has bloqueado ¡No puedo enviarte mensajes!
