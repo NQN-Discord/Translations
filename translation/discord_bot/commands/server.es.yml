@@ -117,7 +117,6 @@ es:
     already_joined: "%{guild_name} ya esta unido a %{name}"
     joined_long: |
       '%{guild_name}' se unio a %{name}.
-
       Todos en el servidor ahora pueden usar los siguientes emojis escribiendo su nombre en el chat, incluyendo los dos puntos:
 
     no_packs: "'%{guild_name}' no esta unido a ningún pack!"
