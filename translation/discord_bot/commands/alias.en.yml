@@ -5,19 +5,30 @@ en:
   max_length: "Alias names can be at most 32 characters long"
   user_zero: "You have no aliases"
 
-  deleted: "Deleted :%{name}:"
-  created: "<@%{author}> created an alias and can use it by typing:\n> :%{name}:"
-  renamed: "Renamed :%{old}: to :%{new}:"
+  delete:
+    deleted: "Deleted :%{name}:"
 
-  exported_short: "Here's your exported aliases:"
-  exported_long: "Here's your exported aliases:\nTo share them with other people, they need to run:\n> `%{prefix}alias import %{url}`"
+  created: "You created an alias and can use it by typing:"
 
-  import_incorrect: "This command is used to import an alias list previously exported with `%{prefix}alias export`.\nTo create an alias, use `%{prefix}alias search`"
-  import_text: "This command needs a text file attachment"
-  import_lines_invalid: "Could not set aliases on lines %{lines_invalid}, invalid format."
-  import_set:
-    one: "Set %{count} alias."
-    many: "Set %{count} aliases."
+  rename:
+    renamed: "Renamed :%{old}: to :%{new}:"
+
+  export:
+    exported_short: "Here's your exported aliases:"
+    exported_long: |
+      Here's your exported aliases:
+      To share them with other people, they need to run:
+      > `%{prefix}alias import %{url}`
+
+  import_:
+    import_incorrect: |
+      This command is used to import an alias list previously exported with `%{prefix}alias export`.
+      To create an alias, use `%{prefix}alias search`
+    import_text: "This command needs a text file attachment"
+    import_lines_invalid: "Could not set aliases on lines %{lines_invalid}, invalid format."
+    import_set:
+      one: "Set %{count} alias."
+      many: "Set %{count} aliases."
 
 
   dm:

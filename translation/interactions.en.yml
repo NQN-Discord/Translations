@@ -1,0 +1,6 @@
+en:
+  not_author: |
+    Only the message author is allowed to interact with this message
+  timed_out: |
+    Interaction timed out.
+    Please run the command again.

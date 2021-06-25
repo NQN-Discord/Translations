@@ -1,8 +1,17 @@
 en:
+  buttons:
+    add_to_everyone: "Add to @everyone"
+    join_pack: "Join Pack"
+    leave_pack: "Leave Pack"
+    join_server: "Join Server"
+    all: "Save All"
+
   join:
     no_pack: "%{name} is not a registered emote pack"
     already_joined: "You are already joined to %{name}"
-    joined_pack: "Joined %{name}.\nYou may now use the following emotes by typing its name into chat, including colons:"
+    joined_pack: |
+      Joined %{name}.
+      You may now use the following emotes by typing its name into chat, including colons:
 
   leave:
     no_pack: "%{name} is not a registered emote pack"
@@ -44,12 +53,6 @@ en:
 
   search:
     invalid_group: "<Invalid pack - Please Report>"
-    join_server: "(Join server)"
-    join_text: "Either join this emote pack with <:join:702970568101724331> or:\n> %{prefix}pack join %{name}\n\n"
-    no_longer_registered: "%{name} is no longer a registered emote pack"
-    already_joined: "<@%{author}> is already joined to %{name}"
-    joined_short: "<@%{author}> joined to %{name}"
-    joined_long: "<@%{author}> joined %{name}.\nThey may now use the following emotes by typing its name into chat, including colons:"
 
   set_public:
     needs_publishing: "You cannot do this without first publishing this server as an emote pack."
@@ -58,9 +61,8 @@ en:
 
   show:
     not_registered: "%{name} is not a registered emote pack"
-    join_server: "Join Server"
     pack_empty: "This pack has no emotes in it!"
-    join_pack: "To join `%{name}` and use all of these emotes, use `%{prefix}pack join %{name}`"
+    join_pack: 'Contents of pack "%{name}":'
 
   unpublish:
     not_published: "This server was not published before."

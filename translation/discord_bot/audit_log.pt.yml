@@ -3,9 +3,14 @@ pt:
   nsfw_censored: "<Censurado; %{channel} é NSFW>"
 
   message_posted: |
-    Mensagem postada no %{channel} de %{author} %{cropped}
+    Mensagem postada em %{channel} por %{author} %{cropped}
+    [Jump Link](%{jump_url})
+  message_posted_persona: |
+    Mensagem postada em %{channel} por %{author} %{cropped}
+    ⚠️ Usando personagem ⚠️
+    > **%{persona}**
     [Jump Link](%{jump_url})
   message_edited: |
     Mensagem editada em %{channel} por %{author} %{cropped}
-    [Ir ao link](%{jump_url})
+    [Jump Link](%{jump_url})
   audit_log_post: "NQN em nome de %{author} (%{id})"

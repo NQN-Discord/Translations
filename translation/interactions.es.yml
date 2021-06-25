@@ -1,0 +1,6 @@
+es:
+  not_author: |
+    Solo el usuario que uso el comando puede interactuar con este mensaje
+  timed_out: |
+    Tiempo de espera agotado.
+    Por favor use el comando de nuevo.

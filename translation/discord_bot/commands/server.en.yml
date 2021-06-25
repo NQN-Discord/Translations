@@ -109,13 +109,9 @@ en:
 
     invalid_group: "<Invalid pack - Please Report>"
     join_server: "(Join server)"
-    join_text: |
-      Either have the server join this emote pack with <:join:702970568101724331> or:
-      > %{prefix}server pack join %{name}
 
     no_longer_registered: "%{name} is no longer a registered emote pack"
     already_joined: "%{guild_name} is already joined to %{name}"
-    joined_short: "%{guild_name} joined to %{name}"
     joined_long: |
       '%{guild_name}' joined %{name}.
       Anyone in this server may now use the following emotes by typing its name into chat, including colons:
@@ -158,6 +154,8 @@ en:
     pack: "Pack Name"
     public: "Public"
     member_count: "Members"
+
+    configure_features: "Toggle Features"
 
     settings: "Settings"
     channels: "Channels"

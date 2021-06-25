@@ -1,0 +1,44 @@
+pt:
+  name_regex: |
+    Os nomes de personagens só podem conter alfanuméricos, travessões e sublinhados e ter no máximo 80 caracteres.
+  max_display_name: |
+    Os nomes de usuário podem ter no máximo 80 caracteres
+  persona_doesnt_exist: |
+    Você não tem uma pessoa chamada %{short_name}!
+    Crie um com `%{prefix}persona register %{short_name}`
+  export:
+    exported_list_short: |
+      Aqui estão suas personas exportadas, elas devem ser compatíveis com Tupperbox e Pluralkit.
+    exported_list_long: |
+      Aqui estão seus personagens exportados, eles devem ser compatíveis com Tupperbox e Pluralkit.
+      Para compartilhá-los com outras pessoas, eles precisam executar:
+      > `%{prefix}persona import %{url}`
+  list:
+    no_personas: |
+      Você não tem personagens!
+  register:
+    persona_exists: |
+      Você já tem um personagem chamado %{short_name}.
+      Você pode renomeá-lo com `%{prefix}persona rename %{short_name} novo_nome`
+    registered_persona: |
+      Registrado %{short_name} como seu personagem
+      Para enviar mensagens como eles, envie uma mensagem começando com `%{short_name}:`, por exemplo:
+      > ```%{short_name}: Hello!```
+      Para definir seu nome de usuário em mensagens como 'NQN', execute:
+      > ```%{prefix}persona nome_de_exibição %{short_name} NQN```
+      Para definir seu avatar em mensagens, execute:
+      > ```%{prefix}persona avatar_url %{short_name} https://...```
+  rename:
+    renamed_persona: |
+      Renomeado %{old_name} para %{new_name}.
+  avatar_url:
+    persona_avatar_url: |
+      Definido %{short_name}'s avatar.
+    avatar_regex: |
+      Avatares devem ser fornecidos com URLs para a imagem que você deseja usar.
+  delete:
+    persona_deleted: |
+      Informações excluídas sobre %{short_name}.
+  display_name:
+    renamed_persona_display_name: |
+      Defina o nome de usuário de %{short_name} para %{display_name}.

@@ -23,6 +23,8 @@ def get_translation_counts(content):
 def get_translation_values(content):
     if isinstance(content, str):
         return {""}
+    elif content is None:
+        return set()
     return {f"{k}{i and '.'}{i}" for k, v in content.items() for i in get_translation_values(v)}
 
 
@@ -31,6 +33,8 @@ def get_stats(file):
     for tr, content in file.items():
         if tr not in current_file:
             current_file[tr] = 0
+        if content is None:
+            continue
         count = get_translation_counts(content)
         current_file[tr] += count
 
