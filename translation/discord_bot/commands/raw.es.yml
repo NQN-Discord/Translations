@@ -337,6 +337,7 @@ es:
 
 
   upload_emote:
+    dont_ask_again: "Si; Soy dueño de estos"
     note: "Para agregar un emoji a este servidor, cliquea el icono correspondiente"
 
     size_invalid: "El número de emojis de un lado debe ser entre 1 y 4"
