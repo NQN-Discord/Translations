@@ -330,7 +330,7 @@ en:
 
 
   upload_emote:
-    dont_ask_again: "Yes; Don't ask again"
+    dont_ask_again: "Yes; I own these"
     size_invalid: "The number of emotes on one side must be between 1 and 4"
     vote_locked: |
       As this command uses substantial computational time, it has been locked behind voting for the bot on top.gg.
