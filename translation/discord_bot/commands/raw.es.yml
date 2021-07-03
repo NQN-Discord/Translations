@@ -337,14 +337,9 @@ es:
 
 
   upload_emote:
-    dont_ask_again: "Si; Soy dueño de estos"
+    own_emojis_dont_ask_again: "Si; Soy dueño de estos"
     note: "Para agregar un emoji a este servidor, cliquea el icono correspondiente"
 
-    size_invalid: "El número de emojis de un lado debe ser entre 1 y 4"
-    vote_locked: |
-      Ya que este comando utiliza una cantidad substancial de recursos, este a sido bloqueado si no has votado por el bot en top.gg.
-      Para obtener acceso a este por 12 horas, vota por mi aquí:
-      %{url}
 
     alphanumeric: " - Debe ser alfanumérico con guiones bajos"
     size: " - Debe ser entre 1 y 32 caracteres largos"
@@ -356,7 +351,6 @@ es:
     more_animated_needed: "Este servidor va a alcanzar el límite de emojis animados, ya que requiere %{size}. Elimina %{delete} y trata de vuelta"
     more_static_needed: "Este servidor va a alcanzar el límite de emojis estáticos, ya que requiere %{size}. Elimina %{delete} y trata de vuelta"
     too_quick: "Se están creando emojis de manera muy rápida, trata de vuelta en unas horas (Error code '%{e}')"
-    batch_failed: "No se pudo crear el grupo de emojis a la vez"
 
     this_emote: "¿Es este el emoji deseado?"
     emote_preview: |
