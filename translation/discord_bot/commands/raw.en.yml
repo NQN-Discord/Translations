@@ -330,12 +330,7 @@ en:
 
 
   upload_emote:
-    dont_ask_again: "Yes; I own these"
-    size_invalid: "The number of emotes on one side must be between 1 and 4"
-    vote_locked: |
-      As this command uses substantial computational time, it has been locked behind voting for the bot on top.gg.
-      To gain access to it for 12 hours, vote for me here:
-      %{url}
+    own_emojis_dont_ask_again: "Yes; I own these"
 
     alphanumeric: " - Must be alphanumeric with underscores"
     size: " - Must be between 1 and 32 characters long"
@@ -347,7 +342,6 @@ en:
     more_animated_needed: "This server will have reached its limit for animated emotes, as it requires %{size}. Delete %{delete} and try again"
     more_static_needed: "This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again"
     too_quick: "Emotes are being created too quickly, try again in a few hours (Error code '%{e}')"
-    batch_failed: "Couldn't create emote batch all at once"
 
     this_emote: "Is this the emote you meant?"
     emote_preview: |
