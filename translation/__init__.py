@@ -6,6 +6,23 @@ from discord import Guild
 from discord.ext.commands import Context
 
 
+
+try:
+    from prometheus_client import Counter
+except ImportError:
+    translate_function = None
+else:
+    keys_used = Counter(
+        "keys_used",
+        "Translation keys used",
+        labelnames=["key"],
+        namespace="translation"
+    )
+    def translate_function(key, **kwargs):
+        keys_used.labels(key=key).inc()
+        return i18n.t(key, **kwargs)
+
+
 class Translator:
     locales = {
         "en": "en",
@@ -36,6 +53,10 @@ class Translator:
         root_path = pathlib.Path(__file__).parent.absolute()
         i18n.load_path.append(root_path)
         i18n.set("enable_memoization", True)
+        if translate_function:
+            self.translate_function = translate_function
+        else:
+            self.translate_function = i18n.t
 
     def add_locale_commands(self, bot):
         for locale in set(self.locales.values()) | set(self.hidden_locales):
@@ -51,7 +72,7 @@ class Translator:
             "locale_flag_emojis": " ".join(self.flag_emojis.values())
         }
 
-        return TranslatorWithContext(defaults, lambda: ctx.command.module)
+        return TranslatorWithContext(defaults, lambda: ctx.command.module, translate_function=self.translate_function)
 
     def __call__(self, main_scope: str, guild: Union[Guild, str]):
         async def inner():
@@ -67,17 +88,18 @@ class Translator:
                     "locale_flag_emojis": " ".join(self.flag_emojis.values())
                 }
 
-            return TranslatorWithContext(defaults, main_scope)
+            return TranslatorWithContext(defaults, main_scope, translate_function=self.translate_function)
         return inner()
 
 
 class TranslatorWithContext:
-    def __init__(self, defaults: Dict[str, str], scope: Union[str, Callable[[], str]]):
+    def __init__(self, defaults: Dict[str, str], scope: Union[str, Callable[[], str]], translate_function):
         self.defaults = defaults
         if isinstance(scope, str):
             self.scope = lambda: scope
         else:
             self.scope = scope
+        self._translate_function = translate_function
 
     def set_locale(self, locale: str) -> "TranslatorWithContext":
         self.defaults["locale"] = locale
@@ -88,7 +110,7 @@ class TranslatorWithContext:
         return self
 
     def __call__(self, text: str, scope: str = "", **kwargs):
-        return i18n.t(f"{scope or self.scope()}.{text}", **{**self.defaults, **kwargs})
+        return self._translate_function(f"{scope or self.scope()}.{text}", **{**self.defaults, **kwargs})
 
     def __enter__(self):
         return copy.deepcopy(self)
