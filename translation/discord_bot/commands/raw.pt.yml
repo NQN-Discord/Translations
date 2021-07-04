@@ -7,6 +7,9 @@ pt:
 
   edit:
     never_posted: "Você nunca postou uma mensagem com NQN neste canal!"
+    message_deleted: | 
+       Sua mensagem mais recente com NQN neste canal foi excluída!
+       Escolha uma mensagem respondendo-a com o Discord ou colando seu URL de salto
     cannot_edit_no_nqn: "Você não pode editar esta mensagem porque não é uma mensagem postada pelo NQN!"
     cannot_edit_different_user: "Você não pode editar esta mensagem porque não foi postada por você!"
 
@@ -40,6 +43,7 @@ pt:
       É fornecido para permitir uma pesquisa fácil através dos disponíveis para serem adicionados com
       > `%{prefix}alias search %{terms} pagina: %{page_no}`
   tutorial:
+    choose_page: "Browse Tutorial"
     invalid_page: "Existem apenas %{count} páginas no tutorial!"
     permissions_missing: "Eu preciso ser capaz de escrever incorporações e adicionar reações para mostrar meu tutorial. Pode ser refeito com `%{prefix}tutorial`."
 
@@ -261,7 +265,7 @@ pt:
       
     pt: "Português:"
     pt_people: |
-      > <:DorZ23:800410618074628146> DorZ23
+      > <:DorZ23:800410618074628146> KingKiller
       
     bot_stats: "Estatísticas do Discord Bot"
     shard_info_name: "Informações sobre fragmentos"
@@ -274,7 +278,7 @@ pt:
     bot_latency: "> API/Bot Latencia: %{bot_latency}ms"
     help_command: "Comando de ajuda: `%{prefix}help`"
   upload_emote:
-    note: "Para adicionar um emote a este servidor, clique no ícone correspondente "
+    dont_ask_again: "Sim; Eu possuo estes"
     size_invalid: "O número de emotes em um lado deve estar entre 1 e 4"
     vote_locked: |
       Como esse comando usa um tempo computacional considerável, ele foi bloqueado na votação do bot em top.gg.
