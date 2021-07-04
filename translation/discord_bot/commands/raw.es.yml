@@ -59,7 +59,7 @@ es:
     default_emojis: "Emojis predeterminados"
     default_emoji_list: "Por defecto, esta es la lista de todos los emojis animados que cualquiera en este servidor puede utilizar - ¡solo escribe los manualmente, asegurándote de incluir :los dos puntos: alrededor del nombre del emoji!"
 
-    page_0_title: "Tutorial para Not Quite Nitro, TLDR"
+    page_0_title: "Tutorial para NQN"
     page_0_desc: |
       %{locale_flag_emojis} **Opciones de idoma** %{locale_flag_emojis}
       > `%{prefix}server language`
@@ -147,7 +147,7 @@ es:
 
       Nota - Para utilizar stickers de Telegram, debes primero importarlos al bot. El bot no lo hace automáticamente.
 
-    page_7_title: "Administración de servidor"
+    page_7_title: "Configuración de servidor"
     page_7_desc: |
       NQN es altamente personalizable en sus funciones, en caso de que algunas no sean apropiadas para su servidor.
       Cualquiera con el permiso **Gestionar Servidor** puede modificar la configuración del bot en su servidor.
