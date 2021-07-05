@@ -5,6 +5,7 @@ es:
   go_to_message: "¡Ir al mensaje!"
   cancelled: "Cancelado"
   website: "Sitio"
+  details: "Detalles"
 
   "yes": "Si"
   "no": "No"
