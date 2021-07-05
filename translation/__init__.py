@@ -47,6 +47,7 @@ class Translator:
 
     flag_emojis = {flag: "".join(chr(0x1f185+ord(c)) for c in flag) for flag in flags}
     hidden_locales = ["owo", "hi", "fr", "ms"]
+    supported_locales = {*locales.values(), *hidden_locales}
 
     def __init__(self, get_locale: Callable[[Guild], Awaitable[str]]):
         self.get_locale = get_locale
