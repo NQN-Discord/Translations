@@ -18,6 +18,12 @@ en:
 
         Anyone can use this emote by typing:
 
+    failed_aliases:
+      one: |
+        One alias which cannot be rendered
+      many: |
+        %{failed_aliases} aliases which cannot be rendered
+
     max_title: "This server is at its maximum emote/pack count already!"
     max_description: |
       :%{name}: was not added as a server emote.
@@ -26,6 +32,7 @@ en:
 
     no_alias: "This server does not have an alias called %{name}"
     renamed: "Renamed %{emote} from :%{name}: to :%{new}:"
+    no_aliases: "This server has no global aliases"
 
   nitro_role:
     unset: "Anyone in this server can use free Nitro emotes with NQN"
