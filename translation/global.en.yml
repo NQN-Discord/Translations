@@ -5,6 +5,7 @@ en:
   go_to_message: "Go to message!"
   cancelled: "Cancelled"
   website: "Website"
+  details: "Details"
 
   "yes": "Yes"
   "no": "No"
