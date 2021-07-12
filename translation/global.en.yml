@@ -11,6 +11,9 @@ en:
   "no": "No"
   dm_me: "DM Me"
 
+  next: "Next"
+  previous: "Previous"
+
   missing_permissions: "Missing Permissions"
   missing_add_reaction: "I need the 'Add Reactions' permission for this command!"
   missing_create_invite: "I need the 'Create Instant Invite' permission for this command!"

@@ -1,7 +1,11 @@
 import yaml
 from pathlib import Path
 import traceback
+from logging import getLogger, basicConfig, INFO
 from tabulate import tabulate
+
+basicConfig(level=INFO, format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+log = getLogger(__name__)
 
 files = {}
 
@@ -57,10 +61,13 @@ def get_missing(file):
     return missing
 
 
+LANGUAGE_TO_TEST = "es"
+
+
 def main():
     base_file = Path(__file__).parent
     for yml_file in base_file.rglob("*.yml"):
-        print(f"Loading {yml_file}")
+        log.info(f"Loading {yml_file}")
         with open(yml_file, "r", encoding="utf-8") as yml:
             filename, translation, _ = ".".join(yml_file.relative_to(base_file).parts).rsplit(".", 2)
             data = yaml.safe_load(yml)
@@ -75,8 +82,8 @@ def main():
     for file, data in files.items():
         f_stats = get_stats(data)
         missing = get_missing(data)
-        if missing.get("ru"):
-            missing_translations |= {f"{file}.{i}" for i in missing["ru"]}
+        if missing.get(LANGUAGE_TO_TEST):
+            missing_translations |= {f"{file}.{i}" for i in missing[LANGUAGE_TO_TEST]}
         row = [file]
         for header in langs:
             if header in f_stats:
@@ -84,8 +91,8 @@ def main():
             else:
                 row.append("-")
         stats.append(row)
-    #print("\n".join(sorted(missing_translations)))
-    print(tabulate(stats, headers=langs))
+    print("\n".join(sorted(missing_translations)))
+    #print(tabulate(stats, headers=langs))
 
     print("All files loaded successfully!")
 
@@ -95,4 +102,4 @@ try:
 except Exception as e:
     traceback.print_exc()
 finally:
-    input("Press Enter to exit")
+    log.info("Press Enter to exit")
