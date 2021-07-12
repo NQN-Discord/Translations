@@ -14,6 +14,10 @@ en:
   next: "Next"
   previous: "Previous"
 
+  learn:
+    aliases: "Learn more about aliases"
+    packs: "Learn more about packs"
+
   missing_permissions: "Missing Permissions"
   missing_add_reaction: "I need the 'Add Reactions' permission for this command!"
   missing_create_invite: "I need the 'Create Instant Invite' permission for this command!"
