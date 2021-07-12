@@ -18,6 +18,12 @@ es:
 
         Quien quiera puede utilizar este emoji escribiendo:
 
+    failed_aliases:
+      one: |
+        Un alias el cual no puede ser renderizado
+      many: |
+        %{failed_aliases} alias los cuales no pueden ser renderizado
+
     max_title: "¡Este servidor ha alcanzado el numero maximo de emoticonos/packs!"
     max_description: |
       :%{name}: No fue añadido como un emoticono en el servidor.
@@ -26,6 +32,7 @@ es:
 
     no_alias: "Este servidor no tiene un alias llamado %{name}"
     renamed: "Renombrado %{emote} de :%{name}: a :%{new}:"
+    no_aliases: "Este servidor no tiene alias globales asignados"
 
   nitro_role:
     unset: "Todos en este servidor pueden utilizar emojis de nitro gratuitamente con NQN"
@@ -101,7 +108,7 @@ es:
     uploaded_emote: "Se subió %{uploaded}!\nUtilízalo para usar %{emote}"
 
   pack:
-    max_title: "Este servidor se encuentra al numero maximo de  emojis/packs!"
+    max_title: "Este servidor se encuentra al numero maximo de emojis/packs!"
     max_description: |
       %{name} no se asigno como un pack del servidor.
 
@@ -150,14 +157,15 @@ es:
     masked: "URLs enmascarados"
     pings: "Pings"
     user_content: "Contenido de los Usuarios"
-    dashboard_posting: "Envío de mensajes desde el Sitio"
+    personas: "Personajes"
+    dashboard_posting: "Enviar mensajes con Sitio"
 
     invite: "Enlace de invitación"
     pack: "Nombre del Pack"
     public: "Publico"
     member_count: "Miembros"
 
-    configure_features: "Activar/Desactivar Funciones"
+    configure_features: "Alterná Funciones Activas"
 
     settings: "Configuración"
     channels: "Canales"
