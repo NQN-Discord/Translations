@@ -1,4 +1,9 @@
 es:
+  buttons:
+    commands: "Comandos"
+    tutorial: "Tutorial"
+    my_emotes: "Mis emojis"
+
   depreciated_commands:
     renamed: |
       Este comando a sido renombrado a `%{prefix}%{new}`.
@@ -27,6 +32,17 @@ es:
   invite:
     add_nqn: "¡Agrega NQN a tu servidor!"
 
+  my_emotes:
+    current_guild: "Servidor Actual"
+    mutual_guilds: "Servidores Mutuos"
+    aliases: "Alias"
+    packs: "Packs de emojis"
+
+    no_mutual_guilds: |
+      NQN te permite usar cualquier emoji de tus servidores mutuos en este servidor.
+      Actualmente, no tienes ningún servidor mutuo con NQN, ademas de este.
+
+      Si quieres, puedes [invitar a NQN a otro servidor](%{bot_invite}) para obtener acceso a los emojis de este aqui.
 
   ranking:
     vote_link: "Puedes votar por el bot con %{url} para incrementar el limite de emojis del servidor y su rango."
