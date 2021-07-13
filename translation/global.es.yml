@@ -11,6 +11,13 @@ es:
   "no": "No"
   dm_me: "Enviame MD"
 
+  next: "Siguiente"
+  previous: "Anterior"
+
+  learn:
+    aliases: "Aprende más sobre alias"
+    packs: "Aprende más sobre packs"
+
   missing_permissions: "Permisos insuficientes"
   missing_add_reaction: "¡Necesito el permiso 'Agregar Reacciones' para usar este comando!"
   missing_create_invite: "¡Necesito el permiso 'Crear Invitación' para usar este comando!"
