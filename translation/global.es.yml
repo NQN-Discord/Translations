@@ -17,6 +17,7 @@ es:
   learn:
     aliases: "Aprende más sobre alias"
     packs: "Aprende más sobre packs"
+    my_emotes: "Emojis que puedes usar"
 
   missing_permissions: "Permisos insuficientes"
   missing_add_reaction: "¡Necesito el permiso 'Agregar Reacciones' para usar este comando!"
