@@ -64,7 +64,7 @@ pt:
     page_0_2_name: "4\u20E3 Apelidos - Emotes Individuais"
     page_0_2_desc: "> `%{prefix}alias search EmotName`"
 
-    page_1_title: "Reagir às mensagens e excluí-las"
+    page_1_title: "Reagir às mensagens"
     page_1_desc: "Você só pode reagir com emotes que pode usar com NQN."
     page_1_0_name: "Reagindo à mensagem mais recente:"
     page_1_0_desc: "> `%{prefix}react EmoteName`"
