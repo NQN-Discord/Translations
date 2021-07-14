@@ -274,7 +274,11 @@ owo:
     ru: "Russian:"
     ru_people: |
       > <:drink:741041666705588255> Трокс
-      > <:Dorrian:752244457738469396> Dorrian
+      > <:DorZ23:864861706169483329> DorZ23
+
+    pt: "Powortuguese:"
+    pt_people: |
+      > <:KingKiller:800410618074628146> KingKiller
 
     bot_stats: "Discowd Bot Statistics"
     shard_info_name: "Shawd Info"

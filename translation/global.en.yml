@@ -17,6 +17,7 @@ en:
   learn:
     aliases: "Learn more about aliases"
     packs: "Learn more about packs"
+    my_emotes: "Find emojis I can use"
 
   missing_permissions: "Missing Permissions"
   missing_add_reaction: "I need the 'Add Reactions' permission for this command!"

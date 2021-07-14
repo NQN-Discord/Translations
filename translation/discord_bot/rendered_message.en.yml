@@ -3,7 +3,6 @@ en:
   first_message: |
     You've just started with NQN!
     You'll be able to use any animated emote on this server, and any on other servers you share with me.
-    If you want to look for more emotes, use the `%{prefix}tutorial` command and scroll to page 3.
 
   oops: "Oops!"
   external_emojis: "In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Server Settings**."
