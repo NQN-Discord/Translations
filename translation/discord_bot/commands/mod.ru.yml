@@ -4,6 +4,8 @@
 
   audit:
     no_messages: "В аудите нет сообщений."
+    expand: "Развернуть"
+    truncate: "Свернуть"
 
   edit_topic:
     edited: "Тема %{channel} изменена."
