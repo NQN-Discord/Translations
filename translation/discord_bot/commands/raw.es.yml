@@ -92,20 +92,21 @@ es:
     page_1_desc: "Solo puedes reaccionar con emojis que puedes utilizar con NQN."
     page_1_0_name: "Reaccionar al mensaje más reciente:"
     page_1_0_desc: "> `%{prefix}react NombreDelEmoji`"
+    page_1_1_name: "Reaccionado a mensajes en el mismo canal:"
+    page_1_1_desc: "> `%{prefix}react NombreDelEmoji` (al mismo tiempo respondiendo al mensaje al que deseas reaccionar)"
     page_1_2_name: "Reaccionado a mensajes recientes:"
     page_1_2_desc: "> `%{prefix}react NumeroDeMensajesAtrás NombreDelEmoji`\nEsto solo funciona hasta 20 mensajes atrás."
     page_1_3_name: "Reaccionado a viejos mensajes:"
-    page_1_3_desc: "> `%{prefix}react IdDelMensaje NombreDelEmoji`"
+    page_1_3_desc: "> `%{prefix}react URLdelMensaje NombreDelEmoji`"
     page_1_4_name: "Borrando Mensajes"
     page_1_4_desc: "Reacciona al mensaje a borrar con ❌ (\\:x:) para eliminarlo."
 
     page_2_title: "Packs"
     page_2_desc: |
-      Los packs de emojis son colecciones de emojis las cuales provienen de servidores enteros que decidieron publicar su colección entera de emojis.
-      Asignarte/unirse al pack te permite utilizar cualquier emoji perteneciente a este, aunque todos pueden utilizar emojis provenientes de los packs con :NombreDelPack-NombreDelEmoji:
+      Los packs de emojis son una colecciones de emojis. Despues de asignarte/unirte a un pack, obtenes acceso a los emojis de este.
     page_2_0_name: "Asignarte packs de emojis"
     page_2_0_desc: |
-      Para buscar packs de emojis, usa `%{prefix}pack search` y cliquea <:join:702970568101724331> para obtener acceso a los emojis de este.
+      Para buscar packs de emojis, usa `%{prefix}pack search`,  con un campo de busqueda opcional, por ejemplo `%{prefix}pack search wolf`.
     page_2_1_name: "Encontrando los packs de emojis que tienes asignados"
     page_2_1_desc: |
       > `%{prefix}pack mine`
@@ -125,9 +126,6 @@ es:
 
       Si quieres buscar todos los emojis que puedes utilizar con NQN:
       > `%{prefix}alias search CualquierCosa` (Sin los dos puntos si no conoces el nombre exacto)
-    page_3_0_name: "Ejemplo de búsqueda:"
-    page_3_0_desc: |
-      > `%{prefix}alias search blob page: 5 animated: true`
 
     page_4_title: "Respuestas"
     page_4_desc: |
@@ -144,6 +142,7 @@ es:
         NQN permite a los usuarios mandar [URLs enmascarados](%{url})como parte de sus mensajes.
 
         Esto utiliza el método estándar, `[texto a mostrar](https://url.aqui)`.
+        Para enviar mensajes con botones, usas `[Texto del Boton](button://url.aqui)`
 
     page_6_title: "Stickers"
     page_6_desc: |
@@ -163,6 +162,14 @@ es:
 
       Nota - Para utilizar stickers de Telegram, debes primero importarlos al bot. El bot no lo hace automáticamente.
 
+    page_7_title: "Personajes"
+    page_7_desc: |
+      Los personajes le permiten a cualquiera en tu servidor asumir un nombre de usuario y avatar distinto del suyo mismo.
+      Para permitir el uso de personajes en tu servidor, primero tienes que usar `%{prefix}server personas on`.
+
+      Para crear un personaje propio, utiliza `%{prefix}persona register nombre`. Despues de eso, puedes enviar mensajes como ese personaje enviando:
+      > nombre: mensaje a enviar
+
     page_8_title: "Configuración de servidor"
     page_8_desc: |
       NQN es altamente personalizable en sus funciones, en caso de que algunas no sean apropiadas para su servidor.
@@ -173,6 +180,7 @@ es:
        • Nitro - `%{prefix}server nitro`
        • Stickers - `%{prefix}server stickers`
        • Respuestas - `%{prefix}server replies`
+       • Personajes - `%{prefix}server personas`
        • Enlaces Enmascarados - `%{prefix}server masked_links` 
 
     page_8_0_name: "Solución de problemas y cambio de prefijo"
