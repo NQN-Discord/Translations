@@ -58,12 +58,12 @@ owo:
     page_1_desc: "You can only react with emotes you can use with NQN."
     page_1_0_name: "weacting to the most wecent message:"
     page_1_0_desc: "> `%{prefix}react EmoteName`"
-    page_1_1_name: "Weacting to wecent messages:"
-    page_1_1_desc: "> `%{prefix}react MessagesAgo EmoteName`\nThis onwy wowks up to 20 messages ago."
-    page_1_2_name: "Weacting to owdew messages:"
-    page_1_2_desc: "> `%{prefix}react MessageID EmoteName`"
-    page_1_3_name: "Deweting messages"
-    page_1_3_desc: "Weact to messages sent on youw behawf with ❌ (\\:x:) to dewete them."
+    page_1_2_name: "Weacting to wecent messages:"
+    page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nThis onwy wowks up to 20 messages ago."
+    page_1_3_name: "Weacting to owdew messages:"
+    page_1_3_desc: "> `%{prefix}react MessageID EmoteName`"
+    page_1_4_name: "Deweting messages"
+    page_1_4_desc: "Weact to messages sent on youw behawf with ❌ (\\:x:) to dewete them."
 
     page_2_title: "Emote packs"
     page_2_desc: |
@@ -129,8 +129,8 @@ owo:
 
       Note - to use Tewegwam stickews, you must fiwst impowt them to the bot. The bot does not do this automaticawwy.
 
-    page_7_title: "Sewvew Administwation"
-    page_7_desc: |
+    page_8_title: "Sewvew Administwation"
+    page_8_desc: |
       NQN is heaviwy customisabwe in tewms of featuwe sets, in case some of them awen't appwopwiate fow youw sewvew.
       Anyone with **Manage Sewvew** pewmissions can change sewvew settings with the bot.
 
@@ -140,12 +140,12 @@ owo:
        • Stickews - `%{prefix}server stickers`
        • Wepwies - `%{prefix}server replies`
        • Masked Winks - `%{prefix}server masked_links`
-    page_7_0_name: "Twoubweshooting Issues"
-    page_7_0_desc: |
+    page_8_0_name: "Twoubweshooting Issues"
+    page_8_0_desc: |
       In owdew to wun cowwectwy, NQN needs the fowwowing pewmissions in __evewy__ channew you wish to use Nitwo in:
       **Manage Webhooks**, **Use Extewnaw Emojis**, **Add Weactions**, **Wead Messages** and **Manage Messages**.
-    page_7_1_name: "Not Quite Nitwo's pwefix:"
-    page_7_1_desc: |
+    page_8_1_name: "Not Quite Nitwo's pwefix:"
+    page_8_1_desc: |
       Anyone with **Manage Sewvew** pewmissions can change the pwefix NQN uses.
 
       The bot's cuwwent pwefix fow commands is `%{prefix}`, though it can be changed with with
@@ -153,8 +153,8 @@ owo:
       This wouwd change it to `?`, though any pwefix wowks.
 
       NQN wiww *awways* wisten to it's ping howevew wegawdwess of othew settings.
-    page_7_2_name: "Auditing Messages"
-    page_7_2_desc: |
+    page_8_2_name: "Auditing Messages"
+    page_8_2_desc: |
       NQN keeps a wog of messages it weposts, as the owiginaw message gets wemoved.
       This is in case that someone changes theiw name and avataw befowe posting an offensive message, ow othewwise misbehaves using the bot.
 
@@ -164,15 +164,15 @@ owo:
 
       An awtewnate appwoach which stays inside Discowd is the Audit Channew, which can be set with `%{prefix}server set_audit_channew #channew`.
       Any wesent messages wiww be posted thewe with theiw cuwwent usewname, discwiminatow and usew id.
-    page_7_3_name: "Pewmissions:"
-    page_7_3_desc: |
+    page_8_3_name: "Pewmissions:"
+    page_8_3_desc: |
       NQN wequiwes the 'Manage Webhooks' sewvew pewmission to cowwectwy function; weposting messages wiww not wowk without this.
 
        • To disabwe commands fwom wowking in a specific channew, deny NQN 'Send Message' pewmissions thewe via usew pewmissions.
        • To disabwe weposting messages in a specific channew, deny NQN 'Manage Webhook' pewmissions thewe via usew pewmissions.
        • To disabwe aww intewactions in a specific channew, deny NQN 'Wead Message' pewmissions thewe via usew pewmissions.
-    page_7_4_name: "Infowmation Gathewing:"
-    page_7_4_desc: |
+    page_8_4_name: "Infowmation Gathewing:"
+    page_8_4_desc: |
       NQN stowes weposted messages such that usews can dewete them and fow the audit wog.
       Evewy emote in youw sewvew is visibwe by anybody using the bot and is seawchabwe, though unwinkabwe to youw sewvew.
 
@@ -182,8 +182,8 @@ owo:
 
       On occasion, cewtain statistics about how the bot is used may be gathewed to infowm choices as to how to impwove the bot fuwthew but wiww nevew incwude genewic messages sent by youw usews.
 
-    page_8_title: "Using emotes with NQN - Advanced"
-    page_8_desc: |
+    page_9_title: "Using emotes with NQN - Advanced"
+    page_9_desc: |
       If someone uses an emote, NQN awwows you to use it as weww, but onwy if it's been wecentwy used in the sewvew.
       **NOTE:** If you've onwy just invited NQN, it won't know about any wecentwy used emotes befowe it joined.
 
@@ -196,8 +196,6 @@ owo:
       4. Othew sewvews you shawe with NQN
 
       If you find youwsewf with cwashing emotes, cweate the one you want to use as an awias, and that wiww ovewwide it.
-
-    table_of_contents: "Tabwe of contents fow the tutowiaw"
 
   react:
     id_large: "Message ID is too wawge"

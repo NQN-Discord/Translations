@@ -68,12 +68,12 @@ pt:
     page_1_desc: "Você só pode reagir com emotes que pode usar com NQN."
     page_1_0_name: "Reagindo à mensagem mais recente:"
     page_1_0_desc: "> `%{prefix}react EmoteName`"
-    page_1_1_name: "Reagindo a mensagens recentes:"
-    page_1_1_desc: "> `%{prefix}react MessagesAgo EmoteName`\nIsso só funciona até 20 mensagens atrás."
-    page_1_2_name: "Reagindo a mensagens mais antigas:"
-    page_1_2_desc: "> `%{prefix}react IDMensagem EmoteName`"
-    page_1_3_name: "Excluindo mensagens"
-    page_1_3_desc: "Reaja às mensagens enviadas em seu nome com ❌ (\\:x:) para excluí-los."
+    page_1_2_name: "Reagindo a mensagens recentes:"
+    page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nIsso só funciona até 20 mensagens atrás."
+    page_1_3_name: "Reagindo a mensagens mais antigas:"
+    page_1_3_desc: "> `%{prefix}react IDMensagem EmoteName`"
+    page_1_4_name: "Excluindo mensagens"
+    page_1_4_desc: "Reaja às mensagens enviadas em seu nome com ❌ (\\:x:) para excluí-los."
 
     page_2_title: "pacotes de emote"
     page_2_desc: |
@@ -122,8 +122,8 @@ pt:
       Para pesquisar adesivos que você pode usar com NQN, use `%{prefix}sticker search` com termos de pesquisa opcionais.
       Para visualizar seus adesivos, use `%{prefix}stickers mine`.
       Observação - para usar adesivos do Telegram, você deve primeiro importá-los para o bot. O bot não faz isso automaticamente.
-    page_7_title: "Administração do Servidor"
-    page_7_desc: |
+    page_8_title: "Administração do Servidor"
+    page_8_desc: |
       O NQN é altamente personalizável em termos de conjuntos de recursos, caso alguns deles não sejam apropriados para o seu servidor.
       Qualquer pessoa com permissões de ** Gerenciar servidor ** pode alterar as configurações do servidor com o bot
       Aqui estão os recursos que você pode alternar:
@@ -131,38 +131,38 @@ pt:
        • Adesivo - `%{prefix}server stickers`
        • Respostas - `%{prefix}server replies`
        • Links camuflados - `%{prefix}server masked_links`
-    page_7_0_name: "Resolução de problemas"
-    page_7_0_desc: |
+    page_8_0_name: "Resolução de problemas"
+    page_8_0_desc: |
       Para funcionar corretamente, o NQN precisa das seguintes permissões em __cada__ canal em que deseja usar o Nitro:
       **Gerenciar webhooks **, ** usar emojis externos **, ** adicionar reações **, ** ler mensagens ** e ** gerenciar mensagens**.
-    page_7_1_name: "Not Quite Nitro prefixos:"
-    page_7_1_desc: |
+    page_8_1_name: "Not Quite Nitro prefixos:"
+    page_8_1_desc: |
       Qualquer pessoa com permissões de ** Gerenciar servidor ** pode alterar o prefixo que o NQN usa.
       O prefixo atual do bot para comandos é `%{prefix}`, embora possa ser alterado com
       > %{prefix}server prefix %{ping} ?
       Isso mudaria para `?`, Embora qualquer prefixo funcione.
       NQN * sempre * ouvirá seu ping, independentemente de outras configurações.
-    page_7_2_name: "Auditoria de mensagens"
-    page_7_2_desc: |
+    page_8_2_name: "Auditoria de mensagens"
+    page_8_2_desc: |
       O NQN mantém um registro das mensagens que reenvia, à medida que a mensagem original é removida.
       Isso ocorre no caso de alguém alterar seu nome e avatar antes de postar uma mensagem ofensiva ou se comportar mal ao usar o bot.
       Para obter as mensagens auditadas para o servidor, use `%{prefix}audit guild` ou [visite nosso website] (%{url}), selecione seu servidor e clique na engrenagem no topo.
       Apenas usuários com ** Gerenciar Servidor ** e ** Ver Registro de Auditoria ** podem visualizar as mensagens registradas.
       Uma abordagem alternativa que permanece dentro do Discord é o Canal de Auditoria, que pode ser configurado com `%{prefix}server set_audit_channel #canal`.
       Quaisquer mensagens reenviadas serão postadas lá com seu nome de usuário, origem e id de usuário atuais.
-    page_7_3_name: "Permissões:"
-    page_7_3_desc: |
+    page_8_3_name: "Permissões:"
+    page_8_3_desc: |
       O NQN requer a permissão do servidor 'Gerenciar Webhooks' para funcionar corretamente; repostagem de mensagens não funcionará sem isso.
        • Para desabilitar o funcionamento dos comandos em um canal específico, negue as permissões NQN 'Enviar Mensagem' por meio das permissões do usuário.
        • Para desabilitar a repostagem de mensagens em um canal específico, negue as permissões de NQN 'Gerenciar Webhook' por meio de permissões de usuário.
        • Para desabilitar todas as interações em um canal específico, negue as permissões NQN 'Ler Mensagem' por meio das permissões do usuário.
-    page_7_4_name: "Coleta de informações:"
-    page_7_4_desc: |
+    page_8_4_name: "Coleta de informações:"
+    page_8_4_desc: |
       O NQN armazena mensagens repostadas de forma que os usuários possam excluí-las e para o registro de auditoria.
       Cada emote em seu servidor é visível por qualquer pessoa usando o bot e pode ser pesquisado, embora não possa ser vinculado ao seu servidor.
       Certas estatísticas sobre como o bot é usado são coletadas para informar as escolhas de como melhorar o bot ainda mais, mas nunca incluirão mensagens genéricas enviadas por seus usuários.
-    page_8_title: "Usando emotes com NQN - Avançado"
-    page_8_desc: |
+    page_9_title: "Usando emotes com NQN - Avançado"
+    page_9_desc: |
       Se alguém usar um emote, o NQN permite que você o use também, mas apenas se tiver sido usado recentemente no servidor.
       ** NOTA: ** Se você acabou de convidar NQN, ele não saberá sobre nenhum emote usado recentemente antes de ingressar.
       No caso de você ter vários emotes com o mesmo nome, a seguinte ordem é usada:
@@ -175,7 +175,6 @@ pt:
       7. Emojis usados recentemente no servidor atual
       8. Pacotes mostrados recentemente no servidor atual
       Se você tiver emoticons conflitantes, crie aquele que deseja usar como apelido e isso o substituirá.
-    table_of_contents: "Índice para o tutorial"
 
   react:
     id_large: "O ID da mensagem é muito grande"
