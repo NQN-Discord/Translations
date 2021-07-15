@@ -67,12 +67,12 @@ ms:
     page_1_desc: "Anda hanya boleh menambah reaksi menggunakan emoji yang anda boleh gunakan dengan NQN."
     page_1_0_name: "Menambah reaksi kepada mesej terbaharu:"
     page_1_0_desc: "> `%{prefix}react NamaEmoji`"
-    page_1_1_name: "Menambah reaksi kepada mesej keberapa terbaharu:"
-    page_1_1_desc: "> `%{prefix}react MessagesAgo NamaEmoji`\nPerintah ini hanya boleh dijalankan terhadap sebanyak 20 mesej yang lalu sahaja."
-    page_1_2_name: "Menambah reaksi kepada mesej lama:"
-    page_1_2_desc: "> `%{prefix}react MessageID NamaEmoji`"
-    page_1_3_name: "Menghapus mesej"
-    page_1_3_desc: "Tambah reaksi ❌ (\\:x:) kepada mesej yang dihantar bagi pihak anda untuk menghapuskannya."
+    page_1_2_name: "Menambah reaksi kepada mesej keberapa terbaharu:"
+    page_1_2_desc: "> `%{prefix}react MessagesAgo NamaEmoji`\nPerintah ini hanya boleh dijalankan terhadap sebanyak 20 mesej yang lalu sahaja."
+    page_1_3_name: "Menambah reaksi kepada mesej lama:"
+    page_1_3_desc: "> `%{prefix}react MessageID NamaEmoji`"
+    page_1_4_name: "Menghapus mesej"
+    page_1_4_desc: "Tambah reaksi ❌ (\\:x:) kepada mesej yang dihantar bagi pihak anda untuk menghapuskannya."
 
     page_2_title: "Pek emoji"
     page_2_desc: |
@@ -138,8 +138,8 @@ ms:
 
       Catatan - untuk menggunakan pelekat Telegram, anda perlu importnya ke bot ini terdahlu. Bot ini tidak melakukannya secara automatik.
 
-    page_7_title: "Penyeliaan Pelayan"
-    page_7_desc: |
+    page_8_title: "Penyeliaan Pelayan"
+    page_8_desc: |
       NQN merupakan satu bot aneka penyesuaian tetapan ciri, jika terdapat apa-apa yang tidak sesuai bagi pelayan anda.
       Sesiapa dengan keizinan **Urus Pelayan** boleh mengubah tetapan pelayan dengan bot ini.
 
@@ -149,12 +149,12 @@ ms:
        • Pelekat - `%{prefix}server stickers`
        • Pembalasan - `%{prefix}server replies`
        • Pautan Terlindung - `%{prefix}server masked_links`
-    page_7_0_name: "Analisis Selesai Masalah"
-    page_7_0_desc: |
+    page_8_0_name: "Analisis Selesai Masalah"
+    page_8_0_desc: |
       Untuk berfungsi dengan sebetulnya, NQN memerlukan keizinan berikut bagi __setiap__ saluran di mana Nitro akan digunakan:
       **Urus Webhook**, **Guna Emoji Luar**, **Tambah Reaksi**, **Baca Mesej** dan **Urus Mesej**.
-    page_7_1_name: "Awalan Perintah Not Quite Nitro:"
-    page_7_1_desc: |
+    page_8_1_name: "Awalan Perintah Not Quite Nitro:"
+    page_8_1_desc: |
       Sesiapa dengan keizinan **Urus Pelayan** boleh mengubah awalan bagi penggunaan NQN.
 
       Awalan perintah bot ini kini ditetapkan sebagai `%{prefix}`, namun ia boleh diubah dengan
@@ -162,8 +162,8 @@ ms:
       Ini akan mengubahkannya kepada  `?`, namun apa-apa awalan boleh diterima.
 
       Walau bagaimanapun, NQN *sentiasa* akan mendengar dencingan kepadanya tidak kira apa yang ditetapkan.
-    page_7_2_name: "Mengaudit Mesej"
-    page_7_2_desc: |
+    page_8_2_name: "Mengaudit Mesej"
+    page_8_2_desc: |
       NQN boleh menyimpan satu log bagi mesej-mesej yang dihantar semula olehnya, setelah mesej asal dihapuskan.
       Hal ini adalah sedemikian sekiranya seseorang mengubah nama dan avatarnya sebelum menghantar mesej tidak senonoh atau tidak bersesuaian, ataupun menyalahgunakan bot ini dengan apa-apa cara.
 
@@ -173,22 +173,22 @@ ms:
 
       Satu cara lain yang tidak memerlukan elemen luar Discord ialah Saluran Audit, yang boleh ditetapkan dengan perintah `%{prefix}server set_audit_channel #saluran`.
       Apa-apa mesej yang dihantar semula akan dihantar ke sana sekali termasuk nama pengguna terkini, pembeza dan ID pengguna mereka.
-    page_7_3_name: "Keizinan:"
-    page_7_3_desc: |
+    page_8_3_name: "Keizinan:"
+    page_8_3_desc: |
       NQN memerlukan keizinan 'Urus Webhook' untuk berfungsi dengan sempurna; penghantaran semula mesej tidak akan berfungsi tanpa ini.
 
        • Untuk menyahdaya perintah daripada berfungsi dalam sesuatu saluran, tarik semula keizinan 'Hantar Mesej' bagi NQN di sana melalui keizinan pengguna.
        • Untuk menyahdaya penghantaran semula mesej dalam sesuatu saluran, tarik semula keizinan 'Urus Webhook' bagi NQN di sana melalui keizinan pengguna.
        • Untuk menyahdaya segala jenis interaksi dalam sesuatu saluran, tarik semula keizinan 'Baca Mesej' bagi NQN di sana melalui keizinan pengguna.
-    page_7_4_name: "Pemungutan Maklumat:"
-    page_7_4_desc: |
+    page_8_4_name: "Pemungutan Maklumat:"
+    page_8_4_desc: |
       NQN menyimpan mesej yang dihantar semula sekiranya pengguna itu menghapuskannya dan bagi tujuan log audit.
       Setiap emoji dalam pelayan anda boleh dilihat oleh sesiapa sahaja dengan menggunakan bot ini dan juga boleh digenlintar, namun tidak dapat dipaut ke pelayan anda.
 
       Sesetengah statistik mengenai bagaimana bot ini digunakan akan dipungut bagi tujuan penambahbaikan bot ini, namun ia tidak termasuk mesej umum yang dihantar oleh pengguna anda.
 
-    page_8_title: "Penggunaan emoji dengan NQN - Lanjutan"
-    page_8_desc: |
+    page_9_title: "Penggunaan emoji dengan NQN - Lanjutan"
+    page_9_desc: |
       Jika seseorang menggunakan satu emoji, NQN akan membenarkan anda untuk menggunakannya sekali, tetapi hanya jika ia baru digunakan dalam sesuatu pelayan.
       **CATATAN:** Jika anda baru sahaja menjemput NQN, ia tidak boleh mengetahui emoji yang baru digunakan sebelum menyertai pelayan tersebut.
 
@@ -204,8 +204,6 @@ ms:
       8. Pek yang baru digunakan dalam pelayan ini
 
       Jika anda mempunyai emoji bernama bercanggah, cipta satu alias bagi emoji yang anda mahukan, dan ia akan mengatasi yang lain.
-
-    table_of_contents: "Kandungan tutoran"
 
   react:
     id_large: "ID mesej terlalu besar"
