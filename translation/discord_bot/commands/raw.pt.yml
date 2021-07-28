@@ -161,7 +161,7 @@ pt:
       O NQN armazena mensagens repostadas de forma que os usuários possam excluí-las e para o registro de auditoria.
       Cada emote em seu servidor é visível por qualquer pessoa usando o bot e pode ser pesquisado, embora não possa ser vinculado ao seu servidor.
       Certas estatísticas sobre como o bot é usado são coletadas para informar as escolhas de como melhorar o bot ainda mais, mas nunca incluirão mensagens genéricas enviadas por seus usuários.
-    page_9_title: "Usando emotes com NQN - Avançado"
+    page_9_title: "Avançado"
     page_9_desc: |
       Se alguém usar um emote, o NQN permite que você o use também, mas apenas se tiver sido usado recentemente no servidor.
       ** NOTA: ** Se você acabou de convidar NQN, ele não saberá sobre nenhum emote usado recentemente antes de ingressar.
