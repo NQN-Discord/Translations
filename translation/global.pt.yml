@@ -19,7 +19,7 @@ pt:
     packs: "Aprenda mais sobre pacotes"
     my_emotes: "Emojis que você pode usar"
 
-  missing_permissions: "Ausência de permissões"
+  missing_permissions: "Estas permissões estão faltando"
   missing_add_reaction: "Preciso da permissão 'Adicionar reações' para este comando!"
   missing_create_invite: "Preciso da permissão 'Criar convite' para este comando!"
   everyone_external: "@everyone precisa da permissão 'Usar emojis externos'"
