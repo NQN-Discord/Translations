@@ -5,7 +5,7 @@ pt:
   user_zero: "Você não tem apelidos"
 
   deleted: "Apagado :%{name}:"
-  created: "<@%{author}> criou um apelido e pode usá-lo digitando:\n> :%{name}:"
+  created: "<@%{author}> criou um apelido e pode usá-lo digitando:"
   renamed: "Renomeado :%{old}: para :%{new}:"
 
   exported_short: "Aqui estão seus apelidos exportados:"

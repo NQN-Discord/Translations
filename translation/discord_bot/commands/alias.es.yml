@@ -8,7 +8,7 @@ es:
   delete:
     deleted: "Eliminado :%{name}:"
 
-  created: "Has creado un alias y lo puedes utilizar escribiendo :\n> :%{name}:"
+  created: "Has creado un alias y lo puedes utilizar escribiendo:"
 
   rename:
     renamed: "Renombrado :%{old}: a :%{new}:"

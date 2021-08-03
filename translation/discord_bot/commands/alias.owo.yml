@@ -5,7 +5,7 @@ owo:
   user_zero: "You have no awiases"
 
   deleted: "Deweted :%{name}:"
-  created: "<@%{author}> cweated an awias and can use it by typing:\n> :%{name}:"
+  created: "<@%{author}> cweated an awias and can use it by typing:"
   renamed: "Renamed :%{old}: to :%{new}:"
 
   exported_short: "Hewe's youw expowted awiases:"
