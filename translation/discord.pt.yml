@@ -4,32 +4,39 @@ pt:
     need_everyone_external: " - @everyone precisa disso para que eu possa usar emojis!"
     need_help: " - Eu preciso disso para o comando de ajuda!"
     nothing: ""
-
-    please_give: "Eu não funcionarei corretamente sem estes!"
     
+    choose_page: "Buscar em Comandos"
+
+    please_give: "Eu não funcionarei corretamente sem estes!" 
     fix_perms: |
       - **[Corrigir permissões do servidor](%{invite_url})**    
 
-    nqn_help: "NQN ajuda"
+    nqn_help: "NQN Ajuda"
     my_prefix: |
       Meu prefixo para comandos é `%{prefix}`
-      Reaja com ❌ (\:x:) para excluir mensagens repostadas!
+      Reaja com ❌ (\:x:) para excluir mensagens repetidas!
+    slash_command_beta: |
+
+      Experimente o nosso novo **[Slash Command Beta](%{invite_url})**
+      
     categories: "Categorias"
     everything_else: "Todo o resto"
-    really_useful: "Comandos realmente úteis"
+    really_useful: "Comandos mais úteis"
 
     useful_links: "Links Úteis:"
     website: "Website"
     vote: "Votar!"
     support: "Suporte"
-    emote_list: "Meus emojis"
+    emote_list: "Meus Emojis"
 
-    top_gg_vote: "Vote em mim em [top.gg](https://top.gg/bot/559426966151757824/vote) torna o bot melhor, aumentando nossa visibilidade e permitindo mais emotes quando ingressamos em um servidor."
-    bfd_vote: "Me dando um voto positivo em [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) ajuda a nossa visibilidade. A cada novo servidor que eu ingresso, meu banco de dados de emote fica maior."
+    top_gg_vote: "Vote em mim em [top.gg](https://top.gg/bot/559426966151757824/vote) para melhorar o bot, aumentando nossa visibilidade e permitindo mais emojis quando entramos em um servidor."
+    bfd_vote: "Me dê um voto positivo no [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) para aumentar nossa visibilidade. A cada novo servidor que eu entro, meu banco de dados de emojis fica maior."
 
-    what_is: "O que é Not Quite Nitro?"
+    what_is: "O que é o Not Quite Nitro?"
     bot_description: |
-      Not Quite Nitro é um bot utilitário multiuso que permite a qualquer usuário usar emotes Nitro.
-      Temos um banco de dados extremamente grande de emotes visualmente exclusivos que você pode usar em qualquer servidor em que o bot esteja com permissões para Gerenciar Webhook.
-      O NQN também permite cotação automática sempre que um usuário posta um link de mensagem, o uso de urls mascaradas no chat e adesivos, que são emotes em tamanho real.
+      Not Quite Nitro é um bot utilitário multiuso que permite a qualquer usuário usar emojis Nitro.
+      Temos um banco de dados extremamente grande de emojis visualmente exclusivos que você pode usar em qualquer servidor em que o bot esteja com permissões para Gerenciar Webhook.
+      
+      O NQN também permite citação automática sempre que um usuário posta o link de uma mensagem ou usa urls camuflados no chat e figurinhas, que são emojis em tamanho real.
+      
       Você pode me convidar [para o seu servidor](https://discord.com/api/oauth2/authorize?%{params}).
