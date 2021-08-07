@@ -62,8 +62,8 @@ pt:
     replies_on: "As Respostas de mensagens foram habilitadas"
     replies_off: "As Respostas de mensagens foram desativadas"
 
-    masked_links_on: "Habilitado o uso de URLs camufladas"
-    masked_links_off: "Desativado o uso de URLs camufladas"
+    masked_links_on: "Habilitado o uso de URLs camuflados"
+    masked_links_off: "Desativado o uso de URLs camuflados"
 
     pings_on: "Pings habilitados em mensagens repostadas"
     pings_off: "Pings desativados em mensagens repostadas"
@@ -158,7 +158,7 @@ pt:
     stickers: "Figurinhas"
     nitro: "Nitro"
     replies: "Respostas"
-    masked: "URLs camufladas"
+    masked: "URLs camuflados"
     pings: "Pings"
     user_content: "Conteúdo de Usuário"
     personas: "Personagens"
