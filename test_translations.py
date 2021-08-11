@@ -61,7 +61,7 @@ def get_missing(file):
     return missing
 
 
-LANGUAGE_TO_TEST = "ru"
+LANGUAGE_TO_TEST = "pt"
 
 
 def main():

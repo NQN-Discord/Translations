@@ -5,7 +5,7 @@ ms:
   user_zero: "Anda tidak mempunyai apa-apa alias"
 
   deleted: "Telah menghapuskan :%{name}:"
-  created: "<@%{author}> telah mencipta satu alias dan boleh menggunakannya dengan menaip:\n> :%{name}:"
+  created: "<@%{author}> telah mencipta satu alias dan boleh menggunakannya dengan menaip:"
   renamed: "Telah menamakan semula :%{old}: kepada :%{new}:"
 
   exported_short: "Berikut merupakan alias anda yang telah dieksport:"

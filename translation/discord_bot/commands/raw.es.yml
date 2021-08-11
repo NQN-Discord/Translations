@@ -18,6 +18,9 @@ es:
     cannot_edit_no_nqn: "¡No puedes editar este mensaje ya que no es un mensaje enviado por NQN!"
     cannot_edit_different_user: "¡No puedes editar este mensaje ya que este no fue enviado por vos!"
 
+  delete:
+    deleted: "Mensaje eliminado correctamente"
+
   export:
     exported_list_short: "Aquí están exportados tus emojis:"
     exported_list_long: |
