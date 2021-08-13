@@ -8,7 +8,9 @@ pt:
   delete:
     deleted: ":%{name}: foi excluido"
 
-  created: "<@%{author}> criou um alias e pode usá-lo digitando:\n> :%{name}:"
+  created: 
+    one: "Você criou um alias e pode usá-lo digitando:"
+    many: "Você criou %{count} aliases e pode usá-los digitando:"
 
   rename:
     renamed: ":%{old}: foi renomeado para :%{new}:"
