@@ -3,37 +3,39 @@ pt:
     found: "O autor é <@%{author}> (%{author})"
 
   audit:
-    no_messages: "Sem mensagens para editar."
+    no_messages: "Sem mensagens para ver."
+    expand: "Expandir"
+    truncate: "Encurtar"
 
   edit_topic:
-    edited: "Topico do %{channel} editado."
-    edited_audit: "%{author} editou o topico do %{channel} para:\n>>> %{description}"
+    edited: "A descrição de %{channel} foi alterada."
+    edited_audit: "%{author} alterou a descrição de %{channel} para:\n>>> %{description}"
 
   ban:
     owner: "Eu não posso banir o dono!"
     cannot_ban: "Eu não posso banir <@%{banee}>!"
     you_cannot_ban: "Você não pode banir <@%{banee}>!"
-    banned: "Banido <@%{banee}> (ID %{banee})"
+    banned: "Foi banido o usuário <@%{banee}> (ID %{banee})"
 
     banned_audit: "%{author} baniu <@%{banee}> (ID %{banee})"
 
   kick:
-    owner: "Eu não posso chutar o dono!"
-    cannot_kick: "Eu não posso chutar <@%{kickee}>!"
-    you_cannot_kick: "Você não pode chutar <@%{kickee}>!"
-    kicked: "Kicked <@%{kickee}> (ID %{kickee})"
+    owner: "Eu não posso expulsar o dono!"
+    cannot_kick: "Eu não posso expulsar <@%{kickee}>!"
+    you_cannot_kick: "Você não pode expulsar <@%{kickee}>!"
+    kicked: "Foi expulso o usuário <@%{kickee}> (ID %{kickee})"
 
-    kicked_audit: "%{author} chutou <@%{kickee}> (ID %{kickee})"
+    kicked_audit: "%{author} expulsou <@%{kickee}> (ID %{kickee})"
 
   purge:
     "0_100": "O número de mensagens a serem movidas deve estar entre 1 e 100"
     audit:
       one: "%{author} limpou %{count} mensagens do canal %{channel}"
-      many: "%{author} limpou %{count} mensagens do %{channel}"
+      many: "%{author} limpou %{count} mensagens do canal %{channel}"
 
   move:
-    user_no_perms: "Você não tem 'Enviar mensagens' e 'Gerenciar mensagens' em %{channel}."
-    me_no_perms: "Não tenho 'Gerenciar Webhooks' em %{channel}."
+    user_no_perms: "Você não tem as permissões 'Enviar mensagens' e 'Gerenciar mensagens' em %{channel}."
+    me_no_perms: "Não tenho a permissão 'Gerenciar Webhooks' em %{channel}."
     "1_20": "O número de mensagens a serem movidas deve estar entre 1 e 20"
 
     moved_to:
