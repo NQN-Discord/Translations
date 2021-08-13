@@ -39,7 +39,7 @@ pt:
     packs: "Pacotes"
 
     no_mutual_guilds: |
-      O NQN permite que você use neste servidor qualquer emoji de servidores que têm o bot e nos quais que vocẽ é membro.
+      O NQN permite que você use neste servidor qualquer emoji de servidores que têm o bot e nos quais que você é membro.
       No momento você não tem nenhum servidor em comum com o NQN, além deste aqui.
 
       Se quiser, você pode [Convidar o NQN para outro server](%{bot_invite}) para ganhar acesso aos emojis dele.
@@ -146,7 +146,7 @@ pt:
         O NQN permite que os usuários enviem [URLs camuflados] (%{url}) como parte de suas mensagens.
         
         Esta função usa marcação padrão, `[texto para mostrar](https://url.aqui)`.
-        Para enviar mensagens com botões, use `[texto do botão](button://url.here)
+        Para enviar mensagens com botões, `[texto do botão](button://url.here)`.
         
     page_6_title: "Figurinhas"
     page_6_desc: |
