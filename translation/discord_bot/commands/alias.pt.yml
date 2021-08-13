@@ -5,6 +5,9 @@ pt:
   max_length: "Os nomes dos aliases podem ter no máximo 32 caracteres"
   user_zero: "Você não tem aliases"
 
+  from_message:
+    no_emotes: "Essa mensagem não tem nenhum emoji!"
+    
   delete:
     deleted: ":%{name}: foi excluido"
 
