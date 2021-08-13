@@ -17,6 +17,9 @@ pt:
        Escolha uma mensagem respondendo-a com o Discord ou colando seu URL de salto
     cannot_edit_no_nqn: "Você não pode editar esta mensagem porque não é uma mensagem postada pelo NQN!"
     cannot_edit_different_user: "Você não pode editar esta mensagem porque não foi postada por você!"
+  
+  delete:
+    deleted: "Mensagem deletada com sucesso"
 
   export:
     exported_list_short: "Aqui estão seus emojis exportados:"
@@ -146,7 +149,7 @@ pt:
         O NQN permite que os usuários enviem [URLs camuflados] (%{url}) como parte de suas mensagens.
         
         Esta função usa marcação padrão, `[texto para mostrar](https://url.aqui)`.
-        Para enviar mensagens com botões, `[texto do botão](button://url.here)`.
+        Para enviar mensagens com botões, `[texto do botão](button://url.aqui)`.
         
     page_6_title: "Figurinhas"
     page_6_desc: |
