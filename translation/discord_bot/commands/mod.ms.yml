@@ -1,7 +1,4 @@
 ms:
-  whois:
-    found: "Pengarangnya ialah <@%{author}> (%{author})"
-
   audit:
     no_messages: "Tiada mesej untuk diaudit."
 

@@ -1,0 +1,3 @@
+hi:
+  whois:
+    found: "लेखक है <@%{author}> (%{author})"

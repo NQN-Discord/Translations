@@ -393,3 +393,6 @@ es:
 
   vote_opt_out:
     success: "Se de-subscribió de MDs de manera exitosa"
+
+  whois:
+    found: "El autor es <@%{author}> (%{author})"

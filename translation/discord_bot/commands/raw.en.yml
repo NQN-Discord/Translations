@@ -384,6 +384,8 @@ en:
       Would you also like to upload a static version of this emoji?
       Users without Nitro can use it from the emoji picker to send %{e}
 
-
   vote_opt_out:
     success: "Successfully opted out of vote DMs"
+
+  whois:
+    found: "The author is <@%{author}> (%{author})"

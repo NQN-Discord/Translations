@@ -343,3 +343,6 @@ ms:
 
   vote_opt_out:
     success: "Berjaya memilih keluar dari perbualan langsung pengundian"
+
+  whois:
+    found: "Pengarangnya ialah <@%{author}> (%{author})"
