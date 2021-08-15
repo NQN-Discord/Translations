@@ -1,0 +1,5 @@
+es:
+  short_doc: 'Envía una lista con los packs del servidor'
+  help: |
+    Envía una lista con los packs del servidor
+
