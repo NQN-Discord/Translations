@@ -1,7 +1,4 @@
 es:
-  whois:
-    found: "El autor es <@%{author}> (%{author})"
-
   audit:
     no_messages: "Ningún mensaje a auditar"
     expand: "Expandir"

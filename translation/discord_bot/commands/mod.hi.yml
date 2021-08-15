@@ -1,7 +1,4 @@
 hi:
-  whois:
-    found: "लेखक है <@%{author}> (%{author})"
-
   audit:
     no_messages: "ऑडिट करने के लिए कोई संदेश नहीं।"
 

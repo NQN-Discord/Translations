@@ -11,6 +11,14 @@ en:
   delete:
     deleted: "Deleted :%{name}:"
 
+  delete_all:
+    confirm: |
+      This will delete all **%{count}** of your aliases.
+      Are you sure you wish to continue?
+    deleted:
+      one: Deleted 1 alias
+      many: Deleted %{count} aliases
+
   created:
     one: "You created an alias and can use it by typing:"
     many: "You created %{count} aliases and can use them by typing:"

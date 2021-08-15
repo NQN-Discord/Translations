@@ -1,4 +1,4 @@
-from typing import Callable, Union, Dict, Awaitable
+from typing import Callable, Union, Dict, Awaitable, Optional
 import i18n
 import pathlib
 import copy
@@ -49,7 +49,7 @@ class Translator:
     hidden_locales = ["owo", "hi", "fr", "ms"]
     supported_locales = {*locales.values(), *hidden_locales}
 
-    def __init__(self, get_locale: Callable[[Guild], Awaitable[str]]):
+    def __init__(self, get_locale: Optional[Callable[[Guild], Awaitable[str]]]):
         self.get_locale = get_locale
         root_path = pathlib.Path(__file__).parent.absolute()
         i18n.load_path.append(root_path)
@@ -74,6 +74,9 @@ class Translator:
         }
 
         return TranslatorWithContext(defaults, lambda: ctx.command.module, translate_function=self.translate_function)
+
+    def with_scope(self, scope: str, locale: str) -> "TranslatorWithContext":
+        return TranslatorWithContext({"locale": locale}, scope=scope, translate_function=self.translate_function)
 
     def __call__(self, main_scope: str, guild: Union[Guild, str]):
         async def inner():

@@ -319,3 +319,6 @@ owo:
 
   vote_opt_out:
     success: "Successfuwwy opted out of vote DMs"
+
+  whois:
+    found: "The authow is <@%{author}> (%{author})"
