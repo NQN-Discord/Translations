@@ -84,6 +84,8 @@ def main():
         missing = get_missing(data)
         if missing.get(LANGUAGE_TO_TEST):
             missing_translations |= {f"{file}.{i}" for i in missing[LANGUAGE_TO_TEST]}
+        if LANGUAGE_TO_TEST not in missing:
+            missing_translations |= {f"{file}.{i}" for i in get_translation_values(data["en"])}
         row = [file]
         for header in langs:
             if header in f_stats:
