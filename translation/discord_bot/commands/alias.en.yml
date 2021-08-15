@@ -16,8 +16,8 @@ en:
       This will delete all **%{count}** of your aliases.
       Are you sure you wish to continue?
     deleted:
-      one: Deleted 1 alias
-      many: Deleted %{count} aliases
+      one: "Deleted 1 alias"
+      many: "Deleted %{count} aliases"
 
   created:
     one: "You created an alias and can use it by typing:"
