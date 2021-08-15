@@ -11,6 +11,14 @@ es:
   delete:
     deleted: "Eliminado :%{name}:"
 
+  delete_all:
+    confirm: |
+      Esto eliminara todos tus **%{count}** alias.
+      ¿Estás seguro que quieres continuar?
+    deleted:
+      one: 1 alias eliminado
+      many: %{count} alias eliminados
+
   created:
     one: "Has creado un alias y lo puedes utilizar escribiendo:"
     many: "Has creado %{count} alias y los puedes utilizar escribiendo:"
