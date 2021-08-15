@@ -346,6 +346,7 @@ es:
     pt: "Portugués:"
     pt_people: |
       > <:KingKiller:800410618074628146> KingKiller
+      > <:gil:873518552295014420> Gil
 
     bot_stats: "Estadísticas del Bot de discord."
     shard_info_name: "Shard Info"
@@ -393,3 +394,6 @@ es:
 
   vote_opt_out:
     success: "Se de-subscribió de MDs de manera exitosa"
+
+  whois:
+    found: "El autor es <@%{author}> (%{author})"
