@@ -16,8 +16,8 @@ es:
       Esto eliminara todos tus **%{count}** alias.
       ¿Estás seguro que quieres continuar?
     deleted:
-      one: 1 alias eliminado
-      many: %{count} alias eliminados
+      one: "1 alias eliminado"
+      many: "%{count} alias eliminados"
 
   created:
     one: "Has creado un alias y lo puedes utilizar escribiendo:"
