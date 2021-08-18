@@ -5,10 +5,15 @@ pt:
   max_length: "Os nomes dos aliases podem ter no máximo 32 caracteres"
   user_zero: "Você não tem aliases"
 
+  from_message:
+    no_emotes: "Essa mensagem não tem nenhum emoji!"
+    
   delete:
     deleted: ":%{name}: foi excluido"
 
-  created: "<@%{author}> criou um alias e pode usá-lo digitando:\n> :%{name}:"
+  created: 
+    one: "Você criou um alias e pode usá-lo digitando:"
+    many: "Você criou %{count} aliases e pode usá-los digitando:"
 
   rename:
     renamed: ":%{old}: foi renomeado para :%{new}:"
