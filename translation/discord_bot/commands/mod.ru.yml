@@ -1,7 +1,4 @@
 ﻿ru:
-  whois:
-    found: "Автором является <@%{author}> (%{author})"
-
   audit:
     no_messages: "В аудите нет сообщений."
     expand: "Развернуть"

@@ -1,7 +1,4 @@
 owo:
-  whois:
-    found: "The authow is <@%{author}> (%{author})"
-
   audit:
     no_messages: "No messages to audit."
 

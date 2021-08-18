@@ -397,3 +397,6 @@ pt:
       
   vote_opt_out:
     success: "Você optou contra mensagens diretas com sucesso"
+
+  whois:
+    found: "O autor é <@%{author}> (%{author})"
