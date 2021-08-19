@@ -1,0 +1,5 @@
+pt:
+  short_doc: "Eu não gosto de nenhum dos meus aliases"
+  help: |
+    Deleta todos os seus aliases
+
