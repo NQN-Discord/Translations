@@ -4,6 +4,7 @@ import pathlib
 import copy
 from discord import Guild
 from discord.ext.commands import Context
+from ._create_owo import create_owo
 
 
 
@@ -54,6 +55,7 @@ class Translator:
         root_path = pathlib.Path(__file__).parent.absolute()
         i18n.load_path.append(root_path)
         i18n.set("enable_memoization", True)
+        create_owo(root_path)
         if translate_function:
             self.translate_function = translate_function
         else:
