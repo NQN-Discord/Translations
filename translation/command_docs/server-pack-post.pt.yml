@@ -1,0 +1,5 @@
+pt:
+  short_doc: 'Envia uma lista dos pacotes do servidor'
+  help: |
+    Envia uma lista dos pacotes do servidor
+
