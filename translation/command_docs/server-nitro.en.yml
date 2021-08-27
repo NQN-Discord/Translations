@@ -1,5 +1,5 @@
 en:
-  short_doc: 'Enable or disable free nitro usage in this guild'
+  short_doc: 'Enable or disable free nitro usage in this server'
   help: |
-    Enable or disable free nitro usage in this guild
+    Enable or disable free nitro usage in this server
 
