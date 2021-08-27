@@ -8,7 +8,7 @@ en:
   download: "Download"
 
   no_personas: |
-    Personas are not allowed in this guild
+    Personas are not allowed in this server
   no_messageless_posting: |
     A server administrator has disabled posting through the web dashboard and slash commands
   no_slowmode_posting: |
