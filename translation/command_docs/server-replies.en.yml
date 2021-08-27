@@ -1,5 +1,5 @@
 en:
-  short_doc: 'Enable or disable message replies in this guild'
+  short_doc: 'Enable or disable message replies in this server'
   help: |
-    Enable or disable message replies in this guild
+    Enable or disable message replies in this server
 
