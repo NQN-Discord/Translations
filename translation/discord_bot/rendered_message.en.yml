@@ -1,11 +1,18 @@
 en:
-  great: "Great!"
-  first_message: |
-    You've just started with NQN!
-    You'll be able to use any animated emote on this server, and any on other servers you share with me.
-
   oops: "Oops!"
-  external_emojis: "In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Server Settings**."
-  override_external_emojis: "In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Channel Settings Permissions**."
+  external_emojis: |
+    In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Server Settings**.
+  override_external_emojis: |
+    In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
 
   download: "Download"
+
+  no_personas: |
+    Personas are not allowed in this guild
+  no_messageless_posting: |
+    A server administrator has disabled posting through the web dashboard and slash commands
+  no_slowmode_posting: |
+    Posting messages in channels with a slowmode is not allowed
+
+  enable_posting: "Enable Posting"
+  posted_message: "Posted message"
