@@ -1,0 +1,5 @@
+pt:
+  short_doc: "Receba uma lista completa de seus pacotes no PV"
+  help: |
+    Faça o bot te enivar uma lista completa de seus pacotes no PV
+

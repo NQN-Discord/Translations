@@ -1,0 +1,4 @@
+pt:
+  short_doc: 'Envia uma lista dos aliases do servidor'
+  help: |
+    Envia uma lista dos aliases do servidor
