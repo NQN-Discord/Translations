@@ -5,6 +5,8 @@ import re
 
 sub_func = re.compile(r"\{(\d+)\}")
 
+ignored_translations = ("example_images",)
+
 
 def create_owo(root_path: str):
     for path in Path(root_path).rglob("*.yml"):
@@ -12,7 +14,9 @@ def create_owo(root_path: str):
     translations = i18n.translations.container
     owo = translations["owo"] = {}
     for translation_name, text in translations["en"].items():
-        if isinstance(text, str):
+        if translation_name.startswith(ignored_translations):
+            owo[translation_name] = text
+        elif isinstance(text, str):
             owo[translation_name] = owo_ise(text)
         elif isinstance(text, dict):
             owo[translation_name] = {k: owo_ise(v) for k, v in text.items()}
