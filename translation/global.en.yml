@@ -61,6 +61,8 @@ en:
     For help, and to report this as an issue, please join the testing server for this bot:
     https://discord.gg/mv8RbHD
 
+    Error code: `%{event_id}`
+
   user_abused: |
     The bot owner or global moderators have blocked you from using this bot due to previous abuse.
     You cannot use any commands or otherwise make use of the bot's functionality.
