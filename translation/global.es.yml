@@ -60,6 +60,8 @@ es:
     Para conseguir ayuda, y reportar el error, por favor unirse al servidor de servicio técnico del bot:
     https://discord.gg/mv8RbHD
 
+    Codigo del error: `%{event_id}`
+
   user_abused: |
     El dueño del bot o el equipo de moderación global te ha bloqueado el uso del bot debido al abuso de este.
     No puedes utilizar ni los comandos o ni ninguna funcionalidad del bot.
