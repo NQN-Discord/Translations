@@ -1,4 +1,10 @@
 en:
+  not_enabled: |
+    Personas are not enabled in this server.
+    They allow users to use ⚠️**custom usernames** and **avatars**⚠️ with NQN, so are not enabled by default.
+
+  enable_personas: "Enable personas"
+
   name_regex: |
     Persona names can only contain alphanumerics, dashes and underscores, and be at most 80 characters long.
 
