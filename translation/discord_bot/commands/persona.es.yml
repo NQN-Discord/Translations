@@ -1,4 +1,10 @@
 es:
+  not_enabled: |
+    Los personajes no estan habilitados en este servidor.
+    Estos permiten el uso de ⚠️**nombres de usuario** y **fotos de perfil personalizados** ⚠ con NQN, por esto no estan habilitados por defecto.
+
+  enable_personas: "Habilitar personajes"
+
   name_regex: |
     El nombre de los personajes solo puede contener caracteres alfanuméricos, guiones e guiones bajos y no puede superar 80 caracteres en total.
 
