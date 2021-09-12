@@ -16,4 +16,7 @@ en:
     Message edited in %{channel} by %{author} %{cropped}
     [Jump Link](%{jump_url})
 
+  phish_deleted: |
+    Deleted phishing message in %{channel} by %{author}
+
   audit_log_post: "NQN on behalf of %{author} (%{id})"
