@@ -6,6 +6,7 @@ en:
   cancelled: "Cancelled"
   website: "Website"
   details: "Details"
+  fix_permissions: "Fix Permissions"
 
   "yes": "Yes"
   "no": "No"
