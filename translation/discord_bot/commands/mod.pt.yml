@@ -33,6 +33,7 @@ pt:
   move:
     user_no_perms: "Você não tem as permissões 'Enviar mensagens' e 'Gerenciar mensagens' em %{channel}."
     me_no_perms: "Não tenho a permissão 'Gerenciar Webhooks' em %{channel}."
+    everyone_no_perms: "O cargo @everyone precisa de 'Usar emojis externos' no canal %{channel}."
     "1_20": "O número de mensagens a serem movidas deve estar entre 1 e 20"
 
     moved_to:
