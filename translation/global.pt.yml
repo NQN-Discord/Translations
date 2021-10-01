@@ -62,6 +62,8 @@ pt:
     Para relatar o problema e obter ajuda, junte-se ao servidor de teste para este bot:
     https://discord.gg/mv8RbHD
     
+    Código do erro: `%{event_id}`
+    
   user_abused: |
     O proprietário do bot ou moderadores globais bloquearam você de usar este bot devido a abusos anteriores.
     Você não pode usar nenhum comando ou qualquer outra funcionalidade do bot.
