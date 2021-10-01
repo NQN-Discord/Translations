@@ -1,5 +1,5 @@
 pt:
-  deleted_channel: "#Canal-Excluido"
+  deleted_channel: "#Canal-Excluído"
   author: "Autor"
   jump_to_message: "Pular"
   go_to_message: "Ir para a mensagem!"
@@ -18,7 +18,8 @@ pt:
   learn:
     aliases: "Aprenda mais sobre aliases"
     packs: "Aprenda mais sobre pacotes"
-    my_emotes: "Emojis que você pode usar"
+    my_emotes: "Veja os emojis que você pode usar"
+    personas: "Aprenda mais sobre personagens"
 
   missing_permissions: "Estas permissões estão faltando"
   missing_add_reaction: "Preciso da permissão 'Adicionar reações' para este comando!"
