@@ -1,11 +1,12 @@
 pt:
-  deleted_channel: "#Canal-Excluido"
+  deleted_channel: "#Canal-Excluído"
   author: "Autor"
   jump_to_message: "Pular"
   go_to_message: "Ir para a mensagem!"
   cancelled: "Cancelado"
   website: "Website"
   details: "Detalhes"
+  fix_permissions: "Consertar permissões"
   
   "yes": "Sim"
   "no": "Não"
@@ -17,7 +18,8 @@ pt:
   learn:
     aliases: "Aprenda mais sobre aliases"
     packs: "Aprenda mais sobre pacotes"
-    my_emotes: "Emojis que você pode usar"
+    my_emotes: "Veja os emojis que você pode usar"
+    personas: "Aprenda mais sobre personagens"
 
   missing_permissions: "Estas permissões estão faltando"
   missing_add_reaction: "Preciso da permissão 'Adicionar reações' para este comando!"
@@ -60,6 +62,8 @@ pt:
     Ocorreu um erro ao processar seu comando. Ele pode não ter sido concluído corretamente.
     Para relatar o problema e obter ajuda, junte-se ao servidor de teste para este bot:
     https://discord.gg/mv8RbHD
+    
+    Código do erro: `%{event_id}`
     
   user_abused: |
     O proprietário do bot ou moderadores globais bloquearam você de usar este bot devido a abusos anteriores.

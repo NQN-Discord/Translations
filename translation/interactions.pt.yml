@@ -1,0 +1,6 @@
+pt:
+  not_author: |
+    Apenas o autor da mensagem pode interagir com ela
+  timed_out: |
+    Tempo de espera esgotado.
+    Por favor use o comando novamente.
