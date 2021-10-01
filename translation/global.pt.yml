@@ -6,6 +6,7 @@ pt:
   cancelled: "Cancelado"
   website: "Website"
   details: "Detalhes"
+  fix_permissions: "Consertar permissões"
   
   "yes": "Sim"
   "no": "Não"
@@ -60,6 +61,8 @@ pt:
     Ocorreu um erro ao processar seu comando. Ele pode não ter sido concluído corretamente.
     Para relatar o problema e obter ajuda, junte-se ao servidor de teste para este bot:
     https://discord.gg/mv8RbHD
+    
+    Código do erro: `%{event_id}`
     
   user_abused: |
     O proprietário do bot ou moderadores globais bloquearam você de usar este bot devido a abusos anteriores.
