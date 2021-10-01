@@ -6,6 +6,7 @@ pt:
   cancelled: "Cancelado"
   website: "Website"
   details: "Detalhes"
+  fix_permissions: "Consertar permissões"
   
   "yes": "Sim"
   "no": "Não"
