@@ -11,7 +11,7 @@
   "no": "Нет"
   dm_me: "Написать в ЛС"
 
-  missing_permissions: "Отсувствуют права"
+  missing_permissions: "Отсутствуют права"
   missing_add_reaction: "Мне требуется право 'Добавлять реакции' (Add Reactions) для этой команды!"
   missing_create_invite: "Мне требуется право 'Создавать приглашения' (Create Instant Invite) для этой команды!"
   everyone_external: "Роль @everyone должна иметь право 'Использовать глобальные эмодзи' (Use External Emojis)"
@@ -19,7 +19,7 @@
   no_nitro_global: "На этом сервере отключено использование нитро!"
   no_nitro_role: "Только пользователи с ролью <@&%{role}> могут использовать эту команду!"
 
-  user_missing_administrator: "У вас отсувствует право 'Администратор' для выполнения этой команды."
+  user_missing_administrator: "У вас отсутствует право 'Администратор' для выполнения этой команды."
   user_missing_add_reaction: "У вас нет разрешения 'Добавить реакции' для выполнения этой команды"
 
   tabulated_default_results:
@@ -62,12 +62,12 @@
     Вы будете разблокированы менее чем через **5 минут** с этого момента.
 
   support_server: |
-    Вы можете присоединится на мой сервер поддержки:
+    Вы можете присоединиться на мой сервер поддержки:
     http://discord.gg/XvzDPca
     Вы можете сообщать об ошибках, предлагать новые функции или уточнить, как использовать меня!
 
   premium_required: |
-    Для этого вам необходимо быть подписаным на NQN Patreon: https://www.patreon.com/NQN
+    Для этого вам необходимо быть подписанным на NQN Patreon: https://www.patreon.com/NQN
 
   invite_bad_perms:
     title: |
