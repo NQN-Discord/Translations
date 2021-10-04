@@ -4,13 +4,19 @@ pt:
 
   message_posted: |
     Mensagem postada em %{channel} por %{author} %{cropped}
-    [Jump Link](%{jump_url})
+    [Ir para a mensagem](%{jump_url})
+    
   message_posted_persona: |
     Mensagem postada em %{channel} por %{author} %{cropped}
     ⚠️ Usando personagem ⚠️
     > **%{persona}**
-    [Jump Link](%{jump_url})
+    [Ir para a mensagem](%{jump_url})
+    
   message_edited: |
     Mensagem editada em %{channel} por %{author} %{cropped}
-    [Jump Link](%{jump_url})
+    [Ir para a mensagem](%{jump_url})
+    
+  phish_deleted: |
+    Foi excluída uma mensagem maliciosa que continha link para um phishing em %{channel} de %{author}
+    
   audit_log_post: "NQN em nome de %{author} (%{id})"

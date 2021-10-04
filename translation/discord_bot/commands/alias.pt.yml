@@ -9,7 +9,15 @@ pt:
     no_emotes: "Essa mensagem não tem nenhum emoji!"
     
   delete:
-    deleted: ":%{name}: foi excluido"
+    deleted: "O alias :%{name}: foi excluído"
+  
+  delete_all:
+    confirm: |
+      Isso vai excluir todos os seus **%{count}** aliases.
+      Tem certeza que deseja continuar?
+    deleted:
+      one: "1 alias foi excluído"
+      many: "%{count} aliases foram excluídos"
 
   created: 
     one: "Você criou um alias e pode usá-lo digitando:"
