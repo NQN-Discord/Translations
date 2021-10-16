@@ -1,0 +1,4 @@
+es:
+  short_doc: "Te envía una lista de todos tus personajes,"
+  help: |
+    Te envía una lista de todos tus personajes.
