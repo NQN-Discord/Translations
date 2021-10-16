@@ -390,3 +390,7 @@ en:
 
   whois:
     found: "The author is <@%{author}> (%{author})"
+    not_nqn: |
+      This command currently only works on messages reposted by NQN.
+    not_found: |
+      The author of that message could not be automatically found. Are you sure it was posted by NQN?
