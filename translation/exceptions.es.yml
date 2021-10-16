@@ -3,9 +3,15 @@ es:
     El comando "%{command}" no fue encontrado.
     Usa el prefijo `%{prefix}help` para ver la lista de comandos.
 
+  missing_required_argument: |
+    "%{param}" es un argumento requerido que esta faltando.
+
   bot_missing_permissions: |
     %{bot_ping} le faltan los siguientes permisos para usar este comando:
     >>> :x: %{permissions_missing}
+
+  message_not_found: |
+    El mensaje "%{param}" no fue encontrado.
 
   no_dms: |
     Este comando no puede ser usado en MDs
