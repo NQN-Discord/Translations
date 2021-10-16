@@ -36,7 +36,8 @@ class Translator:
         "fr": "fr",
         "pt": "pt",
         "br": "pt",
-        "ms": "ms"
+        "ms": "ms",
+        "ua": "ua"
     }
 
     flags = {
@@ -44,6 +45,7 @@ class Translator:
         "es": "Español",
         "ru": "Русский",
         "br": "Português",
+        "ua": "Українська"
     }
 
     flag_emojis = {flag: "".join(chr(0x1f185+ord(c)) for c in flag) for flag in flags}
