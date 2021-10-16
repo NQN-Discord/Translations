@@ -1,0 +1,11 @@
+es:
+  command_not_found: |
+    El comando "%{command}" no fue encontrado.
+    Usa el prefijo `%{prefix}help` para ver la lista de comandos.
+
+  bot_missing_permissions: |
+    %{bot_ping} le faltan los siguientes permisos para usar este comando:
+    >>> :x: %{permissions_missing}
+
+  bot_missing_permissions_dm: |
+    Este comando no puede ser usado en MDs
