@@ -7,5 +7,9 @@ en:
     %{bot_ping} is missing the following permissions to run this command:
     >>> :x: %{permissions_missing}
 
-  bot_missing_permissions_dm: |
+  user_missing_permissions: |
+    You are missing the following permissions to run this command:
+    >>> :x: %{permissions_missing}
+
+  no_dms: |
     This command cannot be ran in DMs
