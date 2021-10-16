@@ -14,7 +14,7 @@ pt:
   create_instant_invite: |-
     Crie um convite instantâneo
   deafen_members: |-
-    ensurdecer Membros
+    Ensurdecer Membros
   embed_links: |-
     Embed Links
   external_emojis: |-
@@ -40,7 +40,7 @@ pt:
   mention_everyone: |-
     Mencionar Everyone
   move_members: |-
-    Movee Membros
+    Mover Membros
   mute_members: |-
     Mutar Membros
   priority_speaker: |-
@@ -62,7 +62,7 @@ pt:
   use_public_threads: |-
     Usar Tópicos Publicos
   use_voice_activation: |-
-   Usar ativação por voz
+    Usar ativação por voz
   view_audit_log: |-
     Ver Registro de Auditoria
   view_channel: |-
