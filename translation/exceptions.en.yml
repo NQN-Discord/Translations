@@ -3,6 +3,9 @@ en:
     Command "%{command}" was not found.
     Use `%{prefix}help` to see the command list
 
+  missing_required_argument: |
+    "%{param}" is a required argument that is missing.
+
   bot_missing_permissions: |
     %{bot_ping} is missing the following permissions to run this command:
     >>> :x: %{permissions_missing}
@@ -10,6 +13,9 @@ en:
   user_missing_permissions: |
     You are missing the following permissions to run this command:
     >>> :x: %{permissions_missing}
+
+  message_not_found: |
+    Message "%{param}" not found.
 
   no_dms: |
     This command cannot be ran in DMs
