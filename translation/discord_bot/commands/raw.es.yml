@@ -397,3 +397,7 @@ es:
 
   whois:
     found: "El autor es <@%{author}> (%{author})"
+    not_nqn: |
+      Este comando solo funciona para mensajes reenviados por NQN.
+    not_found: |
+      El autor de ese mensaje no se pudo encontrar automaticamente. ¿Estas seguro de que fue enviado por NQN?

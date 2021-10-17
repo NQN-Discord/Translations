@@ -1,0 +1,4 @@
+pt:
+  short_doc: "Mostra uma lista completa de seus personagens"
+  help: |
+    Envia um DM com uma lista completa de seus personagens
