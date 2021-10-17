@@ -1,0 +1,34 @@
+en:
+  SearchTerms:
+    name:
+      Search terms
+    description: |-
+      Search terms
+
+  Message:
+    name:
+      Message
+    description: |-
+      A Discord reply to the message you want to target
+      - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
+      - A message id in the current channel (`123456789`)
+      - ChannelID-MessageID pair (`123456789-123456789`)
+      - How many messages ago it was in current channel (`5` messages ago)
+
+  PartialEmoji:
+    name:
+      Emoji
+    description: |-
+      A rendered Discord emoji or an emoji URL
+
+  ListConverter:
+    name:
+      List
+    description: |-
+      At least
+
+  Union:
+    name:
+      Union
+    description: |-
+      One of the following:

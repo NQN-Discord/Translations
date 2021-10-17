@@ -17,5 +17,8 @@ en:
   message_not_found: |
     Message "%{param}" not found.
 
+  bad_union_argument: |
+    Could not interpret argument "%{param}" should be one of:
+
   no_dms: |
     This command cannot be ran in DMs
