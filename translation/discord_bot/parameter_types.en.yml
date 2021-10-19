@@ -1,4 +1,6 @@
 en:
+  # params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+
   SearchTerms:
     name:
       Search terms
@@ -20,6 +22,47 @@ en:
       Emoji
     description: |-
       A rendered Discord emoji or an emoji URL
+
+  TextChannel:
+    name:
+      Text Channel
+    description: |
+      A text channel mention
+
+  User:
+    name:
+      User
+    description: |
+      A user mention
+
+  Role:
+    name: Role
+    description: |
+      A role mention or name
+
+  NQNEmoji:
+    name: NQNEmoji
+    description: |
+      An unrendered emoji NQN can transform
+      - A rendered Discord emoji or an emoji URL
+
+  None:
+    name:
+      Empty
+    description: |
+      No argument
+
+  str:
+    name:
+      String
+    description: |
+      Some text
+
+  int:
+    name:
+      Integer
+    description:
+      A number
 
   ListConverter:
     name:
