@@ -1,0 +1,4 @@
+fr:
+  short_doc: "Active ou désactive l'utilisation de personnages"
+  help: |
+    Permet aux utilisateurs de poster avec des pseudos et des avatars arbitraires

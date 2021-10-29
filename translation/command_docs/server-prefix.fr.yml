@@ -1,0 +1,10 @@
+fr:
+  short_doc: 'Fait en sorte que NQN écoute sur un préfixe différent.'
+  help: |
+    Fait en sorte que NQN écoute sur un préfixe différent.
+
+    Exemple d'appel:
+    >>> %{prefix}server prefix <@%{bot_id}> ?
+
+  signature: |
+    @NQN#3454 [prefix=!]

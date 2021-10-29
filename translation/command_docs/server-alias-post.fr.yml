@@ -1,0 +1,5 @@
+fr:
+  short_doc: "Affiche un liste d'alias de serveurs"
+  help: |
+    Affiche un liste d'alias de serveurs
+

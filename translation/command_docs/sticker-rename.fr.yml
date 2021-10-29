@@ -1,0 +1,6 @@
+fr:
+  short_doc: 'Renomme un autocollant'
+  help: |
+    Renomme un autocollant
+    Vous pouvez seulement renommer les autocollants que vous possédez.
+
