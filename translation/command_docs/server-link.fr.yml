@@ -1,0 +1,4 @@
+fr:
+  short_doc: "Crée un emoji statique qui, lorsqu'elle est utilisée, affiche une version animée de l'emoji à la place !"
+  help: |
+    Crée un emoji statique qui, lorsqu'elle est utilisée, affiche une version animée de l'emoji à la place !

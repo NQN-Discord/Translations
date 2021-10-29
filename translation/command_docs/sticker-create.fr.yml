@@ -1,0 +1,10 @@
+fr:
+  short_doc: "Crée un nouveau autocollant à partir d'un fichier"
+  help: |
+    Crée un nouveau autocollant à partir d'un fichier
+    Mettez en ligne une image et utilisez cette commande pour la changer en un autocollant.
+    Le nom de l'autocollant est déterminé à partir du nom de fichier, ou de ce que vous spécifiez. `sticker create BluePat.png` par exemple.
+    Les noms d'autocollant sont uniques à travers tout NQN, une fois qu'un nom est pris, il disparaît.
+    Les autocollants peuvent avoir une taille maximale de 8Mo, et les noms doivent contenir seulement des caractères alphanumériques.
+    Les autocollants ont besoin d'une extension de fichier qui doit également contenir uniquement des caractères alphanumériques.
+

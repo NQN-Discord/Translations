@@ -1,0 +1,4 @@
+fr:
+  short_doc: "Modifie le nom d'un personnage"
+  help: |
+    Modifie le nom d'un personnage
