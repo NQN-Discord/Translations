@@ -11,9 +11,6 @@ ms:
     my_prefix: |
       Awalan saya bagi perintah ialah `%{prefix}`
       Tambah reaksi ❌ (\:x:) untuk menghapuskan mesej yang dihantar semula!
-    slash_command_beta: |
-
-      Cuba **[Beta Perintah Garis Condong](%{invite_url})** baharu kami
 
     categories: "Kategori"
     everything_else: "Selainnya"
