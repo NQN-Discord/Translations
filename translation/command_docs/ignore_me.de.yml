@@ -1,0 +1,7 @@
+de:
+  short_doc: 'Stoppe das Reposten deiner Nachrichten durch NQN.'
+  help: |
+    Das Nutzen dieses Befehls stoppt das Reposten aller deiner Nachrichten durch NQN auf allen Servern, die du mit dem Bot teilst.
+    - Befehle sind immer noch aktiviert. Führst du diesen Befehl erneut aus, kehrt der Bot in den Normalzustand zurück.
+    - Du kannst Nachrichten immer noch mithilfe unseres [dashboard](https://nqn.blue) reposten.
+    - Der Bot wird nicht auf Nachrichten antworten, die du sendest und die durch einen Webhook repostet werden.

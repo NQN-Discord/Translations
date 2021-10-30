@@ -1,0 +1,95 @@
+de:
+  deleted_channel: "#DeletedChannel"
+  author: "Autor"
+  jump_to_message: "Spring"
+  go_to_message: "Gehe zur Nachricht!"
+  cancelled: "Abgebrochen"
+  website: "Website"
+  details: "Details"
+  fix_permissions: "Korrigiere Berechtigungen"
+
+  "yes": "Ja
+  "no": "Nein"
+  dm_me: "Schreib mir eine PN"
+
+  next: "Nächste"
+  previous: "Vorherige"
+
+  learn:
+    aliases: "Erfahre mehr über Aliase"
+    packs: "Erfahre mehr über Packs"
+    my_emotes: "Finde Emojis, die ich nutzen kann"
+    personas: "Erfahre mehr über Identitäten"
+
+  missing_permissions: "Fehlende Berechtigungen"
+  missing_add_reaction: "Ich brauche die 'Add Reactions' -Berechtigung für diesen Befehl!"
+  missing_create_invite: "I brauche die 'Create Instant Invite' -Berechtigung für diesen Befehl!"
+  everyone_external: "Die @everyone-Rolle benötigt die Berechtigung 'Use External Emojis'"
+  tabulated_delete_manage_messages: "Das Menü konnte nicht gelöscht werden - bitte gebe mir die 'Manage Messages' -Berechtigung"
+  no_nitro_global: "Nitro usage wurde für diese Server deaktiviert!"
+  no_nitro_role: "Nur Nutzer mit der <@&%{role}> -Rolle können diesen Befehl nutzen!"
+
+  user_missing_administrator: "Dir fehlt die 'Administrator' -Berechtigung, um diesen Befehl auszuführen."
+  user_missing_add_reaction: "Dir fehlt die 'Add Reactions' -Berechtigung, um diesen Befehl auszuführen."
+
+  tabulated_default_results:
+    one: "%{count} Ergebnis (Page %{page_no} von %{total}):\n%{contents}"
+    many: "%{count} Ergebnisse (Page %{page_no} von %{total}):\n%{contents}"
+
+  tabulated_results_page:
+    zero: "Keine Emotes gefunden"
+    one: "Seite %{page_no} von %{total}%{note}"
+    many: "Seite %{page_no} von %{total}%{note}"
+
+  page_no: "Seite %{page} von %{total}:"
+  no_results: "Keine Ergebnsise"
+  loading: "<a:loading:674758249291186191> Lädt..."
+
+
+  timed_out: "Zeitüberschreitung - Erneut versuchen"
+
+  global_check_failed: "Du darsft %{cmd_name} nicht nutzen"
+
+  requires_user_content: |
+    Nutzerinhalte sind in diesem Server nicht erlaubt.
+
+  requires_user_content_admin: |
+    Nutzerinhalte sind in diesem Server nicht erlaubt. Du kannst sie erlauben mit
+    > ```%{prefix}server user_content on```
+
+  error_message: |
+    Ein Fehler trat während der Verarbeitung deines Befehls auf. Er könnte nicht korrekt ausgeführt worden sein.
+    Für Hilfe und um das als ein Problem zu melden, trete dem Testserver für diesen Bot bei:
+    https://discord.gg/mv8RbHD
+
+    Fehlercode: `%{event_id}`
+
+  user_abused: |
+    Der Bot-Besitzer oder ein globaler Moderator hat dich durch vorherigen Missbrauch des Bots von seiner Nutzung ausgeschlossen und blockiert.
+    Du kannst keine Befehle nutzen oder andernweitigen Gebrauch von der Funktionalität des Bots machen.
+
+  user_spammed: |
+    Du wurdest temporär von der Nutzung von NQN geblockt, da du eine automatische Antwort des automatischen Spamerkennungssystems getriggert hast.
+    Diese Nachricht wird höchstens ein Mal am Tag gesendet und es gibt keinen Weg, diesen Block anzufechten.
+
+    Du wirst in unter **5 Minuten** entblockt.
+
+  support_server: |
+    Du kannst meinem Support-Server hier beitreten:
+    http://discord.gg/XvzDPca
+    D kannst Bugs reporten, neue Features vorschlagen oder nach Informationen zu meiner Nutzung fragen.
+
+  premium_required: |
+    Um das zu tun, musst du ein Abonnent des NQN-Patreons sein: https://www.patreon.com/NQN
+
+  invite_bad_perms:
+    title: |
+      Hi, danke für die Einladung von NQN zu %{guild_name}!
+
+    content: |
+      Wir haben überall geschaut und sind dazu gekommen, dass wir nicht alle Berechtigungen  haben, um anständig zu funktionieren.
+      Um dies zu fixen, damit du den Bot richtig nutzen kannst, wurde ein Link für dich generiert, welcher sem Bot alle nötigen Berechtigungen gibt:
+
+      **[Fix Permissions](%{invite_url})**
+
+  webhook_limit: "Webhook limit wurde erreicht! Kann auf diesem Kanal nicht laufen!"

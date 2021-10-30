@@ -1,0 +1,6 @@
+de:
+  short_doc: 'Lösche eine deiner von NQN reposteten Nachrichten'
+  help: |
+    Lösche eine deiner von NQN reposteten Nachrichten.
+    Standardmäßig wird deine zuletzt gesendete Nachricht in diesem Kanal gelöscht, du kannst aber optional eine URL zu der Nachricht angeben, die stattdessen gelöscht werden soll.
+    Du kannst auch Discords auf die Nachricht antworten-Funktion nutzen, um eine bestimmte Nachricht zu löschen.

@@ -1,0 +1,77 @@
+de:
+  # params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+
+  SearchTerms:
+    name:
+      Suchbegriffe
+    description: |-
+      Suchbegriffe
+
+  Message:
+    name:
+      Nachricht
+    description: |-
+      Eine Discord-Antwort auf die Nachrichten, die du anvisierst
+      - Eine Nachrichten-URL (`https://discord.com/channels/123456789/123456789/123456789`)
+      - Eine Nachrichten-ID im aktuellen Channel (`123456789`)
+      - ChannelID-MessageID Paar (`123456789-123456789`)
+      - Vor wie vielen Nachrichten war es im aktuellen Kanal (`5` messages ago)
+
+  PartialEmoji:
+    name:
+      Emoji
+    description: |-
+      Ein gerendertes Discord-Emoji oder eine Emoji-URLA rendered Discord emoji or an emoji URL
+
+  TextChannel:
+    name:
+      Textkanal
+    description: |
+      Eine Textkanal-Erwähnung
+
+  User:
+    name:
+      Nutzer
+    description: |
+      Eine Nutzer-Erwähnung
+
+  Role:
+    name: Rolle
+    description: |
+      Eine Rollenerwähnung oder ein Rollenname
+
+  NQNEmoji:
+    name: NQNEmoji
+    description: |
+      Ein ungerendertes Emoji, das NQN verändern kann
+      - Ein gerendertes Discord-Emoji oder eine Emoji-URL
+
+  None:
+    name:
+      Leer
+    description: |
+      Keine Bedingung
+
+  str:
+    name:
+      String
+    description: |
+      Etwas  Text
+
+  int:
+    name:
+      Integer
+    description:
+      Eine Zahl
+
+  ListConverter:
+    name:
+      Liste
+    description: |-
+      Endlich
+
+  Union:
+    name:
+      Union
+    description: |-
+      Eine der folgenden:

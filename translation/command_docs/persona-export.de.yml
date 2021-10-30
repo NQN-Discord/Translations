@@ -1,0 +1,4 @@
+de:
+  short_doc: "Exportiert deine Identitäten-Liste in eine Datei"
+  help: |
+    Exportiert deine Identitäten-Liste in eine Datei, welche mit anderen Bots kompatibel ist
