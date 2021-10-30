@@ -16,8 +16,8 @@ fr:
   user_missing_add_reaction: "Il vous manque la permission 'Ajouter des reactions' pour utiliser cette commande.."
 
   tabulated_default_results:
-    one: "%{count} resultat (Page %{page_no} de %{total}):\n%{contents}"
-    many: "%{count} resultats (Page %{page_no} de %{total}):\n%{contents}"
+    one: "%{count} résultat (Page %{page_no} de %{total}):\n%{contents}"
+    many: "%{count} résultats (Page %{page_no} de %{total}):\n%{contents}"
 
   tabulated_results_page:
     zero: "Aucun emoji trouvé"
@@ -29,7 +29,7 @@ fr:
   loading: "<a:loading:674758249291186191> Chargement..."
 
 
-  timed_out: "Temps ecoulé - réessayez"
+  timed_out: "Temps écoulé - réessayez"
 
   global_check_failed: "Vous n'êtes pas autorisé à utiliser la commande %{cmd_name}"
 
@@ -39,7 +39,7 @@ fr:
     https://discord.gg/mv8RbHD
 
   user_abused: |
-    L'hébergeur du bot ou un modérateur global vous a interdit d'utiliser ce bot dû à des précedents abus. Vous ne pouvez pas utiliser les commandes ou fonctionnalités du bot.
+    L'hébergeur du bot ou un modérateur global vous a interdit d'utiliser ce bot dû à des précédents abus. Vous ne pouvez pas utiliser les commandes ou fonctionnalités du bot.
 
   support_server: |
     Vous pouvez rejoindre le serveur d'aide ici:

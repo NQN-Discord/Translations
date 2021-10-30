@@ -27,10 +27,10 @@ fr:
   server_gained_premium:
     one: |
       Salut %{user_mention}!
-      Grâce à un de tes administrateurs passé premium, ton serveur %{guild_list} a déverouillé les commandes suivantes :
+      Grâce à un de tes administrateurs passé premium, ton serveur %{guild_list} a déverrouillé les commandes suivantes :
     many: |
       Salut %{user_mention}!
-      Grâce à un de tes administrateurs passé premium, les serveurs suivants ont déverouillé l'accès premium :
+      Grâce à un de tes administrateurs passé premium, les serveurs suivants ont déverrouillé l'accès premium :
       %{guild_list}
 
       NQN premium donne accès aux commandes suivantes dans ces serveurs :
