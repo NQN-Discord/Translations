@@ -1,0 +1,54 @@
+fr:
+  create:
+    attachment_needed: "Vous devez mettre en ligne un autocollant avec cette commande"
+    image_needed: "Le fichier doit être une image"
+    sticker_exists: "Un autocollant appelé %{name} existe déjà !"
+    filename_invalid: "`%{name}` n'est pas autorisé comme nom d'autocollant. Il doit être alphanumérique, avec une extension de fichier alphanumérique"
+    too_large: "Ce fichier est trop grand. Les autocollants ne peuvent pas dépasser les 8Mo"
+
+    created: "Vous pouvez maintenant utiliser `:%{name}:`\nPas tout à fait exact ?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
+
+  mine:
+    no_stickers: "Vous n'avez aucun autocollant"
+
+  delete:
+    no_sticker: "- :%{name}: - N'existe pas ou ne vous appartient pas"
+    sticker_deleted: "+ :%{name}:"
+    question:
+      zero: "Aucun autocollant à supprimer !"
+      one: "Voulez-vous vraiment supprimer cet autocollant ?"
+      many: "Voulez-vous vraiment supprimer tous ces %{count} autocollants ?"
+    deleted_all:
+      one: "Supprimé %{count} autocollant"
+      many: "Supprimé %{count} autocollants"
+
+  rename:
+    filename_invalid: "`%{name}` n'est pas autorisé comme nom d'autocollant. Il doit être alphanumérique, avec une extension de fichier alphanumérique."
+    no_sticker: "Cet autocollant n'existe pas"
+    permission_denied: "Vous ne pouvez pas renommer l'autocollant de quelqu'un d'autre !"
+    destination_taken: "Ce nom de destination est déjà pris !"
+
+    renamed: "Renommé :%{old}: en :%{new}:"
+
+  search:
+    no_stickers: "Aucun autocollant trouvé"
+
+  sticker_import:
+    filename_invalid: "`%{name}` n'est pas autorisé comme nom d'autocollant. Il doit être alphanumérique, avec une extension de fichier alphanumérique."
+    find_emote: "trouvez un emoji à transformer en autocollant !"
+
+    created: "Vous pouvez maintenant utiliser `:%{name}:`"
+    sticker_exists: "Un autocollant avec le nom `:%{name}:` existe déjà; vous ne pouvez pas l'écraser."
+    duplicate_exists: "Un autocollant avec la même image nommé %{name} existe déjà !"
+
+  telegram_import:
+    pack_invalid: "`%{name}` n'est pas un nom de pack d'autocollant Telegram"
+    telegram_unloaded: "Le paquet Telegram n'est pas chargé - Veuillez le signaler à un développeur du bot."
+    already_created: "Déjà créé par quelqu'un d'autre; impossible d'écraser"
+
+    finished_importing:
+      one: "L'importation de l'autocollant est terminée"
+      many: "L'importation des %{count} autocollants est terminée"
+
+    search_future: "Pour chercher ces autocollants à l'avenir, utilisez:\n> `%{prefix}sticker search %{name}.`"
+    view: "Voir les autocollants"
