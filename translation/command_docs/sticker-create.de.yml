@@ -1,0 +1,10 @@
+de:
+  short_doc: 'Erstelle einen Sticker aus einer Datei'
+  help: |
+    Erstelle einen Sticker aus einer Datei
+    Lade ein Bild hoch und nutze diesen Befehl, um es in einen Sticker umzuwandeln.
+    Der Name des Stickers wird durch den Dateinamen festgelegt, oder durch das, was du eingibst. `sticker create BluePat.png` zum Beispiel.
+    Namen von Stickern sind einzigartig in NQN, wenn ein Name einmal vergeben wurde, ist er nicht mehr verfügbar.
+    Sticker können maximal 8MB groß sein und Namen können nur alphanumerische Zeichen enthalten.
+    Sticker benötigen eine Dateiendung, welche auch alphanumerisch ist.
+

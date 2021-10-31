@@ -30,6 +30,7 @@ class Translator:
         "gb": "en",
         "us": "en",
         "uk": "en",
+        "de": "de",
         "es": "es",
         "ru": "ru",
         "hi": "hi",

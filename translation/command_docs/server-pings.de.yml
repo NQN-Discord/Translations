@@ -1,0 +1,5 @@
+de:
+  short_doc: 'Aktiviere oder deaktiviere Pings in Nachrichten für diesen Server'
+  help: |
+    Aktiviere oder deaktiviere Pings in Nachrichten, die NQN auf diesem Server repostet
+
