@@ -1,0 +1,9 @@
+fr:
+  get_premium: Obtenez NQN Premium
+  premium_description: |
+    Bien que NQN est principalement un bot gratuit, nous avons quelques fonctionnalités réservées aux membres premium pour supporter le développement.
+    Si vous voulez nous aider, vous pouvez souscrire au Patreon du bot: https://www.patreon.com/NQN
+
+  premium_commands_title: Commandes Premium
+  premium_commands_content: |
+    Les commandes suivantes peuvent être utilisées seulement si votre serveur a le status premium, qui peut être activé lorsqu'un utilisateur avec la permission «Administrateur» est abonné à notre Patreon.

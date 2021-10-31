@@ -1,0 +1,5 @@
+de:
+  short_doc: 'Stelle die Sprache des Bots ein %{locale_flag_emojis}'
+  help: |
+    Stelle die Sprache des Bots ein
+

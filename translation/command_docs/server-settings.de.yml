@@ -1,0 +1,4 @@
+de:
+  short_doc: 'Schaue dir die Einstellungen für diesen Server an'
+  help: |
+    Schaue dir NQNs Servereinstellungen an, inklusive der Funktionen, konfigurierten Kanäle und Informationen zu Packs.

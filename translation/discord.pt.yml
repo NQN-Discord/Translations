@@ -15,9 +15,6 @@ pt:
     my_prefix: |
       Meu prefixo para comandos é `%{prefix}`
       Reaja com ❌ (\:x:) para excluir mensagens reenviadas!
-    slash_command_beta: |
-
-      Experimente o nosso novo **[Slash Command Beta](%{invite_url})**
       
     categories: "Categorias"
     everything_else: "Todo o resto"

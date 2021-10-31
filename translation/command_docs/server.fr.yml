@@ -1,0 +1,5 @@
+fr:
+  short_doc: 'Modifie les paramètres du bot sur ce serveur'
+  help: |
+    Modifie les paramètres du bot sur ce serveur
+

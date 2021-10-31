@@ -1,0 +1,6 @@
+de:
+  short_doc: 'Suche nach allen Emotes, die der Bot je gesehen hat und lade sie auf diesen Server hoch.'
+  help: |
+    Suche nach allen Emotes, die der Bot je gesehen hat und lade sie auf diesen Server hoch.
+    Dieser Befehl erlaubt dir, Emotes hochzuladen.
+    Du kannst auch eine Datei zum Hochladen anhängen.

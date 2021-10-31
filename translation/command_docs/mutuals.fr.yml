@@ -1,0 +1,5 @@
+fr:
+  short_doc: 'Affiche les serveurs que nous partageons'
+  help: |
+    Affiche les serveurs que nous partageons en message privé
+

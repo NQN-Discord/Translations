@@ -1,0 +1,6 @@
+de:
+  short_doc: "Lass dir von NQN mitteilen, welche Berechtigungen ihm fehlen"
+  help: |
+    Debugge die Berechtigungen auf deinem Server
+
+

@@ -1,0 +1,5 @@
+de:
+  short_doc: 'Gebe einem Nutze diese Rolle, wenn er diesen Server mit NQN boostet'
+  help: |
+    Gebe einem Nutzer diese Rolle, wenn er diesen Server mit NQN boostet
+

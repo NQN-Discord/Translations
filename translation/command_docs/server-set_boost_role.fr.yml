@@ -1,0 +1,4 @@
+fr:
+  short_doc: "Donne à un utilisateur ce rôle lorsqu'il boost le serveur via NQN"
+  help: |
+    Donne à un utilisateur ce rôle lorsqu'il boost le serveur via NQN
