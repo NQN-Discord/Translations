@@ -1,4 +1,4 @@
-en:
+de:
   ext.commands.help:
     need_emojis: " - Ich brauche das, um Emojis zu nutzen!"
     need_everyone_external: " - @everyone braucht das, damit ich Emojis nutzen kann!"
