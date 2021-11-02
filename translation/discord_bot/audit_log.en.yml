@@ -19,10 +19,4 @@ en:
   phish_deleted: |
     Deleted phishing message in %{channel} by %{author}
 
-  set_audit_channel: |
-    Set an audit channel with:
-    >>> ```
-    %{prefix}server set_audit_channel #channel
-    ```
-
   audit_log_post: "NQN on behalf of %{author} (%{id})"
