@@ -1,0 +1,4 @@
+fr:
+  short_doc: "Récupère la liste complète de vos packs d'emojis"
+  help: |
+    Le bot vous envera la liste complète des packs d'emojis que vous posséder par message privé.

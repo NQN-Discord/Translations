@@ -16,10 +16,6 @@ es:
       Mi prefijo para comandos es `%{prefix}`
       ¡Reacciona con ❌ (\:x:) para eliminar mensajes reenviados!
 
-    slash_command_beta: |
-
-      Prueba nuestro nuevo **[Beta de Slash Command](%{invite_url})**
-
     categories: "Categorías"
     everything_else: "Todo el resto"
     really_useful: "Comandos muy útiles"

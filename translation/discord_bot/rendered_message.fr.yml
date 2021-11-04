@@ -1,0 +1,15 @@
+fr:
+  oops: "Oups !"
+  external_emojis: |
+    Afin de pouvoir utiliser les emojis d'autres serveurs, le role @everyone requière la permission «Utiliser des emojis externes» dans les **Paramètres du serveur**.
+  override_external_emojis: |
+    Afin de pouvoir utiliser les emojis d'autres serveurs, le role @everyone requière la permission «Utiliser des emojis externes» dans les **Paramètres de permissions du salon**.
+
+  download: "Télécharger"
+
+  no_personas: |
+    Les personnages ne sont pas autorisés sur ce serveur
+  no_messageless_posting: |
+    Un administrateur du serveur à désactivé la possibilité de pouvoir poster un message à partir du tableau de bord web et des commandes slash
+  no_slowmode_posting: |
+    Poster des messages dans un canal avec le mode lent activé n'est pas autorisé

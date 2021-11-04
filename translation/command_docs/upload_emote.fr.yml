@@ -1,0 +1,7 @@
+fr:
+  short_doc: 'Recherche toutes les emotes que le bot a déjà vues et téléchargez-les sur ce serveur.'
+  help: |
+    Recherche toutes les emotes que le bot a déjà vues et téléchargez-les sur ce serveur.
+    Cette commande vous permet de mettre en ligne des emotes.
+    Vous pouvez également joindre un fichier à mettre en ligne
+

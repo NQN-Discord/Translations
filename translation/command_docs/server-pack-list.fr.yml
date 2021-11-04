@@ -1,0 +1,4 @@
+fr:
+  short_doc: "List les packs que ce serveur peut utiliser"
+  help: |
+    List les packs que ce serveur peut utiliser

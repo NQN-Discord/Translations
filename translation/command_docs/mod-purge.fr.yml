@@ -1,0 +1,5 @@
+fr:
+  short_doc: 'Purge un certain nombre de messages repostés par le bot dans ce canal, en filtrant éventuellement utilisateur spécifique.'
+  help: |
+    Purge un certain nombre de messages repostés par le bot dans ce canal, en filtrant éventuellement utilisateur spécifique.
+

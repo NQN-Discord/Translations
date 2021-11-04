@@ -1,0 +1,10 @@
+de:
+  short_doc: 'Importiere Sticker aus Emotes'
+  help: |
+    Importiere Sticker aus Emotes
+    Entweder direkt aus einem Emote, mit einem optionalen Alias
+     - sticker import :blue_smirk: smirk.png
+    oder mittels der Suche von Emotes, die NQn hat.
+     - sticker import blue pat
+    Bedenke, dass die Option der Suche von Emotes Aliasing nicht unterstützt.
+

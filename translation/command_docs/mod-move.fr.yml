@@ -1,0 +1,4 @@
+fr:
+  short_doc: "Déplace jusqu'à 20 des messages les plus récents de ce canal vers un autre"
+  help: |
+    Déplace jusqu'à 20 des messages les plus récents de ce canal vers un autre

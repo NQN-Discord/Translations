@@ -1,0 +1,5 @@
+de:
+  short_doc: "Erhalte eine vollständige Liste deiner Aliase per PN"
+  help: |
+    Lasse dir von dem Bot eine Liste aller deiner Aliase per PN zusenden
+

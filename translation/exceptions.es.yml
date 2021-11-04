@@ -3,9 +3,64 @@ es:
     El comando "%{command}" no fue encontrado.
     Usa el prefijo `%{prefix}help` para ver la lista de comandos.
 
-  bot_missing_permissions: |
-    %{bot_ping} le faltan los siguientes permisos para usar este comando:
-    >>> :x: %{permissions_missing}
+  missing_required_argument:
+    one: |-
+      "%{param}" es un argumento requerido que esta faltando.
+      Deberia ser: %{should_be}
+    many: |
+      "%{param}" es un argumento requerido que esta faltando.
+      Deberia ser un de:
+      - %{should_be}
+
+  bot_missing_permissions:
+    one: |
+      %{bot_ping} le falta el siguiente permiso para usar este comando:
+      %{permissions_missing}
+    many: |
+      %{bot_ping} le faltan los siguientes permisos para usar este comando:
+      %{permissions_missing}
+
+  user_missing_permissions:
+    one: |
+      Te falta el siguiente permiso necesario para usar este comando:
+      %{permissions_missing}
+    many: |
+      Te falta los siguientes permisos necesarios para usar este comando:
+      %{permissions_missing}
+
+  everyone_missing_permissions:
+    one: |
+      Le falta al rol @everyone el siguiente permiso necesario para usar este comando:
+      %{permissions_missing}
+    many: |
+      Le faltan al rol @everyone los siguientes permisos necesarios para usar este comando:
+      %{permissions_missing}
+
+  message_not_found: |
+    El mensaje "%{param}" no fue encontrado.
+
+  bad_argument:
+    one: |
+      No se pudo interpretar %{param}; deberia ser:
+    many: |
+      No se pudo interpretar %{param}; deberia ser uno de los siguientes:
 
   no_dms: |
     Este comando no puede ser usado en MDs
+
+  permissions_missing_reasons:
+    # These translations were designed to be short, and to fit on about 1 line on a mobile screen
+    guild: |-
+      Los roles de %{user_ping} no lo incluyen
+    member_overwrite: |-
+      Los permisos del canal niegan especificamenta %{user_ping}
+    role_overwrite:
+      one: |-
+        Los permisos del canal niegan al rol: %{roles}
+      many: |-
+        Los permisos del canal niegan al los roles: %{roles}
+    member_role_overwrite:
+      one: |-
+        Los permisos del canal niegan a %{user_ping} y tambien al rol: %{roles}
+      many: |-
+        Los permisos del canal niegan a %{user_ping} y tambien a los roles: %{roles}

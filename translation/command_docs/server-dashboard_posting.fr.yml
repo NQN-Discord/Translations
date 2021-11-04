@@ -1,0 +1,4 @@
+fr:
+  short_doc: "Active ou désactive l'envoi de message via le tableau de bord du bot"
+  help: |
+    Active ou désactive l'envoi de message via le tableau de bord du bot

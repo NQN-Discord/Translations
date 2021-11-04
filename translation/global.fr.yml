@@ -5,19 +5,36 @@ fr:
   go_to_message: "Aller au message!"
   cancelled: "Annulé"
   website: "Website"
+  details: "Détails"
+  fix_permissions: "Corriger les Permissions"
+
+  "yes": "Oui"
+  "no": "Non"
+  dm_me: "MP moi"
+
+  next: "Suivant"
+  previous: "Précédant"
+
+  learn:
+    aliases: "En savoir plus sur les alias"
+    packs: "En savoir plus sur les packs"
+    my_emotes: "Trouver les emojis que je peux utiliser"
+    personas: "En savoir plus sur les personnages"
 
   missing_permissions: "Permissions manquantes"
   missing_add_reaction: "il me faut la permission 'Ajouter des réactions' pour que je puisse utiliser cette commande !"
   missing_create_invite: "il me faut la permission 'Créer des invitations' pour que je puisse utiliser cette commande !"
   everyone_external: "Le rôle @everyone doit avoir la permission 'Utiliser des emojis externes'"
   tabulated_delete_manage_messages: "Je n'ai pas pu supprimer le menu - Merci de me donner moi la permission 'gérer les messages'"
+  no_nitro_global: "L'utilisation du Nitro a été désactivé dans ce serveur !"
+  no_nitro_role: "Seuls les utilisateurs avec le rôle <@&%{role}> peuvent utiliser cette commande !"
 
   user_missing_administrator: "Il vous manque la permission 'Administrateur' pour utiliser cette commande."
   user_missing_add_reaction: "Il vous manque la permission 'Ajouter des reactions' pour utiliser cette commande.."
 
   tabulated_default_results:
-    one: "%{count} resultat (Page %{page_no} de %{total}):\n%{contents}"
-    many: "%{count} resultats (Page %{page_no} de %{total}):\n%{contents}"
+    one: "%{count} résultat (Page %{page_no} de %{total}):\n%{contents}"
+    many: "%{count} résultats (Page %{page_no} de %{total}):\n%{contents}"
 
   tabulated_results_page:
     zero: "Aucun emoji trouvé"
@@ -28,10 +45,16 @@ fr:
   no_results: "Aucun résultat"
   loading: "<a:loading:674758249291186191> Chargement..."
 
-
-  timed_out: "Temps ecoulé - réessayez"
+  timed_out: "Temps écoulé - réessayez"
 
   global_check_failed: "Vous n'êtes pas autorisé à utiliser la commande %{cmd_name}"
+
+  requires_user_content: |
+    Le contenu utilisateur n'est pas autorisé sur ce serveur.
+
+  requires_user_content_admin: |
+    Le contenu utilisateur n'est pas autorisé sur ce serveur. Vous pouvez l'autoriser avec
+    > ```%{prefix}server user_content on```
 
   error_message: |
     Une erreur est survenue pendant le chargement de la commande, elle risque de ne pas être complète.
@@ -39,11 +62,30 @@ fr:
     https://discord.gg/mv8RbHD
 
   user_abused: |
-    L'hébergeur du bot ou un modérateur global vous a interdit d'utiliser ce bot dû à des précedents abus. Vous ne pouvez pas utiliser les commandes ou fonctionnalités du bot.
+    L'hébergeur du bot ou un modérateur global vous a interdit d'utiliser ce bot dû à des précédents abus. Vous ne pouvez pas utiliser les commandes ou fonctionnalités du bot.
+
+  user_spammed: |
+    Vous avez été temporairement bloqué de l'utilisation de NQN pour avoir déclenché notre système de détection de spam.
+    Ce message ne sera envoyé qu'une fois par jour, et il y a aucun moyen de faire un appel sur cette décision.
+
+    Vous serez débloqué dans moins de **5 minutes** à partir de maintenant.
 
   support_server: |
     Vous pouvez rejoindre le serveur d'aide ici:
     http://discord.gg/XvzDPca
     Vous pouvez signaler des bugs, demander de nouvelles fonctionnalités ou demander des clarifications sur comment m'utiliser.
+
+  premium_required: |
+    Pour faire ça, vous devez être abonné au Patreon de NQN: https://www.patreon.com/NQN
+
+  invite_bad_perms:
+    title: |
+      Salut, merci d'avoir invité NQN dans %{guild_name} !
+
+    content: |
+      Nous avons regardé et nous avons constaté que nous avions pas tous les permissions nécessaires pour fonctionner correctement.
+      Pour corriger ce problème et pour vous permettre d'utiliser le bot correctement, un lien a été créé pour donner toutes les permissions nécessaires au bot:
+
+      **[Corriger les permissions](%{invite_url})**
 
   webhook_limit: "Limite de webhooks atteinte! Je ne fonctionne pas dans ce salon!"

@@ -1,0 +1,5 @@
+fr:
+  short_doc: "Exclu l'auteur d'un message"
+  help: |
+    Exclu l'auteur d'un message
+
