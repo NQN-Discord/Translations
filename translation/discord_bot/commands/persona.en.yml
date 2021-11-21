@@ -23,6 +23,16 @@ en:
       To share them with other people, they need to run:
       > `%{prefix}persona import %{url}`
 
+  import_:
+    import_incorrect: |
+      This command is used to import a persona list previously exported with `%{prefix}persona export`.
+      To create persona, use `%{prefix}persona register`
+    import_text: "This command needs a json file attachment"
+    set_personas:
+      one: "Imported one persona"
+      many: "Imported %{count} personas"
+
+
   list:
     no_personas: |
       You don't have any personas!
