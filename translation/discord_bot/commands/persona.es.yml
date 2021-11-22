@@ -23,6 +23,15 @@ es:
       Para compartirlos con otras personas, ellos tienen que usar:
       > `%{prefix}persona import %{url}`
 
+  import_:
+    import_incorrect: |
+      Este commando es utilizado para importar una lista de personajes previamente exportados con `%{prefix}persona export`, o los comandos equivalentes de PluralKit and Tupperbox.
+      Para crear un personaje, utiliza `%{prefix}persona register`
+    import_text: "Este commando requiere de un adjunto tipo JSON"
+    set_personas:
+      one: "Se importo un personaje"
+      many: "Se importaron %{count} personajes"
+
   list:
     no_personas: |
       ¡No tienes ningún personaje!
