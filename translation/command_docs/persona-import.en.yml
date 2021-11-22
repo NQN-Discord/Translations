@@ -1,0 +1,6 @@
+en:
+  short_doc: "Import a previously exported list of personas"
+  help: |
+    Import a previously exported list of personas.
+    Compatible with PluralKit and Tupperbox.
+
