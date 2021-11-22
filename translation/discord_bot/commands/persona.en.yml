@@ -7,6 +7,7 @@ en:
 
   name_regex: |
     Persona names can only contain alphanumerics, dashes and underscores, and be at most 80 characters long.
+    > '%{persona_name}' does not match these requirements.
 
   max_display_name: |
     Usernames can be at most 80 characters long
@@ -31,6 +32,8 @@ en:
     set_personas:
       one: "Imported one persona"
       many: "Imported %{count} personas"
+    invalid_persona:
+      Do you wish to continue importing the rest of the file, ignoring this entry?
 
 
   list:
