@@ -3,6 +3,7 @@ es:
   author: "Autor"
   jump_to_message: "Ir al mensaje"
   go_to_message: "¡Ir al mensaje!"
+  reply_to: "Respuesta a:"
   cancelled: "Cancelado"
   website: "Sitio"
   details: "Detalles"
