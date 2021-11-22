@@ -25,7 +25,7 @@ en:
 
   import_:
     import_incorrect: |
-      This command is used to import a persona list previously exported with `%{prefix}persona export`.
+      This command is used to import a persona list previously exported with `%{prefix}persona export`, or equivalent export commands from PluralKit and Tupperbox.
       To create a persona, use `%{prefix}persona register`
     import_text: "This command needs a json file attachment"
     set_personas:
