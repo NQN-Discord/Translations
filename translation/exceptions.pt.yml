@@ -1,0 +1,15 @@
+pt:
+  command_not_found: |
+    Comando "%{command}" não foi encontrado.
+    Use `%{prefix}help` para ver a lista de comandos
+
+  bot_missing_permissions: |
+    %{bot_ping} não tem as seguintes permissões para executar este comando:
+    >>> :x: %{permissions_missing}
+
+  user_missing_permissions: |
+    Você não tem as seguintes permissões para executar este comando:
+    >>> :x: %{permissions_missing}
+
+  no_dms: |
+    Este comando não pode ser executado em DMs
