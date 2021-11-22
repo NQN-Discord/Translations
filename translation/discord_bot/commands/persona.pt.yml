@@ -23,14 +23,14 @@ pt:
       Para que outra pessoa use eles, ela precisa executar:
       > `%{prefix}persona import %{url}`
       
-   import_:
+  import_:
     import_incorrect: |
       Este comando é usado para importar uma lista de persona previamente exportada com `% {prefix} persona export`, ou comandos de exportação equivalentes do PluralKit e Tupperbox.
       Para criar um personagem, use `%{prefix} persona register`
     import_text: "Este comando precisa de um anexo de arquivo json"
     set_personas:
       one: "Importou um personagem"
-      many: "Importados %{count} personagens"     
+      many: "Importados %{count} personagens"
       
   list:
     no_personas: |
