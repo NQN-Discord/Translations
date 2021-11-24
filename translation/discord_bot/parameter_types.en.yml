@@ -61,8 +61,14 @@ en:
   int:
     name:
       Integer
-    description:
+    description: |
       A number
+
+  bool:
+    name:
+      Boolean
+    description: |
+      `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
 
   ListConverter:
     name:
