@@ -14,7 +14,7 @@ pt:
     never_posted: "Você nunca enviou uma mensagem com o NQN neste canal!"
     message_deleted: | 
        Sua mensagem mais recente com o NQN neste canal foi excluída!
-       Escolha uma mensagem respondendo-a com o Discord ou colando seu URL de salto
+       Escolha uma mensagem respondendo-a com o Discord ou usando o link da mensagem.
     cannot_edit_no_nqn: "Você não pode editar esta mensagem porque não é uma mensagem postada pelo NQN!"
     cannot_edit_different_user: "Você não pode editar esta mensagem porque não foi postada por você!"
   
@@ -400,3 +400,7 @@ pt:
 
   whois:
     found: "O autor é <@%{author}> (%{author})"
+    not_nqn: |
+      Este comando só funciona para mensagens enviadas pelo NQN.
+    not_found: |
+      O autor dessa mensagem não pôde ser encontrado automaticamente. Tem certeza de que ela foi enviada pelo NQN?
