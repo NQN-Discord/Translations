@@ -3,6 +3,7 @@ pt:
   author: "Autor"
   jump_to_message: "Pular"
   go_to_message: "Ir para a mensagem!"
+  reply_to: "Respondendo a:"
   cancelled: "Cancelado"
   website: "Website"
   details: "Detalhes"
