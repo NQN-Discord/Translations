@@ -7,7 +7,7 @@ es:
 
   name_regex: |
     El nombre de los personajes solo puede contener caracteres alfanuméricos, guiones e guiones bajos y no puede superar 80 caracteres en total.
-
+    > '%{persona_name}' no cumple con estos requerimientos.
   max_display_name: |
     El nombre de usuario de los personajes no puede superar 80 caracteres en total
 
@@ -31,6 +31,8 @@ es:
     set_personas:
       one: "Se importo un personaje"
       many: "Se importaron %{count} personajes"
+    invalid_persona:
+      ¿Desesas continuar importando el resto del archivo, ignorando este error?
 
   list:
     no_personas: |
