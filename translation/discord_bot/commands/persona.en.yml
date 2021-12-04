@@ -48,9 +48,9 @@ en:
       Registered %{short_name} as your persona!
       To send messages as them, send a message starting with `%{short_name}:`, for example:
       > ```%{short_name}: Hello!```
-      To set their username in messages to 'NQN', run:
+      To change their username in messages to 'NQN', run:
       > ```%{prefix}persona display_name %{short_name} NQN```
-      To set their avatar in messages, run:
+      To change their avatar in messages, run:
       > ```%{prefix}persona avatar_url %{short_name} https://...```
 
   rename:
