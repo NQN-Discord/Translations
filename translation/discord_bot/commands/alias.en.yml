@@ -24,6 +24,9 @@ en:
     many: "You created %{count} aliases and can use them by typing:"
 
   rename:
+    rename: "Rename Alias"
+    alias_name: "Alias Name:"
+
     renamed: "Renamed :%{old}: to :%{new}:"
 
   export:

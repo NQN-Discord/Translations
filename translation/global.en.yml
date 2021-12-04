@@ -8,6 +8,7 @@ en:
   website: "Website"
   details: "Details"
   fix_permissions: "Fix Permissions"
+  success: "Success"
 
   "yes": "Yes"
   "no": "No"
