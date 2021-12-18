@@ -41,6 +41,9 @@ en:
       You don't have any personas!
 
   register:
+    display_name: "Nickname"
+    avatar_url: "Avatar URL"
+
     persona_exists: |
       You already have a persona called %{short_name}.
       You can rename it with `%{prefix}persona rename %{short_name} new_name`
