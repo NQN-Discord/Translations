@@ -37,7 +37,15 @@ es:
       %{permissions_missing}
 
   message_not_found: |
-    El mensaje "%{param}" no fue encontrado.
+    El mensaje "%{param}" no se pudo encontrado.
+
+  channel_not_found: |
+    El canal "%{channel}" no se pudo encontrar.
+
+  channel_not_readable: |
+    A %{bot_ping} le falta el siguiente permiso en el canal %{channel}:
+    %{permissions_missing}
+
 
   bad_argument:
     one: |
