@@ -158,7 +158,7 @@ pt:
     stickers: "Figurinhas"
     nitro: "Nitro"
     replies: "Respostas"
-    masked: "URLs camuflados"
+    masked_links: "URLs camuflados"
     pings: "Pings"
     user_content: "Conteúdo de Usuário"
     personas: "Personagens"
