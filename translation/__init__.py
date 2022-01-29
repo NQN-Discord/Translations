@@ -71,8 +71,15 @@ class Translator:
             bot.command(hidden=True, name=locale)(inner(locale))
 
     async def setup_translation(self, ctx: Context, guild_locale: str = None):
+        if guild_locale is None:
+            try:
+                guild_locale = ctx.guild_settings.locale
+            except AttributeError:
+                pass
+            if guild_locale is None:
+                guild_locale = await self.get_locale(ctx.guild)
         defaults = {
-            "locale": (guild_locale or (await self.get_locale(ctx.guild))).strip(" "),
+            "locale": guild_locale.strip(" "),
             "locale_flag_emojis": " ".join(self.flag_emojis.values())
         }
 
