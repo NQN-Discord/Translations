@@ -151,7 +151,7 @@ fr:
     stickers: "Autocollants"
     nitro: "Nitro"
     replies: "Réponses"
-    masked: "URLs masquées"
+    masked_links: "URLs masquées"
     pings: "Pings"
     user_content: "Contenu des l'utilisateurs"
     personas: "Personnages"

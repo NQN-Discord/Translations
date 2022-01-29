@@ -112,7 +112,7 @@ ms:
     stickers: "Pelekat"
     nitro: "Nitro"
     replies: "Pembalasan"
-    masked: "URL Terlindung"
+    masked_links: "URL Terlindung"
     pings: "Dencingan"
 
     invite: "Pautan Jemputan"

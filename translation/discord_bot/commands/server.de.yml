@@ -152,7 +152,7 @@ de:
     stickers: "Sticker"
     nitro: "Nitro"
     replies: "Antworten"
-    masked: "Verborgene URLs"
+    masked_links: "Verborgene URLs"
     pings: "Pings"
     user_content: "Nutzerinalt"
     personas: "Identitäten"

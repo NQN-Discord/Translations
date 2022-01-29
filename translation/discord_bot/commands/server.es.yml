@@ -154,7 +154,7 @@ es:
     stickers: "Stickers"
     nitro: "Nitro"
     replies: "Respuestas"
-    masked: "URLs enmascarados"
+    masked_links: "URLs enmascarados"
     pings: "Pings"
     user_content: "Contenido de los Usuarios"
     personas: "Personajes"

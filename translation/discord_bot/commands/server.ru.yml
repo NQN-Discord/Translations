@@ -146,7 +146,7 @@ ru:
     stickers: "Стикеры"
     nitro: "Нитро"
     replies: "Цитирование"
-    masked: "Скрытие ссылок"
+    masked_links: "Скрытие ссылок"
     pings: "Упоминания"
     user_content: "Пользовательский контент"
     personas: "Персоны"
