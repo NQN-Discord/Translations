@@ -39,6 +39,13 @@ pt:
   message_not_found: |
     A mensagem "%{param}" não foi encontrada.
     
+  channel_not_found: |
+    O canal "%{channel}" não pôde ser encontrado.
+    
+  channel_not_readable: |
+    O %{bot_ping} precisa das seguintes permissões no canal %{channel}:
+    %{permissions_missing}
+    
   bad_argument:
     one: |
       Não foi possível interpretar o argumento %{param}; deveria ser:
