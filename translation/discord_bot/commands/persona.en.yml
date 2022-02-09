@@ -43,6 +43,7 @@ en:
   register:
     display_name: "Nickname"
     avatar_url: "Avatar URL"
+    create: "Create Persona"
 
     persona_exists: |
       You already have a persona called %{short_name}.
