@@ -18,6 +18,9 @@ es:
     cannot_edit_no_nqn: "¡No puedes editar este mensaje ya que no es un mensaje enviado por NQN!"
     cannot_edit_different_user: "¡No puedes editar este mensaje ya que este no fue enviado por vos!"
 
+    edit_message: "Editar mensaje"
+    new_content: "Contenido nuevo:"
+
   delete:
     deleted: "Mensaje eliminado correctamente"
 
