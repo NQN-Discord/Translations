@@ -39,6 +39,10 @@ es:
       ¡No tienes ningún personaje!
 
   register:
+    display_name: "Apodo"
+    avatar_url: "URL de la foto de perfil"
+    create: "Crear Personaje"
+
     persona_exists: |
       Ya tienes un personaje llamado %{short_name}.
       Puedes renombrarlo con `%{prefix}persona rename %{short_name} nombre_nuevo`
