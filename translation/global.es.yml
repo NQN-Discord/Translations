@@ -8,6 +8,7 @@ es:
   website: "Sitio"
   details: "Detalles"
   fix_permissions: "Arreglar permisos"
+  success: "Éxito"
 
   "yes": "Si"
   "no": "No"

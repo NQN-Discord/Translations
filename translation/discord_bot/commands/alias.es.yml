@@ -24,6 +24,9 @@ es:
     many: "Has creado %{count} alias y los puedes utilizar escribiendo:"
 
   rename:
+    rename: "Renombrar Alias"
+    alias_name: "Nuevo nombre del Alias:"
+
     renamed: "Renombrado :%{old}: a :%{new}:"
 
   export:
