@@ -90,6 +90,11 @@ es:
     dashboard_posting_on: "Se habilita el envío de mensajes dese el panel en sito del bot"
     dashboard_posting_off: "Se deshabilito el envío de mensajes dese el panel en sito del bot"
 
+
+    phish_detection_on: "Se habilito la detección de mensajes phishing en el servidor"
+    phish_detection_off: "Se deshabilito la detección de mensajes phishing en el servidor"
+
+
   link:
     no_animated_emotes: |
       Este servidor no tiene emojis animados!
@@ -159,6 +164,7 @@ es:
     user_content: "Contenido de los Usuarios"
     personas: "Personajes"
     dashboard_posting: "Enviar mensajes con Sitio"
+    phish_detection: "Detección de mensajes phishing"
 
     invite: "Enlace de invitación"
     pack: "Nombre del Pack"
