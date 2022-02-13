@@ -86,6 +86,9 @@ en:
 
     dashboard_posting_on: "Enabled posting messages from the bot's dashboard"
     dashboard_posting_off: "Disabled posting messages from the bot's dashboard"
+
+    phish_detection_on: "Enabled phishing message detection in this server"
+    phish_detection_off: "Disabled phishing message detection in this server"
     
   link:
     no_animated_emotes: |
@@ -156,6 +159,7 @@ en:
     user_content: "User Content"
     personas: "Personas"
     dashboard_posting: "Dashboard Posting"
+    phish_detection: "Phish Detection"
 
     invite: "Invite Link"
     pack: "Pack Name"
