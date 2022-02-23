@@ -1,0 +1,97 @@
+it:
+  deleted_channel: "#CanaleCancellato"
+  author: "Autore"
+  jump_to_message: "Salta"
+  go_to_message: "Vai al messaggio!"
+  reply_to: "Rispondi a:"
+  cancelled: "Cancellato"
+  website: "Sito web"
+  details: "Dettagli"
+  fix_permissions: "Risolvi i permessi"
+  success: "Successo"
+
+  "yes": "Sì"
+  "no": "No"
+  dm_me: "Inviami un DM"
+
+  next: "Successivo"
+  previous: "Precedente"
+
+  learn:
+    aliases: "Leggi di piú sugli alias"
+    packs: "Leggi di piú sui pacchetti"
+    my_emotes: "Trova emoji che posso usare"
+    personas: "Leggi di piú sulle persone"
+
+  missing_permissions: "Permessi Mancanti"
+  missing_add_reaction: "Ho bisogno del permesso 'Aggiungi Reazioni' per questo comando!"
+  missing_create_invite: "Ho bisogno del permesso 'Creare Invito Istantaneo' per questo comando!"
+  everyone_external: "Il ruolo @everyone ha bisogno 'Usa Emoji Esterne'"
+  tabulated_delete_manage_messages: "Impossibile eliminare il menu - perfavore dammi Gestire Messaggi"
+  no_nitro_global: "L'uso di nitro é disabilitato in questo server!"
+  no_nitro_role: "Solo gli utenti con <@&%{role}> ruolo possono usare questo comando!"
+
+  user_missing_administrator: "Non hai il permesso 'Amministratore' per eseguire questo comando."
+  user_missing_add_reaction: "Non hai il permesso 'Aggiungere Reazioni' per eseguire questo comando."
+
+  tabulated_default_results:
+    one: "%{count} risultato (Page %{page_no} di %{total}):\n%{contents}"
+    many: "%{count} risultati (Page %{page_no} di %{total}):\n%{contents}"
+
+  tabulated_results_page:
+    zero: "Nessuna emote trovata"
+    one: "Pagina %{page_no} di %{total}%{note}"
+    many: "Pagina %{page_no} di %{total}%{note}"
+
+  page_no: "Pagina %{page} di %{total}:"
+  no_results: "Nessun risultato"
+  loading: "<a:loading:674758249291186191> Caricamento..."
+
+
+  timed_out: "Tempo scaduto - prova ancora"
+
+  global_check_failed: "Non sei autorizzato ad usare %{cmd_name}"
+
+  requires_user_content: |
+    Il contenuto dell'utente non é permesso in questo server.
+
+  requires_user_content_admin: |
+    Il contenuto dell'utente non é permesso in questo server. Puoi permetterlo con
+    > ```%{prefix}server user_content on```
+
+  error_message: |
+    Si è verificato un errore durante l'elaborazione del comando. Potrebbe non essere stato completato correttamente.
+    Per aiuto e per segnalare questo problema, unisciti al server di test per questo bot:
+    https://discord.gg/mv8RbHD
+
+    Codice errore: `%{event_id}`
+
+  user_abused: |
+    Il proprietario del bot o i moderatori globali ti hanno impedito di utilizzare questo bot a causa di precedenti abusi.
+    Non è possibile utilizzare alcun comando o utilizzare in altro modo le funzionalità del bot.
+
+  user_spammed: |
+    Ti è stato temporaneamente bloccato l'utilizzo di NQN per l'attivazione del nostro sistema di rilevamento automatico dello spam.
+    Questo messaggio verrà inviato al massimo una volta al giorno e non c'è modo di presentare ricorso contro questo blocco.
+
+    Verrai sbloccato in **5 minuti** da ora.
+
+  support_server: |
+    Puoi entrare nel mio server di assistenza qui:
+    http://discord.gg/XvzDPca
+    Puoi segnalare bug, richiedere nuove funzioni o chiedere un chiarimento su come usarmi.
+
+  premium_required: |
+    Per fare questo hai bisogno di essere iscritto al patreon di NQN: https://www.patreon.com/NQN
+
+  invite_bad_perms:
+    title: |
+      Ciao, grazie per aver invitato NQN a %{guild_name}!
+
+    content: |
+      Ci siamo guardati intorno e abbiamo scoperto che non abbiamo tutte le autorizzazioni di cui abbiamo bisogno per funzionare correttamente.
+      Per risolvere questo problema in modo da poter utilizzare correttamente il bot, è stato generato un link che darà tutte le autorizzazioni pertinenti al bot:
+
+      **[Risolvi permessi](%{invite_url})**
+
+  webhook_limit: "Limite webhook raggiunto! Non può essere eseguito in questo canale!"
