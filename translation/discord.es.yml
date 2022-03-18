@@ -16,6 +16,10 @@ es:
       Mi prefijo para comandos es `%{prefix}`
       ¡Reacciona con ❌ (\:x:) para eliminar mensajes reenviados!
 
+    user_ignored: |
+      Seras **IGNORADO** cuando envíes mensajes que normalmente serian re-enviados por el bot. Para permitir que NQN re-envié tus mensajes, corre:
+      > `%{prefix}ignore_me`
+
     categories: "Categorías"
     everything_else: "Todo el resto"
     really_useful: "Comandos muy útiles"

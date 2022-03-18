@@ -16,6 +16,10 @@ en:
       My prefix for commands is `%{prefix}`
       React with ❌ (\:x:) to delete reposted messages!
 
+    user_ignored: |
+      You will be **IGNORED** when sending messages which would normally be reposted. To allow NQN to repost your messages, run:
+      > `%{prefix}ignore_me`
+
     categories: "Categories"
     everything_else: "Everything else"
     really_useful: "Really Useful Commands"
