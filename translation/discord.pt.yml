@@ -15,6 +15,11 @@ pt:
     my_prefix: |
       Meu prefixo para comandos é `%{prefix}`
       Reaja com ❌ (\:x:) para excluir mensagens reenviadas!
+    
+    user_ignored: |
+      Você será **IGNORADO** quando enviar mensagens que normalmente seriam
+      repostadas. Para permitir que o NQN reposte suas mensagens, execute:
+      > `%{prefix}ignore_me`
       
     categories: "Categorias"
     everything_else: "Todo o resto"
