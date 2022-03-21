@@ -319,7 +319,7 @@ fr:
         > Fonctionnalités du serveur: %{guild_features}
 
     bot_credits: |
-      [Avatar du bot et dessin de Wumpus par Dooley](https://www.dooleytm.com/) de [Wump Motes](https://discord.gg/pEjCBNF)
+      [Avatar du bot et dessin de Wumpus par Dooley](<https://www.dooleytm.com>) de [Wump Motes](https://discord.gg/pEjCBNF)
 
       __Nous remercions tout particulièrement les personnes suivantes:__
       > <:OriLove:726475603879919616> OrionVi

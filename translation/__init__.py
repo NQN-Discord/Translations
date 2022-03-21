@@ -63,7 +63,7 @@ class Translator:
             self.translate_function = i18n.t
 
     def add_locale_commands(self, bot):
-        for locale in set(self.locales.values()) | set(self.hidden_locales):
+        for locale in self.supported_locales:
             def inner(locale: str):
                 async def run_locale(ctx, *, rest):
                     await bot.process_commands(ctx.message, ctx.prefix, rest, locale)
