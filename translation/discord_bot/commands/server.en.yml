@@ -1,6 +1,6 @@
 en:
   alias:
-    set_emote_title: "Set :%{name}: to %{emote} for this server."
+    set_emote_title: "Set \\:%{name}: to %{emote} for this server."
     set_emote_description:
       zero: |
         This server has no emotes left!
@@ -31,7 +31,7 @@ en:
       For more aliases/packs, anyone can vote for the bot at %{url}
 
     no_alias: "This server does not have an alias called %{name}"
-    renamed: "Renamed %{emote} from :%{name}: to :%{new}:"
+    renamed: "Renamed %{emote} from \\:%{name}: to :%{new}:"
     no_aliases: "This server has no global aliases"
 
   nitro_role:

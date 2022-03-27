@@ -28,7 +28,7 @@ fr:
     permission_denied: "Vous ne pouvez pas renommer l'autocollant de quelqu'un d'autre !"
     destination_taken: "Ce nom de destination est déjà pris !"
 
-    renamed: "Renommé :%{old}: en :%{new}:"
+    renamed: "Renommé \\:%{old}: en :%{new}:"
 
   search:
     no_stickers: "Aucun autocollant trouvé"

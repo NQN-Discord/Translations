@@ -1,6 +1,6 @@
 ru:
   alias:
-    set_emote_title: "Set :%{name}: to %{emote} for this server."
+    set_emote_title: "Set \\:%{name}: to %{emote} for this server."
     set_emote_description:
       zero: |
         У этого сервера не осталось эмодзи!
@@ -25,10 +25,10 @@ ru:
         %{failed_aliases} эмодзи которых невозможно отобразить
 
     max_title: "На этом сервере уже установлено максимальное количество эмодзи, паков"
-    max_description: ":%{name}: не является эмодзи сервера.\n\nДля получения дополнительных эмодзи/паков любой может проголосовать за бота на %{url}"
+    max_description: "\\:%{name}: не является эмодзи сервера.\n\nДля получения дополнительных эмодзи/паков любой может проголосовать за бота на %{url}"
 
     no_alias: "У этого сервера нет эмодзи с именем %{name}"
-    renamed: "Переименовано %{emote} с :%{name}: на :%{new}:"
+    renamed: "Переименовано %{emote} с \\:%{name}: на :%{new}:"
     no_aliases: "У этого сервера нету глобальных эмодзи"
 
   nitro_role:

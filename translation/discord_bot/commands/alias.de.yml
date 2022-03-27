@@ -1,5 +1,5 @@
 de:
-  no_alias: "Du hast kein Alias mit dem Namen :%{name}:"
+  no_alias: "Du hast kein Alias mit dem Namen \\:%{name}:"
   could_not_find: "Alias konnte nicht gefunden werden"
   alphanumeric: "Aliase  können nur alphanumerische Zeichen und Unterstriche beinhalten"
   max_length: "Aliasnamen können höchstens 32 Zeichen lang sein"
@@ -9,7 +9,7 @@ de:
     no_emotes: "Diese Nachricht enthält keine spezifischen Emojis!"
 
   delete:
-    deleted: "Gelöscht :%{name}:"
+    deleted: "Gelöscht \\:%{name}:"
 
   delete_all:
     confirm: |
@@ -24,7 +24,7 @@ de:
     many: "Du hast %{count} Aliase erstellt und kannst sie nutzen, indem du das hier eingibst:"
 
   rename:
-    renamed: ":%{old}: umbenannt zu :%{new}:"
+    renamed: "\\:%{old}: umbenannt zu :%{new}:"
 
   export:
     exported_short: "Hier sind deine exportierten Aliase:"

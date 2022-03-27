@@ -28,7 +28,7 @@ ms:
     permission_denied: "Anda tidak boleh menamakan semula pelekat orang lain!"
     destination_taken: "Nama destinasi telahpun diguna!"
 
-    renamed: "Berjaya menamakan semula :%{old}: kepada :%{new}:"
+    renamed: "Berjaya menamakan semula \\:%{old}: kepada :%{new}:"
 
   search:
     no_stickers: "Tiada pelekat dijumpai"

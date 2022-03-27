@@ -1,6 +1,6 @@
 es:
   alias:
-    set_emote_title: "Establecido :%{name}: a %{emote} para este servidor."
+    set_emote_title: "Establecido \\:%{name}: a %{emote} para este servidor."
     set_emote_description:
       zero: |
         ¡Este servidor no tiene mas emoticonos!
@@ -31,7 +31,7 @@ es:
       Para más aliases/packs, cualquiera puede votar por el bot en %{url}
 
     no_alias: "Este servidor no tiene un alias llamado %{name}"
-    renamed: "Renombrado %{emote} de :%{name}: a :%{new}:"
+    renamed: "Renombrado %{emote} de \\:%{name}: a :%{new}:"
     no_aliases: "Este servidor no tiene alias globales asignados"
 
   nitro_role:

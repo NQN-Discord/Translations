@@ -28,7 +28,7 @@ es:
     permission_denied: "¡No puedes renombrar el sticker de otra persona!"
     destination_taken: "¡Ese nombre ya esta tomado por otro sticker!"
 
-    renamed: "Renombrado :%{old}: a :%{new}:"
+    renamed: "Renombrado \\:%{name}: a :%{new}:"
 
   search:
     no_stickers: "No se encontró ningún sticker"
