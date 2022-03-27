@@ -1,6 +1,6 @@
 ms:
   alias:
-    set_emote_title: "Tetapkan :%{name}: kepada %{emote} bagi pelayan ini."
+    set_emote_title: "Tetapkan \\:%{name}: kepada %{emote} bagi pelayan ini."
     set_emote_description:
       zero: |
         Pelayan ini telah mencapai had emoji!
@@ -25,7 +25,7 @@ ms:
       Untuk lebih alias/pek, sesiapa sahaja boleh mengundi untuk bot ini di %{url}
 
     no_alias: "Pelayan ini tidak mempunyai alias %{name}"
-    renamed: "Menamakan semula %{emote} dari :%{name}: kepada :%{new}:"
+    renamed: "Menamakan semula %{emote} dari \\:%{name}: kepada :%{new}:"
 
   nitro_role:
     unset: "Sesiapa dalam pelayan ini boleh menggunakan emoji Nitro secara percuma dengan NQN"
@@ -82,7 +82,7 @@ ms:
     joined: "Berjaya melanggan %{name}.\nSesiapa sahaja dalam pelayan ini kini boleh menggunakan emoji berikut dengan menaip namanya ke dalam ruang perbualan termasuk noktah bertindih:"
 
     max_title: "Pelayan ini telah mencapai had pek/emoji!"
-    max_description: ":%{name}: tidak ditambah ke dalam pek pelayan.\n\nUntuk lebih alias/pek, sesiapa sahaja boleh mengundi untuk bot ini di %{url}"
+    max_description: "\\:%{name}: tidak ditambah ke dalam pek pelayan.\n\nUntuk lebih alias/pek, sesiapa sahaja boleh mengundi untuk bot ini di %{url}"
 
     left_pack: "Telah menarik diri dari melanggan %{name}"
     not_in_pack: "Pelayan ini tidak melanggan %{name} pun"

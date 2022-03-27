@@ -28,7 +28,7 @@ pt:
     permission_denied: "Você não pode renomear o adesivo de outra pessoa!"
     destination_taken: "O nome do destino já foi escolhido!"
 
-    renamed: "Renomeado :%{old}: para :%{new}:"
+    renamed: "Renomeado \\:%{old}: para :%{new}:"
 
   search:
     no_stickers: "Nenhum adesivo encontrado"

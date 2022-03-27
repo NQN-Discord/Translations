@@ -1,5 +1,5 @@
 en:
-  no_alias: "You don't have an alias called :%{name}:"
+  no_alias: "You don't have an alias called \\:%{name}:"
   could_not_find: "Could not find alias"
   alphanumeric: "Aliases can only contain alphanumerics and underscores"
   max_length: "Alias names can be at most 32 characters long"
@@ -9,7 +9,7 @@ en:
     no_emotes: "This message doesn't have any custom emojis in it!"
 
   delete:
-    deleted: "Deleted :%{name}:"
+    deleted: "Deleted \\:%{name}:"
 
   delete_all:
     confirm: |
@@ -27,7 +27,7 @@ en:
     rename: "Rename Alias"
     alias_name: "Alias Name:"
 
-    renamed: "Renamed :%{old}: to :%{new}:"
+    renamed: "Renamed \\:%{old}: to :%{new}:"
 
   export:
     exported_short: "Here's your exported aliases:"

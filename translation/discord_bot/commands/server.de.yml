@@ -1,6 +1,6 @@
 de:
   alias:
-    set_emote_title: "Gib den Namen :%{name}: als %{emote} für diesen Server an."
+    set_emote_title: "Gib den Namen \\:%{name}: als %{emote} für diesen Server an."
     set_emote_description:
       zero: |
         Dieser Server hat keine Emotes mehr übirg!
@@ -32,7 +32,7 @@ de:
 
 
     no_alias: "Dieser Server hat kein Alias unter dem Namen %{name}"
-    renamed: "%{emote} umbenannt von :%{name}: zu :%{new}:"
+    renamed: "%{emote} umbenannt von \\:%{name}: zu :%{new}:"
     no_aliases: "Dieser Server hat keine globalen Aliase"
 
   nitro_role:

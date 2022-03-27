@@ -28,7 +28,7 @@ de:
     permission_denied: "Du kannst nicht den Sticker einer anderen Person umbenennen!"
     destination_taken: "Der gewünschte Name ist bereits vergeben!"
 
-    renamed: ":%{old}: zu :%{new}: umbenannt"
+    renamed: "\\:%{old}: zu :%{new}: umbenannt"
 
   search:
     no_stickers: "Keine Sticker gefunden"
