@@ -1,13 +1,13 @@
 ---
 rest:
   join_server:
-    joined: '%{user} joined the server through the public emote pack!'
+    joined: '%{user} \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0435\u043D\u0438\u043B\u0441\u044F \u043A \u0441\u0435\u0440\u0432\u0435\u0440\u0443 \u0447\u0435\u0440\u0435\u0437 \u043F\u0443\u0431\u043B\u0438\u0447\u043D\u044B\u0439 \u043F\u0430\u043A \u044D\u043C\u043E\u0434\u0437\u0438!'
   vote:
-    guild_rank: '%{guild} is now #%{guild_rank}'
+    guild_rank: '%{guild} \u0441\u0435\u0439\u0447\u0430\u0441 #%{guild_rank}'
     vote_text: |
-      <@%{user}> just voted for the server on %{site}!
-      %{guild} can now use %{max_emotes} serverwide emotes
+      <@%{user}> проголосовал за сервер на %{site}!
+      Серверу %{guild} теперь доступно %{max_emotes} глобальных эмодзи
     vote_text_rank: |
-      <@%{user}> just voted for the server on %{site}!
-      %{guild} can now use %{max_emotes} serverwide emotes and is ranked #%{guild_rank} #%{guild_rank}
-    voted: Voted for NQN
+      <@%{user}> проголосовал за сервер на %{site}!
+      Серверу %{guild} теперь доступно %{max_emotes} глобальных эмодзи и он на #%{guild_rank} месте #%{guild_rank}
+    voted: \u041F\u0440\u043E\u0433\u043E\u043B\u043E\u0441\u043E\u0432\u0430\u043B \u0437\u0430 NQN
