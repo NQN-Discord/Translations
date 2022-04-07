@@ -1,13 +1,13 @@
 ---
 rest:
   join_server:
-    joined: '%{user} joined the server through the public emote pack!'
+    joined: '¡%{user} se a unido al servidor atrevés del pack de emojis publico!'
   vote:
-    guild_rank: '%{guild} is now #%{guild_rank}'
+    guild_rank: '%{guild} es ahora #%{guild_rank}'
     vote_text: |
-      <@%{user}> just voted for the server on %{site}!
-      %{guild} can now use %{max_emotes} serverwide emotes
+      ¡<@%{user}> acaba de votar por el servidor en %{site}!
+      %{guild} ahora puede utilizar %{max_emotes} emojis
     vote_text_rank: |
-      <@%{user}> just voted for the server on %{site}!
-      %{guild} can now use %{max_emotes} serverwide emotes and is ranked #%{guild_rank} #%{guild_rank}
-    voted: Voted for NQN
+      ¡<@%{user}> acaba de votar por el servidor en %{site}!
+      %{guild} ahora puede utiliza %{max_emotes} emojis y tiene el rango #%{guild_rank} #%{guild_rank}
+    voted: Votó por NQN
