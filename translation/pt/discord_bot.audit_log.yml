@@ -1,19 +1,19 @@
 ---
 discord_bot:
   audit_log:
-    cropped: (Cropped)
-    nsfw_censored: <Censored; %{channel} is NSFW>
+    cropped: (Recortado)
+    nsfw_censored: <Censurado; %{channel} é NSFW>
     message_posted: |
-      Message posted in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      Mensagem postada em %{channel} por %{author} %{cropped}
+      [Ir para a mensagem](%{jump_url})
     message_posted_persona: |
-      Message posted in %{channel} by %{author} %{cropped}
-      ⚠️ Using Persona ⚠️
+      Mensagem postada em %{channel} por %{author} %{cropped}
+      ⚠️ Usando personagem ⚠️
       > **%{persona}**
-      [Jump Link](%{jump_url})
+      [Ir para a mensagem](%{jump_url})
     message_edited: |
-      Message edited in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      Mensagem editada em %{channel} por %{author} %{cropped}
+      [Ir para a mensagem](%{jump_url})
     phish_deleted: |
-      Deleted phishing message in %{channel} by %{author}
-    audit_log_post: NQN on behalf of %{author} (%{id})
+      Foi excluída uma mensagem maliciosa que continha link para um phishing em %{channel} de %{author}
+    audit_log_post: NQN em nome de %{author} (%{id})
