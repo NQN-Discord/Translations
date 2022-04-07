@@ -1,8 +1,0 @@
-fr:
-  short_doc: "Ajoute une réaction à un message avec un emoji de NQN"
-  help: |
-    Ajoute une réaction au `n` dernier message
-    Message optionnel: L'ID ou le lien du message à réagir ou le `n` dernier message (jusqu'à 20)
-    La commande autorise une liste de réaction, ajoutées dans l'ordre spécifié.
-    Vous pouvez utiliser le lien vers un message pour ajouter une réaction à un message dans un autre canal.
-

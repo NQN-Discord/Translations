@@ -1,4 +1,0 @@
-es:
-  short_doc: 'establece el canal de auditoria'
-  help: |
-    Canal de auditoria - envia mensajes y registra los usos del bot

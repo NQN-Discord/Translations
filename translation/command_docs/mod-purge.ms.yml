@@ -1,5 +1,0 @@
-ms:
-  short_doc: 'Singkirkan sebanyak `messages` mesej yang dihantar semula bot ini di saluran ini, dengan pilihan untuk menapis kepada seorang pengguna sahaja'
-  help: |
-    Singkirkan sebanyak `messages` mesej yang dihantar semula bot ini di saluran ini, dengan pilihan untuk menapis kepada seorang pengguna sahaja
-

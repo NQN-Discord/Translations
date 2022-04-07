@@ -1,6 +1,0 @@
-pt:
-  short_doc: 'Exclua uma de suas mensagens repostadas por NQN'
-  help: |
-   Exclua uma de suas mensagens repostadas por NQN.
-    Por padrão, sua mensagem mais recente neste canal é excluída, mas você pode opcionalmente fornecer um URL de mensagem para excluí-la.
-    Você também pode usar a funcionalidade de resposta de mensagem do Discord para excluir essa mensagem.

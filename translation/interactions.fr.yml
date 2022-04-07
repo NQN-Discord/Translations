@@ -1,6 +1,0 @@
-fr:
-  not_author: |
-    Seul l'auteur du message peut interagir avec ce message
-  timed_out: |
-    L'interaction a expiré.
-    Merci de relancer la commande.

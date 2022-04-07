@@ -1,9 +1,0 @@
-pt:
-  short_doc: 'Gerenciar os emotes individuais que você pode usar'
-  help: |
-    Gerenciar os emotes individuais que você pode usar
-    A pesquisa de NQN permite alguns recursos avançados:
-     - `exact`: (padrão falso) mostra apenas emotes com o nome exato pesquisado
-     - `animated`: mostra apenas emotes animados ou estáticos
-     - `page`: pula para uma certa página
-     - `order`: um de 'uses', 'random'

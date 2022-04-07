@@ -1,9 +1,0 @@
-fr:
-  short_doc: 'Obtenez des lots pour les messages repostés sur ce salon'
-  help: |
-    Obtenez des lots pour les messages repostés sur ce salon
-    Optional[Channel] -> Filtrer les logs sur ce salon seulement
-    Optional[Member] -> Filter les logs sur cet utilisateur seulement
-
-    Si le salon et les membres doivent être non-filtré, utilisez 'audit guild'
-

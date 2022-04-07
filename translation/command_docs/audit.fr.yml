@@ -1,9 +1,0 @@
-fr:
-  short_doc: 'Obtenez des logs des messages repostés sur ce salon'
-  help: |
-    Obtenez des logs des messages repostés sur ce salon
-    Optionnel[salon]] -> Filtrer les logs de ce salon seulement
-    Optionnel[Membre] -> Filtrer les logs de ce membre seulemen
-
-    Si vous ne voulez plus qu'un channel du bot ou des membres,utilisez 'audit guild'
-

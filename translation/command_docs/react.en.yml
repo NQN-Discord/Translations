@@ -1,7 +1,0 @@
-en:
-  short_doc: 'React to a message with emojis from NQN'
-  help: |
-    Use Discord replies or a message link to react to that message.
-    The command allows a list of reactions, each of which will be added in the order specified.
-    **You need to react to the added reactions as well for them to stay.**
-

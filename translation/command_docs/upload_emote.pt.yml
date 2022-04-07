@@ -1,6 +1,0 @@
-pt:
-  short_doc: 'Pesquise todos os emotes que o bot já viu e envie-os para este servidor.'
-  help: |
-    Pesquise todos os emotes que o bot já viu e envie-os para este servidor.
-    Este comando permite que você carregue emotes, suportando emotes lado a lado e redimensionando.
-    Você também pode anexar um arquivo para fazer upload desse

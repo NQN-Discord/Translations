@@ -1,5 +1,0 @@
-fr:
-  short_doc: 'Définit la langue du bot %{locale_flag_emojis}'
-  help: |
-    Définit la langue du bot
-

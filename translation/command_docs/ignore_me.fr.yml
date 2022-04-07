@@ -1,7 +1,0 @@
-fr:
-  short_doc: 'Empêche NQN de reposter vos messages'
-  help: |
-    Une fois cette commande exécutée, NQN arrêtera de reposter vos messages dans tous les serveurs que vous avez en commun avec le bot.
-    - Les commandes sont toujours activées, exécuter de nouveau la commande retournera à la situation normale
-    - Vous pouvez toujours reposter des messages à l'aide de notre [dashboard](https://nqn.blue)
-    - Le bot ne répondera plus à aucun de des messages qui aurait dû être reposté à l'aide d'un webhook

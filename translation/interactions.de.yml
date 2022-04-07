@@ -1,6 +1,0 @@
-de:
-  not_author: |
-    Nur der Autor der Nachricht darf mit dieser Nachricht interagieren
-  timed_out: |
-    Interaktion ausgelaufen.
-    Bitte führe den Befehl erneut aus.

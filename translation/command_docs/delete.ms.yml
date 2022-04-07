@@ -1,6 +1,0 @@
-ms:
-  short_doc: 'Hapuskan salah satu mesej anda yang dihantar semula NQN'
-  help: |
-    Hapuskan salah satu mesej anda yang dihantar semula NQN.
-    Secara lalai, mesej terbaharu anda di saluran ini akan dihapuskan, namun anda jumpa boleh menyediakan URL mesej untuk menghapuskan mesej itu sebaliknya.
-    Anda boleh juga menggunakan ciri pembalasan mesej Discord untuk menghapuskan mesej itu.

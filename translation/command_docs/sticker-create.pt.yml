@@ -1,9 +1,0 @@
-pt:
-  short_doc: 'Crie uma figurinha de um arquivo'
-  help: |
-    Crie uma figurinha de um arquivo
-    Faça o upload de uma imagem e use este comando para transformá-la em um adesivo.
-    O nome do adesivo é determinado pelo nome do arquivo ou o que você digita. `Criar figurinha BluePat.png` por exemplo.
-    Nomes de figurinhas são exclusivos em NQN, uma vez que um nome é escolhido, ele desaparece.
-    As figurinhas podem ter no máximo 8 MB e os nomes podem ser alfanuméricos.
-    As figurinhas precisam de uma extensão de arquivo, que também é alfanumérica.

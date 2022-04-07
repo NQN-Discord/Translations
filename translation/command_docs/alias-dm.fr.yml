@@ -1,4 +1,0 @@
-fr:
-  short_doc: "Reçois la liste entière de tes pseudos par message privé" 
-  help: |
-    Fait que le bot t'envoie une liste de tes pseudos par message privé.

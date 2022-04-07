@@ -1,4 +1,0 @@
-pt:
-  short_doc: "Deixe o NQN dizer quais permissões estão faltando"
-  help: |
-    Depure as permissões em seu servidor

@@ -1,7 +1,0 @@
-fr:
-  short_doc: 'Supprime un de tes messages partagé par NQN'
-  help: |
-    Supprime un de tes messages renvoyé par NQN.
-    Par défaut, ton message le plus récent dans ce canal sera supprimé, mais tu peux aussi indiquer l'URL d'un message à supprimer à la place.
-    Tu peux aussi utiliser la fonctionnalité réponse de Discord pour supprimer ce message.
-  
