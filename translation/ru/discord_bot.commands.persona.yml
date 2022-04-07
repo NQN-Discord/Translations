@@ -7,19 +7,18 @@ discord_bot:
         They allow users to use ⚠️**custom usernames** and **avatars**⚠️ with NQN, so are not enabled by default.
       enable_personas: Enable personas
       name_regex: |
-        Persona names can only contain alphanumerics, dashes and underscores, and be at most 80 characters long.
-        > '%{persona_name}' does not match these requirements.
+        Названия персоны могут содержать только буквы, цифры, тире и нижние подчёркивания, и не должны быть длинее 80 символов.
       max_display_name: |
-        Usernames can be at most 80 characters long
+        Ники не могут быть длинее 80 символов
       persona_doesnt_exist: |
-        You don't have a persona called %{short_name}!
-        Create one with `%{prefix}persona register %{short_name}`
+        У вас нету персоны с названием %{short_name}!
+        Создайте её с помощью `%{prefix}persona register %{short_name}`
       export:
         exported_list_short: |
-          Here's your exported personas, they should be compatible with Tupperbox and Pluralkit.
+          Вот ваши экспортированные персоны, они должны быть совместимы с Tupperbox и Pluralkit.
         exported_list_long: |
-          Here's your exported personas, they should be compatible with Tupperbox and Pluralkit.
-          To share them with other people, they need to run:
+          Вот ваши экспортированные персоны, они должны быть совместимы с Tupperbox и Pluralkit.
+          Чтобы поделится ими с другими людьми, они должны выполнить:
           > `%{prefix}persona import %{url}`
       import_:
         import_incorrect: |
@@ -32,44 +31,44 @@ discord_bot:
         invalid_persona: Do you wish to continue importing the rest of the file, ignoring this entry?
       list:
         no_personas: |
-          You don't have any personas!
+          У вас нету персон!
       register:
         display_name: Nickname
         avatar_url: Avatar URL
         create: Create Persona
         persona_exists: |
-          You already have a persona called %{short_name}.
-          You can rename it with `%{prefix}persona rename %{short_name} new_name`
+          У вас уже есть персона с названием %{short_name}.
+          Вы можете переименовать её с помощью `%{prefix}persona rename %{short_name} new_name`
         registered_persona: |
-          Registered %{short_name} as your persona!
-          To send messages as them, send a message starting with `%{short_name}:`, for example:
-          > ```%{short_name}: Hello!```
-          To change their username in messages to 'NQN', run:
+          Я создал персону %{short_name}!
+          Чтобы отправлять сообщения от них, напишите сообщение начинающесия с `%{short_name}:`, к примеру:
+          > ```%{short_name}: Привет!```
+          Чтобы сменить имя, выполните:
           > ```%{prefix}persona display_name %{short_name} NQN```
-          To change their avatar in messages, run:
+          Чтобы сменить аватарку, выполните:
           > ```%{prefix}persona avatar_url %{short_name} https://...```
       rename:
         renamed_persona: |
-          Renamed %{old_name} to %{new_name}.
+          Персона %{old_name} была переименована в %{new_name}.
       avatar_url:
         persona_avatar_url: |
-          Set %{short_name}'s avatar.
+          Изменена аватарка для %{short_name}
         avatar_regex: |
-          Avatars must be given as URLs to the image you want to use.
+          Аватарки должны быть указаны как ссылки на картинку которую вы хотите использовать.
       delete:
         persona_deleted: |
-          Deleted information about %{short_name}.
+          Персона %{short_name} была удалена.
       display_name:
         renamed_persona_display_name: |
-          Set %{short_name}'s username to %{display_name}.
+          Изменён ник в %{short_name} на %{display_name}.
       dm:
         send_dms:
           zero: |
-            You have no personas!
-            Get some with `%{prefix}persona register`
+            У вас нету никаких персон
+            Вы можете получить их с помощью `%{prefix}persona register`
           one: |
-            This will send you a direct message; do you wish to continue?
+            Это отправит вам сообщение в ЛС; продолжить?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            Это отправит вам %{count} сообщений в ЛС; продолжить?
         blocked: |
-          You've blocked me, I can't message you!
+          Я не могу написать вам, так как вы отключили личные сообщения или заблокировали меня!
