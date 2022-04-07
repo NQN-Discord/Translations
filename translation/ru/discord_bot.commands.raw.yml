@@ -8,31 +8,30 @@ discord_bot:
         my_emotes: My Emotes
       depreciated_commands:
         renamed: |
-          This command has been renamed to `%{prefix}%{new}`.
-          If you don't want to see this message again, react with ❌
-        ignored: Ignored `%{name}` for you.
+          Эта команда была переименована в `%{prefix}%{new}`.
+          Если вы не хотите снова видеть это сообщение, отреагируйте с помощью ❌
+        ignored: '`%{name}` \u0438\u0433\u043D\u043E\u0440\u0438\u0440\u0443\u0435\u0442\u0441\u044F \u0434\u043B\u044F \u0432\u0430\u0441.'
       edit:
-        never_posted: You've never posted a message with NQN in this channel!
+        never_posted: \u0412\u044B \u043D\u0438\u043A\u043E\u0433\u0434\u0430 \u043D\u0435 \u043F\u0443\u0431\u043B\u0438\u043A\u043E\u0432\u0430\u043B\u0438 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F \u0441 NQN \u043D\u0430 \u044D\u0442\u043E\u043C \u043A\u0430\u043D\u0430\u043B\u0435!
         message_deleted: |
-          Your most recent message with NQN in this channel has been deleted!
-          Please choose a message either by replying to it with Discord, or by pasting it's jump URL
-        cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
-        cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
+          Ваше самое последнее сообщение с NQN в этом канале было удалено!
+          Выберите сообщение, ответив на него (через функцию Discord), или вставив его URL-ссылку.
+        cannot_edit_no_nqn: \u0412\u044B \u043D\u0435 \u043C\u043E\u0436\u0435\u0442\u0435 \u0440\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u044D\u0442\u043E \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435, \u0442\u0430\u043A \u043A\u0430\u043A \u044D\u0442\u043E \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u043D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E NQN!
+        cannot_edit_different_user: \u0412\u044B \u043D\u0435 \u043C\u043E\u0436\u0435\u0442\u0435 \u0440\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u044D\u0442\u043E \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435, \u0442\u0430\u043A \u043A\u0430\u043A \u043E\u043D\u043E \u0431\u044B\u043B\u043E \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u043D\u0435 \u0432\u0430\u043C\u0438!
         edit_message: Edit Message
         new_content: 'New Content:'
       delete:
         deleted: Message successfully deleted
       export:
-        exported_list_short: "Here's your exported emotes:"
+        exported_list_short: "\u0412\u043E\u0442 \u0432\u0430\u0448\u0438 \u044D\u043A\u0441\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0435 \u044D\u043C\u043E\u0434\u0437\u0438:"
         exported_list_long: |
-          Here's your exported emotes
-          To share them with other people, they need to run:
-          > `%{prefix}alias import %{url}`
+          Вот ваши экспортированные эмодзи
+          Чтобы поделиться ими с другими, им нужно написать:\n> `%{prefix}alias import %{url}`
       ignore_me:
-        user_ignored: NQN will no longer repost your messages. Run this command again to re-enable
-        user_unignored: NQN will repost your messages as normal
+        user_ignored: NQN \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435 \u0431\u0443\u0434\u0435\u0442 \u0440\u0435\u043F\u043E\u0441\u0442\u0438\u0442\u044C \u0432\u0430\u0448\u0438 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F. \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u043A\u043E\u043C\u0430\u043D\u0434\u0443 \u0441\u043D\u043E\u0432\u0430, \u0447\u0442\u043E\u0431\u044B \u044D\u0442\u043E \u0432\u0435\u0440\u043D\u0443\u0442\u044C
+        user_unignored: \u0412\u044B \u0432\u043E\u0437\u043E\u0431\u043D\u0438\u043B\u0438 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C \u0440\u0435\u043F\u043E\u0441\u0442\u0438\u0442\u044C \u0432\u0430\u0448\u0438 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F
       invite:
-        add_nqn: Add NQN to your server!
+        add_nqn: \u0414\u043E\u0431\u0430\u0432\u044C\u0442\u0435 NQN \u043D\u0430 \u0432\u0430\u0448 \u0441\u0435\u0440\u0432\u0435\u0440!
       my_emotes:
         current_guild: Current Server
         mutual_guilds: Mutual Servers
@@ -44,110 +43,94 @@ discord_bot:
 
           If you want, you can [invite NQN to another server](%{bot_invite}) to gain access to it's emojis here.
       ranking:
-        vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
-        top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
-        thanks: Thanks for voting for the bot!
+        vote_link: \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u043F\u0440\u043E\u0433\u043E\u043B\u043E\u0441\u043E\u0432\u0430\u0442\u044C \u0437\u0430 \u0431\u043E\u0442\u0430 \u043D\u0430 %{url}, \u0447\u0442\u043E\u0431\u044B \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0431\u043E\u043B\u044C\u0448\u0435 \u044D\u043C\u043E\u0434\u0437\u0438 \u043D\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0435 \u0438 \u043F\u043E\u0432\u044B\u0441\u0438\u0442\u044C \u0440\u0435\u0439\u0442\u0438\u043D\u0433 \u0441\u0435\u0440\u0432\u0435\u0440\u0430.
+        top_server: \u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E \u0441 \u0442\u0435\u043C, \u0447\u0442\u043E \u0432\u044B \u0441\u0430\u043C\u044B\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044E\u0449\u0438\u0439 \u0441\u0435\u0440\u0432\u0435\u0440 <a:BluePat:679807864327766048>
+        thanks: \u0421\u043F\u0430\u0441\u0438\u0431\u043E, \u0447\u0442\u043E \u043F\u0440\u043E\u0433\u043E\u043B\u043E\u0441\u043E\u0432\u0430\u043B\u0438 \u0437\u0430 \u0431\u043E\u0442\u0430!
         ranking: |
-          %{guild} is ranked #%{rank} out of all the servers using NQN.
-
+          %{guild} занимает #%{rank} место среди всех серверов, использующих NQN.
           %{rank_leaderboard}
-          You have voted %{total_votes} times for NQN. %{thanks}
-
+          Вы проголосовали %{total_votes} раз за NQN. %{thanks}
           %{user_ranking}
-
           %{extra_message}
       search_all:
         disclaimer: |
-          This command does not allow you to use these emotes!
-          It's provided to allow an easy search through the ones available to be added with
-          > `%{prefix}alias search %{terms} page: %{page_no}`
+          Эта команда не позволяет использовать эти эмодзи!
+          Это позволяет легко найти те, которые можно добавить с помощью\n> `%{prefix}alias search %{terms} страница: %{page_no}`
       tutorial:
-        choose_page: Browse Tutorial
-        invalid_page: There are only %{count} pages in the tutorial!
-        permissions_missing: I need to be able to write embeds and add reactions to show my tutorial. It can be reran with `%{prefix}tutorial`.
-        wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
-        default_emojis: Default Emojis
-        default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
-        page_0_title: Tutorial for Not Quite Nitro, TLDR
+        choose_page: \u041E\u0431\u0437\u043E\u0440 \u0442\u0443\u0442\u043E\u0440\u0438\u0430\u043B\u0430
+        invalid_page: \u0422\u0443\u0442\u043E\u0440\u0438\u0430\u043B \u0438\u043C\u0435\u0435\u0442 \u0432\u0441\u0435\u0433\u043E %{count} \u0441\u0442\u0440\u0430\u043D\u0438\u0446!
+        permissions_missing: \u041C\u043D\u0435 \u043D\u0443\u0436\u043D\u044B \u043F\u0440\u0430\u0432\u0430 "\u0412\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0442\u044C \u0441\u0441\u044B\u043B\u043A\u0438" \u0438 "\u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0442\u044C \u0440\u0435\u0430\u043A\u0446\u0438\u0438", \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u0442\u0443\u0442\u043E\u0440\u0438\u0430\u043B. \u0415\u0433\u043E \u043C\u043E\u0436\u043D\u043E \u043F\u043E\u0432\u0442\u043E\u0440\u043D\u043E \u0437\u0430\u043F\u0443\u0441\u0442\u0438\u0442\u044C \u043D\u0430\u043F\u0438\u0441\u0430\u0432 `%{prefix}tutorial`.
+        wrong_place: \u0415\u0441\u043B\u0438 \u044F \u0432\u044B\u0431\u0440\u0430\u043B \u043D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E\u0435 \u043C\u0435\u0441\u0442\u043E \u0434\u043B\u044F \u043F\u043E\u043A\u0430\u0437\u0430 \u044D\u0442\u043E\u0433\u043E \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F, \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C %{prefix}tutorial \u0432 \u0431\u043E\u043B\u0435\u0435 \u0443\u0434\u043E\u0431\u043D\u043E\u043C \u043A\u0430\u043D\u0430\u043B\u0435 \u0434\u043B\u044F \u0437\u0430\u043F\u0443\u0441\u043A\u0430 \u044D\u0442\u043E\u0433\u043E \u0442\u0443\u0442\u043E\u0440\u0438\u0430\u043B\u0430 \u0442\u0430\u043C. \u042D\u0442\u043E\u0442 \u0442\u0443\ \u0442\u043E\u0440\u0438\u0430\u043B \u0441\u043E\u0441\u0442\u043E\u0438\u0442 \u0438\u0437 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u0445 \u0441\u0442\u0440\u0430\u043D\u0438\u0446; \u0437\u0430\u043F\u0443\u0441\u0442\u0438\u0442\u0435 %{prefix}tutorial, \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u0435\u0433\u043E \u043F\u043E\u0441\u043B\u0435 \u0442\u043E\u0433\u043E, \u043A\u0430\u043A \u043E\u043D \u0438\u0441\u0447\u0435\u0437\u043D\u0438\u0442.
+        default_emojis: \u042D\u043C\u043E\u0434\u0437\u0438 \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E
+        default_emoji_list: "\u0412\u043E\u0442 \u0441\u043F\u0438\u0441\u043E\u043A \u0432\u0441\u0435\u0445 \u0430\u043D\u0438\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u044D\u043C\u043E\u0434\u0437\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043A\u0430\u0436\u0434\u044B\u0439 \u043D\u0430 \u044D\u0442\u043E\u043C \u0441\u0435\u0440\u0432\u0435\u0440\u0435 \u043C\u043E\u0436\u0435\u0442 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E - \u043F\u0440\u043E\u0441\u0442\u043E \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0438\u0445 \u0432\u0440\u0443\u0447\u043D\u0443\u044E, \u0432\u043A\u043B\u044E\u0447\u0430\u044F :\u0434\u0432\u043E\u0435\u0442\u043E\u0447\u0438\u044F: \u0432\\ \u043E\u043A\u0440\u0443\u0433 \u0438\u043C\u0435\u043D\u0438 \u044D\u043C\u043E\u0434\u0437\u0438!"
+        page_0_title: \u0422\u0443\u0442\u043E\u0440\u0438\u0430\u043B \u043F\u043E Not Quite Nitro, TLDR
         page_0_desc: |
-          %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
+          %{locale_flag_emojis} **Варианты языка** %{locale_flag_emojis}
           > `%{prefix}server language`
-        page_0_0_name: More Emotes?
+        page_0_0_name: \u0425\u043E\u0442\u0438\u0442\u0435 \u0431\u043E\u043B\u044C\u0448\u0435 \u044D\u043C\u043E\u0434\u0437\u0438?
         page_0_0_desc: |
-          Everyone is able to use any emote that shares a server with both you and this bot.
-          **There are several other ways to use emotes in servers you are not in:**
-        page_0_1_name: "3\u20E3 Emote packs - Emote Bundles"
+          Каждый может использовать любой эмодзи, который находится на сервере и с вами, и с этим ботом.
+          **Есть несколько других способов использовать их на серверах, на которых вы не находитесь:**
+        page_0_1_name: "3\u20E3 \u041F\u0430\u043A\u0438 \u0441 \u044D\u043C\u043E\u0434\u0437\u0438 - \u0421\u0432\u044F\u0437\u043A\u0430 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u0445 \u044D\u043C\u043E\u0434\u0437\u0438"
         page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Aliases - Individual Emotes"
-        page_0_2_desc: '> `%{prefix}alias search EmoteName`'
-        page_1_title: Reactions
-        page_1_desc: You can only react with emotes you can use with NQN.
-        page_1_0_name: 'Reacting to the most recent message:'
-        page_1_0_desc: '> `%{prefix}react EmoteName`'
+        page_0_2_name: "4\u20E3 Alias'\u044B - \u0418\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u044D\u043C\u043E\u0434\u0437\u0438"
+        page_0_2_desc: '> `%{prefix}alias search \u0418\u043C\u044F\u042D\u043C\u043E\u0434\u0437\u0438`'
+        page_1_title: \u0420\u0435\u0430\u043A\u0446\u0438\u0438
+        page_1_desc: \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0440\u0435\u0430\u0433\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E \u044D\u043C\u043E\u0446\u0438\u044F\u043C\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043C\u043E\u0436\u043D\u043E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0441 NQN.
+        page_1_0_name: '\u0420\u0435\u0430\u0433\u0438\u0440\u0443\u0435\u0442 \u043D\u0430 \u0441\u0430\u043C\u043E\u0435 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0435 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435.'
+        page_1_0_desc: '> `%{prefix}react \u0418\u043C\u044F\u042D\u043C\u043E\u0434\u0437\u0438`'
         page_1_1_name: 'Reacting to a message in the same channel:'
         page_1_1_desc: '> `%{prefix}react EmoteName` (Whilst replying to the target message)'
-        page_1_2_name: 'Reacting to recent messages:'
-        page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nThis only works up to 20 messages ago."
-        page_1_3_name: 'Reacting to messages:'
-        page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
-        page_1_4_name: Deleting messages
-        page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
-        page_2_title: Packs
+        page_1_2_name: '\u0420\u0435\u0430\u0433\u0438\u0440\u0443\u0435\u0442 \u043D\u0430 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0435 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435:'
+        page_1_2_desc: "> `%{prefix}react \u0421\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439\u041D\u0430\u0437\u0430\u0434 \u0418\u043C\u044F\u042D\u043C\u043E\u0434\u0437\u0438`\n\u042D\u0442\u043E \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u0434\u043E 20 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439 \u043D\u0430\u0437\u0430\u0434."
+        page_1_3_name: '\u0420\u0435\u0430\u0433\u0438\u0440\u0443\u0435\u0442 \u043D\u0430 \u0441\u0442\u0430\u0440\u043E\u0435 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435:'
+        page_1_3_desc: '> `%{prefix}react \u0410\u0439\u0434\u0438\u0421\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F \u0418\u043C\u044F\u042D\u043C\u043E\u0434\u0437\u0438`'
+        page_1_4_name: \u0423\u0434\u0430\u043B\u0438\u0442\u044C \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435
+        page_1_4_desc: "\u0420\u0435\u0430\u0433\u0438\u0440\u0443\u0439\u0442\u0435 \u043D\u0430 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435, \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E\u0433\u043E \u043E\u0442 \u0432\u0430\u0448\u0435\u0433\u043E \u0438\u043C\u0435\u043D\u0438, \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E  \u274C (\\:x:), \u0447\u0442\u043E\u0431\u044B \u0443\u0434\u0430\u043B\u0438\u0442\u044C \u0435\u0433\u043E."
+        page_2_title: \u041F\u0430\u043A\u0438 \u0441 \u044D\u043C\u043E\u0434\u0437\u0438
         page_2_desc: |
-          A pack is a bundle of emojis. After joining a pack, you gain access to the emojis it has.
-        page_2_0_name: Joining emote packs
+          Паки с эмодзи - это наборы эмодзи, которые поступают со всех серверов, которые решили опубликовать их.
+          Присоединение к паку позволяет использовать любой эмодзи из пака, сделав это с помощью :ИмяПака-ИмяЭмодзи:
+        page_2_0_name: \u041F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u0435 \u043F\u0430\u043A\u043E\u0432 \u0441 \u044D\u043C\u043E\u0434\u0437\u0438
         page_2_0_desc: |
-          To search for emote packs, use `%{prefix}pack search`, optionally with a search query, such as `%{prefix}pack search dragon`.
-        page_2_1_name: Finding the emote packs you're in
+          Чтобы найти пак, используйте `%{prefix}pack search` и нажмите на <:join:702970568101724331>, чтобы получить доступ к эмодзи внутри него.
+        page_2_1_name: \u041A\u0430\u043A \u043D\u0430\u0439\u0442\u0438 \u043F\u0430\u043A\u0438 \u0441 \u044D\u043C\u043E\u0434\u0437\u0438, \u0432 \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u0432\u044B \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0435\u0441\u044C
         page_2_1_desc: |
           > `%{prefix}pack mine`
-          This command shows you a list of emote packs you're currently a member of, including the names of the emotes in each pack.
-        page_2_2_name: Publishing your own packs
+          Эта команда показывает список паков, участником которых вы в данный момент являетесь, включая названия эмодзи в каждом паке.
+        page_2_2_name: \u041F\u0443\u0431\u043B\u0438\u043A\u0430\u0446\u0438\u044F \u0441\u043E\u0431\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0445 \u043F\u0430\u043A\u043E\u0432
         page_2_2_desc: |
-          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emote packs:
-          > `%{prefix}pack publish MySuperCoolEmotePackName`
-          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
-        page_3_title: Aliases
+          Если у бота есть право **Управление сервером**, вы можете опубликовать свой собственный пак, содержащего ВСЕ эмодзи с вашего сервера:
+          > `%{prefix}pack publish МоёСуперКрутоеНазваниеДляПака`
+          Вы также можете сделать свой пак общедоступным с помощью `%{prefix}pack set_public yes`, чтобы люди с других серверов могли присоединяться к вашему с помощью бота без приглашения.
+        page_3_title: \u0410\u043B\u0438\u0430\u0441\u044B
         page_3_desc: |
-          Aliases are just individual emotes which you give a name, and are then usable via that name.
-
-          If you know the exact name of the emote you want to add:
-          > `%{prefix}alias search :EmoteName:`
-
-          If you want to look through every emote NQN can let you use:
-          > `%{prefix}alias search whatever` (No colons if you don't know the exact name)
-        page_4_title: Replies
+          Алиасы - это просто индвидуальные эмодзи, которым вы можете лично дать название и с помощью него использовать эмодзи.
+          Если вы знаете точное название эмодзи, которого хотите добавить:
+          > `%{prefix}alias search :ИмяЭмодзи:`
+          Если вы хотите просмотреть все эмодзи, NQN может позволить вам использовать:
+          > `%{prefix}alias search ИмяЭмодзи` (Без двоеточий, если вы не знаете точное имя)
+        page_4_title: \u0426\u0438\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F
         page_4_desc: |
-          NQN allows you to reply to messages sent long ago.
-
-          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're replying to as well.
-
-          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
-
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server replies off`.
-        page_5_title: Masked URLs
+          NQN позволяет отвечать на давно отправленные сообщения.
+          Просто скопируйте ссылку на сообщение через Discord (кнопка «Поделиться» на мобильном устройстве, а затем в буфер обмена), а затем вставьте ее в свое сообщение, и я опубликую сообщение, на которое вы отвечаете.
+          Если вы не хотите, чтобы бот цитировал ссылку на сообщение, вы можете написать её в \<\>, и он её не опубликует.
+          Если администратор сервера хочет отключить эту функцию на всём сервере, он может написать `%{prefix}server replies off`.
+        page_5_title: \u0421\u043A\u0440\u044B\u0442\u044B\u0435 \u0441\u0441\u044B\u043B\u043A\u0438
         page_5_desc: |
-          NQN allows users to send [Masked URLs](%{url}) as part of their regular messages.
-
-          This uses standard markup, `[text to show](https://url.here)`.
-          To send messages with buttons, use `[button title](button://url.here)`
-        page_6_title: Stickers
+          NQN позволяет отправлять [Скрытые ссылки](%{url}), как часть обычного сообщения.
+          Используется стандартная разметка, `[текст для показа](https://url.here)`.
+        page_6_title: \u0421\u0442\u0438\u043A\u0435\u0440\u044B
         page_6_desc: |
-          If you've ever wanted to send large images/stickers/emotes, you've come to the right place.
-
-          Inspired by Telegram, NQN brings stickers to Discord.
-          You can use them as you would an emote, except stickers have a file extension at the end.
-
-          Each message can contain up to 10 stickers.
-
-          You can create stickers with `%{prefix}sticker create` and upload an image file or by importing from Telegram.
-          This is done with `%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here`.
-
-          To search through stickers you can use with NQN, use `%{prefix}sticker search` with a optional search terms.
-
-          To view your stickers, use `%{prefix}stickers mine`.
-
-          Note - to use Telegram stickers, you must first import them to the bot. The bot does not do this automatically.
+          Если вы когда-нибудь хотели отправлять большие изображения/стикеры/эмодзи, вы попали в нужное место.
+          Вдохновлённым Telegram'ом, NQN переносит стикеры в Discord.
+          Вы можете использовать их как эмодзи, однако, стикеры имеют расширение файла в конце(.png и т.п).
+          Каждое сообщение может содержать до 10 стикеров.
+          Вы можете создавать стикеры с помощью `%{prefix}sticker create` и загрузите изображение или импортировав из Telegram.
+          Это делается с помощью `%{prefix}sticker telegram https://t.me/addstickers/пак-со-стикерами-здесь`.
+          Для поиска стикеров, которые можно использовать с NQN, напишите `%{prefix}sticker search` с дополнительными условиями поиска.
+          Чтобы просмотреть свои стикеры, используйте `%{prefix}stickers mine`.
+          Примечание - чтобы использовать стикеры Telegram, необходимо сначала импортировать их в бота. Бот не делает этого автоматически.
         page_7_title: Personas
         page_7_desc: |
           Personas allow anyone in your server to assume a given username and avatar distinct from their own.
@@ -155,199 +138,194 @@ discord_bot:
 
           To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
           > name: Rest of message
-        page_8_title: Server Administration
+        page_8_title: \u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0435\u0440\u0432\u0435\u0440\u0430
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          NQN обладает широкими возможностями настройки с точки зрения наборов функций на случай, если некоторые из них не подходят для вашего сервера.
+          Если у бота есть право **Управление сервером**, вы можете изменять настройки сервера с помощью бота.
 
-          Here are the features you can toggle:
+          Вот функции, которые вы можете переключать:
 
-           • Nitro - `%{prefix}server nitro`
-           • Stickers - `%{prefix}server stickers`
-           • Replies - `%{prefix}server replies`
-           • Personas - `%{prefix}server personas`
-           • Masked Links - `%{prefix}server masked_links`
-        page_8_0_name: Troubleshooting Issues
+           • Нитро - `%{prefix}server nitro`
+           • Стикеры - `%{prefix}server stickers`
+           • Цитирование - `%{prefix}server replies`
+           • Скрытые ссылки - `%{prefix}server masked_links`
+        page_8_0_name: \u0423\u0441\u0442\u0440\u0430\u043D\u0435\u043D\u0438\u0435 \u043D\u0435\u043F\u043E\u043B\u0430\u0434\u043E\u043A
         page_8_0_desc: |
-          In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:
-          **Manage Webhooks**, **Use External Emojis**, **Add Reactions**, **Read Messages** and **Manage Messages**.
-        page_8_1_name: "Not Quite Nitro's prefix:"
+          Для корректной работы NQN необходимы следующие разрешения в __каждом__ канале, в котором вы хотите использовать Nitro.:
+          **Управление вебхуками**, **Использовать внешние эмоции**, **Добавлять реакции**, **Читать текстовые каналы и видеть голсовые каналы** и **Управлять сообщениями**.
+        page_8_1_name: "\u041F\u0440\u0435\u0444\u0438\u043A\u0441 \u0434\u043B\u044F NQN:"
         page_8_1_desc: |
-          Anyone with **Manage Server** permissions can change the prefix NQN uses.
+          Если у бота есть право **Управление сервером**, вы можете изменить префикс для NQN.
 
-          The bot's current prefix for commands is `%{prefix}`, though it can be changed with
+          Текущий префикс бота это `%{prefix}`, хотя его можно изменить с помощью
           > %{prefix}server prefix %{ping} ?
-          This would change it to `?`, though any prefix works.
+          Префикс изменится на `?`, любой префикс, указуемый вами, будет работать.
 
-          NQN will *always* listen to it's ping however regardless of other settings.
-        page_8_2_name: Auditing Messages
+          NQN будет *всегда* слушать свой пинг, впрочем, независимо от каких-либо настроек.
+        page_8_2_name: \u0421\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F \u0430\u0443\u0434\u0438\u0442\u0430
         page_8_2_desc: |
-          NQN keeps a log of messages it reposts, as the original message gets removed.
-          This is in case that someone changes their name and avatar before posting an offensive message, or otherwise misbehaves using the bot.
+          NQN ведет аудит сообщений, которые он репостит, поскольку исходное сообщение удаляется.
+          Это надо на тот случай, если кто-то изменит своё имя и аватар перед отправкой оскорбительного сообщения или иным образом плохо себя ведет при использовании бота.
 
-          To get the audited messages for the server, use `%{prefix}audit guild` or [visit our website](%{url}), select your server and then click on the cog at the top.
+          Чтобы получить аудит для сервера, используйте `%{prefix}audit guild` или [посетите наш сайт](%{url}), выберите свой сервер, а затем нажмите на шестеренку вверху.
 
-          Only users with **Manage Server** and **View Audit Log** can view the logged messages.
-
-          An alternate approach which stays inside Discord is the Audit Channel, which can be set with `%{prefix}server set_audit_channel #channel`.
-          Any resent messages will be posted there with their current username, discriminator and user id.
-        page_8_3_name: 'Permissions:'
+          Только люди с правами **Управление сервером** и **Просмотр журнала аудита** могут просматривать журнал.
+          Альтернативный подход, который остается внутри Discord, - это канал аудита, который можно настроить с помощью `%{prefix}server set_audit_channel #канал`.
+          Все повторно отправленные сообщения будут размещены там с их текущим именем пользователя, тэгом и айди человека.
+        page_8_3_name: '\u041F\u0440\u0430\u0432\u0430:'
         page_8_3_desc: |
-          NQN requires the 'Manage Webhooks' server permission to correctly function; reposting messages will not work without this.
+          NQN требует следующие права от сервера 'Управление вебхуками' для правильной работы; цитирование сообщения не будет работать без этого.
 
-           • To disable commands from working in a specific channel, deny NQN 'Send Message' permissions there via user permissions.
-           • To disable reposting messages in a specific channel, deny NQN 'Manage Webhook' permissions there via user permissions.
-           • To disable all interactions in a specific channel, deny NQN 'Read Message' permissions there via user permissions.
-        page_8_4_name: 'Information Gathering:'
+           • Чтобы запретить командам работать в определенном канале, запретите NQN 'Отправить сообщение' там через права пользователя.
+           • Чтобы отключить репост сообщений в определенном канале, запретите NQN «Управление вебхуками» там через права пользователя.
+           • Чтобы отключить все взаимодействия в определенном канале, запретите NQN 'Читать текстовые каналы и голосовые каналы' там через права пользователя.
+        page_8_4_name: '\u0421\u0431\u043E\u0440 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438:'
         page_8_4_desc: |
-          NQN stores reposted messages such that users can delete them and for the audit log.
-          Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
+          NQN хранит опубликованные сообщения, чтобы пользователи могли их удалить, а также для журнала аудита.
+          Каждый эмодзи на вашем сервере виден всем, кто использует бота, и доступна для поиска, но не может быть связана с вашим сервером.
 
-          Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
-        page_9_title: Advanced Usage
+          Определённая статистика о том, как используется бот, собирается для информирования о вариантах дальнейшего улучшения бота, но никогда не будет включать общие сообщения, отправленные вашими пользователями.
+        page_9_title: \u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u043D\u043E\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435
         page_9_desc: |
-          If someone uses an emote, NQN allows you to use it as well, but only if it's been recently used in the server.
-          **NOTE:** If you've only just invited NQN, it won't know about any recently used emotes before it joined.
+          Если кто-то использует эмодзи, NQN позволяет вам использовать её, но только в том случае, если она недавно использовалась на сервере.
+          **ПРИМЕЧАНИЕ:** Если вы только что пригласили NQN, он не будет знать ни о каких недавно использованных эмоциях до того, как присоединится.
 
-          In the case that you have several emotes with the same name, the following order is used:
+          В случае, если у вас есть несколько эмодзи с одинаковым именем, используется следующий порядок:
 
-          1. Aliases
-          2. The current server
-          3. Emote Packs
-          4. Other servers you share with NQN
-          5. Server wide aliases
-          6. Server wide packs
-          7. Recently used emojis in the current server
-          8. Recently shown packs in the current server
+          1. Алиасы (индивидуальные эмодзи)
+          2. Этот сервер
+          3. Пак с эмодзи
+          4. Другие сервера, где находится NQN
+          5. Алиасы сервера
+          6. Присоединённые паки сервера
+          7. Недавно использованные эмодзи на этом сервере
+          8. Недавно показанные паки с эмодзи на этом сервере
 
-          If you find yourself with clashing emotes, create the one you want to use as an alias, and that will override it.
+          Если вы обнаружите, что у вас есть конфликтующие эмодзи, создайте тот, который вы хотите использовать в качестве alias'а, и бот переопределит его.
       react:
-        id_large: Message ID is too large
-        not_found: Message in this channel with that ID does not exist
-        nth_id: Message must be either an ID or the `n`th most recent message (up to 50th)
-        channel_empty: This channel is empty
+        id_large: \u0410\u0439\u0434\u0438 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u0431\u043E\u043B\u044C\u0448\u043E\u0439
+        not_found: \u0421\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u0432 \u044D\u0442\u043E\u043C \u043A\u0430\u043D\u0430\u043B\u0435 \u0441 \u0442\u0430\u043A\u0438\u043C \u0430\u0439\u0434\u0438 \u043D\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442
+        nth_id: \u0423\u043A\u0430\u0436\u0438\u0442\u0435 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u0432 \u0432\u0438\u0434\u0435 \u0430\u0439\u0434\u0438, \u043B\u0438\u0431\u043E `n`-\u043C, \u0441\u0430\u043C\u044B\u043C \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u043C \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435\u043C (\u0434\u043E 20-\u0433\u043E).
+        channel_empty: \u042D\u0442\u043E\u0442 \u043A\u0430\u043D\u0430\u043B \u043F\u0443\u0441\u0442
         invalid_react:
           one: |
-            The following emote is not valid:
-            > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            Следующий эмодзи недействителен:\n> %{not_found}
+            Эмоции должны содержать только буквы, цифры, подчеркивания и до одного тире.
           many: |
-            The following emotes are not valid:
-            > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            Следующие эмодзи недействительны:\n> %{not_found}
+            Эмоции должны содержать только буквы, цифры, подчеркивания и до одного тире.
         emote_unusable:
           one: |
-            The following emote cannot be used in reactions:
+            Следующие эмодзи нельзя использовать в реакциях:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload it to a server the bot's in, it will become usable in reactions!
+            Эмодзи должны исходить от серверов, участником которых является NQN; если вы эмодзи на сервер, на котором находится бот, его можно будет использовать в реакциях!
           many: |
-            The following emotes cannot be used in reactions:
+            Следующие эмодзи нельзя использовать в реакциях:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload them all to a server the bot's in, they will become usable in reactions!
+            Эмодзи должны исходить от серверов, участником которых является NQN; если вы эмодзи на сервер, на котором находится бот, его можно будет использовать в реакциях!
         emote_not_found:
           one: |
-            Could not find emote %{not_found}
-            Have you added it as an alias with `%{prefix}alias search` or joined the corresponding emote pack with `%{prefix}pack search`?
+            Не удалось найти эмодзи %{not_found}
+            Вы добавили все эмодзи, как alias'ы, с помощью `%{prefix}alias search` или присоединились к соответствующим пакам с эмодзи с помощью `%{prefix}pack search`?
           many: |
-            Could not find emotes %{not_found}
-            Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
+            Не удалось найти эмодзи %{not_found}
+            Вы добавили все эмодзи, как alias'ы, с помощью `%{prefix}alias search` или присоединились к соответствующим пакам с эмодзи с помощью `%{prefix}pack search`?
         too_many_reacts:
-          one: This message has too many reactions to add a new one!
-          many: This message has too many reactions to add them all!
+          one: \u041D\u0430 \u044D\u0442\u043E\u043C \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u043D\u043E\u0433\u043E \u0440\u0435\u0430\u043A\u0446\u0438\u0439, \u0447\u0442\u043E\u0431\u044B \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043D\u043E\u0432\u043E\u0435!
+          many: \u041D\u0430 \u044D\u0442\u043E\u043C \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u043D\u043E\u0433\u043E \u0440\u0435\u0430\u043A\u0446\u0438\u0439, \u0447\u0442\u043E\u0431\u044B \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0438\u0445 \u0432\u0441\u0435!
         reacting:
-          one: Adding %{count} reaction; remember to react yourself for them to stay!
-          many: Adding %{count} reactions; remember to react yourself for them to stay!
-        blocked: '%{author} has blocked me, so I cannot add that reaction!'
-        on_behalf: NQN on behalf of %{author} (%{author_id})
-        audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
+          one: \u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 %{count} \u0440\u0435\u0430\u043A\u0446\u0438\u044F; \u043D\u0435 \u0437\u0430\u0431\u0443\u0434\u044C\u0442\u0435 \u043D\u0430\u0436\u0430\u0442\u044C \u043D\u0430 \u043D\u0435\u0451, \u0447\u0442\u043E\u0431\u044B \u043E\u043D\u0430 \u043E\u0441\u0442\u0430\u043B\u0430\u0441\u044C!
+          many: \u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E %{count} \u0440\u0435\u0430\u043A\u0446\u0438\u0439(-\u0438); \u043D\u0435 \u0437\u0430\u0431\u0443\u0434\u044C\u0442\u0435 \u043D\u0430\u0436\u0430\u0442\u044C \u043D\u0430 \u043D\u0438\u0445, \u0447\u0442\u043E\u0431\u044B \u043E\u043D\u0438 \u043E\u0441\u0442\u0430\u043B\u0438\u0441\u044C!
+        blocked: '%{author} \u0437\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043B \u043C\u0435\u043D\u044F, \u044F \u043D\u0435 \u043C\u043E\u0433\u0443 \u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0440\u0435\u0430\u043A\u0446\u0438\u0438 \u043D\u0430 \u0435\u0433\u043E \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F!'
+        on_behalf: NQN \u043E\u043F\u0443\u0431\u043B\u0438\u043A\u043E\u0432\u0430\u043B \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u043E\u0442 %{author} (%{author_id})
+        audit_message: "%{author} \u043F\u043E\u0441\u0442\u0430\u0432\u0438\u043B \u0440\u0435\u0430\u043A\u0446\u0438\u044E \u043D\u0430 [\u044D\u0442\u043E \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435](<%{jump_url}>) \u0432 %{channel} \u0441\u043E \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u043C\u0438 \u044D\u043C\u043E\u0434\u0437\u0438:\n"
       info:
         shard_data: |
-          > No. shards: %{shard_count} (%{shards_down} down)
-          > Average latency: %{average_latency}ms
-          > Current shard: %{current_shard}
-          > Current shard latency: %{current_latency}ms
+          > Нет шардов: %{shard_count} (%{shards_down} не работают)
+          > Средняя задержка: %{average_latency}ms
+          > Текущий шард: %{current_shard}
+          > Текущая задержка шарда: %{current_latency}ms
         process_data: |
-          > RAM usage: %{ram_usage}
-          > CPU usage: %{cpu_usage}%
-          > Network:
-          > - Sent: %{network_send}
-          > - Received: %{network_recv}
+          > Использование ОЗУ: %{ram_usage}
+          > Использование процессора: %{cpu_usage}%
+          > Сеть:
+          > - Отправлено: %{network_send}
+          > - Получено: %{network_recv}
         elasticsearch_metadata: |
-          > RAM usage: %{ram_usage}
-          > Disk space: %{disk_use}
-          > Network total: %{bytes_sent}
+          > Использование ОЗУ: %{ram_usage}
+          > Место на диске: %{disk_use}
+          > Итого по сети: %{bytes_sent}
         description: |
-          Author: %{owner}
-          Application name: %{app_name}
-          Help command: `%{prefix}help`
+          Автор: %{owner}
+          Имя приложения: %{app_name}
+          Команда помощи: `%{prefix}help`
         bot_metadata: |
-          > Uptime: %{uptime}
-          > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
-          > Servers Loaded: %{guilds_loaded} / %{guilds}
+          > Время работы: %{uptime}
+          > Серверы эмодзи: %{alias_servers_available} / %{alias_servers_total}
+          > Серверов загружено: %{guilds_loaded} / %{guilds}
         guild_features:
           zero: ''
           one: |
-            > Server Feature: %{guild_features}
+            > Бонус у сервера: %{guild_features}
           many: |
-            > Server Features: %{guild_features}
+            > Бонусы у сервреа: %{guild_features}
         bot_credits: |
-          [Bot avatar and Wumpus art by Dooley](<https://www.dooleytm.com>) from [Wump Motes](https://discord.gg/pEjCBNF)
+          [Аватар бота и арт Вумпуса от Dooley](<https://www.dooleytm.com>) из [Wump Motes](https://discord.gg/pEjCBNF)
 
-          __Special thanks to the following people:__
+          __Особая благодарность следующим людям:__
           > <:OriLove:726475603879919616> OrionVi
           > <:bean:884394196415442985> Ben
           > <:AetherSmile:726474477956759553> Aether Wake
-
-          __Translation Credits:__
-        es: 'Spanish:'
+          __Авторы переводов:__
+        es: '\u0418\u0441\u043F\u0430\u043D\u0441\u043A\u0438\u0439:'
         es_people: |
           > <:OriLove:726475603879919616> OrionVi
           > <:AetherSmile:726474477956759553> Aether Wake
-        ru: 'Russian:'
+        ru: '\u0420\u0443\u0441\u0441\u043A\u0438\u0439:'
         ru_people: |
           > <:drink:741041666705588255> Трокс
-          > <:DorZ23:864861706169483329> DorZ23
-        pt: 'Portuguese:'
+          > <:Dorrian:864861706169483329> DorZ23
+        pt: '\u041F\u043E\u0440\u0442\u0443\u0433\u0430\u043B\u044C\u0441\u043A\u0438\u0439:'
         pt_people: |
           > <:KingKiller:800410618074628146> KingKiller
           > <:gil:873518552295014420> Gil
-        bot_stats: Discord Bot Statistics
-        shard_info_name: Shard Info
-        process_data_name: Bot process data
-        elasticsearch_data_name: Elasticsearch data
-        package_info_name: Package info
-        bot_metadata_name: Bot Metadata
-        credits: Credits
-        author: Author
-        bot_latency: '> API/Bot Latency: %{bot_latency}ms'
-        help_command: 'Help command: `%{prefix}help`'
+        bot_stats: \u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043A\u0430 Discord \u0431\u043E\u0442\u0430
+        shard_info_name: \u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E \u0448\u0430\u0440\u0434\u0430\u0445
+        process_data_name: \u0414\u0430\u043D\u043D\u044B\u0435 \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0430 \u0431\u043E\u0442\u0430
+        elasticsearch_data_name: \u0414\u0430\u043D\u043D\u044B\u0435 Elasticsearch
+        package_info_name: \u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E \u043F\u0430\u043A\u0435
+        bot_metadata_name: \u041C\u0435\u0442\u0430\u0434\u0430\u043D\u043D\u044B\u0435 \u0431\u043E\u0442\u0430
+        credits: \u041F\u043E\u0445\u0432\u0430\u043B\u0430
+        author: \u0410\u0432\u0442\u043E\u0440
+        bot_latency: '> API/\u0417\u0430\u0434\u0435\u0440\u0436\u043A\u0430 \u0431\u043E\u0442\u0430: %{bot_latency}ms'
+        help_command: '\u041A\u043E\u043C\u0430\u043D\u0434\u0430 \u043F\u043E\u043C\u043E\u0449\u0438: `%{prefix}help`'
       upload_emote:
-        own_emojis_dont_ask_again: Yes; I own these
-        alphanumeric: ' - Must be alphanumeric with underscores'
-        size: ' - Must be between 1 and 32 characters long'
-        filesize: ' - Must be less than 256KB'
-        image: ' - Must be an image'
-        bad_name: "The name of the emote is incorrect:\n"
-        bad_attachment: "The attached emote is not valid:\n"
-        more_animated_needed: This server will have reached its limit for animated emotes, as it requires %{size}. Delete %{delete} and try again
-        more_static_needed: This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again
-        too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
-        this_emote: Is this the emote you meant?
+        own_emojis_dont_ask_again: \u0414\u0430; \u042F \u0432\u043B\u0430\u0434\u0435\u044E \u0438\u043C\u0438
+        alphanumeric: ' - \u0414\u043E\u043B\u0436\u0435\u043D \u0431\u044B\u0442\u044C \u0431\u0443\u043A\u0432\u0435\u043D\u043D\u043E-\u0446\u0438\u0444\u0440\u043E\u0432\u044B\u043C \u0441 \u043F\u043E\u0434\u0447\u0435\u0440\u043A\u0438\u0432\u0430\u043D\u0438\u0435\u043C'
+        size: ' - \u0414\u043E\u043B\u0436\u0435\u043D \u0431\u044B\u0442\u044C \u043E\u0442 1 \u0434\u043E 32 \u0441\u0438\u043C\u0432\u043E\u043B\u043E\u0432.'
+        filesize: ' - \u0414\u043E\u043B\u0436\u0435\u043D \u0431\u044B\u0442\u044C \u043C\u0435\u043D\u044C\u0448\u0435 256 \u041A\u0411'
+        image: ' - \u0414\u043E\u043B\u0436\u0435\u043D \u0431\u044B\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435\u043C'
+        bad_name: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u044D\u043C\u043E\u0434\u0437\u0438 \u043D\u0435\u0432\u0435\u0440\u043D\u043E\u0435:\n"
+        bad_attachment: "\u041F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u0451\u043D\u043D\u044B\u0439 \u044D\u043C\u043E\u0434\u0437\u0438 \u043D\u0435\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u0435\u043D:\n"
+        more_animated_needed: \u041D\u0430 \u044D\u0442\u043E\u043C \u0441\u0435\u0440\u0432\u0435\u0440\u0435 \u0431\u0443\u0434\u0435\u0442 \u0438\u0441\u0447\u0435\u0440\u043F\u0430\u043D \u043B\u0438\u043C\u0438\u0442 \u0430\u043D\u0438\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u044D\u043C\u043E\u0434\u0437\u0438, \u043F\u043E\u0441\u043A\u043E\u043B\u044C\u043A\u0443 \u043E\u043D \u0442\u0440\u0435\u0431\u0443\u0435\u0442 %{size}. \u0423\u0434\u0430\u043B\u0438\u0442\u0435 %{delete} \u0438 \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u0441\u043D\u043E\u0432\u0430
+        more_static_needed: \u041D\u0430 \u044D\u0442\u043E\u043C \u0441\u0435\u0440\u0432\u0435\u0440\u0435 \u0431\u0443\u0434\u0435\u0442 \u0434\u043E\u0441\u0442\u0438\u0433\u043D\u0443\u0442 \u043F\u0440\u0435\u0434\u0435\u043B \u0441\u0442\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0445 \u044D\u043C\u043E\u0434\u0437\u0438, \u043F\u043E\u0441\u043A\u043E\u043B\u044C\u043A\u0443 \u043E\u043D \u0442\u0440\u0435\u0431\u0443\u0435\u0442 %{size}. \u0423\u0434\u0430\u043B\u0438\u0442\u0435 %{delete} \u0438 \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u0441\u043D\u043E\u0432\u0430
+        too_quick: \u042D\u043C\u043E\u0434\u0437\u0438 \u0441\u043E\u0437\u0434\u0430\u044E\u0442\u0441\u044F \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u0431\u044B\u0441\u0442\u0440\u043E, \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437 \u0447\u0435\u0440\u0435\u0437 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0447\u0430\u0441\u043E\u0432 (\u041A\u043E\u0434 \u043E\u0448\u0438\u0431\u043A\u0438 '%{e}')
+        this_emote: \u0412\u044B \u0438\u043C\u0435\u043B\u0438 \u0432 \u0432\u0438\u0434\u0443 \u044D\u0442\u043E\u0442 \u044D\u043C\u043E\u0434\u0437\u0438?
         emote_preview: |
-          Is this alright?
-          If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select 'No'.
+          Вот так сойдёт?
+          Если вы  **НЕ** являетесь владельцем этого эмодзи, или у вас нет разрешения на его распространение, выберите ❎.
         duplicate_name: |
-          This server already has an emote called %{name}
+          Этот сервер уже имеет эмодзи с названием %{name}
           > %{e}
-          Do you still want to upload this emote?
-        created_emotes: '%{user} uploaded %{e}'
+          Вы хотите загружать этот эмодзи?
+        created_emotes: '\u042D\u043C\u043E\u0434\u0437\u0438 \u0441\u043E\u0437\u0434\u0430\u043D\u043E!'
         also_upload_static: |
-          Would you also like to upload a static version of this emoji?
-          Users without Nitro can use it from the emoji picker to send %{e}
+          Хотите также загрузить статическую версию?
+          Пользователи без нитро смогут выбирать его в списке с эмодзи %{e}
       vote_opt_out:
-        success: Successfully opted out of vote DMs
+        success: \u0412\u044B \u0443\u0441\u043F\u0435\u0448\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u043B\u0438\u0441\u044C \u043E\u0442 \u0433\u043E\u043B\u043E\u0441\u043E\u0432\u0430\u043D\u0438\u044F \u0432 \u041B\u0421
       whois:
-        found: The author is <@%{author}> (%{author})
+        found: \u0410\u0432\u0442\u043E\u0440\u043E\u043C \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F <@%{author}> (%{author})
         not_nqn: |
           This command currently only works on messages reposted by NQN.
         not_found: |
