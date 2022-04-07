@@ -1,456 +1,456 @@
 ---
 command_docs:
   alias-delete:
-    short_doc: Don't want an alias anymore? Use this
+    short_doc: Não quer mais um apelido? Use isso
     help: |
-      Don't want an alias anymore? Use this
+      Não quer mais um apelido? Use isso
   alias-delete_all:
-    short_doc: I don't like any of my aliases
+    short_doc: Eu não gosto de nenhum dos meus aliases
     help: |
-      Delete all of your aliases
+      Deleta todos os seus aliases
   alias-dm:
-    short_doc: Get a full list of your aliases in DMs
+    short_doc: Receba uma lista de seus aliases no PV
     help: |
-      Have the bot send you a list of your aliases in your DMs
+      Faça com que o bot te envie uma lista de seus aliases no privado
   alias-export:
-    short_doc: Export your alias list
+    short_doc: Exportar sua lista de apelidos
     help: |
-      Export your alias list
+      Exportar sua lista de apelidos
   alias-import:
-    short_doc: Import someone else's alias list
+    short_doc: Importar a lista de apelido de outra pessoa
     help: |
-      Import someone else's alias list
+      Importar a lista de apelido de outra pessoa
   alias-list:
-    short_doc: Get a list of aliases you've made
+    short_doc: Obtenha uma lista de apelidos que você criou
     help: |
-      Get a list of aliases you've made
+      Obtenha uma lista de apelidos que você criou
   alias-rename:
-    short_doc: Rename one of your aliases
+    short_doc: Renomeie um de seus apelidos
     help: |
-      Rename one of your aliases
+      Renomeie um de seus apelidos
   alias-search:
-    short_doc: Look for individual emotes to use with NQN
+    short_doc: Procure emotes individuais para usar com NQN
     help: |
-      Look for individual emotes to use with NQN
-
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      Procure emotes individuais para usar com NQN
+      A pesquisa de NQN permite alguns recursos avançados:
+       - `exato`: (padrão falso) só mostrar emotes com o nome exato pesquisado
+       - `animado`: mostrar apenas emotes animados ou estáticos
+       - `pagina`: pular para uma certa página
+       - `ordem`: um de 'usa', 'aleatória'
   alias:
-    short_doc: Manage the individual emotes you can use
+    short_doc: Gerenciar os emotes individuais que você pode usar
     help: |
-      Manage the individual emotes you can use
-
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      Gerenciar os emotes individuais que você pode usar
+      A pesquisa de NQN permite alguns recursos avançados:
+       - `exact`: (padrão falso) mostra apenas emotes com o nome exato pesquisado
+       - `animated`: mostra apenas emotes animados ou estáticos
+       - `page`: pula para uma certa página
+       - `order`: um de 'uses', 'random'
   audit:
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: Obtenha registros de auditoria para mensagens repostadas para este canal
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
-
-      If both channel and members are to be unfiltered, use 'audit guild'
+      Obtenha registros de auditoria para mensagens repostadas para este canal
+      Opcional [Canal] -> Filtrar registros apenas para este canal
+      Opcional[Membro] -> Filtrar registros apenas para este membro
+      Se o canal e os membros não forem filtrados, use 'guilda de auditoria'
   delete:
-    short_doc: Delete one of your messages reposted by NQN
+    short_doc: Exclua uma de suas mensagens repostadas por NQN
     help: |
-      Delete one of your messages reposted by NQN.
-      By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
-      You can also use Discord's message reply functionality to delete that message.
+      Exclua uma de suas mensagens repostadas por NQN.
+       Por padrão, sua mensagem mais recente neste canal é excluída, mas você pode opcionalmente fornecer um URL de mensagem para excluí-la.
+       Você também pode usar a funcionalidade de resposta de mensagem do Discord para excluir essa mensagem.
   edit:
-    short_doc: Edit a message posted by NQN
+    short_doc: Editar uma mensagem postada por NQN
     help: |
-      Edits the content of one of your messages reposted by NQN.
-      By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
-      You can also use Discord's message reply functionality to edit that message.
+      Edita o conteúdo de uma de suas mensagens republicadas por NQN.
+      Por padrão, sua mensagem mais recente neste canal é editada, mas você pode opcionalmente fornecer um URL de mensagem para editá-la 6
+      Você também pode usar a funcionalidade de resposta de mensagem do Discord para editar essa mensagem.
   export:
-    short_doc: Export your emote list
+    short_doc: Exporte sua lista de emoticons
     help: |
-      Export your emote list
+      Exporte sua lista de emoticons
   help:
-    short_doc: Learn about my commands
+    short_doc: Mostra esta mensagem
     help: |
-      Learn about the commands you can run with NQN
+      Mostra esta mensagem
   ignore_me:
-    short_doc: Stop NQN from reposting your messages
+    short_doc: Impeça o NQN de repostar suas mensagens
     help: |
-      Running this command stops NQN from reposting any of your messages in any server you share with the bot.
-      - Commands are still enabled, running this command again returns you to normal
-      - You can still repost messages through our [dashboard](https://nqn.blue)
-      - The bot will not respond to any messages you send that would be reposted through a webhook
+      Executar este comando impede que o NQN reenvie qualquer uma de suas mensagens em qualquer servidor que você compartilhe com o bot.
+      - Os comandos ainda estão habilitados, a execução deste comando novamente retorna você ao normal
+      - Você ainda pode repassar mensagens por meio de nosso [painel](https://nqn.blue)
+      - O bot não responderá a nenhuma mensagem enviada por você que será postada novamente por meio de um webhook
   info:
-    short_doc: Internal statistics about the bot
+    short_doc: Estatísticas internas sobre o bot
     help: |
-      Internal statistics about the bot
+      Estatísticas internas sobre o bot
   invite_me:
-    short_doc: Invite the bot to your server!
+    short_doc: Convide o bot para o seu servidor!
     help: |
-      Invite the bot to your server!
+      Convide o bot para o seu servidor!
   jumbo:
-    short_doc: Makes an emoji bigger
+    short_doc: Torna um emoji maior
     help: |
-      Makes an emoji bigger
+      Torna um emoji maior
   mod-audit:
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: Obtenha registros de auditoria para mensagens repostadas para este canal
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
-
-      If both channel and members are to be unfiltered, use 'audit guild'
+      Obtenha registros de auditoria para mensagens repostadas para este canal
+      Opcional[Canal] -> Filtrar registros apenas para este canal
+      Opcional[Membro] -> Filtrar registro apenas para este membro
+      Se o canal e os membros não forem filtrados, use 'audit guild'
   mod-ban:
-    short_doc: Ban the user that posted a message
+    short_doc: Banir o usuário que postou uma mensagem
     help: |
-      Ban the user that posted a message
+      Banir o usuário que postou uma mensagem
   mod-edit_topic:
-    short_doc: Add animated emojis to channel topics
+    short_doc: Adicionar emojis animados aos tópicos do canal
     help: |
-      Changes the channel description, allowing for animated emojis in them as well
+      Altera a descrição do canal, permitindo emojis animados neles também
   mod-kick:
-    short_doc: Kick the user that posted a message
+    short_doc: Expulse o usuário que postou uma mensagem
     help: |
-      Kick the user that posted a message
+      Expulse o usuário que postou uma mensagem
   mod-move:
-    short_doc: Move up to 20 of the most recent messages in this channel to another
+    short_doc: Mova até 20 das mensagens mais recentes neste canal para outro
     help: |
-      Move up to 20 of the most recent messages in this channel to another
+      Mova até 20 das mensagens mais recentes neste canal para outro
   mod-purge:
-    short_doc: Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user
+    short_doc: Limpe até mensagens de `mensagens` repostadas pelo bot neste canal, opcionalmente filtrando para um usuário específico
     help: |
-      Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user
+      Limpe até mensagens de `mensagens` repostadas pelo bot neste canal, opcionalmente filtrando para um usuário específico
   mod:
-    short_doc: Moderation features for NQN
+    short_doc: Recursos de moderação para NQN
     help: |
-      Moderation features for NQN
+      Recursos de moderação para NQN
   move:
-    short_doc: Move up to 20 of the most recent messages in this channel to another
+    short_doc: Mova até 20 das mensagens mais recentes neste canal para outro
     help: |
-      Move up to 20 of the most recent messages in this channel to another
+      Mova até 20 das mensagens mais recentes neste canal para outro
   mutuals:
-    short_doc: See the servers I share with you
+    short_doc: Veja os servidores que compartilho com você
     help: |
-      See the servers I share with you in DMs
+      Veja os servidores que compartilho com você em MD
   my_emotes:
-    short_doc: See what emojis you can post with NQN
+    short_doc: Veja os emojis que pode usar com o NQN
     help: |
-      See what emojis you can post with NQN
+      Veja quais emojis você pode usar no NQN
   owner:
-    short_doc: Forbidden knowledge lurks within
+    short_doc: Conhecimento, proibido espionar dentro
     help: |
-      Forbidden knowledge lurks within
+      Conhecimento, proibido espionar dentro
   pack-dm:
-    short_doc: Get a full list of your packs in your DMs
+    short_doc: Receba uma lista completa de seus pacotes no PV
     help: |
-      Have the bot send you a complete list of yout packs current emoji lists through your DMs.
+      Faça o bot te enivar uma lista completa de seus pacotes no PV
   pack-join:
-    short_doc: Subscribe to an emote pack
+    short_doc: Inscreva-se em um pacote de emoticons
     help: |
-      Subscribe to an emote pack
+      Inscreva-se em um pacote de emoticons
   pack-leave:
-    short_doc: Unsubscribe from an emote pack
+    short_doc: Cancelar a assinatura de um pacote de emote
     help: |
-      Unsubscribe from an emote pack
+      Cancelar a assinatura de um pacote de emote
   pack-meta:
-    short_doc: Oooh... Pretty stats about your pack
+    short_doc: Oooh ... Estatísticas bonitas sobre o seu pacote
     help: |
-      Oooh... Pretty stats about your pack
+      Oooh... Estatísticas bonitas sobre o seu pacote
   pack-mine:
-    short_doc: Get a list of emote packs you're subscribed to
+    short_doc: Obtenha uma lista de pacotes de emote que você assinou
     help: |
-      Get a list of emote packs you're subscribed to
+      Obtenha uma lista de pacotes de emote que você assinou
   pack-publish:
-    short_doc: Publish your emote server as an emote pack
+    short_doc: Publique seu servidor de emote como um pacote de emote
     help: |
-      Publish your emote server as an emote pack
+      Publique seu servidor de emote como um pacote de emote
   pack-rename:
-    short_doc: Rename an emote pack
+    short_doc: Renomear um pacote de emote
     help: |
-      Rename an emote pack
+      Renomear um pacote de emote
   pack-save:
-    short_doc: Upload all of the emotes from a pack to this server
+    short_doc: Faça upload de todos os emotes de um pacote para este servidor
     help: |
-      Upload all of the emotes from a pack to this server
+      Faça upload de todos os emotes de um pacote para este servidor
   pack-search:
-    short_doc: Find entire packs of emotes to use with NQN
+    short_doc: Encontre pacotes inteiros de emotes para usar com NQN
     help: |
-      Find entire packs of emotes to use with NQN
+      Encontre pacotes inteiros de emotes para usar com NQN
   pack-set_public:
-    short_doc: Allow anyone to join this server via NQN.
+    short_doc: Permitir que qualquer pessoa entre neste servidor via NQN.
     help: |
-      Allow anyone to join this server via NQN.
+      Permitir que qualquer pessoa entre neste servidor via NQN.
   pack-show:
-    short_doc: Show the contents of a pack
+    short_doc: Mostra o conteúdo de um pacote
     help: |
-      Show the contents of a pack
+      Mostra o conteúdo de um pacote
   pack-unpublish:
-    short_doc: Don't want this server to be an emote pack anymore?
+    short_doc: Não quer que esse servidor seja mais um pacote de emotes?
     help: |
-      Don't want this server to be an emote pack anymore?
+      Não quer mais que esse servidor seja mais um pacote de emotes?
   pack:
-    short_doc: Manage entire pack of emotes
+    short_doc: Gerenciar pacotes inteiros de emotes
     help: |
-      Manage entire pack of emotes
+      Gerenciar pacotes inteiros de emotes
   persona-avatar_url:
-    short_doc: Set the avatar of a persona
+    short_doc: Defina o avatar de uma pessoa
     help: |
-      Set the avatar of a persona
+      Defina o avatar de uma pessoa
   persona-delete:
-    short_doc: Delete one of your personas
+    short_doc: Deletar um de seus personagens
     help: |
-      Delete one of your personas
+      Deletar um de seus personagens
   persona-display_name:
-    short_doc: Change the username of a persona
+    short_doc: Alterar o nome de usuário de uma pessoa
     help: |
-      Change the username of a persona
+      Alterar o nome de usuário de uma pessoa
   persona-dm:
-    short_doc: DMs you a full list of your personas
+    short_doc: Mostra uma lista completa de seus personagens
     help: |
-      Sends you a DM with a full list of your personas
+      Envia um DM com uma lista completa de seus personagens
   persona-export:
-    short_doc: Export your list of personas to a file
+    short_doc: Exporte sua lista de personagens para um arquivo
     help: |
-      Export your list of personas to a file, which is compatible with other bots
+      Exporte sua lista de personagens para um arquivo que é compatível com outros bots
   persona-import:
-    short_doc: Import a previously exported list of personas
+    short_doc: Importar uma lista de pessoas exportada anteriormente
     help: |
-      Import a previously exported list of personas.
-      Compatible with PluralKit and Tupperbox.
+      Importar uma lista de pessoas exportada anteriormente.
+      Compatível com PluralKit e Tupperbox.
   persona-list:
-    short_doc: See a list of your personas
+    short_doc: Veja a lista de seus personagens
     help: |
-      See a list of your personas
+      Veja a lista de seus personagens
   persona-register:
-    short_doc: Register a persona for later use
+    short_doc: Registre um personagen para uso posterior
     help: |
-      Register a persona for later use
+      Registre um personagen para uso posterior
   persona-rename:
-    short_doc: Give one of your personas a different name
+    short_doc: Dê a um de seus personagens um nome diferente
     help: |
-      Give one of your personas a different name
+      Dê a um de seus personagens um nome diferente
   persona:
-    short_doc: Manage your personas
+    short_doc: Gerenciar seus personagens
     help: |
-      Manage your personas
+      Gerenciar seus personagens
   premium-check:
-    short_doc: Recalculate your premium information
+    short_doc: Recalcule suas informações premium
     help: |
-      Recalculates your premium information, including the list of servers gaining premium from you.
+      Recalcula suas informações premium, incluindo a lista de servidores que recebem premium de você.
   premium:
-    short_doc: Information about NQN premium
+    short_doc: Informações sobre o NQN premium
     help: |
-      Information about NQN premium
+      Informações sobre o NQN premium
   ranking:
-    short_doc: How high up is your server in our rankings?
+    short_doc: Quão alto está o seu servidor em nossas classificações?
     help: |
-      How high up is your server in our rankings?
+      Quão alto está o seu servidor em nossas classificações?
   react:
-    short_doc: React to a message with emojis from NQN
+    short_doc: Reaja a uma mensagem com emojis de NQN
     help: |
-      Use Discord replies or a message link to react to that message.
-      The command allows a list of reactions, each of which will be added in the order specified.
-      **You need to react to the added reactions as well for them to stay.**
+      Reaja a mensagem `n` mais recente
+      Mensagem opcional: o ID da mensagem ou link para reagir ou a `n` mensagem mais recente (até 20 mensagens atrás)
+      O comando permite uma lista de reações, cada uma das quais será adicionada na ordem especificada.
+      Para reagir a uma mensagem em outro canal, use o link da mensagem.
   search_all:
-    short_doc: Look at emotes the bot has seen
+    short_doc: Veja os emotes que o bot viu
     help: |
-      Look at emotes the bot has seen
+      Veja os emotes que o bot viu
   server-alias-delete:
-    short_doc: Didn't like an emote? Make it so they've got to work for it.
+    short_doc: Não gostou de um emote? Faça com que eles tenham que trabalhar para isso.
     help: |
-      Didn't like an emote? Make it so they've got to work for it.
+      Não gostou de um emote? Faça com que eles tenham que trabalhar para isso.
   server-alias-list:
-    short_doc: Show all the aliases that anyone in your server can use
+    short_doc: Mostra todos os apelidos que qualquer pessoa no seu servidor pode usar
     help: |
-      Show all the aliases that anyone in your server can use
+      Mostra todos os apelidos que qualquer pessoa no seu servidor pode usar
   server-alias-post:
-    short_doc: Post a list of server aliases
+    short_doc: Envia uma lista dos aliases do servidor
     help: |
-      Post a list of server aliases
+      Envia uma lista dos aliases do servidor
   server-alias-rename:
-    short_doc: Rename a server alias
+    short_doc: Renomear um apelido do servidor
     help: |
-      Rename a server alias
+      Renomear um apelido do servidor
   server-alias-search:
-    short_doc: Allow anyone in the server to use an emote!
+    short_doc: Permita que qualquer pessoa no servidor use um emote!
     help: |
-      Allow anyone in the server to use an emote!
+      Permita que qualquer pessoa no servidor use um emote!
   server-alias:
-    short_doc: Do things with server aliases
+    short_doc: Faça coisas com apelido de servidor
     help: |
-      Do things with server aliases
+      Faça coisas com apelido de servidor
   server-dashboard_posting:
-    short_doc: Enable or disable posting messages through the bot dashboard
+    short_doc: Ativa ou desativa o envio de mensagens pelo dashboard do NQN
     help: |
-      Enable or disable posting messages through the bot dashboard
+      Ativa ou desativa o envio de mensagens pelo dashboard do NQN
   server-language:
-    short_doc: Set the bots language %{locale_flag_emojis}
+    short_doc: Defina o idioma do bot %{locale_flag_emojis}
     help: |
-      Set the bots language
+      Defina o idioma do bot
   server-link:
-    short_doc: Create a static emote, which when used posts an animated version of the emote instead!
+    short_doc: Crie um emote estático que, quando usado, publica uma versão animada do emote!
     help: |
-      Create a static emote, which when used posts an animated version of the emote instead!
+      Crie um emote estático que, quando usado, publica uma versão animada do emote!
   server-masked_links:
-    short_doc: Enable or disable masked links in this server
+    short_doc: Habilite ou desabilite links mascarados nesta guilda
     help: |
-      Enable or disable masked links in this server
+      Habilite ou desabilite links mascarados nesta guilda
   server-nitro:
-    short_doc: Enable or disable free nitro usage in this server
+    short_doc: Habilite ou desabilite o uso de nitro grátis nesta guilda
     help: |
-      Enable or disable free nitro usage in this server
+      Habilite ou desabilite o uso de nitro grátis nesta guilda
   server-pack-join:
-    short_doc: Subscribe to an emote pack server-wide
+    short_doc: Inscreva-se em um pacote de emote em todo o servidor
     help: |
-      Subscribe to an emote pack server-wide
+      Inscreva-se em um pacote de emote em todo o servidor
   server-pack-leave:
-    short_doc: Unsubscribe from an emote pack server-wide
+    short_doc: Cancelar a assinatura de um pacote de emote em todo o servidor
     help: |
-      Unsubscribe from an emote pack server-wide
+      Cancelar a assinatura de um pacote de emote em todo o servidor
   server-pack-list:
-    short_doc: List the packs this server can use
+    short_doc: Liste os pacotes que este servidor pode usar
     help: |
-      List the packs this server can use
+      Liste os pacotes que este servidor pode usar
   server-pack-post:
-    short_doc: Post a list of server packs
+    short_doc: Envia uma lista dos pacotes do servidor
     help: |
-      Post a list of server packs
+      Envia uma lista dos pacotes do servidor
   server-pack-search:
-    short_doc: Search for an emote pack to add server-wide
+    short_doc: Procure um pacote de emote para adicionar em todo o servidor
     help: |
-      Search for an emote pack to add server-wide
+      Procure um pacote de emote para adicionar em todo o servidor
   server-pack:
-    short_doc: Do things with server packs
+    short_doc: Faça coisas com pacotes de servidor
     help: |
-      Do things with server packs
+      Faça coisas com pacotes de servidor
   server-permissions_debug:
-    short_doc: Let NQN tell you what permissions it's missing
+    short_doc: Deixe o NQN dizer quais permissões estão faltando
     help: |
-      Debug the permissions in your server
+      Depure as permissões em seu servidor
   server-personas:
-    short_doc: Enable or disable usage of personas
+    short_doc: Ativa ou desativa o uso de personagens
     help: |
-      Allows users to post with arbitrary usernames and avatars
+      Permite que os usuários criem e usem personagens no servidor
   server-pings:
-    short_doc: Enable or disable pings in messages for this server
+    short_doc: Habilita ou desabilita pings em mensagens para este servidor
     help: |
-      Enable or disable pings in messages that NQN reposts on this server
+      Habilita ou desabilita pings em mensagens que NQN repõe neste servidor
   server-prefix:
-    short_doc: Make NQN listen to a different prefix.
+    short_doc: Faça o NQN usar um prefixo diferente.
     help: |
-      Make NQN listen to a different prefix.
+      Faça o NQN usar um prefixo diferente.
 
-      Example invocation:
+      Exemplo:
       >>> %{prefix}server prefix <@%{bot_id}> ?
+
+      Isso mudaria o prefixo para `?`.
     signature: |
       @NQN#3454 [prefix=!]
   server-replies:
-    short_doc: Enable or disable message replies in this server
+    short_doc: Habilite ou desabilite respostas de mensagens nesta guilda
     help: |
-      Enable or disable message replies in this server
+      Habilite ou desabilite respostas de mensagens nesta guilda
   server-settings:
-    short_doc: View the settings for this server
+    short_doc: Ver as configurações deste servidor
     help: |
-      View NQN's server settings, including features, configured channels and pack information.
+      Visualize as configurações do servidor NQN, incluindo recursos, canais configurados e informações de pacote.
   server-set_announcement_channel:
-    short_doc: Post bot announcements somewhere.
+    short_doc: Poste anúncios de bot em algum lugar.
     help: |
-      Post bot announcements somewhere.
-      These will include new features
+      Poste anúncios de bot em algum lugar
+      Isso incluirá novos recursos
   server-set_audit_channel:
-    short_doc: Post messages the bot reposts
+    short_doc: Postar mensagens que o bot reposta
     help: |
-      Post messages the bot reposts
+      Postar mensagens que o bot reposta
   server-set_boost_channel:
-    short_doc: Post whenever someone votes with the server on top.gg
+    short_doc: Publique sempre que alguém votar com o servidor em top.gg
     help: |
-      Post whenever someone votes with the server on top.gg
+      Publique sempre que alguém votar com o servidor em top.gg
   server-set_boost_role:
-    short_doc: Give a user this role when they boost this server via NQN
+    short_doc: Dê a um usuário esta função quando ele impulsionar este servidor via NQN
     help: |
-      Give a user this role when they boost this server via NQN
+      Dê a um usuário esta função quando ele impulsionar este servidor via NQN
   server-set_nitro_role:
-    short_doc: Require users to have a role to use NQN
+    short_doc: Define um cargo que será necessário para usar o NQN
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      Escolha um cargo que será exigido para que os usuários usem a função
+      nitro do NQN
   server-stickers:
-    short_doc: Enable or disable sticker usage in this guild
+    short_doc: Habilite ou desabilite o uso de adesivos nesta guilda
     help: |
-      Enable or disable sticker usage in this guild
+      Habilite ou desabilite o uso de adesivos nesta guilda
   server-user_content:
-    short_doc: Enable or disable user aliases and packs for this server
+    short_doc: Ativa ou desativa os aliases e pacotes individuais neste servidor
     help: |
-      Enable or disable user aliases and packs for this server
+      Ativa ou desativa os aliases e pacotes individuais neste servidor
   server:
-    short_doc: Modify the bots settings on this server
+    short_doc: Modifique as configurações do bot neste servidor
     help: |
-      Modify the bots settings on this server
+      Modifique as configurações do bot neste servidor
   sticker-create:
-    short_doc: Create a sticker from a file
+    short_doc: Crie uma figurinha de um arquivo
     help: |
-      Create a sticker from a file
-      Upload an image and use this command to turn it into a sticker.
-      The sticker's name is determined by the filename, or what you type in. `sticker create BluePat.png` for example.
-      Sticker names are unique across NQN, once a name is taken, it's gone.
-      Stickers can be a maximum of 8MB large, and names can only be alphanumeric.
-      Stickers need a file extension, which is also alphanumeric.
+      Crie uma figurinha de um arquivo
+      Faça o upload de uma imagem e use este comando para transformá-la em um adesivo.
+      O nome do adesivo é determinado pelo nome do arquivo ou o que você digita. `Criar figurinha BluePat.png` por exemplo.
+      Nomes de figurinhas são exclusivos em NQN, uma vez que um nome é escolhido, ele desaparece.
+      As figurinhas podem ter no máximo 8 MB e os nomes podem ser alfanuméricos.
+      As figurinhas precisam de uma extensão de arquivo, que também é alfanumérica.
   sticker-delete:
-    short_doc: Delete a sticker
+    short_doc: Delete uma figurinha
     help: |
-      Delete a sticker
-      You can only delete stickers you own.
+      Delete uma figurinha
+      Você só pode excluir figurinhas que possui.
   sticker-import:
-    short_doc: Import stickers from emotes
+    short_doc: Importar figurinhas de emotes
     help: |2
-      Import stickers from emotes
-      Either from an emote directly, with an optional alias
-       - sticker import :blue_smirk: smirk.png
-      Or by searching through emotes NQN has.
-       - sticker import blue pat
-      Note that the searching through emotes option does not support aliasing
+      Importar figurinhas de emotes
+      De um emote diretamente, com um apelido opcional
+       - importar figurinha: blue_smirk: smirk.png
+      Ou pesquisando através de emotes NQN.
+       - importar figurinha blue pat
+      Observe que a opção de pesquisa de emotes não suporta apelidos
   sticker-mine:
-    short_doc: Find my stickers
+    short_doc: Encontre minhas figurinhas
     help: |
-      Find my stickers
+      Encontre minhas figurinhas
   sticker-rename:
-    short_doc: Rename a sticker
+    short_doc: Renomear uma figurinha
     help: |
-      Rename a sticker
-      You can only rename stickers you own.
+      Renomear uma figurinha
+      Você só pode excluir figurinhas que possui.
   sticker-search:
-    short_doc: Search through all the stickers NQN has, with an optional query
+    short_doc: Pesquise todos os adesivos que o NQN possui, com uma consulta opcional
     help: |
-      Search through all the stickers NQN has, with an optional query
+      Pesquise todos os adesivos que o NQN possui, com uma consulta opcional
   sticker-telegram:
-    short_doc: Import stickers from telegram
+    short_doc: Importe figurinhas do telegram
     help: |
-      Import stickers from telegram
+      Importe figurinhas do telegram
   sticker:
-    short_doc: Larger than emotes!
+    short_doc: Maior do que emotes!
     help: |
-      Larger than emotes!
+      Maior do que emotes!
   support:
-    short_doc: Need some help with using me?
+    short_doc: Precisa de ajuda para me usar?
     help: |
-      Need some help with using me?
+      Precisa de ajuda para me usar?
   tutorial:
-    short_doc: Learn how to use emotes with NQN
+    short_doc: Aprenda a usar emotes com NQN
     help: |
-      Learn how to use emotes with NQN
+      Aprenda a usar emotes com NQN
   upload_emote:
-    short_doc: Search for all the emotes the bot has ever seen and upload them to this server.
+    short_doc: Pesquise todos os emotes que o bot já viu e envie-os para este servidor.
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload that
+      Pesquise todos os emotes que o bot já viu e envie-os para este servidor.
+      Este comando permite que você carregue emotes, suportando emotes lado a lado e redimensionando.
+      Você também pode anexar um arquivo para fazer upload desse
   vote_opt_out:
-    short_doc: Opt out of vote DMs
+    short_doc: Optar por não receber mensagem direta
     help: |
-      Opt out of vote DMs
+      Optar por não receber mensagem direta
   whois:
-    short_doc: Find who posted a message
+    short_doc: Encontre quem postou uma mensagem
     help: |
-      Find who posted a message
+      Encontre quem postou uma mensagem
