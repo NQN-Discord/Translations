@@ -2,52 +2,53 @@
 discord_bot:
   commands:
     alias:
-      no_alias: "You don't have an alias called \\:%{name}:"
-      could_not_find: Could not find alias
-      alphanumeric: Aliases can only contain alphanumerics and underscores
-      max_length: Alias names can be at most 32 characters long
-      user_zero: You have no aliases
+      no_alias: "No tienes un alias llamado \\:%{name}:"
+      could_not_find: No se pudo encontrar el alias
+      alphanumeric: Los alias solo pueden llevar caracteres alfanuméricos y guiones bajos
+      max_length: Los nombres de los alias solo pueden ser hasta 32 caracteres
+      user_zero: No tienes ningún alias
       from_message:
-        no_emotes: This message doesn't have any custom emojis in it!
+        no_emotes: '¡Este mensaje no contiene ningún emoji!'
       delete:
-        deleted: 'Deleted \:%{name}:'
+        deleted: 'Eliminado \:%{name}:'
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your aliases.
-          Are you sure you wish to continue?
+          Esto eliminara todos tus **%{count}** alias.
+          ¿Estás seguro que quieres continuar?
         deleted:
-          one: Deleted 1 alias
-          many: Deleted %{count} aliases
+          one: 1 alias eliminado
+          many: '%{count} alias eliminados'
       created:
-        one: 'You created an alias and can use it by typing:'
-        many: 'You created %{count} aliases and can use them by typing:'
+        one: 'Has creado un alias y lo puedes utilizar escribiendo:'
+        many: 'Has creado %{count} alias y los puedes utilizar escribiendo:'
       rename:
-        rename: Rename Alias
-        alias_name: 'Alias Name:'
-        renamed: 'Renamed \:%{old}: to :%{new}:'
+        rename: Renombrar Alias
+        alias_name: 'Nuevo nombre del Alias:'
+        renamed: 'Renombrado \:%{old}: a :%{new}:'
       export:
-        exported_short: "Here's your exported aliases:"
+        exported_short: "Aquí están tus aliases exportados:"
         exported_long: |
-          Here's your exported aliases:
-          To share them with other people, they need to run:
+          Aquí están tus aliases exportados:
+          Para compartirlos con otras personas debes utilizar:
           > `%{prefix}alias import %{url}`
       import_:
         import_incorrect: |
-          This command is used to import an alias list previously exported with `%{prefix}alias export`.
-          To create an alias, use `%{prefix}alias search`
-        import_text: This command needs a text file attachment
-        import_lines_invalid: Could not set aliases on lines %{lines_invalid}, invalid format.
+          Este comando es utilizado para importar una lista de aliases anteriormente exportadas con `%{prefix}alias export`.
+          Para crear un alias utiliza `%{prefix}alias search`
+        import_text: Este comando necesita un archivo de texto adjuntado
+        import_lines_invalid: No se pudo poner el alias en lineas %{lines_invalid}, formato invalido.
         import_set:
-          one: Set %{count} alias.
-          many: Set %{count} aliases.
+          one: Establecido %{count} alias.
+          many: Establecidos %{count} aliases.
       dm:
         send_dms:
           zero: |
-            You have no aliases!
-            Get some with `%{prefix}alias search`
+            ¡No tienes ningún alias!
+            Asignatelos con `%{prefix}alias search`
           one: |
-            This will send you a direct message; do you wish to continue?
+            Esto te enviara un mensaje privado; ¿deseas continuar?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            Esto te enviara %{count} mensajes privados; ¿deseas continuar?
         blocked: |-
-          You've blocked me, I can't message you!
+          Me has bloqueado :c
+          ¡No te puedo evniar mensajes!
