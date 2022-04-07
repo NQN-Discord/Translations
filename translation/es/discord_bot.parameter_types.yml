@@ -3,59 +3,59 @@ discord_bot:
   parameter_types:
     #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
     SearchTerms:
-      name: Search terms
+      name: Terminos de busqueda
       description: |-
-        Search terms
+        Terminos de busquedad
     Message:
-      name: Message
+      name: Mensajes
       description: |-
-        A Discord reply to the message you want to target
-        - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
-        - A message id in the current channel (`123456789`)
-        - ChannelID-MessageID pair (`123456789-123456789`)
-        - How many messages ago it was in current channel (`5` messages ago)
+        Una respuesta al mensaje desado
+        - El enlace del mensaje (`https://discord.com/channels/123456789/123456789/123456789`)
+        - El id del mensaje en el canal actual (`123456789`)
+        - Un par de IdCanal-IdMensaje (`123456789-123456789`)
+        - El numero de mensajes atras en el canal (`5` mensajes atras)
     PartialEmoji:
       name: Emoji
       description: |-
-        A rendered Discord emoji or an emoji URL
+        El emoji cargado o el enlace del emoji
     TextChannel:
-      name: Text Channel
+      name: Canal de Texto
       description: |
-        A text channel mention
+        Una mencion del canal de texto
     User:
-      name: User
+      name: Usuario
       description: |
-        A user mention
+        Una mencion del Usuario
     Role:
-      name: Role
+      name: Rol
       description: |
-        A role mention or name
+        Una mencion del rol
     NQNEmoji:
       name: NQNEmoji
       description: |
-        An unrendered emoji NQN can transform
-        - A rendered Discord emoji or an emoji URL
+        El nombre de un emoji que NQN pueda usar
+        - El emoji cargado o el enlace del emoji
     None:
-      name: Empty
+      name: Vacio
       description: |
-        No argument
+        Sin argumentos
     str:
-      name: String
+      name: Texto
       description: |
-        Some text
+        Algun texto
     int:
-      name: Integer
+      name: Numero
       description: |
-        A number
+        Un numero, sin decimales
     bool:
       name: Boolean
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
-      name: List
+      name: Lista
       description: |-
-        At least
+        Al menos
     Union:
       name: Union
       description: |-
-        One of the following:
+        Uno de los siguientes:

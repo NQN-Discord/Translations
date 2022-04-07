@@ -1,0 +1,9 @@
+---
+interactions:
+  not_author: |
+    Nur der Autor der Nachricht darf mit dieser Nachricht interagieren
+  timed_out: |
+    Interaktion ausgelaufen.
+    Bitte führe den Befehl erneut aus.
+  bot_timed_out: |
+    NQN has been timed out by a moderator and cannot respond.

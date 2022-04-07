@@ -3,59 +3,59 @@ discord_bot:
   parameter_types:
     #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
     SearchTerms:
-      name: Search terms
+      name: Termos de pesquisa
       description: |-
-        Search terms
+        Termos de pesquisa
     Message:
-      name: Message
+      name: Mensagem
       description: |-
-        A Discord reply to the message you want to target
-        - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
-        - A message id in the current channel (`123456789`)
-        - ChannelID-MessageID pair (`123456789-123456789`)
-        - How many messages ago it was in current channel (`5` messages ago)
+        Uma resposta do Discord para a mensagem que você deseja segmentar
+        - Um URL de mensagem (`https://discord.com/channels/123456789/123456789/123456789`)
+        - Um id de mensagem no canal atual (`123456789`)
+        - Par ChannelID-MessageID (`123456789-123456789`)
+        - Quantas mensagens atrás estava no canal atual (`5` mensagens atrás)
     PartialEmoji:
       name: Emoji
       description: |-
-        A rendered Discord emoji or an emoji URL
+        Um emoji discord renderizado ou um URL de emoji
     TextChannel:
-      name: Text Channel
+      name: Canal de Texto
       description: |
-        A text channel mention
+        Uma menção ao canal de texto
     User:
-      name: User
+      name: Usuário
       description: |
-        A user mention
+        Uma menção do usuário
     Role:
-      name: Role
+      name: Cargo
       description: |
-        A role mention or name
+        Uma menção de Cargo ou nome
     NQNEmoji:
       name: NQNEmoji
       description: |
-        An unrendered emoji NQN can transform
-        - A rendered Discord emoji or an emoji URL
+        Um emoji não renderizado NQN pode se transformar
+        - Um emoji discord renderizado ou um URL de emoji
     None:
-      name: Empty
+      name: Vazio
       description: |
-        No argument
+        Sem argumento
     str:
-      name: String
+      name: Fragmento
       description: |
-        Some text
+        Algum texto
     int:
-      name: Integer
+      name: Inteiro
       description: |
-        A number
+        Um número
     bool:
       name: Boolean
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
-      name: List
+      name: Lista
       description: |-
-        At least
+        Pelo menos
     Union:
-      name: Union
+      name: União
       description: |-
-        One of the following:
+        Um dos seguintes:

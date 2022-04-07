@@ -3,68 +3,68 @@ discord_bot:
   commands:
     pack:
       buttons:
-        add_to_everyone: Add to @everyone
-        join_pack: Join Pack
-        leave_pack: Leave Pack
-        join_server: Join Server
-        all: Save All
+        add_to_everyone: Agregar a @everyone
+        join_pack: Unirse al Pack
+        leave_pack: Dejar el Pack
+        join_server: Unirse al servidor
+        all: Subir todos
       join:
-        no_pack: '%{name} is not a registered emote pack'
-        already_joined: You are already joined to %{name}
+        no_pack: '%{name} no esta registrado como un pack'
+        already_joined: Ya te has unido a %{name}
         joined_pack: |
-          Joined %{name}.
-          You may now use the following emotes by typing its name into chat, including colons:
+          Unido a %{name}.
+          Ahora puedes utilizar los siguientes emoticonos escribiendo su nombre en el chat, incluyendo los dos puntos:
       leave:
-        no_pack: '%{name} is not a registered emote pack'
-        already_left: You weren't in %{name} anyway
-        left: Left %{name}
+        no_pack: '%{name} no esta registrado como un pack'
+        already_left: No estabas en %{name} de todas maneras
+        left: Dejado %{name}
       meta:
-        needs_publishing: You cannot do this without first publishing this server as an emote pack.
+        needs_publishing: No puedes hacer esto sin primero publicar este servidor como un pack de emoticonos.
       mine:
-        no_packs: You don't have any packs!
+        no_packs: '¡No tienes ningún pack!'
       publish:
-        already_published: This server is already published as a pack!
-        already_exists: An emote pack called %{name} already exists
-        published: Published emote pack %{name}. Anyone is able to save these emotes to their own server, and you assert that you are the owner of these emotes. To undo this, run `%{prefix}pack unpublish`.
+        already_published: '¡Este servidor ya esta publicado como un pack!'
+        already_exists: Un pack de emoticonos llamado %{name} ya existe
+        published: Publicado pack %{name}. Cualquier persona es capaz de añadir estos emoticonos a su servidor, y tu aseguras que eres el dueño de estos emoticonos. Para deshacer esto escribe `%{prefix}pack unpublish`.
         pack_published: |
-          To gain access to all these emotes, run
+          Para obtener acceso a estos emojis, usa:
           >>> !pack join %{name}
       rename:
-        already_exists: An emote pack called %{name} already exists
-        not_published: This server was not published before.
-        renamed: Renamed %{old} to %{new}
+        already_exists: Un pack llamado %{name} ya existe
+        not_published: Este server no fue publicado anteriormente.
+        renamed: Renombrado %{old} a %{new}
       save:
-        none_left: After filtering out emotes with the same name as ones in this server, there were none left to import!
-        no_space: There's no space in this server to add any of the emotes in this pack.
+        none_left: '¡Tras filtrar los emoticonos con el mismo nombre con los de este servidor, no hay ninguno mas que importar!'
+        no_space: No hay espacio en este servidor para añadir ningún emoticono de este pack.
         failed_batch: |
-          Discord only allows bots to upload 50 emotes per hour.
-          NQN wasn't able to upload all the emotes in this batch, but you can run this command again in an hour to upload the rest
-        not_registered: '%{name} is not a registered emote pack'
-        upload_question: "Upload these emotes to this server?\n If you are not the owner of all of these emoji, choose N."
+          No fue posible importar el ultimo lote de emoticonos; intenta de nuevo en unas horas
+        not_registered: '%{name} no es un pack registrado'
+        upload_question: "¿Subir estos emoticonos al servidor?\n Si no eres el dueño de estos emoticonos, elige N."
         uploaded:
-          one: Uploaded %{count} emote
-          many: Uploaded %{count} emotes
+          one: Subido %{count} emoticono
+          many: Subido %{count} emoticonos
       search:
-        invalid_group: <Invalid pack - Please Report>
+        invalid_group: <Pack invalido - Reportar por favor >
       set_public:
-        needs_publishing: You cannot do this without first publishing this server as an emote pack.
-        public_on: Allowed invites via NQN.
-        public_off: Disabled invites via NQN.
+        needs_publishing: No puedes hacer esto sin primero haber publicado este servidor como un pack de emojis.
+        public_on: Se habilitaron las invitaciones a través de NQN.
+        public_off: Se deshabilitaron las invitaciones a través de NQN.
       show:
-        not_registered: '%{name} is not a registered emote pack'
-        pack_empty: This pack has no emotes in it!
-        join_pack: 'Contents of pack "%{name}":'
+        not_registered: '%{name} no es un pack de emojis registrado'
+        pack_empty: Este pack no tiene ningún emoji en el!
+        join_pack: 'Contenidos del pack "%{name}:"'
       unpublish:
-        not_published: This server was not published before.
-        unpublished: Unpublished emote pack %{name}
+        not_published: Este servidor no fue publicado previamente.
+        unpublished: Se removió el pack %{name}
       dm:
         send_dms:
           zero: |
-            You have no packs!
-            Get some with `%{prefix}pack search`
+            ¡No tienes ningún pack!
+            Asignatelos con `%{prefix}pack search`
           one: |
-            This will send you a direct message; do you wish to continue?
+            Esto te enviara un mensaje privado; ¿deseas continuar?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            Esto te enviara %{count} mensajes privados; ¿deseas continuar?
         blocked: |-
-          You've blocked me, I can't message you!
+          Me has bloqueado :c
+          ¡No te puedo evniar mensajes!

@@ -1,72 +1,72 @@
 ---
 permissions:
   add_reactions: |-
-    Add Reactions
+    Adicionar Reações
   administrator: |-
-    Administrator
+    Administrador
   attach_files: |-
-    Attach Files
+    Anexar Arquivos
   ban_members: |-
-    Ban Members
+    Banir Membros
   change_nickname: |-
-    Change Nickname
+    Mudar Apelido
   connect: |-
-    Connect
+    Conectar
   create_instant_invite: |-
-    Create Instant Invite
+    Crie um convite instantâneo
   deafen_members: |-
-    Deafen Members
+    Ensurdecer Membros
   embed_links: |-
     Embed Links
   external_emojis: |-
-    External Emojis
+    Emojis Externos
   kick_members: |-
-    Kick Members
+    Chutar Membros
   manage_channels: |-
-    Manage Channels
+    Gerenciar Canais
   manage_emojis: |-
-    Manage Emojis
+    Gerenciar Emojis
   manage_guild: |-
-    Manage Server
+    Gerenciar Servidor
   manage_messages: |-
-    Manage Messages
+    Gerenciar Mensagens
   manage_nicknames: |-
-    Manage Nicknames
+    Gerenciar Nicknames
   manage_permissions: |-
-    Manage Roles
+    Gerenciar Cargos
   manage_roles: |-
-    Manage Roles
+    Gerenciar Cargos
   manage_webhooks: |-
-    Manage Webhooks
+    Gerenciar Webhooks
   mention_everyone: |-
-    Mention Everyone
+    Mencionar Everyone
   move_members: |-
-    Move Members
+    Mover Membros
   mute_members: |-
-    Mute Members
+    Mutar Membros
   priority_speaker: |-
-    Priority Speaker
+    Voz Prioritaria
   read_message_history: |-
-    Read Message History
+    Ler o histórico da mensagem
   read_messages: |-
-    Read Messages
+    Ler Menssgens
   send_messages: |-
-    Send Messages
+    Enviar Mensagem
   send_tts_messages: |-
     Send TTS Messages
   speak: |-
-    Speak
+    Falar
   stream: |-
     Stream
   use_external_emojis: |-
-    Use External Emojis
+    Usar emojis Externos
   use_public_threads: |-
-    Use Public Threads
+    Usar Tópicos Publicos
   use_voice_activation: |-
-    Use Voice Activation
+    Usar ativação por voz
   view_audit_log: |-
-    View Audit Log
+    Ver Registro de Auditoria
   view_channel: |-
-    View Channel
+    Ver Canal
   view_guild_insights: |-
-    View Server Insights
+    Ver Destaques do Servidor

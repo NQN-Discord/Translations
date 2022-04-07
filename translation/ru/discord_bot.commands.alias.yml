@@ -2,15 +2,15 @@
 discord_bot:
   commands:
     alias:
-      no_alias: "You don't have an alias called \\:%{name}:"
-      could_not_find: Could not find alias
-      alphanumeric: Aliases can only contain alphanumerics and underscores
-      max_length: Alias names can be at most 32 characters long
-      user_zero: You have no aliases
+      no_alias: "\u0412\u044B \u043D\u0435 \u0438\u043C\u0435\u0435\u0442\u0435 \u044D\u043C\u043E\u0434\u0437\u0438 \u0441 \u0438\u043C\u0435\u043D\u0435\u043C \\:%{name}:"
+      could_not_find: \u041D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u043D\u0430\u0439\u0442\u0438 \u044D\u043C\u043E\u0434\u0437\u0438
+      alphanumeric: \u042D\u043C\u043E\u0434\u0437\u0438 \u043C\u043E\u0433\u0443\u0442 \u0441\u043E\u0434\u0435\u0440\u0436\u0430\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E \u0431\u0443\u043A\u0432\u044B, \u0446\u0438\u0444\u0440\u044B \u0438 \u0441\u0438\u043C\u0432\u043E\u043B\u044B \u043F\u043E\u0434\u0447\u0435\u0440\u043A\u0438\u0432\u0430\u043D\u0438\u044F.
+      max_length: \u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u044D\u043C\u043E\u0434\u0437\u0438 \u0434\u043E\u043B\u0436\u043D\u043E \u0431\u044B\u0442\u044C \u043D\u0435 \u0431\u043E\u043B\u044C\u0448\u0435 32 \u0441\u0438\u043C\u0432\u043E\u043B\u043E\u0432 \u0432 \u0434\u043B\u0438\u043D\u0443
+      user_zero: \u0423 \u0432\u0430\u0441 \u043D\u0435\u0442 \u043A\u0430\u043A\u0438\u0445-\u043B\u0438\u0431\u043E \u044D\u043C\u043E\u0434\u0437\u0438
       from_message:
         no_emotes: This message doesn't have any custom emojis in it!
       delete:
-        deleted: 'Deleted \:%{name}:'
+        deleted: '\u0412\u044B \u0443\u0434\u0430\u043B\u0438\u043B\u0438 \\:%{name}:'
       delete_all:
         confirm: |
           This will delete all **%{count}** of your aliases.

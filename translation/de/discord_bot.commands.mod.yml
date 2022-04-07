@@ -1,0 +1,42 @@
+---
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: Keine Nachrichten zum Überprüfen.
+        expand: Erweitern
+        truncate: Kürzen
+      edit_topic:
+        edited: '%{channel}s Thema wurde bearbeitet.'
+        edited_audit: "%{author} änderte %{channel}s Thema zu:\n>>> %{description}"
+      ban:
+        owner: Ich kann nicht den Besitzer bannen!
+        cannot_ban: Ich kann <@%{banee}> nicht bannen!
+        you_cannot_ban: You cannot ban <@%{banee}> nicht bannen!
+        banned: 'Gebannt: <@%{banee}> (ID %{banee})'
+        banned_audit: '%{author} bannte <@%{banee}> (ID %{banee})'
+      kick:
+        owner: Ich kann nicht den Besitzer kicken!
+        cannot_kick: Ich kann <@%{kickee}> nicht kicken!
+        you_cannot_kick: Du kannst <@%{kickee}> nicht kicken!
+        kicked: 'Gekickt: <@%{kickee}> (ID %{kickee})'
+        kicked_audit: '%{author} kickte <@%{kickee}> (ID %{kickee})'
+      purge:
+        '0_100': Die Anzahl der zu entfernenden Nachrichten muss zwischen 1 und 100 sein
+        audit:
+          one: '%{author} entfernte %{count} Nachrichten aus %{channel}'
+          many: '%{author} entfernte %{count} Nachrichten aus %{channel}'
+      move:
+        user_no_perms: Du hast nicht beides 'Send Messages' und 'Manage Messages' in %{channel}.
+        me_no_perms: Ich habe nicht 'Manage Webhooks' in %{channel}.
+        everyone_no_perms: Die @everyone Rolle benötigt 'Use External Emojis' in %{channel}.
+        '1_20': Die Zahl der zu verschiebenden Nachrichten muss zwischen 1 und 20 sein
+        moved_to:
+          one: '%{count} Nachricht nach %{to_channel} verschoben'
+          many: '%{count} Nachrichten nach %{to_channel} verschoben'
+        moved_from:
+          one: '%{author} hat %{count} Nachricht aus %{from_channel} verschoben'
+          many: '%{author} hat %{count} Nachrichten aus %{from_channel} verschoben'
+        moved_to_from:
+          one: '%{author} hat %{count} Nachricht aus %{from_channel} nach %{to_channel} verschoben'
+          many: '%{author} hat %{count} Nachrichten aus %{from_channel} nach %{to_channel} verschoben'

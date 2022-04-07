@@ -3,73 +3,73 @@ discord_bot:
   commands:
     persona:
       not_enabled: |
-        Personas are not enabled in this server.
-        They allow users to use ⚠️**custom usernames** and **avatars**⚠️ with NQN, so are not enabled by default.
-      enable_personas: Enable personas
+        Os personagens não estão habilitados neste servidor.
+        Esta função permite o uso de ⚠️**nomes de usuário personalizados** e **fotos de perfil personalizadas** ⚠ com NQN, portanto ela não está habilitada por padrão.
+      enable_personas: Habilitar personagens
       name_regex: |
-        Persona names can only contain alphanumerics, dashes and underscores, and be at most 80 characters long.
-        > '%{persona_name}' does not match these requirements.
+        Os nomes de personagens só podem conter alfanuméricos, hífens e *underscores* e ter no máximo 80 caracteres.
       max_display_name: |
-        Usernames can be at most 80 characters long
+        Os nomes de usuário podem ter no máximo 80 caracteres
       persona_doesnt_exist: |
-        You don't have a persona called %{short_name}!
-        Create one with `%{prefix}persona register %{short_name}`
+        Você não tem um personagem chamado %{short_name}!
+        Crie um com `%{prefix}persona register %{short_name}`
       export:
         exported_list_short: |
-          Here's your exported personas, they should be compatible with Tupperbox and Pluralkit.
+          Aqui estão seus personagens exportados, eles são compatíveis com Tupperbox e Pluralkit.
         exported_list_long: |
-          Here's your exported personas, they should be compatible with Tupperbox and Pluralkit.
-          To share them with other people, they need to run:
+          Aqui estão seus personagens exportados, eles são compatíveis com Tupperbox e Pluralkit.
+          Para que outra pessoa use eles, ela precisa executar:
           > `%{prefix}persona import %{url}`
       import_:
         import_incorrect: |
-          This command is used to import a persona list previously exported with `%{prefix}persona export`, or equivalent export commands from PluralKit and Tupperbox.
-          To create a persona, use `%{prefix}persona register`
-        import_text: This command needs a json file attachment
+          Este comando é usado para importar uma lista de persona previamente exportada com `% {prefix} persona export`, ou comandos de exportação equivalentes do PluralKit e Tupperbox.
+          Para criar um personagem, use `%{prefix} persona register`
+        import_text: Este comando precisa de um anexo de arquivo json
         set_personas:
-          one: Imported one persona
-          many: Imported %{count} personas
+          one: Importou um personagem
+          many: Importados %{count} personagens
         invalid_persona: Do you wish to continue importing the rest of the file, ignoring this entry?
       list:
         no_personas: |
-          You don't have any personas!
+          Você não tem nenhum personagem!
       register:
         display_name: Nickname
         avatar_url: Avatar URL
         create: Create Persona
         persona_exists: |
-          You already have a persona called %{short_name}.
-          You can rename it with `%{prefix}persona rename %{short_name} new_name`
+          Você já tem um personagem chamado %{short_name}.
+          Você pode renomeá-lo com `%{prefix}persona rename %{short_name} Novo_Nome`
         registered_persona: |
-          Registered %{short_name} as your persona!
-          To send messages as them, send a message starting with `%{short_name}:`, for example:
-          > ```%{short_name}: Hello!```
-          To change their username in messages to 'NQN', run:
-          > ```%{prefix}persona display_name %{short_name} NQN```
-          To change their avatar in messages, run:
+          Registrei %{short_name} como seu personagem!
+
+          Para usá-lo, envie uma mensagem começando com `%{short_name}:`, por exemplo:
+          > ```%{short_name}: Olá!```
+          Para definir o nome de usuário do seu personagem, execute:
+          > ```%{prefix}persona display_name %{short_name} Nome```
+          Para definir o avatar do seu personagem, tenha o link de uma imagem e execute:
           > ```%{prefix}persona avatar_url %{short_name} https://...```
       rename:
         renamed_persona: |
-          Renamed %{old_name} to %{new_name}.
+          Pronto! %{old_name} foi renomeado para %{new_name}.
       avatar_url:
         persona_avatar_url: |
-          Set %{short_name}'s avatar.
+          O avatar de %{short_name} foi definido.
         avatar_regex: |
-          Avatars must be given as URLs to the image you want to use.
+          Você deve definir o avatar usando o link de uma imagem.
       delete:
         persona_deleted: |
-          Deleted information about %{short_name}.
+          O personagem %{short_name} foi excluído.
       display_name:
         renamed_persona_display_name: |
-          Set %{short_name}'s username to %{display_name}.
+          O nome de usuário de %{short_name} foi definido para %{display_name}.
       dm:
         send_dms:
           zero: |
-            You have no personas!
-            Get some with `%{prefix}persona register`
+            Você não tem nenhum personagem!
+            Crie um com `%{prefix}persona register Nome`
           one: |
-            This will send you a direct message; do you wish to continue?
+            Isso vai te enviar uma mensagem direta; você quer continuar?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            Isso vai te enviar %{count} mensagens diretas; você quer continuar?
         blocked: |
-          You've blocked me, I can't message you!
+          Você me bloqueou! Não consigo te mandar mensagem!

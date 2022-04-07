@@ -2,52 +2,53 @@
 discord_bot:
   commands:
     alias:
-      no_alias: "You don't have an alias called \\:%{name}:"
-      could_not_find: Could not find alias
-      alphanumeric: Aliases can only contain alphanumerics and underscores
-      max_length: Alias names can be at most 32 characters long
-      user_zero: You have no aliases
+      no_alias: "Você não tem um alias chamado \\:%{name}:"
+      could_not_find: Não foi possível encontrar esse alias
+      alphanumeric: Os aliases podem conter apenas alfanuméricos e *underscores*
+      max_length: Os nomes dos aliases podem ter no máximo 32 caracteres
+      user_zero: Você não tem aliases
       from_message:
-        no_emotes: This message doesn't have any custom emojis in it!
+        no_emotes: Essa mensagem não tem nenhum emoji!
       delete:
-        deleted: 'Deleted \:%{name}:'
+        deleted: 'O alias \\:%{name}: foi excluído'
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your aliases.
-          Are you sure you wish to continue?
+          Isso vai excluir todos os seus **%{count}** aliases.
+          Tem certeza que deseja continuar?
         deleted:
-          one: Deleted 1 alias
-          many: Deleted %{count} aliases
+          one: 1 alias foi excluído
+          many: '%{count} aliases foram excluídos'
       created:
-        one: 'You created an alias and can use it by typing:'
-        many: 'You created %{count} aliases and can use them by typing:'
+        one: 'Você criou um alias e pode usá-lo digitando:'
+        many: 'Você criou %{count} aliases e pode usá-los digitando:'
       rename:
         rename: Rename Alias
         alias_name: 'Alias Name:'
-        renamed: 'Renamed \:%{old}: to :%{new}:'
+        renamed: '\:%{old}: foi renomeado para :%{new}:'
       export:
-        exported_short: "Here's your exported aliases:"
+        exported_short: "Aqui estão seus aliases exportados:"
         exported_long: |
-          Here's your exported aliases:
-          To share them with other people, they need to run:
-          > `%{prefix}alias import %{url}`
+          Aqui estão seus aliases exportados:
+          Para para que outras pesssoas possam usá-los, eles precisam executar:
+          > `%{prefix}alias import %{url}
       import_:
         import_incorrect: |
-          This command is used to import an alias list previously exported with `%{prefix}alias export`.
-          To create an alias, use `%{prefix}alias search`
-        import_text: This command needs a text file attachment
-        import_lines_invalid: Could not set aliases on lines %{lines_invalid}, invalid format.
+          Este comando é usado para importar uma lista de aliases previamente exportada com `%{prefix}alias export`.
+          Para procurar um emoji e criar um alias dele, use `%{prefix}alias search`
+        import_text: Este comando precisa de um anexo de arquivo de texto
+        import_lines_invalid: Não foi possível definir aliases nas linhas %{lines_invalid}, formato inválido.
         import_set:
-          one: Set %{count} alias.
-          many: Set %{count} aliases.
+          one: '%{count} alias foi definido.'
+          many: '%{count} aliases foram definidos.'
       dm:
         send_dms:
           zero: |
-            You have no aliases!
-            Get some with `%{prefix}alias search`
+            Você não tem aliases!
+            Consiga alguns procurando emojis com `%{prefix}alias search`
           one: |
-            This will send you a direct message; do you wish to continue?
+            Isso te enviará uma mensagem privada; Você deseja continuar?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            Isso te enviará várias mensagens privadas; Você deseja continuar?
         blocked: |-
-          You've blocked me, I can't message you!
+          Você me bloqueou! :O
+          Eu não posso te enviar mensagens!

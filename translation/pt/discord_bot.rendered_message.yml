@@ -3,15 +3,15 @@ discord_bot:
   rendered_message:
     oops: Oops!
     external_emojis: |
-      In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Server Settings**.
+      Para usar emojis de outros servidores, o cargo @everyone precisa da permissão 'Usar Emojis Externos' nas **Configurações do Servidor**.
     override_external_emojis: |
-      In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
-    download: Download
+      Para usar emojis de outros servidores, o cargo @everyone precisa de permissão para 'Usar Emojis Externos' nas **Configurações de Permissões do Canal**.
+    download: Baixar
     no_personas: |
-      Personas are not allowed in this server
+      Os personagens não estão habilitados neste servidor
     no_messageless_posting: |
-      A server administrator has disabled posting through the web dashboard and slash commands
+      Um administrador desativou o envio de mensagens pelo *dashboard* e por commandos slash
     no_slowmode_posting: |
-      Posting messages in channels with a slowmode is not allowed
-    enable_posting: Enable Posting
-    posted_message: Posted message
+      Enviar mensagens em canais com o modo lento não é permitido
+    enable_posting: Habilitar envio de mensagens
+    posted_message: Mensagem enviada

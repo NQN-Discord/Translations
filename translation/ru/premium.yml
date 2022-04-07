@@ -1,47 +1,47 @@
 ---
 premium:
   no_premium: |
-    Your Patreon does not have premium status
+    Ваш Patreon не имеет Premium статус
   no_patreon: |
-    No Patreon account associated with this Discord account
+    Patreon не привязан к этому Discord-аккаунту
   account_not_changed: |
-    Updated your premium server list; your linked Discord account has not changed
+    Обновлён список ваших премиум-серверов; ваш привязанный Discord аккаунт не был изменён
   gained_premium: |
-    Linked your Discord account to Patreon! Your premium features are now applied to this account.
+    Ваш Patreon аккаунт был привязан к Discord-аккаунту! Премиум-функции теперь применяются к этому аккаунту.
   associate_account: |
-    No Patreon account associated with this Discord account.
-    [Associate your Discord account with Patreon](%{patreon_oauth})
+    Patreon не привязан к этому Discord-аккаунту
+    [Привязать Patreon](%{patreon_oauth})
   updated_status: |
-    Your account status has been updated; check your direct messages.
+    Статус вашего аккаунта был обновлён; посмотрите ваше ЛС.
   user_gained_premium: |
-    Hey %{user_mention}, thanks for getting premium! We really appreciate your contribution <:BlueLove:831617205132329040>
-    Here's the list of servers that get premium access from you:
+    Здравствуйте %{user_mention}, спасибо за получение премиума! Мы очень ценим ваш вклад <:BlueLove:831617205132329040>
+    Список ваших серверов которые получат доступ к премиум-возможностей:
     %{guild_list}
-    This list is calculated daily based on your shared servers with NQN where you have 'Administrator'. In case you want new access early, you can run
+    Этот список обновляется ежедневно на основе ваших серверов с NQN где у вас есть право 'Администратор'. Если вы хотите получить новый доступ раньше, вы можете выполнить
     > `%{prefix}premium check`
 
-    NQN premium gives access to the following commands in those servers:
+    NQN Premium даёт вам доступ к следующим командам:
   server_gained_premium:
     one: |
-      Hey %{user_mention}!
-      Thanks to one of your administrators getting premium, your server %{guild_list} has unlocked the following commands:
+      Здравствуйте, %{user_mention}!
+      Благодаря одному из ваших администраторов получившим Premium, ваш сервер %{guild_list} получил доступ к следующим командам:
     many: |
-      Hey %{user_mention}!
-      Thanks to one of your administrators getting premium, the following servers you own now have premium access:
+      Здравствуйте, %{user_mention}!
+      Благодаря одному из ваших администраторов получившим Premium, ваши сервера которыми вы владеете теперь имеют Premium-возможности:
       %{guild_list}
 
-      NQN premium gives access to the following commands in those servers:
+      NQN Premium даёт вам доступ к следующим командам:
   user_lost_premium: |
-    Hey %{user_mention}, just wanted to let you know that you no longer have premium.
-    Thanks for your support^^
+    Здравствуйте %{user_mention}, сообщаю вам, что у вас больше нет доступа к премиум-возможностям.
+    Спасибо за поддержку^^
   server_lost_premium:
     one: |
-      Hey %{user_mention}, your server %{guild_list} no longer has premium access.
-      If you changed any premium only settings, they have now been reset.
+      Здравствуйте %{user_mention}, ваш сервер %{guild_list} больше не имеет Premium-возможностей.
+      Если вы изменяли какие-либо премиум-настройки, они были сброшены.
     many: |
-      Hey %{user_mention}, the following servers you own no longer have premium access:
+      Здравствуйте %{user_mention}, следующие сервера которыми вы владеете больше не имеют Premium-возможностей.
       %{guild_list}
-      If you changed any premium only settings, they have now been reset.
+      Если вы изменяли какие-либо премиум-настройки, они были сброшены.
   premium_commands: |
-    > `%{prefix}server set_nitro_role` - Restricts access to NQN to users with a specific role.
-    > `%{prefix}server user_content` - Enforces emojis posted via NQN to be ones in your server, in your `%{prefix}server alias` list or `%{prefix}server pack` list. When this setting is enabled, user content search based commands will be disabled.
+    > `%{prefix}server set_nitro_role` - Ограничивает доступ к NQN для пользователей с определенной ролью.
+    > `%{prefix}server user_content` - Требует чтобы эмодзи отправленные через NQN были на вашем сервере в списке `%{prefix}server alias` или `%{prefix}server pack`. Когда этот параметр включен, команды поиска пользовательского контента будут отключены.

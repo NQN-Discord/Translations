@@ -1,72 +1,72 @@
 ---
 permissions:
   add_reactions: |-
-    Add Reactions
+    Añadri Reacciones
   administrator: |-
-    Administrator
+    Administrador
   attach_files: |-
-    Attach Files
+    Adjuntar Archivos
   ban_members: |-
-    Ban Members
+    Banear Miembros
   change_nickname: |-
-    Change Nickname
+    Cambiar Apodo
   connect: |-
-    Connect
+    Conectar
   create_instant_invite: |-
-    Create Instant Invite
+    Crear Invitacion
   deafen_members: |-
-    Deafen Members
+    Ensordecer Miembros
   embed_links: |-
-    Embed Links
+    Insetar Enlaces
   external_emojis: |-
-    External Emojis
+    Usar Emojis Externos
   kick_members: |-
-    Kick Members
+    Expulasr Miembros
   manage_channels: |-
-    Manage Channels
+    Gestionar Canales
   manage_emojis: |-
-    Manage Emojis
+    Gestionar Emojis
   manage_guild: |-
-    Manage Server
+    Gestionar Servidor
   manage_messages: |-
-    Manage Messages
+    Gestionar Mensajes
   manage_nicknames: |-
-    Manage Nicknames
+    Gestionar Apodos
   manage_permissions: |-
-    Manage Roles
+    Gestionar Roles
   manage_roles: |-
-    Manage Roles
+    Gestionar Roles
   manage_webhooks: |-
-    Manage Webhooks
+    Gestionar Webhooks
   mention_everyone: |-
-    Mention Everyone
+    Mencionar Everyone
   move_members: |-
-    Move Members
+    Mover Miembros
   mute_members: |-
-    Mute Members
+    Silenciar Miembros
   priority_speaker: |-
-    Priority Speaker
+    Prioridad de Palabra
   read_message_history: |-
-    Read Message History
+    Leer Historial De Mensajes
   read_messages: |-
-    Read Messages
+    Leer Mensajes
   send_messages: |-
-    Send Messages
+    Enviar Mensajes
   send_tts_messages: |-
-    Send TTS Messages
+    Enviar Mensajes De Texto A Voz
   speak: |-
-    Speak
+    Hablar
   stream: |-
-    Stream
+    Video
   use_external_emojis: |-
-    Use External Emojis
+    Usar Emojis Externos
   use_public_threads: |-
-    Use Public Threads
+    Enviar Mensajes en Hilos
   use_voice_activation: |-
-    Use Voice Activation
+    Usar Actividad De Voz
   view_audit_log: |-
-    View Audit Log
+    Ver Registro De Auditoría
   view_channel: |-
-    View Channel
+    Ver Canal
   view_guild_insights: |-
-    View Server Insights
+    Ver Informacion Del Servidor

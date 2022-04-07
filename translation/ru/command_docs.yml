@@ -1,9 +1,9 @@
 ---
 command_docs:
   alias-delete:
-    short_doc: Don't want an alias anymore? Use this
+    short_doc: \u0425\u043E\u0442\u0438\u0442\u0435 \u0438\u0437\u0431\u0430\u0432\u0438\u0442\u0441\u044F \u043E\u0442 \u044D\u043C\u043E\u0434\u0437\u0438? \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u044D\u0442\u0443 \u043A\u043E\u043C\u0430\u043D\u0434\u0443
     help: |
-      Don't want an alias anymore? Use this
+      Хотите избавится от эмодзи? Используйте эту команду
   alias-delete_all:
     short_doc: I don't like any of my aliases
     help: |
@@ -13,128 +13,125 @@ command_docs:
     help: |
       Have the bot send you a list of your aliases in your DMs
   alias-export:
-    short_doc: Export your alias list
+    short_doc: \u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0432\u0430\u0448\u0438\u0445 \u0432\u0435\u043B\u0438\u043A\u043E\u043B\u0435\u043F\u043D\u044B\u0445 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |
-      Export your alias list
+      Позволяет экспортировать эмодзи
   alias-import:
-    short_doc: Import someone else's alias list
+    short_doc: \u0418\u043C\u043F\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0447\u0435\u0439-\u0442\u043E \u0434\u0440\u0443\u0433\u043E\u0439 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |
-      Import someone else's alias list
+      Импортировать чей-то другой эмодзи
   alias-list:
-    short_doc: Get a list of aliases you've made
+    short_doc: \u0412\u044B\u0432\u043E\u0434 \u0441\u043F\u0438\u0441\u043A\u0430 \u0441\u043E \u0432\u0441\u0435\u043C\u0438 \u044D\u043C\u043E\u0434\u0437\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u043C\u0438 \u0432\u044B \u0432\u043B\u0430\u0434\u0435\u0435\u0442\u0435
     help: |
-      Get a list of aliases you've made
+      Окунёмся в список приобретённых вами эмодзи!
   alias-rename:
-    short_doc: Rename one of your aliases
+    short_doc: \u041F\u0435\u0440\u0435\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |
-      Rename one of your aliases
+      Переименовывает эмодзи
   alias-search:
-    short_doc: Look for individual emotes to use with NQN
+    short_doc: \u041F\u043E\u0438\u0441\u043A \u044D\u043C\u043E\u0434\u0437\u0438 \u0438 \u0438\u0445 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u0432\u043C\u0435\u0441\u0442\u0435 \u0441 NQN
     help: |
-      Look for individual emotes to use with NQN
+      Найдите индивидуальные эмодзи, чтобы использовать их с NQN
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      Поиск позволяет использовать некоторые функции:
+      - `exact`: (по умолчанию false) ищет эмодзи с ТОЧНЫМ названием.
+      - `animated`: показывает только анимированные или статические эмодзи.
+      - `page`: переносит на указунную вами страницу поиска.
+      - `order`: 'uses' / 'random' Ищет часто используемые или рандомные эмодзи.
   alias:
-    short_doc: Manage the individual emotes you can use
+    short_doc: \u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0442\u043E\u043D\u043D\u043E\u0439 \u0441\u043E\u0431\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0445 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |
-      Manage the individual emotes you can use
-
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      Помощь с управлением ваших собственными эмодзи
   audit:
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: \u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440 \u0430\u0443\u0434\u0438\u0442\u0430 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
+      Получение аудита репостированных сообщений.
+      Опция[#channel] -> Вы получите аудит указанного канала
+      Опция[@member] -> Вы получите аудит указанного пользователя(его репостированных сообщений)
 
-      If both channel and members are to be unfiltered, use 'audit guild'
+      Если и канал, и участники должны быть нефильтрованными, используйте 'audit guild'
   delete:
-    short_doc: Delete one of your messages reposted by NQN
+    short_doc: \u0423\u0434\u0430\u043B\u0435\u043D\u0438\u0435 \u0432\u0430\u0448\u0435\u0433\u043E \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F, \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043D\u043E\u0433\u043E \u0447\u0435\u0440\u0435\u0437 NQN
     help: |
-      Delete one of your messages reposted by NQN.
-      By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
-      You can also use Discord's message reply functionality to delete that message.
+      Удалит одно из ваших сообщений, отправленного через NQN.
+      По умолчанию удаляется ваше последнее сообщение в этом канале, но вы можете дополнительно указать URL сообщения, чтобы удалить его.
+      Вы также можете использовать функцию 'Ответить', чтобы удалить это сообщение.
   edit:
-    short_doc: Edit a message posted by NQN
+    short_doc: \u0420\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0432\u0430\u0448\u0435\u0433\u043E \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F, \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043D\u043E\u0433\u043E \u0447\u0435\u0440\u0435\u0437 NQN
     help: |
-      Edits the content of one of your messages reposted by NQN.
-      By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
-      You can also use Discord's message reply functionality to edit that message.
+      Отредактирует ваше сообщение, отправленного через NQN.
+      По умолчанию редактируется ваше последнее сообщение в этом канале, но вы можете дополнительно указать URL сообщения, чтобы изменить его.
+      Вы также можете использовать функцию 'Ответить', чтобы отредактировать это сообщение.
   export:
-    short_doc: Export your emote list
+    short_doc: \u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0432\u0430\u0448\u0435\u0433\u043E \u0441\u043F\u0438\u0441\u043A\u0430 \u0441 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |
-      Export your emote list
+      Экспортирует список ваших эмодзи, которыми вы владеете
   help:
-    short_doc: Learn about my commands
+    short_doc: \u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442 \u044D\u0442\u043E \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435
     help: |
-      Learn about the commands you can run with NQN
+      Показывает это сообщение
   ignore_me:
-    short_doc: Stop NQN from reposting your messages
+    short_doc: \u041D\u0435 \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 NQN \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C \u0441 \u0432\u0430\u043C\u0438
     help: |
-      Running this command stops NQN from reposting any of your messages in any server you share with the bot.
-      - Commands are still enabled, running this command again returns you to normal
-      - You can still repost messages through our [dashboard](https://nqn.blue)
-      - The bot will not respond to any messages you send that would be reposted through a webhook
+      Введя эту команду, она останавливает NQN от повторной публикации любых ваших сообщений на любом сервере, которыми вы делитесь с ботом.
+      - Команды будут работать, повторное её использование вернёт вам возможность использовать бота.
+      - Вы все ещё можете публиковать сообщения через нашу [панель управления](https://nqn.blue)!
+      - Бот не будет отвечать ни на какие отправленные вами сообщения, которые могли быть отправлены через вебхук.
   info:
-    short_doc: Internal statistics about the bot
+    short_doc: \u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043A\u0430 \u0431\u043E\u0442\u0430
     help: |
-      Internal statistics about the bot
+      Статистика бота
   invite_me:
-    short_doc: Invite the bot to your server!
+    short_doc: \u041F\u0440\u0438\u0433\u043B\u0430\u0441\u0438\u0442 \u0431\u043E\u0442\u0430 \u043D\u0430 \u0432\u0430\u0448 \u0441\u0435\u0440\u0432\u0435\u0440!
     help: |
-      Invite the bot to your server!
+      Пригласит бота на ваш сервер!
   jumbo:
     short_doc: Makes an emoji bigger
     help: |
       Makes an emoji bigger
   mod-audit:
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: \u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440 \u0430\u0443\u0434\u0438\u0442\u0430 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
+      Получение аудита репостированных сообщений.
+      Опция[#channel] -> Вы получите аудит указанного канала
+      Опция[@member] -> Вы получите аудит указанного пользователя(его репостированных сообщений)
 
-      If both channel and members are to be unfiltered, use 'audit guild'
+      Если и канал, и участники должны быть нефильтрованными, используйте 'audit guild'
   mod-ban:
-    short_doc: Ban the user that posted a message
+    short_doc: \u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u0437\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F? \u042D\u0442\u0430 \u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u0432\u0430\u043C \u043F\u043E\u043C\u043E\u0436\u0435\u0442!
     help: |
-      Ban the user that posted a message
+      Блокирует пользователя через отправленное им сообщение, с помощью NQN
   mod-edit_topic:
-    short_doc: Add animated emojis to channel topics
+    short_doc: \u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u0435 \u0442\u0435\u043C\u044B \u043A\u0430\u043D\u0430\u043B\u0430
     help: |
-      Changes the channel description, allowing for animated emojis in them as well
+      Украсьте тему одного из ваших каналов
   mod-kick:
-    short_doc: Kick the user that posted a message
+    short_doc: \u041A\u0438\u043A \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F
     help: |
-      Kick the user that posted a message
+      Выгоняет пользователя через отправленное им сообщение, с помощью NQN
   mod-move:
-    short_doc: Move up to 20 of the most recent messages in this channel to another
+    short_doc: \u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u0434\u043E 20 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0445 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439 \u0438\u0437 \u044D\u0442\u043E\u0433\u043E \u043A\u0430\u043D\u0430\u043B\u0430 \u0432 \u0434\u0440\u0443\u0433\u043E\u0439
     help: |
-      Move up to 20 of the most recent messages in this channel to another
+      Переместит до 20 последних сообщений из этого канала в другой.
+      Сейчас будет происходить магия
   mod-purge:
-    short_doc: Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user
+    short_doc: \u041E\u0447\u0438\u0441\u0442\u043A\u0430 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439
     help: |
-      Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user
+      Очистит указаное число репостированных сообщений, написанных NQN.
+      Имеется опция фильтрации по конкретному пользователю.
   mod:
-    short_doc: Moderation features for NQN
+    short_doc: \u041A\u043E\u043C\u0430\u043D\u0434\u044B \u0434\u043B\u044F \u043C\u043E\u0434\u0435\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
     help: |
-      Moderation features for NQN
+      Команды модерации NQN
   move:
-    short_doc: Move up to 20 of the most recent messages in this channel to another
+    short_doc: \u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u0434\u043E 20 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0445 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439 \u0438\u0437 \u044D\u0442\u043E\u0433\u043E \u043A\u0430\u043D\u0430\u043B\u0430 \u0432 \u0434\u0440\u0443\u0433\u043E\u0439
     help: |
-      Move up to 20 of the most recent messages in this channel to another
+      Переместит до 20 последних сообщений из этого канала в другой.
+      Сейчас будет происходить магия
   mutuals:
     short_doc: See the servers I share with you
     help: |
-      See the servers I share with you in DMs
+      Ничего
   my_emotes:
     short_doc: See what emojis you can post with NQN
     help: |
@@ -148,53 +145,54 @@ command_docs:
     help: |
       Have the bot send you a complete list of yout packs current emoji lists through your DMs.
   pack-join:
-    short_doc: Subscribe to an emote pack
+    short_doc: \u041F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u0435 \u043E\u0434\u043D\u043E\u0433\u043E \u0438\u0437 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u0445 \u0442\u044B\u0441\u044F\u0447 \u043F\u0430\u043A\u043E\u0432 \u0441 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |
-      Subscribe to an emote pack
+      Используйте различные эмодзи из сотних разных, и по своему уникальных, паков!
+      Пора бы присоединить несколько из таких, верно...?
   pack-leave:
-    short_doc: Unsubscribe from an emote pack
+    short_doc: \u041F\u043E\u043A\u0438\u043D\u0443\u0442\u044C \u043F\u0430\u043A \u0441 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |
-      Unsubscribe from an emote pack
+      Покиньте пак, если он вам не понравился
   pack-meta:
-    short_doc: Oooh... Pretty stats about your pack
+    short_doc: \u0427\u0442\u043E\u0436... \u0414\u043E\u0432\u043E\u043B\u044C\u043D\u043E \u0445\u043E\u0440\u043E\u0448\u0430\u044F \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043A\u0430 \u0432\u0430\u0448\u0435\u0433\u043E \u043F\u0430\u043A\u0430
     help: |
-      Oooh... Pretty stats about your pack
+      Выводит статистику вашего пака (статистику кол-ва его использования)
   pack-mine:
-    short_doc: Get a list of emote packs you're subscribed to
+    short_doc: \u0412\u044B\u0432\u043E\u0434 \u0441\u043F\u0438\u0441\u043A\u0430 \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u0451\u043D\u043D\u044B\u0445 \u0432\u0430\u043C\u0438 \u043F\u0430\u043A\u043E\u0432
     help: |
-      Get a list of emote packs you're subscribed to
+      Получите список паков, которые вы присоединили
   pack-publish:
-    short_doc: Publish your emote server as an emote pack
+    short_doc: \u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u0432\u0430\u0448\u0435\u0433\u043E \u043F\u0430\u043A\u0430 \u0441 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |
-      Publish your emote server as an emote pack
+      Опубликует ваш сервер, как пак с эмодзи
   pack-rename:
-    short_doc: Rename an emote pack
+    short_doc: \u041F\u0435\u0440\u0435\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0430\u043A\u0430 \u0441 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |
-      Rename an emote pack
+      Переименовывает Ваш пак с эмодзи
   pack-save:
-    short_doc: Upload all of the emotes from a pack to this server
+    short_doc: \u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430 \u043F\u0430\u043A\u0430 \u0441 \u044D\u043C\u043E\u0434\u0437\u0438 \u043D\u0430 \u0432\u0430\u0448 \u0441\u0435\u0440\u0432\u0435\u0440
     help: |
-      Upload all of the emotes from a pack to this server
+      Загрузит все эмодзи из пака на ваш сервер
   pack-search:
-    short_doc: Find entire packs of emotes to use with NQN
+    short_doc: \u041F\u043E\u0438\u0441\u043A \u043F\u0430\u043A\u043E\u0432 \u0441 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |
-      Find entire packs of emotes to use with NQN
+      Найдите целую тонну паков с сокровищами
   pack-set_public:
-    short_doc: Allow anyone to join this server via NQN.
+    short_doc: \u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u043F\u043E \u0441\u0435\u0440\u0432\u0435\u0440\u0430\u043C \u0447\u0435\u0440\u0435\u0437 \u043F\u0430\u043A\u0438
     help: |
-      Allow anyone to join this server via NQN.
+      Разрешит любому присоединяться к вашему серверу через пак. Всё легально!
   pack-show:
-    short_doc: Show the contents of a pack
+    short_doc: \u041F\u043E\u043A\u0430\u0437 \u0441\u043E\u0434\u0435\u0440\u0436\u0438\u043C\u043E\u0433\u043E \u0443\u043A\u0430\u0437\u0430\u043D\u043D\u043E\u0433\u043E \u0432\u0430\u043C\u0438 \u043F\u0430\u043A\u0430
     help: |
-      Show the contents of a pack
+      Покажит содержимое вашего или чужого пака
   pack-unpublish:
-    short_doc: Don't want this server to be an emote pack anymore?
+    short_doc: \u041D\u0435 \u0445\u043E\u0442\u0438\u0442\u0435, \u0447\u0442\u043E\u0431\u044B \u044D\u0442\u043E\u0442 \u0441\u0435\u0440\u0432\u0435\u0440 \u0431\u043E\u043B\u044C\u0448\u0435 \u0431\u044B\u043B \u043F\u0430\u043A\u043E\u043C?
     help: |
-      Don't want this server to be an emote pack anymore?
+      Не хотите, чтобы этот сервер больше был паком с эмодзи? Исправим это.
   pack:
-    short_doc: Manage entire pack of emotes
+    short_doc: \u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0446\u0435\u043B\u044B\u043C \u043F\u0430\u043A\u043E\u043C \u0441 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |
-      Manage entire pack of emotes
+      Вывод списка команд для работы с паками
   persona-avatar_url:
     short_doc: Set the avatar of a persona
     help: |
@@ -237,220 +235,220 @@ command_docs:
     help: |
       Manage your personas
   premium-check:
-    short_doc: Recalculate your premium information
+    short_doc: \u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043D\u0430\u043B\u0438\u0447\u0438\u044F \u043F\u0440\u0435\u043C\u0438\u0443\u043C-\u0441\u0442\u0430\u0442\u0443\u0441\u0430
     help: |
-      Recalculates your premium information, including the list of servers gaining premium from you.
+      Информация о вашем премиум-статуса, включая перечень серверов, премиум которым вы дали.
   premium:
-    short_doc: Information about NQN premium
+    short_doc: \u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043F\u0440\u043E \u043F\u0440\u0435\u043C\u0438\u0443\u043C NQN'\u0430
     help: |
-      Information about NQN premium
+      Информация про премиум NQN'а
   ranking:
-    short_doc: How high up is your server in our rankings?
+    short_doc: \u041D\u0430\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0432\u044B\u0441\u043E\u043A\u043E \u0432\u0430\u0448 \u0441\u0435\u0440\u0432\u0435\u0440 \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0441\u044F \u0432 \u043D\u0430\u0448\u0435\u043C \u0440\u0435\u0439\u0442\u0438\u043D\u0433\u0435?
     help: |
-      How high up is your server in our rankings?
+      Насколько высоко ваш сервер находится в нашем рейтинге?
   react:
-    short_doc: React to a message with emojis from NQN
+    short_doc: \u0420\u0435\u0430\u0433\u0438\u0440\u0443\u0435\u0442 \u043D\u0430 n-\u043E\u0435 \u0438\u043B\u0438 \u0441\u0430\u043C\u043E\u0435 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0435 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435
     help: |
-      Use Discord replies or a message link to react to that message.
-      The command allows a list of reactions, each of which will be added in the order specified.
-      **You need to react to the added reactions as well for them to stay.**
+      Реагириует на n-ое или самое последнее сообщение
+      На заметку: Укажите ID сообщения, на которое нужно прореагировать, или n-ых сообщений назад (до 20)
+      Команда позволяет написать список эмодзи, каждый из которых будет добавлен в указанном порядке.
   search_all:
-    short_doc: Look at emotes the bot has seen
+    short_doc: \u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u043D\u0430 \u044D\u043C\u043E\u0434\u0437\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0432\u0438\u0434\u0435\u043B \u0431\u043E\u0442
     help: |
-      Look at emotes the bot has seen
+      Посмотрите на эмодзи, которые видел бот
   server-alias-delete:
-    short_doc: Didn't like an emote? Make it so they've got to work for it.
+    short_doc: \u041D\u0435 \u043F\u043E\u043D\u0440\u0430\u0432\u0438\u043B\u043E\u0441\u044C \u0434\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043D\u043E \u044D\u043C\u043E\u0434\u0437\u0438? \u041F\u0440\u043E\u0441\u0442\u043E \u0443\u0434\u0430\u043B\u0438\u0442\u0435 \u0435\u0433\u043E \u0441\u043E \u0441\u0432\u043E\u0435\u0433\u043E \u0441\u0435\u0440\u0432\u0435\u0440\u0430!
     help: |
-      Didn't like an emote? Make it so they've got to work for it.
+      Не понравилось добавленное эмодзи? Просто удалите его со своего сервера!
   server-alias-list:
-    short_doc: Show all the aliases that anyone in your server can use
+    short_doc: \u041F\u043E\u043A\u0430\u0437\u0443\u0435\u0442 \u044D\u043C\u043E\u0434\u0437\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043C\u043E\u0436\u0435\u0442 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u043A\u0430\u0436\u0434\u044B\u0439 \u043D\u0430 \u0432\u0430\u0448\u0435\u043C \u0441\u0435\u0440\u0432\u0435\u0440\u0435
     help: |
-      Show all the aliases that anyone in your server can use
+      Показует эмодзи, которые может использовать каждый на вашем сервере
   server-alias-post:
     short_doc: Post a list of server aliases
     help: |
       Post a list of server aliases
   server-alias-rename:
-    short_doc: Rename a server alias
+    short_doc: \u041F\u0435\u0440\u0435\u0438\u043C\u0435\u043D\u0443\u0439\u0442\u0435 alias \u0441\u0435\u0440\u0432\u0435\u0440\u0430
     help: |
-      Rename a server alias
+      Переименуйте alias сервера
   server-alias-search:
-    short_doc: Allow anyone in the server to use an emote!
+    short_doc: \u0420\u0430\u0437\u0440\u0435\u0448\u0438\u0442\u0435 \u043B\u044E\u0431\u043E\u043C\u0443 \u043D\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u044D\u043C\u043E\u0434\u0437\u0438!
     help: |
-      Allow anyone in the server to use an emote!
+      Разрешите любому на сервере использовать эмодзи!
   server-alias:
-    short_doc: Do things with server aliases
+    short_doc: \u0414\u0435\u043B\u0430\u0439\u0442\u0435 \u0432\u0435\u0449\u0438 \u0432\u043C\u0435\u0441\u0442\u0435 \u0441 \u0438\u043D\u0434\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u044B\u043C\u0438 \u044D\u043C\u043E\u0434\u0437\u0438 \u0441\u0435\u0440\u0432\u0435\u0440\u0430'
     help: |
-      Do things with server aliases
+      Делайте вещи вместе с индвидуальными эмодзи сервера
   server-dashboard_posting:
     short_doc: Enable or disable posting messages through the bot dashboard
     help: |
       Enable or disable posting messages through the bot dashboard
   server-language:
-    short_doc: Set the bots language %{locale_flag_emojis}
+    short_doc: \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435 \u044F\u0437\u044B\u043A \u0434\u043B\u044F \u0431\u043E\u0442\u0430
     help: |
-      Set the bots language
+      Установите язык для бота
   server-link:
-    short_doc: Create a static emote, which when used posts an animated version of the emote instead!
+    short_doc: \u0421\u043E\u0437\u0434\u0430\u0439\u0442\u0435 \u0441\u0442\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0443\u044E \u044D\u043C\u043E\u0434\u0437\u0438, \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u043F\u0440\u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0438 \u0432\u043C\u0435\u0441\u0442\u043E \u043D\u0435\u0451 \u043F\u0443\u0431\u043B\u0438\u043A\u0443\u0435\u0442 \u0430\u043D\u0438\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u0443\u044E \u0432\u0435\u0440\u0441\u0438\u044E!
     help: |
-      Create a static emote, which when used posts an animated version of the emote instead!
+      Создайте статическую эмодзи, которая при использовании вместо неё публикует анимированную версию!
   server-masked_links:
-    short_doc: Enable or disable masked links in this server
+    short_doc: \u0412\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u0438\u043B\u0438 \u043E\u0442\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u0441\u043A\u0440\u044B\u0442\u044B\u0445 \u0441\u0441\u044B\u043B\u043A\u0438 \u043D\u0430 \u044D\u0442\u043E\u043C \u0441\u0435\u0440\u0432\u0435\u0440\u0435
     help: |
-      Enable or disable masked links in this server
+      Включите или отключите скрытых ссылки на этом сервере
   server-nitro:
-    short_doc: Enable or disable free nitro usage in this server
+    short_doc: \u0412\u043A\u043B\u044E\u0447\u0438\u0442\u0435 \u0438\u043B\u0438 \u043E\u0442\u043A\u043B\u044E\u0447\u0438\u0442\u0435 \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u043D\u0438\u0442\u0440\u043E
     help: |
-      Enable or disable free nitro usage in this server
+      Включите или отключите бесплатное использование нитро
   server-pack-join:
-    short_doc: Subscribe to an emote pack server-wide
+    short_doc: \u041F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u0438\u0442\u0435 \u043F\u0430\u043A \u0441 \u044D\u043C\u043E\u0434\u0437\u0438 \u0434\u043B\u044F \u0441\u0435\u0440\u0432\u0435\u0440\u0430
     help: |
-      Subscribe to an emote pack server-wide
+      Присоедините пак с эмодзи для сервера
   server-pack-leave:
-    short_doc: Unsubscribe from an emote pack server-wide
+    short_doc: \u041F\u043E\u043A\u0438\u0434\u0430\u043D\u0438\u0435 \u043F\u0430\u043A\u0430 \u0441 \u044D\u043C\u043E\u0434\u0437\u0438 \u043D\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0435
     help: |
-      Unsubscribe from an emote pack server-wide
+      Покидание пака с эмодзи на сервере
   server-pack-list:
-    short_doc: List the packs this server can use
+    short_doc: \u0421\u043F\u0438\u0441\u043E\u043A \u043F\u0430\u043A\u043E\u0432, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043C\u043E\u0436\u0435\u0442 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u044D\u0442\u043E\u0442 \u0441\u0435\u0440\u0432\u0435\u0440
     help: |
-      List the packs this server can use
+      Список паков, которые может использовать этот сервер
   server-pack-post:
     short_doc: Post a list of server packs
     help: |
       Post a list of server packs
   server-pack-search:
-    short_doc: Search for an emote pack to add server-wide
+    short_doc: \u041F\u043E\u0438\u0441\u043A \u043F\u0430\u043A\u043E\u0432 \u0434\u043B\u044F \u0441\u0435\u0440\u0432\u0435\u0440\u0430
     help: |
-      Search for an emote pack to add server-wide
+      Ищет паки с эмодзи, которые будут доступны всем участникам сервера
   server-pack:
-    short_doc: Do things with server packs
+    short_doc: \u0414\u0435\u043B\u0430\u0439\u0442\u0435 \u0432\u0435\u0449\u0438 \u0432\u043C\u0435\u0441\u0442\u0435 \u0441 \u043F\u0430\u043A\u0430\u043C\u0438 \u0441\u0435\u0440\u0432\u0435\u0440\u0430
     help: |
-      Do things with server packs
+      Делайте вещи вместе с паками сервера
   server-permissions_debug:
     short_doc: Let NQN tell you what permissions it's missing
     help: |
-      Debug the permissions in your server
+      Ничего
   server-personas:
     short_doc: Enable or disable usage of personas
     help: |
       Allows users to post with arbitrary usernames and avatars
   server-pings:
-    short_doc: Enable or disable pings in messages for this server
+    short_doc: \u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0430\u0435\u0442 \u043F\u0438\u043D\u0433\u0438 \u0432 \u0440\u0435\u043F\u043E\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u0445
     help: |
-      Enable or disable pings in messages that NQN reposts on this server
+      Переключает пинги в репостированных сообщениях
   server-prefix:
-    short_doc: Make NQN listen to a different prefix.
+    short_doc: \u0421\u043C\u0435\u043D\u0430 \u043F\u0440\u0435\u0444\u0438\u043A\u0441\u0430 \u0443 \u0431\u043E\u0442\u0430
     help: |
-      Make NQN listen to a different prefix.
+      Заставьте NQN реагировать на другой префикс.
 
-      Example invocation:
+      Пример того, как его поменять:
       >>> %{prefix}server prefix <@%{bot_id}> ?
     signature: |
-      @NQN#3454 [prefix=!]
+      @NQN#3454 [префикс=!]
   server-replies:
-    short_doc: Enable or disable message replies in this server
+    short_doc: \u0412\u043A\u043B\u044E\u0447\u0438\u0442\u0435 \u0438\u043B\u0438 \u043E\u0442\u043A\u043B\u044E\u0447\u0438\u0442\u0435 \u0446\u0438\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
     help: |
-      Enable or disable message replies in this server
+      Включите или отключите цитирования
   server-settings:
-    short_doc: View the settings for this server
+    short_doc: \u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043A \u044D\u0442\u043E\u0433\u043E \u0441\u0435\u0440\u0432\u0435\u0440\u0430
     help: |
-      View NQN's server settings, including features, configured channels and pack information.
+      Вывод списка настроек сервера NQN, включая функции, настроенные каналы и информацию о паке.
   server-set_announcement_channel:
-    short_doc: Post bot announcements somewhere.
+    short_doc: \u0420\u0430\u0437\u043C\u0435\u0441\u0442\u0438\u0442\u0435 \u0430\u043D\u043E\u043D\u0441\u044B \u0431\u043E\u0442\u0430 \u0433\u0434\u0435 \u0443\u0433\u043E\u0434\u043D\u043E.
     help: |
-      Post bot announcements somewhere.
-      These will include new features
+      Разместите анонсы бота где угодно.
+      Они будут включать новые функции
   server-set_audit_channel:
-    short_doc: Post messages the bot reposts
+    short_doc: \u0420\u0430\u0437\u043C\u0435\u0449\u0430\u0435\u0442 \u0440\u0435\u043F\u043E\u0441\u0442\u044B \u0431\u043E\u0442\u0430
     help: |
-      Post messages the bot reposts
+      Размещает репосты бота
   server-set_boost_channel:
-    short_doc: Post whenever someone votes with the server on top.gg
+    short_doc: \u041F\u0443\u0431\u043B\u0438\u043A\u0443\u0435\u0442 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F, \u043A\u043E\u0433\u0434\u0430 \u043A\u0442\u043E-\u0442\u043E \u0433\u043E\u043B\u043E\u0441\u0443\u0435\u0442 \u043D\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0435 \u0437\u0430 \u0431\u043E\u0442\u0430 \u043D\u0430 top.gg
     help: |
-      Post whenever someone votes with the server on top.gg
+      Публикует сообщения, когда кто-то голосует на сервере за бота на top.gg
   server-set_boost_role:
-    short_doc: Give a user this role when they boost this server via NQN
+    short_doc: \u0414\u0430\u0439\u0442\u0435 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044E \u044D\u0442\u0443 \u0440\u043E\u043B\u044C, \u043A\u043E\u0433\u0434\u0430 \u043E\u043D \u0433\u043E\u043B\u043E\u0441\u0443\u0435\u0442 \u043D\u0430 \u044D\u0442\u043E\u043C \u0441\u0435\u0440\u0432\u0435\u0440 \u0437\u0430 NQN
     help: |
-      Give a user this role when they boost this server via NQN
+      Дайте пользователю эту роль, когда он голосует на этом сервер за NQN
   server-set_nitro_role:
-    short_doc: Require users to have a role to use NQN
+    short_doc: \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0440\u043E\u043B\u0438 \u0434\u043B\u044F \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F NQN
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      Команда позволяет установить определённую роль для ограничения использования NQN между участниками вашего сервера
   server-stickers:
-    short_doc: Enable or disable sticker usage in this guild
+    short_doc: \u0412\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u0438\u043B\u0438 \u043E\u0442\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F \u0441\u0442\u0438\u043A\u0435\u0440\u043E\u0432 \u043D\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0435
     help: |
-      Enable or disable sticker usage in this guild
+      Включение или отключение использования стикеров на сервере
   server-user_content:
-    short_doc: Enable or disable user aliases and packs for this server
+    short_doc: \u0412\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0438\u043B\u0438 \u0432\u044B\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u044D\u043C\u043E\u0434\u0437\u0438 \u0438 \u043F\u0430\u043A\u0438 \u0434\u043B\u044F \u044D\u0442\u043E\u0433\u043E \u0441\u0435\u0440\u0432\u0435\u0440\u0430
     help: |
-      Enable or disable user aliases and packs for this server
+      Включить или выключить эмодзи и паки для этого сервера
   server:
-    short_doc: Modify the bots settings on this server
+    short_doc: \u0418\u0437\u043C\u0435\u043D\u0438\u0442\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u0431\u043E\u0442\u043E\u0432 \u043D\u0430 \u044D\u0442\u043E\u043C \u0441\u0435\u0440\u0432\u0435\u0440\u0435
     help: |
-      Modify the bots settings on this server
+      Измените настройки ботов на этом сервере
   sticker-create:
-    short_doc: Create a sticker from a file
+    short_doc: \u0421\u043E\u0437\u0434\u0430\u0451\u0442 \u0441\u0442\u0438\u043A\u0435\u0440 \u0438\u0437 \u0444\u0430\u0439\u043B\u0430
     help: |
-      Create a sticker from a file
-      Upload an image and use this command to turn it into a sticker.
-      The sticker's name is determined by the filename, or what you type in. `sticker create BluePat.png` for example.
-      Sticker names are unique across NQN, once a name is taken, it's gone.
-      Stickers can be a maximum of 8MB large, and names can only be alphanumeric.
-      Stickers need a file extension, which is also alphanumeric.
+      Создаёт стикер из файла
+      Загрузите изображение и используйте эту команду, чтобы его его в стикер.
+      Имя стикера определяется именем файла или тем, что вы набираете. Например, «%{prefix}sticker create BluePat__.png__».
+      Имена стикеров уникальны в NQN, как только имя взято, оно исчезает.
+      Стикеры могут быть размером не более 8 МБ, а названия могут быть только буквенно-цифровыми.
+      Стикерам необходимо расширение файла, которое также является буквенно-цифровым.
   sticker-delete:
-    short_doc: Delete a sticker
+    short_doc: \u0423\u0434\u0430\u043B\u044F\u0435\u0442 \u0441\u0442\u0438\u043A\u0435\u0440
     help: |
-      Delete a sticker
-      You can only delete stickers you own.
+      Удаляет стикер
+      Вы можете удалять только СВОИ стикеры
   sticker-import:
-    short_doc: Import stickers from emotes
+    short_doc: \u0418\u043C\u043F\u043E\u0440\u0442\u0438\u0440\u0443\u0435\u0442 \u0441\u0442\u0438\u043A\u0435\u0440\u044B \u0438\u0437 \u044D\u043C\u043E\u0434\u0437\u0438
     help: |2
-      Import stickers from emotes
-      Either from an emote directly, with an optional alias
-       - sticker import :blue_smirk: smirk.png
-      Or by searching through emotes NQN has.
-       - sticker import blue pat
-      Note that the searching through emotes option does not support aliasing
+      Импортирует стикеры из эмодзи
+      Либо напрямую из эмодзи, с необязательным alias'ом
+       - %{prefix}sticker import :blue_smirk: smirk.png
+      Или путем поиска эмодзи, которые есть в NQN.
+       - %{prefix}sticker import blue pat
+      Обратите внимание, что опция поиска по эмодзи не поддерживает alias'ы.
   sticker-mine:
-    short_doc: Find my stickers
+    short_doc: \u0421\u043F\u043E\u0441\u043E\u0431 \u043D\u0430\u0439\u0442\u0438 \u0432\u0441\u0435 \u0432\u0430\u0448\u0438 \u0441\u0442\u0438\u043A\u0435\u0440\u044B
     help: |
-      Find my stickers
+      Способ найти все ваши стикеры
   sticker-rename:
-    short_doc: Rename a sticker
+    short_doc: \u041F\u0435\u0440\u0435\u0438\u043C\u0435\u043D\u043E\u0432\u0443\u0435\u0442 \u0441\u0442\u0438\u043A\u0435\u0440
     help: |
-      Rename a sticker
-      You can only rename stickers you own.
+      Переименовует стикер
+      Вы можете переименовать только свой стикер
   sticker-search:
-    short_doc: Search through all the stickers NQN has, with an optional query
+    short_doc: \u0418\u0449\u0435\u0442 \u0441\u0442\u0438\u043A\u0435\u0440\u043E\u0432, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0435\u0441\u0442\u044C \u0432 NQN, \u0441 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u043C \u0437\u0430\u043F\u0440\u043E\u0441\u043E\u043C
     help: |
-      Search through all the stickers NQN has, with an optional query
+      Ищет стикеров, которые есть в NQN, с дополнительным запросом
   sticker-telegram:
-    short_doc: Import stickers from telegram
+    short_doc: \u0418\u043C\u043F\u043E\u0440\u0442\u0438\u0440\u0443\u0435\u0442 \u0441\u0442\u0438\u043A\u0435\u0440\u044B \u0438\u0437 Telegram
     help: |
-      Import stickers from telegram
+      Импортирует стикеры из Telegram
   sticker:
-    short_doc: Larger than emotes!
+    short_doc: \u0411\u043E\u043B\u044C\u0448\u0435, \u0447\u0435\u043C \u044D\u043C\u043E\u0434\u0437\u0438!
     help: |
-      Larger than emotes!
+      Больше, чем эмодзи!
   support:
-    short_doc: Need some help with using me?
+    short_doc: \u041D\u0443\u0436\u043D\u0430 \u043F\u043E\u043C\u043E\u0449\u044C \u0432 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0438 \u043C\u0435\u043D\u044F?
     help: |
-      Need some help with using me?
+      Нужна помощь в использовании меня?
   tutorial:
-    short_doc: Learn how to use emotes with NQN
+    short_doc: \u0423\u0447\u0438\u043C, \u043A\u0430\u043A \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u044D\u043C\u043E\u0434\u0437\u0438 \u0432\u043C\u0435\u0441\u0442\u0435 \u0441 NQN
     help: |
-      Learn how to use emotes with NQN
+      Учим, как использовать эмодзи вместе с NQN
   upload_emote:
-    short_doc: Search for all the emotes the bot has ever seen and upload them to this server.
+    short_doc: \u041D\u0430\u0439\u0434\u0451\u0442 \u0432\u0441\u0435 \u044D\u043C\u043E\u0434\u0437\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0431\u043E\u0442 \u043A\u043E\u0433\u0434\u0430-\u043B\u0438\u0431\u043E \u0432\u0438\u0434\u0435\u043B, \u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442 \u0438\u0445 \u043D\u0430 \u044D\u0442\u043E\u0442 \u0441\u0435\u0440\u0432\u0435\u0440.
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload that
+      Найдёт все эмодзи, которые бот когда-либо видел, и загрузит их на этот сервер.
+      Эта команда позволяет загружать эмодзи.
+      Вы также можете прикрепить файл, чтобы загрузить его
   vote_opt_out:
-    short_doc: Opt out of vote DMs
+    short_doc: \u041F\u043E\u043C\u043E\u0436\u0435\u0442 \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F \u043E\u0442 \u0433\u043E\u043B\u043E\u0441\u043E\u0432\u0430\u043D\u0438\u044F \u0432 \u041B\u0421
     help: |
-      Opt out of vote DMs
+      Поможет отказаться от голосования в ЛС
   whois:
-    short_doc: Find who posted a message
+    short_doc: \u041D\u0430\u0439\u0442\u0438 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F, \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0432\u0448\u0435\u0433\u043E \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435
     help: |
-      Find who posted a message
+      Укажет пользователя, написавшего репостированное сообщение

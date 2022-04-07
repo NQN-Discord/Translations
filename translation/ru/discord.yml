@@ -1,36 +1,36 @@
 ---
 discord:
   ext.commands.help:
-    need_emojis: ' - I need this to use emojis!'
-    need_everyone_external: ' - @everyone needs this for me to use emojis!'
-    need_help: ' - I need this for the help command!'
+    need_emojis: ' - \u041C\u043D\u0435 \u044D\u0442\u043E \u043D\u0443\u0436\u043D\u043E, \u0447\u0442\u043E\u0431\u044B \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u044D\u043C\u043E\u0434\u0437\u0438!'
+    need_everyone_external: ' - \u0420\u043E\u043B\u0438 @everyone \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u044D\u0442\u043E, \u0447\u0442\u043E\u0431\u044B \u044F \u043C\u043E\u0433 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u044D\u043C\u043E\u0434\u0437\u0438!'
+    need_help: ' - \u041C\u043D\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u044D\u0442\u043E \u0434\u043B\u044F \u043A\u043E\u043C\u0430\u043D\u0434\u044B \u043F\u043E\u043C\u043E\u0449\u0438!'
     nothing: ''
-    choose_page: Browse Commands
-    please_give: I won't function correctly without these!
+    choose_page: \u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043A\u043E\u043C\u0430\u043D\u0434\u044B
+    please_give: \u042F \u043C\u043E\u0433\u0443 \u043D\u0435 \u043A\u043E\u0440\u0440\u0435\u043A\u0442\u043D\u043E \u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C, \u0435\u0441\u043B\u0438 \u0432\u044B \u043D\u0435 \u0432\u044B\u0434\u0430\u0434\u0438\u0442\u0435 \u043C\u043D\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u043C\u044B\u0435 \u043F\u0440\u0430\u0432\u0430!
     fix_perms: |
-      - **[Fix Server Permissions](%{invite_url})**
-    nqn_help: NQN Help
+      - **[Изменить права](%{invite_url})**
+    nqn_help: 'NQN: \u041F\u043E\u043C\u043E\u0449\u044C'
     my_prefix: |
-      My prefix for commands is `%{prefix}`
-      React with ❌ (\:x:) to delete reposted messages!
+      Моим префиксом является `%{prefix}`
+      Поставьте реакцию ❌ (\:x:) чтобы удалить отправленные сообщения!
     user_ignored: |
       You will be **IGNORED** when sending messages which would normally be reposted. To allow NQN to repost your messages, run:
       > `%{prefix}ignore_me`
-    categories: Categories
-    everything_else: Everything else
-    really_useful: Really Useful Commands
-    useful_links: 'Useful links:'
-    website: Website
-    vote: Vote!
-    support: Support
-    emote_list: My Emotes
-    top_gg_vote: Voting for me at [top.gg](https://top.gg/bot/559426966151757824/vote) makes the bot better by increasing our visibility and allowing more emotes when we join a server.
-    bfd_vote: Giving me an upvote at [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) helps out our visibility. With every new server I join, my emote database gets larger.
-    what_is: What is Not Quite Nitro?
+    categories: \u041A\u0430\u0442\u0435\u0433\u043E\u0440\u0438\u0438
+    everything_else: \u0412\u0441\u0451 \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435
+    really_useful: \u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u043F\u043E\u043B\u0435\u0437\u043D\u044B\u0435 \u043A\u043E\u043C\u0430\u043D\u0434\u044B
+    useful_links: '\u041F\u043E\u043B\u0435\u0437\u043D\u044B\u0435 \u0441\u0441\u044B\u043B\u043A\u0438:'
+    website: \u0421\u0430\u0439\u0442
+    vote: \u041F\u0440\u043E\u0433\u043E\u043B\u043E\u0441\u043E\u0432\u0430\u0442\u044C \u0437\u0430 \u0431\u043E\u0442\u0430!
+    support: \u0421\u0435\u0440\u0432\u0435\u0440 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438
+    emote_list: \u0421\u043F\u0438\u0441\u043E\u043A \u044D\u043C\u043E\u0434\u0437\u0438
+    top_gg_vote: \u0413\u043E\u043B\u043E\u0441\u043E\u0432\u0430\u043D\u0438\u0435 \u0437\u0430 \u043C\u0435\u043D\u044F \u043D\u0430 [top.gg](https://top.gg/bot/559426966151757824/vote) \u0434\u0435\u043B\u0430\u0435\u0442 \u0431\u043E\u0442\u0430 \u043B\u0443\u0447\u0448\u0435, \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u044F \u043D\u0430\u0448\u0443 \u0432\u0438\u0434\u0438\u043C\u043E\u0441\u0442\u044C \u0438 \u0434\u0430\u0432\u0430\u044F \u0431\u043E\u043B\u044C\u0448\u0435 \u044D\u043C\u043E\u0434\u0437\u0438, \u043A\u043E\u0433\u0434\u0430 \u043C\u044B \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u044F\u0435\u043C\u0441\u044F \u043A \u0441\u0435\u0440\u0432\u0435\u0440\u0443.
+    bfd_vote: \u0413\u043E\u043B\u043E\u0441\u043E\u0432\u0430\u043D\u0438\u0435 \u0437\u0430 \u043C\u0435\u043D\u044F \u043D\u0430 [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) \u043F\u043E\u043C\u043E\u0433\u0430\u0435\u0442 \u043D\u0430\u0448\u0435\u0439 \u0432\u0438\u0434\u0438\u043C\u043E\u0441\u0442\u0438. \u0421 \u043A\u0430\u0436\u0434\u044B\u043C \u043D\u043E\u0432\u044B\u043C \u0441\u0435\u0440\u0432\u0435\u0440\u043E\u043C, \u043A \u043A\u043E\u0442\u043E\u0440\u043E\u043C\u0443 \u044F \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u044F\u044E\u0441\u044C, \u043C\u043E\u044F \u0431\u0430\u0437\u0430 \u044D\u043C\u043E\u0434\u0437\u0438 \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F.
+    what_is: \u0427\u0442\u043E \u0442\u0430\u043A\u043E\u0435 Not Quite Nitro?
     bot_description: |
-      Not Quite Nitro is a multipurpose utility bot which allows any user to use Nitro emotes.
-      We have an extremely large database of visually unique emotes which you can use in any server the bot is in with Manage Webhook permissions.
+      Not Quite Nitro это универсальный бот который позволяет вам использовать Nitro-эмодзи где угодно.
+      У нас есть чрезвычайно большая база данных уникальных эмодзи, которые вы можете использовать на любом сервере, на котором находится бот с правом на 'Управление Вебхуками' (Manage Webhooks).
 
-      NQN also allows automatic quoting whenever a user posts a message link, the use of masked urls in chat and stickers, which are full size emotes.
+      NQN также позволяет автоматически цитировать сообщение каждый раз, когда пользователь публикует ссылку на сообщение, использовать замаскированные URL-адреса в чате и стикеры, которые представляют собой полноразмерные эмодзи.
 
-      You can invite me [to your server](https://discord.com/api/oauth2/authorize?%{params}).
+      Вы можете пригласить меня на ваш сервер [по этому приглашению](https://discord.com/api/oauth2/authorize?%{params}).
