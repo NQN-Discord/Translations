@@ -1,0 +1,42 @@
+---
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: Aucun message à auditer.
+        expand: Développer
+        truncate: Réduire
+      edit_topic:
+        edited: Modification du sujet de %{channel}.
+        edited_audit: "%{author} a modifié le sujet de %{channel} en:\n>>> %{description}"
+      ban:
+        owner: Je ne peux pas bannir le propriétaire !
+        cannot_ban: Je ne peux pass bannir <@%{banee}> !
+        you_cannot_ban: Vous ne pouvez pas bannir <@%{banee}> !
+        banned: <@%{banee}> a été banni (ID %{banee})
+        banned_audit: '%{author} a banni <@%{banee}> (ID %{banee})'
+      kick:
+        owner: Je ne peux pas expulser le propriétaire !
+        cannot_kick: Je ne peux pas expulser <@%{kickee}> !
+        you_cannot_kick: Vous ne pouvez pas expulser <@%{kickee}> !
+        kicked: Kicked <@%{kickee}> (ID %{kickee})
+        kicked_audit: '%{author} a expulsé <@%{kickee}> (ID %{kickee})'
+      purge:
+        '0_100': Le nombre de message à déplacer doit être entre 1 et 100
+        audit:
+          one: '%{author} a purgé %{count} message dans %{channel}'
+          many: '%{author} a purgé %{count} messages dans %{channel}'
+      move:
+        user_no_perms: Vous n'avez pas les permissions d'«Envoyer des messages» ni de «Gérer les messages» dans %{channel}.
+        me_no_perms: Je n'ai pas la permission de «Gérer les webhooks» dans %{channel}.
+        everyone_no_perms: Le rôle @everyone requière la permission «Utiliser des emojis externe» dans %{channel}.
+        '1_20': Le nombre de messages à déplacer doit être entre 1 et 20
+        moved_to:
+          one: '%{count} message a été déplacé vers %{to_channel}'
+          many: '%{count} messages ont été déplacés vers %{to_channel}'
+        moved_from:
+          one: '%{author} a déplacé %{count} message depuis %{from_channel}'
+          many: '%{author} a déplacé %{count} messages depuis %{from_channel}'
+        moved_to_from:
+          one: '%{author} a déplacé %{count} message depuis %{from_channel} vers %{to_channel}'
+          many: '%{author} a déplacé %{count} messages depuis %{from_channel} vers %{to_channel}'
