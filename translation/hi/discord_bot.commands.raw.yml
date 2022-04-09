@@ -347,7 +347,7 @@ discord_bot:
       vote_opt_out:
         success: Successfully opted out of vote DMs
       whois:
-        found: \u0932\u0947\u0916\u0915 \u0939\u0948 <@%{author}> (%{author})
+        found: लेखक है <@%{author}> (%{author})
         not_nqn: |
           This command currently only works on messages reposted by NQN.
         not_found: |
