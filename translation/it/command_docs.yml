@@ -377,73 +377,73 @@ command_docs:
     help: |
       Pubblica ogni volta che qualcuno vota con il server su top.gg
   server-set_boost_role:
-    short_doc: Give a user this role when they boost this server via NQN
+    short_doc: Dare a un utente questo ruolo quando boostano questo server tramite NQN
     help: |
-      Give a user this role when they boost this server via NQN
+      Dare a un utente questo ruolo quando boostano questo server tramite NQN
   server-set_nitro_role:
-    short_doc: Require users to have a role to use NQN
+    short_doc: Richiedi agli utenti di avere un ruolo per usare NQN
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      Imposta un ruolo che gli utenti devono avere per usare NQN per i repost con Nitro
   server-stickers:
-    short_doc: Enable or disable sticker usage in this guild
+    short_doc: Abilita o disabilita l'utilizzo di adesivi in questo server
     help: |
-      Enable or disable sticker usage in this guild
+      Abilita o disabilita l'utilizzo di adesivi in questo server
   server-user_content:
-    short_doc: Enable or disable user aliases and packs for this server
+    short_doc: Abilita o disabilita alias utente e pacchetti per questo server
     help: |
-      Enable or disable user aliases and packs for this server
+      Abilita o disabilita alias utente e pacchetti per questo server
   server:
-    short_doc: Modify the bots settings on this server
+    short_doc: Modifica le impostazioni dei bot su questo server
     help: |
-      Modify the bots settings on this server
+      Modifica le impostazioni dei bot su questo server
   sticker-create:
-    short_doc: Create a sticker from a file
+    short_doc: Crea un adesivo da un file
     help: |
-      Create a sticker from a file
-      Upload an image and use this command to turn it into a sticker.
-      The sticker's name is determined by the filename, or what you type in. `sticker create BluePat.png` for example.
-      Sticker names are unique across NQN, once a name is taken, it's gone.
-      Stickers can be a maximum of 8MB large, and names can only be alphanumeric.
-      Stickers need a file extension, which is also alphanumeric.
+      Crea un adesivo da un file
+      Carica un'immagine e usa questo comando per trasformarla in un adesivo.
+      Il nome dell'adesivo è determinato dal nome del file o da quello che scrivi. `sticker crea BluePat.png`.
+      I nomi degli adesivi sono univoci attraverso NQN, una volta preso un nome, è sparito.
+      Gli adesivi possono essere un massimo di 8MB di grandi dimensioni e i nomi possono essere solo alfanumerici.
+      Gli adesivi hanno bisogno di un'estensione di file, che è anche alfanumerica.
   sticker-delete:
-    short_doc: Delete a sticker
+    short_doc: Elimina un adesivo
     help: |
-      Delete a sticker
-      You can only delete stickers you own.
+      Elimina un adesivo
+      Puoi eliminare solo gli adesivi che possiedi.
   sticker-import:
-    short_doc: Import stickers from emotes
+    short_doc: Importa adesivi da emotes
     help: |2
-      Import stickers from emotes
-      Either from an emote directly, with an optional alias
+      Importa adesivi da emotes
+      O da un emote direttamente, con un alias opzionale
        - sticker import :blue_smirk: smirk.png
-      Or by searching through emotes NQN has.
+      O cercando attraverso emote che NQN ha.
        - sticker import blue pat
-      Note that the searching through emotes option does not support aliasing
+      Nota che l'opzione di ricerca attraverso le emote non supporta l'aliasing
   sticker-mine:
-    short_doc: Find my stickers
+    short_doc: Trova i miei adesivi
     help: |
-      Find my stickers
+      Trova i miei adesivi
   sticker-rename:
-    short_doc: Rename a sticker
+    short_doc: Rinomina un adesivo
     help: |
-      Rename a sticker
-      You can only rename stickers you own.
+      Rinomina un adesivo
+      Puoi solo rinominare gli adesivi che possiedi.
   sticker-search:
-    short_doc: Search through all the stickers NQN has, with an optional query
+    short_doc: Cerca tra tutti gli adesivi che NQN ha, con una query opzionale
     help: |
-      Search through all the stickers NQN has, with an optional query
+      Cerca tra tutti gli adesivi che NQN ha, con una query opzionale
   sticker-telegram:
-    short_doc: Import stickers from telegram
+    short_doc: Importa adesivi da telegram
     help: |
-      Import stickers from telegram
+      Importa adesivi da telegram
   sticker:
-    short_doc: Larger than emotes!
+    short_doc: Più grandi delle emote!
     help: |
-      Larger than emotes!
+      Più grandi delle emote!
   support:
-    short_doc: Need some help with using me?
+    short_doc: Hai bisogno di aiuto nell'usarmi?
     help: |
-      Need some help with using me?
+      Hai bisogno di aiuto nell'usarmi?
   tutorial:
     short_doc: Learn how to use emotes with NQN
     help: |
