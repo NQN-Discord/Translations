@@ -76,9 +76,9 @@ discord_bot:
         page_0_0_desc: |
           Jeder kann jedes Emote nutzen, welches einen Server mit dir und dem Bot teilt.
           **Es gibt weitere Möglichkeiten, wie man Emotes in Servern nutzen kann, denen man nicht beigetreten ist:**
-        page_0_1_name: "3\u20E3 Emote packs - Emote-Pakete"
+        page_0_1_name: "3⃣ Emote packs - Emote-Pakete"
         page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Aliases - Individuelle Emotes"
+        page_0_2_name: "4⃣ Aliases - Individuelle Emotes"
         page_0_2_desc: '> `%{prefix}alias search EmoteName`'
         page_1_title: Reaktionen
         page_1_desc: Du kannst nur mit Emotes reagieren, die du mit NQN nutzen kannst.
@@ -91,7 +91,7 @@ discord_bot:
         page_1_3_name: 'Reagierenauf Nachrichten:'
         page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
         page_1_4_name: Nachrichten löschen
-        page_1_4_desc: "Reagiere auf Nachrichten, die für dich gesendet wurden, mit \u274C (\\:x:) , um sie zu löschen."
+        page_1_4_desc: "Reagiere auf Nachrichten, die für dich gesendet wurden, mit ❌ (\\:x:) , um sie zu löschen."
         page_2_title: Packs
         page_2_desc: |
           Ein Pack ist ein Paket von Emojis. Nachdem du einem Pack beitrittst, erhältst du Zugriff auf die in ihm enthaltenen Emojis.

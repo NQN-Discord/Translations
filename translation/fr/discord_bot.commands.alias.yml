@@ -10,7 +10,7 @@ discord_bot:
       from_message:
         no_emotes: Ce message ne contient pas d'emojis personnalisés !
       delete:
-        deleted: 'Supprimé \\:%{name}:'
+        deleted: 'Supprimé \:%{name}:'
       delete_all:
         confirm: |
           Vous êtes sur le point de supprimer vos **%{count}** alias.
@@ -24,7 +24,7 @@ discord_bot:
       rename:
         rename: Rename Alias
         alias_name: 'Alias Name:'
-        renamed: 'Renommé \\:%{old}: en :%{new}:'
+        renamed: 'Renommé \:%{old}: en :%{new}:'
       export:
         exported_short: "Voici vos alias exportés:"
         exported_long: |

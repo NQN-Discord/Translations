@@ -10,7 +10,7 @@ discord_bot:
       from_message:
         no_emotes: Diese Nachricht enthält keine spezifischen Emojis!
       delete:
-        deleted: 'Gelöscht \\:%{name}:'
+        deleted: 'Gelöscht \:%{name}:'
       delete_all:
         confirm: |
           Dies wird alle **%{count}** deiner Aliase löschen.

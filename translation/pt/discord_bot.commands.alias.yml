@@ -10,7 +10,7 @@ discord_bot:
       from_message:
         no_emotes: Essa mensagem não tem nenhum emoji!
       delete:
-        deleted: 'O alias \\:%{name}: foi excluído'
+        deleted: 'O alias \:%{name}: foi excluído'
       delete_all:
         confirm: |
           Isso vai excluir todos os seus **%{count}** aliases.

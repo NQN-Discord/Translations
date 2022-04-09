@@ -3,40 +3,40 @@ discord_bot:
   commands:
     mod:
       audit:
-        no_messages: \u0412 \u0430\u0443\u0434\u0438\u0442\u0435 \u043D\u0435\u0442 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439.
-        expand: \u0420\u0430\u0437\u0432\u0435\u0440\u043D\u0443\u0442\u044C
-        truncate: \u0421\u0432\u0435\u0440\u043D\u0443\u0442\u044C
+        no_messages: В аудите нет сообщений.
+        expand: Развернуть
+        truncate: Свернуть
       edit_topic:
-        edited: \u0422\u0435\u043C\u0430 %{channel} \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0430.
-        edited_audit: "%{author} \u0438\u0437\u043C\u0435\u043D\u0438\u043B \u0442\u0435\u043C\u0443 %{channel} \u043D\u0430:\n>>> %{description}"
+        edited: Тема %{channel} изменена.
+        edited_audit: "%{author} изменил тему %{channel} на:\n>>> %{description}"
       ban:
-        owner: \u042F \u043D\u0435 \u043C\u043E\u0433\u0443 \u0437\u0430\u0431\u0430\u043D\u0438\u0442\u044C \u0432\u043B\u0430\u0434\u0435\u043B\u044C\u0446\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0430!
-        cannot_ban: \u042F \u043D\u0435 \u043C\u043E\u0433\u0443 \u0437\u0430\u0431\u0430\u043D\u0438\u0442\u044C <@%{banee}>!
-        you_cannot_ban: \u0412\u044B \u043D\u0435 \u043C\u043E\u0436\u0435\u0442\u0435 \u0437\u0430\u0431\u0430\u043D\u0438\u0442\u044C <@%{banee}>!
-        banned: \u0417\u0430\u0431\u0430\u043D\u0435\u043D <@%{author}> (ID %{banee})
-        banned_audit: '%{author} \u0431\u044B\u043B \u0437\u0430\u0431\u0430\u043D\u0435\u043D <@%{banee}> (ID %{banee})'
+        owner: Я не могу забанить владельца сервера!
+        cannot_ban: Я не могу забанить <@%{banee}>!
+        you_cannot_ban: Вы не можете забанить <@%{banee}>!
+        banned: Забанен <@%{author}> (ID %{banee})
+        banned_audit: '%{author} был забанен <@%{banee}> (ID %{banee})'
       kick:
-        owner: \u042F \u043D\u0435 \u043C\u043E\u0433\u0443 \u043A\u0438\u043A\u043D\u0443\u0442\u044C \u0432\u043B\u0430\u0434\u0435\u043B\u044C\u0446\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0430!
-        cannot_kick: \u042F \u043D\u0435 \u043C\u043E\u0433\u0443 \u043A\u0438\u043A\u043D\u0443\u0442\u044C <@%{kickee}>!
-        you_cannot_kick: \u0412\u044B \u043D\u0435 \u043C\u043E\u0436\u0435\u0442\u0435 \u043A\u0438\u043A\u043D\u0443\u0442\u044C <@%{kickee}>!
-        kicked: \u041A\u0438\u043A\u043D\u0443\u0442 <@%{kickee}> (ID %{kickee})
-        kicked_audit: '%{author} \u0431\u044B\u043B \u043A\u0438\u043A\u043D\u0443\u0442 <@%{kickee}> (ID %{kickee})'
+        owner: Я не могу кикнуть владельца сервера!
+        cannot_kick: Я не могу кикнуть <@%{kickee}>!
+        you_cannot_kick: Вы не можете кикнуть <@%{kickee}>!
+        kicked: Кикнут <@%{kickee}> (ID %{kickee})
+        kicked_audit: '%{author} был кикнут <@%{kickee}> (ID %{kickee})'
       purge:
-        '0_100': \u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043E\u0447\u0438\u0449\u0430\u0435\u043C\u044B\u0445 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439 \u0434\u043E\u043B\u0436\u043D\u043E \u0431\u044B\u0442\u044C \u043E\u0442 1 \u0434\u043E 100.
+        '0_100': Количество очищаемых сообщений должно быть от 1 до 100.
         audit:
-          one: '%{author} \u043E\u0447\u0438\u0441\u0442\u0438\u043B %{count} \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u0432 %{channel}'
-          many: '%{author} \u043E\u0447\u0438\u0441\u0442\u0438\u043B %{count} \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439 \u0432 %{channel}'
+          one: '%{author} очистил %{count} сообщение в %{channel}'
+          many: '%{author} очистил %{count} сообщений в %{channel}'
       move:
-        user_no_perms: \u0423 \u0432\u0430\u0441 \u043D\u0435\u0442  '\u041E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0442\u044C \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435' \u0438 '\u0423\u043F\u0440\u0430\u0432\u043B\u044F\u0442\u044C \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438' \u0432 %{channel}.
-        me_no_perms: \u0423 \u043C\u0435\u043D\u044F \u043D\u0435\u0442 \u043F\u0440\u0430\u0432\u0430 '\u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0432\u0435\u0431\u0445\u0443\u043A\u0430\u043C\u0438' \u0432 \u043A\u0430\u043D\u0430\u043B\u0435 %{channel}.
+        user_no_perms: У вас нет  'Отправлять сообщение' и 'Управлять сообщениями' в %{channel}.
+        me_no_perms: У меня нет права 'Управление вебхуками' в канале %{channel}.
         everyone_no_perms: The @everyone role needs 'Use External Emojis' in %{channel}.
-        '1_20': \u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0430\u0435\u043C\u044B\u0445 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439 \u0434\u043E\u043B\u0436\u043D\u043E \u0431\u044B\u0442\u044C \u043E\u0442 1 \u0434\u043E 20
+        '1_20': Количество перемещаемых сообщений должно быть от 1 до 20
         moved_to:
-          one: \u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u043E %{count} \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u0432 %{to_channel}
-          many: \u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u044B %{count} \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439 \u0432 %{to_channel}
+          one: Перемещено %{count} сообщение в %{to_channel}
+          many: Перемещены %{count} сообщений в %{to_channel}
         moved_from:
-          one: '%{author} \u043F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u043B %{count} \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u0438\u0437 %{from_channel}'
-          many: '%{author} \u043F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u043B %{count} \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439 \u0432 %{from_channel}'
+          one: '%{author} переместил %{count} сообщение из %{from_channel}'
+          many: '%{author} переместил %{count} сообщений в %{from_channel}'
         moved_to_from:
-          one: '%{author} \u043F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u043B %{count} \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u0438\u0437 %{from_channel} \u0432 %{to_channel}'
-          many: '%{author} \u043F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u043B %{count} \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439 \u0438\u0437 %{from_channel} \u0432 %{to_channel}'
+          one: '%{author} переместил %{count} сообщение из %{from_channel} в %{to_channel}'
+          many: '%{author} переместил %{count} сообщений из %{from_channel} в %{to_channel}'

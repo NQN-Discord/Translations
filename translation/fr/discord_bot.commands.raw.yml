@@ -76,9 +76,9 @@ discord_bot:
         page_0_0_desc: |
           Tout le monde peut utiliser des émojis d'un serveur qu'il partage avec le bot.
           **Il y a différents moyens d'utiliser emojis de serveurs dans lesquels vous n'êtes pas présent:**
-        page_0_1_name: "3\u20E3 Packs d'emojis - Paquet d'emojis"
+        page_0_1_name: "3⃣ Packs d'emojis - Paquet d'emojis"
         page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Alias - Emojis individuels"
+        page_0_2_name: "4⃣ Alias - Emojis individuels"
         page_0_2_desc: '> `%{prefix}alias search NomEmoji`'
         page_1_title: Réactions
         page_1_desc: Vous pouvez seulement réagir avec des emojis que vous pouvez utiliser avec NQN.
@@ -91,7 +91,7 @@ discord_bot:
         page_1_3_name: 'Réagir aux messages:'
         page_1_3_desc: '> `%{prefix}react MessageURL NomEmoji`'
         page_1_4_name: Suppression de messages
-        page_1_4_desc: "Réagissez aux messages envoyés à votre place avec \u274C (\\:x:) pour les supprimer."
+        page_1_4_desc: "Réagissez aux messages envoyés à votre place avec ❌ (\\:x:) pour les supprimer."
         page_2_title: Packs
         page_2_desc: |
           Un pack est un ensemble d'emojis. Après avoir souscrit à un pack, vous obtenez l'accès à tous les emojis qu'il contient.
