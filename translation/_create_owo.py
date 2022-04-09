@@ -1,5 +1,4 @@
 import i18n
-from pathlib import Path
 from TextToOwO.owo import text_to_owo
 import re
 
@@ -8,9 +7,7 @@ sub_func = re.compile(r"\{(\d+)\}")
 ignored_translations = ("example_images",)
 
 
-def create_owo(root_path: str):
-    for path in Path(root_path).rglob("*.yml"):
-        i18n.resource_loader.load_translation_file(path.name, str(path.parent), locale=path.name.rsplit(".", 2)[-2])
+def create_owo():
     translations = i18n.translations.container
     owo = translations["owo"] = {}
     for translation_name, text in translations["en"].items():
