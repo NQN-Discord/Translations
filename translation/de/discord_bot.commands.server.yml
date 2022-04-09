@@ -3,7 +3,7 @@ discord_bot:
   commands:
     server:
       alias:
-        set_emote_title: 'Gib den Namen \\:%{name}: als %{emote} für diesen Server an.'
+        set_emote_title: 'Gib den Namen \:%{name}: als %{emote} für diesen Server an.'
         set_emote_description:
           zero: |
             Dieser Server hat keine Emotes mehr übirg!
