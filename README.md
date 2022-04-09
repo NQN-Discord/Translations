@@ -1,4 +1,6 @@
 # Translations
 Translation files for NQN
 
-Pull Requests will be accepted for grammar corrections, more accurate language usage and new translations
+Please use https://crowdin.com/project/nqn for new translations. 
+
+We'll accept grammar and spelling corrections, new strings, and other general improvements.
