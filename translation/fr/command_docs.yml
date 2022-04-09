@@ -262,6 +262,10 @@ command_docs:
     short_doc: Vous n'aimez pas un emojis ? Faites en sorte qu'ils travaillent pour ça.
     help: |
       Vous n'aimez pas un emojis ? Faites en sorte qu'ils travaillent pour ça.
+  server-alias-import:
+    short_doc: Import a list of server aliases from a file.
+    help: |
+      Import a list of server aliases from a file.
   server-alias-list:
     short_doc: Affiche tous les alias que tout le monde peut utiliser dans votre serveur.
     help: |
@@ -338,6 +342,10 @@ command_docs:
     short_doc: Active ou désactive les pings dans les messages pour ce serveur
     help: |
       Active ou désactive les pings dans les messages pour ce serveur que NQN reposte sur ce serveur
+  server-phish_detection:
+    short_doc: Enable or disable phishing message detection for this server
+    help: |
+      Enable or disable phishing message detection for this server
   server-prefix:
     short_doc: Fait en sorte que NQN écoute sur un préfixe différent.
     help: |
