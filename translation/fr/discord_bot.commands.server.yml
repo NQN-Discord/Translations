@@ -3,7 +3,7 @@ discord_bot:
   commands:
     server:
       alias:
-        set_emote_title: 'Définit \\:%{name}: à %{emote} pour ce serveur.'
+        set_emote_title: 'Définit \:%{name}: à %{emote} pour ce serveur.'
         set_emote_description:
           zero: |
             Ce serveur n'a plus d'emotes restantes !
@@ -31,7 +31,7 @@ discord_bot:
 
           Pour plus d'alias, n'importe qui peut voter pour le bot à %{url}
         no_alias: Ce serveur n'a pas d'alias nommé %{name}
-        renamed: 'Renommé %{emote} de \\:%{name}: en :%{new}:'
+        renamed: 'Renommé %{emote} de \:%{name}: en :%{new}:'
         no_aliases: Ce serveur n'a pas d'alias globaux
       nitro_role:
         unset: Tout le monde sur ce serveur peut utiliser des emojis Nitro gratuites avec NQN.

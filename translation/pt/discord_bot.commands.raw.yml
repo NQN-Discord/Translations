@@ -76,9 +76,9 @@ discord_bot:
         page_0_0_desc: |
           Você pode usar qualquer emoji que compartilhe um servidor com você e este bot.
           **Existem várias formas de usar emojis de servidores em que você não está:**
-        page_0_1_name: "3\u20E3 Pacotes de Emoji"
+        page_0_1_name: "3⃣ Pacotes de Emoji"
         page_0_1_desc: '> `%{prefix}pack search NomeDoPacote`'
-        page_0_2_name: "4\u20E3 Emojis Individuais - Aliases"
+        page_0_2_name: "4⃣ Emojis Individuais - Aliases"
         page_0_2_desc: '> `%{prefix}alias search NomeDoEmoji`'
         page_1_title: Reações
         page_1_desc: Você só pode reagir com emojis que pode usar no NQN.
@@ -91,7 +91,7 @@ discord_bot:
         page_1_3_name: 'Reagindo a mensagens mais antigas:'
         page_1_3_desc: '> `%{prefix}react ID_Mensagem NomeDoEmoji`'
         page_1_4_name: Excluindo mensagens
-        page_1_4_desc: "Reaja às mensagens enviadas por você com \u274C (\\:x:) para excluí-las."
+        page_1_4_desc: "Reaja às mensagens enviadas por você com ❌ (\\:x:) para excluí-las."
         page_2_title: Pacotes
         page_2_desc: |
           Os pacotes são conjuntos de emojis de outros servidores. Depois de se juntar a um pacote, vocẽ ganha acesso aos emojis que ele tem.
@@ -332,7 +332,7 @@ discord_bot:
         more_animated_needed: Este servidor vai atingir o seu limite de emojis animados, pois requer %{size}. Apague %{delete} e tente de novo
         more_static_needed: Este servidor vai atingir o seu limite de emojis estáticos, pois requer %{size}. Apague %{delete} e tente de novo
         too_quick: Os emojis estão sendo criados muito rápido, tente novamente em algumas horas (Error code '%{e}')
-        this_emote: É esse o emoji que voc\u1EBD quer?
+        this_emote: É esse o emoji que vocẽ quer?
         emote_preview: |
           Está tudo certo?
           Se você **NÃO** for o proprietário deste emoji, ou não tiver permissão para distribuí-lo, selecione ❎.
