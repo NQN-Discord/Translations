@@ -3,7 +3,7 @@ discord_bot:
   commands:
     mod:
       audit:
-        no_messages: Ningún mensaje a auditar
+        no_messages: Ningún mensaje a auditar.
         expand: Expandir
         truncate: Truncar
       edit_topic:
