@@ -1,5 +1,0 @@
-pt:
-  short_doc: "Importar uma lista de pessoas exportada anteriormente"
-  help: |
-    Importar uma lista de pessoas exportada anteriormente.
-    Compatível com PluralKit e Tupperbox.

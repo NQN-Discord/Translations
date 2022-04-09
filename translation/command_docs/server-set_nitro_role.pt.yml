@@ -1,5 +1,0 @@
-pt:
-  short_doc: 'Define um cargo que será necessário para usar o NQN'
-  help: |
-    Escolha um cargo que será exigido para que os usuários usem a função
-    nitro do NQN

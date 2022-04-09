@@ -1,0 +1,19 @@
+---
+discord_bot:
+  audit_log:
+    cropped: (\u0421\u043E\u043A\u0440\u0430\u0449\u0435\u043D\u043E)
+    nsfw_censored: <\u0417\u0430\u0446\u0435\u043D\u0437\u0443\u0440\u0435\u043D\u043E; %{channel} \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F NSFW-\u043A\u0430\u043D\u0430\u043B\u043E\u043C>
+    message_posted: |
+      Сообщение отправлено в %{channel} от %{author} %{cropped}
+      [Перейти на сообщение](%{jump_url})
+    message_posted_persona: |
+      Сообщение отправлено в %{channel} от %{author} %{cropped}
+      ⚠️ Персона была использована ⚠️
+      > **%{persona}**
+      [Перейти на сообщение](%{jump_url})
+    message_edited: |
+      Сообщение в канале %{channel} было переименовано %{author} %{cropped}
+      [Перейти на сообщение](%{jump_url})
+    phish_deleted: |
+      Deleted phishing message in %{channel} by %{author}
+    audit_log_post: NQN \u043E\u0442 \u0438\u043C\u0435\u043D\u0438 <@%{author}> (%{id})

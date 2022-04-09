@@ -1,5 +1,0 @@
-es:
-  short_doc: 'Crea un emoji estático, el cual al ser usado, envía una versión animada del emoji!'
-  help: |
-    Crea un emoji estático, el cual al ser usado, envía una versión animada del emoji!
-

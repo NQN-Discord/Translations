@@ -1,5 +1,0 @@
-de:
-  short_doc: 'Entferne eine Anzahl von Nachrichten, die von dem Bot in diesem Kanal repostet wurden. Optional kann nach einem bestimmten Nutzer gefilter werden.'
-  help: |
-    Entferne eine Anzahl von Nachrichten, die von dem Bot in diesem Kanal repostet wurden. Optional kann nach einem bestimmten Nutzer gefilter werden
-

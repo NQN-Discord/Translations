@@ -1,6 +1,0 @@
-fr:
-  short_doc: 'Modifie un message écrit par NQN'
-  help: |
-    Modifie le contenu de l'un de vos messages reposté par NQN.
-    Par défaut, votre message le plus récent dans ce canal est modifié, mais vous pouvez fournir l'URL d'un message pour le modifier.
-    Vous pouvez également utiliser la fonctionnalité 'répondre' de Discord pour modifier un message en particulier.

@@ -1,5 +1,0 @@
-pt:
-  short_doc: "Receba uma lista de seus aliases no PV"
-  help: |
-    Faça com que o bot te envie uma lista de seus aliases no privado
-

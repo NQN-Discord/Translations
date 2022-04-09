@@ -1,8 +1,0 @@
-de:
-  short_doc: 'Reagiere mit Emojis von NQN auf eine Nachricht'
-  help: |
-    Reagiere auf die `n`te zuletzt gesendete Nachricht
-    Optionale Nachricht: Nutze die ID der Nachricht oder den Link der Nachricht, um auf eine bestimmte Nachricht zu reagieren oder die `n`te zuletzt gesendete Nachricht (bis zu 20te)
-    Der Befehl erlaubt eine Liste an Reaktionen, welche in der angegebenen Reihenfolge hinzugefügt werden.
-    Um auf eine Nachricht in einem anderen Kanal zu reagieren, nutze den Nachrichtenlink.
-

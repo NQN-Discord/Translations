@@ -1,4 +1,0 @@
-fr:
-  short_doc: 'Affiche les paramètres pour ce serveur'
-  help: |
-    Affiche les paramètres NQN pour ce serveur, incluant les fonctionnalités, les canaux configurés et les informations des packs.

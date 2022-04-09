@@ -1,7 +1,0 @@
-en:
-  short_doc: 'Stop NQN from reposting your messages'
-  help: |
-    Running this command stops NQN from reposting any of your messages in any server you share with the bot.
-    - Commands are still enabled, running this command again returns you to normal
-    - You can still repost messages through our [dashboard](https://nqn.blue)
-    - The bot will not respond to any messages you send that would be reposted through a webhook

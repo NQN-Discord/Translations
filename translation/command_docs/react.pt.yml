@@ -1,7 +1,0 @@
-pt:
-  short_doc: 'Reaja a uma mensagem com emojis de NQN'
-  help: |
-    Reaja a mensagem `n` mais recente
-    Mensagem opcional: o ID da mensagem ou link para reagir ou a `n` mensagem mais recente (até 20 mensagens atrás)
-    O comando permite uma lista de reações, cada uma das quais será adicionada na ordem especificada.
-    Para reagir a uma mensagem em outro canal, use o link da mensagem.

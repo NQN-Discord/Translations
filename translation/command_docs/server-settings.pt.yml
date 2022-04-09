@@ -1,4 +1,0 @@
-pt:
-  short_doc: 'Ver as configurações deste servidor'
-  help: |
-    Visualize as configurações do servidor NQN, incluindo recursos, canais configurados e informações de pacote.

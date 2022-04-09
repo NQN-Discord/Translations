@@ -1,5 +1,0 @@
-en:
-  short_doc: 'Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user'
-  help: |
-    Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user
-

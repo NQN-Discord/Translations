@@ -1,3 +1,0 @@
-es:
-  short_doc: 'Cambia el lenguaje del bot %{locale_flag_emojis}'
-  help: 'Cambia el lenguaje del bot'

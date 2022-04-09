@@ -1,9 +1,0 @@
-en:
-  short_doc: 'Get audit logs for reposted messages for this channel'
-  help: |
-    Get audit logs for reposted messages for this channel
-    Optional[Channel] -> Filter logs to this channel only
-    Optional[Member] -> Filter logs to this member only
-
-    If both channel and members are to be unfiltered, use 'audit guild'
-

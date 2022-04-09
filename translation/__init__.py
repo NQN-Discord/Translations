@@ -5,7 +5,7 @@ import copy
 from discord import Guild
 from discord.ext.commands import Context
 from ._create_owo import create_owo
-
+from ._ruamel_loader import YamlLoader
 
 
 try:
@@ -53,10 +53,18 @@ class Translator:
 
     def __init__(self, get_locale: Optional[Callable[[Guild], Awaitable[str]]]):
         self.get_locale = get_locale
-        root_path = pathlib.Path(__file__).parent.absolute()
-        i18n.load_path.append(root_path)
+        root_path = pathlib.Path(__file__).parent
+        i18n.load_path.append(root_path.absolute())
         i18n.set("enable_memoization", True)
-        create_owo(root_path)
+        i18n.set("skip_locale_root_data", True)
+        i18n.resource_loader.register_loader(YamlLoader, ["yml"])
+
+        for path in root_path.rglob("*.yml"):
+            locale = path.parent.name
+            translations_dic = i18n.resource_loader.load_resource(str(path), None)
+            i18n.resource_loader.load_translation_dic(translations_dic, "", locale)
+
+        create_owo()
         if translate_function:
             self.translate_function = translate_function
         else:

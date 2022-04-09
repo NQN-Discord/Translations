@@ -1,9 +1,0 @@
-ms:
-  short_doc: 'Dapatkan log audit logs bagi mesej yang dihantar semula di saluran ini'
-  help: |
-    Dapatkan log audit logs bagi mesej yang dihantar semula di saluran ini
-    Pilihan[Saluran] -> Tapis log saluran ini sahaja
-    Pilihan[Ahli] -> Tapis log ahli ini sahaja
-
-    Jika kedua-dua saluran dan ahli tidak mahu ditapis, gunakan 'audit guild'
-

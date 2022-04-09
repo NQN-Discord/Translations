@@ -1,5 +1,0 @@
-de:
-  short_doc: 'Setzt voraus, dass Nutzer eine Rolle haben, um NQN zu nutzen'
-  help: |
-    Stelle eine Rolle ein, die Nutzer zur Nutzung von NQN für Nitro-Reposting benötigen
-

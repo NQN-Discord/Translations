@@ -1,8 +1,0 @@
-de:
-  short_doc: 'Erhalte Audit Logs für repostete Nachhrichten für diesen Kanal'
-  help: |
-    Erhalte Audit Logs für repostete Nachrichten für diesen Kanal
-    Optional[Channel] -> Filtern der Logs nach nur diesen Kanal
-    Optional[Member] -> Filtern der Logs nach nur diesem Mitglied
-
-    Wenn sowohl Kanal als auch Mitglied wieder aus dem Filter genommen werden sollen, nutze 'audit guild'

@@ -1,0 +1,53 @@
+---
+discord_bot:
+  commands:
+    alias:
+      no_alias: "\u0412\u044B \u043D\u0435 \u0438\u043C\u0435\u0435\u0442\u0435 \u044D\u043C\u043E\u0434\u0437\u0438 \u0441 \u0438\u043C\u0435\u043D\u0435\u043C \\:%{name}:"
+      could_not_find: \u041D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u043D\u0430\u0439\u0442\u0438 \u044D\u043C\u043E\u0434\u0437\u0438
+      alphanumeric: \u042D\u043C\u043E\u0434\u0437\u0438 \u043C\u043E\u0433\u0443\u0442 \u0441\u043E\u0434\u0435\u0440\u0436\u0430\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E \u0431\u0443\u043A\u0432\u044B, \u0446\u0438\u0444\u0440\u044B \u0438 \u0441\u0438\u043C\u0432\u043E\u043B\u044B \u043F\u043E\u0434\u0447\u0435\u0440\u043A\u0438\u0432\u0430\u043D\u0438\u044F.
+      max_length: \u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u044D\u043C\u043E\u0434\u0437\u0438 \u0434\u043E\u043B\u0436\u043D\u043E \u0431\u044B\u0442\u044C \u043D\u0435 \u0431\u043E\u043B\u044C\u0448\u0435 32 \u0441\u0438\u043C\u0432\u043E\u043B\u043E\u0432 \u0432 \u0434\u043B\u0438\u043D\u0443
+      user_zero: \u0423 \u0432\u0430\u0441 \u043D\u0435\u0442 \u043A\u0430\u043A\u0438\u0445-\u043B\u0438\u0431\u043E \u044D\u043C\u043E\u0434\u0437\u0438
+      from_message:
+        no_emotes: This message doesn't have any custom emojis in it!
+      delete:
+        deleted: '\u0412\u044B \u0443\u0434\u0430\u043B\u0438\u043B\u0438 \\:%{name}:'
+      delete_all:
+        confirm: |
+          This will delete all **%{count}** of your aliases.
+          Are you sure you wish to continue?
+        deleted:
+          one: Deleted 1 alias
+          many: Deleted %{count} aliases
+      created:
+        one: 'You created an alias and can use it by typing:'
+        many: 'You created %{count} aliases and can use them by typing:'
+      rename:
+        rename: Rename Alias
+        alias_name: 'Alias Name:'
+        renamed: 'Renamed \:%{old}: to :%{new}:'
+      export:
+        exported_short: "Here's your exported aliases:"
+        exported_long: |
+          Here's your exported aliases:
+          To share them with other people, they need to run:
+          > `%{prefix}alias import %{url}`
+      import_:
+        import_incorrect: |
+          This command is used to import an alias list previously exported with `%{prefix}alias export`.
+          To create an alias, use `%{prefix}alias search`
+        import_text: This command needs a text file attachment
+        import_lines_invalid: Could not set aliases on lines %{lines_invalid}, invalid format.
+        import_set:
+          one: Set %{count} alias.
+          many: Set %{count} aliases.
+      dm:
+        send_dms:
+          zero: |
+            You have no aliases!
+            Get some with `%{prefix}alias search`
+          one: |
+            This will send you a direct message; do you wish to continue?
+          many: |
+            This will send you %{count} direct messages; do you wish to continue?
+        blocked: |-
+          You've blocked me, I can't message you!

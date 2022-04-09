@@ -1,6 +1,0 @@
-ms:
-  short_doc: 'Sunting satu mesej yang dihantar NQN'
-  help: |
-    Sunting kandungan salah satu mesej anda yang dihantar semula oleh NQN.
-    Secara lalai, mesej terbaharu anda di saluran ini akan disunting, namun anda jumpa boleh menyediakan URL mesej untuk menyunting mesej itu sebaliknya.
-    Anda boleh juga menggunakan ciri pembalasan mesej Discord untuk menyunting mesej itu.

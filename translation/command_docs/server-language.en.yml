@@ -1,5 +1,0 @@
-en:
-  short_doc: 'Set the bots language %{locale_flag_emojis}'
-  help: |
-    Set the bots language
-

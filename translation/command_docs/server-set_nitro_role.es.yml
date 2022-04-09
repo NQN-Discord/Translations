@@ -1,4 +1,0 @@
-es:
-  short_doc: 'Require poseer un rol para utilizar NQN'
-  help: |
-    Selecciona un rol que los usuarios necesitan para utilizar la funcionalidad de nitro de NQN

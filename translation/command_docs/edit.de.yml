@@ -1,6 +1,0 @@
-de:
-  short_doc: 'Bearbeite eine von NQN gepostete Nachricht'
-  help: |
-    Bearbeite den Inhalt einer deiner von NQN reposteten Nachrichten.
-    Standardmäßig wird deine zuletzt gesendete Nachricht bearbeitet, du kannst aber optional eine URL zu der Nachricht angeben, die stattdessen berbeitet werden soll.
-    Du kannst auch Discords auf die Nachricht antworten-Funktion nutzen, um eine bestimmte Nachricht zu bearbeiten.

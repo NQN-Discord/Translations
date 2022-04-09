@@ -1,6 +1,0 @@
-es:
-  short_doc: 'Borra uno de tus mensajes reenviados por NQN'
-  help: |
-    Borra uno de tus mensajes reenviados por NQN.
-    Por defecto, tu mensaje más reciente en este canal es borrado, pero también podes poreveer el URL del mensaje a borrar.
-    Tambien puedes utilizar la funcionalidad de respuestas de Discord para borrar ese mensaje.

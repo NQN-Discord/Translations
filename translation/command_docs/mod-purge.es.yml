@@ -1,4 +1,0 @@
-es:
-  short_doc: 'Purga hasta un numero determinado de mensajes reenviados por el bot en este canal, opcionalmente filtrando los por un usuario especifico'
-  help: |
-    Purga hasta un numero determinado de mensajes reenviados por el bot en este canal, opcionalmente filtrando los por un usuario especifico

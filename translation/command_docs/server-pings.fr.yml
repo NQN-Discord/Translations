@@ -1,5 +1,0 @@
-fr:
-  short_doc: 'Active ou désactive les pings dans les messages pour ce serveur'
-  help: |
-    Active ou désactive les pings dans les messages pour ce serveur que NQN reposte sur ce serveur
-

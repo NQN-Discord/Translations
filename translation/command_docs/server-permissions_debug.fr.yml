@@ -1,4 +1,0 @@
-fr:
-  short_doc: "Laissez NQN vous dire quelles sont les permissions qui lui manquent"
-  help: |
-    Déboguer les permissions dans votre serveur

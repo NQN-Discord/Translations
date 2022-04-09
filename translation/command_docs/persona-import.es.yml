@@ -1,6 +1,0 @@
-es:
-  short_doc: "Importa una lista de personajes"
-  help: |
-    Importa una lista de personajes previamente exportados.
-    Compatible con PluralKit y Tupperbox.
-

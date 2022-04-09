@@ -1,5 +1,0 @@
-
-pt:
-  short_doc: 'Limpe até mensagens de `mensagens` repostadas pelo bot neste canal, opcionalmente filtrando para um usuário específico'
-  help: |
-    Limpe até mensagens de `mensagens` repostadas pelo bot neste canal, opcionalmente filtrando para um usuário específico
