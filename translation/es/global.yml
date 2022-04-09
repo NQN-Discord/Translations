@@ -59,7 +59,7 @@ global:
     Tu habilidad de usar el bot ha sido temporalmente suspendida debido a la detección automática de spam.
     Este mensaje sera enviado como mucho una vez al día, y no existe manera para apelar esta suspensión.
 
-    Tu habilidad de usar el bot será restaurada dentro de **5 minutos**
+    Tu habilidad de usar el bot será restaurada dentro de **5 minutos**.
   support_server: |
     Puedes unirte a mi servidor de soporte aquí:
     http://discord.gg/XvzDPca
