@@ -445,20 +445,20 @@ command_docs:
     help: |
       Hai bisogno di aiuto nell'usarmi?
   tutorial:
-    short_doc: Learn how to use emotes with NQN
+    short_doc: Impara come usare le emote con NQN
     help: |
-      Learn how to use emotes with NQN
+      Impara come usare le emote con NQN
   upload_emote:
-    short_doc: Search for all the emotes the bot has ever seen and upload them to this server.
+    short_doc: Cerca tutte le emote che il bot ha visto e caricale su questo server.
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload that
+      Cerca tutte le emote che il bot ha visto e caricale su questo server.
+      Questo comando ti permette di caricare le emote.
+      Puoi anche allegare un file per caricarlo
   vote_opt_out:
-    short_doc: Opt out of vote DMs
+    short_doc: Opt out dei voti DM
     help: |
-      Opt out of vote DMs
+      Opt out dei voti DM
   whois:
-    short_doc: Find who posted a message
+    short_doc: Trova chi ha inviato un messaggio
     help: |
-      Find who posted a message
+      Trova chi ha inviato un messaggio
