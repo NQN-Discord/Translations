@@ -264,6 +264,10 @@ command_docs:
     short_doc: '¿No te gusta un emoji? Haz que trabajen para conseguirlo.'
     help: |
       ¿No te gusta un emoji? Haz que trabajen para conseguirlo.
+  server-alias-import:
+    short_doc: Importa una lista de alias como alias del servidor desde un archivo.
+    help: |
+      Importa una lista de alias como alias del servidor desde un archivo.
   server-alias-list:
     short_doc: Muestra todos los alias que pueden ser usados por todos en el servidor
     help: |
@@ -340,6 +344,10 @@ command_docs:
     short_doc: Habilita o deshabilita los pings en mensajes reenviados en este servidor
     help: |
       Habilita o deshabilita los pings en mensajes que NQN reenvia en este servidor
+  server-phish_detection:
+    short_doc: Habilitar o deshabilitar la detección de mensajes de phishing para este servidor.
+    help: |
+      Habilitar o deshabilitar la detección de mensajes de phishing para este servidor.
   server-prefix:
     short_doc: Has que NQN escuche un prefijo diferente.
     help: |
@@ -348,7 +356,7 @@ command_docs:
       Ejemplo:
       >>> %{prefix}server prefix <@%{bot_id}> ?
     signature: |
-      @NQN#3454 [prefix=!]
+      @NQN#3454 [prefijo=!]
   server-replies:
     short_doc: Habilita o deshabilita el uso de respuestas a través de NQN en este servidor
     help: |
