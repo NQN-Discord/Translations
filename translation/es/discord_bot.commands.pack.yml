@@ -52,7 +52,7 @@ discord_bot:
       show:
         not_registered: '%{name} no es un pack de emojis registrado'
         pack_empty: Este pack no tiene ningún emoji en el!
-        join_pack: 'Contenidos del pack "%{name}:"'
+        join_pack: 'Contenidos del pack "%{name}":'
       unpublish:
         not_published: Este servidor no fue publicado previamente.
         unpublished: Se removió el pack %{name}

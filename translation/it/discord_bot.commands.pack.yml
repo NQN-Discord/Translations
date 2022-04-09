@@ -3,68 +3,68 @@ discord_bot:
   commands:
     pack:
       buttons:
-        add_to_everyone: Add to @everyone
-        join_pack: Join Pack
-        leave_pack: Leave Pack
-        join_server: Join Server
-        all: Save All
+        add_to_everyone: Aggiungi a @everyone
+        join_pack: Unisciti Al Pacchetto
+        leave_pack: Lascia Il Pacchetto
+        join_server: Unisciti Al Server
+        all: Salva Tutto
       join:
-        no_pack: '%{name} is not a registered emote pack'
-        already_joined: You are already joined to %{name}
+        no_pack: '%{name} non è un pacchetto di emote registrato'
+        already_joined: Sei già iscritto a %{name}
         joined_pack: |
-          Joined %{name}.
-          You may now use the following emotes by typing its name into chat, including colons:
+          Unito %{name}.
+          Ora puoi usare le seguenti emote digitando il loro nomi in chat, inclusi i colons:
       leave:
-        no_pack: '%{name} is not a registered emote pack'
-        already_left: You weren't in %{name} anyway
-        left: Left %{name}
+        no_pack: '%{name} non è un pacchetto di emote registrato'
+        already_left: Non eri comunque in %{name}
+        left: Uscito da %{name}
       meta:
-        needs_publishing: You cannot do this without first publishing this server as an emote pack.
+        needs_publishing: Non puoi farlo senza pubblicare prima questo server come pacchetto di emote.
       mine:
-        no_packs: You don't have any packs!
+        no_packs: Non hai nessun pacchetto!
       publish:
-        already_published: This server is already published as a pack!
-        already_exists: An emote pack called %{name} already exists
-        published: Published emote pack %{name}. Anyone is able to save these emotes to their own server, and you assert that you are the owner of these emotes. To undo this, run `%{prefix}pack unpublish`.
+        already_published: Questo server è già pubblicato come pacchetto!
+        already_exists: Esiste già un pacchetto di emote chiamato %{name}
+        published: Pubblicato il pacchetto di emote %{name}. Chiunque è in grado di salvare queste emote sul proprio server, e si afferma che sei il proprietario di queste emote. Per annullare questa operazione, esegui `%{prefix}pack unpublish`.
         pack_published: |
-          To gain access to all these emotes, run
+          Per accedere a tutte queste emote, digita
           >>> !pack join %{name}
       rename:
-        already_exists: An emote pack called %{name} already exists
-        not_published: This server was not published before.
-        renamed: Renamed %{old} to %{new}
+        already_exists: Esiste già un pacchetto di emote chiamato %{name}
+        not_published: Questo server non è mai stato pubblicato.
+        renamed: Rinominato %{old} in %{new}
       save:
-        none_left: After filtering out emotes with the same name as ones in this server, there were none left to import!
-        no_space: There's no space in this server to add any of the emotes in this pack.
+        none_left: Dopo aver filtrato le emote con lo stesso nome di quelle in questo server, non è rimasto niente da importare!
+        no_space: Non c'è spazio in questo server per aggiungere una qualsiasi delle emote in questo pacchetto.
         failed_batch: |
-          Discord only allows bots to upload 50 emotes per hour.
-          NQN wasn't able to upload all the emotes in this batch, but you can run this command again in an hour to upload the rest
-        not_registered: '%{name} is not a registered emote pack'
-        upload_question: "Upload these emotes to this server?\n If you are not the owner of all of these emoji, choose N."
+          Discord permette solo ai bot di caricare 50 emotes all'ora.
+          NQN non è stato in grado di caricare tutte le emote in questo pack, ma puoi eseguire nuovamente questo comando in un'ora per caricare il resto
+        not_registered: '%{name} non è un pacchetto di emote registrato'
+        upload_question: "Carica queste emote su questo server?\n Se non sei il proprietario di tutte queste emoji, scegli N."
         uploaded:
-          one: Uploaded %{count} emote
-          many: Uploaded %{count} emotes
+          one: Caricate %{count} emote
+          many: Caricate %{count} emote
       search:
         invalid_group: <Invalid pack - Please Report>
       set_public:
-        needs_publishing: You cannot do this without first publishing this server as an emote pack.
-        public_on: Allowed invites via NQN.
-        public_off: Disabled invites via NQN.
+        needs_publishing: Non puoi farlo senza pubblicare prima questo server come pacchetto di emote.
+        public_on: Inviti consentiti tramite NQN.
+        public_off: Inviti disabilitati tramite NQN.
       show:
-        not_registered: '%{name} is not a registered emote pack'
-        pack_empty: This pack has no emotes in it!
-        join_pack: 'Contents of pack "%{name}":'
+        not_registered: '%{name} non è un pacchetto di emote registrato'
+        pack_empty: Questo pacchetto non ha emote in esso!
+        join_pack: 'Contenuto del pacchetto "%{name}":'
       unpublish:
-        not_published: This server was not published before.
-        unpublished: Unpublished emote pack %{name}
+        not_published: Questo server non è mai stato pubblicato.
+        unpublished: Pacchetto di emote %{name} non pubblicato
       dm:
         send_dms:
           zero: |
-            You have no packs!
-            Get some with `%{prefix}pack search`
+            Non hai pacchetti!
+            Ottieni alcuni pacchetti con `%{prefix}pack search`
           one: |
-            This will send you a direct message; do you wish to continue?
+            Questo ti invierà un messaggio diretto; vuoi continuare?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            Questo ti invierà %{count} messaggi diretti; vuoi continuare?
         blocked: |-
-          You've blocked me, I can't message you!
+          Mi hai bloccato, non posso messaggiarti!
