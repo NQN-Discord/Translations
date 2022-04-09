@@ -76,9 +76,9 @@ discord_bot:
         page_0_0_desc: |
           Todos pueden utilizar cualquier emoji que comparte un servidor con vos y el bot
           **Hay distintas formas para utilizar emojis de servidores de los que no perteneces:**"
-        page_0_1_name: "3\u20E3 Packs de emojis - Paquete de emojis"
+        page_0_1_name: "3⃣ Packs de emojis - Paquete de emojis"
         page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Aliases - Emojis Individuales"
+        page_0_2_name: "4⃣ Aliases - Emojis Individuales"
         page_0_2_desc: '> `%{prefix}alias search NombreDelEmoji`'
         page_1_title: Reacciones
         page_1_desc: Solo puedes reaccionar con emojis que puedes utilizar con NQN.
@@ -91,7 +91,7 @@ discord_bot:
         page_1_3_name: 'Reaccionado a viejos mensajes:'
         page_1_3_desc: '> `%{prefix}react URLdelMensaje NombreDelEmoji`'
         page_1_4_name: Borrando Mensajes
-        page_1_4_desc: "Reacciona al mensaje a borrar con \u274C (\\:x:) para eliminarlo."
+        page_1_4_desc: "Reacciona al mensaje a borrar con ❌ (\\:x:) para eliminarlo."
         page_2_title: Packs
         page_2_desc: |
           Los packs de emojis son una colecciones de emojis. Despues de asignarte/unirte a un pack, obtenes acceso a los emojis de este.
@@ -315,7 +315,7 @@ discord_bot:
           > <:KingKiller:800410618074628146> KingKiller
           > <:gil:873518552295014420> Gil
         bot_stats: Estadísticas del Bot de discord.
-        shard_info_name: Shard Info
+        shard_info_name: Info de Shards
         process_data_name: Datos del proceso de bot
         elasticsearch_data_name: Datos de Elasticsearch
         package_info_name: Info de librerías
