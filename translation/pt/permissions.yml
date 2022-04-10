@@ -13,7 +13,7 @@ permissions:
   connect: |-
     Conectar
   create_instant_invite: |-
-    Crie um convite instantâneo
+    Criar um convite instantâneo
   deafen_members: |-
     Ensurdecer Membros
   embed_links: |-
@@ -53,7 +53,7 @@ permissions:
   send_messages: |-
     Enviar Mensagem
   send_tts_messages: |-
-    Send TTS Messages
+    Enviar mensagens TTS
   speak: |-
     Falar
   stream: |-

@@ -22,8 +22,8 @@ discord_bot:
         one: 'Você criou um alias e pode usá-lo digitando:'
         many: 'Você criou %{count} aliases e pode usá-los digitando:'
       rename:
-        rename: Rename Alias
-        alias_name: 'Alias Name:'
+        rename: Renomear Alias
+        alias_name: 'Nome do Alias:'
         renamed: '\:%{old}: foi renomeado para :%{new}:'
       export:
         exported_short: "Aqui estão seus aliases exportados:"
