@@ -215,7 +215,7 @@ command_docs:
   persona-export:
     short_doc: Esporta il tuo elenco di persone in un file
     help: |
-      Esporta la tua lista di persone in un file, che è compatibile con altri bot
+      Esporta il tuo elenco di persone in un file, che è compatibile con altri bot
   persona-import:
     short_doc: Importa un elenco di persone precedentemente esportato
     help: |
@@ -240,7 +240,7 @@ command_docs:
   premium-check:
     short_doc: Ricalcola le tue informazioni premium
     help: |
-      Ricalcola le tue informazioni premium, inclusa la lista dei server che ottengono premium da te.
+      Ricalcola le tue informazioni premium, incluso l'elenco dei server che ottengono premium da te.
   premium:
     short_doc: Informazioni su NQN premium
     help: |
