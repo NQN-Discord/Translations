@@ -13,13 +13,13 @@ command_docs:
     help: |
       Il bot ti invia un elenco dei tuoi alias nei tuoi DM
   alias-export:
-    short_doc: Esporta la tua lista di alias
+    short_doc: Esporta il tuo elenco di alias
     help: |
-      Esporta la tua lista di alias
+      Esporta il tuo elenco di alias
   alias-import:
-    short_doc: Importa la lista alias di qualcun altro
+    short_doc: Importa l'elenco alias di qualcun altro
     help: |
-      Importa la lista alias di qualcun altro
+      Importa l'elenco alias di qualcun altro
   alias-list:
     short_doc: Ottieni un elenco di alias che hai creato
     help: |
@@ -31,23 +31,23 @@ command_docs:
   alias-search:
     short_doc: Cerca emote individuali da usare con NQN
     help: |
-      Cerca le singole emotes da usare con NQN
+      Cerca le singole emote da usare con NQN
 
       La ricerca di NQN permette alcune funzionalità avanzate:
-       - `esatto`: (falso predefinito) mostra solo le emote con il nome esatto come cercato
-       - `animato`: mostra solo le emote animate o statiche
-       - `pagina`: passa a una certa pagina
-       - `ordine`: uno di 'usi', 'casuale'
+       - `exact`: (predefinito falso) mostra solo le emote con il nome esatto come cercato
+       - `animated`: mostra solo le emote animate o statiche
+       - `page`: passa a una certa pagina
+       - `order`: uno di 'usi', 'casuale'
   alias:
     short_doc: Gestisci le singole emote che puoi usare
     help: |
       Gestisci le singole emote che puoi usare
 
       La ricerca di NQN permette alcune funzionalità avanzate:
-       - `esatto`: (falso predefinito) mostra solo le emote con il nome esatto come cercato
-       - `animato`: mostra solo le emote animate o statiche
-       - `pagina`: passa a una certa pagina
-       - `ordine`: uno dei 'usi', 'casuale'
+       - `exact`: (predefinito falso) mostra solo le emote con il nome esatto come cercato
+       - `animated`: mostra solo le emote animate o statiche
+       - `page`: passa a una certa pagina
+       - `order`: uno di 'usi', 'casuale'
   audit:
     short_doc: Ottieni i registri di controllo per i messaggi repostati per questo canale
     help: |
@@ -55,7 +55,7 @@ command_docs:
       Facoltativo[Channel] -> Log di filtro per questo canale
       Facoltativo[Member] -> Log di filtro per questo membro
 
-      Se entrambi i canali e membri non devono essere filtrati, usa 'registri gilda'
+      Se entrambi i canali e membri non devono essere filtrati, usa 'audit guild'
   delete:
     short_doc: Elimina uno dei tuoi messaggi inviati da NQN
     help: |
@@ -70,17 +70,17 @@ command_docs:
       Per impostazione predefinita, il tuo messaggio più recente in questo canale è modificato, ma puoi opzionalmente fornire un URL di un messaggio per modificarlo
       Puoi anche utilizzare la funzionalità di risposta ai messaggi di Discord per modificare quel messaggio.
   export:
-    short_doc: Esporta la tua lista di emote
+    short_doc: Esporta il tuo elenco di emote
     help: |
-      Esporta la tua lista di emote
+      Esporta il tuo elenco di emote
   help:
     short_doc: Impara i miei comandi
     help: |
       Impara i comandi che puoi eseguire con NQN
   ignore_me:
-    short_doc: Ferma NQN dal repostare i tuoi messaggi
+    short_doc: Fai in modo che NQN non posti più i tuoi messaggi
     help: |
-      L'esecuzione di questo comando impedisce a NQN di ripostare qualsiasi messaggio in qualsiasi server condiviso con il bot.
+      L'esecuzione di questo comando impedisce a NQN di repostare qualsiasi messaggio in qualsiasi server condiviso con il bot.
       - I comandi sono ancora abilitati, eseguire nuovamente questo comando riabiliterà la funzione
       - Puoi ancora repostare i messaggi attraverso la nostra [dashboard](https://nqn.blue)
       - Il bot non risponderà a qualsiasi messaggio che invii che verrebbe repostato tramite un webhook
@@ -103,7 +103,7 @@ command_docs:
       Facoltativo[Channel] -> Log di filtro per questo canale
       Facoltativo[Member] -> Log di filtro per questo membro
 
-      Se entrambi i canali e i membri non sono filtrati, usa 'registri gilda'
+      Se entrambi i canali e i membri non sono filtrati, usa 'audit guild'
   mod-ban:
     short_doc: Banna l'utente che ha pubblicato un messaggio
     help: |
@@ -145,9 +145,9 @@ command_docs:
     help: |
       Conoscenza proibita dentro
   pack-dm:
-    short_doc: Ottieni un elenco completo dei tuoi pack in DM
+    short_doc: Ottieni un elenco completo dei tuoi pacchetti in DM
     help: |
-      Avere il bot ti invia un elenco completo delle emoji correnti dei tuoi pack attraverso i tuoi DM.
+      Il bot ti invierá un elenco completo delle emoji correnti dei tuoi pacchetti attraverso i tuoi DM.
   pack-join:
     short_doc: Iscriviti a un pacchetto di emote
     help: |
@@ -159,7 +159,7 @@ command_docs:
   pack-meta:
     short_doc: Oooh... Belle statistiche sul tuo pack
     help: |
-      Oooh... Belle statistiche sul tuo pack
+      Oooh... Belle statistiche sul tuo pacchetto
   pack-mine:
     short_doc: Ottieni un elenco di pacchetti emote a cui sei iscritto
     help: |
@@ -215,7 +215,7 @@ command_docs:
   persona-export:
     short_doc: Esporta il tuo elenco di persone in un file
     help: |
-      Esporta la tua lista di persone in un file, che è compatibile con altri bot
+      Esporta il tuo elenco di persone in un file, che è compatibile con altri bot
   persona-import:
     short_doc: Importa un elenco di persone precedentemente esportato
     help: |
@@ -240,7 +240,7 @@ command_docs:
   premium-check:
     short_doc: Ricalcola le tue informazioni premium
     help: |
-      Ricalcola le tue informazioni premium, inclusa la lista dei server che ottengono premium da te.
+      Ricalcola le tue informazioni premium, incluso l'elenco dei server che ottengono premium da te.
   premium:
     short_doc: Informazioni su NQN premium
     help: |

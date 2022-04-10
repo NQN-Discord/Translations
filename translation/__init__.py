@@ -37,7 +37,8 @@ class Translator:
         "fr": "fr",
         "pt": "pt",
         "br": "pt",
-        "ms": "ms"
+        "ms": "ms",
+        "it": "it"
     }
 
     flags = {
@@ -45,6 +46,7 @@ class Translator:
         "es": "Español",
         "ru": "Русский",
         "br": "Português",
+        "it": "Italiano"
     }
 
     flag_emojis = {flag: "".join(chr(0x1f185+ord(c)) for c in flag) for flag in flags}
@@ -74,7 +76,7 @@ class Translator:
         for locale in self.supported_locales:
             def inner(locale: str):
                 async def run_locale(ctx, *, rest):
-                    await bot.process_commands(ctx.message, ctx.prefix, rest, locale)
+                    await bot.process_commands(ctx.message, ctx.prefix, rest, locale_override=locale)
                 return run_locale
             bot.command(hidden=True, name=locale)(inner(locale))
 

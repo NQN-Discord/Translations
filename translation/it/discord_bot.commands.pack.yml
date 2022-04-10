@@ -13,7 +13,7 @@ discord_bot:
         already_joined: Sei già iscritto a %{name}
         joined_pack: |
           Unito %{name}.
-          Ora puoi usare le seguenti emote digitando il loro nomi in chat, inclusi i colons:
+          Ora puoi usare le seguenti emote digitando il loro nomi in chat, inclusi i due punti:
       leave:
         no_pack: '%{name} non è un pacchetto di emote registrato'
         already_left: Non eri comunque in %{name}
