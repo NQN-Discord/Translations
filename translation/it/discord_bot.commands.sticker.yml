@@ -41,6 +41,6 @@ discord_bot:
         already_created: Già creato da qualcun altro; non puoi sovrascrivere
         finished_importing:
           one: Importato un adesivo
-          many: Finished importing %{count} stickers
-        search_future: "To search for these stickers in the future, use:\n> `%{prefix}sticker search %{name}.`"
-        view: View Stickers
+          many: Importati %{count} adesivi
+        search_future: "Per cercare questi adesivi in futuro, utilizzare:\n> `%{prefix}sticker search %{name}.`"
+        view: Visualizza Adesivi
