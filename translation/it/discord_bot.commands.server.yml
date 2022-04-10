@@ -111,7 +111,7 @@ discord_bot:
         set_prefix: Imposta il mio prefisso a `%{prefix}`
       language:
         choose: 'Scegli la mia nuova lingua:'
-        set: Imposta la mia lingua in Inglese per questo server
+        set: Imposta la mia lingua in Italiano per questo server
       config:
         enabled: Abilitato
         disabled: Disabilitato
