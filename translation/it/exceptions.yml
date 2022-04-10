@@ -1,64 +1,64 @@
 ---
 exceptions:
   command_not_found: |
-    Command "%{command}" was not found.
-    Use `%{prefix}help` to see the command list
+    Comando "%{command}" non trovato.
+    Usa `%{prefix}help` per vedere l'elenco dei comandi
   missing_required_argument:
     one: |-
-      "%{param}" is a required argument that is missing.
-      It should be: %{should_be}
+      "%{param}" è un argomento richiesto che manca.
+      Dovrebbe essere: %{should_be}
     many: |
-      "%{param}" is a required argument that is missing.
-      It should be one of:
+      "%{param}" è un argomento richiesto che manca.
+      Dovrebbe essere uno di:
       - %{should_be}
   bot_missing_permissions:
     one: |
-      %{bot_ping} is missing the following permission required to run this command:
+      %{bot_ping} non ha il seguente permesso richiesto per eseguire questo comando:
       %{permissions_missing}
     many: |
-      %{bot_ping} is missing the following permissions required to run this command:
+      %{bot_ping} non ha i seguenti permessi richiesti per eseguire questo comando:
       %{permissions_missing}
   user_missing_permissions:
     one: |
-      You are missing the following permission required to run this command:
+      Ti manca il seguente permesso richiesto per eseguire questo comando:
       %{permissions_missing}
     many: |
-      You are missing the following permissions required to run this command:
+      Ti mancano i seguenti permessi richiesti per eseguire questo comando:
       %{permissions_missing}
   everyone_missing_permissions:
     one: |
-      The @everyone role is missing the following permission required to run this command:
+      Al ruolo @everyone manca il seguente permesso richiesto per eseguire questo comando:
       %{permissions_missing}
     many: |
-      The @everyone role is missing the following permissions required to run this command:
+      Al ruolo @everyone mancano i seguenti permessi richiesti per eseguire questo comando:
       %{permissions_missing}
   message_not_found: |
-    Message "%{param}" not found.
+    Messaggio "%{param}" non trovato.
   channel_not_found: |
-    Channel "%{channel}" not found.
+    Canale "%{channel}" non trovato.
   channel_not_readable: |
-    %{bot_ping} is missing the following permission in %{channel}:
+    %{bot_ping} non ha il seguente permesso in %{channel}:
     %{permissions_missing}
   bad_argument:
     one: |
-      Could not interpret argument%{param}; should be:
+      Impossibile interpretare l'argomento%{param}; dovrebbe essere:
     many: |
-      Could not interpret argument%{param}, should be one of:
+      Impossibile interpretare l'argomento%{param}, dovrebbe essere uno di:
   no_dms: |
-    This command cannot be ran in DMs
+    Questo comando non può essere eseguito in DM
   permissions_missing_reasons:
     #These translations were designed to be short, and to fit on about 1 line on a mobile screen
     guild: |-
-      %{user_ping}'s roles don't include it
+      I ruoli di %{user_ping} non lo includono
     member_overwrite: |-
-      Channel permissions explicitly deny %{user_ping}
+      Autorizzazioni canale esplicitamente negare %{user_ping}
     role_overwrite:
       one: |-
-        Channel permissions denied for the role: %{roles}
+        Permessi canale negati per il ruolo: %{roles}
       many: |-
-        Channel permissions denied for these roles: %{roles}
+        Permessi canale negati per questi ruoli: %{roles}
     member_role_overwrite:
       one: |-
-        Channel permissions explicitly deny %{user_ping} as well as role: %{roles}
+        Permessi del canale esplicitamente negati a %{user_ping} come al ruolo %{roles}
       many: |-
-        Channel permissions explicitly deny %{user_ping} as well as roles: %{roles}
+        Permessi del canale esplicitamente negati a %{user_ping} come ai ruoli %{roles}
