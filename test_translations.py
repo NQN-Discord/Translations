@@ -2,7 +2,7 @@ import yaml
 from pathlib import Path
 import traceback
 from logging import getLogger, basicConfig, INFO
-from tabulate import tabulate
+from ruamel import yaml
 
 basicConfig(level=INFO, format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 log = getLogger(__name__)
@@ -11,11 +11,9 @@ files = {}
 
 
 def set_data(filename, translation, data):
-    if translation not in data:
-        raise ValueError(f"{filename}.{translation}.yml must begin with `{translation}:`")
     if filename not in files:
         files[filename] = {}
-    files[filename][translation] = data[translation]
+    files[filename][translation] = data
 
 
 def get_translation_counts(content):
@@ -66,12 +64,14 @@ LANGUAGE_TO_TEST = "es"
 
 def main():
     base_file = Path(__file__).parent
-    for yml_file in base_file.rglob("*.yml"):
+    for yml_file in base_file.rglob("translation/**/*.yml"):
         log.info(f"Loading {yml_file}")
         with open(yml_file, "r", encoding="utf-8") as yml:
-            filename, translation, _ = ".".join(yml_file.relative_to(base_file).parts).rsplit(".", 2)
-            data = yaml.safe_load(yml)
-            set_data(filename, translation, data)
+            path = yml_file.relative_to(base_file)
+            locale = path.parent.name
+            filename = path.name.rsplit(".")[0]
+            data = yaml.load(yml, Loader=yaml.SafeLoader)
+            set_data(filename, locale, data)
 
     langs = set()
     for f in files.values():
