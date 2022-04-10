@@ -106,36 +106,36 @@ discord_bot:
         no_packs: "'%{guild_name}s' non è in nessun pacchetto globalmente!"
       prefix:
         instructions: "Per impostare il mio prefisso, menzionami prima del prefisso desiderato in modo da evitare modifiche accidentali.\n> %{prefix}server prefix %{me} %{new}"
-        no_colon_prefix: NQN does not support prefixes starting with a colon (:)
-        no_slash_prefix: NQN does not support prefixes starting with a slash (/)
-        set_prefix: Set my prefix to `%{prefix}`
+        no_colon_prefix: NQN non supporta i prefissi che iniziano con colons (:)
+        no_slash_prefix: NQN non supporta i prefissi che iniziano conuna slash (/)
+        set_prefix: Imposta il mio prefisso a `%{prefix}`
       language:
-        choose: 'Choose my new language:'
-        set: Set my language to English for this server
+        choose: 'Scegli la mia nuova lingua:'
+        set: Imposta la mia lingua in Inglese per questo server
       config:
-        enabled: Enabled
-        disabled: Disabled
-        prefix: Prefix
-        announcement: Announcement channel
-        boost_channel: Boost channel
-        boost_role: Boost role
-        audit_channel: Audit channel
-        nitro_role: Nitro role
-        stickers: Stickers
+        enabled: Abilitato
+        disabled: Disabilitato
+        prefix: Prefisso
+        announcement: Canale annuncio
+        boost_channel: Canale di boost
+        boost_role: Ruolo di boost
+        audit_channel: Canale di Controllo
+        nitro_role: Ruolo nitro
+        stickers: Adesivi
         nitro: Nitro
-        replies: Replies
-        masked_links: Masked URLs
-        pings: Pings
-        user_content: User Content
-        personas: Personas
-        dashboard_posting: Dashboard Posting
-        phish_detection: Phish Detection
-        invite: Invite Link
-        pack: Pack Name
-        public: Public
-        member_count: Members
-        configure_features: Toggle Features
-        settings: Settings
-        channels: Channels
-        features: Features
-        pack_info: Pack Info
+        replies: Risposte
+        masked_links: URL Mascherati
+        pings: Ping
+        user_content: Contenuto Utente
+        personas: Persone
+        dashboard_posting: Pubblicazione dalla Dashboard
+        phish_detection: Rilevamento Phishing
+        invite: Link di Invito
+        pack: Nome Pacchetto
+        public: Pubblico
+        member_count: Membri
+        configure_features: Attiva/Disattiva Funzionalità
+        settings: Impostazioni
+        channels: Canali
+        features: Funzionalità
+        pack_info: Info Pacchetto
