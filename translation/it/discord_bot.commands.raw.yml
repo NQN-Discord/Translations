@@ -67,7 +67,7 @@ discord_bot:
         permissions_missing: Devo essere in grado di scrivere embeds e aggiungere reazioni per mostrare il mio tutorial. Può essere ri-eseguito con `%{prefix}tutorial`.
         wrong_place: Se ho scelto il posto sbagliato per mostrare questo messaggio, puoi usare %{prefix}tutorial in un canale più conveniente per eseguire questo tutorial lì. Ci sono più pagine di questo tutorial; esegui %{prefix}tutorial per mostrarli dopo che sono scomparsi.
         default_emojis: Default Emoji
-        default_emoji_list: "Ecco un elenco di tutte le emote animate che chiunque su questo server può usare per impostazione predefinita - basta digitarle manualmente, assicurati di includere :colons: intorno al nome dell'emote!"
+        default_emoji_list: "Ecco un elenco di tutte le emote animate che chiunque su questo server può usare per impostazione predefinita - basta digitarle manualmente, assicurati di includere :due punti: intorno al nome dell'emote!"
         page_0_title: Tutorial per Not Quite Nitro, TLDR
         page_0_desc: |
           %{locale_flag_emojis} **Opzioni Lingua** %{locale_flag_emojis}
@@ -115,7 +115,7 @@ discord_bot:
           > `%{prefix}alias search :NomeEmote:`
 
           Se vuoi guardare attraverso ogni emote NQN puoi farti usare:
-          > `%{prefix}alias search whatever` (No colons se non conosci il nome esatto)
+          > `%{prefix}alias search whatever` (Non mettere i due punti se non conosci il nome esatto)
         page_4_title: Risposte
         page_4_desc: |
           NQN consente di rispondere ai messaggi inviati molto tempo fa.
@@ -291,7 +291,7 @@ discord_bot:
           many: |
             > Funzionalità Server: %{guild_features}
         bot_credits: |
-          [Bot avatar and Wumpus art by Dooley](<https://www.dooleytm.com>) from [Wump Motes](https://discord.gg/pEjCBNF)
+          [Bot avatar and Wumpus art by Dooley](<https://www.dooleytm.com>) da [Wump Motes](https://discord.gg/pEjCBNF)
 
           __Un ringraziamento speciale alle seguenti persone:__
           > <:OriLove:726475603879919616> OrionVi
