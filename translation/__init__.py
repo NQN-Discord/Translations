@@ -76,7 +76,7 @@ class Translator:
         for locale in self.supported_locales:
             def inner(locale: str):
                 async def run_locale(ctx, *, rest):
-                    await bot.process_commands(ctx.message, ctx.prefix, rest, locale)
+                    await bot.process_commands(ctx.message, ctx.prefix, rest, locale_override=locale)
                 return run_locale
             bot.command(hidden=True, name=locale)(inner(locale))
 
