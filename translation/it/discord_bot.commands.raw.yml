@@ -282,7 +282,7 @@ discord_bot:
           Comando di aiuto: `%{prefix}help`
         bot_metadata: |
           > Uptime: %{uptime}
-          > Sever Emote: %{alias_servers_available} / %{alias_servers_total}
+          > Server Emote: %{alias_servers_available} / %{alias_servers_total}
           > Server caricati: %{guilds_loaded} / %{guilds}
         guild_features:
           zero: ''
