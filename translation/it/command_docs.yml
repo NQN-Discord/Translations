@@ -31,23 +31,23 @@ command_docs:
   alias-search:
     short_doc: Cerca emote individuali da usare con NQN
     help: |
-      Cerca le singole emotes da usare con NQN
+      Cerca le singole emote da usare con NQN
 
       La ricerca di NQN permette alcune funzionalità avanzate:
-       - `esatto`: (falso predefinito) mostra solo le emote con il nome esatto come cercato
-       - `animato`: mostra solo le emote animate o statiche
-       - `pagina`: passa a una certa pagina
-       - `ordine`: uno di 'usi', 'casuale'
+       - `exact`: (predefinito falso) mostra solo le emote con il nome esatto come cercato
+       - `animated`: mostra solo le emote animate o statiche
+       - `page`: passa a una certa pagina
+       - `order`: uno di 'usi', 'casuale'
   alias:
     short_doc: Gestisci le singole emote che puoi usare
     help: |
       Gestisci le singole emote che puoi usare
 
       La ricerca di NQN permette alcune funzionalità avanzate:
-       - `esatto`: (falso predefinito) mostra solo le emote con il nome esatto come cercato
-       - `animato`: mostra solo le emote animate o statiche
-       - `pagina`: passa a una certa pagina
-       - `ordine`: uno dei 'usi', 'casuale'
+       - `exact`: (predefinito falso) mostra solo le emote con il nome esatto come cercato
+       - `animated`: mostra solo le emote animate o statiche
+       - `page`: passa a una certa pagina
+       - `order`: uno di 'usi', 'casuale'
   audit:
     short_doc: Ottieni i registri di controllo per i messaggi repostati per questo canale
     help: |
@@ -55,7 +55,7 @@ command_docs:
       Facoltativo[Channel] -> Log di filtro per questo canale
       Facoltativo[Member] -> Log di filtro per questo membro
 
-      Se entrambi i canali e membri non devono essere filtrati, usa 'registri gilda'
+      Se entrambi i canali e membri non devono essere filtrati, usa 'audit guild'
   delete:
     short_doc: Elimina uno dei tuoi messaggi inviati da NQN
     help: |
@@ -103,7 +103,7 @@ command_docs:
       Facoltativo[Channel] -> Log di filtro per questo canale
       Facoltativo[Member] -> Log di filtro per questo membro
 
-      Se entrambi i canali e i membri non sono filtrati, usa 'registri gilda'
+      Se entrambi i canali e i membri non sono filtrati, usa 'audit guild'
   mod-ban:
     short_doc: Banna l'utente che ha pubblicato un messaggio
     help: |
@@ -147,7 +147,7 @@ command_docs:
   pack-dm:
     short_doc: Ottieni un elenco completo dei tuoi pack in DM
     help: |
-      Avere il bot ti invia un elenco completo delle emoji correnti dei tuoi pack attraverso i tuoi DM.
+      Il bot ti invierá un elenco completo delle emoji correnti dei tuoi pack attraverso i tuoi DM.
   pack-join:
     short_doc: Iscriviti a un pacchetto di emote
     help: |
@@ -159,7 +159,7 @@ command_docs:
   pack-meta:
     short_doc: Oooh... Belle statistiche sul tuo pack
     help: |
-      Oooh... Belle statistiche sul tuo pack
+      Oooh... Belle statistiche sul tuo pacchetto
   pack-mine:
     short_doc: Ottieni un elenco di pacchetti emote a cui sei iscritto
     help: |
