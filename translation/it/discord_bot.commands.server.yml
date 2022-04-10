@@ -3,139 +3,139 @@ discord_bot:
   commands:
     server:
       alias:
-        set_emote_title: 'Set \:%{name}: to %{emote} for this server.'
+        set_emote_title: 'Imposta \:%{name}: a %{emote} per questo server.'
         set_emote_description:
           zero: |
-            This server has no emotes left!
-            For more aliases, anyone can vote for the bot at %{url}
+            Questo server non ha più alcuna emote!
+            Per altri alias, chiunque può votare per il bot su %{url}
 
-            Anyone can use this emote by typing:
+            Chiunque può usare questa emote digitando:
           one: |
-            This server has one emote left before it reaches it's maximum.
-            For more aliases, anyone can vote for the bot at %{url}
+            Questo server ha solo una emote rimasta prima di raggiungere il massimo
+            Per altri alias, chiunque può votare per il bot su %{url}
 
-            Anyone can use this emote by typing:
+            Chiunque può usare questa emote digitando:
           many: |
-            This server has %{count} emotes left before it reaches it's maximum.
-            For more aliases, anyone can vote for the bot at %{url}
+            Questo server ha %{count} emote rimaste prima di raggiungere il massimo
+            Per altri alias, chiunque può votare per il bot su %{url}
 
-            Anyone can use this emote by typing:
+            Chiunque può usare questa emote digitando:
         failed_aliases:
           one: |
-            One alias which cannot be rendered
+            Un alias che non può essere renderizzato
           many: |
-            %{failed_aliases} aliases which cannot be rendered
-        max_title: This server is at its maximum emote/pack count already!
+            %{failed_aliases} alias che non possono essere renderizzati
+        max_title: Questo server è già al suo massimo numero di emote/pack!
         max_description: |
-          :%{name}: was not added as a server emote.
+          :%{name}: non è stato aggiunto come una emote.
 
-          For more aliases/packs, anyone can vote for the bot at %{url}
-        no_alias: This server does not have an alias called %{name}
-        renamed: 'Renamed %{emote} from \:%{name}: to :%{new}:'
-        no_aliases: This server has no global aliases
+          Per più alias/pacchetti, chiunque può votare per il bot su %{url}
+        no_alias: Questo server non ha un alias chiamato %{name}
+        renamed: 'Rinominato %{emote} da \:%{name}: a :%{new}:'
+        no_aliases: Questo server non ha alias globali
       nitro_role:
-        unset: Anyone in this server can use free Nitro emotes with NQN
-        set: Now only users with the %{role} role can use free Nitro emotes with NQN
+        unset: Chiunque in questo server può utilizzare emote Nitro gratuite con NQN
+        set: Ora solo gli utenti con il ruolo %{role} possono utilizzare emote Nitro gratuite con NQN
       audit_channel:
-        unset: Unset the audit channel for this server
-        set: Set the audit channel for this server to %{channel}
-        no_webhooks: "I cannot post webhook messages to %{channel}.\nPlease give me 'Manage Webhooks' there!"
+        unset: Disattivato il canale di controllo per questo server
+        set: Imposta il canale di controllo per questo server su %{channel}
+        no_webhooks: "Non posso pubblicare messaggi webhook su %{channel}.\nPer favore dammi 'Gestisci Webhook' lì!"
       boost_channel:
-        unset: Unset the boost channel for this server
-        set: Set the boost channel for this server to %{channel}
+        unset: Disattivato il canale di boost per questo server
+        set: Imposta il canale di boost per questo server su %{channel}
       boost_role:
-        unset: Unset the boost role for this server
-        set: Set the boost role for this server to %{role}
+        unset: Disattivato il ruolo di boost per questo server
+        set: Imposta il ruolo di boost di questo server su %{role}
       boolean_options:
-        stickers_on: Enabled stickers
-        stickers_off: Disabled stickers
-        nitro_on: Enabled free nitro usage in this server!
-        nitro_off: Disabled free nitro usage in this server
-        replies_on: Enabled message replies
-        replies_off: Disabled message replies
-        masked_links_on: Enabled masked URL usage
-        masked_links_off: Disabled masked URL usage
-        pings_on: Enabled pings in reposted messages
-        pings_off: Disabled pings in reposted messages
+        stickers_on: Adesivi abilitati
+        stickers_off: Adesivi disabilitati
+        nitro_on: Utilizzo di nitro gratuito abilitato in questo server!
+        nitro_off: Utilizzo di nitro gratuito disabilitato in questo server
+        replies_on: Risposte ai messaggi abilitate
+        replies_off: Risposte ai messaggi disabilitate
+        masked_links_on: Utilizzo URL mascherati abilitato
+        masked_links_off: Utilizzo URL mascherati disabilitato
+        pings_on: Ping abilitati nei messaggi repostati
+        pings_off: Ping disabilitati nei messaggi repostati
         user_content_on: |
-          Enabled usage of individual user's aliases and packs
-          Sticker settings have not been changed.
+          Uso abilitato degli alias e dei pacchetti dei singoli utenti
+          Le impostazioni degli adesivi non sono state modificate.
         user_content_off: |
-          Disabled usage of individual user's aliases and packs.
-          Only aliases and packs added with `%{prefix}server alias search` and `%{prefix}server pack search` will be usable, as well as emojis from this server.
-          Stickers have also been automatically disabled.
+          Utilizzo disabilitato degli alias e dei pacchetti dei singoli utenti.
+          Saranno utilizzabili solo gli alias e i pacchetti aggiunti con la ricerca `%{prefix}del server alias search` e `%{prefix}del server pack`, così come le emoji da questo server.
+          Gli adesivi sono stati disattivati automaticamente.
         personas_on: |
-          Enabled usage of personas.
-          This allows anyone to set a customisable username and avatar; be warey of impersonation.
+          Utilizzo abilitato di persone.
+          Questo permette a chiunque di impostare un nome utente e un avatar personalizzabili; ora puoi impersonare chi vuoi
 
-          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
-          > ```!server set_audit_channel #channel``` #channel```
-        personas_off: Disabled usage of personas
-        dashboard_posting_on: Enabled posting messages from the bot's dashboard
-        dashboard_posting_off: Disabled posting messages from the bot's dashboard
-        phish_detection_on: Enabled phishing message detection in this server
-        phish_detection_off: Disabled phishing message detection in this server
+          Lo staff NQN consiglia di impostare un canale di controllo quando si utilizza questa funzione; se non lo hai già fatto, può essere abilitato con
+          > ```! server set_audit_channel #channel``` #channel```
+        personas_off: Utilizzo delle persone disabilitato
+        dashboard_posting_on: Pubblicazione dei messaggi attraverso la dashboard del bot abilitata
+        dashboard_posting_off: Pubblicazione dei messaggi attraverso la dashboard del bot disabilitata
+        phish_detection_on: Rilevamento messaggio phishing abilitato in questo server
+        phish_detection_off: Rilevamento messaggi phishing disabilitato in questo server
       link:
         no_animated_emotes: |
-          This server has no animated emotes!
-          You can only link animated emotes with this command.
-        too_many_static: This server has too many static emotes! Try deleting some first.
-        animated_only: This command only works with animated emotes - it makes them available in the emote picker for non-nitro users as static ones!
-        emote_not_found: Could not find that emote! Try aliasing it with `%{prefix}alias search`
-        upload_later: Could not upload emote; try again in a few hours
-        choose_emote: 'Choose an emote to create a static link for:'
-        create_static: Create a static emote?
-        create_static_emote: Create a static emote for %{emote}?
-        uploaded: Uploaded %{uploaded}!
-        uploaded_emote: "Uploaded %{uploaded}!\nUse it to get %{emote}"
+          Questo server non ha emote animate!
+          Puoi collegare solo le emote animate con questo comando.
+        too_many_static: Questo server ha troppe emote statiche! Prova ad eliminarne alcune prima.
+        animated_only: Questo comando funziona solo con emote animate - li rende disponibili nel selettore di emote per utenti non nitro come statiche!
+        emote_not_found: Impossibile trovare quell'emote! Prova con `%{prefix}alias search`
+        upload_later: Impossibile caricare emote; riprova tra qualche ora
+        choose_emote: 'Scegli un emote per crearne un collegamento statico:'
+        create_static: Creare una emote statica?
+        create_static_emote: Creare un emote statica per %{emote}?
+        uploaded: Caricato %{uploaded}!
+        uploaded_emote: "Caricato %{uploaded}!\nUsalo per ottenere %{emote}"
       pack:
-        max_title: This server is at its maximum emote/pack count already!
+        max_title: Questo server è già al suo massimo numero di emote/pack!
         max_description: |
-          %{name} was not added as a server pack.
+          %{name} non è stato aggiunto come un pacchetto del server.
 
-          For more aliases/packs, anyone can vote for the bot at %{url}
-        left_pack: "'%{guild_name}' left %{name}"
-        not_in_pack: This server didn't have %{name} as a server pack to start with
+          Per più alias/pacchetti, chiunque può votare per il bot su %{url}
+        left_pack: "'%{guild_name}' ha abbandonato %{name}"
+        not_in_pack: Questo server non aveva %{name} come pacchetto di server con cui iniziare
         invalid_group: <Invalid pack - Please Report>
-        join_server: (Join server)
-        no_longer_registered: '%{name} is no longer a registered emote pack'
-        already_joined: '%{guild_name} is already joined to %{name}'
+        join_server: (Unisciti al server)
+        no_longer_registered: '%{name} non è più un pacchetto di emote registrato'
+        already_joined: '%{guild_name} è già entrata in %{name}'
         joined_long: |
-          '%{guild_name}' joined %{name}.
-          Anyone in this server may now use the following emotes by typing its name into chat, including colons:
-        no_packs: "'%{guild_name}s' isn't joined to any packs globally!"
+          '%{guild_name}' si è unita a %{name}.
+          Chiunque in questo server può ora utilizzare le seguenti emotes digitando il suo nome in chat, inclusi colons:
+        no_packs: "'%{guild_name}s' non è in nessun pacchetto globalmente!"
       prefix:
-        instructions: "To set my prefix, mention me before the desired prefix so as to prevent accidental changes.\n> %{prefix}server prefix %{me} %{new}"
-        no_colon_prefix: NQN does not support prefixes starting with a colon (:)
-        no_slash_prefix: NQN does not support prefixes starting with a slash (/)
-        set_prefix: Set my prefix to `%{prefix}`
+        instructions: "Per impostare il mio prefisso, menzionami prima del prefisso desiderato in modo da evitare modifiche accidentali.\n> %{prefix}server prefix %{me} %{new}"
+        no_colon_prefix: NQN non supporta i prefissi che iniziano con colons (:)
+        no_slash_prefix: NQN non supporta i prefissi che iniziano conuna slash (/)
+        set_prefix: Imposta il mio prefisso a `%{prefix}`
       language:
-        choose: 'Choose my new language:'
-        set: Set my language to English for this server
+        choose: 'Scegli la mia nuova lingua:'
+        set: Imposta la mia lingua in Inglese per questo server
       config:
-        enabled: Enabled
-        disabled: Disabled
-        prefix: Prefix
-        announcement: Announcement channel
-        boost_channel: Boost channel
-        boost_role: Boost role
-        audit_channel: Audit channel
-        nitro_role: Nitro role
-        stickers: Stickers
+        enabled: Abilitato
+        disabled: Disabilitato
+        prefix: Prefisso
+        announcement: Canale annuncio
+        boost_channel: Canale di boost
+        boost_role: Ruolo di boost
+        audit_channel: Canale di Controllo
+        nitro_role: Ruolo nitro
+        stickers: Adesivi
         nitro: Nitro
-        replies: Replies
-        masked_links: Masked URLs
-        pings: Pings
-        user_content: User Content
-        personas: Personas
-        dashboard_posting: Dashboard Posting
-        phish_detection: Phish Detection
-        invite: Invite Link
-        pack: Pack Name
-        public: Public
-        member_count: Members
-        configure_features: Toggle Features
-        settings: Settings
-        channels: Channels
-        features: Features
-        pack_info: Pack Info
+        replies: Risposte
+        masked_links: URL Mascherati
+        pings: Ping
+        user_content: Contenuto Utente
+        personas: Persone
+        dashboard_posting: Pubblicazione dalla Dashboard
+        phish_detection: Rilevamento Phishing
+        invite: Link di Invito
+        pack: Nome Pacchetto
+        public: Pubblico
+        member_count: Membri
+        configure_features: Attiva/Disattiva Funzionalità
+        settings: Impostazioni
+        channels: Canali
+        features: Funzionalità
+        pack_info: Info Pacchetto

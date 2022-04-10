@@ -1,77 +1,77 @@
 ---
 global:
   deleted_channel: '#DeletedChannel'
-  author: Author
-  jump_to_message: Jump
-  go_to_message: Go to message!
-  reply_to: 'Reply to:'
-  cancelled: Cancelled
-  website: Website
-  details: Details
-  fix_permissions: Fix Permissions
-  success: Success
+  author: Autore
+  jump_to_message: Vai a
+  go_to_message: Vai al messaggio!
+  reply_to: 'Rispondi a:'
+  cancelled: Annullato
+  website: Sito Web
+  details: Dettagli
+  fix_permissions: Correggi Permessi
+  success: Successo
   yes: Yes
   no: No
   dm_me: DM Me
-  next: Next
-  previous: Previous
+  next: Successivo
+  previous: Precedente
   learn:
-    aliases: Learn more about aliases
-    packs: Learn more about packs
-    my_emotes: Find emojis I can use
-    personas: Learn more about personas
-  missing_permissions: Missing Permissions
-  missing_add_reaction: I need the 'Add Reactions' permission for this command!
-  missing_create_invite: I need the 'Create Instant Invite' permission for this command!
-  everyone_external: The @everyone role needs 'Use External Emojis'
-  tabulated_delete_manage_messages: Could not delete menu - please give me Manage Messages
-  no_nitro_global: Nitro usage has been disabled in this server!
-  no_nitro_role: Only users with the <@&%{role}> role can use this command!
-  user_missing_administrator: You are missing the 'Administrator' permission to run this command.
-  user_missing_add_reaction: You are missing the 'Add Reactions' permission to run this command.
+    aliases: Maggiori informazioni sugli alias
+    packs: Maggiori informazioni sui pacchetti
+    my_emotes: Trova emoji che posso usare
+    personas: Maggiori informazioni sulle persone
+  missing_permissions: Permessi Mancanti
+  missing_add_reaction: Ho bisogno del permesso 'Aggiungi Reazioni' per questo comando!
+  missing_create_invite: Ho bisogno del permesso 'Crea invito istantaneo' per questo comando!
+  everyone_external: Il ruolo @everyone ha bisogno di 'Usa Emoji Esterne'
+  tabulated_delete_manage_messages: Impossibile eliminare il menu - per favore dammi Gestisci messaggi
+  no_nitro_global: L'utilizzo del nitro è stato disabilitato in questo server!
+  no_nitro_role: Solo gli utenti con il ruolo <@&%{role}> possono usare questo comando!
+  user_missing_administrator: Ti manca il permesso 'Amninistratore' per eseguire questo comando.
+  user_missing_add_reaction: Ti manca il permesso 'Aggiungi Reazioni' per eseguire questo comando.
   tabulated_default_results:
-    one: "%{count} result (Page %{page_no} of %{total}):\n%{contents}"
-    many: "%{count} results (Page %{page_no} of %{total}):\n%{contents}"
+    one: "%{count} risultato (Pagina %{page_no} di %{total}):\n%{contents}"
+    many: "%{count} risultati (Pagina %{page_no} di %{total}):\n%{contents}"
   tabulated_results_page:
-    zero: No emotes found
-    one: Page %{page_no} of %{total}%{note}
-    many: Page %{page_no} of %{total}%{note}
-  page_no: 'Page %{page} of %{total}:'
-  no_results: No results
-  loading: <a:loading:674758249291186191> Processing...
-  timed_out: Timed out - try again
-  global_check_failed: You are not allowed to use %{cmd_name}
+    zero: Nessuna emote trovata
+    one: Pagina %{page_no} di %{total}%{note}
+    many: Pagina %{page_no} di %{total}%{note}
+  page_no: 'Pagina %{page} di %{total}:'
+  no_results: Nessun risultato
+  loading: <a:loading:674758249291186191> Elaborazione...
+  timed_out: Tempo scaduto - riprova
+  global_check_failed: Non hai il permesso di usare %{cmd_name}
   requires_user_content: |
-    User content is not allowed in this server.
+    Il contenuto utente non è consentito in questo server.
   requires_user_content_admin: |
-    User content is not allowed in this server. You can allow it with
-    > ```%{prefix}server user_content on```
+    Il contenuto utente non è consentito in questo server. Puoi consentirlo con
+    > ```%{prefix}server user_content on ```
   error_message: |
-    An error occurred whilst processing your command. It may not have completed correctly.
-    For help, and to report this as an issue, please join the testing server for this bot:
+    Si è verificato un errore durante l'elaborazione del comando. Potrebbe non essere stato completato correttamente.
+    Per aiutare, e per segnalare questo come problema, unisciti al server di test per questo bot:
     https://discord.gg/mv8RbHD
 
-    Error code: `%{event_id}`
+    Codice errore: `%{event_id}`
   user_abused: |
-    The bot owner or global moderators have blocked you from using this bot due to previous abuse.
-    You cannot use any commands or otherwise make use of the bot's functionality.
+    Il proprietario del bot o moderatori globali ti hanno impedito di utilizzare questo bot a causa di abusi precedenti.
+    Non è possibile utilizzare alcun comando o utilizzare la funzionalità del bot.
   user_spammed: |
-    You have been temporarily blocked from using NQN for triggering our automated spam detection system.
-    This message will only be sent at most once a day, and there is no way to appeal this block.
+    Sei stato temporaneamente bloccato dall'utilizzo di NQN per aver attivato il nostro sistema automatico di rilevamento dello spam.
+    Questo messaggio sarà inviato al massimo una volta al giorno e non c'è modo di fare appello a questo blocco.
 
-    You will be unblocked in under **5 minutes** from now.
+    Sarai sbloccato tra meno di **5 minuti** da ora.
   support_server: |
-    You can join my support server here:
+    Puoi unirti al mio server di supporto qui:
     http://discord.gg/XvzDPca
-    You can report bugs, request new features or ask for clarifications on how to use me.
+    Puoi segnalare bug, richiedere nuove funzionalità o chiedere chiarimenti su come usarmi.
   premium_required: |
-    To do this, you need to be a subscriber to NQN's Patreon: https://www.patreon.com/NQN
+    Per fare questo, devi essere iscritto al Patreon di NQN: https://www.patreon.com/NQN
   invite_bad_perms:
     title: |
-      Hi, thanks for inviting NQN to %{guild_name}!
+      Ciao, grazie per aver invitato NQN a %{guild_name}!
     content: |
-      We've looked around and found that we don't quite have all the permissions we need to function properly though.
-      To fix this so you can properly use the bot, a link's been generated which will give all the relevent permissions to the bot:
+      Ci siamo guardati intorno e abbiamo scoperto che non abbiamo abbastanza tutti i permessi di cui abbiamo bisogno per funzionare correttamente.
+      Per risolvere questo problema è utilizzare correttamente il bot, è stato generato un link che darà tutte le autorizzazioni necessarie al bot:
 
-      **[Fix Permissions](%{invite_url})**
-  webhook_limit: Webhook limit reached! Cannot run in this channel!
+      **[Risolvi Permessi](%{invite_url})**
+  webhook_limit: Limite Webhook raggiunto! Impossibile eseguire in questo canale!
