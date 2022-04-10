@@ -17,7 +17,7 @@ discord_bot:
     PartialEmoji:
       name: Emoji
       description: |-
-        Um emoji discord renderizado ou um URL de emoji
+        Um emoji do Discord renderizado ou uma URL de emoji
     TextChannel:
       name: Canal de Texto
       description: |
@@ -34,7 +34,7 @@ discord_bot:
       name: NQNEmoji
       description: |
         Um emoji não renderizado NQN pode se transformar
-        - Um emoji discord renderizado ou um URL de emoji
+        - Um emoji do discord renderizado ou uma URL de emoji
     None:
       name: Vazio
       description: |
