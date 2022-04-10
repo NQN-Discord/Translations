@@ -3,48 +3,48 @@ discord_bot:
   commands:
     raw:
       buttons:
-        commands: Commands
+        commands: Comandi
         tutorial: Tutorial
-        my_emotes: My Emotes
+        my_emotes: Le Mie Emote
       depreciated_commands:
         renamed: |
-          This command has been renamed to `%{prefix}%{new}`.
-          If you don't want to see this message again, react with ❌
-        ignored: Ignored `%{name}` for you.
+          Questo comando è stato rinominato in `%{prefix}%{new}`.
+          Se non vuoi vedere di nuovo questo messaggio, reagisci con ❌
+        ignored: Ignorato `%{name}` per te.
       edit:
-        never_posted: You've never posted a message with NQN in this channel!
+        never_posted: Non hai mai pubblicato un messaggio con NQN in questo canale!
         message_deleted: |
-          Your most recent message with NQN in this channel has been deleted!
-          Please choose a message either by replying to it with Discord, or by pasting it's jump URL
-        cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
-        cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
-        edit_message: Edit Message
-        new_content: 'New Content:'
+          Il tuo messaggio più recente con NQN in questo canale è stato eliminato!
+          Scegli un messaggio rispondendo con Discord, oppure incollando l'URL di quest'ultimo
+        cannot_edit_no_nqn: Non puoi indirizzare questo messaggio perché non è un messaggio postato con NQN!
+        cannot_edit_different_user: Non puoi indirizzare questo messaggio perché non è stato pubblicato da te!
+        edit_message: Modifica Messaggio
+        new_content: 'Nuovo Contenuto:'
       delete:
-        deleted: Message successfully deleted
+        deleted: Messaggio eliminato con successo
       export:
-        exported_list_short: "Here's your exported emotes:"
+        exported_list_short: "Ecco le tue emote esportate:"
         exported_list_long: |
-          Here's your exported emotes
-          To share them with other people, they need to run:
+          Ecco le tue emote esportate
+          Per condividerle con altre persone, devono eseguire:
           > `%{prefix}alias import %{url}`
       ignore_me:
-        user_ignored: NQN will no longer repost your messages. Run this command again to re-enable
-        user_unignored: NQN will repost your messages as normal
+        user_ignored: NQN non pubblicherà più i tuoi messaggi. Eseguire nuovamente questo comando per riabilitare
+        user_unignored: NQN ripubblicherà i tuoi messaggi normalmente
       invite:
-        add_nqn: Add NQN to your server!
+        add_nqn: Aggiungi NQN al tuo server!
       my_emotes:
-        current_guild: Current Server
-        mutual_guilds: Mutual Servers
-        aliases: Aliases
-        packs: Packs
+        current_guild: Server Attuale
+        mutual_guilds: Altri Server
+        aliases: Alias
+        packs: Pacchetti
         no_mutual_guilds: |
-          NQN allows you to use any emoji from our mutual servers in this server.
-          Currently, you do not have any mutual servers with NQN, aside from this one.
+          NQN consente di utilizzare qualsiasi emoji dagli altri server in comune con te in questo server.
+          Attualmente, non hai alcun server in comune con NQN, a parte questo.
 
-          If you want, you can [invite NQN to another server](%{bot_invite}) to gain access to it's emojis here.
+          Se vuoi, puoi [invitare NQN in un altro server](%{bot_invite}) per accedere alle sue emoji.
       ranking:
-        vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
+        vote_link: Puoi votare per il bot su %{url} per aggiungere più emote a livello di server e per aumentare la posizione del server.
         top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
         thanks: Thanks for voting for the bot!
         ranking: |
