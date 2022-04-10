@@ -18,8 +18,8 @@ discord_bot:
           Escolha uma mensagem respondendo-a com o Discord ou usando o link da mensagem.
         cannot_edit_no_nqn: Você não pode editar esta mensagem porque não é uma mensagem postada pelo NQN!
         cannot_edit_different_user: Você não pode editar esta mensagem porque não foi postada por você!
-        edit_message: Edit Message
-        new_content: 'New Content:'
+        edit_message: Editar mensagem
+        new_content: 'Novo Conteúdo:'
       delete:
         deleted: Mensagem deletada com sucesso
       export:
@@ -305,13 +305,13 @@ discord_bot:
           > <:AetherSmile:726474477956759553> Aether Wake
         ru: 'Russo:'
         ru_people: |
-          > <:drink:741041666705588255> Трокс
+          > <:drink:741041666705588255> econtrerexee
           > <:DorZ23:864861706169483329> DorZ23
         pt: 'Português:'
         pt_people: |
           > <:KingKiller:800410618074628146> KingKiller
           > <:gil:873518552295014420> Gouto
-        it: 'Italian:'
+        it: 'Italiano:'
         it_people: |
           > 👤 RVG|𝓵𝓸𝓻𝔂
         bot_stats: Estatísticas do Bot no Discord
