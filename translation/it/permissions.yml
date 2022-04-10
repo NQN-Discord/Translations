@@ -1,72 +1,72 @@
 ---
 permissions:
   add_reactions: |-
-    Add Reactions
+    Aggiungi Reazioni
   administrator: |-
-    Administrator
+    Amministratore
   attach_files: |-
-    Attach Files
+    Allega File
   ban_members: |-
-    Ban Members
+    Banna Membri
   change_nickname: |-
-    Change Nickname
+    Modifica Soprannome
   connect: |-
-    Connect
+    Connetti
   create_instant_invite: |-
-    Create Instant Invite
+    Crea Invito Istantaneo
   deafen_members: |-
-    Deafen Members
+    Silenzia Membri
   embed_links: |-
-    Embed Links
+    Incorpora Link
   external_emojis: |-
-    External Emojis
+    Emoji Esterne
   kick_members: |-
-    Kick Members
+    Espelli Membri
   manage_channels: |-
-    Manage Channels
+    Gestisci Canali
   manage_emojis: |-
-    Manage Emojis
+    Gestisci Emoji
   manage_guild: |-
-    Manage Server
+    Gestisci Server
   manage_messages: |-
-    Manage Messages
+    Gestisci Messaggi
   manage_nicknames: |-
-    Manage Nicknames
+    Gestisci Soprannomi
   manage_permissions: |-
-    Manage Roles
+    Gestisci Ruoli
   manage_roles: |-
-    Manage Roles
+    Gestisci Ruoli
   manage_webhooks: |-
-    Manage Webhooks
+    Gestisci Webhook
   mention_everyone: |-
-    Mention Everyone
+    Menziona Tutti
   move_members: |-
-    Move Members
+    Sposta Membri
   mute_members: |-
-    Mute Members
+    Muta Membri
   priority_speaker: |-
-    Priority Speaker
+    Priorità di Parola
   read_message_history: |-
-    Read Message History
+    Leggi Cronologia Messaggi
   read_messages: |-
-    Read Messages
+    Leggi Messaggi
   send_messages: |-
-    Send Messages
+    Invia Messaggi
   send_tts_messages: |-
-    Send TTS Messages
+    Invia Messaggi TTS
   speak: |-
-    Speak
+    Parla
   stream: |-
     Stream
   use_external_emojis: |-
-    Use External Emojis
+    Usa Emoji Esterne
   use_public_threads: |-
-    Use Public Threads
+    Usa Thread Pubblici
   use_voice_activation: |-
-    Use Voice Activation
+    Usa Attivazione Vocale
   view_audit_log: |-
-    View Audit Log
+    Visualizza Registro di Controllo
   view_channel: |-
-    View Channel
+    Visualizza Canale
   view_guild_insights: |-
-    View Server Insights
+    Visualizza Informazioni Server
