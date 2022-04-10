@@ -102,11 +102,11 @@ discord_bot:
         already_joined: '%{guild_name} è già entrata in %{name}'
         joined_long: |
           '%{guild_name}' si è unita a %{name}.
-          Chiunque in questo server può ora utilizzare le seguenti emotes digitando il suo nome in chat, inclusi colons:
+          Chiunque in questo server può ora utilizzare le seguenti emotes digitando il suo nome in chat, inclusi i due punti:
         no_packs: "'%{guild_name}s' non è in nessun pacchetto globalmente!"
       prefix:
         instructions: "Per impostare il mio prefisso, menzionami prima del prefisso desiderato in modo da evitare modifiche accidentali.\n> %{prefix}server prefix %{me} %{new}"
-        no_colon_prefix: NQN non supporta i prefissi che iniziano con colons (:)
+        no_colon_prefix: NQN non supporta i prefissi che iniziano con i due punti (:)
         no_slash_prefix: NQN non supporta i prefissi che iniziano conuna slash (/)
         set_prefix: Imposta il mio prefisso a `%{prefix}`
       language:
