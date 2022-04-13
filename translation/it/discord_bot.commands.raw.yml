@@ -262,7 +262,7 @@ discord_bot:
         audit_message: "%{author} ha reagito a [questo messaggio](<%{jump_url}>) in %{channel} con queste emote:\n"
       info:
         shard_data: |
-          > No. frammenti: %{shard_count} (%{shards_down} giù)
+          > No. frammenti: %{shard_count} (%{shards_down} offline)
           > Latenza media: %{average_latency}ms
           > Frammento attuale: %{current_shard}
           > Latenza frammento corrente: %{current_latency}ms
