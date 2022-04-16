@@ -2,35 +2,35 @@
 discord:
   ext.commands.help:
     need_emojis: ' - من به این برای استفاده از ایموجی ها نیاز دارم!'
-    need_everyone_external: ' - @everyone needs this for me to use emojis!'
-    need_help: ' - I need this for the help command!'
+    need_everyone_external: ' - همه everyone@ به این برای استفاده از ایموجی ها نیاز دارند!'
+    need_help: ' - من به این برای دستور راهنما نیاز دارم!'
     nothing: ''
-    choose_page: Browse Commands
-    please_give: I won't function correctly without these!
+    choose_page: لیست دستورات
+    please_give: من بدون این موارد، نمی تونم به درستی کار کنم!
     fix_perms: |
-      - **[Fix Server Permissions](%{invite_url})**
-    nqn_help: NQN Help
+      - **[برطرف کردن دسترسی های سرور](%{invite_url})**
+    nqn_help: راهنما NQN
     my_prefix: |
-      My prefix for commands is `%{prefix}`
-      React with ❌ (\:x:) to delete reposted messages!
+      پیشوند برای استفاده از من، `%{prefix}` می باشد
+      با ❌ (\:x:) به این پیام ری‌اکت کنید تا این پاسخ پاک شود!
     user_ignored: |
-      You will be **IGNORED** when sending messages which would normally be reposted. To allow NQN to repost your messages, run:
+      شما از این به بعد برای تبدیل پیام ها **نادیده گرفته خواهید شد**. برای اجازه دادن مجدد به NQN برای تبدیل پیام هایتان، دستور زیر را اجرا کنید:
       > `%{prefix}ignore_me`
-    categories: Categories
-    everything_else: Everything else
-    really_useful: Really Useful Commands
-    useful_links: 'Useful links:'
-    website: Website
-    vote: Vote!
-    support: Support
-    emote_list: My Emotes
+    categories: دسته‌بندی ها
+    everything_else: دیگر موارد
+    really_useful: دستورات پرکاربرد
+    useful_links: 'لینک های مفید:'
+    website: وبسایت
+    vote: رائ دادن!
+    support: پشتیبانی
+    emote_list: شکلک های من
     top_gg_vote: Voting for me at [top.gg](https://top.gg/bot/559426966151757824/vote) makes the bot better by increasing our visibility and allowing more emotes when we join a server.
     bfd_vote: Giving me an upvote at [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) helps out our visibility. With every new server I join, my emote database gets larger.
-    what_is: What is Not Quite Nitro?
+    what_is: دقیقاً Not Quite Nitro چیست؟
     bot_description: |
-      Not Quite Nitro is a multipurpose utility bot which allows any user to use Nitro emotes.
-      We have an extremely large database of visually unique emotes which you can use in any server the bot is in with Manage Webhook permissions.
+      بات Not Quite Nitro یک بات کاربردی هست که به شما این اجازه رو میده که از ایموجی های نیترو دیسکورد، استفاده کنید.
+      ما یک پایگاه داده خیلی بزرگ از شکلک های مختلف و گوناگون جمع‌آوری کرده‌ایم که میزاره که توی هر سروری که این بات دسترسی Manage Webhooks را داشته باشد، از آنها بتوانید استفاده کنید.
 
-      NQN also allows automatic quoting whenever a user posts a message link, the use of masked urls in chat and stickers, which are full size emotes.
+      همچنین NQN این اجازه رو میده که وقتی یک نفر لینک یک پیام رو میفرسته، که با استفاده از آدرس های پوشیده شده و استیکر هاست انجام میشه، خودکار با شکلک هایی به اندازه واقعی، کار نقل قول رو انجام بده.
 
-      You can invite me [to your server](https://discord.com/api/oauth2/authorize?%{params}).
+      شما می تونید من رو هم [به سرور خودتون](https://discord.com/api/oauth2/authorize?%{params}) دعوت کنید.
