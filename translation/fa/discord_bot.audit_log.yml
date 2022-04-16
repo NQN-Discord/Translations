@@ -1,19 +1,19 @@
 ---
 discord_bot:
   audit_log:
-    cropped: (Cropped)
-    nsfw_censored: <Censored; %{channel} is NSFW>
+    cropped: (بریده شد)
+    nsfw_censored: <سانسور شد; %{channel} یک کانال NSFW است>
     message_posted: |
-      Message posted in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      پیام در %{channel} توسط %{author} %{cropped} و ارسال شد
+      [پرش به پیام](%{jump_url})
     message_posted_persona: |
-      Message posted in %{channel} by %{author} %{cropped}
-      ⚠️ Using Persona ⚠️
+      پیام در %{channel} توسط %{author} %{cropped} و ارسال شد
+      ⚠️ با استفاده از پرسونا ⚠️
       > **%{persona}**
-      [Jump Link](%{jump_url})
+      [پرش به پیام](%{jump_url})
     message_edited: |
-      Message edited in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      پیام در %{channel} توسط %{author} %{cropped} و ویرایش شد
+      [پرش به پیام](%{jump_url})
     phish_deleted: |
-      Deleted phishing message in %{channel} by %{author}
-    audit_log_post: NQN on behalf of %{author} (%{id})
+      پیام تقلبی در %{channel} ارسال شده توسط %{author} حذف شد
+    audit_log_post: بات NQN از طرف %{author} (%{id})
