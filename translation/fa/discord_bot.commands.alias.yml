@@ -2,52 +2,52 @@
 discord_bot:
   commands:
     alias:
-      no_alias: "You don't have an alias called \\:%{name}:"
-      could_not_find: Could not find alias
-      alphanumeric: Aliases can only contain alphanumerics and underscores
-      max_length: Alias names can be at most 32 characters long
-      user_zero: You have no aliases
+      no_alias: "شما اختصاری به نام \\:%{name}: ندارید"
+      could_not_find: نمی‌توان اختصار موردنظر را یافت
+      alphanumeric: اختصار ها فقط می‌توانند حاوی حروف الفبا و عداد و زیروندها (_) باشند
+      max_length: نام اختصار نمی‌تواند بیشتر از 32 کاراکتر باشد
+      user_zero: شما هیچ اختصاری ندارید
       from_message:
-        no_emotes: This message doesn't have any custom emojis in it!
+        no_emotes: این پیام هیچ ایموجی سفارشی درونش وجود ندارد!
       delete:
-        deleted: 'Deleted \:%{name}:'
+        deleted: 'اختصار \:%{name}: حذف شد'
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your aliases.
-          Are you sure you wish to continue?
+          این تمام **%{count}** عدد اختصار های شما را حذف خواهد کرد.
+          آیا مطمعنید که می‌خواهید ادامه دهید؟
         deleted:
-          one: Deleted 1 alias
-          many: Deleted %{count} aliases
+          one: 1 اختصار حذف شد
+          many: '%{count} اختصار حذف شد'
       created:
-        one: 'You created an alias and can use it by typing:'
-        many: 'You created %{count} aliases and can use them by typing:'
+        one: 'شما یک اختصار ایجاد نمودید، می توانید از آن استفاده کنید با تایپ کردن:'
+        many: 'شما %{count} اختصار ایجاد نمودید، می توانید از آنها استفاده کنید با تایپ کردن:'
       rename:
-        rename: Rename Alias
-        alias_name: 'Alias Name:'
-        renamed: 'Renamed \:%{old}: to :%{new}:'
+        rename: نام‌گذاری مجدد اختصار
+        alias_name: 'نام اختصار مورد نظر:'
+        renamed: 'نام گذاری مجدد \:%{old}: به :%{new}: انجام شد'
       export:
-        exported_short: "Here's your exported aliases:"
+        exported_short: "اینم از اختصار های استخراج شده شما:"
         exported_long: |
-          Here's your exported aliases:
-          To share them with other people, they need to run:
+          اینم از اختصار های استخراج شده شما:
+          برای به اشتراک گذاشتن آنها با بقیه، بایستی از این استفاده کنید:
           > `%{prefix}alias import %{url}`
       import_:
         import_incorrect: |
-          This command is used to import an alias list previously exported with `%{prefix}alias export`.
-          To create an alias, use `%{prefix}alias search`
-        import_text: This command needs a text file attachment
-        import_lines_invalid: Could not set aliases on lines %{lines_invalid}, invalid format.
+          این دستور برای وارد کردن لیستی از اختصار های از قبل استخراج شده استفاده می‌شود با اجرای دستور ‎`%{prefix}alias export`.
+          برای ایجاد یک اختصار، از ‎`%{prefix}alias search` استفاده کنید
+        import_text: این دستور به یک یک فایل متنی پیوست شده نیازمند است
+        import_lines_invalid: ناتوانی در تنظیم اختصار ها در خطوط %{lines_invalid}، فرمت نامعتبر.
         import_set:
-          one: Set %{count} alias.
-          many: Set %{count} aliases.
+          one: '%{count} اختصار تنظیم شد.'
+          many: '%{count} اختصار تنظیم شد.'
       dm:
         send_dms:
           zero: |
-            You have no aliases!
-            Get some with `%{prefix}alias search`
+            شما هیچ اختصاری ندارید!
+            با استفاده از ‎`%{prefix}alias search` تعدادی برای خودتان پیدا کنید
           one: |
-            This will send you a direct message; do you wish to continue?
+            این به شما یک پیام مستقیم (دایرکت) می‌فرستد. آیا تمایل به ادامه دارید؟
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            این به شما %{count} پیام مستقیم (دایرکت) می‌فرستد. آیا تمایل به ادامه دارید؟
         blocked: |-
-          You've blocked me, I can't message you!
+          شما من را بلاک کرده‌اید، من نمی‌توانم به شما مستقیماً پیام بفرستم!
