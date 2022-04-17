@@ -1,14 +1,14 @@
 ---
 discord_bot:
   rendered_message:
-    oops: Oops!
+    oops: اوخ!
     external_emojis: |
-      In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Server Settings**.
+      برای استفاده ایموجی ها در دیگر سرور ها، نقش ‎@everyone بایستی دسترسی 'Use External Emojis' را در **تنظیمات سرور** داشته باشد.
     override_external_emojis: |
-      In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
-    download: Download
+      برای استفاده ایموجی ها در دیگر سرور ها، نقش ‎@everyone بایستی دسترسی 'Use External Emojis' را در **تنظیمات دسترسی های کانال** داشته باشد.
+    download: دانلود
     no_personas: |
-      Personas are not allowed in this server
+      پرسونا ها برای این سرور مجاز نیستند
     no_messageless_posting: |
       A server administrator has disabled posting through the web dashboard and slash commands
     no_slowmode_posting: |
