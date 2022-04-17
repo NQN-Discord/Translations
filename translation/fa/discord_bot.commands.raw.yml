@@ -3,13 +3,13 @@ discord_bot:
   commands:
     raw:
       buttons:
-        commands: Commands
-        tutorial: Tutorial
-        my_emotes: My Emotes
+        commands: دستورات
+        tutorial: آموزش
+        my_emotes: شکلک های من
       depreciated_commands:
         renamed: |
-          This command has been renamed to `%{prefix}%{new}`.
-          If you don't want to see this message again, react with ❌
+          این دستور به ‎`%{prefix}%{new}` تغییر نام یافت.
+          اگر نمی خواهید که این پیام را دوباره ببینید، با ❌ ری‌اکت کنید
         ignored: Ignored `%{name}` for you.
       edit:
         never_posted: You've never posted a message with NQN in this channel!
@@ -18,8 +18,8 @@ discord_bot:
           Please choose a message either by replying to it with Discord, or by pasting it's jump URL
         cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
         cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
-        edit_message: Edit Message
-        new_content: 'New Content:'
+        edit_message: ویرایش پیام
+        new_content: 'محتوای جدید:'
       delete:
         deleted: Message successfully deleted
       export:
@@ -133,21 +133,21 @@ discord_bot:
           To send messages with buttons, use `[button title](button://url.here)`
         page_6_title: Stickers
         page_6_desc: |
-          If you've ever wanted to send large images/stickers/emotes, you've come to the right place.
+          اگر تا به حال خواسته‌اید که تصاویر/استیکرها/شکلک‌هایی در اندازه بزرگ بفرستید، دقیقاً به جای مناسبی مراجعه کرده‌اید.
 
-          Inspired by Telegram, NQN brings stickers to Discord.
-          You can use them as you would an emote, except stickers have a file extension at the end.
+          با الهام گرفتن از تلگرام، بات NQN به دیسکورد استیکرها را اضافه می کند.
+          شما می توانید همانجور که از شکلک ها استفاده می کنید، از آنها نیز استفاده کنید. البته با استثناء استیکر ها که یک فایل افزونه در آخر دارند.
 
-          Each message can contain up to 10 stickers.
+          هر پیام می تواند حاوی 10 عدد استیکر باشد.
 
-          You can create stickers with `%{prefix}sticker create` and upload an image file or by importing from Telegram.
-          This is done with `%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here`.
+          شما می توانید با استفاده از ‎`%{prefix}sticker create`، استیکر ایجاد کنید و فایل تصویر را در همینجا آپلود یا از تلگرام، وارد کنید.
+          برای وارد کردن استیکر ها از تلگرام از ‎`%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here` استفاده کنید.
 
-          To search through stickers you can use with NQN, use `%{prefix}sticker search` with a optional search terms.
+          برای گشتن در استیکر های موجود در NQN، از ‎`%{prefix}sticker search` با یک توصیف اختیاری برای جستجو، استفاده کنید.
 
-          To view your stickers, use `%{prefix}stickers mine`.
+          برای مشاهده استیکر های خودتان، از ‎`%{prefix}stickers mine` استفاده کنید.
 
-          Note - to use Telegram stickers, you must first import them to the bot. The bot does not do this automatically.
+          نکته - برای استفاده از استیکر های تلگرام، شما بایستی آنها را وارد بات کنید. بات به صورت خودکار اینکار را انجام نمی دهد.
         page_7_title: Personas
         page_7_desc: |
           Personas allow anyone in your server to assume a given username and avatar distinct from their own.
@@ -291,14 +291,14 @@ discord_bot:
           many: |
             > Server Features: %{guild_features}
         bot_credits: |
-          [Bot avatar and Wumpus art by Dooley](<https://www.dooleytm.com>) from [Wump Motes](https://discord.gg/pEjCBNF)
+          [آواتار بات طراحی شده توسط Dooley](<https://www.dooleytm.com>) در [Wump Motes](https://discord.gg/pEjCBNF)
 
-          __Special thanks to the following people:__
+          __باتشکر ویژه از افراد زیر:__
           > <:OriLove:726475603879919616> OrionVi
           > <:bean:884394196415442985> Ben
           > <:AetherSmile:726474477956759553> Aether Wake
 
-          __Translation Credits:__
+          __انجام ترجمه ها توسط:__
         es: 'Spanish:'
         es_people: |
           > <:OriLove:726475603879919616> OrionVi
