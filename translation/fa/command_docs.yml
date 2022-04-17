@@ -1,33 +1,33 @@
 ---
 command_docs:
   alias-delete:
-    short_doc: Don't want an alias anymore? Use this
+    short_doc: نمی خواهید از یک اختصار استفاده کنید؟ این را امتحان کنید
     help: |
-      Don't want an alias anymore? Use this
+      نمی خواهید از یک اختصار استفاده کنید؟ این را امتحان کنید
   alias-delete_all:
-    short_doc: I don't like any of my aliases
+    short_doc: من از هیچکدام از اختصارهام خوشم نمیاد
     help: |
-      Delete all of your aliases
+      حذف همه اختصار های شما
   alias-dm:
-    short_doc: Get a full list of your aliases in DMs
+    short_doc: دریافت یک لیست کامل از اختصار ها در DM
     help: |
-      Have the bot send you a list of your aliases in your DMs
+      ارسال لیست تمامی اختصار های شما به طور مستقیم به شما (DM) توسط بات
   alias-export:
-    short_doc: Export your alias list
+    short_doc: استخراج لیست اختصار های شما
     help: |
-      Export your alias list
+      استخراج لیست اختصار های شما
   alias-import:
-    short_doc: Import someone else's alias list
+    short_doc: وارد کردن لیست اختصار های فردی دیگر
     help: |
-      Import someone else's alias list
+      وارد کردن لیست اختصار های فردی دیگر
   alias-list:
-    short_doc: Get a list of aliases you've made
+    short_doc: دریافت لیستی از اختصار هایی که ساختید
     help: |
-      Get a list of aliases you've made
+      دریافت لیستی از اختصار هایی که ساختید
   alias-rename:
-    short_doc: Rename one of your aliases
+    short_doc: تغییر نام یکی از اختصار هایتان
     help: |
-      Rename one of your aliases
+      تغییر نام یکی از اختصار هایتان
   alias-search:
     short_doc: Look for individual emotes to use with NQN
     help: |
@@ -364,10 +364,10 @@ command_docs:
     help: |
       View NQN's server settings, including features, configured channels and pack information.
   server-set_announcement_channel:
-    short_doc: Post bot announcements somewhere.
+    short_doc: پست کردن اخبار مربوط به بات.
     help: |
-      Post bot announcements somewhere.
-      These will include new features
+      پست کردن اخبار مربوط به بات.
+      این شامل اخبار ویژگی های جدید نیز می شود
   server-set_audit_channel:
     short_doc: Post messages the bot reposts
     help: |
@@ -377,13 +377,13 @@ command_docs:
     help: |
       Post whenever someone votes with the server on top.gg
   server-set_boost_role:
-    short_doc: Give a user this role when they boost this server via NQN
+    short_doc: دادن این رول توسط NQN وقتی یک کاربر سرور را بوست کرد
     help: |
-      Give a user this role when they boost this server via NQN
+      دادن این رول توسط NQN وقتی یک کاربر سرور را بوست کرد
   server-set_nitro_role:
-    short_doc: Require users to have a role to use NQN
+    short_doc: کاربر را برای استفاده NQN نیازمند به یک رول می کند
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      برای استفاده کاربر از ویژگی نیتروی NQN، یک رول الزامی را تنظیم می کند
   server-stickers:
     short_doc: Enable or disable sticker usage in this guild
     help: |
@@ -433,17 +433,17 @@ command_docs:
     help: |
       Search through all the stickers NQN has, with an optional query
   sticker-telegram:
-    short_doc: Import stickers from telegram
+    short_doc: وارد کردن استیکر از تلگرام
     help: |
-      Import stickers from telegram
+      وارد کردن استیکر از تلگرام
   sticker:
-    short_doc: Larger than emotes!
+    short_doc: یه چیز بزرگ‌تر از شکلک ها!
     help: |
-      Larger than emotes!
+      یه چیز بزرگ‌تر از شکلک ها!
   support:
-    short_doc: Need some help with using me?
+    short_doc: یکم کمک برای استفاده از من لازم دارید؟
     help: |
-      Need some help with using me?
+      یکم کمک برای استفاده از من لازم دارید؟
   tutorial:
     short_doc: Learn how to use emotes with NQN
     help: |
