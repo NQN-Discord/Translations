@@ -21,23 +21,23 @@ discord_bot:
         edit_message: ویرایش پیام
         new_content: 'محتوای جدید:'
       delete:
-        deleted: Message successfully deleted
+        deleted: پیام با موفقیت حذف شد
       export:
-        exported_list_short: "Here's your exported emotes:"
+        exported_list_short: "اینم از شکلک های استخراج شده شما:"
         exported_list_long: |
-          Here's your exported emotes
-          To share them with other people, they need to run:
+          اینم از شکلک های استخراج شده شما:
+          برای به اشتراک گذاشتن آنها با بقیه، بایستی از این استفاده کنید:
           > `%{prefix}alias import %{url}`
       ignore_me:
-        user_ignored: NQN will no longer repost your messages. Run this command again to re-enable
-        user_unignored: NQN will repost your messages as normal
+        user_ignored: از این به بعد NQN پیام های شما را تبدیل نخواهد کرد. برای فعال سازی مجدد، این دستور را دوباره بفرستید
+        user_unignored: از این به بعد NQN مجدداً پیام های شما را تبدیل خواهد کرد
       invite:
-        add_nqn: Add NQN to your server!
+        add_nqn: افزودن NQN به سرور خودتان!
       my_emotes:
-        current_guild: Current Server
-        mutual_guilds: Mutual Servers
-        aliases: Aliases
-        packs: Packs
+        current_guild: سرور فعلی
+        mutual_guilds: سرور های مشترک
+        aliases: اختصار ها
+        packs: بسته ها
         no_mutual_guilds: |
           NQN allows you to use any emoji from our mutual servers in this server.
           Currently, you do not have any mutual servers with NQN, aside from this one.
