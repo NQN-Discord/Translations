@@ -31,23 +31,23 @@ command_docs:
   alias-search:
     short_doc: Look for individual emotes to use with NQN
     help: |
-      Look for individual emotes to use with NQN
+      گشتن برای شکلک های متفاوت برای استفاده در NQN
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      جستجوی NQN به شما اجازه استفاده پیشرفته دستورات را می دهد:
+       - `exact`: (پیشفرض false) فقط شکلک هایی با نام دقیقاً مشابه نوشته شده جستجو خواهند شد
+       - `animated`: اینکه شکلک ها فقط متحرک باشند یا تصویر ثابت
+       - `page`: رفتن به یک صفحه مشخص
+       - `order`: یکی از موارد 'uses' یا 'random'
   alias:
     short_doc: Manage the individual emotes you can use
     help: |
-      Manage the individual emotes you can use
+      مدیریت شکلک های جدا از هم و متفاوتی که شما می توانید استفاده کنید
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      جستجوی NQN به شما اجازه استفاده پیشرفته دستورات را می دهد:
+       - `exact`: (پیشفرض false) فقط شکلک هایی با نام دقیقاً مشابه نوشته شده جستجو خواهند شد
+       - `animated`: اینکه شکلک ها فقط متحرک باشند یا تصویر ثابت
+       - `page`: رفتن به یک صفحه مشخص
+       - `order`: یکی از موارد 'uses' یا 'random'
   audit:
     short_doc: Get audit logs for reposted messages for this channel
     help: |
@@ -79,10 +79,10 @@ command_docs:
   ignore_me:
     short_doc: Stop NQN from reposting your messages
     help: |
-      Running this command stops NQN from reposting any of your messages in any server you share with the bot.
-      - Commands are still enabled, running this command again returns you to normal
-      - You can still repost messages through our [dashboard](https://nqn.blue)
-      - The bot will not respond to any messages you send that would be reposted through a webhook
+      اجرای این دستور NQN را از تبدیل پیام هایتان در هر سروری که شما و بات در آن هستید، متوقف می کند.
+      - دستورات برای استفاده همچنان فعال هستند، اجرای مجدد این دستور همه چیز را دوباره به حالت عادی برمیگرداند
+      - شما همچنان می توانید پیام های خود را از طریق استفاده از [dashboard](https://nqn.blue)، تبدیل کنید
+      - بات هیچ یک از پیام های شما که از طریق webhook فرستاده شده باشند، پاسخ نخواهد داد
   info:
     short_doc: Internal statistics about the bot
     help: |
@@ -399,12 +399,12 @@ command_docs:
   sticker-create:
     short_doc: Create a sticker from a file
     help: |
-      Create a sticker from a file
-      Upload an image and use this command to turn it into a sticker.
-      The sticker's name is determined by the filename, or what you type in. `sticker create BluePat.png` for example.
-      Sticker names are unique across NQN, once a name is taken, it's gone.
-      Stickers can be a maximum of 8MB large, and names can only be alphanumeric.
-      Stickers need a file extension, which is also alphanumeric.
+      ساختن یک استیکر از یک فایل
+      آپلود تصویر و استفاده از این دستور برای تبدیل آن به یک استیکر.
+      نام استیکر توسط نام خود فایل تعیین خواهد شد، یا تقریبا همان چیزی که برای مثال در ‎`sticker create BluePat.png` وارد می کنید.
+      نام استیکر ها در کل NQN یکتا هستند، یعنی اگر یک نام گرفته شده، دیگر نمی شود آن را گرفت.
+      استیکر ها فقط میتوانند حداکثر 8 مگابایت حجم داشته باشند، و نام‌هایشان هم فقط باید متشکل از حروف الفبا یا اعداد انگلیسی باشد.
+      استیکر ها به یک فایل افزونه نیازمند هستند، که آن هم از حروف الفبا و اعداد تشکیل می شود.
   sticker-delete:
     short_doc: Delete a sticker
     help: |
