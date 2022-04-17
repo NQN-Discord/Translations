@@ -1,29 +1,29 @@
 ---
 global:
-  deleted_channel: '#DeletedChannel'
-  author: Author
-  jump_to_message: Jump
-  go_to_message: Go to message!
-  reply_to: 'Reply to:'
-  cancelled: Cancelled
-  website: Website
-  details: Details
-  fix_permissions: Fix Permissions
-  success: Success
+  deleted_channel: '#کانال‌حذف‌شده'
+  author: ایجاد کننده
+  jump_to_message: پرش
+  go_to_message: رفتن به پیام!
+  reply_to: 'در پاسخ به:'
+  cancelled: لغو شده
+  website: وبسایت
+  details: جزئیات
+  fix_permissions: رفع ایراد دسترسی ها
+  success: با موفقیت انجام شد
   yes: Yes
   no: No
-  dm_me: DM Me
-  next: Next
-  previous: Previous
+  dm_me: به من مستقیماً پیام بده (DM)
+  next: بعدی
+  previous: قبلی
   learn:
-    aliases: Learn more about aliases
-    packs: Learn more about packs
-    my_emotes: Find emojis I can use
-    personas: Learn more about personas
-  missing_permissions: Missing Permissions
-  missing_add_reaction: I need the 'Add Reactions' permission for this command!
-  missing_create_invite: I need the 'Create Instant Invite' permission for this command!
-  everyone_external: The @everyone role needs 'Use External Emojis'
+    aliases: درباره اختصار ها بیشتر بدانید
+    packs: درباره بسته ها بیشتر بدانید
+    my_emotes: پیدا کردن ایموجی هایی که من می‌تونم استفاده کنم
+    personas: درباره پرسونا ها بیشتر بدانید
+  missing_permissions: دسترسی ناکافی
+  missing_add_reaction: من به دسترسی 'Add Reactions' برای انجام این دستور نیازمندم!
+  missing_create_invite: من به دسترسی 'Create Instant Invite' برای انجام این دستور نیازمندم!
+  everyone_external: نقش everyone@ نیازمند به دسترسی 'Use External Emojis' می‌باشد
   tabulated_delete_manage_messages: Could not delete menu - please give me Manage Messages
   no_nitro_global: Nitro usage has been disabled in this server!
   no_nitro_role: Only users with the <@&%{role}> role can use this command!
