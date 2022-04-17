@@ -1,13 +1,13 @@
 ---
 rest:
   join_server:
-    joined: '%{user} joined the server through the public emote pack!'
+    joined: 'کاربر %{user} از طریق بسته شکلک به سرور پیوست!'
   vote:
-    guild_rank: '%{guild} is now #%{guild_rank}'
+    guild_rank: 'رتبه %{guild} درحال حاضر ‎#%{guild_rank} می باشد'
     vote_text: |
-      <@%{user}> just voted for the server on %{site}!
-      %{guild} can now use %{max_emotes} serverwide emotes
+      <@%{user}> برای سرور در %{site} رائ داد!
+      سرور %{guild} می تواند هم اکنون از %{max_emotes} عدد شکلک های بین سرور ها، استفاده کند
     vote_text_rank: |
-      <@%{user}> just voted for the server on %{site}!
-      %{guild} can now use %{max_emotes} serverwide emotes and is ranked #%{guild_rank} #%{guild_rank}
-    voted: Voted for NQN
+      <@%{user}> برای سرور در %{site} رائ داد!
+      سرور %{guild} می تواند هم اکنون از %{max_emotes} عدد شکلک های بین سرور ها، استفاده کند و رده‌اش هم اکنون ‎#%{guild_rank} می باشد #%{guild_rank}
+    voted: رائ داده به NQN
