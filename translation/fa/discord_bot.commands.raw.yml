@@ -46,7 +46,7 @@ discord_bot:
       ranking:
         vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
         top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
-        thanks: Thanks for voting for the bot!
+        thanks: خیلی متشکر از اینکه به بات رائ دادید!
         ranking: |
           %{guild} is ranked #%{rank} out of all the servers using NQN.
 
@@ -62,17 +62,17 @@ discord_bot:
           It's provided to allow an easy search through the ones available to be added with
           > `%{prefix}alias search %{terms} page: %{page_no}`
       tutorial:
-        choose_page: Browse Tutorial
-        invalid_page: There are only %{count} pages in the tutorial!
-        permissions_missing: I need to be able to write embeds and add reactions to show my tutorial. It can be reran with `%{prefix}tutorial`.
+        choose_page: گشتن در آموزش
+        invalid_page: فقط %{count} صفحه آموزش وجود دارد!
+        permissions_missing: من نیاز به قابلیت نوشتن ایمبد ها و افزودن ری‌اکشن ها برای نمایش آموزشم دارم. می توانید دوباره برای فرستادنش از ‎`%{prefix}tutorial` استفاده کنید.
         wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
-        default_emojis: Default Emojis
-        default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
-        page_0_title: Tutorial for Not Quite Nitro, TLDR
+        default_emojis: ایموجی های پیشفرض
+        default_emoji_list: "این لیستی از شکلک های متحرک است که همه داخل این سرور می توانند به طور پیشفرض استفاده کنند - فقط لازم است طور دستی آنها را تایپ کنید، مطمئن شوید که :دونقطه: ها را دوطرف نام شکلک نوشته باشید!"
+        page_0_title: آموزش Not Quite Nitro، به طور خلاصه
         page_0_desc: |
-          %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
+          %{locale_flag_emojis} **تنظیمات زبان** %{locale_flag_emojis}
           > `%{prefix}server language`
-        page_0_0_name: More Emotes?
+        page_0_0_name: شکلک های بیشتر؟
         page_0_0_desc: |
           Everyone is able to use any emote that shares a server with both you and this bot.
           **There are several other ways to use emotes in servers you are not in:**
@@ -299,30 +299,30 @@ discord_bot:
           > <:AetherSmile:726474477956759553> Aether Wake
 
           __انجام ترجمه ها توسط:__
-        es: 'Spanish:'
+        es: 'اسپانیایی:'
         es_people: |
           > <:OriLove:726475603879919616> OrionVi
           > <:AetherSmile:726474477956759553> Aether Wake
-        ru: 'Russian:'
+        ru: 'روسی:'
         ru_people: |
           > <:drink:741041666705588255> Трокс
           > <:DorZ23:864861706169483329> DorZ23
-        pt: 'Portuguese:'
+        pt: 'پرتغالی:'
         pt_people: |
           > <:KingKiller:800410618074628146> KingKiller
           > <:gil:873518552295014420> Gil
-        it: 'Italian:'
+        it: 'ایتالیایی:'
         it_people: |
           > 👤 RVG|𝓵𝓸𝓻𝔂
-        bot_stats: Discord Bot Statistics
-        shard_info_name: Shard Info
-        process_data_name: Bot process data
-        elasticsearch_data_name: Elasticsearch data
-        package_info_name: Package info
-        bot_metadata_name: Bot Metadata
-        credits: Credits
-        author: Author
-        bot_latency: '> API/Bot Latency: %{bot_latency}ms'
+        bot_stats: وضعیت بات دیسکورد
+        shard_info_name: اطلاعات شارد
+        process_data_name: اطلاعات پردازش بات
+        elasticsearch_data_name: اطلاعات الستیک‌سرچ
+        package_info_name: اطلاعات بسته
+        bot_metadata_name: متادیتای بات
+        credits: سازندگان و مشارکان
+        author: ایجاد کننده
+        bot_latency: '> تاخیر API/Bot: %{bot_latency} میلی ثانیه'
         help_command: 'Help command: `%{prefix}help`'
       upload_emote:
         own_emojis_dont_ask_again: Yes; I own these
