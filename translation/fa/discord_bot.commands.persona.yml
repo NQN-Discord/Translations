@@ -3,73 +3,73 @@ discord_bot:
   commands:
     persona:
       not_enabled: |
-        Personas are not enabled in this server.
-        They allow users to use ⚠️**custom usernames** and **avatars**⚠️ with NQN, so are not enabled by default.
-      enable_personas: Enable personas
+        استفاده از پرسونا در این سرور فعال نشده.
+        پرسونا ها به کاربران اجازه می‌دهند که ⚠️ **نام کاربری** و **آواتار های سفارشی**⚠️ برای خودشان توسط NQN داشته باشند، که به طور پیشفرض، این مورد غیرفعال است.
+      enable_personas: فعالسازی پرسونا ها
       name_regex: |
-        Persona names can only contain alphanumerics, dashes and underscores, and be at most 80 characters long.
-        > '%{persona_name}' does not match these requirements.
+        نام های مورد استفاده در پرسونا فقط می توانند حاوی حروف الفبا، اعداد، - و _ باشند و طولشان حداکثر 80 کاراکتر میتواند باشند.
+        > '%{persona_name}' این نام با این موارد ضروری مطابقت ندارد.
       max_display_name: |
-        Usernames can be at most 80 characters long
+        نام‌کاربری می تواند حداکثر 80 کاراکتر باشد
       persona_doesnt_exist: |
-        You don't have a persona called %{short_name}!
-        Create one with `%{prefix}persona register %{short_name}`
+        شما هیچ پرسونایی به نام %{short_name} ندارید!
+        با استفاده از ‎`%{prefix}persona register %{short_name}` یک عدد برای خود بسازید
       export:
         exported_list_short: |
-          Here's your exported personas, they should be compatible with Tupperbox and Pluralkit.
+          این هم از پرسونا های استخراج شده شما، این ها باید با Tupperbox و Pluralkit همخوانی داشته باشند.
         exported_list_long: |
-          Here's your exported personas, they should be compatible with Tupperbox and Pluralkit.
-          To share them with other people, they need to run:
+          این هم از پرسونا های استخراج شده شما، این ها باید با Tupperbox و Pluralkit همخوانی داشته باشند.
+          برای به اشتراک گذاشتن آنها با بقیه، بقیه باید از این دستور استفاده کنند:
           > `%{prefix}persona import %{url}`
       import_:
         import_incorrect: |
-          This command is used to import a persona list previously exported with `%{prefix}persona export`, or equivalent export commands from PluralKit and Tupperbox.
-          To create a persona, use `%{prefix}persona register`
-        import_text: This command needs a json file attachment
+          این دستور برای وارد کردن یک لیست از قبل استخراج شده پرسونا، که از PluralKit یا Tupperbox یا با استفاده از ‎`%{prefix}persona export` به دست آمده، مورد استفاده است.
+          برای ساختن یک پرسونا، از ‎`%{prefix}persona register` استفاده کنید
+        import_text: این دستور به یک فایل json پیوست شده نیاز دارد
         set_personas:
-          one: Imported one persona
-          many: Imported %{count} personas
-        invalid_persona: Do you wish to continue importing the rest of the file, ignoring this entry?
+          one: یک پرسونا وارد شد
+          many: '%{count} پرسونا وارد شد'
+        invalid_persona: آیا می‌خواهید که با کنار گذاشتن این بخش، به وارد کردن بقیه فایل ادامه دهید؟
       list:
         no_personas: |
-          You don't have any personas!
+          شما هیچ پرسونایی ندارید!
       register:
-        display_name: Nickname
-        avatar_url: Avatar URL
-        create: Create Persona
+        display_name: نام مستعار
+        avatar_url: آدرس URL آواتار
+        create: ساخت پرسونا
         persona_exists: |
-          You already have a persona called %{short_name}.
-          You can rename it with `%{prefix}persona rename %{short_name} new_name`
+          شما از قبل یک پرسونا به نام %{short_name} دارید.
+          شما می توانید نام آن را با استفاده از ‎`%{prefix}persona rename %{short_name} new_name` تغییر دهید
         registered_persona: |
-          Registered %{short_name} as your persona!
-          To send messages as them, send a message starting with `%{short_name}:`, for example:
+          نام %{short_name} به عنوان یک پرسونا از شما ثبت شد!
+          برای ارسال پیام از طرف ایشان، یک پیام که با ‎`%{short_name}:` شروع می شود، بفرستید. برای مثال:
           > ```%{short_name}: Hello!```
-          To change their username in messages to 'NQN', run:
+          برای تغییر نام‌کاربری مورد استفاده در پیام هایی که 'NQN' به عنوان پرسونا می‌فرستد، از این دستور استفاده کنید:
           > ```%{prefix}persona display_name %{short_name} NQN```
-          To change their avatar in messages, run:
+          برای تغییر آواتار مورد استفاده در آن پیام ها نیز می توانید این مورد را اجرا کنید:
           > ```%{prefix}persona avatar_url %{short_name} https://...```
       rename:
         renamed_persona: |
-          Renamed %{old_name} to %{new_name}.
+          نام از %{old_name} به %{new_name} تغییر یافت.
       avatar_url:
         persona_avatar_url: |
-          Set %{short_name}'s avatar.
+          آواتار برای %{short_name} تنظیم شد.
         avatar_regex: |
-          Avatars must be given as URLs to the image you want to use.
+          برای استفاده یک عکس برای آواتار ها، باید یک آدرس URL داده شود.
       delete:
         persona_deleted: |
-          Deleted information about %{short_name}.
+          اطلاعات مربوط به %{short_name} حذف شد.
       display_name:
         renamed_persona_display_name: |
-          Set %{short_name}'s username to %{display_name}.
+          نام مورد نمایش برای %{short_name}، به %{display_name} تنظیم شد.
       dm:
         send_dms:
           zero: |
-            You have no personas!
-            Get some with `%{prefix}persona register`
+            شما هیچ پرسونایی ندارید!
+            با استفاده از ‎`%{prefix}persona register` تعدادی برای خود جور کنید
           one: |
-            This will send you a direct message; do you wish to continue?
+            این به شما یک پیام مستقیم (دایرکت) می‌فرستد. آیا تمایل به ادامه دارید؟
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            این به شما %{count} پیام مستقیم (دایرکت) می‌فرستد. آیا تمایل به ادامه دارید؟
         blocked: |
-          You've blocked me, I can't message you!
+          شما من را بلاک کرده‌اید، من نمی‌توانم به شما مستقیماً پیام بفرستم!
