@@ -37,9 +37,9 @@ discord_bot:
         unset: Anyone in this server can use free Nitro emotes with NQN
         set: Now only users with the %{role} role can use free Nitro emotes with NQN
       audit_channel:
-        unset: Unset the audit channel for this server
-        set: Set the audit channel for this server to %{channel}
-        no_webhooks: "I cannot post webhook messages to %{channel}.\nPlease give me 'Manage Webhooks' there!"
+        unset: کانال سوابق برای این سرور برداشته شد
+        set: کانال سوابق این سرور بر روی ‎%{channel} تنظیم شد
+        no_webhooks: "من نمی توانم پیام های webhook در کانال ‎%{channel} بفرستم.\nمطمئن شوید که من دسترسی 'Manage Webhooks' را داشته باشم!"
       boost_channel:
         unset: Unset the boost channel for this server
         set: Set the boost channel for this server to %{channel}
@@ -105,37 +105,37 @@ discord_bot:
           Anyone in this server may now use the following emotes by typing its name into chat, including colons:
         no_packs: "'%{guild_name}s' isn't joined to any packs globally!"
       prefix:
-        instructions: "To set my prefix, mention me before the desired prefix so as to prevent accidental changes.\n> %{prefix}server prefix %{me} %{new}"
-        no_colon_prefix: NQN does not support prefixes starting with a colon (:)
-        no_slash_prefix: NQN does not support prefixes starting with a slash (/)
-        set_prefix: Set my prefix to `%{prefix}`
+        instructions: "برای تنظیم پیشوند من، قبل از وارد کردن پیشوند جدید، برای جلوگیری از تغییرات ناخواسته، من را منشن کنید.\n> %{prefix}server prefix %{me} %{new}"
+        no_colon_prefix: بات NQN از پیشوند هایی که با دو نقطه (:) شروع می‌شوند، پشتیبانی نمی‌کند
+        no_slash_prefix: بات NQN از پیشوند هایی که با اسلش (/) شروع می‌شوند، پشتیبانی نمی‌کند
+        set_prefix: پیشوند من به ‎`%{prefix}` تنظیم شد
       language:
-        choose: 'Choose my new language:'
-        set: Set my language to English for this server
+        choose: 'زبان موردنظر را انتخاب کنید:'
+        set: زبان من برای این سرور روی فارسی تنظیم شد
       config:
-        enabled: Enabled
-        disabled: Disabled
-        prefix: Prefix
-        announcement: Announcement channel
-        boost_channel: Boost channel
-        boost_role: Boost role
-        audit_channel: Audit channel
-        nitro_role: Nitro role
-        stickers: Stickers
-        nitro: Nitro
-        replies: Replies
+        enabled: فعال
+        disabled: غیرفعال
+        prefix: پیشوند
+        announcement: کانال اخبار
+        boost_channel: کانال بوست
+        boost_role: نقش بوستر
+        audit_channel: کانال سوابق
+        nitro_role: نقش نیترو
+        stickers: استیکر ها
+        nitro: نیترو
+        replies: پاسخ ها
         masked_links: Masked URLs
-        pings: Pings
-        user_content: User Content
-        personas: Personas
-        dashboard_posting: Dashboard Posting
+        pings: پینگ‌ها
+        user_content: محتوای کاربر
+        personas: پرسونا ها
+        dashboard_posting: پست کردن از طریق داشبورد
         phish_detection: Phish Detection
-        invite: Invite Link
-        pack: Pack Name
-        public: Public
-        member_count: Members
-        configure_features: Toggle Features
-        settings: Settings
-        channels: Channels
-        features: Features
-        pack_info: Pack Info
+        invite: لینک دعوت
+        pack: نام بسته
+        public: عمومی
+        member_count: اعضاء
+        configure_features: تغییرحالت ویژگی‌ها
+        settings: تنظیمات
+        channels: کانال‌ها
+        features: ویژگی ها
+        pack_info: اطلاعات بسته
