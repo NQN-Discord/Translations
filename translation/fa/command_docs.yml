@@ -196,46 +196,46 @@ command_docs:
     help: |
       Manage entire pack of emotes
   persona-avatar_url:
-    short_doc: Set the avatar of a persona
+    short_doc: تنظیم آواتار یک پرسونا
     help: |
-      Set the avatar of a persona
+      تنظیم آواتار یک پرسونا
   persona-delete:
-    short_doc: Delete one of your personas
+    short_doc: حذف یکی از پرسونا های شما
     help: |
-      Delete one of your personas
+      حذف یکی از پرسونا های شما
   persona-display_name:
-    short_doc: Change the username of a persona
+    short_doc: تغییر نام‌کاربری یک پرسونا
     help: |
-      Change the username of a persona
+      تغییر نام‌کاربری یک پرسونا
   persona-dm:
-    short_doc: DMs you a full list of your personas
+    short_doc: ارسال پیام مستقیم از لیستی کامل از پرسونا های شما
     help: |
-      Sends you a DM with a full list of your personas
+      یک پیام مستقیم (DM) حاوی لیستی کامل از پرسونا های شما برایتان میفرستد
   persona-export:
-    short_doc: Export your list of personas to a file
+    short_doc: استخراج لیست پرسونا های شما درون یک فایل
     help: |
-      Export your list of personas to a file, which is compatible with other bots
+      استخراج لیست پرسونا های شما درون یک فایل، که با بقیه بات ها سازگاری هم داشته باشد
   persona-import:
-    short_doc: Import a previously exported list of personas
+    short_doc: وارد کردن یک لیست از پرسونا های از قبل استخراج شده
     help: |
-      Import a previously exported list of personas.
-      Compatible with PluralKit and Tupperbox.
+      وارد کردن یک لیست از پرسونا های از قبل استخراج شده.
+      با بات های PluralKit و Tupperbox سازگاری دارد.
   persona-list:
-    short_doc: See a list of your personas
+    short_doc: مشاهده لیستی از پرسونا های شما
     help: |
-      See a list of your personas
+      مشاهده لیستی از پرسونا های شما
   persona-register:
-    short_doc: Register a persona for later use
+    short_doc: ثبت یک پرسونا برای استفاده
     help: |
-      Register a persona for later use
+      ثبت یک پرسونا برای استفاده
   persona-rename:
-    short_doc: Give one of your personas a different name
+    short_doc: دادن یک نام متفاوت به یکی از پرسونا های شما
     help: |
-      Give one of your personas a different name
+      دادن یک نام متفاوت به یکی از پرسونا های شما
   persona:
-    short_doc: Manage your personas
+    short_doc: مدیریت پرسونا های شما
     help: |
-      Manage your personas
+      مدیریت پرسونا های شما
   premium-check:
     short_doc: Recalculate your premium information
     help: |
@@ -335,9 +335,9 @@ command_docs:
     help: |
       Debug the permissions in your server
   server-personas:
-    short_doc: Enable or disable usage of personas
+    short_doc: فعال یا غیرفعال سازی استفاده از پرسونا ها
     help: |
-      Allows users to post with arbitrary usernames and avatars
+      اجازه دادن به کاربران برای استفاده از نام ها و آواتار های غیرحقیقی
   server-pings:
     short_doc: Enable or disable pings in messages for this server
     help: |
