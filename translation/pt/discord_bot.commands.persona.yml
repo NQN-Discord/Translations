@@ -28,14 +28,14 @@ discord_bot:
         set_personas:
           one: Importou um personagem
           many: Importados %{count} personagens
-        invalid_persona: Do you wish to continue importing the rest of the file, ignoring this entry?
+        invalid_persona: Você deseja continuar importando o resto do arquivo, ignorando esta entrada?
       list:
         no_personas: |
           Você não tem nenhum personagem!
       register:
         display_name: Nickname
-        avatar_url: Avatar URL
-        create: Create Persona
+        avatar_url: URL do avatar
+        create: Criar Persona
         persona_exists: |
           Você já tem um personagem chamado %{short_name}.
           Você pode renomeá-lo com `%{prefix}persona rename %{short_name} Novo_Nome`

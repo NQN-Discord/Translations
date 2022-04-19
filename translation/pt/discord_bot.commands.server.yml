@@ -73,8 +73,8 @@ discord_bot:
         personas_off: Desabilitado o uso de personagens
         dashboard_posting_on: Foi habilitado o envio de mensagens pelo Dashboard
         dashboard_posting_off: Foi desativado o envio de mensagens pelo Dashboard
-        phish_detection_on: Enabled phishing message detection in this server
-        phish_detection_off: Disabled phishing message detection in this server
+        phish_detection_on: Ativado detecção de mensagem de phishing neste servidor
+        phish_detection_off: Detecção de mensagem de phishing desativada nesse servidor
       link:
         no_animated_emotes: |
           Este servidor não possui emojis animados!
@@ -129,7 +129,7 @@ discord_bot:
         user_content: Conteúdo de Usuário
         personas: Personagens
         dashboard_posting: Enviar mensagens pelo Dashboard
-        phish_detection: Phish Detection
+        phish_detection: Detecção de Phish
         invite: Link de convite
         pack: Nome do Pacote
         public: Público

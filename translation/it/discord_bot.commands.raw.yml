@@ -262,7 +262,7 @@ discord_bot:
         audit_message: "%{author} ha reagito a [questo messaggio](<%{jump_url}>) in %{channel} con queste emote:\n"
       info:
         shard_data: |
-          > No. frammenti: %{shard_count} (%{shards_down} giù)
+          > No. frammenti: %{shard_count} (%{shards_down} offline)
           > Latenza media: %{average_latency}ms
           > Frammento attuale: %{current_shard}
           > Latenza frammento corrente: %{current_latency}ms
@@ -282,7 +282,7 @@ discord_bot:
           Comando di aiuto: `%{prefix}help`
         bot_metadata: |
           > Uptime: %{uptime}
-          > Sever Emote: %{alias_servers_available} / %{alias_servers_total}
+          > Server Emote: %{alias_servers_available} / %{alias_servers_total}
           > Server caricati: %{guilds_loaded} / %{guilds}
         guild_features:
           zero: ''
