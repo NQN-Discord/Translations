@@ -36,7 +36,7 @@ discord_bot:
           many: Перемещены %{count} сообщений в %{to_channel}
         moved_from:
           one: '%{author} переместил %{count} сообщение из %{from_channel}'
-          many: '%{author} переместил %{count} сообщений в %{from_channel}'
+          many: '%{author} moved %{count} messages from %{from_channel}'
         moved_to_from:
           one: '%{author} переместил %{count} сообщение из %{from_channel} в %{to_channel}'
           many: '%{author} переместил %{count} сообщений из %{from_channel} в %{to_channel}'
