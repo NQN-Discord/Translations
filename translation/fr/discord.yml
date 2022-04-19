@@ -34,3 +34,4 @@ discord:
       NQN permet aussi d'autoriser des citations automatiques lorsqu'un utilisateur poste un message avec un lien, l'utilisation d'URLS masqués dans les salons et les stickers, qui sont des emojis avec une grande taille.
 
       Vous pouvez m'inviter [vers votre serveur](https://discord.com/api/oauth2/authorize?%{params}).
+react_with_x_to_delete: "React with ❌ (:x:) to delete reposted messages!\\r\n"
