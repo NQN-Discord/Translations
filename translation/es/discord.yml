@@ -13,7 +13,7 @@ discord:
     my_prefix: |
       Mi prefijo para comandos es `%{prefix}`
     react_with_x_to_delete: |
-      React with ❌ (\:x:) to delete reposted messages!
+      ¡Reacciona con ❌ (\:x:) para eliminar mensajes reenviados!
     user_ignored: |
       Seras **IGNORADO** cuando envíes mensajes que normalmente serian re-enviados por el bot. Para permitir que NQN re-envié tus mensajes, corre:
       > `%{prefix}ignore_me`
