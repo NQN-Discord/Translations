@@ -3,7 +3,7 @@ discord_bot:
   commands:
     server:
       alias:
-        set_emote_title: 'Set \:%{name}: to %{emote} for this server.'
+        set_emote_title: 'Установить \:%{name}: на %{emote} для этого сервера.'
         set_emote_description:
           zero: |
             У этого сервера не осталось эмодзи!
@@ -73,8 +73,8 @@ discord_bot:
         personas_off: Использование персон отключено
         dashboard_posting_on: Включена публикация сообщений с панели управления ботом
         dashboard_posting_off: Отключена публикация сообщений с панели управления ботом
-        phish_detection_on: Enabled phishing message detection in this server
-        phish_detection_off: Disabled phishing message detection in this server
+        phish_detection_on: Включено обнаружение фишинговых сообщений на этом сервере
+        phish_detection_off: Отключено обнаружение фишинговых сообщений на этом сервере
       link:
         no_animated_emotes: |
           На этом сервере нет анимированных эмодзи!
@@ -130,7 +130,7 @@ discord_bot:
         user_content: Пользовательский контент
         personas: Персоны
         dashboard_posting: Публикация с панели управления
-        phish_detection: Phish Detection
+        phish_detection: Обнаружение фишинга
         invite: Приглашение на сервер
         pack: Имя пака
         public: Публичность

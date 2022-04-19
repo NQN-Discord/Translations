@@ -15,5 +15,5 @@ discord_bot:
       Сообщение в канале %{channel} было переименовано %{author} %{cropped}
       [Перейти на сообщение](%{jump_url})
     phish_deleted: |
-      Deleted phishing message in %{channel} by %{author}
+      Удалено фишинговое сообщение в %{channel} от %{author}
     audit_log_post: NQN от имени <@%{author}> (%{id})

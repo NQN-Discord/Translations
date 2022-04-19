@@ -34,3 +34,4 @@ discord:
       NQN erlaubt außerdem das automatische Zitieren, wenn eine Nutzer einen Nachrichtenlink postet, die Nutzung von verborgenen URLs im Chat und die Nutzung von Stickern in voller Emote-Größe.
 
       Du kannst mich einladen [to your server](https://discord.com/api/oauth2/authorize?%{params}).
+react_with_x_to_delete: "React with ❌ (:x:) to delete reposted messages!\\r\n"

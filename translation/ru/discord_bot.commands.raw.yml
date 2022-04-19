@@ -3,9 +3,9 @@ discord_bot:
   commands:
     raw:
       buttons:
-        commands: Commands
-        tutorial: Tutorial
-        my_emotes: My Emotes
+        commands: Команды
+        tutorial: Обучение
+        my_emotes: Мои эмодзи
       depreciated_commands:
         renamed: |
           Эта команда была переименована в `%{prefix}%{new}`.
@@ -18,10 +18,10 @@ discord_bot:
           Выберите сообщение, ответив на него (через функцию Discord), или вставив его URL-ссылку.
         cannot_edit_no_nqn: Вы не можете редактировать это сообщение, так как это сообщение не отправлено NQN!
         cannot_edit_different_user: Вы не можете редактировать это сообщение, так как оно было отправлено не вами!
-        edit_message: Edit Message
-        new_content: 'New Content:'
+        edit_message: Редактировать сообщение
+        new_content: 'Новое содержание:'
       delete:
-        deleted: Message successfully deleted
+        deleted: Сообщение успешно удалено
       export:
         exported_list_short: "Вот ваши экспортированные эмодзи:"
         exported_list_long: |
@@ -33,15 +33,15 @@ discord_bot:
       invite:
         add_nqn: Добавьте NQN на ваш сервер!
       my_emotes:
-        current_guild: Current Server
-        mutual_guilds: Mutual Servers
+        current_guild: Текущий сервер
+        mutual_guilds: Общие сервера
         aliases: Aliases
-        packs: Packs
+        packs: Паки
         no_mutual_guilds: |
-          NQN allows you to use any emoji from our mutual servers in this server.
-          Currently, you do not have any mutual servers with NQN, aside from this one.
+          NQN позволяет вам использовать любые эмодзи с наших взаимных серверов на этом сервере.
+          В настоящее время у вас нет никаких взаимных серверов с NQN, кроме этого.
 
-          If you want, you can [invite NQN to another server](%{bot_invite}) to gain access to it's emojis here.
+          Если вы хотите, вы можете [пригласить NQN на другой сервер](%{bot_invite}), чтобы получить доступ к его эмодзи здесь.
       ranking:
         vote_link: Вы можете проголосовать за бота на %{url}, чтобы добавить больше эмодзи на сервере и повысить рейтинг сервера.
         top_server: Поздравляю с тем, что вы самый поддерживающий сервер <a:BluePat:679807864327766048>
