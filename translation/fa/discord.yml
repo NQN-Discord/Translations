@@ -13,7 +13,7 @@ discord:
     my_prefix: |
       پیشوند برای استفاده از من، `%{prefix}` می باشد
     react_with_x_to_delete: |
-      React with ❌ (\:x:) to delete reposted messages!
+      با ❌ (\:x:) به این پیام ری‌اکت کنید تا این پاسخ پاک شود!
     user_ignored: |
       شما از این به بعد برای تبدیل پیام ها **نادیده گرفته خواهید شد**. برای اجازه دادن مجدد به NQN برای تبدیل پیام هایتان، دستور زیر را اجرا کنید:
       > `%{prefix}ignore_me`
