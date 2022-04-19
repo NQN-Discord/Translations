@@ -1,0 +1,64 @@
+---
+exceptions:
+  command_not_found: |
+    دستور ‎"%{command}" یافت نشد.
+    از ‎`%{prefix}help` برای دیدن لیست دستورات دردسترس استفاده کنید
+  missing_required_argument:
+    one: |-
+      محتوای ‎"%{param}" یک آرگومان اجباری است که اینجا موجود نیست
+      این مورد باید اینجوری باشد: ‎%{should_be}
+    many: |
+      محتوای ‎"%{param}" یک آرگومان اجباری است که اینجا موجود نیست
+      این بایستی یکی از موارد زیر باشد:
+      - %{should_be}
+  bot_missing_permissions:
+    one: |
+      دستور ‎%{bot_ping} دسترسی موردنیاز زیر را برای اجرای این دستور ندارد:
+      %{permissions_missing}
+    many: |
+      دستور ‎%{bot_ping} دسترسی های موردنیاز زیر را برای اجرای این دستور ندارد:
+      %{permissions_missing}
+  user_missing_permissions:
+    one: |
+      شما دسترسی موردنیاز زیر را برای اجرای این دستور ندارید:
+      %{permissions_missing}
+    many: |
+      شما دسترسی های موردنیاز زیر را برای اجرای این دستور ندارید:
+      %{permissions_missing}
+  everyone_missing_permissions:
+    one: |
+      نقش ‎@everyone دسترسی موردنیاز زیر را برای اجرای این دستور ندارد:
+      %{permissions_missing}
+    many: |
+      نقش ‎@everyone دسترسی های موردنیاز زیر را برای اجرای این دستور ندارد:
+      %{permissions_missing}
+  message_not_found: |
+    پیام ‎"%{param}" یافت نشد.
+  channel_not_found: |
+    کانال ‎"%{channel}" یافت نشد.
+  channel_not_readable: |
+    دستور ‎%{bot_ping} دسترسی های موردنیاز زیر را در ‎%{channel} ندارد:
+    %{permissions_missing}
+  bad_argument:
+    one: |
+      نمی توان آرگومان ‎%{param} را تفسیر نمود; بایستی این باشد:
+    many: |
+      نمی توان آرگومان ‎%{param} را تفسیر نمود، بایستی باشد یکی از:
+  no_dms: |
+    این دستور را نمی توان در DM ها اجرا کرد
+  permissions_missing_reasons:
+    #These translations were designed to be short, and to fit on about 1 line on a mobile screen
+    guild: |-
+      %{user_ping}'s roles don't include it
+    member_overwrite: |-
+      Channel permissions explicitly deny %{user_ping}
+    role_overwrite:
+      one: |-
+        Channel permissions denied for the role: %{roles}
+      many: |-
+        Channel permissions denied for these roles: %{roles}
+    member_role_overwrite:
+      one: |-
+        Channel permissions explicitly deny %{user_ping} as well as role: %{roles}
+      many: |-
+        Channel permissions explicitly deny %{user_ping} as well as roles: %{roles}
