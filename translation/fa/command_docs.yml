@@ -96,37 +96,35 @@ command_docs:
     help: |
       Makes an emoji bigger
   mod-audit:
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
-
-      If both channel and members are to be unfiltered, use 'audit guild'
+      دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
+      اختیاری[Channel] -> فیلتر کردن ضبط سوابق فقط به این کانال
+      اختیاری[Member]-> فیلتر کردن ضبط سوابق فقط به این اعضاء
   mod-ban:
-    short_doc: Ban the user that posted a message
+    short_doc: بن کردن کاربری که یک پیام را فرستاده
     help: |
-      Ban the user that posted a message
+      بن کردن کاربری که یک پیام را فرستاده
   mod-edit_topic:
     short_doc: Add animated emojis to channel topics
     help: |
       Changes the channel description, allowing for animated emojis in them as well
   mod-kick:
-    short_doc: Kick the user that posted a message
+    short_doc: بیرون انداختن کاربری که یک پیام را فرستاده
     help: |
-      Kick the user that posted a message
+      بیرون انداختن کاربری که یک پیام را فرستاده
   mod-move:
-    short_doc: Move up to 20 of the most recent messages in this channel to another
+    short_doc: انتقال تا حداکثر 20 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
     help: |
-      Move up to 20 of the most recent messages in this channel to another
+      انتقال تا حداکثر 20 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
   mod-purge:
     short_doc: Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user
     help: |
       Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user
   mod:
-    short_doc: Moderation features for NQN
+    short_doc: ویژگی های مدیریتی و نظارتی NQN
     help: |
-      Moderation features for NQN
+      ویژگی های مدیریتی و نظارتی NQN
   move:
     short_doc: Move up to 20 of the most recent messages in this channel to another
     help: |
