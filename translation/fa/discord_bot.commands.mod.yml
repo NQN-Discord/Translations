@@ -36,7 +36,7 @@ discord_bot:
           many: '%{count} پیام به کانال %{to_channel} انتقال داده شد'
         moved_from:
           one: 'کاربر %{author}، به تعداد %{count} پیام را از کانال %{from_channel} منتقل کرد'
-          many: '%{author} moved %{count} messages from %{from_channel}'
+          many: 'کاربر %{author}، به تعداد %{count} پیام را از کانال %{from_channel} منتقل کرد'
         moved_to_from:
           one: 'کاربر %{author}، به تعداد %{count} پیام را از کانال %{from_channel} به کانال %{to_channel} منتقل کرد'
           many: 'کاربر %{author}، به تعداد %{count} پیام را از کانال %{from_channel} به کانال %{to_channel} منتقل کرد'
