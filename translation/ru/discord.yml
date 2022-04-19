@@ -14,7 +14,7 @@ discord:
       Моим префиксом является `%{prefix}`
       Поставьте реакцию ❌ (\:x:) чтобы удалить отправленные сообщения!
     user_ignored: |
-      You will be **IGNORED** when sending messages which would normally be reposted. To allow NQN to repost your messages, run:
+      Вы будете **ИГНОРИРОВАНЫ** при отправке сообщений, которые обычно репостятся. Чтобы разрешить NQN репостить ваши сообщения, выполните:
       > `%{prefix}ignore_me`
     categories: Категории
     everything_else: Всё остальное
