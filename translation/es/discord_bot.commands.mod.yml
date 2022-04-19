@@ -36,7 +36,7 @@ discord_bot:
           many: Se movieron %{count} mensajes a %{to_channel}
         moved_from:
           one: '%{author} movió %{count} mensaje de %{from_channel}'
-          many: '%{author} movió %{count} mensajes de %{from_channel}'
+          many: '%{author} moved %{count} messages from %{from_channel}'
         moved_to_from:
           one: '%{author} movió %{count} mensaje de %{from_channel} a %{to_channel}'
           many: '%{author} movió %{count} mensajes de %{from_channel} a %{to_channel}'
