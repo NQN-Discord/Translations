@@ -3,59 +3,59 @@ discord_bot:
   parameter_types:
     #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
     SearchTerms:
-      name: Search terms
+      name: Условия поиска
       description: |-
-        Search terms
+        Условия поиска
     Message:
-      name: Message
+      name: Сообщение
       description: |-
-        A Discord reply to the message you want to target
-        - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
-        - A message id in the current channel (`123456789`)
-        - ChannelID-MessageID pair (`123456789-123456789`)
-        - How many messages ago it was in current channel (`5` messages ago)
+        Ответ Discord на сообщение, на которое вы хотите нацелиться
+        - URL сообщения (`https://discord.com/channels/123456789/123456789/123456789`)
+        - Идентификатор сообщения в текущем канале (`123456789`)
+        - Пара ChannelID-MessageID (`123456789-123456789`)
+        - Сколько сообщений назад оно было в текущем канале (`5` сообщений назад)
     PartialEmoji:
-      name: Emoji
+      name: Эмодзи
       description: |-
-        A rendered Discord emoji or an emoji URL
+        Отображаемый эмодзи Discord или URL-адрес эмодзи
     TextChannel:
-      name: Text Channel
+      name: Текстовый канал
       description: |
-        A text channel mention
+        Упоминание текстового канала
     User:
-      name: User
+      name: Пользователь
       description: |
-        A user mention
+        Упоминание пользователя
     Role:
-      name: Role
+      name: Роль
       description: |
-        A role mention or name
+        Упоминание роли или имени
     NQNEmoji:
-      name: NQNEmoji
+      name: NQNЭмодзи
       description: |
-        An unrendered emoji NQN can transform
-        - A rendered Discord emoji or an emoji URL
+        Не преобразованный эмодзи NQN может трансформироваться
+        - Рендеринг эмодзи Discord или URL-адрес эмодзи
     None:
-      name: Empty
+      name: Пусто
       description: |
-        No argument
+        Нет аргументов
     str:
-      name: String
+      name: Строка
       description: |
-        Some text
+        Некоторый текст
     int:
-      name: Integer
+      name: Целое число
       description: |
-        A number
+        Число
     bool:
       name: Boolean
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
-      name: List
+      name: Список
       description: |-
-        At least
+        По крайней мере
     Union:
-      name: Union
+      name: Союз
       description: |-
-        One of the following:
+        Одно из следующих:
