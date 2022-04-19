@@ -36,7 +36,7 @@ discord_bot:
           many: '%{count}मैसेज को %{to_channel} में ले जाया गया'
         moved_from:
           one: '%{author} ने  %{count} मैसेज को  %{from_channel} से हटा दिया'
-          many: '%{author} moved %{count} messages from %{from_channel}'
+          many: '%{author} ने %{count} मैसेज को  %{from_channel} से हटा दिया'
         moved_to_from:
           one: '%{author} ने  %{count} मैसेज को  %{from_channel} से हटा कर  %{to_channel} मैं भेज दिया '
           many: '%{author} ने  %{count} मैसेज को  %{from_channel} से हटा कर  %{to_channel} मैं भेज दिया'
