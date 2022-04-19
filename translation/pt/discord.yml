@@ -12,6 +12,8 @@ discord:
     nqn_help: NQN Ajuda
     my_prefix: |
       Meu prefixo para comandos é `%{prefix}`
+    react_with_x_to_delete: |
+      React with ❌ (\:x:) to delete reposted messages!
     user_ignored: |
       Você será **IGNORADO** quando enviar mensagens que normalmente seriam
       repostadas. Para permitir que o NQN reposte suas mensagens, execute:
@@ -34,4 +36,3 @@ discord:
       O NQN também permite citação automática sempre que um usuário posta o link de uma mensagem ou usa urls camuflados no chat e figurinhas, que são emojis em tamanho real.
 
       Você pode me convidar [para o seu servidor](https://discord.com/api/oauth2/authorize?%{params}).
-react_with_x_to_delete: "Reaja com ❌ (\\:x:) para excluir mensagens reenviadas!"
