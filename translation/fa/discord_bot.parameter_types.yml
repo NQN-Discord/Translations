@@ -7,55 +7,55 @@ discord_bot:
       description: |-
         Search terms
     Message:
-      name: Message
+      name: پیام
       description: |-
-        A Discord reply to the message you want to target
-        - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
-        - A message id in the current channel (`123456789`)
-        - ChannelID-MessageID pair (`123456789-123456789`)
-        - How many messages ago it was in current channel (`5` messages ago)
+        یک پاسخ دیسکورد به پیامی که می خواهید به هدفتان بفرستید
+        - یک آدرس URL پیام (`https://discord.com/channels/123456789/123456789/123456789`)
+        - یک id از کانال فعالی (`123456789`)
+        - IDکانال-IDپیام سرهم (`123456789-123456789`)
+        - چقدر پیام قبل تر در کانال فعلی (`5` پیام قبل تر)
     PartialEmoji:
-      name: Emoji
+      name: ایموجی
       description: |-
-        A rendered Discord emoji or an emoji URL
+        یک ایموجی ظاهر شده دیسکورد یا آدرس URL یک ایموجی
     TextChannel:
-      name: Text Channel
+      name: کانال متنی
       description: |
-        A text channel mention
+        منشن یک کانال متنی
     User:
-      name: User
+      name: کاربر
       description: |
-        A user mention
+        منشن یک کاربر
     Role:
-      name: Role
+      name: نقش
       description: |
-        A role mention or name
+        منشن یا نام یک نقش
     NQNEmoji:
-      name: NQNEmoji
+      name: ایموجیNQN
       description: |
-        An unrendered emoji NQN can transform
-        - A rendered Discord emoji or an emoji URL
+        ایموجی ظاهر نشده‌ای از NQN که می تواند تبدیل شود
+        - یک ایموجی ظاهر شده یسکورد یا آدرس URL یک ایموجی
     None:
-      name: Empty
+      name: خالی
       description: |
-        No argument
+        بدون آرگومان
     str:
-      name: String
+      name: رشته
       description: |
-        Some text
+        مقداری متن نوشتنی
     int:
-      name: Integer
+      name: انتیجر
       description: |
-        A number
+        یک عدد
     bool:
-      name: Boolean
+      name: بولن
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
-      name: List
+      name: لیست
       description: |-
-        At least
+        حداقلش
     Union:
-      name: Union
+      name: متحد
       description: |-
-        One of the following:
+        یکی از موارد زیر:
