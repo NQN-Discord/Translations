@@ -12,6 +12,6 @@ discord_bot:
     no_messageless_posting: |
       A server administrator has disabled posting through the web dashboard and slash commands
     no_slowmode_posting: |
-      Posting messages in channels with a slowmode is not allowed
+      ارسال پیام به کانال هایی که slowmode دارند، مجاز نیست
     enable_posting: Enable Posting
     posted_message: Posted message
