@@ -12,6 +12,7 @@ discord:
     nqn_help: NQN Help
     my_prefix: |
       My prefix for commands is `%{prefix}`
+    react_with_x_to_delete: |
       React with ❌ (\:x:) to delete reposted messages!
     user_ignored: |
       You will be **IGNORED** when sending messages which would normally be reposted. To allow NQN to repost your messages, run:

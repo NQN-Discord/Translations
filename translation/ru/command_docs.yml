@@ -5,13 +5,13 @@ command_docs:
     help: |
       Хотите избавится от эмодзи? Используйте эту команду
   alias-delete_all:
-    short_doc: I don't like any of my aliases
+    short_doc: Мне не нравится ни один из моих псевдонимов
     help: |
-      Delete all of your aliases
+      Удалите все свои псевдонимы
   alias-dm:
-    short_doc: Get a full list of your aliases in DMs
+    short_doc: Получите полный список ваших псевдонимов в личных сообщениях
     help: |
-      Have the bot send you a list of your aliases in your DMs
+      Попросите бота отправить вам список ваших псевдонимов в личных сообщениях
   alias-export:
     short_doc: Экспорт ваших великолепных эмодзи
     help: |
@@ -86,9 +86,9 @@ command_docs:
     help: |
       Пригласит бота на ваш сервер!
   jumbo:
-    short_doc: Makes an emoji bigger
+    short_doc: Сделать эмодзи больше
     help: |
-      Makes an emoji bigger
+      Сделать эмодзи больше
   mod-audit:
     short_doc: Просмотр аудита сообщений
     help: |
@@ -129,7 +129,7 @@ command_docs:
       Переместит до 20 последних сообщений из этого канала в другой.
       Сейчас будет происходить магия
   mutuals:
-    short_doc: See the servers I share with you
+    short_doc: Посмотрите сервера, с которыми я делюсь с вами
     help: |
       Ничего
   my_emotes:

@@ -12,7 +12,8 @@ discord:
     nqn_help: NQN Hilfe
     my_prefix: |
       Mein Präfix für Befehle ist `%{prefix}`
-      Reagiere mit ❌ (\:x:) , um repostete Nachrichten zu löschen!
+    react_with_x_to_delete: |
+      Reagiere mit ❌ (\:x:) um repostete Nachrichten zu löschen!
     user_ignored: |
       You will be **IGNORED** when sending messages which would normally be reposted. To allow NQN to repost your messages, run:
       > `%{prefix}ignore_me`

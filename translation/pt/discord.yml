@@ -12,6 +12,7 @@ discord:
     nqn_help: NQN Ajuda
     my_prefix: |
       Meu prefixo para comandos é `%{prefix}`
+    react_with_x_to_delete: |
       Reaja com ❌ (\:x:) para excluir mensagens reenviadas!
     user_ignored: |
       Você será **IGNORADO** quando enviar mensagens que normalmente seriam

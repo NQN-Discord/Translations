@@ -12,6 +12,7 @@ discord:
     nqn_help: NQN Ayuda
     my_prefix: |
       Mi prefijo para comandos es `%{prefix}`
+    react_with_x_to_delete: |
       ¡Reacciona con ❌ (\:x:) para eliminar mensajes reenviados!
     user_ignored: |
       Seras **IGNORADO** cuando envíes mensajes que normalmente serian re-enviados por el bot. Para permitir que NQN re-envié tus mensajes, corre:

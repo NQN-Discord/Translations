@@ -4,22 +4,22 @@ global:
   author: Автор
   jump_to_message: Перейти
   go_to_message: Перейти на сообщение!
-  reply_to: 'Reply to:'
+  reply_to: 'Ответить на:'
   cancelled: Отменено
   website: Сайт
   details: Подробности
-  fix_permissions: Fix Permissions
-  success: Success
+  fix_permissions: Исправить разрешения
+  success: Успешно
   yes: Yes
   no: No
   dm_me: Написать в ЛС
-  next: Next
-  previous: Previous
+  next: Следующий
+  previous: Предыдущий
   learn:
     aliases: Learn more about aliases
     packs: Learn more about packs
-    my_emotes: Find emojis I can use
-    personas: Learn more about personas
+    my_emotes: Найти эмодзи, которые я могу использовать
+    personas: Узнайте больше о персонах
   missing_permissions: Отсутствуют права
   missing_add_reaction: Мне требуется право 'Добавлять реакции' (Add Reactions) для этой команды!
   missing_create_invite: Мне требуется право 'Создавать приглашения' (Create Instant Invite) для этой команды!
