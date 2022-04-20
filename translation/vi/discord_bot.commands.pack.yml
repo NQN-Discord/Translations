@@ -3,43 +3,43 @@ discord_bot:
   commands:
     pack:
       buttons:
-        add_to_everyone: Add to @everyone
-        join_pack: Join Pack
-        leave_pack: Leave Pack
-        join_server: Join Server
-        all: Save All
+        add_to_everyone: Thêm vào @everyone
+        join_pack: Tham gia gói
+        leave_pack: Rời gói
+        join_server: Tham gia server
+        all: Lưu tất cả
       join:
-        no_pack: '%{name} is not a registered emote pack'
-        already_joined: You are already joined to %{name}
+        no_pack: '%{name} không phải tên của một gói khả dụng'
+        already_joined: Bạn đã tham gia %{name}
         joined_pack: |
-          Joined %{name}.
-          You may now use the following emotes by typing its name into chat, including colons:
+          Đã tham gia %{name}.
+          Bây giờ bạn có thể dùng các biểu cảm sau bằng cách nhập tên của chúng trên khung trò chuyện, kèm theo cặp dấu hai chấm:
       leave:
-        no_pack: '%{name} is not a registered emote pack'
-        already_left: You weren't in %{name} anyway
-        left: Left %{name}
+        no_pack: '%{name} không phải tên của một gói khả dụng'
+        already_left: Bạn đang không có trong %{name}
+        left: Đã rời %{name}
       meta:
-        needs_publishing: You cannot do this without first publishing this server as an emote pack.
+        needs_publishing: Bạn chưa thể làm việc đó trước khi công khai server của bạn là một gói biểu cảm.
       mine:
-        no_packs: You don't have any packs!
+        no_packs: Bạn đang không có gói nào!
       publish:
-        already_published: This server is already published as a pack!
-        already_exists: An emote pack called %{name} already exists
-        published: Published emote pack %{name}. Anyone is able to save these emotes to their own server, and you assert that you are the owner of these emotes. To undo this, run `%{prefix}pack unpublish`.
+        already_published: Server này đã được công khai là một gói biểu cảm!
+        already_exists: Đã có một gói biểu cảm mang tên %{name}
+        published: Đã công khai gói biểu cảm %{name}. Mọi người có thể lưu những biểu cảm này về server của họ, và bạn khẳng định rằng mình là chủ sở hữu những biểu cảm đó. Không muốn công khai? Dùng `%{prefix}pack unpublish`.
         pack_published: |
-          To gain access to all these emotes, run
+          Để có thể dùng những biểu cảm này, dùng
           >>> !pack join %{name}
       rename:
-        already_exists: An emote pack called %{name} already exists
-        not_published: This server was not published before.
-        renamed: Renamed %{old} to %{new}
+        already_exists: Đã có một gói biểu cảm mang tên %{name}
+        not_published: Server này chưa được công khai trước đây.
+        renamed: Đã đổi tên %{old} thành %{new}
       save:
-        none_left: After filtering out emotes with the same name as ones in this server, there were none left to import!
-        no_space: There's no space in this server to add any of the emotes in this pack.
+        none_left: Sau khi đã lọc hết các biểu cảm có cùng tên trong server, không còn biểu cảm nào được tìm thấy để nhập!
+        no_space: Server này không còn chỗ trống để thêm bất kì biểu cảm nào từ gói này.
         failed_batch: |
-          Discord only allows bots to upload 50 emotes per hour.
-          NQN wasn't able to upload all the emotes in this batch, but you can run this command again in an hour to upload the rest
-        not_registered: '%{name} is not a registered emote pack'
+          Dsicord giới hạn bot chỉ có thể tải lên 50 biểu cảm trong một giờ.
+          NQN không thể tải lên tất cả biểu cảm trong gói này, nhưng bạn vẫn có thể dùng lệnh này sau một giờ để tải lên số còn lại
+        not_registered: '%{name} không phải tên của một gói khả dụng'
         upload_question: "Upload these emotes to this server?\n If you are not the owner of all of these emoji, choose N."
         uploaded:
           one: Uploaded %{count} emote
