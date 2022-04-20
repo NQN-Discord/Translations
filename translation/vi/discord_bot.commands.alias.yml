@@ -8,7 +8,7 @@ discord_bot:
       max_length: Tên thay thế không nên dài hơn 32 kí tự
       user_zero: Bạn chưa có tên thay thế nào
       from_message:
-        no_emotes: Tin nhắn này không có emoji nào trong đó cả!
+        no_emotes: Tin nhắn này không có biểu cảm nào trong đó cả!
       delete:
         deleted: 'Xóa \:%{name}:'
       delete_all:
@@ -43,11 +43,11 @@ discord_bot:
       dm:
         send_dms:
           zero: |
-            You have no aliases!
-            Get some with `%{prefix}alias search`
+            Bạn chưa có tên thay thế nào!
+            Thêm một số với lệnh `%{prefix}alias search`
           one: |
-            This will send you a direct message; do you wish to continue?
+            Bạn sẽ nhận tin nhắn trực tiếp từ bot; bạn có muốn tiếp tục?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            Bạn sẽ nhận %{count} tin nhắn trực tiếp từ bot; bạn có muốn tiếp tục?
         blocked: |-
-          You've blocked me, I can't message you!
+          Hãy kiểm tra cài đặt riêng tư vì tôi không thể gửi tin nhắn trực tiếp cho bạn!
