@@ -1,31 +1,31 @@
 ---
 discord:
   ext.commands.help:
-    need_emojis: ' - I need this to use emojis!'
-    need_everyone_external: ' - @everyone needs this for me to use emojis!'
-    need_help: ' - I need this for the help command!'
+    need_emojis: ' - Tôi cần quyền này để dùng emoji!'
+    need_everyone_external: ' - Vai trò @everyone cần quyền này để tôi có thể dùng emoji!'
+    need_help: ' - Tôi cần quyền này để thực hiện lệnh "help"!'
     nothing: ''
-    choose_page: Browse Commands
-    please_give: I won't function correctly without these!
+    choose_page: Tìm kiếm lệnh
+    please_give: Tôi không thể hoạt động chính xác nếu thiếu những quyền này!
     fix_perms: |
-      - **[Fix Server Permissions](%{invite_url})**
+      - **[Chỉnh sửa quyền trong server](%{invite_url})**
     nqn_help: NQN Help
     my_prefix: |
-      My prefix for commands is `%{prefix}`
+      Prefix của tôi trong server này là `%{prefix}`
     react_with_x_to_delete: |
-      React with ❌ (\:x:) to delete reposted messages!
+      Phản hồi với ❌ (\:x:) để xóa tin nhắn vừa được thay thế!
     user_ignored: |
-      You will be **IGNORED** when sending messages which would normally be reposted. To allow NQN to repost your messages, run:
+      Tin nhắn của bạn sẽ bị **BỎ QUA** khi bạn gửi tin mà thông thường chúng phải được thay thế. Để cho phép NQN tiếp tục thay thế tin nhắn của bạn, dùng:
       > `%{prefix}ignore_me`
-    categories: Categories
-    everything_else: Everything else
-    really_useful: Really Useful Commands
-    useful_links: 'Useful links:'
-    website: Website
+    categories: Danh mục
+    everything_else: Những thứ khác
+    really_useful: Những lệnh cực hữu dụng
+    useful_links: 'Các đường dẫn hữu dụng:'
+    website: Trang web
     vote: Vote!
-    support: Support
-    emote_list: My Emotes
-    top_gg_vote: Voting for me at [top.gg](https://top.gg/bot/559426966151757824/vote) makes the bot better by increasing our visibility and allowing more emotes when we join a server.
+    support: Hỗ trợ
+    emote_list: Emoji của tôi
+    top_gg_vote: Vote cho tôi trên [top.gg](https://top.gg/bot/559426966151757824/vote) để giúp chúng tôi tiếp cận được nhiều người dùng hơn, đồng thời làm tăng sự phong phú về số lượng emoji khi tôi tham gia server mới.
     bfd_vote: Giving me an upvote at [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) helps out our visibility. With every new server I join, my emote database gets larger.
     what_is: What is Not Quite Nitro?
     bot_description: |
