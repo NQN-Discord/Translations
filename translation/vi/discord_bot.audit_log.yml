@@ -1,19 +1,19 @@
 ---
 discord_bot:
   audit_log:
-    cropped: (Cropped)
+    cropped: (Đã cắt xén)
     nsfw_censored: <Censored; %{channel} is NSFW>
     message_posted: |
-      Message posted in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      Tin nhắn được gửi trong %{channel} bởi %{author} %{cropped}
+      [Đến tin nhắn](%{jump_url})
     message_posted_persona: |
-      Message posted in %{channel} by %{author} %{cropped}
-      ⚠️ Using Persona ⚠️
+      Tin nhắn được gửi trong %{channel} bởi %{author} %{cropped}
+      ⚠️ Sử dụng danh tính⚠️
       > **%{persona}**
-      [Jump Link](%{jump_url})
+      [Đến tin nhắn](%{jump_url})
     message_edited: |
-      Message edited in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      Tin nhắn được chỉnh sửa trong %{channel} bởi %{author} %{cropped}
+      [Đến tin nhắn](%{jump_url})
     phish_deleted: |
-      Deleted phishing message in %{channel} by %{author}
-    audit_log_post: NQN on behalf of %{author} (%{id})
+      Đã xóa tin nhắn lừa đảo trong %{channel} bởi %{author}
+    audit_log_post: NQN thay mặt %{author} (%{id})
