@@ -3,48 +3,48 @@ discord_bot:
   commands:
     raw:
       buttons:
-        commands: Commands
-        tutorial: Tutorial
-        my_emotes: My Emotes
+        commands: Lệnh
+        tutorial: Hướng dẫn
+        my_emotes: Biểu cảm của tôi
       depreciated_commands:
         renamed: |
-          This command has been renamed to `%{prefix}%{new}`.
-          If you don't want to see this message again, react with ❌
-        ignored: Ignored `%{name}` for you.
+          Lệnh này đã được đổi thành `%{prefix}%{new}`.
+          Nếu bạn không muốn thấy tin nhắn này nữa, phản ứng với ❌
+        ignored: Đã bỏ qua `%{name}` cho bạn.
       edit:
-        never_posted: You've never posted a message with NQN in this channel!
+        never_posted: Bạn chưa từng có tin nhắn nào được gửi bởi NQN trong kênh này!
         message_deleted: |
-          Your most recent message with NQN in this channel has been deleted!
-          Please choose a message either by replying to it with Discord, or by pasting it's jump URL
-        cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
-        cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
-        edit_message: Edit Message
-        new_content: 'New Content:'
+          Đã xóa tin nhắn gần nhất của bạn được gửi bởi NQN trong kênh này!
+          Vui lòng chọn một tin nhắn bằng cách trả lời nó, hoặc dùng đường dẫn đến tin nhắn
+        cannot_edit_no_nqn: Bạn không thể nhắm đến tin nhắn này vì nó không phải được gửi bởi NQN!
+        cannot_edit_different_user: Bạn không thể nhắm đến tin nhắn này vì nó không phải được gửi bởi bạn!
+        edit_message: Chỉnh sửa tin nhắn
+        new_content: 'Nội dung mới:'
       delete:
-        deleted: Message successfully deleted
+        deleted: Đã xóa tin nhắn thành công
       export:
-        exported_list_short: "Here's your exported emotes:"
+        exported_list_short: "Đây là những biểu cảm đã xuất của bạn:"
         exported_list_long: |
-          Here's your exported emotes
-          To share them with other people, they need to run:
+          Đây là những biểu cảm đã xuất của bạn
+          Để chia sẻ chúng cho người khác, họ sẽ cần phải dùng:
           > `%{prefix}alias import %{url}`
       ignore_me:
-        user_ignored: NQN will no longer repost your messages. Run this command again to re-enable
-        user_unignored: NQN will repost your messages as normal
+        user_ignored: NQN sẽ không thay thế tin nhắn của bạn nữa. Dùng lệnh này lại để cho phép bot thay tin nhắn của bạn
+        user_unignored: NQN sẽ tiếp tục thay thế tin nhắn của bạn như cũ
       invite:
-        add_nqn: Add NQN to your server!
+        add_nqn: Thêm NQN vào server của bạn!
       my_emotes:
-        current_guild: Current Server
-        mutual_guilds: Mutual Servers
-        aliases: Aliases
-        packs: Packs
+        current_guild: Server hiện tại
+        mutual_guilds: Server chung
+        aliases: Tên thay thế
+        packs: Gói biểu cảm
         no_mutual_guilds: |
-          NQN allows you to use any emoji from our mutual servers in this server.
-          Currently, you do not have any mutual servers with NQN, aside from this one.
+          NQN cho phép bạn dùng bất kì biểu cảm nào từ bất kì server chung nào trong server này.
+          Hiện tại, bạn không có server chung nào có NQN ngoài server này.
 
-          If you want, you can [invite NQN to another server](%{bot_invite}) to gain access to it's emojis here.
+          Nếu muốn, bãn có thể [mời NQN vào server khác](%{bot_invite}) để có thể dùng biểu cảm đó trong này.
       ranking:
-        vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
+        vote_link: Bạn có thể vote cho bot tại %{url} để có thể thêm nhiều biểu cảm dùng trong server và nâng cấp bậc của server.
         top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
         thanks: Thanks for voting for the bot!
         ranking: |
