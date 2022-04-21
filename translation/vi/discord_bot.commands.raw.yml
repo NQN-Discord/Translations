@@ -45,50 +45,50 @@ discord_bot:
           Nếu muốn, bãn có thể [mời NQN vào server khác](%{bot_invite}) để có thể dùng biểu cảm đó trong này.
       ranking:
         vote_link: Bạn có thể vote cho bot tại %{url} để có thể thêm nhiều biểu cảm dùng trong server và nâng cấp bậc của server.
-        top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
-        thanks: Thanks for voting for the bot!
+        top_server: Chúc mừng vì đã đặt được danh hiệu server hỗ trợ nhiều nhất <a:BluePat:679807864327766048>
+        thanks: Cảm ơn vì đã vote cho bot!
         ranking: |
-          %{guild} is ranked #%{rank} out of all the servers using NQN.
+          %{guild} đang ở hạng thứ #%{rank} trong tổng số server đang dùng NQN.
 
           %{rank_leaderboard}
-          You have voted %{total_votes} times for NQN. %{thanks}
+          Bạn đã vote %{total_votes} lần cho NQN. %{thanks}
 
           %{user_ranking}
 
           %{extra_message}
       search_all:
         disclaimer: |
-          This command does not allow you to use these emotes!
-          It's provided to allow an easy search through the ones available to be added with
+          Lệnh này không cho phép bạn sử dụng những biểu cảm đó!
+          Nó được cung cấp để cho phép bạn tìm những biểu cảm có thể thêm một cách dễ dàng
           > `%{prefix}alias search %{terms} page: %{page_no}`
       tutorial:
-        choose_page: Browse Tutorial
-        invalid_page: There are only %{count} pages in the tutorial!
-        permissions_missing: I need to be able to write embeds and add reactions to show my tutorial. It can be reran with `%{prefix}tutorial`.
-        wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
-        default_emojis: Default Emojis
-        default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
-        page_0_title: Tutorial for Not Quite Nitro, TLDR
+        choose_page: Hướng dẫn tìm kiếm
+        invalid_page: Chỉ có %{count} trang trong hướng dẫn!
+        permissions_missing: Tôi cần quyền để tạo embed và thêm biểu cảm để thể hiện hướng dẫn của tôi. Bạn có thể dùng lại `%{prefix}tutorial`.
+        wrong_place: Nếu tôi gửi tin nhắn này ở chỗ không hợp lí thì bạn có thể dùng %{prefix}tutorial ở một kênh thuận tiện hơn để xem hết hướng dẫn ở đấy. Hướng dẫn này có nhiều trang; dùng %{prefix}tutorial để hiện lại hướng dẫn nếu chúng biến mất.
+        default_emojis: Biểu cảm mặc định
+        default_emoji_list: "Đây là danh sách các biểu cảm động mà ai trong server này đều có thể dùng - chỉ cần nhập đầy đủ tên của chúng, và nhớ kèm theo :colons: xung quanh tên của biêu cảm!"
+        page_0_title: Hướng dẫn dùng Not Quite Nitro, dành cho người lười
         page_0_desc: |
-          %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
+          %{locale_flag_emojis} **Tùy chỉnh ngôn ngữ** %{locale_flag_emojis}
           > `%{prefix}server language`
-        page_0_0_name: More Emotes?
+        page_0_0_name: Thêm biểu cảm?
         page_0_0_desc: |
-          Everyone is able to use any emote that shares a server with both you and this bot.
-          **There are several other ways to use emotes in servers you are not in:**
-        page_0_1_name: "3\u20E3 Emote packs - Emote Bundles"
+          Mọi người đều có thể dùng bất kì biểu cảm nào có trong server chung với bạn và bot.
+          **Cũng có những cách khác để dùng biểu cảm từ server mà bạn không tham gia:**
+        page_0_1_name: "3\u20E3 Gói biểu cảm - Bao biểu cảm"
         page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Aliases - Individual Emotes"
-        page_0_2_desc: '> `%{prefix}alias search EmoteName`'
-        page_1_title: Reactions
-        page_1_desc: You can only react with emotes you can use with NQN.
-        page_1_0_name: 'Reacting to the most recent message:'
-        page_1_0_desc: '> `%{prefix}react EmoteName`'
-        page_1_1_name: 'Reacting to a message in the same channel:'
-        page_1_1_desc: '> `%{prefix}react EmoteName` (Whilst replying to the target message)'
-        page_1_2_name: 'Reacting to recent messages:'
-        page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nThis only works up to 20 messages ago."
-        page_1_3_name: 'Reacting to messages:'
+        page_0_2_name: "4\u20E3 Tên thay thế - Tách biệt từng biểu cảm"
+        page_0_2_desc: '> `%{prefix}alias search TênBiểuCảm`'
+        page_1_title: Thêm cảm xúc
+        page_1_desc: Bạn có thể thêm cảm xúc cho tin nhắn với những biểu cảm bạn có thể dùng với NQN.
+        page_1_0_name: 'Bày tỏ cảm xúc với tin nhắn gần nhất:'
+        page_1_0_desc: '> `%{prefix}react TênBiểuCảm`'
+        page_1_1_name: 'Bày tỏ cảm xúc với tin nhắn trong cùng kênh:'
+        page_1_1_desc: '> `%{prefix}react TênBiểuCảm` (trong khi đang trả lời tin nhắn đó)'
+        page_1_2_name: 'Bày tỏ cảm xúc với tin nhắn gần đó:'
+        page_1_2_desc: "> `%{prefix}react MessagesAgo TênBiểuCảm`\nLệnh này chỉ hoạt động trong tầm 20 tin nhắn về trước."
+        page_1_3_name: 'Bày tỏ cảm xúc với tin nhắn:'
         page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
         page_1_4_name: Deleting messages
         page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
@@ -258,20 +258,20 @@ discord_bot:
           one: Adding %{count} reaction; remember to react yourself for them to stay!
           many: Adding %{count} reactions; remember to react yourself for them to stay!
         blocked: '%{author} has blocked me, so I cannot add that reaction!'
-        on_behalf: NQN on behalf of %{author} (%{author_id})
-        audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
+        on_behalf: NQN thay danh %{author} (%{author_id})
+        audit_message: "%{author} đã bày tỏ cảm xúc với [tin nhắn](<%{jump_url}>) trong %{channel} với những biểu cảm sau:\n"
       info:
         shard_data: |
-          > No. shards: %{shard_count} (%{shards_down} down)
-          > Average latency: %{average_latency}ms
-          > Current shard: %{current_shard}
-          > Current shard latency: %{current_latency}ms
+          > số lượng shard: %{shard_count} (chết %{shards_down})
+          > Độ trễ trung bình: %{average_latency}ms
+          > Shard hiện tại: %{current_shard}
+          > Độ trễ của shard: %{current_latency}ms
         process_data: |
-          > RAM usage: %{ram_usage}
-          > CPU usage: %{cpu_usage}%
-          > Network:
-          > - Sent: %{network_send}
-          > - Received: %{network_recv}
+          > Mức sử dụng RAM: %{ram_usage}
+          > Mức sử dụng CPU: %{cpu_usage}%
+          > Kết nối mạng:
+          > - Gửi đi: %{network_send}
+          > - Nhận về: %{network_recv}
         elasticsearch_metadata: |
           > RAM usage: %{ram_usage}
           > Disk space: %{disk_use}
