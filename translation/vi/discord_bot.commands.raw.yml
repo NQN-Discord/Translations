@@ -273,65 +273,63 @@ discord_bot:
           > - Gửi đi: %{network_send}
           > - Nhận về: %{network_recv}
         elasticsearch_metadata: |
-          > RAM usage: %{ram_usage}
-          > Disk space: %{disk_use}
-          > Network total: %{bytes_sent}
+          > Mức sử dụng RAM: %{ram_usage}
+          > Kích thước đĩa cứng: %{disk_use}
+          > Tổng đường truyền mạng: %{bytes_sent}
         description: |
-          Author: %{owner}
-          Application name: %{app_name}
-          Help command: `%{prefix}help`
+          Tác giả: %{owner}
+          Tên ứng dụng: %{app_name}
+          Lệnh trợ giúp: `%{prefix}help`
         bot_metadata: |
-          > Uptime: %{uptime}
-          > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
-          > Servers Loaded: %{guilds_loaded} / %{guilds}
+          > Thời gian hoạt động: %{uptime}
+          > Server chứa biểu cảm: %{alias_servers_available} / %{alias_servers_total}
+          > Server đã được tải: %{guilds_loaded} / %{guilds}
         guild_features:
           zero: ''
           one: |
-            > Server Feature: %{guild_features}
+            > Tính năng server: %{guild_features}
           many: |
-            > Server Features: %{guild_features}
+            > Tính năng server: %{guild_features}
         bot_credits: |
-          [Bot avatar and Wumpus art by Dooley](<https://www.dooleytm.com>) from [Wump Motes](https://discord.gg/pEjCBNF)
+          [Ảnh hồ sơ của bot và tranh vẽ Wumpus bởi Dooley](<https://www.dooleytm.com>) từ [Wump Motes](https://discord.gg/pEjCBNF)
 
-          __Special thanks to the following people:__
+          __Chân thành cảm ơn đến những người sau:__
           > <:OriLove:726475603879919616> OrionVi
           > <:bean:884394196415442985> Ben
           > <:AetherSmile:726474477956759553> Aether Wake
-
-          __Translation Credits:__
-        es: 'Spanish:'
+        es: 'Tiếng Tây Ban Nha:'
         es_people: |
           > <:OriLove:726475603879919616> OrionVi
           > <:AetherSmile:726474477956759553> Aether Wake
-        ru: 'Russian:'
+        ru: 'Tiếng Nga:'
         ru_people: |
           > <:drink:741041666705588255> Трокс
           > <:DorZ23:864861706169483329> DorZ23
-        pt: 'Portuguese:'
+        pt: 'Tiếng Bồ Đào Nha:'
         pt_people: |
           > <:KingKiller:800410618074628146> KingKiller
           > <:gil:873518552295014420> Gil
-        it: 'Italian:'
+        it: 'Tiếng Ý:'
         it_people: |
           > 👤 RVG|𝓵𝓸𝓻𝔂
-        bot_stats: Discord Bot Statistics
-        shard_info_name: Shard Info
-        process_data_name: Bot process data
-        elasticsearch_data_name: Elasticsearch data
-        package_info_name: Package info
-        bot_metadata_name: Bot Metadata
-        credits: Credits
-        author: Author
-        bot_latency: '> API/Bot Latency: %{bot_latency}ms'
-        help_command: 'Help command: `%{prefix}help`'
+        bot_stats: Thông tin số liệu của bot
+        shard_info_name: Thông tin shard
+        process_data_name: Dữ liệu xử lý của bot
+        elasticsearch_data_name: Dữ liệu phản hồi của bot
+        package_info_name: Thông tin hệ thống
+        bot_metadata_name: Thông tin bot
+        credits: Credit
+        author: Tác giả
+        bot_latency: '> Độ trễ của API/bot: %{bot_latency}ms'
+        help_command: 'Lệnh trợ giúp: `%{prefix}help`'
       upload_emote:
-        own_emojis_dont_ask_again: Yes; I own these
-        alphanumeric: ' - Must be alphanumeric with underscores'
-        size: ' - Must be between 1 and 32 characters long'
-        filesize: ' - Must be less than 256KB'
-        image: ' - Must be an image'
-        bad_name: "The name of the emote is incorrect:\n"
-        bad_attachment: "The attached emote is not valid:\n"
+        own_emojis_dont_ask_again: Đúng vậy; tôi sỡ hữu chúng
+        alphanumeric: ' - Phải là chữ cái và số với dấu gạch dưới'
+        size: ' - Phải dài từ 1 đến 32 kí tự'
+        filesize: ' - Phải nhỏ hơn 256Kb'
+        image: ' - Phải là một hình ảnh'
+        bad_name: "Sai tên của biểu cảm:\n"
+        bad_attachment: "Biểu cảm được đính kèm không hợp lệ:\n"
         more_animated_needed: This server will have reached its limit for animated emotes, as it requires %{size}. Delete %{delete} and try again
         more_static_needed: This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again
         too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
