@@ -89,25 +89,25 @@ discord_bot:
         page_1_2_name: 'Bày tỏ cảm xúc với tin nhắn gần đó:'
         page_1_2_desc: "> `%{prefix}react MessagesAgo TênBiểuCảm`\nLệnh này chỉ hoạt động trong tầm 20 tin nhắn về trước."
         page_1_3_name: 'Bày tỏ cảm xúc với tin nhắn:'
-        page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
-        page_1_4_name: Deleting messages
-        page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
-        page_2_title: Packs
+        page_1_3_desc: '> `%{prefix}react URLTinNhắn TênBiểuCảm`'
+        page_1_4_name: Xóa tin nhắn
+        page_1_4_desc: "Bày tỏ biểu cảm lên tin nhắn được gửi thay danh bạn bằng \u274C (\\:x:) để xóa nó."
+        page_2_title: Gói biểu cảm
         page_2_desc: |
-          A pack is a bundle of emojis. After joining a pack, you gain access to the emojis it has.
-        page_2_0_name: Joining emote packs
+          Một gói biểu cảm bao gồm nhiều biểu cảm. Sau khi tham gia một gói, bạn sẽ có thể dùng các biểu cảm có trong đó.
+        page_2_0_name: Tham gia gói biểu cảm
         page_2_0_desc: |
-          To search for emote packs, use `%{prefix}pack search`, optionally with a search query, such as `%{prefix}pack search dragon`.
-        page_2_1_name: Finding the emote packs you're in
+          Để tìm các gói biểu cảm, dùng `%{prefix}pack search`, có thể thêm tên để tìm, ví dụ như `%{prefix}pack search dragon`.
+        page_2_1_name: Tìm các gói biểu cảm mà bạn đã tham gia
         page_2_1_desc: |
           > `%{prefix}pack mine`
-          This command shows you a list of emote packs you're currently a member of, including the names of the emotes in each pack.
-        page_2_2_name: Publishing your own packs
+          Lệnh này sẽ hiển thị danh sách các gói biểu cảm mà bạn đã tham gia, bao gồm cả tên biểu cảm trong mỗi gói.
+        page_2_2_name: Công khai gói biểu cảm của bạn
         page_2_2_desc: |
-          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emote packs:
-          > `%{prefix}pack publish MySuperCoolEmotePackName`
-          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
-        page_3_title: Aliases
+          Nếu bạn có quyền **quản lý server**, bạn có thể công khai gói biểu cảm của riêng bạn bao gồm các biểu cảm có trong server:
+          > `%{prefix}pack publish TênGóiBiểuCảmCăngĐét`
+          Bạn cũng có thể công khai gói cho mọi người có thể tham gia bằng lệnh `%{prefix}pack set_public yes` để ai cũng có thể tham gia gói của bạn với bot mà không cần phải ở trong server của bạn.
+        page_3_title: Tên thay thế
         page_3_desc: |
           Aliases are just individual emotes which you give a name, and are then usable via that name.
 
