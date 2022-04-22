@@ -182,22 +182,22 @@ discord_bot:
           NQN **sẽ luôn** nghe theo ping cho dù bạn có cài đặt thế nào đi nữa.
         page_8_2_name: Lưu vết tin nhắn
         page_8_2_desc: |
-          NQN keeps a log of messages it reposts, as the original message gets removed.
-          This is in case that someone changes their name and avatar before posting an offensive message, or otherwise misbehaves using the bot.
+          NQN sẽ liên tục ghi lại các tin nhắn mà nó đã thay thế với tin nhắn của người dùng.
+          Việc này nhằm trường hợp ai đó đổi tên và ảnh hồ sơ trước khi gửi một tin nhắn mang tính xúc phạm, hoặc cư xử không đúng thông qua bot.
 
-          To get the audited messages for the server, use `%{prefix}audit guild` or [visit our website](%{url}), select your server and then click on the cog at the top.
+          Để cho bot lưu vết tin nhắn cho server, dùng `%{prefix}audit guild` hay [đi đến trang web của chúng tôi](%{url}), chọn server của bạn và nhấp vào biểu tượng bánh răng ở phía trên bên trái.
 
-          Only users with **Manage Server** and **View Audit Log** can view the logged messages.
+          Chỉ người dùng có quyền **Quản lý server** và **Xem nhật ký chỉnh sửa** mới có thể xem các tin nhắn đã lưu vết.
 
-          An alternate approach which stays inside Discord is the Audit Channel, which can be set with `%{prefix}server set_audit_channel #channel`.
-          Any resent messages will be posted there with their current username, discriminator and user id.
-        page_8_3_name: 'Permissions:'
+          Một cách khác có thể làm ngay trong Discord là tạo kênh lưu vết, sau đó đặt với lệnh `%{prefix}server set_audit_channel #kênh`.
+          Mọi tin nhắn được thay thế sẽ được lưu lại trong kênh đó với tên người dùng kèm số phân biệt và id người dùng.
+        page_8_3_name: 'Quyền hạn:'
         page_8_3_desc: |
-          NQN requires the 'Manage Webhooks' server permission to correctly function; reposting messages will not work without this.
+          NQN cần có quyền 'Quản lý Webhook' trong server để có thể hoạt động bình thường; việc thay thế tin nhắn sẽ không khả thi khi thiếu quyền này.
 
-           • To disable commands from working in a specific channel, deny NQN 'Send Message' permissions there via user permissions.
-           • To disable reposting messages in a specific channel, deny NQN 'Manage Webhook' permissions there via user permissions.
-           • To disable all interactions in a specific channel, deny NQN 'Read Message' permissions there via user permissions.
+           • Để vô hiệu hóa lệnh của NQN trong một kênh bất kì, chặn quyền 'Gửi tin nhắn' của bot thông qua chỉnh sửa quyền hạn trong kênh.
+           • Để chặn việc NQN thay thế tin nhắn trong một kênh, chặn quyền 'Quản lý Webhook' của bot thông qua chỉnh sửa quyền hạn trong kênh.
+           • Để chặn mọi hoạt động của NQN trong một kênh, chặn quyền 'Xem kênh' của bot thông qua chỉnh sửa quyền hạn trong kênh.
         page_8_4_name: 'Information Gathering:'
         page_8_4_desc: |
           NQN stores reposted messages such that users can delete them and for the audit log.
