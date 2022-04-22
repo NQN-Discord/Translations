@@ -109,46 +109,46 @@ discord_bot:
           Bạn cũng có thể công khai gói cho mọi người có thể tham gia bằng lệnh `%{prefix}pack set_public yes` để ai cũng có thể tham gia gói của bạn với bot mà không cần phải ở trong server của bạn.
         page_3_title: Tên thay thế
         page_3_desc: |
-          Aliases are just individual emotes which you give a name, and are then usable via that name.
+          Tên thay thế bản chất chỉ là tên khác của những biểu cảm mà bạn cho, và chúng có thể được dùng với những cái tên đó.
 
-          If you know the exact name of the emote you want to add:
+          Nếu bạn biết chính xác tên của một biểu cảm mà bạn muốn thêm:
           > `%{prefix}alias search :EmoteName:`
 
-          If you want to look through every emote NQN can let you use:
-          > `%{prefix}alias search whatever` (No colons if you don't know the exact name)
-        page_4_title: Replies
+          Nếu bạn muốn xem qua các biểu cảm mà bạn có thể dùng qua NQN:
+          > `%{prefix}alias search GiCungDuoc` (Không cần dấu hai chấm nếu bạn không nhớ rõ tên)
+        page_4_title: Trả lời
         page_4_desc: |
-          NQN allows you to reply to messages sent long ago.
+          NQN cho phép bạn trả lời tin nhắn từ rất lâu về trước.
 
-          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're replying to as well.
+          Chỉ cần sao chép đường dẫn đến tin nhắn đó (trên di động là nút chia sẻ - sao chép) rồi dán nó vào tin nhắn của bạn, và bot sẽ thay thế tin nhắn của bạn kèm theo tin nhắn được dẫn đến.
 
-          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+          Nếu bạn không muốn bot thay thế tin nhắn của bạn, chỉ cần bao quanh đường dẫn đó bằng cặp ngoặc \<\>.
 
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server replies off`.
-        page_5_title: Masked URLs
+          Nếu một quản lý trong server muốn vơ hiệu hóa tính năng này, họ có thể dùng `%{prefix}server replies off`.
+        page_5_title: URL đã che
         page_5_desc: |
-          NQN allows users to send [Masked URLs](%{url}) as part of their regular messages.
+          NQN cho phép người dùng gửi tin nhắn [với URL đã che](%{url}) ngay trong tin nhắn của họ.
 
-          This uses standard markup, `[text to show](https://url.here)`.
-          To send messages with buttons, use `[button title](button://url.here)`
-        page_6_title: Stickers
+          Tính năng này sử dụng các thức thông dụng, `[văn bản hiển thị](https://url.tai.day)`.
+          Để gửi tin nhắn có kèm theo nút, dùng `[tiêu đề nút](button://url.tai.day)`.
+        page_6_title: Nhãn dán
         page_6_desc: |
-          If you've ever wanted to send large images/stickers/emotes, you've come to the right place.
+          Nếu bạn từng muốn gửi ảnh/nhãn dán/biểu cảm lớn thì bạn tìm đến đúng nơi rồi đấy.
 
-          Inspired by Telegram, NQN brings stickers to Discord.
-          You can use them as you would an emote, except stickers have a file extension at the end.
+          Lấy cảm hứng từ Telegram, NQN mang nhãn dán đến với Discord.
+          Bạn có thể dùng chúng như biểu cảm, ngoại trừ nhãn dán có thêm định dạng tệp ở cuối tên.
 
-          Each message can contain up to 10 stickers.
+          Mỗi tin nhắn có thể chứa lên đến 10 nhãn dán.
 
-          You can create stickers with `%{prefix}sticker create` and upload an image file or by importing from Telegram.
-          This is done with `%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here`.
+          Bạn có thể tạo nhãn dán với lệnh `%{prefix}sticker create` và tải lên một hình ảnh hoặc tải lên từ Telegram.
+          Nó có thể được thực hiện bằng lệnh `%{prefix}sticker telegram https://t.me/addstickers/goi-nhan-dan`.
 
-          To search through stickers you can use with NQN, use `%{prefix}sticker search` with a optional search terms.
+          Để tìm kiếm nhãn dán bạn có thể dùng với NQN, dùng `%{prefix}sticker search` với từ khóa tùy ý.
 
-          To view your stickers, use `%{prefix}stickers mine`.
+          Để xem các nhãn dán của bạn, dùng `%{prefix}sticker mine`.
 
-          Note - to use Telegram stickers, you must first import them to the bot. The bot does not do this automatically.
-        page_7_title: Personas
+          Lưu ý - để dùng nhãn dán từ Telegram, bạn phải tải chúng lên cho bot trước. Bot sẽ không tự động làm việc này.
+        page_7_title: Danh tính ảo
         page_7_desc: |
           Personas allow anyone in your server to assume a given username and avatar distinct from their own.
           In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
