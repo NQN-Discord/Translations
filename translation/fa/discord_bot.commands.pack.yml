@@ -53,18 +53,18 @@ discord_bot:
       show:
         not_registered: 'بسته شکلک ‎%{name} یک بسته به ثبت رسیده نیست'
         pack_empty: این بسته هیچ شکلکی داخلش وجود ندارد!
-        join_pack: 'Contents of pack "%{name}":'
+        join_pack: 'محتوای بسته ‎"%{name}":'
       unpublish:
-        not_published: This server was not published before.
-        unpublished: Unpublished emote pack %{name}
+        not_published: این سرور بسته شکلک هیچوقت منتشر نشده.
+        unpublished: بسته شکلک ‎ %{name}از انتشار بیرون آمد
       dm:
         send_dms:
           zero: |
-            You have no packs!
-            Get some with `%{prefix}pack search`
+            شما هیچ بسته‌ای ندارید!
+            با استفاده از ‎`%{prefix}pack search` تعدادی برای خودتان پیدا کنید
           one: |
-            This will send you a direct message; do you wish to continue?
+            این به شما یک پیام مستقیم (دایرکت) می‌فرستد. آیا تمایل به ادامه دارید؟
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            این به شما %{count} پیام مستقیم (دایرکت) می‌فرستد. آیا تمایل به ادامه دارید؟
         blocked: |-
-          You've blocked me, I can't message you!
+          شما من را بلاک کرده‌اید، من نمی‌توانم به شما مستقیماً پیام بفرستم!
