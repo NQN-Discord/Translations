@@ -155,32 +155,32 @@ discord_bot:
 
           Để tạo một danh tính ảo, dùng `%{prefix}persona register Tên`. Sau đó, bạn có thể gửi tin nhắn dưới danh tính ảo đó bằng cách gửi tin nhắn như sau:
           > Tên: Tin nhắn
-        page_8_title: Server Administration
+        page_8_title: Quản lý server
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          NQN cho phép khả năng tùy chỉnh cao đối với các tính năng có sẵn, trong trường hợp chúng không phù hợp cho server của bạn.
+          Bất kì ai có quyền **Quản lý server** đều có thể thay đổi cài đặt của bot cho server.
 
-          Here are the features you can toggle:
+          Sau đây là những thứ mà bạn có thể thay đổi:
 
            • Nitro - `%{prefix}server nitro`
-           • Stickers - `%{prefix}server stickers`
-           • Replies - `%{prefix}server replies`
-           • Personas - `%{prefix}server personas`
-           • Masked Links - `%{prefix}server masked_links`
-        page_8_0_name: Troubleshooting Issues
+           • Nhãn dán - `%{prefix}server stickers`
+           • Trả lời - `%{prefix}server replies`
+           • Danh tính ảo - `%{prefix}server personas`
+           • URL đã che - `%{prefix}server masked_links`
+        page_8_0_name: Khắc phục một số vấn đề
         page_8_0_desc: |
-          In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:
-          **Manage Webhooks**, **Use External Emojis**, **Add Reactions**, **Read Messages** and **Manage Messages**.
-        page_8_1_name: "Not Quite Nitro's prefix:"
+          Để có thể hoạt động bình thường, NQN sẽ cần các quyền sau trong __mọi kênh__ mà bạn muốn dùng tính năng:
+          **Quản lý Webhook**, **Dùng biểu cảm mở rộng**, **Thêm biểu cảm**, **Xem kênh** và **Quản lý tin nhắn**.
+        page_8_1_name: "Prefix của Not Quite Nitro:"
         page_8_1_desc: |
-          Anyone with **Manage Server** permissions can change the prefix NQN uses.
+          Bất kì ai với quyền **Quản lý server** có thể thay đổi prefx của NQN.
 
-          The bot's current prefix for commands is `%{prefix}`, though it can be changed with
+          Prefix hiện tại của bot là `%{prefix}`, và bạn có thể thay đổi nó với lệnh
           > %{prefix}server prefix %{ping} ?
-          This would change it to `?`, though any prefix works.
+          Lệnh này sẽ thay đổi prefix thành `?`, mà kí tự nào cũng có thể dùng được.
 
-          NQN will *always* listen to it's ping however regardless of other settings.
-        page_8_2_name: Auditing Messages
+          NQN **sẽ luôn** nghe theo ping cho dù bạn có cài đặt thế nào đi nữa.
+        page_8_2_name: Lưu vết tin nhắn
         page_8_2_desc: |
           NQN keeps a log of messages it reposts, as the original message gets removed.
           This is in case that someone changes their name and avatar before posting an offensive message, or otherwise misbehaves using the bot.
