@@ -3,56 +3,56 @@ discord_bot:
   commands:
     pack:
       buttons:
-        add_to_everyone: Add to @everyone
-        join_pack: Join Pack
-        leave_pack: Leave Pack
-        join_server: Join Server
-        all: Save All
+        add_to_everyone: اضافه کردن به ‎@everyone
+        join_pack: پیوستن به این بسته
+        leave_pack: ترک کردن این بسته
+        join_server: پیوستن به سرور بسته
+        all: ذخیره همه
       join:
-        no_pack: '%{name} is not a registered emote pack'
-        already_joined: You are already joined to %{name}
+        no_pack: 'بسته شکلک ‎%{name} یک بسته معتبر نیست'
+        already_joined: شما از قبل به ‎ %{name}پیوسته‌اید
         joined_pack: |
-          Joined %{name}.
-          You may now use the following emotes by typing its name into chat, including colons:
+          به ‎%{name} پیوستید.
+          حال می توانید از این شکلک ها با نوشتن نام آنها در چت، استفاده کنید. البته با شامل کردن دو نقطه ها:
       leave:
-        no_pack: '%{name} is not a registered emote pack'
-        already_left: You weren't in %{name} anyway
-        left: Left %{name}
+        no_pack: 'بسته شکلک ‎%{name} یک بسته به ثبت رسیده نیست'
+        already_left: شما از قبل ‎%{name} را ترک کرده‌اید
+        left: بسته ‎ %{name}ترک شد
       meta:
-        needs_publishing: You cannot do this without first publishing this server as an emote pack.
+        needs_publishing: شما نمی توانید بدون اینکه اول این سرور را به عنوان یک بسته شکلک منتشر کرده باشید، این کار را انجام دهید.
       mine:
-        no_packs: You don't have any packs!
+        no_packs: شما هیچ بسته فعالی ندارید!
       publish:
-        already_published: This server is already published as a pack!
-        already_exists: An emote pack called %{name} already exists
-        published: Published emote pack %{name}. Anyone is able to save these emotes to their own server, and you assert that you are the owner of these emotes. To undo this, run `%{prefix}pack unpublish`.
+        already_published: این سرور از قبل به عنوان یک سرور با بسته شکلک، منتشر شده!
+        already_exists: بسته شکلک به نام ‎%{name} از قبل وجود دارد
+        published: بسته شکلک به نام ‎ %{name}منتشر شد. همه الان می توانند از این شکلک ها در سرور خود استفاده کنند، و شما دارنده این سری بسته شکلک هستید. برای بازگرداندن این عمل، دستور ‎`%{prefix}pack unpublish` را استفاده کنید.
         pack_published: |
-          To gain access to all these emotes, run
-          >>> !pack join %{name}
+          برای دسترسی یافتن به همه این شکلک ها، دستور زیر را اجرا کنید
+          ‎>>> !pack join %{name}
       rename:
-        already_exists: An emote pack called %{name} already exists
-        not_published: This server was not published before.
-        renamed: Renamed %{old} to %{new}
+        already_exists: بسته شکلک به نام ‎%{name} از قبل وجود دارد
+        not_published: این سرور بسته شکلک هیچوقت منتشر نشده.
+        renamed: نام مورد نظر از ‎ %{old}به ‎ %{new}تغییر یافت
       save:
         none_left: After filtering out emotes with the same name as ones in this server, there were none left to import!
-        no_space: There's no space in this server to add any of the emotes in this pack.
+        no_space: هیچ جای خالی دیگری برای افزودن این بسته شکلک به سرور نمانده.
         failed_batch: |
-          Discord only allows bots to upload 50 emotes per hour.
-          NQN wasn't able to upload all the emotes in this batch, but you can run this command again in an hour to upload the rest
-        not_registered: '%{name} is not a registered emote pack'
-        upload_question: "Upload these emotes to this server?\n If you are not the owner of all of these emoji, choose N."
+          دیسکورد فقط به بات ها اجازه میده که 50 ایموجی در هر ساعت بتوانند آپلود کنند.
+          بات NQN نتوانست همه این ایموجی هارا درجا به سرور آپلود کند، با اینحال شما می توانید یک ساعت دیگر این دستور را مجدداً انجام دهید تا بقیه ایموجی ها نیز آپلود شوند
+        not_registered: 'بسته شکلک ‎%{name} یک بسته به ثبت رسیده نیست'
+        upload_question: "آیا این شکلک ها در این سرور آپلود شوند؟\n اگر شما مالک همه این ایموجی ها نیستید، N را انتخاب کنید."
         uploaded:
-          one: Uploaded %{count} emote
-          many: Uploaded %{count} emotes
+          one: '%{count} ایموجی به سرور آپلود شد'
+          many: '%{count} ایموجی به سرور آپلود شد'
       search:
         invalid_group: <Invalid pack - Please Report>
       set_public:
-        needs_publishing: You cannot do this without first publishing this server as an emote pack.
-        public_on: Allowed invites via NQN.
-        public_off: Disabled invites via NQN.
+        needs_publishing: شما نمی توانید بدون اینکه اول این سرور را به عنوان یک بسته شکلک منتشر کرده باشید، این کار را انجام دهید.
+        public_on: به ساخت لینک دعوت از طرف NQN اجازه داده شد.
+        public_off: ساخت لینک دعوت از طرف NQN منع شد.
       show:
-        not_registered: '%{name} is not a registered emote pack'
-        pack_empty: This pack has no emotes in it!
+        not_registered: 'بسته شکلک ‎%{name} یک بسته به ثبت رسیده نیست'
+        pack_empty: این بسته هیچ شکلکی داخلش وجود ندارد!
         join_pack: 'Contents of pack "%{name}":'
       unpublish:
         not_published: This server was not published before.
