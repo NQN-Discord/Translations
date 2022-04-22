@@ -66,7 +66,7 @@ command_docs:
   edit:
     short_doc: Modifica un messaggio inviato da NQN
     help: |
-      Modifica il contenuto di uno dei tuoi messaggi repostati da NQN.
+      Modifica il contenuto di uno dei tuoi messaggi duplicati da NQN.
       Per impostazione predefinita, il tuo messaggio più recente in questo canale è modificato, ma puoi opzionalmente fornire un URL di un messaggio per modificarlo
       Puoi anche utilizzare la funzionalità di risposta ai messaggi di Discord per modificare quel messaggio.
   export:
@@ -80,9 +80,9 @@ command_docs:
   ignore_me:
     short_doc: Fai in modo che NQN non posti più i tuoi messaggi
     help: |
-      L'esecuzione di questo comando impedisce a NQN di repostare qualsiasi messaggio in qualsiasi server condiviso con il bot.
+      L'esecuzione di questo comando impedisce a NQN di inviare nuovamente qualsiasi messaggio in qualsiasi server condiviso con il bot.
       - I comandi sono ancora abilitati, eseguire nuovamente questo comando riabiliterà la funzione
-      - Puoi ancora repostare i messaggi attraverso la nostra [dashboard](https://nqn.blue)
+      - Puoi ancora inviare nuovamente i messaggi attraverso la nostra [dashboard](https://nqn.blue)
       - Il bot non risponderà a qualsiasi messaggio che invii che verrebbe repostato tramite un webhook
   info:
     short_doc: Statistiche interne sul bot
@@ -97,17 +97,17 @@ command_docs:
     help: |
       Rende un'emoji più grande
   mod-audit:
-    short_doc: Ottieni i registri di controllo per i messaggi repostati per questo canale
+    short_doc: Ottieni i registri di controllo per i messaggi duplicate per questo canale
     help: |
-      Ottieni registri di controllo per i messaggi ripostati per questo canale
-      Facoltativo[Channel] -> Log di filtro per questo canale
-      Facoltativo[Member] -> Log di filtro per questo membro
+      Ottieni registri di controllo per i messaggi inviati nuovamente per questo canale
+      Facoltativo[Channel] -> Informazioni di filtro per questo canale
+      Facoltativo[Member] -> Informazioni di filtro per questo membro
 
       Se entrambi i canali e i membri non sono filtrati, usa 'audit guild'
   mod-ban:
-    short_doc: Banna l'utente che ha pubblicato un messaggio
+    short_doc: Bandisci l'utente che ha pubblicato un messaggio
     help: |
-      Banna l'utente che ha pubblicato un messaggio
+      Bandisci l'utente che ha pubblicato un messaggio
   mod-edit_topic:
     short_doc: Aggiungi emoji animate agli argomenti dei canali
     help: |
@@ -121,7 +121,7 @@ command_docs:
     help: |
       Sposta fino a 20 dei messaggi più recenti in questo canale su un altro
   mod-purge:
-    short_doc: Elimina un certo numero di messaggi repostati dal bot in questo canale, opzionalmente filtrando a un utente specifico
+    short_doc: Elimina un certo numero di messaggi inviati dal bot in questo canale, opzionalmente filtrando a un utente specifico
     help: |
       Elimina un certo numero di messaggi repostati dal bot in questo canale, opzionalmente filtrando a un utente specifico
   mod:
