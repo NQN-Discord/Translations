@@ -1,51 +1,51 @@
 ---
 exceptions:
   command_not_found: |
-    Command "%{command}" was not found.
-    Use `%{prefix}help` to see the command list
+    Không tìm thấy lệnh "%{command}".
+    dùng `%{prefix}help` để xem danh sách lệnh
   missing_required_argument:
     one: |-
-      "%{param}" is a required argument that is missing.
-      It should be: %{should_be}
+      Cần có "%{param}" đang thiếu.
+      Nó nên là: %{should_be}
     many: |
-      "%{param}" is a required argument that is missing.
-      It should be one of:
+      Cần có "%{param}" đang thiếu.
+      Nó nên là một trong: 
       - %{should_be}
   bot_missing_permissions:
     one: |
-      %{bot_ping} is missing the following permission required to run this command:
+      %{bot_ping} đang thiếu quyền sau để dùng lệnh này:
       %{permissions_missing}
     many: |
-      %{bot_ping} is missing the following permissions required to run this command:
+      %{bot_ping} đang thiếu các quyền sau để dùng lệnh này:
       %{permissions_missing}
   user_missing_permissions:
     one: |
-      You are missing the following permission required to run this command:
+      Bạn đang thiếu quyền sau để dùng lệnh này:
       %{permissions_missing}
     many: |
-      You are missing the following permissions required to run this command:
+      Bạn đang thiếu các quyền sau để dùng lệnh này:
       %{permissions_missing}
   everyone_missing_permissions:
     one: |
-      The @everyone role is missing the following permission required to run this command:
+      Vai trò @everyone đang thiếu quyền sau để dùng lệnh này:
       %{permissions_missing}
     many: |
-      The @everyone role is missing the following permissions required to run this command:
+      Vai trò @everyone đang thiếu các quyền sau để dùng lệnh này:
       %{permissions_missing}
   message_not_found: |
-    Message "%{param}" not found.
+    Không tìm thấy tin nhắn "%{param}".
   channel_not_found: |
-    Channel "%{channel}" not found.
+    Không tìm thấy kênh "%{channel}".
   channel_not_readable: |
-    %{bot_ping} is missing the following permission in %{channel}:
+    %{bot_ping} đang thiếu quyền sau trong %{channel}:
     %{permissions_missing}
   bad_argument:
     one: |
-      Could not interpret argument%{param}; should be:
+      Không thể diễn tả %{param}; nên là:
     many: |
-      Could not interpret argument%{param}, should be one of:
+      Không thể diễn tả %{param}; nên là một trong:
   no_dms: |
-    This command cannot be ran in DMs
+    Lệnh này không thể được dùng trong tin nhắn trực tiếp
   permissions_missing_reasons:
     #These translations were designed to be short, and to fit on about 1 line on a mobile screen
     guild: |-
