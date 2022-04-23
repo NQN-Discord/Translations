@@ -125,12 +125,12 @@ discord_bot:
           If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
 
           If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server replies off`.
-        page_5_title: Masked URLs
+        page_5_title: متن های لینک دار
         page_5_desc: |
-          NQN allows users to send [Masked URLs](%{url}) as part of their regular messages.
+          بات NQN به کاربران این اجازه را می دهد تا از [متن های لینک دار](%{url}) به عنوان قسمتی از پیام های عادی که میفرستند، استفاده کنند.
 
-          This uses standard markup, `[text to show](https://url.here)`.
-          To send messages with buttons, use `[button title](button://url.here)`
+          این روش استفاده کلی برای اعمال یک آدرس URL لینک بر روی متن است: ‎`[Salam Amoo](https://url.here)`
+          برای ارسال پیام با دکمه، اینگونه استفاده کنید: ‎`[Bezan roye in dokmeh](button://url.here)`
         page_6_title: Stickers
         page_6_desc: |
           اگر تا به حال خواسته‌اید که تصاویر/استیکرها/شکلک‌هایی در اندازه بزرگ بفرستید، دقیقاً به جای مناسبی مراجعه کرده‌اید.
@@ -148,25 +148,25 @@ discord_bot:
           برای مشاهده استیکر های خودتان، از ‎`%{prefix}stickers mine` استفاده کنید.
 
           نکته - برای استفاده از استیکر های تلگرام، شما بایستی آنها را وارد بات کنید. بات به صورت خودکار اینکار را انجام نمی دهد.
-        page_7_title: Personas
+        page_7_title: پرسونا ها
         page_7_desc: |
-          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
-          In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
+          پرسونا ها به همه در سرور شما این اجازه را می دهند که با نام های کاربری و آواتار های متفاوت خودشون، در سرور فعالیت کنند.
+          برای استفاده از پرسونا ها در سرور خود، باید اول دستور ‎`%{prefix}server personas on` را اجرا کنید.
 
-          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
-          > name: Rest of message
+          برای ساخت یک پرسونا، عبارت ‎`%{prefix}persona register name` را وارد کنید. بعد از آن، شما می توانید پیام خود را با استفاده از پرسونای خود بفرستید:
+          > name: هرچه دل تنگت میخواهد بفرست
         page_8_title: Server Administration
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          بات NQN به شدت قابل شخصی سازی است از لحاظ دسته ویژگی هایی که دارد، که در بعضی موارد حتی ممکن است مربوط به سرور شما نشوند.
+          هرکسی با دسترسی **Manage Server** می تواند تنظیمات بات را در سرور تغییر دهد.
 
-          Here are the features you can toggle:
+          این ها ویژگی هایی هستند که شما می توانید آنها را فعال یا غیرفعال کنید:
 
-           • Nitro - `%{prefix}server nitro`
-           • Stickers - `%{prefix}server stickers`
-           • Replies - `%{prefix}server replies`
-           • Personas - `%{prefix}server personas`
-           • Masked Links - `%{prefix}server masked_links`
+           • نیترو - ‎`%{prefix}server nitro`
+           • استیکر ها - ‎`%{prefix}server stickers`
+           • پاسخ ها - ‎`%{prefix}server replies`
+           • پرسونا ها - ‎`%{prefix}server personas`
+           • متن لینک دار - ‎`%{prefix}server masked_links`
         page_8_0_name: Troubleshooting Issues
         page_8_0_desc: |
           In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:
