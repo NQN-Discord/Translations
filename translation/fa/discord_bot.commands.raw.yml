@@ -224,8 +224,8 @@ discord_bot:
       react:
         id_large: این ID پیام خیلی بزرگ است
         not_found: پیامی با این ID در این کانال وجود ندارد
-        nth_id: Message must be either an ID or the `n`th most recent message (up to 50th)
-        channel_empty: This channel is empty
+        nth_id: این پیام باید یا یک ID و یا `n` عدد از آخرین پیام ارسال شده باشد (تا پنجاهمین پیام)
+        channel_empty: این کانال خالی است
         invalid_react:
           one: |
             The following emote is not valid:
@@ -262,34 +262,34 @@ discord_bot:
         audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
       info:
         shard_data: |
-          > No. shards: %{shard_count} (%{shards_down} down)
-          > Average latency: %{average_latency}ms
-          > Current shard: %{current_shard}
-          > Current shard latency: %{current_latency}ms
+          > تعداد شارد ها: %{shard_count} (%{shards_down} خارج از دسترس)
+          > متوسط تاخیر پاسخ: %{average_latency}ms
+          > شماره شارد فعلی: %{current_shard}
+          > متوسط تاخیر پاسخ این شارد: %{current_latency}ms
         process_data: |
-          > RAM usage: %{ram_usage}
-          > CPU usage: %{cpu_usage}%
-          > Network:
-          > - Sent: %{network_send}
-          > - Received: %{network_recv}
+          > میزان استفاده RAM: %{ram_usage}
+          > میزان استفاده CPU: %{cpu_usage}%
+          > شبکه:
+          > - ارسال: %{network_send}
+          > - دریافت: %{network_recv}
         elasticsearch_metadata: |
-          > RAM usage: %{ram_usage}
-          > Disk space: %{disk_use}
-          > Network total: %{bytes_sent}
+          > میزان استفاده RAM: %{ram_usage}
+          > میزان فضای دیسک: %{disk_use}
+          > شبکه کلی: %{bytes_sent}
         description: |
-          Author: %{owner}
-          Application name: %{app_name}
-          Help command: `%{prefix}help`
+          ایجاد شده توسط: ‎%{owner}
+          نام برنامه: ‎%{app_name}
+          دستور راهنما: ‎`%{prefix}help`
         bot_metadata: |
-          > Uptime: %{uptime}
-          > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
-          > Servers Loaded: %{guilds_loaded} / %{guilds}
+          > دردسترس بودن: %{uptime}
+          > سرور های شکلک: %{alias_servers_available} / %{alias_servers_total}
+          > سرور های بارگذاری شده: %{guilds_loaded} / %{guilds}
         guild_features:
           zero: ''
           one: |
-            > Server Feature: %{guild_features}
+            > ویژگی سرور: %{guild_features}
           many: |
-            > Server Features: %{guild_features}
+            > ویژگی های سرور: %{guild_features}
         bot_credits: |
           [آواتار بات طراحی شده توسط Dooley](<https://www.dooleytm.com>) در [Wump Motes](https://discord.gg/pEjCBNF)
 
@@ -323,7 +323,7 @@ discord_bot:
         credits: سازندگان و مشارکان
         author: ایجاد کننده
         bot_latency: '> تاخیر API/Bot: %{bot_latency} میلی ثانیه'
-        help_command: 'Help command: `%{prefix}help`'
+        help_command: 'دستور راهنما: ‎`%{prefix}help`'
       upload_emote:
         own_emojis_dont_ask_again: Yes; I own these
         alphanumeric: ' - Must be alphanumeric with underscores'
