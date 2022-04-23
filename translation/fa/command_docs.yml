@@ -297,9 +297,9 @@ command_docs:
     help: |
       Create a static emote, which when used posts an animated version of the emote instead!
   server-masked_links:
-    short_doc: Enable or disable masked links in this server
+    short_doc: فعال کردن متن های لینک دار در این سرور
     help: |
-      Enable or disable masked links in this server
+      فعال کردن متن های لینک دار در این سرور
   server-nitro:
     short_doc: Enable or disable free nitro usage in this server
     help: |
@@ -383,9 +383,9 @@ command_docs:
     help: |
       برای استفاده کاربر از ویژگی نیتروی NQN، یک رول الزامی را تنظیم می کند
   server-stickers:
-    short_doc: Enable or disable sticker usage in this guild
+    short_doc: فعال یا غیرفعال سازی استفاده از استیکر ها در این سرور
     help: |
-      Enable or disable sticker usage in this guild
+      فعال یا غیرفعال سازی استفاده از استیکر ها در این سرور
   server-user_content:
     short_doc: فعال یا غیرفعال کردن استفاده از اختصار ها و بسته های کاربران در این سرور
     help: |
@@ -395,7 +395,7 @@ command_docs:
     help: |
       Modify the bots settings on this server
   sticker-create:
-    short_doc: Create a sticker from a file
+    short_doc: ایجاد یک استیکر از یک فایل
     help: |
       ساختن یک استیکر از یک فایل
       آپلود تصویر و استفاده از این دستور برای تبدیل آن به یک استیکر.
@@ -404,32 +404,32 @@ command_docs:
       استیکر ها فقط میتوانند حداکثر 8 مگابایت حجم داشته باشند، و نام‌هایشان هم فقط باید متشکل از حروف الفبا یا اعداد انگلیسی باشد.
       استیکر ها به یک فایل افزونه نیازمند هستند، که آن هم از حروف الفبا و اعداد تشکیل می شود.
   sticker-delete:
-    short_doc: Delete a sticker
+    short_doc: حذف یک استیکر
     help: |
-      Delete a sticker
-      You can only delete stickers you own.
+      حذف کردن یک استیکر
+      شما فقط می توانید استیکر های خودتان را حذف کنید.
   sticker-import:
-    short_doc: Import stickers from emotes
+    short_doc: وارد کردن استیکر ها از شکلک ها
     help: |2
-      Import stickers from emotes
-      Either from an emote directly, with an optional alias
+      وارد کردن استیکر ها از شکلک ها
+      یا با استفاده مستقیم از شکلک، یا با اختصار های اختیاری
        - sticker import :blue_smirk: smirk.png
-      Or by searching through emotes NQN has.
-       - sticker import blue pat
-      Note that the searching through emotes option does not support aliasing
+      یا از طریق گشتن در بین شکلک هایی که NQN دارد.
+      - sticker import blue pat
+      توجه داشته باشید که جستجو در بین شکلک ها از اختصار های سفارشی پشتیبانی نمی کند
   sticker-mine:
-    short_doc: Find my stickers
+    short_doc: پیدا کردن استیکر های من
     help: |
-      Find my stickers
+      پیدا کردن استیکر های من
   sticker-rename:
-    short_doc: Rename a sticker
+    short_doc: تغییر نام یک استیکر
     help: |
-      Rename a sticker
-      You can only rename stickers you own.
+      تغییر نام یک استیکر
+      شما فقط می توانید نام استیکر های خودتان را تغییر دهید.
   sticker-search:
-    short_doc: Search through all the stickers NQN has, with an optional query
+    short_doc: جستجو در بین همه استیکر هایی که NQN در حال حاضر دارد، البته با جستار های اختیاری
     help: |
-      Search through all the stickers NQN has, with an optional query
+      جستجو در بین همه استیکر هایی که NQN در حال حاضر دارد، البته با جستار های اختیاری
   sticker-telegram:
     short_doc: وارد کردن استیکر از تلگرام
     help: |
