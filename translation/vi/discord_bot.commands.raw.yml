@@ -120,11 +120,11 @@ discord_bot:
         page_4_desc: |
           NQN cho phép bạn trả lời tin nhắn từ rất lâu về trước.
 
-          Chỉ cần sao chép đường dẫn đến tin nhắn đó (trên di động là nút chia sẻ - sao chép) rồi dán nó vào tin nhắn của bạn, và bot sẽ thay thế tin nhắn của bạn kèm theo tin nhắn được dẫn đến.
+          Chỉ cần sao chép link đến tin nhắn đó (trên di động là nút chia sẻ - sao chép) rồi dán nó vào tin nhắn của bạn, và bot sẽ thay thế tin nhắn của bạn kèm theo tin nhắn được dẫn đến.
 
-          Nếu bạn không muốn bot thay thế tin nhắn của bạn, chỉ cần bao quanh đường dẫn đó bằng cặp ngoặc \<\>.
+          Nếu bạn không muốn bot thay thế tin nhắn của bạn, chỉ cần bao quanh link đó bằng cặp ngoặc \<\>.
 
-          Nếu một quản lý trong server muốn vơ hiệu hóa tính năng này, họ có thể dùng `%{prefix}server replies off`.
+          Nếu một quản lý trong server muốn vô hiệu hóa tính năng này, họ có thể dùng `%{prefix}server replies off`.
         page_5_title: URL đã che
         page_5_desc: |
           NQN cho phép người dùng gửi tin nhắn [với URL đã che](%{url}) ngay trong tin nhắn của họ.
@@ -166,7 +166,7 @@ discord_bot:
            • Nhãn dán - `%{prefix}server stickers`
            • Trả lời - `%{prefix}server replies`
            • Danh tính ảo - `%{prefix}server personas`
-           • URL đã che - `%{prefix}server masked_links`
+           • Hyperlink - `%{prefix}server masked_links`
         page_8_0_name: Khắc phục một số vấn đề
         page_8_0_desc: |
           Để có thể hoạt động bình thường, NQN sẽ cần các quyền sau trong __mọi kênh__ mà bạn muốn dùng tính năng:
