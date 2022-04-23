@@ -1,17 +1,17 @@
 ---
 discord_bot:
   rendered_message:
-    oops: Oops!
+    oops: Ối!
     external_emojis: |
-      In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Server Settings**.
+      Để có thể dùng biểu cảm từ server khác, vai trò @everyone cần phải có quyền 'Dùng biểu cảm mở rộng' trong **Cài đặt server**.
     override_external_emojis: |
-      In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
-    download: Download
+      Để có thể dùng biểu cảm từ server khác, vai trò @everyone cần phải có quyền 'Dùng biểu cảm mở rộng' trong **Cài đặt quyền hạn của kênh**.
+    download: Tải về
     no_personas: |
-      Personas are not allowed in this server
+      Danh tính ảo đã bị vô hiệu trong server này
     no_messageless_posting: |
-      A server administrator has disabled posting through the web dashboard and slash commands
+      Quản lý của server đã vô hiệu gửi tin nhắn từ trang web và lệnh dùng slash
     no_slowmode_posting: |
-      Posting messages in channels with a slowmode is not allowed
-    enable_posting: Enable Posting
-    posted_message: Posted message
+      Gửi tin nhắn trong kênh chat có chế độ chậm đã bị vô hiệu
+    enable_posting: Cho phép gửi tin
+    posted_message: Đã gửi tin nhắn
