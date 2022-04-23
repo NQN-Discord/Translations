@@ -200,64 +200,64 @@ discord_bot:
            • Để chặn mọi hoạt động của NQN trong một kênh, chặn quyền 'Xem kênh' của bot thông qua chỉnh sửa quyền hạn trong kênh.
         page_8_4_name: 'Thu thập thông tin:'
         page_8_4_desc: |
-          NQN stores reposted messages such that users can delete them and for the audit log.
-          Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
+          NQN lưu trữ các tin nhắn được thay thế để người dùng có thể xóa chúng hay dùng cho việc lưu vết.
+          Mọi biểu cảm trong server của bạn đều có thể được nhìn thấy bởi mọi người và có thể được tìm kiếm, cho dù chúng không thể liên kết với server của bạn.
 
-          Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
-        page_9_title: Advanced Usage
+          Một số chỉ số về mức hoạt động của bot được thu thập để hỗ trợ việc cải thiện bot tốt hơn nhưng sẽ không bao giờ lưu dữ liệu tin nhắn khác được gửi của người dùng.
+        page_9_title: Tính năng nâng cao
         page_9_desc: |
-          If someone uses an emote, NQN allows you to use it as well, but only if it's been recently used in the server.
-          **NOTE:** If you've only just invited NQN, it won't know about any recently used emotes before it joined.
+          Nếu có ai dùng biểu cảm nào đó, bạn cũng sẽ có thể dùng nó, nhưng chỉ khi nó được dùng gần đây trong server.
+          **LƯU Ý:** Nếu bạn chỉ mới thêm NQN vào server, nó sẽ không biết được các biểu cảm vừa được dùng trong server trước lúc nó tham gia.
 
-          In the case that you have several emotes with the same name, the following order is used:
+          Trong trường hợp bạn có nhiều biểu cảm cùng tên, biểu cảm sẽ được ưu tiên theo thứ tự sau:
 
-          1. Aliases
-          2. The current server
-          3. Emote Packs
-          4. Other servers you share with NQN
-          5. Server wide aliases
-          6. Server wide packs
-          7. Recently used emojis in the current server
-          8. Recently shown packs in the current server
+          1. Tên thay thế
+          2. Server hiện tại
+          3. Gói biểu cảm
+          4. Server khác mà NQN và bạn có chung
+          5. Tên gọi khác liên server
+          6. Gói biểu cảm liên server
+          7. Biểu cảm được dùng gần đó trong server
+          8. Gói biểu cảm được hiện ra gần đó trong server
 
-          If you find yourself with clashing emotes, create the one you want to use as an alias, and that will override it.
+          Nếu bạn thường xuyên bị xung đột biểu cảm, hãy đặt tên thay thế cho cái mà bạn muốn dùng và nó sẽ được ưu tiên.
       react:
-        id_large: Message ID is too large
-        not_found: Message in this channel with that ID does not exist
-        nth_id: Message must be either an ID or the `n`th most recent message (up to 50th)
-        channel_empty: This channel is empty
+        id_large: ID tin nhắn quá lớn
+        not_found: Tin nhắn với id đó trong kênh này không tồn tại
+        nth_id: Tin nhắn phải là một ID hoặc tin nhắn thứ `n` tính từ tin nhắn này về trước (tối đa 50)
+        channel_empty: Kênh này đang trống
         invalid_react:
           one: |
-            The following emote is not valid:
+            Biểu cảm sau không hợp lệ:
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            Biểu cảm chỉ nên là số và chữ, dấu gạch dưới và nhiều nhất một dấu gạch ngang.
           many: |
-            The following emotes are not valid:
+            Biểu cảm sau không hợp lệ:
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            Biểu cảm chỉ nên là số và chữ, dấu gạch dưới và nhiều nhất một dấu gạch ngang.
         emote_unusable:
           one: |
-            The following emote cannot be used in reactions:
+            Biểu cảm sau không thể được sử dụng:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload it to a server the bot's in, it will become usable in reactions!
+            Biểu cảm phải từ một server mà NQN có trong đó; nếu bạn tải biểu cảm này lên một server có bot trong đó, nó sẽ có thể được dùng trong bày tỏ cảm xúc!
           many: |
-            The following emotes cannot be used in reactions:
+            Biểu cảm sau không thể được sử dụng:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload them all to a server the bot's in, they will become usable in reactions!
+            Biểu cảm phải từ một server mà NQN có trong đó; nếu bạn tải biểu cảm này lên một server có bot trong đó, nó sẽ có thể được dùng trong bày tỏ cảm xúc!
         emote_not_found:
           one: |
-            Could not find emote %{not_found}
-            Have you added it as an alias with `%{prefix}alias search` or joined the corresponding emote pack with `%{prefix}pack search`?
+            Không thể tìm thấy %{not_found}
+            Bạn đã thêm nó dưới dạng tên thay thế với `%{prefix}alias search` hay đã tham gia gói biểu cảm có nó với `%{prefix}pack search` chưa?
           many: |
-            Could not find emotes %{not_found}
-            Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
+            Không thể tìm thấy %{not_found}
+            Bạn đã thêm nó dưới dạng tên thay thế với `%{prefix}alias search` hay đã tham gia gói biểu cảm có nó với `%{prefix}pack search` chưa?
         too_many_reacts:
-          one: This message has too many reactions to add a new one!
-          many: This message has too many reactions to add them all!
+          one: Tin nhắn này đã có quá nhiều biểu cảm để thêm!
+          many: Tin nhắn này đã có quá nhiều biểu cảm để thêm chúng!
         reacting:
-          one: Adding %{count} reaction; remember to react yourself for them to stay!
-          many: Adding %{count} reactions; remember to react yourself for them to stay!
-        blocked: '%{author} has blocked me, so I cannot add that reaction!'
+          one: Đang thêm %{count} biểu cảm; nhớ là bày tỏ vào để giữ chúng!
+          many: Đang thêm %{count} biểu cảm; nhớ là bày tỏ vào để giữ chúng!
+        blocked: '%{author} đã chặn tôi, vậy nên tôi không thể bày tỏ cảm xúc lên tin nhắn của họ!'
         on_behalf: NQN thay danh %{author} (%{author_id})
         audit_message: "%{author} đã bày tỏ cảm xúc với [tin nhắn](<%{jump_url}>) trong %{channel} với những biểu cảm sau:\n"
       info:
@@ -330,8 +330,8 @@ discord_bot:
         image: ' - Phải là một hình ảnh'
         bad_name: "Sai tên của biểu cảm:\n"
         bad_attachment: "Biểu cảm được đính kèm không hợp lệ:\n"
-        more_animated_needed: This server will have reached its limit for animated emotes, as it requires %{size}. Delete %{delete} and try again
-        more_static_needed: This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again
+        more_animated_needed: Server đã đạt giới hạn biểu cảm động, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
+        more_static_needed: Server đã đạt giới hạn biểu cảm, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
         too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
         this_emote: Is this the emote you meant?
         emote_preview: |
