@@ -3,44 +3,44 @@ discord_bot:
   commands:
     sticker:
       create:
-        attachment_needed: You need to upload a sticker with this command
-        image_needed: The file needs to be an image
-        sticker_exists: A sticker called %{name} exists already!
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        too_large: This file is too large. Stickers can only be 8MB
-        created: "You can now use `:%{name}:`\nNot quite right?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
+        attachment_needed: شما بایستی همراه با این دستور، یک استیکر نیز آپلود کنید
+        image_needed: فایل باید یک فایل تصویری باشد
+        sticker_exists: استیکر به نام ‎ %{name}از قبل وجود دارد!
+        filename_invalid: 'نام ‎`%{name}` برای استفاده به عنوان یک نام برای استیکر ها، مجاز نیست. نام و پسوند فایل آن ها باید از حروف الفبا و عداد فقط تشکیل شده باشد.'
+        too_large: این فایل خیلی بزرگ است. استیکر ها حداکثر می توانند 8 مگابایت باشند
+        created: "حال شما می توانید از ‎`:%{name}:` استفاده کنید\nبه نظر اسم درستی نمیاد؟\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
       mine:
-        no_stickers: You have no stickers
+        no_stickers: شما هیچ استیکری ندارید
       delete:
-        no_sticker: "- :%{name}: - Doesn't exist or not yours"
+        no_sticker: "همچین چیزی به نام - ‎:%{name}: - وجود ندارد یا مال شما نیست"
         sticker_deleted: '+ :%{name}:'
         question:
-          zero: No stickers to delete!
-          one: Do you want to delete this sticker?
-          many: Do you want to delete all %{count} stickers?
+          zero: بدون استیکری برای حذف کردن!
+          one: آیا می خواهید این استیکر را حذف کنید؟
+          many: آیا می خواهید تمام %{count} استیکر را حذف کنید؟
         deleted_all:
-          one: Deleted %{count} sticker
-          many: Deleted %{count} stickers
+          one: '%{count} استیکر حذف شد'
+          many: '%{count} استیکر حذف شد'
       rename:
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        no_sticker: This sticker doesn't exist
-        permission_denied: You can't rename someone else's sticker!
-        destination_taken: The destination name is already taken!
-        renamed: 'Renamed \:%{old}: to :%{new}:'
+        filename_invalid: 'نام ‎`%{name}` برای استفاده به عنوان یک نام برای استیکر ها، مجاز نیست. نام و پسوند فایل آن ها باید از حروف الفبا و عداد فقط تشکیل شده باشد.'
+        no_sticker: این استیکر اصلاً وجود خارجی ندارد
+        permission_denied: شما نمی توانید نام استیکر یک نفر دیگر را تغییر دهید!
+        destination_taken: نام مقصود از قبل گرفته شده!
+        renamed: 'نام مورد نظر از ‎\:%{old}:‎ به ‎:%{new}:‎ تغییر یافت'
       search:
-        no_stickers: No stickers found
+        no_stickers: هیچ استیکری یافت نشد
       sticker_import:
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        find_emote: find an emote to turn into a sticker!
-        created: You can now use `:%{name}:`
-        sticker_exists: A sticker called `:%{name}:` already exists; you can't overwrite it.
-        duplicate_exists: A sticker with the same image called %{name} exists already!
+        filename_invalid: 'نام ‎`%{name}` برای استفاده به عنوان یک نام برای استیکر ها، مجاز نیست. نام و پسوند فایل آن ها باید از حروف الفبا و عداد فقط تشکیل شده باشد.'
+        find_emote: یک شکلک را برای تبدیل آن به یک استیکر پیدا کنید!
+        created: حال شما می توانید از ‎`:%{name}:` استفاده کنید
+        sticker_exists: یک استیکر از قبل به نام ‎`:%{name}:` وجود دارد; شما نمی توانید آن را رونویسی کنید.
+        duplicate_exists: یک استیکر از قبل به نام ‎%{name} با یک تصویر مشابه وجود دارد!
       telegram_import:
-        pack_invalid: '`%{name}` is not a valid Telegram sticker pack name'
-        telegram_unloaded: Telegram package not loaded - please report this to a bot developer.
-        already_created: Already created by someone else; cannot overwrite
+        pack_invalid: 'نام ‎`%{name}` یک نام معتبر بسته استیکر تلگرام نیست'
+        telegram_unloaded: بسته استیکر تلگرام بارگذاری نشد - لطفاً این را به توسعه دهنده بات گزارش کنید.
+        already_created: از قبل توسط یک نفر دیگر ساخته شده; نمی توان آن را رونویسی کرد
         finished_importing:
-          one: Finished importing one sticker
-          many: Finished importing %{count} stickers
-        search_future: "To search for these stickers in the future, use:\n> `%{prefix}sticker search %{name}.`"
-        view: View Stickers
+          one: وارد کردن یک استیکر انجام شد
+          many: وارد کردن %{count} استیکر انجام شد
+        search_future: "برای پیدا کردن این استیکر ها برای بعد از این استفاده کنید:\n> `%{prefix}sticker search %{name}.`"
+        view: مشاهده استیکر ها

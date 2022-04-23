@@ -1,72 +1,72 @@
 ---
 permissions:
   add_reactions: |-
-    Add Reactions
+    Bày tỏ cảm xúc
   administrator: |-
-    Administrator
+    Quản lý
   attach_files: |-
-    Attach Files
+    Đính kèm tập tin
   ban_members: |-
-    Ban Members
+    Cấm thành viên
   change_nickname: |-
-    Change Nickname
+    Đổi biệt danh
   connect: |-
-    Connect
+    Kết nối
   create_instant_invite: |-
-    Create Instant Invite
+    Tạo lời mời tức thì
   deafen_members: |-
-    Deafen Members
+    Tắt nghe thành viên
   embed_links: |-
-    Embed Links
+    Nhúng liên kết
   external_emojis: |-
-    External Emojis
+    Dùng biểu cảm mở rộng
   kick_members: |-
-    Kick Members
+    Đuổi thành viên
   manage_channels: |-
-    Manage Channels
+    Quản lý kênh
   manage_emojis: |-
-    Manage Emojis
+    Quản lý biểu cảm
   manage_guild: |-
-    Manage Server
+    Quản lý server
   manage_messages: |-
-    Manage Messages
+    Quản lý tin nhắn
   manage_nicknames: |-
-    Manage Nicknames
+    Quản lý biệt danh
   manage_permissions: |-
-    Manage Roles
+    Quản lý vai trò
   manage_roles: |-
-    Manage Roles
+    Quản lý vai trò
   manage_webhooks: |-
-    Manage Webhooks
+    Quản lý Webhook
   mention_everyone: |-
-    Mention Everyone
+    Đề cập @everyone
   move_members: |-
-    Move Members
+    Di chuyển thành viên
   mute_members: |-
-    Mute Members
+    Tắt âm thành viên
   priority_speaker: |-
-    Priority Speaker
+    Người nói ưu tiên
   read_message_history: |-
-    Read Message History
+    Đọc lịch sử tin nhắn
   read_messages: |-
-    Read Messages
+    Đọc tin nhắn
   send_messages: |-
-    Send Messages
+    Gửi tin nhắn
   send_tts_messages: |-
-    Send TTS Messages
+    Gửi tin nhắn văn bản thành giọng nói
   speak: |-
-    Speak
+    Nói
   stream: |-
-    Stream
+    Video
   use_external_emojis: |-
-    Use External Emojis
+    Dùng biểu cảm mở rộng
   use_public_threads: |-
-    Use Public Threads
+    Tạo chủ đề công khai
   use_voice_activation: |-
-    Use Voice Activation
+    Sử dụng hoạt động voice
   view_audit_log: |-
-    View Audit Log
+    Xem nhật kí chỉnh sửa
   view_channel: |-
-    View Channel
+    Xem kênh
   view_guild_insights: |-
-    View Server Insights
+    Xem thống kê server

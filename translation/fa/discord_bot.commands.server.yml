@@ -53,8 +53,8 @@ discord_bot:
         nitro_off: Disabled free nitro usage in this server
         replies_on: Enabled message replies
         replies_off: Disabled message replies
-        masked_links_on: Enabled masked URL usage
-        masked_links_off: Disabled masked URL usage
+        masked_links_on: اعمال آدرس URL لینک روی متون فعال شد
+        masked_links_off: اعمال آدرس URL لینک روی متون غیرفعال شد
         pings_on: Enabled pings in reposted messages
         pings_off: Disabled pings in reposted messages
         user_content_on: |
@@ -124,7 +124,7 @@ discord_bot:
         stickers: استیکر ها
         nitro: نیترو
         replies: پاسخ ها
-        masked_links: Masked URLs
+        masked_links: متن های لینک دار
         pings: پینگ‌ها
         user_content: محتوای کاربر
         personas: پرسونا ها
