@@ -325,33 +325,33 @@ discord_bot:
         bot_latency: '> تاخیر API/Bot: %{bot_latency} میلی ثانیه'
         help_command: 'دستور راهنما: ‎`%{prefix}help`'
       upload_emote:
-        own_emojis_dont_ask_again: Yes; I own these
-        alphanumeric: ' - Must be alphanumeric with underscores'
-        size: ' - Must be between 1 and 32 characters long'
-        filesize: ' - Must be less than 256KB'
-        image: ' - Must be an image'
-        bad_name: "The name of the emote is incorrect:\n"
-        bad_attachment: "The attached emote is not valid:\n"
-        more_animated_needed: This server will have reached its limit for animated emotes, as it requires %{size}. Delete %{delete} and try again
-        more_static_needed: This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again
-        too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
-        this_emote: Is this the emote you meant?
+        own_emojis_dont_ask_again: بله; من دارنده این ایموجی ها هستم
+        alphanumeric: ' - بایستی متشکل از حروف الفبا با زیروندها (_) باشد'
+        size: ' - بایستی بین1 تا 32 کاراکتر باشد'
+        filesize: ' - بایستی کمتر از 256 کیلوبایت باشند'
+        image: ' - بایستی تصویر باشند'
+        bad_name: "نام شکلک مورد استفاده درست نیست:\n"
+        bad_attachment: "شکلک پیوست شده معتبر نیست:\n"
+        more_animated_needed: سرور به محدودیت شکلک های متحرک رسیده، از آنجایی که نیاز به %{size} دارد. %{delete} را حذف کرده و دوباره امتحان کنید
+        more_static_needed: سرور به محدودیت شکلک های عادی رسیده، از آنجایی که نیاز به %{size} دارد. %{delete} را حذف کرده و دوباره امتحان کنید
+        too_quick: شکلک ها دارند خیلی پشت سر هم ایجاد می شوند. لطفاً چند ساعت دیگر دوباره تلاش کنید (کد خطا ‎'%{e}')
+        this_emote: آیا منظورتان ای شکلک بود؟
         emote_preview: |
-          Is this alright?
-          If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select 'No'.
+          آیا این اشکالی ندارد؟
+          اگر شما مالک این ایموجی **نیستید**، یا اجازه پخش آن را ندارید، 'No' را انتخاب کنید.
         duplicate_name: |
-          This server already has an emote called %{name}
+          این سرور از قبل یک شکلک به نام ‎%{name} دارد
           > %{e}
-          Do you still want to upload this emote?
-        created_emotes: '%{user} uploaded %{e}'
+          آیا هنوز می خواهید این شکلک را آپلود کنید؟
+        created_emotes: 'کاربر ‎%{user} شکلک %{e} را آپلود کرد'
         also_upload_static: |
-          Would you also like to upload a static version of this emoji?
-          Users without Nitro can use it from the emoji picker to send %{e}
+          آیا می خواهید که نسخه ثابت و غیرمتحرک این ایموجی را هم اضافه کنید؟
+          اینگونه افراد بدون نیترو می توانند از آن از طریق انتخاب ایموجی داخل خود دیسکورد برای ارسال %{e} در اینجا، استفاده کنند
       vote_opt_out:
         success: Successfully opted out of vote DMs
       whois:
-        found: The author is <@%{author}> (%{author})
+        found: سازنده <@%{author}> (%{author}) می باشد
         not_nqn: |
           This command currently only works on messages reposted by NQN.
         not_found: |
-          The author of that message could not be automatically found. Are you sure it was posted by NQN?
+          سازنده این پیام نتوانست به طور خودکار پیدا شود. مطمئن هستید که این توسط NQN فرستاده شده؟
