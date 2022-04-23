@@ -49,16 +49,16 @@ exceptions:
   permissions_missing_reasons:
     #These translations were designed to be short, and to fit on about 1 line on a mobile screen
     guild: |-
-      %{user_ping}'s roles don't include it
+      Vai trò của %{user_ping} không có nó
     member_overwrite: |-
-      Channel permissions explicitly deny %{user_ping}
+      Quyền đã bị chặn rõ ràng trong kênh cho %{user_ping}
     role_overwrite:
       one: |-
-        Channel permissions denied for the role: %{roles}
+        Quyền đã bị chặn trong kênh cho vai trò: %{roles}
       many: |-
-        Channel permissions denied for these roles: %{roles}
+        Quyền đã bị chặn trong kênh cho các vai trò: %{roles}
     member_role_overwrite:
       one: |-
-        Channel permissions explicitly deny %{user_ping} as well as role: %{roles}
+        Quyền đã bị chặn rõ ràng trong kênh cho %{user_ping} cũng như vai trò: %{roles}
       many: |-
-        Channel permissions explicitly deny %{user_ping} as well as roles: %{roles}
+        Quyền đã bị chặn rõ ràng trong kênh cho %{user_ping} cũng như các vai trò: %{roles}
