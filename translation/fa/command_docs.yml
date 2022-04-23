@@ -142,57 +142,57 @@ command_docs:
     help: |
       Forbidden knowledge lurks within
   pack-dm:
-    short_doc: Get a full list of your packs in your DMs
+    short_doc: دریافت یک لیست کامل از بسته های شکلک شما در DM
     help: |
-      Have the bot send you a complete list of yout packs current emoji lists through your DMs.
+      ارسال یک لیست کامل از بسته های شکلک شما، به طور مستقیم به شما (DM) توسط بات.
   pack-join:
-    short_doc: Subscribe to an emote pack
+    short_doc: مشترک شدن در یک بسته شکلک
     help: |
-      Subscribe to an emote pack
+      مشترک شدن در یک بسته شکلک
   pack-leave:
-    short_doc: Unsubscribe from an emote pack
+    short_doc: لغو اشتراک با یک بسته شکلک
     help: |
-      Unsubscribe from an emote pack
+      لغو اشتراک با یک بسته شکلک
   pack-meta:
-    short_doc: Oooh... Pretty stats about your pack
+    short_doc: اوه اینجا رو نگا... یه سری اطلاعات درباره بسته شکلک شما
     help: |
-      Oooh... Pretty stats about your pack
+      دریافت یک سری اطلاعات درباره بسته شکلک شما
   pack-mine:
-    short_doc: Get a list of emote packs you're subscribed to
+    short_doc: دریافت لیستی از بسته هایی که شما مشترک آنها شدید
     help: |
-      Get a list of emote packs you're subscribed to
+      دریافت لیستی از بسته هایی که شما مشترک آنها شدید
   pack-publish:
-    short_doc: Publish your emote server as an emote pack
+    short_doc: منتشر کردن شکلک های سرور شما به عنوان یک بسته شکلک
     help: |
-      Publish your emote server as an emote pack
+      منتشر کردن شکلک های سرور شما به عنوان یک بسته شکلک
   pack-rename:
-    short_doc: Rename an emote pack
+    short_doc: تغییر نام یک بسته شکلک
     help: |
-      Rename an emote pack
+      تغییر نام یک بسته شکلک
   pack-save:
-    short_doc: Upload all of the emotes from a pack to this server
+    short_doc: آپلود کردن تمامی شکلک های یک بسته به این سرور
     help: |
-      Upload all of the emotes from a pack to this server
+      آپلود کردن تمامی شکلک های یک بسته به این سرور
   pack-search:
-    short_doc: Find entire packs of emotes to use with NQN
+    short_doc: گشتن در بین بسته شکلک های متنوع منتشر شده با استفاده از NQN
     help: |
-      Find entire packs of emotes to use with NQN
+      گشتن در بین بسته شکلک های متنوع منتشر شده با استفاده از NQN
   pack-set_public:
-    short_doc: Allow anyone to join this server via NQN.
+    short_doc: اجازه دادن به پیوستن همه از طریق دعوت توسط NQN
     help: |
-      Allow anyone to join this server via NQN.
+      اجازه دادن به پیوستن همه از طریق دعوت توسط NQN
   pack-show:
-    short_doc: Show the contents of a pack
+    short_doc: نمایش محتوای یک بسته
     help: |
-      Show the contents of a pack
+      نمایش محتوای یک بسته
   pack-unpublish:
-    short_doc: Don't want this server to be an emote pack anymore?
+    short_doc: برداشتن انتشار شکلک های این سرور
     help: |
-      Don't want this server to be an emote pack anymore?
+      برداشتن انتشار شکلک های این سرور
   pack:
-    short_doc: Manage entire pack of emotes
+    short_doc: مدیریت همه شکلک های بسته
     help: |
-      Manage entire pack of emotes
+      مدیریت همه شکلک های بسته
   persona-avatar_url:
     short_doc: تنظیم آواتار یک پرسونا
     help: |
@@ -297,37 +297,37 @@ command_docs:
     help: |
       Create a static emote, which when used posts an animated version of the emote instead!
   server-masked_links:
-    short_doc: Enable or disable masked links in this server
+    short_doc: فعال کردن متن های لینک دار در این سرور
     help: |
-      Enable or disable masked links in this server
+      فعال کردن متن های لینک دار در این سرور
   server-nitro:
     short_doc: Enable or disable free nitro usage in this server
     help: |
       Enable or disable free nitro usage in this server
   server-pack-join:
-    short_doc: Subscribe to an emote pack server-wide
+    short_doc: مشترک شدن به یک بسته شکلک به صورت گسترده در بین سرور ها
     help: |
-      Subscribe to an emote pack server-wide
+      مشترک شدن به یک بسته شکلک به صورت گسترده در بین سرور ها
   server-pack-leave:
-    short_doc: Unsubscribe from an emote pack server-wide
+    short_doc: لغو اشتراک یک بسته شکلک به صورت گسترده در بین سرور ها
     help: |
-      Unsubscribe from an emote pack server-wide
+      لغو اشتراک یک بسته شکلک به صورت گسترده در بین سرور ها
   server-pack-list:
-    short_doc: List the packs this server can use
+    short_doc: لیست بسته هایی که این سرور می تواند استفاده کند
     help: |
-      List the packs this server can use
+      لیست بسته هایی که این سرور می تواند استفاده کند
   server-pack-post:
-    short_doc: Post a list of server packs
+    short_doc: ارسال یک لیست از بسته شکلک های سرور
     help: |
-      Post a list of server packs
+      ارسال یک لیست از بسته شکلک های سرور
   server-pack-search:
-    short_doc: Search for an emote pack to add server-wide
+    short_doc: جستجو در بین بسته شکلک های به صورت گسترده در بین سرور ها
     help: |
-      Search for an emote pack to add server-wide
+      جستجو در بین بسته شکلک های به صورت گسترده در بین سرور ها
   server-pack:
-    short_doc: Do things with server packs
+    short_doc: یه کاری سر این بسته های شکلک سرور میاره
     help: |
-      Do things with server packs
+      یه کاری سر این بسته های شکلک سرور میاره
   server-permissions_debug:
     short_doc: Let NQN tell you what permissions it's missing
     help: |
@@ -360,7 +360,7 @@ command_docs:
   server-settings:
     short_doc: View the settings for this server
     help: |
-      View NQN's server settings, including features, configured channels and pack information.
+      نمایش تنظیمات NQN در سرور، از جمله ویژگی ها، کانال های تنظیم شده و اطلاعات مرتبط به بسته های شکلک.
   server-set_announcement_channel:
     short_doc: پست کردن اخبار مربوط به بات.
     help: |
@@ -383,19 +383,19 @@ command_docs:
     help: |
       برای استفاده کاربر از ویژگی نیتروی NQN، یک رول الزامی را تنظیم می کند
   server-stickers:
-    short_doc: Enable or disable sticker usage in this guild
+    short_doc: فعال یا غیرفعال سازی استفاده از استیکر ها در این سرور
     help: |
-      Enable or disable sticker usage in this guild
+      فعال یا غیرفعال سازی استفاده از استیکر ها در این سرور
   server-user_content:
-    short_doc: Enable or disable user aliases and packs for this server
+    short_doc: فعال یا غیرفعال کردن استفاده از اختصار ها و بسته های کاربران در این سرور
     help: |
-      Enable or disable user aliases and packs for this server
+      فعال یا غیرفعال کردن استفاده از اختصار ها و بسته های کاربران در این سرور
   server:
     short_doc: Modify the bots settings on this server
     help: |
       Modify the bots settings on this server
   sticker-create:
-    short_doc: Create a sticker from a file
+    short_doc: ایجاد یک استیکر از یک فایل
     help: |
       ساختن یک استیکر از یک فایل
       آپلود تصویر و استفاده از این دستور برای تبدیل آن به یک استیکر.
@@ -404,32 +404,32 @@ command_docs:
       استیکر ها فقط میتوانند حداکثر 8 مگابایت حجم داشته باشند، و نام‌هایشان هم فقط باید متشکل از حروف الفبا یا اعداد انگلیسی باشد.
       استیکر ها به یک فایل افزونه نیازمند هستند، که آن هم از حروف الفبا و اعداد تشکیل می شود.
   sticker-delete:
-    short_doc: Delete a sticker
+    short_doc: حذف یک استیکر
     help: |
-      Delete a sticker
-      You can only delete stickers you own.
+      حذف کردن یک استیکر
+      شما فقط می توانید استیکر های خودتان را حذف کنید.
   sticker-import:
-    short_doc: Import stickers from emotes
+    short_doc: وارد کردن استیکر ها از شکلک ها
     help: |2
-      Import stickers from emotes
-      Either from an emote directly, with an optional alias
+      وارد کردن استیکر ها از شکلک ها
+      یا با استفاده مستقیم از شکلک، یا با اختصار های اختیاری
        - sticker import :blue_smirk: smirk.png
-      Or by searching through emotes NQN has.
-       - sticker import blue pat
-      Note that the searching through emotes option does not support aliasing
+      یا از طریق گشتن در بین شکلک هایی که NQN دارد.
+      - sticker import blue pat
+      توجه داشته باشید که جستجو در بین شکلک ها از اختصار های سفارشی پشتیبانی نمی کند
   sticker-mine:
-    short_doc: Find my stickers
+    short_doc: پیدا کردن استیکر های من
     help: |
-      Find my stickers
+      پیدا کردن استیکر های من
   sticker-rename:
-    short_doc: Rename a sticker
+    short_doc: تغییر نام یک استیکر
     help: |
-      Rename a sticker
-      You can only rename stickers you own.
+      تغییر نام یک استیکر
+      شما فقط می توانید نام استیکر های خودتان را تغییر دهید.
   sticker-search:
-    short_doc: Search through all the stickers NQN has, with an optional query
+    short_doc: جستجو در بین همه استیکر هایی که NQN در حال حاضر دارد، البته با جستار های اختیاری
     help: |
-      Search through all the stickers NQN has, with an optional query
+      جستجو در بین همه استیکر هایی که NQN در حال حاضر دارد، البته با جستار های اختیاری
   sticker-telegram:
     short_doc: وارد کردن استیکر از تلگرام
     help: |
