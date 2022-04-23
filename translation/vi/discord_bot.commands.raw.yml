@@ -332,24 +332,24 @@ discord_bot:
         bad_attachment: "Biểu cảm được đính kèm không hợp lệ:\n"
         more_animated_needed: Server đã đạt giới hạn biểu cảm động, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
         more_static_needed: Server đã đạt giới hạn biểu cảm, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
-        too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
-        this_emote: Is this the emote you meant?
+        too_quick: Biểu cảm đang được thêm quá nhanh, thử lại sau vài giờ (Mã lỗi '%{e}')
+        this_emote: Đây có phải mà biểu cảm mà bạn muốn?
         emote_preview: |
-          Is this alright?
-          If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select 'No'.
+          Nó đúng không?
+          Nếu bạn **KHÔNG PHẢI** chủ sỡ hữu của biểu cảm này, hoặc không có quyền phân tán nó, chọn 'Không'.
         duplicate_name: |
-          This server already has an emote called %{name}
+          Server này đã có biểu cảm tên là %{name}
           > %{e}
-          Do you still want to upload this emote?
-        created_emotes: '%{user} uploaded %{e}'
+          Bạn vẫn muốn tải lên biểu cảm này chứ?
+        created_emotes: '%{user} vừa tải lên %{e}'
         also_upload_static: |
-          Would you also like to upload a static version of this emoji?
-          Users without Nitro can use it from the emoji picker to send %{e}
+          Bạn có muốn tải lên luôn bản tĩnh của biểu cảm này?
+          Người dùng không có Nitro có thể dùng nó trong server để gửi %{e}
       vote_opt_out:
-        success: Successfully opted out of vote DMs
+        success: Thành công hủy nhận tin nhắn trực tiếp về vote
       whois:
-        found: The author is <@%{author}> (%{author})
+        found: Tác giả là <@%{author}> (%{author})
         not_nqn: |
-          This command currently only works on messages reposted by NQN.
+          Lệnh này hiện chỉ có thể được dùng trên tin nhắn được thay thế bởi NQN.
         not_found: |
-          The author of that message could not be automatically found. Are you sure it was posted by NQN?
+          Tác giả của tin nhắn đó không thể được tìm thấy một cách tự động. Bạn có chắc nó được gửi bởi NQN chứ?
