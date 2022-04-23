@@ -198,7 +198,7 @@ discord_bot:
            • Để vô hiệu hóa lệnh của NQN trong một kênh bất kì, chặn quyền 'Gửi tin nhắn' của bot thông qua chỉnh sửa quyền hạn trong kênh.
            • Để chặn việc NQN thay thế tin nhắn trong một kênh, chặn quyền 'Quản lý Webhook' của bot thông qua chỉnh sửa quyền hạn trong kênh.
            • Để chặn mọi hoạt động của NQN trong một kênh, chặn quyền 'Xem kênh' của bot thông qua chỉnh sửa quyền hạn trong kênh.
-        page_8_4_name: 'Information Gathering:'
+        page_8_4_name: 'Thu thập thông tin:'
         page_8_4_desc: |
           NQN stores reposted messages such that users can delete them and for the audit log.
           Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
