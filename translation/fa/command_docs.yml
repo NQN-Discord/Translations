@@ -73,9 +73,9 @@ command_docs:
     help: |
       Export your emote list
   help:
-    short_doc: Learn about my commands
+    short_doc: شناخت بیشتر از دستورات من
     help: |
-      Learn about the commands you can run with NQN
+      آشنایی با دستوراتی که می توانید با NQN از آنها استفاده کنید
   ignore_me:
     short_doc: Stop NQN from reposting your messages
     help: |
@@ -84,17 +84,17 @@ command_docs:
       - شما همچنان می توانید پیام های خود را از طریق استفاده از [dashboard](https://nqn.blue)، تبدیل کنید
       - بات هیچ یک از پیام های شما که از طریق webhook فرستاده شده باشند، پاسخ نخواهد داد
   info:
-    short_doc: Internal statistics about the bot
+    short_doc: اطلاعات پشت‌صحنه درباره بات
     help: |
-      Internal statistics about the bot
+      اطلاعات پشت‌صحنه درباره بات
   invite_me:
-    short_doc: Invite the bot to your server!
+    short_doc: دعوت بات به سرور خودتان!
     help: |
-      Invite the bot to your server!
+      دعوت کردن بات به سرور خودتان!
   jumbo:
-    short_doc: Makes an emoji bigger
+    short_doc: یک ایموجی را بزرگ‌تر می‌کند
     help: |
-      Makes an emoji bigger
+      یک ایموجی را بزرگ‌تر می‌کند
   mod-audit:
     short_doc: دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
     help: |
@@ -130,17 +130,17 @@ command_docs:
     help: |
       Move up to 20 of the most recent messages in this channel to another
   mutuals:
-    short_doc: See the servers I share with you
+    short_doc: نمایش سرور هایی که من و شما باهم در آنها هستیم
     help: |
-      See the servers I share with you in DMs
+      نمایش سرور هایی که من و شما باهم در آنها هستیم در DM
   my_emotes:
     short_doc: See what emojis you can post with NQN
     help: |
       See what emojis you can post with NQN
   owner:
-    short_doc: Forbidden knowledge lurks within
+    short_doc: اطلاعاتی درباره دانشی که داخل این بات فرونهانده شده
     help: |
-      Forbidden knowledge lurks within
+      اطلاعاتی درباره دانشی که داخل این بات فرونهانده شده
   pack-dm:
     short_doc: دریافت یک لیست کامل از بسته های شکلک شما در DM
     help: |
@@ -235,13 +235,13 @@ command_docs:
     help: |
       مدیریت پرسونا های شما
   premium-check:
-    short_doc: Recalculate your premium information
+    short_doc: محاسبه مجدد اطلاعات پریمیوم شما
     help: |
-      Recalculates your premium information, including the list of servers gaining premium from you.
+      محاسبه مجدد اطلاعات پریمیوم شما، از جمله لیستی از سرور هایی که از پریمیوم شما منفعت می برند.
   premium:
-    short_doc: Information about NQN premium
+    short_doc: اطلاعات مربوط به پریمیوم بات NQN
     help: |
-      Information about NQN premium
+      اطلاعات مربوط به پریمیوم بات NQN
   ranking:
     short_doc: How high up is your server in our rankings?
     help: |
@@ -289,21 +289,21 @@ command_docs:
     help: |
       Enable or disable posting messages through the bot dashboard
   server-language:
-    short_doc: Set the bots language %{locale_flag_emojis}
+    short_doc: تنظیم زبان بات %{locale_flag_emojis}
     help: |
-      Set the bots language
+      تنظیم زبان بات
   server-link:
-    short_doc: Create a static emote, which when used posts an animated version of the emote instead!
+    short_doc: ساخت یک شکلک ثابت به عنوان نسخه متحرک آن، که با فرستادن نسخه ثابت، به نسخه متحرکش تبدیل شود!
     help: |
-      Create a static emote, which when used posts an animated version of the emote instead!
+      ساخت یک شکلک ثابت به عنوان نسخه متحرک آن، که با فرستادن نسخه ثابت، به نسخه متحرکش تبدیل شود!
   server-masked_links:
     short_doc: فعال کردن متن های لینک دار در این سرور
     help: |
       فعال کردن متن های لینک دار در این سرور
   server-nitro:
-    short_doc: Enable or disable free nitro usage in this server
+    short_doc: استفاده رایگان از شکلک های نیترو را در این سرور فعال یا غیرفعال می‌کند
     help: |
-      Enable or disable free nitro usage in this server
+      استفاده رایگان از شکلک های نیترو را در این سرور فعال یا غیرفعال می‌کند
   server-pack-join:
     short_doc: مشترک شدن به یک بسته شکلک به صورت گسترده در بین سرور ها
     help: |
@@ -329,9 +329,9 @@ command_docs:
     help: |
       یه کاری سر این بسته های شکلک سرور میاره
   server-permissions_debug:
-    short_doc: Let NQN tell you what permissions it's missing
+    short_doc: اجازه دادن به NQN به نمایش دسترسی هایی که کم دارد
     help: |
-      Debug the permissions in your server
+      اشکال‌یابی دسترسی های سرور شما
   server-personas:
     short_doc: فعال یا غیرفعال سازی استفاده از پرسونا ها
     help: |
@@ -345,11 +345,11 @@ command_docs:
     help: |
       Enable or disable phishing message detection for this server
   server-prefix:
-    short_doc: Make NQN listen to a different prefix.
+    short_doc: تعیین پیشوند جدید برای استفاده NQN.
     help: |
-      Make NQN listen to a different prefix.
+      تعیین پیشوند جدید برای استفاده NQN.
 
-      Example invocation:
+      مثال فراخواندن:
       >>> %{prefix}server prefix <@%{bot_id}> ?
     signature: |
       @NQN#3454 [prefix=!]
@@ -391,9 +391,9 @@ command_docs:
     help: |
       فعال یا غیرفعال کردن استفاده از اختصار ها و بسته های کاربران در این سرور
   server:
-    short_doc: Modify the bots settings on this server
+    short_doc: تغییر تنظیمات بات در این سرور
     help: |
-      Modify the bots settings on this server
+      تغییر تنظیمات بات در این سرور
   sticker-create:
     short_doc: ایجاد یک استیکر از یک فایل
     help: |
