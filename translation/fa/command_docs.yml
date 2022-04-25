@@ -29,7 +29,7 @@ command_docs:
     help: |
       تغییر نام یکی از اختصار هایتان
   alias-search:
-    short_doc: Look for individual emotes to use with NQN
+    short_doc: گشتن به دنبال شکلک های جداگانه با استفاده از NQN
     help: |
       گشتن برای شکلک های متفاوت برای استفاده در NQN
 
@@ -39,7 +39,7 @@ command_docs:
        - `page`: رفتن به یک صفحه مشخص
        - `order`: یکی از موارد 'uses' یا 'random'
   alias:
-    short_doc: Manage the individual emotes you can use
+    short_doc: مدیریت جداگانه شکلک هایی که می توانید استفاده کنید
     help: |
       مدیریت شکلک های جدا از هم و متفاوتی که شما می توانید استفاده کنید
 
@@ -49,35 +49,33 @@ command_docs:
        - `page`: رفتن به یک صفحه مشخص
        - `order`: یکی از موارد 'uses' یا 'random'
   audit:
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
-
-      If both channel and members are to be unfiltered, use 'audit guild'
+      دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
+      اختیاری[Channel] -> فیلتر کردن ضبط سوابق فقط به این کانال
+      اختیاری[Member]-> فیلتر کردن ضبط سوابق فقط به این اعضاء
   delete:
-    short_doc: Delete one of your messages reposted by NQN
+    short_doc: حذف یکی از پیام های تغییر یافته شما توسط NQN
     help: |
-      Delete one of your messages reposted by NQN.
-      By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
-      You can also use Discord's message reply functionality to delete that message.
+      حذف یکی از پیام های تغییر یافته شما توسط NQN
+      به طور پیش‌فرض، آخرین پیامی که تبدیل آن برای شما صورت گرفته پاک خواهد شد، اما می توانید در انتها آدرس URL پیام مورد نظر را نیز شامل کنید تا آن پاک شود.
+      شما همچنین می توانید با استفاده از ویژگی رپلای خود دیسکورد نیز پیام مورد نظر را نیز همینگونه تعیین کنید.
   edit:
-    short_doc: Edit a message posted by NQN
+    short_doc: ویرایش یکی از پیام های تبدیل شده توسط NQN
     help: |
-      Edits the content of one of your messages reposted by NQN.
-      By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
-      You can also use Discord's message reply functionality to edit that message.
+      ویرایش یکی از پیام های تبدیل شده توسط NQN
+      به طور پیش‌فرض، آخرین پیامی که تبدیل آن برای شما صورت گرفته پاک خواهد شد، اما می توانید در انتها آدرس URL پیام مورد نظر را نیز شامل کنید تا آن پاک شود.
+      شما همچنین می توانید با استفاده از ویژگی رپلای خود دیسکورد نیز پیام مورد نظر را نیز همینگونه تعیین کنید.
   export:
-    short_doc: Export your emote list
+    short_doc: استخراج لیست اختصار های شما
     help: |
-      Export your emote list
+      استخراج لیست اختصار های شما
   help:
     short_doc: شناخت بیشتر از دستورات من
     help: |
       آشنایی با دستوراتی که می توانید با NQN از آنها استفاده کنید
   ignore_me:
-    short_doc: Stop NQN from reposting your messages
+    short_doc: متوقف کردن NQN از تبدیل پیام های شما
     help: |
       اجرای این دستور NQN را از تبدیل پیام هایتان در هر سروری که شما و بات در آن هستید، متوقف می کند.
       - دستورات برای استفاده همچنان فعال هستند، اجرای مجدد این دستور همه چیز را دوباره به حالت عادی برمیگرداند
@@ -106,9 +104,9 @@ command_docs:
     help: |
       بن کردن کاربری که یک پیام را فرستاده
   mod-edit_topic:
-    short_doc: Add animated emojis to channel topics
+    short_doc: افزودن ایموجی های متحرک به قسمت توضیحات یک کانال
     help: |
-      Changes the channel description, allowing for animated emojis in them as well
+      قسمت توضیحات یک کانال را تغییر می دهد، که باعث می شود بتوان از ایموجی های متحرک نیز در آنها استفاده کرد
   mod-kick:
     short_doc: بیرون انداختن کاربری که یک پیام را فرستاده
     help: |
@@ -118,25 +116,25 @@ command_docs:
     help: |
       انتقال تا حداکثر 20 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
   mod-purge:
-    short_doc: Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user
+    short_doc: حذف تعدادی از پیام هایی که توسط بات تبدیل‌شان صورت گرفته در این کانال، افزودن فیلتر برای مشخص کردن یک کاربر اختیاریست
     help: |
-      Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user
+      حذف تعدادی از پیام هایی که توسط بات تبدیل‌شان صورت گرفته در این کانال، افزودن فیلتر برای مشخص کردن یک کاربر اختیاریست
   mod:
     short_doc: ویژگی های مدیریتی و نظارتی NQN
     help: |
       ویژگی های مدیریتی و نظارتی NQN
   move:
-    short_doc: Move up to 20 of the most recent messages in this channel to another
+    short_doc: انتقال تا حداکثر 20 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
     help: |
-      Move up to 20 of the most recent messages in this channel to another
+      انتقال تا حداکثر 20 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
   mutuals:
     short_doc: نمایش سرور هایی که من و شما باهم در آنها هستیم
     help: |
       نمایش سرور هایی که من و شما باهم در آنها هستیم در DM
   my_emotes:
-    short_doc: See what emojis you can post with NQN
+    short_doc: مشاهده ایموجی هایی که می توانید با NQN آنها را ارسال کنید
     help: |
-      See what emojis you can post with NQN
+      مشاهده ایموجی هایی که می توانید با NQN آنها را ارسال کنید
   owner:
     short_doc: اطلاعاتی درباره دانشی که داخل این بات فرونهانده شده
     help: |
@@ -243,11 +241,11 @@ command_docs:
     help: |
       اطلاعات مربوط به پریمیوم بات NQN
   ranking:
-    short_doc: How high up is your server in our rankings?
+    short_doc: در سطح‌بندی ما، سرور شما در چه رده‌ای قرار دارد؟
     help: |
-      How high up is your server in our rankings?
+      در سطح‌بندی ما، سرور شما در چه رده‌ای قرار دارد؟
   react:
-    short_doc: React to a message with emojis from NQN
+    short_doc: ری‌اکت کردن به یک پیام با ایموجی های NQN
     help: |
       Use Discord replies or a message link to react to that message.
       The command allows a list of reactions, each of which will be added in the order specified.
