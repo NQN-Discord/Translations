@@ -29,7 +29,7 @@ command_docs:
     help: |
       تغییر نام یکی از اختصار هایتان
   alias-search:
-    short_doc: Look for individual emotes to use with NQN
+    short_doc: گشتن به دنبال شکلک های جداگانه با استفاده از NQN
     help: |
       گشتن برای شکلک های متفاوت برای استفاده در NQN
 
@@ -39,7 +39,7 @@ command_docs:
        - `page`: رفتن به یک صفحه مشخص
        - `order`: یکی از موارد 'uses' یا 'random'
   alias:
-    short_doc: Manage the individual emotes you can use
+    short_doc: مدیریت جداگانه شکلک هایی که می توانید استفاده کنید
     help: |
       مدیریت شکلک های جدا از هم و متفاوتی که شما می توانید استفاده کنید
 
@@ -49,52 +49,50 @@ command_docs:
        - `page`: رفتن به یک صفحه مشخص
        - `order`: یکی از موارد 'uses' یا 'random'
   audit:
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
-
-      If both channel and members are to be unfiltered, use 'audit guild'
+      دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
+      اختیاری[Channel] -> فیلتر کردن ضبط سوابق فقط به این کانال
+      اختیاری[Member]-> فیلتر کردن ضبط سوابق فقط به این اعضاء
   delete:
-    short_doc: Delete one of your messages reposted by NQN
+    short_doc: حذف یکی از پیام های تغییر یافته شما توسط NQN
     help: |
-      Delete one of your messages reposted by NQN.
-      By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
-      You can also use Discord's message reply functionality to delete that message.
+      حذف یکی از پیام های تغییر یافته شما توسط NQN
+      به طور پیش‌فرض، آخرین پیامی که تبدیل آن برای شما صورت گرفته پاک خواهد شد، اما می توانید در انتها آدرس URL پیام مورد نظر را نیز شامل کنید تا آن پاک شود.
+      شما همچنین می توانید با استفاده از ویژگی رپلای خود دیسکورد نیز پیام مورد نظر را نیز همینگونه تعیین کنید.
   edit:
-    short_doc: Edit a message posted by NQN
+    short_doc: ویرایش یکی از پیام های تبدیل شده توسط NQN
     help: |
-      Edits the content of one of your messages reposted by NQN.
-      By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
-      You can also use Discord's message reply functionality to edit that message.
+      ویرایش یکی از پیام های تبدیل شده توسط NQN
+      به طور پیش‌فرض، آخرین پیامی که تبدیل آن برای شما صورت گرفته پاک خواهد شد، اما می توانید در انتها آدرس URL پیام مورد نظر را نیز شامل کنید تا آن پاک شود.
+      شما همچنین می توانید با استفاده از ویژگی رپلای خود دیسکورد نیز پیام مورد نظر را نیز همینگونه تعیین کنید.
   export:
-    short_doc: Export your emote list
+    short_doc: استخراج لیست اختصار های شما
     help: |
-      Export your emote list
+      استخراج لیست اختصار های شما
   help:
-    short_doc: Learn about my commands
+    short_doc: شناخت بیشتر از دستورات من
     help: |
-      Learn about the commands you can run with NQN
+      آشنایی با دستوراتی که می توانید با NQN از آنها استفاده کنید
   ignore_me:
-    short_doc: Stop NQN from reposting your messages
+    short_doc: متوقف کردن NQN از تبدیل پیام های شما
     help: |
       اجرای این دستور NQN را از تبدیل پیام هایتان در هر سروری که شما و بات در آن هستید، متوقف می کند.
       - دستورات برای استفاده همچنان فعال هستند، اجرای مجدد این دستور همه چیز را دوباره به حالت عادی برمیگرداند
       - شما همچنان می توانید پیام های خود را از طریق استفاده از [dashboard](https://nqn.blue)، تبدیل کنید
       - بات هیچ یک از پیام های شما که از طریق webhook فرستاده شده باشند، پاسخ نخواهد داد
   info:
-    short_doc: Internal statistics about the bot
+    short_doc: اطلاعات پشت‌صحنه درباره بات
     help: |
-      Internal statistics about the bot
+      اطلاعات پشت‌صحنه درباره بات
   invite_me:
-    short_doc: Invite the bot to your server!
+    short_doc: دعوت بات به سرور خودتان!
     help: |
-      Invite the bot to your server!
+      دعوت کردن بات به سرور خودتان!
   jumbo:
-    short_doc: Makes an emoji bigger
+    short_doc: یک ایموجی را بزرگ‌تر می‌کند
     help: |
-      Makes an emoji bigger
+      یک ایموجی را بزرگ‌تر می‌کند
   mod-audit:
     short_doc: دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
     help: |
@@ -106,9 +104,9 @@ command_docs:
     help: |
       بن کردن کاربری که یک پیام را فرستاده
   mod-edit_topic:
-    short_doc: Add animated emojis to channel topics
+    short_doc: افزودن ایموجی های متحرک به قسمت توضیحات یک کانال
     help: |
-      Changes the channel description, allowing for animated emojis in them as well
+      قسمت توضیحات یک کانال را تغییر می دهد، که باعث می شود بتوان از ایموجی های متحرک نیز در آنها استفاده کرد
   mod-kick:
     short_doc: بیرون انداختن کاربری که یک پیام را فرستاده
     help: |
@@ -118,29 +116,29 @@ command_docs:
     help: |
       انتقال تا حداکثر 20 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
   mod-purge:
-    short_doc: Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user
+    short_doc: حذف تعدادی از پیام هایی که توسط بات تبدیل‌شان صورت گرفته در این کانال، افزودن فیلتر برای مشخص کردن یک کاربر اختیاریست
     help: |
-      Purge some number of messages reposted by the bot in this channel, optionally filtering to a specific user
+      حذف تعدادی از پیام هایی که توسط بات تبدیل‌شان صورت گرفته در این کانال، افزودن فیلتر برای مشخص کردن یک کاربر اختیاریست
   mod:
     short_doc: ویژگی های مدیریتی و نظارتی NQN
     help: |
       ویژگی های مدیریتی و نظارتی NQN
   move:
-    short_doc: Move up to 20 of the most recent messages in this channel to another
+    short_doc: انتقال تا حداکثر 20 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
     help: |
-      Move up to 20 of the most recent messages in this channel to another
+      انتقال تا حداکثر 20 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
   mutuals:
-    short_doc: See the servers I share with you
+    short_doc: نمایش سرور هایی که من و شما باهم در آنها هستیم
     help: |
-      See the servers I share with you in DMs
+      نمایش سرور هایی که من و شما باهم در آنها هستیم در DM
   my_emotes:
-    short_doc: See what emojis you can post with NQN
+    short_doc: مشاهده ایموجی هایی که می توانید با NQN آنها را ارسال کنید
     help: |
-      See what emojis you can post with NQN
+      مشاهده ایموجی هایی که می توانید با NQN آنها را ارسال کنید
   owner:
-    short_doc: Forbidden knowledge lurks within
+    short_doc: اطلاعاتی درباره دانشی که داخل این بات فرونهانده شده
     help: |
-      Forbidden knowledge lurks within
+      اطلاعاتی درباره دانشی که داخل این بات فرونهانده شده
   pack-dm:
     short_doc: دریافت یک لیست کامل از بسته های شکلک شما در DM
     help: |
@@ -235,75 +233,75 @@ command_docs:
     help: |
       مدیریت پرسونا های شما
   premium-check:
-    short_doc: Recalculate your premium information
+    short_doc: محاسبه مجدد اطلاعات پریمیوم شما
     help: |
-      Recalculates your premium information, including the list of servers gaining premium from you.
+      محاسبه مجدد اطلاعات پریمیوم شما، از جمله لیستی از سرور هایی که از پریمیوم شما منفعت می برند.
   premium:
-    short_doc: Information about NQN premium
+    short_doc: اطلاعات مربوط به پریمیوم بات NQN
     help: |
-      Information about NQN premium
+      اطلاعات مربوط به پریمیوم بات NQN
   ranking:
-    short_doc: How high up is your server in our rankings?
+    short_doc: در سطح‌بندی ما، سرور شما در چه رده‌ای قرار دارد؟
     help: |
-      How high up is your server in our rankings?
+      در سطح‌بندی ما، سرور شما در چه رده‌ای قرار دارد؟
   react:
-    short_doc: React to a message with emojis from NQN
+    short_doc: ری‌اکت کردن به یک پیام با ایموجی های NQN
     help: |
-      Use Discord replies or a message link to react to that message.
-      The command allows a list of reactions, each of which will be added in the order specified.
-      **You need to react to the added reactions as well for them to stay.**
+      از ویژگی رپلای دیسکورد یا لینک آن پیام برای مشخص کردن پیامی که می خواهید به آن ری‌اکت کنید، استفاده کنید.
+      این دستور به شما اجازه می دهد لیستی از ایموجی ها را برای ری‌اکت کردن، انتخاب و به ترتیب استفاده کنید.
+      **شما نیز باید به ری‌اکشنی که ظاهر شد نیز ری‌اکت کنید تا آن ری‌اکشن باقی بماند.**
   search_all:
-    short_doc: Look at emotes the bot has seen
+    short_doc: دیدن شکلک هایی که بات تا به حال دیده
     help: |
-      Look at emotes the bot has seen
+      دیدن شکلک هایی که بات تا به حال دیده
   server-alias-delete:
-    short_doc: Didn't like an emote? Make it so they've got to work for it.
+    short_doc: از یک شکلک خوشتان نیامد؟ خب کاری کنید که بقیه برای استفاده از آن، خودشان زحمت بکشند.
     help: |
-      Didn't like an emote? Make it so they've got to work for it.
+      از یک شکلک خوشتان نیامد؟ خب کاری کنید که بقیه برای استفاده از آن، خودشان زحمت بکشند.
   server-alias-import:
-    short_doc: Import a list of server aliases from a file.
+    short_doc: وارد کردن لیستی از اختصار های سرور با یک فایل.
     help: |
-      Import a list of server aliases from a file.
+      وارد کردن لیستی از اختصار های سرور با یک فایل.
   server-alias-list:
-    short_doc: Show all the aliases that anyone in your server can use
+    short_doc: نمایش لیستی از اختصار هایی که همه در سرور می توانند از آنها استفاده کنند
     help: |
-      Show all the aliases that anyone in your server can use
+      نمایش لیستی از اختصار هایی که همه در سرور می توانند از آنها استفاده کنند
   server-alias-post:
-    short_doc: Post a list of server aliases
+    short_doc: ارسال یک لیست از اختصار های سرور
     help: |
-      Post a list of server aliases
+      ارسال یک لیست از اختصار های سرور
   server-alias-rename:
-    short_doc: Rename a server alias
+    short_doc: تغییر نام یک اختصار سرور
     help: |
-      Rename a server alias
+      تغییر نام یک اختصار سرور
   server-alias-search:
-    short_doc: Allow anyone in the server to use an emote!
+    short_doc: اجازه دادن به همه در این سرور برای استفاده از یک شکلک!
     help: |
-      Allow anyone in the server to use an emote!
+      اجازه دادن به همه در این سرور برای استفاده از یک شکلک!
   server-alias:
-    short_doc: Do things with server aliases
+    short_doc: یه کاری سر این اختصار های سرور میاره
     help: |
-      Do things with server aliases
+      یه کاری سر این اختصار های سرور میاره
   server-dashboard_posting:
-    short_doc: Enable or disable posting messages through the bot dashboard
+    short_doc: فعال یا غیرفعال سازی استفاده از داشبورد سایت برای ارسال پیام
     help: |
-      Enable or disable posting messages through the bot dashboard
+      فعال یا غیرفعال سازی استفاده از داشبورد سایت برای ارسال پیام
   server-language:
-    short_doc: Set the bots language %{locale_flag_emojis}
+    short_doc: تنظیم زبان بات %{locale_flag_emojis}
     help: |
-      Set the bots language
+      تنظیم زبان بات
   server-link:
-    short_doc: Create a static emote, which when used posts an animated version of the emote instead!
+    short_doc: ساخت یک شکلک ثابت به عنوان نسخه متحرک آن، که با فرستادن نسخه ثابت، به نسخه متحرکش تبدیل شود!
     help: |
-      Create a static emote, which when used posts an animated version of the emote instead!
+      ساخت یک شکلک ثابت به عنوان نسخه متحرک آن، که با فرستادن نسخه ثابت، به نسخه متحرکش تبدیل شود!
   server-masked_links:
     short_doc: فعال کردن متن های لینک دار در این سرور
     help: |
       فعال کردن متن های لینک دار در این سرور
   server-nitro:
-    short_doc: Enable or disable free nitro usage in this server
+    short_doc: استفاده رایگان از شکلک های نیترو را در این سرور فعال یا غیرفعال می‌کند
     help: |
-      Enable or disable free nitro usage in this server
+      استفاده رایگان از شکلک های نیترو را در این سرور فعال یا غیرفعال می‌کند
   server-pack-join:
     short_doc: مشترک شدن به یک بسته شکلک به صورت گسترده در بین سرور ها
     help: |
@@ -329,36 +327,36 @@ command_docs:
     help: |
       یه کاری سر این بسته های شکلک سرور میاره
   server-permissions_debug:
-    short_doc: Let NQN tell you what permissions it's missing
+    short_doc: اجازه دادن به NQN به نمایش دسترسی هایی که کم دارد
     help: |
-      Debug the permissions in your server
+      اشکال‌یابی دسترسی های سرور شما
   server-personas:
     short_doc: فعال یا غیرفعال سازی استفاده از پرسونا ها
     help: |
       اجازه دادن به کاربران برای استفاده از نام ها و آواتار های غیرحقیقی
   server-pings:
-    short_doc: Enable or disable pings in messages for this server
+    short_doc: فعال یا غیرفعال کردن استفاده از پینگ ها در پیام های این سرور
     help: |
-      Enable or disable pings in messages that NQN reposts on this server
+      فعال یا غیرفعال کردن استفاده از پینگ ها در پیام های این سرور
   server-phish_detection:
-    short_doc: Enable or disable phishing message detection for this server
+    short_doc: فعال یا غیرفعال کردن تشخیص فیشینگ از پیام های این سرور
     help: |
-      Enable or disable phishing message detection for this server
+      فعال یا غیرفعال کردن تشخیص فیشینگ از پیام های این سرور
   server-prefix:
-    short_doc: Make NQN listen to a different prefix.
+    short_doc: تعیین پیشوند جدید برای استفاده NQN.
     help: |
-      Make NQN listen to a different prefix.
+      تعیین پیشوند جدید برای استفاده NQN.
 
-      Example invocation:
+      مثال فراخواندن:
       >>> %{prefix}server prefix <@%{bot_id}> ?
     signature: |
       @NQN#3454 [prefix=!]
   server-replies:
-    short_doc: Enable or disable message replies in this server
+    short_doc: فعال یا غیرفعال کردن استفاده از رپلای ها در پیام های این سرور
     help: |
-      Enable or disable message replies in this server
+      فعال یا غیرفعال کردن استفاده از رپلای ها در پیام های این سرور
   server-settings:
-    short_doc: View the settings for this server
+    short_doc: نمایش تنظیمات این سرور
     help: |
       نمایش تنظیمات NQN در سرور، از جمله ویژگی ها، کانال های تنظیم شده و اطلاعات مرتبط به بسته های شکلک.
   server-set_announcement_channel:
@@ -367,13 +365,13 @@ command_docs:
       پست کردن اخبار مربوط به بات.
       این شامل اخبار ویژگی های جدید نیز می شود
   server-set_audit_channel:
-    short_doc: Post messages the bot reposts
+    short_doc: ارسال پیام هایی که بات آنها را تبدیل می کند
     help: |
-      Post messages the bot reposts
+      ارسال پیام هایی که بات آنها را تبدیل می کند
   server-set_boost_channel:
-    short_doc: Post whenever someone votes with the server on top.gg
+    short_doc: ارسال پیام هروقت که فردی به بات در top.gg رائ داد
     help: |
-      Post whenever someone votes with the server on top.gg
+      ارسال پیام هروقت که فردی به بات در top.gg رائ داد
   server-set_boost_role:
     short_doc: دادن این رول توسط NQN وقتی یک کاربر سرور را بوست کرد
     help: |
@@ -391,9 +389,9 @@ command_docs:
     help: |
       فعال یا غیرفعال کردن استفاده از اختصار ها و بسته های کاربران در این سرور
   server:
-    short_doc: Modify the bots settings on this server
+    short_doc: تغییر تنظیمات بات در این سرور
     help: |
-      Modify the bots settings on this server
+      تغییر تنظیمات بات در این سرور
   sticker-create:
     short_doc: ایجاد یک استیکر از یک فایل
     help: |
@@ -443,20 +441,20 @@ command_docs:
     help: |
       یکم کمک برای استفاده از من لازم دارید؟
   tutorial:
-    short_doc: Learn how to use emotes with NQN
+    short_doc: آشنایی بیشتر با نحوه استفاده از شکلک های NQN
     help: |
-      Learn how to use emotes with NQN
+      آشنایی بیشتر با نحوه استفاده از شکلک های NQN
   upload_emote:
-    short_doc: Search for all the emotes the bot has ever seen and upload them to this server.
+    short_doc: جستجو برای تمامی شکلک هایی که بات تا به حال دیده و آپلود کردن آنها به این سرور.
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload that
+      جستجو برای تمامی شکلک هایی که بات تا به حال دیده و آپلود کردن آنها به این سرور.
+      این دستور به شما اجازه می دهد تا شکلک هایی آپلود کنید.
+      شما همچنین می توانید یک فایل ضمیمه را همراه آن آپلود کنید
   vote_opt_out:
-    short_doc: Opt out of vote DMs
+    short_doc: خروج از یادآوری رائ دادن در DM
     help: |
-      Opt out of vote DMs
+      خروج از یادآوری رائ دادن در DM
   whois:
-    short_doc: Find who posted a message
+    short_doc: پیدا کردن کسی که این پیام را برای تبدیل فرستاده
     help: |
-      Find who posted a message
+      پیدا کردن کسی که این پیام را برای تبدیل فرستاده

@@ -49,16 +49,16 @@ exceptions:
   permissions_missing_reasons:
     #These translations were designed to be short, and to fit on about 1 line on a mobile screen
     guild: |-
-      %{user_ping}'s roles don't include it
+      رول های %{user_ping} شاملش نشوند
     member_overwrite: |-
-      Channel permissions explicitly deny %{user_ping}
+      دسترسی های کانال به طور خاص %{user_ping} را منع می کند
     role_overwrite:
       one: |-
-        Channel permissions denied for the role: %{roles}
+        دسترسی های کانال برای این رول منع شده: %{roles}
       many: |-
-        Channel permissions denied for these roles: %{roles}
+        دسترسی های کانال برای این رول ها منع شده: %{roles}
     member_role_overwrite:
       one: |-
-        Channel permissions explicitly deny %{user_ping} as well as role: %{roles}
+        دسترسی های کانال به طور خاص %{user_ping} را همراه با این رول منع می کند: %{roles}
       many: |-
-        Channel permissions explicitly deny %{user_ping} as well as roles: %{roles}
+        دسترسی های کانال به طور خاص %{user_ping} را همراه با این رول ها منع می کند: %{roles}
