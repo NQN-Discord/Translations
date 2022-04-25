@@ -1,9 +1,9 @@
 ---
 interactions:
   not_author: |
-    Only the message author is allowed to interact with this message
+    Chỉ tác giả của tin nhắn mới có thể tương tác với tin nhắn này
   timed_out: |
-    Interaction timed out.
-    Please run the command again.
+    Hết thời gian tương tác.
+    Vui lòng dùng lệnh lại.
   bot_timed_out: |
-    NQN has been timed out by a moderator and cannot respond.
+    NQN đã bị hạn chế bởi quản trị viên và không thể phản hồi.

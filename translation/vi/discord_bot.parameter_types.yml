@@ -3,59 +3,59 @@ discord_bot:
   parameter_types:
     #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
     SearchTerms:
-      name: Search terms
+      name: Từ khóa tìm kiếm
       description: |-
-        Search terms
+        Từ khóa tìm kiếm
     Message:
-      name: Message
+      name: Tin nhắn
       description: |-
-        A Discord reply to the message you want to target
-        - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
-        - A message id in the current channel (`123456789`)
-        - ChannelID-MessageID pair (`123456789-123456789`)
-        - How many messages ago it was in current channel (`5` messages ago)
+        Một tin nhắn mà bạn muốn trả lời trên Discord
+        - Một link đến tin nhắn (`https://discord.com/channels/123456789/123456789/123456789`)
+        - ID của một tin nhắn trong kênh hiện tại (`123456789987654321`)
+        - Cặp ID của kênh - tin nhắn (`123456789-123456789`)
+        - Tin nhắn thứ bao nhiêu kể từ tin nhắn này về trước trong kênh (`5` tin nhắn trước)
     PartialEmoji:
-      name: Emoji
+      name: Biểu cảm
       description: |-
-        A rendered Discord emoji or an emoji URL
+        Biểu cảm Dsicord được hiển thị hoặc link của biểu cảm
     TextChannel:
-      name: Text Channel
+      name: Kênh chat
       description: |
-        A text channel mention
+        Đề cập đến một kênh chat
     User:
-      name: User
+      name: Người dùng
       description: |
-        A user mention
+        Đề cập đến một người dùng
     Role:
-      name: Role
+      name: Vai trò
       description: |
-        A role mention or name
+        Đề cập đến một vai trò hoặc tên của nó
     NQNEmoji:
-      name: NQNEmoji
+      name: Biểu cảm NQN
       description: |
-        An unrendered emoji NQN can transform
-        - A rendered Discord emoji or an emoji URL
+        Một biểu cảm chưa được hiển thị NQN có thể dùng
+        - Một biểu cảm Discord dược hiển thị hoặc link của biểu cảm
     None:
-      name: Empty
+      name: Trống
       description: |
-        No argument
+        Không có nội dung
     str:
-      name: String
+      name: Văn bản
       description: |
-        Some text
+        Một văn bản nhỏ
     int:
-      name: Integer
+      name: Số nguyên
       description: |
-        A number
+        Một con số nguyên
     bool:
-      name: Boolean
+      name: Giá trị bật tắt
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
-      name: List
+      name: Danh sách
       description: |-
-        At least
+        Ít nhất
     Union:
-      name: Union
+      name: Chọn một
       description: |-
-        One of the following:
+        Một trong số sau:

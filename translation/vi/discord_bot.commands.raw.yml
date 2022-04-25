@@ -3,355 +3,353 @@ discord_bot:
   commands:
     raw:
       buttons:
-        commands: Commands
-        tutorial: Tutorial
-        my_emotes: My Emotes
+        commands: Lệnh
+        tutorial: Hướng dẫn
+        my_emotes: Biểu cảm của tôi
       depreciated_commands:
         renamed: |
-          This command has been renamed to `%{prefix}%{new}`.
-          If you don't want to see this message again, react with ❌
-        ignored: Ignored `%{name}` for you.
+          Lệnh này đã được đổi thành `%{prefix}%{new}`.
+          Nếu bạn không muốn thấy tin nhắn này nữa, phản ứng với ❌
+        ignored: Đã bỏ qua `%{name}` cho bạn.
       edit:
-        never_posted: You've never posted a message with NQN in this channel!
+        never_posted: Bạn chưa từng có tin nhắn nào được gửi bởi NQN trong kênh này!
         message_deleted: |
-          Your most recent message with NQN in this channel has been deleted!
-          Please choose a message either by replying to it with Discord, or by pasting it's jump URL
-        cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
-        cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
-        edit_message: Edit Message
-        new_content: 'New Content:'
+          Đã xóa tin nhắn gần nhất của bạn được gửi bởi NQN trong kênh này!
+          Vui lòng chọn một tin nhắn bằng cách trả lời nó, hoặc dùng đường dẫn đến tin nhắn
+        cannot_edit_no_nqn: Bạn không thể nhắm đến tin nhắn này vì nó không phải được gửi bởi NQN!
+        cannot_edit_different_user: Bạn không thể nhắm đến tin nhắn này vì nó không phải được gửi bởi bạn!
+        edit_message: Chỉnh sửa tin nhắn
+        new_content: 'Nội dung mới:'
       delete:
-        deleted: Message successfully deleted
+        deleted: Đã xóa tin nhắn thành công
       export:
-        exported_list_short: "Here's your exported emotes:"
+        exported_list_short: "Đây là những biểu cảm đã xuất của bạn:"
         exported_list_long: |
-          Here's your exported emotes
-          To share them with other people, they need to run:
+          Đây là những biểu cảm đã xuất của bạn
+          Để chia sẻ chúng cho người khác, họ sẽ cần phải dùng:
           > `%{prefix}alias import %{url}`
       ignore_me:
-        user_ignored: NQN will no longer repost your messages. Run this command again to re-enable
-        user_unignored: NQN will repost your messages as normal
+        user_ignored: NQN sẽ không thay thế tin nhắn của bạn nữa. Dùng lệnh này lại để cho phép bot thay tin nhắn của bạn
+        user_unignored: NQN sẽ tiếp tục thay thế tin nhắn của bạn như cũ
       invite:
-        add_nqn: Add NQN to your server!
+        add_nqn: Thêm NQN vào server của bạn!
       my_emotes:
-        current_guild: Current Server
-        mutual_guilds: Mutual Servers
-        aliases: Aliases
-        packs: Packs
+        current_guild: Server hiện tại
+        mutual_guilds: Server chung
+        aliases: Tên thay thế
+        packs: Gói biểu cảm
         no_mutual_guilds: |
-          NQN allows you to use any emoji from our mutual servers in this server.
-          Currently, you do not have any mutual servers with NQN, aside from this one.
+          NQN cho phép bạn dùng bất kì biểu cảm nào từ bất kì server chung nào trong server này.
+          Hiện tại, bạn không có server chung nào có NQN ngoài server này.
 
-          If you want, you can [invite NQN to another server](%{bot_invite}) to gain access to it's emojis here.
+          Nếu muốn, bãn có thể [mời NQN vào server khác](%{bot_invite}) để có thể dùng biểu cảm đó trong này.
       ranking:
-        vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
-        top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
-        thanks: Thanks for voting for the bot!
+        vote_link: Bạn có thể vote cho bot tại %{url} để có thể thêm nhiều biểu cảm dùng trong server và nâng cấp bậc của server.
+        top_server: Chúc mừng vì đã đặt được danh hiệu server hỗ trợ nhiều nhất <a:BluePat:679807864327766048>
+        thanks: Cảm ơn vì đã vote cho bot!
         ranking: |
-          %{guild} is ranked #%{rank} out of all the servers using NQN.
+          %{guild} đang ở hạng thứ #%{rank} trong tổng số server đang dùng NQN.
 
           %{rank_leaderboard}
-          You have voted %{total_votes} times for NQN. %{thanks}
+          Bạn đã vote %{total_votes} lần cho NQN. %{thanks}
 
           %{user_ranking}
 
           %{extra_message}
       search_all:
         disclaimer: |
-          This command does not allow you to use these emotes!
-          It's provided to allow an easy search through the ones available to be added with
+          Lệnh này không cho phép bạn sử dụng những biểu cảm đó!
+          Nó được cung cấp để cho phép bạn tìm những biểu cảm có thể thêm một cách dễ dàng
           > `%{prefix}alias search %{terms} page: %{page_no}`
       tutorial:
-        choose_page: Browse Tutorial
-        invalid_page: There are only %{count} pages in the tutorial!
-        permissions_missing: I need to be able to write embeds and add reactions to show my tutorial. It can be reran with `%{prefix}tutorial`.
-        wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
-        default_emojis: Default Emojis
-        default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
-        page_0_title: Tutorial for Not Quite Nitro, TLDR
+        choose_page: Hướng dẫn tìm kiếm
+        invalid_page: Chỉ có %{count} trang trong hướng dẫn!
+        permissions_missing: Tôi cần quyền để tạo embed và thêm biểu cảm để thể hiện hướng dẫn của tôi. Bạn có thể dùng lại `%{prefix}tutorial`.
+        wrong_place: Nếu tôi gửi tin nhắn này ở chỗ không hợp lí thì bạn có thể dùng %{prefix}tutorial ở một kênh thuận tiện hơn để xem hết hướng dẫn ở đấy. Hướng dẫn này có nhiều trang; dùng %{prefix}tutorial để hiện lại hướng dẫn nếu chúng biến mất.
+        default_emojis: Biểu cảm mặc định
+        default_emoji_list: "Đây là danh sách các biểu cảm động mà ai trong server này đều có thể dùng - chỉ cần nhập đầy đủ tên của chúng, và nhớ kèm theo :colons: xung quanh tên của biêu cảm!"
+        page_0_title: Hướng dẫn dùng Not Quite Nitro, dành cho người lười
         page_0_desc: |
-          %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
+          %{locale_flag_emojis} **Tùy chỉnh ngôn ngữ** %{locale_flag_emojis}
           > `%{prefix}server language`
-        page_0_0_name: More Emotes?
+        page_0_0_name: Thêm biểu cảm?
         page_0_0_desc: |
-          Everyone is able to use any emote that shares a server with both you and this bot.
-          **There are several other ways to use emotes in servers you are not in:**
-        page_0_1_name: "3\u20E3 Emote packs - Emote Bundles"
+          Mọi người đều có thể dùng bất kì biểu cảm nào có trong server chung với bạn và bot.
+          **Cũng có những cách khác để dùng biểu cảm từ server mà bạn không tham gia:**
+        page_0_1_name: "3\u20E3 Gói biểu cảm - Bao biểu cảm"
         page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Aliases - Individual Emotes"
-        page_0_2_desc: '> `%{prefix}alias search EmoteName`'
-        page_1_title: Reactions
-        page_1_desc: You can only react with emotes you can use with NQN.
-        page_1_0_name: 'Reacting to the most recent message:'
-        page_1_0_desc: '> `%{prefix}react EmoteName`'
-        page_1_1_name: 'Reacting to a message in the same channel:'
-        page_1_1_desc: '> `%{prefix}react EmoteName` (Whilst replying to the target message)'
-        page_1_2_name: 'Reacting to recent messages:'
-        page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nThis only works up to 20 messages ago."
-        page_1_3_name: 'Reacting to messages:'
-        page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
-        page_1_4_name: Deleting messages
-        page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
-        page_2_title: Packs
+        page_0_2_name: "4\u20E3 Tên thay thế - Tách biệt từng biểu cảm"
+        page_0_2_desc: '> `%{prefix}alias search TênBiểuCảm`'
+        page_1_title: Thêm cảm xúc
+        page_1_desc: Bạn có thể thêm cảm xúc cho tin nhắn với những biểu cảm bạn có thể dùng với NQN.
+        page_1_0_name: 'Bày tỏ cảm xúc với tin nhắn gần nhất:'
+        page_1_0_desc: '> `%{prefix}react TênBiểuCảm`'
+        page_1_1_name: 'Bày tỏ cảm xúc với tin nhắn trong cùng kênh:'
+        page_1_1_desc: '> `%{prefix}react TênBiểuCảm` (trong khi đang trả lời tin nhắn đó)'
+        page_1_2_name: 'Bày tỏ cảm xúc với tin nhắn gần đó:'
+        page_1_2_desc: "> `%{prefix}react MessagesAgo TênBiểuCảm`\nLệnh này chỉ hoạt động trong tầm 20 tin nhắn về trước."
+        page_1_3_name: 'Bày tỏ cảm xúc với tin nhắn:'
+        page_1_3_desc: '> `%{prefix}react URLTinNhắn TênBiểuCảm`'
+        page_1_4_name: Xóa tin nhắn
+        page_1_4_desc: "Bày tỏ biểu cảm lên tin nhắn được gửi thay danh bạn bằng \u274C (\\:x:) để xóa nó."
+        page_2_title: Gói biểu cảm
         page_2_desc: |
-          A pack is a bundle of emojis. After joining a pack, you gain access to the emojis it has.
-        page_2_0_name: Joining emote packs
+          Một gói biểu cảm bao gồm nhiều biểu cảm. Sau khi tham gia một gói, bạn sẽ có thể dùng các biểu cảm có trong đó.
+        page_2_0_name: Tham gia gói biểu cảm
         page_2_0_desc: |
-          To search for emote packs, use `%{prefix}pack search`, optionally with a search query, such as `%{prefix}pack search dragon`.
-        page_2_1_name: Finding the emote packs you're in
+          Để tìm các gói biểu cảm, dùng `%{prefix}pack search`, có thể thêm tên để tìm, ví dụ như `%{prefix}pack search dragon`.
+        page_2_1_name: Tìm các gói biểu cảm mà bạn đã tham gia
         page_2_1_desc: |
           > `%{prefix}pack mine`
-          This command shows you a list of emote packs you're currently a member of, including the names of the emotes in each pack.
-        page_2_2_name: Publishing your own packs
+          Lệnh này sẽ hiển thị danh sách các gói biểu cảm mà bạn đã tham gia, bao gồm cả tên biểu cảm trong mỗi gói.
+        page_2_2_name: Công khai gói biểu cảm của bạn
         page_2_2_desc: |
-          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emote packs:
-          > `%{prefix}pack publish MySuperCoolEmotePackName`
-          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
-        page_3_title: Aliases
+          Nếu bạn có quyền **quản lý server**, bạn có thể công khai gói biểu cảm của riêng bạn bao gồm các biểu cảm có trong server:
+          > `%{prefix}pack publish TênGóiBiểuCảmCăngĐét`
+          Bạn cũng có thể công khai gói cho mọi người có thể tham gia bằng lệnh `%{prefix}pack set_public yes` để ai cũng có thể tham gia gói của bạn với bot mà không cần phải ở trong server của bạn.
+        page_3_title: Tên thay thế
         page_3_desc: |
-          Aliases are just individual emotes which you give a name, and are then usable via that name.
+          Tên thay thế bản chất chỉ là tên khác của những biểu cảm mà bạn cho, và chúng có thể được dùng với những cái tên đó.
 
-          If you know the exact name of the emote you want to add:
+          Nếu bạn biết chính xác tên của một biểu cảm mà bạn muốn thêm:
           > `%{prefix}alias search :EmoteName:`
 
-          If you want to look through every emote NQN can let you use:
-          > `%{prefix}alias search whatever` (No colons if you don't know the exact name)
-        page_4_title: Replies
+          Nếu bạn muốn xem qua các biểu cảm mà bạn có thể dùng qua NQN:
+          > `%{prefix}alias search GiCungDuoc` (Không cần dấu hai chấm nếu bạn không nhớ rõ tên)
+        page_4_title: Trả lời
         page_4_desc: |
-          NQN allows you to reply to messages sent long ago.
+          NQN cho phép bạn trả lời tin nhắn từ rất lâu về trước.
 
-          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're replying to as well.
+          Chỉ cần sao chép link đến tin nhắn đó (trên di động là nút chia sẻ - sao chép) rồi dán nó vào tin nhắn của bạn, và bot sẽ thay thế tin nhắn của bạn kèm theo tin nhắn được dẫn đến.
 
-          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+          Nếu bạn không muốn bot thay thế tin nhắn của bạn, chỉ cần bao quanh link đó bằng cặp ngoặc \<\>.
 
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server replies off`.
-        page_5_title: Masked URLs
+          Nếu một quản lý trong server muốn vô hiệu hóa tính năng này, họ có thể dùng `%{prefix}server replies off`.
+        page_5_title: URL đã che
         page_5_desc: |
-          NQN allows users to send [Masked URLs](%{url}) as part of their regular messages.
+          NQN cho phép người dùng gửi tin nhắn [với URL đã che](%{url}) ngay trong tin nhắn của họ.
 
-          This uses standard markup, `[text to show](https://url.here)`.
-          To send messages with buttons, use `[button title](button://url.here)`
-        page_6_title: Stickers
+          Tính năng này sử dụng các thức thông dụng, `[văn bản hiển thị](https://url.tai.day)`.
+          Để gửi tin nhắn có kèm theo nút, dùng `[tiêu đề nút](button://url.tai.day)`.
+        page_6_title: Nhãn dán
         page_6_desc: |
-          If you've ever wanted to send large images/stickers/emotes, you've come to the right place.
+          Nếu bạn từng muốn gửi ảnh/nhãn dán/biểu cảm lớn thì bạn tìm đến đúng nơi rồi đấy.
 
-          Inspired by Telegram, NQN brings stickers to Discord.
-          You can use them as you would an emote, except stickers have a file extension at the end.
+          Lấy cảm hứng từ Telegram, NQN mang nhãn dán đến với Discord.
+          Bạn có thể dùng chúng như biểu cảm, ngoại trừ nhãn dán có thêm định dạng tệp ở cuối tên.
 
-          Each message can contain up to 10 stickers.
+          Mỗi tin nhắn có thể chứa lên đến 10 nhãn dán.
 
-          You can create stickers with `%{prefix}sticker create` and upload an image file or by importing from Telegram.
-          This is done with `%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here`.
+          Bạn có thể tạo nhãn dán với lệnh `%{prefix}sticker create` và tải lên một hình ảnh hoặc tải lên từ Telegram.
+          Nó có thể được thực hiện bằng lệnh `%{prefix}sticker telegram https://t.me/addstickers/goi-nhan-dan`.
 
-          To search through stickers you can use with NQN, use `%{prefix}sticker search` with a optional search terms.
+          Để tìm kiếm nhãn dán bạn có thể dùng với NQN, dùng `%{prefix}sticker search` với từ khóa tùy ý.
 
-          To view your stickers, use `%{prefix}stickers mine`.
+          Để xem các nhãn dán của bạn, dùng `%{prefix}sticker mine`.
 
-          Note - to use Telegram stickers, you must first import them to the bot. The bot does not do this automatically.
-        page_7_title: Personas
+          Lưu ý - để dùng nhãn dán từ Telegram, bạn phải tải chúng lên cho bot trước. Bot sẽ không tự động làm việc này.
+        page_7_title: Danh tính ảo
         page_7_desc: |
-          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
-          In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
+          Danh tính ảo cho phép mọi người trong server của bạn có một tên và ảnh hồ sơ ảo để ẩn thân phận.
+          Trước khi dùng danh tính ảo trong server, bạn cần phải dùng `%{prefix}server personas on` trước.
 
-          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
-          > name: Rest of message
-        page_8_title: Server Administration
+          Để tạo một danh tính ảo, dùng `%{prefix}persona register Tên`. Sau đó, bạn có thể gửi tin nhắn dưới danh tính ảo đó bằng cách gửi tin nhắn như sau:
+          > Tên: Tin nhắn
+        page_8_title: Quản lý server
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          NQN cho phép khả năng tùy chỉnh cao đối với các tính năng có sẵn, trong trường hợp chúng không phù hợp cho server của bạn.
+          Bất kì ai có quyền **Quản lý server** đều có thể thay đổi cài đặt của bot cho server.
 
-          Here are the features you can toggle:
+          Sau đây là những thứ mà bạn có thể thay đổi:
 
            • Nitro - `%{prefix}server nitro`
-           • Stickers - `%{prefix}server stickers`
-           • Replies - `%{prefix}server replies`
-           • Personas - `%{prefix}server personas`
-           • Masked Links - `%{prefix}server masked_links`
-        page_8_0_name: Troubleshooting Issues
+           • Nhãn dán - `%{prefix}server stickers`
+           • Trả lời - `%{prefix}server replies`
+           • Danh tính ảo - `%{prefix}server personas`
+           • Hyperlink - `%{prefix}server masked_links`
+        page_8_0_name: Khắc phục một số vấn đề
         page_8_0_desc: |
-          In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:
-          **Manage Webhooks**, **Use External Emojis**, **Add Reactions**, **Read Messages** and **Manage Messages**.
-        page_8_1_name: "Not Quite Nitro's prefix:"
+          Để có thể hoạt động bình thường, NQN sẽ cần các quyền sau trong __mọi kênh__ mà bạn muốn dùng tính năng:
+          **Quản lý Webhook**, **Dùng biểu cảm mở rộng**, **Thêm biểu cảm**, **Xem kênh** và **Quản lý tin nhắn**.
+        page_8_1_name: "Prefix của Not Quite Nitro:"
         page_8_1_desc: |
-          Anyone with **Manage Server** permissions can change the prefix NQN uses.
+          Bất kì ai với quyền **Quản lý server** có thể thay đổi prefx của NQN.
 
-          The bot's current prefix for commands is `%{prefix}`, though it can be changed with
+          Prefix hiện tại của bot là `%{prefix}`, và bạn có thể thay đổi nó với lệnh
           > %{prefix}server prefix %{ping} ?
-          This would change it to `?`, though any prefix works.
+          Lệnh này sẽ thay đổi prefix thành `?`, mà kí tự nào cũng có thể dùng được.
 
-          NQN will *always* listen to it's ping however regardless of other settings.
-        page_8_2_name: Auditing Messages
+          NQN **sẽ luôn** nghe theo ping cho dù bạn có cài đặt thế nào đi nữa.
+        page_8_2_name: Lưu vết tin nhắn
         page_8_2_desc: |
-          NQN keeps a log of messages it reposts, as the original message gets removed.
-          This is in case that someone changes their name and avatar before posting an offensive message, or otherwise misbehaves using the bot.
+          NQN sẽ liên tục ghi lại các tin nhắn mà nó đã thay thế với tin nhắn của người dùng.
+          Việc này nhằm trường hợp ai đó đổi tên và ảnh hồ sơ trước khi gửi một tin nhắn mang tính xúc phạm, hoặc cư xử không đúng thông qua bot.
 
-          To get the audited messages for the server, use `%{prefix}audit guild` or [visit our website](%{url}), select your server and then click on the cog at the top.
+          Để cho bot lưu vết tin nhắn cho server, dùng `%{prefix}audit guild` hay [đi đến trang web của chúng tôi](%{url}), chọn server của bạn và nhấp vào biểu tượng bánh răng ở phía trên bên trái.
 
-          Only users with **Manage Server** and **View Audit Log** can view the logged messages.
+          Chỉ người dùng có quyền **Quản lý server** và **Xem nhật ký chỉnh sửa** mới có thể xem các tin nhắn đã lưu vết.
 
-          An alternate approach which stays inside Discord is the Audit Channel, which can be set with `%{prefix}server set_audit_channel #channel`.
-          Any resent messages will be posted there with their current username, discriminator and user id.
-        page_8_3_name: 'Permissions:'
+          Một cách khác có thể làm ngay trong Discord là tạo kênh lưu vết, sau đó đặt với lệnh `%{prefix}server set_audit_channel #kênh`.
+          Mọi tin nhắn được thay thế sẽ được lưu lại trong kênh đó với tên người dùng kèm số phân biệt và id người dùng.
+        page_8_3_name: 'Quyền hạn:'
         page_8_3_desc: |
-          NQN requires the 'Manage Webhooks' server permission to correctly function; reposting messages will not work without this.
+          NQN cần có quyền 'Quản lý Webhook' trong server để có thể hoạt động bình thường; việc thay thế tin nhắn sẽ không khả thi khi thiếu quyền này.
 
-           • To disable commands from working in a specific channel, deny NQN 'Send Message' permissions there via user permissions.
-           • To disable reposting messages in a specific channel, deny NQN 'Manage Webhook' permissions there via user permissions.
-           • To disable all interactions in a specific channel, deny NQN 'Read Message' permissions there via user permissions.
-        page_8_4_name: 'Information Gathering:'
+           • Để vô hiệu hóa lệnh của NQN trong một kênh bất kì, chặn quyền 'Gửi tin nhắn' của bot thông qua chỉnh sửa quyền hạn trong kênh.
+           • Để chặn việc NQN thay thế tin nhắn trong một kênh, chặn quyền 'Quản lý Webhook' của bot thông qua chỉnh sửa quyền hạn trong kênh.
+           • Để chặn mọi hoạt động của NQN trong một kênh, chặn quyền 'Xem kênh' của bot thông qua chỉnh sửa quyền hạn trong kênh.
+        page_8_4_name: 'Thu thập thông tin:'
         page_8_4_desc: |
-          NQN stores reposted messages such that users can delete them and for the audit log.
-          Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
+          NQN lưu trữ các tin nhắn được thay thế để người dùng có thể xóa chúng hay dùng cho việc lưu vết.
+          Mọi biểu cảm trong server của bạn đều có thể được nhìn thấy bởi mọi người và có thể được tìm kiếm, cho dù chúng không thể liên kết với server của bạn.
 
-          Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
-        page_9_title: Advanced Usage
+          Một số chỉ số về mức hoạt động của bot được thu thập để hỗ trợ việc cải thiện bot tốt hơn nhưng sẽ không bao giờ lưu dữ liệu tin nhắn khác được gửi của người dùng.
+        page_9_title: Tính năng nâng cao
         page_9_desc: |
-          If someone uses an emote, NQN allows you to use it as well, but only if it's been recently used in the server.
-          **NOTE:** If you've only just invited NQN, it won't know about any recently used emotes before it joined.
+          Nếu có ai dùng biểu cảm nào đó, bạn cũng sẽ có thể dùng nó, nhưng chỉ khi nó được dùng gần đây trong server.
+          **LƯU Ý:** Nếu bạn chỉ mới thêm NQN vào server, nó sẽ không biết được các biểu cảm vừa được dùng trong server trước lúc nó tham gia.
 
-          In the case that you have several emotes with the same name, the following order is used:
+          Trong trường hợp bạn có nhiều biểu cảm cùng tên, biểu cảm sẽ được ưu tiên theo thứ tự sau:
 
-          1. Aliases
-          2. The current server
-          3. Emote Packs
-          4. Other servers you share with NQN
-          5. Server wide aliases
-          6. Server wide packs
-          7. Recently used emojis in the current server
-          8. Recently shown packs in the current server
+          1. Tên thay thế
+          2. Server hiện tại
+          3. Gói biểu cảm
+          4. Server khác mà NQN và bạn có chung
+          5. Tên gọi khác liên server
+          6. Gói biểu cảm liên server
+          7. Biểu cảm được dùng gần đó trong server
+          8. Gói biểu cảm được hiện ra gần đó trong server
 
-          If you find yourself with clashing emotes, create the one you want to use as an alias, and that will override it.
+          Nếu bạn thường xuyên bị xung đột biểu cảm, hãy đặt tên thay thế cho cái mà bạn muốn dùng và nó sẽ được ưu tiên.
       react:
-        id_large: Message ID is too large
-        not_found: Message in this channel with that ID does not exist
-        nth_id: Message must be either an ID or the `n`th most recent message (up to 50th)
-        channel_empty: This channel is empty
+        id_large: ID tin nhắn quá lớn
+        not_found: Tin nhắn với id đó trong kênh này không tồn tại
+        nth_id: Tin nhắn phải là một ID hoặc tin nhắn thứ `n` tính từ tin nhắn này về trước (tối đa 50)
+        channel_empty: Kênh này đang trống
         invalid_react:
           one: |
-            The following emote is not valid:
+            Biểu cảm sau không hợp lệ:
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            Biểu cảm chỉ nên là số và chữ, dấu gạch dưới và nhiều nhất một dấu gạch ngang.
           many: |
-            The following emotes are not valid:
+            Biểu cảm sau không hợp lệ:
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            Biểu cảm chỉ nên là số và chữ, dấu gạch dưới và nhiều nhất một dấu gạch ngang.
         emote_unusable:
           one: |
-            The following emote cannot be used in reactions:
+            Biểu cảm sau không thể được sử dụng:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload it to a server the bot's in, it will become usable in reactions!
+            Biểu cảm phải từ một server mà NQN có trong đó; nếu bạn tải biểu cảm này lên một server có bot trong đó, nó sẽ có thể được dùng trong bày tỏ cảm xúc!
           many: |
-            The following emotes cannot be used in reactions:
+            Biểu cảm sau không thể được sử dụng:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload them all to a server the bot's in, they will become usable in reactions!
+            Biểu cảm phải từ một server mà NQN có trong đó; nếu bạn tải biểu cảm này lên một server có bot trong đó, nó sẽ có thể được dùng trong bày tỏ cảm xúc!
         emote_not_found:
           one: |
-            Could not find emote %{not_found}
-            Have you added it as an alias with `%{prefix}alias search` or joined the corresponding emote pack with `%{prefix}pack search`?
+            Không thể tìm thấy %{not_found}
+            Bạn đã thêm nó dưới dạng tên thay thế với `%{prefix}alias search` hay đã tham gia gói biểu cảm có nó với `%{prefix}pack search` chưa?
           many: |
-            Could not find emotes %{not_found}
-            Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
+            Không thể tìm thấy %{not_found}
+            Bạn đã thêm nó dưới dạng tên thay thế với `%{prefix}alias search` hay đã tham gia gói biểu cảm có nó với `%{prefix}pack search` chưa?
         too_many_reacts:
-          one: This message has too many reactions to add a new one!
-          many: This message has too many reactions to add them all!
+          one: Tin nhắn này đã có quá nhiều biểu cảm để thêm!
+          many: Tin nhắn này đã có quá nhiều biểu cảm để thêm chúng!
         reacting:
-          one: Adding %{count} reaction; remember to react yourself for them to stay!
-          many: Adding %{count} reactions; remember to react yourself for them to stay!
-        blocked: '%{author} has blocked me, so I cannot add that reaction!'
-        on_behalf: NQN on behalf of %{author} (%{author_id})
-        audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
+          one: Đang thêm %{count} biểu cảm; nhớ là bày tỏ vào để giữ chúng!
+          many: Đang thêm %{count} biểu cảm; nhớ là bày tỏ vào để giữ chúng!
+        blocked: '%{author} đã chặn tôi, vậy nên tôi không thể bày tỏ cảm xúc lên tin nhắn của họ!'
+        on_behalf: NQN thay danh %{author} (%{author_id})
+        audit_message: "%{author} đã bày tỏ cảm xúc với [tin nhắn](<%{jump_url}>) trong %{channel} với những biểu cảm sau:\n"
       info:
         shard_data: |
-          > No. shards: %{shard_count} (%{shards_down} down)
-          > Average latency: %{average_latency}ms
-          > Current shard: %{current_shard}
-          > Current shard latency: %{current_latency}ms
+          > số lượng shard: %{shard_count} (chết %{shards_down})
+          > Độ trễ trung bình: %{average_latency}ms
+          > Shard hiện tại: %{current_shard}
+          > Độ trễ của shard: %{current_latency}ms
         process_data: |
-          > RAM usage: %{ram_usage}
-          > CPU usage: %{cpu_usage}%
-          > Network:
-          > - Sent: %{network_send}
-          > - Received: %{network_recv}
+          > Mức sử dụng RAM: %{ram_usage}
+          > Mức sử dụng CPU: %{cpu_usage}%
+          > Kết nối mạng:
+          > - Gửi đi: %{network_send}
+          > - Nhận về: %{network_recv}
         elasticsearch_metadata: |
-          > RAM usage: %{ram_usage}
-          > Disk space: %{disk_use}
-          > Network total: %{bytes_sent}
+          > Mức sử dụng RAM: %{ram_usage}
+          > Kích thước đĩa cứng: %{disk_use}
+          > Tổng đường truyền mạng: %{bytes_sent}
         description: |
-          Author: %{owner}
-          Application name: %{app_name}
-          Help command: `%{prefix}help`
+          Tác giả: %{owner}
+          Tên ứng dụng: %{app_name}
+          Lệnh trợ giúp: `%{prefix}help`
         bot_metadata: |
-          > Uptime: %{uptime}
-          > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
-          > Servers Loaded: %{guilds_loaded} / %{guilds}
+          > Thời gian hoạt động: %{uptime}
+          > Server chứa biểu cảm: %{alias_servers_available} / %{alias_servers_total}
+          > Server đã được tải: %{guilds_loaded} / %{guilds}
         guild_features:
           zero: ''
           one: |
-            > Server Feature: %{guild_features}
+            > Tính năng server: %{guild_features}
           many: |
-            > Server Features: %{guild_features}
+            > Tính năng server: %{guild_features}
         bot_credits: |
-          [Bot avatar and Wumpus art by Dooley](<https://www.dooleytm.com>) from [Wump Motes](https://discord.gg/pEjCBNF)
+          [Ảnh hồ sơ của bot và tranh vẽ Wumpus bởi Dooley](<https://www.dooleytm.com>) từ [Wump Motes](https://discord.gg/pEjCBNF)
 
-          __Special thanks to the following people:__
+          __Chân thành cảm ơn đến những người sau:__
           > <:OriLove:726475603879919616> OrionVi
           > <:bean:884394196415442985> Ben
           > <:AetherSmile:726474477956759553> Aether Wake
-
-          __Translation Credits:__
-        es: 'Spanish:'
+        es: 'Tiếng Tây Ban Nha:'
         es_people: |
           > <:OriLove:726475603879919616> OrionVi
           > <:AetherSmile:726474477956759553> Aether Wake
-        ru: 'Russian:'
+        ru: 'Tiếng Nga:'
         ru_people: |
           > <:drink:741041666705588255> Трокс
           > <:DorZ23:864861706169483329> DorZ23
-        pt: 'Portuguese:'
+        pt: 'Tiếng Bồ Đào Nha:'
         pt_people: |
           > <:KingKiller:800410618074628146> KingKiller
           > <:gil:873518552295014420> Gil
-        it: 'Italian:'
+        it: 'Tiếng Ý:'
         it_people: |
           > 👤 RVG|𝓵𝓸𝓻𝔂
-        bot_stats: Discord Bot Statistics
-        shard_info_name: Shard Info
-        process_data_name: Bot process data
-        elasticsearch_data_name: Elasticsearch data
-        package_info_name: Package info
-        bot_metadata_name: Bot Metadata
-        credits: Credits
-        author: Author
-        bot_latency: '> API/Bot Latency: %{bot_latency}ms'
-        help_command: 'Help command: `%{prefix}help`'
+        bot_stats: Thông tin số liệu của bot
+        shard_info_name: Thông tin shard
+        process_data_name: Dữ liệu xử lý của bot
+        elasticsearch_data_name: Dữ liệu phản hồi của bot
+        package_info_name: Thông tin hệ thống
+        bot_metadata_name: Thông tin bot
+        credits: Credit
+        author: Tác giả
+        bot_latency: '> Độ trễ của API/bot: %{bot_latency}ms'
+        help_command: 'Lệnh trợ giúp: `%{prefix}help`'
       upload_emote:
-        own_emojis_dont_ask_again: Yes; I own these
-        alphanumeric: ' - Must be alphanumeric with underscores'
-        size: ' - Must be between 1 and 32 characters long'
-        filesize: ' - Must be less than 256KB'
-        image: ' - Must be an image'
-        bad_name: "The name of the emote is incorrect:\n"
-        bad_attachment: "The attached emote is not valid:\n"
-        more_animated_needed: This server will have reached its limit for animated emotes, as it requires %{size}. Delete %{delete} and try again
-        more_static_needed: This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again
-        too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
-        this_emote: Is this the emote you meant?
+        own_emojis_dont_ask_again: Đúng vậy; tôi sỡ hữu chúng
+        alphanumeric: ' - Phải là chữ cái và số với dấu gạch dưới'
+        size: ' - Phải dài từ 1 đến 32 kí tự'
+        filesize: ' - Phải nhỏ hơn 256Kb'
+        image: ' - Phải là một hình ảnh'
+        bad_name: "Sai tên của biểu cảm:\n"
+        bad_attachment: "Biểu cảm được đính kèm không hợp lệ:\n"
+        more_animated_needed: Server đã đạt giới hạn biểu cảm động, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
+        more_static_needed: Server đã đạt giới hạn biểu cảm, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
+        too_quick: Biểu cảm đang được thêm quá nhanh, thử lại sau vài giờ (Mã lỗi '%{e}')
+        this_emote: Đây có phải mà biểu cảm mà bạn muốn?
         emote_preview: |
-          Is this alright?
-          If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select 'No'.
+          Nó đúng không?
+          Nếu bạn **KHÔNG PHẢI** chủ sỡ hữu của biểu cảm này, hoặc không có quyền phân tán nó, chọn 'Không'.
         duplicate_name: |
-          This server already has an emote called %{name}
+          Server này đã có biểu cảm tên là %{name}
           > %{e}
-          Do you still want to upload this emote?
-        created_emotes: '%{user} uploaded %{e}'
+          Bạn vẫn muốn tải lên biểu cảm này chứ?
+        created_emotes: '%{user} vừa tải lên %{e}'
         also_upload_static: |
-          Would you also like to upload a static version of this emoji?
-          Users without Nitro can use it from the emoji picker to send %{e}
+          Bạn có muốn tải lên luôn bản tĩnh của biểu cảm này?
+          Người dùng không có Nitro có thể dùng nó trong server để gửi %{e}
       vote_opt_out:
-        success: Successfully opted out of vote DMs
+        success: Thành công hủy nhận tin nhắn trực tiếp về vote
       whois:
-        found: The author is <@%{author}> (%{author})
+        found: Tác giả là <@%{author}> (%{author})
         not_nqn: |
-          This command currently only works on messages reposted by NQN.
+          Lệnh này hiện chỉ có thể được dùng trên tin nhắn được thay thế bởi NQN.
         not_found: |
-          The author of that message could not be automatically found. Are you sure it was posted by NQN?
+          Tác giả của tin nhắn đó không thể được tìm thấy một cách tự động. Bạn có chắc nó được gửi bởi NQN chứ?

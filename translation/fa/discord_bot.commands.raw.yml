@@ -12,12 +12,12 @@ discord_bot:
           اگر نمی خواهید که این پیام را دوباره ببینید، با ❌ ری‌اکت کنید
         ignored: Ignored `%{name}` for you.
       edit:
-        never_posted: You've never posted a message with NQN in this channel!
+        never_posted: شما هیچوقت پیامی که خودتان از طرف NQN در این کانال نفرستاده‌اید!
         message_deleted: |
-          Your most recent message with NQN in this channel has been deleted!
-          Please choose a message either by replying to it with Discord, or by pasting it's jump URL
-        cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
-        cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
+          آخرین پیامی که شما توسط NQN فرستادید در این کانال، با موفقیت حذف شد!
+          لطفاً پیام مورد نظر را با رپلای کردن آن یا فرستادن لینک پرش به آن پیام، انتخاب کنید
+        cannot_edit_no_nqn: شما نمی توانید این پیام را ویرایش کنید از آنجایی که این پیام توسط NQN فرستاده نشده است!
+        cannot_edit_different_user: شما نمی توانید این پیام را ویرایش کنید از آنجایی که این پیام به درخواست شما ارسال نشده!
         edit_message: ویرایش پیام
         new_content: 'محتوای جدید:'
       delete:
@@ -39,13 +39,13 @@ discord_bot:
         aliases: اختصار ها
         packs: بسته ها
         no_mutual_guilds: |
-          NQN allows you to use any emoji from our mutual servers in this server.
-          Currently, you do not have any mutual servers with NQN, aside from this one.
+          بات NQN به شما این اجازه را می دهد تا از ایموجی سرور هایی که داخلشان مشترک هستیم، در این سرور استفاده کنید.
+          درحال حاضر، شما هیچ سرور مشترکی با NQN ندارید، جدا از این سرور که الان هردوی ما داخلش هستیم.
 
-          If you want, you can [invite NQN to another server](%{bot_invite}) to gain access to it's emojis here.
+          اگر میخواهید، می توانید [NQN را به سرور دیگری دعوت کنید](%{bot_invite}) تا به ایموجی های آنجا در اینجا دسترسی پیدا کنید.
       ranking:
         vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
-        top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
+        top_server: با تشکر از اینکه بزرگ‌ترین سرور حامی ما هستید <a:BluePat:679807864327766048>
         thanks: خیلی متشکر از اینکه به بات رائ دادید!
         ranking: |
           %{guild} is ranked #%{rank} out of all the servers using NQN.
@@ -65,7 +65,7 @@ discord_bot:
         choose_page: گشتن در آموزش
         invalid_page: فقط %{count} صفحه آموزش وجود دارد!
         permissions_missing: من نیاز به قابلیت نوشتن ایمبد ها و افزودن ری‌اکشن ها برای نمایش آموزشم دارم. می توانید دوباره برای فرستادنش از ‎`%{prefix}tutorial` استفاده کنید.
-        wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
+        wrong_place: اگر شما جای اشتباهی را برای نمایش این پیام انتخاب کرده‌اید، شما می توانید از ‎ %{prefix}tutorialدر یک کانالی که در آن راحت تر هستید بفرستید تا این آموزش را آنجا ببینید. این آموزش چدین صفحه دارد، پس اگر نتوانستید آنها را ببینید و یا گمشان کردید، دوباره ‎ %{prefix}tutorialرا بفرستید.
         default_emojis: ایموجی های پیشفرض
         default_emoji_list: "این لیستی از شکلک های متحرک است که همه داخل این سرور می توانند به طور پیشفرض استفاده کنند - فقط لازم است طور دستی آنها را تایپ کنید، مطمئن شوید که :دونقطه: ها را دوطرف نام شکلک نوشته باشید!"
         page_0_title: آموزش Not Quite Nitro، به طور خلاصه
@@ -74,48 +74,48 @@ discord_bot:
           > `%{prefix}server language`
         page_0_0_name: شکلک های بیشتر؟
         page_0_0_desc: |
-          Everyone is able to use any emote that shares a server with both you and this bot.
-          **There are several other ways to use emotes in servers you are not in:**
-        page_0_1_name: "3\u20E3 Emote packs - Emote Bundles"
+          همه می توانند از شکلک های سرور هایی که هم بات و هم خودشان در آنجا حضور دارند، استفاده کنند.
+          **چند راه برای استفاده از شکلک های سرور هایی که شما در آنها نیستید، وجود دارد.**
+        page_0_1_name: "3\u20E3 بسته های شکلک - مجموعه‌ای از شکلک ها"
         page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Aliases - Individual Emotes"
+        page_0_2_name: "4\u20E3 اختصار ها - شکلک های جدا از هم"
         page_0_2_desc: '> `%{prefix}alias search EmoteName`'
-        page_1_title: Reactions
-        page_1_desc: You can only react with emotes you can use with NQN.
-        page_1_0_name: 'Reacting to the most recent message:'
+        page_1_title: ری‌اکشن ها
+        page_1_desc: شما فقط می توانید با شکلک هایی که توسط NQN استفاده می‌شوند، به پیام ها ری‌اکت کنید.
+        page_1_0_name: 'ری‌اکت کردن به آخرین پیام ارسال شده:'
         page_1_0_desc: '> `%{prefix}react EmoteName`'
-        page_1_1_name: 'Reacting to a message in the same channel:'
-        page_1_1_desc: '> `%{prefix}react EmoteName` (Whilst replying to the target message)'
-        page_1_2_name: 'Reacting to recent messages:'
-        page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nThis only works up to 20 messages ago."
-        page_1_3_name: 'Reacting to messages:'
+        page_1_1_name: 'ری‌اکت کردن به یک پیام در همان کانال:'
+        page_1_1_desc: '> `%{prefix}react EmoteName` (درحالی که دارید پیام مورد نظر را رپلای می‌کنید)'
+        page_1_2_name: 'ری‌اکت کردن به پیام های اخیر:'
+        page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nاین فقط تا 20 پیام آخری که اخیراً ارسال شده‌اند، کار می کند."
+        page_1_3_name: 'ری‌اکت کردن به پیام ها:'
         page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
-        page_1_4_name: Deleting messages
-        page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
-        page_2_title: Packs
+        page_1_4_name: حذف کردن پیام ها
+        page_1_4_desc: "با \u274C(\\:x:) به پیام هایی که شما فرستادید، ری‌اکت کنید تا حذف شوند."
+        page_2_title: بسته ها
         page_2_desc: |
-          A pack is a bundle of emojis. After joining a pack, you gain access to the emojis it has.
-        page_2_0_name: Joining emote packs
+          منظور از یک بسته همان مجموعه‌ای از ایموجی هاست. بعد از پیوستن به یک بسته، شما به استفاده از ایموجی هایی که داخلش است، دسترسی می یابید.
+        page_2_0_name: پیوستن به بسته های شکلک
         page_2_0_desc: |
-          To search for emote packs, use `%{prefix}pack search`, optionally with a search query, such as `%{prefix}pack search dragon`.
-        page_2_1_name: Finding the emote packs you're in
+          برای جستجو در بین بسته های شکلک موجود، از ‎`%{prefix}pack search` استفاده کنید. به طور اختیاری می توانید بعد از آن یک جستار نیز بیاورید مثل ‎`%{prefix}pack search dragon`.
+        page_2_1_name: پیدا کردن بسته های شکلکی که شما در آنها هستید
         page_2_1_desc: |
           > `%{prefix}pack mine`
-          This command shows you a list of emote packs you're currently a member of, including the names of the emotes in each pack.
-        page_2_2_name: Publishing your own packs
+          این دستور به شما یک لیست از بسته های شکلکی که شما به آنها پیوسته‌اید نشان می دهد، علاوه بر یک سری اطلاعات دیگر مثل نام هرکدام از بسته ها.
+        page_2_2_name: منتشر کردن بسته شکلک خودتان
         page_2_2_desc: |
-          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emote packs:
+          اگر شما دسترسی **Manage Server** را دارید، شما می توانید بسته شکلک خود را که حاوی تمام شکلک های سرور هست، به عنوان یک بسته شکلک منتشر کنید:
           > `%{prefix}pack publish MySuperCoolEmotePackName`
-          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
-        page_3_title: Aliases
+          شما همچنین می توانید بسته شکلک خود را در دسترس عموم برای استفاده قرار دهید. با استفاده از ‎`%{prefix}pack set_public yes` مردم این اجازه را پیدا می کنند که بدون دعوت، توسط بات وارد سرور شما شوند.
+        page_3_title: اختصار ها
         page_3_desc: |
-          Aliases are just individual emotes which you give a name, and are then usable via that name.
+          اختصار ها، شکلک های مجزایی هستند که شما به آنها نام می دهید، و آنها با یک نام قابل استفاده هستند.
 
-          If you know the exact name of the emote you want to add:
+          اگر نام دقیق شکلکی که می خواهید اضافه کنید را می‌دانید:
           > `%{prefix}alias search :EmoteName:`
 
-          If you want to look through every emote NQN can let you use:
-          > `%{prefix}alias search whatever` (No colons if you don't know the exact name)
+          اگر با اینحال دنبال یکی از هر شکلکی که NQN ارائه می دهد می گردید:
+          > `%{prefix}alias search whatever` (هیچ دو نقطه‌ای نگذارید اگر اسم دقیق را نمی دانید)
         page_4_title: Replies
         page_4_desc: |
           NQN allows you to reply to messages sent long ago.
@@ -125,13 +125,13 @@ discord_bot:
           If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
 
           If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server replies off`.
-        page_5_title: Masked URLs
+        page_5_title: متن های لینک دار
         page_5_desc: |
-          NQN allows users to send [Masked URLs](%{url}) as part of their regular messages.
+          بات NQN به کاربران این اجازه را می دهد تا از [متن های لینک دار](%{url}) به عنوان قسمتی از پیام های عادی که میفرستند، استفاده کنند.
 
-          This uses standard markup, `[text to show](https://url.here)`.
-          To send messages with buttons, use `[button title](button://url.here)`
-        page_6_title: Stickers
+          این روش استفاده کلی برای اعمال یک آدرس URL لینک بر روی متن است: ‎`[Salam Amoo](https://url.here)`
+          برای ارسال پیام با دکمه، اینگونه استفاده کنید: ‎`[Bezan roye in dokmeh](button://url.here)`
+        page_6_title: استیکر ها
         page_6_desc: |
           اگر تا به حال خواسته‌اید که تصاویر/استیکرها/شکلک‌هایی در اندازه بزرگ بفرستید، دقیقاً به جای مناسبی مراجعه کرده‌اید.
 
@@ -148,148 +148,148 @@ discord_bot:
           برای مشاهده استیکر های خودتان، از ‎`%{prefix}stickers mine` استفاده کنید.
 
           نکته - برای استفاده از استیکر های تلگرام، شما بایستی آنها را وارد بات کنید. بات به صورت خودکار اینکار را انجام نمی دهد.
-        page_7_title: Personas
+        page_7_title: پرسونا ها
         page_7_desc: |
-          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
-          In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
+          پرسونا ها به همه در سرور شما این اجازه را می دهند که با نام های کاربری و آواتار های متفاوت خودشون، در سرور فعالیت کنند.
+          برای استفاده از پرسونا ها در سرور خود، باید اول دستور ‎`%{prefix}server personas on` را اجرا کنید.
 
-          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
-          > name: Rest of message
-        page_8_title: Server Administration
+          برای ساخت یک پرسونا، عبارت ‎`%{prefix}persona register name` را وارد کنید. بعد از آن، شما می توانید پیام خود را با استفاده از پرسونای خود بفرستید:
+          > name: هرچه دل تنگت میخواهد بفرست
+        page_8_title: مدیریت سرور
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          بات NQN به شدت قابل شخصی سازی است از لحاظ دسته ویژگی هایی که دارد، که در بعضی موارد حتی ممکن است مربوط به سرور شما نشوند.
+          هرکسی با دسترسی **Manage Server** می تواند تنظیمات بات را در سرور تغییر دهد.
 
-          Here are the features you can toggle:
+          این ها ویژگی هایی هستند که شما می توانید آنها را فعال یا غیرفعال کنید:
 
-           • Nitro - `%{prefix}server nitro`
-           • Stickers - `%{prefix}server stickers`
-           • Replies - `%{prefix}server replies`
-           • Personas - `%{prefix}server personas`
-           • Masked Links - `%{prefix}server masked_links`
-        page_8_0_name: Troubleshooting Issues
+           • نیترو - ‎`%{prefix}server nitro`
+           • استیکر ها - ‎`%{prefix}server stickers`
+           • پاسخ ها - ‎`%{prefix}server replies`
+           • پرسونا ها - ‎`%{prefix}server personas`
+           • متن لینک دار - ‎`%{prefix}server masked_links`
+        page_8_0_name: ایرادیابی مشکلات
         page_8_0_desc: |
-          In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:
-          **Manage Webhooks**, **Use External Emojis**, **Add Reactions**, **Read Messages** and **Manage Messages**.
-        page_8_1_name: "Not Quite Nitro's prefix:"
+          برای اینکه بات به درستی عمل کند، NQN نیازمند به داشتن دسترسی های زیر در __همه__ کانال های شماست تا ویژگی نیترو در آنها مورد استفاده قرار بگیرد:
+          **Manage Webhooks**، **Use External Emojis**، **Add Reactions**، **Read Messages** و **Manage Messages**.
+        page_8_1_name: "پیشوند بات Not Quite Nitro:"
         page_8_1_desc: |
-          Anyone with **Manage Server** permissions can change the prefix NQN uses.
+          هرکسی با دسترسی **Manage Server** می تواند پیشوند بات NQN را برای استفاده، تغییر دهد.
 
-          The bot's current prefix for commands is `%{prefix}`, though it can be changed with
+          پیشوند مورد استفاده فعلی بات ‎`%{prefix}` می‌باشد. بدین ترتیب، می توان آن را با دستور زیر تغییر داد
           > %{prefix}server prefix %{ping} ?
-          This would change it to `?`, though any prefix works.
+          این مثال بالا باعث می شود که پیشوند به `?` تغییر کند، که می توانید جای آن هر چیز دیگری را استفاده کنید.
 
-          NQN will *always* listen to it's ping however regardless of other settings.
-        page_8_2_name: Auditing Messages
+          بات NQN *همیشه* نسبت به پینگ کردن، بدون اهمیت دادن به دیگر تنظیمات مثل همین پیشوند، پاسخ می دهد.
+        page_8_2_name: ثبت سوابق پیام ها
         page_8_2_desc: |
-          NQN keeps a log of messages it reposts, as the original message gets removed.
-          This is in case that someone changes their name and avatar before posting an offensive message, or otherwise misbehaves using the bot.
+          بات NQN یک سابقه از پیام هایی که تبدیل شده‌اند پیش خودش نگه می دارد، از آنجایی که پیام اصلی بعد از تبدیل شدن، پاک می شود.
+          برای شرایطی که فردی بخواهد با تغییر آواتار و نامش از بات سوء استفاده کند و پیام های نامناسب بفرستد، این ویژگی طراحی شده.
 
-          To get the audited messages for the server, use `%{prefix}audit guild` or [visit our website](%{url}), select your server and then click on the cog at the top.
+          برای دریافت سوابق پیام ها در سرور خودتان، از ‎`%{prefix}audit guild` استفاده کنید یا [با مراجعه به وبسایت ما](%{url})، بعد از انتخاب سرورتان، روی آیکن چرخ دنده در بالا بزنید.
 
-          Only users with **Manage Server** and **View Audit Log** can view the logged messages.
+           فقط کاربران با دسترسی **Manage Server** و **View Audit Log** می توانند پیام های ثبت شده در سوابق را مشاهده کنند.
 
-          An alternate approach which stays inside Discord is the Audit Channel, which can be set with `%{prefix}server set_audit_channel #channel`.
-          Any resent messages will be posted there with their current username, discriminator and user id.
-        page_8_3_name: 'Permissions:'
+          به عنوان یک راه دوم که داخل همین دیسکورد هم انجام می شود، می توانید یک کانال سوابق تنظیم کنید که با ‎`%{prefix}server set_audit_channel #channel` انجام می شود.
+          هر پیام تبدیل شده اخیر، همراه با نام کاربری، تفکیک کننده و شناسه کاربر، به این کانال نیز ارسال می شود.
+        page_8_3_name: 'دسترسی ها:'
         page_8_3_desc: |
-          NQN requires the 'Manage Webhooks' server permission to correctly function; reposting messages will not work without this.
+          بات NQN برای درست کار کردن نیاز به دسترسی 'Manage Webhooks' دارد. تبدیل و ارسال پیام ها بدون این دسترسی نمی تواند صورت گیرد.
 
-           • To disable commands from working in a specific channel, deny NQN 'Send Message' permissions there via user permissions.
-           • To disable reposting messages in a specific channel, deny NQN 'Manage Webhook' permissions there via user permissions.
-           • To disable all interactions in a specific channel, deny NQN 'Read Message' permissions there via user permissions.
-        page_8_4_name: 'Information Gathering:'
+           • برای غیرفعال کردن یک دستور در یک کانال مشخص، دسترسی 'Send Message' را در تنظیمات دسترسی های آن کانال از NQN بگیرید.
+           • برای غیرفعال کردن تبدیل و ارسال پیام ها در یک کانال مشخص، دسترسی 'Manage Webhook' را در تنظیمات دسترسی های آن کانال از NQN بگیرید.
+           • برای غیرفعال کردن تمامی تعاملات در یک کانال مشخص، دسترسی 'Read Message History' را در تنظیمات دسترسی های آن کانال از NQN بگیرید.
+        page_8_4_name: 'گردآوری اطلاعات:'
         page_8_4_desc: |
-          NQN stores reposted messages such that users can delete them and for the audit log.
-          Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
+          بات NQN از جهت ثبت سوابق و اینکه کاربران می توانند پیام ها را پاک کنند، اطلاعات پیام ها را ذخیره و نگه‌داری می کند.
+          هر شکلکی در سرور شماست توسط هرکسی که از بات استفاده می کند، قابل مشاهده هست، اما بدون ارتباط مستقیم با سرور شما.
 
-          Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
-        page_9_title: Advanced Usage
+          برخی اطلاعات آماری نیز درباره اینکه چگونه از بات استفاده می شود نیز جهت شناسایی هرچه بهتر انتخاب های مناسب و بهبود هرچه بیشتر بات، جمع آوری می شوند و به هیچ وجه شامل پیام هایی که شما کاربران ارسال می کنید، نمی شود.
+        page_9_title: استفاده پیشرفته
         page_9_desc: |
-          If someone uses an emote, NQN allows you to use it as well, but only if it's been recently used in the server.
-          **NOTE:** If you've only just invited NQN, it won't know about any recently used emotes before it joined.
+          اگر فردی از یک شکلک استفاده می‌کند، NQN نیز به شما امکان استفاده‌اش را نیز می‌دهد. اما فقط درصورتی که آن شکلک اخیراً در سرور استفاده شده باشد.
+          **نکته:** اگر به تازگی بات NQN را به سرور افزوده‌اید، قاعدتاً بات هیچ چیز درباره شکلک هایی که قبل از پیوستنش به سرور ارسال شده‌اند، نمی داند.
 
-          In the case that you have several emotes with the same name, the following order is used:
+          در صورتی که چند عدد شکلک با نام های یکسان وجود داشته باشد، بات به ترتیب زیر برای ارسال آن شکلک مراجعه می کند:
 
-          1. Aliases
-          2. The current server
-          3. Emote Packs
-          4. Other servers you share with NQN
-          5. Server wide aliases
-          6. Server wide packs
-          7. Recently used emojis in the current server
-          8. Recently shown packs in the current server
+          1. اختصار ها
+          2. در این سرور
+          3. بسته شکلک ها
+          4. بقیه سرور هایی که با NQN در آنها مشترک هستید
+          5. اختصار های گسترده در بین سرور ها
+          6. بسته های گسترده در بین سرور ها
+          7. ایموجی های اخیر استفاده شده در این سرور
+          8. بسته های اخیر نمایش داده شده در این سرور
 
-          If you find yourself with clashing emotes, create the one you want to use as an alias, and that will override it.
+          اگر بر سر استفاده از شکلک ها خیلی مکافات و مداخله دارید، می توانید بجایش خودتان یکی‌اش را بسازید و بعد با استفاده از اختصار از آن استفاده کنید.
       react:
-        id_large: Message ID is too large
-        not_found: Message in this channel with that ID does not exist
-        nth_id: Message must be either an ID or the `n`th most recent message (up to 50th)
-        channel_empty: This channel is empty
+        id_large: این ID پیام خیلی بزرگ است
+        not_found: پیامی با این ID در این کانال وجود ندارد
+        nth_id: این پیام باید یا یک ID و یا `n` عدد از آخرین پیام ارسال شده باشد (تا پنجاهمین پیام)
+        channel_empty: این کانال خالی است
         invalid_react:
           one: |
-            The following emote is not valid:
+            شکلک زیر معتبر نیست:
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            شکلک ها باید فقط از حروف الفبا، اعداد و زیروند ها و فوقش از یک - تشکیل شده باشند.
           many: |
-            The following emotes are not valid:
+            شکلک های زیر معتبر نیستند:
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            شکلک ها باید فقط از حروف الفبا، اعداد و زیروند ها و فوقش از یک - تشکیل شده باشند.
         emote_unusable:
           one: |
-            The following emote cannot be used in reactions:
+            شکلک زیر نمی تواند برای ری‌اکشن ها استفاده شود:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload it to a server the bot's in, it will become usable in reactions!
+            شکلک ها باید از سروری باشند که NQN هم عضو آن سرور باشد; اگر آن را به سروری که بات در آن هست آپلود کنید، یه یک شکلک قابل استفاده برای ری‌اکشن ها خواهد شد!
           many: |
-            The following emotes cannot be used in reactions:
+            شکلک های زیر نمی تواند برای ری‌اکشن ها استفاده شوند:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload them all to a server the bot's in, they will become usable in reactions!
+            شکلک ها باید از سروری باشند که NQN هم عضو آن سرور باشد; اگر آن را به سروری که بات در آن هست آپلود کنید، یه یک شکلک قابل استفاده برای ری‌اکشن ها خواهد شد!
         emote_not_found:
           one: |
-            Could not find emote %{not_found}
-            Have you added it as an alias with `%{prefix}alias search` or joined the corresponding emote pack with `%{prefix}pack search`?
+            ناتوانی در پیدا کردن شکلک %{not_found}
+            آیا شما این ایموجی را به عنوان یک اختصار ‎`%{prefix}alias search` اضافه کرده‌اید یا به بسته شکلک ‎`%{prefix}pack search` پیوسته‎‌اید؟
           many: |
-            Could not find emotes %{not_found}
-            Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
+            ناتوانی در پیدا کردن شکلک های %{not_found}
+            آیا شما این شکلک ها را به عنوان یک اختصار ‎`%{prefix}alias search` اضافه کرده‌اید یا به بسته شکلک ‎`%{prefix}pack search` پیوسته‎‌اید؟
         too_many_reacts:
-          one: This message has too many reactions to add a new one!
-          many: This message has too many reactions to add them all!
+          one: این پیام ری‌اکشن های زیادی برای افزودن یکی جدید دارد!
+          many: این پیام ری‌اکشن های زیادی برای افزودن همه اینها را دارد!
         reacting:
-          one: Adding %{count} reaction; remember to react yourself for them to stay!
-          many: Adding %{count} reactions; remember to react yourself for them to stay!
-        blocked: '%{author} has blocked me, so I cannot add that reaction!'
-        on_behalf: NQN on behalf of %{author} (%{author_id})
-        audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
+          one: درحال افزودن %{count} ری‌اکشن. یادتان نرود که خودتان هم باید آنها را ری‌اکت کنید تا باقی بمانند!
+          many: درحال افزودن %{count} ری‌اکشن. یادتان نرود که خودتان هم باید آنها را ری‌اکت کنید تا باقی بمانند!
+        blocked: 'سازنده %{author} من را مسدود کرده، پس با این حساب من نمی توانم آن ری‌اکشن را اضافه کنم! '
+        on_behalf: بات NQN از طرف %{author} (%{author_id})
+        audit_message: "ایجاد کننده %{author} به [این پیام](<%{jump_url}>) در کانال %{channel} با این شکلک ها، ری‌اکت کرد:\n"
       info:
         shard_data: |
-          > No. shards: %{shard_count} (%{shards_down} down)
-          > Average latency: %{average_latency}ms
-          > Current shard: %{current_shard}
-          > Current shard latency: %{current_latency}ms
+          > تعداد شارد ها: %{shard_count} (%{shards_down} خارج از دسترس)
+          > متوسط تاخیر پاسخ: %{average_latency}ms
+          > شماره شارد فعلی: %{current_shard}
+          > متوسط تاخیر پاسخ این شارد: %{current_latency}ms
         process_data: |
-          > RAM usage: %{ram_usage}
-          > CPU usage: %{cpu_usage}%
-          > Network:
-          > - Sent: %{network_send}
-          > - Received: %{network_recv}
+          > میزان استفاده RAM: %{ram_usage}
+          > میزان استفاده CPU: %{cpu_usage}%
+          > شبکه:
+          > - ارسال: %{network_send}
+          > - دریافت: %{network_recv}
         elasticsearch_metadata: |
-          > RAM usage: %{ram_usage}
-          > Disk space: %{disk_use}
-          > Network total: %{bytes_sent}
+          > میزان استفاده RAM: %{ram_usage}
+          > میزان فضای دیسک: %{disk_use}
+          > شبکه کلی: %{bytes_sent}
         description: |
-          Author: %{owner}
-          Application name: %{app_name}
-          Help command: `%{prefix}help`
+          ایجاد شده توسط: ‎%{owner}
+          نام برنامه: ‎%{app_name}
+          دستور راهنما: ‎`%{prefix}help`
         bot_metadata: |
-          > Uptime: %{uptime}
-          > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
-          > Servers Loaded: %{guilds_loaded} / %{guilds}
+          > دردسترس بودن: %{uptime}
+          > سرور های شکلک: %{alias_servers_available} / %{alias_servers_total}
+          > سرور های بارگذاری شده: %{guilds_loaded} / %{guilds}
         guild_features:
           zero: ''
           one: |
-            > Server Feature: %{guild_features}
+            > ویژگی سرور: %{guild_features}
           many: |
-            > Server Features: %{guild_features}
+            > ویژگی های سرور: %{guild_features}
         bot_credits: |
           [آواتار بات طراحی شده توسط Dooley](<https://www.dooleytm.com>) در [Wump Motes](https://discord.gg/pEjCBNF)
 
@@ -323,35 +323,35 @@ discord_bot:
         credits: سازندگان و مشارکان
         author: ایجاد کننده
         bot_latency: '> تاخیر API/Bot: %{bot_latency} میلی ثانیه'
-        help_command: 'Help command: `%{prefix}help`'
+        help_command: 'دستور راهنما: ‎`%{prefix}help`'
       upload_emote:
-        own_emojis_dont_ask_again: Yes; I own these
-        alphanumeric: ' - Must be alphanumeric with underscores'
-        size: ' - Must be between 1 and 32 characters long'
-        filesize: ' - Must be less than 256KB'
-        image: ' - Must be an image'
-        bad_name: "The name of the emote is incorrect:\n"
-        bad_attachment: "The attached emote is not valid:\n"
-        more_animated_needed: This server will have reached its limit for animated emotes, as it requires %{size}. Delete %{delete} and try again
-        more_static_needed: This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again
-        too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
-        this_emote: Is this the emote you meant?
+        own_emojis_dont_ask_again: بله; من دارنده این ایموجی ها هستم
+        alphanumeric: ' - بایستی متشکل از حروف الفبا با زیروندها (_) باشد'
+        size: ' - بایستی بین1 تا 32 کاراکتر باشد'
+        filesize: ' - بایستی کمتر از 256 کیلوبایت باشند'
+        image: ' - بایستی تصویر باشند'
+        bad_name: "نام شکلک مورد استفاده درست نیست:\n"
+        bad_attachment: "شکلک پیوست شده معتبر نیست:\n"
+        more_animated_needed: سرور به محدودیت شکلک های متحرک رسیده، از آنجایی که نیاز به %{size} دارد. %{delete} را حذف کرده و دوباره امتحان کنید
+        more_static_needed: سرور به محدودیت شکلک های عادی رسیده، از آنجایی که نیاز به %{size} دارد. %{delete} را حذف کرده و دوباره امتحان کنید
+        too_quick: شکلک ها دارند خیلی پشت سر هم ایجاد می شوند. لطفاً چند ساعت دیگر دوباره تلاش کنید (کد خطا ‎'%{e}')
+        this_emote: آیا منظورتان ای شکلک بود؟
         emote_preview: |
-          Is this alright?
-          If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select 'No'.
+          آیا این اشکالی ندارد؟
+          اگر شما مالک این ایموجی **نیستید**، یا اجازه پخش آن را ندارید، 'No' را انتخاب کنید.
         duplicate_name: |
-          This server already has an emote called %{name}
+          این سرور از قبل یک شکلک به نام ‎%{name} دارد
           > %{e}
-          Do you still want to upload this emote?
-        created_emotes: '%{user} uploaded %{e}'
+          آیا هنوز می خواهید این شکلک را آپلود کنید؟
+        created_emotes: 'کاربر ‎%{user} شکلک %{e} را آپلود کرد'
         also_upload_static: |
-          Would you also like to upload a static version of this emoji?
-          Users without Nitro can use it from the emoji picker to send %{e}
+          آیا می خواهید که نسخه ثابت و غیرمتحرک این ایموجی را هم اضافه کنید؟
+          اینگونه افراد بدون نیترو می توانند از آن از طریق انتخاب ایموجی داخل خود دیسکورد برای ارسال %{e} در اینجا، استفاده کنند
       vote_opt_out:
-        success: Successfully opted out of vote DMs
+        success: با موفقیت ارسال پیام مستقیم یادآوری رائ در DM به شما لغو شد
       whois:
-        found: The author is <@%{author}> (%{author})
+        found: سازنده <@%{author}> (%{author}) می باشد
         not_nqn: |
-          This command currently only works on messages reposted by NQN.
+          این دستور فقط با پیامی که توسط NQN فرستاده یا تبدیل شده باشد، کار می کند.
         not_found: |
-          The author of that message could not be automatically found. Are you sure it was posted by NQN?
+          سازنده این پیام نتوانست به طور خودکار پیدا شود. مطمئن هستید که این توسط NQN فرستاده شده؟
