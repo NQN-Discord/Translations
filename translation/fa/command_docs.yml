@@ -247,45 +247,45 @@ command_docs:
   react:
     short_doc: ری‌اکت کردن به یک پیام با ایموجی های NQN
     help: |
-      Use Discord replies or a message link to react to that message.
-      The command allows a list of reactions, each of which will be added in the order specified.
-      **You need to react to the added reactions as well for them to stay.**
+      از ویژگی رپلای دیسکورد یا لینک آن پیام برای مشخص کردن پیامی که می خواهید به آن ری‌اکت کنید، استفاده کنید.
+      این دستور به شما اجازه می دهد لیستی از ایموجی ها را برای ری‌اکت کردن، انتخاب و به ترتیب استفاده کنید.
+      **شما نیز باید به ری‌اکشنی که ظاهر شد نیز ری‌اکت کنید تا آن ری‌اکشن باقی بماند.**
   search_all:
-    short_doc: Look at emotes the bot has seen
+    short_doc: دیدن شکلک هایی که بات تا به حال دیده
     help: |
-      Look at emotes the bot has seen
+      دیدن شکلک هایی که بات تا به حال دیده
   server-alias-delete:
-    short_doc: Didn't like an emote? Make it so they've got to work for it.
+    short_doc: از یک شکلک خوشتان نیامد؟ خب کاری کنید که بقیه برای استفاده از آن، خودشان زحمت بکشند.
     help: |
-      Didn't like an emote? Make it so they've got to work for it.
+      از یک شکلک خوشتان نیامد؟ خب کاری کنید که بقیه برای استفاده از آن، خودشان زحمت بکشند.
   server-alias-import:
-    short_doc: Import a list of server aliases from a file.
+    short_doc: وارد کردن لیستی از اختصار های سرور با یک فایل.
     help: |
-      Import a list of server aliases from a file.
+      وارد کردن لیستی از اختصار های سرور با یک فایل.
   server-alias-list:
-    short_doc: Show all the aliases that anyone in your server can use
+    short_doc: نمایش لیستی از اختصار هایی که همه در سرور می توانند از آنها استفاده کنند
     help: |
-      Show all the aliases that anyone in your server can use
+      نمایش لیستی از اختصار هایی که همه در سرور می توانند از آنها استفاده کنند
   server-alias-post:
-    short_doc: Post a list of server aliases
+    short_doc: ارسال یک لیست از اختصار های سرور
     help: |
-      Post a list of server aliases
+      ارسال یک لیست از اختصار های سرور
   server-alias-rename:
-    short_doc: Rename a server alias
+    short_doc: تغییر نام یک اختصار سرور
     help: |
-      Rename a server alias
+      تغییر نام یک اختصار سرور
   server-alias-search:
-    short_doc: Allow anyone in the server to use an emote!
+    short_doc: اجازه دادن به همه در این سرور برای استفاده از یک شکلک!
     help: |
-      Allow anyone in the server to use an emote!
+      اجازه دادن به همه در این سرور برای استفاده از یک شکلک!
   server-alias:
-    short_doc: Do things with server aliases
+    short_doc: یه کاری سر این اختصار های سرور میاره
     help: |
-      Do things with server aliases
+      یه کاری سر این اختصار های سرور میاره
   server-dashboard_posting:
-    short_doc: Enable or disable posting messages through the bot dashboard
+    short_doc: فعال یا غیرفعال سازی استفاده از داشبورد سایت برای ارسال پیام
     help: |
-      Enable or disable posting messages through the bot dashboard
+      فعال یا غیرفعال سازی استفاده از داشبورد سایت برای ارسال پیام
   server-language:
     short_doc: تنظیم زبان بات %{locale_flag_emojis}
     help: |
@@ -335,13 +335,13 @@ command_docs:
     help: |
       اجازه دادن به کاربران برای استفاده از نام ها و آواتار های غیرحقیقی
   server-pings:
-    short_doc: Enable or disable pings in messages for this server
+    short_doc: فعال یا غیرفعال کردن استفاده از پینگ ها در پیام های این سرور
     help: |
-      Enable or disable pings in messages that NQN reposts on this server
+      فعال یا غیرفعال کردن استفاده از پینگ ها در پیام های این سرور
   server-phish_detection:
-    short_doc: Enable or disable phishing message detection for this server
+    short_doc: فعال یا غیرفعال کردن تشخیص فیشینگ از پیام های این سرور
     help: |
-      Enable or disable phishing message detection for this server
+      فعال یا غیرفعال کردن تشخیص فیشینگ از پیام های این سرور
   server-prefix:
     short_doc: تعیین پیشوند جدید برای استفاده NQN.
     help: |
@@ -352,11 +352,11 @@ command_docs:
     signature: |
       @NQN#3454 [prefix=!]
   server-replies:
-    short_doc: Enable or disable message replies in this server
+    short_doc: فعال یا غیرفعال کردن استفاده از رپلای ها در پیام های این سرور
     help: |
-      Enable or disable message replies in this server
+      فعال یا غیرفعال کردن استفاده از رپلای ها در پیام های این سرور
   server-settings:
-    short_doc: View the settings for this server
+    short_doc: نمایش تنظیمات این سرور
     help: |
       نمایش تنظیمات NQN در سرور، از جمله ویژگی ها، کانال های تنظیم شده و اطلاعات مرتبط به بسته های شکلک.
   server-set_announcement_channel:
@@ -365,13 +365,13 @@ command_docs:
       پست کردن اخبار مربوط به بات.
       این شامل اخبار ویژگی های جدید نیز می شود
   server-set_audit_channel:
-    short_doc: Post messages the bot reposts
+    short_doc: ارسال پیام هایی که بات آنها را تبدیل می کند
     help: |
-      Post messages the bot reposts
+      ارسال پیام هایی که بات آنها را تبدیل می کند
   server-set_boost_channel:
-    short_doc: Post whenever someone votes with the server on top.gg
+    short_doc: ارسال پیام هروقت که فردی به بات در top.gg رائ داد
     help: |
-      Post whenever someone votes with the server on top.gg
+      ارسال پیام هروقت که فردی به بات در top.gg رائ داد
   server-set_boost_role:
     short_doc: دادن این رول توسط NQN وقتی یک کاربر سرور را بوست کرد
     help: |
@@ -441,20 +441,20 @@ command_docs:
     help: |
       یکم کمک برای استفاده از من لازم دارید؟
   tutorial:
-    short_doc: Learn how to use emotes with NQN
+    short_doc: آشنایی بیشتر با نحوه استفاده از شکلک های NQN
     help: |
-      Learn how to use emotes with NQN
+      آشنایی بیشتر با نحوه استفاده از شکلک های NQN
   upload_emote:
-    short_doc: Search for all the emotes the bot has ever seen and upload them to this server.
+    short_doc: جستجو برای تمامی شکلک هایی که بات تا به حال دیده و آپلود کردن آنها به این سرور.
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload that
+      جستجو برای تمامی شکلک هایی که بات تا به حال دیده و آپلود کردن آنها به این سرور.
+      این دستور به شما اجازه می دهد تا شکلک هایی آپلود کنید.
+      شما همچنین می توانید یک فایل ضمیمه را همراه آن آپلود کنید
   vote_opt_out:
-    short_doc: Opt out of vote DMs
+    short_doc: خروج از یادآوری رائ دادن در DM
     help: |
-      Opt out of vote DMs
+      خروج از یادآوری رائ دادن در DM
   whois:
-    short_doc: Find who posted a message
+    short_doc: پیدا کردن کسی که این پیام را برای تبدیل فرستاده
     help: |
-      Find who posted a message
+      پیدا کردن کسی که این پیام را برای تبدیل فرستاده
