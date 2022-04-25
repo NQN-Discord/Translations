@@ -409,7 +409,7 @@ command_docs:
        आप केवल स्वयं के स्टिकर हटा सकते हैं।
   sticker-import:
     short_doc: इमोजीस से स्टिकर आयात करें
-    help: |
+    help: |2
       इमोजीस से स्टिकर आयात करें
       या तो सीधे एक एमोट से, एक वैकल्पिक उपनाम के साथ
       - sticker import :blue_smirk: smirk.png
