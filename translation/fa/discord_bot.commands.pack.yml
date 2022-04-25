@@ -34,7 +34,7 @@ discord_bot:
         not_published: این سرور بسته شکلک هیچوقت منتشر نشده.
         renamed: نام مورد نظر از ‎ %{old}به ‎ %{new}تغییر یافت
       save:
-        none_left: After filtering out emotes with the same name as ones in this server, there were none left to import!
+        none_left: بعد از فیلتر کردن شکلک های همنام با این سرور، هیچ شکلک دیگری برای وارد کردن باقی نماند!
         no_space: هیچ جای خالی دیگری برای افزودن این بسته شکلک به سرور نمانده.
         failed_batch: |
           دیسکورد فقط به بات ها اجازه میده که 50 ایموجی در هر ساعت بتوانند آپلود کنند.
