@@ -3,24 +3,24 @@ discord_bot:
   commands:
     sticker:
       create:
-        attachment_needed: You need to upload a sticker with this command
-        image_needed: The file needs to be an image
-        sticker_exists: A sticker called %{name} exists already!
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        too_large: This file is too large. Stickers can only be 8MB
-        created: "You can now use `:%{name}:`\nNot quite right?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
+        attachment_needed: Bạn cần thêm một nhãn dán với lệnh này
+        image_needed: Tập tin phải là một hình ảnh
+        sticker_exists: Đã có một nhãn dán mang tên %{name}!
+        filename_invalid: '`%{name}` không thể là tên cho nhãn dán. Chúng chỉ nên chứa chữ và số, với định dạng tệp là chữ và số.'
+        too_large: Ảnh này quá lớn, nhãn dán chỉ được lớn tối đa 8Mb
+        created: "Bạn giờ đã có thể dùng `:%{name}:`\nChưa đúng lắm?\n`%{prefix}sticker rename %{name} TenMoi.%{ext}`"
       mine:
-        no_stickers: You have no stickers
+        no_stickers: Bạn chưa có nhãn dán nào
       delete:
-        no_sticker: "- :%{name}: - Doesn't exist or not yours"
+        no_sticker: "- :%{name}: - Không tồn tại hoặc không phải của bạn"
         sticker_deleted: '+ :%{name}:'
         question:
-          zero: No stickers to delete!
-          one: Do you want to delete this sticker?
-          many: Do you want to delete all %{count} stickers?
+          zero: Không có nhãn dán để xóa!
+          one: Bạn có muốn xóa nhãn dán này?
+          many: Bạn có muốn xóa %{count} nhãn dán này?
         deleted_all:
-          one: Deleted %{count} sticker
-          many: Deleted %{count} stickers
+          one: Đã xóa %{count} nhãn dán
+          many: Đã xóa %{count} nhãn dán
       rename:
         filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
         no_sticker: This sticker doesn't exist

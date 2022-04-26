@@ -107,15 +107,15 @@ discord_bot:
           اگر شما دسترسی **Manage Server** را دارید، شما می توانید بسته شکلک خود را که حاوی تمام شکلک های سرور هست، به عنوان یک بسته شکلک منتشر کنید:
           > `%{prefix}pack publish MySuperCoolEmotePackName`
           شما همچنین می توانید بسته شکلک خود را در دسترس عموم برای استفاده قرار دهید. با استفاده از ‎`%{prefix}pack set_public yes` مردم این اجازه را پیدا می کنند که بدون دعوت، توسط بات وارد سرور شما شوند.
-        page_3_title: Aliases
+        page_3_title: اختصار ها
         page_3_desc: |
-          Aliases are just individual emotes which you give a name, and are then usable via that name.
+          اختصار ها، شکلک های مجزایی هستند که شما به آنها نام می دهید، و آنها با یک نام قابل استفاده هستند.
 
-          If you know the exact name of the emote you want to add:
+          اگر نام دقیق شکلکی که می خواهید اضافه کنید را می‌دانید:
           > `%{prefix}alias search :EmoteName:`
 
-          If you want to look through every emote NQN can let you use:
-          > `%{prefix}alias search whatever` (No colons if you don't know the exact name)
+          اگر با اینحال دنبال یکی از هر شکلکی که NQN ارائه می دهد می گردید:
+          > `%{prefix}alias search whatever` (هیچ دو نقطه‌ای نگذارید اگر اسم دقیق را نمی دانید)
         page_4_title: Replies
         page_4_desc: |
           NQN allows you to reply to messages sent long ago.
@@ -180,17 +180,17 @@ discord_bot:
           این مثال بالا باعث می شود که پیشوند به `?` تغییر کند، که می توانید جای آن هر چیز دیگری را استفاده کنید.
 
           بات NQN *همیشه* نسبت به پینگ کردن، بدون اهمیت دادن به دیگر تنظیمات مثل همین پیشوند، پاسخ می دهد.
-        page_8_2_name: Auditing Messages
+        page_8_2_name: ثبت سوابق پیام ها
         page_8_2_desc: |
-          NQN keeps a log of messages it reposts, as the original message gets removed.
-          This is in case that someone changes their name and avatar before posting an offensive message, or otherwise misbehaves using the bot.
+          بات NQN یک سابقه از پیام هایی که تبدیل شده‌اند پیش خودش نگه می دارد، از آنجایی که پیام اصلی بعد از تبدیل شدن، پاک می شود.
+          برای شرایطی که فردی بخواهد با تغییر آواتار و نامش از بات سوء استفاده کند و پیام های نامناسب بفرستد، این ویژگی طراحی شده.
 
-          To get the audited messages for the server, use `%{prefix}audit guild` or [visit our website](%{url}), select your server and then click on the cog at the top.
+          برای دریافت سوابق پیام ها در سرور خودتان، از ‎`%{prefix}audit guild` استفاده کنید یا [با مراجعه به وبسایت ما](%{url})، بعد از انتخاب سرورتان، روی آیکن چرخ دنده در بالا بزنید.
 
-          Only users with **Manage Server** and **View Audit Log** can view the logged messages.
+           فقط کاربران با دسترسی **Manage Server** و **View Audit Log** می توانند پیام های ثبت شده در سوابق را مشاهده کنند.
 
-          An alternate approach which stays inside Discord is the Audit Channel, which can be set with `%{prefix}server set_audit_channel #channel`.
-          Any resent messages will be posted there with their current username, discriminator and user id.
+          به عنوان یک راه دوم که داخل همین دیسکورد هم انجام می شود، می توانید یک کانال سوابق تنظیم کنید که با ‎`%{prefix}server set_audit_channel #channel` انجام می شود.
+          هر پیام تبدیل شده اخیر، همراه با نام کاربری، تفکیک کننده و شناسه کاربر، به این کانال نیز ارسال می شود.
         page_8_3_name: 'دسترسی ها:'
         page_8_3_desc: |
           بات NQN برای درست کار کردن نیاز به دسترسی 'Manage Webhooks' دارد. تبدیل و ارسال پیام ها بدون این دسترسی نمی تواند صورت گیرد.
@@ -198,12 +198,12 @@ discord_bot:
            • برای غیرفعال کردن یک دستور در یک کانال مشخص، دسترسی 'Send Message' را در تنظیمات دسترسی های آن کانال از NQN بگیرید.
            • برای غیرفعال کردن تبدیل و ارسال پیام ها در یک کانال مشخص، دسترسی 'Manage Webhook' را در تنظیمات دسترسی های آن کانال از NQN بگیرید.
            • برای غیرفعال کردن تمامی تعاملات در یک کانال مشخص، دسترسی 'Read Message History' را در تنظیمات دسترسی های آن کانال از NQN بگیرید.
-        page_8_4_name: 'Information Gathering:'
+        page_8_4_name: 'گردآوری اطلاعات:'
         page_8_4_desc: |
-          NQN stores reposted messages such that users can delete them and for the audit log.
-          Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
+          بات NQN از جهت ثبت سوابق و اینکه کاربران می توانند پیام ها را پاک کنند، اطلاعات پیام ها را ذخیره و نگه‌داری می کند.
+          هر شکلکی در سرور شماست توسط هرکسی که از بات استفاده می کند، قابل مشاهده هست، اما بدون ارتباط مستقیم با سرور شما.
 
-          Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
+          برخی اطلاعات آماری نیز درباره اینکه چگونه از بات استفاده می شود نیز جهت شناسایی هرچه بهتر انتخاب های مناسب و بهبود هرچه بیشتر بات، جمع آوری می شوند و به هیچ وجه شامل پیام هایی که شما کاربران ارسال می کنید، نمی شود.
         page_9_title: استفاده پیشرفته
         page_9_desc: |
           اگر فردی از یک شکلک استفاده می‌کند، NQN نیز به شما امکان استفاده‌اش را نیز می‌دهد. اما فقط درصورتی که آن شکلک اخیراً در سرور استفاده شده باشد.
@@ -228,38 +228,38 @@ discord_bot:
         channel_empty: این کانال خالی است
         invalid_react:
           one: |
-            The following emote is not valid:
+            شکلک زیر معتبر نیست:
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            شکلک ها باید فقط از حروف الفبا، اعداد و زیروند ها و فوقش از یک - تشکیل شده باشند.
           many: |
-            The following emotes are not valid:
+            شکلک های زیر معتبر نیستند:
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            شکلک ها باید فقط از حروف الفبا، اعداد و زیروند ها و فوقش از یک - تشکیل شده باشند.
         emote_unusable:
           one: |
-            The following emote cannot be used in reactions:
+            شکلک زیر نمی تواند برای ری‌اکشن ها استفاده شود:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload it to a server the bot's in, it will become usable in reactions!
+            شکلک ها باید از سروری باشند که NQN هم عضو آن سرور باشد; اگر آن را به سروری که بات در آن هست آپلود کنید، یه یک شکلک قابل استفاده برای ری‌اکشن ها خواهد شد!
           many: |
-            The following emotes cannot be used in reactions:
+            شکلک های زیر نمی تواند برای ری‌اکشن ها استفاده شوند:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload them all to a server the bot's in, they will become usable in reactions!
+            شکلک ها باید از سروری باشند که NQN هم عضو آن سرور باشد; اگر آن را به سروری که بات در آن هست آپلود کنید، یه یک شکلک قابل استفاده برای ری‌اکشن ها خواهد شد!
         emote_not_found:
           one: |
-            Could not find emote %{not_found}
-            Have you added it as an alias with `%{prefix}alias search` or joined the corresponding emote pack with `%{prefix}pack search`?
+            ناتوانی در پیدا کردن شکلک %{not_found}
+            آیا شما این ایموجی را به عنوان یک اختصار ‎`%{prefix}alias search` اضافه کرده‌اید یا به بسته شکلک ‎`%{prefix}pack search` پیوسته‎‌اید؟
           many: |
-            Could not find emotes %{not_found}
-            Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
+            ناتوانی در پیدا کردن شکلک های %{not_found}
+            آیا شما این شکلک ها را به عنوان یک اختصار ‎`%{prefix}alias search` اضافه کرده‌اید یا به بسته شکلک ‎`%{prefix}pack search` پیوسته‎‌اید؟
         too_many_reacts:
-          one: This message has too many reactions to add a new one!
-          many: This message has too many reactions to add them all!
+          one: این پیام ری‌اکشن های زیادی برای افزودن یکی جدید دارد!
+          many: این پیام ری‌اکشن های زیادی برای افزودن همه اینها را دارد!
         reacting:
-          one: Adding %{count} reaction; remember to react yourself for them to stay!
-          many: Adding %{count} reactions; remember to react yourself for them to stay!
-        blocked: '%{author} has blocked me, so I cannot add that reaction!'
-        on_behalf: NQN on behalf of %{author} (%{author_id})
-        audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
+          one: درحال افزودن %{count} ری‌اکشن. یادتان نرود که خودتان هم باید آنها را ری‌اکت کنید تا باقی بمانند!
+          many: درحال افزودن %{count} ری‌اکشن. یادتان نرود که خودتان هم باید آنها را ری‌اکت کنید تا باقی بمانند!
+        blocked: 'سازنده %{author} من را مسدود کرده، پس با این حساب من نمی توانم آن ری‌اکشن را اضافه کنم! '
+        on_behalf: بات NQN از طرف %{author} (%{author_id})
+        audit_message: "ایجاد کننده %{author} به [این پیام](<%{jump_url}>) در کانال %{channel} با این شکلک ها، ری‌اکت کرد:\n"
       info:
         shard_data: |
           > تعداد شارد ها: %{shard_count} (%{shards_down} خارج از دسترس)
@@ -348,10 +348,10 @@ discord_bot:
           آیا می خواهید که نسخه ثابت و غیرمتحرک این ایموجی را هم اضافه کنید؟
           اینگونه افراد بدون نیترو می توانند از آن از طریق انتخاب ایموجی داخل خود دیسکورد برای ارسال %{e} در اینجا، استفاده کنند
       vote_opt_out:
-        success: Successfully opted out of vote DMs
+        success: با موفقیت ارسال پیام مستقیم یادآوری رائ در DM به شما لغو شد
       whois:
         found: سازنده <@%{author}> (%{author}) می باشد
         not_nqn: |
-          This command currently only works on messages reposted by NQN.
+          این دستور فقط با پیامی که توسط NQN فرستاده یا تبدیل شده باشد، کار می کند.
         not_found: |
           سازنده این پیام نتوانست به طور خودکار پیدا شود. مطمئن هستید که این توسط NQN فرستاده شده؟

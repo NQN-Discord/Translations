@@ -10,8 +10,8 @@ discord_bot:
     no_personas: |
       پرسونا ها برای این سرور مجاز نیستند
     no_messageless_posting: |
-      A server administrator has disabled posting through the web dashboard and slash commands
+      ادمین سرور ارسال پیام را از طریق داشبورد سایت و اسلش کامند ها، غیرفعال کرده
     no_slowmode_posting: |
       ارسال پیام به کانال هایی که slowmode دارند، مجاز نیست
-    enable_posting: Enable Posting
-    posted_message: Posted message
+    enable_posting: فعال سازی ارسال پیام
+    posted_message: پیام ارسال شد

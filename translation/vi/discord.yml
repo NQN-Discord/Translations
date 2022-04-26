@@ -20,7 +20,7 @@ discord:
     categories: Danh mục
     everything_else: Những thứ khác
     really_useful: Những lệnh cực hữu dụng
-    useful_links: 'Các đường dẫn hữu dụng:'
+    useful_links: 'Các link hữu dụng:'
     website: Trang web
     vote: Vote!
     support: Hỗ trợ
@@ -32,6 +32,6 @@ discord:
       Not Quite Nitro (NQN) là một bot tiện ích giúp bạn có thể dùng nhiều biểu cảm cần Nitro.
       Chúng tôi có một hệ thống lưu trữ cực lớn với nhiều emoji độc lạ mà bạn có thể dùng trong mọi server có bot này với quyền Quản lý Webhook được bật cho nó.
 
-      NQN cũng thực hiện tự động trích dẫn mỗi khi người dùng gửi đường dẫn đến một tin nhắn, tận dụng khả năng của đường dẫn ẩn trong nhắn tin và nhãn dán, hay còn là biểu cảm cỡ lớn.
+      NQN cũng thực hiện tự động trích dẫn mỗi khi người dùng gửi link đến một tin nhắn, tận dụng khả năng của hyperlink trong nhắn tin và nhãn dán, hay còn là biểu cảm cỡ lớn.
 
       Bạn có thể mời tôi vào [server của bạn](https://discord.com/api/oauth2/authorize?%{params}).
