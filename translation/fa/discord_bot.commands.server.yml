@@ -69,7 +69,7 @@ discord_bot:
           این به همه این اجازه را می دهد که از نام‌کاربری و آواتار های قابل شخصی سازی استفاده کنند، حواستان فقط باشد که با این گول افراد را نخورید.
 
           تیم بات NQN این پیشنهاد را می دهد که کانال سوابق را برای استفاده از این ویژگی نیز فعال کنید. اگر هنوز کانالی برای سوابق این موارد تنظیم نکرده‌اید، با دستور زیر می توانید آن را فعال کنید
-          > ```!server set_audit_channel #channel``` #channel``` #channel```
+          > ```!server set_audit_channel #channel``` #channel```
         personas_off: استفاده از پرسونا ها غیرفعال شد
         dashboard_posting_on: Enabled posting messages from the bot's dashboard
         dashboard_posting_off: Disabled posting messages from the bot's dashboard
