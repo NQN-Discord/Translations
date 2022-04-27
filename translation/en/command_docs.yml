@@ -1,4 +1,3 @@
----
 command_docs:
   alias-delete:
     short_doc: Don't want an alias anymore? Use this
@@ -29,7 +28,7 @@ command_docs:
     help: |
       Rename one of your aliases
   alias-search:
-    short_doc: Look for individual emotes
+    short_doc: Look for individual emotes to use with NQN
     help: |
       Look for individual emotes to use with NQN
 
@@ -176,7 +175,7 @@ command_docs:
     help: |
       Upload all of the emotes from a pack to this server
   pack-search:
-    short_doc: Find entire packs of emotes
+    short_doc: Find entire packs of emotes to use with NQN
     help: |
       Find entire packs of emotes to use with NQN
   pack-set_public:
@@ -412,7 +411,7 @@ command_docs:
       You can only delete stickers you own.
   sticker-import:
     short_doc: Import stickers from emotes
-    help: |2
+    help: |
       Import stickers from emotes
       Either from an emote directly, with an optional alias
        - sticker import :blue_smirk: smirk.png
