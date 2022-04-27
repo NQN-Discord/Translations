@@ -28,7 +28,7 @@ command_docs:
     help: |
       Rename one of your aliases
   alias-search:
-    short_doc: Look for individual emotes
+    short_doc: Look for individual emotes to use with NQN
     help: |
       Look for individual emotes to use with NQN
 
@@ -175,7 +175,7 @@ command_docs:
     help: |
       Upload all of the emotes from a pack to this server
   pack-search:
-    short_doc: Find entire packs of emotes
+    short_doc: Find entire packs of emotes to use with NQN
     help: |
       Find entire packs of emotes to use with NQN
   pack-set_public:
@@ -248,7 +248,7 @@ command_docs:
     help: |
       How high up is your server in our rankings?
   react:
-    short_doc: React to a message with emojis
+    short_doc: React to a message with emojis from NQN
     help: |
       Use Discord replies or a message link to react to that message.
       The command allows a list of reactions, each of which will be added in the order specified.
@@ -448,7 +448,7 @@ command_docs:
     help: |
       Learn how to use emotes with NQN
   upload_emote:
-    short_doc: Search for and upload emotes to this server.
+    short_doc: Search for all the emotes the bot has ever seen and upload them to this server.
     help: |
       Search for all the emotes the bot has ever seen and upload them to this server.
       This command allows you to upload emotes.
