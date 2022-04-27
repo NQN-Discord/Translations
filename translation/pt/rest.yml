@@ -9,5 +9,5 @@ rest:
       %{guild} Agora pode usar %{max_emotes} emotes em todo o servidor
     vote_text_rank: |
       <@%{user}> Acabei de votar no servidor em %{site}!
-      %{guild} Agora pode usar %{max_emotes} emotes em todo o servidor e é classificado #%{guild_rank} #%{guild_rank}
+      %{guild} Agora pode usar %{max_emotes} emotes em todo o servidor e é classificado #%{guild_rank} #%{guild_rank} #%{guild_rank}
     voted: Votou para NQN
