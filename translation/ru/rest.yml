@@ -9,5 +9,5 @@ rest:
       Серверу %{guild} теперь доступно %{max_emotes} глобальных эмодзи
     vote_text_rank: |
       <@%{user}> проголосовал за сервер на %{site}!
-      Серверу %{guild} теперь доступно %{max_emotes} глобальных эмодзи и он на #%{guild_rank} месте #%{guild_rank} #%{guild_rank}
+      Серверу %{guild} теперь доступно %{max_emotes} глобальных эмодзи и он на #%{guild_rank} месте #%{guild_rank}
     voted: Проголосовал за NQN
