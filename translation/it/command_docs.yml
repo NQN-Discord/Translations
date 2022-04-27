@@ -29,7 +29,7 @@ command_docs:
     help: |
       Rinomina uno dei tuoi alias
   alias-search:
-    short_doc: Look for individual emotes
+    short_doc: Cerca emote individuali
     help: |
       Cerca le singole emote da usare con NQN
 
@@ -177,7 +177,7 @@ command_docs:
     help: |
       Carica tutte le emote da un pacchetto a questo server
   pack-search:
-    short_doc: Find entire packs of emotes
+    short_doc: Trova interi pacchetti di emote
     help: |
       Trova interi pacchetti di emote da usare con NQN
   pack-set_public:
@@ -250,7 +250,7 @@ command_docs:
     help: |
       Quanto è alto il tuo server nelle nostre classifiche?
   react:
-    short_doc: React to a message with emojis
+    short_doc: Reagisci ad un messaggio con gli adesivi
     help: |
       Utilizzare le risposte di Discord o un link di messaggio per reagire a quel messaggio.
       Il comando permette un elenco di reazioni, ognuna delle quali sarà aggiunta nell'ordine specificato.
@@ -449,7 +449,7 @@ command_docs:
     help: |
       Impara come usare le emote con NQN
   upload_emote:
-    short_doc: Search for and upload emotes to this server.
+    short_doc: Cerca e carica emote in questo server.
     help: |
       Cerca tutte le emote che il bot ha visto e caricale su questo server.
       Questo comando ti permette di caricare le emote.
