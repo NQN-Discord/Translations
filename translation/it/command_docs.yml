@@ -60,7 +60,7 @@ command_docs:
     short_doc: Elimina uno dei tuoi messaggi inviati da NQN
     help: |
       Elimina uno dei tuoi messaggi duplicati da NQN.
-      Per impostazione predefinita, il tuo messaggio più recente in questo canale viene eliminato, ma puoi opzionalmente fornire un URL di 
+      Per impostazione predefinita, il tuo messaggio più recente in questo canale viene eliminato, ma puoi opzionalmente fornire un URL di
       un messaggio per eliminarlo.
       Puoi anche utilizzare la funzionalità di risposta ai messaggi di Discord per eliminare quel messaggio.
   edit:

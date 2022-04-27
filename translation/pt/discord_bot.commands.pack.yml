@@ -12,7 +12,7 @@ discord_bot:
         no_pack: '%{name} não é um pacote de emoji registrado'
         already_joined: Você já se juntou a %{name}
         joined_pack: |
-          Você entrou em %{name}. 
+          Você entrou em %{name}.
           Agora você pode usar os seguintes emojis digitando seu nome no chat, incluindo os dois pontos:
       leave:
         no_pack: '%{name} não é um pacote de emoji registrado'
