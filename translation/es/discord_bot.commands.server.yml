@@ -72,7 +72,7 @@ discord_bot:
 
           El staff de NQN recomienda fijar un canal de auditoria cuando se utiliza esta funcionalidad;
           Si no lo has echo todavia, se puede fijar usando:
-          > ```!server set_audit_channel #channel``` #channel```
+          > ```!server set_audit_channel #channel``` #channel``` #channel```
         personas_off: Se deshabilito el uso de personajes
         dashboard_posting_on: Se habilita el envío de mensajes dese el panel en sito del bot
         dashboard_posting_off: Se deshabilito el envío de mensajes dese el panel en sito del bot
