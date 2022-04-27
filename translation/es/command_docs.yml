@@ -29,7 +29,7 @@ command_docs:
     help: |
       Renombra uno de tus alias
   alias-search:
-    short_doc: Look for individual emotes
+    short_doc: Busca emojis individuales
     help: |
       Busca emojis individuales para usarlos con NQN
 
@@ -177,7 +177,7 @@ command_docs:
     help: |
       Sube todos los emojis de un pack a este servidor
   pack-search:
-    short_doc: Find entire packs of emotes
+    short_doc: Encuentra packs de emojis
     help: |
       Encuentra paquetes enteros de emojis para usar con NQN
   pack-set_public:
@@ -250,7 +250,7 @@ command_docs:
     help: |
       ¿Que tan alto es el puesto que ocupa tu servidor en nuestro ranking?
   react:
-    short_doc: React to a message with emojis
+    short_doc: Reacciona a mensajes con emojis de NQN
     help: |
       Reacciona al mensaje `n` más reciente
       Opcional message: La ID o el link del mensaje al cual reaccionar o el mensaje `n` más reciente(hasta 20 mensajes atrás)
@@ -452,7 +452,7 @@ command_docs:
     help: |
       Aprende a usar emojis con NQN
   upload_emote:
-    short_doc: Search for and upload emotes to this server.
+    short_doc: Busca y subi emojis a este servidor.
     help: |
       Busca todos los emojis que el bot a visto y subilos a este servidor.
       Este comando te permite subir emojis.
