@@ -10,7 +10,7 @@ discord_bot:
         renamed: |
           این دستور به ‎`%{prefix}%{new}` تغییر نام یافت.
           اگر نمی خواهید که این پیام را دوباره ببینید، با ❌ ری‌اکت کنید
-        ignored: Ignored `%{name}` for you.
+        ignored: برای شما ‎`%{name}` کنار گذاشته شد.
       edit:
         never_posted: شما هیچوقت پیامی که خودتان از طرف NQN در این کانال نفرستاده‌اید!
         message_deleted: |
@@ -44,22 +44,22 @@ discord_bot:
 
           اگر میخواهید، می توانید [NQN را به سرور دیگری دعوت کنید](%{bot_invite}) تا به ایموجی های آنجا در اینجا دسترسی پیدا کنید.
       ranking:
-        vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
+        vote_link: شما می توانید به بات در %{url} رائ بدهید تا شکلک های بین سروری بیشتر و رده‌بندی سرور بالاتری داشته باشید.
         top_server: با تشکر از اینکه بزرگ‌ترین سرور حامی ما هستید <a:BluePat:679807864327766048>
         thanks: خیلی متشکر از اینکه به بات رائ دادید!
         ranking: |
-          %{guild} is ranked #%{rank} out of all the servers using NQN.
+          رده سرور ‎%{guild} از بین تمامی سرور هایی که دارند از NQN استفاده می کنند، ‎#%{rank} می‌باشد.
 
           %{rank_leaderboard}
-          You have voted %{total_votes} times for NQN. %{thanks}
+          شما %{total_votes} بار برای NQN رائ داده‌اید. %{thanks}
 
           %{user_ranking}
 
           %{extra_message}
       search_all:
         disclaimer: |
-          This command does not allow you to use these emotes!
-          It's provided to allow an easy search through the ones available to be added with
+          این دستور به شما اجازه نمی‌دهند که از این شکلک ها استفاده کنید!
+          این برای یک جستجوی سریع تر بین آنهایی که آماده اضافه شدن هستند، تعبیه شده که با دستور زیر انجام می شود
           > `%{prefix}alias search %{terms} page: %{page_no}`
       tutorial:
         choose_page: گشتن در آموزش
@@ -116,15 +116,15 @@ discord_bot:
 
           اگر با اینحال دنبال یکی از هر شکلکی که NQN ارائه می دهد می گردید:
           > `%{prefix}alias search whatever` (هیچ دو نقطه‌ای نگذارید اگر اسم دقیق را نمی دانید)
-        page_4_title: Replies
+        page_4_title: پاسخ ها (رپلای کردن)
         page_4_desc: |
-          NQN allows you to reply to messages sent long ago.
+          بات NQN به شما این اجازه را می دهد که پیام هایی را که خیلی وثت پیش فرستاده شده بودند را رپلای کنید.
 
-          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're replying to as well.
+          فقط کافیست لینک پیام را از طریق دیسکورد کپی کنید (همان دکمه اشتراک گذاری در موبایل و بعد کپی کردن آن در کلیپبورد) و بعد در پیام خود آن را وارد کنید. سپس به صورت خودکار پیام شما به عنوان یک رپلای نیز ارسال خواهد شد.
 
-          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+          اگر نمی خواهید که بات لینک پیام ها را تبدیل به رپلای کند، شما می توانید دو طرف آن <\>\ را بگذارید، بدین ترتیب بات آن پیام را تبدیل نخواهد کرد.
 
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server replies off`.
+          اگر ادمین سرور هستید و می خواهید این ویژگی را در سرور غیرفعال کنید، فقط کافیست از دستور ‎`%{prefix}server replies off` استفاده کنید.
         page_5_title: متن های لینک دار
         page_5_desc: |
           بات NQN به کاربران این اجازه را می دهد تا از [متن های لینک دار](%{url}) به عنوان قسمتی از پیام های عادی که میفرستند، استفاده کنند.

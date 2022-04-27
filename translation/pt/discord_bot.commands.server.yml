@@ -35,7 +35,7 @@ discord_bot:
         no_aliases: Não há aliases globais neste servidor
       nitro_role:
         unset: Qualquer pessoa neste servidor pode usar emojis Nitro de graça com o NQN
-        set: Agora, apenas usuários com o cargo %{role} podem usar emojis Nitro com o NQN 
+        set: Agora, apenas usuários com o cargo %{role} podem usar emojis Nitro com o NQN
       audit_channel:
         unset: O canal de auditoria foi desativado para este servidor
         set: O canal de auditoria foi definido para %{channel} neste servidor

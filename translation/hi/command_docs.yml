@@ -1,7 +1,7 @@
 ---
 command_docs:
   alias-delete:
-    short_doc: ये ऐलियस नहीं चाइये? ऐसे इस्तेमाल करें 
+    short_doc: ये ऐलियस नहीं चाइये? ऐसे इस्तेमाल करें
     help: |
       ये ऐलियस नहीं चाइये? ऐसे इस्तेमाल करें
   alias-delete_all:
@@ -347,7 +347,7 @@ command_docs:
     help: |
       Enable or disable phishing message detection for this server
   server-prefix:
-    short_doc: NQN को दूसरे प्रीफिक्स को सुने के लिए कमांड दे 
+    short_doc: NQN को दूसरे प्रीफिक्स को सुने के लिए कमांड दे
     help: |
       NQN को दूसरे प्रीफिक्स को सुने के लिए कमांड दे
     signature: |
@@ -434,7 +434,7 @@ command_docs:
     help: |
       टेलीग्राम से स्टिकर आयात करें
   sticker:
-    short_doc: इमोजी से बड़े 
+    short_doc: इमोजी से बड़े
     help: |
       इमोजी से बड़े
   support:

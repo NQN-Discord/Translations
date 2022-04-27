@@ -24,7 +24,7 @@ discord_bot:
           \\:%{name}: सर्वर इमोट के रूप में नहीं जोड़ा गया था।
 
           अधिक एलीयेसीस के लिए, कोई भी बॉट के लिए मतदान कर सकता है %{url}
-        no_alias: इस सर्वर मैं %{name} नाम का कोई एलीयस नहीं हैं 
+        no_alias: इस सर्वर मैं %{name} नाम का कोई एलीयस नहीं हैं
         renamed: 'नाम इसे  बदलकर \:%{old}:यह करदिया :%{new}:'
         no_aliases: This server has no global aliases
       nitro_role:

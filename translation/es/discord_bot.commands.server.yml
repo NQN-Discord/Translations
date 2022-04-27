@@ -128,7 +128,7 @@ discord_bot:
         nitro: Nitro
         replies: Respuestas
         masked_links: URLs enmascarados
-        pings: Pings
+        pings: Menciones
         user_content: Contenido de los Usuarios
         personas: Personajes
         dashboard_posting: Enviar mensajes con Sitio

@@ -9,7 +9,7 @@ exceptions:
       Nó nên là: %{should_be}
     many: |
       Cần có "%{param}" đang thiếu.
-      Nó nên là một trong: 
+      Nó nên là một trong:
       - %{should_be}
   bot_missing_permissions:
     one: |
