@@ -9,5 +9,5 @@ rest:
       %{guild} hiện có thể dùng %{max_emotes} biểu cảm liên server
     vote_text_rank: |
       <@%{user}> vừa vote cho server trên %{site}!
-      %{guild} hiện có thể dùng %{max_emotes} biểu cảm liên server và hiện đang xếp hạng #%{guild_rank} #%{guild_rank}
+      %{guild} hiện có thể dùng %{max_emotes} biểu cảm liên server và hiện đang xếp hạng #%{guild_rank} #%{guild_rank} #%{guild_rank}
     voted: Đã vote cho NQN
