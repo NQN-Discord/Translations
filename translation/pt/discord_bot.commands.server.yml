@@ -35,7 +35,7 @@ discord_bot:
         no_aliases: Não há aliases globais neste servidor
       nitro_role:
         unset: Qualquer pessoa neste servidor pode usar emojis Nitro de graça com o NQN
-        set: Agora, apenas usuários com o cargo %{role} podem usar emojis Nitro com o NQN 
+        set: Agora, apenas usuários com o cargo %{role} podem usar emojis Nitro com o NQN
       audit_channel:
         unset: O canal de auditoria foi desativado para este servidor
         set: O canal de auditoria foi definido para %{channel} neste servidor
@@ -69,7 +69,7 @@ discord_bot:
           Isso permite que qualquer pessoa defina um nome de usuário e avatar personalizáveis; tenha cuidado com imitações.
 
           A equipe do NQN recomenda definir um canal de auditoria ao usar este recurso; se ainda não fez isso, ele pode ser definido com
-          > ```!server set_audit_channel #canal``` #channel```
+          > ```!server set_audit_channel #canal``` #channel``` #channel```
         personas_off: Desabilitado o uso de personagens
         dashboard_posting_on: Foi habilitado o envio de mensagens pelo Dashboard
         dashboard_posting_off: Foi desativado o envio de mensagens pelo Dashboard
