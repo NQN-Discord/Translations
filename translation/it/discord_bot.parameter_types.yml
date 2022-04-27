@@ -48,7 +48,7 @@ discord_bot:
       description: |
         Un numero
     bool:
-      name: Boolean
+      name: Booleano
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
