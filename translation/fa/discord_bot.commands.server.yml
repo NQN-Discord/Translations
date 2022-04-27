@@ -3,7 +3,7 @@ discord_bot:
   commands:
     server:
       alias:
-        set_emote_title: 'Set \:%{name}: to %{emote} for this server.'
+        set_emote_title: 'عنوان ‎\:%{name}: به ‎%{emote} برای این سرور تنظیم شد.'
         set_emote_description:
           zero: |
             برای این سرور جای خالی دیگری برای شکلک ها نمانده!
@@ -22,17 +22,17 @@ discord_bot:
             همه می توانند از این شکلک استفاده کنند با نوشتن:
         failed_aliases:
           one: |
-            One alias which cannot be rendered
+            یکی از اختصار ها را نمی توان نمایش داد
           many: |
-            %{failed_aliases} aliases which cannot be rendered
-        max_title: This server is at its maximum emote/pack count already!
+            %{failed_aliases} از اختصار ها را نمی توان نمایش داد
+        max_title: این سرور به حداکثر تعداد بسته/شکلک های خود رسیده!
         max_description: |
-          :%{name}: was not added as a server emote.
+          نام ‎:%{name}: به عنوان یک بسته سرور افزوده نشده.
 
-          For more aliases/packs, anyone can vote for the bot at %{url}
-        no_alias: This server does not have an alias called %{name}
-        renamed: 'Renamed %{emote} from \:%{name}: to :%{new}:'
-        no_aliases: This server has no global aliases
+          برای دسترسی به بسته/اختصار های بیشتر، همه می توانند به بات در %{url} رائ دهند
+        no_alias: این سرور هیچ اختصاری به نام %{name} ندارد
+        renamed: 'نام ‎%{emote} از ‎\:%{name}: به ‎:%{new}: تغییر یافت'
+        no_aliases: این سرور هیچ اختصار عمومی ندارد
       nitro_role:
         unset: همه در این سرور می تواند با NQN از شکلک های نیترو به صورت رایگان استفاده کند
         set: حال فقط افراد با رول %{role} می توانند از شکلک های نیترو به صورت رایگان استفاده کنند
@@ -51,19 +51,19 @@ discord_bot:
         stickers_off: استفاده استیکر ها غیرفعال شدند
         nitro_on: استفاده از رایگان از شکلک های نیترو در این سرور فعال شد!
         nitro_off: استفاده از رایگان از شکلک های نیترو در این سرور غیرفعال شد
-        replies_on: Enabled message replies
-        replies_off: Disabled message replies
+        replies_on: رپلای کردن با لینک پیام ها فعال شد
+        replies_off: رپلای کردن با لینک پیام ها غیرفعال شد
         masked_links_on: اعمال آدرس URL لینک روی متون فعال شد
         masked_links_off: اعمال آدرس URL لینک روی متون غیرفعال شد
-        pings_on: Enabled pings in reposted messages
-        pings_off: Disabled pings in reposted messages
+        pings_on: قابلیت پینگ کردن در پیام های تبدیل شده با موفقیت فعال شد
+        pings_off: قابلیت پینگ کردن در پیام های تبدیل شده با موفقیت غیرفعال شد
         user_content_on: |
-          Enabled usage of individual user's aliases and packs
-          Sticker settings have not been changed.
+          استفاده از اختصار ها و بسته های جداگانه کاربران فعال شد
+          تنظیمات مربوط به استیکر ها تغییر نکردند.
         user_content_off: |
-          Disabled usage of individual user's aliases and packs.
-          Only aliases and packs added with `%{prefix}server alias search` and `%{prefix}server pack search` will be usable, as well as emojis from this server.
-          Stickers have also been automatically disabled.
+          استفاده از اختصار ها و بسته های جداگانه کاربران غیرفعال شد.
+          حال فقط بسته ها و اختصار هایی که با ‎`%{prefix}server alias search` و ‎`%{prefix}server pack search` به سرور اضافه شده‌اند، به علاوه ایموجی های خود همین سرور قابل استفاده خواهند بود.
+          استیکر ها نیز به طور خودکار غیرفعال شدند.
         personas_on: |
           استفاده از پرسونا ها فعال شد.
           این به همه این اجازه را می دهد که از نام‌کاربری و آواتار های قابل شخصی سازی استفاده کنند، حواستان فقط باشد که با این گول افراد را نخورید.
@@ -71,10 +71,10 @@ discord_bot:
           تیم بات NQN این پیشنهاد را می دهد که کانال سوابق را برای استفاده از این ویژگی نیز فعال کنید. اگر هنوز کانالی برای سوابق این موارد تنظیم نکرده‌اید، با دستور زیر می توانید آن را فعال کنید
           > ```!server set_audit_channel #channel``` #channel``` #channel```
         personas_off: استفاده از پرسونا ها غیرفعال شد
-        dashboard_posting_on: Enabled posting messages from the bot's dashboard
-        dashboard_posting_off: Disabled posting messages from the bot's dashboard
-        phish_detection_on: Enabled phishing message detection in this server
-        phish_detection_off: Disabled phishing message detection in this server
+        dashboard_posting_on: ارسال پیام از طریق داشبورد وبسایت بات، فعال شد
+        dashboard_posting_off: ارسال پیام از طریق داشبورد وبسایت بات، غیرفعال شد
+        phish_detection_on: تشخیص پیام فیشینگ در این سرور فعال شد
+        phish_detection_off: تشخیص پیام فیشینگ در این سرور غیرفعال شد
       link:
         no_animated_emotes: |
           این سرور هیچ شکلک متحرکی ندارد!
@@ -94,16 +94,16 @@ discord_bot:
           بسته ‎%{name} به عنوان یک بسته سرور افزوده نشد.
 
           برای دسترسی به بسته/اختصار های بیشتر، همه می توانند به بات در %{url} رائ دهند
-        left_pack: "'%{guild_name}' left %{name}"
-        not_in_pack: This server didn't have %{name} as a server pack to start with
+        left_pack: "سرور '%{guild_name}' بسته %{name} را ترک کرد"
+        not_in_pack: این سرور از همان اول نیز %{name} را به عنوان یک بسته سرور نداشت
         invalid_group: <بسته نامعتبر - لطفا گزارش داده شود>
         join_server: (پیوستن به سرور)
-        no_longer_registered: '%{name} is no longer a registered emote pack'
-        already_joined: '%{guild_name} is already joined to %{name}'
+        no_longer_registered: 'بسته %{name} دیگر یک بسته شکلک به ثبت رسیده نمی‌باشد'
+        already_joined: 'سرور ‎%{guild_name} از قبل به %{name} پیوسته است'
         joined_long: |
-          '%{guild_name}' joined %{name}.
-          Anyone in this server may now use the following emotes by typing its name into chat, including colons:
-        no_packs: "'%{guild_name}s' isn't joined to any packs globally!"
+          سرور ‎'%{guild_name}' به %{name} پیوست.
+          هم اکونو همه در این سرور می توانند از این شکلک ها با نوشتن نامشان در چت، استفاده کنند، البته به شرطی که : ها را نیز برای استفاده جای نگذارند
+        no_packs: "سرور ‎'%{guild_name}' به هیچ بسته عمومی نپیوسته!"
       prefix:
         instructions: "برای تنظیم پیشوند من، قبل از وارد کردن پیشوند جدید، برای جلوگیری از تغییرات ناخواسته، من را منشن کنید.\n> %{prefix}server prefix %{me} %{new}"
         no_colon_prefix: بات NQN از پیشوند هایی که با دو نقطه (:) شروع می‌شوند، پشتیبانی نمی‌کند
@@ -129,7 +129,7 @@ discord_bot:
         user_content: محتوای کاربر
         personas: پرسونا ها
         dashboard_posting: پست کردن از طریق داشبورد
-        phish_detection: Phish Detection
+        phish_detection: شناسایی فیشینگ
         invite: لینک دعوت
         pack: نام بسته
         public: عمومی
