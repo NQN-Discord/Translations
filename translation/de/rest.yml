@@ -9,5 +9,5 @@ rest:
       %{guild} kann nun %{max_emotes} serverweite Emotes nutzen
     vote_text_rank: |
       <@%{user}> hat gerade auf %{site} für den Server abgestimmt!
-      %{guild} kann nun %{max_emotes} serverweite Emotes nutzen und ist auf Rang #%{guild_rank}! #%{guild_rank}
+      %{guild} kann nun %{max_emotes} serverweite Emotes nutzen und ist auf Rang #%{guild_rank}! #%{guild_rank} #%{guild_rank}
     voted: Für NQN abgestimmt
