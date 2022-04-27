@@ -9,5 +9,5 @@ rest:
       %{guild} ahora puede utilizar %{max_emotes} emojis
     vote_text_rank: |
       ¡<@%{user}> acaba de votar por el servidor en %{site}!
-      %{guild} ahora puede utiliza %{max_emotes} emojis y tiene el rango #%{guild_rank} #%{guild_rank}
+      %{guild} ahora puede utiliza %{max_emotes} emojis y tiene el rango #%{guild_rank} #%{guild_rank} #%{guild_rank}
     voted: Votó por NQN
