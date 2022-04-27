@@ -32,7 +32,7 @@ discord_bot:
       sticker_import:
         filename_invalid: '`%{name}` स्टिकर के लिए एक स्वीकृत नाम नहीं है। उन्हें अल्फ़ान्यूमेरिक फ़ाइल एक्सटेंशन के साथ उनका नाम भी अल्फ़ान्यूमेरिक होना चाहिए।'
         find_emote: स्टिकर में बदलने के लिए इमोजी खोजें!
-        created: अब आप  इस स्टिकर का `:%{name}:` उपयोग कर सकते हैं 
+        created: अब आप  इस स्टिकर का `:%{name}:` उपयोग कर सकते हैं
         sticker_exists: A sticker called `:%{name}:` already exists; you can't overwrite it.
         duplicate_exists: A sticker with the same image called %{name} exists already!
       telegram_import:
