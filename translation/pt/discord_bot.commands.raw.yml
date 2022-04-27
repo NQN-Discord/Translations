@@ -251,7 +251,7 @@ discord_bot:
             Não foi possível encontrar os emojis %{not_found}
             Se certifique de que você os adicionou usando `%{prefix}alias search ou se juntou ao pacote desses emojis usando `%{prefix}pack search`?
         too_many_reacts:
-          one: Esta mensagem já tem muitas reações, não posso adicionar mais! 
+          one: Esta mensagem já tem muitas reações, não posso adicionar mais!
           many: Esta mensagem já tem muitas reações, não posso adicionar todas!
         reacting:
           one: Adicionando %{count} reação; lembre-se de clicar na reação para fazê-la permanecer na mensagem!
