@@ -29,7 +29,7 @@ command_docs:
     help: |
       Переименовывает эмодзи
   alias-search:
-    short_doc: Поиск эмодзи и их использование вместе с NQN
+    short_doc: Look for individual emotes
     help: |
       Найдите индивидуальные эмодзи, чтобы использовать их с NQN
 
@@ -174,7 +174,7 @@ command_docs:
     help: |
       Загрузит все эмодзи из пака на ваш сервер
   pack-search:
-    short_doc: Поиск паков с эмодзи
+    short_doc: Find entire packs of emotes
     help: |
       Найдите целую тонну паков с сокровищами
   pack-set_public:
@@ -247,7 +247,7 @@ command_docs:
     help: |
       Насколько высоко ваш сервер находится в нашем рейтинге?
   react:
-    short_doc: Реагирует на n-ое или самое последнее сообщение
+    short_doc: React to a message with emojis
     help: |
       Реагириует на n-ое или самое последнее сообщение
       На заметку: Укажите ID сообщения, на которое нужно прореагировать, или n-ых сообщений назад (до 20)
@@ -447,7 +447,7 @@ command_docs:
     help: |
       Учим, как использовать эмодзи вместе с NQN
   upload_emote:
-    short_doc: Найдёт все эмодзи, которые бот когда-либо видел, и загрузит их на этот сервер.
+    short_doc: Search for and upload emotes to this server.
     help: |
       Найдёт все эмодзи, которые бот когда-либо видел, и загрузит их на этот сервер.
       Эта команда позволяет загружать эмодзи.

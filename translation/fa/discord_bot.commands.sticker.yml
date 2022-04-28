@@ -26,7 +26,7 @@ discord_bot:
         no_sticker: این استیکر اصلاً وجود خارجی ندارد
         permission_denied: شما نمی توانید نام استیکر یک نفر دیگر را تغییر دهید!
         destination_taken: نام مقصود از قبل گرفته شده!
-        renamed: 'نام مورد نظر از ‎\:%{old}:‎ به ‎:%{new}:‎ تغییر یافت'
+        renamed: 'نام مورد نظر از \:%{old}:‎ به :%{new}:‎ تغییر یافت'
       search:
         no_stickers: هیچ استیکری یافت نشد
       sticker_import:
