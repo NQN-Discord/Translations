@@ -29,7 +29,7 @@ command_docs:
     help: |
       Renomez un de vos alias
   alias-search:
-    short_doc: Cherchez des emojis appart à utiliser avec NQN
+    short_doc: Look for individual emotes
     help: |
       Cherchez des emojis appart à utiliser avec NQN
 
@@ -175,7 +175,7 @@ command_docs:
     help: |
       Mets en ligne toutes les emojis de votre pack sur ce serveur
   pack-search:
-    short_doc: Cherche un pack entier d'emojis à utiliser avec NQN
+    short_doc: Find entire packs of emotes
     help: |
       Cherche un pack entier d'emojis à utiliser avec NQN
   pack-set_public:
@@ -248,7 +248,7 @@ command_docs:
     help: |
       Où se situe votre serveur dans nos classements ??
   react:
-    short_doc: Ajoute une réaction à un message avec un emoji de NQN
+    short_doc: React to a message with emojis
     help: |
       Ajoute une réaction au `n` dernier message
       Message optionnel: L'ID ou le lien du message à réagir ou le `n` dernier message (jusqu'à 20)
@@ -450,7 +450,7 @@ command_docs:
     help: |
       Apprendre à utiliser les emojis avec NQN
   upload_emote:
-    short_doc: Recherche toutes les emotes que le bot a déjà vues et téléchargez-les sur ce serveur.
+    short_doc: Search for and upload emotes to this server.
     help: |
       Recherche toutes les emotes que le bot a déjà vues et téléchargez-les sur ce serveur.
       Cette commande vous permet de mettre en ligne des emotes.

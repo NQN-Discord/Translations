@@ -29,7 +29,7 @@ command_docs:
     help: |
       Renomeie um de seus apelidos
   alias-search:
-    short_doc: Procure emotes individuais para usar com NQN
+    short_doc: Look for individual emotes
     help: |
       Procure emotes individuais para usar com NQN
       A pesquisa de NQN permite alguns recursos avançados:
@@ -172,7 +172,7 @@ command_docs:
     help: |
       Faça upload de todos os emotes de um pacote para este servidor
   pack-search:
-    short_doc: Encontre pacotes inteiros de emotes para usar com NQN
+    short_doc: Find entire packs of emotes
     help: |
       Encontre pacotes inteiros de emotes para usar com NQN
   pack-set_public:
@@ -245,7 +245,7 @@ command_docs:
     help: |
       Quão alto está o seu servidor em nossas classificações?
   react:
-    short_doc: Reaja a uma mensagem com emojis de NQN
+    short_doc: React to a message with emojis
     help: |
       Reaja a mensagem `n` mais recente
       Mensagem opcional: o ID da mensagem ou link para reagir ou a `n` mensagem mais recente (até 20 mensagens atrás)
@@ -449,7 +449,7 @@ command_docs:
     help: |
       Aprenda a usar emotes com NQN
   upload_emote:
-    short_doc: Pesquise todos os emotes que o bot já viu e envie-os para este servidor.
+    short_doc: Search for and upload emotes to this server.
     help: |
       Pesquise todos os emotes que o bot já viu e envie-os para este servidor.
       Este comando permite que você carregue emotes, suportando emotes lado a lado e redimensionando.

@@ -29,7 +29,7 @@ command_docs:
     help: |
       Renombra uno de tus alias
   alias-search:
-    short_doc: Busca emojis individuales para usarlos con NQN
+    short_doc: Busca emojis individuales
     help: |
       Busca emojis individuales para usarlos con NQN
 
@@ -177,7 +177,7 @@ command_docs:
     help: |
       Sube todos los emojis de un pack a este servidor
   pack-search:
-    short_doc: Encuentra paquetes enteros de emojis para usar con NQN
+    short_doc: Encuentra packs de emojis
     help: |
       Encuentra paquetes enteros de emojis para usar con NQN
   pack-set_public:
@@ -452,7 +452,7 @@ command_docs:
     help: |
       Aprende a usar emojis con NQN
   upload_emote:
-    short_doc: Busca todos los emojis que el bot ha visto y sube los a este servidor.
+    short_doc: Busca y subi emojis a este servidor.
     help: |
       Busca todos los emojis que el bot a visto y subilos a este servidor.
       Este comando te permite subir emojis.
