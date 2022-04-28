@@ -42,7 +42,7 @@ discord_bot:
     str:
       name: رشته
       description: |
-        مقداری متن نوشتنی
+        متن
     int:
       name: انتیجر
       description: |
@@ -56,6 +56,6 @@ discord_bot:
       description: |-
         حداقلش
     Union:
-      name: متحد
+      name: اتحاد
       description: |-
         یکی از موارد زیر:
