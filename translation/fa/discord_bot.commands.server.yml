@@ -134,7 +134,7 @@ discord_bot:
         pack: نام بسته
         public: عمومی
         member_count: اعضاء
-        configure_features: تغییرحالت ویژگی‌ها
+        configure_features: تغییر وضعیت ویژگی‌ها
         settings: تنظیمات
         channels: کانال‌ها
         features: ویژگی ها
