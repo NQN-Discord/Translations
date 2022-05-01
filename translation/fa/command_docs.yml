@@ -92,7 +92,7 @@ command_docs:
   mod-move:
     short_doc: انتقال تا حداکثر 20 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
   mod-purge:
-    short_doc: Purge some messages reposted by the bot in this channel
+    short_doc: حذف تعدادی از پیام هایی که توسط بات تبدیل‌شان صورت گرفته در این کانال
   mod:
     short_doc: NQN ویژگی های مدیریتی و نظارتی
   move:
