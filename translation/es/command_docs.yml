@@ -2,8 +2,6 @@
 command_docs:
   alias-delete:
     short_doc: '¿No quieres este alias? Utiliza esto'
-    help: |
-      ¿No quieres este alias? Utiliza esto
   alias-delete_all:
     short_doc: No me gustan mis alias
     help: |
@@ -14,20 +12,12 @@ command_docs:
       Has que el bot te envia una lista completa de todos tus alias por mensaje privado
   alias-export:
     short_doc: Exporta tu lista de alias
-    help: |
-      Exporta tu lista de alias
   alias-import:
     short_doc: Importa la lista de alias de alguien mas
-    help: |
-      Importa la lista de alias de alguien mas
   alias-list:
     short_doc: Visualiza la lista de alias que tú has creado
-    help: |
-      Visualiza la lista de alias que tú has creado
   alias-rename:
     short_doc: Renombra uno de tus alias
-    help: |
-      Renombra uno de tus alias
   alias-search:
     short_doc: Busca emojis individuales
     help: |
@@ -70,8 +60,6 @@ command_docs:
       Tambien puedes utilizar la funcionalidad de respuestas de Discord para editar ese mensaje.
   export:
     short_doc: Exporta tu lista de emojis
-    help: |
-      Exporta tu lista de emojis
   help:
     short_doc: Muestra este mensaje
     help: |
@@ -85,16 +73,10 @@ command_docs:
       - El bot no responderá a ningún mensaje que envíes que seria reenviado a través de un webhook
   info:
     short_doc: Estadísticas internas sobre el bot
-    help: |
-      Estadisticas internas sobre el bot
   invite_me:
     short_doc: Invita al bot a tu servidor!
-    help: |
-      Invita al bot a tu servidor!
   jumbo:
     short_doc: Agranda un emoji
-    help: |
-      Agranda un emoji
   mod-audit:
     short_doc: Audita los registros de los emojis reenviados en este canal
     help: |
@@ -106,112 +88,62 @@ command_docs:
       Si ambos, canal y mimbro, no serán filtrados, entonces utiliza 'audit guild'
   mod-ban:
     short_doc: Banea el usuario que envío el mensaje
-    help: |
-      Banea el usuario que envio el mensaje
   mod-edit_topic:
     short_doc: Agrega emojis animados a la descripción del canal
     help: |
       Cambia la descripción del canal, permitiendo emojis animados en estos también
   mod-kick:
     short_doc: Expulsa el usuario que envío el mensaje
-    help: |
-      Expulsa el usuario que envió el mensaje
   mod-move:
     short_doc: Mueve hasta 20 de los mensajes más recientes en este canal a otro
-    help: |
-      Mueve hasta 20 de los mensajes más recientes en este canal a otro
   mod-purge:
-    short_doc: Purga hasta un numero determinado de mensajes reenviados por el bot en este canal, opcionalmente filtrando los por un usuario especifico
-    help: |
-      Purga hasta un numero determinado de mensajes reenviados por el bot en este canal, opcionalmente filtrando los por un usuario especifico
+    short_doc: Purge some messages reposted by the bot in this channel
   mod:
     short_doc: Funciones de moderación de NQN
-    help: |
-      Funciones de moderacion de NQN
   move:
     short_doc: Mueve hasta 20 de los mensajes más recientes de este canal a otro
-    help: |
-      Mueve hasta 20 de los mensajes más recientes de este canal a otro
   mutuals:
     short_doc: Ve los servidores que comparto contigo
-    help: |
-      Ve los servidores que comparto contigo en MDs
   my_emotes:
     short_doc: Ve que emojis puedes usar con NQN
-    help: |
-      Ve que emojis puedes usar con NQN
   owner:
     short_doc: Conocimientos prohibidos acechan dentro
-    help: |
-      Conocimientos prohibidos acechan dentro
   pack-dm:
     short_doc: Obtiene una lista completa de todos los packs que te asignaste por mensaje privado
     help: |
       Has que el bot te envia una lista completa de todos los packs que te asignaste por mensaje privado
   pack-join:
     short_doc: Únete/asígnate a un pack de emojis
-    help: |
-      Únete/asígnate a un pack de emojis
   pack-leave:
     short_doc: Deja/de-suscribirse de un pack de emojis
-    help: |
-      Deja/de-suscribirse de un pack de emojis
   pack-meta:
     short_doc: Oooh... Lindas estadísticas sobre tu pack
-    help: |
-      Oooh... Lindas estadísticas sobre tu pack
   pack-mine:
     short_doc: Visualiza una lista de los packs a los cuales estas subscripto
-    help: |
-      Visualiza una lista de los packs a los cuales estas subscripto
   pack-publish:
     short_doc: Publica tus servidores de emojis como packs de emojis
-    help: |
-      Publica tus servidores de emojis como packs de emojis
   pack-rename:
     short_doc: Renombra un pack de emojis
-    help: |
-      Renombra un pack de emojis
   pack-save:
     short_doc: Sube todos los emojis de un pack a este servidor
-    help: |
-      Sube todos los emojis de un pack a este servidor
   pack-search:
     short_doc: Encuentra packs de emojis
-    help: |
-      Encuentra paquetes enteros de emojis para usar con NQN
   pack-set_public:
     short_doc: Permite a cualquiera unirse a este pack por medio de NQN.
-    help: |
-      Permite a cualquiera unirse a este pack por medio de NQN.
   pack-show:
     short_doc: Muestra los contenidos del pack
-    help: |
-      Muestra los contenidos del pack
   pack-unpublish:
     short_doc: '¿No quieres que este servidor sea un pack de emojis?'
-    help: |
-      ¿No quieres que este servidor sea un pack de emojis?
   pack:
     short_doc: Gestiona packs enteros de emojis
-    help: |
-      Gestiona packs enteros de emojis
   persona-avatar_url:
     short_doc: Ajusta el avatar de un personaje
-    help: |
-      Ajusta el avatar de un personaje
   persona-delete:
     short_doc: Elimina uno de tuse personajes
-    help: |
-      Elimina uno de tuse personajes
   persona-display_name:
     short_doc: Cambia el nombre de usuario de uno de tus personajes
-    help: |
-      Cambia el nombre de usuario de uno de tus personajes
   persona-dm:
     short_doc: Te envía una lista de todos tus personajes,
-    help: |
-      Te envía una lista de todos tus personajes.
   persona-export:
     short_doc: Exportá la lista de tus personajes a un archivo
     help: |
@@ -223,32 +155,20 @@ command_docs:
       Compatible con PluralKit y Tupperbox.
   persona-list:
     short_doc: Vé una lista de todos tus personajes
-    help: |
-      Vé una lista de todos tus personajes
   persona-register:
     short_doc: Registra un personaje para su uso más tarde
-    help: |
-      Registra un nuevo personaje para su uso más tarde
   persona-rename:
     short_doc: Dale a uno de tus personajes un nombre diferente
-    help: |
-      Dale a uno de tus personajes un nombre diferente
   persona:
     short_doc: Gestiona tus personajes
-    help: |
-      Gestiona tus personajes
   premium-check:
     short_doc: Recalular tu estado premium
     help: |
       Recalculá tu estado premium, incluyendo la lista de servidores que obtiene premium por vos.
   premium:
     short_doc: Infomracion sobre NQN premium
-    help: |
-      Infomracion sobre NQN premium
   ranking:
     short_doc: '¿Que tan alto es el puesto que ocupa tu servidor en nuestro ranking?'
-    help: |
-      ¿Que tan alto es el puesto que ocupa tu servidor en nuestro ranking?
   react:
     short_doc: Reacciona a mensajes con emojis de NQN
     help: |
@@ -256,86 +176,44 @@ command_docs:
       Opcional message: La ID o el link del mensaje al cual reaccionar o el mensaje `n` más reciente(hasta 20 mensajes atrás)
       El comando permite una lista de emojis, la cual va a ser usada para reaccionar en el orden especifico.
       Para reaccionar a mensajes en otro canal utiliza el link del mensaje.
-  search_all:
-    short_doc: Visualiza los emojis que el bot a visto
-    help: |
-      Visualiza los emojis que el bot a visto
   server-alias-delete:
     short_doc: '¿No te gusta un emoji? Haz que trabajen para conseguirlo.'
-    help: |
-      ¿No te gusta un emoji? Haz que trabajen para conseguirlo.
   server-alias-import:
     short_doc: Importa una lista de alias como alias del servidor desde un archivo.
-    help: |
-      Importa una lista de alias como alias del servidor desde un archivo.
   server-alias-list:
     short_doc: Muestra todos los alias que pueden ser usados por todos en el servidor
-    help: |
-      Muestra todos los alias que pueden ser usados por todos en el servidor
   server-alias-post:
     short_doc: Envía una lista con los alias del servidor
-    help: |
-      Envía una lista con los alias del servidor
   server-alias-rename:
     short_doc: Renombra el alias del servidor
-    help: |
-      Renombra el alias del servidor
   server-alias-search:
     short_doc: Permite que todos en este servidor usen un emoji!
-    help: |
-      Permite que todos en este servidor usen un emoji!
   server-alias:
     short_doc: Has cosas con los alias del servidor
-    help: |
-      Has cosas con los alias del servidor
   server-dashboard_posting:
     short_doc: Habilita o deshabilita el envío de mensajes dese el panel en sito del bot
-    help: |
-      Habilita o deshabilita el envío de mensajes dese el panel en sito del bot
   server-language:
     short_doc: Cambia el lenguaje del bot %{locale_flag_emojis}
-    help: |
-      Cambia el lenguaje del bot
   server-link:
     short_doc: Crea un emoji estático, el cual al ser usado, envía una versión animada del emoji!
-    help: |
-      Crea un emoji estático, el cual al ser usado, envía una versión animada del emoji!
   server-masked_links:
     short_doc: Habilita o deshabilita el uso de URLs enmascarados en este servidor
-    help: |
-      Habilita o deshabilita el uso de URLs enmascarados en este servidor
   server-nitro:
     short_doc: Habilita o deshabilita el uso gratis de nitro en este servidor
-    help: |
-      Habilita o deshabilita el uso gratis de nitro en este servidor
   server-pack-join:
     short_doc: Subscribe al servidor a un pack de emojis
-    help: |
-      Subscribe al servidor a un pack de emojis
   server-pack-leave:
     short_doc: De-subscribe al servidor de un pack
-    help: |
-      Desubscribe al servidor de un pack
   server-pack-list:
     short_doc: Lista de los packs que este servidor puede utilizar
-    help: |
-      Lista de los packs que este servidor puede utilizar
   server-pack-post:
     short_doc: Envía una lista con los packs del servidor
-    help: |
-      Envía una lista con los packs del servidor
   server-pack-search:
     short_doc: Busca un pack de emojis para agregar al servidor
-    help: |
-      Busca un pack de emojis para agregar al servidor
   server-pack:
     short_doc: Has cosas con los packs del servidor
-    help: |
-      Has cosas con los packs del servidor
   server-permissions_debug:
     short_doc: Ve los permisos que el bot requiere
-    help: |
-      Ve los permisos que el bot requiere
   server-personas:
     short_doc: Habilita o deshabilita el uso de personajes
     help: |
@@ -346,8 +224,6 @@ command_docs:
       Habilita o deshabilita los pings en mensajes que NQN reenvia en este servidor
   server-phish_detection:
     short_doc: Habilitar o deshabilitar la detección de mensajes de phishing para este servidor.
-    help: |
-      Habilitar o deshabilitar la detección de mensajes de phishing para este servidor.
   server-prefix:
     short_doc: Has que NQN escuche un prefijo diferente.
     help: |
@@ -359,45 +235,26 @@ command_docs:
       @NQN#3454 [prefijo=!]
   server-replies:
     short_doc: Habilita o deshabilita el uso de respuestas a través de NQN en este servidor
-    help: |
-      Habilita o deshabilita el uso de respuestas a mensajes a travez de NQN en este servidor
   server-settings:
     short_doc: Observa la configuracion para este servidor
     help: |
       Observa la configuracion de NQN para este servidor, incluyendo funciones, canales configurados e informacion del pack.
-  server-set_announcement_channel:
-    short_doc: Envía anuncios del bot en algún canal.
-    help: |
-      Envía anuncios del bot en algún canal
-      Esto incluye nuevas funciones y actualizaciones
   server-set_audit_channel:
     short_doc: establece el canal de auditoria
-    help: |
-      Canal de auditoria - envia mensajes y registra los usos del bot
   server-set_boost_channel:
     short_doc: Envía un mensaje cuando alguien vota por el bot en top.gg
-    help: |
-      Envía un mensaje cuando alguien vota por el bot en top.gg
   server-set_boost_role:
     short_doc: Otorgale este rol a un usuario cuando votan por el bot vía NQN
-    help: |
-      Otórgale este rol a un usuario cuando votan por el bot vía NQN
   server-set_nitro_role:
     short_doc: Require poseer un rol para utilizar NQN
     help: |
       Selecciona un rol que los usuarios necesitan para utilizar la funcionalidad de nitro de NQN
   server-stickers:
     short_doc: Habilita o deshabilita el uso de stickers en este servidor
-    help: |
-      Habilita o deshabilita el uso de stickers en este servidor
   server-user_content:
     short_doc: Habilita o deshabilita los alias y packs de los usuarios en este servidor
-    help: |
-      Habilita o deshabilita los alias y packs de los usuarios en este servidor
   server:
     short_doc: Modifica la configuración del bot en este servidor
-    help: |
-      Modifica la configuración del bot en este servidor
   sticker-create:
     short_doc: Crea un stick desde un archivo
     help: |
@@ -410,9 +267,6 @@ command_docs:
       Los stickers deben ser SFW.
   sticker-delete:
     short_doc: Borra un sticker
-    help: |
-      Borra un stricker.
-      Solo puedes hacer esto con los Stickers que te pertencen.
   sticker-import:
     short_doc: Importa stickers de un emoji
     help: |2
@@ -424,44 +278,23 @@ command_docs:
       Nota que buscar el emoji por NQN no soporta la opcion de asiganrle un alias
   sticker-mine:
     short_doc: Encuentra mis stickers
-    help: |
-      Encuentra mis stickers
   sticker-rename:
     short_doc: Renombra un sticker
-    help: |
-      Renombra un stricker.
-      Solo puedes hacer esto con los Stickers que te pertenecen.
   sticker-search:
     short_doc: Busca todos los stickers que NQN tiene, con términos de búsqueda opcionales
-    help: |
-      Busca todos los stickers que NQN tiene, con terminos de búsqueda opcionales
   sticker-telegram:
     short_doc: Importa stickers desde telegram
-    help: |
-      Importa stickers desde telegram
   sticker:
     short_doc: Más grande que los emojis!
-    help: |
-      Más grande que los emojis!
   support:
     short_doc: Necesitas ayuda para usarme?
-    help: |
-      Necesitas ayuda para usarme?
   tutorial:
     short_doc: Aprende a usar emojis con NQN
-    help: |
-      Aprende a usar emojis con NQN
   upload_emote:
     short_doc: Busca y subi emojis a este servidor.
     help: |
       Busca todos los emojis que el bot a visto y subilos a este servidor.
       Este comando te permite subir emojis.
       Puedes adjuntar un archivo para subirlo como emoji.
-  vote_opt_out:
-    short_doc: Optar por no recibir MDs del bot
-    help: |
-      Optar por no recivir MDs del bot
   whois:
     short_doc: Encuentra quien envio un mensaje
-    help: |
-      Encuentra quien envio un mensaje
