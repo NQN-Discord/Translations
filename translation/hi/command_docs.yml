@@ -2,8 +2,6 @@
 command_docs:
   alias-delete:
     short_doc: ये ऐलियस नहीं चाइये? ऐसे इस्तेमाल करें
-    help: |
-      ये ऐलियस नहीं चाइये? ऐसे इस्तेमाल करें
   alias-delete_all:
     short_doc: I don't like any of my aliases
     help: |
@@ -14,20 +12,12 @@ command_docs:
       Have the bot send you a list of your aliases in your DMs
   alias-export:
     short_doc: निर्यात करें अपने एलियस सूची
-    help: |
-      निर्यात करें अपने एलियस सूची
   alias-import:
     short_doc: किसी और व्यक्ति की सूची आयात करें
-    help: |
-      Import किसी और व्यक्ति की सूची आयात करें
   alias-list:
     short_doc: आपके सभी ऐलियस की एक सूची प्राप्त करें
-    help: |
-      आपके सभी ऐलियस की एक सूची प्राप्त करें
   alias-rename:
     short_doc: अपने ऐलियस का नाम बदलें
-    help: |
-      अपने ऐलियस का नाम बदलें
   alias-search:
     short_doc: Look for individual emotes
     help: |
@@ -70,8 +60,6 @@ command_docs:
       You can also use Discord's message reply functionality to edit that message.
   export:
     short_doc: निर्यात करें अपने एलियस सूची
-    help: |
-      निर्यात करें अपने एलियस सूची
   help:
     short_doc: यह संदेश दिखाएं
     help: |
@@ -85,16 +73,10 @@ command_docs:
       - The bot will not respond to any messages you send that would be reposted through a webhook
   info:
     short_doc: बॉट के बारे में आंतरिक आंकड़े
-    help: |
-      बॉट के बारे में आंतरिक आंकड़े
   invite_me:
     short_doc: अपने सर्वर पर बॉट को आमंत्रित करें!
-    help: |
-      अपने सर्वर पर बॉट को आमंत्रित करें!
   jumbo:
     short_doc: Makes an emoji bigger
-    help: |
-      Makes an emoji bigger
   mod-audit:
     short_doc: इस चैनल के फिर से पोस्ट किये गए संदेशों के लिए ऑडिट लॉग प्राप्त करें
     help: |
@@ -105,112 +87,62 @@ command_docs:
          यदि चैनल और सदस्य दोनों अनफ़िल्टर्ड हैं, तो 'ऑडिट गिल्ड' का उपयोग करें
   mod-ban:
     short_doc: संदेश पोस्ट करने वाले उपभोक्ता को प्रतिबंधित करें
-    help: |
-      संदेश पोस्ट करने वाले उपभोक्ता को प्रतिबंधित करें
   mod-edit_topic:
     short_doc: Add animated emojis to channel topics
     help: |
       None
   mod-kick:
     short_doc: संदेश पोस्ट करने वाले उपभोक्ता को किक करें
-    help: |
-      संदेश पोस्ट करने वाले उपभोक्ता को किक करें
   mod-move:
     short_doc: इस चैनल में सबसे हाल के मैसेज में से 20 तक स्थानांतरित करें
-    help: |
-      इस चैनल में सबसे हाल के मैसेज में से 20 तक स्थानांतरित करें
   mod-purge:
-    short_doc: इस चैनल में बॉट द्वारा रिप्लेस किए गए `मैसेजेस 'मैसेजेस को पर्ज करें, वैकल्पिक रूप से एक विशिष्ट उपभोक्ता को फ़िल्टर उपलब्ध हैं
-    help: |
-      इस चैनल में बॉट द्वारा रिप्लेस किए गए `मैसेजेस 'मैसेजेस को पर्ज करें, वैकल्पिक रूप से एक विशिष्ट उपभोक्ता को फ़िल्टर उपलब्ध हैं
+    short_doc: Purge some messages reposted by the bot in this channel
   mod:
     short_doc: NQN के लिए मॉडरेशन सुविधाएँ
-    help: |
-      NQN के लिए मॉडरेशन सुविधाएँ
   move:
     short_doc: इस चैनल में सबसे हाल के मैसेज में से 20 तक स्थानांतरित करें
-    help: |
-      इस चैनल में सबसे हाल के मैसेज में से 20 तक स्थानांतरित करें
   mutuals:
     short_doc: See the servers I share with you
-    help: |
-      None
   my_emotes:
     short_doc: See what emojis you can post with NQN
-    help: |
-      See what emojis you can post with NQN
   owner:
     short_doc: वर्जित ज्ञान भीतर है
-    help: |
-      वर्जित ज्ञान भीतर है
   pack-dm:
     short_doc: Get a full list of your packs in your DMs
     help: |
-      Have the bot send you a complete list of yout packs current emoji lists through your DMs.
+      Have the bot send you a complete list of your packs current emoji lists through your DMs.
   pack-join:
     short_doc: एक एमोट पैक की सदस्यता लें
-    help: |
-      एक एमोट पैक की सदस्यता लें
   pack-leave:
     short_doc: इमोजी पैक से सदस्यता समाप्त करें
-    help: |
-      इमोजी पैक से सदस्यता समाप्त करें
   pack-meta:
     short_doc: Oooh ... अपने पैक के बारे में आँकड़े
-    help: |
-      Oooh ... अपने पैक के बारे में आँकड़े
   pack-mine:
     short_doc: आपके द्वारा सदस्यता लिए गए इमोट पैक की सूची प्राप्त करें
-    help: |
-      आपके द्वारा सदस्यता लिए गए इमोट पैक की सूची प्राप्त करें
   pack-publish:
     short_doc: अपने इमोट सर्वर को इमोट पैक के रूप में प्रकाशित करें
-    help: |
-      अपने इमोट सर्वर को इमोट पैक के रूप में प्रकाशित करें
   pack-rename:
     short_doc: इमोजी पैक का नाम बदलें
-    help: |
-      इमोजी पैक का नाम बदलें
   pack-save:
     short_doc: पैक से सभी इमोट्स को इस सर्वर पर अपलोड करें
-    help: |
-      पैक से सभी इमोट्स को इस सर्वर पर अपलोड करें
   pack-search:
     short_doc: Find entire packs of emotes
-    help: |
-      NQN के साथ उपयोग करने के लिए इमोजी के पूरे पैक का पता लगाएं
   pack-set_public:
     short_doc: किसी को भी NQN के माध्यम से इस सर्वर से जुड़ने की अनुमति दें।
-    help: |
-      किसी को भी NQN के माध्यम से इस सर्वर से जुड़ने की अनुमति दें।
   pack-show:
     short_doc: एक पैक की सामग्री दिखाएं
-    help: |
-      एक पैक की सामग्री दिखाएं
   pack-unpublish:
     short_doc: नहीं चाहते कि यह सर्वर अब एक इमोट पैक हो?
-    help: |
-      नहीं चाहते कि यह सर्वर अब एक इमोट पैक हो?
   pack:
     short_doc: इमोजी का पूरा पैक की व्यवस्थित करें
-    help: |
-      इमोजी का पूरा पैक की व्यवस्थित करें
   persona-avatar_url:
     short_doc: Set the avatar of a persona
-    help: |
-      Set the avatar of a persona
   persona-delete:
     short_doc: Delete one of your personas
-    help: |
-      Delete one of your personas
   persona-display_name:
     short_doc: Change the username of a persona
-    help: |
-      Change the username of a persona
   persona-dm:
     short_doc: DMs you a full list of your personas
-    help: |
-      Sends you a DM with a full list of your personas
   persona-export:
     short_doc: Export your list of personas to a file
     help: |
@@ -222,118 +154,64 @@ command_docs:
       Compatible with PluralKit and Tupperbox.
   persona-list:
     short_doc: See a list of your personas
-    help: |
-      See a list of your personas
   persona-register:
     short_doc: Register a persona for later use
-    help: |
-      Register a persona for later use
   persona-rename:
     short_doc: Give one of your personas a different name
-    help: |
-      Give one of your personas a different name
   persona:
     short_doc: Manage your personas
-    help: |
-      Manage your personas
   premium-check:
     short_doc: Recalculate your premium information
     help: |
       Recalculates your premium information, including the list of servers gaining premium from you.
   premium:
     short_doc: Information about NQN premium
-    help: |
-      Information about NQN premium
   ranking:
     short_doc: हमारी रैंकिंग में आपका सर्वर कितना ऊपर है?
-    help: |
-      हमारी रैंकिंग में आपका सर्वर कितना ऊपर है?
   react:
     short_doc: React to a message with emojis
     help: |
       हाल ही के `n`th संदेश पर प्रतिक्रिया(रिएक्शन) दें
       वैकल्पिक संदेश: हाल ही में संदेश (20 वीं तक) पर प्रतिक्रिया करने के लिए संदेश आईडी
       कमांड, प्रतिक्रियाओं की एक सूची कोअनुमति देता है, जिनमें से प्रत्येक निर्दिष्ट क्रम में जोड़ा जाएगा
-  search_all:
-    short_doc: बॉट ने जो emojis देखा है उसे देखें
-    help: |
-      बॉट ने जो emojis देखा है उसे देखें
   server-alias-delete:
     short_doc: एक इमोजी पसंद नहीं आया? इसे बनाएं ताकि उन्हें इसके लिए काम करना पड़े।
-    help: |
-      एक इमोजी पसंद नहीं आया? इसे बनाएं ताकि उन्हें इसके लिए काम करना पड़े।
   server-alias-import:
     short_doc: Import a list of server aliases from a file.
-    help: |
-      Import a list of server aliases from a file.
   server-alias-list:
     short_doc: उन सभी एलियस को दिखाएं जिन्हें आपके सर्वर में कोई भी उपयोग कर सकता है
-    help: |
-      उन सभी एलियस को दिखाएं जिन्हें आपके सर्वर में कोई भी उपयोग कर सकता है
   server-alias-post:
     short_doc: Post a list of server aliases
-    help: |
-      Post a list of server aliases
   server-alias-rename:
     short_doc: एक सर्वर एलियस का नाम बदलें
-    help: |
-      एक सर्वर एलियस का नाम बदलें
   server-alias-search:
     short_doc: सर्वर में किसी को भी इमोजी का उपयोग करने की अनुमति दें!
-    help: |
-      सर्वर में किसी को भी इमोजी का उपयोग करने की अनुमति दें!
   server-alias:
     short_doc: सर्वर एलियस के साथ काम करें
-    help: |
-      सर्वर एलियस के साथ काम करें
   server-dashboard_posting:
     short_doc: Enable or disable posting messages through the bot dashboard
-    help: |
-      Enable or disable posting messages through the bot dashboard
   server-language:
     short_doc: बॉट की भाषा सेट करें %{locale_flag_emojis}
-    help: |
-      बॉट की भाषा सेट करें
   server-link:
     short_doc: एक स्थिर इमोजी बनाएं, जिसका उपयोग करते समय, बॉट इस इमोजी को एक एनिमेटेड संस्करण के रूप में पोस्ट करेगा!
-    help: |
-      एक स्थिर इमोजी बनाएं, जिसका उपयोग करते समय, बॉट इस इमोजी को एक एनिमेटेड संस्करण के रूप में पोस्ट करेगा!
   server-masked_links:
     short_doc: इस गिल्ड में नकाबपोश लिंक को सक्षम या अक्षम करें
-    help: |
-      इस गिल्ड में नकाबपोश लिंक को सक्षम या अक्षम करें
   server-nitro:
     short_doc: 'इस गिल्ड में नि: शुल्क नाइट्रो उपयोग को सक्षम या अक्षम करें'
-    help: |
-      इस गिल्ड में नि: शुल्क नाइट्रो उपयोग को सक्षम या अक्षम करें
   server-pack-join:
     short_doc: एक सर्वर-वाइड एमोट पैक के लिए सदस्यता लें
-    help: |
-      एक सर्वर-वाइड एमोट पैक के लिए सदस्यता लें
   server-pack-leave:
     short_doc: एक सर्वर-वाइड एमोट पैक की सदस्यता समाप्त करें
-    help: |
-      एक सर्वर-वाइड एमोट पैक की सदस्यता समाप्त करें
   server-pack-list:
     short_doc: इस सर्वर द्वारा उपयोग किए जा सकने वाले पैक को सूचीबद्ध करें
-    help: |
-      इस सर्वर द्वारा उपयोग किए जा सकने वाले पैक को सूचीबद्ध करें
   server-pack-post:
     short_doc: Post a list of server packs
-    help: |
-      Post a list of server packs
   server-pack-search:
     short_doc: Search for an emote pack to add server-wide
-    help: |
-      Search for an emote pack to add server-wide
   server-pack:
     short_doc: सर्वर पैक के साथ चीजें करें
-    help: |
-      सर्वर पैक के साथ चीजें करें
   server-permissions_debug:
     short_doc: Let NQN tell you what permissions it's missing
-    help: |
-      None
   server-personas:
     short_doc: Enable or disable usage of personas
     help: |
@@ -344,8 +222,6 @@ command_docs:
       Enable or disable pings in messages that NQN reposts on this server
   server-phish_detection:
     short_doc: Enable or disable phishing message detection for this server
-    help: |
-      Enable or disable phishing message detection for this server
   server-prefix:
     short_doc: NQN को दूसरे प्रीफिक्स को सुने के लिए कमांड दे
     help: |
@@ -354,45 +230,26 @@ command_docs:
       @NQN#3454 [prefix=!]
   server-replies:
     short_doc: इस गिल्ड में संदेश के उत्तरों को सक्षम या अक्षम करें
-    help: |
-      इस गिल्ड में संदेश के उत्तरों को सक्षम या अक्षम करें
   server-settings:
     short_doc: View the settings for this server
     help: |
       View NQN's server settings, including features, configured channels and pack information.
-  server-set_announcement_channel:
-    short_doc: बॉट की घोषणा कहीं पोस्ट की जा सकती है
-    help: |
-      बॉट की घोषणा कहीं पोस्ट की जा सकती है
-      इनमें नई सुविधाएं शामिल होंगी
   server-set_audit_channel:
     short_doc: बॉट रिपॉस्ट के संदेश पोस्ट करें
-    help: |
-      बॉट रिपॉस्ट के संदेश पोस्ट करें
   server-set_boost_channel:
     short_doc: संदेश पोस्ट करें, जब भी कोई व्यक्ति top.gg पर सर्वर के साथ वोट करे
-    help: |
-      संदेश पोस्ट करें, जब भी कोई व्यक्ति top.gg पर सर्वर के साथ वोट करे
   server-set_boost_role:
     short_doc: किसी उपभोक्ता को यह भूमिका दें जब वे इस सर्वर को बढ़ावा दें, NQN द्वार
-    help: |
-      किसी उपभोक्ता को यह भूमिका दें जब वे इस सर्वर को बढ़ावा दें, NQN द्वार
   server-set_nitro_role:
     short_doc: Require users to have a role to use NQN
     help: |
       Set a role that users need to use NQN for Nitro reposting
   server-stickers:
     short_doc: इस गिल्ड में स्टिकर उपयोग को सक्षम या अक्षम करें
-    help: |
-      इस गिल्ड में स्टिकर उपयोग को सक्षम या अक्षम करें
   server-user_content:
     short_doc: Enable or disable user aliases and packs for this server
-    help: |
-      Enable or disable user aliases and packs for this server
   server:
     short_doc: इस सर्वर पर बॉट सेटिंग्स को संशोधित करें
-    help: |
-      इस सर्वर पर बॉट सेटिंग्स को संशोधित करें
   sticker-create:
     short_doc: एक फाइल से स्टिकर बनाएं
     help: |
@@ -404,9 +261,6 @@ command_docs:
       स्टिकर को एक फ़ाइल एक्सटेंशन की आवश्यकता होती है. जो अल्फ़ान्यूमेरिक की होना चाहिए।
   sticker-delete:
     short_doc: एक स्टिकर हटाएं
-    help: |
-      एक स्टिकर हटाएं
-       आप केवल स्वयं के स्टिकर हटा सकते हैं।
   sticker-import:
     short_doc: इमोजीस से स्टिकर आयात करें
     help: |
@@ -418,44 +272,23 @@ command_docs:
       ध्यान दें कि, इमोजीस विकल्प के माध्यम से खोजे गए एमोजिस अलियासिंग का समर्थन नहीं करता है
   sticker-mine:
     short_doc: मेरे स्टिकर खोजें
-    help: |
-      मेरे स्टिकर खोजें
   sticker-rename:
     short_doc: स्टिकर का नाम बदलें
-    help: |
-      स्टिकर का नाम बदलें
-      आप केवल स्वयं के स्टिकर हटा सकते हैं।
   sticker-search:
     short_doc: वैकल्पिक क्वेरी के साथ NQN के सभी स्टिकर खोजें
-    help: |
-      वैकल्पिक क्वेरी के साथ NQN के सभी स्टिकर खोजें
   sticker-telegram:
     short_doc: टेलीग्राम से स्टिकर आयात करें
-    help: |
-      टेलीग्राम से स्टिकर आयात करें
   sticker:
     short_doc: इमोजी से बड़े
-    help: |
-      इमोजी से बड़े
   support:
     short_doc: मुझे उपयोग करने के साथ कुछ मदद चाहिए?
-    help: |
-      मुझे उपयोग करने के साथ कुछ मदद चाहिए?
   tutorial:
     short_doc: NQN के साथ इमोजी का उपयोग करना सीखें
-    help: |
-      NQN के साथ इमोजी का उपयोग करना सीखें
   upload_emote:
     short_doc: Search for and upload emotes to this server.
     help: |
       सभी इमोजीज की खोज करें, जिन्हें बॉट ने कभी देखा है और उन्हें इस सर्वर पर अपलोड करें।
       यह कमांड आपको इमोजी अपलोड करने की अनुमति देता है, टाइलों के आकार और आकार बदलने का समर्थन करता है।
       आप इसे अपलोड करने के लिए एक फ़ाइल भी संलग्न कर सकते हैं
-  vote_opt_out:
-    short_doc: वोट डीएम से बाहर निकलें
-    help: |
-      वोट डीएम से बाहर निकलें
   whois:
     short_doc: पता लगाएं कि किसने मैसेज पोस्ट किया है
-    help: |
-      पता लगाएं कि किसने मैसेज पोस्ट किया है
