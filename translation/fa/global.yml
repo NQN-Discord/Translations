@@ -20,7 +20,7 @@ global:
     packs: درباره بسته ها بیشتر بدانید
     my_emotes: پیدا کردن ایموجی هایی که من می‌تونم استفاده کنم
     personas: درباره پرسونا ها بیشتر بدانید
-  missing_permissions: دسترسی ناکافی
+  missing_permissions: دسترسی های ناکافی
   missing_add_reaction: من به دسترسی 'Add Reactions' برای انجام این دستور نیازمندم!
   missing_create_invite: من به دسترسی 'Create Instant Invite' برای انجام این دستور نیازمندم!
   everyone_external: نقش everyone@ نیازمند به دسترسی 'Use External Emojis' می‌باشد

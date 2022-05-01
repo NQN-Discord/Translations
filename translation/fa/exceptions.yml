@@ -5,18 +5,18 @@ exceptions:
     از ‎`%{prefix}help` برای دیدن لیست دستورات دردسترس استفاده کنید
   missing_required_argument:
     one: |-
-      محتوای ‎"%{param}" یک آرگومان اجباری است که اینجا موجود نیست
-      این مورد باید اینجوری باشد: ‎%{should_be}
+      محتوای "%{param}" یک آرگومان اجباری است که در اینجا یافت نشد
+      این مورد باید شامل همچین چیزی باشد: ‎%{should_be}
     many: |
-      محتوای ‎"%{param}" یک آرگومان اجباری است که اینجا موجود نیست
-      این بایستی یکی از موارد زیر باشد:
+      محتوای "%{param}" یک آرگومان اجباری است که در اینجا یافت نشد
+      این مورد باید شامل یکی از این چیز ها باشد: 
       - %{should_be}
   bot_missing_permissions:
     one: |
-      دستور ‎%{bot_ping} دسترسی موردنیاز زیر را برای اجرای این دستور ندارد:
+      ‎%{bot_ping} دسترسی موردنیاز زیر را برای اجرای این دستور ندارد:
       %{permissions_missing}
     many: |
-      دستور ‎%{bot_ping} دسترسی های موردنیاز زیر را برای اجرای این دستور ندارد:
+      ‎%{bot_ping} دسترسی موردنیاز زیر را برای اجرای این دستور ندارد:
       %{permissions_missing}
   user_missing_permissions:
     one: |
@@ -49,7 +49,7 @@ exceptions:
   permissions_missing_reasons:
     #These translations were designed to be short, and to fit on about 1 line on a mobile screen
     guild: |-
-      رول های %{user_ping} شاملش نشوند
+      رول هایی که %{user_ping} دارد، شامل این دسترسی نمی شوند
     member_overwrite: |-
       دسترسی های کانال به طور خاص %{user_ping} را منع می کند
     role_overwrite:

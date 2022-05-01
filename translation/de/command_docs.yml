@@ -29,7 +29,7 @@ command_docs:
     help: |
       Benenne eines deiner Aliase um
   alias-search:
-    short_doc: Suche nach einzelnen Emotes, um sie mit NQN zu nutzen
+    short_doc: Look for individual emotes
     help: |
       Suche nach einzelnen Emotes, um sie mit NQN zu nutzen
 
@@ -176,7 +176,7 @@ command_docs:
     help: |
       Lade alle Emotes eines Packs auf diesen Server hoch
   pack-search:
-    short_doc: Finde ganze Emote-Packs, die du mit NQN nutzen kannst
+    short_doc: Find entire packs of emotes
     help: |
       Finde ganze Emote-Packs, die du mit NQN nutzen kannst
   pack-set_public:
@@ -249,7 +249,7 @@ command_docs:
     help: |
       Wie hoch ist dein Server in unseren Rankings eingeordnet?
   react:
-    short_doc: Reagiere mit Emojis von NQN auf eine Nachricht
+    short_doc: React to a message with emojis
     help: |
       Reagiere auf die `n`te zuletzt gesendete Nachricht
       Optionale Nachricht: Nutze die ID der Nachricht oder den Link der Nachricht, um auf eine bestimmte Nachricht zu reagieren oder die `n`te zuletzt gesendete Nachricht (bis zu 20te)
@@ -450,7 +450,7 @@ command_docs:
     help: |
       Lerne, wie man Emotes mit NQN nutzt
   upload_emote:
-    short_doc: Suche nach allen Emotes, die der Bot je gesehen hat und lade sie auf diesen Server hoch.
+    short_doc: Search for and upload emotes to this server.
     help: |
       Suche nach allen Emotes, die der Bot je gesehen hat und lade sie auf diesen Server hoch.
       Dieser Befehl erlaubt dir, Emotes hochzuladen.
