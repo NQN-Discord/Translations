@@ -2,8 +2,6 @@
 command_docs:
   alias-delete:
     short_doc: Хотите избавится от эмодзи? Используйте эту команду
-    help: |
-      Хотите избавится от эмодзи? Используйте эту команду
   alias-delete_all:
     short_doc: Мне не нравится ни один из моих псевдонимов
     help: |
@@ -14,20 +12,12 @@ command_docs:
       Попросите бота отправить вам список ваших псевдонимов в личных сообщениях
   alias-export:
     short_doc: Экспорт ваших великолепных эмодзи
-    help: |
-      Позволяет экспортировать эмодзи
   alias-import:
     short_doc: Импортировать чей-то другой эмодзи
-    help: |
-      Импортировать чей-то другой эмодзи
   alias-list:
     short_doc: Вывод списка со всеми эмодзи, которыми вы владеете
-    help: |
-      Окунёмся в список приобретённых вами эмодзи!
   alias-rename:
     short_doc: Переименование эмодзи
-    help: |
-      Переименовывает эмодзи
   alias-search:
     short_doc: Look for individual emotes
     help: |
@@ -64,8 +54,6 @@ command_docs:
       Вы также можете использовать функцию 'Ответить', чтобы отредактировать это сообщение.
   export:
     short_doc: Экспорт вашего списка с эмодзи
-    help: |
-      Экспортирует список ваших эмодзи, которыми вы владеете
   help:
     short_doc: Показывает это сообщение
     help: |
@@ -79,16 +67,10 @@ command_docs:
       - Бот не будет отвечать ни на какие отправленные вами сообщения, которые могли быть отправлены через вебхук.
   info:
     short_doc: Статистика бота
-    help: |
-      Статистика бота
   invite_me:
     short_doc: Пригласит бота на ваш сервер!
-    help: |
-      Пригласит бота на ваш сервер!
   jumbo:
     short_doc: Сделать эмодзи больше
-    help: |
-      Сделать эмодзи больше
   mod-audit:
     short_doc: Просмотр аудита сообщений
     help: |
@@ -99,116 +81,62 @@ command_docs:
       Если и канал, и участники должны быть нефильтрованными, используйте 'audit guild'
   mod-ban:
     short_doc: Требуется заблокировать пользователя? Эта команда вам поможет!
-    help: |
-      Блокирует пользователя через отправленное им сообщение, с помощью NQN
   mod-edit_topic:
     short_doc: Изменение темы канала
     help: |
       Украсьте тему одного из ваших каналов
   mod-kick:
     short_doc: Кик пользователя
-    help: |
-      Выгоняет пользователя через отправленное им сообщение, с помощью NQN
   mod-move:
     short_doc: Перемещение до 20 последних сообщений из этого канала в другой
-    help: |
-      Переместит до 20 последних сообщений из этого канала в другой.
-      Сейчас будет происходить магия
   mod-purge:
-    short_doc: Очистка сообщений
-    help: |
-      Очистит указаное число репостированных сообщений, написанных NQN.
-      Имеется опция фильтрации по конкретному пользователю.
+    short_doc: Purge some messages reposted by the bot in this channel
   mod:
     short_doc: Команды для модерирования
-    help: |
-      Команды модерации NQN
   move:
     short_doc: Перемещение до 20 последних сообщений из этого канала в другой
-    help: |
-      Переместит до 20 последних сообщений из этого канала в другой.
-      Сейчас будет происходить магия
   mutuals:
     short_doc: Посмотрите сервера, с которыми я делюсь с вами
-    help: |
-      Ничего
   my_emotes:
     short_doc: See what emojis you can post with NQN
-    help: |
-      See what emojis you can post with NQN
   owner:
     short_doc: Forbidden knowledge lurks within
-    help: |
-      Forbidden knowledge lurks within
   pack-dm:
     short_doc: Get a full list of your packs in your DMs
     help: |
-      Have the bot send you a complete list of yout packs current emoji lists through your DMs.
+      Have the bot send you a complete list of your packs current emoji lists through your DMs.
   pack-join:
     short_doc: Присоединение одного из нескольких тысяч паков с эмодзи
-    help: |
-      Используйте различные эмодзи из сотних разных, и по своему уникальных, паков!
-      Пора бы присоединить несколько из таких, верно...?
   pack-leave:
     short_doc: Покинуть пак с эмодзи
-    help: |
-      Покиньте пак, если он вам не понравился
   pack-meta:
     short_doc: Чтож... Довольно хорошая статистика вашего пака
-    help: |
-      Выводит статистику вашего пака (статистику кол-ва его использования)
   pack-mine:
     short_doc: Вывод списка присоединённых вами паков
-    help: |
-      Получите список паков, которые вы присоединили
   pack-publish:
     short_doc: Создание вашего пака с эмодзи
-    help: |
-      Опубликует ваш сервер, как пак с эмодзи
   pack-rename:
     short_doc: Переименование пака с эмодзи
-    help: |
-      Переименовывает Ваш пак с эмодзи
   pack-save:
     short_doc: Загрузка пака с эмодзи на ваш сервер
-    help: |
-      Загрузит все эмодзи из пака на ваш сервер
   pack-search:
     short_doc: Find entire packs of emotes
-    help: |
-      Найдите целую тонну паков с сокровищами
   pack-set_public:
     short_doc: Перемещение по серверам через паки
-    help: |
-      Разрешит любому присоединяться к вашему серверу через пак. Всё легально!
   pack-show:
     short_doc: Показ содержимого указанного вами пака
-    help: |
-      Покажит содержимое вашего или чужого пака
   pack-unpublish:
     short_doc: Не хотите, чтобы этот сервер больше был паком?
-    help: |
-      Не хотите, чтобы этот сервер больше был паком с эмодзи? Исправим это.
   pack:
     short_doc: Управление целым паком с эмодзи
-    help: |
-      Вывод списка команд для работы с паками
   persona-avatar_url:
     short_doc: Set the avatar of a persona
-    help: |
-      Set the avatar of a persona
   persona-delete:
     short_doc: Delete one of your personas
-    help: |
-      Delete one of your personas
   persona-display_name:
     short_doc: Change the username of a persona
-    help: |
-      Change the username of a persona
   persona-dm:
     short_doc: DMs you a full list of your personas
-    help: |
-      Sends you a DM with a full list of your personas
   persona-export:
     short_doc: Export your list of personas to a file
     help: |
@@ -220,118 +148,64 @@ command_docs:
       Compatible with PluralKit and Tupperbox.
   persona-list:
     short_doc: See a list of your personas
-    help: |
-      See a list of your personas
   persona-register:
     short_doc: Register a persona for later use
-    help: |
-      Register a persona for later use
   persona-rename:
     short_doc: Give one of your personas a different name
-    help: |
-      Give one of your personas a different name
   persona:
     short_doc: Manage your personas
-    help: |
-      Manage your personas
   premium-check:
     short_doc: Проверка наличия премиум-статуса
     help: |
       Информация о вашем премиум-статуса, включая перечень серверов, премиум которым вы дали.
   premium:
     short_doc: Информация про премиум NQN'а
-    help: |
-      Информация про премиум NQN'а
   ranking:
     short_doc: Насколько высоко ваш сервер находится в нашем рейтинге?
-    help: |
-      Насколько высоко ваш сервер находится в нашем рейтинге?
   react:
     short_doc: React to a message with emojis
     help: |
       Реагириует на n-ое или самое последнее сообщение
       На заметку: Укажите ID сообщения, на которое нужно прореагировать, или n-ых сообщений назад (до 20)
       Команда позволяет написать список эмодзи, каждый из которых будет добавлен в указанном порядке.
-  search_all:
-    short_doc: Посмотрите на эмодзи, которые видел бот
-    help: |
-      Посмотрите на эмодзи, которые видел бот
   server-alias-delete:
     short_doc: Не понравилось добавленно эмодзи? Просто удалите его со своего сервера!
-    help: |
-      Не понравилось добавленное эмодзи? Просто удалите его со своего сервера!
   server-alias-import:
     short_doc: Import a list of server aliases from a file.
-    help: |
-      Import a list of server aliases from a file.
   server-alias-list:
     short_doc: Показует эмодзи, которые может использовать каждый на вашем сервере
-    help: |
-      Показует эмодзи, которые может использовать каждый на вашем сервере
   server-alias-post:
     short_doc: Post a list of server aliases
-    help: |
-      Post a list of server aliases
   server-alias-rename:
     short_doc: Переименуйте alias сервера
-    help: |
-      Переименуйте alias сервера
   server-alias-search:
     short_doc: Разрешите любому на сервере использовать эмодзи!
-    help: |
-      Разрешите любому на сервере использовать эмодзи!
   server-alias:
     short_doc: Делайте вещи вместе с индвидуальными эмодзи сервера'
-    help: |
-      Делайте вещи вместе с индвидуальными эмодзи сервера
   server-dashboard_posting:
     short_doc: Enable or disable posting messages through the bot dashboard
-    help: |
-      Enable or disable posting messages through the bot dashboard
   server-language:
     short_doc: Установите язык для бота
-    help: |
-      Установите язык для бота
   server-link:
     short_doc: Создайте статическую эмодзи, которая при использовании вместо неё публикует анимированную версию!
-    help: |
-      Создайте статическую эмодзи, которая при использовании вместо неё публикует анимированную версию!
   server-masked_links:
     short_doc: Включение или отключение скрытых ссылки на этом сервере
-    help: |
-      Включите или отключите скрытых ссылки на этом сервере
   server-nitro:
     short_doc: Включите или отключите бесплатное использование нитро
-    help: |
-      Включите или отключите бесплатное использование нитро
   server-pack-join:
     short_doc: Присоедините пак с эмодзи для сервера
-    help: |
-      Присоедините пак с эмодзи для сервера
   server-pack-leave:
     short_doc: Покидание пака с эмодзи на сервере
-    help: |
-      Покидание пака с эмодзи на сервере
   server-pack-list:
     short_doc: Список паков, которые может использовать этот сервер
-    help: |
-      Список паков, которые может использовать этот сервер
   server-pack-post:
     short_doc: Post a list of server packs
-    help: |
-      Post a list of server packs
   server-pack-search:
     short_doc: Поиск паков для сервера
-    help: |
-      Ищет паки с эмодзи, которые будут доступны всем участникам сервера
   server-pack:
     short_doc: Делайте вещи вместе с паками сервера
-    help: |
-      Делайте вещи вместе с паками сервера
   server-permissions_debug:
     short_doc: Let NQN tell you what permissions it's missing
-    help: |
-      Ничего
   server-personas:
     short_doc: Enable or disable usage of personas
     help: |
@@ -342,8 +216,6 @@ command_docs:
       Переключает пинги в репостированных сообщениях
   server-phish_detection:
     short_doc: Enable or disable phishing message detection for this server
-    help: |
-      Enable or disable phishing message detection for this server
   server-prefix:
     short_doc: Смена префикса у бота
     help: |
@@ -355,45 +227,26 @@ command_docs:
       @NQN#3454 [префикс=!]
   server-replies:
     short_doc: Включите или отключите цитирования
-    help: |
-      Включите или отключите цитирования
   server-settings:
     short_doc: Просмотр настроек этого сервера
     help: |
       Вывод списка настроек сервера NQN, включая функции, настроенные каналы и информацию о паке.
-  server-set_announcement_channel:
-    short_doc: Разместите анонсы бота где угодно.
-    help: |
-      Разместите анонсы бота где угодно.
-      Они будут включать новые функции
   server-set_audit_channel:
     short_doc: Размещает репосты бота
-    help: |
-      Размещает репосты бота
   server-set_boost_channel:
     short_doc: Публикует сообщения, когда кто-то голосует на сервере за бота на top.gg
-    help: |
-      Публикует сообщения, когда кто-то голосует на сервере за бота на top.gg
   server-set_boost_role:
     short_doc: Дайте пользователю эту роль, когда он голосует на этом сервер за NQN
-    help: |
-      Дайте пользователю эту роль, когда он голосует на этом сервер за NQN
   server-set_nitro_role:
     short_doc: Установка роли для использования NQN
     help: |
       Команда позволяет установить определённую роль для ограничения использования NQN между участниками вашего сервера
   server-stickers:
     short_doc: Включение или отключение использования стикеров на сервере
-    help: |
-      Включение или отключение использования стикеров на сервере
   server-user_content:
     short_doc: Включить или выключить эмодзи и паки для этого сервера
-    help: |
-      Включить или выключить эмодзи и паки для этого сервера
   server:
     short_doc: Измените настройки ботов на этом сервере
-    help: |
-      Измените настройки ботов на этом сервере
   sticker-create:
     short_doc: Создаёт стикер из файла
     help: |
@@ -405,9 +258,6 @@ command_docs:
       Стикерам необходимо расширение файла, которое также является буквенно-цифровым.
   sticker-delete:
     short_doc: Удаляет стикер
-    help: |
-      Удаляет стикер
-      Вы можете удалять только СВОИ стикеры
   sticker-import:
     short_doc: Импортирует стикеры из эмодзи
     help: |2
@@ -419,44 +269,23 @@ command_docs:
       Обратите внимание, что опция поиска по эмодзи не поддерживает alias'ы.
   sticker-mine:
     short_doc: Способ найти все ваши стикеры
-    help: |
-      Способ найти все ваши стикеры
   sticker-rename:
     short_doc: Переименовует стикер
-    help: |
-      Переименовует стикер
-      Вы можете переименовать только свой стикер
   sticker-search:
     short_doc: Ищет стикеров, которые есть в NQN, с дополнительным запросом
-    help: |
-      Ищет стикеров, которые есть в NQN, с дополнительным запросом
   sticker-telegram:
     short_doc: Импортирует стикеры из Telegram
-    help: |
-      Импортирует стикеры из Telegram
   sticker:
     short_doc: Больше, чем эмодзи!
-    help: |
-      Больше, чем эмодзи!
   support:
     short_doc: Нужна помощь в использовании меня?
-    help: |
-      Нужна помощь в использовании меня?
   tutorial:
     short_doc: Учим, как использовать эмодзи вместе с NQN
-    help: |
-      Учим, как использовать эмодзи вместе с NQN
   upload_emote:
     short_doc: Search for and upload emotes to this server.
     help: |
       Найдёт все эмодзи, которые бот когда-либо видел, и загрузит их на этот сервер.
       Эта команда позволяет загружать эмодзи.
       Вы также можете прикрепить файл, чтобы загрузить его
-  vote_opt_out:
-    short_doc: Поможет отказаться от голосования в ЛС
-    help: |
-      Поможет отказаться от голосования в ЛС
   whois:
     short_doc: Найти пользователя, отправившего сообщение
-    help: |
-      Укажет пользователя, написавшего репостированное сообщение
