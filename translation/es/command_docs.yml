@@ -97,7 +97,7 @@ command_docs:
   mod-move:
     short_doc: Mueve hasta 20 de los mensajes más recientes en este canal a otro
   mod-purge:
-    short_doc: Purge some messages reposted by the bot in this channel
+    short_doc: Elimina algunos mensajes reenviados por el bot en este canal
   mod:
     short_doc: Funciones de moderación de NQN
   move:
