@@ -30,22 +30,22 @@ discord_bot:
           :%{name}: chưa được thêm vào server.
 
           Để có thêm tên thay thế/gói biểu cảm, mọi người có thể vote cho bot tại %{url}
-        no_alias: This server does not have an alias called %{name}
-        renamed: 'Renamed %{emote} from \:%{name}: to :%{new}:'
-        no_aliases: This server has no global aliases
+        no_alias: Server này không có tên thay thế nào là %{name}
+        renamed: 'Đã đổi tên %{emote} từ \:%{name}: thành :%{new}:'
+        no_aliases: Server này không có tên thay thế công khai
       nitro_role:
-        unset: Anyone in this server can use free Nitro emotes with NQN
-        set: Now only users with the %{role} role can use free Nitro emotes with NQN
+        unset: Bất kì ai trong server đều có thể dùng biểu cảm Nitro miễn phí với NQN
+        set: Từ giờ chỉ ai có vai trò %{role} mới có thể dùng biểu cảm Nitro miễn phí với NQN
       audit_channel:
-        unset: Unset the audit channel for this server
-        set: Set the audit channel for this server to %{channel}
-        no_webhooks: "I cannot post webhook messages to %{channel}.\nPlease give me 'Manage Webhooks' there!"
+        unset: Đã gỡ kênh lưu vết khỏi server này
+        set: Đã đặt %{channel} làm kênh lưu vết cho server này
+        no_webhooks: "Tôi không thể gửi tin nhăbs webhook trong %{channel}.\nVui lòng cho tôi quyền 'Quản lý webhook' trong đó!"
       boost_channel:
-        unset: Unset the boost channel for this server
-        set: Set the boost channel for this server to %{channel}
+        unset: Đã gỡ kênh tăng cường khỏi server này
+        set: Đã đặt %{channel} làm kênh tăng cường cho server này
       boost_role:
-        unset: Unset the boost role for this server
-        set: Set the boost role for this server to %{role}
+        unset: Đã gỡ vai trò tăng cường khỏi server này
+        set: Đã đặt %{role} làm vai trò tăng cường cho server này
       boolean_options:
         stickers_on: Enabled stickers
         stickers_off: Disabled stickers
