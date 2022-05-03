@@ -3,49 +3,49 @@ discord_bot:
   commands:
     server:
       alias:
-        set_emote_title: 'Set \:%{name}: to %{emote} for this server.'
+        set_emote_title: 'Đã đặt \:%{name}: thành %{emote} cho server này.'
         set_emote_description:
           zero: |
-            This server has no emotes left!
-            For more aliases, anyone can vote for the bot at %{url}
+            Server này không còn chỗ trống nào!
+            Để có thêm tên thay thế, mọi người có thể vote cho bot tại %{url}
 
-            Anyone can use this emote by typing:
+            Bất kì ai cũng có thể dùng biểu cảm này bằng cách nhập:
           one: |
-            This server has one emote left before it reaches it's maximum.
-            For more aliases, anyone can vote for the bot at %{url}
+            Server này chỉ còn một chỗ trước khi đạt đến giới hạn tên thay thế.
+            Để có thêm tên thay thế, mọi người có thể vote cho bot tại %{url}
 
-            Anyone can use this emote by typing:
+            Bất kì ai cũng có thể dùng biểu cảm này bằng cách nhập:
           many: |
-            This server has %{count} emotes left before it reaches it's maximum.
-            For more aliases, anyone can vote for the bot at %{url}
+            Server này còn %{count} chỗ trước khi đạt đến giới hạn tên thay thế.
+            Để có thêm tên thay thế, mọi người có thể vote cho bot tại %{url}
 
-            Anyone can use this emote by typing:
+            Bất kì ai cũng có thể dùng biểu cảm này bằng cách nhập:
         failed_aliases:
           one: |
-            One alias which cannot be rendered
+            Một tên thay thế không thể được hiển thị
           many: |
-            %{failed_aliases} aliases which cannot be rendered
-        max_title: This server is at its maximum emote/pack count already!
+            %{failed_aliases} tên thay thế không thể được hiển thị
+        max_title: Server này đã đạt giới hạn số lượng biểu cảm/gói biểu cảm rồi!
         max_description: |
-          :%{name}: was not added as a server emote.
+          :%{name}: chưa được thêm vào server.
 
-          For more aliases/packs, anyone can vote for the bot at %{url}
-        no_alias: This server does not have an alias called %{name}
-        renamed: 'Renamed %{emote} from \:%{name}: to :%{new}:'
-        no_aliases: This server has no global aliases
+          Để có thêm tên thay thế/gói biểu cảm, mọi người có thể vote cho bot tại %{url}
+        no_alias: Server này không có tên thay thế nào là %{name}
+        renamed: 'Đã đổi tên %{emote} từ \:%{name}: thành :%{new}:'
+        no_aliases: Server này không có tên thay thế công khai
       nitro_role:
-        unset: Anyone in this server can use free Nitro emotes with NQN
-        set: Now only users with the %{role} role can use free Nitro emotes with NQN
+        unset: Bất kì ai trong server đều có thể dùng biểu cảm Nitro miễn phí với NQN
+        set: Từ giờ chỉ ai có vai trò %{role} mới có thể dùng biểu cảm Nitro miễn phí với NQN
       audit_channel:
-        unset: Unset the audit channel for this server
-        set: Set the audit channel for this server to %{channel}
-        no_webhooks: "I cannot post webhook messages to %{channel}.\nPlease give me 'Manage Webhooks' there!"
+        unset: Đã gỡ kênh lưu vết khỏi server này
+        set: Đã đặt %{channel} làm kênh lưu vết cho server này
+        no_webhooks: "Tôi không thể gửi tin nhăbs webhook trong %{channel}.\nVui lòng cho tôi quyền 'Quản lý webhook' trong đó!"
       boost_channel:
-        unset: Unset the boost channel for this server
-        set: Set the boost channel for this server to %{channel}
+        unset: Đã gỡ kênh tăng cường khỏi server này
+        set: Đã đặt %{channel} làm kênh tăng cường cho server này
       boost_role:
-        unset: Unset the boost role for this server
-        set: Set the boost role for this server to %{role}
+        unset: Đã gỡ vai trò tăng cường khỏi server này
+        set: Đã đặt %{role} làm vai trò tăng cường cho server này
       boolean_options:
         stickers_on: Enabled stickers
         stickers_off: Disabled stickers
