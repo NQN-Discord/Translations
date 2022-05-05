@@ -105,37 +105,37 @@ discord_bot:
           Bất kì ai trong server này sẽ có thể dùng các biểu cảm sau bằng cách nhập tên của chúng trên khung trò chuyện kèm theo dấu hai chấm:
         no_packs: "%{guild_name} chưa tham gia vào gói công khai nào!"
       prefix:
-        instructions: "To set my prefix, mention me before the desired prefix so as to prevent accidental changes.\n> %{prefix}server prefix %{me} %{new}"
-        no_colon_prefix: NQN does not support prefixes starting with a colon (:)
-        no_slash_prefix: NQN does not support prefixes starting with a slash (/)
-        set_prefix: Set my prefix to `%{prefix}`
+        instructions: "Để đặt prefix của tôi, hãy nhắc tên tôi trước prefix mới đó để tránh việc thay đổi ngoài ý muốn.\n> %{prefix}server prefix %{me} %{new}"
+        no_colon_prefix: NQN không hỗ trợ prefix bắt đầu với dấu hai chấm (:)
+        no_slash_prefix: NQN không hỗ trợ prefix bắt đầu với dấu gạch chéo (/)
+        set_prefix: Đã đặt prefix của tôi thành `%{prefix}`
       language:
-        choose: 'Choose my new language:'
-        set: Set my language to English for this server
+        choose: 'Chọn ngôn ngữ mới cho tôi:'
+        set: Đã đặt ngôn ngữ của tôi thành tiêng Việt cho server này
       config:
-        enabled: Enabled
-        disabled: Disabled
+        enabled: Đã kích hoạt
+        disabled: Đã vô hiệu
         prefix: Prefix
-        announcement: Announcement channel
-        boost_channel: Boost channel
-        boost_role: Boost role
-        audit_channel: Audit channel
-        nitro_role: Nitro role
-        stickers: Stickers
+        announcement: Kênh thông báo
+        boost_channel: Kênh tăng cường
+        boost_role: Vai trò tăng cường
+        audit_channel: Kênh lưu vết
+        nitro_role: Vai trò Nitro
+        stickers: Nhãn dán
         nitro: Nitro
-        replies: Replies
-        masked_links: Masked URLs
-        pings: Pings
-        user_content: User Content
-        personas: Personas
-        dashboard_posting: Dashboard Posting
-        phish_detection: Phish Detection
-        invite: Invite Link
-        pack: Pack Name
-        public: Public
-        member_count: Members
-        configure_features: Toggle Features
-        settings: Settings
-        channels: Channels
-        features: Features
-        pack_info: Pack Info
+        replies: Trả lời
+        masked_links: URL đã che
+        pings: Nhắc tên
+        user_content: Nội dung người dùng
+        personas: Danh tính ảo
+        dashboard_posting: Gửi từ bảng điều khiển
+        phish_detection: Nhận diện lừa đảo
+        invite: Link mời
+        pack: Tên gói biểu cảm
+        public: Công khai
+        member_count: Thành viên
+        configure_features: Bật/tắt tính năng
+        settings: Cài đặt
+        channels: Kênh
+        features: Tính năng
+        pack_info: Thông tin gói
