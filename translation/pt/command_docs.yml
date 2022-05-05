@@ -92,7 +92,7 @@ command_docs:
   mod-move:
     short_doc: Mova até 20 das mensagens mais recentes neste canal para outro
   mod-purge:
-    short_doc: Purge some messages reposted by the bot in this channel
+    short_doc: Limpar algumas mensagens repostadas pelo bot neste canal
   mod:
     short_doc: Recursos de moderação para NQN
   move:
@@ -266,7 +266,7 @@ command_docs:
     short_doc: Delete uma figurinha
   sticker-import:
     short_doc: Importar figurinhas de emotes
-    help: |2
+    help: |
       Importar figurinhas de emotes
       De um emote diretamente, com um apelido opcional
        - importar figurinha: blue_smirk: smirk.png
