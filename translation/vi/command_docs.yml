@@ -1,45 +1,45 @@
 ---
 command_docs:
   alias-delete:
-    short_doc: Don't want an alias anymore? Use this
+    short_doc: Không muốn dùng tên thay thế nữa? Dùng cái này
   alias-delete_all:
-    short_doc: I don't like any of my aliases
+    short_doc: Tôi không thích tên thay thế nào của mình
     help: |
-      Delete all of your aliases
+      Xóa toàn bộ tên thay thế của bạn
   alias-dm:
-    short_doc: Get a full list of your aliases in DMs
+    short_doc: Nhận một danh sách các tên thay thế của bạn trong tin nhắn trực tiếp
     help: |
-      Have the bot send you a list of your aliases in your DMs
+      Nhận một danh sách các tên thay thế của bạn trong tin nhắn trực tiếp
   alias-export:
-    short_doc: Export your alias list
+    short_doc: Xuất danh sách tên thay thế của bạn
   alias-import:
-    short_doc: Import someone else's alias list
+    short_doc: Nhập danh sách tên thay thế của ai khác
   alias-list:
-    short_doc: Get a list of aliases you've made
+    short_doc: Nhận một danh sách các tên thay thế bạn đã tạo
   alias-rename:
-    short_doc: Rename one of your aliases
+    short_doc: Đổi tên một tên thay thế của bạn
   alias-search:
-    short_doc: Look for individual emotes
+    short_doc: Tìm kiếm biểu cảm riêng biệt
     help: |
-      Look for individual emotes to use with NQN
+      Tìm kiếm các biểu cảm riêng biệt để dùng với NQN
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      Tính năng tìm kiếm của NQN cho phép dùng một số tính năng nâng cao:
+       - `exact`: (mặc định vô hiệu) chỉ tìm biểu cảm với tên chính xác với tìm kiếm
+       - `animated`: chỉ hiện hoặc biểu cảm động hoặc biểu cảm tĩnh
+       - `page`: đi ngay đến một trang
+       - `order`: dùng với 'uses', hoặc 'random'
   alias:
-    short_doc: Manage the individual emotes you can use
+    short_doc: Quản lý các biểu cảm riêng biệt để bạn dùng
     help: |
-      Manage the individual emotes you can use
+      Quản lý các biểu cảm riêng biệt bạn có thể dùng
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      Tính năng tìm kiếm của NQN cho phép dùng một số tính năng nâng cao:
+       - `exact`: (mặc định vô hiệu) chỉ tìm biểu cảm với tên chính xác với tìm kiếm
+       - `animated`: chỉ hiện hoặc biểu cảm động hoặc biểu cảm tĩnh
+       - `page`: đi ngay đến một trang
+       - `order`: dùng với 'uses', hoặc 'random'
   audit:
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: Lưu vết lại các tin nhắn được thay thế cho kênh này
     help: |
       Get audit logs for reposted messages for this channel
       Optional[Channel] -> Filter logs to this channel only
@@ -266,7 +266,7 @@ command_docs:
     short_doc: Delete a sticker you own
   sticker-import:
     short_doc: Import stickers from emotes
-    help: |2
+    help: |
       Import stickers from emotes
       Either from an emote directly, with an optional alias
        - sticker import :blue_smirk: smirk.png
