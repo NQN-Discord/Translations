@@ -39,38 +39,38 @@ command_docs:
        - `page`: đi ngay đến một trang
        - `order`: dùng với 'uses', hoặc 'random'
   audit:
-    short_doc: Lưu vết lại các tin nhắn được thay thế cho kênh này
+    short_doc: Xem các tin nhắn đã được thay thế trong server
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
+      Xem các tin nhắn đã được thay thế trong server
+      Tùy ý [Kênh] -> Chỉ hiển thị kết quả trong kênh được nhắc đến
+      Tùy ý [Thành viên] -> Chỉ hiển thị kết quả của người dùng được nhắc đến
 
-      If both channel and members are to be unfiltered, use 'audit guild'
+      Nếu bạn muốn hiển thị kết quả của cả server, dùng 'guild'
   delete:
-    short_doc: Delete one of your messages reposted by NQN
+    short_doc: Xóa một trong khác tin nhắn của bạn được thay thế bởi NQN
     help: |
-      Delete one of your messages reposted by NQN.
-      By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
-      You can also use Discord's message reply functionality to delete that message.
+      Xóa một trong khác tin nhắn của bạn được thay thế bởi NQN.
+      Theo mặc định, tin nhắn gần đây nhất trong kênh này của bạn sẽ bị xóa, nhưng bạn vẫn có thể tùy ý thêm URL của tin nhắn bạn muốn xóa.
+      Bạn cũng có thể trả lời tin nhắn đó khi dùng lệnh để xóa tin nhắn đó.
   edit:
-    short_doc: Edit a message posted by NQN
+    short_doc: Chỉnh sửa tin nhắn được thay thế bởi NQN
     help: |
-      Edits the content of one of your messages reposted by NQN.
-      By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
-      You can also use Discord's message reply functionality to edit that message.
+      Chỉnh sửa nội dung của tin nhắn mà bạn gửi thông qua NQN.
+      Theo mặc định, tin nhắn gần đây nhất trong kênh này của bạn sẽ được chỉnh sửa, nhưng bạn vẫn có thể tùy ý thêm URL của tin nhắn bạn muốn chỉnh sửa
+      Bạn cũng có thể trả lời tin nhắn đó khi dùng lệnh để chỉnh sửa tin nhắn đó.
   export:
-    short_doc: Export your emote list
+    short_doc: Xuất danh sách biểu cảm của bạn
   help:
-    short_doc: Learn about my commands
+    short_doc: Tìm hiểu thêm về lệnh của tôi
     help: |
-      Learn about the commands you can run with NQN
+      Tìm hiểu thêm về những lệnh mà bạn có thể dùng với NQN
   ignore_me:
-    short_doc: Stop NQN from reposting your messages
+    short_doc: Ngưng việc NQN thay thế tin nhắn của bạn
     help: |
-      Running this command stops NQN from reposting any of your messages in any server you share with the bot.
-      - Commands are still enabled, running this command again returns you to normal
-      - You can still repost messages through our [dashboard](https://nqn.blue)
-      - The bot will not respond to any messages you send that would be reposted through a webhook
+      Lệnh này sẽ ngưng việc NQN thay thế tin nhắn của bạn trong mọi sever bạn có chung với bot.
+      - Mọi lệnh sẽ bị vô hiệu, dùng lại lệnh này để trở lại dùng như thường
+      - Bạn vẫn có thể gửi tin nhắn thông qua [bảng điều khiển](https://nqn.blue) của chúng tôi
+      - Bot sẽ không thay thế bất kì tin nhắn nào của bạn bằng webhook nữa
   info:
     short_doc: Internal statistics about the bot
   invite_me:
