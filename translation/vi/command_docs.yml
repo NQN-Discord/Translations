@@ -72,71 +72,71 @@ command_docs:
       - Bạn vẫn có thể gửi tin nhắn thông qua [bảng điều khiển](https://nqn.blue) của chúng tôi
       - Bot sẽ không thay thế bất kì tin nhắn nào của bạn bằng webhook nữa
   info:
-    short_doc: Internal statistics about the bot
+    short_doc: Thông tin phần mềm của bot
   invite_me:
-    short_doc: Invite the bot to your server!
+    short_doc: Thêm bot vào server của bạn!
   jumbo:
-    short_doc: Makes an emoji bigger
+    short_doc: Lấy hình ảnh lớn của biểu cảm
   mod-audit:
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: Xem các tin nhắn đã được thay thế trong server
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
+      Xem các tin nhắn đã được thay thế trong server
+      Tùy ý [Kênh] -> Chỉ hiển thị kết quả trong kênh được nhắc đến
+      Tùy ý [Thành viên] -> Chỉ hiển thị kết quả của người dùng được nhắc đến
 
-      If both channel and members are to be unfiltered, use 'audit guild'
+      Nếu bạn muốn hiển thị kết quả của cả server, dùng 'guild'
   mod-ban:
-    short_doc: Ban the user that posted a message
+    short_doc: Cấm thành viên đã gửi tin nhắn nào đó khỏi server
   mod-edit_topic:
-    short_doc: Add animated emojis to channel topics
+    short_doc: Thêm biểu cảm động vào chủ đề kênh
     help: |
-      Changes the channel description, allowing for animated emojis in them as well
+      Thay đổi chủ đề của kênh, với cả khả năng sử dụng biểu cảm động nữa
   mod-kick:
-    short_doc: Kick the user that posted a message
+    short_doc: Đá thành viên đã gửi tin nhắn nào đó khỏi server
   mod-move:
-    short_doc: Move up to 20 of the most recent messages in this channel to another
+    short_doc: Di chuyển lên đến 20 tin nhắn gần đây nhất từ kênh này sang kênh khác
   mod-purge:
-    short_doc: Purge some messages reposted by the bot in this channel
+    short_doc: Xóa một số tin nhắn được thay thế bởi NQN trong kênh này
   mod:
-    short_doc: Moderation features for NQN
+    short_doc: Các tính năng quản lý của NQN
   move:
-    short_doc: Move up to 20 of the most recent messages in this channel to another
+    short_doc: Di chuyển lên đến 20 tin nhắn gần đây nhất từ kênh này sang kênh khác
   mutuals:
-    short_doc: See the servers I share with you
+    short_doc: Xem các server mà bạn có chung với tôi
   my_emotes:
-    short_doc: See what emojis you can post with NQN
+    short_doc: Xem các biểu cảm bạn có thể dùng với NQN
   owner:
-    short_doc: Forbidden knowledge lurks within
+    short_doc: Cấm thư bí mật ẩn giấu trong đêm
   pack-dm:
-    short_doc: Get a full list of your packs in your DMs
+    short_doc: Nhận một danh sách các gói biểu cảm của bạn trong tin nhắn trực tiếp
     help: |
-      Have the bot send you a complete list of your packs current emoji lists through your DMs.
+      Nhận một danh sách các gói biểu cảm của bạn với các biểu cảm trong tin nhắn trực tiếp.
   pack-join:
-    short_doc: Subscribe to an emote pack
+    short_doc: Đăng ký vào một gói biểu cảm
   pack-leave:
-    short_doc: Unsubscribe from an emote pack
+    short_doc: Hủy đăng ký khỏi một gói biểu cảm
   pack-meta:
-    short_doc: Oooh... Pretty stats about your pack
+    short_doc: Oooh... Các thông số thú vị về gói của bạn
   pack-mine:
-    short_doc: Get a list of emote packs you're subscribed to
+    short_doc: Nhận một danh sách các gói biểu cảm bạn đã đăng ký vào
   pack-publish:
-    short_doc: Publish your emote server as an emote pack
+    short_doc: Công khai server của bạn dưới dạng một gói biểu cảm
   pack-rename:
-    short_doc: Rename an emote pack
+    short_doc: Đổi tên một gói biểu cảm
   pack-save:
-    short_doc: Upload all of the emotes from a pack to this server
+    short_doc: Tải lên tất cả biểu cảm từ một gói vào server này
   pack-search:
-    short_doc: Find entire packs of emotes
+    short_doc: Tìm kiếm gói biểu cảm
   pack-set_public:
-    short_doc: Allow anyone to join this server via NQN.
+    short_doc: Cho phép mọi người tham gia server này với NQN.
   pack-show:
-    short_doc: Show the contents of a pack
+    short_doc: Hiển thị nội dung của một gói biểu cảm
   pack-unpublish:
-    short_doc: Don't want this server to be an emote pack anymore?
+    short_doc: Không muốn server này là một gói biểu cảm nữa?
   pack:
-    short_doc: Manage entire packs of emotes
+    short_doc: Quản lý cả gói biểu cảm
   persona-avatar_url:
-    short_doc: Set the avatar of a persona
+    short_doc: Đặt ảnh hồ sơ cho một danh tính ảo
   persona-delete:
     short_doc: Delete one of your personas
   persona-display_name:
