@@ -148,109 +148,109 @@ command_docs:
     help: |
       Xuất danh sách danh tính ảo của bạn trong một tệp, hỗ trợ sử dụng với bot khác
   persona-import:
-    short_doc: Import a previously exported list of personas
+    short_doc: Nhập tệp danh tính ảo đã được xuất trước đó
     help: |
-      Import a previously exported list of personas.
-      Compatible with PluralKit and Tupperbox.
+      Nhập tệp danh tính ảo đã được xuất trước đó.
+      Có thể dùng với PluralKit và Tupperbox.
   persona-list:
-    short_doc: See a list of your personas
+    short_doc: Xem danh sách danh tính ảo của bạn
   persona-register:
-    short_doc: Register a persona for later use
+    short_doc: Tạo một danh tính ảo để dùng sau
   persona-rename:
-    short_doc: Give one of your personas a different name
+    short_doc: Đổi tên của một trong các danh tính ảo của bạn
   persona:
-    short_doc: Manage your personas
+    short_doc: Quản lý danh tính ảo của bạn
   premium-check:
-    short_doc: Recalculate your premium information
+    short_doc: Kiểm tra lại thông tin premium của bạn
     help: |
-      Recalculates your premium information, including the list of servers gaining premium from you.
+      Kiểm tra lại thông tin premium của bạn, bao gồm các server được hưởng tính năng premium từ bạn.
   premium:
-    short_doc: Information about NQN premium
+    short_doc: Thông tin về NQN premium
   ranking:
-    short_doc: How high up is your server in our rankings?
+    short_doc: Server bạn đang ở đâu trong bảng xếp hạng của chúng tôi?
   react:
-    short_doc: React to a message with emojis
+    short_doc: Bày tỏ cảm xúc với biểu cảm
     help: |
-      Use Discord replies or a message link to react to that message.
-      The command allows a list of reactions, each of which will be added in the order specified.
-      **You need to react to the added reactions as well for them to stay.**
+      Dùng tính năng trả lời của Discord để bày tỏ cảm xúc vào tin nhắn đó.
+      Lệnh này cho phép thêm nhiều biểu cảm một lúc, chúng sẽ được thêm theo thứ tự đã cho.
+      **Bạn sẽ cần phải bày tỏ cảm xúc vào các biểu cảm được thêm để giữ chúng.**
   server-alias-delete:
-    short_doc: Didn't like an emote? Make it so they've got to work for it.
+    short_doc: Không thích một biểu cảm? Làm cho nó biến khỏi tầm mắt của bạn.
   server-alias-import:
-    short_doc: Import a list of server aliases from a file.
+    short_doc: Nhập một danh sách các tên thay thế từ một tệp.
   server-alias-list:
-    short_doc: Show all the aliases that anyone in your server can use
+    short_doc: Hiển thị danh sách các tên thay thế mà thành viên trong server của bạn có thể dùng
   server-alias-post:
-    short_doc: Post a list of server aliases
+    short_doc: Hiển thị danh sách các tên thay thế của server
   server-alias-rename:
-    short_doc: Rename a server alias
+    short_doc: Đổi tên một tên thay thế của server
   server-alias-search:
-    short_doc: Allow anyone in the server to use an emote!
+    short_doc: Cho phép thành viên trong server dùng một biểu cảm!
   server-alias:
-    short_doc: Do things with server aliases
+    short_doc: Làm những thứ với tên thay thế trong server
   server-dashboard_posting:
-    short_doc: Enable or disable posting messages through the bot dashboard
+    short_doc: Bặt, tắt việc gửi tin nhắn với bot từ bảng điều khiển
   server-language:
-    short_doc: Set the bots language %{locale_flag_emojis}
+    short_doc: Thay đổi ngôn ngữ của bot %{locale_flag_emojis}
   server-link:
-    short_doc: Create a static emote, which when used posts an animated version of the emote instead!
+    short_doc: Tạo một biểu cảm tĩnh, để khi dùng thì bot sẽ thay thế với bản động của nó!
   server-masked_links:
-    short_doc: Enable or disable masked links in this server
+    short_doc: Bật, tắt dùng link đã che cho server này
   server-nitro:
-    short_doc: Enable or disable free nitro usage in this server
+    short_doc: Bật, tắt dùng tính năng nitro miễn phí cho server này
   server-pack-join:
-    short_doc: Subscribe to an emote pack server-wide
+    short_doc: Đăng ký vào một gói biểu cảm liên server
   server-pack-leave:
-    short_doc: Unsubscribe from an emote pack server-wide
+    short_doc: Hủy đăng ký khỏi một gói biểu cảm liên server
   server-pack-list:
-    short_doc: List the packs this server can use
+    short_doc: Hiển thị danh sách các gói server này có thể dùng
   server-pack-post:
-    short_doc: Post a list of server packs
+    short_doc: Hiển thị danh sách gói biểu cảm của server
   server-pack-search:
-    short_doc: Search for an emote pack to add server-wide
+    short_doc: Tìm kiếm một gói biểu cảm để thêm cho server
   server-pack:
-    short_doc: Do things with server packs
+    short_doc: Làm những thứ với gói biểu cảm trong server
   server-permissions_debug:
-    short_doc: Let NQN tell you what permissions it's missing
+    short_doc: Để NQN cho bạn biết những quyền mà nó đang thiếu
   server-personas:
-    short_doc: Enable or disable usage of personas
+    short_doc: Bật, tắt dùng danh tính ảo
     help: |
-      Allows users to post with arbitrary usernames and avatars
+      Cho phép người dùng gửi tin nhắn với bất kì tên và ảnh hồ sơ nào
   server-pings:
-    short_doc: Enable or disable pings in messages for this server
+    short_doc: Bật, tắt nhắc tên trong tin nhắn được thay thế cho server này
     help: |
-      Enable or disable pings in messages that NQN reposts on this server
+      Bật, tắt nhắc tên trong tin nhắn được thay thế cho server này
   server-phish_detection:
-    short_doc: Enable or disable phishing message detection for this server
+    short_doc: Bật, tắt nhận diện tin nhắn lừa đảo cho server này
   server-prefix:
-    short_doc: Make NQN listen to a different prefix.
+    short_doc: Thay đổi prefix của NQN.
     help: |
-      Make NQN listen to a different prefix.
+      Thay đổi prefix của NQN.
 
-      Example invocation:
+      Ví dụ:
       >>> %{prefix}server prefix <@%{bot_id}> ?
     signature: |
       @NQN#3454 [prefix=!]
   server-replies:
-    short_doc: Enable or disable message replies in this server
+    short_doc: Bật, tắt trả lời tin nhắn cho server này
   server-settings:
-    short_doc: View the settings for this server
+    short_doc: Xem cài đặt của bot cho server này
     help: |
-      View NQN's server settings, including features, configured channels and pack information.
+      Xem cài đặt của NQN, bao gồm tính năng, cài đặt kênh và thông tin gói biểu cảm.
   server-set_audit_channel:
-    short_doc: Post messages the bot reposts
+    short_doc: Lưu vết lại các tin nhắn được bot thay thế
   server-set_boost_channel:
-    short_doc: Post whenever someone votes with the server on top.gg
+    short_doc: Cập nhật những ai đã vote trong server trên top.gg
   server-set_boost_role:
-    short_doc: Give a user this role when they boost this server via NQN
+    short_doc: Cho người dùng vai trò này khi họ tăng cường máy chủ thông qua NQN
   server-set_nitro_role:
-    short_doc: Require users to have a role to use NQN
+    short_doc: Giới hạn người dùng có vai trò này để dùng NQN
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      Giới hạn người dùng có vai trò này mới có thể dùng tính năng nitro với NQN
   server-stickers:
-    short_doc: Enable or disable sticker usage in this guild
+    short_doc: Bật, tắt dùng nhãn dán trong server
   server-user_content:
-    short_doc: Enable or disable user aliases and packs for this server
+    short_doc: Bật, tắt dùng tên thay thế và gói biểu cảm ngoài cho server này
   server:
     short_doc: Modify the bots settings on this server
   sticker-create:
