@@ -252,46 +252,46 @@ command_docs:
   server-user_content:
     short_doc: Bật, tắt dùng tên thay thế và gói biểu cảm ngoài cho server này
   server:
-    short_doc: Modify the bots settings on this server
+    short_doc: Tùy chỉnh cài đặt của bot cho server này
   sticker-create:
-    short_doc: Create a sticker from a file
+    short_doc: Tạo một nhãn dán từ một tệp
     help: |
-      Create a sticker from a file
-      Upload an image and use this command to turn it into a sticker.
-      The sticker's name is determined by the filename, or what you type in. `sticker create BluePat.png` for example.
-      Sticker names are unique across NQN, once a name is taken, it's gone.
-      Stickers can be a maximum of 8MB large, and names can only be alphanumeric.
-      Stickers need a file extension, which is also alphanumeric.
+      Tạo một nhãn dán từ một tệp
+      Tải lên một hình ảnh và dùng lệnh này để biến nó thành một nhãn dán.
+      Tên của nhãn dán sẽ phụ thuộc vào tên của tệp, hoặc bất kì thứ gì bạn nhập vào. Ví dụ `sticker create NgauLam.png`.
+      Tên của nhãn dán không được trùng với nhãn dán khác có trong hệ thống của NQN.
+      Kích thước tối đa của nhãn dán là 8Mb, và tên chỉ nên chứa chữ và số.
+      Nhãn dán cần có định dạng tệp, và cũng chỉ nên chứa chữ và số.
   sticker-delete:
-    short_doc: Delete a sticker you own
+    short_doc: Xóa một nhãn dán của bạn
   sticker-import:
-    short_doc: Import stickers from emotes
+    short_doc: Tải lên nhãn dán từ biểu cảm
     help: |
-      Import stickers from emotes
-      Either from an emote directly, with an optional alias
+      Tải lên nhãn dán từ biểu cảm
+      Có thể là trực tiếp từ một biểu cảm, với một tên thay thế tùy ý
        - sticker import :blue_smirk: smirk.png
-      Or by searching through emotes NQN has.
+      Hoặc bằng cách tìm kiếm trong hệ thống của NQN.
        - sticker import blue pat
-      Note that the searching through emotes option does not support aliasing
+      Lưu ý rằng tìm kiếm trong hệ thống của NQN không hỗ trợ thêm tên thay thế
   sticker-mine:
-    short_doc: Find my stickers
+    short_doc: Tìm nhãn dán của tôi
   sticker-rename:
-    short_doc: Rename a sticker you own
+    short_doc: Đổi tên một nhãn dán mà bạn có
   sticker-search:
-    short_doc: Search through all the stickers NQN has, with an optional query
+    short_doc: Tìm trong các nhãn dán mà NQN có với một từ khóa tìm kiếm tùy ý
   sticker-telegram:
-    short_doc: Import stickers from telegram
+    short_doc: Tải lên nhãn dán từ Telegram
   sticker:
-    short_doc: Larger than emotes!
+    short_doc: Lớn hơn biểu cảm!
   support:
-    short_doc: Need some help with using me?
+    short_doc: Cần hỗ trợ để dùng tôi?
   tutorial:
-    short_doc: Learn how to use emotes with NQN
+    short_doc: Tìm hiểu cách dùng NQN cho biểu cảm
   upload_emote:
-    short_doc: Search for and upload emotes to this server.
+    short_doc: Tìm và tải lên biểu cảm cho server này.
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload that
+      Tìm tất cả các biểu cảm mà NQN đã từng thấy và tải chúng lên cho server này.
+      Lệnh này cho phép bạn tải lên biểu cảm.
+      Bạn cũng có thể đính kèm một tệp để tải lên
   whois:
-    short_doc: Find who posted a message
+    short_doc: Biết được ai đã gửi tin nhắn nào đó
