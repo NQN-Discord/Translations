@@ -138,15 +138,15 @@ command_docs:
   persona-avatar_url:
     short_doc: Đặt ảnh hồ sơ cho một danh tính ảo
   persona-delete:
-    short_doc: Delete one of your personas
+    short_doc: Xóa một danh tính ảo của bạn
   persona-display_name:
-    short_doc: Change the username of a persona
+    short_doc: Thay đổi tên của một danh tính ảo
   persona-dm:
-    short_doc: DMs you a full list of your personas
+    short_doc: Nhận một danh sách các danh tính ảo của bạn trong tin nhắn trực tiếp
   persona-export:
-    short_doc: Export your list of personas to a file
+    short_doc: Xuất danh sách danh tính ảo của bạn trong một tệp
     help: |
-      Export your list of personas to a file, which is compatible with other bots
+      Xuất danh sách danh tính ảo của bạn trong một tệp, hỗ trợ sử dụng với bot khác
   persona-import:
     short_doc: Import a previously exported list of personas
     help: |
