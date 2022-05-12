@@ -39,24 +39,24 @@ command_docs:
        - `page`: passa a una certa pagina
        - `order`: uno di 'usi', 'casuale'
   audit:
-    short_doc: Ottieni i registri di controllo per i messaggi duplicati per questo canale
+    short_doc: Ottieni i registri di controllo per i messaggi ripubblicati in questo canale
     help: |
-      Ottieni registri di controllo per i messaggi ripostati per questo canale
+      Ottieni registri di controllo per i messaggi ripubblicati in questo canale
       Facoltativo[Channel] -> Informazioni di filtro per questo canale
       Facoltativo[Member] -> Informazioni di filtro per questo membro
 
-      Se entrambi i canali e membri non devono essere filtrati, usa 'audit guild'
+      Se entrambi, canali e membri non devono essere filtrati, usa 'audit guild'
   delete:
     short_doc: Elimina uno dei tuoi messaggi inviati da NQN
     help: |
-      Elimina uno dei tuoi messaggi duplicati da NQN.
+      Elimina uno dei tuoi messaggi ripubblicati da NQN.
       Per impostazione predefinita, il tuo messaggio più recente in questo canale viene eliminato, ma puoi opzionalmente fornire un URL di
       un messaggio per eliminarlo.
       Puoi anche utilizzare la funzionalità di risposta ai messaggi di Discord per eliminare quel messaggio.
   edit:
     short_doc: Modifica un messaggio inviato da NQN
     help: |
-      Modifica il contenuto di uno dei tuoi messaggi duplicati da NQN.
+      Modifica il contenuto di uno dei tuoi messaggi ripubblicati da NQN.
       Per impostazione predefinita, il tuo messaggio più recente in questo canale è modificato, ma puoi opzionalmente fornire un URL di un messaggio per modificarlo
       Puoi anche utilizzare la funzionalità di risposta ai messaggi di Discord per modificare quel messaggio.
   export:
@@ -79,13 +79,13 @@ command_docs:
   jumbo:
     short_doc: Rende un'emoji più grande
   mod-audit:
-    short_doc: Ottieni i registri di controllo per i messaggi duplicate per questo canale
+    short_doc: Ottieni i registri di controllo per i messaggi ripubblicati in questo canale
     help: |
-      Ottieni registri di controllo per i messaggi inviati nuovamente per questo canale
+      Ottieni registri di controllo per i messaggi ripubblicati in questo canale
       Facoltativo[Channel] -> Informazioni di filtro per questo canale
       Facoltativo[Member] -> Informazioni di filtro per questo membro
 
-      Se entrambi i canali e i membri non sono filtrati, usa 'audit guild'
+      Se entrambi, canali e membri non devono essere filtrati, usa 'audit guild'
   mod-ban:
     short_doc: Bandisci l'utente che ha pubblicato un messaggio
   mod-edit_topic:
@@ -266,7 +266,7 @@ command_docs:
     short_doc: Elimina un adesivo
   sticker-import:
     short_doc: Importa adesivi da emotes
-    help: |2
+    help: |
       Importa adesivi da emotes
       O da un emote direttamente, con un alias opzionale
        - sticker import :blue_smirk: smirk.png
