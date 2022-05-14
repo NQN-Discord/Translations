@@ -317,10 +317,10 @@ discord_bot:
         it: 'Italiano:'
         it_people: |
           > 👤 RVG|𝓵𝓸𝓻𝔂
-        vi: 'Vietnamese:'
+        vi: 'Vietnamita:'
         vi_people: |
           > <:momiAwO:975011926604148756> Momiji
-        fa: 'Persian:'
+        fa: 'Persa:'
         fa_people: |
           > <:AliJoon:975010805328281630> AliJoon
         bot_stats: Estadísticas del Bot de discord
