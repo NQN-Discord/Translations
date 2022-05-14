@@ -69,7 +69,7 @@ discord_bot:
           Isso permite que qualquer pessoa defina um nome de usuário e avatar personalizáveis; tenha cuidado com imitações.
 
           A equipe do NQN recomenda definir um canal de auditoria ao usar este recurso; se ainda não fez isso, ele pode ser definido com
-          > ```!server set_audit_channel #canal``` #channel```
+          > ```!server set_audit_channel #canal``` #channel``` #channel```
         personas_off: Desabilitado o uso de personagens
         dashboard_posting_on: Foi habilitado o envio de mensagens pelo Dashboard
         dashboard_posting_off: Foi desativado o envio de mensagens pelo Dashboard
@@ -112,7 +112,7 @@ discord_bot:
       language:
         choose: 'Escolha meu novo idioma:'
         set: Idioma definido para Português neste servidor
-        this_locale_name: English
+        this_locale_name: Português
       config:
         enabled: Habilitado
         disabled: Desabilitado
