@@ -69,7 +69,7 @@ discord_bot:
           Questo permette a chiunque di impostare un nome utente e un avatar personalizzabili; ora puoi impersonare chi vuoi
 
           Lo staff NQN consiglia di impostare un canale di controllo quando si utilizza questa funzione; se non lo hai già fatto, può essere abilitato con
-          > ```! server set_audit_channel #channel``` #channel```
+          > ```! server set_audit_channel #channel``` #channel``` #channel```
         personas_off: Utilizzo delle persone disabilitato
         dashboard_posting_on: Pubblicazione dei messaggi attraverso la dashboard del bot abilitata
         dashboard_posting_off: Pubblicazione dei messaggi attraverso la dashboard del bot disabilitata
@@ -112,7 +112,7 @@ discord_bot:
       language:
         choose: 'Scegli la mia nuova lingua:'
         set: La mia lingua è stata impostata in italiano per questo server
-        this_locale_name: English
+        this_locale_name: Italiano
       config:
         enabled: Abilitato
         disabled: Disabilitato
