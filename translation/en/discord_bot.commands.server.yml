@@ -111,7 +111,6 @@ discord_bot:
       language:
         choose: 'Choose my new language:'
         set: Set my language to English for this server
-        this_locale_name: English
       config:
         enabled: Enabled
         disabled: Disabled
