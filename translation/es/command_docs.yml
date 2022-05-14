@@ -269,7 +269,7 @@ command_docs:
     short_doc: Borra un sticker
   sticker-import:
     short_doc: Importa stickers de un emoji
-    help: |2
+    help: |
       Importa stickers de un emoji
       O de un emoji directamente, con un alias opcional
        - sticker import :blue_smirk: smirk.png
