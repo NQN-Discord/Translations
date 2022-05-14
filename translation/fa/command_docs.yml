@@ -262,7 +262,7 @@ command_docs:
     short_doc: حذف یک استیکر
   sticker-import:
     short_doc: وارد کردن استیکر ها از شکلک ها
-    help: |2
+    help: |
       وارد کردن استیکر ها از شکلک ها
       یا با استفاده مستقیم از شکلک، یا با اختصار های اختیاری
        - sticker import :blue_smirk: smirk.png
