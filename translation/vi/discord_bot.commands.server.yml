@@ -69,7 +69,7 @@ discord_bot:
           This allows anyone to set a customisable username and avatar; be warey of impersonation.
 
           NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
-          > ```!server set_audit_channel #channel``` #channel```
+          > ```!server set_audit_channel #channel``` #channel``` #channel```
         personas_off: Đã vô hiệu dùng danh tính ảo
         dashboard_posting_on: Đã kích hoạt gửi tin nhắn qua bot trên bảng điều khiển
         dashboard_posting_off: Đã vô hiệu gửi tin nhắn qua bot trên bảng điều khiển
@@ -112,7 +112,7 @@ discord_bot:
       language:
         choose: 'Chọn ngôn ngữ mới cho tôi:'
         set: Đã đặt ngôn ngữ của tôi thành tiêng Việt cho server này
-        this_locale_name: English
+        this_locale_name: tiếng Việt
       config:
         enabled: Đã kích hoạt
         disabled: Đã vô hiệu
