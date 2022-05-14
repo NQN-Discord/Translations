@@ -112,6 +112,7 @@ discord_bot:
       language:
         choose: 'زبان موردنظر را انتخاب کنید:'
         set: زبان من برای این سرور روی فارسی تنظیم شد
+        this_locale_name: English
       config:
         enabled: فعال
         disabled: غیرفعال
