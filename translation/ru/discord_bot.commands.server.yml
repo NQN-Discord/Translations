@@ -113,6 +113,7 @@ discord_bot:
       language:
         choose: 'Выберите мой новый язык:'
         set: Русский язык был установлен для этого сервера!
+        this_locale_name: English
       config:
         enabled: Включено
         disabled: Выключено
