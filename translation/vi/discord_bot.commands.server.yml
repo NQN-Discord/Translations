@@ -112,6 +112,7 @@ discord_bot:
       language:
         choose: 'Chọn ngôn ngữ mới cho tôi:'
         set: Đã đặt ngôn ngữ của tôi thành tiêng Việt cho server này
+        this_locale_name: English
       config:
         enabled: Đã kích hoạt
         disabled: Đã vô hiệu
