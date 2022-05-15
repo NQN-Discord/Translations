@@ -266,7 +266,7 @@ command_docs:
     short_doc: Supprime un autocollant
   sticker-import:
     short_doc: Importe des autocollants depuis des emojis
-    help: |2
+    help: |
       Importe des autocollants depuis des emojis
       Soit directement depuis un emojis, soit avec un alias optionnel
        - sticker import :blue_smirk: smirk.png

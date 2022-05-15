@@ -69,7 +69,7 @@ discord_bot:
           Dies erlaubt jedem die Einrichtung eines anpassbaren Nutzernamens und Avatars, sei auf der Hut vor Imitation und Betrug.
 
           NQN- Mitarbeitende empfehlen die Nutzung eines Audit-Kanals, wenn dieses Feature genutzt wird; falls du das noch nicht tust, kannst du es aktivieren mit
-          > ```!server set_audit_channel #channel``` #channel```
+          > ```!server set_audit_channel #channel``` #channel``` #channel```
         personas_off: Deaktivierte Nutzung von Identitäten
         dashboard_posting_on: Aktiviertes posten von Nachrichten von dem Bot-Dashboard
         dashboard_posting_off: Deaktiviertes Posten von Nachrichten von dem Bot-Dashboard
@@ -112,6 +112,7 @@ discord_bot:
       language:
         choose: 'Wähle meine neue Sprache:'
         set: Setze meine Sprache für diesen Server auf Deutsch
+        this_locale_name: English
       config:
         enabled: Aktiviert
         disabled: Deaktiviert

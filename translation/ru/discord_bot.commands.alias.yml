@@ -8,23 +8,23 @@ discord_bot:
       max_length: Название эмодзи должно быть не больше 32 символов в длину
       user_zero: У вас нет каких-либо эмодзи
       from_message:
-        no_emotes: This message doesn't have any custom emojis in it!
+        no_emotes: Сообщение не имеет пользовательских эмодзи!
       delete:
         deleted: 'Вы удалили \:%{name}:'
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your aliases.
-          Are you sure you wish to continue?
+          Это удалит все **%{count}** псевдонимов.
+          Вы действительно хотите продолжить?
         deleted:
-          one: Deleted 1 alias
-          many: Deleted %{count} aliases
+          one: Удалён 1 псевдоним
+          many: Удалены %{count} псевдонимов
       created:
-        one: 'You created an alias and can use it by typing:'
-        many: 'You created %{count} aliases and can use them by typing:'
+        one: 'Вы создали псевдоним и можете использовать его, написав:'
+        many: 'Вы создали %{count} псевдонимов и можете использовать их, написав:'
       rename:
-        rename: Rename Alias
-        alias_name: 'Alias Name:'
-        renamed: 'Renamed \:%{old}: to :%{new}:'
+        rename: Изменить псевдоним
+        alias_name: 'Псевдоним:'
+        renamed: 'Переименовано с \:%{old}: на :%{new}:'
       export:
         exported_short: "Here's your exported aliases:"
         exported_long: |

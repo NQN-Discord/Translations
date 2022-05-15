@@ -312,6 +312,12 @@ discord_bot:
         it: 'Tiếng Ý:'
         it_people: |
           > 👤 RVG|𝓵𝓸𝓻𝔂
+        vi: 'Tiếng Việt:'
+        vi_people: |
+          > <:momiAwO:975011926604148756> Momiji
+        fa: 'Tiếng Ba Tư:'
+        fa_people: |
+          > <:AliJoon:975010805328281630> AliJoon
         bot_stats: Thông tin số liệu của bot
         shard_info_name: Thông tin shard
         process_data_name: Dữ liệu xử lý của bot

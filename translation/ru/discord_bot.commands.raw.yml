@@ -292,6 +292,12 @@ discord_bot:
         it: 'Italian:'
         it_people: |
           > 👤 RVG|𝓵𝓸𝓻𝔂
+        vi: 'Vietnamese:'
+        vi_people: |
+          > <:momiAwO:975011926604148756> Momiji
+        fa: 'Persian:'
+        fa_people: |
+          > <:AliJoon:975010805328281630> AliJoon
         bot_stats: Статистика Discord бота
         shard_info_name: Информация о шардах
         process_data_name: Данные процесса бота

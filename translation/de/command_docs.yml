@@ -267,7 +267,7 @@ command_docs:
     short_doc: Lösche einen Sticker
   sticker-import:
     short_doc: Importiere Sticker aus Emotes
-    help: |2
+    help: |
       Importiere Sticker aus Emotes
       Entweder direkt aus einem Emote, mit einem optionalen Alias
        - sticker import :blue_smirk: smirk.png

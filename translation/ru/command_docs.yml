@@ -260,7 +260,7 @@ command_docs:
     short_doc: Удаляет стикер
   sticker-import:
     short_doc: Импортирует стикеры из эмодзи
-    help: |2
+    help: |
       Импортирует стикеры из эмодзи
       Либо напрямую из эмодзи, с необязательным alias'ом
        - %{prefix}sticker import :blue_smirk: smirk.png

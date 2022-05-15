@@ -66,7 +66,7 @@ discord_bot:
         invalid_page: Ci sono solo %{count} pagine nel tutorial!
         permissions_missing: Devo essere in grado di scrivere embeds e aggiungere reazioni per mostrare il mio tutorial. Può essere ri-eseguito con `%{prefix}tutorial`.
         wrong_place: Se ho scelto il posto sbagliato per mostrare questo messaggio, puoi usare %{prefix}tutorial in un canale più conveniente per eseguire questo tutorial lì. Ci sono più pagine di questo tutorial; esegui %{prefix}tutorial per mostrarli dopo che sono scomparsi.
-        default_emojis: Default Emoji
+        default_emojis: Emoji Predefinite
         default_emoji_list: "Ecco un elenco di tutte le emote animate che chiunque su questo server può usare per impostazione predefinita - basta digitarle manualmente, assicurati di includere :due punti: intorno al nome dell'emote!"
         page_0_title: Tutorial per Not Quite Nitro, TLDR
         page_0_desc: |
@@ -314,6 +314,12 @@ discord_bot:
         it: 'Italiano:'
         it_people: |
           > 👤 RVG|𝓵𝓸𝓻𝔂
+        vi: 'Vietnamese:'
+        vi_people: |
+          > <:momiAwO:975011926604148756> Momiji
+        fa: 'Persian:'
+        fa_people: |
+          > <:AliJoon:975010805328281630> AliJoon
         bot_stats: Statistiche Del Bot Discord
         shard_info_name: Info Frammento
         process_data_name: Dati Processo Bot

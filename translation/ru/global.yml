@@ -4,7 +4,7 @@ global:
   author: Автор
   jump_to_message: Перейти
   go_to_message: Перейти на сообщение!
-  reply_to: 'Ответить на:'
+  reply_to: 'Отвечает на:'
   cancelled: Отменено
   website: Сайт
   details: Подробности

@@ -43,16 +43,18 @@ class Translator:
         "fa": "fa"
     }
 
-    flags = {
-        "gb": "English",
-        "es": "Español",
-        "ru": "Русский",
-        "br": "Português",
-        "it": "Italiano"
+    locale_flags = {
+        "en": "gb",
+        "es": "es",
+        "ru": "ru",
+        "pt": "br",
+        "it": "it",
+        "vi": "vn",
+        "fa": "ir"
     }
 
-    flag_emojis = {flag: "".join(chr(0x1f185+ord(c)) for c in flag) for flag in flags}
-    hidden_locales = ["owo", "hi", "fr", "ms", "vi", "fa"]
+    flag_emojis = {locale: "".join(chr(0x1f185+ord(c)) for c in flag_name) for locale, flag_name in locale_flags.items()}
+    hidden_locales = ["owo", "hi", "fr", "ms"]
     supported_locales = {*locales.values(), *hidden_locales}
 
     def __init__(self, get_locale: Optional[Callable[[Guild], Awaitable[str]]]):
