@@ -5,7 +5,7 @@ exceptions:
     dùng `%{prefix}help` để xem danh sách lệnh
   missing_required_argument:
     one: |-
-      Cần có "%{param}" đang thiếu.
+      Đang thiếu phần quan trọng là "%{param}".
       Nó nên là: %{should_be}
     many: |
       Cần có "%{param}" đang thiếu.
