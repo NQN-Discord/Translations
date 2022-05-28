@@ -56,11 +56,30 @@ discord_bot:
           %{user_ranking}
 
           %{extra_message}"
-      search_all:
-        disclaimer: |
-          ¡Este comando no te permite el uso de estos emojis!
-          Es otorgado para facilitar la búsqueda de emojis disponibles a través de
-          > `%{prefix}alias search %{terms} page: %{page_no}`"
+      emote_stats:
+        top_emotes: "Top used emojis in this server"
+        choose_page: "Choose a page"
+        never: "Never used"
+        once: "Used once"
+        infrequent: "Infrequent use"
+        often: "Used often"
+        frequent: "Frequent use"
+        extreme: "Extremely frequent use"
+        extraordinary: "Extraordinarily frequently used"
+        off_chart: "Off the chart"
+        times_used:
+          zero: "Never used"
+          one: "Used once"
+          many: "~%{count} times used"
+        times_used_per_day:
+          zero: "Less than once per day"
+          one: "About once per day"
+          many: "~%{count} times per day"
+        emote_count:
+          zero: "No emotes"
+          one: "1 emote"
+          many: "%{count} emotes"
+        boundary: "~%{min} - %{max} times used"
       tutorial:
         choose_page: Navegar Tutorial
         invalid_page: '¡Solo hay %{count} páginas en el tutorial!'
