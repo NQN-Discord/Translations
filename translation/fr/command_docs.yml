@@ -57,6 +57,8 @@ command_docs:
       Modifie le contenu de l'un de vos messages reposté par NQN.
       Par défaut, votre message le plus récent dans ce canal est modifié, mais vous pouvez fournir l'URL d'un message pour le modifier.
       Vous pouvez également utiliser la fonctionnalité 'répondre' de Discord pour modifier un message en particulier.
+  emote_stats:
+    short_doc: See how often your server's emotes are used
   export:
     short_doc: Exportez votre liste d'emojis
   help:
