@@ -58,6 +58,8 @@ command_docs:
       Chỉnh sửa nội dung của tin nhắn mà bạn gửi thông qua NQN.
       Theo mặc định, tin nhắn gần đây nhất trong kênh này của bạn sẽ được chỉnh sửa, nhưng bạn vẫn có thể tùy ý thêm URL của tin nhắn bạn muốn chỉnh sửa
       Bạn cũng có thể trả lời tin nhắn đó khi dùng lệnh để chỉnh sửa tin nhắn đó.
+  emote_stats:
+    short_doc: See how often your server's emotes are used
   export:
     short_doc: Xuất danh sách biểu cảm của bạn
   help:
