@@ -57,29 +57,29 @@ discord_bot:
 
           %{extra_message}
       emote_stats:
-        top_emotes: "Top used emojis in this server"
-        choose_page: "Choose a page"
-        never: "Never used"
-        once: "Used once"
-        infrequent: "Infrequent use"
-        often: "Used often"
-        frequent: "Frequent use"
-        extreme: "Extremely frequent use"
-        extraordinary: "Extraordinarily frequently used"
-        off_chart: "Off the chart"
+        top_emotes: "Emoji più usate in questo server"
+        choose_page: "Scegli una pagina"
+        never: "Mai usate"
+        once: "Usate una sola volta"
+        infrequent: "Non usate frequentemente"
+        often: "Usate spesso"
+        frequent: "Usate frequentemente"
+        extreme: "Usate molto frequentemente"
+        extraordinary: "Usate moltissimo"
+        off_chart: "Fuori dagli schemi"
         times_used:
-          zero: "Never used"
-          one: "Used once"
-          many: "~%{count} times used"
+          zero: "Mai usate"
+          one: "Usate una sola volta"
+          many: "~%{count} volte usate"
         times_used_per_day:
-          zero: "Less than once per day"
-          one: "About once per day"
-          many: "~%{count} times per day"
+          zero: "Meno di una volta al giorno"
+          one: "Circa una volta al giorno"
+          many: "~%{count} volte per giorno"
         emote_count:
-          zero: "No emotes"
+          zero: "Nessuna emote"
           one: "1 emote"
-          many: "%{count} emotes"
-        boundary: "~%{min} - %{max} times used"
+          many: "%{count} emote"
+        boundary: "~%{min} - %{max} volte usate"
       tutorial:
         choose_page: Sfoglia Tutorial
         invalid_page: Ci sono solo %{count} pagine nel tutorial!
