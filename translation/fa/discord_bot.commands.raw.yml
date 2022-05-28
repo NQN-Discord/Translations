@@ -56,11 +56,30 @@ discord_bot:
           %{user_ranking}
 
           %{extra_message}
-      search_all:
-        disclaimer: |
-          این دستور به شما اجازه نمی‌دهند که از این شکلک ها استفاده کنید!
-          این برای یک جستجوی سریع تر بین آنهایی که آماده اضافه شدن هستند، تعبیه شده که با دستور زیر انجام می شود
-          > `%{prefix}alias search %{terms} page: %{page_no}`
+      emote_stats:
+        top_emotes: "Top used emojis in this server"
+        choose_page: "Choose a page"
+        never: "Never used"
+        once: "Used once"
+        infrequent: "Infrequent use"
+        often: "Used often"
+        frequent: "Frequent use"
+        extreme: "Extremely frequent use"
+        extraordinary: "Extraordinarily frequently used"
+        off_chart: "Off the chart"
+        times_used:
+          zero: "Never used"
+          one: "Used once"
+          many: "~%{count} times used"
+        times_used_per_day:
+          zero: "Less than once per day"
+          one: "About once per day"
+          many: "~%{count} times per day"
+        emote_count:
+          zero: "No emotes"
+          one: "1 emote"
+          many: "%{count} emotes"
+        boundary: "~%{min} - %{max} times used"
       tutorial:
         choose_page: گشتن در آموزش
         invalid_page: فقط %{count} صفحه آموزش وجود دارد!
