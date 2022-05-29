@@ -57,10 +57,10 @@ discord_bot:
 
           %{extra_message}
       emote_stats:
-        top_emotes: "Top used emojis in this server"
-        choose_page: "Choose a page"
-        never: "Never used"
-        once: "Used once"
+        top_emotes: "شکلک های برتر این سرور"
+        choose_page: "یک صفحه انتخاب کنید"
+        never: "تاحالا استفاده نشده"
+        once: "فقط یک بار استفاده شده"
         infrequent: "Infrequent use"
         often: "Used often"
         frequent: "Frequent use"
@@ -324,7 +324,6 @@ discord_bot:
         es_people: |
           > <:OriLove:726475603879919616> OrionVi
           > <:AetherSmile:726474477956759553> Aether Wake
-        ru: 'روسی:'
         ru_people: |
           > <:drink:741041666705588255> Трокс
           > <:DorZ23:864861706169483329> DorZ23
