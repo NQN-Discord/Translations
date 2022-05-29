@@ -57,29 +57,29 @@ discord_bot:
 
           %{extra_message}
       emote_stats:
-        top_emotes: "Top used emojis in this server"
-        choose_page: "Choose a page"
-        never: "Never used"
-        once: "Used once"
-        infrequent: "Infrequent use"
-        often: "Used often"
-        frequent: "Frequent use"
-        extreme: "Extremely frequent use"
-        extraordinary: "Extraordinarily frequently used"
-        off_chart: "Off the chart"
+        top_emotes: "Biểu cảm được dùng nhiều nhất trong server này"
+        choose_page: "Chọn một trang"
+        never: "Chưa từng được dùng"
+        once: "Được dùng một lần"
+        infrequent: "Ít được dùng"
+        often: "Đôi khi dùng"
+        frequent: "Thường được dùng"
+        extreme: "Dùng rất nhiều"
+        extraordinary: "Dùng cực nhiều"
+        off_chart: "Như kiểu lúc nào cũng dùng"
         times_used:
-          zero: "Never used"
-          one: "Used once"
-          many: "~%{count} times used"
+          zero: "Chưa từng được dùng"
+          one: "Được dùng một lần"
+          many: "Đã dùng khoảng %{count} lần"
         times_used_per_day:
-          zero: "Less than once per day"
-          one: "About once per day"
-          many: "~%{count} times per day"
+          zero: "Ít hơn một lần mỗi ngày"
+          one: "Khoảng 1 lần mỗi ngày"
+          many: "Khoảng %{count} lần mỗi ngày"
         emote_count:
-          zero: "No emotes"
-          one: "1 emote"
-          many: "%{count} emotes"
-        boundary: "~%{min} - %{max} times used"
+          zero: "Không có biểu cảm"
+          one: "1 biểu cảm"
+          many: "%{count} biểu cảm"
+        boundary: "Được dùng tầm %{min} - %{max} lần"
       tutorial:
         choose_page: Hướng dẫn tìm kiếm
         invalid_page: Chỉ có %{count} trang trong hướng dẫn!
