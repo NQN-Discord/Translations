@@ -52,10 +52,30 @@ discord_bot:
           Вы проголосовали %{total_votes} раз за NQN. %{thanks}
           %{user_ranking}
           %{extra_message}
-      search_all:
-        disclaimer: |
-          Эта команда не позволяет использовать эти эмодзи!
-          Это позволяет легко найти те, которые можно добавить с помощью\n> `%{prefix}alias search %{terms} страница: %{page_no}`
+      emote_stats:
+        top_emotes: "Top used emojis in this server"
+        choose_page: "Choose a page"
+        never: "Never used"
+        once: "Used once"
+        infrequent: "Infrequent use"
+        often: "Used often"
+        frequent: "Frequent use"
+        extreme: "Extremely frequent use"
+        extraordinary: "Extraordinarily frequently used"
+        off_chart: "Off the chart"
+        times_used:
+          zero: "Never used"
+          one: "Used once"
+          many: "~%{count} times used"
+        times_used_per_day:
+          zero: "Less than once per day"
+          one: "About once per day"
+          many: "~%{count} times per day"
+        emote_count:
+          zero: "No emotes"
+          one: "1 emote"
+          many: "%{count} emotes"
+        boundary: "~%{min} - %{max} times used"
       tutorial:
         choose_page: Обзор туториала
         invalid_page: Туториал имеет всего %{count} страниц!

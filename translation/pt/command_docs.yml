@@ -55,6 +55,8 @@ command_docs:
       Edita o conteúdo de uma de suas mensagens republicadas por NQN.
       Por padrão, sua mensagem mais recente neste canal é editada, mas você pode opcionalmente fornecer um URL de mensagem para editá-la 6
       Você também pode usar a funcionalidade de resposta de mensagem do Discord para editar essa mensagem.
+  emote_stats:
+    short_doc: See how often your server's emotes are used
   export:
     short_doc: Exporte sua lista de emoticons
   help:

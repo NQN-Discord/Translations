@@ -58,6 +58,8 @@ command_docs:
       Bearbeite den Inhalt einer deiner von NQN reposteten Nachrichten.
       Standardmäßig wird deine zuletzt gesendete Nachricht bearbeitet, du kannst aber optional eine URL zu der Nachricht angeben, die stattdessen berbeitet werden soll.
       Du kannst auch Discords auf die Nachricht antworten-Funktion nutzen, um eine bestimmte Nachricht zu bearbeiten.
+  emote_stats:
+    short_doc: See how often your server's emotes are used
   export:
     short_doc: Exportiere eine Liste deiner Emotes
   help:

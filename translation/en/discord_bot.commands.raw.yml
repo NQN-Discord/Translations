@@ -1,3 +1,4 @@
+---
 discord_bot:
   commands:
     raw:
@@ -55,11 +56,35 @@ discord_bot:
           %{user_ranking}
 
           %{extra_message}
-      search_all:
-        disclaimer: |
-          This command does not allow you to use these emotes!
-          It's provided to allow an easy search through the ones available to be added with
-          > `%{prefix}alias search %{terms} page: %{page_no}`
+      emote_stats:
+        top_emotes: "Top used emojis in this server"
+        choose_page: "Choose a page"
+
+        never: "Never used"
+        once: "Used once"
+        infrequent: "Infrequent use"
+        often: "Used often"
+        frequent: "Frequent use"
+        extreme: "Extremely frequent use"
+        extraordinary: "Extraordinarily frequently used"
+        off_chart: "Off the chart"
+
+        times_used:
+          zero: "Never used"
+          one: "Used once"
+          many: "~%{count} times used"
+
+        times_used_per_day:
+          zero: "Less than once per day"
+          one: "About once per day"
+          many: "~%{count} times per day"
+
+        emote_count:
+          zero: "No emotes"
+          one: "1 emote"
+          many: "%{count} emotes"
+        boundary: "~%{min} - %{max} times used"
+
       tutorial:
         choose_page: Browse Tutorial
         invalid_page: There are only %{count} pages in the tutorial!
@@ -302,7 +327,6 @@ discord_bot:
         es_people: |
           > <:OriLove:726475603879919616> OrionVi
           > <:AetherSmile:726474477956759553> Aether Wake
-        ru: 'Russian:'
         ru_people: |
           > <:drink:741041666705588255> Трокс
           > <:DorZ23:864861706169483329> DorZ23
