@@ -243,9 +243,9 @@ discord_bot:
           Si te encuentras con conflictos entre los nombres de emojis, crea el que quieras usar como alias, y esto lo va sobrescribir.
       react:
         user_needs_to_react: |
-          Hey %{user_ping}!
-          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
-          *NQN will remove its reactions after %{time} seconds.*
+          ¡Hola %{user_ping}!
+          El comando`%{prefix}react` reacciona al mensaje para que puedas agregar la tuya, incluso sin nitro. ¡Solo hace clic en las reacciones!
+          *NQN va a remover su propia reacción en %{time} segundos.*
         channel_empty: Este canal esta vacío
         invalid_react:
           one: |
