@@ -241,9 +241,10 @@ discord_bot:
 
           Nếu bạn thường xuyên bị xung đột biểu cảm, hãy đặt tên thay thế cho cái mà bạn muốn dùng và nó sẽ được ưu tiên.
       react:
-        id_large: ID tin nhắn quá lớn
-        not_found: Tin nhắn với id đó trong kênh này không tồn tại
-        nth_id: Tin nhắn phải là một ID hoặc tin nhắn thứ `n` tính từ tin nhắn này về trước (tối đa 50)
+        user_needs_to_react: |
+          Hey %{user_ping}!
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions after %{time} seconds.*
         channel_empty: Kênh này đang trống
         invalid_react:
           one: |
