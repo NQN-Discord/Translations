@@ -243,9 +243,10 @@ discord_bot:
 
           اگر بر سر استفاده از شکلک ها خیلی مکافات و مداخله دارید، می توانید بجایش خودتان اختصارش را بسازید و بعد با استفاده از آن اختصار، راحت از آن شکلک استفاده کنید.
       react:
-        id_large: این ID پیام خیلی بزرگ است
-        not_found: پیامی با این ID در این کانال وجود ندارد
-        nth_id: این پیام باید یا یک ID و یا `n` عدد از آخرین پیام ارسال شده باشد (تا پنجاهمین پیام)
+        user_needs_to_react: |
+          Hey %{user_ping}!
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions after %{time} seconds.*
         channel_empty: این کانال خالی است
         invalid_react:
           one: |
