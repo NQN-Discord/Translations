@@ -300,7 +300,7 @@ discord_bot:
           Nome dell'applicazione: %{app_name}
           Comando di aiuto: `%{prefix}help`
         bot_metadata: |
-          > Uptime: %{uptime}
+          > Tempo di Attività: %{uptime}
           > Server Emote: %{alias_servers_available} / %{alias_servers_total}
           > Server caricati: %{guilds_loaded} / %{guilds}
         guild_features:
@@ -336,7 +336,7 @@ discord_bot:
         vi: 'Vietnamese:'
         vi_people: |
           > <:momiAwO:975011926604148756> Momiji
-        fa: 'Persian:'
+        fa: 'Persiano:'
         fa_people: |
           > <:AliJoon:975010805328281630> AliJoon
         bot_stats: Statistiche Del Bot Discord
