@@ -242,9 +242,10 @@ discord_bot:
 
           Si vous vous retrouvez dans une situation avec des conflit d'emojis, créez un alias avec l'emoji que vous voulez utiliser, et cela le remplacera.
       react:
-        id_large: L'ID du message est trop grand
-        not_found: Aucun message n'existe avec cet ID dans ce canal
-        nth_id: Le message doit être soit un ID, soit le `n`ème message le plus récent (jusqu'au 50ème).
+        user_needs_to_react: |
+          Hey %{user_ping}!
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions after %{time} seconds.*
         channel_empty: Ce canal est vide
         invalid_react:
           one: |
