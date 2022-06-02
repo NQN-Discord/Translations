@@ -287,14 +287,14 @@ discord_bot:
           > Frammento attuale: %{current_shard}
           > Latenza frammento attuale: %{current_latency}ms
         process_data: |
-          > Utilizzo della RAM: %{ram_usage}
-          > Utilizzo della CPU: %{cpu_usage}%
+          > Uso RAM: %{ram_usage}
+          > Uso CPU: %{cpu_usage}%
           > Rete:
           > - Inviato: %{network_send}
           > - Ricevuto: %{network_recv}
         elasticsearch_metadata: |
-          > Utilizzo RAM: %{ram_usage}
-          > Spazio su disco: %{disk_use}
+          > Uso RAM: %{ram_usage}
+          > Spazio sul disco: %{disk_use}
           > Totale rete: %{bytes_sent}
         description: |
           Autore: %{owner}
