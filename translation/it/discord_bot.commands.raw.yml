@@ -241,9 +241,10 @@ discord_bot:
 
           Se ti trovi con emote contrastanti, creare quello che si desidera utilizzare come alias, e che lo sovrascriverà.
       react:
-        id_large: ID messaggio troppo grande
-        not_found: Il messaggio in questo canale con questo ID non esiste
-        nth_id: Il messaggio deve essere un ID o il messaggio `n`th più recente (fino a 50th)
+        user_needs_to_react: |
+          Hey %{user_ping}!
+          Il comando `%{prefix}react` aggiunge le reazioni al messaggio, permettendoti di aggiungerle anche tu, anche senza Nitro. Basta cliccare su ogni reazione!
+          *NQN rimuoverà le sue reazioni dopo %{time} secondi.*
         channel_empty: Questo canale è vuoto
         invalid_react:
           one: |
@@ -300,7 +301,7 @@ discord_bot:
           Nome dell'applicazione: %{app_name}
           Comando di aiuto: `%{prefix}help`
         bot_metadata: |
-          > Uptime: %{uptime}
+          > Tempo di Attività: %{uptime}
           > Server Emote: %{alias_servers_available} / %{alias_servers_total}
           > Server caricati: %{guilds_loaded} / %{guilds}
         guild_features:
@@ -336,7 +337,7 @@ discord_bot:
         vi: 'Vietnamese:'
         vi_people: |
           > <:momiAwO:975011926604148756> Momiji
-        fa: 'Persian:'
+        fa: 'Persiano:'
         fa_people: |
           > <:AliJoon:975010805328281630> AliJoon
         bot_stats: Statistiche Del Bot Discord

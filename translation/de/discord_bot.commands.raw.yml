@@ -241,9 +241,10 @@ discord_bot:
 
           Falls du unpassende Emotes hast, erstelle das, welches du nutzen willst, als ein Alias, und das wird übergeordnet gelten.
       react:
-        id_large: Nachrichten-ID ist zu lang
-        not_found: Nachricht existieert nicht in diesem Kanal mit dieser ID
-        nth_id: Nachrichten müssen entweder an die ID geknüpft sein oder die `n`tletzte Nachricht sein (bis zu 50ste)
+        user_needs_to_react: |
+          Hey %{user_ping}!
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions after %{time} seconds.*
         channel_empty: Dieser Kanal ist leer
         invalid_react:
           one: |

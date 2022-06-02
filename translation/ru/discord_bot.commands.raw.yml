@@ -223,9 +223,10 @@ discord_bot:
 
           Если вы обнаружите, что у вас есть конфликтующие эмодзи, создайте тот, который вы хотите использовать в качестве alias'а, и бот переопределит его.
       react:
-        id_large: Айди сообщения слишком большой
-        not_found: Сообщение в этом канале с таким айди не существует
-        nth_id: Укажите сообщение в виде айди, либо `n`-м, самым последним сообщением (до 20-го).
+        user_needs_to_react: |
+          Hey %{user_ping}!
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions after %{time} seconds.*
         channel_empty: Этот канал пуст
         invalid_react:
           one: |
