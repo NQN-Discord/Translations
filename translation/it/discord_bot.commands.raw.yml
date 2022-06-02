@@ -42,7 +42,7 @@ discord_bot:
           NQN consente di utilizzare qualsiasi emoji dagli altri server in comune con te in questo server.
           Attualmente, non hai alcun server in comune con NQN, a parte questo.
 
-          Se vuoi, puoi [invitare NQN in un altro server](%{bot_invite}) per accedere alle sue emoji.
+          Se vuoi, puoi [invitare NQN in un altro server](%{bot_invite}) per accedere alle sue emoji qui.
       ranking:
         vote_link: Puoi votare per il bot su %{url} per aggiungere più emote a livello di server e per aumentare la posizione del server.
         top_server: Complimenti per essere il server più supportato <a:BluePat:679807864327766048>
@@ -285,7 +285,7 @@ discord_bot:
           > No. frammenti: %{shard_count} (%{shards_down} offline)
           > Latenza media: %{average_latency}ms
           > Frammento attuale: %{current_shard}
-          > Latenza frammento corrente: %{current_latency}ms
+          > Latenza frammento attuale: %{current_latency}ms
         process_data: |
           > Utilizzo della RAM: %{ram_usage}
           > Utilizzo della CPU: %{cpu_usage}%
