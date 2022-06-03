@@ -311,7 +311,7 @@ discord_bot:
           many: |
             > Funzionalità Server: %{guild_features}
         bot_credits: |
-          [Bot avatar and Wumpus art by Dooley](<https://www.dooleytm.com>) da [Wump Motes](https://discord.gg/pEjCBNF)
+          [Avatar bot e arte Wumpus da Dooley](<https://www.dooleytm.com>) da [Wump Motes](https://discord.gg/pEjCBNF)
 
           __Un ringraziamento speciale alle seguenti persone:__
           > <:OriLove:726475603879919616> OrionVi
