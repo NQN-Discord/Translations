@@ -55,8 +55,8 @@ discord_bot:
         replies_off: Risposte ai messaggi disabilitate
         masked_links_on: Utilizzo URL mascherati abilitato
         masked_links_off: Utilizzo URL mascherati disabilitato
-        pings_on: Ping abilitati nei messaggi repostati
-        pings_off: Ping disabilitati nei messaggi repostati
+        pings_on: Ping abilitati nei messaggi ripubblicati
+        pings_off: Ping disabilitati nei messaggi ripubblicati
         user_content_on: |
           Uso abilitato degli alias e dei pacchetti dei singoli utenti
           Le impostazioni degli adesivi non sono state modificate.
