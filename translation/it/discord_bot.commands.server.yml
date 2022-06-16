@@ -70,7 +70,7 @@ discord_bot:
 
           Lo staff NQN consiglia di impostare un canale di controllo quando si utilizza questa funzione; se non lo hai già fatto, può essere abilitato con
           > ```! server set_audit_channel #channel``` #channel``` #channel```
-        personas_off: Utilizzo delle persone disabilitato
+        personas_off: Utilizzo dei personaggi disabilitato
         dashboard_posting_on: Pubblicazione dei messaggi attraverso la dashboard del bot abilitata
         dashboard_posting_off: Pubblicazione dei messaggi attraverso la dashboard del bot disabilitata
         phish_detection_on: Rilevamento messaggio phishing abilitato in questo server
@@ -128,7 +128,7 @@ discord_bot:
         masked_links: URL Mascherati
         pings: Ping
         user_content: Contenuto Utente
-        personas: Persone
+        personas: Personaggi
         dashboard_posting: Pubblicazione dalla Dashboard
         phish_detection: Rilevamento Phishing
         invite: Link di Invito
