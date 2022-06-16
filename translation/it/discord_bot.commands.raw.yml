@@ -29,7 +29,7 @@ discord_bot:
           Per condividerle con altre persone, devono eseguire:
           > `%{prefix}alias import %{url}`
       ignore_me:
-        user_ignored: NQN non pubblicherà più i tuoi messaggi. Eseguire nuovamente questo comando per riabilitare
+        user_ignored: NQN non ripubblicherà più i tuoi messaggi. Eseguire nuovamente questo comando per riabilitare questa funzione
         user_unignored: NQN ripubblicherà i tuoi messaggi normalmente
       invite:
         add_nqn: Aggiungi NQN al tuo server!
@@ -141,7 +141,7 @@ discord_bot:
 
           Basta copiare il link del messaggio tramite Discord (il pulsante Condividi sul cellulare e poi negli appunti) e incollarlo nel messaggio, e pubblicherà anche il messaggio a cui stai rispondendo.
 
-          Se non vuoi che il bot pubblichi nuovamente un link di messaggio, puoi circondarlo in \<\>, e il bot non ripubblicherà.
+          Se non vuoi che il bot ripubblichi un link di messaggio, puoi circondarlo in \<\>, e il bot non ripubblicherà.
 
           Se un amministratore del server vuole disabilitare questa funzionalità in tutto il server, può usare `%{prefix}server replies off`.
         page_5_title: URL Mascherati
@@ -201,7 +201,7 @@ discord_bot:
           NQN risponderà *sempre* al ping indipendentemente dalle altre impostazioni.
         page_8_2_name: Messaggi di Controllo
         page_8_2_desc: |
-          NQN mantiene un registro dei messaggi che reposta, anche se il messaggio originale viene rimosso.
+          NQN mantiene un registro dei messaggi che ripubblica, anche se il messaggio originale viene rimosso.
           Questo è in caso qualcuno modifichi il proprio nome e avatar prima di pubblicare un messaggio offensivo, oppure si comporta male usando il bot.
 
           Per ottenere i messaggi controllati per il server, usa `%{prefix}audit guild` o [visita il nostro sito web](%{url}), selezionare il server e quindi fare clic sul cog in alto.
@@ -209,17 +209,17 @@ discord_bot:
           Solo gli utenti con **Gestisci Server** e **Visualizza Registro di Controllo ** possono visualizzare i messaggi registrati.
 
           Un approccio alternativo che rimane all'interno di Discord è il canale di controllo, che può essere impostato con `%{prefix}server set_audit_channel #channel`.
-          Eventuali messaggi di resent saranno pubblicati con il loro nome utente, discriminatore e id utente.
+          Eventuali messaggi ripubblicati saranno pubblicati con il loro nome utente, tag e id utente.
         page_8_3_name: 'Permessi:'
         page_8_3_desc: |
-          NQN richiede l'autorizzazione del server 'Gestisci Webhook' per funzionare correttamente; la repostazione dei messaggi non funzionerà senza quest'ultima.
+          NQN richiede l'autorizzazione del server 'Gestisci Webhook' per funzionare correttamente; la ripubblicazione dei messaggi non funzionerà senza quest'ultima.
 
            • Per disabilitare il funzionamento dei comandi in un canale specifico, nega i permessi a NQN 'Invia messaggi' tramite permessi utente.
-           • Per disabilitare la repostazione dei messaggi in un canale specifico, nega i permessi a NQN 'Gestisci Webhook' attraverso i permessi dell'utente.
+           • Per disabilitare la ripubblicazione dei messaggi in un canale specifico, nega i permessi a NQN 'Gestisci Webhook' attraverso i permessi dell'utente.
            • Per disabilitare tutte le interazioni in un canale specifico, nega i permessi a NQN 'Leggi Messaggi' attraverso i permessi dell'utente.
         page_8_4_name: 'Raccolta Informazioni:'
         page_8_4_desc: |
-          NQN memorizza i messaggi repostati in modo che gli utenti possano cancellarli e per il registro di controllo.
+          NQN memorizza i messaggi ripubblicati in modo che gli utenti possano cancellarli e per il registro di controllo.
           Ogni emote nel tuo server è visibile da chiunque utilizzi il bot ed è ricercabile, anche se non collegabile al tuo server.
 
           Alcune statistiche su come viene utilizzato il bot sono raccolte per informare le scelte su come migliorare ulteriormente il bot, ma non includeranno mai messaggi generici inviati dai tuoi utenti.
@@ -378,6 +378,6 @@ discord_bot:
       whois:
         found: L'autore è <@%{author}> (%{author})
         not_nqn: |
-          Questo comando funziona attualmente solo sui messaggi repostati da NQN.
+          Questo comando funziona attualmente solo sui messaggi ripubblicati da NQN.
         not_found: |
           L'autore di quel messaggio non può essere trovato automaticamente. Sei sicuro che sia stato pubblicato da NQN?
