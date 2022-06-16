@@ -8,7 +8,7 @@ discord_bot:
       [Vai al Messaggio](%{jump_url})
     message_posted_persona: |
       Messaggio inviato in %{channel} da %{author} %{cropped}
-      ⚠️ Usando Persona ⚠️
+      ⚠️ Usando un Personaggio ⚠️
       > **%{persona}**
       [Vai al Messaggio](%{jump_url})
     message_edited: |

@@ -8,7 +8,7 @@ discord_bot:
       max_length: I nomi degli alias possono essere lunghi al massimo 32 caratteri
       user_zero: Non hai alias
       from_message:
-        no_emotes: Questo messaggio non ha nessuna emoji personalizzata in esso!
+        no_emotes: Questo messaggio non contiene nessuna emoji personalizzata!
       delete:
         deleted: 'Eliminato \:%{name}:'
       delete_all:
