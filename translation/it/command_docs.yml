@@ -222,7 +222,7 @@ command_docs:
   server-pings:
     short_doc: Abilita o disabilita i ping nei messaggi per questo server
     help: |
-      Abilita o disabilita i ping nei messaggi che NQN reposta in questo server
+      Abilita o disabilita i ping nei messaggi che NQN ripubblica in questo server
   server-phish_detection:
     short_doc: Abilita o disabilita il rilevamento dei messaggi di phishing per questo server
   server-prefix:
@@ -248,9 +248,9 @@ command_docs:
   server-set_nitro_role:
     short_doc: Richiedi agli utenti di avere un ruolo per usare NQN
     help: |
-      Imposta un ruolo che gli utenti devono avere per usare NQN per ripubblicare con Nitro
+      Imposta un ruolo che gli utenti devono avere per usare NQN per ripubblicare i messaggi che richiedono Nitro
   server-stickers:
-    short_doc: Abilita o disabilita l'utilizzo di adesivi in questo server
+    short_doc: Abilita o disabilita l'utilizzo degli adesivi in questo server
   server-user_content:
     short_doc: Abilita o disabilita gli alias utente e i pacchetti per questo server
   server:
@@ -265,22 +265,22 @@ command_docs:
       Gli adesivi possono essere un massimo di 8MB di grandi dimensioni e i nomi possono essere solo alfanumerici.
       Gli adesivi hanno bisogno di un'estensione di file, che è anche alfanumerica.
   sticker-delete:
-    short_doc: Elimina un adesivo
+    short_doc: Elimina un adesivo che possiedi
   sticker-import:
-    short_doc: Importa adesivi da emotes
+    short_doc: Importa adesivi dalle emote
     help: |
-      Importa adesivi da emotes
+      Importa adesivi dalle emote
       O da un emote direttamente, con un alias opzionale
        - sticker import :blue_smirk: smirk.png
-      O cercando attraverso emote che NQN ha.
+      O cercando attraverso emote che NQN possiede.
        - sticker import blue pat
-      Nota che l'opzione di ricerca attraverso le emote non supporta l'aliasing
+      Nota che l'opzione di ricerca attraverso le emote non supporta la creazione di alias
   sticker-mine:
     short_doc: Trova i miei adesivi
   sticker-rename:
-    short_doc: Rinomina un adesivo
+    short_doc: Rinomina un adesivo che possiedi
   sticker-search:
-    short_doc: Cerca tra tutti gli adesivi che NQN ha, con una query opzionale
+    short_doc: Cerca tra tutti gli adesivi che NQN possiede, con un termine di ricerca opzionale
   sticker-telegram:
     short_doc: Importa adesivi da telegram
   sticker:
