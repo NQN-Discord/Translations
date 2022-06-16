@@ -19,7 +19,7 @@ command_docs:
   alias-rename:
     short_doc: Rinomina uno dei tuoi alias
   alias-search:
-    short_doc: Cerca emote individuali
+    short_doc: Cerca le singole emote
     help: |
       Cerca le singole emote da usare con NQN
 
@@ -47,7 +47,7 @@ command_docs:
 
       Se entrambi, canali e membri non devono essere filtrati, usa 'audit guild'
   delete:
-    short_doc: Elimina uno dei tuoi messaggi inviati da NQN
+    short_doc: Elimina uno dei tuoi messaggi ripubblicati da NQN
     help: |
       Elimina uno dei tuoi messaggi ripubblicati da NQN.
       Per impostazione predefinita, il tuo messaggio più recente in questo canale viene eliminato, ma puoi opzionalmente fornire un URL di
@@ -60,7 +60,7 @@ command_docs:
       Per impostazione predefinita, il tuo messaggio più recente in questo canale è modificato, ma puoi opzionalmente fornire un URL di un messaggio per modificarlo
       Puoi anche utilizzare la funzionalità di risposta ai messaggi di Discord per modificare quel messaggio.
   emote_stats:
-    short_doc: Mostra quanto spesso vengono utilizzate le emotes del tuo server
+    short_doc: Mostra quanto spesso vengono utilizzate le emote del tuo server
   export:
     short_doc: Esporta il tuo elenco di emote
   help:
@@ -68,16 +68,16 @@ command_docs:
     help: |
       Impara i comandi che puoi eseguire con NQN
   ignore_me:
-    short_doc: Fai in modo che NQN non posti più i tuoi messaggi
+    short_doc: Fai in modo che NQN non ripubblichi più i tuoi messaggi
     help: |
-      L'esecuzione di questo comando impedisce a NQN di inviare nuovamente qualsiasi messaggio in qualsiasi server condiviso con il bot.
+      L'esecuzione di questo comando impedisce a NQN di ripubblicare qualsiasi messaggio in qualsiasi server condiviso con il bot.
       - I comandi sono ancora abilitati, eseguire nuovamente questo comando riabiliterà la funzione
       - Puoi ancora inviare nuovamente i messaggi attraverso la nostra [dashboard](https://nqn.blue)
-      - Il bot non risponderà a qualsiasi messaggio che invii che verrebbe repostato tramite un webhook
+      - Il bot non risponderà a qualsiasi messaggio che invii che verrebbe ripubblicato tramite un webhook
   info:
     short_doc: Statistiche interne sul bot
   invite_me:
-    short_doc: Invita il bot sul tuo server!
+    short_doc: Invita il bot nel tuo server!
   jumbo:
     short_doc: Rende un'emoji più grande
   mod-audit:
@@ -97,33 +97,33 @@ command_docs:
   mod-kick:
     short_doc: Espelli l'utente che ha pubblicato un messaggio
   mod-move:
-    short_doc: Sposta fino a 20 dei messaggi più recenti in questo canale su un altro
+    short_doc: Sposta fino a 20 dei messaggi più recenti da questo canale ad un altro
   mod-purge:
-    short_doc: Elimina alcuni messaggi inviati dal bot in questo canale
+    short_doc: Elimina alcuni messaggi ripubblicati dal bot in questo canale
   mod:
     short_doc: Funzioni di moderazione per NQN
   move:
-    short_doc: Sposta fino a 20 dei messaggi più recenti in questo canale su un altro
+    short_doc: Sposta fino a 20 dei messaggi più recenti da questo canale ad un altro
   mutuals:
-    short_doc: Vedi i server che condivido con te
+    short_doc: Visualizza i server che condivido con te
   my_emotes:
     short_doc: Guarda quali emoji puoi pubblicare con NQN
   owner:
-    short_doc: Conoscenza proibita dentro
+    short_doc: Forbidden knowledge lurks within
   pack-dm:
     short_doc: Ottieni un elenco completo dei tuoi pacchetti in DM
     help: |
-      Il bot ti invierá un elenco completo delle emoji correnti dei tuoi pacchetti attraverso i tuoi DM.
+      Il bot ti invierá un elenco completo delle emoji attuali dei tuoi pacchetti attraverso i tuoi DM.
   pack-join:
     short_doc: Iscriviti a un pacchetto di emote
   pack-leave:
     short_doc: Annulla l'iscrizione a un pacchetto di emote
   pack-meta:
-    short_doc: Oooh... Belle statistiche sul tuo pack
+    short_doc: Oooh... Alcune statistiche del tuo pacchetto
   pack-mine:
     short_doc: Ottieni un elenco di pacchetti emote a cui sei iscritto
   pack-publish:
-    short_doc: Pubblica il tuo server emote come pacchetto di emote
+    short_doc: Pubblica le emote presenti nel tuo server come pacchetto di emote
   pack-rename:
     short_doc: Rinomina un pacchetto di emote
   pack-save:
@@ -135,34 +135,34 @@ command_docs:
   pack-show:
     short_doc: Mostra il contenuto di un pacchetto
   pack-unpublish:
-    short_doc: Non vuoi che questo server sia un pacchetto di emote?
+    short_doc: Non vuoi più che questo server sia un pacchetto di emote?
   pack:
-    short_doc: Gestisci l'intero pacchetto di emote
+    short_doc: Gestisci interi pacchetti di emote
   persona-avatar_url:
-    short_doc: Imposta l'avatar di una persona
+    short_doc: Imposta l'avatar di un personaggio
   persona-delete:
-    short_doc: Elimina una delle tue persone
+    short_doc: Elimina uno dei tuoi personaggi
   persona-display_name:
-    short_doc: Cambia il nome utente di una persona
+    short_doc: Cambia il nome utente di un personaggio
   persona-dm:
-    short_doc: DM un elenco completo delle tue persone
+    short_doc: Invia in DM un elenco completo dei tuoi personaggi
   persona-export:
-    short_doc: Esporta il tuo elenco di persone in un file
+    short_doc: Esporta il tuo elenco di personaggi in un file
     help: |
-      Esporta il tuo elenco di persone in un file, che è compatibile con altri bot
+      Esporta il tuo elenco di personaggi in un file, che è compatibile con altri bot
   persona-import:
-    short_doc: Importa un elenco di persone precedentemente esportato
+    short_doc: Importa un elenco di personaggi precedentemente esportato
     help: |
-      Importa un elenco di persone precedentemente esportato.
+      Importa un elenco di personaggi precedentemente esportato.
       Compatibile con PluralKit e Tupperbox.
   persona-list:
-    short_doc: Mostra un elenco delle tue persone
+    short_doc: Mostra un elenco dei tuoi personaggi
   persona-register:
-    short_doc: Registra una persona per un uso successivo
+    short_doc: Registra un personaggio per uso successivo
   persona-rename:
-    short_doc: Dai a una tua persona un nome diverso
+    short_doc: Dai a un tuo personaggio un nome diverso
   persona:
-    short_doc: Gestisci le tue persone
+    short_doc: Gestisci i tuoi personaggi
   premium-check:
     short_doc: Ricalcola le tue informazioni premium
     help: |
@@ -216,7 +216,7 @@ command_docs:
   server-permissions_debug:
     short_doc: Lascia che NQN ti dica quali permessi gli mancano
   server-personas:
-    short_doc: Abilita o disabilita l'utilizzo delle persone
+    short_doc: Abilita o disabilita l'utilizzo dei personaggi
     help: |
       Consente agli utenti di pubblicare con nomi utente e avatar arbitrari
   server-pings:
@@ -240,19 +240,19 @@ command_docs:
     help: |
       Visualizza le impostazioni di NQN per il server, incluse funzionalità, canali configurati e informazioni sul pacchetto.
   server-set_audit_channel:
-    short_doc: Invia i messaggi che il bot reposta
+    short_doc: Invia i messaggi che il bot ripubblica
   server-set_boost_channel:
-    short_doc: Pubblica ogni volta che qualcuno vota con il server su top.gg
+    short_doc: Pubblica ogni volta che qualcuno vota il server su top.gg
   server-set_boost_role:
-    short_doc: Dare a un utente questo ruolo quando boostano questo server tramite NQN
+    short_doc: Dare a un utente questo ruolo quando potenziano questo server tramite NQN
   server-set_nitro_role:
     short_doc: Richiedi agli utenti di avere un ruolo per usare NQN
     help: |
-      Imposta un ruolo che gli utenti devono avere per usare NQN per i repost con Nitro
+      Imposta un ruolo che gli utenti devono avere per usare NQN per ripubblicare con Nitro
   server-stickers:
     short_doc: Abilita o disabilita l'utilizzo di adesivi in questo server
   server-user_content:
-    short_doc: Abilita o disabilita alias utente e pacchetti per questo server
+    short_doc: Abilita o disabilita gli alias utente e i pacchetti per questo server
   server:
     short_doc: Modifica le impostazioni dei bot su questo server
   sticker-create:
