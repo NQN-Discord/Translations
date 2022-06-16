@@ -9,13 +9,13 @@ discord:
     please_give: Non funzionerò correttamente senza questi!
     fix_perms: |
       - **[Correggi Permessi Server](%{invite_url})**
-    nqn_help: Aiuto NQN
+    nqn_help: Pannello di Aiuto NQN
     my_prefix: |
       Il mio prefisso per i comandi è `%{prefix}`
     react_with_x_to_delete: |
-      Reagisci con ❌ (\:x:) per eliminare i messaggi repostati!
+      Reagisci con ❌ (\:x:) per eliminare i messaggi ripubblicati!
     user_ignored: |
-      Sarai **IGNORED** quando invierai messaggi che verrebbero normalmente ripostati. Per consentire a NQN di repostare i messaggi, esegui:
+      Sarai **IGNORED** quando invierai messaggi che verrebbero normalmente ripubblicati. Per consentire a NQN di ripubblicare i messaggi, esegui:
       > `%{prefix}ignore_me`
     categories: Categorie
     everything_else: Tutto il resto
