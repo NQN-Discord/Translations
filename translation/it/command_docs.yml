@@ -109,7 +109,7 @@ command_docs:
   my_emotes:
     short_doc: Guarda quali emoji puoi pubblicare con NQN
   owner:
-    short_doc: Forbidden knowledge lurks within
+    short_doc: Cose proibite stanno qua dentro
   pack-dm:
     short_doc: Ottieni un elenco completo dei tuoi pacchetti in DM
     help: |
