@@ -3,22 +3,22 @@ discord_bot:
   commands:
     emote:
       info:
-        title: "Info about emote '%{name}':"
+        title: "Informazioni sulla emote '%{name}':"
         id: "ID:"
-        server_daily_uses: "Daily uses in this server:"
-        server_uses: "Uses in this server:"
+        server_daily_uses: "Usi giornalieri in questo server:"
+        server_uses: "Usi in questo server:"
         approx_uses:
           zero: "0"
           one: "1"
           many: "~%{count}"
-        total_uses_per_day: "Total uses per day:"
-        aka: "Also known as:"
-        locked_roles: "Locked to roles:"
-        upload_time: "Uploaded at:"
+        total_uses_per_day: "Usi totali al giorno:"
+        aka: "Anche conosciuta come:"
+        locked_roles: "Bloccata ai ruoli:"
+        upload_time: "Caricata il:"
         url: "URL:"
-        animated_url: "Animated URL:"
-        static_url: "Static URL:"
+        animated_url: "URL animato:"
+        static_url: "URL statico:"
       lock:
-        success: "Locked roles for %{emoji} to %{roles}"
+        success: "Ruoli bloccati per %{emoji} a %{roles}"
       unlock:
-        success: "Unlocked roles for %{emoji}"
+        success: "Ruoli sbloccati per %{emoji}"
