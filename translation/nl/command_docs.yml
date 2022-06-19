@@ -58,8 +58,24 @@ command_docs:
       Edits the content of one of your messages reposted by NQN.
       By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
       You can also use Discord's message reply functionality to edit that message.
-  emote_stats:
+  emote:
+    short_doc: Manage server emotes
+  emote-info:
+    short_doc: Get information about an emote
+  emote-lock:
+    short_doc: Lock an emoji to a specific set of roles
+  emote-jumbo:
+    short_doc: Makes an emoji bigger
+  emote-stats:
     short_doc: See how often your server's emotes are used
+  emote-unlock:
+    short_doc: Allow anyone to use a locked emote
+  emote-upload:
+    short_doc: Search for and upload emotes to this server.
+    help: |
+      Search for all the emotes the bot has ever seen and upload them to this server.
+      This command allows you to upload emotes.
+      You can also attach a file to upload that
   export:
     short_doc: Export your emote list
   help:
@@ -77,8 +93,6 @@ command_docs:
     short_doc: Internal statistics about the bot
   invite_me:
     short_doc: Invite the bot to your server!
-  jumbo:
-    short_doc: Makes an emoji bigger
   mod-audit:
     short_doc: Get audit logs for reposted messages for this channel
     help: |
@@ -289,11 +303,5 @@ command_docs:
     short_doc: Need some help with using me?
   tutorial:
     short_doc: Learn how to use emotes with NQN
-  upload_emote:
-    short_doc: Search for and upload emotes to this server.
-    help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload that
   whois:
     short_doc: Find who posted a message
