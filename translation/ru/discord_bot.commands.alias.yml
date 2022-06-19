@@ -46,8 +46,8 @@ discord_bot:
             You have no aliases!
             Get some with `%{prefix}alias search`
           one: |
-            This will send you a direct message; do you wish to continue?
+            Это отправит вам сообщение в ЛС; вы хотите продолжить?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            Это отправит %{count} сообщений в ЛС; вы хотите продолжить?
         blocked: |-
-          You've blocked me, I can't message you!
+          Я не могу написать вам, так как вы отключили личные сообщения или заблокировали меня!
