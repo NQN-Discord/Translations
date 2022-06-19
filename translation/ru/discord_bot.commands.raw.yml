@@ -35,7 +35,7 @@ discord_bot:
       my_emotes:
         current_guild: Текущий сервер
         mutual_guilds: Общие сервера
-        aliases: Aliases
+        aliases: Алиасы
         packs: Паки
         no_mutual_guilds: |
           NQN позволяет вам использовать любые эмодзи с наших взаимных серверов на этом сервере.
@@ -151,7 +151,7 @@ discord_bot:
           Для поиска стикеров, которые можно использовать с NQN, напишите `%{prefix}sticker search` с дополнительными условиями поиска.
           Чтобы просмотреть свои стикеры, используйте `%{prefix}stickers mine`.
           Примечание - чтобы использовать стикеры Telegram, необходимо сначала импортировать их в бота. Бот не делает этого автоматически.
-        page_7_title: Personas
+        page_7_title: Персоны
         page_7_desc: |
           Personas allow anyone in your server to assume a given username and avatar distinct from their own.
           In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
