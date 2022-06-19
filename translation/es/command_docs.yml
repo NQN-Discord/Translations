@@ -59,17 +59,17 @@ command_docs:
       Por defecto, el mensaje más reciente en este canal es editado, pero puedes proveer el url del mensaje para editar otro mensaje.
       Tambien puedes utilizar la funcionalidad de respuestas de Discord para editar ese mensaje.
   emote:
-    short_doc: Manage server emotes
+    short_doc: Gestiona los emojis del servidor
   emote-info:
-    short_doc: Get information about an emote
+    short_doc: Obtiene la información de un emoji
   emote-lock:
-    short_doc: Lock an emoji to a specific set of roles
+    short_doc: Restringe el uso de un emoji a un grupo de roles
   emote-jumbo:
     short_doc: Agranda un emoji
   emote-stats:
     short_doc: Ver la cantidad de uso de los emojis de tu servidor
   emote-unlock:
-    short_doc: Allow anyone to use a locked emote
+    short_doc: Libera el uso de un emoji restringido a un rol
   emote-upload:
     short_doc: Busca y subi emojis a este servidor.
     help: |
