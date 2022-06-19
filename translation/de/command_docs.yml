@@ -58,8 +58,24 @@ command_docs:
       Bearbeite den Inhalt einer deiner von NQN reposteten Nachrichten.
       Standardmäßig wird deine zuletzt gesendete Nachricht bearbeitet, du kannst aber optional eine URL zu der Nachricht angeben, die stattdessen berbeitet werden soll.
       Du kannst auch Discords auf die Nachricht antworten-Funktion nutzen, um eine bestimmte Nachricht zu bearbeiten.
-  emote_stats:
+  emote:
+    short_doc: Manage server emotes
+  emote-info:
+    short_doc: Get information about an emote
+  emote-lock:
+    short_doc: Lock an emoji to a specific set of roles
+  emote-jumbo:
+    short_doc: Makes an emoji bigger
+  emote-stats:
     short_doc: See how often your server's emotes are used
+  emote-unlock:
+    short_doc: Allow anyone to use a locked emote
+  emote-upload:
+    short_doc: Search for and upload emotes to this server.
+    help: |
+      Search for all the emotes the bot has ever seen and upload them to this server.
+      This command allows you to upload emotes.
+      You can also attach a file to upload that
   export:
     short_doc: Exportiere eine Liste deiner Emotes
   help:
@@ -77,8 +93,6 @@ command_docs:
     short_doc: Interne Statistiken über den Bot
   invite_me:
     short_doc: Lade den Bot auf deinen Server ein!!
-  jumbo:
-    short_doc: Vergrößert ein Emoji
   mod-audit:
     short_doc: Erhalte Audit-Logs für repostete Nachrichten für diesen Kanal
     help: |
@@ -290,11 +304,5 @@ command_docs:
     short_doc: Benötigst du Hilfe zu meiner Benutzung?
   tutorial:
     short_doc: Lerne, wie man Emotes mit NQN nutzt
-  upload_emote:
-    short_doc: Search for and upload emotes to this server.
-    help: |
-      Suche nach allen Emotes, die der Bot je gesehen hat und lade sie auf diesen Server hoch.
-      Dieser Befehl erlaubt dir, Emotes hochzuladen.
-      Du kannst auch eine Datei zum Hochladen anhängen.
   whois:
     short_doc: Finde heraus, wer eine Nachricht gesendet hat
