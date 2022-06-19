@@ -52,8 +52,24 @@ command_docs:
       Отредактирует ваше сообщение, отправленного через NQN.
       По умолчанию редактируется ваше последнее сообщение в этом канале, но вы можете дополнительно указать URL сообщения, чтобы изменить его.
       Вы также можете использовать функцию 'Ответить', чтобы отредактировать это сообщение.
-  emote_stats:
+  emote:
+    short_doc: Manage server emotes
+  emote-info:
+    short_doc: Get information about an emote
+  emote-lock:
+    short_doc: Lock an emoji to a specific set of roles
+  emote-jumbo:
+    short_doc: Makes an emoji bigger
+  emote-stats:
     short_doc: See how often your server's emotes are used
+  emote-unlock:
+    short_doc: Allow anyone to use a locked emote
+  emote-upload:
+    short_doc: Search for and upload emotes to this server.
+    help: |
+      Search for all the emotes the bot has ever seen and upload them to this server.
+      This command allows you to upload emotes.
+      You can also attach a file to upload that
   export:
     short_doc: Экспорт вашего списка с эмодзи
   help:
@@ -71,8 +87,6 @@ command_docs:
     short_doc: Статистика бота
   invite_me:
     short_doc: Пригласит бота на ваш сервер!
-  jumbo:
-    short_doc: Сделать эмодзи больше
   mod-audit:
     short_doc: Просмотр аудита сообщений
     help: |
@@ -283,11 +297,5 @@ command_docs:
     short_doc: Нужна помощь в использовании меня?
   tutorial:
     short_doc: Учим, как использовать эмодзи вместе с NQN
-  upload_emote:
-    short_doc: Search for and upload emotes to this server.
-    help: |
-      Найдёт все эмодзи, которые бот когда-либо видел, и загрузит их на этот сервер.
-      Эта команда позволяет загружать эмодзи.
-      Вы также можете прикрепить файл, чтобы загрузить его
   whois:
     short_doc: Найти пользователя, отправившего сообщение
