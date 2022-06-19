@@ -58,8 +58,24 @@ command_docs:
       Chỉnh sửa nội dung của tin nhắn mà bạn gửi thông qua NQN.
       Theo mặc định, tin nhắn gần đây nhất trong kênh này của bạn sẽ được chỉnh sửa, nhưng bạn vẫn có thể tùy ý thêm URL của tin nhắn bạn muốn chỉnh sửa
       Bạn cũng có thể trả lời tin nhắn đó khi dùng lệnh để chỉnh sửa tin nhắn đó.
-  emote_stats:
+  emote:
+    short_doc: Manage server emotes
+  emote-info:
+    short_doc: Get information about an emote
+  emote-lock:
+    short_doc: Lock an emoji to a specific set of roles
+  emote-jumbo:
+    short_doc: Lấy hình ảnh lớn của biểu cảm
+  emote-stats:
     short_doc: Kiểm tra mức sử dụng biểu cảm của server của bạn
+  emote-unlock:
+    short_doc: Allow anyone to use a locked emote
+  emote-upload:
+    short_doc: Tìm và tải lên biểu cảm cho server này.
+    help: |
+      Tìm tất cả các biểu cảm mà NQN đã từng thấy và tải chúng lên cho server này.
+      Lệnh này cho phép bạn tải lên biểu cảm.
+      Bạn cũng có thể đính kèm một tệp để tải lên
   export:
     short_doc: Xuất danh sách biểu cảm của bạn
   help:
@@ -77,8 +93,6 @@ command_docs:
     short_doc: Thông tin phần mềm của bot
   invite_me:
     short_doc: Thêm bot vào server của bạn!
-  jumbo:
-    short_doc: Lấy hình ảnh lớn của biểu cảm
   mod-audit:
     short_doc: Xem các tin nhắn đã được thay thế trong server
     help: |
@@ -289,11 +303,5 @@ command_docs:
     short_doc: Cần hỗ trợ để dùng tôi?
   tutorial:
     short_doc: Tìm hiểu cách dùng NQN cho biểu cảm
-  upload_emote:
-    short_doc: Tìm và tải lên biểu cảm cho server này.
-    help: |
-      Tìm tất cả các biểu cảm mà NQN đã từng thấy và tải chúng lên cho server này.
-      Lệnh này cho phép bạn tải lên biểu cảm.
-      Bạn cũng có thể đính kèm một tệp để tải lên
   whois:
     short_doc: Biết được ai đã gửi tin nhắn nào đó

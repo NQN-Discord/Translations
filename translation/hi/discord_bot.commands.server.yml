@@ -90,7 +90,7 @@ discord_bot:
           अधिक एलीयेसीस के लिए, कोई भी बॉट के लिए मतदान कर सकता है %{url}
         left_pack: "%{name} को छोड़ा "
         not_in_pack: इस सर्वर के पास शुरू करने के लिए सर्वर पैक के रूप में%{name} नहीं था
-        invalid_group: <Invalid pack - Please Report>
+        invalid_group: <अमान्य पैक - कृपया रिपोर्ट करें>
         join_server: (Join server)
         no_longer_registered: '%{name} is no longer a registered emote pack'
         already_joined: '%{guild_name} is already joined to %{name}'

@@ -55,8 +55,24 @@ command_docs:
       Edita o conteúdo de uma de suas mensagens republicadas por NQN.
       Por padrão, sua mensagem mais recente neste canal é editada, mas você pode opcionalmente fornecer um URL de mensagem para editá-la 6
       Você também pode usar a funcionalidade de resposta de mensagem do Discord para editar essa mensagem.
-  emote_stats:
+  emote:
+    short_doc: Manage server emotes
+  emote-info:
+    short_doc: Get information about an emote
+  emote-lock:
+    short_doc: Lock an emoji to a specific set of roles
+  emote-jumbo:
+    short_doc: Torna um emoji maior
+  emote-stats:
     short_doc: See how often your server's emotes are used
+  emote-unlock:
+    short_doc: Allow anyone to use a locked emote
+  emote-upload:
+    short_doc: Search for and upload emotes to this server.
+    help: |
+      Pesquise todos os emotes que o bot já viu e envie-os para este servidor.
+      Este comando permite que você carregue emotes, suportando emotes lado a lado e redimensionando.
+      Você também pode anexar um arquivo para fazer upload desse
   export:
     short_doc: Exporte sua lista de emoticons
   help:
@@ -74,8 +90,6 @@ command_docs:
     short_doc: Estatísticas internas sobre o bot
   invite_me:
     short_doc: Convide o bot para o seu servidor!
-  jumbo:
-    short_doc: Torna um emoji maior
   mod-audit:
     short_doc: Obtenha registros de auditoria para mensagens repostadas para este canal
     help: |
@@ -289,11 +303,5 @@ command_docs:
     short_doc: Precisa de ajuda para me usar?
   tutorial:
     short_doc: Aprenda a usar emotes com NQN
-  upload_emote:
-    short_doc: Search for and upload emotes to this server.
-    help: |
-      Pesquise todos os emotes que o bot já viu e envie-os para este servidor.
-      Este comando permite que você carregue emotes, suportando emotes lado a lado e redimensionando.
-      Você também pode anexar um arquivo para fazer upload desse
   whois:
     short_doc: Encontre quem postou uma mensagem

@@ -50,7 +50,7 @@ discord_bot:
           > ```%{prefix}persona avatar_url %{short_name} https://...```
       rename:
         renamed_persona: |
-          Renamed %{old_name} to %{new_name}.
+          नाम बदला गया %{old_name} %{new_name}.
       avatar_url:
         persona_avatar_url: |
           Set %{short_name}'s avatar.

@@ -24,7 +24,7 @@ discord_bot:
       rename:
         rename: Rename Alias
         alias_name: 'Alias Name:'
-        renamed: 'Renamed \:%{old}: to :%{new}:'
+        renamed: 'नाम बदला  \:%{old}: से :%{new}:'
       export:
         exported_short: "Here's your exported aliases:"
         exported_long: |
