@@ -3,43 +3,43 @@ discord_bot:
   commands:
     persona:
       not_enabled: |
-        Le persone non sono abilitate in questo server.
-        Consentono agli utenti di usare ⚠️**nomi utente personalizzati** e **avatar**⚠️ con NQN, quindi non sono abilitate per impostazione predefinita.
-      enable_personas: Abilita le persone
+        I personaggi non sono abilitati in questo server.
+        Consentono agli utenti di usare ⚠️**nomi utente personalizzati** e **avatar**⚠️ con NQN, quindi non sono abilitati per impostazione predefinita.
+      enable_personas: Abilita i personaggi
       name_regex: |
-        I nomi delle persone possono contenere solo caratteri alfanumerici, trattini e trattini bassi, ed avere al massimo 80 caratteri.
+        I nomi dei personaggi possono contenere solo caratteri alfanumerici, trattini e trattini bassi, ed avere al massimo 80 caratteri.
         > '%{persona_name}' non corrisponde a questi requisiti.
       max_display_name: |
         I nomi utente possono essere lunghi al massimo 80 caratteri
       persona_doesnt_exist: |
-        Non hai una persona chiamata %{short_name}!
-        Creane una con `%{prefix}persona register %{short_name}`
+        Non hai un personaggio chiamato %{short_name}!
+        Creane uno con `%{prefix}persona register %{short_name}`
       export:
         exported_list_short: |
-          Ecco le tue persone esportate, dovrebbero essere compatibili con Tupperbox e Pluralkit.
+          Ecco i tuoi personaggi esportati, dovrebbero essere compatibili con Tupperbox e Pluralkit.
         exported_list_long: |
-          Ecco le tue persone esportate, dovrebbero essere compatibili con Tupperbox e Pluralkit.
-          Per condividerli con altre persone, devono eseguire:
+          Ecco i tuo personaggi esportati, dovrebbero essere compatibili con Tupperbox e Pluralkit.
+          Per condividerli con altre persone, queste ultime devono usare:
           > `%{prefix}persona import %{url}`
       import_:
         import_incorrect: |
-          Questo comando viene utilizzato per importare un elenco di persone precedentemente esportato con `%{prefix}persona export`, o comandi equivalenti di esportazione da PluralKit e Tupperbox.
-          Per creare una persona, usa `%{prefix}persona register`
+          Questo comando viene utilizzato per importare un elenco di personaggi precedentemente esportato con `%{prefix}persona export`, o comandi equivalenti di esportazione da PluralKit e Tupperbox.
+          Per creare un personaggio, usa `%{prefix}persona register`
         import_text: Questo comando ha bisogno di un file json allegato
         set_personas:
-          one: Importata una persona
-          many: Importati %{count} persone
+          one: Importato un personaggio
+          many: Importati %{count} personaggi
         invalid_persona: Vuoi continuare a importare il resto del file, ignorando questa voce?
       list:
         no_personas: |
-          Non hai nessuna persona!
+          Non hai nessun personaggio!
       register:
         display_name: Soprannome
         avatar_url: URL Avatar
-        create: Crea Persona
+        create: Crea Personaggio
         persona_exists: |
-          Hai già una persona chiamata %{short_name}.
-          Puoi rinominarla con `%{prefix}persona rinominata %{short_name} new_name`
+          Hai già un personaggio chiamato %{short_name}.
+          Puoi rinominarlo con `%{prefix}persona rename %{short_name} new_name`
         registered_persona: |
           Registrato %{short_name} come persona!
           Per inviare messaggi in quanto tale, invia un messaggio che inizia con `%{short_name}:`, per esempio:
@@ -65,8 +65,8 @@ discord_bot:
       dm:
         send_dms:
           zero: |
-            Non hai persone!
-            Ottienine con `%{prefix}persona register`
+            Non hai personaggi!
+            Ottienili con `%{prefix}persona register`
           one: |
             Questo ti invierà un messaggio diretto; vuoi continuare?
           many: |
