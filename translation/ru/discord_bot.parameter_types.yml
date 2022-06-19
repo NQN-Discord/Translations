@@ -35,6 +35,10 @@ discord_bot:
       description: |
         Не преобразованный эмодзи NQN может трансформироваться
         - Рендеринг эмодзи Discord или URL-адрес эмодзи
+    CurrentGuildEmoji:
+      name: ServerEmoji
+      description: |
+        An emoji in the current server
     None:
       name: Пусто
       description: |
