@@ -35,6 +35,10 @@ discord_bot:
       description: |
         ایموجی ظاهر نشده‌ای از NQN که می تواند تبدیل شود
         - یک ایموجی ظاهر شده یسکورد یا آدرس URL یک ایموجی
+    CurrentGuildEmoji:
+      name: ServerEmoji
+      description: |
+        An emoji in the current server
     None:
       name: خالی
       description: |
