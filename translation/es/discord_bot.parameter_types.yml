@@ -36,9 +36,9 @@ discord_bot:
         El nombre de un emoji que NQN pueda usar
         - El emoji cargado o el enlace del emoji
     CurrentGuildEmoji:
-      name: ServerEmoji
+      name: EmojiDelServidor
       description: |
-        An emoji in the current server
+        Un emoji en este servidor
     None:
       name: Vacio
       description: |
