@@ -65,17 +65,17 @@ command_docs:
   emote-lock:
     short_doc: Lock an emoji to a specific set of roles
   emote-jumbo:
-    short_doc: Makes an emoji bigger
+    short_doc: Lấy hình ảnh lớn của biểu cảm
   emote-stats:
-    short_doc: See how often your server's emotes are used
+    short_doc: Kiểm tra mức sử dụng biểu cảm của server của bạn
   emote-unlock:
     short_doc: Allow anyone to use a locked emote
   emote-upload:
-    short_doc: Search for and upload emotes to this server.
+    short_doc: Tìm và tải lên biểu cảm cho server này.
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload that
+      Tìm tất cả các biểu cảm mà NQN đã từng thấy và tải chúng lên cho server này.
+      Lệnh này cho phép bạn tải lên biểu cảm.
+      Bạn cũng có thể đính kèm một tệp để tải lên
   export:
     short_doc: Xuất danh sách biểu cảm của bạn
   help:
