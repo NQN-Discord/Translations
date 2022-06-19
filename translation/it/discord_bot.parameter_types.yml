@@ -13,7 +13,7 @@ discord_bot:
         - Un messaggio URL (`https://discord.com/channels/123456789/123456789/123456789`)
         - Un id messaggio nel canale corrente (`123456789`)
         - Coppia ChannelID-MessageID (`123456789-123456789`)
-        - Quanti messaggi fa era nel canale corrente (`5` messaggi ago)
+        - Messaggi precedenti nel canale attuale (`5` messaggi fa)
     PartialEmoji:
       name: Emoji
       description: |-
