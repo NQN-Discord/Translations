@@ -66,17 +66,17 @@ command_docs:
   emote-lock:
     short_doc: Lock an emoji to a specific set of roles
   emote-jumbo:
-    short_doc: Makes an emoji bigger
+    short_doc: Rende un'emoji più grande
   emote-stats:
-    short_doc: See how often your server's emotes are used
+    short_doc: Mostra quanto spesso vengono utilizzate le emote del tuo server
   emote-unlock:
     short_doc: Allow anyone to use a locked emote
   emote-upload:
-    short_doc: Search for and upload emotes to this server.
+    short_doc: Cerca e carica emote in questo server.
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload that
+      Cerca tutte le emote che il bot ha visto e caricale su questo server.
+      Questo comando ti permette di caricare le emote.
+      Puoi anche allegare un file per caricarlo
   export:
     short_doc: Esporta il tuo elenco di emote
   help:
