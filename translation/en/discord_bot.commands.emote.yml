@@ -4,7 +4,7 @@ discord_bot:
       info:
         title: "Info about emote '%{name}':"
         id: "ID:"
-        server_daily_uses: "Daily uses in this server"
+        server_daily_uses: "Daily uses in this server:"
         server_uses: "Uses in this server:"
         approx_uses:
           zero: "0"
@@ -14,9 +14,9 @@ discord_bot:
         aka: "Also known as:"
         locked_roles: "Locked to roles:"
         upload_time: "Uploaded at:"
-        url: "URL"
-        animated_url: "Animated URL"
-        static_url: "Static URL"
+        url: "URL:"
+        animated_url: "Animated URL:"
+        static_url: "Static URL:"
       lock:
         success: "Locked roles for %{emoji} to %{roles}"
 
