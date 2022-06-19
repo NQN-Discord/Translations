@@ -58,8 +58,24 @@ command_docs:
       Edits the content of one of your messages reposted by NQN.
       By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
       You can also use Discord's message reply functionality to edit that message.
-  emote_stats:
+  emote:
+    short_doc: Manage server emotes
+  emote-info:
+    short_doc: Get information about an emote
+  emote-lock:
+    short_doc: Lock an emoji to a specific set of roles
+  emote-jumbo:
+    short_doc: Makes an emoji bigger
+  emote-stats:
     short_doc: See how often your server's emotes are used
+  emote-unlock:
+    short_doc: Allow anyone to use a locked emote
+  emote-upload:
+    short_doc: Search for and upload emotes to this server.
+    help: |
+      Search for all the emotes the bot has ever seen and upload them to this server.
+      This command allows you to upload emotes.
+      You can also attach a file to upload that
   export:
     short_doc: निर्यात करें अपने एलियस सूची
   help:
@@ -77,8 +93,6 @@ command_docs:
     short_doc: बॉट के बारे में आंतरिक आंकड़े
   invite_me:
     short_doc: अपने सर्वर पर बॉट को आमंत्रित करें!
-  jumbo:
-    short_doc: Makes an emoji bigger
   mod-audit:
     short_doc: इस चैनल के फिर से पोस्ट किये गए संदेशों के लिए ऑडिट लॉग प्राप्त करें
     help: |
@@ -286,11 +300,5 @@ command_docs:
     short_doc: मुझे उपयोग करने के साथ कुछ मदद चाहिए?
   tutorial:
     short_doc: NQN के साथ इमोजी का उपयोग करना सीखें
-  upload_emote:
-    short_doc: Search for and upload emotes to this server.
-    help: |
-      सभी इमोजीज की खोज करें, जिन्हें बॉट ने कभी देखा है और उन्हें इस सर्वर पर अपलोड करें।
-      यह कमांड आपको इमोजी अपलोड करने की अनुमति देता है, टाइलों के आकार और आकार बदलने का समर्थन करता है।
-      आप इसे अपलोड करने के लिए एक फ़ाइल भी संलग्न कर सकते हैं
   whois:
     short_doc: पता लगाएं कि किसने मैसेज पोस्ट किया है
