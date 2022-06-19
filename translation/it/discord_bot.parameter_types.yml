@@ -35,6 +35,10 @@ discord_bot:
       description: |
         Una emoji non reindirizzata che NQN può trasformare
         - Una emoji Discord renderizzata o un URL emoji
+    CurrentGuildEmoji:
+      name: ServerEmoji
+      description: |
+        An emoji in the current server
     None:
       name: Vuoto
       description: |
