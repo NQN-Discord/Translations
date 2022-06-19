@@ -35,6 +35,10 @@ discord_bot:
       description: |
         An unrendered emoji NQN can transform
         - A rendered Discord emoji or an emoji URL
+    CurrentGuildEmoji:
+      name: ServerEmoji
+      description: |
+        An emoji in the current server
     None:
       name: Empty
       description: |
