@@ -59,8 +59,24 @@ command_docs:
       Modifica il contenuto di uno dei tuoi messaggi ripubblicati da NQN.
       Per impostazione predefinita, il tuo messaggio più recente in questo canale è modificato, ma puoi opzionalmente fornire un URL di un messaggio per modificarlo
       Puoi anche utilizzare la funzionalità di risposta ai messaggi di Discord per modificare quel messaggio.
-  emote_stats:
-    short_doc: Mostra quanto spesso vengono utilizzate le emote del tuo server
+  emote:
+    short_doc: Manage server emotes
+  emote-info:
+    short_doc: Get information about an emote
+  emote-lock:
+    short_doc: Lock an emoji to a specific set of roles
+  emote-jumbo:
+    short_doc: Makes an emoji bigger
+  emote-stats:
+    short_doc: See how often your server's emotes are used
+  emote-unlock:
+    short_doc: Allow anyone to use a locked emote
+  emote-upload:
+    short_doc: Search for and upload emotes to this server.
+    help: |
+      Search for all the emotes the bot has ever seen and upload them to this server.
+      This command allows you to upload emotes.
+      You can also attach a file to upload that
   export:
     short_doc: Esporta il tuo elenco di emote
   help:
@@ -78,8 +94,6 @@ command_docs:
     short_doc: Statistiche interne sul bot
   invite_me:
     short_doc: Invita il bot nel tuo server!
-  jumbo:
-    short_doc: Rende un'emoji più grande
   mod-audit:
     short_doc: Ottieni i registri di controllo per i messaggi ripubblicati in questo canale
     help: |
@@ -289,11 +303,5 @@ command_docs:
     short_doc: Hai bisogno di aiuto nell'usarmi?
   tutorial:
     short_doc: Impara come usare le emote con NQN
-  upload_emote:
-    short_doc: Cerca e carica emote in questo server.
-    help: |
-      Cerca tutte le emote che il bot ha visto e caricale su questo server.
-      Questo comando ti permette di caricare le emote.
-      Puoi anche allegare un file per caricarlo
   whois:
     short_doc: Trova chi ha inviato un messaggio
