@@ -73,9 +73,9 @@ command_docs:
   emote-upload:
     short_doc: Search for and upload emotes to this server.
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload that
+      सभी इमोजीज की खोज करें, जिन्हें बॉट ने कभी देखा है और उन्हें इस सर्वर पर अपलोड करें।
+      यह कमांड आपको इमोजी अपलोड करने की अनुमति देता है, टाइलों के आकार और आकार बदलने का समर्थन करता है।
+      आप इसे अपलोड करने के लिए एक फ़ाइल भी संलग्न कर सकते हैं
   export:
     short_doc: निर्यात करें अपने एलियस सूची
   help:
