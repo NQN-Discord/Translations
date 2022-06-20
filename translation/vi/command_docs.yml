@@ -59,17 +59,17 @@ command_docs:
       Theo mặc định, tin nhắn gần đây nhất trong kênh này của bạn sẽ được chỉnh sửa, nhưng bạn vẫn có thể tùy ý thêm URL của tin nhắn bạn muốn chỉnh sửa
       Bạn cũng có thể trả lời tin nhắn đó khi dùng lệnh để chỉnh sửa tin nhắn đó.
   emote:
-    short_doc: Manage server emotes
+    short_doc: Quản lý biểu cảm trong server
   emote-info:
-    short_doc: Get information about an emote
+    short_doc: Lấy thông tin của một biểu cảm
   emote-lock:
-    short_doc: Lock an emoji to a specific set of roles
+    short_doc: Giới hạn khả năng sử dụng biểu cảm của vai trò
   emote-jumbo:
     short_doc: Lấy hình ảnh lớn của biểu cảm
   emote-stats:
     short_doc: Kiểm tra mức sử dụng biểu cảm của server của bạn
   emote-unlock:
-    short_doc: Allow anyone to use a locked emote
+    short_doc: Cho phép mọi người dùng một biểu cảm bị giới hạn
   emote-upload:
     short_doc: Tìm và tải lên biểu cảm cho server này.
     help: |
