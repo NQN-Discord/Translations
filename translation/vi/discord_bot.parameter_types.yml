@@ -38,7 +38,7 @@ discord_bot:
     CurrentGuildEmoji:
       name: ServerEmoji
       description: |
-        An emoji in the current server
+        Môt biểu cảm trong server này
     None:
       name: Trống
       description: |
