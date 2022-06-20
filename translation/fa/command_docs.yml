@@ -57,17 +57,17 @@ command_docs:
       به طور پیش‌فرض، آخرین پیامی که تبدیل آن برای شما صورت گرفته پاک خواهد شد، اما می توانید در انتها آدرس URL پیام مورد نظر را نیز شامل کنید تا آن پاک شود.
       شما همچنین می توانید با استفاده از ویژگی رپلای خود دیسکورد نیز پیام مورد نظر را نیز همینگونه تعیین کنید.
   emote:
-    short_doc: Manage server emotes
+    short_doc: مدیریت شکلک های سرور
   emote-info:
-    short_doc: Get information about an emote
+    short_doc: دریافت اطلاعات درباره یک شکلک
   emote-lock:
-    short_doc: Lock an emoji to a specific set of roles
+    short_doc: قفل کردن استفاده از یک ایموجی به یکسری رول های خاص
   emote-jumbo:
     short_doc: یک ایموجی را بزرگ‌تر می‌کند
   emote-stats:
     short_doc: دیدن آمار مربوط به تعداد دفعات استفاده از شکلک ها
   emote-unlock:
-    short_doc: Allow anyone to use a locked emote
+    short_doc: اجازه دادن به همه برای استفاده از یک شکلک قفل شده
   emote-upload:
     short_doc: جستجو برای یک شکلک و آپلود آن به سرور
     help: |
