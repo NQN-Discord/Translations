@@ -19,7 +19,7 @@ global:
     aliases: Maggiori informazioni sugli alias
     packs: Maggiori informazioni sui pacchetti
     my_emotes: Trova emoji che posso usare
-    personas: Maggiori informazioni sulle persone
+    personas: Maggiori informazioni sui personaggi
   missing_permissions: Permessi Mancanti
   missing_add_reaction: Ho bisogno del permesso 'Aggiungi Reazioni' per questo comando!
   missing_create_invite: Ho bisogno del permesso 'Crea invito istantaneo' per questo comando!

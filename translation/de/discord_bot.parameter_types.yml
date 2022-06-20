@@ -35,6 +35,10 @@ discord_bot:
       description: |
         Ein ungerendertes Emoji, das NQN verändern kann
         - Ein gerendertes Discord-Emoji oder eine Emoji-URL
+    CurrentGuildEmoji:
+      name: ServerEmoji
+      description: |
+        An emoji in the current server
     None:
       name: Leer
       description: |

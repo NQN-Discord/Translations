@@ -6,7 +6,7 @@ global:
   go_to_message: Aller au message!
   reply_to: 'Reply to:'
   cancelled: Annulé
-  website: Website
+  website: Site web
   details: Détails
   fix_permissions: Corriger les Permissions
   success: Success

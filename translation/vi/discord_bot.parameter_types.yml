@@ -35,6 +35,10 @@ discord_bot:
       description: |
         Một biểu cảm chưa được hiển thị NQN có thể dùng
         - Một biểu cảm Discord dược hiển thị hoặc link của biểu cảm
+    CurrentGuildEmoji:
+      name: ServerEmoji
+      description: |
+        Môt biểu cảm trong server này
     None:
       name: Trống
       description: |

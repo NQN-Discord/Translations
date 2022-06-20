@@ -58,8 +58,24 @@ command_docs:
       Edita el contenido de un de tus mensajes reenviado a través de NQN.
       Por defecto, el mensaje más reciente en este canal es editado, pero puedes proveer el url del mensaje para editar otro mensaje.
       Tambien puedes utilizar la funcionalidad de respuestas de Discord para editar ese mensaje.
-  emote_stats:
+  emote:
+    short_doc: Gestiona los emojis del servidor
+  emote-info:
+    short_doc: Obtiene la información de un emoji
+  emote-lock:
+    short_doc: Restringe el uso de un emoji a un grupo de roles
+  emote-jumbo:
+    short_doc: Agranda un emoji
+  emote-stats:
     short_doc: Ver la cantidad de uso de los emojis de tu servidor
+  emote-unlock:
+    short_doc: Libera el uso de un emoji restringido a un rol
+  emote-upload:
+    short_doc: Busca y subi emojis a este servidor.
+    help: |
+      Busca todos los emojis que el bot a visto y subilos a este servidor.
+      Este comando te permite subir emojis.
+      Puedes adjuntar un archivo para subirlo como emoji.
   export:
     short_doc: Exporta tu lista de emojis
   help:
@@ -77,8 +93,6 @@ command_docs:
     short_doc: Estadísticas internas sobre el bot
   invite_me:
     short_doc: Invita al bot a tu servidor!
-  jumbo:
-    short_doc: Agranda un emoji
   mod-audit:
     short_doc: Audita los registros de los emojis reenviados en este canal
     help: |
@@ -292,11 +306,5 @@ command_docs:
     short_doc: Necesitas ayuda para usarme?
   tutorial:
     short_doc: Aprende a usar emojis con NQN
-  upload_emote:
-    short_doc: Busca y subi emojis a este servidor.
-    help: |
-      Busca todos los emojis que el bot a visto y subilos a este servidor.
-      Este comando te permite subir emojis.
-      Puedes adjuntar un archivo para subirlo como emoji.
   whois:
     short_doc: Encuentra quien envio un mensaje

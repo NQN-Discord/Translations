@@ -1,0 +1,24 @@
+---
+discord_bot:
+  commands:
+    emote:
+      info:
+        title: "Thông tin về biểu cảm '%{name}':"
+        id: "ID:"
+        server_daily_uses: "Lượt dùng mỗi ngày trong server này:"
+        server_uses: "Tổng lượt dùng trong server này:"
+        approx_uses:
+          zero: "0"
+          one: "1"
+          many: "~%{count}"
+        total_uses_per_day: "Tổng lượt dùng mỗi ngày:"
+        aka: "Cũng được biết đến như:"
+        locked_roles: "Chỉ dành cho các vai trò:"
+        upload_time: "Được tải lên lúc:"
+        url: "URL:"
+        animated_url: "URL động:"
+        static_url: "URL tĩnh:"
+      lock:
+        success: "%{emoji} sẽ chỉ được dùng bởi vai trò %{roles}"
+      unlock:
+        success: "Đã gỡ giới hạn dùng cho %{emoji}"

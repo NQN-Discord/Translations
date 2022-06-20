@@ -35,6 +35,10 @@ discord_bot:
       description: |
         Um emoji não renderizado NQN pode se transformar
         - Um emoji do discord renderizado ou uma URL de emoji
+    CurrentGuildEmoji:
+      name: ServerEmoji
+      description: |
+        An emoji in the current server
     None:
       name: Vazio
       description: |
