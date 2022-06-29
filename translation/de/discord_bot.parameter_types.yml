@@ -35,6 +35,10 @@ discord_bot:
       description: |
         Ein ungerendertes Emoji, das NQN verändern kann
         - Ein gerendertes Discord-Emoji oder eine Emoji-URL
+    BlockedEmoji:
+      name: BlockedEmoji
+      description: |-
+        The name of an emoji that's blocked in this server
     CurrentGuildEmoji:
       name: ServerEmoji
       description: |
