@@ -16,4 +16,6 @@ discord_bot:
       [Перейти на сообщение](%{jump_url})
     phish_deleted: |
       Удалено фишинговое сообщение в %{channel} от %{author}
+    blocked_message: |
+      Deleted message with blocked emotes in %{channel} by %{author}
     audit_log_post: NQN от имени <@%{author}> (%{id})

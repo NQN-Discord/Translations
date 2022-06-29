@@ -22,3 +22,10 @@ discord_bot:
         success: "استفاده از ‎%{emoji} بر روی نقش های ‎%{roles} قفل شد"
       unlock:
         success: "استفاده از ‎%{emoji} برای همه نقش ها آزاد شد"
+      block:
+        success:
+          one: "Blocked emoji"
+          many: "Blocked %{count} emojis"
+      unblock:
+        success: "Unblocked emoji"
+        not_blocked: "Emoji wasn't blocked to start with"
