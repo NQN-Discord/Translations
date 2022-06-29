@@ -15,6 +15,7 @@ global:
   dm_me: MP moi
   next: Suivant
   previous: Précédant
+  choose_emote: Choose some emotes
   learn:
     aliases: En savoir plus sur les alias
     packs: En savoir plus sur les packs
