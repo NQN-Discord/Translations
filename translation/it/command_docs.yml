@@ -62,12 +62,12 @@ command_docs:
   emote:
     short_doc: Gestisci le emote del server
   emote-block:
-    short_doc: Prevents an emoji from being used
+    short_doc: Impedisci a una emoji di essere usata
     help: |
-      Search for emojis to block in this server.
-      When this emoji is used, it'll automatically be added to the server's automod list and be removed.
+      Cerca emoji da bloccare in questo server.
+      Quando questa emoji viene usata, verrà aggiunta automaticamentevalla lista automod del server e rimossa.
   emote-block_list:
-    short_doc: View the list of emojis blocked in this server
+    short_doc: Visualizza la lista di emoji bloccate in questo server
   emote-info:
     short_doc: Ottieni informazioni su una emote
   emote-lock:
@@ -77,15 +77,15 @@ command_docs:
   emote-stats:
     short_doc: Mostra quanto spesso vengono utilizzate le emote del tuo server
   emote-unblock:
-    short_doc: Unblock a previously blocked emoji
+    short_doc: Sblocca una emoji precedentemente bloccata
   emote-unlock:
     short_doc: Permetti a tutti di usare una emoji bloccata
   emote-upload:
     short_doc: Cerca e carica emote in questo server.
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload it
+      Cerca tutte le emote che il bot ha visto e caricale su questo server.
+      Questo comando ti permette di caricare le emote.
+      Puoi anche allegare un file per caricarlo
   export:
     short_doc: Esporta il tuo elenco di emote
   help:
