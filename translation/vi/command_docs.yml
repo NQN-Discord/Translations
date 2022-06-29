@@ -60,6 +60,13 @@ command_docs:
       Bạn cũng có thể trả lời tin nhắn đó khi dùng lệnh để chỉnh sửa tin nhắn đó.
   emote:
     short_doc: Quản lý biểu cảm trong server
+  emote-block:
+    short_doc: Prevents an emoji from being used
+    help: |
+      Search for emojis to block in this server.
+      When this emoji is used, it'll automatically be added to the server's automod list and be removed.
+  emote-block_list:
+    short_doc: View the list of emojis blocked in this server
   emote-info:
     short_doc: Lấy thông tin của một biểu cảm
   emote-lock:
@@ -68,14 +75,16 @@ command_docs:
     short_doc: Lấy hình ảnh lớn của biểu cảm
   emote-stats:
     short_doc: Kiểm tra mức sử dụng biểu cảm của server của bạn
+  emote-unblock:
+    short_doc: Unblock a previously blocked emoji
   emote-unlock:
     short_doc: Cho phép mọi người dùng một biểu cảm bị giới hạn
   emote-upload:
     short_doc: Tìm và tải lên biểu cảm cho server này.
     help: |
-      Tìm tất cả các biểu cảm mà NQN đã từng thấy và tải chúng lên cho server này.
-      Lệnh này cho phép bạn tải lên biểu cảm.
-      Bạn cũng có thể đính kèm một tệp để tải lên
+      Search for all the emotes the bot has ever seen and upload them to this server.
+      This command allows you to upload emotes.
+      You can also attach a file to upload it
   export:
     short_doc: Xuất danh sách biểu cảm của bạn
   help:
