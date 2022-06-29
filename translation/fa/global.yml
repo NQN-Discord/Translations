@@ -15,6 +15,7 @@ global:
   dm_me: به من مستقیماً پیام بده (DM)
   next: بعدی
   previous: قبلی
+  choose_emote: Choose some emotes
   learn:
     aliases: درباره اختصار ها بیشتر بدانید
     packs: درباره بسته ها بیشتر بدانید

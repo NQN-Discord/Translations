@@ -58,6 +58,13 @@ command_docs:
       شما همچنین می توانید با استفاده از ویژگی رپلای خود دیسکورد نیز پیام مورد نظر را نیز همینگونه تعیین کنید.
   emote:
     short_doc: مدیریت شکلک های سرور
+  emote-block:
+    short_doc: Prevents an emoji from being used
+    help: |
+      Search for emojis to block in this server.
+      When this emoji is used, it'll automatically be added to the server's automod list and be removed.
+  emote-block_list:
+    short_doc: View the list of emojis blocked in this server
   emote-info:
     short_doc: دریافت اطلاعات درباره یک شکلک
   emote-lock:
@@ -66,14 +73,16 @@ command_docs:
     short_doc: یک ایموجی را بزرگ‌تر می‌کند
   emote-stats:
     short_doc: دیدن آمار مربوط به تعداد دفعات استفاده از شکلک ها
+  emote-unblock:
+    short_doc: Unblock a previously blocked emoji
   emote-unlock:
     short_doc: اجازه دادن به همه برای استفاده از یک شکلک قفل شده
   emote-upload:
     short_doc: جستجو برای یک شکلک و آپلود آن به سرور
     help: |
-      جستجو برای تمامی شکلک هایی که بات تا به حال دیده و آپلود کردن آنها به این سرور.
-      این دستور به شما اجازه می دهد تا شکلک هایی آپلود کنید.
-      شما همچنین می توانید یک فایل ضمیمه را همراه آن آپلود کنید
+      Search for all the emotes the bot has ever seen and upload them to this server.
+      This command allows you to upload emotes.
+      You can also attach a file to upload it
   export:
     short_doc: استخراج لیست اختصار های شما
   help:

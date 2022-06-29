@@ -16,4 +16,6 @@ discord_bot:
       [پرش به پیام](%{jump_url})
     phish_deleted: |
       پیام تقلبی در %{channel} ارسال شده توسط %{author} حذف شد
+    blocked_message: |
+      Deleted message with blocked emotes in %{channel} by %{author}
     audit_log_post: بات NQN از طرف %{author} (%{id})

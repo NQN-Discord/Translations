@@ -35,6 +35,10 @@ discord_bot:
       description: |
         El nombre de un emoji que NQN pueda usar
         - El emoji cargado o el enlace del emoji
+    BlockedEmoji:
+      name: EmojiBloqueado
+      description: |-
+        El nombre del emoji que está bloqueado en este servidor
     CurrentGuildEmoji:
       name: EmojiDelServidor
       description: |

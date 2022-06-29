@@ -35,6 +35,10 @@ discord_bot:
       description: |
         ایموجی ظاهر نشده‌ای از NQN که می تواند تبدیل شود
         - یک ایموجی ظاهر شده یسکورد یا آدرس URL یک ایموجی
+    BlockedEmoji:
+      name: BlockedEmoji
+      description: |-
+        The name of an emoji that's blocked in this server
     CurrentGuildEmoji:
       name: ایموجی‌سرور
       description: |

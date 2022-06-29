@@ -22,3 +22,10 @@ discord_bot:
         success: "%{emoji} sẽ chỉ được dùng bởi vai trò %{roles}"
       unlock:
         success: "Đã gỡ giới hạn dùng cho %{emoji}"
+      block:
+        success:
+          one: "Blocked emoji"
+          many: "Blocked %{count} emojis"
+      unblock:
+        success: "Unblocked emoji"
+        not_blocked: "Emoji wasn't blocked to start with"

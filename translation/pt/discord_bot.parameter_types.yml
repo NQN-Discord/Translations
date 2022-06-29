@@ -35,6 +35,10 @@ discord_bot:
       description: |
         Um emoji não renderizado NQN pode se transformar
         - Um emoji do discord renderizado ou uma URL de emoji
+    BlockedEmoji:
+      name: BlockedEmoji
+      description: |-
+        The name of an emoji that's blocked in this server
     CurrentGuildEmoji:
       name: ServerEmoji
       description: |

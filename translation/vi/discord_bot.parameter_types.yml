@@ -35,6 +35,10 @@ discord_bot:
       description: |
         Một biểu cảm chưa được hiển thị NQN có thể dùng
         - Một biểu cảm Discord dược hiển thị hoặc link của biểu cảm
+    BlockedEmoji:
+      name: BlockedEmoji
+      description: |-
+        The name of an emoji that's blocked in this server
     CurrentGuildEmoji:
       name: ServerEmoji
       description: |

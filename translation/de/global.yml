@@ -15,6 +15,7 @@ global:
   dm_me: Schreib mir eine PN
   next: Nächste
   previous: Vorherige
+  choose_emote: Choose some emotes
   learn:
     aliases: Erfahre mehr über Aliase
     packs: Erfahre mehr über Packs

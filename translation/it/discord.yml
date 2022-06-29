@@ -15,7 +15,7 @@ discord:
     react_with_x_to_delete: |
       Reagisci con ❌ (\:x:) per eliminare i messaggi ripubblicati!
     user_ignored: |
-      Sarai **IGNORED** quando invierai messaggi che verrebbero normalmente ripubblicati. Per consentire a NQN di ripubblicare i messaggi, esegui:
+      Sarai **IGNORATO** quando invierai messaggi che verrebbero normalmente ripubblicati. Per consentire a NQN di ripubblicare i messaggi, esegui:
       > `%{prefix}ignore_me`
     categories: Categorie
     everything_else: Tutto il resto

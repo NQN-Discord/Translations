@@ -16,4 +16,6 @@ discord_bot:
       [Vai al Messaggio](%{jump_url})
     phish_deleted: |
       Messaggio di phishing eliminato in %{channel} da %{author}
+    blocked_message: |
+      Cancella messaggi con emote bloccate in %{channel} da %{author}
     audit_log_post: NQN per conto di %{author} (%{id})
