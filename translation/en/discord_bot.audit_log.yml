@@ -15,4 +15,6 @@ discord_bot:
       [Jump Link](%{jump_url})
     phish_deleted: |
       Deleted phishing message in %{channel} by %{author}
+    blocked_message: |
+      Deleted message with blocked emotes in %{channel} by %{author}
     audit_log_post: NQN on behalf of %{author} (%{id})
