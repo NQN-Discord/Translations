@@ -61,6 +61,13 @@ command_docs:
       Puoi anche utilizzare la funzionalità di risposta ai messaggi di Discord per modificare quel messaggio.
   emote:
     short_doc: Gestisci le emote del server
+  emote-block:
+    short_doc: Prevents an emoji from being used
+    help: |
+      Search for emojis to block in this server.
+      When this emoji is used, it'll automatically be added to the server's automod list and be removed.
+  emote-block_list:
+    short_doc: View the list of emojis blocked in this server
   emote-info:
     short_doc: Ottieni informazioni su una emote
   emote-lock:
@@ -69,14 +76,16 @@ command_docs:
     short_doc: Rende un'emoji più grande
   emote-stats:
     short_doc: Mostra quanto spesso vengono utilizzate le emote del tuo server
+  emote-unblock:
+    short_doc: Unblock a previously blocked emoji
   emote-unlock:
     short_doc: Permetti a tutti di usare una emoji bloccata
   emote-upload:
     short_doc: Cerca e carica emote in questo server.
     help: |
-      Cerca tutte le emote che il bot ha visto e caricale su questo server.
-      Questo comando ti permette di caricare le emote.
-      Puoi anche allegare un file per caricarlo
+      Search for all the emotes the bot has ever seen and upload them to this server.
+      This command allows you to upload emotes.
+      You can also attach a file to upload it
   export:
     short_doc: Esporta il tuo elenco di emote
   help:
