@@ -17,5 +17,5 @@ discord_bot:
     phish_deleted: |
       Se borró un mensaje malicioso que contenía un enlace phishing en %{channel} de %{author}
     blocked_message: |
-      Deleted message with blocked emotes in %{channel} by %{author}
+      Un mensaje de %{author} que contenía emojis bloqueados fue eliminado en %{channel}
     audit_log_post: NQN por parte de %{author} (%{id})
