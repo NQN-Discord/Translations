@@ -16,4 +16,6 @@ discord_bot:
       [Đến tin nhắn](%{jump_url})
     phish_deleted: |
       Đã xóa tin nhắn lừa đảo trong %{channel} bởi %{author}
+    blocked_message: |
+      Deleted message with blocked emotes in %{channel} by %{author}
     audit_log_post: NQN thay mặt %{author} (%{id})
