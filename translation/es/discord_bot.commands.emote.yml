@@ -22,3 +22,10 @@ discord_bot:
         success: "Se restringió %{emoji} a %{roles}"
       unlock:
         success: "Se liberó %{emoji} del rol"
+      block:
+        success:
+          one: "Blocked emoji"
+          many: "Blocked %{count} emojis"
+      unblock:
+        success: "Unblocked emoji"
+        not_blocked: "Emoji wasn't blocked to start with"
