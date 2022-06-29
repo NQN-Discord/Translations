@@ -22,3 +22,10 @@ discord_bot:
         success: "Ruoli bloccati per %{emoji} a %{roles}"
       unlock:
         success: "Ruoli sbloccati per %{emoji}"
+      block:
+        success:
+          one: "Blocked emoji"
+          many: "Blocked %{count} emojis"
+      unblock:
+        success: "Unblocked emoji"
+        not_blocked: "Emoji wasn't blocked to start with"
