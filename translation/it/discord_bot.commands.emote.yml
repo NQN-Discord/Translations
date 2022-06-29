@@ -28,4 +28,4 @@ discord_bot:
           many: "Bloccate %{count} emoji"
       unblock:
         success: "Emoji sbloccata"
-        not_blocked: "Emoji non era bloccata per iniziare"
+        not_blocked: "L'emoji non era comunque bloccata"
