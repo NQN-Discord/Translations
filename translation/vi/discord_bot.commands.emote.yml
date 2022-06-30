@@ -26,6 +26,13 @@ discord_bot:
         success:
           one: "Đã khóa biểu cảm"
           many: "Đã khóa %{count} biểu cảm"
+        audit:
+          one: |
+            %{author} blocked the following emote:
+          many: |
+            %{author} blocked the following emotes:
       unblock:
         success: "Đã gỡ khóa biểu cảm"
         not_blocked: "Biểu cảm không bị khóa để gỡ khóa"
+        audit: |
+          %{author} unblocked the following emote:
