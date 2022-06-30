@@ -350,6 +350,7 @@ discord_bot:
         author: Autore
         bot_latency: '> API/Latenza Bot: %{bot_latency}ms'
         help_command: 'Comando di aiuto: `%{prefix}help`'
+        refresh: Refresh
       upload_emote:
         own_emojis_dont_ask_again: Sì; io possiedo questi
         alphanumeric: ' - Deve essere alfanumerico con trattini bassi'
