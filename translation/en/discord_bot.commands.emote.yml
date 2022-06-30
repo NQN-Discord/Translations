@@ -17,10 +17,10 @@ discord_bot:
         url: "URL:"
         animated_url: "Animated URL:"
         static_url: "Static URL:"
-      lock:
-        success: "Locked roles for %{emoji} to %{roles}"
 
-      unlock:
+      rolelock:
+        success: "Locked roles for %{emoji} to %{roles}"
+      roleunlock:
         success: "Unlocked roles for %{emoji}"
 
       block:
