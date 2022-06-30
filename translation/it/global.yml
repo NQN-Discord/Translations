@@ -15,6 +15,7 @@ global:
   dm_me: DM Me
   next: Successivo
   previous: Precedente
+  choose_emote: Scegli alcune emote
   learn:
     aliases: Maggiori informazioni sugli alias
     packs: Maggiori informazioni sui pacchetti

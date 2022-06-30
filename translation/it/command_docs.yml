@@ -61,6 +61,13 @@ command_docs:
       Puoi anche utilizzare la funzionalità di risposta ai messaggi di Discord per modificare quel messaggio.
   emote:
     short_doc: Gestisci le emote del server
+  emote-block:
+    short_doc: Impedisci a una emoji di essere usata
+    help: |
+      Cerca emoji da bloccare in questo server.
+      Quando questa emoji viene usata, verrà aggiunta automaticamentevalla lista automod del server e rimossa.
+  emote-block_list:
+    short_doc: Visualizza la lista di emoji bloccate in questo server
   emote-info:
     short_doc: Ottieni informazioni su una emote
   emote-lock:
@@ -69,6 +76,8 @@ command_docs:
     short_doc: Rende un'emoji più grande
   emote-stats:
     short_doc: Mostra quanto spesso vengono utilizzate le emote del tuo server
+  emote-unblock:
+    short_doc: Sblocca una emoji precedentemente bloccata
   emote-unlock:
     short_doc: Permetti a tutti di usare una emoji bloccata
   emote-upload:

@@ -31,10 +31,14 @@ discord_bot:
       description: |
         Đề cập đến một vai trò hoặc tên của nó
     NQNEmoji:
-      name: Biểu cảm NQN
+      name: NQNEmoji
       description: |
         Một biểu cảm chưa được hiển thị NQN có thể dùng
         - Một biểu cảm Discord dược hiển thị hoặc link của biểu cảm
+    BlockedEmoji:
+      name: BlockedEmoji
+      description: |-
+        Tên của biểu cảm mà bạn muốn khóa trong server
     CurrentGuildEmoji:
       name: ServerEmoji
       description: |

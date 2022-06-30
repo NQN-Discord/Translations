@@ -16,4 +16,6 @@ discord_bot:
       [Đến tin nhắn](%{jump_url})
     phish_deleted: |
       Đã xóa tin nhắn lừa đảo trong %{channel} bởi %{author}
+    blocked_message: |
+      Đã xóa tin nhắn của %{author} với biểu cảm bị khóa trong %{channel}
     audit_log_post: NQN thay mặt %{author} (%{id})
