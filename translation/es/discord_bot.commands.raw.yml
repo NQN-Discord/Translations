@@ -353,6 +353,7 @@ discord_bot:
         author: Autor
         bot_latency: '> API/Bot latencia: %{bot_latency}ms'
         help_command: 'Comando de ayuda: `%{prefix}help`'
+        refresh: Refresh
       upload_emote:
         own_emojis_dont_ask_again: Si; Soy dueño de estos
         alphanumeric: ' - Debe ser alfanumérico con guiones bajos'
