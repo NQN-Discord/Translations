@@ -26,6 +26,13 @@ discord_bot:
         success:
           one: "Se bloqueó el emoji"
           many: "Se bloquearon %{count} emojis"
+        audit:
+          one: |
+            %{author} blocked the following emote:
+          many: |
+            %{author} blocked the following emotes:
       unblock:
         success: "Se desbloqueó el emoji"
         not_blocked: "El emoji no se está bloqueado"
+        audit: |
+          %{author} unblocked the following emote:
