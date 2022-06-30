@@ -70,9 +70,9 @@ command_docs:
   emote-jumbo:
     short_doc: یک ایموجی را بزرگ‌تر می‌کند
   emote-rolelock:
-    short_doc: Lock an emoji to a specific set of roles
+    short_doc: قفل کردن استفاده از یک ایموجی به یکسری رول های خاص
   emote-roleunlock:
-    short_doc: Allow anyone to use a locked emote
+    short_doc: اجازه دادن به همه برای استفاده از یک شکلک قفل شده
   emote-stats:
     short_doc: دیدن آمار مربوط به تعداد دفعات استفاده از شکلک ها
   emote-unblock:
