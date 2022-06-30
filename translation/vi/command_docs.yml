@@ -69,16 +69,16 @@ command_docs:
     short_doc: Xem danh sách các biểu cảm bị khóa trong server này
   emote-info:
     short_doc: Lấy thông tin của một biểu cảm
-  emote-lock:
-    short_doc: Giới hạn khả năng sử dụng biểu cảm của vai trò
   emote-jumbo:
     short_doc: Lấy hình ảnh lớn của biểu cảm
+  emote-rolelock:
+    short_doc: Lock an emoji to a specific set of roles
+  emote-roleunlock:
+    short_doc: Allow anyone to use a locked emote
   emote-stats:
     short_doc: Kiểm tra mức sử dụng biểu cảm của server của bạn
   emote-unblock:
     short_doc: Gỡ khóa một biểu cảm bị khóa
-  emote-unlock:
-    short_doc: Cho phép mọi người dùng một biểu cảm bị giới hạn
   emote-upload:
     short_doc: Tìm và tải lên biểu cảm cho server này.
     help: |
