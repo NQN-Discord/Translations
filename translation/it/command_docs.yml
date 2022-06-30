@@ -73,9 +73,9 @@ command_docs:
   emote-jumbo:
     short_doc: Rende un'emoji più grande
   emote-rolelock:
-    short_doc: Lock an emoji to a specific set of roles
+    short_doc: Blocca una emoji a dei ruoli specifici
   emote-roleunlock:
-    short_doc: Allow anyone to use a locked emote
+    short_doc: Permetti a chiunque di usare una emoji bloccata
   emote-stats:
     short_doc: Mostra quanto spesso vengono utilizzate le emote del tuo server
   emote-unblock:
