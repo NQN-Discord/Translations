@@ -70,16 +70,16 @@ command_docs:
     short_doc: Visualizza la lista di emoji bloccate in questo server
   emote-info:
     short_doc: Ottieni informazioni su una emote
-  emote-lock:
-    short_doc: Blocca una emoji a dei ruoli specifici
   emote-jumbo:
     short_doc: Rende un'emoji più grande
+  emote-rolelock:
+    short_doc: Lock an emoji to a specific set of roles
+  emote-roleunlock:
+    short_doc: Allow anyone to use a locked emote
   emote-stats:
     short_doc: Mostra quanto spesso vengono utilizzate le emote del tuo server
   emote-unblock:
     short_doc: Sblocca una emoji precedentemente bloccata
-  emote-unlock:
-    short_doc: Permetti a tutti di usare una emoji bloccata
   emote-upload:
     short_doc: Cerca e carica emote in questo server.
     help: |
