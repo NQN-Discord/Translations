@@ -329,6 +329,7 @@ discord_bot:
         author: Автор
         bot_latency: '> API/Задержка бота: %{bot_latency}ms'
         help_command: 'Команда помощи: `%{prefix}help`'
+        refresh: Refresh
       upload_emote:
         own_emojis_dont_ask_again: Да; Я владею ими
         alphanumeric: ' - Должен быть буквенно-цифровым с подчеркиванием'
