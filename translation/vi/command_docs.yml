@@ -72,9 +72,9 @@ command_docs:
   emote-jumbo:
     short_doc: Lấy hình ảnh lớn của biểu cảm
   emote-rolelock:
-    short_doc: Lock an emoji to a specific set of roles
+    short_doc: Giới hạn khả năng sử dụng biểu cảm của vai trò
   emote-roleunlock:
-    short_doc: Allow anyone to use a locked emote
+    short_doc: Cho phép mọi người dùng một biểu cảm bị giới hạn
   emote-stats:
     short_doc: Kiểm tra mức sử dụng biểu cảm của server của bạn
   emote-unblock:
