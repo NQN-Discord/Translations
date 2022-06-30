@@ -352,6 +352,7 @@ discord_bot:
         author: ایجاد کننده
         bot_latency: '> تاخیر API/Bot: %{bot_latency} میلی ثانیه'
         help_command: 'دستور راهنما: ‎`%{prefix}help`'
+        refresh: Refresh
       upload_emote:
         own_emojis_dont_ask_again: بله; من دارنده این ایموجی ها هستم
         alphanumeric: ' - بایستی متشکل از حروف الفبا با زیروندها (_) باشد'
