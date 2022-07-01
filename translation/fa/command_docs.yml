@@ -67,16 +67,16 @@ command_docs:
     short_doc: View the list of emojis blocked in this server
   emote-info:
     short_doc: دریافت اطلاعات درباره یک شکلک
-  emote-lock:
-    short_doc: قفل کردن استفاده از یک ایموجی به یکسری رول های خاص
   emote-jumbo:
     short_doc: یک ایموجی را بزرگ‌تر می‌کند
+  emote-rolelock:
+    short_doc: قفل کردن استفاده از یک ایموجی به یکسری رول های خاص
+  emote-roleunlock:
+    short_doc: اجازه دادن به همه برای استفاده از یک شکلک قفل شده
   emote-stats:
     short_doc: دیدن آمار مربوط به تعداد دفعات استفاده از شکلک ها
   emote-unblock:
     short_doc: Unblock a previously blocked emoji
-  emote-unlock:
-    short_doc: اجازه دادن به همه برای استفاده از یک شکلک قفل شده
   emote-upload:
     short_doc: جستجو برای یک شکلک و آپلود آن به سرور
     help: |

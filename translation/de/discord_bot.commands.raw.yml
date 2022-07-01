@@ -350,6 +350,7 @@ discord_bot:
         author: Autor
         bot_latency: '> API/Bot Latency: %{bot_latency}ms'
         help_command: 'Hilfe-Befehl: `%{prefix}help`'
+        refresh: Refresh
       upload_emote:
         own_emojis_dont_ask_again: Ja, sie gehören mir
         alphanumeric: ' - Muss alphanumerisch mit Unterstrichen sein'

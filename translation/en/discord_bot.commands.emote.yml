@@ -17,17 +17,24 @@ discord_bot:
         url: "URL:"
         animated_url: "Animated URL:"
         static_url: "Static URL:"
-      lock:
-        success: "Locked roles for %{emoji} to %{roles}"
 
-      unlock:
+      rolelock:
+        success: "Locked roles for %{emoji} to %{roles}"
+      roleunlock:
         success: "Unlocked roles for %{emoji}"
 
       block:
         success:
           one: "Blocked emoji"
           many: "Blocked %{count} emojis"
+        audit:
+          one: |
+            %{author} blocked the following emote:
+          many: |
+            %{author} blocked the following emotes:
 
       unblock:
         success: "Unblocked emoji"
         not_blocked: "Emoji wasn't blocked to start with"
+        audit: |
+          %{author} unblocked the following emote:
