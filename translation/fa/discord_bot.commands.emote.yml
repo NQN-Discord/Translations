@@ -24,15 +24,15 @@ discord_bot:
         success: "استفاده از ‎%{emoji} برای همه نقش ها آزاد شد"
       block:
         success:
-          one: "Blocked emoji"
-          many: "Blocked %{count} emojis"
+          one: "ایموجی بلاک شد"
+          many: "%{count} ایموجی بلاک شد"
         audit:
           one: |
-            %{author} blocked the following emote:
+            شکلک زیر برای استفاده کردن توسط ‎ %{author}بلاک شدند:
           many: |
-            %{author} blocked the following emotes:
+            شکلک های زیر برای استفاده کردن توسط ‎ %{author}بلاک شدند:
       unblock:
-        success: "Unblocked emoji"
-        not_blocked: "Emoji wasn't blocked to start with"
+        success: "ایموجی آنبلاک شد"
+        not_blocked: "این ایموجی از همان اول هم بلاک نشده بود"
         audit: |
-          %{author} unblocked the following emote:
+          شکلک زیر برای استفاده کردن توسط ‎ %{author}آنبلاک شدند:

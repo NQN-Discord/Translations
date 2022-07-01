@@ -348,7 +348,7 @@ discord_bot:
         author: Tác giả
         bot_latency: '> Độ trễ của API/bot: %{bot_latency}ms'
         help_command: 'Lệnh trợ giúp: `%{prefix}help`'
-        refresh: Refresh
+        refresh: Làm mới
       upload_emote:
         own_emojis_dont_ask_again: Đúng vậy; tôi sỡ hữu chúng
         alphanumeric: ' - Phải là chữ cái và số với dấu gạch dưới'
