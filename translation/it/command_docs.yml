@@ -9,13 +9,13 @@ command_docs:
   alias-dm:
     short_doc: Ottieni un elenco completo dei tuoi alias nei DM
     help: |
-      Il bot invia un elenco dei tuoi alias nei DM
+      Il bot ti invia un elenco dei tuoi alias nei DM
   alias-export:
     short_doc: Esporta il tuo elenco di alias
   alias-import:
     short_doc: Importa l'elenco alias di qualcun altro
   alias-list:
-    short_doc: Ottieni un elenco di alias che hai creato
+    short_doc: Ottieni l'elenco di alias che hai creato
   alias-rename:
     short_doc: Rinomina uno dei tuoi alias
   alias-search:
@@ -34,7 +34,7 @@ command_docs:
       Gestisci le singole emote che puoi usare
 
       La ricerca di NQN permette alcune funzionalità avanzate:
-       - `exact`: (predefinito falso) mostra solo le emote con il nome esatto come cercato
+       - `exact`: (predefinito falso) mostra solo le emote con il nome cercato
        - `animated`: mostra solo le emote animate o statiche
        - `page`: passa a una certa pagina
        - `order`: uno di 'usi', 'casuale'
@@ -65,9 +65,9 @@ command_docs:
     short_doc: Impedisci a una emoji di essere usata
     help: |
       Cerca emoji da bloccare in questo server.
-      Quando questa emoji viene usata, verrà aggiunta automaticamentevalla lista automod del server e rimossa.
+      Quando questa emoji viene usata, verrà aggiunta automaticamente alla lista automod del server e rimossa.
   emote-block_list:
-    short_doc: Visualizza la lista di emoji bloccate in questo server
+    short_doc: Visualizza la lista delle emoji bloccate in questo server
   emote-info:
     short_doc: Ottieni informazioni su una emote
   emote-jumbo:
