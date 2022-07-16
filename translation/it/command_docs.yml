@@ -7,9 +7,9 @@ command_docs:
     help: |
       Elimina tutti i tuoi alias
   alias-dm:
-    short_doc: Ottieni un elenco completo dei tuoi alias in DM
+    short_doc: Ottieni un elenco completo dei tuoi alias nei DM
     help: |
-      Il bot invia un elenco dei tuoi alias nei tuoi DM
+      Il bot invia un elenco dei tuoi alias nei DM
   alias-export:
     short_doc: Esporta il tuo elenco di alias
   alias-import:
@@ -24,7 +24,7 @@ command_docs:
       Cerca le singole emote da usare con NQN
 
       La ricerca di NQN permette alcune funzionalità avanzate:
-       - `exact`: (predefinito falso) mostra solo le emote con il nome esatto come cercato
+       - `exact`: (predefinito falso) mostra solo le emote con il nome cercato
        - `animated`: mostra solo le emote animate o statiche
        - `page`: passa a una pagina scelta
        - `order`: uno di 'usi', 'casuale'
