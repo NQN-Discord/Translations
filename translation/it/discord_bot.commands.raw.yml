@@ -93,7 +93,7 @@ discord_bot:
           > `%{prefix}server language`
         page_0_0_name: Altre Emote?
         page_0_0_desc: |
-          Tutti sono in grado di utilizzare qualsiasi emote che condivide un server con te e con questo bot.
+          Chiunque è in grado di utilizzare qualsiasi emote che condivide un server con te e con questo bot.
           **Ci sono diversi altri modi per utilizzare le emote nei server in cui non sei dentro:**
         page_0_1_name: "3\u20E3 Pacchetti Emote - Bundle Emote"
         page_0_1_desc: '> `%{prefix}pack search`'
