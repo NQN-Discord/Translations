@@ -98,11 +98,11 @@ discord_bot:
         page_0_1_name: "3\u20E3 Pacchetti Emote - Bundle Emote"
         page_0_1_desc: '> `%{prefix}pack search`'
         page_0_2_name: "4\u20E3 Alias - Emote Individuali"
-        page_0_2_desc: '> `%{prefix}alias search Nome Emote`'
+        page_0_2_desc: '> `%{prefix}alias search NomeEmote`'
         page_1_title: Reazioni
         page_1_desc: Puoi reagire solo con le emote che puoi usare con NQN.
         page_1_0_name: 'Reagire al messaggio più recente:'
-        page_1_0_desc: '> `%{prefix}react Nome Emote`'
+        page_1_0_desc: '> `%{prefix}react NomeEmote`'
         page_1_1_name: 'Reagire a un messaggio nello stesso canale:'
         page_1_1_desc: '> `%{prefix}react NomeEmote` (Rispondendo al messaggio a cui vuoi aggiungere la reazione)'
         page_1_2_name: 'Reagire ai messaggi recenti:'
