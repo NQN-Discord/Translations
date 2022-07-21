@@ -7,7 +7,7 @@ command_docs:
     help: |
       Elimina tutti i tuoi alias
   alias-dm:
-    short_doc: Ottieni un elenco completo dei tuoi alias nei DM
+    short_doc: Ottieni l'elenco completo dei tuoi alias nei DM
     help: |
       Il bot ti invia un elenco dei tuoi alias nei DM
   alias-export:
@@ -134,7 +134,7 @@ command_docs:
   owner:
     short_doc: Cose proibite stanno qua dentro
   pack-dm:
-    short_doc: Ottieni un elenco completo dei tuoi pacchetti in DM
+    short_doc: Ottieni l'elenco completo dei tuoi pacchetti nei DM
     help: |
       Il bot ti invierá un elenco completo delle emoji attuali dei tuoi pacchetti attraverso i tuoi DM.
   pack-join:
