@@ -1,64 +1,64 @@
 ---
 exceptions:
   command_not_found: |
-    Command "%{command}" was not found.
-    Use `%{prefix}help` to see the command list
+    कमांड "%{command}" नहीं मिली
+    कमांड सूची देखने के लिए उपयोग करें `%{prefix}help`
   missing_required_argument:
     one: |-
-      "%{param}" is a required argument that is missing.
-      It should be: %{should_be}
+      "%{param}" एक जरूरी आर्गुमेंट है जो की गायब है।
+      यह होना चाहिए: %{should_be}
     many: |
-      "%{param}" is a required argument that is missing.
-      It should be one of:
+      "%{param}" एक जरूरी आर्गुमेंट है जो की गायब है।
+      यह इनमे से एक होना चाहिए:
       - %{should_be}
   bot_missing_permissions:
     one: |
-      %{bot_ping} is missing the following permission required to run this command:
+      %{bot_ping} के पास यह कमांड चलने के लिए निम्नलिखित अनुमति नही है:
       %{permissions_missing}
     many: |
-      %{bot_ping} is missing the following permissions required to run this command:
+      %{bot_ping} के पास यह कमांड चलने के लिए निम्नलिखित अनुमतियाँ नही है:
       %{permissions_missing}
   user_missing_permissions:
     one: |
-      You are missing the following permission required to run this command:
+      इस कमांड को चलाने के चलिए आपके पास निम्नलिखित अनुमति नही है:
       %{permissions_missing}
     many: |
-      You are missing the following permissions required to run this command:
+      इस कमांड को चलाने के चलिए आपके पास निम्नलिखित अनुमतियां नहीं है:
       %{permissions_missing}
   everyone_missing_permissions:
     one: |
-      The @everyone role is missing the following permission required to run this command:
+      इस कमांड को चलाने के लिए लिए @everyone रोल के पास निम्नलिखित अनुमति नही है:
       %{permissions_missing}
     many: |
-      The @everyone role is missing the following permissions required to run this command:
+      इस कमांड को चलाने के लिए लिए @everyone रोल के पास निम्नलिखित अनुमतियां नही है:
       %{permissions_missing}
   message_not_found: |
-    Message "%{param}" not found.
+    सन्देश "%{param}" नही मिला।
   channel_not_found: |
-    Channel "%{channel}" not found.
+    चैनल "%{channel}" नही मिला।
   channel_not_readable: |
-    %{bot_ping} is missing the following permission in %{channel}:
+    %{bot_ping} के पास %{channel} में निम्नलिखित अनुमति नही है:
     %{permissions_missing}
   bad_argument:
     one: |
-      Could not interpret argument%{param}; should be:
+      आर्गुमेंट %{param} की व्याख्या नहीं कर सका; यह होना चाहिए:
     many: |
-      Could not interpret argument%{param}, should be one of:
+      आर्गुमेंट %{param} की व्याख्या नहीं कर सका; इनमे से एक होना चाहिए:
   no_dms: |
-    This command cannot be ran in DMs
+    यह कमांड DM में नहीं चलायी जा सकती
   permissions_missing_reasons:
     #These translations were designed to be short, and to fit on about 1 line on a mobile screen
     guild: |-
-      %{user_ping}'s roles don't include it
+      %{user_ping} के रोल में शामिल नही
     member_overwrite: |-
-      Channel permissions explicitly deny %{user_ping}
+      चैनल अनुमतियाँ स्पष्ट रूप से %{user_ping} को अस्वीकारती हैं
     role_overwrite:
       one: |-
-        Channel permissions denied for the role: %{roles}
+        इस रोल के लिए चैनल की अनुमतियाँ अस्वीकार कर दी गयी: %{roles}
       many: |-
-        Channel permissions denied for these roles: %{roles}
+        इस रोल के लिए चैनल की अनुमतियाँ अस्वीकार कर दी गयी: %{roles}
     member_role_overwrite:
       one: |-
-        Channel permissions explicitly deny %{user_ping} as well as role: %{roles}
+        चैनल अनुमतियाँ स्पष्ट रूप से %{user_ping} और इस रोल को अस्वीकारती हैं: %{roles}
       many: |-
-        Channel permissions explicitly deny %{user_ping} as well as roles: %{roles}
+        चैनल अनुमतियाँ स्पष्ट रूप से %{user_ping} और इस रोल को अस्वीकारती हैं: %{roles}
