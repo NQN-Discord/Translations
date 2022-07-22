@@ -8,71 +8,70 @@ global:
   cancelled: रद्द किया गया
   website: वेबसाइट
   details: विवरण
-  fix_permissions: Fix Permissions
-  success: Success
+  fix_permissions: सही अनुमतियाँ
+  success: सफल
   yes: Yes
   no: No
-  dm_me: DM Me
-  next: Next
-  previous: Previous
-  choose_emote: Choose some emotes
+  dm_me: मुझे DM करें
+  next: अगला
+  previous: पिछला
+  choose_emote: कुछ ईमोट चुनें
   learn:
-    aliases: Learn more about aliases
-    packs: Learn more about packs
-    my_emotes: Find emojis I can use
-    personas: Learn more about personas
-  missing_permissions: Missing Permissions
-  missing_add_reaction: I need the 'Add Reactions' permission for this command!
-  missing_create_invite: I need the 'Create Instant Invite' permission for this command!
-  everyone_external: The @everyone role needs 'Use External Emojis'
-  tabulated_delete_manage_messages: Could not delete menu - please give me Manage Messages
-  no_nitro_global: Nitro usage has been disabled in this server!
-  no_nitro_role: Only users with the <@&%{role}> role can use this command!
-  user_missing_administrator: You are missing the 'Administrator' permission to run this command.
-  user_missing_add_reaction: You are missing the 'Add Reactions' permission to run this command.
+    aliases: उपनामों के बारे में और जानें
+    packs: पैक के बारे में और जानें
+    my_emotes: ऐसे इमोजी ढूंढे जिनका में इस्तेमाल कर सकता हूँ
+    personas: पहचानों के बारे में और जानें
+  missing_permissions: गायब अनुमतियाँ
+  missing_add_reaction: इस कमांड के लिए मुझे 'प्रतिक्रिया जोड़ें' अनुमति की जरुरत है!
+  missing_create_invite: इस कमांड के लिए मुझे 'तुरंत आमंत्रण बनायें' अनुमति की जरुरत है!
+  everyone_external: '@everyone रोल को ''बाहरी इमोजी इस्तेमाल करें'' अनुमति की जरुरत है'
+  tabulated_delete_manage_messages: मेनू को हटा नहीं सका - कृपया मुझे सन्देश प्रबंधन अनुमति दें
+  no_nitro_global: इस में सर्वर नाइट्रो का इस्तेमाल अक्षम है!
+  no_nitro_role: केवल <@&%{role}> रोल वाले उपयोगकर्ता इस कमांड का उपयोग कर सकते हैं!
+  user_missing_administrator: इस कमांड को चलाने के लिए आपके पास 'व्यवस्थापक' अनुमति नही है।
+  user_missing_add_reaction: इस कमांड को चलाने के लिए आपको 'प्रतिक्रिया जोड़ें' अनुमति की जरुरत है।
   tabulated_default_results:
-    one: "%{count} result (Page %{page_no} of %{total}):\n%{contents}"
-    many: "%{count} results (Page %{page_no} of %{total}):\n%{contents}"
+    one: "%{count} परिणाम (पृष्ठ %{page_no} of %{total}):\n%{contents}"
+    many: "%{count} परिणाम (पृष्ठ %{page_no} of %{total}):\n%{contents}"
   tabulated_results_page:
-    zero: No emotes found
-    one: Page %{page_no} of %{total}%{note}
-    many: Page %{page_no} of %{total}%{note}
-  page_no: 'Page %{page} of %{total}:'
-  no_results: No results
-  loading: <a:loading:674758249291186191> Processing...
-  timed_out: Timed out - try again
-  global_check_failed: You are not allowed to use %{cmd_name}
+    zero: कोई ईमोट नहीं मिली
+    one: पृष्ठ %{page_no} का %{total}%{note}
+    many: पृष्ठ %{page_no} का %{total}%{note}
+  page_no: 'पृष्ठ %{page} का %{total}:'
+  no_results: कोई परिणाम नहीं
+  loading: <a:loading:674758249291186191> प्रसंस्करण...
+  timed_out: समय बीत गया - पुनः प्रयास करें
+  global_check_failed: आपको %{cmd_name} इस्तेमाल करने की अनुमति नही है
   requires_user_content: |
-    User content is not allowed in this server.
+    इस सर्वर में उपयोगकर्ता सामग्री की अनुमति नही है।
   requires_user_content_admin: |
-    User content is not allowed in this server. You can allow it with
+    इस सर्वर में उपयोगकर्ता सामग्री की अनुमति नही है। आप इसके साथ इसे अनुमत कर सकते हैं
     > ```%{prefix}server user_content on```
   error_message: |
-    An error occurred whilst processing your command. It may not have completed correctly.
-    For help, and to report this as an issue, please join the testing server for this bot:
+    आपकी कमांड को प्रसंस्कृत करते समय एक त्रुटि हुई। हो सकता है यह सही ढंग से पूर्ण नही हुई हो।
+    मदद के लिए, और इसे के गड़बड़ी के रूप में सूचना देने के लिए, कृपया इस बॉट का टेस्टिंग सर्वर जॉइन कीजिये:
     https://discord.gg/mv8RbHD
 
-    Error code: `%{event_id}`
+    त्रुटि कोड: `%{event_id}`
   user_abused: |
-    The bot owner or global moderators have blocked you from using this bot due to previous abuse.
-    You cannot use any commands or otherwise make use of the bot's functionality.
+    पिछले दुर्व्यवहार के कारण बॉट के मालिक या वैश्विक मॉडरेटर ने आपको इस बॉट का उपयोग करने से रोक दिया है। आप किसी भी कमांड का उपयोग नहीं कर सकते हैं या अन्यथा बॉट की कार्यक्षमता का उपयोग नहीं कर सकते हैं।
   user_spammed: |
-    You have been temporarily blocked from using NQN for triggering our automated spam detection system.
-    This message will only be sent at most once a day, and there is no way to appeal this block.
+    हमारे स्वचालित स्पैम डिटेक्शन सिस्टम को ट्रिगर करने के लिए आपको अस्थायी रूप से NQN का उपयोग करने से रोक दिया गया है।
+    यह संदेश दिन में अधिकतम एक बार ही भेजा जाएगा, और इस प्रतिबन्ध के खिलाफ अपील करने का कोई तरीका नहीं है।
 
-    You will be unblocked in under **5 minutes** from now.
+    आप **5 मिनट** के अंदर अनब्लॉक कर दिए जाओगे।
   support_server: |
-    You can join my support server here:
+    आप मेरे सहायता सर्वर में शामिल हो सकते हैं:
     http://discord.gg/XvzDPca
-    You can report bugs, request new features or ask for clarifications on how to use me.
+    आप कमियों की सूचना दे सकते हैं, नए फीचर का अनुरदोह कर सकते हैं या फिर मुझे इस्तेमाल करने के बारे में स्पष्टीकरण ले सकते हैं।
   premium_required: |
-    To do this, you need to be a subscriber to NQN's Patreon: https://www.patreon.com/NQN
+    यह करने के लिए, आपको NQN के Patreon की सदस्यता लेनी होगी: https://www.patreon.com/NQN
   invite_bad_perms:
     title: |
-      Hi, thanks for inviting NQN to %{guild_name}!
+      नमस्ते, मुझे %{guild_name} में आमंत्रित करने के लिए धन्यवाद!
     content: |
-      We've looked around and found that we don't quite have all the permissions we need to function properly though.
-      To fix this so you can properly use the bot, a link's been generated which will give all the relevent permissions to the bot:
+      हमने देखा है और पाया कि सही से कार्य करने के लिए हमारे पास कम अनुमतियाँ हैं।
+      इसे सही कर बॉट को सही तरीके से उपयोग करने के लिए, एक लिंक तैयार की गयी है जो बॉट को सभी आवश्यक अनुमतियाँ देगी:
 
-      **[Fix Permissions](%{invite_url})**
-  webhook_limit: Webhook limit reached! Cannot run in this channel!
+      **अनुमतियाँ सही करें](%{invite_url})**
+  webhook_limit: वेबहुक सीमा पूरी हो गयी! इस चैनल में नही चला सकते!
