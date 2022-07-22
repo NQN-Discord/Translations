@@ -1,21 +1,21 @@
 ---
 discord_bot:
   audit_log:
-    cropped: (Cropped)
-    nsfw_censored: <Censored; %{channel} is NSFW>
+    cropped: (काटा गया)
+    nsfw_censored: <छिपाया; %{channel} NSFW है>
     message_posted: |
-      Message posted in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      %{channel} में %{author}%{cropped} द्वारा सन्देश भेजा गया
+      [जम्प लिंक](%{jump_url})
     message_posted_persona: |
-      Message posted in %{channel} by %{author} %{cropped}
-      ⚠️ Using Persona ⚠️
+      %{channel} में %{author}%{cropped} द्वारा सन्देश भेजा गया
+      ⚠️ चरित्र उपयोग करना ⚠️
       > **%{persona}**
-      [Jump Link](%{jump_url})
+      [जम्प लिंक](%{jump_url})
     message_edited: |
-      Message edited in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      %{channel} में %{author}%{cropped} द्वारा सन्देश सम्पादित किया गया
+      [जम्प लिंक](%{jump_url})
     phish_deleted: |
-      Deleted phishing message in %{channel} by %{author}
+      %{channel} में %{author} द्वारा भेजा गया फिशिंग सन्देश हटा दिया
     blocked_message: |
-      Deleted message with blocked emotes in %{channel} by %{author}
-    audit_log_post: NQN on behalf of %{author} (%{id})
+      %{channel} में %{author} द्वारा बंद की गयी ईमोट का मैसेज हटा दिया
+    audit_log_post: '%{author} (%{id}) की और से NQN'
