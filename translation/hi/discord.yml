@@ -29,9 +29,9 @@ discord:
     bfd_vote: '[Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) पर मुझे वोट करना हमारी दृश्यता बढ़ता है। मेरा ईमोट डेटाबेस, मेरे प्रत्येक सर्वर में शामिल होने के साथ बड़ा हो जाता है।'
     what_is: Not Quite Nitro क्या है?
     bot_description: |
-      Not Quite Nitro is a multipurpose utility bot which allows any user to use Nitro emotes.
-      We have an extremely large database of visually unique emotes which you can use in any server the bot is in with Manage Webhook permissions.
+      Not Quite Nitro एक बहुउद्देशीय उपयोगी बॉट है जो किसी भी उपयोगकर्ता को नाइट्रो ईमोट उपयोग करने की अनुमति देता है।
+      हमारे पास विजुअली अद्वितीय ईमोटों का एक बहुत बड़ा डेटाबेस है जिनका उपयोग आप किसी भी सर्वर में कर सकते हैं जिसमे बॉट वेबहुक प्रबंधित करने की अनुमति के साथ है।
 
-      NQN also allows automatic quoting whenever a user posts a message link, the use of masked urls in chat and stickers, which are full size emotes.
+      NQN जब भी कोई उपयोगकर्ता संदेश लिंक पोस्ट करता है, चैट और स्टिकर में छिपे हुए यूआरएल का उपयोग, जो पूर्ण आकार के ईमोट हैं, के स्वचालित उद्धरण की अनुमति देता है।
 
-      You can invite me [to your server](https://discord.com/api/oauth2/authorize?%{params}).
+      [आप मुझे अपने सर्वर](https://discord.com/api/oauth2/authorize?%{params}) में आमंत्रित कर सकते हैं।
