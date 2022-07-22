@@ -3,17 +3,17 @@ discord_bot:
   commands:
     pack:
       buttons:
-        add_to_everyone: Add to @everyone
-        join_pack: Join Pack
-        leave_pack: Leave Pack
-        join_server: Join Server
-        all: Save All
+        add_to_everyone: '@everyone में जोड़ें'
+        join_pack: पैक में शामिल हों
+        leave_pack: पैक छोड़ें
+        join_server: सर्वर में शामिल हों
+        all: सभी सहेजें
       join:
         no_pack: '%{name} एक पंजीकृत इमोट पैक नहीं है'
         already_joined: आप पहले से  %{name} ही शामिल हैं
         joined_pack: |
-          Joined %{name}.
-          You may now use the following emotes by typing its name into chat, including colons:
+          %{name} में शामिल हुए।
+          आप निम्नलिखित ईमोट को चैट में उनका नाम लिख कर उपयोग कर सकते हैं, अपूर्ण विराम सहित:
       leave:
         no_pack: '%{name} एक पंजीकृत इमोट पैक नहीं है'
         already_left: आप %{name} पैक में थे ही नहीं
@@ -27,7 +27,7 @@ discord_bot:
         already_exists: '%{name} नामक एक एमोट पैक पहले से ही मौजूद है'
         published: '%{name} इमोजी पैक प्रकाशित किया।  कोई भी इन इमोजीस को अपने स्वयं के सर्वर में सहेजने में सक्षम है, और आप दावा करते हैं कि आप इन इमोजी के मालिक हैं। इसे पूर्ववत करने के लिए, चलाएं `%{prefix}pack unpublish`.'
         pack_published: |
-          To gain access to all these emotes, run
+          इन सभी इमोटों तक पहुँच पाने के लिए, लिखिए
           >>> !pack join %{name}
       rename:
         already_exists: '%{name} नामक एक एमोट पैक पहले से ही मौजूद है'
@@ -59,8 +59,8 @@ discord_bot:
       dm:
         send_dms:
           zero: |
-            You have no packs!
-            Get some with `%{prefix}pack search`
+            आपके पास कोई पैक नहीं हैं!
+            `%{prefix}pack search` के माध्यम से कुछ प्राप्त करिये
           one: |
             This will send you a direct message; do you wish to continue?
           many: |
