@@ -16,9 +16,9 @@ discord_bot:
             अधिक एलीयेसीस के लिए, कोई भी बॉट के लिए मतदान कर सकता है %{url}
         failed_aliases:
           one: |
-            One alias which cannot be rendered
+            एक उपनाम जिसे रेंडर नहीं किया जा सकता
           many: |
-            %{failed_aliases} aliases which cannot be rendered
+            %{failed_aliases} उपनाम जो रेंडर नहीं किये जा सकते
         max_title: यह सर्वर पहले से ही अधिकतम इमोजी / पैक काउंट पर है!
         max_description: |
           \\:%{name}: सर्वर इमोट के रूप में नहीं जोड़ा गया था।
@@ -26,7 +26,7 @@ discord_bot:
           अधिक एलीयेसीस के लिए, कोई भी बॉट के लिए मतदान कर सकता है %{url}
         no_alias: इस सर्वर मैं %{name} नाम का कोई एलीयस नहीं हैं
         renamed: 'नाम इसे  बदलकर \:%{old}:यह करदिया :%{new}:'
-        no_aliases: This server has no global aliases
+        no_aliases: इस सर्वर के पास कोई वैश्विक उपनाम नहीं हैं
       nitro_role:
         unset: Anyone in this server can use free Nitro emotes with NQN
         set: Now only users with the %{role} role can use free Nitro emotes with NQN
