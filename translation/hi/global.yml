@@ -1,13 +1,13 @@
 ---
 global:
-  deleted_channel: '#DeletedChannel'
-  author: Author
-  jump_to_message: Jump
-  go_to_message: Go to message!
-  reply_to: 'Reply to:'
-  cancelled: Cancelled
-  website: Website
-  details: Details
+  deleted_channel: '#हटाया-गया-चैनल'
+  author: लेखक
+  jump_to_message: जाएँ
+  go_to_message: सन्देश पर जाएँ!
+  reply_to: 'को उत्तर दें:'
+  cancelled: रद्द किया गया
+  website: वेबसाइट
+  details: विवरण
   fix_permissions: Fix Permissions
   success: Success
   yes: Yes
