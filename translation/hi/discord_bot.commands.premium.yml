@@ -2,7 +2,7 @@
 discord_bot:
   commands:
     premium:
-      get_premium: Get NQN Premium
+      get_premium: NQN प्रीमियम पाएं
       premium_description: |
         Whilst NQN is primarily a free bot, we have some premium only features to help support development.
         If you want to help out, you can subscribe to the bot's Patreon: https://www.patreon.com/NQN
