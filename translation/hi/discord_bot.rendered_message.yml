@@ -1,17 +1,17 @@
 ---
 discord_bot:
   rendered_message:
-    oops: Oops!
+    oops: ऊप्स!
     external_emojis: |
-      In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Server Settings**.
+      अन्य सर्वेरों के इमोजी इस्तेमाल करने के लिए, @everyone रोल को **सर्वर सेटिंग** में 'बाह्य इमोजी इस्तेमाल करें' अनुमति की जरुरत है।
     override_external_emojis: |
-      In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
-    download: Download
+      अन्य सर्वेरों के इमोजी इस्तेमाल करने के लिए, @everyone रोल को **चैनल सेटिंग अनुमतियों** में 'बाह्य इमोजी इस्तेमाल करें' अनुमति की जरुरत है।
+    download: डाउनलोड करें
     no_personas: |
-      Personas are not allowed in this server
+      इस सर्वर में पहचानें अनुमत नहीं हैं
     no_messageless_posting: |
-      A server administrator has disabled posting through the web dashboard and slash commands
+      एक सर्वर व्यवस्थापक ने वेब डैशबोर्ड और स्लैश कमांड के जरिये पोस्टिंग बंद कर दी है
     no_slowmode_posting: |
-      Posting messages in channels with a slowmode is not allowed
-    enable_posting: Enable Posting
-    posted_message: Posted message
+      स्लोमोड वाले चैनल में सन्देश भेजने की अनुमति नही है
+    enable_posting: पोस्टिंग सक्षम करें
+    posted_message: पोस्ट हुआ सन्देश
