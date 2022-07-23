@@ -11,62 +11,62 @@ permissions:
   change_nickname: |-
     उपनाम बदलें
   connect: |-
-    Connect
+    जुड़ें
   create_instant_invite: |-
-    Create Instant Invite
+    तुरंत आमंत्रण बनायें
   deafen_members: |-
-    Deafen Members
+    सदस्य ध्वनि रोकें
   embed_links: |-
-    Embed Links
+    लिंक एम्बेड करें
   external_emojis: |-
-    External Emojis
+    बाह्य इमोजी
   kick_members: |-
-    Kick Members
+    सदस्य निकालें
   manage_channels: |-
-    Manage Channels
+    चैनल प्रबंधन
   manage_emojis: |-
-    Manage Emojis
+    इमोजी प्रबंधन
   manage_guild: |-
-    Manage Server
+    सर्वर प्रबंधन
   manage_messages: |-
-    Manage Messages
+    सन्देश प्रबंधन
   manage_nicknames: |-
-    Manage Nicknames
+    उपनाम प्रबंधन
   manage_permissions: |-
-    Manage Roles
+    रोल प्रबंधन
   manage_roles: |-
-    Manage Roles
+    रोल प्रबंधन
   manage_webhooks: |-
-    Manage Webhooks
+    वेबहुक प्रबंधन
   mention_everyone: |-
-    Mention Everyone
+    सभी को मेंशन
   move_members: |-
-    Move Members
+    सदस्य स्थानांतरण
   mute_members: |-
-    Mute Members
+    सदस्य मूक करें
   priority_speaker: |-
-    Priority Speaker
+    प्राथमिक वक्ता
   read_message_history: |-
-    Read Message History
+    सन्देश इतिहास पढ़ें
   read_messages: |-
-    Read Messages
+    सन्देश पढ़ें
   send_messages: |-
-    Send Messages
+    सन्देश भेजें
   send_tts_messages: |-
-    Send TTS Messages
+    TTS सन्देश भेजें
   speak: |-
-    Speak
+    बोलें
   stream: |-
-    Stream
+    स्ट्रीम करें
   use_external_emojis: |-
-    Use External Emojis
+    बाह्य इमोजी उपयोग करें
   use_public_threads: |-
-    Use Public Threads
+    सार्वजनिक थ्रेड उपयोग करें
   use_voice_activation: |-
-    Use Voice Activation
+    आवाज़ सक्रियण का प्रयोग करें
   view_audit_log: |-
-    View Audit Log
+    ऑडिट लेखा देखें
   view_channel: |-
-    View Channel
+    चैनल देखें
   view_guild_insights: |-
-    View Server Insights
+    सर्वर अंतर्दृष्टि देखें
