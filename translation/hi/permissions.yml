@@ -1,15 +1,15 @@
 ---
 permissions:
   add_reactions: |-
-    Add Reactions
+    प्रतिक्रिया जोड़ें
   administrator: |-
-    Administrator
+    व्यवस्थापक
   attach_files: |-
-    Attach Files
+    फाइल सलंग्न करें
   ban_members: |-
-    Ban Members
+    सदस्य प्रतिबंधित करें
   change_nickname: |-
-    Change Nickname
+    उपनाम बदलें
   connect: |-
     Connect
   create_instant_invite: |-
