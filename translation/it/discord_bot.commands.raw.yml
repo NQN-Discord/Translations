@@ -342,7 +342,7 @@ discord_bot:
           > <:AliJoon:975010805328281630> AliJoon
         bot_stats: Statistiche Del Bot Discord
         shard_info_name: Info Frammento
-        process_data_name: Dati Processo Bot
+        process_data_name: Dati processo bot
         elasticsearch_data_name: Dati Elasticsearch
         package_info_name: Informazioni pacchetto
         bot_metadata_name: Bot Metadata
