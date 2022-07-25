@@ -11,13 +11,13 @@ discord_bot:
 
             इस ईमोट कोई भी यह लिखकर इस्तेमाल कर सकता है:
           one: |
-            इस सर्वर में कोई इमोजी नहीं बचे हैं इससे पहले कि यह अपने अधिकतम स्तर पर पहुँच जाए!
+            इस सर्वर में एक इमोजी बचा है इससे पहले कि यह अपने अधिकतम स्तर पर पहुँच जाए!
             अधिक उपनामों के लिए, कोई भी बॉट के लिए यहाँ वोट कर सकता है %{url}
 
             इस ईमोट कोई भी यह लिखकर इस्तेमाल कर सकता है:
           many: |
             इस सर्वर के पास %{count} इमोजी बचे हैं इससे पहले कि वह अपने अधिकतम स्तर पर पंहुचा जाये
-            अधिक एलीयेसीस के लिए, कोई भी बॉट के लिए मतदान कर सकता है %{url}
+            अधिक उपनामों के लिए, कोई भी बॉट के लिए मतदान कर सकता है %{url}
         failed_aliases:
           one: |
             एक उपनाम जिसे रेंडर नहीं किया जा सकता
@@ -27,32 +27,32 @@ discord_bot:
         max_description: |
           \\:%{name}: सर्वर इमोट के रूप में नहीं जोड़ा गया था।
 
-          अधिक एलीयेसीस के लिए, कोई भी बॉट के लिए मतदान कर सकता है %{url}
-        no_alias: इस सर्वर मैं %{name} नाम का कोई एलीयस नहीं हैं
-        renamed: 'नाम इसे  बदलकर \:%{old}:यह करदिया :%{new}:'
+          अधिक उपनामों/पैकों के लिए, कोई भी बॉट के लिए मतदान कर सकता है %{url}
+        no_alias: इस सर्वर मैं %{name} नाम का कोई उपनाम नहीं हैं
+        renamed: '%{emote} का नाम \:%{name}: से बदलकर :%{new}: कर दिया'
         no_aliases: इस सर्वर के पास कोई वैश्विक उपनाम नहीं हैं
       nitro_role:
         unset: Anyone in this server can use free Nitro emotes with NQN
         set: Now only users with the %{role} role can use free Nitro emotes with NQN
       audit_channel:
         unset: इस सर्वर के लिए ऑडिट चैनल को बंद करें
-        set: इस सर्वर के ऑडिट चैनल को%{चैनल} पर सेट करें
-        no_webhooks: "मैं वेबहूक संदेशों को%{चैनल} में पोस्ट नहीं कर सकता।\nकृपया मुझे 'Manage Webhooks' की पर्मिशन दीजिये!"
+        set: इस सर्वर के ऑडिट चैनल को %{channel} पर सेट करें
+        no_webhooks: "में वेबहुक संदेशों को %{channel} में पोस्ट नहीं कर सकता।\nकृपया मुझे वहां 'वेबहुक प्रबंधन' अनुमति दें!"
       boost_channel:
         unset: इस सर्वर के लिए बूस्ट चैनल को अनसेट करें
-        set: इस सर्वर के लिए बूस्ट चैनल को%{चैनल} पर सेट करें
+        set: इस सर्वर का बूस्ट चैनल %{channel} को सेट करें
       boost_role:
         unset: इस सर्वर के लिए बूस्ट रोल को अनसेट करें
-        set: इस सर्वर के लिए% %{role} को बूस्ट रोले सेट करें।
+        set: इस सर्वर के लिए बूस्ट रोल %{role} को सेट करें
       boolean_options:
-        stickers_on: स्टिकेर्स को इनेबल किया।
-        stickers_off: स्टिकेर्स को डिसेबल किया।
-        nitro_on: 'इस सर्वर में नि: शुल्क नाइट्रो उपयोग को इनेबल किया।'
-        nitro_off: 'इस सर्वर में नि: शुल्क नाइट्रो उपयोग को डिसेबल किया।'
-        replies_on: मैसेज रिप्लाई को इनेबल किया।
-        replies_off: मैसेज रिप्लाई को डिसेबल किया।
-        masked_links_on: मास्क्ड URL के उपयोग को इनेबल किया।
-        masked_links_off: मास्क्ड URL के उपयोग को डिसेबल किया।
+        stickers_on: स्टिकर सक्षम किये गए
+        stickers_off: स्टीकर अक्षम किये गए
+        nitro_on: 'इस सर्वर में नि: शुल्क नाइट्रो उपयोग को सक्षम किया।'
+        nitro_off: 'इस सर्वर में नि: शुल्क नाइट्रो उपयोग को अक्षम किया।'
+        replies_on: सन्देश जवाब को सक्षम किया
+        replies_off: सन्देश जवाब को अक्षम किया
+        masked_links_on: मास्क्ड URL के उपयोग को सक्षम किया
+        masked_links_off: मास्क्ड URL के उपयोग को अक्षम किया
         pings_on: Enabled pings in reposted messages
         pings_off: Disabled pings in reposted messages
         user_content_on: |
@@ -75,26 +75,26 @@ discord_bot:
         phish_detection_off: Disabled phishing message detection in this server
       link:
         no_animated_emotes: |
-          इस सर्वर में कोई एनिमेटेड इमोजी नहीं है!
-          आप केवल इस कमांड के साथ एनिमेटेड इमोजीस लिंक कर सकते हैं।
-        too_many_static: इस सर्वर में बहुत सारे स्टैटिक इमोजिस हैं! कुछ पहले हटाने का प्रयास करें।
-        animated_only: यह कमांड केवल एनिमेटेड इमोजिस के साथ काम करता है - यह उन्हें गैर-नाइट्रो उपयोगकर्ताओं के लिए इमोट पिकर में स्थिर लोगों के रूप में उपलब्ध कराता है!
+          इस सर्वर में कोई गतिशील इमोजी नहीं है!
+          आप केवल इस कमांड के साथ गतिशील इमोजी लिंक कर सकते हैं।
+        too_many_static: इस सर्वर में बहुत अधिक स्थिर इमोजी हैं! पहले कुछ हटाने का प्रयास करें।
+        animated_only: यह कमांड केवल गतिशील इमोजी के साथ काम करती है - यह उन्हें गैर-नाइट्रो उपयोगकर्ताओं के लिए इमोट पिकर में स्थिर ईमोट के रूप में उपलब्ध कराती है!
         emote_not_found: Could not find that emote! Try aliasing it with `%{prefix}alias search`
-        upload_later: इमोजी अपलोड नहीं कर सके; कुछ घंटों में फिर से प्रयास करें
-        choose_emote: 'स्टैटिक लिंक बनाने के लिए एक इमोजी चुनें:'
-        create_static: एक स्टैटिक इमोजी बनाएं?
-        create_static_emote: '%{emote} के लिए एक स्टैटिक इमोजी बनाएं?'
-        uploaded: '%{uploaded} को अपलोड किए गए !'
-        uploaded_emote: "%{uploaded} को अपलोड किए गए !\nयूज़ करें %{emote} पाने के लिए"
+        upload_later: इमोजी अपलोड नहीं कर सका; कुछ घंटों में फिर से प्रयास करें
+        choose_emote: 'स्थिर लिंक बनाने के लिए एक इमोजी चुनें:'
+        create_static: एक स्थिर इमोजी बनाएं?
+        create_static_emote: '%{emote} का एक स्थिर ईमोट बनाएं?'
+        uploaded: '%{uploaded} को अपलोड किया!'
+        uploaded_emote: "%{uploaded} को अपलोड किया!\n%{emote} पाने के लिए इसे इस्तेमाल करें"
       pack:
-        max_title: यह सर्वर पहले से ही अधिकतम इमोजी / पैक काउंट पर है!
+        max_title: यह सर्वर पहले से ही अधिकतम ईमोट/पैक काउंट पर है!
         max_description: |
           \\:%{name}: सर्वर इमोट के रूप में नहीं जोड़ा गया था।
 
-          अधिक एलीयेसीस के लिए, कोई भी बॉट के लिए मतदान कर सकता है %{url}
-        left_pack: "%{name} को छोड़ा "
-        not_in_pack: इस सर्वर के पास शुरू करने के लिए सर्वर पैक के रूप में%{name} नहीं था
-        invalid_group: <अमान्य पैक - कृपया रिपोर्ट करें>
+          अधिक उपनामों के लिए, कोई भी बॉट के लिए मतदान कर सकता है %{url}
+        left_pack: "%{name} ने '%{guild_name}' को छोड़ दिया"
+        not_in_pack: इस सर्वर के पास शुरू करने के लिए सर्वर पैक के रूप में %{name} नही था
+        invalid_group: <अमान्य पैक - कृपया सूचना दें>
         join_server: (Join server)
         no_longer_registered: '%{name} is no longer a registered emote pack'
         already_joined: '%{guild_name} is already joined to %{name}'
@@ -103,13 +103,13 @@ discord_bot:
           Anyone in this server may now use the following emotes by typing its name into chat, including colons:
         no_packs: "'%{guild_name}s' isn't joined to any packs globally!"
       prefix:
-        instructions: "मेरे प्रीफिक्स को सेट करने के लिए, इच्छित प्रीफिक्स से पहले मेरा उल्लेख करें ताकि एक्सीडेंटल परिवर्तनों को रोका जा सके।\n> %{prefix}server prefix %{me} %{new}"
+        instructions: "मेरे प्रीफिक्स को सेट करने के लिए, इच्छित प्रीफिक्स से पहले मुझे मेंशन करें ताकि आकस्मिक परिवर्तनों को रोका जा सके।\n> %{prefix}server prefix %{me} %{new}"
         no_colon_prefix: NQN does not support prefixes starting with a colon (:)
         no_slash_prefix: NQN does not support prefixes starting with a slash (/)
-        set_prefix: मेरे प्रीफिक्स को `%{prefix}` पर सेट करें
+        set_prefix: मेरा प्रीफिक्स `%{prefix}` सेट किया गया
       language:
         choose: 'Choose my new language:'
-        set: इस सर्वर के लिए मेरी भाषा अंग्रेजी में सेट करें
+        set: इस सर्वर के लिए मेरी भाषा अंग्रेजी सेट की गयी
         this_locale_name: English
       config:
         enabled: Enabled
