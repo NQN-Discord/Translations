@@ -33,7 +33,7 @@ discord_bot:
         no_aliases: इस सर्वर के पास कोई वैश्विक उपनाम नहीं हैं
       nitro_role:
         unset: इस सर्वर में कोई भी NQN के साथ नाइट्रो ईमोट निः शुल्क इस्तेमाल कर सकता है
-        set: Now only users with the %{role} role can use free Nitro emotes with NQN
+        set: अब सिर्फ %{role} रोल वाले उपयोगकर्ता NQN के साथ नाइट्रो ईमोट निः शुल्क इस्तेमाल कर सकते हैं
       audit_channel:
         unset: इस सर्वर के लिए ऑडिट चैनल को बंद करें
         set: इस सर्वर के ऑडिट चैनल को %{channel} पर सेट करें
@@ -53,33 +53,34 @@ discord_bot:
         replies_off: सन्देश जवाब को अक्षम किया
         masked_links_on: मास्क्ड URL के उपयोग को सक्षम किया
         masked_links_off: मास्क्ड URL के उपयोग को अक्षम किया
-        pings_on: Enabled pings in reposted messages
-        pings_off: Disabled pings in reposted messages
+        pings_on: रिपोस्ट हुए संदेशों में पिंग सक्षम किये गए
+        pings_off: रिपोस्ट हुए संदेशों में पिंग अक्षम किये गए
         user_content_on: |
-          Enabled usage of individual user's aliases and packs
-          Sticker settings have not been changed.
+          उपयोगकर्ता के व्यक्तिगत उपनामों और पैकों के उपयोग को सक्षम किया गया।
+          स्टीकर सेटिंग नही बदली गयी हैं।
         user_content_off: |
-          Disabled usage of individual user's aliases and packs.
-          Only aliases and packs added with `%{prefix}server alias search` and `%{prefix}server pack search` will be usable, as well as emojis from this server.
-          Stickers have also been automatically disabled.
+          उपयोगकर्ता के व्यक्तिगत उपनामों और पैकों के उपयोग को सक्षम किया गया।
+          केवल `%{prefix}server alias search` और `%{prefix}server pack search` के द्वारा जोड़ें गए उपनाम और पैक इस्तेमाल किये जा सकेंगे, और इमोजी भी।
+
+          स्टीकर स्वचालित रूप से अक्षम कर दिए गए हैं।
         personas_on: |
           Enabled usage of personas.
           This allows anyone to set a customisable username and avatar; be warey of impersonation.
 
           NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
           > ```!server set_audit_channel #channel``` #channel``` #channel```
-        personas_off: Disabled usage of personas
-        dashboard_posting_on: Enabled posting messages from the bot's dashboard
-        dashboard_posting_off: Disabled posting messages from the bot's dashboard
-        phish_detection_on: Enabled phishing message detection in this server
-        phish_detection_off: Disabled phishing message detection in this server
+        personas_off: पहचानों का उपयोग अक्षम कर दिया गया है
+        dashboard_posting_on: बॉट डैशबोर्ड के माध्यम से सन्देश भेजना सक्षम किया गया
+        dashboard_posting_off: बॉट डैशबोर्ड के माध्यम से सन्देश भेजना अक्षम किया गया
+        phish_detection_on: इस सर्वर में फिशिंग सन्देश पहचान को सक्षम किया गया
+        phish_detection_off: इस सर्वर में फिशिंग सन्देश पहचान को अक्षम किया गया
       link:
         no_animated_emotes: |
           इस सर्वर में कोई गतिशील इमोजी नहीं है!
           आप केवल इस कमांड के साथ गतिशील इमोजी लिंक कर सकते हैं।
         too_many_static: इस सर्वर में बहुत अधिक स्थिर इमोजी हैं! पहले कुछ हटाने का प्रयास करें।
         animated_only: यह कमांड केवल गतिशील इमोजी के साथ काम करती है - यह उन्हें गैर-नाइट्रो उपयोगकर्ताओं के लिए इमोट पिकर में स्थिर ईमोट के रूप में उपलब्ध कराती है!
-        emote_not_found: Could not find that emote! Try aliasing it with `%{prefix}alias search`
+        emote_not_found: उस ईमोट को नही खोज सके! कृपया इसे `%{prefix}alias search` के द्वारा उपनाम देने की कोशिश करें
         upload_later: इमोजी अपलोड नहीं कर सका; कुछ घंटों में फिर से प्रयास करें
         choose_emote: 'स्थिर लिंक बनाने के लिए एक इमोजी चुनें:'
         create_static: एक स्थिर इमोजी बनाएं?
@@ -95,46 +96,47 @@ discord_bot:
         left_pack: "%{name} ने '%{guild_name}' को छोड़ दिया"
         not_in_pack: इस सर्वर के पास शुरू करने के लिए सर्वर पैक के रूप में %{name} नही था
         invalid_group: <अमान्य पैक - कृपया सूचना दें>
-        join_server: (Join server)
-        no_longer_registered: '%{name} is no longer a registered emote pack'
-        already_joined: '%{guild_name} is already joined to %{name}'
+        join_server: (सर्वर में शामिल हों)
+        no_longer_registered: '%{name} अब एक पंजीकृत ईमोट पैक नही है'
+        already_joined: '%{guild_name} पहले से ही %{name} में शामिल है'
         joined_long: |
-          '%{guild_name}' joined %{name}.
-          Anyone in this server may now use the following emotes by typing its name into chat, including colons:
-        no_packs: "'%{guild_name}s' isn't joined to any packs globally!"
+          '%{guild_name}' ने %{name} कोई जॉइन किया।
+
+           इस सर्वर में कोई भी निम्नलिखित ईमोट को चैट में उनका नाम लिख कर उपयोग कर सकते हैं, अपूर्ण विराम सहित:
+        no_packs: "%{guild_name} वैश्विक रूप से कोई पैक में शामिल नही है!"
       prefix:
         instructions: "मेरे प्रीफिक्स को सेट करने के लिए, इच्छित प्रीफिक्स से पहले मुझे मेंशन करें ताकि आकस्मिक परिवर्तनों को रोका जा सके।\n> %{prefix}server prefix %{me} %{new}"
-        no_colon_prefix: NQN does not support prefixes starting with a colon (:)
-        no_slash_prefix: NQN does not support prefixes starting with a slash (/)
+        no_colon_prefix: NQN अपूर्ण विराम से शुरू होने वाले उपसर्ग का समर्थन नही करता (:)
+        no_slash_prefix: NQN स्लैश से शुरू होने वाले उपसर्ग का समर्थन नही करता (/)
         set_prefix: मेरा प्रीफिक्स `%{prefix}` सेट किया गया
       language:
-        choose: 'Choose my new language:'
+        choose: 'मेरी नयी भाषा चुनें'
         set: इस सर्वर के लिए मेरी भाषा अंग्रेजी सेट की गयी
-        this_locale_name: English
+        this_locale_name: अंग्रेजी
       config:
-        enabled: Enabled
-        disabled: Disabled
-        prefix: Prefix
-        announcement: Announcement channel
-        boost_channel: Boost channel
-        boost_role: Boost role
-        audit_channel: Audit channel
-        nitro_role: Nitro role
-        stickers: Stickers
-        nitro: Nitro
-        replies: Replies
-        masked_links: Masked URLs
-        pings: Pings
-        user_content: User Content
-        personas: Personas
-        dashboard_posting: Dashboard Posting
-        phish_detection: Phish Detection
-        invite: Invite Link
-        pack: Pack Name
-        public: Public
-        member_count: Members
-        configure_features: Toggle Features
-        settings: Settings
-        channels: Channels
-        features: Features
-        pack_info: Pack Info
+        enabled: सक्षम
+        disabled: अक्षम
+        prefix: उपसर्ग
+        announcement: घोषणा चैनल
+        boost_channel: बूस्ट चैनल
+        boost_role: बूस्ट रोल
+        audit_channel: लेख चैनल
+        nitro_role: नाइट्रो रोल
+        stickers: स्टीकर
+        nitro: नाइट्रो
+        replies: जवाब
+        masked_links: छिपे हुए URL
+        pings: पिंग
+        user_content: उपयोगकर्ता सामग्री
+        personas: पहचानें
+        dashboard_posting: डैशबोर्ड पोस्टिंग
+        phish_detection: फिश पहचान
+        invite: आमंत्रण लिंक
+        pack: पैक नाम
+        public: सार्वजनिक
+        member_count: सदस्य
+        configure_features: फीचर टॉगल करें
+        settings: सेटिंग
+        channels: चैनल
+        features: फीचर
+        pack_info: पैक जानकारी
