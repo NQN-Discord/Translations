@@ -3,13 +3,13 @@ command_docs:
   alias-delete:
     short_doc: ये ऐलियस नहीं चाइये? ऐसे इस्तेमाल करें
   alias-delete_all:
-    short_doc: I don't like any of my aliases
+    short_doc: मुझे मेरा कोई भी उपनाम पसंद नही है
     help: |
-      Delete all of your aliases
+      अपने सभी उपनाम हटाएँ
   alias-dm:
-    short_doc: Get a full list of your aliases in DMs
+    short_doc: DM में आपके सभी उपनामों की सूची प्राप्त करें
     help: |
-      Have the bot send you a list of your aliases in your DMs
+      बॉट से अपने उपनामों की सूची अपनी DM में भिजवाएं
   alias-export:
     short_doc: निर्यात करें अपने एलियस सूची
   alias-import:
@@ -19,7 +19,7 @@ command_docs:
   alias-rename:
     short_doc: अपने ऐलियस का नाम बदलें
   alias-search:
-    short_doc: Look for individual emotes
+    short_doc: व्यक्तिगत ईमोट की तलाश करें
     help: |
       आप उन व्यक्तिगत इमोजीस का प्रबंधन कर सकते हैं जिनका आप उपयोग करेंगे'
 
@@ -47,7 +47,7 @@ command_docs:
 
          यदि चैनल और सदस्य दोनों अनफ़िल्टर्ड हैं, तो 'ऑडिट गिल्ड' का उपयोग करें
   delete:
-    short_doc: Delete one of your messages reposted by NQN
+    short_doc: NQN द्वारा रिपोस्ट किये गए अपने संदेशों में से एक सन्देश को हटाएँ
     help: |
       Delete one of your messages reposted by NQN.
       By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
