@@ -56,36 +56,36 @@ command_docs:
   edit:
     short_doc: NQN द्वारा पोस्ट किये गए सन्देश को सम्पादित करें
     help: |
-      Edits the content of one of your messages reposted by NQN.
-      By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
-      You can also use Discord's message reply functionality to edit that message.
+      NQN द्वारा रिपोस्ट किये गए अपने संदेशों में से एक सन्देश को सम्पादित करें।
+      डिफ़ॉल्ट रूप से, आपका नवीनतम सन्देश इस चैनल में से सम्पादित हो जाएगा, लेकिन वैकल्पिक रूप से आप एक सन्देश का URL देकर उसे हटवा सकते हैं
+      आप उस सन्देश को सम्पादित करने के लिए Discord की सन्देश उत्तर कार्यक्षमता का भी उपयोग कर सकते हैं।
   emote:
-    short_doc: Manage server emotes
+    short_doc: सर्वर ईमोट प्रबंधित करें
   emote-block:
-    short_doc: Prevents an emoji from being used
+    short_doc: एक इमोजी को इस्तेमाल होने से रोकता है
     help: |
-      Search for emojis to block in this server.
-      When this emoji is used, it'll automatically be added to the server's automod list and be removed.
+      इस सर्वर में ब्लॉक करने के लिए इमोजी खोजें।
+      जब यह इमोजी इस्तेमाल किया जाएगा, यह सर्वर की ऑटोमोड सूची में स्वचालित रूप से जोड़कर हटा दिया जाएगा।
   emote-block_list:
-    short_doc: View the list of emojis blocked in this server
+    short_doc: इस सर्वर में ब्लॉक हुए इमोजी की सूची देखें
   emote-info:
-    short_doc: Get information about an emote
+    short_doc: एक ईमोट के बारे में जानकारी प्राप्त करें
   emote-jumbo:
-    short_doc: Makes an emoji bigger
+    short_doc: एक इमोजी को बड़ा बनता है
   emote-rolelock:
-    short_doc: Lock an emoji to a specific set of roles
+    short_doc: एक इमोजी को एक निश्चित रोल समूह तक सीमित करता है
   emote-roleunlock:
-    short_doc: Allow anyone to use a locked emote
+    short_doc: किसी को भी लॉक किये गए ईमोट उपयोग करने की अनुमति देना
   emote-stats:
-    short_doc: See how often your server's emotes are used
+    short_doc: देखें की आपके सर्वर के ईमोट का कितनी बार प्रयोग किया जाता है
   emote-unblock:
-    short_doc: Unblock a previously blocked emoji
+    short_doc: पहले से ब्लॉक किये गए इमोजी को अनब्लॉक करें
   emote-upload:
-    short_doc: Search for and upload emotes to this server.
+    short_doc: ईमोट खोजें और इस सर्वर में अपलोड करें।
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload it
+      सभी इमोजी की खोज करें, जिन्हें बॉट ने कभी देखा है और उन्हें इस सर्वर पर अपलोड करें।
+      यह कमांड आपको इमोजी अपलोड करने की अनुमति देता है।
+      आप इसे अपलोड करने के लिए एक फ़ाइल भी संलग्न कर सकते हैं
   export:
     short_doc: अपनी ईमोट सूची को निर्यात करें
   help:
@@ -93,12 +93,12 @@ command_docs:
     help: |
       उन कमांड के बारे में जानें जिन्हे आप में NQN में चला सकते हैं
   ignore_me:
-    short_doc: Stop NQN from reposting your messages
+    short_doc: NQN को आपके सन्देश रिपोस्ट करने से रोकें
     help: |
-      Running this command stops NQN from reposting any of your messages in any server you share with the bot.
-      - Commands are still enabled, running this command again returns you to normal
-      - You can still repost messages through our [dashboard](https://nqn.blue)
-      - The bot will not respond to any messages you send that would be reposted through a webhook
+      इस कमांड को चलाने से NQN आपके द्वारा बॉट के साथ साझा किए गए किसी भी सर्वर में आपके किसी भी संदेश को दोबारा पोस्ट करने से रोकता है।
+      - कमांड अभी भी सक्रिय हैं, इस कमांड को फिर से चलने से आप सामान्य मोड में वापस आ जाएंगे
+      - आप अभी भी हमारे [dashboard](https://nqn.blue) के माध्यम से सन्देश भेज सकते हैं
+      - बॉट आपके द्वारा भेजे गए किसी भी सन्देश का जवाब नही देगा जो की वेबहुक के माध्यम से रिपोस्ट होना था
   info:
     short_doc: बॉट के आंतरिक आंकड़े
   invite_me:
@@ -114,7 +114,7 @@ command_docs:
   mod-ban:
     short_doc: संदेश पोस्ट करने वाले उपयोगकर्ता को प्रतिबंधित करें
   mod-edit_topic:
-    short_doc: Add animated emojis to channel topics
+    short_doc: चैनल विषय में गतिशील इमोजी डालें
     help: |
       चैनल विवरण को बदलता है, उनमे गतिशील इमोजी की अनुमति देता है
   mod-kick:
@@ -122,21 +122,21 @@ command_docs:
   mod-move:
     short_doc: इस चैनल के 20 सबसे नवीनतम संदेशों को दूसरे चैनल में ले जाएँ
   mod-purge:
-    short_doc: Purge some messages reposted by the bot in this channel
+    short_doc: चैनल में बॉट के द्वारा भेजे गए कुछ सन्देश हटाएँ
   mod:
     short_doc: NQN के लिए परिनियम सुविधाएँ
   move:
     short_doc: इस चैनल के 20 सबसे नवीनतम संदेशों को दूसरे चैनल में ले जाएँ
   mutuals:
-    short_doc: See the servers I share with you
+    short_doc: उन सर्वेरों को देखें जिन्हे में आपके साथ साझा करता हूँ
   my_emotes:
-    short_doc: See what emojis you can post with NQN
+    short_doc: देखें कि आप कौनसे इमोजी NQN से पोस्ट कर सकते हैं
   owner:
     short_doc: निषिद्ध ज्ञान भीतर छिपा है
   pack-dm:
-    short_doc: Get a full list of your packs in your DMs
+    short_doc: DM में आपके सभी पैकों की सूची प्राप्त करें
     help: |
-      Have the bot send you a complete list of your packs current emoji lists through your DMs.
+      बॉट से आपके पैक की इमोजी सूची अपनी DM में भिजवाएं।
   pack-join:
     short_doc: एक ईमोट पैक की सदस्यता लें
   pack-leave:
@@ -152,7 +152,7 @@ command_docs:
   pack-save:
     short_doc: पैक से सभी ईमोट को इस सर्वर पर अपलोड करें
   pack-search:
-    short_doc: Find entire packs of emotes
+    short_doc: ईमोट के सम्पूर्ण पैक खोजें
   pack-set_public:
     short_doc: किसी को भी NQN के माध्यम से इस सर्वर से जुड़ने की अनुमति दें।
   pack-show:
@@ -162,40 +162,40 @@ command_docs:
   pack:
     short_doc: ईमोट के सम्पूर्ण को प्रबंधित करें
   persona-avatar_url:
-    short_doc: Set the avatar of a persona
+    short_doc: किसी पहचान का अवतार सेट करें
   persona-delete:
-    short_doc: Delete one of your personas
+    short_doc: अपनी एक पहचान को हटाएँ
   persona-display_name:
-    short_doc: Change the username of a persona
+    short_doc: किसी पहचान का उपयोगकर्ता नाम बदलें
   persona-dm:
-    short_doc: DMs you a full list of your personas
+    short_doc: आपकी पहचानों की सूची आपको DM करें
   persona-export:
-    short_doc: Export your list of personas to a file
+    short_doc: आपकी पहचानों को एक फाइल में निर्यात करें
     help: |
-      Export your list of personas to a file, which is compatible with other bots
+      आपकी पहचानों को एक फाइल में निर्यात करें, जो की अन्य बॉट के साथ अनुकूल हो
   persona-import:
-    short_doc: Import a previously exported list of personas
+    short_doc: पहले से निर्यातित की गयी पहचान सूची को आयात करें
     help: |
-      Import a previously exported list of personas.
-      Compatible with PluralKit and Tupperbox.
+      पहले से निर्यातित की गयी पहचान सूची को आयात करें।
+      PluralKit और Tupperbox के साथ अनुकूल।
   persona-list:
-    short_doc: See a list of your personas
+    short_doc: अपनी पहचानों की सूची देखें
   persona-register:
-    short_doc: Register a persona for later use
+    short_doc: बाद में इस्तेमाल करने के लिए एक पहचान पंजीकृत करें
   persona-rename:
-    short_doc: Give one of your personas a different name
+    short_doc: अपनी कोई एक पहचान को एक अलग नाम दें
   persona:
-    short_doc: Manage your personas
+    short_doc: अपनी पहचानों को प्रबंधित करें
   premium-check:
-    short_doc: Recalculate your premium information
+    short_doc: आपकी प्रीमियम जानकारी की पुनर्गणना करें
     help: |
-      Recalculates your premium information, including the list of servers gaining premium from you.
+      आपकी प्रीमियम जानकारी की पुनर्गणना करें, सर्वर जिन्हे आपसे प्रीमियम मिलता है की सूची सहित।
   premium:
-    short_doc: Information about NQN premium
+    short_doc: NQN प्रीमियम के बारे में जानकारी
   ranking:
     short_doc: हमारी रैंकिंग में आपका सर्वर कितना ऊपर है?
   react:
-    short_doc: React to a message with emojis
+    short_doc: एक सन्देश पर इमोजी के साथ प्रतिक्रिया दें
     help: |
       उस सन्देश पर प्रतिक्रिया देने के लिए Discord जवाब या सन्देश लिंक का उपयोग करें।
       यह कमांड प्रतिक्रियाओं की सूची की अनुमति देती है, जिनमे से प्रत्येक को निर्दिष्ट क्रम में जोड़ा जाएगा।
@@ -203,11 +203,11 @@ command_docs:
   server-alias-delete:
     short_doc: कोई ईमोट पसंद नही आयी? उन्हें बनायें ताकि उन्हें काम करना पड़े।
   server-alias-import:
-    short_doc: Import a list of server aliases from a file.
+    short_doc: एक फाइल से सर्वर उपनामों की सूचीआयात करें।
   server-alias-list:
     short_doc: उन सभी उपनामों को दिखाएं जिन्हें आपके सर्वर में कोई भी उपयोग कर सकता है
   server-alias-post:
-    short_doc: Post a list of server aliases
+    short_doc: सर्वर उपनामों की एक सूची पोस्ट करें
   server-alias-rename:
     short_doc: एक सर्वर उपनाम का नाम बदलें
   server-alias-search:
@@ -215,7 +215,7 @@ command_docs:
   server-alias:
     short_doc: सर्वर उपनामों के साथ काम करें
   server-dashboard_posting:
-    short_doc: Enable or disable posting messages through the bot dashboard
+    short_doc: बॉट डैशबोर्ड के माध्यम से सन्देश भेजना सक्षम या अक्षम करें
   server-language:
     short_doc: बॉट की भाषा सेट करें %{locale_flag_emojis}
   server-link:
@@ -231,29 +231,29 @@ command_docs:
   server-pack-list:
     short_doc: इस सर्वर द्वारा उपयोग किए जा सकने वाले पैक को सूचीबद्ध करें
   server-pack-post:
-    short_doc: Post a list of server packs
+    short_doc: सर्वर पैकों की एक सूची करें
   server-pack-search:
-    short_doc: Search for an emote pack to add server-wide
+    short_doc: सर्वर में जोड़ने के लिए एक ईमोट पैक खोजें
   server-pack:
     short_doc: सर्वर पैक के साथ काम करें
   server-permissions_debug:
-    short_doc: Let NQN tell you what permissions it's missing
+    short_doc: NQN को बताने दे कि कौनसी अनुमति गायब है
   server-personas:
-    short_doc: Enable or disable usage of personas
+    short_doc: पहचानों का उपयोग सक्षम या अक्षम करें
     help: |
-      Allows users to post with arbitrary usernames and avatars
+      उपयोगकर्ताओं को मनमाने नाम या अवतार पोस्ट करने की अनुमति दें
   server-pings:
-    short_doc: Enable or disable pings in messages for this server
+    short_doc: इस सर्वर में संदेशों में पिंग सक्षम या अक्षम करें
     help: |
-      Enable or disable pings in messages that NQN reposts on this server
+      इस सर्वर में संदेशों में पिंग सक्षम या अक्षम करें जो की NQN इस सर्वर में रिपोस्ट करता है
   server-phish_detection:
-    short_doc: Enable or disable phishing message detection for this server
+    short_doc: इस सर्वर में फिशिंग सन्देश पहचान को सक्षम या अक्षम करें
   server-prefix:
     short_doc: NQN को दूसरे प्रीफिक्स को सुने के लिए कमांड दे
     help: |
       NQN को दूसरे प्रीफिक्स को सुने के लिए कमांड दे
     signature: |
-      @NQN#3454 [prefix=!]
+      @NQN#3454 [उपसर्ग=!]
   server-replies:
     short_doc: इस गिल्ड में संदेश के उत्तरों को सक्षम या अक्षम करें
   server-settings:
