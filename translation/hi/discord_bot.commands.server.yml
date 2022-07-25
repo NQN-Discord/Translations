@@ -32,7 +32,7 @@ discord_bot:
         renamed: '%{emote} का नाम \:%{name}: से बदलकर :%{new}: कर दिया'
         no_aliases: इस सर्वर के पास कोई वैश्विक उपनाम नहीं हैं
       nitro_role:
-        unset: Anyone in this server can use free Nitro emotes with NQN
+        unset: इस सर्वर में कोई भी NQN के साथ नाइट्रो ईमोट निः शुल्क इस्तेमाल कर सकता है
         set: Now only users with the %{role} role can use free Nitro emotes with NQN
       audit_channel:
         unset: इस सर्वर के लिए ऑडिट चैनल को बंद करें
