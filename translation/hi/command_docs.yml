@@ -1,7 +1,7 @@
 ---
 command_docs:
   alias-delete:
-    short_doc: ये ऐलियस नहीं चाइये? ऐसे इस्तेमाल करें
+    short_doc: कोई उपनाम नही चाहिए? इसे उपयोग करें
   alias-delete_all:
     short_doc: मुझे मेरा कोई भी उपनाम पसंद नही है
     help: |
@@ -11,49 +11,50 @@ command_docs:
     help: |
       बॉट से अपने उपनामों की सूची अपनी DM में भिजवाएं
   alias-export:
-    short_doc: निर्यात करें अपने एलियस सूची
+    short_doc: अपनी उपनाम सूची को निर्यात करें
   alias-import:
-    short_doc: किसी और व्यक्ति की सूची आयात करें
+    short_doc: किसी और की उपनाम सूची आयात करें
   alias-list:
-    short_doc: आपके सभी ऐलियस की एक सूची प्राप्त करें
+    short_doc: आपके द्वारा बनायें गए उपनामों की सूची प्राप्त करें
   alias-rename:
-    short_doc: अपने ऐलियस का नाम बदलें
+    short_doc: किसी उपनाम का नाम बदलें
   alias-search:
     short_doc: व्यक्तिगत ईमोट की तलाश करें
     help: |
-      आप उन व्यक्तिगत इमोजीस का प्रबंधन कर सकते हैं जिनका आप उपयोग करेंगे'
+      NQN के साथ इस्तेमाल करने के लिए व्यक्तिगत ईमोट खोजें
 
-      NQN's खोज सुविधा कुछ उन्नत सुविधाओं के लिए अनुमति देती है:
-       - `exact`: (डिफ़ॉल्ट निष्क्रिय)  यह केवल सटीक नाम के साथ इमोजी दिखाता है, जिसकी खोज की गयी थी|
-       - `animated`: या तो केवल एनिमेटेड या स्थिर इमोजी दिखाता हैं
+      NQN's खोज सुविधा कुछ उन्नत सुविधाओं की अनुमति देती है:
+       - `exact`: (डिफ़ॉल्ट निष्क्रिय) यह केवल सटीक नाम के साथ इमोजी दिखाता है, जिसकी खोज की गयी थी|
+       - `animated`: या तो केवल गतिशील या स्थिर इमोजी दिखाता हैं
        - `page`: एक निश्चित पृष्ठ पर जाएं
        - `order`: इनमे से एक 'uses', 'random'
   alias:
-    short_doc: आप उन व्यक्तिगत इमोजीस का प्रबंधन कर सकते हैं जिनका आप उपयोग करेंगे
+    short_doc: उन व्यक्तिगत ईमोट का प्रबंधन करें जिनका आप उपयोग कर सकते हैं
     help: |
-      आप उन व्यक्तिगत इमोजीस का प्रबंधन कर सकते हैं जिनका आप उपयोग करेंगे'
+      उन व्यक्तिगत ईमोट का प्रबंधन करें जिनका आप उपयोग कर सकते हैं
 
-      NQN's खोज सुविधा कुछ उन्नत सुविधाओं के लिए अनुमति देती है:
-      - `exact`: (डिफ़ॉल्ट निष्क्रिय)  यह केवल सटीक नाम के साथ इमोजी दिखाता है, जिसकी खोज की गयी थी|
-      - `animated`: या तो केवल एनिमेटेड या स्थिर इमोजी दिखाता हैं
-      - `page`: एक निश्चित पृष्ठ पर जाएं
-      - `order`: इनमे से एक 'uses', 'random'
+      NQN's खोज सुविधा कुछ उन्नत सुविधाओं की अनुमति देती है:
+       - `exact`: (डिफ़ॉल्ट निष्क्रिय) यह केवल सटीक नाम के साथ इमोजी दिखाता है, जिसकी खोज की गयी थी|
+       - `animated`: या तो केवल गतिशील या स्थिर इमोजी दिखाता हैं
+       - `page`: एक निश्चित पृष्ठ पर जाएं
+       - `order`: इनमे से एक 'uses', 'random'
   audit:
-    short_doc: इस चैनल के फिर से पोस्ट किये गए संदेशों के लिए ऑडिट लॉग प्राप्त करें
+    short_doc: इस चैनल के फिर से पोस्ट किये गए संदेशों के ऑडिट लॉग प्राप्त करें
     help: |
-      इस चैनल के फिर से पोस्ट किये गए संदेशों के लिए ऑडिट लॉग प्राप्त करें
-      वैकल्पिक [चैनल] -> फ़िल्टर केवल इस चैनल पर लॉग करता है
-      वैकल्पिक [मेंबर] -> फ़िल्टर केवल इस सदस्य को लॉग करता है
+      इस चैनल के फिर से पोस्ट किये गए संदेशों के ऑडिट लॉग प्राप्त करें
 
-         यदि चैनल और सदस्य दोनों अनफ़िल्टर्ड हैं, तो 'ऑडिट गिल्ड' का उपयोग करें
+      वैकल्पिक[Channel] -> इसी चैनल के लॉग छांटें
+      वैकल्पिक[Member] -> इसी सदस्य के लॉग छांटें
+
+      यदि चैनल और सदस्य दोनों को नहीं छांटना है तो, 'ऑडिट गिल्ड' का उपयोग करें
   delete:
     short_doc: NQN द्वारा रिपोस्ट किये गए अपने संदेशों में से एक सन्देश को हटाएँ
     help: |
-      Delete one of your messages reposted by NQN.
-      By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
-      You can also use Discord's message reply functionality to delete that message.
+      NQN द्वारा रिपोस्ट किये गए अपने संदेशों में से एक सन्देश को हटाएँ
+      डिफ़ॉल्ट रूप से, आपका नवीनतम सन्देश इस चैनल में से हट जाएगा, लेकिन वैकल्पिक रूप से आप एक सन्देश का URL देकर उसे हटवा सकते हैं।
+      आप उस सन्देश को हटाने के लिए Discord की सन्देश उत्तर कार्यक्षमता का भी उपयोग कर सकते हैं।
   edit:
-    short_doc: Edit a message posted by NQN
+    short_doc: NQN द्वारा पोस्ट किये गए सन्देश को सम्पादित करें
     help: |
       Edits the content of one of your messages reposted by NQN.
       By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
@@ -86,11 +87,11 @@ command_docs:
       This command allows you to upload emotes.
       You can also attach a file to upload it
   export:
-    short_doc: निर्यात करें अपने एलियस सूची
+    short_doc: अपनी ईमोट सूची को निर्यात करें
   help:
-    short_doc: यह संदेश दिखाएं
+    short_doc: मेरी कमांड के बारे में जानें
     help: |
-      यह संदेश दिखाएं
+      उन कमांड के बारे में जानें जिन्हे आप में NQN में चला सकते हैं
   ignore_me:
     short_doc: Stop NQN from reposting your messages
     help: |
@@ -99,57 +100,57 @@ command_docs:
       - You can still repost messages through our [dashboard](https://nqn.blue)
       - The bot will not respond to any messages you send that would be reposted through a webhook
   info:
-    short_doc: बॉट के बारे में आंतरिक आंकड़े
+    short_doc: बॉट के आंतरिक आंकड़े
   invite_me:
-    short_doc: अपने सर्वर पर बॉट को आमंत्रित करें!
+    short_doc: अपने सर्वर में बॉट को आमंत्रित करें!
   mod-audit:
-    short_doc: इस चैनल के फिर से पोस्ट किये गए संदेशों के लिए ऑडिट लॉग प्राप्त करें
+    short_doc: इस चैनल के फिर से पोस्ट किये गए संदेशों के ऑडिट लॉग प्राप्त करें
     help: |
-      इस चैनल के फिर से पोस्ट किये गए संदेशों के लिए ऑडिट लॉग प्राप्त करें
-      वैकल्पिक [चैनल] -> फ़िल्टर केवल इस चैनल पर लॉग करता है
-      वैकल्पिक [मेंबर] -> फ़िल्टर केवल इस सदस्य को लॉग करता है
+      इस चैनल के फिर से पोस्ट किये गए संदेशों के ऑडिट लॉग प्राप्त करें
+      वैकल्पिक[Channel] -> इसी चैनल के लॉग छांटें
+      वैकल्पिक[Member] -> इसी सदस्य के लॉग छांटें
 
-         यदि चैनल और सदस्य दोनों अनफ़िल्टर्ड हैं, तो 'ऑडिट गिल्ड' का उपयोग करें
+      यदि चैनल और सदस्य दोनों को नहीं छांटना है तो, 'ऑडिट गिल्ड' का उपयोग करें
   mod-ban:
-    short_doc: संदेश पोस्ट करने वाले उपभोक्ता को प्रतिबंधित करें
+    short_doc: संदेश पोस्ट करने वाले उपयोगकर्ता को प्रतिबंधित करें
   mod-edit_topic:
     short_doc: Add animated emojis to channel topics
     help: |
-      None
+      चैनल विवरण को बदलता है, उनमे गतिशील इमोजी की अनुमति देता है
   mod-kick:
-    short_doc: संदेश पोस्ट करने वाले उपभोक्ता को किक करें
+    short_doc: संदेश पोस्ट करने वाले उपभोक्ता को निकालें
   mod-move:
-    short_doc: इस चैनल में सबसे हाल के मैसेज में से 20 तक स्थानांतरित करें
+    short_doc: इस चैनल के 20 सबसे नवीनतम संदेशों को दूसरे चैनल में ले जाएँ
   mod-purge:
     short_doc: Purge some messages reposted by the bot in this channel
   mod:
-    short_doc: NQN के लिए मॉडरेशन सुविधाएँ
+    short_doc: NQN के लिए परिनियम सुविधाएँ
   move:
-    short_doc: इस चैनल में सबसे हाल के मैसेज में से 20 तक स्थानांतरित करें
+    short_doc: इस चैनल के 20 सबसे नवीनतम संदेशों को दूसरे चैनल में ले जाएँ
   mutuals:
     short_doc: See the servers I share with you
   my_emotes:
     short_doc: See what emojis you can post with NQN
   owner:
-    short_doc: वर्जित ज्ञान भीतर है
+    short_doc: निषिद्ध ज्ञान भीतर छिपा है
   pack-dm:
     short_doc: Get a full list of your packs in your DMs
     help: |
       Have the bot send you a complete list of your packs current emoji lists through your DMs.
   pack-join:
-    short_doc: एक एमोट पैक की सदस्यता लें
+    short_doc: एक ईमोट पैक की सदस्यता लें
   pack-leave:
-    short_doc: इमोजी पैक से सदस्यता समाप्त करें
+    short_doc: एक ईमोट पैक की सदस्य्ता छोड़ें
   pack-meta:
-    short_doc: Oooh ... अपने पैक के बारे में आँकड़े
+    short_doc: ओह... आपके पैक के बारे में सुन्दर आंकड़ें
   pack-mine:
     short_doc: आपके द्वारा सदस्यता लिए गए इमोट पैक की सूची प्राप्त करें
   pack-publish:
     short_doc: अपने इमोट सर्वर को इमोट पैक के रूप में प्रकाशित करें
   pack-rename:
-    short_doc: इमोजी पैक का नाम बदलें
+    short_doc: ईमोट पैक का नाम बदलें
   pack-save:
-    short_doc: पैक से सभी इमोट्स को इस सर्वर पर अपलोड करें
+    short_doc: पैक से सभी ईमोट को इस सर्वर पर अपलोड करें
   pack-search:
     short_doc: Find entire packs of emotes
   pack-set_public:
@@ -157,9 +158,9 @@ command_docs:
   pack-show:
     short_doc: एक पैक की सामग्री दिखाएं
   pack-unpublish:
-    short_doc: नहीं चाहते कि यह सर्वर अब एक इमोट पैक हो?
+    short_doc: नहीं चाहते कि यह सर्वर अब एक इमोट पैक रहे?
   pack:
-    short_doc: इमोजी का पूरा पैक की व्यवस्थित करें
+    short_doc: ईमोट के सम्पूर्ण को प्रबंधित करें
   persona-avatar_url:
     short_doc: Set the avatar of a persona
   persona-delete:
@@ -196,37 +197,37 @@ command_docs:
   react:
     short_doc: React to a message with emojis
     help: |
-      हाल ही के `n`th संदेश पर प्रतिक्रिया(रिएक्शन) दें
-      वैकल्पिक संदेश: हाल ही में संदेश (20 वीं तक) पर प्रतिक्रिया करने के लिए संदेश आईडी
-      कमांड, प्रतिक्रियाओं की एक सूची कोअनुमति देता है, जिनमें से प्रत्येक निर्दिष्ट क्रम में जोड़ा जाएगा
+      उस सन्देश पर प्रतिक्रिया देने के लिए Discord जवाब या सन्देश लिंक का उपयोग करें।
+      यह कमांड प्रतिक्रियाओं की सूची की अनुमति देती है, जिनमे से प्रत्येक को निर्दिष्ट क्रम में जोड़ा जाएगा।
+      **उन्हें रखने के लिए आपको जुड़ी हुई प्रतिक्रियाओं पर भी प्रतिक्रिया देनी होगी।**
   server-alias-delete:
-    short_doc: एक इमोजी पसंद नहीं आया? इसे बनाएं ताकि उन्हें इसके लिए काम करना पड़े।
+    short_doc: कोई ईमोट पसंद नही आयी? उन्हें बनायें ताकि उन्हें काम करना पड़े।
   server-alias-import:
     short_doc: Import a list of server aliases from a file.
   server-alias-list:
-    short_doc: उन सभी एलियस को दिखाएं जिन्हें आपके सर्वर में कोई भी उपयोग कर सकता है
+    short_doc: उन सभी उपनामों को दिखाएं जिन्हें आपके सर्वर में कोई भी उपयोग कर सकता है
   server-alias-post:
     short_doc: Post a list of server aliases
   server-alias-rename:
-    short_doc: एक सर्वर एलियस का नाम बदलें
+    short_doc: एक सर्वर उपनाम का नाम बदलें
   server-alias-search:
-    short_doc: सर्वर में किसी को भी इमोजी का उपयोग करने की अनुमति दें!
+    short_doc: सर्वर सभी को ईमोट इस्तेमाल करने की अनुमति दें!
   server-alias:
-    short_doc: सर्वर एलियस के साथ काम करें
+    short_doc: सर्वर उपनामों के साथ काम करें
   server-dashboard_posting:
     short_doc: Enable or disable posting messages through the bot dashboard
   server-language:
     short_doc: बॉट की भाषा सेट करें %{locale_flag_emojis}
   server-link:
-    short_doc: एक स्थिर इमोजी बनाएं, जिसका उपयोग करते समय, बॉट इस इमोजी को एक एनिमेटेड संस्करण के रूप में पोस्ट करेगा!
+    short_doc: एक स्थिर ईमोट बनाएं, जिसका उपयोग करते समय बॉट इस इमोजी को एक एनिमेटेड संस्करण के रूप में पोस्ट करेगा!
   server-masked_links:
-    short_doc: इस गिल्ड में नकाबपोश लिंक को सक्षम या अक्षम करें
+    short_doc: सर्वर में छिपी हुई लिंक सक्षम या अक्षम करें
   server-nitro:
-    short_doc: 'इस गिल्ड में नि: शुल्क नाइट्रो उपयोग को सक्षम या अक्षम करें'
+    short_doc: 'इस सर्वर में नि: शुल्क नाइट्रो उपयोग को सक्षम या अक्षम करें'
   server-pack-join:
-    short_doc: एक सर्वर-वाइड एमोट पैक के लिए सदस्यता लें
+    short_doc: एक सर्वर-वाइड ईमोट पैक की सदस्यता लें
   server-pack-leave:
-    short_doc: एक सर्वर-वाइड एमोट पैक की सदस्यता समाप्त करें
+    short_doc: एक सर्वर-वाइड ईमोट पैक की सदस्यता समाप्त करें
   server-pack-list:
     short_doc: इस सर्वर द्वारा उपयोग किए जा सकने वाले पैक को सूचीबद्ध करें
   server-pack-post:
@@ -234,7 +235,7 @@ command_docs:
   server-pack-search:
     short_doc: Search for an emote pack to add server-wide
   server-pack:
-    short_doc: सर्वर पैक के साथ चीजें करें
+    short_doc: सर्वर पैक के साथ काम करें
   server-permissions_debug:
     short_doc: Let NQN tell you what permissions it's missing
   server-personas:
@@ -280,14 +281,14 @@ command_docs:
     help: |
       एक फाइल से स्टिकर बनाएं
       एक इमेज अपलोड करें और इसे स्टिकर में बदलने के लिए इस कमांड का उपयोग करें।
-      स्टिकर का नाम फ़ाइलनाम या आपके द्वारा टाइप किए गए निर्धारित किया जाता है। उदाहरण के लिए: `sticker create BluePat.png`
-      NQN पर स्टिकर नाम अद्वितीय हैं, एक बार नाम लेने के बाद, फिरसे नही ले सकते
-      स्टिकर अधिकतम 8MB बड़े हो सकते हैं, और नाम केवल अल्फ़ान्यूमेरिक हो सकते हैं।
-      स्टिकर को एक फ़ाइल एक्सटेंशन की आवश्यकता होती है. जो अल्फ़ान्यूमेरिक की होना चाहिए।
+      स्टिकर का नाम फ़ाइलनाम या आपके द्वारा टाइप किए गए नाम से निर्धारित किया जाता है। उदाहरण के लिए: `sticker create BluePat.png`
+      NQN पर स्टिकर नाम अद्वितीय हैं, एक बार नाम लेने के बाद, आप इसे दोबारा नहीं ले सकते।
+      स्टिकर अधिकतम 8MB बड़े हो सकते हैं, और नाम केवल अक्षरांकीय हो सकते हैं।
+      स्टिकर को एक फ़ाइल एक्सटेंशन की आवश्यकता होती है, जोकि अक्षरांकीय होता है।
   sticker-delete:
-    short_doc: एक स्टिकर हटाएं
+    short_doc: अपना एक स्टीकर हटाएँ
   sticker-import:
-    short_doc: इमोजीस से स्टिकर आयात करें
+    short_doc: ईमोट से स्टीकर आयात करें
     help: |
       इमोजीस से स्टिकर आयात करें
       या तो सीधे एक एमोट से, एक वैकल्पिक उपनाम के साथ
