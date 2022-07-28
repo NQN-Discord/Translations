@@ -27,8 +27,7 @@ discord_bot:
           many: '%{author} purged %{count} messages in %{channel}'
       move:
         user_no_perms: You don't have both 'Send Messages' and 'Manage Messages' in %{channel}.
-        me_no_perms: I don't have 'Manage Webhooks' in %{channel}.
-        everyone_no_perms: The @everyone role needs 'Use External Emojis' in %{channel}.
+        me_no_perms: I need to have 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
         '1_20': Number of messages to move must be between 1 and 20
         moved_to:
           one: Moved %{count} message to %{to_channel}
