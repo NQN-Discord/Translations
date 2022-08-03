@@ -24,7 +24,6 @@ global:
   missing_permissions: Permissions manquantes
   missing_add_reaction: il me faut la permission 'Ajouter des réactions' pour que je puisse utiliser cette commande !
   missing_create_invite: il me faut la permission 'Créer des invitations' pour que je puisse utiliser cette commande !
-  everyone_external: Le rôle @everyone doit avoir la permission 'Utiliser des emojis externes'
   tabulated_delete_manage_messages: Je n'ai pas pu supprimer le menu - Merci de me donner moi la permission 'gérer les messages'
   no_nitro_global: L'utilisation du Nitro a été désactivé dans ce serveur !
   no_nitro_role: Seuls les utilisateurs avec le rôle <@&%{role}> peuvent utiliser cette commande !
