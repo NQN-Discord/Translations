@@ -351,6 +351,7 @@ discord_bot:
         author: Auteur
         bot_latency: '> Latence du Bot/API: %{bot_latency}ms'
         help_command: 'Commande d''aide: `%{prefix}help`'
+        refresh: Refresh
       upload_emote:
         own_emojis_dont_ask_again: Oui, je les possède
         alphanumeric: ' - Doit être alphanumérique avec des underscores'

@@ -18,14 +18,21 @@ discord_bot:
         url: "URL:"
         animated_url: "URL animato:"
         static_url: "URL statico:"
-      lock:
+      rolelock:
         success: "Ruoli bloccati per %{emoji} a %{roles}"
-      unlock:
+      roleunlock:
         success: "Ruoli sbloccati per %{emoji}"
       block:
         success:
           one: "Emoji bloccata"
           many: "Bloccate %{count} emoji"
+        audit:
+          one: |
+            %{author} ha bloccato la seguente emote:
+          many: |
+            %{author} ha bloccato le seguenti emote:
       unblock:
         success: "Emoji sbloccata"
         not_blocked: "L'emoji non era comunque bloccata"
+        audit: |
+          %{author} ha sbloccato la seguente emote:
