@@ -17,5 +17,5 @@ discord_bot:
     phish_deleted: |
       %{channel} में %{author} द्वारा भेजा गया फिशिंग सन्देश हटा दिया
     blocked_message: |
-      %{channel} में %{author} द्वारा बंद की गयी ईमोट का मैसेज हटा दिया
+      %{channel} में %{author} द्वारा बंद की गयी ईमोट का सन्देश हटा दिया
     audit_log_post: '%{author} (%{id}) की और से NQN'
