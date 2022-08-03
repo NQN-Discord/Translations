@@ -3,9 +3,9 @@ discord_bot:
   rendered_message:
     oops: Ups!
     external_emojis: |
-      Um Emojis aus anderen Servern zu nutzen, braucht die @everyone-Rolle die Berechtigung 'Use External Emojis' in den **Server Settings**.
+      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Server Settings**.
     override_external_emojis: |
-      Um Emojis aus anderen Servern zu nutzen, braucht die @everyone-Rolle die Berechtigung 'Use External Emojis' in den **Channel Settings Permissions**.
+      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
     download: Download
     no_personas: |
       Identitäten sind auf diesem Server nicht erlaubt

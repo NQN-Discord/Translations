@@ -28,9 +28,8 @@ discord_bot:
           many: '%{author} đã xóa %{count} tin nhắn trong %{channel}'
       move:
         user_no_perms: Bạn không có quyền 'Gửi tin nhắn' và 'Quản lý tin nhắn' trong %{channel}.
-        me_no_perms: Tôi đang thiếu quyền 'Quản lý Webhook' trong %{channel}.
-        everyone_no_perms: Vai trò @everyone cần quyền 'Dùng biểu cảm mở rộng' trong %{channel}.
-        '1_20': Số lượng tin nhắn để chuyển đi phải là một số từ 1 đến 20
+        me_no_perms: I need to have 'Read Messages', 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
+        message_limit: Number of messages to move must be between 1 and %{count}
         moved_to:
           one: Đã chuyển %{count} tin nhắn đến %{to_channel}
           many: Đã chuyển %{count} tin nhắn đến %{to_channel}
@@ -40,3 +39,15 @@ discord_bot:
         moved_to_from:
           one: '%{author} đã chuyển %{count} tin nhắn từ %{from_channel} đến %{to_channel}'
           many: '%{author} đã chuyển %{count} tin nhắn từ %{from_channel} đến %{to_channel}'
+        move_end: Move end message
+        end_previous_n: Move end message %{count} before
+        end_next_n: Move end message %{count} after
+        move_start: Move start message
+        start_previous_n: Move start message %{count} before
+        start_next_n: Move start message %{count} after
+        move_both: Move start and end
+        both_previous_n: Move start and end %{count} before
+        both_next_n: Move start and end %{count} after
+        move:
+          one: Move message!
+          many: Move %{count} messages!

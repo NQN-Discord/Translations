@@ -3,16 +3,16 @@ discord_bot:
   commands:
     raw:
       buttons:
-        commands: Commands
-        tutorial: Tutorial
-        my_emotes: My Emotes
+        commands: कमांड
+        tutorial: टुटोरिअल
+        my_emotes: मेरी ईमोट
       depreciated_commands:
         renamed: |
-          This command has been renamed to `%{prefix}%{new}`.
-          If you don't want to see this message again, react with ❌
-        ignored: Ignored `%{name}` for you.
+          यह कमांड का नाम बदलकर कर दिया गया है `%{prefix}%{new}`.
+          अगर आप इस सन्देश को दुबारा नही देखना चाहते तो, ❌ से प्रतिक्रिया दीजिये
+        ignored: '`%{name}` को आपके लिए अनदेखा किया गया'
       edit:
-        never_posted: You've never posted a message with NQN in this channel!
+        never_posted: आपने इस चैनल में NQN के साथ कभी कोई सन्देश नहीं भेजा है!
         message_deleted: |
           Your most recent message with NQN in this channel has been deleted!
           Please choose a message either by replying to it with Discord, or by pasting it's jump URL

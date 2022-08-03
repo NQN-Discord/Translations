@@ -3,67 +3,68 @@ discord_bot:
   commands:
     pack:
       buttons:
-        add_to_everyone: Add to @everyone
-        join_pack: Join Pack
-        leave_pack: Leave Pack
-        join_server: Join Server
-        all: Save All
+        add_to_everyone: '@everyone में जोड़ें'
+        join_pack: पैक में शामिल हों
+        leave_pack: पैक छोड़ें
+        join_server: सर्वर में शामिल हों
+        all: सभी सहेजें
       join:
         no_pack: '%{name} एक पंजीकृत इमोट पैक नहीं है'
-        already_joined: आप पहले से  %{name} ही शामिल हैं
+        already_joined: आप पहले से ही %{name} में शामिल हैं
         joined_pack: |
-          Joined %{name}.
-          You may now use the following emotes by typing its name into chat, including colons:
+          %{name} में शामिल हुए।
+          आप निम्नलिखित ईमोट को चैट में उनका नाम लिख कर उपयोग कर सकते हैं, अपूर्ण विराम सहित:
       leave:
         no_pack: '%{name} एक पंजीकृत इमोट पैक नहीं है'
-        already_left: आप %{name} पैक में थे ही नहीं
+        already_left: आप %{name} पैक में पहले से ही नही थे
         left: '%{name} पैक छोड़ा'
       meta:
-        needs_publishing: जब तक आप इस सर्वर को इमोट पैक के रूप में प्रकाशित नहीं करते, तब तक आप इस कमांड का उपयोग नहीं कर सकते।
+        needs_publishing: यह आप सर्वर को पहले ईमोट पैक के रूप में प्रकाशित किये बिना नही कर सकतें।
       mine:
-        no_packs: आपके पास कोई पैक नहीं है!
+        no_packs: आपके पास कोई पैक नही है!
       publish:
         already_published: यह सर्वर पैक के रूप में पहले से ही प्रकाशित है!
-        already_exists: '%{name} नामक एक एमोट पैक पहले से ही मौजूद है'
-        published: '%{name} इमोजी पैक प्रकाशित किया।  कोई भी इन इमोजीस को अपने स्वयं के सर्वर में सहेजने में सक्षम है, और आप दावा करते हैं कि आप इन इमोजी के मालिक हैं। इसे पूर्ववत करने के लिए, चलाएं `%{prefix}pack unpublish`.'
+        already_exists: '%{name} नामक एक ईमोट पैक पहले से ही मौजूद है'
+        published: '%{name} इमोजी पैक प्रकाशित किया। कोई भी इन इमोजी को अपने स्वयं के सर्वर में सहेजने में सक्षम है, और आप दावा करते हैं कि आप इन इमोजी के मालिक हैं। इसे पूर्ववत करने के लिए, चलाएं `%{prefix}pack unpublish`.'
         pack_published: |
-          To gain access to all these emotes, run
+          इन सभी इमोटों तक पहुँच पाने के लिए, लिखिए
           >>> !pack join %{name}
       rename:
-        already_exists: '%{name} नामक एक एमोट पैक पहले से ही मौजूद है'
+        already_exists: '%{name} नामक एक ईमोट पैक पहले से ही मौजूद है'
         not_published: यह सर्वर पहले प्रकाशित नहीं किया गया था।
-        renamed: नाम बदला गया %{old} %{new}
+        renamed: '%{old} का नाम %{new} में बदला गया'
       save:
-        none_left: इस सर्वर में समान नाम वाले इमोजी को फ़िल्टर करने के बाद, आयात करने के लिए कोई नहीं बचा था!
+        none_left: इस सर्वर में समान नाम वाले इमोजी को फ़िल्टर करने के बाद, आयात करने के लिए कोई इमोजी नहीं बचे!
         no_space: इस पैक में किसी भी इमोजी को जोड़ने के लिए इस सर्वर में कोई जगह नहीं है।
         failed_batch: |
-          इमोजीस के पूरे बैच को अपलोड नहीं किया जा सका; कुछ घंटों में फिर से प्रयास करें
+          Discord बॉट को एक घंटे में सिर्फ 50 इमोजी अपलोड करने की अनुमति देता है।
+          NQN इस बैच के सारे इमोजी अपलोड नहीं कर सका, लेकिन आप इस कमांड को एक घंटे बाद चलाकर बाकी को अपलोड कर सकते हैं
         not_registered: '%{name} एक पंजीकृत इमोट पैक नहीं है'
-        upload_question: "इन इमोजीस को इस सर्वर पर अपलोड करें?\n यदि आप इन सभी इमोजी के मालिक नहीं हैं, तो N चुनें।"
+        upload_question: "इन इमोजी को इस सर्वर पर अपलोड करें?\n यदि आप इन सभी इमोजी के मालिक नहीं हैं, तो N चुनें।"
         uploaded:
-          one: अपलोड किए गए %{count} इमोट
-          many: अपलोड किए गए %{count} इमोट्स
+          one: '%{count} इमोजी अपलोड किये गए'
+          many: '%{count} इमोजी अपलोड किये गए'
       search:
         invalid_group: <अमान्य पैक - कृपया रिपोर्ट करें>
       set_public:
-        needs_publishing: आप इस सर्वर को इमोजी पैक के रूप में प्रकाशित किए बिना ऐसा नहीं कर सकते।
-        public_on: NQN के माध्यम से इनवाइट की अनुमति देता है।
-        public_off: NQN के माध्यम से इनवाइट की अनुमति नहीं देता हैं।
+        needs_publishing: यह आप सर्वर को पहले ईमोट पैक के रूप में प्रकाशित किये बिना नही कर सकतें।
+        public_on: NQN के माध्यम से आमंत्रण की अनुमति है।
+        public_off: NQN के माध्यम से आमंत्रण की अनुमति नहीं हैं।
       show:
         not_registered: '%{name} एक पंजीकृत इमोट पैक नहीं है'
-        pack_empty: इस पैक में कोई इमोजी नहीं है!
-        join_pack: '`%{name}` को ज्वाइन करने और उसके सारे इमोजी उसे करने के लिए इस कमांड का इसतेमाल करें `%{prefix}pack join %{name}`'
+        pack_empty: इस पैक में कोई ईमोट नहीं है!
+        join_pack: '"%{name}" पैक की सामग्री:'
       unpublish:
         not_published: यह सर्वर पहले प्रकाशित नहीं किया गया था।
-        unpublished: अप्रकाशित किया %{name} इमोजी पैक को
+        unpublished: '%{name} ईमोट पैक को अप्रकाशित किया'
       dm:
         send_dms:
           zero: |
-            You have no packs!
-            Get some with `%{prefix}pack search`
+            आपके पास कोई पैक नहीं हैं!
+            `%{prefix}pack search` के माध्यम से कुछ प्राप्त करिये
           one: |
-            This will send you a direct message; do you wish to continue?
+            यह आपको एक सीधा सन्देश भेजेगा; क्या आप जारी रखना चाहते हैं?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            यह आपको %{count} सीधे सन्देश भेजेगा; क्या आप जारी रखना चाहते हैं?
         blocked: |-
-          You've blocked me, I can't message you!
+          आपने मुझे ब्लॉक कर दिया है, मैं आपको सन्देश नहीं भेज सकता!

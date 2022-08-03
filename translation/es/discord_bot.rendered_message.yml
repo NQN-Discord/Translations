@@ -3,9 +3,9 @@ discord_bot:
   rendered_message:
     oops: '¡Oops!'
     external_emojis: |
-      Para poder utilizar emojis de otros servidores, el rol @everyone requiere del permiso 'Usar emojis externos' en la **configuración del servidor**.
+      Para poder utilizar emojis de otros servidores, NQN necesitá del permiso "Usar Emojis Externos" en los **Ajustes del Servidor**.
     override_external_emojis: |
-      Para poder utilizar emojis de otros servidores, el rol @everyone requiere del permiso 'Usar emojis externos' en la **configuración del canal**.
+      Para poder utilizar emojis de otros servidores, NQN necesitá del permiso "Usar Emojis Externos" en los **Ajustes del Canal**.
     download: Descarga
     no_personas: |
       Los personajes no estan habilitados en este servidor.

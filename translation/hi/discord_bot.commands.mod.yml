@@ -4,33 +4,32 @@ discord_bot:
     mod:
       audit:
         no_messages: ऑडिट करने के लिए कोई संदेश नहीं।
-        expand: Expand
-        truncate: Truncate
+        expand: विस्तारित करें
+        truncate: काटें
       edit_topic:
-        edited: संपादित %{channel} विषय।
-        edited_audit: "%{author} संपादित %{channel}का विषय :\n>>> %{description}"
+        edited: '%{channel} का विषय सम्पादित।'
+        edited_audit: "%{author} ने %{channel} का विषय इसमें सम्पादित किया:\n>>> %{description}"
       ban:
         owner: मैं मालिक पर प्रतिबंध नहीं लगा सकता!
-        cannot_ban: मैं प्रतिबंध नहीं लगा सकता <@%{banee}>!
-        you_cannot_ban: You cannot ban <@%{banee}>!
+        cannot_ban: मैं <@%{banee}> पर प्रतिबन्ध नहीं लगा सकता!
+        you_cannot_ban: आप <@%{banee}> को प्रतिबंधित नहीं कर सकते!
         banned: <@%{banee}> (ID %{banee}) पर प्रतिबंध लगा दिया
-        banned_audit: '%{author} ने इन पर<@%{banee}> (ID %{banee})प्रतिबंध लगा दिया'
+        banned_audit: '%{author} ने <@%{banee}> (ID %{banee}) पर प्रतिबन्ध लगा दिया'
       kick:
-        owner: मैं मालिक को हटा नहीं सकता!
-        cannot_kick: मैं हटा नहीं सकता <@%{kickee}>!
-        you_cannot_kick: You cannot kick <@%{kickee}>!
-        kicked: हटा दिया <@%{kickee}> (ID %{kickee})
-        kicked_audit: '%{author} ने किक किया <@%{kickee}> (ID %{kickee})'
+        owner: मैं मालिक को बाहर नहीं निकाल सकता!
+        cannot_kick: मैं <@%{kickee}> को बाहर नहीं निकाल सकता!
+        you_cannot_kick: आप <@%{kickee}> को बाहर नहीं निकाल सकते!
+        kicked: <@%{kickee}> (ID %{kickee}) को बाहर निकाल दिया
+        kicked_audit: '%{author} ने <@%{kickee}> (ID %{kickee}) को बाहर निकाल दिया'
       purge:
-        '0_100': एक जगह से ले जाने के लिए संदेशों की संख्या 1 और 100 के बीच होनी चाहिए
+        '0_100': एक जगह से ले जाने के लिए संदेशों की संख्या 1 से 100 के बीच होनी चाहिए
         audit:
           one: '%{author} पर्ज  %{count} मैसेज  %{channel} इस चैनल में'
           many: '%{author} पर्ज  %{count} मैसेजस %{channel} इस चैनल में'
       move:
         user_no_perms: आपके पास 'Send Messages' and 'Manage Messages' %{channel} परमिशन इस चैनल में नहीं हैं
-        me_no_perms: I don't have 'Manage Webhooks' in %{channel}.
-        everyone_no_perms: The @everyone role needs 'Use External Emojis' in %{channel}.
-        '1_20': एक जगह से ले जाने के लिए संदेशों की संख्या 1 और 20 के बीच होनी चाहिए
+        me_no_perms: I need to have 'Read Messages', 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
+        message_limit: Number of messages to move must be between 1 and %{count}
         moved_to:
           one: '%{count} मैसेज को  %{to_channel}में ले जाया गया'
           many: '%{count}मैसेज को %{to_channel} में ले जाया गया'
@@ -40,3 +39,15 @@ discord_bot:
         moved_to_from:
           one: '%{author} ने  %{count} मैसेज को  %{from_channel} से हटा कर  %{to_channel} मैं भेज दिया '
           many: '%{author} ने  %{count} मैसेज को  %{from_channel} से हटा कर  %{to_channel} मैं भेज दिया'
+        move_end: Move end message
+        end_previous_n: Move end message %{count} before
+        end_next_n: Move end message %{count} after
+        move_start: Move start message
+        start_previous_n: Move start message %{count} before
+        start_next_n: Move start message %{count} after
+        move_both: Move start and end
+        both_previous_n: Move start and end %{count} before
+        both_next_n: Move start and end %{count} after
+        move:
+          one: Move message!
+          many: Move %{count} messages!

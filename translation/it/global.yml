@@ -12,7 +12,7 @@ global:
   success: Successo
   yes: Yes
   no: No
-  dm_me: DM Me
+  dm_me: Inviami un DM
   next: Successivo
   previous: Precedente
   choose_emote: Scegli alcune emote
@@ -24,7 +24,6 @@ global:
   missing_permissions: Permessi Mancanti
   missing_add_reaction: Ho bisogno del permesso 'Aggiungi Reazioni' per questo comando!
   missing_create_invite: Ho bisogno del permesso 'Crea invito istantaneo' per questo comando!
-  everyone_external: Il ruolo @everyone ha bisogno di 'Usa Emoji Esterne'
   tabulated_delete_manage_messages: Impossibile eliminare il menu - per favore dammi Gestisci messaggi
   no_nitro_global: L'utilizzo del nitro è stato disabilitato in questo server!
   no_nitro_role: Solo gli utenti con il ruolo <@&%{role}> possono usare questo comando!

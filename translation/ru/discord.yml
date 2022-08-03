@@ -2,7 +2,6 @@
 discord:
   ext.commands.help:
     need_emojis: ' - Мне это нужно, чтобы использовать эмодзи!'
-    need_everyone_external: ' - Роли @everyone требуется это, чтобы я мог использовать эмодзи!'
     need_help: ' - Мне требуется это для команды помощи!'
     nothing: ''
     choose_page: Посмотреть команды

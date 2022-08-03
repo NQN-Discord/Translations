@@ -7,7 +7,7 @@ command_docs:
     help: |
       Elimina tutti i tuoi alias
   alias-dm:
-    short_doc: Ottieni un elenco completo dei tuoi alias nei DM
+    short_doc: Ottieni l'elenco completo dei tuoi alias nei DM
     help: |
       Il bot ti invia un elenco dei tuoi alias nei DM
   alias-export:
@@ -134,7 +134,7 @@ command_docs:
   owner:
     short_doc: Cose proibite stanno qua dentro
   pack-dm:
-    short_doc: Ottieni un elenco completo dei tuoi pacchetti in DM
+    short_doc: Ottieni l'elenco completo dei tuoi pacchetti nei DM
     help: |
       Il bot ti invierá un elenco completo delle emoji attuali dei tuoi pacchetti attraverso i tuoi DM.
   pack-join:
@@ -168,7 +168,7 @@ command_docs:
   persona-display_name:
     short_doc: Cambia il nome utente di un personaggio
   persona-dm:
-    short_doc: Invia in DM un elenco completo dei tuoi personaggi
+    short_doc: Invia in DM l'elenco completo dei tuoi personaggi
   persona-export:
     short_doc: Esporta il tuo elenco di personaggi in un file
     help: |
@@ -179,7 +179,7 @@ command_docs:
       Importa un elenco di personaggi precedentemente esportato.
       Compatibile con PluralKit e Tupperbox.
   persona-list:
-    short_doc: Mostra un elenco dei tuoi personaggi
+    short_doc: Mostra l'elenco dei tuoi personaggi
   persona-register:
     short_doc: Registra un personaggio per uso successivo
   persona-rename:
@@ -231,7 +231,7 @@ command_docs:
   server-pack-list:
     short_doc: Elenca i pacchetti che questo server può usare
   server-pack-post:
-    short_doc: Pubblica un elenco di pacchetti del server
+    short_doc: Pubblica l'elenco di pacchetti del server
   server-pack-search:
     short_doc: Cerca un pacchetto di emote per aggiungerlo al server
   server-pack:
@@ -286,7 +286,7 @@ command_docs:
       Il nome dell'adesivo è determinato dal nome del file o da quello che scrivi. `sticker crea BluePat.png`.
       I nomi degli adesivi sono univoci attraverso NQN, una volta preso un nome, è sparito.
       Gli adesivi possono essere un massimo di 8MB di grandi dimensioni e i nomi possono essere solo alfanumerici.
-      Gli adesivi hanno bisogno di un'estensione di file, che è anche alfanumerica.
+      Gli adesivi hanno bisogno di un'estensione file, che è anche alfanumerica.
   sticker-delete:
     short_doc: Elimina un adesivo che possiedi
   sticker-import:

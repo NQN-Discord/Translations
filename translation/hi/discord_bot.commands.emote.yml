@@ -3,36 +3,36 @@ discord_bot:
   commands:
     emote:
       info:
-        title: "Info about emote '%{name}':"
+        title: "ईमोट के बारे में जानकारी '%{name}':"
         id: "ID:"
-        server_daily_uses: "Daily uses in this server:"
-        server_uses: "Uses in this server:"
+        server_daily_uses: "इस सर्वर में दैनिक उपयोग:"
+        server_uses: "इस सर्वर में उपयोग:"
         approx_uses:
           zero: "0"
           one: "1"
           many: "~%{count}"
-        total_uses_per_day: "Total uses per day:"
-        aka: "Also known as:"
-        locked_roles: "Locked to roles:"
-        upload_time: "Uploaded at:"
+        total_uses_per_day: "प्रतिदिन कुल उपयोग:"
+        aka: "इस रूप में भी जाना जाता है:"
+        locked_roles: "इन रोल तक सीमित:"
+        upload_time: "यहाँ अपलोड किया गया"
         url: "URL:"
-        animated_url: "Animated URL:"
-        static_url: "Static URL:"
+        animated_url: "गतिशील URL:"
+        static_url: "स्थिर URL:"
       rolelock:
-        success: "Locked roles for %{emoji} to %{roles}"
+        success: "%{emoji} का उपयोग %{roles} तक सीमित कर दिया"
       roleunlock:
-        success: "Unlocked roles for %{emoji}"
+        success: "%{emoji} के लिए रोल अनलॉक कर दिए"
       block:
         success:
-          one: "Blocked emoji"
-          many: "Blocked %{count} emojis"
+          one: "इमोजी रोका गया"
+          many: "%{count} इमोजी रोके गए"
         audit:
           one: |
-            %{author} blocked the following emote:
+            %{author} ने निम्नलिखित ईमोट रोक दिया:
           many: |
-            %{author} blocked the following emotes:
+            %{author} ने निम्नलिखित ईमोट रोक दिए:
       unblock:
-        success: "Unblocked emoji"
-        not_blocked: "Emoji wasn't blocked to start with"
+        success: "इमोजी अनलॉक किया गया"
+        not_blocked: "इमोजी को ब्लॉक नहीं किया गया था"
         audit: |
-          %{author} unblocked the following emote:
+          %{author} ने निम्नलिखित ईमोट को अनब्लॉक कर दिया:

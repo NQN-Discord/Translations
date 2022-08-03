@@ -3,9 +3,9 @@ discord_bot:
   rendered_message:
     oops: اوخ!
     external_emojis: |
-      برای استفاده ایموجی ها در دیگر سرور ها، نقش ‎@everyone بایستی دسترسی 'Use External Emojis' را در **تنظیمات سرور** داشته باشد.
+      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Server Settings**.
     override_external_emojis: |
-      برای استفاده ایموجی ها در دیگر سرور ها، نقش ‎@everyone بایستی دسترسی 'Use External Emojis' را در **تنظیمات دسترسی های کانال** داشته باشد.
+      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
     download: دانلود
     no_personas: |
       پرسونا ها برای این سرور مجاز نیستند

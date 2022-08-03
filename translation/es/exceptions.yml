@@ -25,13 +25,6 @@ exceptions:
     many: |
       Te falta los siguientes permisos necesarios para usar este comando:
       %{permissions_missing}
-  everyone_missing_permissions:
-    one: |
-      Le falta al rol @everyone el siguiente permiso necesario para usar este comando:
-      %{permissions_missing}
-    many: |
-      Le faltan al rol @everyone los siguientes permisos necesarios para usar este comando:
-      %{permissions_missing}
   message_not_found: |
     El mensaje "%{param}" no se pudo encontrado.
   channel_not_found: |

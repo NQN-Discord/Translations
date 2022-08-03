@@ -31,7 +31,7 @@ discord_bot:
       description: |
         Una menzione di ruolo o un nome
     NQNEmoji:
-      name: NQNEmoji
+      name: EmojiNQN
       description: |
         Una emoji non reindirizzata che NQN può trasformare
         - Una emoji Discord renderizzata o un URL emoji
@@ -40,7 +40,7 @@ discord_bot:
       description: |-
         Il nome di una emoji che è bloccata in questo server
     CurrentGuildEmoji:
-      name: ServerEmoji
+      name: EmojiServer
       description: |
         Una emoji nel server attuale
     None:

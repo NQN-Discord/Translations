@@ -28,9 +28,8 @@ discord_bot:
           many: '%{author} ha eliminato %{count} messaggi in %{channel}'
       move:
         user_no_perms: Non hai sia 'Invia messaggi' che 'Gestisci messaggi' in %{channel}.
-        me_no_perms: Non ho 'Gestisci Webhooks' in %{channel}.
-        everyone_no_perms: Il ruolo @everyone ha bisogno di 'Usa Emoji Esterne' in %{channel}.
-        '1_20': Il numero di messaggi da spostare deve essere compreso tra 1 e 20
+        me_no_perms: Necessito di 'Leggi Messaggi', 'Gestisci Webhook' e 'Usa Emoji Esterne' permessi in %{channel}.
+        message_limit: Il numero di messaggi da spostare deve essere compreso tra 1 e %{count}
         moved_to:
           one: Spostato %{count} messaggo in %{to_channel}
           many: Spostati %{count} messaggi in %{to_channel}
@@ -40,3 +39,15 @@ discord_bot:
         moved_to_from:
           one: '%{author} ha spostato %{count} messaggio da %{from_channel} a %{to_channel}'
           many: '%{author} ha spostato %{count} messaggi da %{from_channel} a %{to_channel}'
+        move_end: Move end message
+        end_previous_n: Move end message %{count} before
+        end_next_n: Move end message %{count} after
+        move_start: Move start message
+        start_previous_n: Move start message %{count} before
+        start_next_n: Move start message %{count} after
+        move_both: Move start and end
+        both_previous_n: Move start and end %{count} before
+        both_next_n: Move start and end %{count} after
+        move:
+          one: Muovi messaggio!
+          many: Muovi %{count} messaggi!
