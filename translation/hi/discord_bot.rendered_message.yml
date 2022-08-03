@@ -3,9 +3,9 @@ discord_bot:
   rendered_message:
     oops: ऊप्स!
     external_emojis: |
-      अन्य सर्वेरों के इमोजी इस्तेमाल करने के लिए, @everyone रोल को **सर्वर सेटिंग** में 'बाह्य इमोजी इस्तेमाल करें' अनुमति की जरुरत है।
+      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Server Settings**.
     override_external_emojis: |
-      अन्य सर्वेरों के इमोजी इस्तेमाल करने के लिए, @everyone रोल को **चैनल सेटिंग अनुमतियों** में 'बाह्य इमोजी इस्तेमाल करें' अनुमति की जरुरत है।
+      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
     download: डाउनलोड करें
     no_personas: |
       इस सर्वर में पहचानें अनुमत नहीं हैं
