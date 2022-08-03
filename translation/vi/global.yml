@@ -24,7 +24,6 @@ global:
   missing_permissions: Thiếu quyền
   missing_add_reaction: Tôi cần quyền 'Thêm biểu cảm' để thực hiện lệnh đó!
   missing_create_invite: Tôi cần quyền 'Tạo lời mời tức thì' để thực hiện lệnh đó!
-  everyone_external: Vai trò @everyone cần quyền 'Dùng biểu cảm mở rộng'
   tabulated_delete_manage_messages: Không thể xóa menu - vui lòng cung cấp cho tôi quyền 'Quản lý tin nhắn'
   no_nitro_global: Giời hạn vai trò đã bị vô hiệu trong server này!
   no_nitro_role: Chỉ người dùng với vai trò <@&%{role}> mới có thể dùng lệnh này!

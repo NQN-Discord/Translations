@@ -2,52 +2,52 @@
 discord_bot:
   commands:
     alias:
-      no_alias: "आपके पास कोई एलियस नहीं है जिसका नाम \\:%{name}:"
-      could_not_find: एलियस नहीं मिला
-      alphanumeric: एलियस में केवल अल्फ़ान्यूमेरिक्स और अंडरस्कोर हो सकते हैं
-      max_length: Alias names can be at most 32 characters long
-      user_zero: आपके पास कोई एलियस नहीं है
+      no_alias: "आपके पास \\:%{name}: नाम का कोई उपनाम नही है"
+      could_not_find: उपनाम नहीं मिला
+      alphanumeric: उपनाम में केवल अक्षर या अंक और अंडरस्कोर हो सकते हैं
+      max_length: उपनाम के नाम अधिक से अधिक 32 वर्ण तक हो सकते हैं
+      user_zero: आपके पास कोई उपनाम नही है
       from_message:
-        no_emotes: This message doesn't have any custom emojis in it!
+        no_emotes: इस सन्देश में कोई भी कस्टम इमोजी नहीं है!
       delete:
-        deleted: 'Deleted \:%{name}:'
+        deleted: 'हटाया \:%{name}:'
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your aliases.
-          Are you sure you wish to continue?
+          यह आपके सारे **%{count}** उपनामो को हटा देगा।
+          क्या आप जारी रखना चाहते हैं?
         deleted:
-          one: Deleted 1 alias
-          many: Deleted %{count} aliases
+          one: 1 उपनाम हटाया गया
+          many: '%{count} उपनाम हटाए गए'
       created:
-        one: 'You created an alias and can use it by typing:'
-        many: 'You created %{count} aliases and can use them by typing:'
+        one: 'आपने एक उपनाम बना लिया है और आप इसे यह लिख कर इस्तेमाल कर सकते हैं:'
+        many: 'आपने %{count} उपनाम बना लिए हैं और आप इन्हे यह लिख कर इस्तेमाल कर सकते हैं:'
       rename:
-        rename: Rename Alias
-        alias_name: 'Alias Name:'
+        rename: उपनामो का नाम बदलें
+        alias_name: 'उपनाम नाम:'
         renamed: 'नाम बदला  \:%{old}: से :%{new}:'
       export:
-        exported_short: "Here's your exported aliases:"
+        exported_short: "यह रहे आपके निर्यातित उपनाम:"
         exported_long: |
-          Here's your exported aliases:
-          To share them with other people, they need to run:
+          यह रहे आपके निर्यातित उपनाम:
+          उन्हें अन्य लोगो के साथ साझा करने के लिए, उन्हें लिखना होगा:
           > `%{prefix}alias import %{url}`
       import_:
         import_incorrect: |
-          This command is used to import an alias list previously exported with `%{prefix}alias export`.
-          To create an alias, use `%{prefix}alias search`
-        import_text: This command needs a text file attachment
-        import_lines_invalid: Could not set aliases on lines %{lines_invalid}, invalid format.
+          इस कमांड का उपयोग एक उपनाम सूची को आयात करने के लिए किया जाता है जो पहले `%{prefix}alias export` द्वारा निर्यातित की गयी थी।
+          एक उपनाम बनाने के लिए, उपयोग कीजिये `%{prefix}alias search`
+        import_text: इस कमांड से एक टेक्स्ट फाइल अटैच होना जरूरी है
+        import_lines_invalid: लाइनों पर उपनाम सेट नहीं कर सका %{lines_invalid}, अमान्य प्रारूप।
         import_set:
-          one: Set %{count} alias.
-          many: Set %{count} aliases.
+          one: '%{count} उपनाम सेट करें'
+          many: '%{count} उपनामों को सेट करें'
       dm:
         send_dms:
           zero: |
-            You have no aliases!
-            Get some with `%{prefix}alias search`
+            आपके पास कोई उपनाम नहीं हैं!
+            `%{prefix}alias search` के माध्यम से कुछ प्राप्त करें
           one: |
-            This will send you a direct message; do you wish to continue?
+            यह आपको एक सीधा सन्देश भेजेगा; क्या आप जारी रखना चाहते हैं?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            यह आपको %{count} सीधे सन्देश भेजेगा; क्या आप जारी रखना चाहते हैं?
         blocked: |-
-          You've blocked me, I can't message you!
+          आपने मुझे ब्लॉक कर दिया है, मैं आपको सन्देश नहीं भेज सकता!

@@ -25,13 +25,6 @@ exceptions:
     many: |
       Dir fehlen folgende Berechtigungen, um diesen Befehl auszuführen:
       %{permissions_missing}
-  everyone_missing_permissions:
-    one: |
-      Der Rolle @everyone fehlt die folgende Berechtigung, um diesen Befehl auszuführen:
-      %{permissions_missing}
-    many: |
-      Der Rolle @everyone fehlen folgende Berechtigungen, um diesen Befel auszuführen:
-      %{permissions_missing}
   message_not_found: |
     Nachricht "%{param}" wurde nicht gefunden.
   channel_not_found: |

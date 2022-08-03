@@ -3,9 +3,9 @@ discord_bot:
   rendered_message:
     oops: Ой!
     external_emojis: |
-      Чтобы использовать эмодзи с других серверов, роль @everyone должна иметь право 'Использовать внешние эмодзи' (Use External Emojis) как в настройках сервера, так и в разрешениях канала.
+      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Server Settings**.
     override_external_emojis: |
-      Чтобы использовать эмодзи с других серверов, роль @everyone должна иметь право 'Использовать внешние эмодзи' (Use External Emojis) в разрешениях канала.
+      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
     download: Скачать
     no_personas: |
       Personas are not allowed in this server

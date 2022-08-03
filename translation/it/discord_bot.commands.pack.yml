@@ -4,9 +4,9 @@ discord_bot:
     pack:
       buttons:
         add_to_everyone: Aggiungi a @everyone
-        join_pack: Unisciti Al Pacchetto
-        leave_pack: Lascia Il Pacchetto
-        join_server: Unisciti Al Server
+        join_pack: Unisciti al Pacchetto
+        leave_pack: Lascia il Pacchetto
+        join_server: Unisciti al Server
         all: Salva Tutto
       join:
         no_pack: '%{name} non è un pacchetto di emote registrato'

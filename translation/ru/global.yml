@@ -24,7 +24,6 @@ global:
   missing_permissions: Отсутствуют права
   missing_add_reaction: Мне требуется право 'Добавлять реакции' (Add Reactions) для этой команды!
   missing_create_invite: Мне требуется право 'Создавать приглашения' (Create Instant Invite) для этой команды!
-  everyone_external: Роль @everyone должна иметь право 'Использовать глобальные эмодзи' (Use External Emojis)
   tabulated_delete_manage_messages: Не удалось удалить меню - Пожалуйста, дайте мне право 'Управлять сообщениями' (Manage Messages)
   no_nitro_global: На этом сервере отключено использование нитро!
   no_nitro_role: Только пользователи с ролью <@&%{role}> могут использовать эту команду!

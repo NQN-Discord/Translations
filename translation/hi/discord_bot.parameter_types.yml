@@ -3,67 +3,67 @@ discord_bot:
   parameter_types:
     #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
     SearchTerms:
-      name: Search terms
+      name: खोज शब्द
       description: |-
-        Search terms
+        खोज शब्द
     Message:
-      name: Message
+      name: सन्देश
       description: |-
-        A Discord reply to the message you want to target
-        - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
-        - A message id in the current channel (`123456789`)
-        - ChannelID-MessageID pair (`123456789-123456789`)
-        - How many messages ago it was in current channel (`5` messages ago)
+        आपके लक्षित सन्देश को जवाब दीजिये
+        - एक सन्देश URL(`https://discord.com/channels/123456789/123456789/123456789`)
+        - वर्तमान चैनल में सन्देश आईडी (`123456789`)
+        - चैनलआईडी-सन्देशआईडी का जोड़ा (`123456789-123456789`)
+        - यह वर्तमान चैनल में कितने संदेशों पहले था (`5` संदेशों पहले)
     PartialEmoji:
-      name: Emoji
+      name: इमोजी
       description: |-
-        A rendered Discord emoji or an emoji URL
+        एक रेंडर हुआ Discord इमोजी या एक इमोजी URL
     TextChannel:
-      name: Text Channel
+      name: टेक्स्ट चैनल
       description: |
-        A text channel mention
+        एक टेक्स्ट चैनल मेंशन
     User:
-      name: User
+      name: उपयोगकर्ता
       description: |
-        A user mention
+        एक यूजर मेंशन
     Role:
-      name: Role
+      name: रोल
       description: |
-        A role mention or name
+        एक रोल मेंशन या नाम
     NQNEmoji:
-      name: NQNEmoji
+      name: NQNइमोजी
       description: |
-        An unrendered emoji NQN can transform
-        - A rendered Discord emoji or an emoji URL
+        एक बिना रेंडर हुआ इमोजी जिसे NQN बदल सकता है
+        - एक रेंडर हुए Discord इमोजी या इमोजी का URL
     BlockedEmoji:
-      name: BlockedEmoji
+      name: ब्लॉक्डइमोजी
       description: |-
-        The name of an emoji that's blocked in this server
+        उस इमोजी का नाम जो इस सर्वर में ब्लॉक है
     CurrentGuildEmoji:
-      name: ServerEmoji
+      name: सर्वरइमोजी
       description: |
-        An emoji in the current server
+        वर्तमान सर्वर में एक इमोजी
     None:
-      name: Empty
+      name: खाली
       description: |
-        No argument
+        कोई आर्गुमेंट नही
     str:
-      name: String
+      name: स्ट्रिंग
       description: |
-        Some text
+        कोई टेक्स्ट
     int:
-      name: Integer
+      name: पूर्णांक
       description: |
-        A number
+        एक संख्या
     bool:
-      name: Boolean
+      name: बूलियन
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
-      name: List
+      name: सूची
       description: |-
-        At least
+        कम से कम
     Union:
-      name: Union
+      name: संघ
       description: |-
-        One of the following:
+        निम्न में से एक:

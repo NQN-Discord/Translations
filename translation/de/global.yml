@@ -24,7 +24,6 @@ global:
   missing_permissions: Fehlende Berechtigungen
   missing_add_reaction: Ich brauche die 'Add Reactions' -Berechtigung für diesen Befehl!
   missing_create_invite: I brauche die 'Create Instant Invite' -Berechtigung für diesen Befehl!
-  everyone_external: Die @everyone-Rolle benötigt die Berechtigung 'Use External Emojis'
   tabulated_delete_manage_messages: Das Menü konnte nicht gelöscht werden - bitte gebe mir die 'Manage Messages' -Berechtigung
   no_nitro_global: Nitro usage wurde für diese Server deaktiviert!
   no_nitro_role: Nur Nutzer mit der <@&%{role}> -Rolle können diesen Befehl nutzen!

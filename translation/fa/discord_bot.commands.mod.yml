@@ -28,9 +28,8 @@ discord_bot:
           many: 'کاربر %{author}، به تعداد %{count} پیام را از کانال %{channel} پاک کرد'
       move:
         user_no_perms: شما هردو دسترسی 'Send Messages' و 'Manage Messages' را در کانال %{channel} ندارید.
-        me_no_perms: من دسترسی 'Manage Webhooks' را در کانال %{channel} ندارم.
-        everyone_no_perms: نقش everyone@ نیازمند به دسترسی 'Use External Emojis' در کانال %{channel} می باشد.
-        '1_20': تعداد پیام ها برای انتقال باید بین 1 تا 20 عدد باشد
+        me_no_perms: I need to have 'Read Messages', 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
+        message_limit: Number of messages to move must be between 1 and %{count}
         moved_to:
           one: '%{count} پیام به کانال %{to_channel} انتقال داده شد'
           many: '%{count} پیام به کانال %{to_channel} انتقال داده شد'
@@ -40,3 +39,15 @@ discord_bot:
         moved_to_from:
           one: 'کاربر %{author}، به تعداد %{count} پیام را از کانال %{from_channel} به کانال %{to_channel} منتقل کرد'
           many: 'کاربر %{author}، به تعداد %{count} پیام را از کانال %{from_channel} به کانال %{to_channel} منتقل کرد'
+        move_end: Move end message
+        end_previous_n: Move end message %{count} before
+        end_next_n: Move end message %{count} after
+        move_start: Move start message
+        start_previous_n: Move start message %{count} before
+        start_next_n: Move start message %{count} after
+        move_both: Move start and end
+        both_previous_n: Move start and end %{count} before
+        both_next_n: Move start and end %{count} after
+        move:
+          one: Move message!
+          many: Move %{count} messages!

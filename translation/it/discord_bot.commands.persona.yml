@@ -41,7 +41,7 @@ discord_bot:
           Hai già un personaggio chiamato %{short_name}.
           Puoi rinominarlo con `%{prefix}persona rename %{short_name} new_name`
         registered_persona: |
-          Registrato %{short_name} come persona!
+          Registrato %{short_name} come personaggio!
           Per inviare messaggi in quanto tale, invia un messaggio che inizia con `%{short_name}:`, per esempio:
           > ```%{short_name}: Ciao! ``
           Per cambiare il loro nome utente nei messaggi in 'NQN', esegui:

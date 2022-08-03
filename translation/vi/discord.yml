@@ -2,7 +2,6 @@
 discord:
   ext.commands.help:
     need_emojis: ' - Tôi cần quyền này để dùng biểu cảm!'
-    need_everyone_external: ' - Role @everyone cần quyền này để tôi có thể dùng biểu cảm!'
     need_help: ' - Tôi cần quyền này để thực hiện lệnh "help"!'
     nothing: ''
     choose_page: Tìm kiếm lệnh

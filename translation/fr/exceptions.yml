@@ -25,13 +25,6 @@ exceptions:
     many: |
       You are missing the following permissions required to run this command:
       %{permissions_missing}
-  everyone_missing_permissions:
-    one: |
-      Le rôle @everyone ne possède pas la permission requise suivante pour exécuter cette commande:
-      %{permissions_missing}
-    many: |
-      Le rôle @everyone ne possède pas les permissions requises suivantes pour exécuter cette commande:
-      %{permissions_missing}
   message_not_found: |
     Le message «%{param}» n'a pas été trouvé.
   channel_not_found: |

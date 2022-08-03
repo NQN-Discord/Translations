@@ -25,13 +25,6 @@ exceptions:
     many: |
       Falta-lhe as seguintes permissões obrigatórias para executar este comando:
       %{permissions_missing}
-  everyone_missing_permissions:
-    one: |
-      O cargo @everyone não tem a seguinte permissão obrigatória para executar este comando:
-      %{permissions_missing}
-    many: |
-      O cargo @everyone não tem as seguintes permissões obrigatórias para executar este comando:
-      %{permissions_missing}
   message_not_found: |
     A mensagem "%{param}" não foi encontrada.
   channel_not_found: |
