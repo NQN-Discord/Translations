@@ -25,13 +25,6 @@ exceptions:
     many: |
       इस कमांड को चलाने के चलिए आपके पास निम्नलिखित अनुमतियां नहीं है:
       %{permissions_missing}
-  everyone_missing_permissions:
-    one: |
-      इस कमांड को चलाने के लिए लिए @everyone रोल के पास निम्नलिखित अनुमति नही है:
-      %{permissions_missing}
-    many: |
-      इस कमांड को चलाने के लिए लिए @everyone रोल के पास निम्नलिखित अनुमतियां नही है:
-      %{permissions_missing}
   message_not_found: |
     सन्देश "%{param}" नही मिला।
   channel_not_found: |
