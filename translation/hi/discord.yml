@@ -2,7 +2,6 @@
 discord:
   ext.commands.help:
     need_emojis: ' - मुझे इमोजी का उपयोग करने के लिए इसकी आवश्यकता है!'
-    need_everyone_external: ' - @everyone मुझे इमोजी का उपयोग करने के लिए इसकी आवश्यकता है!'
     need_help: ' - मुझे हेल्प कमांड के लिए इसकी आवश्यकता है!'
     nothing: ''
     choose_page: कमांड देखें
