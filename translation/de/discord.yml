@@ -2,7 +2,6 @@
 discord:
   ext.commands.help:
     need_emojis: ' - Ich brauche das, um Emojis zu nutzen!'
-    need_everyone_external: ' - @everyone braucht das, damit ich Emojis nutzen kann!'
     need_help: ' - Ich brauche das für den Hilfe-Befehl!'
     nothing: ''
     choose_page: Durchsuche Befehle
