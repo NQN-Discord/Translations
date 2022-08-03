@@ -25,13 +25,6 @@ exceptions:
     many: |
       Bạn đang thiếu các quyền sau để dùng lệnh này:
       %{permissions_missing}
-  everyone_missing_permissions:
-    one: |
-      Vai trò @everyone đang thiếu quyền sau để dùng lệnh này:
-      %{permissions_missing}
-    many: |
-      Vai trò @everyone đang thiếu các quyền sau để dùng lệnh này:
-      %{permissions_missing}
   message_not_found: |
     Không tìm thấy tin nhắn "%{param}".
   channel_not_found: |
