@@ -25,13 +25,6 @@ exceptions:
     many: |
       شما دسترسی های موردنیاز زیر را برای اجرای این دستور ندارید:
       %{permissions_missing}
-  everyone_missing_permissions:
-    one: |
-      نقش ‎@everyone دسترسی موردنیاز زیر را برای اجرای این دستور ندارد:
-      %{permissions_missing}
-    many: |
-      نقش ‎@everyone دسترسی های موردنیاز زیر را برای اجرای این دستور ندارد:
-      %{permissions_missing}
   message_not_found: |
     پیام ‎"%{param}" یافت نشد.
   channel_not_found: |
