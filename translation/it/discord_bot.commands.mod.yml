@@ -31,13 +31,13 @@ discord_bot:
         me_no_perms: Necessito di 'Leggi Messaggi', 'Gestisci Webhook' e 'Usa Emoji Esterne' permessi in %{channel}.
         message_limit: Il numero di messaggi da spostare deve essere compreso tra 1 e %{count}
         moved_to:
-          one: Spostato %{count} messaggo in %{to_channel}
+          one: Spostati %{count} messaggi in %{to_channel}
           many: Spostati %{count} messaggi in %{to_channel}
         moved_from:
-          one: '%{author} ha spostato %{count} messaggio da %{from_channel}'
-          many: '%{author} ha spostato %{count} messaggi in %{from_channel}'
+          one: '%{author} ha spostato %{count} messaggi da %{from_channel}'
+          many: '%{author} ha spostato %{count} messaggi da %{from_channel}'
         moved_to_from:
-          one: '%{author} ha spostato %{count} messaggio da %{from_channel} a %{to_channel}'
+          one: '%{author} ha spostato %{count} messaggi da %{from_channel} a %{to_channel}'
           many: '%{author} ha spostato %{count} messaggi da %{from_channel} a %{to_channel}'
         move_end: Muovi messaggio finale
         end_previous_n: Muovi %{count} messaggi finali prima
