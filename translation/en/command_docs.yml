@@ -1,4 +1,14 @@
 command_docs:
+  alias:
+    short_doc: Manage the individual emotes you can use
+    help: |
+      Manage the individual emotes you can use
+
+      NQN's search allows for some advanced features:
+       - `exact`: (default false) only show emotes with the exact name as searched for
+       - `animated`: either show only animated or static emotes
+       - `page`: skip to a certain page
+       - `order`: one of 'uses', 'random'
   alias-delete:
     short_doc: Don't want an alias anymore? Use this
   alias-delete_all:
@@ -13,7 +23,7 @@ command_docs:
     short_doc: Export your alias list
   alias-import:
     short_doc: Import someone else's alias list
-  alias-list:
+  alias-mine:
     short_doc: Get a list of aliases you've made
   alias-rename:
     short_doc: Rename one of your aliases
@@ -21,16 +31,6 @@ command_docs:
     short_doc: Look for individual emotes
     help: |
       Look for individual emotes to use with NQN
-
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
-  alias:
-    short_doc: Manage the individual emotes you can use
-    help: |
-      Manage the individual emotes you can use
 
       NQN's search allows for some advanced features:
        - `exact`: (default false) only show emotes with the exact name as searched for
@@ -58,9 +58,9 @@ command_docs:
       By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
       You can also use Discord's message reply functionality to edit that message.
   emote:
-    short_doc: Manage server emotes
+    short_doc: Manage your server's emojis
   emote-block:
-    short_doc: Prevents an emoji from being used
+    short_doc: Block the use of an emote
     help: |
       Search for emojis to block in this server.
       When this emoji is used, it'll automatically be added to the server's automod list and be removed.
@@ -79,7 +79,7 @@ command_docs:
   emote-unblock:
     short_doc: Unblock a previously blocked emoji
   emote-upload:
-    short_doc: Search for and upload emotes to this server.
+    short_doc: Upload an emote
     help: |
       Search for all the emotes the bot has ever seen and upload them to this server.
       This command allows you to upload emotes.
@@ -101,6 +101,8 @@ command_docs:
     short_doc: Internal statistics about the bot
   invite_me:
     short_doc: Invite the bot to your server!
+  mod:
+    short_doc: NQN moderation tools
   mod-audit:
     short_doc: Get audit logs for reposted messages for this channel
     help: |
@@ -121,8 +123,6 @@ command_docs:
     short_doc: Move up to 20 of the most recent messages in this channel to another
   mod-purge:
     short_doc: Purge some messages reposted by the bot in this channel
-  mod:
-    short_doc: Moderation features for NQN
   move:
     short_doc: Move up to 20 of the most recent messages in this channel to another
   mutuals:
@@ -131,6 +131,8 @@ command_docs:
     short_doc: See what emojis you can post with NQN
   owner:
     short_doc: Forbidden knowledge lurks within
+  pack:
+    short_doc: Manage entire packs of emotes
   pack-dm:
     short_doc: Get a full list of your packs in your DMs
     help: |
@@ -157,8 +159,8 @@ command_docs:
     short_doc: Show the contents of a pack
   pack-unpublish:
     short_doc: Don't want this server to be an emote pack anymore?
-  pack:
-    short_doc: Manage entire packs of emotes
+  persona:
+    short_doc: Manage your personas
   persona-avatar_url:
     short_doc: Set the avatar of a persona
   persona-delete:
@@ -182,14 +184,12 @@ command_docs:
     short_doc: Register a persona for later use
   persona-rename:
     short_doc: Give one of your personas a different name
-  persona:
-    short_doc: Manage your personas
+  premium:
+    short_doc: Information about NQN premium
   premium-check:
     short_doc: Recalculate your premium information
     help: |
       Recalculates your premium information, including the list of servers gaining premium from you.
-  premium:
-    short_doc: Information about NQN premium
   ranking:
     short_doc: How high up is your server in our rankings?
   react:
@@ -198,6 +198,10 @@ command_docs:
       Use Discord replies or a message link to react to that message.
       The command allows a list of reactions, each of which will be added in the order specified.
       **You need to react to the added reactions as well for them to stay.**
+  server:
+    short_doc: Server Configuration
+  server-alias:
+    short_doc: Server Aliases
   server-alias-delete:
     short_doc: Didn't like an emote? Make it so they've got to work for it.
   server-alias-import:
@@ -210,8 +214,6 @@ command_docs:
     short_doc: Rename a server alias
   server-alias-search:
     short_doc: Allow anyone in the server to use an emote!
-  server-alias:
-    short_doc: Do things with server aliases
   server-dashboard_posting:
     short_doc: Enable or disable posting messages through the bot dashboard
   server-language:
@@ -222,6 +224,8 @@ command_docs:
     short_doc: Enable or disable masked links in this server
   server-nitro:
     short_doc: Enable or disable free nitro usage in this server
+  server-pack:
+    short_doc: Server Packs
   server-pack-join:
     short_doc: Subscribe to an emote pack server-wide
   server-pack-leave:
@@ -232,8 +236,6 @@ command_docs:
     short_doc: Post a list of server packs
   server-pack-search:
     short_doc: Search for an emote pack to add server-wide
-  server-pack:
-    short_doc: Do things with server packs
   server-permissions_debug:
     short_doc: Let NQN tell you what permissions it's missing
   server-personas:
@@ -261,13 +263,13 @@ command_docs:
     short_doc: View the settings for this server
     help: |
       View NQN's server settings, including features, configured channels and pack information.
-  server-set_audit_channel:
+  server-audit_channel:
     short_doc: Post messages the bot reposts
-  server-set_boost_channel:
+  server-boost_channel:
     short_doc: Post whenever someone votes with the server on top.gg
-  server-set_boost_role:
+  server-boost_role:
     short_doc: Give a user this role when they boost this server via NQN
-  server-set_nitro_role:
+  server-nitro_role:
     short_doc: Require users to have a role to use NQN
     help: |
       Set a role that users need to use NQN for Nitro reposting
@@ -275,10 +277,10 @@ command_docs:
     short_doc: Enable or disable sticker usage in this guild
   server-user_content:
     short_doc: Enable or disable user aliases and packs for this server
-  server:
-    short_doc: Modify the bots settings on this server
+  sticker:
+    short_doc: Manage your NQN stickers
   sticker-create:
-    short_doc: Create a sticker from a file
+    short_doc: Create a sticker
     help: |
       Create a sticker from a file
       Upload an image and use this command to turn it into a sticker.
@@ -305,8 +307,6 @@ command_docs:
     short_doc: Search through all the stickers NQN has, with an optional query
   sticker-telegram:
     short_doc: Import stickers from telegram
-  sticker:
-    short_doc: Larger than emotes!
   support:
     short_doc: Need some help with using me?
   tutorial:
