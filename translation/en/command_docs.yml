@@ -1,3 +1,4 @@
+---
 command_docs:
   alias-delete:
     short_doc: Don't want an alias anymore? Use this
