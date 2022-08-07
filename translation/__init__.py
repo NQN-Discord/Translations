@@ -69,8 +69,6 @@ class DpyNQNTranslator(DpyTranslator):
                     command = _self
                     break
                 frame = frame.f_back
-            else:
-                raise AssertionError("Not command")
 
         if context == TranslationContext.choice_name and parameter.name in command.extras.get("choice_overrides", {}):
             key_prefix = command.extras["choice_overrides"][parameter.name]
