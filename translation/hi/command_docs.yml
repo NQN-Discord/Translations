@@ -249,13 +249,15 @@ command_docs:
   server-phish_detection:
     short_doc: इस सर्वर में फिशिंग सन्देश पहचान को सक्षम या अक्षम करें
   server-prefix:
-    short_doc: NQN को दूसरे प्रीफिक्स को सुने के लिए कमांड दे
+    short_doc: NQN को दूसरे प्रीफिक्स को सुनने के लिए कमांड दे
     help: |
-      NQN को दूसरे प्रीफिक्स को सुने के लिए कमांड दे
+      NQN को दूसरे प्रीफिक्स को सुनने के लिए कमांड दे
+      उदाहरण आह्वान:
+      >>> %{prefix}server prefix <@%{bot_id}> ?
     signature: |
       @NQN#3454 [उपसर्ग=!]
   server-replies:
-    short_doc: इस गिल्ड में संदेश के उत्तरों को सक्षम या अक्षम करें
+    short_doc: इस सर्वर में संदेश के उत्तरों को सक्षम या अक्षम करें
   server-settings:
     short_doc: इस सर्वर की सेटिंग देखें
     help: |
@@ -265,7 +267,7 @@ command_docs:
   server-set_boost_channel:
     short_doc: संदेश पोस्ट करें, जब भी कोई व्यक्ति top.gg पर सर्वर के साथ वोट करे
   server-set_boost_role:
-    short_doc: किसी उपभोक्ता को यह भूमिका दें जब वे इस सर्वर को बढ़ावा दें, NQN द्वार
+    short_doc: किसी उपयोगकर्ता को यह रोल दे जब वह इस सर्वर को NQN के द्वारा बूस्ट करे
   server-set_nitro_role:
     short_doc: उपयोगकर्ताओं को NQN का उपयोग करने के लिए एक रोल को जरूरी करता है
     help: |
