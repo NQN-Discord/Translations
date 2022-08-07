@@ -31,23 +31,23 @@ discord_bot:
         me_no_perms: Necessito di 'Leggi Messaggi', 'Gestisci Webhook' e 'Usa Emoji Esterne' permessi in %{channel}.
         message_limit: Il numero di messaggi da spostare deve essere compreso tra 1 e %{count}
         moved_to:
-          one: Spostato %{count} messaggo in %{to_channel}
+          one: Spostati %{count} messaggi in %{to_channel}
           many: Spostati %{count} messaggi in %{to_channel}
         moved_from:
-          one: '%{author} ha spostato %{count} messaggio da %{from_channel}'
-          many: '%{author} ha spostato %{count} messaggi in %{from_channel}'
+          one: '%{author} ha spostato %{count} messaggi da %{from_channel}'
+          many: '%{author} ha spostato %{count} messaggi da %{from_channel}'
         moved_to_from:
-          one: '%{author} ha spostato %{count} messaggio da %{from_channel} a %{to_channel}'
+          one: '%{author} ha spostato %{count} messaggi da %{from_channel} a %{to_channel}'
           many: '%{author} ha spostato %{count} messaggi da %{from_channel} a %{to_channel}'
-        move_end: Move end message
-        end_previous_n: Move end message %{count} before
-        end_next_n: Move end message %{count} after
-        move_start: Move start message
-        start_previous_n: Move start message %{count} before
-        start_next_n: Move start message %{count} after
-        move_both: Move start and end
-        both_previous_n: Move start and end %{count} before
-        both_next_n: Move start and end %{count} after
+        move_end: Muovi messaggio finale
+        end_previous_n: Muovi %{count} messaggi finali prima
+        end_next_n: Muovi %{count} messaggi finali dopo
+        move_start: Muovi messaggio iniziale
+        start_previous_n: Muovi %{count} messaggi iniziali prima
+        start_next_n: Muovi %{count} messaggi iniziali dopo
+        move_both: Muovi iniziale e finale
+        both_previous_n: Muovi %{count} iniziali e finali prima
+        both_next_n: Muovi %{count} inziali e finali dopo
         move:
           one: Muovi messaggio!
           many: Muovi %{count} messaggi!

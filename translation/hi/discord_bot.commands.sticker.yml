@@ -26,9 +26,9 @@ discord_bot:
         no_sticker: यह स्टिकर मौजूद नहीं है
         permission_denied: आप किसी और के स्टिकर का नाम नहीं बदल सकते हैं!
         destination_taken: गंतव्य नाम पहले से ही लिया गया है!
-        renamed: 'नाम बदला  \:%{old}: से :%{new}:'
+        renamed: 'नाम बदला \:%{old}: से :%{new}:'
       search:
-        no_stickers: कोई स्टिकर नहीं मिला
+        no_stickers: कोई स्टिकर नहीं मिले
       sticker_import:
         filename_invalid: '`%{name}` स्टिकर के लिए एक स्वीकृत नाम नहीं है। उन्हें अक्षरांकीय फ़ाइल एक्सटेंशन के साथ उनका नाम भी अक्षरांकीय होना चाहिए।'
         find_emote: स्टिकर में बदलने के लिए इमोजी खोजें!
