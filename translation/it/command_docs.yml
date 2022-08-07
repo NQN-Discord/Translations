@@ -41,7 +41,7 @@ command_docs:
         description: |-
           Un file precedentemente esportato con /alias export
   alias-mine:
-    name: mio
+    name: miei
     short_doc: Ottieni l'elenco di alias che hai creato
     params:
       page:
@@ -279,7 +279,7 @@ command_docs:
         description: |-
           Quanti messaggi spostare?
   mutuals:
-    name: mutuals
+    name: condivisi
     short_doc: Visualizza i server che condivido con te
   my_emotes:
     name: mie_emote
@@ -291,7 +291,7 @@ command_docs:
           Quale emoji mostrare?
         choices:
           current_server: Server Attuale
-          mutual_servers: Mutual Servers
+          mutual_servers: Server Condivisi
           aliases: Alias
           packs: Pacchetti
   owner:
@@ -302,34 +302,34 @@ command_docs:
     short_doc: Invia un messaggio con NQN
   nqn-message:
     name: messaggio
-    short_doc: Post a message with NQN emojis in it
+    short_doc: Invia un messaggio con delle emoji NQN all'interno
     params:
       message:
-        name: message
+        name: messaggio
         description: |-
-          The message to post
+          Il messaggio da inviare
       persona:
-        name: persona
+        name: personaggio
         description: |-
-          The persona to use
+          Il personaggio da usare
       attachment:
-        name: attachment
+        name: immagine
         description: |-
-          An attachment to send
+          Una immagine da inviare
   nqn-single_emoji:
-    name: single_emoji
-    short_doc: Post a message with just a single emoji in it
+    name: emoji_singola
+    short_doc: Invia un messaggio con solo una emoji all'interno
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to post
+          Quale emoji inviare
       persona:
-        name: persona
+        name: personaggio
         description: |-
-          The persona to use
+          Il personaggio da usare
   pack:
-    name: pack
+    name: pacchetto
     short_doc: Gestisci interi pacchetti di emote
   pack-dm:
     name: dm
@@ -337,88 +337,88 @@ command_docs:
     help: |
       Il bot ti invierá un elenco completo delle emoji attuali dei tuoi pacchetti attraverso i tuoi DM.
   pack-join:
-    name: join
+    name: entra
     short_doc: Iscriviti a un pacchetto di emote
     params:
       pack:
-        name: pack
+        name: pacchetto
         description: |-
-          Which pack do you want to join?
+          In quale pacchetto vuoi entrare?
   pack-leave:
-    name: leave
+    name: abbandona
     short_doc: Annulla l'iscrizione a un pacchetto di emote
     params:
       pack:
-        name: pack
+        name: pacchetto
         description: |-
-          Which pack do you want to leave?
+          Quale pacchetto vuoi abbandonare?
   pack-meta:
     name: meta
     short_doc: Oooh... Alcune statistiche del tuo pacchetto
   pack-mine:
-    name: mine
+    name: miei
     short_doc: Ottieni un elenco di pacchetti emote a cui sei iscritto
   pack-publish:
-    name: publish
+    name: pubblica
     short_doc: Pubblica le emote presenti nel tuo server come pacchetto di emote
     params:
       name:
-        name: name
+        name: nome
         description: |-
-          What do you want to call your pack?
+          Come vuoi chiamare il tuo pacchetto?
       public:
-        name: public
+        name: pubblico
         description: |-
-          Do you want people to be able to join your server through the bot without an invite?
+          Vuoi che le persone entrino nel tuo server tramite il bot senza un invito?
   pack-rename:
-    name: rename
+    name: rinomina
     short_doc: Rinomina un pacchetto di emote
     params:
       new_name:
-        name: new_name
+        name: nuovo_nome
         description: |-
-          What do you want to call your pack?
+          Come vuoi chiamare il tuo pacchetto?
   pack-save:
-    name: save
+    name: salva
     short_doc: Carica tutte le emote da un pacchetto a questo server
     params:
       name:
-        name: name
+        name: nome
         description: |-
-          Which pack are you downloading emojis to this server from?
+          Da quali pacchetti stai scaricando emoji per questo server?
   pack-search:
-    name: search
+    name: cerca
     short_doc: Trova interi pacchetti di emote
     params:
       search:
-        name: search
+        name: cerca
         description: |-
-          What kind of emojis are you looking for?
+          Quali tipi di emoji stai cercando?
       page:
-        name: page
+        name: pagina
         description: |-
-          Which page of packs to start on?
+          Da quale pagina iniziare nei pacchetti?
   pack-set_public:
-    name: set_public
+    name: metti_pubblico
     short_doc: Permetti a chiunque di unirsi a questo server tramite NQN.
     params:
       enabled:
-        name: enabled
+        name: abilitato
         description: |-
-          Allow users to join this server through NQN without an invite?
+          Consenti agli utenti di entrare in questo server tramite NQN senza un invito?
   pack-show:
-    name: show
+    name: mostra
     short_doc: Mostra il contenuto di un pacchetto
     params:
       pack:
-        name: pack
+        name: pacchetto
         description: |-
-          Which pack to show the emojis of?
+          Di quale pacchetto mostrare le emoji?
   pack-unpublish:
-    name: unpublish
+    name: rimuovi pubblicazione
     short_doc: Non vuoi più che questo server sia un pacchetto di emote?
   persona:
-    name: persona
+    name: personaggio
     short_doc: Gestisci i tuoi personaggi
   persona-avatar_url:
     name: avatar_url
@@ -431,226 +431,226 @@ command_docs:
       avatar_url:
         name: avatar_url
         description: |-
-          What's the new avatar URL?
+          Qual è il nuovo URL dell'avatar?
   persona-delete:
-    name: delete
+    name: cancella
     short_doc: Elimina uno dei tuoi personaggi
     params:
       persona:
-        name: persona
+        name: personaggio
         description: |-
-          Which persona are you deleting?
+          Quale personaggio vuoi cancellare?
   persona-display_name:
-    name: display_name
+    name: nome_mostrato
     short_doc: Cambia il nome utente di un personaggio
     params:
       persona:
-        name: persona
+        name: personaggio
         description: |-
-          Which persona are you changing the username for?
+          Di quale persona vuoi cambiare l'username?
       display_name:
-        name: display_name
+        name: nome_mostrato
         description: |-
-          What's the new username?
+          Qual è il nuovo nome utente?
   persona-dm:
     name: dm
     short_doc: Invia in DM l'elenco completo dei tuoi personaggi
   persona-export:
-    name: export
+    name: esporta
     short_doc: Esporta il tuo elenco di personaggi in un file
     help: |
       Esporta il tuo elenco di personaggi in un file, che è compatibile con altri bot
   persona-import:
-    name: import
+    name: importa
     short_doc: Importa un elenco di personaggi precedentemente esportato
     params:
       file:
         name: file
         description: |-
-          A file previously exported with /persona export
+          Un file precedentemente esportato con /persona export
     help: |
       Importa un elenco di personaggi precedentemente esportato.
       Compatibile con PluralKit e Tupperbox.
   persona-list:
-    name: list
+    name: elenco
     short_doc: Mostra l'elenco dei tuoi personaggi
   persona-register:
-    name: register
+    name: registra
     short_doc: Registra un personaggio per uso successivo
     params:
       short_name:
-        name: short_name
+        name: nome_corto
         description: |-
-          What's your persona's prefix?
+          Qual è il prefisso del personaggio?
   persona-rename:
-    name: rename
+    name: rinomina
     short_doc: Dai a un tuo personaggio un nome diverso
     params:
       persona:
-        name: persona
+        name: personaggio
         description: |-
-          Which persona are you changing the prefix of?
+          Di quale personaggio vuoi cambiare il prefisso?
       new_name:
-        name: new_name
+        name: nuovo_nome
         description: |-
-          What will the new prefix be?
+          Quale sarà il nuovo prefisso?
   premium:
     name: premium
-    short_doc: Premium stuff
+    short_doc: Vantaggi premium
   premium-check:
-    name: check
+    name: controlla
     short_doc: Ricalcola le tue informazioni premium
     help: |
       Ricalcola le tue informazioni premium, incluso l'elenco dei server che ottengono premium da te.
   premium-help:
-    name: help
-    short_doc: Information about NQN premium
+    name: aiuto
+    short_doc: Informazioni su NQN premium
   ranking:
     name: ranking
     short_doc: Quanto è alto il tuo server nelle nostre classifiche?
   react:
-    name: react
+    name: reagisci
     short_doc: Reagisci ad un messaggio con gli adesivi
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to react with?
+          Con quale emoji reagire?
       message:
-        name: message
+        name: messaggio
         description: |-
-          Which message to react to?
+          A quale messaggio reagire?
     help: |
       Utilizzare le risposte di Discord o un link di messaggio per reagire a quel messaggio.
       Il comando permette un elenco di reazioni, ognuna delle quali sarà aggiunta nell'ordine specificato.
       **È necessario reagire anche alle reazioni aggiunte perché rimangano.**
   server:
     name: server
-    short_doc: Server Configuration
+    short_doc: Configurazione Server
   server-alias:
     name: alias
-    short_doc: Server Aliases
+    short_doc: Alias Server
   server-alias-delete:
-    name: delete
+    name: cancella
     short_doc: Non mi è piaciuta un'emote? Fai in modo che abbiano bisogno di lavorare per essa.
     params:
       alias:
         name: alias
         description: |-
-          Which alias do you want to remove?
+          Quale alias vuoi rimuovere?
   server-alias-import:
-    name: import
+    name: importa
     short_doc: Importa un elenco di alias del server da un file.
     params:
       file:
         name: file
         description: |-
-          A file previously exported with /alias export
+          Un file precedentemente esportato con /alias export
   server-alias-list:
-    name: list
+    name: elenco
     short_doc: Mostra tutti gli alias che chiunque nel tuo server può utilizzare
     params:
       page:
-        name: page
+        name: pagina
         description: |-
-          Which page to start at?
+          Con che pagina iniziare?
   server-alias-post:
-    name: post
+    name: pubblica
     short_doc: Pubblica un elenco di alias del server
     params:
       channel:
-        name: channel
+        name: canale
         description: |-
-          Which channel do you want to post the server-wide emoji list to?
+          In quale canale vuoi pubblicare l'elenco di emoji lato server?
   server-alias-rename:
-    name: rename
+    name: rinomina
     short_doc: Rinomina un alias del server
     params:
       old_name:
-        name: old_name
+        name: vecchio_nome
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          Qual è il nome dell'emoji a cui vuoi dare un nuovo nome?
       new_name:
-        name: new_name
+        name: nuovo_nome
         description: |-
-          What should it be renamed to?
+          In cosa deve essere rinominato?
   server-alias-search:
-    name: search
+    name: cerca
     short_doc: Permetti a chiunque nel server di usare un'emote!
   server-dashboard_posting:
-    name: dashboard_posting
+    name: pubblica tramite dashboard
     short_doc: Abilita o disabilita la pubblicazione dei messaggi attraverso la dashboard del bot
   server-audit_channel:
-    name: audit_channel
-    short_doc: Post messages the bot reposts
+    name: canale di controllo
+    short_doc: Invia i messaggi che il bot ripubblica
     params:
       channel:
-        name: channel
+        name: canale
         description: |-
-          Which channel should NQN post to? (None -> No channel)
+          In quale canale NQN dovrebbe postare? (None -> Nessun canale)
   server-language:
-    name: language
+    name: lingua
     short_doc: Imposta la lingua dei bot %{locale_flag_emojis}
   server-link:
-    name: link
+    name: collegamento
     short_doc: Crea una emote statica, che quando usata pubblica invece una versione animata dell'emote!
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to create a static version of?
+          Di quale emoji vuoi creare una versione statica?
   server-masked_links:
-    name: masked_links
+    name: link_mascherati
     short_doc: Abilita o disabilita i link mascherati in questo server
   server-nitro:
     name: nitro
     short_doc: Abilita o disabilita l'utilizzo di nitro gratuito in questo server
   server-pack:
-    name: pack
-    short_doc: Server Packs
+    name: pacchetto
+    short_doc: Pacchetti Server
   server-pack-join:
-    name: join
+    name: entra
     short_doc: Iscriviti a un pacchetto di emote a livello server
     params:
       pack:
-        name: pack
+        name: pacchetto
         description: |-
-          Which pack do you want to allow everyone in this server to use?
+          Quale pacchetto vuoi permettere a tutti in questo server di usare?
   server-pack-leave:
-    name: leave
+    name: abbandona
     short_doc: Disiscriviti da un pacchetto di emote a livello server
     params:
       pack:
-        name: pack
+        name: pacchetto
         description: |-
-          Which pack do you want to remove access to from everyone?
+          A quale pacchetto vuoi rimuovere l'accesso a tutti?
   server-pack-list:
-    name: list
+    name: elenco
     short_doc: Elenca i pacchetti che questo server può usare
   server-pack-post:
-    name: post
+    name: pubblica
     short_doc: Pubblica l'elenco di pacchetti del server
   server-pack-search:
-    name: search
+    name: cerca
     short_doc: Cerca un pacchetto di emote per aggiungerlo al server
   server-permissions_debug:
-    name: permissions_debug
+    name: debug_permessi
     short_doc: Lascia che NQN ti dica quali permessi gli mancano
   server-personas:
-    name: personas
+    name: personaggi
     short_doc: Abilita o disabilita l'utilizzo dei personaggi
     help: |
       Consente agli utenti di pubblicare con nomi utente e avatar arbitrari
   server-pings:
-    name: pings
+    name: ping
     short_doc: Abilita o disabilita i ping nei messaggi per questo server
     help: |
       Abilita o disabilita i ping nei messaggi che NQN ripubblica in questo server
   server-phish_detection:
-    name: phish_detection
+    name: rilevazione_phish
     short_doc: Abilita o disabilita il rilevamento dei messaggi di phishing per questo server
   server-prefix:
-    name: prefix
+    name: prefisso
     short_doc: Fai si che NQN risponda con un prefisso differente.
     help: |
       Fai si che NQN risponda con un prefisso differente.
@@ -659,36 +659,36 @@ command_docs:
     signature: |
       @NQN#3454 [prefisso=!]
   server-replies:
-    name: replies
+    name: risposte
     short_doc: Abilita o disabilita le risposte ai messaggi in questo server
   server-settings:
-    name: settings
+    name: impostazioni
     short_doc: Visualizza le impostazioni per questo server
     help: |
       Visualizza le impostazioni di NQN per il server, incluse funzionalità, canali configurati e informazioni sul pacchetto.
   server-boost_channel:
-    name: boost_channel
-    short_doc: Post whenever someone votes with the server on top.gg
+    name: canale_boost
+    short_doc: Pubblica ogni volta che qualcuno vota il server su top.gg
   server-boost_role:
-    name: boost_role
-    short_doc: Give a user this role when they boost this server via NQN
+    name: ruolo_boost
+    short_doc: Dare a un utente questo ruolo quando potenziano questo server tramite NQN
   server-nitro_role:
-    name: nitro_role
-    short_doc: Require users to have a role to use NQN
+    name: ruolo_nitro
+    short_doc: Richiedi agli utenti di avere un ruolo per usare NQN
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      Imposta un ruolo che gli utenti devono avere per usare NQN per ripubblicare i messaggi che richiedono Nitro
   server-stickers:
-    name: stickers
+    name: adesivi
     short_doc: Abilita o disabilita l'utilizzo degli adesivi in questo server
   server-user_content:
-    name: user_content
+    name: contenuto_utente
     short_doc: Abilita o disabilita gli alias utente e i pacchetti per questo server
   sticker:
-    name: sticker
-    short_doc: Manage your NQN stickers
+    name: adesivo
+    short_doc: Gestisci i tuoi sticker NQN
   sticker-create:
-    name: create
-    short_doc: Create a sticker
+    name: crea
+    short_doc: Crea uno sticker
     help: |
       Crea un adesivo da un file
       Carica un'immagine e usa questo comando per trasformarla in un adesivo.
@@ -697,50 +697,50 @@ command_docs:
       Gli adesivi possono essere un massimo di 8MB di grandi dimensioni e i nomi possono essere solo alfanumerici.
       Gli adesivi hanno bisogno di un'estensione file, che è anche alfanumerica.
   sticker-create-from_attachment:
-    name: from_attachment
-    short_doc: Create a sticker
+    name: da_immagine
+    short_doc: Crea uno sticker
     params:
       sticker:
-        name: sticker
+        name: adesivo
         description: |-
-          The image to turn into a sticker
+          L'immagine da trasformare in uno sticker
       name:
-        name: name
+        name: nome
         description: |-
-          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+          Come chiamare il tuo sticker. Deve essere alphanumerico e contenere un `.`, come `nqn.nqn`
   sticker-create-from_emote:
-    name: from_emote
-    short_doc: Import stickers from emotes
+    name: da_emote
+    short_doc: Importa adesivi dalle emote
     params:
       emoji:
         name: emoji
         description: |-
           …
       name:
-        name: name
+        name: nome
         description: |-
-          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+          Come chiamare il tuo sticker. Deve essere alphanumerico e contenere un `.`, come `nqn.nqn`
   sticker-create-from_search:
-    name: from_search
-    short_doc: Import stickers from emotes
+    name: da_ricerca
+    short_doc: Importa adesivi dalle emote
   sticker-create-from_telegram:
-    name: from_telegram
-    short_doc: Import stickers from telegram
+    name: da_telegram
+    short_doc: Importa adesivi da telegram
     params:
       telegram_packname:
-        name: telegram_packname
+        name: nomepacchetto_telegram
         description: |-
-          The URL to the Telegram sticker pack
+          L'URL al pacchetto sticker di Telegram
   sticker-delete:
-    name: delete
+    name: cancella
     short_doc: Elimina un adesivo che possiedi
     params:
       name:
-        name: name
+        name: nome
         description: |-
-          Which sticker to delete
+          Quale sticker cancellare
   sticker-import:
-    name: import
+    name: importa
     short_doc: Importa adesivi dalle emote
     help: |
       Importa adesivi dalle emote
@@ -750,67 +750,67 @@ command_docs:
        - sticker import blue pat
       Nota che l'opzione di ricerca attraverso le emote non supporta la creazione di alias
   sticker-mine:
-    name: mine
+    name: miei
     short_doc: Trova i miei adesivi
   sticker-rename:
-    name: rename
+    name: rinomina
     short_doc: Rinomina un adesivo che possiedi
     params:
       old_name:
-        name: old_name
+        name: vecchio_nome
         description: |-
-          Which sticker to rename
+          Quale sticker rinominare
       new_name:
-        name: new_name
+        name: nuovo_nome
         description: |-
-          What to rename it to?
+          In cosa rinominarlo?
   sticker-search:
-    name: search
+    name: cerca
     short_doc: Cerca tra tutti gli adesivi che NQN possiede, con un termine di ricerca opzionale
     params:
       search:
-        name: search
+        name: cerca
         description: |-
-          Which to search for?
+          Cosa cercare?
   sticker-telegram:
     name: telegram
     short_doc: Importa adesivi da telegram
   support:
-    name: support
+    name: assistenza
     short_doc: Hai bisogno di aiuto nell'usarmi?
   tutorial:
     name: tutorial
     short_doc: Impara come usare le emote con NQN
     params:
       about:
-        name: about
+        name: informazioni
         description: |-
-          What to learn about?
+          Cosa vuoi imparare?
   whois:
-    name: whois
+    name: chi è
     short_doc: Trova chi ha inviato un messaggio
   _search:
     params:
       search:
-        name: search
+        name: cerca
         description: |-
-          What are you searching for?
+          Cosa stai cercando?
       exact:
-        name: exact
+        name: esatto
         description: |-
-          Show only emojis with exactly this name
+          Mostra solo emoji con esattamente questo nome
       animated:
-        name: animated
+        name: animato
         description: |-
-          Show only animated or static emojis?
+          Mostrare solo emoji animate o statiche?
       page:
-        name: page
+        name: pagina
         description: |-
-          Start from a page other than 1
+          Inizia da una pagina diversa da 1
       order:
-        name: order
+        name: ordine
         description: |-
-          Order results by?
+          In che modo ordinare i risultati?
         choices:
-          random: random
-          relevance: relevance
+          random: casuale
+          relevance: rilevanti
