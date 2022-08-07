@@ -43,46 +43,63 @@ class DpyNQNTranslator(DpyTranslator):
         Locale.spain_spanish: "es",
 
     }
+    _param_contexts = (
+        TranslationContext.parameter_name,
+        TranslationContext.parameter_description,
+        TranslationContext.choice_name
+    )
 
     async def load(self):
         self._translator = Translator()
 
-    async def translate(self, string: locale_str, locale: Locale, context: TranslationContext) -> Optional[str]:
+    async def translate(self, string: locale_str, locale: Locale, context: TranslationContext, *, command: Command = None, parameter: CommandParameter = None) -> Optional[str]:
         nqn_locale = self.discord_locale_map.get(locale)
         if nqn_locale is None:
             return
-        # Temporary
-        parameter = None
-        for stack_frame in inspect.stack():
-            _self = stack_frame.frame.f_locals.get("self")
-            if isinstance(_self, CommandParameter):
-                parameter = _self
-            if isinstance(_self, Command):
-                command = _self
-                break
-        else:
-            raise AssertionError("Not command")
 
-        scope = self._translator.with_scope(f"command_docs.{command.extras['translation_key']}", nqn_locale)
-        match context:
-            case TranslationContext.command_name:
-                translation_key = "name"
-            case TranslationContext.command_description:
-                translation_key = "short_doc"
-            case TranslationContext.parameter_name:
-                translation_key = f"params.{parameter.name}.name"
-            case TranslationContext.parameter_description:
-                translation_key = f"params.{parameter.name}.description"
-            case TranslationContext.choice_name:
-                translation_key = f"params.{parameter.name}.choices.{string}"
-            case _:
-                raise NotImplementedError("Translation key")
+        if command is None:
+            # Temporary
+            parameter = None
+            frame = inspect.currentframe()
+            while True:
+                _self = frame.f_locals.get("self")
+                if isinstance(_self, CommandParameter):
+                    parameter = _self
+                if isinstance(_self, Command):
+                    command = _self
+                    break
+                frame = frame.f_back
+            else:
+                raise AssertionError("Not command")
+
+        if context == TranslationContext.choice_name and parameter.name in command.extras.get("choice_overrides", {}):
+            key_prefix = command.extras["choice_overrides"][parameter.name]
+            translation_key = string
+        else:
+            if "param_overrides" in command.extras and context in self._param_contexts:
+                key_prefix = f"command_docs.{command.extras['param_overrides']}"
+            else:
+                key_prefix = f"command_docs.{command.extras['translation_key']}"
+
+            match context:
+                case TranslationContext.command_name:
+                    translation_key = "name"
+                case TranslationContext.command_description:
+                    translation_key = "short_doc"
+                case TranslationContext.parameter_name:
+                    translation_key = f"params.{parameter.name}.name"
+                case TranslationContext.parameter_description:
+                    translation_key = f"params.{parameter.name}.description"
+                case TranslationContext.choice_name:
+                    translation_key = f"params.{parameter.name}.choices.{string}"
+                case _:
+                    raise NotImplementedError("Translation key")
+        scope = self._translator.with_scope(key_prefix, nqn_locale)
 
         translated = scope(translation_key)
         assert not translated.startswith("command_docs")
         if context == TranslationContext.command_description:
-            if len(translated) > 100:
-                return translated[:100]
+            return translated[:100]
         return translated
 
 

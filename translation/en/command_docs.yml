@@ -62,30 +62,6 @@ command_docs:
   alias-search:
     name: search
     short_doc: Look for individual emotes
-    params:
-      search:
-        name: search
-        description: |-
-          What are you searching for?
-      exact:
-        name: exact
-        description: |-
-          Show only emojis with exactly this name
-      animated:
-        name: animated
-        description: |-
-          Show only animated or static emojis?
-      page:
-        name: page
-        description: |-
-          Start from a page other than 1
-      order:
-        name: order
-        description: |-
-          Order results by?
-        choices:
-          random: random
-          relevance: relevance
     help: |
       Look for individual emotes to use with NQN
 
@@ -137,30 +113,6 @@ command_docs:
   emote-block-from_search:
     name: from_search
     short_doc: Block the use of an emote
-    params:
-      search:
-        name: search
-        description: |-
-          What are you searching for?
-      exact:
-        name: exact
-        description: |-
-          Show only emojis with exactly this name
-      animated:
-        name: animated
-        description: |-
-          Show only animated or static emojis?
-      page:
-        name: page
-        description: |-
-          Start from a page other than 1
-      order:
-        name: order
-        description: |-
-          Order results by?
-        choices:
-          random: random
-          relevance: relevance
   emote-block-recently_used:
     name: recently_used
     short_doc: Block the use of an emote
@@ -245,30 +197,6 @@ command_docs:
   emote-upload-from_search:
     name: from_search
     short_doc: Search for an emoji to upload to your server
-    params:
-      search:
-        name: search
-        description: |-
-          What are you searching for?
-      exact:
-        name: exact
-        description: |-
-          Show only emojis with exactly this name
-      animated:
-        name: animated
-        description: |-
-          Show only animated or static emojis?
-      page:
-        name: page
-        description: |-
-          Start from a page other than 1
-      order:
-        name: order
-        description: |-
-          Order results by?
-        choices:
-          random: random
-          relevance: relevance
   export:
     name: export
     short_doc: Export your emote list
@@ -360,10 +288,10 @@ command_docs:
         description: |-
           Which emojis to show?
         choices:
-          Current Server: Current Server
-          Mutual Servers: Mutual Servers
-          Aliases: Aliases
-          Packs: Packs
+          current_server: Current Server
+          mutual_servers: Mutual Servers
+          aliases: Aliases
+          packs: Packs
   owner:
     name: owner
     short_doc: Forbidden knowledge lurks within
@@ -647,30 +575,6 @@ command_docs:
   server-alias-search:
     name: search
     short_doc: Allow anyone in the server to use an emote!
-    params:
-      search:
-        name: search
-        description: |-
-          What are you searching for?
-      exact:
-        name: exact
-        description: |-
-          Show only emojis with exactly this name
-      animated:
-        name: animated
-        description: |-
-          Show only animated or static emojis?
-      page:
-        name: page
-        description: |-
-          Start from a page other than 1
-      order:
-        name: order
-        description: |-
-          Order results by?
-        choices:
-          random: random
-          relevance: relevance
   server-dashboard_posting:
     name: dashboard_posting
     short_doc: Enable or disable posting messages through the bot dashboard
@@ -819,30 +723,6 @@ command_docs:
   sticker-create-from_search:
     name: from_search
     short_doc: Import stickers from emotes
-    params:
-      search:
-        name: search
-        description: |-
-          What are you searching for?
-      exact:
-        name: exact
-        description: |-
-          Show only emojis with exactly this name
-      animated:
-        name: animated
-        description: |-
-          Show only animated or static emojis?
-      page:
-        name: page
-        description: |-
-          Start from a page other than 1
-      order:
-        name: order
-        description: |-
-          Order results by?
-        choices:
-          random: random
-          relevance: relevance
   sticker-create-from_telegram:
     name: from_telegram
     short_doc: Import stickers from telegram
@@ -906,17 +786,32 @@ command_docs:
         name: about
         description: |-
           What to learn about?
-        choices:
-          Tutorial for Not Quite Nitro, TLDR: Tutorial for Not Quite Nitro, TLDR
-          Reactions: Reactions
-          Packs: Packs
-          Aliases: Aliases
-          Replies: Replies
-          Masked URLs: Masked URLs
-          Stickers: Stickers
-          Personas: Personas
-          Server Administration: Server Administration
-          Advanced Usage: Advanced Usage
   whois:
     name: whois
     short_doc: Find who posted a message
+
+  _search:
+    params:
+      search:
+        name: search
+        description: |-
+          What are you searching for?
+      exact:
+        name: exact
+        description: |-
+          Show only emojis with exactly this name
+      animated:
+        name: animated
+        description: |-
+          Show only animated or static emojis?
+      page:
+        name: page
+        description: |-
+          Start from a page other than 1
+      order:
+        name: order
+        description: |-
+          Order results by?
+        choices:
+          random: random
+          relevance: relevance
