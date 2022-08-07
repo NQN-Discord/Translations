@@ -779,7 +779,7 @@ command_docs:
     name: telegram
     short_doc: Importa stickers desde telegram
   support:
-    name: soporte técnico
+    name: soporte_técnico
     short_doc: Necesitas ayuda para usarme?
   tutorial:
     name: tutorial
