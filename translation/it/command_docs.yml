@@ -12,15 +12,15 @@ command_docs:
        - `page`: passa a una certa pagina
        - `order`: uno di 'usi', 'casuale'
   alias-delete:
-    name: delete
+    name: cancella
     short_doc: Non vuoi più un alias? Usa questo
     params:
       alias:
         name: alias
         description: |-
-          Which alias do you want to remove?
+          Quale alias vuoi rimuovere?
   alias-delete_all:
-    name: delete_all
+    name: cancella_tutto
     short_doc: Non mi piace nessuno dei miei alias
     help: |
       Elimina tutti i tuoi alias
@@ -30,38 +30,38 @@ command_docs:
     help: |
       Il bot ti invia un elenco dei tuoi alias nei DM
   alias-export:
-    name: export
+    name: esporta
     short_doc: Esporta il tuo elenco di alias
   alias-import:
-    name: import
+    name: importa
     short_doc: Importa l'elenco alias di qualcun altro
     params:
       file:
         name: file
         description: |-
-          A file previously exported with /alias export
+          Un file precedentemente esportato con /alias export
   alias-mine:
-    name: mine
-    short_doc: Get a list of aliases you've made
+    name: mio
+    short_doc: Ottieni l'elenco di alias che hai creato
     params:
       page:
-        name: page
+        name: pagina
         description: |-
-          What page to start at?
+          Con che pagina iniziare?
   alias-rename:
-    name: rename
+    name: rinomina
     short_doc: Rinomina uno dei tuoi alias
     params:
       old_name:
-        name: old_name
+        name: vecchio_nome
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          Qual è il nome dell'emoji a cui vuoi dare un nuovo nome?
       new_name:
-        name: new_name
+        name: nuovo_nome
         description: |-
-          What should it be renamed to?
+          In cosa deve essere rinominato?
   alias-search:
-    name: search
+    name: cerca
     short_doc: Cerca le singole emote
     help: |
       Cerca le singole emote da usare con NQN
@@ -81,7 +81,7 @@ command_docs:
 
       Se entrambi, canali e membri non devono essere filtrati, usa 'audit guild'
   delete:
-    name: delete
+    name: cancella
     short_doc: Elimina uno dei tuoi messaggi ripubblicati da NQN
     help: |
       Elimina uno dei tuoi messaggi ripubblicati da NQN.
@@ -89,7 +89,7 @@ command_docs:
       un messaggio per eliminarlo.
       Puoi anche utilizzare la funzionalità di risposta ai messaggi di Discord per eliminare quel messaggio.
   edit:
-    name: edit
+    name: modifica
     short_doc: Modifica un messaggio inviato da NQN
     help: |
       Modifica il contenuto di uno dei tuoi messaggi ripubblicati da NQN.
@@ -97,34 +97,34 @@ command_docs:
       Puoi anche utilizzare la funzionalità di risposta ai messaggi di Discord per modificare quel messaggio.
   emote:
     name: emote
-    short_doc: Manage your server's emojis
+    short_doc: Gestisci le emoji del tuo server
   emote-block:
-    name: block
-    short_doc: Block the use of an emote
+    name: blocca
+    short_doc: Blocca l'utilizzo di una emoji
     help: |
       Cerca emoji da bloccare in questo server.
       Quando questa emoji viene usata, verrà aggiunta automaticamente alla lista automod del server e rimossa.
   emote-block-from_emote:
-    name: from_emote
-    short_doc: Block the use of an emote
+    name: da_emote
+    short_doc: Blocca l'utilizzo di una emote
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to block the use of?
+          Di quale emoji ne vuoi bloccare l'utilizzo?
   emote-block-from_search:
-    name: from_search
-    short_doc: Block the use of an emote
+    name: da_ricerca
+    short_doc: Blocca l'utilizzo di una emote
   emote-block-recently_used:
-    name: recently_used
-    short_doc: Block the use of an emote
+    name: usate_recentemente
+    short_doc: Blocca l"utilizzo di una emote
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to block the use of?
+          Di quale emoji ne vuoi bloccare l'utilizzo?
   emote-block_list:
-    name: block_list
+    name: lista_blocchi
     short_doc: Visualizza la lista delle emoji bloccate in questo server
   emote-info:
     name: info
@@ -133,7 +133,7 @@ command_docs:
       emoji:
         name: emoji
         description: |-
-          Which emoji to get information about?
+          Di quale emoji vuoi ottenere le info?
   emote-jumbo:
     name: jumbo
     short_doc: Rende un'emoji più grande
@@ -141,79 +141,79 @@ command_docs:
       emoji:
         name: emoji
         description: |-
-          Which emoji to make jumbo sized?
+          Quale emoji rendere in formato jumbo?
   emote-rolelock:
-    name: rolelock
+    name: bloccaruolo
     short_doc: Blocca una emoji a dei ruoli specifici
     params:
       emoji:
         name: emoji
         description: |-
-          Lock which emoji?
+          Quale emoji bloccare?
       role:
-        name: role
+        name: ruolo
         description: |-
-          Lock the emoji to which role?
+          Bloccare l'emoji a quale ruolo?
   emote-roleunlock:
-    name: roleunlock
+    name: sbloccaruolo
     short_doc: Permetti a chiunque di usare una emoji bloccata
     params:
       emoji:
         name: emoji
         description: |-
-          Unlock which emoji?
+          Quale emoji vuoi sbloccare?
   emote-stats:
     name: stats
     short_doc: Mostra quanto spesso vengono utilizzate le emote del tuo server
   emote-unblock:
-    name: unblock
+    name: sblocca
     short_doc: Sblocca una emoji precedentemente bloccata
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to unblock?
+          Quale emoji vuoi sbloccare?
   emote-upload:
-    name: upload
-    short_doc: Upload an emote
+    name: carica
+    short_doc: Carica una emote
     help: |
       Cerca tutte le emote che il bot ha visto e caricale su questo server.
       Questo comando ti permette di caricare le emote.
       Puoi anche allegare un file per caricarlo
   emote-upload-from_attachment:
-    name: from_attachment
-    short_doc: Upload an emoji from an attachment
+    name: da_immagine
+    short_doc: Carica una emoji da una immagine
     params:
       attachment:
-        name: attachment
+        name: immagine
         description: |-
-          Emoji image
+          Immagine emoji
   emote-upload-from_emote:
-    name: from_emote
-    short_doc: Upload an emoji from it's name or URL
+    name: da_emote
+    short_doc: Carica una emoji dal suo nome o URL
     params:
       emoji:
         name: emoji
         description: |-
-          Emoji or Emoji URL
+          Emoji o URL Emoji
   emote-upload-from_search:
-    name: from_search
-    short_doc: Search for an emoji to upload to your server
+    name: da_ricerca
+    short_doc: Cerca una emoji da caricare sul tuo server
   export:
-    name: export
+    name: esporta
     short_doc: Esporta il tuo elenco di emote
   help:
-    name: help
+    name: aiuto
     short_doc: Impara i miei comandi
     params:
       command:
-        name: command
+        name: comando
         description: |-
-          What to learn about?
+          Cosa vuoi imparare?
     help: |
       Impara i comandi che puoi eseguire con NQN
   ignore_me:
-    name: ignore_me
+    name: ignorami
     short_doc: Fai in modo che NQN non ripubblichi più i tuoi messaggi
     help: |
       L'esecuzione di questo comando impedisce a NQN di ripubblicare qualsiasi messaggio in qualsiasi server condiviso con il bot.
@@ -224,23 +224,23 @@ command_docs:
     name: info
     short_doc: Statistiche interne sul bot
   invite_me:
-    name: invite_me
+    name: invitami
     short_doc: Invita il bot nel tuo server!
   mod:
     name: mod
-    short_doc: NQN moderation tools
+    short_doc: Strumenti di moderazione NQN
   mod-audit:
     name: audit
     short_doc: Ottieni i registri di controllo per i messaggi ripubblicati in questo canale
     params:
       channel:
-        name: channel
+        name: canale
         description: |-
-          Filter to just messages in this channel
+          Filtra solo messaggi in questo canale
       user:
-        name: user
+        name: utente
         description: |-
-          Filter to just messages by this user
+          Filtra solo messaggi da questo utente
     help: |
       Ottieni registri di controllo per i messaggi ripubblicati in questo canale
       Facoltativo[Channel] -> Informazioni di filtro per questo canale
@@ -251,57 +251,57 @@ command_docs:
     name: ban
     short_doc: Bandisci l'utente che ha pubblicato un messaggio
   mod-edit_topic:
-    name: edit_topic
+    name: modifica_argomento
     short_doc: Aggiungi emoji animate agli argomenti dei canali
     params:
       description:
-        name: description
+        name: descrizione
         description: |-
-          The new channel description including emoji names
+          La nuova descrizione del canale includendo emoji nel nome
     help: |
       Cambia la descrizione del canale, consentendo anche le emoji animate
   mod-kick:
-    name: kick
+    name: espelli
     short_doc: Espelli l'utente che ha pubblicato un messaggio
   mod-purge:
-    name: purge
+    name: cancella
     short_doc: Elimina alcuni messaggi ripubblicati dal bot in questo canale
   move:
-    name: move
-    short_doc: Move up to 50 of the most recent messages in this channel to another
+    name: muovi
+    short_doc: Sposta fino a 50 dei messaggi più recenti da questo canale ad un altro
     params:
       channel:
-        name: channel
+        name: canale
         description: |-
-          The target channel to move to
+          Il canale selezionato in cui muovere
       messages:
-        name: messages
+        name: messaggi
         description: |-
-          How many messages to move?
+          Quanti messaggi spostare?
   mutuals:
     name: mutuals
     short_doc: Visualizza i server che condivido con te
   my_emotes:
-    name: my_emotes
+    name: mie_emote
     short_doc: Guarda quali emoji puoi pubblicare con NQN
     params:
       page:
-        name: page
+        name: pagina
         description: |-
-          Which emojis to show?
+          Quale emoji mostrare?
         choices:
-          current_server: Current Server
+          current_server: Server Attuale
           mutual_servers: Mutual Servers
-          aliases: Aliases
-          packs: Packs
+          aliases: Alias
+          packs: Pacchetti
   owner:
-    name: owner
+    name: capo
     short_doc: Cose proibite stanno qua dentro
   nqn:
     name: nqn
-    short_doc: Send a message with NQN
+    short_doc: Invia un messaggio con NQN
   nqn-message:
-    name: message
+    name: messaggio
     short_doc: Post a message with NQN emojis in it
     params:
       message:
@@ -425,9 +425,9 @@ command_docs:
     short_doc: Imposta l'avatar di un personaggio
     params:
       persona:
-        name: persona
+        name: personaggio
         description: |-
-          Which persona are you changing the username for?
+          Di quale persona vuoi cambiare l'username?
       avatar_url:
         name: avatar_url
         description: |-
