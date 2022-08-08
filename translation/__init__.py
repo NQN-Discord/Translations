@@ -1,9 +1,16 @@
 from typing import Callable, Union, Dict, Awaitable, Optional
 import i18n
+import unidecode
 import pathlib
 import copy
-from discord import Guild
+import inspect
+from discord import Guild, Locale
+from discord.app_commands.transformers import CommandParameter
 from discord.ext.commands import Context
+from discord.app_commands import locale_str, TranslationContext, Command
+from discord.app_commands import Translator as DpyTranslator
+
+from _singleton import Singleton
 from ._create_owo import create_owo
 from ._ruamel_loader import YamlLoader
 
@@ -19,12 +26,83 @@ else:
         labelnames=["key"],
         namespace="translation"
     )
+
     def translate_function(key, **kwargs):
         keys_used.labels(key=key).inc()
         return i18n.t(key, **kwargs)
 
 
-class Translator:
+class DpyNQNTranslator(DpyTranslator):
+    discord_locale_map = {
+        Locale.american_english: "en",
+        Locale.british_english: "en",
+        Locale.french: "fr",
+        Locale.german: "de",
+        Locale.italian: "it",
+        Locale.brazil_portuguese: "pt",
+        Locale.russian: "ru",
+        Locale.spain_spanish: "es",
+
+    }
+    _param_contexts = (
+        TranslationContext.parameter_name,
+        TranslationContext.parameter_description,
+        TranslationContext.choice_name
+    )
+
+    async def load(self):
+        self._translator = Translator()
+
+    async def translate(self, string: locale_str, locale: Locale, context: TranslationContext, *, command: Command = None, parameter: CommandParameter = None) -> Optional[str]:
+        nqn_locale = self.discord_locale_map.get(locale)
+        if nqn_locale is None:
+            return
+
+        if command is None:
+            # Temporary
+            parameter = None
+            frame = inspect.currentframe()
+            while True:
+                _self = frame.f_locals.get("self")
+                if isinstance(_self, CommandParameter):
+                    parameter = _self
+                if isinstance(_self, Command):
+                    command = _self
+                    break
+                frame = frame.f_back
+
+        if context == TranslationContext.choice_name and parameter.name in command.extras.get("choice_overrides", {}):
+            key_prefix = command.extras["choice_overrides"][parameter.name]
+            translation_key = string
+        else:
+            if "param_overrides" in command.extras and context in self._param_contexts:
+                key_prefix = f"command_docs.{command.extras['param_overrides']}"
+            else:
+                key_prefix = f"command_docs.{command.extras['translation_key']}"
+
+            match context:
+                case TranslationContext.command_name:
+                    translation_key = "name"
+                case TranslationContext.command_description:
+                    translation_key = "short_doc"
+                case TranslationContext.parameter_name:
+                    translation_key = f"params.{parameter.name}.name"
+                case TranslationContext.parameter_description:
+                    translation_key = f"params.{parameter.name}.description"
+                case TranslationContext.choice_name:
+                    translation_key = f"params.{parameter.name}.choices.{string}"
+                case _:
+                    raise NotImplementedError("Translation key")
+        scope = self._translator.with_scope(key_prefix, nqn_locale)
+
+        translated = scope(translation_key)
+        assert not translated.startswith("command_docs")
+        if context == TranslationContext.command_description:
+            return translated[:100]
+        return translated
+
+
+class Translator(metaclass=Singleton):
     locales = {
         "en": "en",
         "gb": "en",
@@ -57,8 +135,8 @@ class Translator:
     hidden_locales = ["owo", "hi", "fr", "ms"]
     supported_locales = {*locales.values(), *hidden_locales}
 
-    def __init__(self, get_locale: Optional[Callable[[Guild], Awaitable[str]]]):
-        self.get_locale = get_locale
+    def __init__(self):
+        self.get_locale = None
         root_path = pathlib.Path(__file__).parent
         i18n.load_path.append(root_path.absolute())
         i18n.set("enable_memoization", True)
@@ -76,8 +154,26 @@ class Translator:
         else:
             self.translate_function = i18n.t
 
+    def set_get_locale(self, get_locale: Callable[[Guild], Awaitable[str]]):
+        self.get_locale = get_locale
+
     def add_locale_commands(self, bot):
         for locale in self.supported_locales:
+            if locale != "owo":
+                # Some of the translations for owo are kind of rude/nonsensical. Lets not add these as commands
+                for command in bot.walk_commands():
+                    translated_name = self.translate_function(f"command_docs.{command.qualified_name.replace(' ', '-')}.name", locale=locale)
+                    if translated_name.startswith("command_docs"):
+                        continue
+                    for name in [translated_name, unidecode.unidecode(translated_name)]:
+                        if name == command.name or name in command.aliases:
+                            continue
+                        command.aliases.append(name)
+                        if command.parent is None:
+                            if bot.all_commands.get(name) not in (None, command):
+                                raise AssertionError("Command duplicated with translation")
+                            bot.all_commands[name] = command
+
             def inner(locale: str):
                 async def run_locale(ctx, *, rest):
                     await bot.process_commands(ctx.message, ctx.prefix, rest, locale_override=locale)

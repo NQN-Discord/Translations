@@ -24,7 +24,7 @@ discord_bot:
       rename:
         rename: उपनामो का नाम बदलें
         alias_name: 'उपनाम नाम:'
-        renamed: 'नाम बदला  \:%{old}: से :%{new}:'
+        renamed: 'नाम बदला \:%{old}: से :%{new}:'
       export:
         exported_short: "यह रहे आपके निर्यातित उपनाम:"
         exported_long: |
