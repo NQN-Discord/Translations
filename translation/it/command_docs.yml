@@ -415,7 +415,7 @@ command_docs:
         description: |-
           Di quale pacchetto mostrare le emoji?
   pack-unpublish:
-    name: rimuovi pubblicazione
+    name: rimuovi_pubblicazione
     short_doc: Non vuoi più che questo server sia un pacchetto di emote?
   persona:
     name: personaggio
@@ -578,10 +578,10 @@ command_docs:
     name: cerca
     short_doc: Permetti a chiunque nel server di usare un'emote!
   server-dashboard_posting:
-    name: pubblica tramite dashboard
+    name: pubblicazione_tramite_dashboard
     short_doc: Abilita o disabilita la pubblicazione dei messaggi attraverso la dashboard del bot
   server-audit_channel:
-    name: canale di controllo
+    name: canale_di_controllo
     short_doc: Invia i messaggi che il bot ripubblica
     params:
       channel:
@@ -787,7 +787,7 @@ command_docs:
         description: |-
           Cosa vuoi imparare?
   whois:
-    name: chi è
+    name: chiè
     short_doc: Trova chi ha inviato un messaggio
   _search:
     params:
