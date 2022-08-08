@@ -163,7 +163,7 @@ command_docs:
         description: |-
           Quale emoji vuoi sbloccare?
   emote-stats:
-    name: stats
+    name: statistiche
     short_doc: Mostra quanto spesso vengono utilizzate le emote del tuo server
   emote-unblock:
     name: sblocca
