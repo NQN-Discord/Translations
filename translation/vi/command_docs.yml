@@ -81,80 +81,80 @@ command_docs:
 
       Nếu bạn muốn hiển thị kết quả của cả server, dùng 'guild'
   delete:
-    name: delete
+    name: xóa
     short_doc: Xóa một trong khác tin nhắn của bạn được thay thế bởi NQN
     help: |
       Xóa một trong khác tin nhắn của bạn được thay thế bởi NQN.
       Theo mặc định, tin nhắn gần đây nhất trong kênh này của bạn sẽ bị xóa, nhưng bạn vẫn có thể tùy ý thêm URL của tin nhắn bạn muốn xóa.
       Bạn cũng có thể trả lời tin nhắn đó khi dùng lệnh để xóa tin nhắn đó.
   edit:
-    name: edit
+    name: chỉnh_sửa
     short_doc: Chỉnh sửa tin nhắn được thay thế bởi NQN
     help: |
       Chỉnh sửa nội dung của tin nhắn mà bạn gửi thông qua NQN.
       Theo mặc định, tin nhắn gần đây nhất trong kênh này của bạn sẽ được chỉnh sửa, nhưng bạn vẫn có thể tùy ý thêm URL của tin nhắn bạn muốn chỉnh sửa
       Bạn cũng có thể trả lời tin nhắn đó khi dùng lệnh để chỉnh sửa tin nhắn đó.
   emote:
-    name: emote
-    short_doc: Manage your server's emojis
+    name: biểu_cảm
+    short_doc: Quản lý biểu cảm trong server
   emote-block:
-    name: block
-    short_doc: Block the use of an emote
+    name: chặn
+    short_doc: Chặn khả năng dùng một biểu cảm
     help: |
       Tìm kiếm biểu cảm để khóa trong server.
       Khi biểu cảm được dùng, nó sẽ được tự động thêm vào hệ thống tự động quản lí của server để xóa.
   emote-block-from_emote:
-    name: from_emote
-    short_doc: Block the use of an emote
+    name: từ_biểu_cảm
+    short_doc: Chặn khả năng dùng một biểu cảm
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Which emoji to block the use of?
+          Biểu cảm bạn muốn chặn?
   emote-block-from_search:
-    name: from_search
-    short_doc: Block the use of an emote
+    name: từ_tìm_kiếm
+    short_doc: Chặn khả năng dùng một biểu cảm
   emote-block-recently_used:
-    name: recently_used
-    short_doc: Block the use of an emote
+    name: dùng_gần_đây
+    short_doc: Chặn khả năng dùng một biểu cảm
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Which emoji to block the use of?
+          Biểu cảm bạn muốn chặn?
   emote-block_list:
-    name: block_list
+    name: danh_sách_chặn
     short_doc: Xem danh sách các biểu cảm bị khóa trong server này
   emote-info:
-    name: info
+    name: thông_tin
     short_doc: Lấy thông tin của một biểu cảm
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Which emoji to get information about?
+          Biểu cảm bạn muốn xem thông tin?
   emote-jumbo:
-    name: jumbo
+    name: phóng_đại
     short_doc: Lấy hình ảnh lớn của biểu cảm
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Which emoji to make jumbo sized?
+          Biểu cảm mà bạn muốn phóng đại?
   emote-rolelock:
-    name: rolelock
+    name: khóa_vai_trò
     short_doc: Giới hạn khả năng sử dụng biểu cảm của vai trò
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Lock which emoji?
+          Biểu cảm muốn khóa?
       role:
-        name: role
+        name: vai_trò
         description: |-
-          Lock the emoji to which role?
+          Vài trò bạn muốn khóa khả năng dùng biểu cảm đó?
   emote-roleunlock:
-    name: roleunlock
+    name: mở_khóa_vai_trò
     short_doc: Cho phép mọi người dùng một biểu cảm bị giới hạn
     params:
       emoji:
@@ -291,126 +291,126 @@ command_docs:
         choices:
           current_server: Current Server
           mutual_servers: Mutual Servers
-          aliases: Aliases
-          packs: Packs
+          aliases: Tên thay thế
+          packs: Gói biểu cảm
   owner:
-    name: owner
+    name: chủ_sỡ_hữu
     short_doc: Cấm thư bí mật ẩn giấu trong đêm
   nqn:
     name: nqn
-    short_doc: Send a message with NQN
+    short_doc: Gửi tin nhắn với NQN
   nqn-message:
-    name: message
-    short_doc: Post a message with NQN emojis in it
+    name: nội_dung
+    short_doc: Gửi tin nhắn với biểu cảm NQN với nó
     params:
       message:
-        name: message
+        name: nội_dung
         description: |-
-          The message to post
+          Tin nhắn muốn gửi
       persona:
-        name: persona
+        name: danh_tính_ảo
         description: |-
-          The persona to use
+          Danh tính ảo bạn muốn dùng
       attachment:
-        name: attachment
+        name: tệp_đính_kèm
         description: |-
-          An attachment to send
+          Đính kèm tệp để gửi
   nqn-single_emoji:
-    name: single_emoji
-    short_doc: Post a message with just a single emoji in it
+    name: chỉ_biểu_cảm
+    short_doc: Gửi tin nhắn với chỉ biểu cảm
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Which emoji to post
+          Biểu cảm mà bạn muốn gửi
       persona:
-        name: persona
+        name: danh_tính_ảo
         description: |-
-          The persona to use
+          Danh tính ảo bạn muốn dùng
   pack:
-    name: pack
+    name: gói_biểu_cảm
     short_doc: Quản lý cả gói biểu cảm
   pack-dm:
-    name: dm
+    name: nhắn_riêng
     short_doc: Nhận một danh sách các gói biểu cảm của bạn trong tin nhắn trực tiếp
     help: |
       Nhận một danh sách các gói biểu cảm của bạn với các biểu cảm trong tin nhắn trực tiếp.
   pack-join:
-    name: join
+    name: tham_gia
     short_doc: Đăng ký vào một gói biểu cảm
     params:
       pack:
-        name: pack
+        name: gói
         description: |-
-          Which pack do you want to join?
+          Gói biểu cảm mà bạn muốn tham gia?
   pack-leave:
-    name: leave
+    name: rời
     short_doc: Hủy đăng ký khỏi một gói biểu cảm
     params:
       pack:
-        name: pack
+        name: gói
         description: |-
-          Which pack do you want to leave?
+          Gói biểu cảm mà bạn muốn rời?
   pack-meta:
-    name: meta
+    name: thông_số
     short_doc: Oooh... Các thông số thú vị về gói của bạn
   pack-mine:
-    name: mine
+    name: của_tôi
     short_doc: Nhận một danh sách các gói biểu cảm bạn đã đăng ký vào
   pack-publish:
-    name: publish
+    name: công_bố
     short_doc: Công khai server của bạn dưới dạng một gói biểu cảm
     params:
       name:
-        name: name
+        name: tên_gói
         description: |-
-          What do you want to call your pack?
+          Tên mà bạn muốn dùng cho gói biểu cảm?
       public:
-        name: public
+        name: công_khai
         description: |-
-          Do you want people to be able to join your server through the bot without an invite?
+          Bạn có muốn mọi người tham gia server của bạn thông qua bot mà không cần lời mời?
   pack-rename:
-    name: rename
+    name: đổi_tên
     short_doc: Đổi tên một gói biểu cảm
     params:
       new_name:
-        name: new_name
+        name: tên_mới
         description: |-
-          What do you want to call your pack?
+          Tên mà bạn muốn dùng cho gói biểu cảm?
   pack-save:
-    name: save
+    name: lưu
     short_doc: Tải lên tất cả biểu cảm từ một gói vào server này
     params:
       name:
-        name: name
+        name: tên
         description: |-
-          Which pack are you downloading emojis to this server from?
+          Gói biểu cảm mà bạn đang tải về cho server này?
   pack-search:
-    name: search
+    name: tìm_kiếm
     short_doc: Tìm kiếm gói biểu cảm
     params:
       search:
-        name: search
+        name: tìm_kiếm
         description: |-
-          What kind of emojis are you looking for?
+          Bạn đang muốn tìm biểu cảm gì?
       page:
-        name: page
+        name: trang
         description: |-
-          Which page of packs to start on?
+          Trang bạn muốn đến?
   pack-set_public:
-    name: set_public
+    name: đặt_công_khai
     short_doc: Cho phép mọi người tham gia server này với NQN.
     params:
       enabled:
-        name: enabled
+        name: kích_hoạt
         description: |-
-          Allow users to join this server through NQN without an invite?
+          Cho phép người dùng tham gia server này thông qua NQN mà không cần lời mời?
   pack-show:
-    name: show
+    name: xem_gói
     short_doc: Hiển thị nội dung của một gói biểu cảm
     params:
       pack:
-        name: pack
+        name: gói
         description: |-
           Which pack to show the emojis of?
   pack-unpublish:
@@ -544,15 +544,15 @@ command_docs:
       file:
         name: file
         description: |-
-          A file previously exported with /alias export
+          Một tệp được xuất ra với lệnh /tên_thay_thế xuất_tệp
   server-alias-list:
-    name: list
+    name: danh_sách
     short_doc: Hiển thị danh sách các tên thay thế mà thành viên trong server của bạn có thể dùng
     params:
       page:
-        name: page
+        name: trang
         description: |-
-          Which page to start at?
+          Trang bạn muốn đến
   server-alias-post:
     name: post
     short_doc: Hiển thị danh sách các tên thay thế của server
