@@ -7,7 +7,7 @@ import inspect
 from discord import Guild, Locale
 from discord.app_commands.transformers import CommandParameter
 from discord.ext.commands import Context
-from discord.app_commands import locale_str, TranslationContext, Command
+from discord.app_commands import locale_str, TranslationContext, Command, Group, ContextMenu
 from discord.app_commands import Translator as DpyTranslator
 
 from _singleton import Singleton
@@ -66,7 +66,7 @@ class DpyNQNTranslator(DpyTranslator):
                 _self = frame.f_locals.get("self")
                 if isinstance(_self, CommandParameter):
                     parameter = _self
-                if isinstance(_self, Command):
+                if isinstance(_self, (Command, Group, ContextMenu)):
                     command = _self
                     break
                 frame = frame.f_back
