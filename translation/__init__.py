@@ -1,5 +1,6 @@
 from typing import Callable, Union, Dict, Awaitable, Optional
 import i18n
+import unidecode
 import pathlib
 import copy
 import inspect
@@ -158,6 +159,21 @@ class Translator(metaclass=Singleton):
 
     def add_locale_commands(self, bot):
         for locale in self.supported_locales:
+            if locale != "owo":
+                # Some of the translations for owo are kind of rude/nonsensical. Lets not add these as commands
+                for command in bot.walk_commands():
+                    translated_name = self.translate_function(f"command_docs.{command.qualified_name.replace(' ', '-')}.name", locale=locale)
+                    if translated_name.startswith("command_docs"):
+                        continue
+                    for name in [translated_name, unidecode.unidecode(translated_name)]:
+                        if name == command.name or name in command.aliases:
+                            continue
+                        command.aliases.append(name)
+                        if command.parent is None:
+                            if bot.all_commands.get(name) not in (None, command):
+                                raise AssertionError("Command duplicated with translation")
+                            bot.all_commands[name] = command
+
             def inner(locale: str):
                 async def run_locale(ctx, *, rest):
                     await bot.process_commands(ctx.message, ctx.prefix, rest, locale_override=locale)
