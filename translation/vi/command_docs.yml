@@ -196,23 +196,23 @@ command_docs:
         description: |-
           Biểu cảm hoặc URL biểu cảm
   emote-upload-from_search:
-    name: from_search
-    short_doc: Search for an emoji to upload to your server
+    name: từ_tìm_kiếm
+    short_doc: Tìm một biểu cảm để tải lên server của bạn
   export:
-    name: export
+    name: xuất
     short_doc: Xuất danh sách biểu cảm của bạn
   help:
-    name: help
+    name: trợ_giúp
     short_doc: Tìm hiểu thêm về lệnh của tôi
     params:
       command:
-        name: command
+        name: lệnh
         description: |-
-          What to learn about?
+          Lệnh mà bạn muốn biết thêm?
     help: |
       Tìm hiểu thêm về những lệnh mà bạn có thể dùng với NQN
   ignore_me:
-    name: ignore_me
+    name: bỏ_qua_tôi
     short_doc: Ngưng việc NQN thay thế tin nhắn của bạn
     help: |
       Lệnh này sẽ ngưng việc NQN thay thế tin nhắn của bạn trong mọi sever bạn có chung với bot.
@@ -220,26 +220,26 @@ command_docs:
       - Bạn vẫn có thể gửi tin nhắn thông qua [bảng điều khiển](https://nqn.blue) của chúng tôi
       - Bot sẽ không thay thế bất kì tin nhắn nào của bạn bằng webhook nữa
   info:
-    name: info
+    name: thông_tin
     short_doc: Thông tin phần mềm của bot
   invite_me:
-    name: invite_me
+    name: mời_bot
     short_doc: Thêm bot vào server của bạn!
   mod:
-    name: mod
-    short_doc: NQN moderation tools
+    name: quản_lý
+    short_doc: Công cụ quản lý của NQN
   mod-audit:
-    name: audit
+    name: nhật_kí
     short_doc: Xem các tin nhắn đã được thay thế trong server
     params:
       channel:
-        name: channel
+        name: kênh
         description: |-
-          Filter to just messages in this channel
+          Lọc lại chỉ tin nhắn trong kênh này
       user:
-        name: user
+        name: người_dùng
         description: |-
-          Filter to just messages by this user
+          Lọc lại chỉ tin nhắn của người dùng này
     help: |
       Xem các tin nhắn đã được thay thế trong server
       Tùy ý [Kênh] -> Chỉ hiển thị kết quả trong kênh được nhắc đến
@@ -247,50 +247,50 @@ command_docs:
 
       Nếu bạn muốn hiển thị kết quả của cả server, dùng 'guild'
   mod-ban:
-    name: ban
+    name: cấm
     short_doc: Cấm thành viên đã gửi tin nhắn nào đó khỏi server
   mod-edit_topic:
-    name: edit_topic
+    name: đổi_chủ_đề_kênh
     short_doc: Thêm biểu cảm động vào chủ đề kênh
     params:
       description:
-        name: description
+        name: nội_dung
         description: |-
-          The new channel description including emoji names
+          Nội dung chủ đề mới cho kênh kèm theo tên biểu cảm
     help: |
       Thay đổi chủ đề của kênh, với cả khả năng sử dụng biểu cảm động nữa
   mod-kick:
-    name: kick
+    name: đá
     short_doc: Đá thành viên đã gửi tin nhắn nào đó khỏi server
   mod-purge:
-    name: purge
+    name: xóa_tin_nhắn
     short_doc: Xóa một số tin nhắn được thay thế bởi NQN trong kênh này
   move:
-    name: move
-    short_doc: Move up to 50 of the most recent messages in this channel to another
+    name: chuyển_tin_nhắn
+    short_doc: Di chuyển lên đến 50 tin nhắn gần đây trong kênh này sang kênh khác
     params:
       channel:
-        name: channel
+        name: kênh
         description: |-
-          The target channel to move to
+          Kênh bạn muốn chuyển tin nhắn đến
       messages:
-        name: messages
+        name: tin_nhắn
         description: |-
-          How many messages to move?
+          Số lượng tin nhắn để chuyển đi
   mutuals:
-    name: mutuals
+    name: có_chung
     short_doc: Xem các server mà bạn có chung với tôi
   my_emotes:
-    name: my_emotes
+    name: biểu_cảm_của_tôi
     short_doc: Xem các biểu cảm bạn có thể dùng với NQN
     params:
       page:
-        name: page
+        name: trang
         description: |-
-          Which emojis to show?
+          Mục mà bạn muốn xem?
         choices:
-          current_server: Current Server
-          mutual_servers: Mutual Servers
+          current_server: Server hiện tại
+          mutual_servers: Server chung
           aliases: Tên thay thế
           packs: Gói biểu cảm
   owner:
@@ -554,27 +554,27 @@ command_docs:
         description: |-
           Trang bạn muốn đến
   server-alias-post:
-    name: post
+    name: đăng_lên
     short_doc: Hiển thị danh sách các tên thay thế của server
     params:
       channel:
-        name: channel
+        name: kênh
         description: |-
-          Which channel do you want to post the server-wide emoji list to?
+          Kênh mà bạn muốn đăng danh sách biểu cảm dùng trong server?
   server-alias-rename:
-    name: rename
+    name: đổi_tên
     short_doc: Đổi tên một tên thay thế của server
     params:
       old_name:
-        name: old_name
+        name: tên_cũ
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          Tên của biểu cảm mà bạn muốn đổi sang tên mới?
       new_name:
-        name: new_name
+        name: tên_mới
         description: |-
-          What should it be renamed to?
+          Tên mới mà bạn muốn đổi sang?
   server-alias-search:
-    name: search
+    name: tìm_kiếm
     short_doc: Cho phép thành viên trong server dùng một biểu cảm!
   server-dashboard_posting:
     name: dashboard_posting
