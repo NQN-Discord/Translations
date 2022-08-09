@@ -358,7 +358,7 @@ command_docs:
     name: của_tôi
     short_doc: Nhận một danh sách các gói biểu cảm bạn đã đăng ký vào
   pack-publish:
-    name: công_bố
+    name: công_khai
     short_doc: Công khai server của bạn dưới dạng một gói biểu cảm
     params:
       name:
@@ -412,23 +412,23 @@ command_docs:
       pack:
         name: gói
         description: |-
-          Which pack to show the emojis of?
+          Gói biểu cảm bạn muốn hiển thị?
   pack-unpublish:
-    name: unpublish
+    name: bỏ_công_khai
     short_doc: Không muốn server này là một gói biểu cảm nữa?
   persona:
-    name: persona
+    name: danh_tính_ảo
     short_doc: Quản lý danh tính ảo của bạn
   persona-avatar_url:
-    name: avatar_url
+    name: url_ảnh_đại_diện
     short_doc: Đặt ảnh hồ sơ cho một danh tính ảo
     params:
       persona:
-        name: persona
+        name: danh_tính_ảo
         description: |-
-          Which persona are you changing the username for?
+          Danh tính ảo mà bạn muốn đổi tên?
       avatar_url:
-        name: avatar_url
+        name: url_ảnh_đại_diện
         description: |-
           What's the new avatar URL?
   persona-delete:
