@@ -1,7 +1,7 @@
 ---
 command_docs:
   alias:
-    name: alias
+    name: اختصار
     short_doc: مدیریت جداگانه شکلک هایی که می توانید استفاده کنید
     help: |
       مدیریت شکلک های جدا از هم و متفاوتی که شما می توانید استفاده کنید
@@ -12,56 +12,56 @@ command_docs:
        - `page`: رفتن به یک صفحه مشخص
        - `order`: یکی از موارد 'uses' یا 'random'
   alias-delete:
-    name: delete
+    name: حذف
     short_doc: دیگر نمی خواهید از یک اختصار استفاده کنید؟ اینم راه حل
     params:
       alias:
-        name: alias
+        name: اختصار
         description: |-
-          Which alias do you want to remove?
+          کدام اختصار را میخواهید حذف کنید؟
   alias-delete_all:
-    name: delete_all
+    name: حذف‌همه
     short_doc: هیچ یک از اختصار هایتان را نمی‌خواهید؟ اینم راه حل
     help: |
       حذف همه اختصار های شما
   alias-dm:
-    name: dm
+    name: دایرکت
     short_doc: DM دریافت یک لیست کامل از اختصار ها در
     help: |
       ارسال لیست تمامی اختصار های شما به طور مستقیم به شما (DM) توسط بات
   alias-export:
-    name: export
+    name: استخراج
     short_doc: استخراج لیست اختصار های شما
   alias-import:
-    name: import
+    name: واردکردن
     short_doc: وارد کردن لیست اختصار های فردی دیگر
     params:
       file:
-        name: file
+        name: فایل
         description: |-
-          A file previously exported with /alias export
+          یک فایل که با /alias export از قبل استخراج شده
   alias-mine:
-    name: mine
-    short_doc: Get a list of aliases you've made
+    name: دراختیارمن
+    short_doc: دریافت لیستی از اختصار هایی که ساخته‌اید
     params:
       page:
-        name: page
+        name: صفحه
         description: |-
-          What page to start at?
+          از چه صفحه‌ای شروع شود؟
   alias-rename:
-    name: rename
+    name: تغییرنام
     short_doc: تغییر نام یکی از اختصار هایتان
     params:
       old_name:
-        name: old_name
+        name: نام‌قبلی
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          نام ایموجی که میخواهید به آن یک نام جدید بدهید، چیست؟
       new_name:
-        name: new_name
+        name: نام‌جدید
         description: |-
-          What should it be renamed to?
+          باید به چه نامی تغییر یابد؟
   alias-search:
-    name: search
+    name: جستجو
     short_doc: گشتن به دنبال شکلک های متفاوت
     help: |
       گشتن برای شکلک های متفاوت برای استفاده در NQN
@@ -72,32 +72,32 @@ command_docs:
        - `page`: رفتن به یک صفحه مشخص
        - `order`: یکی از موارد 'uses' یا 'random'
   audit:
-    name: audit
+    name: سابقه
     short_doc: دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
     help: |
       دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
       اختیاری[Channel] -> فیلتر کردن ضبط سوابق فقط به این کانال
       اختیاری[Member]-> فیلتر کردن ضبط سوابق فقط به این اعضاء
   delete:
-    name: delete
+    name: حذف
     short_doc: NQN حذف یکی از پیام های تغییر یافته شما توسط
     help: |
       حذف یکی از پیام های تغییر یافته شما توسط NQN
       به طور پیش‌فرض، آخرین پیامی که تبدیل آن برای شما صورت گرفته پاک خواهد شد، اما می توانید در انتها آدرس URL پیام مورد نظر را نیز شامل کنید تا آن پاک شود.
       شما همچنین می توانید با استفاده از ویژگی رپلای خود دیسکورد نیز پیام مورد نظر را نیز همینگونه تعیین کنید.
   edit:
-    name: edit
+    name: ویرایش
     short_doc: NQN ویرایش یکی از پیام های تبدیل شده توسط
     help: |
       ویرایش یکی از پیام های تبدیل شده توسط NQN
       به طور پیش‌فرض، آخرین پیامی که تبدیل آن برای شما صورت گرفته پاک خواهد شد، اما می توانید در انتها آدرس URL پیام مورد نظر را نیز شامل کنید تا آن پاک شود.
       شما همچنین می توانید با استفاده از ویژگی رپلای خود دیسکورد نیز پیام مورد نظر را نیز همینگونه تعیین کنید.
   emote:
-    name: emote
-    short_doc: Manage your server's emojis
+    name: شکلک
+    short_doc: مدیریت ایموجی های سرور
   emote-block:
-    name: block
-    short_doc: Block the use of an emote
+    name: بلاک‌کردن
+    short_doc: بلاک کردن استفاده از یک شکلک
     help: |
       جستجو برای بلاک کردن استفاده از یک ایموجی در این سرور.
       وقتی این ایموجی استفاده بشود، به طور خودکار به لیست مدیریت خودکار سرور اضافه خواهد شد تا حذف و از ارسال آن جلوگیری شود.
