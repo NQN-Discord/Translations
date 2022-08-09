@@ -158,43 +158,43 @@ command_docs:
     short_doc: Cho phép mọi người dùng một biểu cảm bị giới hạn
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Unlock which emoji?
+          Biểu cảm muốn mở khóa?
   emote-stats:
-    name: stats
+    name: thông_số
     short_doc: Kiểm tra mức sử dụng biểu cảm của server của bạn
   emote-unblock:
-    name: unblock
+    name: bỏ_chặn
     short_doc: Gỡ khóa một biểu cảm bị khóa
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Which emoji to unblock?
+          Biểu cảm bạn muốn bỏ chặn?
   emote-upload:
-    name: upload
-    short_doc: Upload an emote
+    name: tải_lên
+    short_doc: Tải lên biểu cảm
     help: |
       Tìm tất cả các biểu cảm mà NQN đã từng thấy và tải chúng lên cho server này.
       Lệnh này cho phép bạn tải lên biểu cảm.
       Bạn cũng có thể đính kèm một tệp để tải lên
   emote-upload-from_attachment:
-    name: from_attachment
-    short_doc: Upload an emoji from an attachment
+    name: từ_tệp
+    short_doc: Tải lên biểu cảm từ một tệp
     params:
       attachment:
-        name: attachment
+        name: tệp_đính_kèm
         description: |-
-          Emoji image
+          Ảnh biểu cảm muốn tải lên
   emote-upload-from_emote:
-    name: from_emote
-    short_doc: Upload an emoji from it's name or URL
+    name: từ_biểu_cảm
+    short_doc: Tải lên biểu cảm với tên hoặc URL của nó
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Emoji or Emoji URL
+          Biểu cảm hoặc URL biểu cảm
   emote-upload-from_search:
     name: from_search
     short_doc: Search for an emoji to upload to your server
