@@ -577,11 +577,11 @@ command_docs:
     name: tìm_kiếm
     short_doc: Cho phép thành viên trong server dùng một biểu cảm!
   server-dashboard_posting:
-    name: dashboard_posting
+    name: gửi_từ_bảng_điều_khiển
     short_doc: Bặt, tắt việc gửi tin nhắn với bot từ bảng điều khiển
   server-audit_channel:
     name: kênh_nhật_kí
-    short_doc: Post messages the bot reposts
+    short_doc: Lưu vết lại các tin nhắn được bot thay thế
     params:
       channel:
         name: kênh
@@ -591,7 +591,7 @@ command_docs:
     name: ngôn_ngữ
     short_doc: Thay đổi ngôn ngữ của bot %{locale_flag_emojis}
   server-link:
-    name: đường_dẫn
+    name: link
     short_doc: Tạo một biểu cảm tĩnh, để khi dùng thì bot sẽ thay thế với bản động của nó!
     params:
       emoji:
@@ -599,20 +599,20 @@ command_docs:
         description: |-
           Biểu cảm bạn muốn tạo phiên bản tĩnh?
   server-masked_links:
-    name: masked_links
+    name: link_đã_che
     short_doc: Bật, tắt dùng link đã che cho server này
   server-nitro:
     name: nitro
     short_doc: Bật, tắt dùng tính năng nitro miễn phí cho server này
   server-pack:
-    name: pack
-    short_doc: Server Packs
+    name: gói_biểu_cảm
+    short_doc: Gói biểu cảm của server
   server-pack-join:
-    name: join
+    name: tham_gia
     short_doc: Đăng ký vào một gói biểu cảm liên server
     params:
       pack:
-        name: pack
+        name: gói
         description: |-
           Which pack do you want to allow everyone in this server to use?
   server-pack-leave:
