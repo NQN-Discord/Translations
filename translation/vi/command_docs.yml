@@ -614,39 +614,39 @@ command_docs:
       pack:
         name: gói
         description: |-
-          Which pack do you want to allow everyone in this server to use?
+          Gói biểu cảm mà bạn muốn cho thành viên trong server này dùng?
   server-pack-leave:
-    name: leave
+    name: rời
     short_doc: Hủy đăng ký khỏi một gói biểu cảm liên server
     params:
       pack:
-        name: pack
+        name: gói
         description: |-
-          Which pack do you want to remove access to from everyone?
+          Gói biểu cảm mà bạn muốn bỏ khả năng dùng khỏi thành viên trong server?
   server-pack-list:
-    name: list
+    name: danh_sách
     short_doc: Hiển thị danh sách các gói server này có thể dùng
   server-pack-post:
-    name: post
+    name: đăng_lên
     short_doc: Hiển thị danh sách gói biểu cảm của server
   server-pack-search:
-    name: search
+    name: tìm_kiếm
     short_doc: Tìm kiếm một gói biểu cảm để thêm cho server
   server-permissions_debug:
-    name: permissions_debug
+    name: gỡ_lỗi_quyền_hạn
     short_doc: Để NQN cho bạn biết những quyền mà nó đang thiếu
   server-personas:
-    name: personas
+    name: danh_tính_ảo
     short_doc: Bật, tắt dùng danh tính ảo
     help: |
       Cho phép người dùng gửi tin nhắn với bất kì tên và ảnh hồ sơ nào
   server-pings:
-    name: pings
+    name: ping
     short_doc: Bật, tắt nhắc tên trong tin nhắn được thay thế cho server này
     help: |
       Bật, tắt nhắc tên trong tin nhắn được thay thế cho server này
   server-phish_detection:
-    name: phish_detection
+    name: nhận_diện_lừa_đảo
     short_doc: Bật, tắt nhận diện tin nhắn lừa đảo cho server này
   server-prefix:
     name: prefix
@@ -659,36 +659,36 @@ command_docs:
     signature: |
       @NQN#3454 [prefix=!]
   server-replies:
-    name: replies
+    name: trả_lời
     short_doc: Bật, tắt trả lời tin nhắn cho server này
   server-settings:
-    name: settings
+    name: cài_đặt
     short_doc: Xem cài đặt của bot cho server này
     help: |
       Xem cài đặt của NQN, bao gồm tính năng, cài đặt kênh và thông tin gói biểu cảm.
   server-boost_channel:
-    name: boost_channel
-    short_doc: Post whenever someone votes with the server on top.gg
+    name: kênh_báo_tăng_cường
+    short_doc: Thông báo mỗi khi có người vote cho server trên top.gg
   server-boost_role:
-    name: boost_role
-    short_doc: Give a user this role when they boost this server via NQN
+    name: vai_trò_tăng_cường
+    short_doc: Cho người dùng vai trò này khi họ tăng cường server thông qua NQN
   server-nitro_role:
-    name: nitro_role
-    short_doc: Require users to have a role to use NQN
+    name: vai_trò_nitro
+    short_doc: Giới hạn người dùng phải có vai trò này để dùng NQN
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      Giới hạn người dùng có vai trò này mới có thể dùng tính năng nitro với NQN
   server-stickers:
-    name: stickers
+    name: nhãn_dán
     short_doc: Bật, tắt dùng nhãn dán trong server
   server-user_content:
-    name: user_content
+    name: nội_dung_người_dùng
     short_doc: Bật, tắt dùng tên thay thế và gói biểu cảm ngoài cho server này
   sticker:
-    name: sticker
-    short_doc: Manage your NQN stickers
+    name: nhãn_dán
+    short_doc: Quản lý nhãn dán NQN của bạn
   sticker-create:
-    name: create
-    short_doc: Create a sticker
+    name: tạo
+    short_doc: Tạo nhãn dán
     help: |
       Tạo một nhãn dán từ một tệp
       Tải lên một hình ảnh và dùng lệnh này để biến nó thành một nhãn dán.
@@ -697,23 +697,23 @@ command_docs:
       Kích thước tối đa của nhãn dán là 8Mb, và tên chỉ nên chứa chữ và số.
       Nhãn dán cần có định dạng tệp, và cũng chỉ nên chứa chữ và số.
   sticker-create-from_attachment:
-    name: from_attachment
-    short_doc: Create a sticker
+    name: từ_tệp
+    short_doc: Tạo nhãn dán
     params:
       sticker:
-        name: sticker
+        name: nhãn_dán
         description: |-
-          The image to turn into a sticker
+          Hình ảnh để dùng làm nhãn dán
       name:
-        name: name
+        name: tên
         description: |-
-          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+          Tên cho nhãn dán. Phải là chữ hoặc số với dấu `.` trong đó, giống như `nqn.nqn`
   sticker-create-from_emote:
-    name: from_emote
-    short_doc: Import stickers from emotes
+    name: từ_biểu_cảm
+    short_doc: Tải lên nhãn dán từ biểu cảm
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
           …
       name:
