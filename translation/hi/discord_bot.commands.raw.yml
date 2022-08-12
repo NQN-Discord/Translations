@@ -86,12 +86,12 @@ discord_bot:
         permissions_missing: मुझे प्रशिक्षण लिखने के लिए इम्बेड लिखने और प्रतिक्रिया जोड़ने की आवश्यकता होगी। यह फिर से चलायी जा सकत है `%{prefix}tutorial`.
         wrong_place: अगर मैंने सन्देश दिखने के लिए अगर गलत स्थान चुन लिया है तो, आप %{prefix}tutorial का इस्तेमाल कर आप अधिक सुविधाजनक चैनल में प्रशिक्षण चला सकते हैं। इस प्रशिक्षण में विभिन्न पृष्ठ हैं; उनके गायब हो जाने के बाद उन्हें देखने के लिए चलाइये %{prefix}tutorial.
         default_emojis: डिफ़ॉल्ट इमोजी
-        default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
-        page_0_title: Tutorial for Not Quite Nitro, TLDR
+        default_emoji_list: "यह रही उन गतिशील ईमोट की सूची जो इस सर्वर में कोई भी डिफ़ॉल्ट रूप से इस्तेमाल कर सकता है - बस उन्हें लिखें, ईमोट के दोनों ओर :colons: निश्चित रूप से लिखें!"
+        page_0_title: Not Quite Nitro का प्रशिक्षण, TLDR
         page_0_desc: |
-          %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
+          %{locale_flag_emojis} **भाषा विकल्प** %{locale_flag_emojis}
           > `%{prefix}server language`
-        page_0_0_name: More Emotes?
+        page_0_0_name: अधिक ईमोट?
         page_0_0_desc: |
           Everyone is able to use any emote that shares a server with both you and this bot.
           **There are several other ways to use emotes in servers you are not in:**
