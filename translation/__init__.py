@@ -7,7 +7,7 @@ import inspect
 from discord import Guild, Locale
 from discord.app_commands.transformers import CommandParameter
 from discord.ext.commands import Context
-from discord.app_commands import locale_str, TranslationContext, Command, Group, ContextMenu
+from discord.app_commands import locale_str, TranslationContext, Command, Group, ContextMenu, TranslationContextLocation, Parameter
 from discord.app_commands import Translator as DpyTranslator
 
 from _singleton import Singleton
@@ -45,22 +45,27 @@ class DpyNQNTranslator(DpyTranslator):
 
     }
     _param_contexts = (
-        TranslationContext.parameter_name,
-        TranslationContext.parameter_description,
-        TranslationContext.choice_name
+        TranslationContextLocation.parameter_name,
+        TranslationContextLocation.parameter_description,
+        TranslationContextLocation.choice_name
     )
 
     async def load(self):
         self._translator = Translator()
 
-    async def translate(self, string: locale_str, locale: Locale, context: TranslationContext, *, command: Command = None, parameter: CommandParameter = None) -> Optional[str]:
+    async def translate(self, string: locale_str, locale: Locale, context: TranslationContext, *, parameter: Parameter = None) -> Optional[str]:
         nqn_locale = self.discord_locale_map.get(locale)
         if nqn_locale is None:
             return
+        command: Command
 
-        if command is None:
+        if isinstance(context.data, (Command, Group)):
+            command = context.data
+        elif isinstance(context.data, Parameter):
+            parameter = context.data
+            command = parameter.command
+        elif parameter is None:
             # Temporary
-            parameter = None
             frame = inspect.currentframe()
             while True:
                 _self = frame.f_locals.get("self")
@@ -70,34 +75,44 @@ class DpyNQNTranslator(DpyTranslator):
                     command = _self
                     break
                 frame = frame.f_back
-
-        if context == TranslationContext.choice_name and parameter.name in command.extras.get("choice_overrides", {}):
-            key_prefix = command.extras["choice_overrides"][parameter.name]
-            translation_key = string
+                if frame is None:
+                    raise AssertionError("Out of stack!")
         else:
-            if "param_overrides" in command.extras and context in self._param_contexts:
-                key_prefix = f"command_docs.{command.extras['param_overrides']}"
-            else:
-                key_prefix = f"command_docs.{command.extras['translation_key']}"
+            command = parameter.command
 
-            match context:
-                case TranslationContext.command_name:
-                    translation_key = "name"
-                case TranslationContext.command_description:
-                    translation_key = "short_doc"
-                case TranslationContext.parameter_name:
-                    translation_key = f"params.{parameter.name}.name"
-                case TranslationContext.parameter_description:
-                    translation_key = f"params.{parameter.name}.description"
-                case TranslationContext.choice_name:
+        if "param_overrides" in command.extras and context.location in self._param_contexts:
+            key_prefix = f"command_docs.{command.extras['param_overrides']}"
+        else:
+            key_prefix = f"command_docs.{command.extras['translation_key']}"
+
+        match context.location:
+            case TranslationContextLocation.command_name:
+                translation_key = "name"
+            case TranslationContextLocation.command_description:
+                translation_key = "short_doc"
+            case TranslationContextLocation.group_name:
+                translation_key = "name"
+            case TranslationContextLocation.group_description:
+                translation_key = "short_doc"
+            case TranslationContextLocation.parameter_name:
+                translation_key = f"params.{parameter.name}.name"
+            case TranslationContextLocation.parameter_description:
+                translation_key = f"params.{parameter.name}.description"
+            case TranslationContextLocation.choice_name:
+
+                if parameter.name in command.extras.get("choice_overrides", {}):
+                    key_prefix = command.extras["choice_overrides"][parameter.name]
+                    translation_key = string
+                else:
                     translation_key = f"params.{parameter.name}.choices.{string}"
-                case _:
-                    raise NotImplementedError("Translation key")
+            case _:
+                raise NotImplementedError(f"Translation key {context.location} not implemented.")
+
         scope = self._translator.with_scope(key_prefix, nqn_locale)
 
         translated = scope(translation_key)
         assert not translated.startswith("command_docs")
-        if context == TranslationContext.command_description:
+        if context.location == TranslationContextLocation.command_description:
             return translated[:100]
         return translated
 
