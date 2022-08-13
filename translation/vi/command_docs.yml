@@ -1,5 +1,17 @@
 ---
 command_docs:
+  gain_access_to_emojis:
+    name: Gain access to emojis
+  block_emote:
+    name: Block an emote
+  audit_messages:
+    name: Audit NQN messages
+  delete_message:
+    name: Delete Message
+  edit_message:
+    name: Edit Message
+  find_author:
+    name: Find Author
   alias:
     name: tên_thay_thế
     short_doc: Quản lý các biểu cảm riêng biệt để bạn dùng
@@ -158,61 +170,61 @@ command_docs:
     short_doc: Cho phép mọi người dùng một biểu cảm bị giới hạn
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Unlock which emoji?
+          Biểu cảm muốn mở khóa?
   emote-stats:
-    name: stats
+    name: thông_số
     short_doc: Kiểm tra mức sử dụng biểu cảm của server của bạn
   emote-unblock:
-    name: unblock
+    name: bỏ_chặn
     short_doc: Gỡ khóa một biểu cảm bị khóa
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Which emoji to unblock?
+          Biểu cảm bạn muốn bỏ chặn?
   emote-upload:
-    name: upload
-    short_doc: Upload an emote
+    name: tải_lên
+    short_doc: Tải lên biểu cảm
     help: |
       Tìm tất cả các biểu cảm mà NQN đã từng thấy và tải chúng lên cho server này.
       Lệnh này cho phép bạn tải lên biểu cảm.
       Bạn cũng có thể đính kèm một tệp để tải lên
   emote-upload-from_attachment:
-    name: from_attachment
-    short_doc: Upload an emoji from an attachment
+    name: từ_tệp
+    short_doc: Tải lên biểu cảm từ một tệp
     params:
       attachment:
-        name: attachment
+        name: tệp_đính_kèm
         description: |-
-          Emoji image
+          Ảnh biểu cảm muốn tải lên
   emote-upload-from_emote:
-    name: from_emote
-    short_doc: Upload an emoji from it's name or URL
+    name: từ_biểu_cảm
+    short_doc: Tải lên biểu cảm với tên hoặc URL của nó
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Emoji or Emoji URL
+          Biểu cảm hoặc URL biểu cảm
   emote-upload-from_search:
-    name: from_search
-    short_doc: Search for an emoji to upload to your server
+    name: từ_tìm_kiếm
+    short_doc: Tìm một biểu cảm để tải lên server của bạn
   export:
-    name: export
+    name: xuất
     short_doc: Xuất danh sách biểu cảm của bạn
   help:
-    name: help
+    name: trợ_giúp
     short_doc: Tìm hiểu thêm về lệnh của tôi
     params:
       command:
-        name: command
+        name: lệnh
         description: |-
-          What to learn about?
+          Lệnh mà bạn muốn biết thêm?
     help: |
       Tìm hiểu thêm về những lệnh mà bạn có thể dùng với NQN
   ignore_me:
-    name: ignore_me
+    name: bỏ_qua_tôi
     short_doc: Ngưng việc NQN thay thế tin nhắn của bạn
     help: |
       Lệnh này sẽ ngưng việc NQN thay thế tin nhắn của bạn trong mọi sever bạn có chung với bot.
@@ -220,26 +232,26 @@ command_docs:
       - Bạn vẫn có thể gửi tin nhắn thông qua [bảng điều khiển](https://nqn.blue) của chúng tôi
       - Bot sẽ không thay thế bất kì tin nhắn nào của bạn bằng webhook nữa
   info:
-    name: info
+    name: thông_tin
     short_doc: Thông tin phần mềm của bot
   invite_me:
-    name: invite_me
+    name: mời_bot
     short_doc: Thêm bot vào server của bạn!
   mod:
-    name: mod
-    short_doc: NQN moderation tools
+    name: quản_lý
+    short_doc: Công cụ quản lý của NQN
   mod-audit:
-    name: audit
+    name: nhật_kí
     short_doc: Xem các tin nhắn đã được thay thế trong server
     params:
       channel:
-        name: channel
+        name: kênh
         description: |-
-          Filter to just messages in this channel
+          Lọc lại chỉ tin nhắn trong kênh này
       user:
-        name: user
+        name: người_dùng
         description: |-
-          Filter to just messages by this user
+          Lọc lại chỉ tin nhắn của người dùng này
     help: |
       Xem các tin nhắn đã được thay thế trong server
       Tùy ý [Kênh] -> Chỉ hiển thị kết quả trong kênh được nhắc đến
@@ -247,50 +259,50 @@ command_docs:
 
       Nếu bạn muốn hiển thị kết quả của cả server, dùng 'guild'
   mod-ban:
-    name: ban
+    name: cấm
     short_doc: Cấm thành viên đã gửi tin nhắn nào đó khỏi server
   mod-edit_topic:
-    name: edit_topic
+    name: đổi_chủ_đề_kênh
     short_doc: Thêm biểu cảm động vào chủ đề kênh
     params:
       description:
-        name: description
+        name: nội_dung
         description: |-
-          The new channel description including emoji names
+          Nội dung chủ đề mới cho kênh kèm theo tên biểu cảm
     help: |
       Thay đổi chủ đề của kênh, với cả khả năng sử dụng biểu cảm động nữa
   mod-kick:
-    name: kick
+    name: đá
     short_doc: Đá thành viên đã gửi tin nhắn nào đó khỏi server
   mod-purge:
-    name: purge
+    name: xóa_tin_nhắn
     short_doc: Xóa một số tin nhắn được thay thế bởi NQN trong kênh này
   move:
-    name: move
-    short_doc: Move up to 50 of the most recent messages in this channel to another
+    name: chuyển_tin_nhắn
+    short_doc: Di chuyển lên đến 50 tin nhắn gần đây trong kênh này sang kênh khác
     params:
       channel:
-        name: channel
+        name: kênh
         description: |-
-          The target channel to move to
+          Kênh bạn muốn chuyển tin nhắn đến
       messages:
-        name: messages
+        name: tin_nhắn
         description: |-
-          How many messages to move?
+          Số lượng tin nhắn để chuyển đi
   mutuals:
-    name: mutuals
+    name: có_chung
     short_doc: Xem các server mà bạn có chung với tôi
   my_emotes:
-    name: my_emotes
+    name: biểu_cảm_của_tôi
     short_doc: Xem các biểu cảm bạn có thể dùng với NQN
     params:
       page:
-        name: page
+        name: trang
         description: |-
-          Which emojis to show?
+          Mục mà bạn muốn xem?
         choices:
-          current_server: Current Server
-          mutual_servers: Mutual Servers
+          current_server: Server hiện tại
+          mutual_servers: Server chung
           aliases: Tên thay thế
           packs: Gói biểu cảm
   owner:
@@ -358,7 +370,7 @@ command_docs:
     name: của_tôi
     short_doc: Nhận một danh sách các gói biểu cảm bạn đã đăng ký vào
   pack-publish:
-    name: công_bố
+    name: công_khai
     short_doc: Công khai server của bạn dưới dạng một gói biểu cảm
     params:
       name:
@@ -412,137 +424,137 @@ command_docs:
       pack:
         name: gói
         description: |-
-          Which pack to show the emojis of?
+          Gói biểu cảm bạn muốn hiển thị?
   pack-unpublish:
-    name: unpublish
+    name: bỏ_công_khai
     short_doc: Không muốn server này là một gói biểu cảm nữa?
   persona:
-    name: persona
+    name: danh_tính_ảo
     short_doc: Quản lý danh tính ảo của bạn
   persona-avatar_url:
-    name: avatar_url
+    name: url_ảnh_đại_diện
     short_doc: Đặt ảnh hồ sơ cho một danh tính ảo
     params:
       persona:
-        name: persona
+        name: danh_tính_ảo
         description: |-
-          Which persona are you changing the username for?
+          Danh tính ảo mà bạn muốn đổi tên?
       avatar_url:
-        name: avatar_url
+        name: url_ảnh_đại_diện
         description: |-
-          What's the new avatar URL?
+          URL của ảnh đại diện mới?
   persona-delete:
-    name: delete
+    name: xóa
     short_doc: Xóa một danh tính ảo của bạn
     params:
       persona:
-        name: persona
+        name: danh_tính_ảo
         description: |-
-          Which persona are you deleting?
+          Danh tính ảo mà bạn muốn xóa?
   persona-display_name:
-    name: display_name
+    name: tên_hiển_thị
     short_doc: Thay đổi tên của một danh tính ảo
     params:
       persona:
-        name: persona
+        name: danh_tính_ảo
         description: |-
-          Which persona are you changing the username for?
+          Danh tính ảo mà bạn muốn đổi tên?
       display_name:
-        name: display_name
+        name: tên_hiển_thị
         description: |-
-          What's the new username?
+          Tên mới cho danh tính ảo này?
   persona-dm:
-    name: dm
+    name: nhắn_riêng
     short_doc: Nhận một danh sách các danh tính ảo của bạn trong tin nhắn trực tiếp
   persona-export:
-    name: export
+    name: xuất_tệp
     short_doc: Xuất danh sách danh tính ảo của bạn trong một tệp
     help: |
       Xuất danh sách danh tính ảo của bạn trong một tệp, hỗ trợ sử dụng với bot khác
   persona-import:
-    name: import
+    name: nhập_tệp
     short_doc: Nhập tệp danh tính ảo đã được xuất trước đó
     params:
       file:
-        name: file
+        name: tệp
         description: |-
-          A file previously exported with /persona export
+          Một tệp được xuất ra với lệnh /danh_tính_ảo xuất_tệp
     help: |
       Nhập tệp danh tính ảo đã được xuất trước đó.
       Có thể dùng với PluralKit và Tupperbox.
   persona-list:
-    name: list
+    name: danh_sách
     short_doc: Xem danh sách danh tính ảo của bạn
   persona-register:
-    name: register
+    name: tạo_danh_tính_ảo
     short_doc: Tạo một danh tính ảo để dùng sau
     params:
       short_name:
-        name: short_name
+        name: tên_ngắn
         description: |-
-          What's your persona's prefix?
+          Tên ngắn cho danh tính ảo mới?
   persona-rename:
-    name: rename
+    name: đổi_tên
     short_doc: Đổi tên của một trong các danh tính ảo của bạn
     params:
       persona:
-        name: persona
+        name: danh_tính_ảo
         description: |-
-          Which persona are you changing the prefix of?
+          Danh tính ảo mà bạn muốn đổi tên ngắn cho?
       new_name:
-        name: new_name
+        name: tên_mới
         description: |-
-          What will the new prefix be?
+          Tên ngắn mới cho danh tính ảo này?
   premium:
     name: premium
-    short_doc: Premium stuff
+    short_doc: Các tính năng Premium
   premium-check:
-    name: check
+    name: kiểm_tra_premium
     short_doc: Kiểm tra lại thông tin premium của bạn
     help: |
       Kiểm tra lại thông tin premium của bạn, bao gồm các server được hưởng tính năng premium từ bạn.
   premium-help:
-    name: help
-    short_doc: Information about NQN premium
+    name: trợ_giúp
+    short_doc: Thông tin về NQN premium
   ranking:
-    name: ranking
+    name: xếp_hạng
     short_doc: Server bạn đang ở đâu trong bảng xếp hạng của chúng tôi?
   react:
-    name: react
+    name: bày_tỏ_cảm_xúc
     short_doc: Bày tỏ cảm xúc với biểu cảm
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Which emoji to react with?
+          Biểu cảm mà bạn muốn thêm?
       message:
-        name: message
+        name: tin_nhắn
         description: |-
-          Which message to react to?
+          Tin nhắn mà bạn muốn thêm biểu cảm?
     help: |
       Dùng tính năng trả lời của Discord để bày tỏ cảm xúc vào tin nhắn đó.
       Lệnh này cho phép thêm nhiều biểu cảm một lúc, chúng sẽ được thêm theo thứ tự đã cho.
       **Bạn sẽ cần phải bày tỏ cảm xúc vào các biểu cảm được thêm để giữ chúng.**
   server:
     name: server
-    short_doc: Server Configuration
+    short_doc: Cài đặt cho server
   server-alias:
-    name: alias
-    short_doc: Server Aliases
+    name: tên_thay_thế
+    short_doc: Tên thay thế có trong server
   server-alias-delete:
-    name: delete
+    name: xóa_tên_thay_thế
     short_doc: Không thích một biểu cảm? Làm cho nó biến khỏi tầm mắt của bạn.
     params:
       alias:
-        name: alias
+        name: tên_thay_thế
         description: |-
-          Which alias do you want to remove?
+          Bạn muốn xóa tên thay thế nào?
   server-alias-import:
-    name: import
+    name: nhập_tệp
     short_doc: Nhập một danh sách các tên thay thế từ một tệp.
     params:
       file:
-        name: file
+        name: tệp
         description: |-
           Một tệp được xuất ra với lệnh /tên_thay_thế xuất_tệp
   server-alias-list:
@@ -554,99 +566,99 @@ command_docs:
         description: |-
           Trang bạn muốn đến
   server-alias-post:
-    name: post
+    name: đăng_lên
     short_doc: Hiển thị danh sách các tên thay thế của server
     params:
       channel:
-        name: channel
+        name: kênh
         description: |-
-          Which channel do you want to post the server-wide emoji list to?
+          Kênh mà bạn muốn đăng danh sách biểu cảm dùng trong server?
   server-alias-rename:
-    name: rename
+    name: đổi_tên
     short_doc: Đổi tên một tên thay thế của server
     params:
       old_name:
-        name: old_name
+        name: tên_cũ
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          Tên của biểu cảm mà bạn muốn đổi sang tên mới?
       new_name:
-        name: new_name
+        name: tên_mới
         description: |-
-          What should it be renamed to?
+          Tên mới mà bạn muốn đổi sang?
   server-alias-search:
-    name: search
+    name: tìm_kiếm
     short_doc: Cho phép thành viên trong server dùng một biểu cảm!
   server-dashboard_posting:
-    name: dashboard_posting
+    name: gửi_từ_bảng_điều_khiển
     short_doc: Bặt, tắt việc gửi tin nhắn với bot từ bảng điều khiển
   server-audit_channel:
-    name: audit_channel
-    short_doc: Post messages the bot reposts
+    name: kênh_nhật_kí
+    short_doc: Lưu vết lại các tin nhắn được bot thay thế
     params:
       channel:
-        name: channel
+        name: kênh
         description: |-
-          Which channel should NQN post to? (None -> No channel)
+          Kênh mà bạn muốn NQN gửi nhật kí vào? (Không = Không kênh nào)
   server-language:
-    name: language
+    name: ngôn_ngữ
     short_doc: Thay đổi ngôn ngữ của bot %{locale_flag_emojis}
   server-link:
     name: link
     short_doc: Tạo một biểu cảm tĩnh, để khi dùng thì bot sẽ thay thế với bản động của nó!
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
-          Which emoji to create a static version of?
+          Biểu cảm bạn muốn tạo phiên bản tĩnh?
   server-masked_links:
-    name: masked_links
+    name: link_đã_che
     short_doc: Bật, tắt dùng link đã che cho server này
   server-nitro:
     name: nitro
     short_doc: Bật, tắt dùng tính năng nitro miễn phí cho server này
   server-pack:
-    name: pack
-    short_doc: Server Packs
+    name: gói_biểu_cảm
+    short_doc: Gói biểu cảm của server
   server-pack-join:
-    name: join
+    name: tham_gia
     short_doc: Đăng ký vào một gói biểu cảm liên server
     params:
       pack:
-        name: pack
+        name: gói
         description: |-
-          Which pack do you want to allow everyone in this server to use?
+          Gói biểu cảm mà bạn muốn cho thành viên trong server này dùng?
   server-pack-leave:
-    name: leave
+    name: rời
     short_doc: Hủy đăng ký khỏi một gói biểu cảm liên server
     params:
       pack:
-        name: pack
+        name: gói
         description: |-
-          Which pack do you want to remove access to from everyone?
+          Gói biểu cảm mà bạn muốn bỏ khả năng dùng khỏi thành viên trong server?
   server-pack-list:
-    name: list
+    name: danh_sách
     short_doc: Hiển thị danh sách các gói server này có thể dùng
   server-pack-post:
-    name: post
+    name: đăng_lên
     short_doc: Hiển thị danh sách gói biểu cảm của server
   server-pack-search:
-    name: search
+    name: tìm_kiếm
     short_doc: Tìm kiếm một gói biểu cảm để thêm cho server
   server-permissions_debug:
-    name: permissions_debug
+    name: gỡ_lỗi_quyền_hạn
     short_doc: Để NQN cho bạn biết những quyền mà nó đang thiếu
   server-personas:
-    name: personas
+    name: danh_tính_ảo
     short_doc: Bật, tắt dùng danh tính ảo
     help: |
       Cho phép người dùng gửi tin nhắn với bất kì tên và ảnh hồ sơ nào
   server-pings:
-    name: pings
+    name: ping
     short_doc: Bật, tắt nhắc tên trong tin nhắn được thay thế cho server này
     help: |
       Bật, tắt nhắc tên trong tin nhắn được thay thế cho server này
   server-phish_detection:
-    name: phish_detection
+    name: nhận_diện_lừa_đảo
     short_doc: Bật, tắt nhận diện tin nhắn lừa đảo cho server này
   server-prefix:
     name: prefix
@@ -659,36 +671,36 @@ command_docs:
     signature: |
       @NQN#3454 [prefix=!]
   server-replies:
-    name: replies
+    name: trả_lời
     short_doc: Bật, tắt trả lời tin nhắn cho server này
   server-settings:
-    name: settings
+    name: cài_đặt
     short_doc: Xem cài đặt của bot cho server này
     help: |
       Xem cài đặt của NQN, bao gồm tính năng, cài đặt kênh và thông tin gói biểu cảm.
   server-boost_channel:
-    name: boost_channel
-    short_doc: Post whenever someone votes with the server on top.gg
+    name: kênh_báo_tăng_cường
+    short_doc: Thông báo mỗi khi có người vote cho server trên top.gg
   server-boost_role:
-    name: boost_role
-    short_doc: Give a user this role when they boost this server via NQN
+    name: vai_trò_tăng_cường
+    short_doc: Cho người dùng vai trò này khi họ tăng cường server thông qua NQN
   server-nitro_role:
-    name: nitro_role
-    short_doc: Require users to have a role to use NQN
+    name: vai_trò_nitro
+    short_doc: Giới hạn người dùng phải có vai trò này để dùng NQN
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      Giới hạn người dùng có vai trò này mới có thể dùng tính năng nitro với NQN
   server-stickers:
-    name: stickers
+    name: nhãn_dán
     short_doc: Bật, tắt dùng nhãn dán trong server
   server-user_content:
-    name: user_content
+    name: nội_dung_người_dùng
     short_doc: Bật, tắt dùng tên thay thế và gói biểu cảm ngoài cho server này
   sticker:
-    name: sticker
-    short_doc: Manage your NQN stickers
+    name: nhãn_dán
+    short_doc: Quản lý nhãn dán NQN của bạn
   sticker-create:
-    name: create
-    short_doc: Create a sticker
+    name: tạo
+    short_doc: Tạo nhãn dán
     help: |
       Tạo một nhãn dán từ một tệp
       Tải lên một hình ảnh và dùng lệnh này để biến nó thành một nhãn dán.
@@ -697,50 +709,50 @@ command_docs:
       Kích thước tối đa của nhãn dán là 8Mb, và tên chỉ nên chứa chữ và số.
       Nhãn dán cần có định dạng tệp, và cũng chỉ nên chứa chữ và số.
   sticker-create-from_attachment:
-    name: from_attachment
-    short_doc: Create a sticker
+    name: từ_tệp
+    short_doc: Tạo nhãn dán
     params:
       sticker:
-        name: sticker
+        name: nhãn_dán
         description: |-
-          The image to turn into a sticker
+          Hình ảnh để dùng làm nhãn dán
       name:
-        name: name
+        name: tên
         description: |-
-          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+          Tên cho nhãn dán. Phải là chữ hoặc số với dấu `.` trong đó, giống như `nqn.nqn`
   sticker-create-from_emote:
-    name: from_emote
-    short_doc: Import stickers from emotes
+    name: từ_biểu_cảm
+    short_doc: Tải lên nhãn dán từ biểu cảm
     params:
       emoji:
-        name: emoji
+        name: biểu_cảm
         description: |-
           …
       name:
-        name: name
+        name: tên
         description: |-
-          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+          Tên cho nhãn dán. Phải là chữ hoặc số với dấu `.` trong đó, giống như `nqn.nqn`
   sticker-create-from_search:
-    name: from_search
-    short_doc: Import stickers from emotes
+    name: từ_tìm_kiếm
+    short_doc: Tải lên nhãn dán từ biểu cảm
   sticker-create-from_telegram:
-    name: from_telegram
-    short_doc: Import stickers from telegram
+    name: từ_telegram
+    short_doc: Tải lên nhãn dán từ Telegram
     params:
       telegram_packname:
-        name: telegram_packname
+        name: gói_nhãn_dán_telegram
         description: |-
-          The URL to the Telegram sticker pack
+          URL gói nhãn dán từ Telegram
   sticker-delete:
-    name: delete
+    name: xóa
     short_doc: Xóa một nhãn dán của bạn
     params:
       name:
-        name: name
+        name: nhãn_dán
         description: |-
-          Which sticker to delete
+          Nhãn dán bạn muốn xóa
   sticker-import:
-    name: import
+    name: nhập_tệp
     short_doc: Tải lên nhãn dán từ biểu cảm
     help: |
       Tải lên nhãn dán từ biểu cảm
@@ -750,67 +762,67 @@ command_docs:
        - sticker import blue pat
       Lưu ý rằng tìm kiếm trong hệ thống của NQN không hỗ trợ thêm tên thay thế
   sticker-mine:
-    name: mine
+    name: của_tôi
     short_doc: Tìm nhãn dán của tôi
   sticker-rename:
-    name: rename
+    name: đổi_tên
     short_doc: Đổi tên một nhãn dán mà bạn có
     params:
       old_name:
-        name: old_name
+        name: tên_cũ
         description: |-
-          Which sticker to rename
+          Nhãn dán bạn muốn đổi tên
       new_name:
-        name: new_name
+        name: tên_mới
         description: |-
-          What to rename it to?
+          Tên mới mà bạn muốn đổi sang?
   sticker-search:
-    name: search
+    name: tìm_kiếm
     short_doc: Tìm trong các nhãn dán mà NQN có với một từ khóa tìm kiếm tùy ý
     params:
       search:
-        name: search
+        name: tìm_kiếm
         description: |-
-          Which to search for?
+          Thứ bạn muốn tìm?
   sticker-telegram:
     name: telegram
     short_doc: Tải lên nhãn dán từ Telegram
   support:
-    name: support
+    name: hỗ_trợ
     short_doc: Cần hỗ trợ để dùng tôi?
   tutorial:
-    name: tutorial
+    name: hướng_dẫn
     short_doc: Tìm hiểu cách dùng NQN cho biểu cảm
     params:
       about:
-        name: about
+        name: thông_tin
         description: |-
-          What to learn about?
+          Bạn muốn biết về cái gì?
   whois:
-    name: whois
+    name: người_dùng
     short_doc: Biết được ai đã gửi tin nhắn nào đó
   _search:
     params:
       search:
-        name: search
+        name: tìm_kiếm
         description: |-
-          What are you searching for?
+          Thứ bạn muốn tìm?
       exact:
-        name: exact
+        name: chính_xác
         description: |-
-          Show only emojis with exactly this name
+          Chỉ hiển thị biểu cảm co tên giống hoàn toàn tìm kiếm
       animated:
-        name: animated
+        name: động
         description: |-
-          Show only animated or static emojis?
+          Chỉ hiển thị biểu cảm động hoặc tỉnh
       page:
-        name: page
+        name: trang
         description: |-
-          Start from a page other than 1
+          Bắt đầu từ một trang khác
       order:
-        name: order
+        name: thứ_tự
         description: |-
-          Order results by?
+          Sắp xếp kết quả theo?
         choices:
-          random: random
-          relevance: relevance
+          random: ngẫu_nhiên
+          relevance: liên_quan
