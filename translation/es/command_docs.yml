@@ -1,5 +1,17 @@
 ---
 command_docs:
+  gain_access_to_emojis:
+    name: Obtené acceso a emojis
+  block_emote:
+    name: Bloquea un emoji
+  audit_messages:
+    name: Auditar un mensaje de NQN
+  delete_message:
+    name: Eliminar mensaje
+  edit_message:
+    name: Editar Mensaje
+  find_author:
+    name: Find Author
   alias:
     name: alias
     short_doc: Gestiona los emojis individuales que puedes usar
