@@ -1,5 +1,17 @@
 ---
 command_docs:
+  gain_access_to_emojis:
+    name: Gain access to emojis
+  block_emote:
+    name: Block an emote
+  audit_messages:
+    name: Audit NQN messages
+  delete_message:
+    name: Delete Message
+  edit_message:
+    name: Edit Message
+  find_author:
+    name: Find Author
   alias:
     name: اختصار
     short_doc: مدیریت جداگانه شکلک هایی که می توانید استفاده کنید
