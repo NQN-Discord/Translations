@@ -1,5 +1,17 @@
 ---
 command_docs:
+  gain_access_to_emojis:
+    name: Ottieni accesso alle emoji
+  block_emote:
+    name: Blocca una emote
+  audit_messages:
+    name: Controlla messaggi NQN
+  delete_message:
+    name: Cancella Messaggio
+  edit_message:
+    name: Modifica Messaggio
+  find_author:
+    name: Trova Autore
   alias:
     name: alias
     short_doc: Gestisci le singole emote che puoi usare
@@ -163,7 +175,7 @@ command_docs:
         description: |-
           Quale emoji vuoi sbloccare?
   emote-stats:
-    name: stats
+    name: statistiche
     short_doc: Mostra quanto spesso vengono utilizzate le emote del tuo server
   emote-unblock:
     name: sblocca
