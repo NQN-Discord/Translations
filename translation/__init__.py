@@ -59,7 +59,7 @@ class DpyNQNTranslator(DpyTranslator):
             return
         command: Command
 
-        if isinstance(context.data, (Command, Group)):
+        if isinstance(context.data, (Command, Group, ContextMenu)):
             command = context.data
         elif isinstance(context.data, Parameter):
             parameter = context.data
