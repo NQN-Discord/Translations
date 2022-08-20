@@ -203,32 +203,29 @@ class Translator(metaclass=Singleton):
                 pass
             if guild_locale is None:
                 guild_locale = await self.get_locale(ctx.guild)
-        defaults = {
-            "locale": guild_locale.strip(" "),
-            "locale_flag_emojis": " ".join(self.flag_emojis.values())
-        }
+        defaults = self._get_defaults(guild_locale)
 
         return TranslatorWithContext(defaults, lambda: ctx.command.module, translate_function=self.translate_function)
 
     def with_scope(self, scope: str, locale: str) -> "TranslatorWithContext":
-        return TranslatorWithContext({"locale": locale}, scope=scope, translate_function=self.translate_function)
+        return TranslatorWithContext(self._get_defaults(locale), scope=scope, translate_function=self.translate_function)
 
     def __call__(self, main_scope: str, guild: Union[Guild, str]):
         async def inner():
             if isinstance(guild, str):
-                defaults = {
-                    "locale": guild.strip(" "),
-                    "locale_flag_emojis": " ".join(self.flag_emojis.values())
-                }
+                defaults = self._get_defaults(guild)
             else:
                 locale = await self.get_locale(guild)
-                defaults = {
-                    "locale": locale.strip(" "),
-                    "locale_flag_emojis": " ".join(self.flag_emojis.values())
-                }
+                defaults = self._get_defaults(locale)
 
             return TranslatorWithContext(defaults, main_scope, translate_function=self.translate_function)
         return inner()
+
+    def _get_defaults(self, locale: str):
+        return {
+            "locale": locale.strip(" "),
+            "locale_flag_emojis": " ".join(self.flag_emojis.values())
+        }
 
 
 class TranslatorWithContext:

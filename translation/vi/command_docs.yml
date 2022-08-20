@@ -1,17 +1,17 @@
 ---
 command_docs:
   gain_access_to_emojis:
-    name: Gain access to emojis
+    name: Nhận quyền truy cập biểu cảm
   block_emote:
-    name: Block an emote
+    name: Chặn một biểu cảm
   audit_messages:
-    name: Audit NQN messages
+    name: Lưu vết tin nhắn của NQN
   delete_message:
-    name: Delete Message
+    name: Xóa tin nhắn
   edit_message:
-    name: Edit Message
+    name: Chỉnh sửa tin nhắn
   find_author:
-    name: Find Author
+    name: Tìm người gửi
   alias:
     name: tên_thay_thế
     short_doc: Quản lý các biểu cảm riêng biệt để bạn dùng
