@@ -602,7 +602,7 @@ command_docs:
           In quale canale NQN dovrebbe postare? (None -> Nessun canale)
   server-language:
     name: lingua
-    short_doc: Imposta la lingua dei bot %{locale_flag_emojis}
+    short_doc: Imposta la lingua del bot %{locale_flag_emojis}
   server-link:
     name: collegamento
     short_doc: Crea una emote statica, che quando usata pubblica invece una versione animata dell'emote!
