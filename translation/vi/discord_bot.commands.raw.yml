@@ -135,15 +135,15 @@ discord_bot:
 
           Nếu bạn muốn xem qua các biểu cảm mà bạn có thể dùng qua NQN:
           > `%{prefix}alias search GiCungDuoc` (Không cần dấu hai chấm nếu bạn không nhớ rõ tên)
-        page_4_title: Trả lời
+        page_4_title: Message Link Previews
         page_4_desc: |
-          NQN cho phép bạn trả lời tin nhắn từ rất lâu về trước.
+          NQN allows you to preview messages sent in different channels.
 
-          Chỉ cần sao chép link đến tin nhắn đó (trên di động là nút chia sẻ - sao chép) rồi dán nó vào tin nhắn của bạn, và bot sẽ thay thế tin nhắn của bạn kèm theo tin nhắn được dẫn đến.
+          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
 
-          Nếu bạn không muốn bot thay thế tin nhắn của bạn, chỉ cần bao quanh link đó bằng cặp ngoặc \<\>.
+          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
 
-          Nếu một quản lý trong server muốn vô hiệu hóa tính năng này, họ có thể dùng `%{prefix}server replies off`.
+          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
         page_5_title: URL đã che
         page_5_desc: |
           NQN cho phép người dùng gửi tin nhắn [với URL đã che](%{url}) ngay trong tin nhắn của họ.
@@ -176,16 +176,16 @@ discord_bot:
           > Tên: Tin nhắn
         page_8_title: Quản lý server
         page_8_desc: |
-          NQN cho phép khả năng tùy chỉnh cao đối với các tính năng có sẵn, trong trường hợp chúng không phù hợp cho server của bạn.
-          Bất kì ai có quyền **Quản lý server** đều có thể thay đổi cài đặt của bot cho server.
+          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
+          Anyone with **Manage Server** permissions can change server settings with the bot.
 
-          Sau đây là những thứ mà bạn có thể thay đổi:
+          Here are the features you can toggle:
 
            • Nitro - `%{prefix}server nitro`
-           • Nhãn dán - `%{prefix}server stickers`
-           • Trả lời - `%{prefix}server replies`
-           • Danh tính ảo - `%{prefix}server personas`
-           • Hyperlink - `%{prefix}server masked_links`
+           • Stickers - `%{prefix}server stickers`
+           • Message Link Previews - `%{prefix}server message_link_previews`
+           • Personas - `%{prefix}server personas`
+           • Masked Links - `%{prefix}server masked_links`
         page_8_0_name: Khắc phục một số vấn đề
         page_8_0_desc: |
           Để có thể hoạt động bình thường, NQN sẽ cần các quyền sau trong __mọi kênh__ mà bạn muốn dùng tính năng:
