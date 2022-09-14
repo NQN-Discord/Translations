@@ -69,7 +69,7 @@ discord_bot:
           This allows anyone to set a customisable username and avatar; be warey of impersonation.
 
           NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
-          > ```!server set_audit_channel #channel``` #channel``` #channel``` #channel```
+          > ```!server set_audit_channel #channel``` #channel```
         personas_off: استفاده از پرسونا ها غیرفعال شد
         dashboard_posting_on: ارسال پیام از طریق داشبورد وبسایت بات، فعال شد
         dashboard_posting_off: ارسال پیام از طریق داشبورد وبسایت بات، غیرفعال شد
