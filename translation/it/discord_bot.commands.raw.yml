@@ -135,7 +135,7 @@ discord_bot:
 
           Se vuoi guardare attraverso ogni emote NQN puoi farti usare:
           > `%{prefix}alias search whatever` (Non mettere i due punti se non conosci il nome esatto)
-        page_4_title: Message Link Previews
+        page_4_title: Anteprima Link Messaggi
         page_4_desc: |
           NQN allows you to preview messages sent in different channels.
 
