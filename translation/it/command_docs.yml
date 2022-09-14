@@ -671,8 +671,8 @@ command_docs:
     signature: |
       @NQN#3454 [prefisso=!]
   server-replies:
-    name: risposte
-    short_doc: Abilita o disabilita le risposte ai messaggi in questo server
+    name: message_link_previews
+    short_doc: Enable or disable message link previews in this server
   server-settings:
     name: impostazioni
     short_doc: Visualizza le impostazioni per questo server
@@ -689,11 +689,6 @@ command_docs:
     short_doc: Richiedi agli utenti di avere un ruolo per usare NQN
     help: |
       Imposta un ruolo che gli utenti devono avere per usare NQN per ripubblicare i messaggi che richiedono Nitro
-    params:
-      role:
-        name: role
-        description: |-
-          The role which people need to use NQN's emoji reposting
   server-stickers:
     name: adesivi
     short_doc: Abilita o disabilita l'utilizzo degli adesivi in questo server
