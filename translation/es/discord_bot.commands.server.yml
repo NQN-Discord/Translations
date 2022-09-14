@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Deshabilitado el uso de stickers
         nitro_on: Habilitado el uso gratis de nitro en este servidor!
         nitro_off: Deshabilitado el uso gratis de nitro en este servidor
-        replies_on: Enabled message link previews
-        replies_off: Disabled message link previews
+        replies_on: Se ha habilitado la vista previa de enlaces de mensajes
+        replies_off: Se ha deshabilitado la vista previa de enlaces de mensajes
         masked_links_on: Habilitado el uso de URLs enmascarados
         masked_links_off: Deshabilitado el uso de URLs enmascarados
         pings_on: Habilitado los pings enn mensajes reenviados por NQN
@@ -69,7 +69,7 @@ discord_bot:
           This allows anyone to set a customisable username and avatar; be warey of impersonation.
 
           NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
-          > ```!server set_audit_channel #channel``` #channel``` #channel``` #channel```
+          > ```!server set_audit_channel #channel``` #channel```
         personas_off: Se deshabilito el uso de personajes
         dashboard_posting_on: Se habilita el envío de mensajes dese el panel en sito del bot
         dashboard_posting_off: Se deshabilito el envío de mensajes dese el panel en sito del bot
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Rol de Nitro
         stickers: Stickers
         nitro: Nitro
-        replies: Message Link Previews
+        replies: Vista previa de enlaces de mensajes
         masked_links: URLs enmascarados
         pings: Menciones
         user_content: Contenido de los Usuarios
