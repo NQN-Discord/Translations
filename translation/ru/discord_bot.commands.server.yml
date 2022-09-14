@@ -65,11 +65,11 @@ discord_bot:
           Теперь можно использовать эмодзи добавленные в `%{prefix}server alias search` и паки добавленные в `%{prefix}server pack search`, как и эмодзи с этого сервера.
           Стикеры так же были автоматически отключены
         personas_on: |
-          Enabled usage of personas.
-          This allows anyone to set a customisable username and avatar; be warey of impersonation.
+          Включено использование персон
+          Эта опция разрешает всем использовать настраиваемый ник и аватар; остерегайтесь выдавать себя за другое лицо.
 
-          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
-          > ```!server set_audit_channel #channel``` #channel```
+          Разработчики NQN рекомендуют установить канал аудита при использовании этой функции; если вы еще этого не сделали, его можно включить с помощью
+          > ```!server set_audit_channel #channel``` #channel``` #channel```
         personas_off: Использование персон отключено
         dashboard_posting_on: Включена публикация сообщений с панели управления ботом
         dashboard_posting_off: Отключена публикация сообщений с панели управления ботом
