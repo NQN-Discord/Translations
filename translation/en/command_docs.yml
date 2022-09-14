@@ -672,8 +672,8 @@ command_docs:
     signature: |
       @NQN#3454 [prefix=!]
   server-replies:
-    name: replies
-    short_doc: Enable or disable message replies in this server
+    name: message_link_previews
+    short_doc: Enable or disable message link previews in this server
   server-settings:
     name: settings
     short_doc: View the settings for this server
