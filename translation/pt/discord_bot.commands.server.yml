@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Figurinhas desativadas
         nitro_on: Habilitado o uso de nitro gratuito neste servidor!
         nitro_off: Desativado o uso de nitro gratuito neste servidor
-        replies_on: As Respostas de mensagens foram habilitadas
-        replies_off: As Respostas de mensagens foram desativadas
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
         masked_links_on: Habilitado o uso de URLs camuflados
         masked_links_off: Desativado o uso de URLs camuflados
         pings_on: Pings habilitados em mensagens repostadas
@@ -65,11 +65,11 @@ discord_bot:
           Apenas aliases e pacotes adicionados com `%{prefix}server alias search` e` %{prefix}server pack search` serão usados, bem como emojis deste servidor.
           As figurinhas foram automaticamente desativadas.
         personas_on: |
-          Habilitado o uso de personagens.
-          Isso permite que qualquer pessoa defina um nome de usuário e avatar personalizáveis; tenha cuidado com imitações.
+          Enabled usage of personas.
+          This allows anyone to set a customisable username and avatar; be warey of impersonation.
 
-          A equipe do NQN recomenda definir um canal de auditoria ao usar este recurso; se ainda não fez isso, ele pode ser definido com
-          > ```!server set_audit_channel #canal``` #channel``` #channel```
+          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
+          > ```!server set_audit_channel #channel``` #channel``` #channel``` #channel```
         personas_off: Desabilitado o uso de personagens
         dashboard_posting_on: Foi habilitado o envio de mensagens pelo Dashboard
         dashboard_posting_off: Foi desativado o envio de mensagens pelo Dashboard
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Cargo Nitro
         stickers: Figurinhas
         nitro: Nitro
-        replies: Respostas
+        replies: Message Link Previews
         masked_links: URLs camuflados
         pings: Pings
         user_content: Conteúdo de Usuário
