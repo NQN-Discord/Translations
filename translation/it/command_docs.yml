@@ -689,6 +689,11 @@ command_docs:
     short_doc: Richiedi agli utenti di avere un ruolo per usare NQN
     help: |
       Imposta un ruolo che gli utenti devono avere per usare NQN per ripubblicare i messaggi che richiedono Nitro
+    params:
+      role:
+        name: role
+        description: |-
+          The role which people need to use NQN's emoji reposting
   server-stickers:
     name: adesivi
     short_doc: Abilita o disabilita l'utilizzo degli adesivi in questo server
