@@ -137,13 +137,13 @@ discord_bot:
           > `%{prefix}alias search whatever` (Non mettere i due punti se non conosci il nome esatto)
         page_4_title: Anteprima Link Messaggi
         page_4_desc: |
-          NQN allows you to preview messages sent in different channels.
+          NQN consente di mostrare i messaggi inviati in canali diversi.
 
-          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
+          Basta copiare il link del messaggio tramite Discord (il pulsante Condividi sul cellulare e poi negli appunti) e incollarlo nel messaggio, e pubblicherà anche il messaggio a cui fa riferimento
 
-          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+          Se non vuoi che il bot ripubblichi un link di messaggio, puoi circondarlo con \<\>, e il bot non lo ripubblicherà.
 
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
+          Se un amministratore del server vuole disabilitare questa funzionalità in tutto il server, può usare `%{prefix}server message_link_previews off`.
         page_5_title: URL Mascherati
         page_5_desc: |
           NQN consente agli utenti di inviare [URL Mascherati](%{url}) come parte dei loro messaggi regolari.
