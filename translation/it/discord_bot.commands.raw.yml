@@ -135,15 +135,15 @@ discord_bot:
 
           Se vuoi guardare attraverso ogni emote NQN puoi farti usare:
           > `%{prefix}alias search whatever` (Non mettere i due punti se non conosci il nome esatto)
-        page_4_title: Risposte
+        page_4_title: Message Link Previews
         page_4_desc: |
-          NQN consente di rispondere ai messaggi inviati molto tempo fa.
+          NQN allows you to preview messages sent in different channels.
 
-          Basta copiare il link del messaggio tramite Discord (il pulsante Condividi sul cellulare e poi negli appunti) e incollarlo nel messaggio, e pubblicherà anche il messaggio a cui stai rispondendo.
+          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
 
-          Se non vuoi che il bot ripubblichi un link di messaggio, puoi circondarlo con \<\>, e il bot non lo ripubblicherà.
+          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
 
-          Se un amministratore del server vuole disabilitare questa funzionalità in tutto il server, può usare `%{prefix}server replies off`.
+          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
         page_5_title: URL Mascherati
         page_5_desc: |
           NQN consente agli utenti di inviare [URL Mascherati](%{url}) come parte dei loro messaggi regolari.
@@ -176,16 +176,16 @@ discord_bot:
           > nome: Resto del messaggio
         page_8_title: Amministrazione Server
         page_8_desc: |
-          NQN è altamente personalizzabile in termini di set di funzionalità, nel caso in cui alcuni di essi non siano adatti al tuo server.
-          Chiunque abbia il permess0 **Gestisci Server** può modificare le impostazioni del server con il bot.
+          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
+          Anyone with **Manage Server** permissions can change server settings with the bot.
 
-          Ecco le caratteristiche che puoi attivare:
+          Here are the features you can toggle:
 
            • Nitro - `%{prefix}server nitro`
-           • Adesivi - `%{prefix}server stickers`
-           • Risposte - `%{prefix}server replies`
-           • Personaggi - `%{prefix}server personas`
-           • Link Mascherati - `%{prefix}server masked_links`
+           • Stickers - `%{prefix}server stickers`
+           • Message Link Previews - `%{prefix}server message_link_previews`
+           • Personas - `%{prefix}server personas`
+           • Masked Links - `%{prefix}server masked_links`
         page_8_0_name: Risoluzione Problemi
         page_8_0_desc: |
           Per funzionare correttamente, NQN ha bisogno dei seguenti permessi nel canale __every__ in cui si desidera utilizzare Nitro in:
