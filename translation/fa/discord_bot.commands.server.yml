@@ -65,11 +65,11 @@ discord_bot:
           حال فقط بسته ها و اختصار هایی که با ‎`%{prefix}server alias search` و ‎`%{prefix}server pack search` به سرور اضافه شده‌اند، به علاوه ایموجی های خود همین سرور قابل استفاده خواهند بود.
           استیکر ها نیز به طور خودکار غیرفعال شدند.
         personas_on: |
-          Enabled usage of personas.
-          This allows anyone to set a customisable username and avatar; be warey of impersonation.
+          استفاده از پرسونا ها فعال شد.
+          این به همه این اجازه را می دهد که از نام‌کاربری و آواتار های قابل شخصی سازی استفاده کنند، حواستان فقط باشد که با این گول افراد را نخورید.
 
-          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
-          > ```!server set_audit_channel #channel``` #channel```
+          تیم بات NQN این پیشنهاد را می دهد که کانال سوابق را برای استفاده از این ویژگی نیز فعال کنید. اگر هنوز کانالی برای سوابق این موارد تنظیم نکرده‌اید، با دستور زیر می توانید آن را فعال کنید
+          > ```!server set_audit_channel #channel``` #channel``` #channel```
         personas_off: استفاده از پرسونا ها غیرفعال شد
         dashboard_posting_on: ارسال پیام از طریق داشبورد وبسایت بات، فعال شد
         dashboard_posting_off: ارسال پیام از طریق داشبورد وبسایت بات، غیرفعال شد
