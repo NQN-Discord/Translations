@@ -140,15 +140,15 @@ discord_bot:
 
           If you want to look through every emote NQN can let you use:
           > `%{prefix}alias search whatever` (No colons if you don't know the exact name)
-        page_4_title: Replies
+        page_4_title: Message Link Previews
         page_4_desc: |
-          NQN allows you to reply to messages sent long ago.
+          NQN allows you to preview messages sent in different channels.
 
-          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're replying to as well.
+          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
 
           If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
 
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server replies off`.
+          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
         page_5_title: Masked URLs
         page_5_desc: |
           NQN allows users to send [Masked URLs](%{url}) as part of their regular messages.
@@ -188,7 +188,7 @@ discord_bot:
 
            • Nitro - `%{prefix}server nitro`
            • Stickers - `%{prefix}server stickers`
-           • Replies - `%{prefix}server replies`
+           • Message Link Previews - `%{prefix}server message_link_previews`
            • Personas - `%{prefix}server personas`
            • Masked Links - `%{prefix}server masked_links`
         page_8_0_name: Troubleshooting Issues
