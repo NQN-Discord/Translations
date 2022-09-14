@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Deaktiviere Sticker
         nitro_on: Aktiviere kostenlose Nitro-Nutzung in diesem Server!
         nitro_off: Deaktiviere kostenlose Nitro-Nutzung in diesem Server
-        replies_on: Aktiviere Antworten auf Nachrichten
-        replies_off: Deaktiviere Antworten auf Nachrichten
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
         masked_links_on: Aktiviere Nutzung verborgener URLs
         masked_links_off: Deaktiviere Nutzung verborgener URLs
         pings_on: Aktiviere Pings in reposteten Nachrichten
@@ -65,11 +65,11 @@ discord_bot:
           Nur Aliase und Pax, die mit `%{prefix}server alias search` und `%{prefix}server pack search` hinzugefügt wurden, werden nutzbar sein sowie Emojis von diesem Server.
           Sticker wurden auch automatisch deaktiviert.
         personas_on: |
-          Aktivierte Nutzung von Identitäten.
-          Dies erlaubt jedem die Einrichtung eines anpassbaren Nutzernamens und Avatars, sei auf der Hut vor Imitation und Betrug.
+          Enabled usage of personas.
+          This allows anyone to set a customisable username and avatar; be warey of impersonation.
 
-          NQN- Mitarbeitende empfehlen die Nutzung eines Audit-Kanals, wenn dieses Feature genutzt wird; falls du das noch nicht tust, kannst du es aktivieren mit
-          > ```!server set_audit_channel #channel``` #channel``` #channel```
+          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
+          > ```!server set_audit_channel #channel``` #channel``` #channel``` #channel```
         personas_off: Deaktivierte Nutzung von Identitäten
         dashboard_posting_on: Aktiviertes posten von Nachrichten von dem Bot-Dashboard
         dashboard_posting_off: Deaktiviertes Posten von Nachrichten von dem Bot-Dashboard
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Nitro-Rolle
         stickers: Sticker
         nitro: Nitro
-        replies: Antworten
+        replies: Message Link Previews
         masked_links: Verborgene URLs
         pings: Pings
         user_content: Nutzerinalt
