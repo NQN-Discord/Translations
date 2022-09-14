@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: استفاده استیکر ها غیرفعال شدند
         nitro_on: استفاده از رایگان از شکلک های نیترو در این سرور فعال شد!
         nitro_off: استفاده از رایگان از شکلک های نیترو در این سرور غیرفعال شد
-        replies_on: رپلای کردن با لینک پیام ها فعال شد
-        replies_off: رپلای کردن با لینک پیام ها غیرفعال شد
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
         masked_links_on: اعمال آدرس URL لینک روی متون فعال شد
         masked_links_off: اعمال آدرس URL لینک روی متون غیرفعال شد
         pings_on: قابلیت پینگ کردن در پیام های تبدیل شده با موفقیت فعال شد
@@ -65,11 +65,11 @@ discord_bot:
           حال فقط بسته ها و اختصار هایی که با ‎`%{prefix}server alias search` و ‎`%{prefix}server pack search` به سرور اضافه شده‌اند، به علاوه ایموجی های خود همین سرور قابل استفاده خواهند بود.
           استیکر ها نیز به طور خودکار غیرفعال شدند.
         personas_on: |
-          استفاده از پرسونا ها فعال شد.
-          این به همه این اجازه را می دهد که از نام‌کاربری و آواتار های قابل شخصی سازی استفاده کنند، حواستان فقط باشد که با این گول افراد را نخورید.
+          Enabled usage of personas.
+          This allows anyone to set a customisable username and avatar; be warey of impersonation.
 
-          تیم بات NQN این پیشنهاد را می دهد که کانال سوابق را برای استفاده از این ویژگی نیز فعال کنید. اگر هنوز کانالی برای سوابق این موارد تنظیم نکرده‌اید، با دستور زیر می توانید آن را فعال کنید
-          > ```!server set_audit_channel #channel``` #channel``` #channel```
+          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
+          > ```!server set_audit_channel #channel``` #channel``` #channel``` #channel```
         personas_off: استفاده از پرسونا ها غیرفعال شد
         dashboard_posting_on: ارسال پیام از طریق داشبورد وبسایت بات، فعال شد
         dashboard_posting_off: ارسال پیام از طریق داشبورد وبسایت بات، غیرفعال شد
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: نقش نیترو
         stickers: استیکر ها
         nitro: نیترو
-        replies: پاسخ ها
+        replies: Message Link Previews
         masked_links: متن های لینک دار
         pings: پینگ‌ها
         user_content: محتوای کاربر
