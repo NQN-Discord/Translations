@@ -64,10 +64,10 @@ discord_bot:
 
           स्टीकर स्वचालित रूप से अक्षम कर दिए गए हैं।
         personas_on: |
-          Enabled usage of personas.
-          This allows anyone to set a customisable username and avatar; be warey of impersonation.
+          पहचानों का उपयोग सक्षम किया।
+          यह किसी को भी कस्टम उपयोगकर्ता नाम और अवतार सेट करने की अनुमति देता है; प्रतिरूपण से सावधान रहें।
 
-          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
+          NQN का स्टाफ इस फीचर को उपयोग करते समय ऑडिट चैनल को सक्षम करने की अनुशंसा करता है; अगर यह आपने यह सक्षम नही किया है तो, आप इसे से सक्षम कर सकते हैं
           > ```!server set_audit_channel #channel``` #channel```
         personas_off: पहचानों का उपयोग अक्षम कर दिया गया है
         dashboard_posting_on: बॉट डैशबोर्ड के माध्यम से सन्देश भेजना सक्षम किया गया
