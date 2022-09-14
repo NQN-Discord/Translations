@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Стикеры выключены
         nitro_on: Использование нитро включено!
         nitro_off: Использование нитро было отключено
-        replies_on: Цитирование сообщений включены
-        replies_off: Цитирования сообщений были выключены
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
         masked_links_on: Скрытые ссылки включены
         masked_links_off: Скрытые ссылки были выключены
         pings_on: Пинги в репостированных сообщениях были включены
@@ -65,11 +65,11 @@ discord_bot:
           Теперь можно использовать эмодзи добавленные в `%{prefix}server alias search` и паки добавленные в `%{prefix}server pack search`, как и эмодзи с этого сервера.
           Стикеры так же были автоматически отключены
         personas_on: |
-          Включено использование персон
-          Эта опция разрешает всем использовать настраиваемый ник и аватар; остерегайтесь выдавать себя за другое лицо.
+          Enabled usage of personas.
+          This allows anyone to set a customisable username and avatar; be warey of impersonation.
 
-          Разработчики NQN рекомендуют установить канал аудита при использовании этой функции; если вы еще этого не сделали, его можно включить с помощью
-          > ```!server set_audit_channel #channel``` #channel``` #channel```
+          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
+          > ```!server set_audit_channel #channel``` #channel``` #channel``` #channel```
         personas_off: Использование персон отключено
         dashboard_posting_on: Включена публикация сообщений с панели управления ботом
         dashboard_posting_off: Отключена публикация сообщений с панели управления ботом
@@ -125,7 +125,7 @@ discord_bot:
         nitro_role: Роль нитро
         stickers: Стикеры
         nitro: Нитро
-        replies: Цитирование
+        replies: Message Link Previews
         masked_links: Скрытие ссылок
         pings: Упоминания
         user_content: Пользовательский контент
