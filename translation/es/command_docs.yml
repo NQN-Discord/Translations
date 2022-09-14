@@ -673,7 +673,7 @@ command_docs:
     signature: |
       @NQN#3454 [prefijo=!]
   server-message_link_previews:
-    name: message_link_previews
+    name: vista_previa_enlaces_mensajes
     short_doc: Enable or disable message link previews in this server
   server-settings:
     name: configuración
