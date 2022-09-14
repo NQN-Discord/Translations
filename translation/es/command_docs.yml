@@ -674,7 +674,7 @@ command_docs:
       @NQN#3454 [prefijo=!]
   server-message_link_previews:
     name: vista_previa_enlaces_mensajes
-    short_doc: Enable or disable message link previews in this server
+    short_doc: Habilita o deshabilita la vista previa de enlaces de mensajes en este servidor
   server-settings:
     name: configuración
     short_doc: Observa la configuracion para este servidor
@@ -693,9 +693,9 @@ command_docs:
       Selecciona un rol que los usuarios necesitan para utilizar la funcionalidad de nitro de NQN
     params:
       role:
-        name: role
+        name: rol
         description: |-
-          The role which people need to use NQN's emoji reposting
+          El rol del cual se necesita para utilizar el re-envió de mensajes con NQN
   server-stickers:
     name: stickers
     short_doc: Habilita o deshabilita el uso de stickers en este servidor
