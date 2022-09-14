@@ -136,15 +136,15 @@ discord_bot:
 
           در غیر این صورت اگر دنبال یکی از شکلک هایی که NQN ارائه می دهد می گردید:
           > `%{prefix}alias search whatever` (هیچ دو نقطه‌ای نگذارید اگر اسم دقیق را نمی دانید)
-        page_4_title: پاسخ ها (رپلای کردن)
+        page_4_title: Message Link Previews
         page_4_desc: |
-          بات NQN به شما این اجازه را می دهد که پیام هایی را که خیلی وقت پیش فرستاده شده‌اند را رپلای کنید.
+          NQN allows you to preview messages sent in different channels.
 
-          فقط کافیست لینک پیام را از طریق دیسکورد کپی کنید (همان دکمه اشتراک گذاری در موبایل و بعد کپی کردن آن در کلیپبورد)، و بعد در پیام خود آن را وارد کنید. سپس به صورت خودکار پیام شما به عنوان یک رپلای نیز ارسال خواهد شد.
+          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
 
-          اگر نمی خواهید که بات لینک پیام ها را تبدیل به رپلای کند، شما می توانید دو طرف آن <\>\ را بگذارید، بدین ترتیب بات آن پیام را تبدیل نخواهد کرد.
+          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
 
-          اگر ادمین سرور هستید و می خواهید این ویژگی را در سرور غیرفعال کنید، فقط کافیست از دستور ‎`%{prefix}server replies off` استفاده کنید.
+          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
         page_5_title: متن های لینک دار
         page_5_desc: |
           بات NQN به کاربران این اجازه را می دهد تا از [متن های لینک دار](%{url}) به عنوان قسمتی از پیام های عادی که میفرستند، استفاده کنند.
@@ -178,16 +178,16 @@ discord_bot:
           > name: هرچه دل تنگت میخواهد بفرست
         page_8_title: مدیریت سرور
         page_8_desc: |
-          بات NQN به شدت قابل شخصی سازی است، از این لحاظ دسته ویژگی های زیادی دارد که در بعضی موارد حتی ممکن است مربوط به سرور شما نشوند.
-          هرکسی با دسترسی **Manage Server** می تواند تنظیمات بات را در سرور تغییر دهد.
+          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
+          Anyone with **Manage Server** permissions can change server settings with the bot.
 
-          این ها به طور کلی، ویژگی هایی هستند که شما می توانید آنها را فعال یا غیرفعال کنید:
+          Here are the features you can toggle:
 
-           • نیترو - ‎`%{prefix}server nitro`
-           • استیکر ها - ‎`%{prefix}server stickers`
-           • پرپلای ها - ‎`%{prefix}server replies`
-           • پرسونا ها - ‎`%{prefix}server personas`
-           • متن لینک دار - ‎`%{prefix}server masked_links`
+           • Nitro - `%{prefix}server nitro`
+           • Stickers - `%{prefix}server stickers`
+           • Message Link Previews - `%{prefix}server message_link_previews`
+           • Personas - `%{prefix}server personas`
+           • Masked Links - `%{prefix}server masked_links`
         page_8_0_name: ایرادیابی مشکلات
         page_8_0_desc: |
           برای اینکه بات به درستی عمل کند، NQN نیازمند به داشتن دسترسی های زیر در __همه__ کانال های شماست تا ویژگی نیترو در آنها مورد استفاده قرار بگیرد:
