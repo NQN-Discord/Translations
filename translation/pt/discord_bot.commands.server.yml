@@ -65,11 +65,11 @@ discord_bot:
           Apenas aliases e pacotes adicionados com `%{prefix}server alias search` e` %{prefix}server pack search` serão usados, bem como emojis deste servidor.
           As figurinhas foram automaticamente desativadas.
         personas_on: |
-          Enabled usage of personas.
-          This allows anyone to set a customisable username and avatar; be warey of impersonation.
+          Habilitado o uso de personagens.
+          Isso permite que qualquer pessoa defina um nome de usuário e avatar personalizáveis; tenha cuidado com imitações.
 
-          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
-          > ```!server set_audit_channel #channel``` #channel```
+          A equipe do NQN recomenda definir um canal de auditoria ao usar este recurso; se ainda não fez isso, ele pode ser definido com
+          > ```!server set_audit_channel #canal``` #channel``` #channel```
         personas_off: Desabilitado o uso de personagens
         dashboard_posting_on: Foi habilitado o envio de mensagens pelo Dashboard
         dashboard_posting_off: Foi desativado o envio de mensagens pelo Dashboard
