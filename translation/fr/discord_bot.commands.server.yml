@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Les autocollants on été désactivés
         nitro_on: L'utilisation du Nitro gratuit a été activé dans ce serveur !
         nitro_off: L'utilisation du Nitro gratuit a été désactivé dans ce serveur
-        replies_on: Les réponses aux messages ont été activées
-        replies_off: Les réponses aux messages ont été désactivées
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
         masked_links_on: L'utilisation des URL masquées a été activés
         masked_links_off: L'utilisation des URL masquées a été activés
         pings_on: Les pings dans les reposts de messages ont été activés
@@ -65,11 +65,11 @@ discord_bot:
           Seuls les alias et les packs ajoutés avec `%{prefix}server alias search` et `%{prefix}server pack search` seront utilisable, en plus des emojis de ce serveur.
           Les autocollants ont été automatiquement désactivés.
         personas_on: |
-          L'utilisation des personnages a été désactivés.
-          Permet à n'importe qui de définir un nom d'utilisateur et un avatar personnalisé; méfiez-vous de l'usurpation d'identité.
+          Enabled usage of personas.
+          This allows anyone to set a customisable username and avatar; be warey of impersonation.
 
-          Le staff de NQN recommande de définir un canal d'audit lors que cous utilisez cette fonctionnalité; si vous ne l'avez toujours pas fait, vous pouvez l'activer avec
-          > ```!server set_audit_channel #channel``` #channel``` #channel```
+          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
+          > ```!server set_audit_channel #channel``` #channel``` #channel``` #channel```
         personas_off: L'utilisation des personnages a été désactivés
         dashboard_posting_on: L'envoi de message à partir du tableau de bord du bot a été activé
         dashboard_posting_off: L'envoi de message à partir du tableau de bord du bot a été désactivé
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Rôle Nitro
         stickers: Autocollants
         nitro: Nitro
-        replies: Réponses
+        replies: Message Link Previews
         masked_links: URLs masquées
         pings: Pings
         user_content: Contenu des l'utilisateurs
