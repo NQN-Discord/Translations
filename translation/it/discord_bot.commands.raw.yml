@@ -176,16 +176,16 @@ discord_bot:
           > nome: Resto del messaggio
         page_8_title: Amministrazione Server
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          NQN è altamente personalizzabile in termini di set di funzionalità, nel caso in cui alcuni di essi non siano adatti al tuo server.
+          Chiunque abbia il permess0 **Gestisci Server** può modificare le impostazioni del server con il bot.
 
-          Here are the features you can toggle:
+          Ecco le caratteristiche che puoi attivare:
 
            • Nitro - `%{prefix}server nitro`
-           • Stickers - `%{prefix}server stickers`
-           • Message Link Previews - `%{prefix}server message_link_previews`
-           • Personas - `%{prefix}server personas`
-           • Masked Links - `%{prefix}server masked_links`
+           • Adesivi - `%{prefix}server stickers`
+           • Anteprima Link Messaggi - `%{prefix}server message_link_previews`
+           • Personaggi - `%{prefix}server personas`
+           • Link Mascherati - `%{prefix}server masked_links`
         page_8_0_name: Risoluzione Problemi
         page_8_0_desc: |
           Per funzionare correttamente, NQN ha bisogno dei seguenti permessi nel canale __every__ in cui si desidera utilizzare Nitro in:
