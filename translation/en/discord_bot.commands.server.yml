@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Disabled stickers
         nitro_on: Enabled free nitro usage in this server!
         nitro_off: Disabled free nitro usage in this server
-        replies_on: Enabled message replies
-        replies_off: Disabled message replies
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
         masked_links_on: Enabled masked URL usage
         masked_links_off: Disabled masked URL usage
         pings_on: Enabled pings in reposted messages
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Nitro role
         stickers: Stickers
         nitro: Nitro
-        replies: Replies
+        replies: Message Link Previews
         masked_links: Masked URLs
         pings: Pings
         user_content: User Content
