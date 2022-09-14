@@ -602,7 +602,7 @@ command_docs:
           In quale canale NQN dovrebbe postare? (None -> Nessun canale)
   server-language:
     name: lingua
-    short_doc: Imposta la lingua dei bot %{locale_flag_emojis}
+    short_doc: Imposta la lingua del bot %{locale_flag_emojis}
   server-link:
     name: collegamento
     short_doc: Crea una emote statica, che quando usata pubblica invece una versione animata dell'emote!
@@ -689,6 +689,11 @@ command_docs:
     short_doc: Richiedi agli utenti di avere un ruolo per usare NQN
     help: |
       Imposta un ruolo che gli utenti devono avere per usare NQN per ripubblicare i messaggi che richiedono Nitro
+    params:
+      role:
+        name: role
+        description: |-
+          The role which people need to use NQN's emoji reposting
   server-stickers:
     name: adesivi
     short_doc: Abilita o disabilita l'utilizzo degli adesivi in questo server
