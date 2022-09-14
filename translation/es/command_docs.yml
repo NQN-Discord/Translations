@@ -673,8 +673,8 @@ command_docs:
     signature: |
       @NQN#3454 [prefijo=!]
   server-replies:
-    name: respuestas
-    short_doc: Habilita o deshabilita el uso de respuestas a través de NQN en este servidor
+    name: message_link_previews
+    short_doc: Enable or disable message link previews in this server
   server-settings:
     name: configuración
     short_doc: Observa la configuracion para este servidor
@@ -691,11 +691,6 @@ command_docs:
     short_doc: Require poseer un rol para utilizar NQN
     help: |
       Selecciona un rol que los usuarios necesitan para utilizar la funcionalidad de nitro de NQN
-    params:
-      role:
-        name: role
-        description: |-
-          The role which people need to use NQN's emoji reposting
   server-stickers:
     name: stickers
     short_doc: Habilita o deshabilita el uso de stickers en este servidor
