@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Adesivi disabilitati
         nitro_on: Utilizzo di nitro gratuito abilitato in questo server!
         nitro_off: Utilizzo di nitro gratuito disabilitato in questo server
-        replies_on: Risposte ai messaggi abilitate
-        replies_off: Risposte ai messaggi disabilitate
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
         masked_links_on: Utilizzo URL mascherati abilitato
         masked_links_off: Utilizzo URL mascherati disabilitato
         pings_on: Ping abilitati nei messaggi ripubblicati
@@ -65,11 +65,11 @@ discord_bot:
           Saranno utilizzabili solo gli alias e i pacchetti aggiunti con la ricerca `%{prefix}del server alias search` e `%{prefix}del server pack`, così come le emoji da questo server.
           Gli adesivi sono stati disattivati automaticamente.
         personas_on: |
-          Utilizzo abilitato di persone.
-          Questo permette a chiunque di impostare un nome utente e un avatar personalizzabili; ora puoi impersonare chi vuoi
+          Enabled usage of personas.
+          This allows anyone to set a customisable username and avatar; be warey of impersonation.
 
-          Lo staff NQN consiglia di impostare un canale di controllo quando si utilizza questa funzione; se non lo hai già fatto, può essere abilitato con
-          > ```! server set_audit_channel #channel``` #channel``` #channel```
+          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
+          > ```!server set_audit_channel #channel``` #channel``` #channel``` #channel```
         personas_off: Utilizzo dei personaggi disabilitato
         dashboard_posting_on: Pubblicazione dei messaggi attraverso la dashboard del bot abilitata
         dashboard_posting_off: Pubblicazione dei messaggi attraverso la dashboard del bot disabilitata
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Ruolo nitro
         stickers: Adesivi
         nitro: Nitro
-        replies: Risposte
+        replies: Message Link Previews
         masked_links: URL Mascherati
         pings: Ping
         user_content: Contenuto Utente
