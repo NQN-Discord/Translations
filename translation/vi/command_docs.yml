@@ -671,8 +671,8 @@ command_docs:
     signature: |
       @NQN#3454 [prefix=!]
   server-message_link_previews:
-    name: message_link_previews
-    short_doc: Enable or disable message link previews in this server
+    name: xem_tin_nhắn_được_liên_kết
+    short_doc: Bật, tắtxme tin nhắn được liên kết cho server này
   server-settings:
     name: cài_đặt
     short_doc: Xem cài đặt của bot cho server này
@@ -691,9 +691,9 @@ command_docs:
       Giới hạn người dùng có vai trò này mới có thể dùng tính năng nitro với NQN
     params:
       role:
-        name: role
+        name: vai_trò
         description: |-
-          The role which people need to use NQN's emoji reposting
+          Vai trò mà người dùng cần có để dùng biểu cảm với NQN
   server-stickers:
     name: nhãn_dán
     short_doc: Bật, tắt dùng nhãn dán trong server
