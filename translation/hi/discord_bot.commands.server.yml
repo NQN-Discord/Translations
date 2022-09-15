@@ -49,8 +49,8 @@ discord_bot:
         stickers_off: स्टीकर अक्षम किये गए
         nitro_on: 'इस सर्वर में नि: शुल्क नाइट्रो उपयोग को सक्षम किया।'
         nitro_off: 'इस सर्वर में नि: शुल्क नाइट्रो उपयोग को अक्षम किया।'
-        replies_on: सन्देश जवाब को सक्षम किया
-        replies_off: सन्देश जवाब को अक्षम किया
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
         masked_links_on: मास्क्ड URL के उपयोग को सक्षम किया
         masked_links_off: मास्क्ड URL के उपयोग को अक्षम किया
         pings_on: रिपोस्ट हुए संदेशों में पिंग सक्षम किये गए
@@ -68,7 +68,7 @@ discord_bot:
           यह किसी को भी कस्टम उपयोगकर्ता नाम और अवतार सेट करने की अनुमति देता है; प्रतिरूपण से सावधान रहें।
 
           NQN का स्टाफ इस फीचर को उपयोग करते समय ऑडिट चैनल को सक्षम करने की अनुशंसा करता है; अगर यह आपने यह सक्षम नही किया है तो, आप इसे से सक्षम कर सकते हैं
-          > ```!server set_audit_channel #channel``` #channel``` #channel```
+          > ```!server set_audit_channel #channel``` #channel```
         personas_off: पहचानों का उपयोग अक्षम कर दिया गया है
         dashboard_posting_on: बॉट डैशबोर्ड के माध्यम से सन्देश भेजना सक्षम किया गया
         dashboard_posting_off: बॉट डैशबोर्ड के माध्यम से सन्देश भेजना अक्षम किया गया
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: नाइट्रो रोल
         stickers: स्टीकर
         nitro: नाइट्रो
-        replies: जवाब
+        replies: Message Link Previews
         masked_links: छिपे हुए URL
         pings: पिंग
         user_content: उपयोगकर्ता सामग्री

@@ -135,7 +135,7 @@ discord_bot:
 
           Si quieres buscar todos los emojis que puedes utilizar con NQN:
           > `%{prefix}alias search CualquierCosa` (Sin los dos puntos si no conoces el nombre exacto)
-        page_4_title: Respuestas
+        page_4_title: Vista previa de enlaces de mensajes
         page_4_desc: |
           NQN permite responder a mensajes mandados hace mucho tiempo.
 

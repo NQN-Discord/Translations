@@ -135,15 +135,15 @@ discord_bot:
 
           Nếu bạn muốn xem qua các biểu cảm mà bạn có thể dùng qua NQN:
           > `%{prefix}alias search GiCungDuoc` (Không cần dấu hai chấm nếu bạn không nhớ rõ tên)
-        page_4_title: Trả lời
+        page_4_title: Link đến tin nhắn đang trả lời
         page_4_desc: |
-          NQN cho phép bạn trả lời tin nhắn từ rất lâu về trước.
+          NQN cho phép bạn xem qua tin nhắn từ các kênh khác.
 
           Chỉ cần sao chép link đến tin nhắn đó (trên di động là nút chia sẻ - sao chép) rồi dán nó vào tin nhắn của bạn, và bot sẽ thay thế tin nhắn của bạn kèm theo tin nhắn được dẫn đến.
 
           Nếu bạn không muốn bot thay thế tin nhắn của bạn, chỉ cần bao quanh link đó bằng cặp ngoặc \<\>.
 
-          Nếu một quản lý trong server muốn vô hiệu hóa tính năng này, họ có thể dùng `%{prefix}server replies off`.
+          Nếu một quản lý trong server muốn vô hiệu hóa tính năng này, họ có thể dùng `%{prefix}server message_link_previews off`.
         page_5_title: URL đã che
         page_5_desc: |
           NQN cho phép người dùng gửi tin nhắn [với URL đã che](%{url}) ngay trong tin nhắn của họ.
@@ -183,7 +183,7 @@ discord_bot:
 
            • Nitro - `%{prefix}server nitro`
            • Nhãn dán - `%{prefix}server stickers`
-           • Trả lời - `%{prefix}server replies`
+           • Xem tin nhắn được liên kết - `%{prefix}server message_link_previews`
            • Danh tính ảo - `%{prefix}server personas`
            • Hyperlink - `%{prefix}server masked_links`
         page_8_0_name: Khắc phục một số vấn đề

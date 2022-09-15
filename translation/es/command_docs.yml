@@ -672,9 +672,9 @@ command_docs:
       >>> %{prefix}server prefix <@%{bot_id}> ?
     signature: |
       @NQN#3454 [prefijo=!]
-  server-replies:
-    name: respuestas
-    short_doc: Habilita o deshabilita el uso de respuestas a través de NQN en este servidor
+  server-message_link_previews:
+    name: vista_previa_enlaces_mensajes
+    short_doc: Habilita o deshabilita la vista previa de enlaces de mensajes en este servidor
   server-settings:
     name: configuración
     short_doc: Observa la configuracion para este servidor
@@ -691,6 +691,11 @@ command_docs:
     short_doc: Require poseer un rol para utilizar NQN
     help: |
       Selecciona un rol que los usuarios necesitan para utilizar la funcionalidad de nitro de NQN
+    params:
+      role:
+        name: rol
+        description: |-
+          El rol del cual se necesita para utilizar el re-envió de mensajes con NQN
   server-stickers:
     name: stickers
     short_doc: Habilita o deshabilita el uso de stickers en este servidor

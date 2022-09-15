@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Deshabilitado el uso de stickers
         nitro_on: Habilitado el uso gratis de nitro en este servidor!
         nitro_off: Deshabilitado el uso gratis de nitro en este servidor
-        replies_on: Habilitado mensajes de respuesta
-        replies_off: Deshabilitado mensajes de respuesta
+        replies_on: Se ha habilitado la vista previa de enlaces de mensajes
+        replies_off: Se ha deshabilitado la vista previa de enlaces de mensajes
         masked_links_on: Habilitado el uso de URLs enmascarados
         masked_links_off: Deshabilitado el uso de URLs enmascarados
         pings_on: Habilitado los pings enn mensajes reenviados por NQN
@@ -127,7 +127,7 @@ discord_bot:
         nitro_role: Rol de Nitro
         stickers: Stickers
         nitro: Nitro
-        replies: Respuestas
+        replies: Vista previa de enlaces de mensajes
         masked_links: URLs enmascarados
         pings: Menciones
         user_content: Contenido de los Usuarios
