@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Adesivi disabilitati
         nitro_on: Utilizzo di nitro gratuito abilitato in questo server!
         nitro_off: Utilizzo di nitro gratuito disabilitato in questo server
-        replies_on: Risposte ai messaggi abilitate
-        replies_off: Risposte ai messaggi disabilitate
+        replies_on: Abilita anteprima link messaggi
+        replies_off: Disabilita anteprima link messaggi
         masked_links_on: Utilizzo URL mascherati abilitato
         masked_links_off: Utilizzo URL mascherati disabilitato
         pings_on: Ping abilitati nei messaggi ripubblicati
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Ruolo nitro
         stickers: Adesivi
         nitro: Nitro
-        replies: Risposte
+        replies: Anteprima Link Messaggi
         masked_links: URL Mascherati
         pings: Ping
         user_content: Contenuto Utente

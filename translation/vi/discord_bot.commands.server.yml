@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Đã vô hiệu nhãn dán
         nitro_on: Đã kích hoạt dùng biểu cảm nitro miễn phí cho server này!
         nitro_off: Đã vô hiệu dùng biểu cảm nitro miễn phí cho server này
-        replies_on: Đã kích hoạt trả lời tin nhắn
-        replies_off: Đã vô hiệu trả lời tin nhắn
+        replies_on: Đã kích hoạt hiện tin nhắn được liên kết
+        replies_off: Đã vô hiệu hiện tin nhắn được liên kết
         masked_links_on: Đã kích hoạt dùng URL đã che
         masked_links_off: Đã vô hiệu dùng URL đã che
         pings_on: Đã kích hoạt nhắc tên trong tin nhắn được thay thế
@@ -69,7 +69,7 @@ discord_bot:
           This allows anyone to set a customisable username and avatar; be warey of impersonation.
 
           NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
-          > ```!server set_audit_channel #channel``` #channel``` #channel```
+          > ```!server set_audit_channel #channel``` #channel```
         personas_off: Đã vô hiệu dùng danh tính ảo
         dashboard_posting_on: Đã kích hoạt gửi tin nhắn qua bot trên bảng điều khiển
         dashboard_posting_off: Đã vô hiệu gửi tin nhắn qua bot trên bảng điều khiển
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Vai trò Nitro
         stickers: Nhãn dán
         nitro: Nitro
-        replies: Trả lời
+        replies: Xem tin nhắn được liên kết
         masked_links: URL đã che
         pings: Nhắc tên
         user_content: Nội dung người dùng

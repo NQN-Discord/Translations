@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Les autocollants on été désactivés
         nitro_on: L'utilisation du Nitro gratuit a été activé dans ce serveur !
         nitro_off: L'utilisation du Nitro gratuit a été désactivé dans ce serveur
-        replies_on: Les réponses aux messages ont été activées
-        replies_off: Les réponses aux messages ont été désactivées
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
         masked_links_on: L'utilisation des URL masquées a été activés
         masked_links_off: L'utilisation des URL masquées a été activés
         pings_on: Les pings dans les reposts de messages ont été activés
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Rôle Nitro
         stickers: Autocollants
         nitro: Nitro
-        replies: Réponses
+        replies: Message Link Previews
         masked_links: URLs masquées
         pings: Pings
         user_content: Contenu des l'utilisateurs

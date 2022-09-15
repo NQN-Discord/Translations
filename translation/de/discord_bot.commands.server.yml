@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Deaktiviere Sticker
         nitro_on: Aktiviere kostenlose Nitro-Nutzung in diesem Server!
         nitro_off: Deaktiviere kostenlose Nitro-Nutzung in diesem Server
-        replies_on: Aktiviere Antworten auf Nachrichten
-        replies_off: Deaktiviere Antworten auf Nachrichten
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
         masked_links_on: Aktiviere Nutzung verborgener URLs
         masked_links_off: Deaktiviere Nutzung verborgener URLs
         pings_on: Aktiviere Pings in reposteten Nachrichten
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Nitro-Rolle
         stickers: Sticker
         nitro: Nitro
-        replies: Antworten
+        replies: Message Link Previews
         masked_links: Verborgene URLs
         pings: Pings
         user_content: Nutzerinalt

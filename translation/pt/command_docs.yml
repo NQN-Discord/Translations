@@ -669,9 +669,9 @@ command_docs:
       Isso mudaria o prefixo para `?`.
     signature: |
       @NQN#3454 [prefix=!]
-  server-replies:
-    name: replies
-    short_doc: Habilite ou desabilite respostas de mensagens nesta guilda
+  server-message_link_previews:
+    name: message_link_previews
+    short_doc: Enable or disable message link previews in this server
   server-settings:
     name: settings
     short_doc: Ver as configurações deste servidor
