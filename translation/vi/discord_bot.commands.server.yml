@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Đã vô hiệu nhãn dán
         nitro_on: Đã kích hoạt dùng biểu cảm nitro miễn phí cho server này!
         nitro_off: Đã vô hiệu dùng biểu cảm nitro miễn phí cho server này
-        replies_on: Enabled message link previews
-        replies_off: Disabled message link previews
+        replies_on: Đã kích hoạt hiện tin nhắn được liên kết
+        replies_off: Đã vô hiệu hiện tin nhắn được liên kết
         masked_links_on: Đã kích hoạt dùng URL đã che
         masked_links_off: Đã vô hiệu dùng URL đã che
         pings_on: Đã kích hoạt nhắc tên trong tin nhắn được thay thế
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Vai trò Nitro
         stickers: Nhãn dán
         nitro: Nitro
-        replies: Message Link Previews
+        replies: Xem tin nhắn được liên kết
         masked_links: URL đã che
         pings: Nhắc tên
         user_content: Nội dung người dùng
