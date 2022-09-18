@@ -38,7 +38,7 @@ discord_bot:
         set: Ora solo gli utenti con il ruolo %{role} possono utilizzare emote Nitro gratuite con NQN
       audit_channel:
         unset: Disattivato il canale di controllo per questo server
-        set: Imposta il canale di controllo per questo server su %{channel}
+        set: Impostato il canale di controllo per questo server su %{channel}
         no_webhooks: "Non posso pubblicare messaggi webhook su %{channel}.\nPer favore dammi 'Gestisci Webhook' lì!"
       boost_channel:
         unset: Disattivato il canale di boost per questo server
