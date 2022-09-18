@@ -55,3 +55,4 @@ exceptions:
         Les permissions du canal refusent %{user_ping} ainsi que le rôle: %{roles}
       many: |-
         Les permissions du canal refusent %{user_ping} ainsi que les rôles: %{roles}
+  no_threads: This command cannot be used in threads.

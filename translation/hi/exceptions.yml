@@ -55,3 +55,4 @@ exceptions:
         चैनल अनुमतियाँ स्पष्ट रूप से %{user_ping} और इस रोल को अस्वीकारती हैं: %{roles}
       many: |-
         चैनल अनुमतियाँ स्पष्ट रूप से %{user_ping} और इस रोल को अस्वीकारती हैं: %{roles}
+  no_threads: This command cannot be used in threads.

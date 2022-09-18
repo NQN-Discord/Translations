@@ -55,3 +55,4 @@ exceptions:
         Kanalberechtigungen für %{user_ping} explizit sowie die Rolle: %{roles} verweigert
       many: |-
         Kanalberechtigungen für %{user_ping} explizit sowie für die Rollen: %{roles} verweigert
+  no_threads: This command cannot be used in threads.
