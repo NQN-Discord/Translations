@@ -30,6 +30,8 @@ discord_bot:
         user_no_perms: आपके पास %{channel} में 'सन्देश भेजें' और 'सन्देश प्रबंधन' अनुमतियाँ नहीं हैं।
         me_no_perms: मुझे %{channel} में 'सन्देश पढ़ें', 'वेबहुक प्रबंधन' और 'बाह्य इमोजी' अनुमति की आवश्यकता है।
         message_limit: स्थानांतरित किये जाने वाले संदेशों की संख्या 1 से %{count} के बीच होनी चाहिए
+        forum_modal_title: Create a new post
+        forum_post_name: 'Post name:'
         moved_to:
           one: '%{count} सन्देश को %{to_channel} में ले जाय गया'
           many: '%{count} संदेशों को %{to_channel} में ले जाय गया'
@@ -51,3 +53,6 @@ discord_bot:
         move:
           one: सन्देश स्थानांतरित करें!
           many: '%{count} सन्देश स्थानांतरित करें!'
+        move_all:
+          one: Move message!
+          many: Move all %{count} messages!
