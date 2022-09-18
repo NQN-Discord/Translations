@@ -30,6 +30,8 @@ discord_bot:
         user_no_perms: Bạn không có quyền 'Gửi tin nhắn' và 'Quản lý tin nhắn' trong %{channel}.
         me_no_perms: Tôi cần quyền 'Đọc tin nhắn', 'Quản lý webhook' và 'Dùng biểu cảm mở rộng' trong %{channel}.
         message_limit: Số lượng tin nhắn để chuyển đi phải từ 1 đến %{count}
+        forum_modal_title: Create a new post
+        forum_post_name: 'Post name:'
         moved_to:
           one: Đã chuyển %{count} tin nhắn đến %{to_channel}
           many: Đã chuyển %{count} tin nhắn đến %{to_channel}
@@ -51,3 +53,6 @@ discord_bot:
         move:
           one: Chuyển tin nhắn!
           many: Chuyển %{count} tin nhắn!
+        move_all:
+          one: Move message!
+          many: Move all %{count} messages!
