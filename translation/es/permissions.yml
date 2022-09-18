@@ -36,6 +36,10 @@ permissions:
     Gestionar Roles
   manage_roles: |-
     Gestionar Roles
+  manage_threads: |-
+    Manage Threads
+  manage_posts: |-
+    Manage Posts
   manage_webhooks: |-
     Gestionar Webhooks
   mention_everyone: |-
