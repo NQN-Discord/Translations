@@ -55,3 +55,4 @@ exceptions:
         Quyền đã bị chặn rõ ràng trong kênh cho %{user_ping} cũng như vai trò: %{roles}
       many: |-
         Quyền đã bị chặn rõ ràng trong kênh cho %{user_ping} cũng như các vai trò: %{roles}
+  no_threads: This command cannot be used in threads.

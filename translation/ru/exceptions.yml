@@ -55,3 +55,4 @@ exceptions:
         Channel permissions explicitly deny %{user_ping} as well as role: %{roles}
       many: |-
         Channel permissions explicitly deny %{user_ping} as well as roles: %{roles}
+  no_threads: This command cannot be used in threads.

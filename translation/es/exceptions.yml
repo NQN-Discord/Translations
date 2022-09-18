@@ -55,3 +55,4 @@ exceptions:
         Los permisos del canal niegan a %{user_ping} y tambien al rol: %{roles}
       many: |-
         Los permisos del canal niegan a %{user_ping} y tambien a los roles: %{roles}
+  no_threads: Este comando no puede ser usado en Hilos.

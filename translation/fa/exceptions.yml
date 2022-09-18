@@ -55,3 +55,4 @@ exceptions:
         دسترسی های کانال به طور خاص %{user_ping} را همراه با این رول منع می کند: %{roles}
       many: |-
         دسترسی های کانال به طور خاص %{user_ping} را همراه با این رول ها منع می کند: %{roles}
+  no_threads: This command cannot be used in threads.
