@@ -36,6 +36,10 @@ permissions:
     Gestisci Ruoli
   manage_roles: |-
     Gestisci Ruoli
+  manage_threads: |-
+    Gestisci Thread
+  manage_posts: |-
+    Gestisci Post
   manage_webhooks: |-
     Gestisci Webhook
   mention_everyone: |-

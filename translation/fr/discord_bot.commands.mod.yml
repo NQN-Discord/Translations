@@ -30,6 +30,8 @@ discord_bot:
         user_no_perms: Vous n'avez pas les permissions d'«Envoyer des messages» ni de «Gérer les messages» dans %{channel}.
         me_no_perms: I need to have 'Read Messages', 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
         message_limit: Number of messages to move must be between 1 and %{count}
+        forum_modal_title: Create a new post
+        forum_post_name: 'Post name:'
         moved_to:
           one: '%{count} message a été déplacé vers %{to_channel}'
           many: '%{count} messages ont été déplacés vers %{to_channel}'
@@ -51,3 +53,6 @@ discord_bot:
         move:
           one: Move message!
           many: Move %{count} messages!
+        move_all:
+          one: Move message!
+          many: Move all %{count} messages!
