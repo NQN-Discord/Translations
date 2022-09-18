@@ -130,12 +130,15 @@ discord_bot:
           > `%{prefix}alias search :ИмяЭмодзи:`
           Если вы хотите просмотреть все эмодзи, NQN может позволить вам использовать:
           > `%{prefix}alias search ИмяЭмодзи` (Без двоеточий, если вы не знаете точное имя)
-        page_4_title: Цитирование сообщения
+        page_4_title: Message Link Previews
         page_4_desc: |
-          NQN позволяет отвечать на давно отправленные сообщения.
-          Просто скопируйте ссылку на сообщение через Discord (кнопка «Поделиться» на мобильном устройстве, а затем в буфер обмена), а затем вставьте ее в свое сообщение, и я опубликую сообщение, на которое вы отвечаете.
-          Если вы не хотите, чтобы бот цитировал ссылку на сообщение, вы можете написать её в \<\>, и он её не опубликует.
-          Если администратор сервера хочет отключить эту функцию на всём сервере, он может написать `%{prefix}server replies off`.
+          NQN allows you to preview messages sent in different channels.
+
+          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
+
+          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+
+          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
         page_5_title: Скрытые ссылки
         page_5_desc: |
           NQN позволяет отправлять [Скрытые ссылки](%{url}), как часть обычного сообщения.
@@ -160,15 +163,16 @@ discord_bot:
           > name: Rest of message
         page_8_title: Администрирование сервера
         page_8_desc: |
-          NQN обладает широкими возможностями настройки с точки зрения наборов функций на случай, если некоторые из них не подходят для вашего сервера.
-          Если у бота есть право **Управление сервером**, вы можете изменять настройки сервера с помощью бота.
+          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
+          Anyone with **Manage Server** permissions can change server settings with the bot.
 
-          Вот функции, которые вы можете переключать:
+          Here are the features you can toggle:
 
-           • Нитро - `%{prefix}server nitro`
-           • Стикеры - `%{prefix}server stickers`
-           • Цитирование - `%{prefix}server replies`
-           • Скрытые ссылки - `%{prefix}server masked_links`
+           • Nitro - `%{prefix}server nitro`
+           • Stickers - `%{prefix}server stickers`
+           • Message Link Previews - `%{prefix}server message_link_previews`
+           • Personas - `%{prefix}server personas`
+           • Masked Links - `%{prefix}server masked_links`
         page_8_0_name: Устранение неполадок
         page_8_0_desc: |
           Для корректной работы NQN необходимы следующие разрешения в __каждом__ канале, в котором вы хотите использовать Nitro.:
