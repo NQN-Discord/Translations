@@ -36,6 +36,10 @@ permissions:
     Gerenciar Cargos
   manage_roles: |-
     Gerenciar Cargos
+  manage_threads: |-
+    Manage Threads
+  manage_posts: |-
+    Manage Posts
   manage_webhooks: |-
     Gerenciar Webhooks
   mention_everyone: |-
