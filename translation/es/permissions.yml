@@ -1,7 +1,7 @@
 ---
 permissions:
   add_reactions: |-
-    Añadri Reacciones
+    Añadir Reacciones
   administrator: |-
     Administrador
   attach_files: |-
@@ -36,6 +36,10 @@ permissions:
     Gestionar Roles
   manage_roles: |-
     Gestionar Roles
+  manage_threads: |-
+    Gestionar Hilos
+  manage_posts: |-
+    Gestionar Publicaciones
   manage_webhooks: |-
     Gestionar Webhooks
   mention_everyone: |-
