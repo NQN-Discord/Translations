@@ -55,4 +55,4 @@ discord_bot:
           many: Muovi %{count} messaggi!
         move_all:
           one: Muovi messaggio!
-          many: Move all %{count} messages!
+          many: Muovi tutti %{count} messaggi!
