@@ -7,6 +7,7 @@ discord_bot:
       alphanumeric: उपनाम में केवल अक्षर या अंक और अंडरस्कोर हो सकते हैं
       max_length: उपनाम के नाम अधिक से अधिक 32 वर्ण तक हो सकते हैं
       user_zero: आपके पास कोई उपनाम नही है
+      set_alias: Set alias
       from_message:
         no_emotes: इस सन्देश में कोई भी कस्टम इमोजी नहीं है!
       delete:
