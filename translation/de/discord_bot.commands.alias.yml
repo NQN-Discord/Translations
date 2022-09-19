@@ -7,6 +7,7 @@ discord_bot:
       alphanumeric: Aliase  können nur alphanumerische Zeichen und Unterstriche beinhalten
       max_length: Aliasnamen können höchstens 32 Zeichen lang sein
       user_zero: Du hast keine Aliase
+      set_alias: Set alias
       from_message:
         no_emotes: Diese Nachricht enthält keine spezifischen Emojis!
       delete:
