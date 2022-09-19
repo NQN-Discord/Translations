@@ -5,7 +5,7 @@ discord_bot:
       buttons:
         commands: Lệnh
         tutorial: Hướng dẫn
-        my_emotes: Biểu cảm của tôi
+        my_emotes: Emoji của tôi
       depreciated_commands:
         renamed: |
           Lệnh này đã được đổi thành `%{prefix}%{new}`.
@@ -23,9 +23,9 @@ discord_bot:
       delete:
         deleted: Đã xóa tin nhắn thành công
       export:
-        exported_list_short: "Đây là những biểu cảm đã xuất của bạn:"
+        exported_list_short: "Đây là những emoji đã xuất của bạn:"
         exported_list_long: |
-          Đây là những biểu cảm đã xuất của bạn
+          Đây là những emoji đã xuất của bạn
           Để chia sẻ chúng cho người khác, họ sẽ cần phải dùng:
           > `%{prefix}alias import %{url}`
       ignore_me:
@@ -37,14 +37,14 @@ discord_bot:
         current_guild: Server hiện tại
         mutual_guilds: Server chung
         aliases: Tên thay thế
-        packs: Gói biểu cảm
+        packs: Gói emoji
         no_mutual_guilds: |
-          NQN cho phép bạn dùng bất kì biểu cảm nào từ bất kì server chung nào trong server này.
+          NQN cho phép bạn dùng bất kì emoji nào từ bất kì server chung nào trong server này.
           Hiện tại, bạn không có server chung nào có NQN ngoài server này.
 
-          Nếu muốn, bãn có thể [mời NQN vào server khác](%{bot_invite}) để có thể dùng biểu cảm đó trong này.
+          Nếu muốn, bãn có thể [mời NQN vào server khác](%{bot_invite}) để có thể dùng emoji đó trong này.
       ranking:
-        vote_link: Bạn có thể vote cho bot tại %{url} để có thể thêm nhiều biểu cảm dùng trong server và nâng cấp bậc của server.
+        vote_link: Bạn có thể vote cho bot tại %{url} để có thể thêm nhiều emoji dùng trong server và nâng cấp bậc của server.
         top_server: Chúc mừng vì đã đặt được danh hiệu server hỗ trợ nhiều nhất <a:BluePat:679807864327766048>
         thanks: Cảm ơn vì đã vote cho bot!
         ranking: |
@@ -57,7 +57,7 @@ discord_bot:
 
           %{extra_message}
       emote_stats:
-        top_emotes: "Biểu cảm được dùng nhiều nhất trong server này"
+        top_emotes: "Emoji được dùng nhiều nhất trong server này"
         choose_page: "Chọn một trang"
         never: "Chưa từng được dùng"
         once: "Được dùng một lần"
@@ -76,31 +76,31 @@ discord_bot:
           one: "Khoảng 1 lần mỗi ngày"
           many: "Khoảng %{count} lần mỗi ngày"
         emote_count:
-          zero: "Không có biểu cảm"
-          one: "1 biểu cảm"
-          many: "%{count} biểu cảm"
+          zero: "Không có emoji"
+          one: "1 emoji"
+          many: "%{count} emoji"
         boundary: "Được dùng tầm %{min} - %{max} lần"
       tutorial:
         choose_page: Hướng dẫn tìm kiếm
         invalid_page: Chỉ có %{count} trang trong hướng dẫn!
-        permissions_missing: Tôi cần quyền để tạo embed và thêm biểu cảm để thể hiện hướng dẫn của tôi. Bạn có thể dùng lại `%{prefix}tutorial`.
+        permissions_missing: Tôi cần quyền để tạo embed và thêm emoji để thể hiện hướng dẫn của tôi. Bạn có thể dùng lại `%{prefix}tutorial`.
         wrong_place: Nếu tôi gửi tin nhắn này ở chỗ không hợp lí thì bạn có thể dùng %{prefix}tutorial ở một kênh thuận tiện hơn để xem hết hướng dẫn ở đấy. Hướng dẫn này có nhiều trang; dùng %{prefix}tutorial để hiện lại hướng dẫn nếu chúng biến mất.
-        default_emojis: Biểu cảm mặc định
-        default_emoji_list: "Đây là danh sách các biểu cảm động mà ai trong server này đều có thể dùng - chỉ cần nhập đầy đủ tên của chúng, và nhớ kèm theo :colons: xung quanh tên của biêu cảm!"
+        default_emojis: Emoji mặc định
+        default_emoji_list: "Đây là danh sách các emoji động mà ai trong server này đều có thể dùng - chỉ cần nhập đầy đủ tên của chúng, và nhớ kèm theo :colons: xung quanh tên của biêu cảm!"
         page_0_title: Hướng dẫn dùng Not Quite Nitro, dành cho người lười
         page_0_desc: |
           %{locale_flag_emojis} **Tùy chỉnh ngôn ngữ** %{locale_flag_emojis}
           > `%{prefix}server language`
-        page_0_0_name: Thêm biểu cảm?
+        page_0_0_name: Thêm emoji?
         page_0_0_desc: |
-          Mọi người đều có thể dùng bất kì biểu cảm nào có trong server chung với bạn và bot.
-          **Cũng có những cách khác để dùng biểu cảm từ server mà bạn không tham gia:**
-        page_0_1_name: "3\u20E3 Gói biểu cảm - Bao biểu cảm"
+          Mọi người đều có thể dùng bất kì emoji nào có trong server chung với bạn và bot.
+          **Cũng có những cách khác để dùng emoji từ server mà bạn không tham gia:**
+        page_0_1_name: "3\u20E3 Gói emoji - Bao emoji"
         page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Tên thay thế - Tách biệt từng biểu cảm"
+        page_0_2_name: "4\u20E3 Tên thay thế - Tách biệt từng emoji"
         page_0_2_desc: '> `%{prefix}alias search TênBiểuCảm`'
         page_1_title: Thêm cảm xúc
-        page_1_desc: Bạn có thể thêm cảm xúc cho tin nhắn với những biểu cảm bạn có thể dùng với NQN.
+        page_1_desc: Bạn có thể thêm cảm xúc cho tin nhắn với những emoji bạn có thể dùng với NQN.
         page_1_0_name: 'Bày tỏ cảm xúc với tin nhắn gần nhất:'
         page_1_0_desc: '> `%{prefix}react TênBiểuCảm`'
         page_1_1_name: 'Bày tỏ cảm xúc với tin nhắn trong cùng kênh:'
@@ -110,30 +110,30 @@ discord_bot:
         page_1_3_name: 'Bày tỏ cảm xúc với tin nhắn:'
         page_1_3_desc: '> `%{prefix}react URLTinNhắn TênBiểuCảm`'
         page_1_4_name: Xóa tin nhắn
-        page_1_4_desc: "Bày tỏ biểu cảm lên tin nhắn được gửi thay danh bạn bằng \u274C (\\:x:) để xóa nó."
-        page_2_title: Gói biểu cảm
+        page_1_4_desc: "Bày tỏ emoji lên tin nhắn được gửi thay danh bạn bằng \u274C (\\:x:) để xóa nó."
+        page_2_title: Gói emoji
         page_2_desc: |
-          Một gói biểu cảm bao gồm nhiều biểu cảm. Sau khi tham gia một gói, bạn sẽ có thể dùng các biểu cảm có trong đó.
-        page_2_0_name: Tham gia gói biểu cảm
+          Một gói emoji bao gồm nhiều emoji. Sau khi tham gia một gói, bạn sẽ có thể dùng các emoji có trong đó.
+        page_2_0_name: Tham gia gói emoji
         page_2_0_desc: |
-          Để tìm các gói biểu cảm, dùng `%{prefix}pack search`, có thể thêm tên để tìm, ví dụ như `%{prefix}pack search dragon`.
-        page_2_1_name: Tìm các gói biểu cảm mà bạn đã tham gia
+          Để tìm các gói emoji, dùng `%{prefix}pack search`, có thể thêm tên để tìm, ví dụ như `%{prefix}pack search dragon`.
+        page_2_1_name: Tìm các gói emoji mà bạn đã tham gia
         page_2_1_desc: |
           > `%{prefix}pack mine`
-          Lệnh này sẽ hiển thị danh sách các gói biểu cảm mà bạn đã tham gia, bao gồm cả tên biểu cảm trong mỗi gói.
-        page_2_2_name: Công khai gói biểu cảm của bạn
+          Lệnh này sẽ hiển thị danh sách các gói emoji mà bạn đã tham gia, bao gồm cả tên emoji trong mỗi gói.
+        page_2_2_name: Công khai gói emoji của bạn
         page_2_2_desc: |
-          Nếu bạn có quyền **quản lý server**, bạn có thể công khai gói biểu cảm của riêng bạn bao gồm các biểu cảm có trong server:
+          Nếu bạn có quyền **quản lý server**, bạn có thể công khai gói emoji của riêng bạn bao gồm các emoji có trong server:
           > `%{prefix}pack publish TênGóiBiểuCảmCăngĐét`
           Bạn cũng có thể công khai gói cho mọi người có thể tham gia bằng lệnh `%{prefix}pack set_public yes` để ai cũng có thể tham gia gói của bạn với bot mà không cần phải ở trong server của bạn.
         page_3_title: Tên thay thế
         page_3_desc: |
-          Tên thay thế bản chất chỉ là tên khác của những biểu cảm mà bạn cho, và chúng có thể được dùng với những cái tên đó.
+          Tên thay thế bản chất chỉ là tên khác của những emoji mà bạn cho, và chúng có thể được dùng với những cái tên đó.
 
-          Nếu bạn biết chính xác tên của một biểu cảm mà bạn muốn thêm:
+          Nếu bạn biết chính xác tên của một emoji mà bạn muốn thêm:
           > `%{prefix}alias search :EmoteName:`
 
-          Nếu bạn muốn xem qua các biểu cảm mà bạn có thể dùng qua NQN:
+          Nếu bạn muốn xem qua các emoji mà bạn có thể dùng qua NQN:
           > `%{prefix}alias search GiCungDuoc` (Không cần dấu hai chấm nếu bạn không nhớ rõ tên)
         page_4_title: Link đến tin nhắn đang trả lời
         page_4_desc: |
@@ -150,23 +150,23 @@ discord_bot:
 
           Tính năng này sử dụng các thức thông dụng, `[văn bản hiển thị](https://url.tai.day)`.
           Để gửi tin nhắn có kèm theo nút, dùng `[tiêu đề nút](button://url.tai.day)`.
-        page_6_title: Nhãn dán
+        page_6_title: Sticker
         page_6_desc: |
-          Nếu bạn từng muốn gửi ảnh/nhãn dán/biểu cảm lớn thì bạn tìm đến đúng nơi rồi đấy.
+          Nếu bạn từng muốn gửi ảnh/sticker/emoji lớn thì bạn tìm đến đúng nơi rồi đấy.
 
-          Lấy cảm hứng từ Telegram, NQN mang nhãn dán đến với Discord.
-          Bạn có thể dùng chúng như biểu cảm, ngoại trừ nhãn dán có thêm định dạng tệp ở cuối tên.
+          Lấy cảm hứng từ Telegram, NQN mang sticker đến với Discord.
+          Bạn có thể dùng chúng như emoji, ngoại trừ sticker có thêm định dạng tệp ở cuối tên.
 
-          Mỗi tin nhắn có thể chứa lên đến 10 nhãn dán.
+          Mỗi tin nhắn có thể chứa lên đến 10 sticker.
 
-          Bạn có thể tạo nhãn dán với lệnh `%{prefix}sticker create` và tải lên một hình ảnh hoặc tải lên từ Telegram.
+          Bạn có thể tạo sticker với lệnh `%{prefix}sticker create` và tải lên một hình ảnh hoặc tải lên từ Telegram.
           Nó có thể được thực hiện bằng lệnh `%{prefix}sticker telegram https://t.me/addstickers/goi-nhan-dan`.
 
-          Để tìm kiếm nhãn dán bạn có thể dùng với NQN, dùng `%{prefix}sticker search` với từ khóa tùy ý.
+          Để tìm kiếm sticker bạn có thể dùng với NQN, dùng `%{prefix}sticker search` với từ khóa tùy ý.
 
-          Để xem các nhãn dán của bạn, dùng `%{prefix}sticker mine`.
+          Để xem các sticker của bạn, dùng `%{prefix}sticker mine`.
 
-          Lưu ý - để dùng nhãn dán từ Telegram, bạn phải tải chúng lên cho bot trước. Bot sẽ không tự động làm việc này.
+          Lưu ý - để dùng sticker từ Telegram, bạn phải tải chúng lên cho bot trước. Bot sẽ không tự động làm việc này.
         page_7_title: Danh tính ảo
         page_7_desc: |
           Danh tính ảo cho phép mọi người trong server của bạn có một tên và ảnh hồ sơ ảo để ẩn thân phận.
@@ -182,14 +182,14 @@ discord_bot:
           Sau đây là những thứ mà bạn có thể thay đổi:
 
            • Nitro - `%{prefix}server nitro`
-           • Nhãn dán - `%{prefix}server stickers`
+           • Sticker - `%{prefix}server stickers`
            • Xem tin nhắn được liên kết - `%{prefix}server message_link_previews`
            • Danh tính ảo - `%{prefix}server personas`
            • Hyperlink - `%{prefix}server masked_links`
         page_8_0_name: Khắc phục một số vấn đề
         page_8_0_desc: |
           Để có thể hoạt động bình thường, NQN sẽ cần các quyền sau trong __mọi kênh__ mà bạn muốn dùng tính năng:
-          **Quản lý Webhook**, **Dùng biểu cảm mở rộng**, **Thêm biểu cảm**, **Xem kênh** và **Quản lý tin nhắn**.
+          **Quản lý Webhook**, **Dùng emoji mở rộng**, **Thêm emoji**, **Xem kênh** và **Quản lý tin nhắn**.
         page_8_1_name: "Prefix của Not Quite Nitro:"
         page_8_1_desc: |
           Bất kì ai với quyền **Quản lý server** có thể thay đổi prefx của NQN.
@@ -220,66 +220,66 @@ discord_bot:
         page_8_4_name: 'Thu thập thông tin:'
         page_8_4_desc: |
           NQN lưu trữ các tin nhắn được thay thế để người dùng có thể xóa chúng hay dùng cho việc lưu vết.
-          Mọi biểu cảm trong server của bạn đều có thể được nhìn thấy bởi mọi người và có thể được tìm kiếm, cho dù chúng không thể liên kết với server của bạn.
+          Mọi emoji trong server của bạn đều có thể được nhìn thấy bởi mọi người và có thể được tìm kiếm, cho dù chúng không thể liên kết với server của bạn.
 
           Một số chỉ số về mức hoạt động của bot được thu thập để hỗ trợ việc cải thiện bot tốt hơn nhưng sẽ không bao giờ lưu dữ liệu tin nhắn khác được gửi của người dùng.
         page_9_title: Tính năng nâng cao
         page_9_desc: |
-          Nếu có ai dùng biểu cảm nào đó, bạn cũng sẽ có thể dùng nó, nhưng chỉ khi nó được dùng gần đây trong server.
-          **LƯU Ý:** Nếu bạn chỉ mới thêm NQN vào server, nó sẽ không biết được các biểu cảm vừa được dùng trong server trước lúc nó tham gia.
+          Nếu có ai dùng emoji nào đó, bạn cũng sẽ có thể dùng nó, nhưng chỉ khi nó được dùng gần đây trong server.
+          **LƯU Ý:** Nếu bạn chỉ mới thêm NQN vào server, nó sẽ không biết được các emoji vừa được dùng trong server trước lúc nó tham gia.
 
-          Trong trường hợp bạn có nhiều biểu cảm cùng tên, biểu cảm sẽ được ưu tiên theo thứ tự sau:
+          Trong trường hợp bạn có nhiều emoji cùng tên, emoji sẽ được ưu tiên theo thứ tự sau:
 
           1. Tên thay thế
           2. Server hiện tại
-          3. Gói biểu cảm
+          3. Gói emoji
           4. Server khác mà NQN và bạn có chung
           5. Tên gọi khác liên server
-          6. Gói biểu cảm liên server
-          7. Biểu cảm được dùng gần đó trong server
-          8. Gói biểu cảm được hiện ra gần đó trong server
+          6. Gói emoji liên server
+          7. Emoji được dùng gần đó trong server
+          8. Gói emoji được hiện ra gần đó trong server
 
-          Nếu bạn thường xuyên bị xung đột biểu cảm, hãy đặt tên thay thế cho cái mà bạn muốn dùng và nó sẽ được ưu tiên.
+          Nếu bạn thường xuyên bị xung đột emoji, hãy đặt tên thay thế cho cái mà bạn muốn dùng và nó sẽ được ưu tiên.
       react:
         user_needs_to_react: |
           Này %{user_ping}!
-          Lệnh `%{prefix}react` thêm biểu cảm vào tin nhắn bạn muốn để bạn có thể dùng các biểu cảm khác để bày tỏ cảm xúc mà không cần Nitro. Bạn chỉ cần nhấp vào các biểu cảm đó!
-          *NQN sẽ tự động bỏ biểu cảm của chính nó sau %{time} giây.*
+          Lệnh `%{prefix}react` thêm emoji vào tin nhắn bạn muốn để bạn có thể dùng các emoji khác để bày tỏ cảm xúc mà không cần Nitro. Bạn chỉ cần nhấp vào các emoji đó!
+          *NQN sẽ tự động bỏ emoji của chính nó sau %{time} giây.*
         channel_empty: Kênh này đang trống
         invalid_react:
           one: |
-            Biểu cảm sau không hợp lệ:
+            Emoji sau không hợp lệ:
             > %{not_found}
-            Biểu cảm chỉ nên là số và chữ, dấu gạch dưới và nhiều nhất một dấu gạch ngang.
+            Emoji chỉ nên là số và chữ, dấu gạch dưới và nhiều nhất một dấu gạch ngang.
           many: |
-            Biểu cảm sau không hợp lệ:
+            Emoji sau không hợp lệ:
             > %{not_found}
-            Biểu cảm chỉ nên là số và chữ, dấu gạch dưới và nhiều nhất một dấu gạch ngang.
+            Emoji chỉ nên là số và chữ, dấu gạch dưới và nhiều nhất một dấu gạch ngang.
         emote_unusable:
           one: |
-            Biểu cảm sau không thể được sử dụng:
+            Emoji sau không thể được sử dụng:
             > %{unusable}
-            Biểu cảm phải từ một server mà NQN có trong đó; nếu bạn tải biểu cảm này lên một server có bot trong đó, nó sẽ có thể được dùng trong bày tỏ cảm xúc!
+            Emoji phải từ một server mà NQN có trong đó; nếu bạn tải emoji này lên một server có bot trong đó, nó sẽ có thể được dùng trong bày tỏ cảm xúc!
           many: |
-            Biểu cảm sau không thể được sử dụng:
+            Emoji sau không thể được sử dụng:
             > %{unusable}
-            Biểu cảm phải từ một server mà NQN có trong đó; nếu bạn tải biểu cảm này lên một server có bot trong đó, nó sẽ có thể được dùng trong bày tỏ cảm xúc!
+            Emoji phải từ một server mà NQN có trong đó; nếu bạn tải emoji này lên một server có bot trong đó, nó sẽ có thể được dùng trong bày tỏ cảm xúc!
         emote_not_found:
           one: |
             Không thể tìm thấy %{not_found}
-            Bạn đã thêm nó dưới dạng tên thay thế với `%{prefix}alias search` hay đã tham gia gói biểu cảm có nó với `%{prefix}pack search` chưa?
+            Bạn đã thêm nó dưới dạng tên thay thế với `%{prefix}alias search` hay đã tham gia gói emoji có nó với `%{prefix}pack search` chưa?
           many: |
             Không thể tìm thấy %{not_found}
-            Bạn đã thêm nó dưới dạng tên thay thế với `%{prefix}alias search` hay đã tham gia gói biểu cảm có nó với `%{prefix}pack search` chưa?
+            Bạn đã thêm nó dưới dạng tên thay thế với `%{prefix}alias search` hay đã tham gia gói emoji có nó với `%{prefix}pack search` chưa?
         too_many_reacts:
-          one: Tin nhắn này đã có quá nhiều biểu cảm để thêm!
-          many: Tin nhắn này đã có quá nhiều biểu cảm để thêm chúng!
+          one: Tin nhắn này đã có quá nhiều emoji để thêm!
+          many: Tin nhắn này đã có quá nhiều emoji để thêm chúng!
         reacting:
-          one: Đang thêm %{count} biểu cảm; nhớ là bày tỏ vào để giữ chúng!
-          many: Đang thêm %{count} biểu cảm; nhớ là bày tỏ vào để giữ chúng!
+          one: Đang thêm %{count} emoji; nhớ là bày tỏ vào để giữ chúng!
+          many: Đang thêm %{count} emoji; nhớ là bày tỏ vào để giữ chúng!
         blocked: '%{author} đã chặn tôi, vậy nên tôi không thể bày tỏ cảm xúc lên tin nhắn của họ!'
         on_behalf: NQN thay danh %{author} (%{author_id})
-        audit_message: "%{author} đã bày tỏ cảm xúc với [tin nhắn](<%{jump_url}>) trong %{channel} với những biểu cảm sau:\n"
+        audit_message: "%{author} đã bày tỏ cảm xúc với [tin nhắn](<%{jump_url}>) trong %{channel} với những emoji sau:\n"
       info:
         shard_data: |
           > số lượng shard: %{shard_count} (chết %{shards_down})
@@ -302,7 +302,7 @@ discord_bot:
           Lệnh trợ giúp: `%{prefix}help`
         bot_metadata: |
           > Thời gian hoạt động: %{uptime}
-          > Server chứa biểu cảm: %{alias_servers_available} / %{alias_servers_total}
+          > Server chứa emoji: %{alias_servers_available} / %{alias_servers_total}
           > Server đã được tải: %{guilds_loaded} / %{guilds}
         guild_features:
           zero: ''
@@ -355,22 +355,22 @@ discord_bot:
         size: ' - Phải dài từ 1 đến 32 kí tự'
         filesize: ' - Phải nhỏ hơn 256Kb'
         image: ' - Phải là một hình ảnh'
-        bad_name: "Sai tên của biểu cảm:\n"
-        bad_attachment: "Biểu cảm được đính kèm không hợp lệ:\n"
-        more_animated_needed: Server đã đạt giới hạn biểu cảm động, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
-        more_static_needed: Server đã đạt giới hạn biểu cảm, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
-        too_quick: Biểu cảm đang được thêm quá nhanh, thử lại sau vài giờ (Mã lỗi '%{e}')
-        this_emote: Đây có phải mà biểu cảm mà bạn muốn?
+        bad_name: "Sai tên của emoji:\n"
+        bad_attachment: "Emoji được đính kèm không hợp lệ:\n"
+        more_animated_needed: Server đã đạt giới hạn emoji động, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
+        more_static_needed: Server đã đạt giới hạn emoji, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
+        too_quick: Emoji đang được thêm quá nhanh, thử lại sau vài giờ (Mã lỗi '%{e}')
+        this_emote: Đây có phải mà emoji mà bạn muốn?
         emote_preview: |
           Nó đúng không?
-          Nếu bạn **KHÔNG PHẢI** chủ sỡ hữu của biểu cảm này, hoặc không có quyền phân tán nó, chọn 'Không'.
+          Nếu bạn **KHÔNG PHẢI** chủ sỡ hữu của emoji này, hoặc không có quyền phân tán nó, chọn 'Không'.
         duplicate_name: |
-          Server này đã có biểu cảm tên là %{name}
+          Server này đã có emoji tên là %{name}
           > %{e}
-          Bạn vẫn muốn tải lên biểu cảm này chứ?
+          Bạn vẫn muốn tải lên emoji này chứ?
         created_emotes: '%{user} vừa tải lên %{e}'
         also_upload_static: |
-          Bạn có muốn tải lên luôn bản tĩnh của biểu cảm này?
+          Bạn có muốn tải lên luôn bản tĩnh của emoji này?
           Người dùng không có Nitro có thể dùng nó trong server để gửi %{e}
       vote_opt_out:
         success: Thành công hủy nhận tin nhắn trực tiếp về vote
