@@ -6,6 +6,7 @@ discord_bot:
       alphanumeric: Aliases can only contain alphanumerics and underscores
       max_length: Alias names can be at most 32 characters long
       user_zero: You have no aliases
+      set_alias: Set alias
       from_message:
         no_emotes: This message doesn't have any custom emojis in it!
       delete:
