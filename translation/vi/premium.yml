@@ -44,4 +44,4 @@ premium:
       Nếu bạn có thay đổi các tính năng dành riêng cho premium nào thì bây giờ chúng đã bị đặt lại.
   premium_commands: |
     > `%{prefix}server set_nitro_role` - Giới hạn quyền dùng NQN với một vai trò cho người dùng.
-    > `%{prefix}server user_content` - Giới hạn biểu cảm được gửi bởi NQN chỉ được từ server, từ danh sách `%{prefix}server alias` hoặc `%{prefix}server pack`. Khi cài đặt này được bật, các lệnh tìm kiếm khác sẽ bị vô hiệu hóa.
+    > `%{prefix}server user_content` - Giới hạn emoji được gửi bởi NQN chỉ được từ server, từ danh sách `%{prefix}server alias` hoặc `%{prefix}server pack`. Khi cài đặt này được bật, các lệnh tìm kiếm khác sẽ bị vô hiệu hóa.

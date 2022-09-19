@@ -19,13 +19,13 @@ permissions:
   embed_links: |-
     Nhúng liên kết
   external_emojis: |-
-    Dùng biểu cảm mở rộng
+    Dùng emoji mở rộng
   kick_members: |-
     Đuổi thành viên
   manage_channels: |-
     Quản lý kênh
   manage_emojis: |-
-    Quản lý biểu cảm
+    Quản lý emoji
   manage_guild: |-
     Quản lý server
   manage_messages: |-
@@ -37,9 +37,9 @@ permissions:
   manage_roles: |-
     Quản lý vai trò
   manage_threads: |-
-    Manage Threads
+    Quản lý chủ đề
   manage_posts: |-
-    Manage Posts
+    Quản lý bài đăng
   manage_webhooks: |-
     Quản lý Webhook
   mention_everyone: |-
@@ -63,7 +63,7 @@ permissions:
   stream: |-
     Video
   use_external_emojis: |-
-    Dùng biểu cảm mở rộng
+    Dùng emoji mở rộng
   use_public_threads: |-
     Tạo chủ đề công khai
   use_voice_activation: |-
