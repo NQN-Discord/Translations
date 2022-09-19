@@ -17,7 +17,7 @@ discord_bot:
     PartialEmoji:
       name: Biểu cảm
       description: |-
-        Biểu cảm Dsicord được hiển thị hoặc link của biểu cảm
+        Emoji Dsicord được hiển thị hoặc link của emoji
     TextChannel:
       name: Kênh chat
       description: |
@@ -33,16 +33,16 @@ discord_bot:
     NQNEmoji:
       name: NQNEmoji
       description: |
-        Một biểu cảm chưa được hiển thị NQN có thể dùng
-        - Một biểu cảm Discord dược hiển thị hoặc link của biểu cảm
+        Một emoji chưa được hiển thị NQN có thể dùng
+        - Một emoji Discord dược hiển thị hoặc link của emoji
     BlockedEmoji:
       name: BlockedEmoji
       description: |-
-        Tên của biểu cảm mà bạn muốn khóa trong server
+        Tên của emoji mà bạn muốn khóa trong server
     CurrentGuildEmoji:
       name: ServerEmoji
       description: |
-        Môt biểu cảm trong server này
+        Môt emoji trong server này
     None:
       name: Trống
       description: |
