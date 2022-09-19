@@ -7,6 +7,7 @@ discord_bot:
       alphanumeric: Los alias solo pueden llevar caracteres alfanuméricos y guiones bajos
       max_length: Los nombres de los alias solo pueden ser hasta 32 caracteres
       user_zero: No tienes ningún alias
+      set_alias: Set alias
       from_message:
         no_emotes: '¡Este mensaje no contiene ningún emoji!'
       delete:
