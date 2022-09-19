@@ -55,4 +55,4 @@ exceptions:
         Permessi del canale esplicitamente negati a %{user_ping} come al ruolo %{roles}
       many: |-
         Permessi del canale esplicitamente negati a %{user_ping} come ai ruoli %{roles}
-  no_threads: This command cannot be used in threads.
+  no_threads: Questo comando non può essere usato nei thread.
