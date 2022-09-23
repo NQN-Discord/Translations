@@ -136,7 +136,7 @@ discord_bot:
 
           در غیر این صورت اگر دنبال یکی از شکلک هایی که NQN ارائه می دهد می گردید:
           > `%{prefix}alias search whatever` (هیچ دو نقطه‌ای نگذارید اگر اسم دقیق را نمی دانید)
-        page_4_title: Message Link Previews
+        page_4_title: پیشنمایش لینک پیام
         page_4_desc: |
           NQN allows you to preview messages sent in different channels.
 
