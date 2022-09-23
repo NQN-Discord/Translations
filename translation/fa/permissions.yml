@@ -37,9 +37,9 @@ permissions:
   manage_roles: |-
     Manage Roles
   manage_threads: |-
-    Manage Threads
+    مدیریت رشته های عمومی
   manage_posts: |-
-    Manage Posts
+    مدیریت پست ها
   manage_webhooks: |-
     Manage Webhooks
   mention_everyone: |-
