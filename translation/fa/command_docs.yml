@@ -667,8 +667,8 @@ command_docs:
     signature: |
       @NQN#3454 [prefix=!]
   server-message_link_previews:
-    name: message_link_previews
-    short_doc: Enable or disable message link previews in this server
+    name: پیشنمایش‌لینک‌پیام
+    short_doc: فعال یا غیرفعال کردن پیشنمایش لینک پیام ها در این سرور
   server-settings:
     name: settings
     short_doc: نمایش تنظیمات این سرور
@@ -687,9 +687,9 @@ command_docs:
       Set a role that users need to use NQN for Nitro reposting
     params:
       role:
-        name: role
+        name: رول
         description: |-
-          The role which people need to use NQN's emoji reposting
+          رولی که مردم برای استفاده از تبدیل کردن پیام NQN به آن نیاز دارند
   server-stickers:
     name: stickers
     short_doc: فعال یا غیرفعال سازی استفاده از استیکر ها در این سرور
