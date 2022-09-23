@@ -42,5 +42,5 @@ premium:
       %{guild_list}
       Als u alleen premium-instellingen hebt gewijzigd, zijn deze nu opnieuw ingesteld.
   premium_commands: |
-    > `%{prefix}server set_nitro_role` - Restricts access to NQN to users with a specific role.
-    > `%{prefix}server user_content` - Enforces emojis posted via NQN to be ones in your server, in your `%{prefix}server alias` list or `%{prefix}server pack` list. When this setting is enabled, user content search based commands will be disabled.
+    > `%{prefix}server set_nitro_role` - Beperkt de toegang tot NQN tot gebruikers met een specifieke rol.
+    > `%{prefix}server user_content` - Dwingt emoji's die via NQN zijn gepost af op uw server, in uw `%{prefix}server alias` list of `%{prefix}server pack` list. Als deze instelling is ingeschakeld, worden commando's voor het zoeken naar gebruikersinhoud uitgeschakeld.
