@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: استفاده استیکر ها غیرفعال شدند
         nitro_on: استفاده از رایگان از شکلک های نیترو در این سرور فعال شد!
         nitro_off: استفاده از رایگان از شکلک های نیترو در این سرور غیرفعال شد
-        replies_on: Enabled message link previews
-        replies_off: Disabled message link previews
+        replies_on: پیشنمایش لینک پیام ها فعال شد
+        replies_off: پیشنمایش لینک پیام ها غیرفعال شد
         masked_links_on: اعمال آدرس URL لینک روی متون فعال شد
         masked_links_off: اعمال آدرس URL لینک روی متون غیرفعال شد
         pings_on: قابلیت پینگ کردن در پیام های تبدیل شده با موفقیت فعال شد
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: نقش نیترو
         stickers: استیکر ها
         nitro: نیترو
-        replies: Message Link Previews
+        replies: پیشنمایش لینک پیام
         masked_links: متن های لینک دار
         pings: پینگ‌ها
         user_content: محتوای کاربر

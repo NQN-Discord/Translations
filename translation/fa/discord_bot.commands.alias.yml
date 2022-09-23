@@ -7,7 +7,7 @@ discord_bot:
       alphanumeric: اختصار ها فقط می‌توانند حاوی حروف الفبا و عداد و زیروندها (_) باشند
       max_length: نام اختصار نمی‌تواند بیشتر از 32 کاراکتر باشد
       user_zero: شما هیچ اختصاری ندارید
-      set_alias: Set alias
+      set_alias: تنظیم اختصار
       from_message:
         no_emotes: این پیام هیچ ایموجی سفارشی درونش وجود ندارد!
       delete:
