@@ -3,44 +3,44 @@ discord_bot:
   commands:
     sticker:
       create:
-        attachment_needed: You need to upload a sticker with this command
-        image_needed: The file needs to be an image
-        sticker_exists: A sticker called %{name} exists already!
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        too_large: This file is too large. Stickers can only be 8MB
-        created: "You can now use `:%{name}:`\nNot quite right?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
+        attachment_needed: Je moet een sticker uploaden met deze commando
+        image_needed: Het bestand moet een afbeelding zijn
+        sticker_exists: Er bestaat al een sticker met de naam %{name}!
+        filename_invalid: '`%{name}` is geen toegestane naam voor stickers. Ze moeten alfanumeriek zijn, met een alfanumerieke bestands-extensie.'
+        too_large: Dit bestand is te groot. Stickers mogen maar 8 Mb zijn
+        created: "U kunt nu `:%{name}:` gebruiken\nNiet helemaal juist?\n`%{prefix}sticker rename %{name} nieuwe_naam.%{ext}`"
       mine:
-        no_stickers: You have no stickers
+        no_stickers: Je hebt geen stickers
       delete:
-        no_sticker: "- :%{name}: - Doesn't exist or not yours"
-        sticker_deleted: '+ :%{name}:'
+        no_sticker: "- :%{name}: - Bestaat niet of is niet van jou"
+        sticker_deleted: '+ "%{name}:'
         question:
-          zero: No stickers to delete!
-          one: Do you want to delete this sticker?
-          many: Do you want to delete all %{count} stickers?
+          zero: Geen stickers om te verwijderen!
+          one: Wil je deze sticker verwijderen?
+          many: Wil je alle %{count} stickers verwijderen?
         deleted_all:
-          one: Deleted %{count} sticker
-          many: Deleted %{count} stickers
+          one: '%{count} sticker verwijderd'
+          many: '%{count} stickers verwijderd'
       rename:
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        no_sticker: This sticker doesn't exist
-        permission_denied: You can't rename someone else's sticker!
-        destination_taken: The destination name is already taken!
-        renamed: 'Renamed \:%{old}: to :%{new}:'
+        filename_invalid: '`%{name}` is geen toegestane naam voor stickers. Ze moeten alfanumeriek zijn, met een alfanumerieke bestands-extensie.'
+        no_sticker: Deze sticker bestaat niet
+        permission_denied: Je kunt de sticker van iemand anders niet hernoemen!
+        destination_taken: De bestemmingsnaam is al in gebruik!
+        renamed: 'Hernoemd \:%{old}: naar :%{new}:'
       search:
-        no_stickers: No stickers found
+        no_stickers: Geen stickers gevonden
       sticker_import:
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        find_emote: find an emote to turn into a sticker!
-        created: You can now use `:%{name}:`
-        sticker_exists: A sticker called `:%{name}:` already exists; you can't overwrite it.
-        duplicate_exists: A sticker with the same image called %{name} exists already!
+        filename_invalid: '`%{name}` is geen toegestane naam voor stickers. Ze moeten alfanumeriek zijn, met een alfanumerieke bestands-extensie.'
+        find_emote: vind een emoji om in een sticker te veranderen!
+        created: U kunt nu `:%{name}:` gebruiken
+        sticker_exists: Er bestaat al een sticker met de naam `:%{name}:`; je kunt het niet overschrijven.
+        duplicate_exists: Er bestaat al een sticker met dezelfde afbeelding genaamd %{name}!
       telegram_import:
-        pack_invalid: '`%{name}` is not a valid Telegram sticker pack name'
-        telegram_unloaded: Telegram package not loaded - please report this to a bot developer.
-        already_created: Already created by someone else; cannot overwrite
+        pack_invalid: '`%{name}` is geen geldige Telegram-stickerpakketnaam'
+        telegram_unloaded: Telegram-pakket niet geladen - meld dit aan een botontwikkelaar.
+        already_created: Al gemaakt door iemand anders; kan niet overschrijven
         finished_importing:
-          one: Finished importing one sticker
-          many: Finished importing %{count} stickers
-        search_future: "To search for these stickers in the future, use:\n> `%{prefix}sticker search %{name}.`"
-        view: View Stickers
+          one: Klaar met importeren van één sticker
+          many: Klaar met importeren van %{count} stickers
+        search_future: "Gebruik om in de toekomst naar deze stickers te zoeken:\n> `%{prefix}sticker search %{name}.`"
+        view: Bekijk Stickers
