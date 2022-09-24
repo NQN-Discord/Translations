@@ -1,20 +1,20 @@
 ---
 command_docs:
   gain_access_to_emojis:
-    name: Gain access to emojis
+    name: Krijg toegang tot emoji's
   block_emote:
-    name: Block an emote
+    name: Blokkeer een emoji
   audit_messages:
-    name: Audit NQN messages
+    name: Audit NQN berichten
   delete_message:
-    name: Delete Message
+    name: Verwijder Bericht
   edit_message:
-    name: Edit Message
+    name: Bericht Bewerken
   find_author:
-    name: Find Author
+    name: Vind Auteur
   alias:
     name: alias
-    short_doc: Manage the individual emotes you can use
+    short_doc: Beheer de individuele emoji's die je kunt gebruiken
     help: |
       Manage the individual emotes you can use
 
