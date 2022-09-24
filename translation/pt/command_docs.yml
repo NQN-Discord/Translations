@@ -122,26 +122,26 @@ command_docs:
           Que emoji bloquear o uso?
   emote-block-from_search:
     name: from_search
-    short_doc: Block the use of an emote
+    short_doc: Bloquear o uso de um emote
   emote-block-recently_used:
     name: recently_used
-    short_doc: Block the use of an emote
+    short_doc: Bloquear o uso de um emote
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to block the use of?
+          Que emoji bloquear o uso?
   emote-block_list:
     name: block_list
-    short_doc: View the list of emojis blocked in this server
+    short_doc: Ver lista de emojis bloqueados em seu servidor
   emote-info:
-    name: info
-    short_doc: Get information about an emote
+    name: informações
+    short_doc: Obter informações sobre um emote
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to get information about?
+          Sobre quais emojis obter informações?
   emote-jumbo:
     name: jumbo
     short_doc: Torna um emoji maior
@@ -151,8 +151,8 @@ command_docs:
         description: |-
           Which emoji to make jumbo sized?
   emote-rolelock:
-    name: rolelock
-    short_doc: Lock an emoji to a specific set of roles
+    name: desbloqueio
+    short_doc: Fixar um emoji a um conjunto específico de papéis
     params:
       emoji:
         name: emoji
@@ -255,31 +255,31 @@ command_docs:
       Opcional[Membro] -> Filtrar registro apenas para este membro
       Se o canal e os membros não forem filtrados, use 'audit guild'
   mod-ban:
-    name: ban
+    name: proibir
     short_doc: Banir o usuário que postou uma mensagem
   mod-edit_topic:
     name: edit_topic
     short_doc: Adicionar emojis animados aos tópicos do canal
     params:
       description:
-        name: description
+        name: descrição
         description: |-
-          The new channel description including emoji names
+          A nova descrição do canal incluindo nome de emojis
     help: |
       Altera a descrição do canal, permitindo emojis animados neles também
   mod-kick:
     name: kick
     short_doc: Expulse o usuário que postou uma mensagem
   mod-move:
-    name: move
+    name: mover
     short_doc: Mova até 50 das mensagens mais recentes neste canal para outro
     params:
       channel:
-        name: channel
+        name: canal
         description: |-
-          The target channel to move to
+          O canal alvo a ser movido para
       messages:
-        name: messages
+        name: mensagem
         description: |-
           How many messages to move?
   mod-purge:
