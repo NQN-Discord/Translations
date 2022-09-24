@@ -1,14 +1,14 @@
 ---
 discord_bot:
   rendered_message:
-    oops: Oops!
+    oops: Oeps!
     external_emojis: |
-      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Server Settings**.
+      Om emoji's van andere servers te gebruiken, heeft NQN de machtiging nodig om "Externe emoji's te gebruiken" in de **Serverinstellingen**.
     override_external_emojis: |
-      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
+      Om emoji's van andere servers te gebruiken, heeft NQN de machtiging nodig om "Externe emoji's te gebruiken" in de **Machtigingen voor Kanaalinstellingen**.
     download: Download
     no_personas: |
-      Personas are not allowed in this server
+      Persona's zijn niet toegestaan op deze server
     no_messageless_posting: |
       A server administrator has disabled posting through the web dashboard and slash commands
     no_slowmode_posting: |
