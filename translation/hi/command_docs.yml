@@ -9,7 +9,7 @@ command_docs:
   delete_message:
     name: Delete Message
   edit_message:
-    name: Edit Message
+    name: सन्देश सम्पादित करें
   find_author:
     name: Find Author
   alias:
@@ -54,7 +54,7 @@ command_docs:
           A file previously exported with /alias export
   alias-mine:
     name: mine
-    short_doc: Get a list of aliases you've made
+    short_doc: आपके द्वारा बनायें गए उपनामों की सूची प्राप्त करें
     params:
       page:
         name: page
@@ -121,7 +121,7 @@ command_docs:
     short_doc: Block the use of an emote
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           Which emoji to block the use of?
   emote-block-from_search:
@@ -132,7 +132,7 @@ command_docs:
     short_doc: Block the use of an emote
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           Which emoji to block the use of?
   emote-block_list:
@@ -143,7 +143,7 @@ command_docs:
     short_doc: एक ईमोट के बारे में जानकारी प्राप्त करें
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           Which emoji to get information about?
   emote-jumbo:
@@ -151,7 +151,7 @@ command_docs:
     short_doc: एक इमोजी को बड़ा बनता है
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           Which emoji to make jumbo sized?
   emote-rolelock:
@@ -159,11 +159,11 @@ command_docs:
     short_doc: एक इमोजी को एक निश्चित रोल समूह तक सीमित करता है
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           Lock which emoji?
       role:
-        name: role
+        name: रोल
         description: |-
           Lock the emoji to which role?
   emote-roleunlock:
@@ -171,7 +171,7 @@ command_docs:
     short_doc: किसी को भी लॉक किये गए ईमोट उपयोग करने की अनुमति देना
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           Unlock which emoji?
   emote-stats:
@@ -182,7 +182,7 @@ command_docs:
     short_doc: पहले से ब्लॉक किये गए इमोजी को अनब्लॉक करें
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           Which emoji to unblock?
   emote-upload:
@@ -205,7 +205,7 @@ command_docs:
     short_doc: Upload an emoji from it's name or URL
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           Emoji or Emoji URL
   emote-upload-from_search:
@@ -250,7 +250,7 @@ command_docs:
         description: |-
           Filter to just messages in this channel
       user:
-        name: user
+        name: उपयोगकर्ता
         description: |-
           Filter to just messages by this user
     help: |
@@ -277,7 +277,7 @@ command_docs:
     short_doc: संदेश पोस्ट करने वाले उपभोक्ता को निकालें
   mod-move:
     name: move
-    short_doc: Move up to 50 of the most recent messages in this channel to another
+    short_doc: इस चैनल के 50 सबसे नवीनतम संदेशों को दूसरे चैनल में ले जाएँ
     params:
       channel:
         name: channel
@@ -302,10 +302,10 @@ command_docs:
         description: |-
           Which emojis to show?
         choices:
-          current_server: Current Server
-          mutual_servers: Mutual Servers
-          aliases: Aliases
-          packs: Packs
+          current_server: वर्तमान सर्वर
+          mutual_servers: आपसी सर्वर
+          aliases: उपनाम
+          packs: पैक
   owner:
     name: owner
     short_doc: निषिद्ध ज्ञान भीतर छिपा है
@@ -313,11 +313,11 @@ command_docs:
     name: nqn
     short_doc: Send a message with NQN
   nqn-message:
-    name: message
+    name: सन्देश
     short_doc: Post a message with NQN emojis in it
     params:
       message:
-        name: message
+        name: सन्देश
         description: |-
           The message to post
       persona:
@@ -333,7 +333,7 @@ command_docs:
     short_doc: Post a message with just a single emoji in it
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           Which emoji to post
       persona:
@@ -379,7 +379,7 @@ command_docs:
         description: |-
           What do you want to call your pack?
       public:
-        name: public
+        name: सार्वजनिक
         description: |-
           Do you want people to be able to join your server through the bot without an invite?
   pack-rename:
@@ -415,7 +415,7 @@ command_docs:
     short_doc: किसी को भी NQN के माध्यम से इस सर्वर से जुड़ने की अनुमति दें।
     params:
       enabled:
-        name: enabled
+        name: सक्षम
         description: |-
           Allow users to join this server through NQN without an invite?
   pack-show:
@@ -484,7 +484,7 @@ command_docs:
       पहले से निर्यातित की गयी पहचान सूची को आयात करें।
       PluralKit और Tupperbox के साथ अनुकूल।
   persona-list:
-    name: list
+    name: सूची
     short_doc: अपनी पहचानों की सूची देखें
   persona-register:
     name: register
@@ -516,7 +516,7 @@ command_docs:
       आपकी प्रीमियम जानकारी की पुनर्गणना करें, सर्वर जिन्हे आपसे प्रीमियम मिलता है की सूची सहित।
   premium-help:
     name: help
-    short_doc: Information about NQN premium
+    short_doc: NQN प्रीमियम के बारे में जानकारी
   ranking:
     name: ranking
     short_doc: हमारी रैंकिंग में आपका सर्वर कितना ऊपर है?
@@ -525,11 +525,11 @@ command_docs:
     short_doc: एक सन्देश पर इमोजी के साथ प्रतिक्रिया दें
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           Which emoji to react with?
       message:
-        name: message
+        name: सन्देश
         description: |-
           Which message to react to?
     help: |
@@ -559,7 +559,7 @@ command_docs:
         description: |-
           A file previously exported with /alias export
   server-alias-list:
-    name: list
+    name: सूची
     short_doc: उन सभी उपनामों को दिखाएं जिन्हें आपके सर्वर में कोई भी उपयोग कर सकता है
     params:
       page:
@@ -594,7 +594,7 @@ command_docs:
     short_doc: बॉट डैशबोर्ड के माध्यम से सन्देश भेजना सक्षम या अक्षम करें
   server-audit_channel:
     name: audit_channel
-    short_doc: Post messages the bot reposts
+    short_doc: बॉट रिपॉस्ट के संदेश पोस्ट करें
     params:
       channel:
         name: channel
@@ -608,14 +608,14 @@ command_docs:
     short_doc: एक स्थिर ईमोट बनाएं, जिसका उपयोग करने पर बॉट इस इमोजी को एक एनिमेटेड संस्करण के रूप में पोस्ट करेगा!
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           Which emoji to create a static version of?
   server-masked_links:
     name: masked_links
     short_doc: सर्वर में छिपी हुई लिंक सक्षम या अक्षम करें
   server-nitro:
-    name: nitro
+    name: नाइट्रो
     short_doc: 'इस सर्वर में नि: शुल्क नाइट्रो उपयोग को सक्षम या अक्षम करें'
   server-pack:
     name: pack
@@ -637,7 +637,7 @@ command_docs:
         description: |-
           Which pack do you want to remove access to from everyone?
   server-pack-list:
-    name: list
+    name: सूची
     short_doc: इस सर्वर द्वारा उपयोग किए जा सकने वाले पैक को सूचीबद्ध करें
   server-pack-post:
     name: post
@@ -649,12 +649,12 @@ command_docs:
     name: permissions_debug
     short_doc: NQN को बताने दे कि कौनसी अनुमति गायब है
   server-personas:
-    name: personas
+    name: पहचानें
     short_doc: पहचानों का उपयोग सक्षम या अक्षम करें
     help: |
       उपयोगकर्ताओं को मनमाने नाम या अवतार पोस्ट करने की अनुमति दें
   server-pings:
-    name: pings
+    name: पिंग
     short_doc: इस सर्वर में संदेशों में पिंग सक्षम या अक्षम करें
     help: |
       इस सर्वर में संदेशों में पिंग सक्षम या अक्षम करें जो की NQN इस सर्वर में रिपोस्ट करता है
@@ -662,7 +662,7 @@ command_docs:
     name: phish_detection
     short_doc: इस सर्वर में फिशिंग सन्देश पहचान को सक्षम या अक्षम करें
   server-prefix:
-    name: prefix
+    name: उपसर्ग
     short_doc: NQN को दूसरे प्रीफिक्स को सुनने के लिए कमांड दे
     help: |
       NQN को दूसरे प्रीफिक्स को सुनने के लिए कमांड दे
@@ -674,28 +674,28 @@ command_docs:
     name: message_link_previews
     short_doc: Enable or disable message link previews in this server
   server-settings:
-    name: settings
+    name: सेटिंग
     short_doc: इस सर्वर की सेटिंग देखें
     help: |
       NQN सर्वर सेटिंग देखें, फ़ीचरों, कॉन्फ़िगर हुए चैनल और पैक जानकारी सहित।
   server-boost_channel:
     name: boost_channel
-    short_doc: Post whenever someone votes with the server on top.gg
+    short_doc: संदेश पोस्ट करें, जब भी कोई व्यक्ति top.gg पर सर्वर के साथ वोट करे
   server-boost_role:
     name: boost_role
-    short_doc: Give a user this role when they boost this server via NQN
+    short_doc: किसी उपयोगकर्ता को यह रोल दे जब वह इस सर्वर को NQN के द्वारा बूस्ट करे
   server-nitro_role:
     name: nitro_role
-    short_doc: Require users to have a role to use NQN
+    short_doc: उपयोगकर्ताओं को NQN का उपयोग करने के लिए एक रोल को जरूरी करता है
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      NQN नाइट्रो रेपोस्टिंग के लिए आवश्यक रोल को सेट करता है
     params:
       role:
-        name: role
+        name: रोल
         description: |-
           The role which people need to use NQN's emoji reposting
   server-stickers:
-    name: stickers
+    name: स्टीकर
     short_doc: इस गिल्ड में स्टिकर उपयोग को सक्षम या अक्षम करें
   server-user_content:
     name: user_content
@@ -727,10 +727,10 @@ command_docs:
           What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
   sticker-create-from_emote:
     name: from_emote
-    short_doc: Import stickers from emotes
+    short_doc: ईमोट से स्टीकर आयात करें
     params:
       emoji:
-        name: emoji
+        name: इमोजी
         description: |-
           …
       name:
@@ -739,10 +739,10 @@ command_docs:
           What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
   sticker-create-from_search:
     name: from_search
-    short_doc: Import stickers from emotes
+    short_doc: ईमोट से स्टीकर आयात करें
   sticker-create-from_telegram:
     name: from_telegram
-    short_doc: Import stickers from telegram
+    short_doc: टेलीग्राम से स्टिकर आयात करें
     params:
       telegram_packname:
         name: telegram_packname
@@ -793,10 +793,10 @@ command_docs:
     name: telegram
     short_doc: टेलीग्राम से स्टिकर आयात करें
   support:
-    name: support
+    name: सहायता
     short_doc: मुझे उपयोग करने के बारे में कुछ मदद चाहिए?
   tutorial:
-    name: tutorial
+    name: टुटोरिअल
     short_doc: NQN के साथ इमोजी का उपयोग करना सीखें
     params:
       about:
