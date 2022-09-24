@@ -3,29 +3,29 @@ discord_bot:
   commands:
     mod:
       audit:
-        no_messages: No messages to audit.
-        expand: Expand
-        truncate: Truncate
+        no_messages: Geen berichten om te controleren.
+        expand: Uitbreiden
+        truncate: Afkappen
       edit_topic:
-        edited: Edited %{channel}'s topic.
-        edited_audit: "%{author} edited %{channel}'s topic to:\n>>> %{description}"
+        edited: Bewerkt het onderwerp van %{channel}.
+        edited_audit: "%{author} heeft het onderwerp van %{channel} gewijzigd naar:\n>>> %{description}"
       ban:
-        owner: I cannot ban the owner!
-        cannot_ban: I cannot ban <@%{banee}>!
-        you_cannot_ban: You cannot ban <@%{banee}>!
-        banned: Banned <@%{banee}> (ID %{banee})
-        banned_audit: '%{author} banned <@%{banee}> (ID %{banee})'
+        owner: Ik kan de eigenaar niet verbannen!
+        cannot_ban: Ik kan niet <@%{banee}> verbannen!
+        you_cannot_ban: Je kan niet <@%{banee}> verbannen!
+        banned: <@%{banee}> (ID %{banee}) verbannen
+        banned_audit: '%{author} heeft <@%{banee}> (ID %{banee}) verbannen'
       kick:
-        owner: I cannot kick the owner!
-        cannot_kick: I cannot kick <@%{kickee}>!
-        you_cannot_kick: You cannot kick <@%{kickee}>!
-        kicked: Kicked <@%{kickee}> (ID %{kickee})
-        kicked_audit: '%{author} kicked <@%{kickee}> (ID %{kickee})'
+        owner: Ik kan de eigenaar niet kicken!
+        cannot_kick: Ik kan niet <@%{kickee}> kicken!
+        you_cannot_kick: Je kan niet <@%{kickee}> kicken!
+        kicked: <@%{kickee}> (ID %{kickee}) gekickt
+        kicked_audit: '%{author} heeft <@%{kickee}> (ID %{kickee}) gekickt'
       purge:
-        '0_100': Number of messages to move must be between 1 and 100
+        '0_100': Aantal te verplaatsen berichten moet tussen 1 en 100 zijn
         audit:
-          one: '%{author} purged %{count} message in %{channel}'
-          many: '%{author} purged %{count} messages in %{channel}'
+          one: '%{author} heeft %{count} berichten in %{channel} verwijderd'
+          many: '%{author} heeft %{count} berichten in %{channel} verwijderd'
       move:
         user_no_perms: You don't have both 'Send Messages' and 'Manage Messages' in %{channel}.
         me_no_perms: I need to have 'Read Messages', 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
