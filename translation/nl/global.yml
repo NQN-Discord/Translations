@@ -44,34 +44,33 @@ global:
   requires_user_content: |
     Gebruikersinhoud is niet toegestaan op deze server.
   requires_user_content_admin: |
-    User content is not allowed in this server. You can allow it with
-    > ```%{prefix}server user_content on```
+    Gebruikersinhoud is niet toegestaan op deze server. Je kunt het toestaan met > ```%{prefix}server user_content on```
   error_message: |
-    An error occurred whilst processing your command. It may not have completed correctly.
-    For help, and to report this as an issue, please join the testing server for this bot:
+    Er is een fout opgetreden tijdens het verwerken van uw commando. Het is mogelijk niet correct voltooid.
+    Voor hulp en om dit als een probleem te melden, wordt u verzocht lid te worden van de testserver voor deze bot: 
     https://discord.gg/mv8RbHD
 
-    Error code: `%{event_id}`
+    Foutcode: `%{event_id}`
   user_abused: |
-    The bot owner or global moderators have blocked you from using this bot due to previous abuse.
-    You cannot use any commands or otherwise make use of the bot's functionality.
+    De boteigenaar of de wereldwijde moderators hebben je het gebruik van deze bot geblokkeerd vanwege eerder misbruik.
+    U kunt geen commando's meer gebruiken of andere functionaliteit gebruiken van de bot.
   user_spammed: |
-    You have been temporarily blocked from using NQN for triggering our automated spam detection system.
-    This message will only be sent at most once a day, and there is no way to appeal this block.
+    U bent tijdelijk geblokkeerd voor het gebruiken van NQN voor het van ons geautomatiseerde spamdetectiesysteem.
+    Dit bericht wordt maximaal één keer per dag verzonden en er is geen mogelijkheid om tegen deze blokkering in beroep te gaan.
 
-    You will be unblocked in under **5 minutes** from now.
+    U wordt vanaf nu binnen **5 minuten** gedeblokkeerd.
   support_server: |
-    You can join my support server here:
+    Je kunt hier lid worden van mijn ondersteuningsserver:
     http://discord.gg/XvzDPca
-    You can report bugs, request new features or ask for clarifications on how to use me.
+    U kunt bugs melden, nieuwe functies aanvragen of om opheldering vragen over hoe u mij kunt gebruiken.
   premium_required: |
-    To do this, you need to be a subscriber to NQN's Patreon: https://www.patreon.com/NQN
+    Om dit te doen, moet u een abonnee zijn van NQN's Patreon: https://www.patreon.com/NQN
   invite_bad_perms:
     title: |
-      Hi, thanks for inviting NQN to %{guild_name}!
+      Hi, bedankt voor het uitnodigen van NQN voor %{guild_name}!
     content: |
-      We've looked around and found that we don't quite have all the permissions we need to function properly though.
-      To fix this so you can properly use the bot, a link's been generated which will give all the relevent permissions to the bot:
+      We hebben rondgekeken en ontdekten dat we niet helemaal over alle rechten beschikken die we nodig hebben om goed te kunnen functioneren.
+      Om dit op te lossen, zodat je de bot goed kunt gebruiken, is er een link gegenereerd die alle relevante rechten aan de bot geeft:
 
-      **[Fix Permissions](%{invite_url})**
-  webhook_limit: Webhook limit reached! Cannot run in this channel!
+      **[Machtigingen Herstellen](%{invite_url})**
+  webhook_limit: Webhook-limit bereikt! Kan niet worden uitgevoerd in dit kanaal!
