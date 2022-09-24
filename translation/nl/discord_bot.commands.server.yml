@@ -87,13 +87,13 @@ discord_bot:
         create_static: Een statische emoji maken?
         create_static_emote: Een statische emote maken voor %{emote}?
         uploaded: '%{uploaded} geüpload!'
-        uploaded_emote: "Uploaded %{uploaded}!\nUse it to get %{emote}"
+        uploaded_emote: "%{uploaded} geüpload!\nGebruik het om %{emote} te krijgen"
       pack:
-        max_title: This server is at its maximum emote/pack count already!
+        max_title: Deze server heeft al zijn maximale aantal emoji's/pakketten!
         max_description: |
-          %{name} was not added as a server pack.
+          %{name} is niet toegevoegd als serverpakket.
 
-          For more aliases/packs, anyone can vote for the bot at %{url}
+          Voor meer aliassen/pakketten kan iedereen op de bot stemmen op %{url}
         left_pack: "'%{guild_name}' heeft %{name} verlaten"
         not_in_pack: Deze server had om te beginnen geen %{name} als serverpakket
         invalid_group: <Ongeldig pakket - Meld dit alstublieft>
