@@ -270,10 +270,7 @@ command_docs:
   mod-kick:
     name: kick
     short_doc: Expulse o usuário que postou uma mensagem
-  mod-purge:
-    name: purge
-    short_doc: Limpar algumas mensagens repostadas pelo bot neste canal
-  move:
+  mod-move:
     name: move
     short_doc: Move up to 50 of the most recent messages in this channel to another
     params:
@@ -285,6 +282,9 @@ command_docs:
         name: messages
         description: |-
           How many messages to move?
+  mod-purge:
+    name: purge
+    short_doc: Limpar algumas mensagens repostadas pelo bot neste canal
   mutuals:
     name: mutuals
     short_doc: Veja os servidores que compartilho com você
