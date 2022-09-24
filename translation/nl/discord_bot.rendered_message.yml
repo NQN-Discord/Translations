@@ -10,8 +10,8 @@ discord_bot:
     no_personas: |
       Persona's zijn niet toegestaan op deze server
     no_messageless_posting: |
-      A server administrator has disabled posting through the web dashboard and slash commands
+      Een serverbeheerder heeft het posten via het web-dashboard en slash-commando's uitgeschakeld
     no_slowmode_posting: |
-      Posting messages in channels with a slowmode is not allowed
-    enable_posting: Enable Posting
-    posted_message: Posted message
+      Berichten plaatsen in kanalen met een slow-modus is niet toegestaan
+    enable_posting: Plaatsen Inschakelen
+    posted_message: Geplaatst bericht
