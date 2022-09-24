@@ -7,6 +7,7 @@ discord_bot:
       alphanumeric: Tên thay thế chỉ nên chứa chữ, số và gấu gạch dưới
       max_length: Tên thay thế không nên dài hơn 32 kí tự
       user_zero: Bạn chưa có tên thay thế nào
+      set_alias: Đặt tên thay thế
       from_message:
         no_emotes: Tin nhắn này không có emoji nào trong đó cả!
       delete:
