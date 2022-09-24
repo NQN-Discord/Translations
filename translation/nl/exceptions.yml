@@ -1,16 +1,16 @@
 ---
 exceptions:
   command_not_found: |
-    Command "%{command}" was not found.
-    Use `%{prefix}help` to see the command list
+    Commando "%{command}" was niet gevonden.
+    Gebruik `%{prefix}help` om een lijst met commando's te zien
   missing_required_argument:
     one: |-
-      "%{param}" is a required argument that is missing.
-      It should be: %{should_be}
+      "%{param}" is een verplichte argument dat ontbreekt.
+      Het zou moeten zijn: %{should_be}
     many: |
-      "%{param}" is a required argument that is missing.
-      It should be one of:
-      - %{should_be}
+      "%{param}" is een verplicht argument dat ontbreekt.
+      Het moet een van deze zijn:
+      -%{should_be}
   bot_missing_permissions:
     one: |
       %{bot_ping} is missing the following permission required to run this command:
