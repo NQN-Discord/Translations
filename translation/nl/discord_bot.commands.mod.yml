@@ -43,16 +43,16 @@ discord_bot:
           many: '%{author} heeft %{count} berichten verplaatst van %{from_channel} naar %{to_channel}'
         move_end: Eindbericht verplaatsen
         end_previous_n: Eindbericht %{count} eerder verplaatsen
-        end_next_n: Move end message %{count} after
-        move_start: Move start message
-        start_previous_n: Move start message %{count} before
-        start_next_n: Move start message %{count} after
-        move_both: Move start and end
-        both_previous_n: Move start and end %{count} before
-        both_next_n: Move start and end %{count} after
+        end_next_n: Verplaats eindbericht %{count} erna
+        move_start: Startbericht verplaatsen
+        start_previous_n: Startbericht %{count} eerder verplaatsen
+        start_next_n: Verplaats startbericht %{count} erna
+        move_both: Verplaats begin en einde
+        both_previous_n: Verplaats begin en eind %{count} eerder
+        both_next_n: Verplaats begin en eind %{count} erna
         move:
-          one: Move message!
-          many: Move %{count} messages!
+          one: Verplaats bericht!
+          many: Verplaats %{count} berichten!
         move_all:
-          one: Move message!
-          many: Move all %{count} messages!
+          one: Verplaats bericht!
+          many: Verplaats alle %{count} berichten!
