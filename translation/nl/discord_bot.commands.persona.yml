@@ -3,9 +3,9 @@ discord_bot:
   commands:
     persona:
       not_enabled: |
-        Personas are not enabled in this server.
-        They allow users to use ⚠️**custom usernames** and **avatars**⚠️ with NQN, so are not enabled by default.
-      enable_personas: Enable personas
+        Persona's zijn niet ingeschakeld op deze server.
+        Ze stellen gebruikers in staat om ⚠️**aangepaste gebruikersnamen** en **avatars**⚠️ te gebruiken met NQN, en zijn dus niet standaard ingeschakeld.
+      enable_personas: Persona's inschakelen
       name_regex: |
         Persona names can only contain alphanumerics, dashes and underscores, and be at most 80 characters long.
         > '%{persona_name}' does not match these requirements.
