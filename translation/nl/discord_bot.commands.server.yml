@@ -3,90 +3,90 @@ discord_bot:
   commands:
     server:
       alias:
-        set_emote_title: 'Set \:%{name}: to %{emote} for this server.'
+        set_emote_title: 'Stel \:%{name}: in op %{emote} voor deze server.'
         set_emote_description:
           zero: |
-            This server has no emotes left!
-            For more aliases, anyone can vote for the bot at %{url}
+            Deze server heeft geen emoji's meer!
+            Voor meer aliassen kan iedereen op de bot stemmen op %{url}
 
-            Anyone can use this emote by typing:
+            Iedereen kan deze emoji gebruiken door te typen:
           one: |
-            This server has one emote left before it reaches it's maximum.
-            For more aliases, anyone can vote for the bot at %{url}
+            Deze server heeft nog één emoji over voordat deze zijn maximum bereikt.
+            Voor meer aliassen kan iedereen op de bot stemmen op %{url}
 
-            Anyone can use this emote by typing:
+            Iedereen kan deze emoji gebruiken door te typen:
           many: |
-            This server has %{count} emotes left before it reaches it's maximum.
-            For more aliases, anyone can vote for the bot at %{url}
+            Deze server heeft nog %{count} emoji's over voordat deze zijn maximum bereikt.
+            Voor meer aliassen kan iedereen op de bot stemmen op %{url}
 
-            Anyone can use this emote by typing:
+            Iedereen kan deze emoji gebruiken door te typen:
         failed_aliases:
           one: |
-            One alias which cannot be rendered
+            Eén alias die niet kan worden weergegeven
           many: |
-            %{failed_aliases} aliases which cannot be rendered
-        max_title: This server is at its maximum emote/pack count already!
+            %{failed_aliases} aliassen die niet kunnen worden weergegeven
+        max_title: Deze server heeft al zijn maximale aantal emoji's/pakketten!
         max_description: |
-          :%{name}: was not added as a server emote.
+          :%{name}: is niet toegevoegd als server-emoji.
 
-          For more aliases/packs, anyone can vote for the bot at %{url}
-        no_alias: This server does not have an alias called %{name}
-        renamed: 'Renamed %{emote} from \:%{name}: to :%{new}:'
-        no_aliases: This server has no global aliases
+          Voor meer aliassen/pakketten kan iedereen op de bot stemmen op %{url}
+        no_alias: Deze server heeft geen alias met de naam %{name}
+        renamed: 'Hernoemd %{emote} van \:%{name}: naar :%{new}:'
+        no_aliases: Deze server heeft geen wereldwijde aliassen
       nitro_role:
-        unset: Anyone in this server can use free Nitro emotes with NQN
-        set: Now only users with the %{role} role can use free Nitro emotes with NQN
+        unset: Iedereen op deze server kan gratis Nitro-emoji's gebruiken met NQN
+        set: Nu kunnen alleen gebruikers met de rol %{role} gratis Nitro-emoji's gebruiken met NQN
       audit_channel:
-        unset: Unset the audit channel for this server
-        set: Set the audit channel for this server to %{channel}
-        no_webhooks: "I cannot post webhook messages to %{channel}.\nPlease give me 'Manage Webhooks' there!"
+        unset: Schakel het audit-kanaal voor deze server uit
+        set: Stel het audit-kanaal voor deze server in voor %{channel}
+        no_webhooks: "Ik kan geen webhook-berichten plaatsen op %{channel}.\nGeef me daar 'Webhooks Beheren'!"
       boost_channel:
-        unset: Unset the boost channel for this server
-        set: Set the boost channel for this server to %{channel}
+        unset: Schakel het boostkanaal voor deze server uit
+        set: Stel het boostkanaal voor deze server in voor %{channel}
       boost_role:
-        unset: Unset the boost role for this server
-        set: Set the boost role for this server to %{role}
+        unset: Schakel de boost-rol voor deze server uit
+        set: Stel de boost-rol voor deze server in voor %{role}
       boolean_options:
-        stickers_on: Enabled stickers
-        stickers_off: Disabled stickers
-        nitro_on: Enabled free nitro usage in this server!
-        nitro_off: Disabled free nitro usage in this server
-        replies_on: Enabled message link previews
-        replies_off: Disabled message link previews
-        masked_links_on: Enabled masked URL usage
-        masked_links_off: Disabled masked URL usage
-        pings_on: Enabled pings in reposted messages
-        pings_off: Disabled pings in reposted messages
+        stickers_on: Ingeschakelde stickers
+        stickers_off: Uitgeschakelde stickers
+        nitro_on: Gratis nitro-gebruik op deze server ingeschakeld!
+        nitro_off: Gratis nitro-gebruik op deze server uitgeschakeld
+        replies_on: Voorvertoningen van berichtenlinks ingeschakeld
+        replies_off: Voorvertoningen van berichtenlinks uitgeschakeld
+        masked_links_on: Gebruik van gemaskeerde URL's ingeschakeld
+        masked_links_off: Gebruik van gemaskeerde URL's uitgeschakeld
+        pings_on: Vermelden ingeschakeld in opnieuw geposte berichten
+        pings_off: Vermelden uitgeschakeld in opnieuw geposte berichten
         user_content_on: |
-          Enabled usage of individual user's aliases and packs
-          Sticker settings have not been changed.
+          Ingeschakeld gebruik van aliassen en pakketten van individuele gebruikers
+          Stickerinstellingen zijn niet gewijzigd.
         user_content_off: |
-          Disabled usage of individual user's aliases and packs.
-          Only aliases and packs added with `%{prefix}server alias search` and `%{prefix}server pack search` will be usable, as well as emojis from this server.
-          Stickers have also been automatically disabled.
+          Uitgeschakeld gebruik van aliassen en pakketten van individuele gebruikers.
+          Alleen aliassen en packs die zijn toegevoegd met `%{prefix}server alias search` en `%{prefix}server pack search` zijn bruikbaar, evenals emoji's van deze server.
+          Stickers zijn ook automatisch uitgeschakeld.
         personas_on: |
-          Enabled usage of personas.
-          This allows anyone to set a customisable username and avatar; be warey of impersonation.
+          Gebruik van persona's ingeschakeld.
+          Hierdoor kan iedereen een aanpasbare gebruikersnaam en avatar instellen; pas op voor nabootsing.
 
-          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
-          > ```!server set_audit_channel #channel``` #channel```
-        personas_off: Disabled usage of personas
-        dashboard_posting_on: Enabled posting messages from the bot's dashboard
-        dashboard_posting_off: Disabled posting messages from the bot's dashboard
-        phish_detection_on: Enabled phishing message detection in this server
-        phish_detection_off: Disabled phishing message detection in this server
+          NQN-medewerkers raden aan om een auditkanaal in te stellen bij gebruik van deze functie; als je dat nog niet hebt gedaan, kan het worden ingeschakeld met
+          > ```!server set_audit_channel #kanaal``` #channel```
+        personas_off: Gebruik van persona's uitgeschakeld
+        dashboard_posting_on: Berichten-plaatsen vanaf het dashboard van de bot ingeschakeld
+        dashboard_posting_off: Berichten-plaatsen vanaf het dashboard van de bot uitgeschakeld
+        phish_detection_on: Detectie van phishingberichten op deze server ingeschakeld
+        phish_detection_off: Detectie van phishingberichten op deze server uitgeschakeld
       link:
         no_animated_emotes: |
-          This server has no animated emotes!
-          You can only link animated emotes with this command.
-        too_many_static: This server has too many static emotes! Try deleting some first.
-        animated_only: This command only works with animated emotes - it makes them available in the emote picker for non-nitro users as static ones!
-        emote_not_found: Could not find that emote! Try aliasing it with `%{prefix}alias search`
-        upload_later: Could not upload emote; try again in a few hours
-        choose_emote: 'Choose an emote to create a static link for:'
-        create_static: Create a static emote?
-        create_static_emote: Create a static emote for %{emote}?
-        uploaded: Uploaded %{uploaded}!
+          Deze server heeft geen geanimeerde emoji's!
+          Je kunt met deze commando alleen geanimeerde emoji's koppelen.
+        too_many_static: Deze server heeft te veel statische emoji's! Probeer eerst wat te verwijderen.
+        animated_only: Deze commando werkt alleen met geanimeerde emoji's - het maakt ze beschikbaar in de emojikiezer voor niet-nitro-gebruikers als statische!
+        emote_not_found: Kon die emoji niet vinden! Probeer het een alias te geven met `%{prefix}alias search`
+        upload_later: Kan emoji niet uploaden; probeer het over een paar uur opnieuw
+        choose_emote: 'Kies een emoji om een statische link te maken voor:'
+        create_static: Een statische emoji maken?
+        create_static_emote: Een statische emote maken voor %{emote}?
+        uploaded: '%{uploaded} geüpload!'
         uploaded_emote: "Uploaded %{uploaded}!\nUse it to get %{emote}"
       pack:
         max_title: This server is at its maximum emote/pack count already!
@@ -105,9 +105,9 @@ discord_bot:
           Iedereen op deze server kan nu de volgende emoji's gebruiken door de naam in de chat te typen, inclusief dubbele punten:
         no_packs: "'%{guild_name}s' is niet deelgenomen aan pakketten wereldwijd!"
       prefix:
-        instructions: "To set my prefix, mention me before the desired prefix so as to prevent accidental changes.\n> %{prefix}server prefix %{me} %{new}"
-        no_colon_prefix: NQN does not support prefixes starting with a colon (:)
-        no_slash_prefix: NQN does not support prefixes starting with a slash (/)
+        instructions: "Om mijn prefix in te stellen, vermeldt u mij vóór het gewenste prefix om onbedoelde wijzigingen te voorkomen.\n> %{prefix}server prefix %{me} %{new}"
+        no_colon_prefix: NQN ondersteunt geen prefixen die beginnen met een dubbele punt (:)
+        no_slash_prefix: NQN ondersteunt geen prefixen die beginnen met een slash (/)
         set_prefix: Prefix ingesteld op `%{prefix}`
       language:
         choose: 'Kies mijn nieuwe taal:'
