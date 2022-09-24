@@ -16,56 +16,56 @@ command_docs:
     name: alias
     short_doc: Beheer de individuele emoji's die je kunt gebruiken
     help: |
-      Manage the individual emotes you can use
+      Beheer de individuele emoji's die je kunt gebruiken
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      De zoekopdracht van NQN biedt enkele geavanceerde functies:
+       - `exact`: (standaard onwaar) toon alleen emoji's met de exacte naam zoals gezocht
+       - `geanimeerd`: laat alleen geanimeerde of statische emotes zien
+       - `pagina`: ga naar een bepaalde pagina
+       - `volgorde`: een van de 'gebruiken', 'willekeurige'
   alias-delete:
-    name: delete
-    short_doc: Don't want an alias anymore? Use this
+    name: verwijderen
+    short_doc: Wil je geen alias meer? Gebruik dit
     params:
       alias:
         name: alias
         description: |-
-          Which alias do you want to remove?
+          Welke alias wil je verwijderen?
   alias-delete_all:
-    name: delete_all
-    short_doc: I don't like any of my aliases
+    name: verwijder_alles
+    short_doc: Ik hou niet van een van mij aliassen
     help: |
-      Delete all of your aliases
+      Verwijder al je aliassen
   alias-dm:
     name: dm
-    short_doc: Get a full list of your aliases in DMs
+    short_doc: Krijg een volledige lijst van uw aliassen in DM's
     help: |
-      Have the bot send you a list of your aliases in your DMs
+      Laat de bot je een lijst met je aliassen sturen in je DM's
   alias-export:
-    name: export
-    short_doc: Export your alias list
+    name: exporteren
+    short_doc: Exporteer uw aliaslijst
   alias-import:
-    name: import
-    short_doc: Import someone else's alias list
+    name: importeren
+    short_doc: De aliaslijst van iemand anders importeren
     params:
       file:
-        name: file
+        name: bestand
         description: |-
-          A file previously exported with /alias export
+          Een bestand dat eerder is geëxporteerd met /alias export
   alias-mine:
-    name: mine
-    short_doc: Get a list of aliases you've made
+    name: mijn
+    short_doc: Krijg een lijst met aliassen die je hebt gemaakt
     params:
       page:
-        name: page
+        name: pagina
         description: |-
-          What page to start at?
+          Welke pagina om te beginnen?
   alias-rename:
-    name: rename
-    short_doc: Rename one of your aliases
+    name: hernoem
+    short_doc: Hernoem een van je aliassen
     params:
       old_name:
-        name: old_name
+        name: oude_naam
         description: |-
           What's the name of the emoji you want to give a new name to?
       new_name:
@@ -73,7 +73,7 @@ command_docs:
         description: |-
           What should it be renamed to?
   alias-search:
-    name: search
+    name: zoek
     short_doc: Look for individual emotes
     help: |
       Look for individual emotes to use with NQN
@@ -87,36 +87,36 @@ command_docs:
     name: audit
     short_doc: Get audit logs for reposted messages for this channel
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
+      Ontvang audit-logs voor opnieuw geposte berichten voor dit kanaal
+      Optioneel[Channel] -> Filter logs all alleen op dit kanaal
+      Optioneel[Member] -> Filter logs alleen op dit lid
 
-      If both channel and members are to be unfiltered, use 'audit guild'
+      Als zowel kanaal als leden ongefilterd moeten worden, gebruik dan 'audit guild'
   delete:
-    name: delete
+    name: verwijder
     short_doc: Delete one of your messages reposted by NQN
     help: |
       Delete one of your messages reposted by NQN.
       By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
       You can also use Discord's message reply functionality to delete that message.
   edit:
-    name: edit
+    name: bewerk
     short_doc: Edit a message posted by NQN
     help: |
       Edits the content of one of your messages reposted by NQN.
       By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
       You can also use Discord's message reply functionality to edit that message.
   emote:
-    name: emote
+    name: emoji
     short_doc: Manage your server's emojis
   emote-block:
-    name: block
+    name: blok
     short_doc: Block the use of an emote
     help: |
       Search for emojis to block in this server.
       When this emoji is used, it'll automatically be added to the server's automod list and be removed.
   emote-block-from_emote:
-    name: from_emote
+    name: van_emoji
     short_doc: Block the use of an emote
     params:
       emoji:
@@ -124,7 +124,7 @@ command_docs:
         description: |-
           Which emoji to block the use of?
   emote-block-from_search:
-    name: from_search
+    name: van_zoeken
     short_doc: Block the use of an emote
   emote-block-recently_used:
     name: recently_used
@@ -135,7 +135,7 @@ command_docs:
         description: |-
           Which emoji to block the use of?
   emote-block_list:
-    name: block_list
+    name: blok_list
     short_doc: View the list of emojis blocked in this server
   emote-info:
     name: info
@@ -162,7 +162,7 @@ command_docs:
         description: |-
           Lock which emoji?
       role:
-        name: role
+        name: rol
         description: |-
           Lock the emoji to which role?
   emote-roleunlock:
@@ -172,12 +172,12 @@ command_docs:
       emoji:
         name: emoji
         description: |-
-          Unlock which emoji?
+          Welke emoji ontgrendelen?
   emote-stats:
     name: stats
     short_doc: See how often your server's emotes are used
   emote-unblock:
-    name: unblock
+    name: deblokkeren
     short_doc: Unblock a previously blocked emoji
     params:
       emoji:
@@ -186,7 +186,7 @@ command_docs:
           Which emoji to unblock?
   emote-upload:
     name: upload
-    short_doc: Upload an emote
+    short_doc: Upload een emoji
     help: |
       Search for all the emotes the bot has ever seen and upload them to this server.
       This command allows you to upload emotes.
@@ -239,19 +239,19 @@ command_docs:
     short_doc: Invite the bot to your server!
   mod:
     name: mod
-    short_doc: NQN moderation tools
+    short_doc: NQN-moderatietools
   mod-audit:
     name: audit
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: Ontvang audit-logs voor opnieuw geposte berichten voor dit kanaal
     params:
       channel:
-        name: channel
+        name: kanaal
         description: |-
-          Filter to just messages in this channel
+          Filter op alleen berichten in dit kanaal
       user:
-        name: user
+        name: gebruiker
         description: |-
-          Filter to just messages by this user
+          Filter op alleen berichten van deze gebruiker
     help: |
       Get audit logs for reposted messages for this channel
       Optional[Channel] -> Filter logs to this channel only
