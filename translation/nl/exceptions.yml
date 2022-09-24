@@ -13,46 +13,46 @@ exceptions:
       -%{should_be}
   bot_missing_permissions:
     one: |
-      %{bot_ping} is missing the following permission required to run this command:
+      %{bot_ping} mist de volgende machtiging die nodig is om deze commando uit te voeren:
       %{permissions_missing}
     many: |
-      %{bot_ping} is missing the following permissions required to run this command:
+      %{bot_ping} mist de volgende machtigingen die nodig is om deze commando uit te voeren:
       %{permissions_missing}
   user_missing_permissions:
     one: |
-      You are missing the following permission required to run this command:
+      U mist de volgende machtiging die nodig is om deze commando uit te voeren:
       %{permissions_missing}
     many: |
-      You are missing the following permissions required to run this command:
+      U mist de volgende machtigingen die nodig zijn om deze commando uit te voeren:
       %{permissions_missing}
   message_not_found: |
-    Message "%{param}" not found.
+    Bericht "%{param}" niet gevonden.
   channel_not_found: |
-    Channel "%{channel}" not found.
+    Kanaal "%{channel}" niet gevonden.
   channel_not_readable: |
-    %{bot_ping} is missing the following permission in %{channel}:
+    %{bot_ping} mist de volgende machtiging in %{channel}:
     %{permissions_missing}
   bad_argument:
     one: |
-      Could not interpret argument%{param}; should be:
+      Kon argument%{param} niet interpreteren; zou moeten zijn:
     many: |
-      Could not interpret argument%{param}, should be one of:
+      Kon argument%{param} niet interpreteren, moet een van de volgende zijn:
   no_dms: |
-    This command cannot be ran in DMs
+    Deze commando kan niet worden uitgevoerd in DM's
   permissions_missing_reasons:
     #These translations were designed to be short, and to fit on about 1 line on a mobile screen
     guild: |-
-      %{user_ping}'s roles don't include it
+      De rollen van %{user_ping} bevatten het niet
     member_overwrite: |-
-      Channel permissions explicitly deny %{user_ping}
+      Kanaalmachtigingen weigeren expliciet %{user_ping}
     role_overwrite:
       one: |-
-        Channel permissions denied for the role: %{roles}
+        Kanaalmachtigingen geweigerd voor de rol: %{roles}
       many: |-
-        Channel permissions denied for these roles: %{roles}
+        Kanaalmachtigingen geweigerd voor deze rollen: %{roles}
     member_role_overwrite:
       one: |-
-        Channel permissions explicitly deny %{user_ping} as well as role: %{roles}
+        Kanaalmachtigingen weigeren expliciet %{user_ping} evenals rol: %{roles}
       many: |-
-        Channel permissions explicitly deny %{user_ping} as well as roles: %{roles}
-  no_threads: This command cannot be used in threads.
+        Kanaalmachtigingen weigeren expliciet %{user_ping} evenals rollen: %{roles}
+  no_threads: Deze commando kan niet in threads worden gebruikt.
