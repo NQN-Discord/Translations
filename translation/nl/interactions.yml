@@ -1,9 +1,9 @@
 ---
 interactions:
   not_author: |
-    Only the message author is allowed to interact with this message
+    Alleen de auteur van het bericht mag met dit bericht communiceren
   timed_out: |
-    Interaction timed out.
-    Please run the command again.
+    Interactie time-out. 
+    Voer de commando opnieuw uit.
   bot_timed_out: |
-    NQN has been timed out by a moderator and cannot respond.
+    NQN heeft een time-out gekregen van een moderator en kan niet reageren.
