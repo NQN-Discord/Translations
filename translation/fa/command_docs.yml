@@ -270,21 +270,21 @@ command_docs:
   mod-kick:
     name: بیرون_انداختن
     short_doc: بیرون انداختن کاربری که یک پیام را فرستاده
+  mod-move:
+    name: move
+    short_doc: Move up to 50 of the most recent messages in this channel to another
+    params:
+      channel:
+        name: channel
+        description: |-
+          The target channel to move to
+      messages:
+        name: messages
+        description: |-
+          How many messages to move?
   mod-purge:
     name: پاک_کردن
     short_doc: حذف تعدادی از پیام هایی که توسط بات تبدیل‌شان صورت گرفته در این کانال
-  move:
-    name: انتقال
-    short_doc: انتقال تا حداکثر 50 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
-    params:
-      channel:
-        name: کانال
-        description: |-
-          کانال مقصد برای انتقال
-      messages:
-        name: پیام‌ها
-        description: |-
-          چه تعداد پیام منتقل شوند؟
   mutuals:
     name: اشتراکات
     short_doc: نمایش سرور هایی که من و شما باهم در آنها هستیم
