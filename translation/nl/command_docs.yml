@@ -275,17 +275,17 @@ command_docs:
     name: kick
     short_doc: Kick the user that posted a message
   mod-move:
-    name: move
-    short_doc: Move up to 50 of the most recent messages in this channel to another
+    name: verplaatsen
+    short_doc: Verplaats maximaal 50 van de meest recente berichten in dit kanaal naar een ander
     params:
       channel:
         name: kanaal
         description: |-
-          The target channel to move to
+          Het doelkanaal om naar toe te gaan
       messages:
-        name: messages
+        name: berichten
         description: |-
-          How many messages to move?
+          Hoeveel berichten te verplaatsen?
   mod-purge:
     name: purge
     short_doc: Purge some messages reposted by the bot in this channel
