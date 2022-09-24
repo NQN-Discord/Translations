@@ -276,17 +276,17 @@ command_docs:
     name: espelli
     short_doc: Espelli l'utente che ha pubblicato un messaggio
   mod-move:
-    name: move
-    short_doc: Move up to 50 of the most recent messages in this channel to another
+    name: muovi
+    short_doc: Sposta fino a 50 dei messaggi più recenti da questo canale ad un altro
     params:
       channel:
-        name: channel
+        name: canale
         description: |-
-          The target channel to move to
+          Il canale selezionato in cui muovere
       messages:
-        name: messages
+        name: messaggi
         description: |-
-          How many messages to move?
+          Quanti messaggi spostare?
   mod-purge:
     name: cancella
     short_doc: Elimina alcuni messaggi ripubblicati dal bot in questo canale
