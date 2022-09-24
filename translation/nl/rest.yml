@@ -8,6 +8,6 @@ rest:
       <@%{user}> heeft zojuist gestemd voor de server op %{site}!
       %{guild} kan nu %{max_emotes} serverbreed emoji's gebruiken
     vote_text_rank: |
-      <@%{user}> just voted for the server on %{site}!
-      %{guild} can now use %{max_emotes} serverwide emotes and is ranked #%{guild_rank} #%{guild_rank}
+      <@%{user}> heeft zojuist gestemd voor de server op %{site}!
+      %{guild} kan nu %{max_emotes} serverbreed emotes gebruiken en is gerangschikt #%{guild_rank} #%{guild_rank}
     voted: Gestemd op NQN
