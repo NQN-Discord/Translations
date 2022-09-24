@@ -94,49 +94,49 @@ discord_bot:
           %{name} was not added as a server pack.
 
           For more aliases/packs, anyone can vote for the bot at %{url}
-        left_pack: "'%{guild_name}' left %{name}"
-        not_in_pack: This server didn't have %{name} as a server pack to start with
-        invalid_group: <Invalid pack - Please Report>
-        join_server: (Join server)
-        no_longer_registered: '%{name} is no longer a registered emote pack'
-        already_joined: '%{guild_name} is already joined to %{name}'
+        left_pack: "'%{guild_name}' heeft %{name} verlaten"
+        not_in_pack: Deze server had om te beginnen geen %{name} als serverpakket
+        invalid_group: <Ongeldig pakket - Meld dit alstublieft>
+        join_server: (Aan Server deelnemen)
+        no_longer_registered: '%{name} is niet langer een geregistreerd emoji-pakket'
+        already_joined: '%{guild_name} is al lid van %{name}'
         joined_long: |
-          '%{guild_name}' joined %{name}.
-          Anyone in this server may now use the following emotes by typing its name into chat, including colons:
-        no_packs: "'%{guild_name}s' isn't joined to any packs globally!"
+          '%{guild_name}' is lid geworden van %{name}.
+          Iedereen op deze server kan nu de volgende emoji's gebruiken door de naam in de chat te typen, inclusief dubbele punten:
+        no_packs: "'%{guild_name}s' is niet deelgenomen aan pakketten wereldwijd!"
       prefix:
         instructions: "To set my prefix, mention me before the desired prefix so as to prevent accidental changes.\n> %{prefix}server prefix %{me} %{new}"
         no_colon_prefix: NQN does not support prefixes starting with a colon (:)
         no_slash_prefix: NQN does not support prefixes starting with a slash (/)
-        set_prefix: Set my prefix to `%{prefix}`
+        set_prefix: Prefix ingesteld op `%{prefix}`
       language:
-        choose: 'Choose my new language:'
-        set: Set my language to English for this server
-        this_locale_name: English
+        choose: 'Kies mijn nieuwe taal:'
+        set: Mijn taal is ingesteld op Nederlands
+        this_locale_name: Nederlands
       config:
-        enabled: Enabled
-        disabled: Disabled
+        enabled: Ingeschakeld
+        disabled: Uitgeschakeld
         prefix: Prefix
-        announcement: Announcement channel
-        boost_channel: Boost channel
-        boost_role: Boost role
-        audit_channel: Audit channel
-        nitro_role: Nitro role
+        announcement: Aankondigingskanaal
+        boost_channel: Boost kanaal
+        boost_role: Boost Rol
+        audit_channel: Auditkanaal
+        nitro_role: Nitro Rol
         stickers: Stickers
         nitro: Nitro
-        replies: Message Link Previews
-        masked_links: Masked URLs
+        replies: Berichtenlink Voorbeelden
+        masked_links: Gemaskeerde URL's
         pings: Pings
-        user_content: User Content
-        personas: Personas
+        user_content: Gebruikersinhoud
+        personas: Persona's
         dashboard_posting: Dashboard Posting
-        phish_detection: Phish Detection
-        invite: Invite Link
-        pack: Pack Name
-        public: Public
-        member_count: Members
-        configure_features: Toggle Features
-        settings: Settings
-        channels: Channels
-        features: Features
-        pack_info: Pack Info
+        phish_detection: Phish-detectie
+        invite: Uitnodigingslink
+        pack: Pakket Naam
+        public: Publiek
+        member_count: Leden
+        configure_features: Toggle Functies
+        settings: Instellingen
+        channels: Kanalen
+        features: Functies
+        pack_info: Pakket Info
