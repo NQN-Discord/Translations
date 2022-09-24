@@ -196,9 +196,9 @@ command_docs:
     short_doc: Upload an emoji from an attachment
     params:
       attachment:
-        name: attachment
+        name: bijlage
         description: |-
-          Emoji image
+          Emoji afbeelding
   emote-upload-from_emote:
     name: van_emoji
     short_doc: Upload an emoji from it's name or URL
@@ -206,7 +206,7 @@ command_docs:
       emoji:
         name: emoji
         description: |-
-          Emoji or Emoji URL
+          Emoji of Emoji URL
   emote-upload-from_search:
     name: van_zoeken
     short_doc: Search for an emoji to upload to your server
@@ -215,10 +215,10 @@ command_docs:
     short_doc: Export your emote list
   help:
     name: help
-    short_doc: Learn about my commands
+    short_doc: Leer over mijn commando's
     params:
       command:
-        name: command
+        name: commando
         description: |-
           Wat te leren?
     help: |
@@ -303,20 +303,20 @@ command_docs:
         choices:
           current_server: Current Server
           mutual_servers: Mutual Servers
-          aliases: Aliases
-          packs: Packs
+          aliases: Aliassen
+          packs: Pakketten
   owner:
-    name: owner
+    name: eigenaar
     short_doc: Forbidden knowledge lurks within
   nqn:
     name: nqn
     short_doc: Send a message with NQN
   nqn-message:
-    name: message
+    name: bericht
     short_doc: Post a message with NQN emojis in it
     params:
       message:
-        name: message
+        name: bericht
         description: |-
           The message to post
       persona:
@@ -324,7 +324,7 @@ command_docs:
         description: |-
           The persona to use
       attachment:
-        name: attachment
+        name: bijlage
         description: |-
           An attachment to send
   nqn-single_emoji:
@@ -414,7 +414,7 @@ command_docs:
     short_doc: Allow anyone to join this server via NQN.
     params:
       enabled:
-        name: enabled
+        name: ingeschakeld
         description: |-
           Allow users to join this server through NQN without an invite?
   pack-show:
@@ -452,7 +452,7 @@ command_docs:
         description: |-
           Which persona are you deleting?
   persona-display_name:
-    name: display_name
+    name: weergavenaam
     short_doc: Change the username of a persona
     params:
       persona:
@@ -460,7 +460,7 @@ command_docs:
         description: |-
           Which persona are you changing the username for?
       display_name:
-        name: display_name
+        name: weergavenaam
         description: |-
           What's the new username?
   persona-dm:
@@ -483,7 +483,7 @@ command_docs:
       Import a previously exported list of personas.
       Compatible with PluralKit and Tupperbox.
   persona-list:
-    name: list
+    name: lijst
     short_doc: See a list of your personas
   persona-register:
     name: register
@@ -528,7 +528,7 @@ command_docs:
         description: |-
           Which emoji to react with?
       message:
-        name: message
+        name: bericht
         description: |-
           Which message to react to?
     help: |
@@ -558,7 +558,7 @@ command_docs:
         description: |-
           Een bestand dat eerder is geëxporteerd met /alias export
   server-alias-list:
-    name: list
+    name: lijst
     short_doc: Show all the aliases that anyone in your server can use
     params:
       page:
@@ -600,7 +600,7 @@ command_docs:
         description: |-
           Which channel should NQN post to? (None -> No channel)
   server-language:
-    name: language
+    name: taal
     short_doc: Set the bots language %{locale_flag_emojis}
   server-link:
     name: link
@@ -618,7 +618,7 @@ command_docs:
     short_doc: Enable or disable free nitro usage in this server
   server-pack:
     name: pakket
-    short_doc: Server Packs
+    short_doc: Server Pakketten
   server-pack-join:
     name: deelnemen
     short_doc: Subscribe to an emote pack server-wide
@@ -636,7 +636,7 @@ command_docs:
         description: |-
           Which pack do you want to remove access to from everyone?
   server-pack-list:
-    name: list
+    name: lijst
     short_doc: List the packs this server can use
   server-pack-post:
     name: post
@@ -648,7 +648,7 @@ command_docs:
     name: permissions_debug
     short_doc: Let NQN tell you what permissions it's missing
   server-personas:
-    name: personas
+    name: persona's
     short_doc: Enable or disable usage of personas
     help: |
       Allows users to post with arbitrary usernames and avatars
@@ -674,57 +674,57 @@ command_docs:
     name: message_link_previews
     short_doc: Enable or disable message link previews in this server
   server-settings:
-    name: settings
+    name: instellingen
     short_doc: View the settings for this server
     help: |
       View NQN's server settings, including features, configured channels and pack information.
   server-boost_channel:
-    name: boost_channel
+    name: boost_kanaal
     short_doc: Post whenever someone votes with the server on top.gg
   server-boost_role:
-    name: boost_role
+    name: boost_rol
     short_doc: Give a user this role when they boost this server via NQN
   server-nitro_role:
-    name: nitro_role
-    short_doc: Require users to have a role to use NQN
+    name: nitro_rol
+    short_doc: Vereisen dat gebruikers een rol hebben om NQN te gebruiken
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      Stel een rol in die gebruikers nodig hebben om NQN te gebruiken voor Nitro-reposting
     params:
       role:
         name: rol
         description: |-
-          The role which people need to use NQN's emoji reposting
+          De rol die mensen nodig hebben om de emoji-reposting van NQN te gebruiken
   server-stickers:
     name: stickers
-    short_doc: Enable or disable sticker usage in this guild
+    short_doc: Schakel het gebruik van stickers in deze server in of uit
   server-user_content:
-    name: user_content
-    short_doc: Enable or disable user aliases and packs for this server
+    name: gebruikersinhoud
+    short_doc: Schakel gebruikersaliassen en -pakketten voor deze server in of uit
   sticker:
     name: sticker
-    short_doc: Manage your NQN stickers
+    short_doc: Beheer je NQN stickers
   sticker-create:
-    name: create
-    short_doc: Create a sticker
+    name: creëren
+    short_doc: Maak een sticker
     help: |
-      Create a sticker from a file
-      Upload an image and use this command to turn it into a sticker.
-      The sticker's name is determined by the filename, or what you type in. `sticker create BluePat.png` for example.
-      Sticker names are unique across NQN, once a name is taken, it's gone.
-      Stickers can be a maximum of 8MB large, and names can only be alphanumeric.
-      Stickers need a file extension, which is also alphanumeric.
+      Maak een sticker van een bestand
+      Upload een afbeelding en gebruik deze commando om er een sticker van te maken.
+      De naam van de sticker wordt bepaald door de bestandsnaam, of wat je typt. `sticker create BluePat.png` bijvoorbeeld.
+      Stickernamen zijn uniek binnen NQN, zodra een naam is ingenomen, is deze verdwenen.
+      Stickers mogen maximaal 8 MB groot zijn en namen mogen alleen alfanumeriek zijn.
+      Stickers hebben een bestands-extensie nodig, die ook alfanumeriek is.
   sticker-create-from_attachment:
-    name: from_attachment
-    short_doc: Create a sticker
+    name: uit_bijlage
+    short_doc: Maak een sticker
     params:
       sticker:
         name: sticker
         description: |-
-          The image to turn into a sticker
+          De afbeelding om in een sticker te veranderen
       name:
         name: naam
         description: |-
-          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+          Hoe noem je je sticker. Moet alfanumeriek zijn met een `.` erin, zoals `nqn.nqn`
   sticker-create-from_emote:
     name: van_emoji
     short_doc: Importeer stickers van emoji's
@@ -736,21 +736,21 @@ command_docs:
       name:
         name: naam
         description: |-
-          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+          Hoe noem je je sticker. Moet alfanumeriek zijn met een `.` erin, zoals `nqn.nqn`
   sticker-create-from_search:
     name: van_zoeken
     short_doc: Importeer stickers van emoji's
   sticker-create-from_telegram:
-    name: from_telegram
+    name: uit_telegram
     short_doc: Importeer stickers van telegram
     params:
       telegram_packname:
-        name: telegram_packname
+        name: telegram_pakketnaam
         description: |-
-          The URL to the Telegram sticker pack
+          De URL naar het Telegram-stickerpakket
   sticker-delete:
     name: verwijderen
-    short_doc: Delete a sticker you own
+    short_doc: Verwijder een stickers waarvan je de eigenaar bent
     params:
       name:
         name: naam
