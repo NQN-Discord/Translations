@@ -2,29 +2,29 @@
 discord_bot:
   commands:
     alias:
-      no_alias: "You don't have an alias called \\:%{name}:"
-      could_not_find: Could not find alias
-      alphanumeric: Aliases can only contain alphanumerics and underscores
-      max_length: Alias names can be at most 32 characters long
-      user_zero: You have no aliases
-      set_alias: Set alias
+      no_alias: "U heeft geen alias genaamd \\:%{name}:"
+      could_not_find: Kon alias niet vinden
+      alphanumeric: Aliassen kunnen alleen alfanumerieke tekens en onderstrepingstekens bevatten
+      max_length: Aliasnamen mogen maximaal 32 tegens lang zijn
+      user_zero: Je hebt geen aliassen
+      set_alias: Alias instellen
       from_message:
-        no_emotes: This message doesn't have any custom emojis in it!
+        no_emotes: Dit bericht bevat geen aangepaste emoji's!
       delete:
-        deleted: 'Deleted \:%{name}:'
+        deleted: 'Verwijderd \:%{name}:'
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your aliases.
-          Are you sure you wish to continue?
+          Hiermee worden alle **%{count}** van uw aliassen verwijderd.
+          Weet je zeker dat je wilt doorgaan?
         deleted:
-          one: Deleted 1 alias
-          many: Deleted %{count} aliases
+          one: 1 alias verwijderd
+          many: '%{count} aliases verwijderd'
       created:
-        one: 'You created an alias and can use it by typing:'
-        many: 'You created %{count} aliases and can use them by typing:'
+        one: 'U hebt een alias gemaakt en kunt deze gebruiken door te typen:'
+        many: 'Je hebt %{count} aliassen gemaakt en kunt deze gebruiken door te typen:'
       rename:
-        rename: Rename Alias
-        alias_name: 'Alias Name:'
+        rename: Alias hernoemen
+        alias_name: 'Alias Naam:'
         renamed: 'Renamed \:%{old}: to :%{new}:'
       export:
         exported_short: "Here's your exported aliases:"
