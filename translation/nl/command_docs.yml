@@ -67,25 +67,25 @@ command_docs:
       old_name:
         name: oude_naam
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          Wat is de naam van de emoji die je een nieuwe naam wilt geven?
       new_name:
-        name: new_name
+        name: nieuw_naam
         description: |-
-          What should it be renamed to?
+          Waar moet het naar hernoemd worden?
   alias-search:
     name: zoek
-    short_doc: Look for individual emotes
+    short_doc: Zoek naar individuele emotes
     help: |
-      Look for individual emotes to use with NQN
+      Zoek naar individuele emotes om te gebruiken met NQN
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      De zoekopdracht van NQN biedt enkele geavanceerde functies:
+       - `exact`: (standaard onwaar) toon alleen emotes met de exacte naam zoals gezocht
+       - `animated`: laat alleen geanimeerde of statische emotes zien
+       - `page`: ga naar een bepaalde pagina
+       - `order`: een van de 'gebruiken', 'willekeurige'
   audit:
     name: audit
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: Ontvang audit-logs voor opnieuw geposte berichten voor dit kanaal
     help: |
       Ontvang audit-logs voor opnieuw geposte berichten voor dit kanaal
       Optioneel[Channel] -> Filter logs all alleen op dit kanaal
@@ -94,7 +94,7 @@ command_docs:
       Als zowel kanaal als leden ongefilterd moeten worden, gebruik dan 'audit guild'
   delete:
     name: verwijder
-    short_doc: Delete one of your messages reposted by NQN
+    short_doc: Verwijder een van je berichten die opnieuw zijn gepost door NQN
     help: |
       Delete one of your messages reposted by NQN.
       By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
@@ -147,27 +147,27 @@ command_docs:
           Which emoji to get information about?
   emote-jumbo:
     name: jumbo
-    short_doc: Makes an emoji bigger
+    short_doc: Maakt een emoji groter
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to make jumbo sized?
+          Welke emoji om jumbo-formaat te maken?
   emote-rolelock:
     name: rolelock
-    short_doc: Lock an emoji to a specific set of roles
+    short_doc: Een emoji vergrendelen aan een specifieke set rollen
     params:
       emoji:
         name: emoji
         description: |-
-          Lock which emoji?
+          Welke emoji vergrendelen?
       role:
         name: rol
         description: |-
-          Lock the emoji to which role?
+          Vergrendel de emoji voor welke rol?
   emote-roleunlock:
     name: roleunlock
-    short_doc: Allow anyone to use a locked emote
+    short_doc: Iedereen toestaan een vergrendelde emote te gebruiken
     params:
       emoji:
         name: emoji
@@ -348,26 +348,26 @@ command_docs:
     help: |
       Have the bot send you a complete list of your packs current emoji lists through your DMs.
   pack-join:
-    name: join
+    name: deelnemen
     short_doc: Subscribe to an emote pack
     params:
       pack:
-        name: pack
+        name: pakket
         description: |-
           Which pack do you want to join?
   pack-leave:
-    name: leave
+    name: verlaten
     short_doc: Unsubscribe from an emote pack
     params:
       pack:
-        name: pack
+        name: pakket
         description: |-
           Which pack do you want to leave?
   pack-meta:
     name: meta
     short_doc: Oooh... Pretty stats about your pack
   pack-mine:
-    name: mine
+    name: mijn
     short_doc: Get a list of emote packs you're subscribed to
   pack-publish:
     name: publish
@@ -378,27 +378,27 @@ command_docs:
         description: |-
           What do you want to call your pack?
       public:
-        name: public
+        name: publiek
         description: |-
           Do you want people to be able to join your server through the bot without an invite?
   pack-rename:
-    name: rename
+    name: hernoem
     short_doc: Rename an emote pack
     params:
       new_name:
-        name: new_name
+        name: nieuw_naam
         description: |-
           What do you want to call your pack?
   pack-save:
-    name: save
+    name: opslaan
     short_doc: Upload all of the emotes from a pack to this server
     params:
       name:
-        name: name
+        name: naam
         description: |-
           Which pack are you downloading emojis to this server from?
   pack-search:
-    name: search
+    name: zoek
     short_doc: Find entire packs of emotes
     params:
       search:
@@ -444,7 +444,7 @@ command_docs:
         description: |-
           What's the new avatar URL?
   persona-delete:
-    name: delete
+    name: verwijderen
     short_doc: Delete one of your personas
     params:
       persona:
@@ -753,81 +753,81 @@ command_docs:
     short_doc: Delete a sticker you own
     params:
       name:
-        name: name
+        name: naam
         description: |-
-          Which sticker to delete
+          Welke sticker om te verwijderen
   sticker-import:
-    name: import
-    short_doc: Import stickers from emotes
+    name: importeren
+    short_doc: Importeer stickers van emoji's
     help: |
-      Import stickers from emotes
-      Either from an emote directly, with an optional alias
+      Importeer stickers van emotes
+      Ofwel rechtstreeks vanuit een emote, met een optionele alias
        - sticker import :blue_smirk: smirk.png
-      Or by searching through emotes NQN has.
+      Of door te zoeken in emotes die NQN heeft.
        - sticker import blue pat
-      Note that the searching through emotes option does not support aliasing
+      Merk op dat de optie zoeken via emotes geen aliasing ondersteunt
   sticker-mine:
-    name: mine
-    short_doc: Find my stickers
+    name: mijn
+    short_doc: Vind mijn stickers
   sticker-rename:
-    name: rename
-    short_doc: Rename a sticker you own
+    name: hernoem
+    short_doc: Hernoem een sticker waarvan je de eigenaar bent
     params:
       old_name:
-        name: old_name
+        name: oud_naam
         description: |-
-          Which sticker to rename
+          Welke sticker hernoemen
       new_name:
-        name: new_name
+        name: nieuw_naam
         description: |-
-          What to rename it to?
+          Wat moet je het naar hernoemen?
   sticker-search:
-    name: search
-    short_doc: Search through all the stickers NQN has, with an optional query
+    name: zoek
+    short_doc: Doorzoek alle stickers die NQN heeft, met een optionele zoekopdracht
     params:
       search:
-        name: search
+        name: zoek
         description: |-
-          Which to search for?
+          Waar naar zoeken?
   sticker-telegram:
     name: telegram
-    short_doc: Import stickers from telegram
+    short_doc: Importeer stickers van telegram
   support:
-    name: support
-    short_doc: Need some help with using me?
+    name: ondersteuning
+    short_doc: Hulp nodig bij het gebruik van mij?
   tutorial:
     name: tutorial
-    short_doc: Learn how to use emotes with NQN
+    short_doc: Leer hoe je emoji's kunt gebruiken met NQN
     params:
       about:
-        name: about
+        name: over
         description: |-
-          What to learn about?
+          Wat te leren?
   whois:
-    name: whois
-    short_doc: Find who posted a message
+    name: wie is
+    short_doc: Zoek wie een bericht heeft geplaatst
   _search:
     params:
       search:
-        name: search
+        name: zoek
         description: |-
-          What are you searching for?
+          Wat zoek je?
       exact:
-        name: exact
+        name: precies
         description: |-
-          Show only emojis with exactly this name
+          Toon alleen emoji's met precies deze naam
       animated:
-        name: animated
+        name: geanimeerd
         description: |-
-          Show only animated or static emojis?
+          Alleen geanimeerde of statische emoji's weergeven?
       page:
-        name: page
+        name: pagina
         description: |-
-          Start from a page other than 1
+          Begin vanaf een andere pagina dan 1
       order:
-        name: order
+        name: bestellen
         description: |-
-          Order results by?
+          Resultaten bestellen door?
         choices:
           random: random
-          relevance: relevance
+          relevance: relevantie
