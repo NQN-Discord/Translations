@@ -274,21 +274,21 @@ command_docs:
   mod-kick:
     name: đá
     short_doc: Đá thành viên đã gửi tin nhắn nào đó khỏi server
+  mod-move:
+    name: move
+    short_doc: Move up to 50 of the most recent messages in this channel to another
+    params:
+      channel:
+        name: channel
+        description: |-
+          The target channel to move to
+      messages:
+        name: messages
+        description: |-
+          How many messages to move?
   mod-purge:
     name: xóa_tin_nhắn
     short_doc: Xóa một số tin nhắn được thay thế bởi NQN trong kênh này
-  move:
-    name: chuyển_tin_nhắn
-    short_doc: Di chuyển lên đến 50 tin nhắn gần đây trong kênh này sang kênh khác
-    params:
-      channel:
-        name: kênh
-        description: |-
-          Kênh bạn muốn chuyển tin nhắn đến
-      messages:
-        name: tin_nhắn
-        description: |-
-          Số lượng tin nhắn để chuyển đi
   mutuals:
     name: có_chung
     short_doc: Xem các server mà bạn có chung với tôi
