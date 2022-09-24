@@ -53,7 +53,7 @@ command_docs:
           A file previously exported with /alias export
   alias-mine:
     name: mine
-    short_doc: Get a list of aliases you've made
+    short_doc: Obtenez une liste des alias que vous avez fait
     params:
       page:
         name: page
@@ -275,7 +275,7 @@ command_docs:
     short_doc: Exclu l'auteur d'un message
   mod-move:
     name: move
-    short_doc: Move up to 50 of the most recent messages in this channel to another
+    short_doc: Déplace jusqu'à 50 des messages les plus récents de ce canal vers un autre
     params:
       channel:
         name: channel
@@ -300,9 +300,9 @@ command_docs:
         description: |-
           Which emojis to show?
         choices:
-          current_server: Current Server
-          mutual_servers: Mutual Servers
-          aliases: Aliases
+          current_server: Serveur actuel
+          mutual_servers: Serveurs en commun
+          aliases: Alias
           packs: Packs
   owner:
     name: owner
@@ -377,7 +377,7 @@ command_docs:
         description: |-
           What do you want to call your pack?
       public:
-        name: public
+        name: publique
         description: |-
           Do you want people to be able to join your server through the bot without an invite?
   pack-rename:
@@ -413,7 +413,7 @@ command_docs:
     short_doc: Permet à tout le monde de rejoindre ce serveur via NQN.
     params:
       enabled:
-        name: enabled
+        name: activé
         description: |-
           Allow users to join this server through NQN without an invite?
   pack-show:
@@ -514,7 +514,7 @@ command_docs:
       Recalcule vos informations premium, incluant la liste des serveurs obtenant le premium grâce à vous.
   premium-help:
     name: help
-    short_doc: Information about NQN premium
+    short_doc: Informations à propos du premium NQN
   ranking:
     name: ranking
     short_doc: Où se situe votre serveur dans nos classements ?
@@ -593,7 +593,7 @@ command_docs:
     short_doc: Active ou désactive l'envoi de message via le tableau de bord du bot
   server-audit_channel:
     name: audit_channel
-    short_doc: Post messages the bot reposts
+    short_doc: Poste les messages que le bot reposte
     params:
       channel:
         name: channel
@@ -648,7 +648,7 @@ command_docs:
     name: permissions_debug
     short_doc: Laissez NQN vous dire quelles sont les permissions qui lui manquent
   server-personas:
-    name: personas
+    name: personnages
     short_doc: Active ou désactive l'utilisation de personnages
     help: |
       Permet aux utilisateurs de poster avec des pseudos et des avatars arbitraires
@@ -661,7 +661,7 @@ command_docs:
     name: phish_detection
     short_doc: Enable or disable phishing message detection for this server
   server-prefix:
-    name: prefix
+    name: préfixe
     short_doc: Fait en sorte que NQN écoute sur un préfixe différent.
     help: |
       Fait en sorte que NQN écoute sur un préfixe différent.
@@ -674,28 +674,28 @@ command_docs:
     name: message_link_previews
     short_doc: Enable or disable message link previews in this server
   server-settings:
-    name: settings
+    name: paramètres
     short_doc: Affiche les paramètres pour ce serveur
     help: |
       Affiche les paramètres NQN pour ce serveur, incluant les fonctionnalités, les canaux configurés et les informations des packs.
   server-boost_channel:
     name: boost_channel
-    short_doc: Post whenever someone votes with the server on top.gg
+    short_doc: Poste à chaque fois qu'une personne vote pour le serveur sur top.gg
   server-boost_role:
     name: boost_role
-    short_doc: Give a user this role when they boost this server via NQN
+    short_doc: Donne à un utilisateur ce rôle lorsqu'il boost le serveur via NQN
   server-nitro_role:
     name: nitro_role
-    short_doc: Require users to have a role to use NQN
+    short_doc: Exige que les utilisateurs aient un rôle pour pouvoir utiliser NQN
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      Définit un rôle que les utilisateurs ont besoin pour pouvoir utiliser NQN
     params:
       role:
         name: role
         description: |-
           The role which people need to use NQN's emoji reposting
   server-stickers:
-    name: stickers
+    name: autocollants
     short_doc: Active ou désactive l'utilisation des autocollants sur ce serveur
   server-user_content:
     name: user_content
@@ -727,7 +727,7 @@ command_docs:
           What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
   sticker-create-from_emote:
     name: from_emote
-    short_doc: Import stickers from emotes
+    short_doc: Importe des autocollants depuis des emojis
     params:
       emoji:
         name: emoji
@@ -739,10 +739,10 @@ command_docs:
           What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
   sticker-create-from_search:
     name: from_search
-    short_doc: Import stickers from emotes
+    short_doc: Importe des autocollants depuis des emojis
   sticker-create-from_telegram:
     name: from_telegram
-    short_doc: Import stickers from telegram
+    short_doc: Importe des autocollants depuis telegram
     params:
       telegram_packname:
         name: telegram_packname
@@ -794,10 +794,10 @@ command_docs:
     name: telegram
     short_doc: Importe des autocollants depuis telegram
   support:
-    name: support
+    name: aide
     short_doc: Besoin d'aide pour m'utiliser ?
   tutorial:
-    name: tutorial
+    name: tutoriel
     short_doc: Apprendre à utiliser les emojis avec NQN
     params:
       about:
