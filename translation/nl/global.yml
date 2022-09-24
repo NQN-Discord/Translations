@@ -1,48 +1,48 @@
 ---
 global:
-  deleted_channel: '#DeletedChannel'
-  author: Author
-  jump_to_message: Jump
-  go_to_message: Go to message!
-  reply_to: 'Reply to:'
-  cancelled: Cancelled
+  deleted_channel: '#VerwijderdKanaal'
+  author: Auteur
+  jump_to_message: Spring
+  go_to_message: Ga naar bericht!
+  reply_to: 'Antwoord aan:'
+  cancelled: Geannuleerd
   website: Website
   details: Details
-  fix_permissions: Fix Permissions
-  success: Success
+  fix_permissions: Machtigingen repareren
+  success: Succes
   yes: Yes
   no: No
-  dm_me: DM Me
-  next: Next
-  previous: Previous
-  choose_emote: Choose some emotes
+  dm_me: DM Mij
+  next: Volgende
+  previous: Vorige
+  choose_emote: Kies paar emoji's
   learn:
-    aliases: Learn more about aliases
-    packs: Learn more about packs
-    my_emotes: Find emojis I can use
-    personas: Learn more about personas
-  missing_permissions: Missing Permissions
-  missing_add_reaction: I need the 'Add Reactions' permission for this command!
-  missing_create_invite: I need the 'Create Instant Invite' permission for this command!
-  tabulated_delete_manage_messages: Could not delete menu - please give me Manage Messages
-  no_nitro_global: Nitro usage has been disabled in this server!
-  no_nitro_role: Only users with the <@&%{role}> role can use this command!
-  user_missing_administrator: You are missing the 'Administrator' permission to run this command.
-  user_missing_add_reaction: You are missing the 'Add Reactions' permission to run this command.
+    aliases: Leer meer over aliassen
+    packs: Leer meer over packs
+    my_emotes: Zoek emoji's die ik kan gebruiken
+    personas: Leer meer over persona's
+  missing_permissions: Ontbrekende Machtigingen
+  missing_add_reaction: Ik heb deze machtiging 'Reacties Toevoegen' nodig voor deze commando!
+  missing_create_invite: Ik heb de machtiging 'Directe uitnodiging Creëren' nodig voor deze commando!
+  tabulated_delete_manage_messages: Kon menu niet verwijderen - geef me alsjeblieft Berichten Beheren
+  no_nitro_global: Nitro-gebruik is uitgeschakeld op deze server!
+  no_nitro_role: Alleen gebruikers met de rol <@&%{role}> kunnen deze commando gebruiken!
+  user_missing_administrator: U mist de machtiging 'Beheerder' om deze commando uit te voeren.
+  user_missing_add_reaction: U mist de machtiging 'Reacties Toevoegen' om deze commando uit te voeren.
   tabulated_default_results:
-    one: "%{count} result (Page %{page_no} of %{total}):\n%{contents}"
-    many: "%{count} results (Page %{page_no} of %{total}):\n%{contents}"
+    one: "%{count} resultaat (Pagina %{page_no} van %{total}):\n%{contents}"
+    many: "%{count} resultaten (Pagina %{page_no} van %{total}):\n%{contents}"
   tabulated_results_page:
-    zero: No emotes found
-    one: Page %{page_no} of %{total}%{note}
-    many: Page %{page_no} of %{total}%{note}
-  page_no: 'Page %{page} of %{total}:'
-  no_results: No results
-  loading: <a:loading:674758249291186191> Processing...
-  timed_out: Timed out - try again
-  global_check_failed: You are not allowed to use %{cmd_name}
+    zero: Geen emoji's gevonden
+    one: Pagina %{page_no} van %{total}%{note}
+    many: Pagina %{page_no} van %{total}%{note}
+  page_no: 'Pagina %{page} van %{total}:'
+  no_results: Geen resultaten
+  loading: <a:loading:674758249291186191> Verwerken...
+  timed_out: Time-out - probeer het opnieuw
+  global_check_failed: U mag %{cmd_name} niet gebruiken
   requires_user_content: |
-    User content is not allowed in this server.
+    Gebruikersinhoud is niet toegestaan op deze server.
   requires_user_content_admin: |
     User content is not allowed in this server. You can allow it with
     > ```%{prefix}server user_content on```
