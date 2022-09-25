@@ -787,7 +787,7 @@ command_docs:
     name: telegram
     short_doc: Импортирует стикеры из Telegram
   support:
-    name: сервер поддержки
+    name: сервер_поддержки
     short_doc: Нужна помощь в использовании меня?
   tutorial:
     name: обучение
