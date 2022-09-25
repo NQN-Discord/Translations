@@ -9,7 +9,7 @@ command_docs:
   delete_message:
     name: Delete Message
   edit_message:
-    name: Edit Message
+    name: ویرایش پیام
   find_author:
     name: Find Author
   alias:
@@ -148,7 +148,7 @@ command_docs:
     short_doc: یک ایموجی را بزرگ‌تر می‌کند
     params:
       emoji:
-        name: emoji
+        name: شکلک
         description: |-
           Which emoji to make jumbo sized?
   emote-rolelock:
@@ -156,7 +156,7 @@ command_docs:
     short_doc: قفل کردن استفاده از یک ایموجی به یکسری رول های خاص
     params:
       emoji:
-        name: emoji
+        name: شکلک
         description: |-
           کدام ایموجی قفل شود؟
       role:
@@ -270,10 +270,7 @@ command_docs:
   mod-kick:
     name: بیرون_انداختن
     short_doc: بیرون انداختن کاربری که یک پیام را فرستاده
-  mod-purge:
-    name: پاک_کردن
-    short_doc: حذف تعدادی از پیام هایی که توسط بات تبدیل‌شان صورت گرفته در این کانال
-  move:
+  mod-move:
     name: انتقال
     short_doc: انتقال تا حداکثر 50 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
     params:
@@ -285,6 +282,9 @@ command_docs:
         name: پیام‌ها
         description: |-
           چه تعداد پیام منتقل شوند؟
+  mod-purge:
+    name: پاک_کردن
+    short_doc: حذف تعدادی از پیام هایی که توسط بات تبدیل‌شان صورت گرفته در این کانال
   mutuals:
     name: اشتراکات
     short_doc: نمایش سرور هایی که من و شما باهم در آنها هستیم
@@ -363,7 +363,7 @@ command_docs:
     name: meta
     short_doc: اوه اینجا رو نگاه... یه سری اطلاعات درباره بسته شکلک شما
   pack-mine:
-    name: mine
+    name: دراختیارمن
     short_doc: دریافت لیستی از بسته هایی که شما مشترک آنها شدید
   pack-publish:
     name: publish
@@ -374,15 +374,15 @@ command_docs:
         description: |-
           What do you want to call your pack?
       public:
-        name: public
+        name: عمومی
         description: |-
           Do you want people to be able to join your server through the bot without an invite?
   pack-rename:
-    name: rename
+    name: تغییرنام
     short_doc: تغییر نام یک بسته شکلک
     params:
       new_name:
-        name: new_name
+        name: نام_جدید
         description: |-
           What do you want to call your pack?
   pack-save:
@@ -394,15 +394,15 @@ command_docs:
         description: |-
           Which pack are you downloading emojis to this server from?
   pack-search:
-    name: search
+    name: جستجو
     short_doc: گشتن به دنبال بسته شکلک های متفاوت
     params:
       search:
-        name: search
+        name: جستجو
         description: |-
           What kind of emojis are you looking for?
       page:
-        name: page
+        name: صفحه
         description: |-
           Which page of packs to start on?
   pack-set_public:
@@ -410,7 +410,7 @@ command_docs:
     short_doc: NQN اجازه دادن به پیوستن همه از طریق دعوت توسط
     params:
       enabled:
-        name: enabled
+        name: فعال
         description: |-
           Allow users to join this server through NQN without an invite?
   pack-show:
@@ -418,21 +418,21 @@ command_docs:
     short_doc: نمایش محتوای یک بسته
     params:
       pack:
-        name: pack
+        name: بسته
         description: |-
           Which pack to show the emojis of?
   pack-unpublish:
     name: unpublish
     short_doc: برداشتن انتشار شکلک های این سرور
   persona:
-    name: persona
+    name: پرسونا
     short_doc: مدیریت پرسونا های شما
   persona-avatar_url:
     name: avatar_url
     short_doc: تنظیم آواتار یک پرسونا
     params:
       persona:
-        name: persona
+        name: پرسونا
         description: |-
           Which persona are you changing the username for?
       avatar_url:
@@ -440,11 +440,11 @@ command_docs:
         description: |-
           What's the new avatar URL?
   persona-delete:
-    name: delete
+    name: حذف
     short_doc: حذف یکی از پرسونا های شما
     params:
       persona:
-        name: persona
+        name: پرسونا
         description: |-
           Which persona are you deleting?
   persona-display_name:
@@ -452,7 +452,7 @@ command_docs:
     short_doc: تغییر نام‌کاربری یک پرسونا
     params:
       persona:
-        name: persona
+        name: پرسونا
         description: |-
           Which persona are you changing the username for?
       display_name:
@@ -460,26 +460,26 @@ command_docs:
         description: |-
           What's the new username?
   persona-dm:
-    name: dm
+    name: دایرکت
     short_doc: ارسال پیام مستقیم از لیستی کامل از پرسونا های شما
   persona-export:
-    name: export
+    name: استخراج
     short_doc: استخراج لیست پرسونا های شما درون یک فایل
     help: |
       استخراج لیست پرسونا های شما درون یک فایل، که با بقیه بات ها سازگاری هم داشته باشد
   persona-import:
-    name: import
+    name: واردکردن
     short_doc: وارد کردن یک لیست از پرسونا های از قبل استخراج شده
     params:
       file:
-        name: file
+        name: فایل
         description: |-
           A file previously exported with /persona export
     help: |
       وارد کردن یک لیست از پرسونا های از قبل استخراج شده.
       با بات های PluralKit و Tupperbox سازگاری دارد.
   persona-list:
-    name: list
+    name: لیست
     short_doc: مشاهده لیستی از پرسونا های شما
   persona-register:
     name: register
@@ -490,15 +490,15 @@ command_docs:
         description: |-
           What's your persona's prefix?
   persona-rename:
-    name: rename
+    name: تغییرنام
     short_doc: دادن یک نام متفاوت به یکی از پرسونا های شما
     params:
       persona:
-        name: persona
+        name: پرسونا
         description: |-
           Which persona are you changing the prefix of?
       new_name:
-        name: new_name
+        name: نام_جدید
         description: |-
           What will the new prefix be?
   premium:
@@ -510,8 +510,8 @@ command_docs:
     help: |
       محاسبه مجدد اطلاعات پریمیوم شما، از جمله لیستی از سرور هایی که از پریمیوم شما منفعت می برند.
   premium-help:
-    name: help
-    short_doc: Information about NQN premium
+    name: راهنما
+    short_doc: NQN اطلاعات مربوط به پریمیوم بات
   ranking:
     name: ranking
     short_doc: در سطح‌بندی ما، سرور شما در چه رده‌ای قرار دارد؟
@@ -520,11 +520,11 @@ command_docs:
     short_doc: ری‌اکت کردن به یک پیام با ایموجی های مختلف
     params:
       emoji:
-        name: emoji
+        name: شکلک
         description: |-
           Which emoji to react with?
       message:
-        name: message
+        name: پیام
         description: |-
           Which message to react to?
     help: |
@@ -535,30 +535,30 @@ command_docs:
     name: server
     short_doc: Server Configuration
   server-alias:
-    name: alias
+    name: اختصار
     short_doc: Server Aliases
   server-alias-delete:
-    name: delete
+    name: حذف
     short_doc: از یک شکلک خوشتان نیامد؟ خب کاری کنید که بقیه برای استفاده از آن، خودشان زحمت بکشند
     params:
       alias:
-        name: alias
+        name: اختصار
         description: |-
-          Which alias do you want to remove?
+          کدام اختصار را میخواهید حذف کنید؟
   server-alias-import:
-    name: import
+    name: واردکردن
     short_doc: وارد کردن لیستی از اختصار های سرور با یک فایل.
     params:
       file:
-        name: file
+        name: فایل
         description: |-
-          A file previously exported with /alias export
+          یک فایل که با /alias export از قبل استخراج شده
   server-alias-list:
-    name: list
+    name: لیست
     short_doc: نمایش لیستی از اختصار هایی که همه در سرور می توانند از آنها استفاده کنند
     params:
       page:
-        name: page
+        name: صفحه
         description: |-
           Which page to start at?
   server-alias-post:
@@ -566,33 +566,33 @@ command_docs:
     short_doc: ارسال یک لیست از اختصار های سرور
     params:
       channel:
-        name: channel
+        name: کانال
         description: |-
           Which channel do you want to post the server-wide emoji list to?
   server-alias-rename:
-    name: rename
+    name: تغییرنام
     short_doc: تغییر نام یک اختصار سرور
     params:
       old_name:
-        name: old_name
+        name: نام_قبلی
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          نام ایموجی که میخواهید به آن یک نام جدید بدهید، چیست؟
       new_name:
-        name: new_name
+        name: نام_جدید
         description: |-
-          What should it be renamed to?
+          باید به چه نامی تغییر یابد؟
   server-alias-search:
-    name: search
+    name: جستجو
     short_doc: اجازه دادن به همه در این سرور برای استفاده از یک شکلک!
   server-dashboard_posting:
     name: dashboard_posting
     short_doc: فعال یا غیرفعال سازی استفاده از داشبورد سایت برای ارسال پیام
   server-audit_channel:
     name: audit_channel
-    short_doc: Post messages the bot reposts
+    short_doc: ارسال پیام هایی که بات آنها را تبدیل می کند
     params:
       channel:
-        name: channel
+        name: کانال
         description: |-
           Which channel should NQN post to? (None -> No channel)
   server-language:
@@ -603,53 +603,53 @@ command_docs:
     short_doc: ساخت یک شکلک ثابت به عنوان نسخه متحرک آن، که با فرستادن نسخه ثابت، به نسخه متحرکش تبدیل شود!
     params:
       emoji:
-        name: emoji
+        name: شکلک
         description: |-
           Which emoji to create a static version of?
   server-masked_links:
     name: masked_links
     short_doc: فعال کردن متن های لینک دار در این سرور
   server-nitro:
-    name: nitro
+    name: نیترو
     short_doc: استفاده رایگان از شکلک های نیترو را در این سرور فعال یا غیرفعال می‌کند
   server-pack:
-    name: pack
+    name: بسته
     short_doc: Server Packs
   server-pack-join:
-    name: join
+    name: پیوستن
     short_doc: مشترک شدن به یک بسته شکلک به صورت گسترده در بین سرور ها
     params:
       pack:
-        name: pack
+        name: بسته
         description: |-
           Which pack do you want to allow everyone in this server to use?
   server-pack-leave:
-    name: leave
+    name: ترک
     short_doc: لغو اشتراک یک بسته شکلک به صورت گسترده در بین سرور ها
     params:
       pack:
-        name: pack
+        name: بسته
         description: |-
           Which pack do you want to remove access to from everyone?
   server-pack-list:
-    name: list
+    name: لیست
     short_doc: لیست بسته هایی که این سرور می تواند استفاده کند
   server-pack-post:
     name: post
     short_doc: ارسال یک لیست از بسته شکلک های سرور
   server-pack-search:
-    name: search
+    name: جستجو
     short_doc: جستجو در بین بسته شکلک های به صورت گسترده در بین سرور ها
   server-permissions_debug:
     name: permissions_debug
     short_doc: به نمایش دسترسی هایی که کم دارد NQN اجازه دادن به
   server-personas:
-    name: personas
+    name: پرسونا ها
     short_doc: فعال یا غیرفعال سازی استفاده از پرسونا ها
     help: |
       اجازه دادن به کاربران برای استفاده از نام ها و آواتار های غیرحقیقی
   server-pings:
-    name: pings
+    name: پینگ‌ها
     short_doc: فعال یا غیرفعال کردن استفاده از پینگ ها در پیام های این سرور
     help: |
       فعال یا غیرفعال کردن استفاده از پینگ ها در پیام های این سرور
@@ -657,7 +657,7 @@ command_docs:
     name: phish_detection
     short_doc: فعال یا غیرفعال کردن تشخیص فیشینگ از پیام های این سرور
   server-prefix:
-    name: prefix
+    name: پیشوند
     short_doc: NQN تعیین پیشوند جدید برای استفاده از
     help: |
       تعیین پیشوند جدید برای استفاده NQN.
@@ -670,28 +670,28 @@ command_docs:
     name: پیشنمایش‌لینک‌پیام
     short_doc: فعال یا غیرفعال کردن پیشنمایش لینک پیام ها در این سرور
   server-settings:
-    name: settings
+    name: تنظیمات
     short_doc: نمایش تنظیمات این سرور
     help: |
       نمایش تنظیمات NQN در سرور، از جمله ویژگی ها، کانال های تنظیم شده و اطلاعات مرتبط به بسته های شکلک.
   server-boost_channel:
     name: boost_channel
-    short_doc: Post whenever someone votes with the server on top.gg
+    short_doc: ارسال پیام هروقت که فردی به بات در top.gg رائ داد
   server-boost_role:
     name: boost_role
-    short_doc: Give a user this role when they boost this server via NQN
+    short_doc: دادن این رول توسط NQN وقتی یک کاربر سرور را بوست کرد
   server-nitro_role:
     name: nitro_role
-    short_doc: Require users to have a role to use NQN
+    short_doc: نیازمند به یک رول می کند NQN کاربر را برای استفاده از
     help: |
-      Set a role that users need to use NQN for Nitro reposting
+      برای استفاده کاربر از ویژگی نیتروی NQN، یک رول الزامی را تنظیم می کند
     params:
       role:
         name: رول
         description: |-
           رولی که مردم برای استفاده از تبدیل کردن پیام NQN به آن نیاز دارند
   server-stickers:
-    name: stickers
+    name: استیکر ها
     short_doc: فعال یا غیرفعال سازی استفاده از استیکر ها در این سرور
   server-user_content:
     name: user_content
@@ -710,7 +710,7 @@ command_docs:
       استیکر ها فقط میتوانند حداکثر 8 مگابایت حجم داشته باشند، و نام‌هایشان هم فقط باید متشکل از حروف الفبا یا اعداد انگلیسی باشد.
       استیکر ها به یک فایل افزونه نیازمند هستند، که آن هم از حروف الفبا و اعداد تشکیل می شود.
   sticker-create-from_attachment:
-    name: from_attachment
+    name: از_ضمیمه
     short_doc: Create a sticker
     params:
       sticker:
@@ -722,11 +722,11 @@ command_docs:
         description: |-
           What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
   sticker-create-from_emote:
-    name: from_emote
-    short_doc: Import stickers from emotes
+    name: از_شکلک
+    short_doc: وارد کردن استیکر ها از شکلک ها
     params:
       emoji:
-        name: emoji
+        name: شکلک
         description: |-
           …
       name:
@@ -734,18 +734,18 @@ command_docs:
         description: |-
           What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
   sticker-create-from_search:
-    name: from_search
-    short_doc: Import stickers from emotes
+    name: از_جستجو
+    short_doc: وارد کردن استیکر ها از شکلک ها
   sticker-create-from_telegram:
     name: from_telegram
-    short_doc: Import stickers from telegram
+    short_doc: وارد کردن استیکر از تلگرام
     params:
       telegram_packname:
         name: telegram_packname
         description: |-
           The URL to the Telegram sticker pack
   sticker-delete:
-    name: delete
+    name: حذف
     short_doc: حذف یک استیکر
     params:
       name:
@@ -753,7 +753,7 @@ command_docs:
         description: |-
           Which sticker to delete
   sticker-import:
-    name: import
+    name: واردکردن
     short_doc: وارد کردن استیکر ها از شکلک ها
     help: |
       وارد کردن استیکر ها از شکلک ها
@@ -763,49 +763,49 @@ command_docs:
       - sticker import blue pat
       توجه داشته باشید که جستجو در بین شکلک ها از اختصار های سفارشی پشتیبانی نمی کند
   sticker-mine:
-    name: mine
+    name: دراختیارمن
     short_doc: دریافت لیست استیکر های شما
   sticker-rename:
-    name: rename
+    name: تغییرنام
     short_doc: تغییر نام یک استیکر
     params:
       old_name:
-        name: old_name
+        name: نام_قبلی
         description: |-
           Which sticker to rename
       new_name:
-        name: new_name
+        name: نام_جدید
         description: |-
           What to rename it to?
   sticker-search:
-    name: search
+    name: جستجو
     short_doc: البته با جستار های اختیاری ،NQN جستجو در بین همه استیکر های
     params:
       search:
-        name: search
+        name: جستجو
         description: |-
           Which to search for?
   sticker-telegram:
     name: telegram
     short_doc: وارد کردن استیکر از تلگرام
   support:
-    name: support
+    name: پشتیبانی
     short_doc: یکم کمک برای استفاده از من لازم دارید؟
   tutorial:
-    name: tutorial
+    name: آموزش
     short_doc: NQN آشنایی بیشتر با نحوه استفاده از شکلک های
     params:
       about:
         name: about
         description: |-
-          What to learn about?
+          آیا مایل هستید که بیشتر بیاموزید؟
   whois:
     name: whois
     short_doc: پیدا کردن کسی که این پیام را برای تبدیل فرستاده
   _search:
     params:
       search:
-        name: search
+        name: جستجو
         description: |-
           What are you searching for?
       exact:
@@ -817,7 +817,7 @@ command_docs:
         description: |-
           Show only animated or static emojis?
       page:
-        name: page
+        name: صفحه
         description: |-
           Start from a page other than 1
       order:

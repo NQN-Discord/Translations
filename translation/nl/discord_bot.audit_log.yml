@@ -1,21 +1,21 @@
 ---
 discord_bot:
   audit_log:
-    cropped: (Cropped)
-    nsfw_censored: <Censored; %{channel} is NSFW>
+    cropped: (Bijgesneden)
+    nsfw_censored: <Gecensureerd; %{channel} is NSFW>
     message_posted: |
-      Message posted in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      Bericht geplaatst in %{channel} bij %{author} %{cropped}
+      [Spring Link](%{jump_url})
     message_posted_persona: |
-      Message posted in %{channel} by %{author} %{cropped}
-      ⚠️ Using Persona ⚠️
+      Bericht geplaatst in %{channel} bij %{author} %{cropped}
+      ⚠️ Persona gebruiken ⚠️
       > **%{persona}**
-      [Jump Link](%{jump_url})
+      [Spring Link](%{jump_url})
     message_edited: |
-      Message edited in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      Bericht bewerkt in %{channel} bij %{author} %{cropped}
+      [Spring Link](%{jump_url})
     phish_deleted: |
-      Deleted phishing message in %{channel} by %{author}
+      Phishingbericht verwijderd in %{channel} bij %{author}
     blocked_message: |
-      Deleted message with blocked emotes in %{channel} by %{author}
-    audit_log_post: NQN on behalf of %{author} (%{id})
+      Verwijderd bericht met geblokkeerde emoji's in %{channel} bij %{author}
+    audit_log_post: NQN namens %{author} (%{id})

@@ -3,67 +3,67 @@ discord_bot:
   parameter_types:
     #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
     SearchTerms:
-      name: Search terms
+      name: Zoektermen
       description: |-
-        Search terms
+        Zoektermen
     Message:
-      name: Message
+      name: Bericht
       description: |-
-        A Discord reply to the message you want to target
-        - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
-        - A message id in the current channel (`123456789`)
-        - ChannelID-MessageID pair (`123456789-123456789`)
-        - How many messages ago it was in current channel (`5` messages ago)
+        Een Discord-antwoord op het bericht dat u wilt targeten
+        - Een bericht-URL (`https://discord.com/channels/123456789/123456789/123456789`)
+        - Een bericht-ID in het huidige kanaal (`123456789`)
+        - KanaalID-BerichtID-paar (`123456789-123456789`)
+        - Hoeveel berichten geleden het was in het huidige kanaal (`5` berichten geleden)
     PartialEmoji:
       name: Emoji
       description: |-
-        A rendered Discord emoji or an emoji URL
+        Een weergegeven Discord-emoji of een emoji-URL
     TextChannel:
-      name: Text Channel
+      name: Tekst Kanaal
       description: |
-        A text channel mention
+        Een vermelding van een tekstkanaal
     User:
-      name: User
+      name: Gebruiker
       description: |
-        A user mention
+        Een gebruikersvermelding
     Role:
-      name: Role
+      name: Rol
       description: |
-        A role mention or name
+        Een rolvermelding of naam
     NQNEmoji:
       name: NQNEmoji
       description: |
-        An unrendered emoji NQN can transform
-        - A rendered Discord emoji or an emoji URL
+        Een niet-gerenderde emoji NQN kan transformeren
+        - Een weergegeven Discord-emoji of een emoji-URL
     BlockedEmoji:
-      name: BlockedEmoji
+      name: GeblokkeerdEmoji
       description: |-
-        The name of an emoji that's blocked in this server
+        De naam van een emoji die is geblokkeerd op deze server
     CurrentGuildEmoji:
       name: ServerEmoji
       description: |
-        An emoji in the current server
+        Een emoji op de huidige server
     None:
-      name: Empty
+      name: Leeg
       description: |
-        No argument
+        Geen argument
     str:
       name: String
       description: |
-        Some text
+        Wat tekst
     int:
-      name: Integer
+      name: Geheel getal
       description: |
-        A number
+        Een getal
     bool:
-      name: Boolean
+      name: Booleaans
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
-      name: List
+      name: Lijst
       description: |-
-        At least
+        Tenminste
     Union:
-      name: Union
+      name: Unie
       description: |-
-        One of the following:
+        Een van de volgende:

@@ -274,21 +274,21 @@ command_docs:
   mod-kick:
     name: kick
     short_doc: Kick the user that posted a message
+  mod-move:
+    name: taşımak
+    short_doc: Bu kanaldaki en son 50 mesajı başka bir kanala taşıyın
+    params:
+      channel:
+        name: kanal
+        description: |-
+          Taşınacak hedef kanal
+      messages:
+        name: mesajlar
+        description: |-
+          Kaç mesaj taşınacak?
   mod-purge:
     name: purge
     short_doc: Purge some messages reposted by the bot in this channel
-  move:
-    name: move
-    short_doc: Move up to 50 of the most recent messages in this channel to another
-    params:
-      channel:
-        name: channel
-        description: |-
-          The target channel to move to
-      messages:
-        name: messages
-        description: |-
-          How many messages to move?
   mutuals:
     name: mutuals
     short_doc: See the servers I share with you
