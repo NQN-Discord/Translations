@@ -274,10 +274,7 @@ command_docs:
   mod-kick:
     name: đá
     short_doc: Đá thành viên đã gửi tin nhắn nào đó khỏi server
-  mod-purge:
-    name: xóa_tin_nhắn
-    short_doc: Xóa một số tin nhắn được thay thế bởi NQN trong kênh này
-  move:
+  mod-move:
     name: chuyển_tin_nhắn
     short_doc: Di chuyển lên đến 50 tin nhắn gần đây trong kênh này sang kênh khác
     params:
@@ -289,6 +286,9 @@ command_docs:
         name: tin_nhắn
         description: |-
           Số lượng tin nhắn để chuyển đi
+  mod-purge:
+    name: xóa_tin_nhắn
+    short_doc: Xóa một số tin nhắn được thay thế bởi NQN trong kênh này
   mutuals:
     name: có_chung
     short_doc: Xem các server mà bạn có chung với tôi

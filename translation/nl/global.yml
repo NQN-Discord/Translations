@@ -1,77 +1,76 @@
 ---
 global:
-  deleted_channel: '#DeletedChannel'
-  author: Author
-  jump_to_message: Jump
-  go_to_message: Go to message!
-  reply_to: 'Reply to:'
-  cancelled: Cancelled
+  deleted_channel: '#VerwijderdKanaal'
+  author: Auteur
+  jump_to_message: Spring
+  go_to_message: Ga naar bericht!
+  reply_to: 'Antwoord aan:'
+  cancelled: Geannuleerd
   website: Website
   details: Details
-  fix_permissions: Fix Permissions
-  success: Success
+  fix_permissions: Machtigingen repareren
+  success: Succes
   yes: Yes
   no: No
-  dm_me: DM Me
-  next: Next
-  previous: Previous
-  choose_emote: Choose some emotes
+  dm_me: DM Mij
+  next: Volgende
+  previous: Vorige
+  choose_emote: Kies paar emoji's
   learn:
-    aliases: Learn more about aliases
-    packs: Learn more about packs
-    my_emotes: Find emojis I can use
-    personas: Learn more about personas
-  missing_permissions: Missing Permissions
-  missing_add_reaction: I need the 'Add Reactions' permission for this command!
-  missing_create_invite: I need the 'Create Instant Invite' permission for this command!
-  tabulated_delete_manage_messages: Could not delete menu - please give me Manage Messages
-  no_nitro_global: Nitro usage has been disabled in this server!
-  no_nitro_role: Only users with the <@&%{role}> role can use this command!
-  user_missing_administrator: You are missing the 'Administrator' permission to run this command.
-  user_missing_add_reaction: You are missing the 'Add Reactions' permission to run this command.
+    aliases: Leer meer over aliassen
+    packs: Leer meer over packs
+    my_emotes: Zoek emoji's die ik kan gebruiken
+    personas: Leer meer over persona's
+  missing_permissions: Ontbrekende Machtigingen
+  missing_add_reaction: Ik heb deze machtiging 'Reacties Toevoegen' nodig voor deze commando!
+  missing_create_invite: Ik heb de machtiging 'Directe uitnodiging Creëren' nodig voor deze commando!
+  tabulated_delete_manage_messages: Kon menu niet verwijderen - geef me alsjeblieft Berichten Beheren
+  no_nitro_global: Nitro-gebruik is uitgeschakeld op deze server!
+  no_nitro_role: Alleen gebruikers met de rol <@&%{role}> kunnen deze commando gebruiken!
+  user_missing_administrator: U mist de machtiging 'Beheerder' om deze commando uit te voeren.
+  user_missing_add_reaction: U mist de machtiging 'Reacties Toevoegen' om deze commando uit te voeren.
   tabulated_default_results:
-    one: "%{count} result (Page %{page_no} of %{total}):\n%{contents}"
-    many: "%{count} results (Page %{page_no} of %{total}):\n%{contents}"
+    one: "%{count} resultaat (Pagina %{page_no} van %{total}):\n%{contents}"
+    many: "%{count} resultaten (Pagina %{page_no} van %{total}):\n%{contents}"
   tabulated_results_page:
-    zero: No emotes found
-    one: Page %{page_no} of %{total}%{note}
-    many: Page %{page_no} of %{total}%{note}
-  page_no: 'Page %{page} of %{total}:'
-  no_results: No results
-  loading: <a:loading:674758249291186191> Processing...
-  timed_out: Timed out - try again
-  global_check_failed: You are not allowed to use %{cmd_name}
+    zero: Geen emoji's gevonden
+    one: Pagina %{page_no} van %{total}%{note}
+    many: Pagina %{page_no} van %{total}%{note}
+  page_no: 'Pagina %{page} van %{total}:'
+  no_results: Geen resultaten
+  loading: <a:loading:674758249291186191> Verwerken...
+  timed_out: Time-out - probeer het opnieuw
+  global_check_failed: U mag %{cmd_name} niet gebruiken
   requires_user_content: |
-    User content is not allowed in this server.
+    Gebruikersinhoud is niet toegestaan op deze server.
   requires_user_content_admin: |
-    User content is not allowed in this server. You can allow it with
-    > ```%{prefix}server user_content on```
+    Gebruikersinhoud is niet toegestaan op deze server. Je kunt het toestaan met > ```%{prefix}server user_content on```
   error_message: |
-    An error occurred whilst processing your command. It may not have completed correctly.
-    For help, and to report this as an issue, please join the testing server for this bot:
+    Er is een fout opgetreden tijdens het verwerken van uw commando. Het is mogelijk niet correct voltooid.
+    Voor hulp en om dit als een probleem te melden, wordt u verzocht lid te worden van de testserver voor deze bot: 
     https://discord.gg/mv8RbHD
 
-    Error code: `%{event_id}`
+    Foutcode: `%{event_id}`
   user_abused: |
-    The bot owner or global moderators have blocked you from using this bot due to previous abuse.
-    You cannot use any commands or otherwise make use of the bot's functionality.
+    De boteigenaar of de wereldwijde moderators hebben je het gebruik van deze bot geblokkeerd vanwege eerder misbruik.
+    U kunt geen commando's meer gebruiken of andere functionaliteit gebruiken van de bot.
   user_spammed: |
-    You have been temporarily blocked from using NQN for triggering our automated spam detection system.
-    This message will only be sent at most once a day, and there is no way to appeal this block.
+    U bent tijdelijk geblokkeerd voor het gebruiken van NQN voor het van ons geautomatiseerde spamdetectiesysteem.
+    Dit bericht wordt maximaal één keer per dag verzonden en er is geen mogelijkheid om tegen deze blokkering in beroep te gaan.
 
-    You will be unblocked in under **5 minutes** from now.
+    U wordt vanaf nu binnen **5 minuten** gedeblokkeerd.
   support_server: |
-    You can join my support server here:
+    Je kunt hier lid worden van mijn ondersteuningsserver:
     http://discord.gg/XvzDPca
-    You can report bugs, request new features or ask for clarifications on how to use me.
+    U kunt bugs melden, nieuwe functies aanvragen of om opheldering vragen over hoe u mij kunt gebruiken.
   premium_required: |
-    To do this, you need to be a subscriber to NQN's Patreon: https://www.patreon.com/NQN
+    Om dit te doen, moet u een abonnee zijn van NQN's Patreon: https://www.patreon.com/NQN
   invite_bad_perms:
     title: |
-      Hi, thanks for inviting NQN to %{guild_name}!
+      Hi, bedankt voor het uitnodigen van NQN voor %{guild_name}!
     content: |
-      We've looked around and found that we don't quite have all the permissions we need to function properly though.
-      To fix this so you can properly use the bot, a link's been generated which will give all the relevent permissions to the bot:
+      We hebben rondgekeken en ontdekten dat we niet helemaal over alle rechten beschikken die we nodig hebben om goed te kunnen functioneren.
+      Om dit op te lossen, zodat je de bot goed kunt gebruiken, is er een link gegenereerd die alle relevante rechten aan de bot geeft:
 
-      **[Fix Permissions](%{invite_url})**
-  webhook_limit: Webhook limit reached! Cannot run in this channel!
+      **[Machtigingen Herstellen](%{invite_url})**
+  webhook_limit: Webhook-limit bereikt! Kan niet worden uitgevoerd in dit kanaal!

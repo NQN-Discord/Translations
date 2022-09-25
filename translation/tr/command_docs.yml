@@ -1,3 +1,4 @@
+---
 command_docs:
   gain_access_to_emojis:
     name: Gain access to emojis
@@ -11,7 +12,6 @@ command_docs:
     name: Edit Message
   find_author:
     name: Find Author
-
   alias:
     name: alias
     short_doc: Manage the individual emotes you can use
@@ -275,17 +275,17 @@ command_docs:
     name: kick
     short_doc: Kick the user that posted a message
   mod-move:
-    name: move
-    short_doc: Move up to 50 of the most recent messages in this channel to another
+    name: taşımak
+    short_doc: Bu kanaldaki en son 50 mesajı başka bir kanala taşıyın
     params:
       channel:
-        name: channel
+        name: kanal
         description: |-
-          The target channel to move to
+          Taşınacak hedef kanal
       messages:
-        name: messages
+        name: mesajlar
         description: |-
-          How many messages to move?
+          Kaç mesaj taşınacak?
   mod-purge:
     name: purge
     short_doc: Purge some messages reposted by the bot in this channel
@@ -604,8 +604,7 @@ command_docs:
     short_doc: Set the bots language %{locale_flag_emojis}
   server-link:
     name: link
-    short_doc: Create a static emote, which when used posts an animated version of
-      the emote instead!
+    short_doc: Create a static emote, which when used posts an animated version of the emote instead!
     params:
       emoji:
         name: emoji
@@ -807,7 +806,6 @@ command_docs:
   whois:
     name: whois
     short_doc: Find who posted a message
-
   _search:
     params:
       search:

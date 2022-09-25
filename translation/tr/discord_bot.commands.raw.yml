@@ -3,88 +3,88 @@ discord_bot:
   commands:
     raw:
       buttons:
-        commands: Commando's
+        commands: Commands
         tutorial: Tutorial
-        my_emotes: Mijn Emoties
+        my_emotes: My Emotes
       depreciated_commands:
         renamed: |
-          Dit commando is hernoemd naar `%{prefix}%{new}`.
-          Wil je dit bericht niet meer zien, reageer dan met ❌
-        ignored: '`%{name}` genegeerd voor jou.'
+          This command has been renamed to `%{prefix}%{new}`.
+          If you don't want to see this message again, react with ❌
+        ignored: Ignored `%{name}` for you.
       edit:
-        never_posted: Je hebt nog nooit een bericht met NQN op dit kanaal geplaatst!
+        never_posted: You've never posted a message with NQN in this channel!
         message_deleted: |
-          Je meest recente bericht met NQN in dit kanaal is verwijderd!
-          Kies een bericht door het te beantwoorden met Discord of door de spring-URL te plakken
-        cannot_edit_no_nqn: U kunt dit bericht niet targeten omdat het geen bericht is dat NQN heeft gepost!
-        cannot_edit_different_user: Je kunt dit bericht niet targeten omdat het niet door jou is gepost!
-        edit_message: Bewerk Bericht
-        new_content: 'Nieuwe inhoud:'
+          Your most recent message with NQN in this channel has been deleted!
+          Please choose a message either by replying to it with Discord, or by pasting it's jump URL
+        cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
+        cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
+        edit_message: Edit Message
+        new_content: 'New Content:'
       delete:
-        deleted: Bericht succesvol verwijderd
+        deleted: Message successfully deleted
       export:
-        exported_list_short: "Hier zijn je geëxporteerde emoji's:"
+        exported_list_short: "Here's your exported emotes:"
         exported_list_long: |
-          Hier zijn je geëxporteerde emoji's
-          Om ze met andere mensen te delen, moeten ze het volgende uitvoeren:
+          Here's your exported emotes
+          To share them with other people, they need to run:
           > `%{prefix}alias import %{url}`
       ignore_me:
-        user_ignored: NQN zal uw berichten niet langer opnieuw plaatsen. Voer deze commando opnieuw uit om opnieuw in te schakelen
-        user_unignored: NQN zal je berichten zoals normaal opnieuw posten
+        user_ignored: NQN will no longer repost your messages. Run this command again to re-enable
+        user_unignored: NQN will repost your messages as normal
       invite:
-        add_nqn: Voeg NQN toe aan je server!
+        add_nqn: Add NQN to your server!
       my_emotes:
-        current_guild: Huidige Server
-        mutual_guilds: Gemeenschappelijke Servers
-        aliases: Aliassen
-        packs: Pakketten
+        current_guild: Current Server
+        mutual_guilds: Mutual Servers
+        aliases: Aliases
+        packs: Packs
         no_mutual_guilds: |
-          Met NQN kun je elke emoji van onze gemeenschappelijke servers op deze server gebruiken.
-          Op dit moment heb je geen gemeenschappelijke servers met NQN, afgezien van deze.
+          NQN allows you to use any emoji from our mutual servers in this server.
+          Currently, you do not have any mutual servers with NQN, aside from this one.
 
-          Als je wilt, kun je [NQN uitnodigen naar een andere server](%{bot_invite}) om hier toegang te krijgen tot de emoji's.
+          If you want, you can [invite NQN to another server](%{bot_invite}) to gain access to it's emojis here.
       ranking:
-        vote_link: Je kunt op de bot stemmen op %{url} om meer serverwijd emoji's toe te voegen en de rang van de server te verhogen.
-        top_server: Gefeliciteerd met het zijn van de meest ondersteunende server <a:BluePat:679807864327766048>
-        thanks: Bedankt voor het stemmen op de bot!
+        vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
+        top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
+        thanks: Thanks for voting for the bot!
         ranking: |
-          %{guild} is gerangschikt op #%{rank} van alle servers die NQN gebruiken.
+          %{guild} is ranked #%{rank} out of all the servers using NQN.
 
           %{rank_leaderboard}
-          Je hebt %{total_votes} keer gestemd voor NQN. %{thanks}
+          You have voted %{total_votes} times for NQN. %{thanks}
 
           %{user_ranking}
 
           %{extra_message}
       emote_stats:
-        top_emotes: "Meest gebruikte emoji's op deze server"
-        choose_page: "Kies een pagina"
-        never: "Nooit gebruikt"
-        once: "Een keer gebruikt"
-        infrequent: "Niet vaak gebruikt"
-        often: "Vaker gebruikt"
-        frequent: "Vaak gebruikt"
-        extreme: "Extreem vaak gebruikt"
-        extraordinary: "Buitengewoon vaak gebruikt"
-        off_chart: "Uit de kaart"
+        top_emotes: "Top used emojis in this server"
+        choose_page: "Choose a page"
+        never: "Never used"
+        once: "Used once"
+        infrequent: "Infrequent use"
+        often: "Used often"
+        frequent: "Frequent use"
+        extreme: "Extremely frequent use"
+        extraordinary: "Extraordinarily frequently used"
+        off_chart: "Off the chart"
         times_used:
-          zero: "Nooit gebruikt"
-          one: "Een keer gebruikt"
-          many: "~%{count} keer gebruikt"
+          zero: "Never used"
+          one: "Used once"
+          many: "~%{count} times used"
         times_used_per_day:
-          zero: "Minder dan één keer per dag"
-          one: "Ongeveer één keer per dag"
+          zero: "Less than once per day"
+          one: "About once per day"
           many: "~%{count} times per day"
         emote_count:
           zero: "No emotes"
-          one: "1 emoji"
-          many: "%{count} emoji's"
+          one: "1 emote"
+          many: "%{count} emotes"
         boundary: "~%{min} - %{max} times used"
       tutorial:
-        choose_page: Zoek een Tutorial
-        invalid_page: Er zijn slechts %{count} pagina's in de tutorial!
-        permissions_missing: Ik moet embeds kunnen schrijven en reacties kunnen toevoegen om mijn tutorial te laten zien. Het kan opnieuw worden uitgevoerd met `%{prefix}tutorial`.
-        wrong_place: Als ik de verkeerde plaats heb gekozen om dit bericht weer te geven, kun je %{prefix}tutorial in een handiger kanaal gebruiken om deze tutorial daar uit te voeren. Deze tutorial heeft meerdere pagina's; voer de %{prefix}tutorial uit om ze te tonen nadat ze verdwenen zijn.
+        choose_page: Browse Tutorial
+        invalid_page: There are only %{count} pages in the tutorial!
+        permissions_missing: I need to be able to write embeds and add reactions to show my tutorial. It can be reran with `%{prefix}tutorial`.
+        wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
         default_emojis: Default Emojis
         default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
         page_0_title: Tutorial for Not Quite Nitro, TLDR

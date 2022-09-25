@@ -275,10 +275,7 @@ command_docs:
   mod-kick:
     name: espelli
     short_doc: Espelli l'utente che ha pubblicato un messaggio
-  mod-purge:
-    name: cancella
-    short_doc: Elimina alcuni messaggi ripubblicati dal bot in questo canale
-  move:
+  mod-move:
     name: muovi
     short_doc: Sposta fino a 50 dei messaggi più recenti da questo canale ad un altro
     params:
@@ -290,6 +287,9 @@ command_docs:
         name: messaggi
         description: |-
           Quanti messaggi spostare?
+  mod-purge:
+    name: cancella
+    short_doc: Elimina alcuni messaggi ripubblicati dal bot in questo canale
   mutuals:
     name: condivisi
     short_doc: Visualizza i server che condivido con te

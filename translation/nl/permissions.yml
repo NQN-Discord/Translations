@@ -1,72 +1,76 @@
 ---
 permissions:
   add_reactions: |-
-    Add Reactions
+    Reacties Toevoegen
   administrator: |-
-    Administrator
+    Beheerder
   attach_files: |-
-    Attach Files
+    Voeg Bestanden Toe
   ban_members: |-
-    Ban Members
+    Leden Verbannen
   change_nickname: |-
-    Change Nickname
+    Gebruikersnaam Wijzigen
   connect: |-
-    Connect
+    Aansluiten
   create_instant_invite: |-
-    Create Instant Invite
+    Maak Directe Uitnodiging
   deafen_members: |-
-    Deafen Members
+    Onhoorbaar Leden
   embed_links: |-
-    Embed Links
+    Ingesloten Links
   external_emojis: |-
-    External Emojis
+    Externe Emoji's
   kick_members: |-
-    Kick Members
+    Kick Leden
   manage_channels: |-
-    Manage Channels
+    Kanalen Beheren
   manage_emojis: |-
-    Manage Emojis
+    Emoji's Beheren
   manage_guild: |-
-    Manage Server
+    Server Beheren
   manage_messages: |-
-    Manage Messages
+    Berichten Beheren
   manage_nicknames: |-
-    Manage Nicknames
+    Gebruikersnamen Beheren
   manage_permissions: |-
-    Manage Roles
+    Rollen Beheren
   manage_roles: |-
-    Manage Roles
+    Rollen Beheren
+  manage_threads: |-
+    Threads Beheren
+  manage_posts: |-
+    Posts Beheren
   manage_webhooks: |-
-    Manage Webhooks
+    Webhooks Beheren
   mention_everyone: |-
-    Mention Everyone
+    Everyone Vermelden
   move_members: |-
-    Move Members
+    Leden Verplaatsen
   mute_members: |-
-    Mute Members
+    Leden Dempen
   priority_speaker: |-
-    Priority Speaker
+    Prioirteitsspreker
   read_message_history: |-
-    Read Message History
+    Berichtgeschiedenis Lezen
   read_messages: |-
-    Read Messages
+    Berichten Lezen
   send_messages: |-
-    Send Messages
+    Berichten Verzenden
   send_tts_messages: |-
-    Send TTS Messages
+    Tekst-Naar-Spraakberichten Verzenden
   speak: |-
-    Speak
+    Spreken
   stream: |-
     Stream
   use_external_emojis: |-
-    Use External Emojis
+    Externe Emoji's Gebruiken
   use_public_threads: |-
-    Use Public Threads
+    Openbare Threads Gebruiken
   use_voice_activation: |-
-    Use Voice Activation
+    Spraakactivatie Gebruiken
   view_audit_log: |-
-    View Audit Log
+    Audit-Logboek Weergeven
   view_channel: |-
-    View Channel
+    Kanaal Bekijken
   view_guild_insights: |-
-    View Server Insights
+    Serverinzichten Bekijken
