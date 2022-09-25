@@ -133,7 +133,8 @@ class Translator(metaclass=Singleton):
         "ms": "ms",
         "it": "it",
         "vi": "vi",
-        "fa": "fa"
+        "fa": "fa",
+        "nl": "nl"
     }
 
     locale_flags = {
