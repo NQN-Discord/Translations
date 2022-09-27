@@ -1,21 +1,21 @@
 ---
 discord_bot:
   audit_log:
-    cropped: (Cropped)
-    nsfw_censored: <Censored; %{channel} is NSFW>
+    cropped: (經過裁剪)
+    nsfw_censored: <審查; %{channel} 是限制級頻道>
     message_posted: |
-      Message posted in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      %{author} 在 %{channel} 發布信息 %{cropped}
+      [查看](%{jump_url})
     message_posted_persona: |
-      Message posted in %{channel} by %{author} %{cropped}
-      ⚠️ Using Persona ⚠️
+      %{author} 在 %{channel} 發布信息 %{cropped}
+      ⚠️ 使用角色 ⚠️
       > **%{persona}**
-      [Jump Link](%{jump_url})
+      [查看](%{jump_url})
     message_edited: |
-      Message edited in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      %{author} 在 %{channel} 編輯信息 %{cropped}
+      [查看](%{jump_url})
     phish_deleted: |
-      Deleted phishing message in %{channel} by %{author}
+      已刪除 %{author} 在 %{channel} 發布的可疑信息
     blocked_message: |
-      Deleted message with blocked emotes in %{channel} by %{author}
-    audit_log_post: NQN on behalf of %{author} (%{id})
+      已刪除 %{author} 在 %{channel} 發布含有禁用表情符號的信息
+    audit_log_post: NQN 代表 %{author} (%{id})
