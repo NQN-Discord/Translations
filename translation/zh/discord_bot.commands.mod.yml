@@ -3,7 +3,7 @@ discord_bot:
   commands:
     mod:
       audit:
-        no_messages: 沒有可以審查的信息。
+        no_messages: 沒有可以審查的訊息。
         expand: 展開
         truncate: 收縮
       edit_topic:
@@ -20,14 +20,14 @@ discord_bot:
         cannot_kick: 我不能踢出 <@%{kickee}> ！
         you_cannot_kick: 您不能踢出 <@%{kickee}> ！
         kicked: 已踢出 <@%{kickee}> (ID %{kickee})
-        kicked_audit: '%{author} kicked <@%{kickee}> (ID %{kickee})'
+        kicked_audit: '%{author} 踢出了 <@%{kickee}> (ID %{kickee})'
       purge:
-        '0_100': Number of messages to move must be between 1 and 100
+        '0_100': 刪除的信息數量必須在1至10之間
         audit:
-          one: '%{author} purged %{count} message in %{channel}'
-          many: '%{author} purged %{count} messages in %{channel}'
+          one: '%{author} 刪除了%{count} 條在 %{channel} 裡的訊息'
+          many: '%{author} 刪除了%{count} 條在 %{channel} 裡的訊息'
       move:
-        user_no_perms: You don't have both 'Send Messages' and 'Manage Messages' in %{channel}.
+        user_no_perms: 您在 %{channel} 中沒有「傳送訊息」和「管理訊息」的權限。
         me_no_perms: I need to have 'Read Messages', 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
         message_limit: Number of messages to move must be between 1 and %{count}
         forum_modal_title: Create a new post
