@@ -3,23 +3,23 @@ discord_bot:
   commands:
     mod:
       audit:
-        no_messages: No messages to audit.
-        expand: Expand
-        truncate: Truncate
+        no_messages: 沒有可以審查的信息。
+        expand: 展開
+        truncate: 收縮
       edit_topic:
-        edited: Edited %{channel}'s topic.
-        edited_audit: "%{author} edited %{channel}'s topic to:\n>>> %{description}"
+        edited: 已編輯 %{channel} 頻道主題。
+        edited_audit: "%{author} 編輯了 %{channel} 的頻道主題：\n>>> %{description}"
       ban:
-        owner: I cannot ban the owner!
-        cannot_ban: I cannot ban <@%{banee}>!
-        you_cannot_ban: You cannot ban <@%{banee}>!
-        banned: Banned <@%{banee}> (ID %{banee})
-        banned_audit: '%{author} banned <@%{banee}> (ID %{banee})'
+        owner: 我不能對伺服器主人停權！
+        cannot_ban: 我不能對 <@%{banee}> 停權！
+        you_cannot_ban: 您不能對 <@%{banee}> 停權！
+        banned: 已對 <@%{banee}> 停權 (ID %{banee})
+        banned_audit: '%{author} 已對 <@%{banee}> 停權 (ID %{banee})'
       kick:
-        owner: I cannot kick the owner!
-        cannot_kick: I cannot kick <@%{kickee}>!
-        you_cannot_kick: You cannot kick <@%{kickee}>!
-        kicked: Kicked <@%{kickee}> (ID %{kickee})
+        owner: 我不能踢出伺服器主人！
+        cannot_kick: 我不能踢出 <@%{kickee}> ！
+        you_cannot_kick: 您不能踢出 <@%{kickee}> ！
+        kicked: 已踢出 <@%{kickee}> (ID %{kickee})
         kicked_audit: '%{author} kicked <@%{kickee}> (ID %{kickee})'
       purge:
         '0_100': Number of messages to move must be between 1 and 100
