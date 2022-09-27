@@ -74,24 +74,24 @@ discord_bot:
         times_used_per_day:
           zero: "Minder dan één keer per dag"
           one: "Ongeveer één keer per dag"
-          many: "~%{count} times per day"
+          many: "~%{count} keer per dag"
         emote_count:
-          zero: "No emotes"
+          zero: "Geen emoji's"
           one: "1 emoji"
           many: "%{count} emoji's"
-        boundary: "~%{min} - %{max} times used"
+        boundary: "~%{min} - %{max} keer gebruikt"
       tutorial:
         choose_page: Zoek een Tutorial
         invalid_page: Er zijn slechts %{count} pagina's in de tutorial!
         permissions_missing: Ik moet embeds kunnen schrijven en reacties kunnen toevoegen om mijn tutorial te laten zien. Het kan opnieuw worden uitgevoerd met `%{prefix}tutorial`.
         wrong_place: Als ik de verkeerde plaats heb gekozen om dit bericht weer te geven, kun je %{prefix}tutorial in een handiger kanaal gebruiken om deze tutorial daar uit te voeren. Deze tutorial heeft meerdere pagina's; voer de %{prefix}tutorial uit om ze te tonen nadat ze verdwenen zijn.
-        default_emojis: Default Emojis
+        default_emojis: Standaar Emoji's
         default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
         page_0_title: Tutorial for Not Quite Nitro, TLDR
         page_0_desc: |
           %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
           > `%{prefix}server language`
-        page_0_0_name: More Emotes?
+        page_0_0_name: Meer emoji's?
         page_0_0_desc: |
           Everyone is able to use any emote that shares a server with both you and this bot.
           **There are several other ways to use emotes in servers you are not in:**
@@ -99,7 +99,7 @@ discord_bot:
         page_0_1_desc: '> `%{prefix}pack search`'
         page_0_2_name: "4\u20E3 Aliases - Individual Emotes"
         page_0_2_desc: '> `%{prefix}alias search EmoteName`'
-        page_1_title: Reactions
+        page_1_title: Reacties
         page_1_desc: You can only react with emotes you can use with NQN.
         page_1_0_name: 'Reacting to the most recent message:'
         page_1_0_desc: '> `%{prefix}react EmoteName`'
@@ -109,9 +109,9 @@ discord_bot:
         page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nThis only works up to 20 messages ago."
         page_1_3_name: 'Reacting to messages:'
         page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
-        page_1_4_name: Deleting messages
+        page_1_4_name: Berichten verwijderen
         page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
-        page_2_title: Packs
+        page_2_title: Pakketten
         page_2_desc: |
           A pack is a bundle of emojis. After joining a pack, you gain access to the emojis it has.
         page_2_0_name: Joining emote packs
@@ -126,7 +126,7 @@ discord_bot:
           If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emote packs:
           > `%{prefix}pack publish MySuperCoolEmotePackName`
           You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
-        page_3_title: Aliases
+        page_3_title: Aliassen
         page_3_desc: |
           Aliases are just individual emotes which you give a name, and are then usable via that name.
 
@@ -167,14 +167,14 @@ discord_bot:
           To view your stickers, use `%{prefix}stickers mine`.
 
           Note - to use Telegram stickers, you must first import them to the bot. The bot does not do this automatically.
-        page_7_title: Personas
+        page_7_title: Persona's
         page_7_desc: |
           Personas allow anyone in your server to assume a given username and avatar distinct from their own.
           In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
 
           To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
           > name: Rest of message
-        page_8_title: Server Administration
+        page_8_title: Serverbeheer
         page_8_desc: |
           NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
           Anyone with **Manage Server** permissions can change server settings with the bot.
@@ -210,7 +210,7 @@ discord_bot:
 
           An alternate approach which stays inside Discord is the Audit Channel, which can be set with `%{prefix}server set_audit_channel #channel`.
           Any resent messages will be posted there with their current username, discriminator and user id.
-        page_8_3_name: 'Permissions:'
+        page_8_3_name: 'Machtigingen:'
         page_8_3_desc: |
           NQN requires the 'Manage Webhooks' server permission to correctly function; reposting messages will not work without this.
 
@@ -223,7 +223,7 @@ discord_bot:
           Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
 
           Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
-        page_9_title: Advanced Usage
+        page_9_title: Geavanceerd Gebruik
         page_9_desc: |
           If someone uses an emote, NQN allows you to use it as well, but only if it's been recently used in the server.
           **NOTE:** If you've only just invited NQN, it won't know about any recently used emotes before it joined.
@@ -245,7 +245,7 @@ discord_bot:
           Hey %{user_ping}!
           The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
           *NQN will remove its reactions after %{time} seconds.*
-        channel_empty: This channel is empty
+        channel_empty: Dit kanaal is leeg
         invalid_react:
           one: |
             The following emote is not valid:
@@ -272,20 +272,20 @@ discord_bot:
             Could not find emotes %{not_found}
             Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
         too_many_reacts:
-          one: This message has too many reactions to add a new one!
-          many: This message has too many reactions to add them all!
+          one: Dit bericht heeft te veel reacties om een nieuwe toe te voegen!
+          many: Dit bericht heeft te veel reacties om ze allemaal toe te voegen!
         reacting:
-          one: Adding %{count} reaction; remember to react yourself for them to stay!
-          many: Adding %{count} reactions; remember to react yourself for them to stay!
-        blocked: '%{author} has blocked me, so I cannot add that reaction!'
-        on_behalf: NQN on behalf of %{author} (%{author_id})
-        audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
+          one: '%{count} reactie toevoegen; vergeet niet om zelf te reageren zodat ze blijven!'
+          many: '%{count} reacties toevoegen; vergeet niet om zelf te reageren zodat ze blijven!'
+        blocked: '%{author} heeft mij geblokkeerd, dus ik kan die reactie niet toevoegen!'
+        on_behalf: NQN namens %{author} (%{author_id})
+        audit_message: "%{author} reageerde op [dit bericht](<%{jump_url}>) in %{channel} met deze emoji's:\n"
       info:
         shard_data: |
-          > No. shards: %{shard_count} (%{shards_down} down)
-          > Average latency: %{average_latency}ms
-          > Current shard: %{current_shard}
-          > Current shard latency: %{current_latency}ms
+          > Aantal shards: %{shard_count} (%{shards_down} omlaag)
+          > Gemiddelde latentie: %{average_latency}ms
+          > Huidige shard: %{current_shard}
+          > Huidige shard-latentie: %{current_latency}ms
         process_data: |
           > RAM usage: %{ram_usage}
           > CPU usage: %{cpu_usage}%
@@ -319,48 +319,48 @@ discord_bot:
           > <:AetherSmile:726474477956759553> Aether Wake
 
           __Translation Credits:__
-        es: 'Spanish:'
+        es: 'Spaans:'
         es_people: |
           > <:OriLove:726475603879919616> OrionVi
           > <:AetherSmile:726474477956759553> Aether Wake
-        ru: 'Russian:'
+        ru: 'Russisch:'
         ru_people: |
           > <:drink:741041666705588255> Трокс
           > <:DorZ23:864861706169483329> DorZ23
-        pt: 'Portuguese:'
+        pt: 'Portugees:'
         pt_people: |
           > <:KingKiller:800410618074628146> KingKiller
           > <:gil:873518552295014420> Gil
-        it: 'Italian:'
+        it: 'Italiaans:'
         it_people: |
           > 👤 RVG|𝓵𝓸𝓻𝔂
-        vi: 'Vietnamese:'
+        vi: 'Vietnamees:'
         vi_people: |
           > <:momiAwO:975011926604148756> Momiji
-        fa: 'Persian:'
+        fa: 'Perzisch:'
         fa_people: |
           > <:AliJoon:975010805328281630> AliJoon
-        bot_stats: Discord Bot Statistics
+        bot_stats: Discord Bot-statistieken
         shard_info_name: Shard Info
         process_data_name: Bot process data
         elasticsearch_data_name: Elasticsearch data
         package_info_name: Package info
         bot_metadata_name: Bot Metadata
         credits: Credits
-        author: Author
-        bot_latency: '> API/Bot Latency: %{bot_latency}ms'
-        help_command: 'Help command: `%{prefix}help`'
-        refresh: Refresh
+        author: Auteur
+        bot_latency: '> API/Bot-latentie: %{bot_latency}ms'
+        help_command: 'Help commando: `%{prefix}help`'
+        refresh: Herlaad
       upload_emote:
-        own_emojis_dont_ask_again: Yes; I own these
-        alphanumeric: ' - Must be alphanumeric with underscores'
-        size: ' - Must be between 1 and 32 characters long'
-        filesize: ' - Must be less than 256KB'
-        image: ' - Must be an image'
-        bad_name: "The name of the emote is incorrect:\n"
-        bad_attachment: "The attached emote is not valid:\n"
-        more_animated_needed: This server will have reached its limit for animated emotes, as it requires %{size}. Delete %{delete} and try again
-        more_static_needed: This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again
+        own_emojis_dont_ask_again: Ja; Ik bezit deze
+        alphanumeric: ' - Moet alfanumeriek zijn met onderstrepingstekens'
+        size: ' - Moet tussen 1 en 32 tekens lang zijn'
+        filesize: ' - Moet kleiner zijn dan 256KB'
+        image: ' - Moet een afbeelding zijn'
+        bad_name: "De naam van de emoji is niet correct:\n"
+        bad_attachment: "De bijgevoegde emoji is niet geldig:\n"
+        more_animated_needed: Deze server heeft zijn limiet voor geanimeerde emoji's bereikt, omdat er %{size} voor nodig is. Verwijder %{delete} en probeer het opnieuw
+        more_static_needed: Deze server heeft zijn limiet voor statische emoji's bereikt, omdat er %{size} voor nodig is. Verwijder %{delete} en probeer het opnieuw
         too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
         this_emote: Is this the emote you meant?
         emote_preview: |
@@ -381,4 +381,4 @@ discord_bot:
         not_nqn: |
           This command currently only works on messages reposted by NQN.
         not_found: |
-          The author of that message could not be automatically found. Are you sure it was posted by NQN?
+          De auteur van dat bericht kon niet automatisch worden gevonden. Weet je zeker dat het door NQN is gepost?
