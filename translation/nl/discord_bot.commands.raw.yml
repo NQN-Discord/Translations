@@ -287,38 +287,38 @@ discord_bot:
           > Huidige shard: %{current_shard}
           > Huidige shard-latentie: %{current_latency}ms
         process_data: |
-          > RAM usage: %{ram_usage}
-          > CPU usage: %{cpu_usage}%
-          > Network:
-          > - Sent: %{network_send}
-          > - Received: %{network_recv}
+          > RAM-gebruik: %{ram_usage}
+          > CPU-gebruik: %{cpu_usage}%
+          > Netwerk:
+          > - Verzonden: %{network_send}
+          > - Ontvangen: %{network_recv}
         elasticsearch_metadata: |
-          > RAM usage: %{ram_usage}
-          > Disk space: %{disk_use}
-          > Network total: %{bytes_sent}
+          > RAM-gebruik: %{ram_usage}
+          > Schijfruimte: %{disk_use}
+          > Netwerktotaal: %{bytes_sent}
         description: |
-          Author: %{owner}
-          Application name: %{app_name}
-          Help command: `%{prefix}help`
+          Auteur: %{owner}
+          Applicatienaam: %{app_name}
+          Help-commando: `%{prefix}help`
         bot_metadata: |
           > Uptime: %{uptime}
-          > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
-          > Servers Loaded: %{guilds_loaded} / %{guilds}
+          > Emoji-servers: %{alias_servers_available} / %{alias_servers_total}
+          > Servers geladen: %{guilds_loaded} / %{guilds}
         guild_features:
           zero: ''
           one: |
-            > Server Feature: %{guild_features}
+            > Serverfunctie: %{guild_features}
           many: |
-            > Server Features: %{guild_features}
+            > Serverfuncties: %{guild_features}
         bot_credits: |
-          [Bot avatar and Wumpus art by Dooley](<https://www.dooleytm.com>) from [Wump Motes](https://discord.gg/pEjCBNF)
+          [Bot-avatar en Wumpus-kunst door Dooley](<https://www.dooleytm.com>) van [Wump Motes](https://discord.gg/pEjCBNF)
 
-          __Special thanks to the following people:__
+          __Speciale dank aan de volgende mensen:__
           > <:OriLove:726475603879919616> OrionVi
-          > <:bean:884394196415442985> Ben
+          > <:boon:884394196415442985> Ben
           > <:AetherSmile:726474477956759553> Aether Wake
 
-          __Translation Credits:__
+          __Vertaalcredits:__
         es: 'Spaans:'
         es_people: |
           > <:OriLove:726475603879919616> OrionVi
@@ -342,10 +342,10 @@ discord_bot:
           > <:AliJoon:975010805328281630> AliJoon
         bot_stats: Discord Bot-statistieken
         shard_info_name: Shard Info
-        process_data_name: Bot process data
-        elasticsearch_data_name: Elasticsearch data
-        package_info_name: Package info
-        bot_metadata_name: Bot Metadata
+        process_data_name: Gegevens botproces
+        elasticsearch_data_name: Elasticsearch-gegevens
+        package_info_name: Pakket info
+        bot_metadata_name: Bot-metagegevens
         credits: Credits
         author: Auteur
         bot_latency: '> API/Bot-latentie: %{bot_latency}ms'
@@ -361,24 +361,24 @@ discord_bot:
         bad_attachment: "De bijgevoegde emoji is niet geldig:\n"
         more_animated_needed: Deze server heeft zijn limiet voor geanimeerde emoji's bereikt, omdat er %{size} voor nodig is. Verwijder %{delete} en probeer het opnieuw
         more_static_needed: Deze server heeft zijn limiet voor statische emoji's bereikt, omdat er %{size} voor nodig is. Verwijder %{delete} en probeer het opnieuw
-        too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
-        this_emote: Is this the emote you meant?
+        too_quick: Emoji's worden te snel gemaakt, probeer het over een paar uur opnieuw (Foutcode '%{e}')
+        this_emote: Is dit de emoji die je bedoelde?
         emote_preview: |
-          Is this alright?
-          If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select 'No'.
+          Is dit goed?
+          Als je **NIET** de eigenaar bent van deze emoji, of geen toestemming hebt om deze te verspreiden, selecteer je 'Nee'.
         duplicate_name: |
-          This server already has an emote called %{name}
+          Deze server heeft al een emoji met de naam %{name}
           > %{e}
-          Do you still want to upload this emote?
-        created_emotes: '%{user} uploaded %{e}'
+          Wil je deze emoji toch uploaden?
+        created_emotes: '%{user} heeft %{e} geüpload'
         also_upload_static: |
-          Would you also like to upload a static version of this emoji?
-          Users without Nitro can use it from the emoji picker to send %{e}
+          Wil je ook een statische versie van deze emoji uploaden?
+          Gebruikers zonder Nitro kunnen het gebruiken vanuit de emoji-kiezer om %{e} te verzenden
       vote_opt_out:
-        success: Successfully opted out of vote DMs
+        success: Afmelden voor DM's voor stemmen succesvol
       whois:
-        found: The author is <@%{author}> (%{author})
+        found: De auteur is <@%{author}> (%{author})
         not_nqn: |
-          This command currently only works on messages reposted by NQN.
+          Deze commando werkt momenteel alleen op berichten die opnieuw zijn gepost door NQN.
         not_found: |
           De auteur van dat bericht kon niet automatisch worden gevonden. Weet je zeker dat het door NQN is gepost?
