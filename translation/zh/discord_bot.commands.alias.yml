@@ -4,7 +4,7 @@ discord_bot:
     alias:
       no_alias: "沒有任何表情符號別號是 \\:%{name}:"
       could_not_find: 未能找到別號
-      alphanumeric: 別號只可以包含字母、數字和下劃線
+      alphanumeric: 別號只可以包含英文字母、數字和下劃線
       max_length: 別號的長度最多為 32 個字符
       user_zero: 你並沒有別號
       set_alias: 設定別號
