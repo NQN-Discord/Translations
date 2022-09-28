@@ -9,7 +9,7 @@ discord_bot:
       user_zero: 你並沒有別號
       set_alias: 設定別號
       from_message:
-        no_emotes: 此信息沒有包含任何自訂的表情符號喔！
+        no_emotes: 此訊息沒有包含任何自訂的表情符號！
       delete:
         deleted: '已刪除 \:%{name}:'
       delete_all:
@@ -46,8 +46,8 @@ discord_bot:
             您沒有任何別號！
             使用 `%{prefix}alias search` 尋找和設置別號
           one: |
-            這將向您發送私人信息，您想繼續嗎？
+            這將向您發送私人訊息，您想繼續嗎？
           many: |
-            這將向您發送%{count}個私人信息，您想繼續嗎？
+            這將向您發送%{count}個私人訊息，您想繼續嗎？
         blocked: |-
-          您封鎖了我，我不能夠發送私人信息給你！
+          您封鎖了我，我不能夠發送私人訊息給你！
