@@ -245,7 +245,7 @@ discord_bot:
           嗨 %{user_ping}！
           當您使用 `%{prefix}react` 指令時，我會在訊息上新增反應，從而令到您儘管沒有Nitro仍然可以新增Nitro專用的表情符號！
           *NQN 會在%{time}秒後移除該反應。*
-        channel_empty: This channel is empty
+        channel_empty: 此頻道是空的
         invalid_react:
           one: |
             The following emote is not valid:
