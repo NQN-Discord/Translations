@@ -3,16 +3,16 @@ discord_bot:
   commands:
     raw:
       buttons:
-        commands: Commands
-        tutorial: Tutorial
-        my_emotes: My Emotes
+        commands: 指令
+        tutorial: 指南
+        my_emotes: 我的表情符號
       depreciated_commands:
         renamed: |
-          This command has been renamed to `%{prefix}%{new}`.
-          If you don't want to see this message again, react with ❌
-        ignored: Ignored `%{name}` for you.
+          此舊指令已被 `%{prefix}%{new}` 取代。
+          如果您不想下次再收到此提示，請用❌反應
+        ignored: 此 `%{name}` 指令已被忽略
       edit:
-        never_posted: You've never posted a message with NQN in this channel!
+        never_posted: 您從來沒有使用NQN在此頻道發佈任何訊息！
         message_deleted: |
           Your most recent message with NQN in this channel has been deleted!
           Please choose a message either by replying to it with Discord, or by pasting it's jump URL
