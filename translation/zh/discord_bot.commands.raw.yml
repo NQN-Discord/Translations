@@ -70,28 +70,28 @@ discord_bot:
         times_used:
           zero: "沒有使用過的"
           one: "只使用過一次的"
-          many: "~%{count} times used"
+          many: "～使用過%{count}次"
         times_used_per_day:
-          zero: "Less than once per day"
-          one: "About once per day"
-          many: "~%{count} times per day"
+          zero: "每天使用率低過一次"
+          one: "每天使用率大概一次"
+          many: "～每天使用率%{count}次"
         emote_count:
-          zero: "No emotes"
-          one: "1 emote"
-          many: "%{count} emotes"
-        boundary: "~%{min} - %{max} times used"
+          zero: "沒有表情符號"
+          one: "一個表情符號"
+          many: "%{count}個表情符號"
+        boundary: "～使用過 %{min} - %{max} 次"
       tutorial:
-        choose_page: Browse Tutorial
-        invalid_page: There are only %{count} pages in the tutorial!
-        permissions_missing: I need to be able to write embeds and add reactions to show my tutorial. It can be reran with `%{prefix}tutorial`.
+        choose_page: 瀏覽指南
+        invalid_page: 此指南只有%{count}頁！
+        permissions_missing: 因為我沒有「嵌入鏈結」或「新增反應」的權限，我未能顯示使用指南。當您修復權限後，您可以再次使用此 `%{prefix}tutorial` 指令。
         wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
-        default_emojis: Default Emojis
+        default_emojis: 預設的表情符號
         default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
         page_0_title: Tutorial for Not Quite Nitro, TLDR
         page_0_desc: |
           %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
           > `%{prefix}server language`
-        page_0_0_name: More Emotes?
+        page_0_0_name: 更多表情符號？
         page_0_0_desc: |
           Everyone is able to use any emote that shares a server with both you and this bot.
           **There are several other ways to use emotes in servers you are not in:**
@@ -99,7 +99,7 @@ discord_bot:
         page_0_1_desc: '> `%{prefix}pack search`'
         page_0_2_name: "4\u20E3 Aliases - Individual Emotes"
         page_0_2_desc: '> `%{prefix}alias search EmoteName`'
-        page_1_title: Reactions
+        page_1_title: 反應
         page_1_desc: You can only react with emotes you can use with NQN.
         page_1_0_name: 'Reacting to the most recent message:'
         page_1_0_desc: '> `%{prefix}react EmoteName`'
@@ -109,9 +109,9 @@ discord_bot:
         page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nThis only works up to 20 messages ago."
         page_1_3_name: 'Reacting to messages:'
         page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
-        page_1_4_name: Deleting messages
+        page_1_4_name: 正在刪除訊息
         page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
-        page_2_title: Packs
+        page_2_title: 表情符號包
         page_2_desc: |
           A pack is a bundle of emojis. After joining a pack, you gain access to the emojis it has.
         page_2_0_name: Joining emote packs
@@ -356,29 +356,29 @@ discord_bot:
         alphanumeric: ' - Must be alphanumeric with underscores'
         size: ' - Must be between 1 and 32 characters long'
         filesize: ' - Must be less than 256KB'
-        image: ' - Must be an image'
-        bad_name: "The name of the emote is incorrect:\n"
-        bad_attachment: "The attached emote is not valid:\n"
-        more_animated_needed: This server will have reached its limit for animated emotes, as it requires %{size}. Delete %{delete} and try again
+        image: ' - 必須是圖像附件'
+        bad_name: "表情符號的名字不正確：\n"
+        bad_attachment: "附上的表情符號無效：\n"
+        more_animated_needed: 上傳這些表情符號一共需要%{size}個表情符號格，因此此伺服器將達到動畫表情符號的數量限制。請刪除 %{delete} 個表情符號再重試
         more_static_needed: This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again
-        too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
+        too_quick: 新增表情符號的速度太快，請稍候一個多小時後重試（錯誤代碼 '%{e}'）
         this_emote: Is this the emote you meant?
         emote_preview: |
-          Is this alright?
-          If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select 'No'.
+          這樣可以嗎？
+          如果您**不是**此表情符號的擁有者，或者無權發佈它，請選擇「否」。
         duplicate_name: |
           This server already has an emote called %{name}
           > %{e}
           Do you still want to upload this emote?
-        created_emotes: '%{user} uploaded %{e}'
+        created_emotes: '%{user} 上傳了 %{e}'
         also_upload_static: |
-          Would you also like to upload a static version of this emoji?
-          Users without Nitro can use it from the emoji picker to send %{e}
+          您還想上傳這個表情符號的靜態版本嗎？
+          這樣沒有 Nitro 的用戶也可以使用這個表情符號 %{e}
       vote_opt_out:
-        success: Successfully opted out of vote DMs
+        success: 已成功選擇退出接收投票 DM 訊息
       whois:
-        found: The author is <@%{author}> (%{author})
+        found: 作者是 <@%{author}> (%{author})
         not_nqn: |
-          This command currently only works on messages reposted by NQN.
+          此指令目前僅適用於由 NQN 轉發的訊息。
         not_found: |
-          The author of that message could not be automatically found. Are you sure it was posted by NQN?
+          無法找到該訊息的作者。您確定是由 NQN 轉發的嗎？
