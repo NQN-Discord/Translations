@@ -242,9 +242,9 @@ discord_bot:
           If you find yourself with clashing emotes, create the one you want to use as an alias, and that will override it.
       react:
         user_needs_to_react: |
-          Hey %{user_ping}!
-          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
-          *NQN will remove its reactions after %{time} seconds.*
+          嗨 %{user_ping}！
+          當您使用 `%{prefix}react` 指令時，我會在訊息上新增反應，從而令到您儘管沒有Nitro仍然可以新增Nitro專用的表情符號！
+          *NQN 會在%{time}秒後移除該反應。*
         channel_empty: This channel is empty
         invalid_react:
           one: |
@@ -360,16 +360,16 @@ discord_bot:
         bad_name: "表情符號的名字不正確：\n"
         bad_attachment: "附上的表情符號無效：\n"
         more_animated_needed: 上傳這些表情符號一共需要%{size}個表情符號格，因此此伺服器將達到動畫表情符號的數量限制。請刪除 %{delete} 個表情符號再重試
-        more_static_needed: This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again
+        more_static_needed: 上傳這些表情符號一共需要%{size}個表情符號格，因此此伺服器將達到靜態表情符號的數量限制。請刪除 %{delete} 個表情符號再重試
         too_quick: 新增表情符號的速度太快，請稍候一個多小時後重試（錯誤代碼 '%{e}'）
-        this_emote: Is this the emote you meant?
+        this_emote: 您是指這個表情符號嗎？
         emote_preview: |
           這樣可以嗎？
           如果您**不是**此表情符號的擁有者，或者無權發佈它，請選擇「否」。
         duplicate_name: |
-          This server already has an emote called %{name}
+          此伺服器已經有這個叫 %{name} 的表情符號
           > %{e}
-          Do you still want to upload this emote?
+          您仍然想要上傳這個表情符號嗎？
         created_emotes: '%{user} 上傳了 %{e}'
         also_upload_static: |
           您還想上傳這個表情符號的靜態版本嗎？
