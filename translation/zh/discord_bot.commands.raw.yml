@@ -14,37 +14,37 @@ discord_bot:
       edit:
         never_posted: 您從來沒有使用NQN在此頻道發佈任何訊息！
         message_deleted: |
-          Your most recent message with NQN in this channel has been deleted!
-          Please choose a message either by replying to it with Discord, or by pasting it's jump URL
-        cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
-        cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
-        edit_message: Edit Message
-        new_content: 'New Content:'
+          您在此頻道中最新使用 NQN 的訊息已被刪除！
+          如果您要選擇新的訊息編輯，請Discord回覆該訊息或貼上該訊息的鏈結。
+        cannot_edit_no_nqn: 這個訊息不是由NQN發佈，您並不能選擇它！
+        cannot_edit_different_user: 這個訊息不是由您發佈，您並不能選擇它！
+        edit_message: 編輯訊息
+        new_content: '新的內容：'
       delete:
-        deleted: Message successfully deleted
+        deleted: 已成功刪除訊息
       export:
-        exported_list_short: "Here's your exported emotes:"
+        exported_list_short: "以下是您的所有表情符號："
         exported_list_long: |
-          Here's your exported emotes
-          To share them with other people, they need to run:
+          以下是您的所有表情符號：
+          您可以與其他人共享它們，他們需要使用以下指令：
           > `%{prefix}alias import %{url}`
       ignore_me:
-        user_ignored: NQN will no longer repost your messages. Run this command again to re-enable
-        user_unignored: NQN will repost your messages as normal
+        user_ignored: NQN 將不再轉發您的訊息。要重新啟用功能的話，請再次使用此指令
+        user_unignored: NQN 將如常轉發您的訊息
       invite:
-        add_nqn: Add NQN to your server!
+        add_nqn: 新增NQN至您的伺服器！
       my_emotes:
-        current_guild: Current Server
-        mutual_guilds: Mutual Servers
-        aliases: Aliases
-        packs: Packs
+        current_guild: 當前的伺服器
+        mutual_guilds: 共同的伺服器
+        aliases: 別號
+        packs: 表情符號包
         no_mutual_guilds: |
-          NQN allows you to use any emoji from our mutual servers in this server.
-          Currently, you do not have any mutual servers with NQN, aside from this one.
+          NQN 允許您在此伺服器中使用我們共同的伺服器中的任何表情符號。
+          ，除了這個之外，您目前沒有任何更 NQN 有共同的伺服器。
 
-          If you want, you can [invite NQN to another server](%{bot_invite}) to gain access to it's emojis here.
+          您可以 [邀請 NQN 到另一台伺服器](%{bot_invite}) 從而在此伺服器使用該伺服器的表情符號。
       ranking:
-        vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
+        vote_link: 您可以在 %{url} 投票給我，然後此伺服器就可以享用更多表情符號以及提高此伺服器的排名。
         top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
         thanks: Thanks for voting for the bot!
         ranking: |
