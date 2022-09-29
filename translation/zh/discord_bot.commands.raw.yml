@@ -45,31 +45,31 @@ discord_bot:
           您可以 [邀請 NQN 到另一台伺服器](%{bot_invite}) 從而在此伺服器使用該伺服器的表情符號。
       ranking:
         vote_link: 您可以在 %{url} 投票給我，然後此伺服器就可以享用更多表情符號以及提高此伺服器的排名。
-        top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
-        thanks: Thanks for voting for the bot!
+        top_server: 此伺服器的排名已提躍升成為第一名，恭喜您！ <a:BluePat:679807864327766048>
+        thanks: 多謝您投的一票！
         ranking: |
-          %{guild} is ranked #%{rank} out of all the servers using NQN.
+          在全部有NQN的伺服器中，%{guild} 現在的排名是 %{rank}。
 
           %{rank_leaderboard}
-          You have voted %{total_votes} times for NQN. %{thanks}
+          您一共投了NQN%{total_votes}次。%{thanks}
 
           %{user_ranking}
 
           %{extra_message}
       emote_stats:
-        top_emotes: "Top used emojis in this server"
-        choose_page: "Choose a page"
-        never: "Never used"
-        once: "Used once"
-        infrequent: "Infrequent use"
-        often: "Used often"
-        frequent: "Frequent use"
-        extreme: "Extremely frequent use"
-        extraordinary: "Extraordinarily frequently used"
-        off_chart: "Off the chart"
+        top_emotes: "此伺服器中最常用的表情符號"
+        choose_page: "選擇一頁"
+        never: "沒有使用過的"
+        once: "只使用過一次的"
+        infrequent: "不常用的"
+        often: "經常使用的"
+        frequent: "頻繁使用的"
+        extreme: "非常頻繁使用的"
+        extraordinary: "異常地使用頻繁"
+        off_chart: "超出預期的"
         times_used:
-          zero: "Never used"
-          one: "Used once"
+          zero: "沒有使用過的"
+          one: "只使用過一次的"
           many: "~%{count} times used"
         times_used_per_day:
           zero: "Less than once per day"
