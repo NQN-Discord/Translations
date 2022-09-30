@@ -100,33 +100,33 @@ discord_bot:
         page_0_2_name: "4\u20E3 表情符號別號"
         page_0_2_desc: '> `%{prefix}alias search EmoteName`'
         page_1_title: 反應
-        page_1_desc: You can only react with emotes you can use with NQN.
-        page_1_0_name: '正在最近訊息添加反應：'
+        page_1_desc: 您只能使用可在 NQN 使用的表情符號添加反應。
+        page_1_0_name: '在最近訊息添加反應：'
         page_1_0_desc: '> `%{prefix}react EmoteName`'
-        page_1_1_name: 'Reacting to a message in the same channel:'
-        page_1_1_desc: '> `%{prefix}react EmoteName` (Whilst replying to the target message)'
-        page_1_2_name: 'Reacting to recent messages:'
-        page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nThis only works up to 20 messages ago."
-        page_1_3_name: 'Reacting to messages:'
+        page_1_1_name: '在當前頻道的最近訊息添加反應：'
+        page_1_1_desc: '> `%{prefix}react EmoteName` (請同時回覆目標訊息)'
+        page_1_2_name: '在最近幾條訊息添加反應：'
+        page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\n這僅適用於最多 20 條訊息前。"
+        page_1_3_name: '在訊息添加反應：'
         page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
         page_1_4_name: 正在刪除訊息
-        page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
+        page_1_4_desc: "在代表您發送的訊息上添加 \u274C (\\:x:) 反應以刪除它們。"
         page_2_title: 表情符號包
         page_2_desc: |
-          A pack is a bundle of emojis. After joining a pack, you gain access to the emojis it has.
-        page_2_0_name: Joining emote packs
+          表情符號包，顧名思義，包含一些相似的表情符號。當您加入一個表情符號包後，您就可以使用所有表情符號包裡面的所有表情符號。
+        page_2_0_name: 加入表情符號包
         page_2_0_desc: |
-          To search for emote packs, use `%{prefix}pack search`, optionally with a search query, such as `%{prefix}pack search dragon`.
-        page_2_1_name: Finding the emote packs you're in
+          您可以使用 `%{prefix}pack search` 以搜索表情符號包。您也可以加上搜索字句以縮窄搜索結果範圍，例如 `%{prefix}pack search dragon`。
+        page_2_1_name: 搜索您已加入的表情符號包
         page_2_1_desc: |
           > `%{prefix}pack mine`
-          This command shows you a list of emote packs you're currently a member of, including the names of the emotes in each pack.
-        page_2_2_name: Publishing your own packs
+          此指令向您顯示您當前已加入的表情符號包，包括每個表情符號包中的表情符號名稱。
+        page_2_2_name: 發佈自己的表情符號包
         page_2_2_desc: |
-          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emote packs:
+          如果您有 **管理伺服器** 權限，您可以發佈伺服器上所有表情符號為表情符號包，其中包含您伺服器的所有已加入的表情符號包：
           > `%{prefix}pack publish MySuperCoolEmotePackName`
-          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
-        page_3_title: Aliases
+          您還可以使用 `%{prefix}pack set_public yes` 以公開您的表情符號包，以允許來自其他伺服器的人無需邀請就可以加入您的伺服器。
+        page_3_title: 別號
         page_3_desc: |
           Aliases are just individual emotes which you give a name, and are then usable via that name.
 
@@ -135,7 +135,7 @@ discord_bot:
 
           If you want to look through every emote NQN can let you use:
           > `%{prefix}alias search whatever` (No colons if you don't know the exact name)
-        page_4_title: Message Link Previews
+        page_4_title: 預覽訊息鏈結
         page_4_desc: |
           NQN allows you to preview messages sent in different channels.
 
@@ -144,13 +144,13 @@ discord_bot:
           If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
 
           If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
-        page_5_title: Masked URLs
+        page_5_title: 屏蔽網址
         page_5_desc: |
-          NQN allows users to send [Masked URLs](%{url}) as part of their regular messages.
+          NQN 允許用戶在將常規訊息中加入 [Masked URLs](%{url})。
 
-          This uses standard markup, `[text to show](https://url.here)`.
-          To send messages with buttons, use `[button title](button://url.here)`
-        page_6_title: Stickers
+          如果您要在訊息中加入鏈結，請使用這個格式：`[字句](https://網頁鏈結)`
+          如果您要在訊息中加入按鈕，請使用這個格式：`[按鈕字句](button://網頁鏈結)`
+        page_6_title: 貼圖
         page_6_desc: |
           If you've ever wanted to send large images/stickers/emotes, you've come to the right place.
 
@@ -167,14 +167,14 @@ discord_bot:
           To view your stickers, use `%{prefix}stickers mine`.
 
           Note - to use Telegram stickers, you must first import them to the bot. The bot does not do this automatically.
-        page_7_title: Personas
+        page_7_title: 角色
         page_7_desc: |
           Personas allow anyone in your server to assume a given username and avatar distinct from their own.
           In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
 
           To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
           > name: Rest of message
-        page_8_title: Server Administration
+        page_8_title: 伺服器管理
         page_8_desc: |
           NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
           Anyone with **Manage Server** permissions can change server settings with the bot.
@@ -186,7 +186,7 @@ discord_bot:
            • Message Link Previews - `%{prefix}server message_link_previews`
            • Personas - `%{prefix}server personas`
            • Masked Links - `%{prefix}server masked_links`
-        page_8_0_name: Troubleshooting Issues
+        page_8_0_name: 排查故障
         page_8_0_desc: |
           In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:
           **Manage Webhooks**, **Use External Emojis**, **Add Reactions**, **Read Messages** and **Manage Messages**.
@@ -210,14 +210,14 @@ discord_bot:
 
           An alternate approach which stays inside Discord is the Audit Channel, which can be set with `%{prefix}server set_audit_channel #channel`.
           Any resent messages will be posted there with their current username, discriminator and user id.
-        page_8_3_name: 'Permissions:'
+        page_8_3_name: '權限：'
         page_8_3_desc: |
           NQN requires the 'Manage Webhooks' server permission to correctly function; reposting messages will not work without this.
 
            • To disable commands from working in a specific channel, deny NQN 'Send Message' permissions there via user permissions.
            • To disable reposting messages in a specific channel, deny NQN 'Manage Webhook' permissions there via user permissions.
            • To disable all interactions in a specific channel, deny NQN 'Read Message' permissions there via user permissions.
-        page_8_4_name: 'Information Gathering:'
+        page_8_4_name: '資料存取：'
         page_8_4_desc: |
           NQN stores reposted messages such that users can delete them and for the audit log.
           Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
