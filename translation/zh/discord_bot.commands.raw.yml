@@ -248,13 +248,13 @@ discord_bot:
         channel_empty: 此頻道是空的
         invalid_react:
           one: |
-            The following emote is not valid:
+            以下為無效的表情符號：
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            表情符號的名字只可以包含英文字母、數字、下劃線和最多一個破折號。
           many: |
-            The following emotes are not valid:
+            以下為無效的表情符號：
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            表情符號的名字只可以包含英文字母、數字、下劃線和最多一個破折號。
         emote_unusable:
           one: |
             The following emote cannot be used in reactions:
