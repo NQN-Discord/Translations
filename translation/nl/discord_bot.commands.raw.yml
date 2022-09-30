@@ -152,44 +152,44 @@ discord_bot:
           Gebruik `[knop titel](button://url.here)` om berichten met knoppen te verzenden
         page_6_title: Stickers
         page_6_desc: |
-          If you've ever wanted to send large images/stickers/emotes, you've come to the right place.
+          Als je ooit grote afbeeldingen/stickers/emoji's hebt willen versturen, ben je hier aan het juiste adres.
 
-          Inspired by Telegram, NQN brings stickers to Discord.
-          You can use them as you would an emote, except stickers have a file extension at the end.
+          Geïnspireerd door Telegram brengt NQN stickers naar Discord.
+          Je kunt ze gebruiken zoals je een emoji zou doen, behalve dat stickers aan het einde een bestandsextensie hebben.
 
-          Each message can contain up to 10 stickers.
+          Elk bericht kan maximaal 10 stickers bevatten.
 
-          You can create stickers with `%{prefix}sticker create` and upload an image file or by importing from Telegram.
-          This is done with `%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here`.
+          U kunt stickers maken met `%{prefix}sticker create` en een afbeeldingsbestand uploaden of vanuit Telegram importeren.
+          Dit wordt gedaan met `%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here`.
 
-          To search through stickers you can use with NQN, use `%{prefix}sticker search` with a optional search terms.
+          Om door stickers te zoeken die je met NQN kunt gebruiken, gebruik je `%{prefix}sticker zoeken` met optionele zoektermen.
 
-          To view your stickers, use `%{prefix}stickers mine`.
+          Gebruik `%{prefix}stickers mine` om je stickers te bekijken.
 
-          Note - to use Telegram stickers, you must first import them to the bot. The bot does not do this automatically.
+          Opmerking - om Telegram-stickers te gebruiken, moet u ze eerst in de bot importeren. De bot doet dit niet automatisch.
         page_7_title: Persona's
         page_7_desc: |
-          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
-          In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
+          Met persona's kan iedereen op uw server een bepaalde gebruikersnaam en avatar aannemen die verschilt van die van henzelf.
+          Om persona's op een server te gebruiken, moet je eerst `%{prefix}server personas op` uitvoeren.
 
-          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
-          > name: Rest of message
+          Om een persona aan te maken, gebruik je `%{prefix}persona register name`. Daarna kun je berichten verzenden als die persona door een bericht te sturen:
+          > naam: Rest van bericht
         page_8_title: Serverbeheer
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          NQN is sterk aanpasbaar in termen van functiesets, voor het geval sommige niet geschikt zijn voor uw server.
+          Iedereen met de machtiging **Server Beheren** kan de serverinstellingen wijzigen met de bot.
 
-          Here are the features you can toggle:
+          Dit zijn de functies die u kunt wijzigen:
 
            • Nitro - `%{prefix}server nitro`
            • Stickers - `%{prefix}server stickers`
-           • Message Link Previews - `%{prefix}server message_link_previews`
-           • Personas - `%{prefix}server personas`
-           • Masked Links - `%{prefix}server masked_links`
+           • Berichtlinkvoorbeelden - `%{prefix}server message_link_previews`
+           • Persona's - `%{prefix}server personas`
+           • Gemaskeerde Links - `%{prefix}server masked_links`
         page_8_0_name: Probleemoplossen Problemen
         page_8_0_desc: |
-          In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:
-          **Manage Webhooks**, **Use External Emojis**, **Add Reactions**, **Read Messages** and **Manage Messages**.
+          Om correct te kunnen werken, heeft NQN de volgende machtigingen nodig in __every__ kanaal waarin u Nitro wilt gebruiken:
+          **Webhooks Beheren**, **Externe Emoji's Gebruiken**, **Reacties Toevoegen**, **Berichten Lezen** en **Berichten Beheren**.
         page_8_1_name: "Not Quite Nitro's prefix:"
         page_8_1_desc: |
           Iedereen met **Beheer Server**-machtigingen kan het prefix dat NQN gebruikt, wijzigen.
@@ -201,69 +201,69 @@ discord_bot:
           NQN zal *altijd* luisteren naar zijn vermelding, ongeacht andere instellingen.
         page_8_2_name: Berichten Controleren
         page_8_2_desc: |
-          NQN keeps a log of messages it reposts, as the original message gets removed.
-          This is in case that someone changes their name and avatar before posting an offensive message, or otherwise misbehaves using the bot.
+          NQN houdt een logboek bij van berichten die het opnieuw plaatst, aangezien het oorspronkelijke bericht wordt verwijderd.
+          Dit is in het geval dat iemand zijn naam en avatar verandert voordat hij een beledigend bericht plaatst, of zich anderszins misdraagt bij het gebruik van de bot.
 
-          To get the audited messages for the server, use `%{prefix}audit guild` or [visit our website](%{url}), select your server and then click on the cog at the top.
+          Om de gecontroleerde berichten voor de server te krijgen, gebruikt u `%{prefix}audit guild` of [bezoek onze website](%{url}), selecteert u uw server en klikt u vervolgens op het tandwiel bovenaan.
 
-          Only users with **Manage Server** and **View Audit Log** can view the logged messages.
+          Alleen gebruikers met **Server Beheren** en **Audit-Logboek Bekijken** kunnen de gelogde berichten bekijken.
 
-          An alternate approach which stays inside Discord is the Audit Channel, which can be set with `%{prefix}server set_audit_channel #channel`.
-          Any resent messages will be posted there with their current username, discriminator and user id.
+          Een alternatieve benadering die binnen Discord blijft, is het auditkanaal, dat kan worden ingesteld met `%{prefix}server set_audit_channel #kanaal`.
+          Alle opnieuw verzonden berichten worden daar geplaatst met hun huidige gebruikersnaam, discriminator en gebruikers-ID.
         page_8_3_name: 'Machtigingen:'
         page_8_3_desc: |
-          NQN requires the 'Manage Webhooks' server permission to correctly function; reposting messages will not work without this.
+          NQN heeft de servermachting 'Beheer Webhooks' nodig om correct te functioneren; zonder dit werkt het opnieuw plaatsen van berichten niet.
 
-           • To disable commands from working in a specific channel, deny NQN 'Send Message' permissions there via user permissions.
-           • To disable reposting messages in a specific channel, deny NQN 'Manage Webhook' permissions there via user permissions.
-           • To disable all interactions in a specific channel, deny NQN 'Read Message' permissions there via user permissions.
+           • Als u wilt voorkomen dat commando's in een specifiek kanaal werken, moet u NQN 'Bericht verzenden'-machtigingen daar weigeren via gebruikersmachtigingen.
+           • Om het opnieuw plaatsen van berichten in een specifiek kanaal uit te schakelen, weigert u NQN 'Beheer Webhook'-machtigingen daar via gebruikersmachtigingen.
+           • Om alle interacties in een specifiek kanaal uit te schakelen, weigert u NQN 'Bericht lezen'-machtigingen daar via gebruikersmachtigingen.
         page_8_4_name: 'Informatie Verzamelen:'
         page_8_4_desc: |
-          NQN stores reposted messages such that users can delete them and for the audit log.
-          Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
+          NQN slaat opnieuw geposte berichten op zodat gebruikers ze kunnen verwijderen en voor het auditlogboek.
+          Elke emoji op uw server is zichtbaar voor iedereen die de bot gebruikt en is doorzoekbaar, hoewel niet te koppelen aan uw server.
 
-          Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
+          Bepaalde statistieken over hoe de bot wordt gebruikt, worden verzameld om keuzes te maken over hoe de bot verder kan worden verbeterd, maar bevatten nooit algemene berichten die door uw gebruikers zijn verzonden.
         page_9_title: Geavanceerd Gebruik
         page_9_desc: |
-          If someone uses an emote, NQN allows you to use it as well, but only if it's been recently used in the server.
-          **NOTE:** If you've only just invited NQN, it won't know about any recently used emotes before it joined.
+          Als iemand een emote gebruikt, staat NQN je toe deze ook te gebruiken, maar alleen als deze recentelijk op de server is gebruikt.
+          **OPMERKING:** Als je NQN nog maar net hebt uitgenodigd, weet het niets van recent gebruikte emoji's voordat het lid werd.
 
-          In the case that you have several emotes with the same name, the following order is used:
+          In het geval dat je meerdere emoji's met dezelfde naam hebt, wordt de volgende volgorde gebruikt:
 
-          1. Aliases
-          2. The current server
-          3. Emote Packs
-          4. Other servers you share with NQN
-          5. Server wide aliases
-          6. Server wide packs
-          7. Recently used emojis in the current server
-          8. Recently shown packs in the current server
+          1. Aliassen
+          2. De huidige server
+          3. Emote-Pakketten
+          4. Andere servers die u deelt met NQN
+          5. Serverwijde aliassen
+          6. Serverwijde pakketten
+          7. Recent gebruikte emoji's op de huidige server
+          8. Recent getoonde pakketten op de huidige server
 
-          If you find yourself with clashing emotes, create the one you want to use as an alias, and that will override it.
+          Als je merkt dat je botsende emoji's hebt, maak dan degene die je als alias wilt gebruiken, en dat zal het negeren.
       react:
         user_needs_to_react: |
           Hey %{user_ping}!
-          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
-          *NQN will remove its reactions after %{time} seconds.*
+          Het commando `%{prefix}react` voegt de reacties toe aan het bericht, zodat je ze ook kunt toevoegen, zelfs zonder Nitro. Klik gewoon op elke reactie!
+          *NQN zal zijn reacties na %{time} seconden verwijderen.*
         channel_empty: Dit kanaal is leeg
         invalid_react:
           one: |
-            The following emote is not valid:
+            De volgende emoji is niet geldig:
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            Emoji's mogen alleen alfanumerieke tekens, onderstrepingstekens en maximaal één streepje bevatten.
           many: |
-            The following emotes are not valid:
+            De volgende emoji's zijn niet geldig:
             > %{not_found}
-            Emotes must only contain alphanumerics, underscores and up to a single dash.
+            Emotes mogen alleen alfanumerieke tekens, onderstrepingstekens en maximaal één streepje bevatten.
         emote_unusable:
           one: |
-            The following emote cannot be used in reactions:
+            De volgende emoji kan niet worden gebruikt in reacties:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload it to a server the bot's in, it will become usable in reactions!
+            Emoji's moeten afkomstig zijn van servers waar NQN lid van is; als je het uploadt naar een server waar de bot zich bevindt, wordt het bruikbaar in reacties!
           many: |
-            The following emotes cannot be used in reactions:
+            De volgende emoji's kunnen niet worden gebruikt in reacties:
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload them all to a server the bot's in, they will become usable in reactions!
+            Emoji's moeten afkomstig zijn van servers waar NQN lid van is; als je ze allemaal uploadt naar een server waar de bot zich op bevindt, worden ze bruikbaar in reacties!
         emote_not_found:
           one: |
             Kon emoji %{not_found} niet vinden
