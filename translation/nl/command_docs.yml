@@ -127,7 +127,7 @@ command_docs:
     name: van_zoeken
     short_doc: Block the use of an emote
   emote-block-recently_used:
-    name: recently_used
+    name: laatst_gebruikt
     short_doc: Block the use of an emote
     params:
       emoji:
@@ -290,10 +290,10 @@ command_docs:
     name: purge
     short_doc: Purge some messages reposted by the bot in this channel
   mutuals:
-    name: mutuals
+    name: gemeenschappelijken
     short_doc: See the servers I share with you
   my_emotes:
-    name: my_emotes
+    name: mijn_emoji's
     short_doc: See what emojis you can post with NQN
     params:
       page:
@@ -301,8 +301,8 @@ command_docs:
         description: |-
           Which emojis to show?
         choices:
-          current_server: Current Server
-          mutual_servers: Mutual Servers
+          current_server: Huidige Server
+          mutual_servers: Gemeenschappelijke Servers
           aliases: Aliassen
           packs: Pakketten
   owner:
@@ -328,7 +328,7 @@ command_docs:
         description: |-
           An attachment to send
   nqn-single_emoji:
-    name: single_emoji
+    name: enkele_emoji
     short_doc: Post a message with just a single emoji in it
     params:
       emoji:
@@ -370,7 +370,7 @@ command_docs:
     name: mijn
     short_doc: Get a list of emote packs you're subscribed to
   pack-publish:
-    name: publish
+    name: publiceer
     short_doc: Publish your emote server as an emote pack
     params:
       name:
@@ -410,7 +410,7 @@ command_docs:
         description: |-
           Which page of packs to start on?
   pack-set_public:
-    name: set_public
+    name: maak_openbaar
     short_doc: Allow anyone to join this server via NQN.
     params:
       enabled:
@@ -418,7 +418,7 @@ command_docs:
         description: |-
           Allow users to join this server through NQN without an invite?
   pack-show:
-    name: show
+    name: toon
     short_doc: Show the contents of a pack
     params:
       pack:
@@ -426,7 +426,7 @@ command_docs:
         description: |-
           Which pack to show the emojis of?
   pack-unpublish:
-    name: unpublish
+    name: depubliceren
     short_doc: Don't want this server to be an emote pack anymore?
   persona:
     name: persona
@@ -490,7 +490,7 @@ command_docs:
     short_doc: Register a persona for later use
     params:
       short_name:
-        name: short_name
+        name: korte_naam
         description: |-
           What's your persona's prefix?
   persona-rename:
@@ -509,7 +509,7 @@ command_docs:
     name: premium
     short_doc: Premium stuff
   premium-check:
-    name: check
+    name: controleer
     short_doc: Recalculate your premium information
     help: |
       Recalculates your premium information, including the list of servers gaining premium from you.
@@ -517,10 +517,10 @@ command_docs:
     name: help
     short_doc: Information about NQN premium
   ranking:
-    name: ranking
+    name: rangschikking
     short_doc: How high up is your server in our rankings?
   react:
-    name: react
+    name: reageer
     short_doc: React to a message with emojis
     params:
       emoji:
@@ -537,10 +537,10 @@ command_docs:
       **You need to react to the added reactions as well for them to stay.**
   server:
     name: server
-    short_doc: Server Configuration
+    short_doc: Server Configuratie
   server-alias:
     name: alias
-    short_doc: Server Aliases
+    short_doc: Server Aliassen
   server-alias-delete:
     name: verwijderen
     short_doc: Didn't like an emote? Make it so they've got to work for it.
@@ -592,7 +592,7 @@ command_docs:
     name: dashboard_posting
     short_doc: Enable or disable posting messages through the bot dashboard
   server-audit_channel:
-    name: audit_channel
+    name: audit_kanaal
     short_doc: Post messages the bot reposts
     params:
       channel:
@@ -611,7 +611,7 @@ command_docs:
         description: |-
           Which emoji to create a static version of?
   server-masked_links:
-    name: masked_links
+    name: gemaskeerde_links
     short_doc: Enable or disable masked links in this server
   server-nitro:
     name: nitro
@@ -649,41 +649,41 @@ command_docs:
     short_doc: Let NQN tell you what permissions it's missing
   server-personas:
     name: persona's
-    short_doc: Enable or disable usage of personas
+    short_doc: Gebruik van persona's in- of uitschakelen
     help: |
-      Allows users to post with arbitrary usernames and avatars
+      Hiermee kunnen gebruikers berichten plaatsen met willekeurige gebruikersnamen en avatars
   server-pings:
     name: pings
-    short_doc: Enable or disable pings in messages for this server
+    short_doc: Schakel vermeldingen in berichten in of uit voor deze server
     help: |
-      Enable or disable pings in messages that NQN reposts on this server
+      Schakel vermeldingen in of uit in berichten die NQN opnieuw plaatst op deze server
   server-phish_detection:
-    name: phish_detection
-    short_doc: Enable or disable phishing message detection for this server
+    name: phish_detectie
+    short_doc: Detectie van phishingberichten voor deze server in- of uitschakelen
   server-prefix:
     name: prefix
-    short_doc: Make NQN listen to a different prefix.
+    short_doc: Laat NQN naar een ander prefix luisteren.
     help: |
-      Make NQN listen to a different prefix.
+      Laat NQN naar een ander prefix luisteren.
 
-      Example invocation:
+      Voorbeeld aanroep:
       >>> %{prefix}server prefix <@%{bot_id}> ?
     signature: |
       @NQN#3454 [prefix=!]
   server-message_link_previews:
-    name: message_link_previews
-    short_doc: Enable or disable message link previews in this server
+    name: berichten_link_voorbeelden
+    short_doc: Schakel previews van berichtenlink in of uit op deze server
   server-settings:
     name: instellingen
-    short_doc: View the settings for this server
+    short_doc: Bekijk de instellingen voor deze server
     help: |
-      View NQN's server settings, including features, configured channels and pack information.
+      Bekijk de serverinstellingen van NQN, inclusief functies, geconfigureerde kanalen en pakketinformatie.
   server-boost_channel:
     name: boost_kanaal
-    short_doc: Post whenever someone votes with the server on top.gg
+    short_doc: Plaats wanneer iemand stemt met de server op top.gg
   server-boost_role:
     name: boost_rol
-    short_doc: Give a user this role when they boost this server via NQN
+    short_doc: Geef een gebruiker deze rol wanneer ze deze server boosten via NQN
   server-nitro_role:
     name: nitro_rol
     short_doc: Vereisen dat gebruikers een rol hebben om NQN te gebruiken
