@@ -243,7 +243,7 @@ discord_bot:
       react:
         user_needs_to_react: |
           嗨 %{user_ping}！
-          當您使用 `%{prefix}react` 指令時，我會在訊息上新增反應，從而令到您儘管沒有Nitro仍然可以新增Nitro專用的表情符號！
+          當您使用 `%{prefix}react` 指令時，我會在訊息上添加反應，從而令到您儘管沒有Nitro仍然可以添加Nitro專用表情符號的反應！
           *NQN 會在%{time}秒後移除該反應。*
         channel_empty: 此頻道是空的
         invalid_react:
@@ -257,29 +257,29 @@ discord_bot:
             表情符號的名字只可以包含英文字母、數字、下劃線和最多一個破折號。
         emote_unusable:
           one: |
-            The following emote cannot be used in reactions:
+            以下表情符號未能用於添加反應：
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload it to a server the bot's in, it will become usable in reactions!
+            請注意，表情符號必須來自已經有 NQN 的伺服器。如果您將該表情符號上傳到我所在的伺服器，我就可以使用該表情符號來添加反應！
           many: |
-            The following emotes cannot be used in reactions:
+            以下表情符號未能用於添加反應：
             > %{unusable}
-            Emotes must be from servers NQN is a member of; if you upload them all to a server the bot's in, they will become usable in reactions!
+            請注意，表情符號必須來自已經有 NQN 的伺服器。如果您將該表情符號上傳到我所在的伺服器，我就可以使用該表情符號來添加反應！
         emote_not_found:
           one: |
-            Could not find emote %{not_found}
-            Have you added it as an alias with `%{prefix}alias search` or joined the corresponding emote pack with `%{prefix}pack search`?
+            未能找到 %{not_found} 表情符號
+            請您確定是否已經使用 `%{prefix}alias search` 將其新增為別號，或使用 `%{prefix}pack search` 加入相應的表情符號包？
           many: |
-            Could not find emotes %{not_found}
-            Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
+            未能找到 %{not_found} 表情符號
+            您是否已經使用 `%{prefix}alias search` 將其新增為別號，或使用 `%{prefix}pack search` 加入相應的表情符號包？
         too_many_reacts:
-          one: This message has too many reactions to add a new one!
-          many: This message has too many reactions to add them all!
+          one: 此訊息的反應太多，無法添加更多反應！
+          many: 此訊息的反應太多，無法添加更多反應！
         reacting:
-          one: Adding %{count} reaction; remember to react yourself for them to stay!
-          many: Adding %{count} reactions; remember to react yourself for them to stay!
-        blocked: '%{author} has blocked me, so I cannot add that reaction!'
-        on_behalf: NQN on behalf of %{author} (%{author_id})
-        audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
+          one: 正在添加 %{count} 個反應；記得自己也要反應，從而讓反應留下來！
+          many: 正在添加 %{count} 個反應；記得自己也要反應，從而讓反應留下來！
+        blocked: '%{author} 封鎖了我，所以我無法添加該反應！'
+        on_behalf: NQN 代表 %{author} (%{author_id})
+        audit_message: "%{author} 在 %{channel} 中的 [訊息](<%{jump_url}>) 添加了以下表情符號反應：\n"
       info:
         shard_data: |
           > No. shards: %{shard_count} (%{shards_down} down)
@@ -297,9 +297,9 @@ discord_bot:
           > Disk space: %{disk_use}
           > Network total: %{bytes_sent}
         description: |
-          Author: %{owner}
-          Application name: %{app_name}
-          Help command: `%{prefix}help`
+          作者：%{owner}
+          程式名字：%{app_name}
+          說明指令：`%{prefix}help`
         bot_metadata: |
           > Uptime: %{uptime}
           > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
@@ -311,51 +311,51 @@ discord_bot:
           many: |
             > Server Features: %{guild_features}
         bot_credits: |
-          [Bot avatar and Wumpus art by Dooley](<https://www.dooleytm.com>) from [Wump Motes](https://discord.gg/pEjCBNF)
+          機器人頭像和 Wumpus 藝術由來自 [Wump Motes](https://discord.gg/pEjCBNF) 的 [Dooley](<https://www.dooleytm.com>) 製作。
 
-          __Special thanks to the following people:__
+          __特別感謝以下人員：__
           > <:OriLove:726475603879919616> OrionVi
           > <:bean:884394196415442985> Ben
           > <:AetherSmile:726474477956759553> Aether Wake
 
-          __Translation Credits:__
-        es: 'Spanish:'
+          __特別感謝以下翻譯人士：__
+        es: '西班牙語：'
         es_people: |
           > <:OriLove:726475603879919616> OrionVi
           > <:AetherSmile:726474477956759553> Aether Wake
-        ru: 'Russian:'
+        ru: '俄語：'
         ru_people: |
           > <:drink:741041666705588255> Трокс
           > <:DorZ23:864861706169483329> DorZ23
-        pt: 'Portuguese:'
+        pt: '葡萄牙語：'
         pt_people: |
           > <:KingKiller:800410618074628146> KingKiller
           > <:gil:873518552295014420> Gil
-        it: 'Italian:'
+        it: '意大利語：'
         it_people: |
           > 👤 RVG|𝓵𝓸𝓻𝔂
-        vi: 'Vietnamese:'
+        vi: '越南語：'
         vi_people: |
           > <:momiAwO:975011926604148756> Momiji
-        fa: 'Persian:'
+        fa: '波斯語：'
         fa_people: |
           > <:AliJoon:975010805328281630> AliJoon
-        bot_stats: Discord Bot Statistics
-        shard_info_name: Shard Info
-        process_data_name: Bot process data
-        elasticsearch_data_name: Elasticsearch data
-        package_info_name: Package info
-        bot_metadata_name: Bot Metadata
-        credits: Credits
-        author: Author
-        bot_latency: '> API/Bot Latency: %{bot_latency}ms'
-        help_command: 'Help command: `%{prefix}help`'
-        refresh: Refresh
+        bot_stats: Discord機器人統計
+        shard_info_name: 數據庫資訊
+        process_data_name: 機器人數據存取
+        elasticsearch_data_name: Elasticsearch 資訊
+        package_info_name: Package 資訊
+        bot_metadata_name: 機器人基本資訊
+        credits: 致謝
+        author: 作者
+        bot_latency: '> API/機器人延遲: %{bot_latency}毫秒'
+        help_command: '說明指令：`%{prefix}help`'
+        refresh: 刷新
       upload_emote:
-        own_emojis_dont_ask_again: Yes; I own these
-        alphanumeric: ' - Must be alphanumeric with underscores'
-        size: ' - Must be between 1 and 32 characters long'
-        filesize: ' - Must be less than 256KB'
+        own_emojis_dont_ask_again: 是的；我是這些表情符號的擁有者
+        alphanumeric: ' - 表情符號的名字必須是含有英文字母或者下劃線'
+        size: ' - 表情符號名字的長度必須是 1 至 32 個字符之間'
+        filesize: ' - 圖像大小必須小於 256KB'
         image: ' - 必須是圖像附件'
         bad_name: "表情符號的名字不正確：\n"
         bad_attachment: "附上的表情符號無效：\n"
