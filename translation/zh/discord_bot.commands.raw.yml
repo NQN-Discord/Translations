@@ -84,24 +84,24 @@ discord_bot:
         choose_page: 瀏覽指南
         invalid_page: 此指南只有%{count}頁！
         permissions_missing: 因為我沒有「嵌入鏈結」或「新增反應」的權限，我未能顯示使用指南。當您修復權限後，您可以再次使用此 `%{prefix}tutorial` 指令。
-        wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
+        wrong_place: 如果您不想在此頻道顯示使用指南，您可以在其他頻道使用 %{prefix}tutorial 以細看指南。請注意使用指南有多於一頁；如果您想再次瀏覽使用指南，您可以隨時使用 %{prefix}tutorial。
         default_emojis: 預設的表情符號
-        default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
-        page_0_title: Tutorial for Not Quite Nitro, TLDR
+        default_emoji_list: "以下是此伺服器上任何人預設可以使用的所有動畫表情符號 - 您只需手動輸入它們的名字，記得在表情名稱周圍加上 :colons:！"
+        page_0_title: NQN 的使用指南
         page_0_desc: |
-          %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
+          %{locale_flag_emojis} **語言選項** %{locale_flag_emojis}
           > `%{prefix}server language`
         page_0_0_name: 更多表情符號？
         page_0_0_desc: |
-          Everyone is able to use any emote that shares a server with both you and this bot.
-          **There are several other ways to use emotes in servers you are not in:**
-        page_0_1_name: "3\u20E3 Emote packs - Emote Bundles"
+          任何Discord用戶都可以使用與我共享伺服器的任何表情符號。
+          **還有其他幾種方法可以使用您不在的伺服器中的表情符號：**
+        page_0_1_name: "3\u20E3 表情符號包"
         page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Aliases - Individual Emotes"
+        page_0_2_name: "4\u20E3 表情符號別號"
         page_0_2_desc: '> `%{prefix}alias search EmoteName`'
         page_1_title: 反應
         page_1_desc: You can only react with emotes you can use with NQN.
-        page_1_0_name: 'Reacting to the most recent message:'
+        page_1_0_name: '正在最近訊息添加反應：'
         page_1_0_desc: '> `%{prefix}react EmoteName`'
         page_1_1_name: 'Reacting to a message in the same channel:'
         page_1_1_desc: '> `%{prefix}react EmoteName` (Whilst replying to the target message)'
