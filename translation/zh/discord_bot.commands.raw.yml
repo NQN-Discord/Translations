@@ -144,9 +144,9 @@ discord_bot:
           如果您不希望我重新發佈訊息鏈結，您可以將鏈結包圍在 \<\> 中，機器人就不會幫您發佈您所引用的訊息。
 
           如果伺服器管理員想要在整個伺服器中禁用此功能，他們可以使用 `%{prefix}server message_link_previews off` 以關掉此功能。
-        page_5_title: 屏蔽網址
+        page_5_title: 隱蔽網址
         page_5_desc: |
-          NQN 允許用戶在將常規訊息中加入 [Masked URLs](%{url})。
+          NQN 允許用戶在將常規訊息中加入 [隱蔽網址](%{url})。
 
           如果您要在訊息中加入鏈結，請使用這個格式：`[字句](https://網頁鏈結)`
           如果您要在訊息中加入按鈕，請使用這個格式：`[按鈕字句](button://網頁鏈結)`
@@ -176,16 +176,16 @@ discord_bot:
           > 角色名稱: 您想發佈訊息的其餘部分
         page_8_title: 伺服器管理
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          NQN 在自訂功能設定方面非常靈活，從而避免出現一些不適合您伺服器的設定。
+          任何具有**管理伺服器**權限的人都可以更改或自訂機器人在該伺服器的設置。
 
-          Here are the features you can toggle:
+          以下是您可以更改或自訂的功能：
 
            • Nitro - `%{prefix}server nitro`
-           • Stickers - `%{prefix}server stickers`
-           • Message Link Previews - `%{prefix}server message_link_previews`
-           • Personas - `%{prefix}server personas`
-           • Masked Links - `%{prefix}server masked_links`
+           • 貼圖 - `%{prefix}server stickers`
+           • 預覽訊息鏈結 - `%{prefix}server message_link_previews`
+           • 角色 - `%{prefix}server personas`
+           • 隱蔽網址 - `%{prefix}server masked_links`
         page_8_0_name: 排查故障
         page_8_0_desc: |
           為了確保 NQN 能夠正常運作，NQN 在每一個（__every__）您希望使用 Nitro 表情符號的頻道中需要以下權限：
@@ -201,15 +201,14 @@ discord_bot:
           無論其他設置如何，如果您在訊息中提及（ping）NQN，NQN 都會*時常*回應。
         page_8_2_name: 審核訊息
         page_8_2_desc: |
-          NQN keeps a log of messages it reposts, as the original message gets removed.
-          This is in case that someone changes their name and avatar before posting an offensive message, or otherwise misbehaves using the bot.
+          因為原始訊息會被刪除，為了防止有人在發佈冒犯性消息之前更改了他們的姓名和頭像、或者以其他不正當的方式使用機器人，NQN 會保留被重新發佈的訊息以防萬一。
 
-          To get the audited messages for the server, use `%{prefix}audit guild` or [visit our website](%{url}), select your server and then click on the cog at the top.
+          要獲取伺服器的訊息記錄，請使用 `%{prefix}audit guild` 或 [瀏覽我們的網站](%{url})，選擇您的伺服器，然後點擊左上角的設置圖標後選擇「Audit Log」。
 
-          Only users with **Manage Server** and **View Audit Log** can view the logged messages.
+          只有在伺服器擁有 **管理伺服器** 和 **檢視審核紀錄** 的用戶才能查看該伺服器的訊息記錄。
 
-          An alternate approach which stays inside Discord is the Audit Channel, which can be set with `%{prefix}server set_audit_channel #channel`.
-          Any resent messages will be posted there with their current username, discriminator and user id.
+          您也可以選擇把訊息記錄設置在伺服器中其中一個頻道。請使用 `%{prefix}server set_audit_channel #channel` 設置。
+          任何重新發佈的訊息都會包含其當前的用戶名、tag 和用戶 ID。
         page_8_3_name: '權限：'
         page_8_3_desc: |
           NQN requires the 'Manage Webhooks' server permission to correctly function; reposting messages will not work without this.
