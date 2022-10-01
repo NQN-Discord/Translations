@@ -128,22 +128,22 @@ discord_bot:
           您還可以使用 `%{prefix}pack set_public yes` 以公開您的表情符號包，以允許來自其他伺服器的人無需邀請就可以加入您的伺服器。
         page_3_title: 別號
         page_3_desc: |
-          Aliases are just individual emotes which you give a name, and are then usable via that name.
+          這些表情符號別號只不過是表情符號的另一個名字。這樣的話，您就可以利用通過該表情符號的別號以使用這些表情符號。
 
-          If you know the exact name of the emote you want to add:
+          如果您知道要新增的表情符號的確切名稱：
           > `%{prefix}alias search :EmoteName:`
 
-          If you want to look through every emote NQN can let you use:
-          > `%{prefix}alias search whatever` (No colons if you don't know the exact name)
+          如果您想瀏覽一系列您可以利用NQN使用的表情符號：
+          > `%{prefix}alias search whatever`（如果您不知道確切的名稱，請不要在名字周邊加上冒號）
         page_4_title: 預覽訊息鏈結
         page_4_desc: |
-          NQN allows you to preview messages sent in different channels.
+          NQN 允許您預覽在不同頻道準備發佈的訊息。
 
-          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
+          只需通過 Discord（流動通訊設備上的「分享」按鈕，然後複製到剪貼板）複製訊息鏈接，然後將其貼上到您的訊息中，NQN也會幫您發佈您所引用的訊息。
 
-          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+          如果您不希望我重新發佈訊息鏈結，您可以將鏈結包圍在 \<\> 中，機器人就不會幫您發佈您所引用的訊息。
 
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
+          如果伺服器管理員想要在整個伺服器中禁用此功能，他們可以使用 `%{prefix}server message_link_previews off` 以關掉此功能。
         page_5_title: 屏蔽網址
         page_5_desc: |
           NQN 允許用戶在將常規訊息中加入 [Masked URLs](%{url})。
@@ -152,28 +152,28 @@ discord_bot:
           如果您要在訊息中加入按鈕，請使用這個格式：`[按鈕字句](button://網頁鏈結)`
         page_6_title: 貼圖
         page_6_desc: |
-          If you've ever wanted to send large images/stickers/emotes, you've come to the right place.
+          如果您曾經想傳送大大個圖像/貼圖/表情符號，那麼您來對了地方。
 
-          Inspired by Telegram, NQN brings stickers to Discord.
-          You can use them as you would an emote, except stickers have a file extension at the end.
+          受到 Telegram 的啟發，NQN 為 Discord 帶來了貼圖。
+          您可以像在 NQN 使用表情符號一樣使用它們，只不過發布貼圖需要包含檔案副檔名。
 
-          Each message can contain up to 10 stickers.
+          每條訊息最多可包含 10 個貼圖。
 
-          You can create stickers with `%{prefix}sticker create` and upload an image file or by importing from Telegram.
-          This is done with `%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here`.
+          如果您想創建貼圖，請使用 `%{prefix}sticker create` 上傳圖像文件或從 Telegram 導入貼圖。
+          如果您要從 Telegram 導入貼圖，請先使用 `%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here` ，然後在使用先前的指令。
 
-          To search through stickers you can use with NQN, use `%{prefix}sticker search` with a optional search terms.
+          要搜索可以在 NQN 裡使用的貼圖，請使用可以帶有搜索詞的 `%{prefix}sticker search` 指令。
 
-          To view your stickers, use `%{prefix}stickers mine`.
+          要查看您的貼圖，請使用 `%{prefix}stickers mine` 指令。
 
-          Note - to use Telegram stickers, you must first import them to the bot. The bot does not do this automatically.
+          注意 - 要使用 Telegram 貼圖的話，您必須先將它們導入 NQN。我不會自動執行此操作。
         page_7_title: 角色
         page_7_desc: |
-          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
-          In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
+          角色允許您在伺服器中使用與他們自己不同的自訂用戶名和頭像去發佈訊息。
+          如果您要在伺服器中啟用此功能，您首先需要使用 `%{prefix}server personas on`。
 
-          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
-          > name: Rest of message
+          想要創建角色的話，請使用 `%{prefix}persona register name`。之後，您可以通過以下格式利用角色發佈訊息L：
+          > 角色名稱: 您想發佈訊息的其餘部分
         page_8_title: 伺服器管理
         page_8_desc: |
           NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
@@ -188,18 +188,18 @@ discord_bot:
            • Masked Links - `%{prefix}server masked_links`
         page_8_0_name: 排查故障
         page_8_0_desc: |
-          In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:
-          **Manage Webhooks**, **Use External Emojis**, **Add Reactions**, **Read Messages** and **Manage Messages**.
-        page_8_1_name: "Not Quite Nitro's prefix:"
+          為了確保 NQN 能夠正常運作，NQN 在每一個（__every__）您希望使用 Nitro 表情符號的頻道中需要以下權限：
+          **管理 Webhook**、**使用外部表情符號**、**新增反應**、**檢視頻道**和 **管理訊息**。
+        page_8_1_name: "Not Quite Nitro 的前綴："
         page_8_1_desc: |
-          Anyone with **Manage Server** permissions can change the prefix NQN uses.
+          任何擁有 **「管理伺服器」** 權限的人都可以更改 NQN 在該伺服器的前綴。
 
-          The bot's current prefix for commands is `%{prefix}`, though it can be changed with
+          我當前的指令前綴是 `%{prefix}`，您可以使用以下指令去更改：
           > %{prefix}server prefix %{ping} ?
-          This would change it to `?`, though any prefix works.
+          這會將在此伺服器的指令前綴更改為 `?`。除了 `?`，任何前綴都理應有效。
 
-          NQN will *always* listen to it's ping however regardless of other settings.
-        page_8_2_name: Auditing Messages
+          無論其他設置如何，如果您在訊息中提及（ping）NQN，NQN 都會*時常*回應。
+        page_8_2_name: 審核訊息
         page_8_2_desc: |
           NQN keeps a log of messages it reposts, as the original message gets removed.
           This is in case that someone changes their name and avatar before posting an offensive message, or otherwise misbehaves using the bot.
@@ -223,7 +223,7 @@ discord_bot:
           Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
 
           Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
-        page_9_title: Advanced Usage
+        page_9_title: 更多功能
         page_9_desc: |
           If someone uses an emote, NQN allows you to use it as well, but only if it's been recently used in the server.
           **NOTE:** If you've only just invited NQN, it won't know about any recently used emotes before it joined.
@@ -301,15 +301,15 @@ discord_bot:
           程式名字：%{app_name}
           說明指令：`%{prefix}help`
         bot_metadata: |
-          > Uptime: %{uptime}
-          > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
-          > Servers Loaded: %{guilds_loaded} / %{guilds}
+          > 當前連續在線時間： %{uptime}
+          > 表情符號伺服器： %{alias_servers_available} / %{alias_servers_total}
+          > 已載入伺服器： %{guilds_loaded} / %{guilds}
         guild_features:
           zero: ''
           one: |
-            > Server Feature: %{guild_features}
+            > 伺服器功能: %{guild_features}
           many: |
-            > Server Features: %{guild_features}
+            > 伺服器功能: %{guild_features}
         bot_credits: |
           機器人頭像和 Wumpus 藝術由來自 [Wump Motes](https://discord.gg/pEjCBNF) 的 [Dooley](<https://www.dooleytm.com>) 製作。
 
@@ -344,7 +344,7 @@ discord_bot:
         shard_info_name: 數據庫資訊
         process_data_name: 機器人數據存取
         elasticsearch_data_name: Elasticsearch 資訊
-        package_info_name: Package 資訊
+        package_info_name: 程式運行基本資訊
         bot_metadata_name: 機器人基本資訊
         credits: 致謝
         author: 作者
