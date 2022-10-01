@@ -5,9 +5,9 @@ premium:
   no_patreon: |
     沒有 Patreon 帳戶與此 Discord 帳戶有聯繫
   account_not_changed: |
-    Updated your premium server list; your linked Discord account has not changed
+    已更新您所擁有高級版權限的伺服器；您所連接的 Discord 帳戶未有受到影響
   gained_premium: |
-    Linked your Discord account to Patreon! Your premium features are now applied to this account.
+    成功將您的 Discord 帳戶連接到 Patreon。您現在可以使用NQN高級版的功能。
   associate_account: |
     沒有 Patreon 帳戶與此 Discord 帳戶有聯繫。
     [連接您的 Discord 和 Patreon 帳戶](%{patreon_oauth})
@@ -44,5 +44,5 @@ premium:
 
       如果您以前更改了任何高級版專用的設置，它們現在已經被重置。
   premium_commands: |
-    > `%{prefix}server set_nitro_role` - Restricts access to NQN to users with a specific role.
-    > `%{prefix}server user_content` - Enforces emojis posted via NQN to be ones in your server, in your `%{prefix}server alias` list or `%{prefix}server pack` list. When this setting is enabled, user content search based commands will be disabled.
+    > `%{prefix}server set_nitro_role` - 限制伺服器中具有特定身分組的用戶使用 NQN。
+    > `%{prefix}server user_content` - 限制 NQN 所發布的表情符號必須是在您的伺服器中，在您的 `%{prefix}server alias` 別號列表或 `%{prefix}server pack` 表情符號包列表中。啟用此功能後，伺服器成員不可以使用有關搜索的指令。
