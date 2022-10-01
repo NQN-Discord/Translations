@@ -103,12 +103,12 @@ command_docs:
     name: bewerk
     short_doc: Bewerk een bericht geplaatst door NQN
     help: |
-      Edits the content of one of your messages reposted by NQN.
-      By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
-      You can also use Discord's message reply functionality to edit that message.
+      Bewerkt de inhoud van een van uw berichten die opnieuw zijn gepost door NQN.
+      Standaard wordt je meest recente bericht in dit kanaal bewerkt, maar je kunt optioneel een bericht-URL opgeven om dat te bewerken
+      Je kunt ook de bericht-antwoorden-functie van Discord gebruiken om dat bericht te bewerken.
   emote:
     name: emoji
-    short_doc: Manage your server's emojis
+    short_doc: Beheer de emoji's van uw server
   emote-block:
     name: blok
     short_doc: Block the use of an emote
