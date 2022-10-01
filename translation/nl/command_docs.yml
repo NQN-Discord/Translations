@@ -96,12 +96,12 @@ command_docs:
     name: verwijder
     short_doc: Verwijder een van je berichten die opnieuw zijn gepost door NQN
     help: |
-      Delete one of your messages reposted by NQN.
-      By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
-      You can also use Discord's message reply functionality to delete that message.
+      Verwijder een van je berichten die opnieuw zijn gepost door NQN.
+      Standaard wordt je meest recente bericht in dit kanaal verwijderd, maar je kunt optioneel een bericht-URL opgeven om dat te verwijderen.
+      Je kunt ook de bericht-antwoorden-functie van Discord gebruiken om dat bericht te verwijderen.
   edit:
     name: bewerk
-    short_doc: Edit a message posted by NQN
+    short_doc: Bewerk een bericht geplaatst door NQN
     help: |
       Edits the content of one of your messages reposted by NQN.
       By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
