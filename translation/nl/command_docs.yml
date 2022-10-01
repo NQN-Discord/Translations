@@ -227,10 +227,10 @@ command_docs:
     name: negeer_me
     short_doc: Stop dat NQN uw berichten opnieuw plaatst
     help: |
-      Running this command stops NQN from reposting any of your messages in any server you share with the bot.
-      - Commands are still enabled, running this command again returns you to normal
-      - You can still repost messages through our [dashboard](https://nqn.blue)
-      - The bot will not respond to any messages you send that would be reposted through a webhook
+      Als u deze commando uitvoert, stopt NQN uw berichten opnieuw plaatsen op een server die u deelt met de bot.
+      - Commando's zijn nog steeds ingeschakeld, als u deze opdracht opnieuw uitvoert, keert u terug naar normaal
+      - U kunt nog steeds berichten opnieuw posten via ons [dashboard](https://nqn.blue)
+      - De bot reageert niet op berichten die u verzendt en die opnieuw zouden worden gepost via een webhook
   info:
     name: info
     short_doc: Interne statistieken over de bot
