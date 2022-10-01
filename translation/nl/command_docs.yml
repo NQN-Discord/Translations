@@ -96,55 +96,55 @@ command_docs:
     name: verwijder
     short_doc: Verwijder een van je berichten die opnieuw zijn gepost door NQN
     help: |
-      Delete one of your messages reposted by NQN.
-      By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
-      You can also use Discord's message reply functionality to delete that message.
+      Verwijder een van je berichten die opnieuw zijn gepost door NQN.
+      Standaard wordt je meest recente bericht in dit kanaal verwijderd, maar je kunt optioneel een bericht-URL opgeven om dat te verwijderen.
+      Je kunt ook de bericht-antwoorden-functie van Discord gebruiken om dat bericht te verwijderen.
   edit:
     name: bewerk
-    short_doc: Edit a message posted by NQN
+    short_doc: Bewerk een bericht geplaatst door NQN
     help: |
-      Edits the content of one of your messages reposted by NQN.
-      By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
-      You can also use Discord's message reply functionality to edit that message.
+      Bewerkt de inhoud van een van uw berichten die opnieuw zijn gepost door NQN.
+      Standaard wordt je meest recente bericht in dit kanaal bewerkt, maar je kunt optioneel een bericht-URL opgeven om dat te bewerken
+      Je kunt ook de bericht-antwoorden-functie van Discord gebruiken om dat bericht te bewerken.
   emote:
     name: emoji
-    short_doc: Manage your server's emojis
+    short_doc: Beheer de emoji's van uw server
   emote-block:
     name: blok
-    short_doc: Block the use of an emote
+    short_doc: Het gebruik van een emoji blokkeren
     help: |
-      Search for emojis to block in this server.
-      When this emoji is used, it'll automatically be added to the server's automod list and be removed.
+      Zoek op deze server naar emoji's om te blokkeren.
+      Wanneer deze emoji wordt gebruikt, wordt deze automatisch toegevoegd aan de automod-lijst van de server en verwijderd.
   emote-block-from_emote:
     name: van_emoji
-    short_doc: Block the use of an emote
+    short_doc: Het gebruik van een emoji blokkeren
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to block the use of?
+          Welke emoji het gebruik van blokkeren?
   emote-block-from_search:
     name: van_zoeken
-    short_doc: Block the use of an emote
+    short_doc: Het gebruik van een emoji blokkeren
   emote-block-recently_used:
-    name: recently_used
-    short_doc: Block the use of an emote
+    name: laatst_gebruikt
+    short_doc: Het gebruik van een emoji blokkeren
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to block the use of?
+          Welke emoji het gebruik van blokkeren?
   emote-block_list:
     name: blok_list
-    short_doc: View the list of emojis blocked in this server
+    short_doc: Bekijk de lijst met emoji's die op deze server zijn geblokkeerd
   emote-info:
     name: info
-    short_doc: Get information about an emote
+    short_doc: Krijg informatie over een emoji
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to get information about?
+          Over welke emoji moet je informatie krijgen?
   emote-jumbo:
     name: jumbo
     short_doc: Maakt een emoji groter
@@ -175,25 +175,25 @@ command_docs:
           Welke emoji ontgrendelen?
   emote-stats:
     name: stats
-    short_doc: See how often your server's emotes are used
+    short_doc: Bekijk hoe vaak de emoji's van je server worden gebruikt
   emote-unblock:
     name: deblokkeren
-    short_doc: Unblock a previously blocked emoji
+    short_doc: Deblokkeer een eerder geblokkeerde emoji
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to unblock?
+          Welke emoji deblokkeren?
   emote-upload:
     name: upload
     short_doc: Upload een emoji
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload it
+      Zoek naar alle emoji's die de bot ooit heeft gezien en upload ze naar deze server.
+      Met deze commando kun je emoji's uploaden.
+      Je kunt ook een bestand bijvoegen om het te uploaden
   emote-upload-from_attachment:
-    name: from_attachment
-    short_doc: Upload an emoji from an attachment
+    name: uit_bijlage
+    short_doc: Upload een emoji vanuit een bijlage
     params:
       attachment:
         name: bijlage
@@ -201,7 +201,7 @@ command_docs:
           Emoji afbeelding
   emote-upload-from_emote:
     name: van_emoji
-    short_doc: Upload an emoji from it's name or URL
+    short_doc: Upload een emoji vanaf zijn naam of URL
     params:
       emoji:
         name: emoji
@@ -209,10 +209,10 @@ command_docs:
           Emoji of Emoji URL
   emote-upload-from_search:
     name: van_zoeken
-    short_doc: Search for an emoji to upload to your server
+    short_doc: Zoek naar een emoji om te uploaden naar je server
   export:
     name: exporteren
-    short_doc: Export your emote list
+    short_doc: Exporteer je lijst met emoji's
   help:
     name: help
     short_doc: Leer over mijn commando's
@@ -222,10 +222,10 @@ command_docs:
         description: |-
           Wat te leren?
     help: |
-      Learn about the commands you can run with NQN
+      Meer informatie over de commando's die u kunt uitvoeren met NQN
   ignore_me:
-    name: ignore_me
-    short_doc: Stop NQN from reposting your messages
+    name: negeer_me
+    short_doc: Stop dat NQN uw berichten opnieuw plaatst
     help: |
       Running this command stops NQN from reposting any of your messages in any server you share with the bot.
       - Commands are still enabled, running this command again returns you to normal
@@ -233,10 +233,10 @@ command_docs:
       - The bot will not respond to any messages you send that would be reposted through a webhook
   info:
     name: info
-    short_doc: Internal statistics about the bot
+    short_doc: Interne statistieken over de bot
   invite_me:
-    name: invite_me
-    short_doc: Invite the bot to your server!
+    name: nodig_me_uit
+    short_doc: Nodig de bot uit naar uw server!
   mod:
     name: mod
     short_doc: NQN-moderatietools
@@ -260,20 +260,20 @@ command_docs:
       Als zowel kanaal als leden ongefilterd moeten worden, gebruik dan 'audit guild'
   mod-ban:
     name: ban
-    short_doc: Ban the user that posted a message
+    short_doc: Verban de gebruiker die een bericht heeft geplaatst
   mod-edit_topic:
-    name: edit_topic
-    short_doc: Add animated emojis to channel topics
+    name: bewerk_onderwerp
+    short_doc: Voeg geanimeerde emoji's toe aan kanaalonderwerpen
     params:
       description:
-        name: description
+        name: beschrijving
         description: |-
-          The new channel description including emoji names
+          De nieuwe kanaalbeschrijving inclusief emoji-namen
     help: |
-      Changes the channel description, allowing for animated emojis in them as well
+      Verandert de kanaalbeschrijving, waardoor er ook geanimeerde emoji's in kunnen
   mod-kick:
     name: kick
-    short_doc: Kick the user that posted a message
+    short_doc: Kick de gebruiker die een bericht heeft geplaatst
   mod-move:
     name: verplaatsen
     short_doc: Verplaats maximaal 50 van de meest recente berichten in dit kanaal naar een ander
@@ -288,262 +288,262 @@ command_docs:
           Hoeveel berichten te verplaatsen?
   mod-purge:
     name: purge
-    short_doc: Purge some messages reposted by the bot in this channel
+    short_doc: Verwijder paar berichten die opnieuw zijn gepost door de bot in dit kanaal
   mutuals:
-    name: mutuals
-    short_doc: See the servers I share with you
+    name: gemeenschappelijken
+    short_doc: Bekijk de servers die ik met je deel
   my_emotes:
-    name: my_emotes
-    short_doc: See what emojis you can post with NQN
+    name: mijn_emoji's
+    short_doc: Bekijk welke emoji's je kunt posten met NQN
     params:
       page:
         name: pagina
         description: |-
-          Which emojis to show?
+          Welke emoji's laten zien?
         choices:
-          current_server: Current Server
-          mutual_servers: Mutual Servers
+          current_server: Huidige Server
+          mutual_servers: Gemeenschappelijke Servers
           aliases: Aliassen
           packs: Pakketten
   owner:
     name: eigenaar
-    short_doc: Forbidden knowledge lurks within
+    short_doc: Verboden kennis schuilt binnen
   nqn:
     name: nqn
-    short_doc: Send a message with NQN
+    short_doc: Stuur een bericht met NQN
   nqn-message:
     name: bericht
-    short_doc: Post a message with NQN emojis in it
+    short_doc: Plaats een bericht met NQN emoji's erin
     params:
       message:
         name: bericht
         description: |-
-          The message to post
+          Het bericht om te plaatsen
       persona:
         name: persona
         description: |-
-          The persona to use
+          De persona om te gebruiken
       attachment:
         name: bijlage
         description: |-
-          An attachment to send
+          Een bijlage om te verzenden
   nqn-single_emoji:
-    name: single_emoji
-    short_doc: Post a message with just a single emoji in it
+    name: enkele_emoji
+    short_doc: Plaats een bericht met slechts een enkele emoji erin
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to post
+          Welke emoji om te posten
       persona:
         name: persona
         description: |-
-          The persona to use
+          De persona om te gebruiken
   pack:
     name: pakket
-    short_doc: Manage entire packs of emotes
+    short_doc: Volledige pakketten met emoji's beheren
   pack-dm:
     name: dm
-    short_doc: Get a full list of your packs in your DMs
+    short_doc: Ontvang een volledige lijst van je pakketten in je DM's
     help: |
-      Have the bot send you a complete list of your packs current emoji lists through your DMs.
+      Laat de bot je een volledige lijst van de huidige emoji-lijsten van je pakketten sturen via je DM's.
   pack-join:
     name: deelnemen
-    short_doc: Subscribe to an emote pack
+    short_doc: Abonneer je op een emoji-pakket
     params:
       pack:
         name: pakket
         description: |-
-          Which pack do you want to join?
+          Bij welk pakket wil je aansluiten?
   pack-leave:
     name: verlaten
-    short_doc: Unsubscribe from an emote pack
+    short_doc: Afmelden van een emoji-pakket
     params:
       pack:
         name: pakket
         description: |-
-          Which pack do you want to leave?
+          Welk pakket wil je verlaten?
   pack-meta:
     name: meta
-    short_doc: Oooh... Pretty stats about your pack
+    short_doc: Oooh... Mooie statistieken over je pakket
   pack-mine:
     name: mijn
-    short_doc: Get a list of emote packs you're subscribed to
+    short_doc: Krijg een lijst met emoji-pakketten waarop je bent geabonneerd
   pack-publish:
-    name: publish
-    short_doc: Publish your emote server as an emote pack
+    name: publiceer
+    short_doc: Publiceer je emoji-server als een emoji-pakket
     params:
       name:
         name: naam
         description: |-
-          What do you want to call your pack?
+          Hoe wil je je pakket noemen?
       public:
         name: publiek
         description: |-
-          Do you want people to be able to join your server through the bot without an invite?
+          Wil je dat mensen zonder uitnodiging via de bot lid kunnen worden van je server?
   pack-rename:
     name: hernoem
-    short_doc: Rename an emote pack
+    short_doc: Hernaam een emoji-pakket
     params:
       new_name:
         name: nieuw_naam
         description: |-
-          What do you want to call your pack?
+          Hoe wil je je pakket noemen?
   pack-save:
     name: opslaan
-    short_doc: Upload all of the emotes from a pack to this server
+    short_doc: Upload alle emoji's van een pakket naar deze server
     params:
       name:
         name: naam
         description: |-
-          Which pack are you downloading emojis to this server from?
+          Van welk pakket download je emoji's naar deze server?
   pack-search:
     name: zoek
-    short_doc: Find entire packs of emotes
+    short_doc: Vind hele pakketten emoji's
     params:
       search:
         name: zoek
         description: |-
-          What kind of emojis are you looking for?
+          Wat voor soort emoji's zoek je?
       page:
         name: pagina
         description: |-
-          Which page of packs to start on?
+          Op welke pagina met pakketten beginnen?
   pack-set_public:
-    name: set_public
-    short_doc: Allow anyone to join this server via NQN.
+    name: maak_openbaar
+    short_doc: Sta iedereen toe om via NQN lid te worden van deze server.
     params:
       enabled:
         name: ingeschakeld
         description: |-
-          Allow users to join this server through NQN without an invite?
+          Gebruikers toestaan lid te worden van deze server via NQN zonder een uitnodiging?
   pack-show:
-    name: show
-    short_doc: Show the contents of a pack
+    name: toon
+    short_doc: Toon de inhoud van een pakket
     params:
       pack:
         name: pakket
         description: |-
-          Which pack to show the emojis of?
+          Van welk pakket de emoji's laten zien?
   pack-unpublish:
-    name: unpublish
-    short_doc: Don't want this server to be an emote pack anymore?
+    name: depubliceren
+    short_doc: Wil je niet meer dat deze server een emoji-pakket is?
   persona:
     name: persona
-    short_doc: Manage your personas
+    short_doc: Beheer je persona's
   persona-avatar_url:
     name: avatar_url
-    short_doc: Set the avatar of a persona
+    short_doc: Stel de avatar van een persona in
     params:
       persona:
         name: persona
         description: |-
-          Which persona are you changing the username for?
+          Voor welke persona verander je de gebruikersnaam?
       avatar_url:
         name: avatar_url
         description: |-
-          What's the new avatar URL?
+          Wat is de nieuwe avatar-URL?
   persona-delete:
     name: verwijderen
-    short_doc: Delete one of your personas
+    short_doc: Een van je persona's verwijderen
     params:
       persona:
         name: persona
         description: |-
-          Which persona are you deleting?
+          Welke persona verwijder je?
   persona-display_name:
     name: weergavenaam
-    short_doc: Change the username of a persona
+    short_doc: De gebruikersnaam van een persona wijzigen
     params:
       persona:
         name: persona
         description: |-
-          Which persona are you changing the username for?
+          Voor welke persona verander je de gebruikersnaam?
       display_name:
         name: weergavenaam
         description: |-
-          What's the new username?
+          Wat is de nieuwe gebruikersnaam?
   persona-dm:
     name: dm
-    short_doc: DMs you a full list of your personas
+    short_doc: Stuurs een volledige lijst van je persona's naar je DMs
   persona-export:
     name: exporteren
-    short_doc: Export your list of personas to a file
+    short_doc: Exporteer uw lijst met persona's naar een bestand
     help: |
-      Export your list of personas to a file, which is compatible with other bots
+      Exporteer uw lijst met persona's naar een bestand dat compatibel is met andere bots
   persona-import:
     name: importeren
-    short_doc: Import a previously exported list of personas
+    short_doc: Importeer een eerder geëxporteerde lijst met persona's
     params:
       file:
         name: bestand
         description: |-
-          A file previously exported with /persona export
+          Een bestand dat eerder is geëxporteerd met /persona export
     help: |
-      Import a previously exported list of personas.
-      Compatible with PluralKit and Tupperbox.
+      Importeer een eerder geëxporteerde lijst met persona's.
+      Compatibel met PluralKit en Tupperbox.
   persona-list:
     name: lijst
-    short_doc: See a list of your personas
+    short_doc: Zie een lijst met uw persona's
   persona-register:
     name: register
-    short_doc: Register a persona for later use
+    short_doc: Registreer een persona voor later gebruik
     params:
       short_name:
-        name: short_name
+        name: korte_naam
         description: |-
-          What's your persona's prefix?
+          Wat is het prefix van jouw persona?
   persona-rename:
     name: hernoem
-    short_doc: Give one of your personas a different name
+    short_doc: Geef een van je persona's een andere naam
     params:
       persona:
         name: persona
         description: |-
-          Which persona are you changing the prefix of?
+          Van welke persona verander je het prefix?
       new_name:
         name: nieuw_naam
         description: |-
-          What will the new prefix be?
+          Wat wordt het nieuwe prefix?
   premium:
     name: premium
-    short_doc: Premium stuff
+    short_doc: Premium spullen
   premium-check:
-    name: check
-    short_doc: Recalculate your premium information
+    name: controleer
+    short_doc: Herbereken uw premiumgegevens
     help: |
-      Recalculates your premium information, including the list of servers gaining premium from you.
+      Herberekent uw premium-informatie, inclusief de lijst met servers die premium van u krijgen.
   premium-help:
     name: help
-    short_doc: Information about NQN premium
+    short_doc: Informatie over NQN premium
   ranking:
-    name: ranking
-    short_doc: How high up is your server in our rankings?
+    name: rangschikking
+    short_doc: Hoe hoog staat jouw server in onze rankings?
   react:
-    name: react
-    short_doc: React to a message with emojis
+    name: reageer
+    short_doc: Reageer op een bericht met emoji's
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to react with?
+          Met welke emoji reageren?
       message:
         name: bericht
         description: |-
-          Which message to react to?
+          Op welk bericht reageren?
     help: |
-      Use Discord replies or a message link to react to that message.
-      The command allows a list of reactions, each of which will be added in the order specified.
-      **You need to react to the added reactions as well for them to stay.**
+      Gebruik Discord-antwoorden of een berichtenlink om op dat bericht te reageren.
+      De commando staat een lijst met reacties toe, die elk in de opgegeven volgorde worden toegevoegd.
+      **Je moet ook op de toegevoegde reacties reageren om te blijven.**
   server:
     name: server
-    short_doc: Server Configuration
+    short_doc: Server Configuratie
   server-alias:
     name: alias
-    short_doc: Server Aliases
+    short_doc: Server Aliassen
   server-alias-delete:
     name: verwijderen
-    short_doc: Didn't like an emote? Make it so they've got to work for it.
+    short_doc: Vond je een emote niet leuk? Zorg ervoor dat ze ervoor moeten werken.
     params:
       alias:
         name: alias
@@ -551,7 +551,7 @@ command_docs:
           Welke alias wil je verwijderen?
   server-alias-import:
     name: importeren
-    short_doc: Import a list of server aliases from a file.
+    short_doc: Importeer een lijst met serveraliassen uit een bestand.
     params:
       file:
         name: bestand
@@ -559,23 +559,23 @@ command_docs:
           Een bestand dat eerder is geëxporteerd met /alias export
   server-alias-list:
     name: lijst
-    short_doc: Show all the aliases that anyone in your server can use
+    short_doc: Toon alle aliassen die iedereen op uw server kan gebruiken
     params:
       page:
         name: pagina
         description: |-
-          Which page to start at?
+          Welke pagina om te beginnen?
   server-alias-post:
     name: post
-    short_doc: Post a list of server aliases
+    short_doc: Een lijst met serveraliassen plaatsen
     params:
       channel:
         name: kanaal
         description: |-
-          Which channel do you want to post the server-wide emoji list to?
+          Op welk kanaal wil je de serverbrede emoji-lijst plaatsen?
   server-alias-rename:
     name: hernoem
-    short_doc: Rename a server alias
+    short_doc: De naam van een serveralias wijzigen
     params:
       old_name:
         name: oud_naam
@@ -587,103 +587,103 @@ command_docs:
           Waar moet het naar hernoemd worden?
   server-alias-search:
     name: zoek
-    short_doc: Allow anyone in the server to use an emote!
+    short_doc: Laat iedereen op de server een emoji gebruiken!
   server-dashboard_posting:
     name: dashboard_posting
-    short_doc: Enable or disable posting messages through the bot dashboard
+    short_doc: In- of uitschakelen van het plaatsen van berichten via het botdashboard
   server-audit_channel:
-    name: audit_channel
-    short_doc: Post messages the bot reposts
+    name: audit_kanaal
+    short_doc: Berichten posten die de bot opnieuw plaatst
     params:
       channel:
         name: kanaal
         description: |-
-          Which channel should NQN post to? (None -> No channel)
+          Op welk kanaal moet NQN posten? (Geen -> Geen kanaal)
   server-language:
     name: taal
-    short_doc: Set the bots language %{locale_flag_emojis}
+    short_doc: Stel de bottaal in %{locale_flag_emojis}
   server-link:
     name: link
-    short_doc: Create a static emote, which when used posts an animated version of the emote instead!
+    short_doc: Maak een statische emoji, die bij gebruik een geanimeerde versie van de emoji plaatst!
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to create a static version of?
+          Van welke emoji moet je een statische versie maken?
   server-masked_links:
-    name: masked_links
-    short_doc: Enable or disable masked links in this server
+    name: gemaskeerde_links
+    short_doc: Schakel gemaskeerde links op deze server in of uit
   server-nitro:
     name: nitro
-    short_doc: Enable or disable free nitro usage in this server
+    short_doc: Schakel gratis nitro gebruik in of uit op deze server
   server-pack:
     name: pakket
     short_doc: Server Pakketten
   server-pack-join:
     name: deelnemen
-    short_doc: Subscribe to an emote pack server-wide
+    short_doc: Abonneer u op een emoji-pakket voor de hele server
     params:
       pack:
         name: pakket
         description: |-
-          Which pack do you want to allow everyone in this server to use?
+          Welk pakket wil je iedereen op deze server laten gebruiken?
   server-pack-leave:
     name: verlaten
-    short_doc: Unsubscribe from an emote pack server-wide
+    short_doc: Afmelden voor een emoji-pakket voor de hele server
     params:
       pack:
         name: pakket
         description: |-
-          Which pack do you want to remove access to from everyone?
+          Tot welk pakket wil je de toegang voor iedereen verwijderen?
   server-pack-list:
     name: lijst
-    short_doc: List the packs this server can use
+    short_doc: Maak een lijst van de pakketten die deze server kan gebruiken
   server-pack-post:
     name: post
-    short_doc: Post a list of server packs
+    short_doc: Plaats een lijst met serverpakketten
   server-pack-search:
     name: zoek
-    short_doc: Search for an emote pack to add server-wide
+    short_doc: Zoek een emote-pakket om serverwijd toe te emoji voegen
   server-permissions_debug:
-    name: permissions_debug
-    short_doc: Let NQN tell you what permissions it's missing
+    name: machtigingen_debug
+    short_doc: Laat NQN je vertellen welke machtigingen het mist
   server-personas:
     name: persona's
-    short_doc: Enable or disable usage of personas
+    short_doc: Gebruik van persona's in- of uitschakelen
     help: |
-      Allows users to post with arbitrary usernames and avatars
+      Hiermee kunnen gebruikers berichten plaatsen met willekeurige gebruikersnamen en avatars
   server-pings:
     name: pings
-    short_doc: Enable or disable pings in messages for this server
+    short_doc: Schakel vermeldingen in berichten in of uit voor deze server
     help: |
-      Enable or disable pings in messages that NQN reposts on this server
+      Schakel vermeldingen in of uit in berichten die NQN opnieuw plaatst op deze server
   server-phish_detection:
-    name: phish_detection
-    short_doc: Enable or disable phishing message detection for this server
+    name: phish_detectie
+    short_doc: Detectie van phishingberichten voor deze server in- of uitschakelen
   server-prefix:
     name: prefix
-    short_doc: Make NQN listen to a different prefix.
+    short_doc: Laat NQN naar een ander prefix luisteren.
     help: |
-      Make NQN listen to a different prefix.
+      Laat NQN naar een ander prefix luisteren.
 
-      Example invocation:
+      Voorbeeld aanroep:
       >>> %{prefix}server prefix <@%{bot_id}> ?
     signature: |
       @NQN#3454 [prefix=!]
   server-message_link_previews:
-    name: message_link_previews
-    short_doc: Enable or disable message link previews in this server
+    name: berichten_link_voorbeelden
+    short_doc: Schakel previews van berichtenlink in of uit op deze server
   server-settings:
     name: instellingen
-    short_doc: View the settings for this server
+    short_doc: Bekijk de instellingen voor deze server
     help: |
-      View NQN's server settings, including features, configured channels and pack information.
+      Bekijk de serverinstellingen van NQN, inclusief functies, geconfigureerde kanalen en pakketinformatie.
   server-boost_channel:
     name: boost_kanaal
-    short_doc: Post whenever someone votes with the server on top.gg
+    short_doc: Plaats wanneer iemand stemt met de server op top.gg
   server-boost_role:
     name: boost_rol
-    short_doc: Give a user this role when they boost this server via NQN
+    short_doc: Geef een gebruiker deze rol wanneer ze deze server boosten via NQN
   server-nitro_role:
     name: nitro_rol
     short_doc: Vereisen dat gebruikers een rol hebben om NQN te gebruiken
