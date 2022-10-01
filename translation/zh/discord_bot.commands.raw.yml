@@ -211,34 +211,34 @@ discord_bot:
           任何重新發佈的訊息都會包含其當前的用戶名、tag 和用戶 ID。
         page_8_3_name: '權限：'
         page_8_3_desc: |
-          NQN requires the 'Manage Webhooks' server permission to correctly function; reposting messages will not work without this.
+          NQN 需要在伺服器中有「管理 Webhooks」權限才能正常運作；沒有的話，我將沒法轉發任何訊息。
 
-           • To disable commands from working in a specific channel, deny NQN 'Send Message' permissions there via user permissions.
-           • To disable reposting messages in a specific channel, deny NQN 'Manage Webhook' permissions there via user permissions.
-           • To disable all interactions in a specific channel, deny NQN 'Read Message' permissions there via user permissions.
+           • 要在特定一個頻道中禁止伺服器成員使用任何 NQN 指令，只需關掉 NQN 在該頻道的「傳送訊息」權限。
+           • 要在特定一個頻道中禁止 NQN 轉發訊息，只需關掉 NQN 在該頻道的「管理 Webhook」權限。
+           • 要在特定頻道中禁止所有交互，只需關掉 NQN 在該頻道的「檢視頻道」權限。
         page_8_4_name: '資料存取：'
         page_8_4_desc: |
-          NQN stores reposted messages such that users can delete them and for the audit log.
-          Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
+          NQN 會存儲被轉發的訊息，以便用戶可以刪除它們並用於記錄於審核日誌。
+          任何使用 NQN 的人，即使不在您的伺服器中，都可以檢視和搜索您的伺服器中的每個表情符號，但不會能夠加入您的伺服器。
 
-          Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
+          我們收集有關用戶使用機器人的某些資料，以便讓我們進一步改進機器人，但有關資料絕對不會包括用戶發佈的訊息字句。
         page_9_title: 更多功能
         page_9_desc: |
-          If someone uses an emote, NQN allows you to use it as well, but only if it's been recently used in the server.
-          **NOTE:** If you've only just invited NQN, it won't know about any recently used emotes before it joined.
+          如果有人使用一個您原本不能過使用的表情符號的話，NQN 也會短暫允許您使用它，但前提是它最近在伺服器中使用過。
+          **注意：** 如果您只是最近邀請了 NQN，它不會知道任何它在加入之前使用過的表情符號。
 
-          In the case that you have several emotes with the same name, the following order is used:
+          如果您有多個同名的表情符號，NQN 會使用以下順序：
 
-          1. Aliases
-          2. The current server
-          3. Emote Packs
-          4. Other servers you share with NQN
-          5. Server wide aliases
-          6. Server wide packs
-          7. Recently used emojis in the current server
-          8. Recently shown packs in the current server
+          1. 用戶已新增的別號
+          2. 當前伺服器的表情符號
+          3. 表情符號包裡面的表情符號
+          4. 您與NQN共享的其他伺服器
+          5. 伺服器已新增的別號
+          6. 伺服器已加入的表情符號包
+          7. 當前伺服器中最近使用過的表情符號
+          8. 當前服務器最近顯示的表情符號包
 
-          If you find yourself with clashing emotes, create the one you want to use as an alias, and that will override it.
+          如果您發現自己有多個同名的表情符號，我們建議在您多數想使用的表情符號新增別號，這樣 NQN 會知道您首選用該名字的表情符號，以防 NQN 錯誤使用其他表情符號。
       react:
         user_needs_to_react: |
           嗨 %{user_ping}！
@@ -281,20 +281,20 @@ discord_bot:
         audit_message: "%{author} 在 %{channel} 中的 [訊息](<%{jump_url}>) 添加了以下表情符號反應：\n"
       info:
         shard_data: |
-          > No. shards: %{shard_count} (%{shards_down} down)
-          > Average latency: %{average_latency}ms
-          > Current shard: %{current_shard}
-          > Current shard latency: %{current_latency}ms
+          > 數據庫的數量: %{shard_count} (%{shards_down} down)
+          > 平均延遲: %{average_latency}毫秒
+          > 當前數據庫: %{current_shard}
+          > 當前數據庫的延遲: %{current_latency}毫秒
         process_data: |
-          > RAM usage: %{ram_usage}
-          > CPU usage: %{cpu_usage}%
-          > Network:
-          > - Sent: %{network_send}
-          > - Received: %{network_recv}
+          > RAM 使用情況：%{ram_usage}
+          > CPU 使用率：%{cpu_usage}%
+          > 網絡：
+          > - 已發送：%{network_send}
+          > - 已收到：%{network_recv}
         elasticsearch_metadata: |
-          > RAM usage: %{ram_usage}
-          > Disk space: %{disk_use}
-          > Network total: %{bytes_sent}
+          > RAM 使用情況：%{ram_usage}
+          > 磁盤空間：%{disk_use}
+          > 網絡總數：%{bytes_sent}
         description: |
           作者：%{owner}
           程式名字：%{app_name}
