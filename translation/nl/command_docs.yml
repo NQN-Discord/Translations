@@ -111,7 +111,7 @@ command_docs:
     short_doc: Beheer de emoji's van uw server
   emote-block:
     name: blok
-    short_doc: Block the use of an emote
+    short_doc: Het gebruik van een emoji blokkeren
     help: |
       Search for emojis to block in this server.
       When this emoji is used, it'll automatically be added to the server's automod list and be removed.
@@ -551,7 +551,7 @@ command_docs:
           Welke alias wil je verwijderen?
   server-alias-import:
     name: importeren
-    short_doc: Import a list of server aliases from a file.
+    short_doc: Importeer een lijst met serveraliassen uit een bestand.
     params:
       file:
         name: bestand
@@ -559,23 +559,23 @@ command_docs:
           Een bestand dat eerder is geëxporteerd met /alias export
   server-alias-list:
     name: lijst
-    short_doc: Show all the aliases that anyone in your server can use
+    short_doc: Toon alle aliassen die iedereen op uw server kan gebruiken
     params:
       page:
         name: pagina
         description: |-
-          Which page to start at?
+          Welke pagina om te beginnen?
   server-alias-post:
     name: post
-    short_doc: Post a list of server aliases
+    short_doc: Een lijst met serveraliassen plaatsen
     params:
       channel:
         name: kanaal
         description: |-
-          Which channel do you want to post the server-wide emoji list to?
+          Op welk kanaal wil je de serverbrede emoji-lijst plaatsen?
   server-alias-rename:
     name: hernoem
-    short_doc: Rename a server alias
+    short_doc: De naam van een serveralias wijzigen
     params:
       old_name:
         name: oud_naam
@@ -587,21 +587,21 @@ command_docs:
           Waar moet het naar hernoemd worden?
   server-alias-search:
     name: zoek
-    short_doc: Allow anyone in the server to use an emote!
+    short_doc: Laat iedereen op de server een emoji gebruiken!
   server-dashboard_posting:
     name: dashboard_posting
-    short_doc: Enable or disable posting messages through the bot dashboard
+    short_doc: In- of uitschakelen van het plaatsen van berichten via het botdashboard
   server-audit_channel:
     name: audit_kanaal
-    short_doc: Post messages the bot reposts
+    short_doc: Berichten posten die de bot opnieuw plaatst
     params:
       channel:
         name: kanaal
         description: |-
-          Which channel should NQN post to? (None -> No channel)
+          Op welk kanaal moet NQN posten? (Geen -> Geen kanaal)
   server-language:
     name: taal
-    short_doc: Set the bots language %{locale_flag_emojis}
+    short_doc: Stel de bottaal in %{locale_flag_emojis}
   server-link:
     name: link
     short_doc: Create a static emote, which when used posts an animated version of the emote instead!
@@ -609,10 +609,10 @@ command_docs:
       emoji:
         name: emoji
         description: |-
-          Which emoji to create a static version of?
+          Van welke emoji moet je een statische versie maken?
   server-masked_links:
     name: gemaskeerde_links
-    short_doc: Enable or disable masked links in this server
+    short_doc: Schakel gemaskeerde links op deze server in of uit
   server-nitro:
     name: nitro
     short_doc: Enable or disable free nitro usage in this server
