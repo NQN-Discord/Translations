@@ -3,29 +3,29 @@ discord_bot:
   commands:
     server:
       alias:
-        set_emote_title: 'Set \:%{name}: to %{emote} for this server.'
+        set_emote_title: '將此伺服器中 %{emote} 的名字設置為 \:%{name}: 。'
         set_emote_description:
           zero: |
-            This server has no emotes left!
-            For more aliases, anyone can vote for the bot at %{url}
+            此伺服器不可以在新增表情符號別號了！
+            如您需要為更多表情符號新增別號，只要在 %{url} 為機器人投票就可以了
 
-            Anyone can use this emote by typing:
+            無論如何，任何人現在都可以通過輸入以下內容來使用此表情符號：
           one: |
-            This server has one emote left before it reaches it's maximum.
-            For more aliases, anyone can vote for the bot at %{url}
+            此伺服器只可以再新增最多一個表情符號別號了！
+            如您需要為更多表情符號新增別號，只要在 %{url} 為機器人投票就可以了
 
-            Anyone can use this emote by typing:
+            無論如何，任何人現在都可以通過輸入以下內容來使用此表情符號：
           many: |
-            This server has %{count} emotes left before it reaches it's maximum.
-            For more aliases, anyone can vote for the bot at %{url}
+            此伺服器只可以再新增最多%{count}個表情符號別號了！
+            如您需要為更多表情符號新增別號，只要在 %{url} 為機器人投票就可以了
 
-            Anyone can use this emote by typing:
+            無論如何，任何人現在都可以通過輸入以下內容來使用此表情符號：
         failed_aliases:
           one: |
-            One alias which cannot be rendered
+            未能成功顯示一個表情符號別號
           many: |
-            %{failed_aliases} aliases which cannot be rendered
-        max_title: This server is at its maximum emote/pack count already!
+            未能成功顯示%{failed_aliases}個表情符號別號
+        max_title: 此伺服器已經用盡了的表情符號/表情符號包的定額！
         max_description: |
           :%{name}: was not added as a server emote.
 
@@ -34,8 +34,8 @@ discord_bot:
         renamed: 'Renamed %{emote} from \:%{name}: to :%{new}:'
         no_aliases: This server has no global aliases
       nitro_role:
-        unset: Anyone in this server can use free Nitro emotes with NQN
-        set: Now only users with the %{role} role can use free Nitro emotes with NQN
+        unset: 此伺服器中的所有成員都可以通過 NQN 免費使用的 Nitro 專用的表情符號
+        set: 此伺服器中的只有 %{role} 身分組的成員可以通過 NQN 免費使用的 Nitro 專用的表情符號
       audit_channel:
         unset: Unset the audit channel for this server
         set: Set the audit channel for this server to %{channel}
@@ -47,39 +47,39 @@ discord_bot:
         unset: Unset the boost role for this server
         set: Set the boost role for this server to %{role}
       boolean_options:
-        stickers_on: Enabled stickers
-        stickers_off: Disabled stickers
-        nitro_on: Enabled free nitro usage in this server!
-        nitro_off: Disabled free nitro usage in this server
-        replies_on: Enabled message link previews
-        replies_off: Disabled message link previews
-        masked_links_on: Enabled masked URL usage
-        masked_links_off: Disabled masked URL usage
-        pings_on: Enabled pings in reposted messages
-        pings_off: Disabled pings in reposted messages
+        stickers_on: 已啟用貼圖功能
+        stickers_off: 已禁用貼圖功能
+        nitro_on: 已在此伺服器中啟用免費的 Nitro 功能！
+        nitro_off: 已在此伺服器中禁用免費的 Nitro 功能
+        replies_on: 已啟用訊息鏈結預覽功能
+        replies_off: 已禁用訊息鏈結預覽功能
+        masked_links_on: 已啟用屏蔽鏈結的功能
+        masked_links_off: 已禁用屏蔽鏈結的功能
+        pings_on: 已允許在 NQN 重新發佈的訊息中使用 ping
+        pings_off: 已禁止在 NQN 重新發佈的訊息中使用 ping
         user_content_on: |
-          Enabled usage of individual user's aliases and packs
-          Sticker settings have not been changed.
+          已啟用用戶使用別號和表情符號包的功能
+          有關貼圖的設置尚未更改。
         user_content_off: |
-          Disabled usage of individual user's aliases and packs.
-          Only aliases and packs added with `%{prefix}server alias search` and `%{prefix}server pack search` will be usable, as well as emojis from this server.
-          Stickers have also been automatically disabled.
+          已禁用用戶使用別號和表情符號包的功能。
+          伺服器成員只可以使用那些用 `%{prefix}server alias search` 和 `%{prefix}server pack search` 新增的別號和表情符號包，以及原本來自此伺服器的表情符號。
+          貼圖已被一同禁用。
         personas_on: |
-          Enabled usage of personas.
-          This allows anyone to set a customisable username and avatar; be warey of impersonation.
+          已啟用角色的功能。
+          這樣會允許任何人設置自訂的用戶名和頭像；請慎防冒名頂替。
 
-          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
+          NQN 建議您在使用此功能時設置審核日誌以便翻查紀錄；如果還沒有的話，您可以使用
           > ```!server set_audit_channel #channel``` #channel```
-        personas_off: Disabled usage of personas
-        dashboard_posting_on: Enabled posting messages from the bot's dashboard
-        dashboard_posting_off: Disabled posting messages from the bot's dashboard
-        phish_detection_on: Enabled phishing message detection in this server
-        phish_detection_off: Disabled phishing message detection in this server
+        personas_off: 已禁用角色的功能
+        dashboard_posting_on: 已允許管理者使用機器人的 Dashboard 發佈訊息
+        dashboard_posting_off: 已禁止管理者使用機器人的 Dashboard 發佈訊息
+        phish_detection_on: 已開始在此伺服器中檢查可疑訊息
+        phish_detection_off: 已暫停在此伺服器中檢查可疑訊息
       link:
         no_animated_emotes: |
-          This server has no animated emotes!
-          You can only link animated emotes with this command.
-        too_many_static: This server has too many static emotes! Try deleting some first.
+          此伺服器並沒有動畫表情符號！
+          您只可以使用此指令連接動畫表情符號。
+        too_many_static: 此伺服器的靜態表情符號太多了！請刪除一些後再重試。
         animated_only: This command only works with animated emotes - it makes them available in the emote picker for non-nitro users as static ones!
         emote_not_found: Could not find that emote! Try aliasing it with `%{prefix}alias search`
         upload_later: Could not upload emote; try again in a few hours
