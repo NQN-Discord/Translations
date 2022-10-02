@@ -155,58 +155,57 @@ command_docs:
           您想放大哪個表情符號？
   emote-rolelock:
     name: rolelock
-    short_doc: Lock an emoji to a specific set of roles
+    short_doc: 將表情符號鎖定到只有一個特定的身分組的成員使用
     params:
       emoji:
         name: emoji
         description: |-
-          Lock which emoji?
+          您想鎖定哪個表情符號？
       role:
         name: role
         description: |-
-          Lock the emoji to which role?
+          您想鎖定表情符號到哪個身分組？
   emote-roleunlock:
     name: roleunlock
-    short_doc: Allow anyone to use a locked emote
+    short_doc: 允許所有人使用一個之前被鎖定的表情符號
     params:
       emoji:
         name: emoji
         description: |-
-          Unlock which emoji?
+          您想解鎖哪個表情符號？
   emote-stats:
     name: stats
-    short_doc: See how often your server's emotes are used
+    short_doc: 查看您伺服器中的表情符號的用量
   emote-unblock:
     name: unblock
-    short_doc: Unblock a previously blocked emoji
+    short_doc: 移除以前被禁止使用的表情符號的限制
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to unblock?
+          您想移除哪個表情符號的限制？
   emote-upload:
     name: upload
-    short_doc: Upload an emote
+    short_doc: 上傳表情符號
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload it
+      搜索機器人所有以前見過的表情符號並將它們上傳到此伺服器。
+      此指令也允許您上傳表情符號，您只需附加文件上傳
   emote-upload-from_attachment:
     name: from_attachment
-    short_doc: Upload an emoji from an attachment
+    short_doc: 從附件上傳表情符號
     params:
       attachment:
         name: attachment
         description: |-
-          Emoji image
+          表情符號的圖像
   emote-upload-from_emote:
     name: from_emote
-    short_doc: Upload an emoji from it's name or URL
+    short_doc: 從名字或鏈結上傳表情符號
     params:
       emoji:
         name: emoji
         description: |-
-          Emoji or Emoji URL
+          表情符號或者表情符號的鏈結
   emote-upload-from_search:
     name: from_search
     short_doc: Search for an emoji to upload to your server
