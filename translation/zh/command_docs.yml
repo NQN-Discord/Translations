@@ -94,65 +94,65 @@ command_docs:
       如果頻道和伺服器成員都不用過濾，請則使用「audit guild」
   delete:
     name: delete
-    short_doc: 刪除其中一條 NQN 轉發您發佈的訊息
+    short_doc: 刪除其中一條 NQN 轉發由您發佈的訊息
     help: |
-      Delete one of your messages reposted by NQN.
-      By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
-      You can also use Discord's message reply functionality to delete that message.
+      刪除其中一條 NQN 轉發由您發佈的訊息。
+      在預設情況下，您在此頻道中的最新被轉發的訊息會被刪除，但您可以選擇提供訊息鏈結以刪除該訊息。
+      您還可以使用 Discord 的訊息回覆功能來刪除該訊息。
   edit:
     name: edit
-    short_doc: Edit a message posted by NQN
+    short_doc: 編輯其中一條 NQN 轉發由您發佈的訊息
     help: |
-      Edits the content of one of your messages reposted by NQN.
-      By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
-      You can also use Discord's message reply functionality to edit that message.
+      編輯其中一條 NQN 轉發由您發佈的訊息。
+      在預設情況下，您在此頻道中的最新被轉發的訊息會被編輯，但您可以選擇提供訊息鏈結以編輯該訊息。
+      您還可以使用 Discord 的訊息回覆功能來編輯該消息。
   emote:
     name: emote
-    short_doc: Manage your server's emojis
+    short_doc: 管理您伺服器中的表情符號
   emote-block:
     name: block
-    short_doc: Block the use of an emote
+    short_doc: 禁止任何人使用其中一個表情符號
     help: |
-      Search for emojis to block in this server.
-      When this emoji is used, it'll automatically be added to the server's automod list and be removed.
+      搜索在伺服器中要禁止的表情符號。
+      當有人使用此表情符號時，它會自動被刪除。
   emote-block-from_emote:
     name: from_emote
-    short_doc: Block the use of an emote
+    short_doc: 禁止任何人使用其中一個表情符號
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to block the use of?
+          您想禁止人使用哪個表情符號？
   emote-block-from_search:
     name: from_search
-    short_doc: Block the use of an emote
+    short_doc: 禁止任何人使用其中一個表情符號
   emote-block-recently_used:
     name: recently_used
-    short_doc: Block the use of an emote
+    short_doc: 禁止任何人使用其中一個表情符號
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to block the use of?
+          您想禁止人使用哪個表情符號？
   emote-block_list:
     name: block_list
-    short_doc: View the list of emojis blocked in this server
+    short_doc: 查看所有在此伺服器器中被禁止使用的表情符號
   emote-info:
     name: info
-    short_doc: Get information about an emote
+    short_doc: 獲取有關一個表情符號的資訊
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to get information about?
+          您想獲取哪個表情符號的資訊？
   emote-jumbo:
     name: jumbo
-    short_doc: Makes an emoji bigger
+    short_doc: 放大表情符號
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to make jumbo sized?
+          您想放大哪個表情符號？
   emote-rolelock:
     name: rolelock
     short_doc: Lock an emoji to a specific set of roles
@@ -301,9 +301,9 @@ command_docs:
         description: |-
           Which emojis to show?
         choices:
-          current_server: Current Server
-          mutual_servers: Mutual Servers
-          aliases: Aliases
+          current_server: 當前的伺服器
+          mutual_servers: 共同的伺服器
+          aliases: 表情符號別號
           packs: Packs
   owner:
     name: owner
@@ -788,46 +788,46 @@ command_docs:
       search:
         name: search
         description: |-
-          Which to search for?
+          尋找甚麼？
   sticker-telegram:
     name: telegram
-    short_doc: Import stickers from telegram
+    short_doc: 從 Telegram 導入貼圖
   support:
     name: support
-    short_doc: Need some help with using me?
+    short_doc: 需要一些有關使用我的援助嗎？
   tutorial:
     name: tutorial
-    short_doc: Learn how to use emotes with NQN
+    short_doc: 了解如何利用 NQN 使用表情符號
     params:
       about:
         name: about
         description: |-
-          What to learn about?
+          您想知道甚麼？
   whois:
     name: whois
-    short_doc: Find who posted a message
+    short_doc: 查找發佈訊息的用戶
   _search:
     params:
       search:
         name: search
         description: |-
-          What are you searching for?
+          您在尋找甚麼？
       exact:
         name: exact
         description: |-
-          Show only emojis with exactly this name
+          僅顯示具有跟輸入字句一模一樣名稱的表情符號
       animated:
         name: animated
         description: |-
-          Show only animated or static emojis?
+          只顯示動畫或靜態表情符號？
       page:
         name: page
         description: |-
-          Start from a page other than 1
+          由第一頁以後的頁面開始
       order:
         name: order
         description: |-
-          Order results by?
+          用哪個方法作為頁面排序
         choices:
-          random: random
-          relevance: relevance
+          random: 隨機
+          relevance: 關聯
