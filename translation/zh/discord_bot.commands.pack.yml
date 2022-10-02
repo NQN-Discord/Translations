@@ -5,8 +5,8 @@ discord_bot:
       buttons:
         add_to_everyone: 加到 @everyone
         join_pack: 加入表情符號包
-        leave_pack: 離開表情符號包
-        join_server: 新增伺服器
+        leave_pack: 退出表情符號包
+        join_server: 加入伺服器
         all: 全部儲存
       join:
         no_pack: '%{name} 並不是已註冊的表情符號包'
@@ -17,7 +17,7 @@ discord_bot:
       leave:
         no_pack: '%{name} 並不是已註冊的表情符號包'
         already_left: 反正您也未有加入 %{name}
-        left: 已離開 %{name} 表情符號包
+        left: 已退出 %{name} 表情符號包
       meta:
         needs_publishing: 如果您不先發佈伺服器為表情符號包，您將無法執行此操作。
       mine:
