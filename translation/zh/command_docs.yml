@@ -1,68 +1,68 @@
 ---
 command_docs:
   gain_access_to_emojis:
-    name: Gain access to emojis
+    name: 享用表情符號
   block_emote:
-    name: Block an emote
+    name: 封鎖表情符號
   audit_messages:
-    name: Audit NQN messages
+    name: 審核 NQN 的訊息
   delete_message:
-    name: Delete Message
+    name: 刪除訊息
   edit_message:
-    name: Edit Message
+    name: 編輯訊息
   find_author:
-    name: Find Author
+    name: 尋找訊息作者
   alias:
     name: alias
-    short_doc: Manage the individual emotes you can use
+    short_doc: 管理您可以使用的表情符號
     help: |
-      Manage the individual emotes you can use
+      管理您可以使用的表情符號
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      NQN 的搜索有一些強大功能：
+       - `exact`：（預設為 false）僅顯示與搜索字句一模一樣名稱的表情符號
+       - `animated`：僅顯示動畫或靜態表情符號
+       - `page`：跳到某個頁面
+       - `order`：用「使用次數」或「隨機”」作為頁面排序
   alias-delete:
     name: delete
-    short_doc: Don't want an alias anymore? Use this
+    short_doc: 不想再使用表請符號別號了嗎？使用此指令
     params:
       alias:
         name: alias
         description: |-
-          Which alias do you want to remove?
+          您想刪除哪個表情符號別號？
   alias-delete_all:
     name: delete_all
-    short_doc: I don't like any of my aliases
+    short_doc: 我不喜歡我全部表情符號包的別號
     help: |
-      Delete all of your aliases
+      刪除全部表情符號的別號
   alias-dm:
     name: dm
-    short_doc: Get a full list of your aliases in DMs
+    short_doc: 在 DM 獲取您擁有的表情符號別號的完整列表
     help: |
-      Have the bot send you a list of your aliases in your DMs
+      在 DM 獲取您擁有的表情符號別號的列表
   alias-export:
     name: export
-    short_doc: Export your alias list
+    short_doc: 導出您的表情符號別號
   alias-import:
     name: import
-    short_doc: Import someone else's alias list
+    short_doc: 導入其他人的表情符號別號
     params:
       file:
         name: file
         description: |-
-          A file previously exported with /alias export
+          以前使用 /alias export 導出的文件
   alias-mine:
     name: mine
-    short_doc: Get a list of aliases you've made
+    short_doc: 獲取您所有已創建的表情符號別號的列表
     params:
       page:
         name: page
         description: |-
-          What page to start at?
+          從哪個頁面開始？
   alias-rename:
     name: rename
-    short_doc: Rename one of your aliases
+    short_doc: 重新命名其中一個表情符號的別號
     params:
       old_name:
         name: old_name
