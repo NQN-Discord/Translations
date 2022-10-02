@@ -22,7 +22,7 @@ command_docs:
        - `exact`：（預設為 false）僅顯示與搜索字句一模一樣名稱的表情符號
        - `animated`：僅顯示動畫或靜態表情符號
        - `page`：跳到某個頁面
-       - `order`：用「使用次數」或「隨機”」作為頁面排序
+       - `order`：用「使用次數」或「隨機」作為頁面排序
   alias-delete:
     name: delete
     short_doc: 不想再使用表請符號別號了嗎？使用此指令
@@ -67,34 +67,34 @@ command_docs:
       old_name:
         name: old_name
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          您想重新命名的表情符號是叫甚麼名字？
       new_name:
         name: new_name
         description: |-
-          What should it be renamed to?
+          新的名字
   alias-search:
     name: search
-    short_doc: Look for individual emotes
+    short_doc: 尋找表情符號
     help: |
-      Look for individual emotes to use with NQN
+      尋找您可以使用的表情符號
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      NQN 的搜索有一些強大功能：
+       - `exact`：（預設為 false）僅顯示與搜索字句一模一樣名稱的表情符號
+       - `animated`：僅顯示動畫或靜態表情符號
+       - `page`：跳到某個頁面
+       - `order`：用「使用次數」或「隨機」作為頁面排序
   audit:
     name: audit
-    short_doc: Get audit logs for reposted messages for this channel
+    short_doc: 獲取此頻道由 NQN 轉發的訊息的紀錄
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
+      獲取此頻道由 NQN 轉發的訊息的紀錄
+      可選[Channel] -> 僅獲取在此頻道發佈的訊息
+      可選[Member] -> 僅獲取由其中一個伺服器成員發佈的訊息
 
-      If both channel and members are to be unfiltered, use 'audit guild'
+      如果頻道和伺服器成員都不用過濾，請則使用「audit guild」
   delete:
     name: delete
-    short_doc: Delete one of your messages reposted by NQN
+    short_doc: 刪除其中一條 NQN 轉發您發佈的訊息
     help: |
       Delete one of your messages reposted by NQN.
       By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
