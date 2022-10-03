@@ -1,13 +1,13 @@
 ---
 rest:
   join_server:
-    joined: '%{user} joined the server through the public emote pack!'
+    joined: '%{user} sunucuya herkese açık emoji paketi aracılığıyla katıldı!'
   vote:
-    guild_rank: '%{guild} is now #%{guild_rank}'
+    guild_rank: '%{guild} artık #%{guild_rank}'
     vote_text: |
-      <@%{user}> just voted for the server on %{site}!
-      %{guild} can now use %{max_emotes} serverwide emotes
+      <@%{user}> az önce %{site}'daki sunucuya oy verdi!
+      %{guild} artık sunucu genelinde %{max_emotes} emoji kullanabilir
     vote_text_rank: |
-      <@%{user}> just voted for the server on %{site}!
-      %{guild} can now use %{max_emotes} serverwide emotes and is ranked #%{guild_rank} #%{guild_rank}
-    voted: Voted for NQN
+      <@%{user}> az önce %{site}'daki sunucuya oy verdi!
+      %{guild} artık sunucu genelinde %{max_emotes} emoji kullanabilir ve #%{guild_rank} derecesindedir #%{guild_rank}
+    voted: NQN için oylandı
