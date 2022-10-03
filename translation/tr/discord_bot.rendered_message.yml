@@ -1,17 +1,17 @@
 ---
 discord_bot:
   rendered_message:
-    oops: Oops!
+    oops: Hata!
     external_emojis: |
-      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Server Settings**.
+      Diğer sunuculardaki emojileri kullanmak için NQN'nin **Sunucu Ayarları**'nda 'Harici Emojileri Kullanma' iznine ihtiyacı vardır.
     override_external_emojis: |
-      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
-    download: Download
+      Diğer sunuculardaki emojileri kullanmak için NQN'nin **Kanal Ayarları İzinlerinde** 'Harici Emojileri Kullanma' iznine ihtiyacı vardır.
+    download: Yükle
     no_personas: |
-      Personas are not allowed in this server
+      Bu sunucuda persona izin verilmiyor
     no_messageless_posting: |
-      A server administrator has disabled posting through the web dashboard and slash commands
+      Bir sunucu yöneticisi, web panosu ve slash komutları aracılığıyla gönderi göndermeyi devre dışı bıraktı
     no_slowmode_posting: |
-      Posting messages in channels with a slowmode is not allowed
-    enable_posting: Enable Posting
-    posted_message: Posted message
+      Yavaş modlu kanallarda mesaj göndermek yasaktır
+    enable_posting: Göndermeyi Etkinleştir
+    posted_message: Gönderilen mesaj
