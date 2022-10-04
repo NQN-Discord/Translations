@@ -3,381 +3,368 @@ discord_bot:
   commands:
     raw:
       buttons:
-        commands: 指令
-        tutorial: 指南
-        my_emotes: 我的表情符號
+        commands: Commands
+        tutorial: Tutorial
+        my_emotes: My Emotes
       depreciated_commands:
         renamed: |
-          此舊指令已被 `%{prefix}%{new}` 取代。
-          如果您不想下次再收到此提示，請用❌反應
-        ignored: 此 `%{name}` 指令已被忽略
+          This command has been renamed to `%{prefix}%{new}`.
+          If you don't want to see this message again, react with ❌
+        ignored: Ignored `%{name}` for you.
       edit:
-        never_posted: 您從來沒有使用NQN在此頻道發佈任何訊息！
+        never_posted: You've never posted a message with NQN in this channel!
         message_deleted: |
-          您在此頻道中最新使用 NQN 的訊息已被刪除！
-          如果您要選擇新的訊息編輯，請Discord回覆該訊息或貼上該訊息的鏈結。
-        cannot_edit_no_nqn: 這個訊息不是由NQN發佈，您並不能選擇它！
-        cannot_edit_different_user: 這個訊息不是由您發佈，您並不能選擇它！
-        edit_message: 編輯訊息
-        new_content: '新的內容：'
+          Your most recent message with NQN in this channel has been deleted!
+          Please choose a message either by replying to it with Discord, or by pasting it's jump URL
+        cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
+        cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
+        edit_message: Edit Message
+        new_content: 'New Content:'
       delete:
-        deleted: 已成功刪除訊息
+        deleted: Message successfully deleted
       export:
-        exported_list_short: "以下是您的所有表情符號："
+        exported_list_short: "Here's your exported emotes:"
         exported_list_long: |
-          以下是您的所有表情符號：
-          您可以與其他人共享它們，他們需要使用以下指令：
+          Here's your exported emotes
+          To share them with other people, they need to run:
           > `%{prefix}alias import %{url}`
       ignore_me:
-        user_ignored: NQN 將不再轉發您的訊息。要重新啟用功能的話，請再次使用此指令
-        user_unignored: NQN 將如常轉發您的訊息
+        user_ignored: NQN will no longer repost your messages. Run this command again to re-enable
+        user_unignored: NQN will repost your messages as normal
       invite:
-        add_nqn: 新增NQN至您的伺服器！
+        add_nqn: Add NQN to your server!
       my_emotes:
-        current_guild: 當前的伺服器
-        mutual_guilds: 共同的伺服器
-        aliases: 表情符號別號
-        packs: 表情符號包
+        current_guild: Current Server
+        mutual_guilds: Mutual Servers
+        aliases: Aliases
+        packs: Packs
         no_mutual_guilds: |
-          NQN 允許您在此伺服器中使用我們共同的伺服器中的任何表情符號。
-          ，除了這個之外，您目前沒有任何更 NQN 有共同的伺服器。
+          NQN allows you to use any emoji from our mutual servers in this server.
+          Currently, you do not have any mutual servers with NQN, aside from this one.
 
-          您可以 [邀請 NQN 到另一台伺服器](%{bot_invite}) 從而在此伺服器使用該伺服器的表情符號。
+          If you want, you can [invite NQN to another server](%{bot_invite}) to gain access to it's emojis here.
       ranking:
-        vote_link: 您可以在 %{url} 投票給我，然後此伺服器就可以享用更多表情符號以及提高此伺服器的排名。
-        top_server: 此伺服器的排名已提躍升成為第一名，恭喜您！ <a:BluePat:679807864327766048>
-        thanks: 多謝您投的一票！
+        vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
+        top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
+        thanks: Thanks for voting for the bot!
         ranking: |
-          在全部有NQN的伺服器中，%{guild} 現在的排名是 %{rank}。
+          %{guild} is ranked #%{rank} out of all the servers using NQN.
 
           %{rank_leaderboard}
-          您一共投了NQN%{total_votes}次。%{thanks}
+          You have voted %{total_votes} times for NQN. %{thanks}
 
           %{user_ranking}
 
           %{extra_message}
       emote_stats:
-        top_emotes: "此伺服器中最常用的表情符號"
-        choose_page: "選擇一頁"
-        never: "沒有使用過的"
-        once: "只使用過一次的"
-        infrequent: "不常用的"
-        often: "經常使用的"
-        frequent: "頻繁使用的"
-        extreme: "非常頻繁使用的"
-        extraordinary: "異常地使用頻繁"
-        off_chart: "超出預期的"
+        top_emotes: "Top used emojis in this server"
+        choose_page: "Choose a page"
+        never: "Never used"
+        once: "Used once"
+        infrequent: "Infrequent use"
+        often: "Used often"
+        frequent: "Frequent use"
+        extreme: "Extremely frequent use"
+        extraordinary: "Extraordinarily frequently used"
+        off_chart: "Off the chart"
         times_used:
-          zero: "沒有使用過的"
-          one: "只使用過一次的"
-          many: "～使用過%{count}次"
+          zero: "Never used"
+          one: "Used once"
+          many: "~%{count} times used"
         times_used_per_day:
-          zero: "每天使用率低過一次"
-          one: "每天使用率大概一次"
-          many: "～每天使用率%{count}次"
+          zero: "Less than once per day"
+          one: "About once per day"
+          many: "~%{count} times per day"
         emote_count:
-          zero: "沒有表情符號"
-          one: "一個表情符號"
-          many: "%{count}個表情符號"
-        boundary: "～使用過 %{min} - %{max} 次"
+          zero: "No emotes"
+          one: "1 emote"
+          many: "%{count} emotes"
+        boundary: "~%{min} - %{max} times used"
       tutorial:
-        choose_page: 瀏覽指南
-        invalid_page: 此指南只有%{count}頁！
-        permissions_missing: 因為我沒有「嵌入鏈結」或「新增反應」的權限，我未能顯示使用指南。當您修復權限後，您可以再次使用此 `%{prefix}tutorial` 指令。
-        wrong_place: 如果您不想在此頻道顯示使用指南，您可以在其他頻道使用 %{prefix}tutorial 以細看指南。請注意使用指南有多於一頁；如果您想再次瀏覽使用指南，您可以隨時使用 %{prefix}tutorial。
-        default_emojis: 預設的表情符號
-        default_emoji_list: "以下是此伺服器上任何人預設可以使用的所有動畫表情符號 - 您只需手動輸入它們的名字，記得在表情名稱周圍加上 :colons:！"
-        page_0_title: NQN 的使用指南
+        choose_page: Browse Tutorial
+        invalid_page: There are only %{count} pages in the tutorial!
+        permissions_missing: I need to be able to write embeds and add reactions to show my tutorial. It can be reran with `%{prefix}tutorial`.
+        wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
+        default_emojis: Default Emojis
+        default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
+        page_0_title: Tutorial for Not Quite Nitro, TLDR
         page_0_desc: |
-          %{locale_flag_emojis} **語言選項** %{locale_flag_emojis}
+          %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
           > `%{prefix}server language`
-        page_0_0_name: 更多表情符號？
+        page_0_0_name: More Emotes?
         page_0_0_desc: |
-          任何Discord用戶都可以使用與我共享伺服器的任何表情符號。
-          **還有其他幾種方法可以使用您不在的伺服器中的表情符號：**
-        page_0_1_name: "3\u20E3 表情符號包"
+          Everyone is able to use any emote that shares a server with both you and this bot.
+          **There are several other ways to use emotes in servers you are not in:**
+        page_0_1_name: "3\u20E3 Emote packs - Emote Bundles"
         page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 表情符號別號"
+        page_0_2_name: "4\u20E3 Aliases - Individual Emotes"
         page_0_2_desc: '> `%{prefix}alias search EmoteName`'
-        page_1_title: 反應
-        page_1_desc: 您只能使用可在 NQN 使用的表情符號添加反應。
-        page_1_0_name: '在最近訊息添加反應：'
+        page_1_title: Reactions
+        page_1_desc: You can only react with emotes you can use with NQN.
+        page_1_0_name: 'Reacting to the most recent message:'
         page_1_0_desc: '> `%{prefix}react EmoteName`'
-        page_1_1_name: '在當前頻道的最近訊息添加反應：'
-        page_1_1_desc: '> `%{prefix}react EmoteName` (請同時回覆目標訊息)'
-        page_1_2_name: '在最近幾條訊息添加反應：'
-        page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\n這僅適用於最多 20 條訊息前。"
-        page_1_3_name: '在訊息添加反應：'
+        page_1_1_name: 'Reacting to a message in the same channel:'
+        page_1_1_desc: '> `%{prefix}react EmoteName` (Whilst replying to the target message)'
+        page_1_2_name: 'Reacting to recent messages:'
+        page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nThis only works up to 20 messages ago."
+        page_1_3_name: 'Reacting to messages:'
         page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
-        page_1_4_name: 正在刪除訊息
-        page_1_4_desc: "在代表您發送的訊息上添加 \u274C (\\:x:) 反應以刪除它們。"
-        page_2_title: 表情符號包
+        page_1_4_name: Deleting messages
+        page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
+        page_2_title: Packs
         page_2_desc: |
-          表情符號包，顧名思義，包含一些相似的表情符號。當您加入一個表情符號包後，您就可以使用所有表情符號包裡面的所有表情符號。
-        page_2_0_name: 加入表情符號包
+          A pack is a bundle of emojis. After joining a pack, you gain access to the emojis it has.
+        page_2_0_name: Joining emote packs
         page_2_0_desc: |
-          您可以使用 `%{prefix}pack search` 以搜索表情符號包。您也可以加上搜索字句以縮窄搜索結果範圍，例如 `%{prefix}pack search dragon`。
-        page_2_1_name: 搜索您已加入的表情符號包
+          To search for emote packs, use `%{prefix}pack search`, optionally with a search query, such as `%{prefix}pack search dragon`.
+        page_2_1_name: Finding the emote packs you're in
         page_2_1_desc: |
           > `%{prefix}pack mine`
-          此指令向您顯示您當前已加入的表情符號包，包括每個表情符號包中的表情符號名稱。
-        page_2_2_name: 發佈自己的表情符號包
+          This command shows you a list of emote packs you're currently a member of, including the names of the emotes in each pack.
+        page_2_2_name: Publishing your own packs
         page_2_2_desc: |
-          如果您有 **管理伺服器** 權限，您可以發佈伺服器上所有表情符號為表情符號包，其中包含您伺服器的所有已加入的表情符號包：
+          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emote packs:
           > `%{prefix}pack publish MySuperCoolEmotePackName`
-          您還可以使用 `%{prefix}pack set_public yes` 以公開您的表情符號包，以允許來自其他伺服器的人無需邀請就可以加入您的伺服器。
-        page_3_title: 表情符號別號
+          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
+        page_3_title: Aliases
         page_3_desc: |
-          這些表情符號別號只不過是表情符號的另一個名字。這樣的話，您就可以利用通過該表情符號的別號以使用這些表情符號。
+          Aliases are just individual emotes which you give a name, and are then usable via that name.
 
-          如果您知道要新增的表情符號的確切名稱：
+          If you know the exact name of the emote you want to add:
           > `%{prefix}alias search :EmoteName:`
 
-          如果您想瀏覽一系列您可以利用NQN使用的表情符號：
-          > `%{prefix}alias search whatever`（如果您不知道確切的名稱，請不要在名字周邊加上冒號）
-        page_4_title: 預覽訊息鏈結
+          If you want to look through every emote NQN can let you use:
+          > `%{prefix}alias search whatever` (No colons if you don't know the exact name)
+        page_4_title: Message Link Previews
         page_4_desc: |
-          NQN 允許您預覽在不同頻道準備發佈的訊息。
+          NQN allows you to preview messages sent in different channels.
 
-          只需通過 Discord（流動通訊設備上的「分享」按鈕，然後複製到剪貼板）複製訊息鏈接，然後將其貼上到您的訊息中，NQN也會幫您發佈您所引用的訊息。
+          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
 
-          如果您不希望我重新發佈訊息鏈結，您可以將鏈結包圍在 \<\> 中，機器人就不會幫您發佈您所引用的訊息。
+          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
 
-          如果伺服器管理員想要在整個伺服器中禁用此功能，他們可以使用 `%{prefix}server message_link_previews off` 以關掉此功能。
-        page_5_title: 隱蔽網址
+          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
+        page_5_title: Masked URLs
         page_5_desc: |
-          NQN 允許用戶在將常規訊息中加入 [隱蔽網址](%{url})。
+          NQN allows users to send [Masked URLs](%{url}) as part of their regular messages.
 
-          如果您要在訊息中加入鏈結，請使用這個格式：`[字句](https://網頁鏈結)`
-          如果您要在訊息中加入按鈕，請使用這個格式：`[按鈕字句](button://網頁鏈結)`
-        page_6_title: 貼圖
+          This uses standard markup, `[text to show](https://url.here)`.
+          To send messages with buttons, use `[button title](button://url.here)`
+        page_6_title: Stickers
         page_6_desc: |
-          如果您曾經想傳送大大個圖像/貼圖/表情符號，那麼您來對了地方。
+          If you've ever wanted to send large images/stickers/emotes, you've come to the right place.
 
-          受到 Telegram 的啟發，NQN 為 Discord 帶來了貼圖。
-          您可以像在 NQN 使用表情符號一樣使用它們，只不過發布貼圖需要包含檔案副檔名。
+          Inspired by Telegram, NQN brings stickers to Discord.
+          You can use them as you would an emote, except stickers have a file extension at the end.
 
-          每條訊息最多可包含 10 個貼圖。
+          Each message can contain up to 10 stickers.
 
-          如果您想創建貼圖，請使用 `%{prefix}sticker create` 上傳圖像文件或從 Telegram 導入貼圖。
-          如果您要從 Telegram 導入貼圖，請先使用 `%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here` ，然後在使用先前的指令。
+          You can create stickers with `%{prefix}sticker create` and upload an image file or by importing from Telegram.
+          This is done with `%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here`.
 
-          要搜索可以在 NQN 裡使用的貼圖，請使用可以帶有搜索詞的 `%{prefix}sticker search` 指令。
+          To search through stickers you can use with NQN, use `%{prefix}sticker search` with a optional search terms.
 
-          要查看您的貼圖，請使用 `%{prefix}stickers mine` 指令。
+          To view your stickers, use `%{prefix}stickers mine`.
 
-          注意 - 要使用 Telegram 貼圖的話，您必須先將它們導入 NQN。我不會自動執行此操作。
-        page_7_title: 角色
+          Note - to use Telegram stickers, you must first import them to the bot. The bot does not do this automatically.
+        page_7_title: Personas
         page_7_desc: |
-          角色允許您在伺服器中使用與他們自己不同的自訂用戶名和頭像去發佈訊息。
-          如果您要在伺服器中啟用此功能，您首先需要使用 `%{prefix}server personas on`。
+          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
+          In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
 
-          想要創建角色的話，請使用 `%{prefix}persona register name`。之後，您可以通過以下格式利用角色發佈訊息L：
-          > 角色名稱: 您想發佈訊息的其餘部分
-        page_8_title: 伺服器管理
+          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
+          > name: Rest of message
+        page_8_title: Server Administration
         page_8_desc: |
-          NQN 在自訂功能設定方面非常靈活，從而避免出現一些不適合您伺服器的設定。
-          任何具有**管理伺服器**權限的人都可以更改或自訂機器人在該伺服器的設置。
+          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
+          Anyone with **Manage Server** permissions can change server settings with the bot.
 
-          以下是您可以更改或自訂的功能：
+          Here are the features you can toggle:
 
            • Nitro - `%{prefix}server nitro`
-           • 貼圖 - `%{prefix}server stickers`
-           • 預覽訊息鏈結 - `%{prefix}server message_link_previews`
-           • 角色 - `%{prefix}server personas`
-           • 隱蔽網址 - `%{prefix}server masked_links`
-        page_8_0_name: 排查故障
+           • Stickers - `%{prefix}server stickers`
+           • Message Link Previews - `%{prefix}server message_link_previews`
+           • Personas - `%{prefix}server personas`
+           • Masked Links - `%{prefix}server masked_links`
+        page_8_0_name: Troubleshooting Issues
         page_8_0_desc: |
-          為了確保 NQN 能夠正常運作，NQN 在每一個（__every__）您希望使用 Nitro 表情符號的頻道中需要以下權限：
-          **管理 Webhook**、**使用外部表情符號**、**新增反應**、**檢視頻道**和 **管理訊息**。
-        page_8_1_name: "Not Quite Nitro 的前綴："
+          In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:
+          **Manage Webhooks**, **Use External Emojis**, **Add Reactions**, **Read Messages** and **Manage Messages**.
+        page_8_1_name: "Not Quite Nitro's prefix:"
         page_8_1_desc: |
-          任何擁有 **「管理伺服器」** 權限的人都可以更改 NQN 在該伺服器的前綴。
+          Anyone with **Manage Server** permissions can change the prefix NQN uses.
 
-          我當前的指令前綴是 `%{prefix}`，您可以使用以下指令去更改：
+          The bot's current prefix for commands is `%{prefix}`, though it can be changed with
           > %{prefix}server prefix %{ping} ?
-          這會將在此伺服器的指令前綴更改為 `?`。除了 `?`，任何前綴都理應有效。
+          This would change it to `?`, though any prefix works.
 
-          無論其他設置如何，如果您在訊息中提及（ping）NQN，NQN 都會*時常*回應。
-        page_8_2_name: 審核訊息
+          NQN will *always* listen to it's ping however regardless of other settings.
+        page_8_2_name: Auditing Messages
         page_8_2_desc: |
-          因為原始訊息會被刪除，為了防止有人在發佈冒犯性消息之前更改了他們的姓名和頭像、或者以其他不正當的方式使用機器人，NQN 會保留被重新發佈的訊息以防萬一。
+          NQN keeps a log of messages it reposts, as the original message gets removed.
+          This is in case that someone changes their name and avatar before posting an offensive message, or otherwise misbehaves using the bot.
 
-          要獲取伺服器的訊息記錄，請使用 `%{prefix}audit guild` 或 [瀏覽我們的網站](%{url})，選擇您的伺服器，然後點擊左上角的設置圖標後選擇「Audit Log」。
+          To get the audited messages for the server, use `%{prefix}audit guild` or [visit our website](%{url}), select your server and then click on the cog at the top.
 
-          只有在伺服器擁有 **管理伺服器** 和 **檢視審核紀錄** 的用戶才能查看該伺服器的訊息記錄。
+          Only users with **Manage Server** and **View Audit Log** can view the logged messages.
 
-          您也可以選擇把訊息記錄設置在伺服器中其中一個頻道。請使用 `%{prefix}server set_audit_channel #channel` 設置。
-          任何重新發佈的訊息都會包含其當前的用戶名、tag 和用戶 ID。
-        page_8_3_name: '權限：'
+          An alternate approach which stays inside Discord is the Audit Channel, which can be set with `%{prefix}server set_audit_channel #channel`.
+          Any resent messages will be posted there with their current username, discriminator and user id.
+        page_8_3_name: 'Permissions:'
         page_8_3_desc: |
-          NQN 需要在伺服器中有「管理 Webhooks」權限才能正常運作；沒有的話，我將沒法轉發任何訊息。
+          NQN requires the 'Manage Webhooks' server permission to correctly function; reposting messages will not work without this.
 
-           • 要在特定一個頻道中禁止伺服器成員使用任何 NQN 指令，只需關掉 NQN 在該頻道的「傳送訊息」權限。
-           • 要在特定一個頻道中禁止 NQN 轉發訊息，只需關掉 NQN 在該頻道的「管理 Webhook」權限。
-           • 要在特定頻道中禁止所有交互，只需關掉 NQN 在該頻道的「檢視頻道」權限。
-        page_8_4_name: '資料存取：'
+           • To disable commands from working in a specific channel, deny NQN 'Send Message' permissions there via user permissions.
+           • To disable reposting messages in a specific channel, deny NQN 'Manage Webhook' permissions there via user permissions.
+           • To disable all interactions in a specific channel, deny NQN 'Read Message' permissions there via user permissions.
+        page_8_4_name: 'Information Gathering:'
         page_8_4_desc: |
-          NQN 會存儲被轉發的訊息，以便用戶可以刪除它們並用於記錄於審核日誌。
-          任何使用 NQN 的人，即使不在您的伺服器中，都可以檢視和搜索您的伺服器中的每個表情符號，但不會能夠加入您的伺服器。
+          NQN stores reposted messages such that users can delete them and for the audit log.
+          Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
 
-          我們收集有關用戶使用機器人的某些資料，以便讓我們進一步改進機器人，但有關資料絕對不會包括用戶發佈的訊息字句。
-        page_9_title: 更多功能
+          Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
+        page_9_title: Advanced Usage
         page_9_desc: |
-          如果有人使用一個您原本不能過使用的表情符號的話，NQN 也會短暫允許您使用它，但前提是它最近在伺服器中使用過。
-          **注意：** 如果您只是最近邀請了 NQN，它不會知道任何它在加入之前使用過的表情符號。
+          If someone uses an emote, NQN allows you to use it as well, but only if it's been recently used in the server.
+          **NOTE:** If you've only just invited NQN, it won't know about any recently used emotes before it joined.
 
-          如果您有多個同名的表情符號，NQN 會使用以下順序：
+          In the case that you have several emotes with the same name, the following order is used:
 
-          1. 用戶已新增的表情符號別號
-          2. 當前伺服器的表情符號
-          3. 表情符號包裡面的表情符號
-          4. 您與NQN共享的其他伺服器
-          5. 伺服器已新增的表情符號別號
-          6. 伺服器已加入的表情符號包
-          7. 當前伺服器中最近使用過的表情符號
-          8. 當前服務器最近顯示的表情符號包
+          1. Aliases
+          2. The current server
+          3. Emote Packs
+          4. Other servers you share with NQN
+          5. Server wide aliases
+          6. Server wide packs
+          7. Recently used emojis in the current server
+          8. Recently shown packs in the current server
 
-          如果您發現自己有多個同名的表情符號，我們建議在您多數想使用的表情符號新增別號，這樣 NQN 會知道您首選用該名字的表情符號，以防 NQN 錯誤使用其他表情符號。
+          If you find yourself with clashing emotes, create the one you want to use as an alias, and that will override it.
       react:
         user_needs_to_react: |
-          嗨 %{user_ping}！
-          當您使用 `%{prefix}react` 指令時，我會在訊息上添加反應，從而令到您儘管沒有Nitro仍然可以添加Nitro專用表情符號的反應！
-          *NQN 會在%{time}秒後移除該反應。*
-        channel_empty: 此頻道是空的
+          Hey %{user_ping}!
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions after %{time} seconds.*
+        channel_empty: This channel is empty
         invalid_react:
           one: |
-            以下為無效的表情符號：
+            The following emote is not valid:
             > %{not_found}
-            表情符號的名字只可以包含英文字母、數字、下劃線和最多一個破折號。
+            Emotes must only contain alphanumerics, underscores and up to a single dash.
           many: |
-            以下為無效的表情符號：
+            The following emotes are not valid:
             > %{not_found}
-            表情符號的名字只可以包含英文字母、數字、下劃線和最多一個破折號。
+            Emotes must only contain alphanumerics, underscores and up to a single dash.
         emote_unusable:
           one: |
-            以下表情符號未能用於添加反應：
+            The following emote cannot be used in reactions:
             > %{unusable}
-            請注意，表情符號必須來自已經有 NQN 的伺服器。如果您將該表情符號上傳到我所在的伺服器，我就可以使用該表情符號來添加反應！
+            Emotes must be from servers NQN is a member of; if you upload it to a server the bot's in, it will become usable in reactions!
           many: |
-            以下表情符號未能用於添加反應：
+            The following emotes cannot be used in reactions:
             > %{unusable}
-            請注意，表情符號必須來自已經有 NQN 的伺服器。如果您將該表情符號上傳到我所在的伺服器，我就可以使用該表情符號來添加反應！
+            Emotes must be from servers NQN is a member of; if you upload them all to a server the bot's in, they will become usable in reactions!
         emote_not_found:
           one: |
-            未能找到 %{not_found} 表情符號
-            請您確定是否已經使用 `%{prefix}alias search` 將其新增為別號，或使用 `%{prefix}pack search` 加入相應的表情符號包？
+            Could not find emote %{not_found}
+            Have you added it as an alias with `%{prefix}alias search` or joined the corresponding emote pack with `%{prefix}pack search`?
           many: |
-            未能找到 %{not_found} 表情符號
-            您是否已經使用 `%{prefix}alias search` 將其新增為別號，或使用 `%{prefix}pack search` 加入相應的表情符號包？
+            Could not find emotes %{not_found}
+            Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
         too_many_reacts:
-          one: 此訊息的反應太多，無法添加更多反應！
-          many: 此訊息的反應太多，無法添加更多反應！
+          one: This message has too many reactions to add a new one!
+          many: This message has too many reactions to add them all!
         reacting:
-          one: 正在添加 %{count} 個反應；記得自己也要反應，從而讓反應留下來！
-          many: 正在添加 %{count} 個反應；記得自己也要反應，從而讓反應留下來！
-        blocked: '%{author} 封鎖了我，所以我無法添加該反應！'
-        on_behalf: NQN 代表 %{author} (%{author_id})
-        audit_message: "%{author} 在 %{channel} 中的 [訊息](<%{jump_url}>) 添加了以下表情符號反應：\n"
+          one: Adding %{count} reaction; remember to react yourself for them to stay!
+          many: Adding %{count} reactions; remember to react yourself for them to stay!
+        blocked: '%{author} has blocked me, so I cannot add that reaction!'
+        on_behalf: NQN on behalf of %{author} (%{author_id})
+        audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
       info:
         shard_data: |
-          > 數據庫的數量: %{shard_count} (%{shards_down} down)
-          > 平均延遲: %{average_latency}毫秒
-          > 當前數據庫: %{current_shard}
-          > 當前數據庫的延遲: %{current_latency}毫秒
+          > No. shards: %{shard_count} (%{shards_down} down)
+          > Average latency: %{average_latency}ms
+          > Current shard: %{current_shard}
+          > Current shard latency: %{current_latency}ms
         process_data: |
-          > RAM 使用情況：%{ram_usage}
-          > CPU 使用率：%{cpu_usage}%
-          > 網絡：
-          > - 已發送：%{network_send}
-          > - 已收到：%{network_recv}
+          > RAM usage: %{ram_usage}
+          > CPU usage: %{cpu_usage}%
+          > Network:
+          > - Sent: %{network_send}
+          > - Received: %{network_recv}
         elasticsearch_metadata: |
-          > RAM 使用情況：%{ram_usage}
-          > 磁盤空間：%{disk_use}
-          > 網絡總數：%{bytes_sent}
+          > RAM usage: %{ram_usage}
+          > Disk space: %{disk_use}
+          > Network total: %{bytes_sent}
         description: |
-          作者：%{owner}
-          程式名字：%{app_name}
-          說明指令：`%{prefix}help`
+          Author: %{owner}
+          Application name: %{app_name}
+          Help command: `%{prefix}help`
         bot_metadata: |
-          > 當前連續在線時間： %{uptime}
-          > 表情符號伺服器： %{alias_servers_available} / %{alias_servers_total}
-          > 已載入伺服器： %{guilds_loaded} / %{guilds}
+          > Uptime: %{uptime}
+          > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
+          > Servers Loaded: %{guilds_loaded} / %{guilds}
         guild_features:
           zero: ''
           one: |
-            > 伺服器功能: %{guild_features}
+            > Server Feature: %{guild_features}
           many: |
-            > 伺服器功能: %{guild_features}
+            > Server Features: %{guild_features}
         bot_credits: |
-          機器人頭像和 Wumpus 藝術由來自 [Wump Motes](https://discord.gg/pEjCBNF) 的 [Dooley](<https://www.dooleytm.com>) 製作。
+          [Bot avatar and Wumpus art by Dooley](<https://www.dooleytm.com>) from [Wump Motes](https://discord.gg/pEjCBNF)
 
-          __特別感謝以下人員：__
+          __Special thanks to the following people:__
           > <:OriLove:726475603879919616> OrionVi
           > <:bean:884394196415442985> Ben
           > <:AetherSmile:726474477956759553> Aether Wake
 
-          __特別感謝以下翻譯人士：__
-        es: '西班牙語：'
-        es_people: |
-          > <:OriLove:726475603879919616> OrionVi
-          > <:AetherSmile:726474477956759553> Aether Wake
-        ru: '俄語：'
-        ru_people: |
-          > <:drink:741041666705588255> Трокс
-          > <:DorZ23:864861706169483329> DorZ23
-        pt: '葡萄牙語：'
-        pt_people: |
-          > <:KingKiller:800410618074628146> KingKiller
-          > <:gil:873518552295014420> Gil
-        it: '意大利語：'
-        it_people: |
-          > 👤 RVG|𝓵𝓸𝓻𝔂
-        vi: '越南語：'
-        vi_people: |
-          > <:momiAwO:975011926604148756> Momiji
-        fa: '波斯語：'
-        fa_people: |
-          > <:AliJoon:975010805328281630> AliJoon
-        bot_stats: Discord機器人統計
-        shard_info_name: 數據庫資訊
-        process_data_name: 機器人數據存取
-        elasticsearch_data_name: Elasticsearch 資訊
-        package_info_name: 程式運行基本資訊
-        bot_metadata_name: 機器人基本資訊
-        credits: 致謝
-        author: 作者
-        bot_latency: '> API/機器人延遲: %{bot_latency}毫秒'
-        help_command: '說明指令：`%{prefix}help`'
-        refresh: 刷新
+          __Translation Credits:__
+        es: 'Spanish:'
+        ru: 'Russian:'
+        pt: 'Portuguese:'
+        it: 'Italian:'
+        vi: 'Vietnamese:'
+        fa: 'Persian:'
+        nl: 'Dutch:'
+        bot_stats: Discord Bot Statistics
+        shard_info_name: Shard Info
+        process_data_name: Bot process data
+        elasticsearch_data_name: Elasticsearch data
+        package_info_name: Package info
+        bot_metadata_name: Bot Metadata
+        credits: Credits
+        author: Author
+        bot_latency: '> API/Bot Latency: %{bot_latency}ms'
+        help_command: 'Help command: `%{prefix}help`'
+        refresh: Refresh
       upload_emote:
-        own_emojis_dont_ask_again: 是的；我是這些表情符號的擁有者
-        alphanumeric: ' - 表情符號的名字必須是含有英文字母或者下劃線'
-        size: ' - 表情符號名字的長度必須是 1 至 32 個字符之間'
-        filesize: ' - 圖像大小必須小於 256KB'
-        image: ' - 必須是圖像附件'
-        bad_name: "表情符號的名字不正確：\n"
-        bad_attachment: "附上的表情符號無效：\n"
-        more_animated_needed: 上傳這些表情符號一共需要%{size}個表情符號格，因此此伺服器將達到動畫表情符號的數量限制。請刪除 %{delete} 個表情符號再重試
-        more_static_needed: 上傳這些表情符號一共需要%{size}個表情符號格，因此此伺服器將達到靜態表情符號的數量限制。請刪除 %{delete} 個表情符號再重試
-        too_quick: 新增表情符號的速度太快，請稍候一個多小時後重試（錯誤代碼 '%{e}'）
-        this_emote: 您是指這個表情符號嗎？
+        own_emojis_dont_ask_again: Yes; I own these
+        alphanumeric: ' - Must be alphanumeric with underscores'
+        size: ' - Must be between 1 and 32 characters long'
+        filesize: ' - Must be less than 256KB'
+        image: ' - Must be an image'
+        bad_name: "The name of the emote is incorrect:\n"
+        bad_attachment: "The attached emote is not valid:\n"
+        more_animated_needed: This server will have reached its limit for animated emotes, as it requires %{size}. Delete %{delete} and try again
+        more_static_needed: This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again
+        too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
+        this_emote: Is this the emote you meant?
         emote_preview: |
-          這樣可以嗎？
-          如果您**不是**此表情符號的擁有者，或者無權發佈它，請選擇「否」。
+          Is this alright?
+          If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select 'No'.
         duplicate_name: |
-          此伺服器已經有這個叫 %{name} 的表情符號
+          This server already has an emote called %{name}
           > %{e}
-          您仍然想要上傳這個表情符號嗎？
-        created_emotes: '%{user} 上傳了 %{e}'
+          Do you still want to upload this emote?
+        created_emotes: '%{user} uploaded %{e}'
         also_upload_static: |
-          您還想上傳這個表情符號的靜態版本嗎？
-          這樣沒有 Nitro 的用戶也可以使用這個表情符號 %{e}
+          Would you also like to upload a static version of this emoji?
+          Users without Nitro can use it from the emoji picker to send %{e}
       vote_opt_out:
-        success: 已成功選擇退出接收投票 DM 訊息
+        success: Successfully opted out of vote DMs
       whois:
-        found: 作者是 <@%{author}> (%{author})
+        found: The author is <@%{author}> (%{author})
         not_nqn: |
-          此指令目前僅適用於由 NQN 轉發的訊息。
+          This command currently only works on messages reposted by NQN.
         not_found: |
-          無法找到該訊息的作者。您確定是由 NQN 轉發的嗎？
+          The author of that message could not be automatically found. Are you sure it was posted by NQN?
