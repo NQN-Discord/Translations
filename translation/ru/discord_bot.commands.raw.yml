@@ -303,26 +303,12 @@ discord_bot:
           > <:AetherSmile:726474477956759553> Aether Wake
           __Авторы переводов:__
         es: 'Испанский:'
-        es_people: |
-          > <:OriLove:726475603879919616> OrionVi
-          > <:AetherSmile:726474477956759553> Aether Wake
         ru: 'Русский:'
-        ru_people: |
-          > <:drink:741041666705588255> Трокс
-          > <:Dorrian:864861706169483329> DorZ23
         pt: 'Португальский:'
-        pt_people: |
-          > <:KingKiller:800410618074628146> KingKiller
-          > <:gil:873518552295014420> Gil
         it: 'Italian:'
-        it_people: |
-          > 👤 RVG|𝓵𝓸𝓻𝔂
         vi: 'Vietnamese:'
-        vi_people: |
-          > <:momiAwO:975011926604148756> Momiji
         fa: 'Persian:'
-        fa_people: |
-          > <:AliJoon:975010805328281630> AliJoon
+        nl: 'Dutch:'
         bot_stats: Статистика Discord бота
         shard_info_name: Информация о шардах
         process_data_name: Данные процесса бота
