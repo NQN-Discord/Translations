@@ -323,7 +323,7 @@ discord_bot:
         it: 'Tiếng Ý:'
         vi: 'Tiếng Việt:'
         fa: 'Tiếng Ba Tư:'
-        nl: 'Dutch:'
+        nl: 'Tiếng Hà Lan:'
         bot_stats: Thông tin số liệu của bot
         shard_info_name: Thông tin shard
         process_data_name: Dữ liệu xử lý của bot
