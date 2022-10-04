@@ -320,26 +320,12 @@ discord_bot:
 
           __Crediti di traduzione:__
         es: 'Spagnolo:'
-        es_people: |
-          > <:OriLove:726475603879919616> OrionVi
-          > <:AetherSmile:726474477956759553> Aether Wake
         ru: 'Russo:'
-        ru_people: |
-          > <:drink:741041666705588255> Трокс
-          > <:DorZ23:864861706169483329> DorZ23
         pt: 'Portoghese:'
-        pt_people: |
-          > <:KingKiller:800410618074628146> KingKiller
-          > <:gil:873518552295014420> Gil
         it: 'Italiano:'
-        it_people: |
-          > 👤 RVG|𝓵𝓸𝓻𝔂
         vi: 'Vietnamese:'
-        vi_people: |
-          > <:momiAwO:975011926604148756> Momiji
         fa: 'Persiano:'
-        fa_people: |
-          > <:AliJoon:975010805328281630> AliJoon
+        nl: 'Dutch:'
         bot_stats: Statistiche Del Bot Discord
         shard_info_name: Info Frammento
         process_data_name: Dati processo bot
