@@ -137,6 +137,8 @@ class Translator(metaclass=Singleton):
         "nl": "nl"
     }
 
+    released_locales = ("es", "ru", "pt", "it", "vi", "fa")
+
     locale_flags = {
         "en": "gb",
         "es": "es",
@@ -144,7 +146,35 @@ class Translator(metaclass=Singleton):
         "pt": "br",
         "it": "it",
         "vi": "vn",
-        "fa": "ir"
+        "fa": "ir",
+        "nl": "nl"
+    }
+
+    credits = {
+        "es": (
+            "> <:OriLove:726475603879919616> OrionVi\n"
+            "> <:AetherSmile:726474477956759553> Aether Wake"
+        ),
+        "ru": (
+            "> <:drink:741041666705588255> Трокс\n"
+            "> <:DorZ23:864861706169483329> DorZ23"
+        ),
+        "pt": (
+            "> <:KingKiller:800410618074628146> KingKiller\n"
+            "> <:gil:873518552295014420> Gil"
+        ),
+        "it": (
+            "> 👤 RVG|𝓵𝓸𝓻𝔂"
+        ),
+        "fa": (
+            "> <:AliJoon:975010805328281630> AliJoon"
+        ),
+        "vi": (
+            "> <:momiAwO:975011926604148756> Momiji"
+        ),
+        "nl": (
+            "> <a:serstars:1026812692025049160> SerStars"
+        ),
     }
 
     flag_emojis = {locale: "".join(chr(0x1f185+ord(c)) for c in flag_name) for locale, flag_name in locale_flags.items()}
