@@ -327,7 +327,7 @@ discord_bot:
         it: 'ایتالیایی:'
         vi: 'ویتنامی:'
         fa: 'فارسی:'
-        nl: 'Dutch:'
+        nl: 'هلندی:'
         bot_stats: وضعیت بات دیسکورد
         shard_info_name: اطلاعات شارد
         process_data_name: اطلاعات پردازش بات
