@@ -3,36 +3,36 @@ discord_bot:
   commands:
     emote:
       info:
-        title: "Info about emote '%{name}':"
-        id: "ID:"
-        server_daily_uses: "Daily uses in this server:"
-        server_uses: "Uses in this server:"
+        title: "'%{name}' emoji hakkında bilgi:"
+        id: "İD:"
+        server_daily_uses: "Bu sunucuda günlük kullanımlar:"
+        server_uses: "Bu sunucuda kullanımlar:"
         approx_uses:
           zero: "0"
           one: "1"
           many: "~%{count}"
-        total_uses_per_day: "Total uses per day:"
-        aka: "Also known as:"
-        locked_roles: "Locked to roles:"
-        upload_time: "Uploaded at:"
+        total_uses_per_day: "Günlük toplam kullanım:"
+        aka: "Ayrıca şöyle bilinir:"
+        locked_roles: "Rollere kilitlendi:"
+        upload_time: "Şu zamanda yüklendi:"
         url: "URL:"
-        animated_url: "Animated URL:"
-        static_url: "Static URL:"
+        animated_url: "Animasyonlu URL:"
+        static_url: "Statik URL:"
       rolelock:
-        success: "Locked roles for %{emoji} to %{roles}"
+        success: "%{emoji} için kilitli roller %{roles}"
       roleunlock:
-        success: "Unlocked roles for %{emoji}"
+        success: "%{emoji} için kilidi açılmış roller"
       block:
         success:
-          one: "Blocked emoji"
-          many: "Blocked %{count} emojis"
+          one: "Engellenen emoji"
+          many: "%{count} emoji engellendi"
         audit:
           one: |
-            %{author} blocked the following emote:
+            %{author} şu emojiyi engelledi:
           many: |
-            %{author} blocked the following emotes:
+            %{author} şu emojileri engelledi:
       unblock:
-        success: "Unblocked emoji"
-        not_blocked: "Emoji wasn't blocked to start with"
+        success: "Engellenmemiş emoji"
+        not_blocked: "Emoji başlamak için engellenmedi"
         audit: |
-          %{author} unblocked the following emote:
+          %{author} şu emojinin engellemesini kaldırdı:

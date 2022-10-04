@@ -1,21 +1,21 @@
 ---
 discord_bot:
   audit_log:
-    cropped: (Cropped)
-    nsfw_censored: <Censored; %{channel} is NSFW>
+    cropped: (Kırpılmış)
+    nsfw_censored: <Sansürlü; %{channel} NSFW>
     message_posted: |
-      Message posted in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      %{author} %{cropped} tarafından, %{channel} kanalına gönderilen mesaj
+      [Atlama Bağlantısı](%{jump_url})
     message_posted_persona: |
-      Message posted in %{channel} by %{author} %{cropped}
-      ⚠️ Using Persona ⚠️
+      %{author} %{cropped} tarafından, %{channel} kanalına gönderilen mesaj
+      ⚠️ Persona'yı Kullanma ⚠️
       > **%{persona}**
-      [Jump Link](%{jump_url})
+      [Atlama Bağlantısı](%{jump_url})
     message_edited: |
-      Message edited in %{channel} by %{author} %{cropped}
-      [Jump Link](%{jump_url})
+      %{author} %{cropped} tarafından, %{channel} kanalına düzenlenen mesaj
+      [Atlama Bağlantısı](%{jump_url})
     phish_deleted: |
-      Deleted phishing message in %{channel} by %{author}
+      %{author} tarafından, %{channel} kanalındaki kimlik avı mesajı silindi
     blocked_message: |
-      Deleted message with blocked emotes in %{channel} by %{author}
-    audit_log_post: NQN on behalf of %{author} (%{id})
+      %{author} tarafından, %{channel} kanalında engellenen emojiler silinen mesaj
+    audit_log_post: '%{author} (%{id}) adına NQN'
