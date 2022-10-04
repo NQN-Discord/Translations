@@ -325,7 +325,7 @@ discord_bot:
         it: 'Italiano:'
         vi: 'Vietnamese:'
         fa: 'Persiano:'
-        nl: 'Dutch:'
+        nl: 'Olandese:'
         bot_stats: Statistiche Del Bot Discord
         shard_info_name: Info Frammento
         process_data_name: Dati processo bot
