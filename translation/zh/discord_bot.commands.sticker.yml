@@ -17,28 +17,28 @@ discord_bot:
         question:
           zero: 沒有任何貼圖可以刪除
           one: 您想刪除此貼圖嗎？
-          many: Do you want to delete all %{count} stickers?
+          many: 您想刪除%{count}個貼圖嗎？
         deleted_all:
-          one: Deleted %{count} sticker
-          many: Deleted %{count} stickers
+          one: 已刪除%{count}個貼圖
+          many: 已刪除%{count}個貼圖
       rename:
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        no_sticker: This sticker doesn't exist
-        permission_denied: You can't rename someone else's sticker!
-        destination_taken: The destination name is already taken!
-        renamed: 'Renamed \:%{old}: to :%{new}:'
+        filename_invalid: '您不能夠使用 `%{name}` 作為貼圖的名字。它們以及其文件副檔名必須只含有英文字母或數字。'
+        no_sticker: 此貼圖並不存在
+        permission_denied: 您不能重新命名別人的貼圖！
+        destination_taken: 這個貼圖名字已經被取用了！
+        renamed: '已重新命名\:%{old}: 至 :%{new}:'
       search:
-        no_stickers: No stickers found
+        no_stickers: 未找到貼圖
       sticker_import:
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        find_emote: find an emote to turn into a sticker!
-        created: You can now use `:%{name}:`
-        sticker_exists: A sticker called `:%{name}:` already exists; you can't overwrite it.
-        duplicate_exists: A sticker with the same image called %{name} exists already!
+        filename_invalid: '您不能夠使用 `%{name}` 作為貼圖的名字。它們以及其文件副檔名必須只含有英文字母或數字。'
+        find_emote: 將表情符號新增為貼圖！
+        created: 您現在可以使用 `:%{name}:` 啦
+        sticker_exists: 一個叫 %{name} 的貼圖已經存在；您不能使用這個名字。
+        duplicate_exists: 一個叫 %{name} 而且是相同的貼圖已經存在！
       telegram_import:
-        pack_invalid: '`%{name}` is not a valid Telegram sticker pack name'
-        telegram_unloaded: Telegram package not loaded - please report this to a bot developer.
-        already_created: Already created by someone else; cannot overwrite
+        pack_invalid: '`%{name}` 不是有效的 Telegram 貼圖包名稱'
+        telegram_unloaded: 我未能導入 Telegram 貼圖包，請報告給機器人開發人員。
+        already_created: 其他人已經導入了此 Telegram 貼圖包；您無法再導入！
         finished_importing:
           one: 已完成導入貼圖
           many: 已完成導入%{count}個貼圖
