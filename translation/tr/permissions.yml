@@ -61,16 +61,16 @@ permissions:
   speak: |-
     Konuş
   stream: |-
-    Stream
+    Yayın
   use_external_emojis: |-
-    Use External Emojis
+    Harici Emoji Kullan
   use_public_threads: |-
-    Use Public Threads
+    Herkese Açık Alt Başlıklar Kullan
   use_voice_activation: |-
-    Use Voice Activation
+    Ses Eylemini Kullan
   view_audit_log: |-
-    View Audit Log
+    Denetim Kaydı Görüntüle
   view_channel: |-
-    View Channel
+    Kanalı Görüntüle
   view_guild_insights: |-
-    View Server Insights
+    Sunucu Bilgilerini Görüntüle
