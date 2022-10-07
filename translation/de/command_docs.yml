@@ -1,17 +1,17 @@
 ---
 command_docs:
   gain_access_to_emojis:
-    name: Gain access to emojis
+    name: Zugang zu Emojis erhalten
   block_emote:
-    name: Block an emote
+    name: Blockiere ein Emoji
   audit_messages:
     name: Audit NQN messages
   delete_message:
-    name: Delete Message
+    name: Nachricht löschen
   edit_message:
-    name: Edit Message
+    name: Nachricht bearbeiten
   find_author:
-    name: Find Author
+    name: Autor finden
   alias:
     name: alias
     short_doc: Verwalte die einzelnen Emotes, die du nutzen kannst
@@ -24,7 +24,7 @@ command_docs:
       - `page`: Springe zu einer bestimmten Seite
       - `order`: Eins von 'uses', 'random'
   alias-delete:
-    name: delete
+    name: Löschen
     short_doc: Du möchtest kein Alias mehr? Nutze dies
     params:
       alias:
