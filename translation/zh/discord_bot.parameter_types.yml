@@ -3,11 +3,11 @@ discord_bot:
   parameter_types:
     #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
     SearchTerms:
-      name: Search terms
+      name: 搜索字句
       description: |-
-        Search terms
+        搜索字句
     Message:
-      name: Message
+      name: 訊息
       description: |-
         A Discord reply to the message you want to target
         - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
@@ -15,11 +15,11 @@ discord_bot:
         - ChannelID-MessageID pair (`123456789-123456789`)
         - How many messages ago it was in current channel (`5` messages ago)
     PartialEmoji:
-      name: Emoji
+      name: 表情符號
       description: |-
         A rendered Discord emoji or an emoji URL
     TextChannel:
-      name: Text Channel
+      name: 文字頻道
       description: |
         A text channel mention
     User:
