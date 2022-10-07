@@ -1,65 +1,65 @@
 ---
 permissions:
   add_reactions: |-
-    Add Reactions
+    Tepkiler Ekle
   administrator: |-
-    Administrator
+    Yönetici
   attach_files: |-
-    Attach Files
+    Dosyaları Ekle
   ban_members: |-
-    Ban Members
+    Üyeleri Yasakla
   change_nickname: |-
-    Change Nickname
+    Kullanıcı Adı Değiştir
   connect: |-
-    Connect
+    Bağlan
   create_instant_invite: |-
-    Create Instant Invite
+    Anında Davet Oluştur
   deafen_members: |-
-    Deafen Members
+    Sağır Üyeler
   embed_links: |-
-    Embed Links
+    Bağlantı Yerleştir
   external_emojis: |-
-    External Emojis
+    Harici Emojiler
   kick_members: |-
-    Kick Members
+    Üyeleri At
   manage_channels: |-
-    Manage Channels
+    Kanaları Yönet
   manage_emojis: |-
-    Manage Emojis
+    Emojileri Yönet
   manage_guild: |-
-    Manage Server
+    Sunucuyu Yönet
   manage_messages: |-
-    Manage Messages
+    Mesajları Yönet
   manage_nicknames: |-
-    Manage Nicknames
+    Kullanıcı Adlarını Yönet
   manage_permissions: |-
-    Manage Roles
+    Rolleri Yönet
   manage_roles: |-
-    Manage Roles
+    Rolleri Yönet
   manage_threads: |-
-    Manage Threads
+    Alt Başlıkları Yönet
   manage_posts: |-
-    Manage Posts
+    Gönderileri Yönet
   manage_webhooks: |-
-    Manage Webhooks
+    Webhook'ları Yönet
   mention_everyone: |-
-    Mention Everyone
+    Everyone Bahset
   move_members: |-
-    Move Members
+    Üyeleri Taşı
   mute_members: |-
-    Mute Members
+    Üyeleri Sustur
   priority_speaker: |-
-    Priority Speaker
+    Öncelikli Konuşmacı
   read_message_history: |-
-    Read Message History
+    Mesaj Geçmişini Oku
   read_messages: |-
-    Read Messages
+    Mesajları Oku
   send_messages: |-
-    Send Messages
+    Mesaj Gönder
   send_tts_messages: |-
-    Send TTS Messages
+    Metin Okuma Mesajı Gönder
   speak: |-
-    Speak
+    Konuş
   stream: |-
     Stream
   use_external_emojis: |-
