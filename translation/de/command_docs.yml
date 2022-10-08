@@ -24,7 +24,7 @@ command_docs:
       - `page`: Springe zu einer bestimmten Seite
       - `order`: Eins von 'uses', 'random'
   alias-delete:
-    name: Löschen
+    name: löschen
     short_doc: Du möchtest kein Alias mehr? Nutze dies
     params:
       alias:
