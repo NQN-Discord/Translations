@@ -1,17 +1,17 @@
 ---
 command_docs:
   gain_access_to_emojis:
-    name: Gain access to emojis
+    name: Zugang zu Emojis erhalten
   block_emote:
-    name: Block an emote
+    name: Blockiere ein Emoji
   audit_messages:
     name: Audit NQN messages
   delete_message:
-    name: Delete Message
+    name: Nachricht löschen
   edit_message:
-    name: Edit Message
+    name: Nachricht bearbeiten
   find_author:
-    name: Find Author
+    name: Autor finden
   alias:
     name: alias
     short_doc: Verwalte die einzelnen Emotes, die du nutzen kannst
@@ -24,57 +24,57 @@ command_docs:
       - `page`: Springe zu einer bestimmten Seite
       - `order`: Eins von 'uses', 'random'
   alias-delete:
-    name: delete
+    name: Löschen
     short_doc: Du möchtest kein Alias mehr? Nutze dies
     params:
       alias:
         name: alias
         description: |-
-          Which alias do you want to remove?
+          Welchen alias willst du löschen?
   alias-delete_all:
-    name: delete_all
+    name: alle_löschen
     short_doc: Ich mag keines meiner Aliase
     help: |
       Lösche alle deine Aliase
   alias-dm:
-    name: dm
+    name: direkt_nachricht
     short_doc: Erhalte eine vollständige Liste deiner Aliase per PN
     help: |
       Lasse dir von dem Bot eine Liste aller deiner Aliase per PN zusenden
   alias-export:
-    name: export
+    name: exportieren
     short_doc: Exportiere eine Liste deiner Aliase
   alias-import:
-    name: import
+    name: importieren
     short_doc: Importiere die Liste der Aliase von einer anderen Person
     params:
       file:
-        name: file
+        name: datei
         description: |-
-          A file previously exported with /alias export
+          Eine Datei die zuvor mit /alias exportieren exportiert wurde
   alias-mine:
-    name: mine
+    name: mein
     short_doc: Erhalte eine Liste aller Aliase, die du erstellt hast
     params:
       page:
-        name: page
+        name: seite
         description: |-
-          What page to start at?
+          Auf welcher Seite soll gestartet werden?
   alias-rename:
-    name: rename
+    name: umbenenen
     short_doc: Benenne eines deiner Aliase um
     params:
       old_name:
-        name: old_name
+        name: alter_name
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          Welchen namen hat das emoji dem du einen neuen namen geben willst?
       new_name:
-        name: new_name
+        name: neuer_name
         description: |-
-          What should it be renamed to?
+          Wozu soll es umbenannt werden?
   alias-search:
-    name: search
-    short_doc: Look for individual emotes
+    name: suchen
+    short_doc: Schaue nach individuellen emotes
     help: |
       Suche nach einzelnen Emotes, um sie mit NQN zu nutzen
 
@@ -84,7 +84,7 @@ command_docs:
        - `page`: Springe zu einer bestimmten Seite
        - `order`: Eins von 'uses', 'random'
   audit:
-    name: audit
+    name: Audit
     short_doc: Erhalte Audit Logs für repostete Nachhrichten für diesen Kanal
     help: |
       Erhalte Audit Logs für repostete Nachrichten für diesen Kanal
@@ -93,14 +93,14 @@ command_docs:
 
       Wenn sowohl Kanal als auch Mitglied wieder aus dem Filter genommen werden sollen, nutze 'audit guild'
   delete:
-    name: delete
+    name: löschen
     short_doc: Lösche eine deiner von NQN reposteten Nachrichten
     help: |
       Lösche eine deiner von NQN reposteten Nachrichten.
       Standardmäßig wird deine zuletzt gesendete Nachricht in diesem Kanal gelöscht, du kannst aber optional eine URL zu der Nachricht angeben, die stattdessen gelöscht werden soll.
       Du kannst auch Discords auf die Nachricht antworten-Funktion nutzen, um eine bestimmte Nachricht zu löschen.
   edit:
-    name: edit
+    name: bearbeiten
     short_doc: Bearbeite eine von NQN gepostete Nachricht
     help: |
       Bearbeite den Inhalt einer deiner von NQN reposteten Nachrichten.
@@ -108,13 +108,13 @@ command_docs:
       Du kannst auch Discords auf die Nachricht antworten-Funktion nutzen, um eine bestimmte Nachricht zu bearbeiten.
   emote:
     name: emote
-    short_doc: Manage your server's emojis
+    short_doc: Verwalte deine server emojis
   emote-block:
-    name: block
-    short_doc: Block the use of an emote
+    name: blockieren
+    short_doc: Blockiere die nutzutung von einem emote
     help: |
-      Search for emojis to block in this server.
-      When this emoji is used, it'll automatically be added to the server's automod list and be removed.
+      Suche nach emojis die auf dem Server blockiert werden sollen.
+      Wenn das emoji benutzt wird, wird es automatisch gelöscht.
   emote-block-from_emote:
     name: from_emote
     short_doc: Block the use of an emote

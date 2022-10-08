@@ -320,26 +320,12 @@ discord_bot:
 
           __Vertaalcredits:__
         es: 'Spaans:'
-        es_people: |
-          > <:OriLove:726475603879919616> OrionVi
-          > <:AetherSmile:726474477956759553> Aether Wake
         ru: 'Russisch:'
-        ru_people: |
-          > <:drink:741041666705588255> Трокс
-          > <:DorZ23:864861706169483329> DorZ23
         pt: 'Portugees:'
-        pt_people: |
-          > <:KingKiller:800410618074628146> KingKiller
-          > <:gil:873518552295014420> Gil
         it: 'Italiaans:'
-        it_people: |
-          > 👤 RVG|𝓵𝓸𝓻𝔂
         vi: 'Vietnamees:'
-        vi_people: |
-          > <:momiAwO:975011926604148756> Momiji
         fa: 'Perzisch:'
-        fa_people: |
-          > <:AliJoon:975010805328281630> AliJoon
+        nl: 'Nederlands:'
         bot_stats: Discord Bot-statistieken
         shard_info_name: Shard Info
         process_data_name: Gegevens botproces

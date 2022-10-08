@@ -1,7 +1,7 @@
 ---
 interactions:
   not_author: |
-    Only the message author is allowed to interact with this message
+    Yalnızca gönderinin yazarı bu gönderiyle etkileşim kurabilir
   timed_out: |
     Entegrasyon zaman aşımına uğradı.
     Lütfen komutu tekrar çalıştırın.

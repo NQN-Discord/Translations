@@ -319,26 +319,12 @@ discord_bot:
 
           __特別感謝以下翻譯人士：__
         es: '西班牙語：'
-        es_people: |
-          > <:OriLove:726475603879919616> OrionVi
-          > <:AetherSmile:726474477956759553> Aether Wake
         ru: '俄語：'
-        ru_people: |
-          > <:drink:741041666705588255> Трокс
-          > <:DorZ23:864861706169483329> DorZ23
         pt: '葡萄牙語：'
-        pt_people: |
-          > <:KingKiller:800410618074628146> KingKiller
-          > <:gil:873518552295014420> Gil
         it: '意大利語：'
-        it_people: |
-          > 👤 RVG|𝓵𝓸𝓻𝔂
         vi: '越南語：'
-        vi_people: |
-          > <:momiAwO:975011926604148756> Momiji
         fa: '波斯語：'
-        fa_people: |
-          > <:AliJoon:975010805328281630> AliJoon
+        nl: 'Dutch:'
         bot_stats: Discord機器人統計
         shard_info_name: 數據庫資訊
         process_data_name: 機器人數據存取
