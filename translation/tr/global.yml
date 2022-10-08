@@ -12,16 +12,16 @@ global:
   success: Başarılı
   yes: Yes
   no: No
-  dm_me: DM Me
-  next: Next
-  previous: Previous
-  choose_emote: Choose some emotes
+  dm_me: Bana mesaj at
+  next: Sonraki
+  previous: Önceki
+  choose_emote: Bazı emojiler seçin
   learn:
-    aliases: Learn more about aliases
-    packs: Learn more about packs
-    my_emotes: Find emojis I can use
-    personas: Learn more about personas
-  missing_permissions: Missing Permissions
+    aliases: Takma adlar hakkında daha fazla bilgi edinin
+    packs: Paketler hakkında daha fazla bilgi edinin
+    my_emotes: Kullanabileceğim emojileri bul
+    personas: Persona hakkında daha fazla bilgi edinin
+  missing_permissions: Eksik İzinler
   missing_add_reaction: I need the 'Add Reactions' permission for this command!
   missing_create_invite: I need the 'Create Instant Invite' permission for this command!
   tabulated_delete_manage_messages: Could not delete menu - please give me Manage Messages
