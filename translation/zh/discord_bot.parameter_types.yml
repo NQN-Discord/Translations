@@ -3,31 +3,31 @@ discord_bot:
   parameter_types:
     #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
     SearchTerms:
-      name: Search terms
+      name: 搜索字句
       description: |-
-        Search terms
+        搜索字句
     Message:
-      name: Message
+      name: 訊息
       description: |-
-        A Discord reply to the message you want to target
-        - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
-        - A message id in the current channel (`123456789`)
-        - ChannelID-MessageID pair (`123456789-123456789`)
-        - How many messages ago it was in current channel (`5` messages ago)
+        您想回覆的訊息：
+        - 訊息鏈結 (`https://discord.com/channels/123456789/123456789/123456789`)
+        - 在此頻道裡的訊息的 ID (`123456789`)
+        - 頻道和訊息 ID (`123456789-123456789`)
+        - 當前頻道中由尾數上去第幾條訊息（第 `5` 條訊息）
     PartialEmoji:
-      name: Emoji
+      name: 表情符號
       description: |-
-        A rendered Discord emoji or an emoji URL
+        Discord 裡的表情符號或者其鏈結
     TextChannel:
-      name: Text Channel
+      name: 文字頻道
       description: |
         A text channel mention
     User:
-      name: User
+      name: 用戶
       description: |
         A user mention
     Role:
-      name: Role
+      name: 身分組
       description: |
         A role mention or name
     NQNEmoji:
@@ -52,11 +52,11 @@ discord_bot:
       description: |
         Some text
     int:
-      name: Integer
+      name: 整數
       description: |
-        A number
+        一個整數
     bool:
-      name: Boolean
+      name: 布爾值
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
