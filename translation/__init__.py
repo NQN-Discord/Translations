@@ -117,6 +117,9 @@ class DpyNQNTranslator(DpyTranslator):
         return translated
 
 
+_released_locales = ("en", "es", "ru", "pt", "it", "vi", "fa")
+
+
 class Translator(metaclass=Singleton):
     locales = {
         "en": "en",
@@ -134,19 +137,19 @@ class Translator(metaclass=Singleton):
         "it": "it",
         "vi": "vi",
         "fa": "fa",
-        "nl": "nl"
+        "nl": "nl",
+        "zh": "zh"
     }
-
-    released_locales = ("es", "ru", "pt", "it", "vi", "fa")
+    released_locales = _released_locales
 
     locale_flags = {
         "en": "gb",
         "es": "es",
-        "ru": "ru",
         "pt": "br",
-        "it": "it",
+        "ru": "ru",
         "vi": "vn",
         "fa": "ir",
+        "it": "it",
         "nl": "nl"
     }
 
@@ -177,8 +180,8 @@ class Translator(metaclass=Singleton):
         ),
     }
 
-    flag_emojis = {locale: "".join(chr(0x1f185+ord(c)) for c in flag_name) for locale, flag_name in locale_flags.items()}
-    hidden_locales = ["owo", "hi", "fr", "ms"]
+    flag_emojis = {locale: "".join(chr(0x1f185+ord(c)) for c in flag_name) for locale, flag_name in locale_flags.items() if locale in _released_locales}
+    hidden_locales = ["owo"]
     supported_locales = {*locales.values(), *hidden_locales}
 
     def __init__(self):
