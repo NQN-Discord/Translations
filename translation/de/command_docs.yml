@@ -32,12 +32,12 @@ command_docs:
         description: |-
           Welchen alias willst du löschen?
   alias-delete_all:
-    name: alle löschen
+    name: alle_löschen
     short_doc: Ich mag keines meiner Aliase
     help: |
       Lösche alle deine Aliase
   alias-dm:
-    name: direkt nachricht
+    name: direkt_nachricht
     short_doc: Erhalte eine vollständige Liste deiner Aliase per PN
     help: |
       Lasse dir von dem Bot eine Liste aller deiner Aliase per PN zusenden
