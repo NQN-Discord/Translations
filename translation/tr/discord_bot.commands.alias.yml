@@ -2,53 +2,53 @@
 discord_bot:
   commands:
     alias:
-      no_alias: "You don't have an alias called \\:%{name}:"
-      could_not_find: Could not find alias
-      alphanumeric: Aliases can only contain alphanumerics and underscores
-      max_length: Alias names can be at most 32 characters long
-      user_zero: You have no aliases
-      set_alias: Set alias
+      no_alias: "\\:%{name}: adında bir takma adınız yok"
+      could_not_find: Takma ad bulunamadı
+      alphanumeric: Takma adlar yalnızca alfasayısal ve alt çizgi içerebilir
+      max_length: Takma adlar en fazla 32 karakter uzunluğunda olabilir
+      user_zero: Takma adınız yok
+      set_alias: Takma ad ayarla
       from_message:
-        no_emotes: This message doesn't have any custom emojis in it!
+        no_emotes: Bu mesajın içinde herhangi bir özel emoji yok!
       delete:
-        deleted: 'Deleted \:%{name}:'
+        deleted: '\:%{name}: silindi'
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your aliases.
-          Are you sure you wish to continue?
+          Bu, takma adlarınızın **%{count}** tümünü siler.
+          Devam etmek istediğinizden emin misiniz?
         deleted:
-          one: Deleted 1 alias
-          many: Deleted %{count} aliases
+          one: 1 takma ad silindi
+          many: '%{count} takma ad silindi'
       created:
-        one: 'You created an alias and can use it by typing:'
-        many: 'You created %{count} aliases and can use them by typing:'
+        one: 'Bir takma ad oluşturdunuz ve şunu yazarak kullanabilirsiniz:'
+        many: '%{count} takma ad oluşturdunuz ve bunları yazarak kullanabilirsiniz:'
       rename:
-        rename: Rename Alias
-        alias_name: 'Alias Name:'
-        renamed: 'Renamed \:%{old}: to :%{new}:'
+        rename: Takma Adı Yeniden Adlandır
+        alias_name: 'Takma Ad:'
+        renamed: '\:%{old}: yeniden adlandırıldı: :%{new}:'
       export:
-        exported_short: "Here's your exported aliases:"
+        exported_short: "Dışa aktarılan takma adlarınız:"
         exported_long: |
-          Here's your exported aliases:
-          To share them with other people, they need to run:
+          Dışa aktarılan takma adlarınız:
+          Bunları diğer insanlarla paylaşmak için kullanmaları gerekir:
           > `%{prefix}alias import %{url}`
       import_:
         import_incorrect: |
-          This command is used to import an alias list previously exported with `%{prefix}alias export`.
-          To create an alias, use `%{prefix}alias search`
-        import_text: This command needs a text file attachment
-        import_lines_invalid: Could not set aliases on lines %{lines_invalid}, invalid format.
+          Bu komut, daha önce `%{prefix}alias export` ile dışa aktarılan bir takma ad listesini içe aktarmak için kullanılır.
+          Takma ad oluşturmak için `%{prefix}takma ad araması` kullanın
+        import_text: Bu komutun bir metin dosyası ekine ihtiyacı var
+        import_lines_invalid: '%{lines_invalid} satırlarında takma adlar ayarlanamadı, geçersiz biçim.'
         import_set:
-          one: Set %{count} alias.
-          many: Set %{count} aliases.
+          one: '%{count} takma ad ayarlayın.'
+          many: '%{count} takma ad ayarlayın.'
       dm:
         send_dms:
           zero: |
-            You have no aliases!
-            Get some with `%{prefix}alias search`
+            Takma adınız yok!
+            `%{prefix}alias search` ile biraz alın
           one: |
-            This will send you a direct message; do you wish to continue?
+            Bu size doğrudan bir mesaj gönderecektir; devam etmek istiyor musun?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            Bu size %{count} doğrudan mesaj gönderecek; devam etmek istiyor musun?
         blocked: |-
-          You've blocked me, I can't message you!
+          Beni engelledin, sana mesaj atamıyorum!

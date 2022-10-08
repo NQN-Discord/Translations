@@ -1,36 +1,36 @@
 ---
 discord:
   ext.commands.help:
-    need_emojis: ' - I need this to use emojis!'
-    need_help: ' - I need this for the help command!'
+    need_emojis: ' - Emojileri kullanmak için buna ihtiyacım var!'
+    need_help: ' - Yardım komutu için buna ihtiyacım var!'
     nothing: ''
-    choose_page: Browse Commands
-    please_give: I won't function correctly without these!
+    choose_page: Komutlara Gözat
+    please_give: Bunlar olmadan düzgün çalışmayacağım!
     fix_perms: |
-      - **[Fix Server Permissions](%{invite_url})**
-    nqn_help: NQN Help
+      - **[Sunucu İzinlerini Düzeltin](%{invite_url})**
+    nqn_help: NQN Yardım
     my_prefix: |
-      My prefix for commands is `%{prefix}`
+      Komutlar için prefix'im `%{prefix}`
     react_with_x_to_delete: |
-      React with ❌ (\:x:) to delete reposted messages!
+      Yeniden gönderilen mesajları silmek için ❌ (\:x:) ile tepki verin!
     user_ignored: |
-      You will be **IGNORED** when sending messages which would normally be reposted. To allow NQN to repost your messages, run:
+      Normalde yeniden gönderilecek mesajları gönderirken **GÖRMEZDEN** gelinecek. NQN'nin mesajlarınızı yeniden göndermesine izin vermek için şunu kullanın:
       > `%{prefix}ignore_me`
-    categories: Categories
-    everything_else: Everything else
-    really_useful: Really Useful Commands
-    useful_links: 'Useful links:'
-    website: Website
-    vote: Vote!
-    support: Support
-    emote_list: My Emotes
-    top_gg_vote: Voting for me at [top.gg](https://top.gg/bot/559426966151757824/vote) makes the bot better by increasing our visibility and allowing more emotes when we join a server.
-    bfd_vote: Giving me an upvote at [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) helps out our visibility. With every new server I join, my emote database gets larger.
-    what_is: What is Not Quite Nitro?
+    categories: Kategoriler
+    everything_else: Diğer her şey
+    really_useful: Gerçekten Faydalı Komutlar
+    useful_links: 'Kullanışlı bağlantılar:'
+    website: Web site
+    vote: Oy Ver!
+    support: Destek
+    emote_list: Emojilerim
+    top_gg_vote: '[top.gg](https://top.gg/bot/559426966151757824/vote) adresinde bana oy vermek, görünürlüğümüzü artırarak ve bir sunucuya katıldığımızda daha fazla ifadeye izin vererek botu daha iyi hale getiriyor.'
+    bfd_vote: '[Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote)''da bana oy vermek görünürlüğümüze yardımcı oluyor. Katıldığım her yeni sunucuyla birlikte emoji veritabanım büyüyor.'
+    what_is: Not Quite Nitro nedir?
     bot_description: |
-      Not Quite Nitro is a multipurpose utility bot which allows any user to use Nitro emotes.
-      We have an extremely large database of visually unique emotes which you can use in any server the bot is in with Manage Webhook permissions.
+      Not Quite Nitro, herhangi bir kullanıcının Nitro emojileri kullanmasına izin veren çok amaçlı bir yardımcı bottur.
+      Botun bulunduğu herhangi bir sunucuda Webhook'lar Yönetme izinleriyle kullanabileceğiniz, görsel olarak benzersiz emojileri oluşan son derece geniş bir veri tabanı var.
 
-      NQN also allows automatic quoting whenever a user posts a message link, the use of masked urls in chat and stickers, which are full size emotes.
+      NQN ayrıca, bir kullanıcı bir mesaj bağlantısı gönderdiğinde otomatik alıntı yapmaya, sohbette maskeli URL'lerin kullanımına ve tam boyutlu ifadeler olan çıkartmalara izin verir.
 
-      You can invite me [to your server](https://discord.com/api/oauth2/authorize?%{params}).
+      Beni [sunucunuza](https://discord.com/api/oauth2/authorize?%{params}) davet edebilirsiniz.

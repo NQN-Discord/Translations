@@ -117,6 +117,9 @@ class DpyNQNTranslator(DpyTranslator):
         return translated
 
 
+_released_locales = ("en", "es", "ru", "pt", "it", "vi", "fa")
+
+
 class Translator(metaclass=Singleton):
     locales = {
         "en": "en",
@@ -134,21 +137,51 @@ class Translator(metaclass=Singleton):
         "it": "it",
         "vi": "vi",
         "fa": "fa",
-        "nl": "nl"
+        "nl": "nl",
+        "zh": "zh"
     }
+    released_locales = _released_locales
 
     locale_flags = {
         "en": "gb",
         "es": "es",
-        "ru": "ru",
         "pt": "br",
-        "it": "it",
+        "ru": "ru",
         "vi": "vn",
-        "fa": "ir"
+        "fa": "ir",
+        "it": "it",
+        "nl": "nl"
     }
 
-    flag_emojis = {locale: "".join(chr(0x1f185+ord(c)) for c in flag_name) for locale, flag_name in locale_flags.items()}
-    hidden_locales = ["owo", "hi", "fr", "ms"]
+    credits = {
+        "es": (
+            "> <:OriLove:726475603879919616> OrionVi\n"
+            "> <:AetherSmile:726474477956759553> Aether Wake"
+        ),
+        "ru": (
+            "> <:drink:741041666705588255> Трокс\n"
+            "> <:DorZ23:864861706169483329> DorZ23"
+        ),
+        "pt": (
+            "> <:KingKiller:800410618074628146> KingKiller\n"
+            "> <:gil:873518552295014420> Gil"
+        ),
+        "it": (
+            "> 👤 RVG|𝓵𝓸𝓻𝔂"
+        ),
+        "fa": (
+            "> <:AliJoon:975010805328281630> AliJoon"
+        ),
+        "vi": (
+            "> <:momiAwO:975011926604148756> Momiji"
+        ),
+        "nl": (
+            "> <a:serstars:1026812692025049160> SerStars"
+        ),
+    }
+
+    flag_emojis = {locale: "".join(chr(0x1f185+ord(c)) for c in flag_name) for locale, flag_name in locale_flags.items() if locale in _released_locales}
+    hidden_locales = ["owo"]
     supported_locales = {*locales.values(), *hidden_locales}
 
     def __init__(self):

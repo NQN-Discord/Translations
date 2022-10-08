@@ -11,7 +11,7 @@ permissions:
   change_nickname: |-
     Gebruikersnaam Wijzigen
   connect: |-
-    Aansluiten
+    Verbind
   create_instant_invite: |-
     Maak Directe Uitnodiging
   deafen_members: |-
