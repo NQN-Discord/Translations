@@ -1,77 +1,77 @@
 ---
 global:
-  deleted_channel: '#DeletedChannel'
-  author: Author
-  jump_to_message: Jump
-  go_to_message: Go to message!
-  reply_to: 'Reply to:'
-  cancelled: Cancelled
+  deleted_channel: '#SilinmişKanal'
+  author: Yazar
+  jump_to_message: Zıpla
+  go_to_message: Mesaja git!
+  reply_to: 'Cevap:'
+  cancelled: İptal Edildi
   website: Website
-  details: Details
-  fix_permissions: Fix Permissions
-  success: Success
+  details: Detaylar
+  fix_permissions: İzinleri Düzelt
+  success: Başarılı
   yes: Yes
   no: No
-  dm_me: DM Me
-  next: Next
-  previous: Previous
-  choose_emote: Choose some emotes
+  dm_me: Bana mesaj at
+  next: Sonraki
+  previous: Önceki
+  choose_emote: Bazı emojiler seçin
   learn:
-    aliases: Learn more about aliases
-    packs: Learn more about packs
-    my_emotes: Find emojis I can use
-    personas: Learn more about personas
-  missing_permissions: Missing Permissions
-  missing_add_reaction: I need the 'Add Reactions' permission for this command!
-  missing_create_invite: I need the 'Create Instant Invite' permission for this command!
-  tabulated_delete_manage_messages: Could not delete menu - please give me Manage Messages
-  no_nitro_global: Nitro usage has been disabled in this server!
-  no_nitro_role: Only users with the <@&%{role}> role can use this command!
-  user_missing_administrator: You are missing the 'Administrator' permission to run this command.
-  user_missing_add_reaction: You are missing the 'Add Reactions' permission to run this command.
+    aliases: Takma adlar hakkında daha fazla bilgi edinin
+    packs: Paketler hakkında daha fazla bilgi edinin
+    my_emotes: Kullanabileceğim emojileri bul
+    personas: Persona hakkında daha fazla bilgi edinin
+  missing_permissions: Eksik İzinler
+  missing_add_reaction: Bu komut için 'Tepki Ekle' iznine ihtiyacım var!
+  missing_create_invite: Bu komut için 'Anında Davet Oluştur' iznine ihtiyacım var!
+  tabulated_delete_manage_messages: Menü silinemedi - lütfen bana Mesajları Yönetin'i verin
+  no_nitro_global: Bu sunucuda nitro kullanımı devre dışı bırakıldı!
+  no_nitro_role: Bu komutu yalnızca <@&%{role}> rolüne sahip kullanıcılar kullanabilir!
+  user_missing_administrator: Bu komutu çalıştırmak için 'Yönetici' izniniz yok.
+  user_missing_add_reaction: Bu komutu çalıştırmak için 'Tepki Ekle' izniniz yok.
   tabulated_default_results:
-    one: "%{count} result (Page %{page_no} of %{total}):\n%{contents}"
-    many: "%{count} results (Page %{page_no} of %{total}):\n%{contents}"
+    one: "%{count} sonuç (Sayfa %{page_no} / %{total}):\n%{contents}"
+    many: "%{count} sonuç (Sayfa %{page_no} / %{total}):\n%{contents}"
   tabulated_results_page:
-    zero: No emotes found
-    one: Page %{page_no} of %{total}%{note}
-    many: Page %{page_no} of %{total}%{note}
-  page_no: 'Page %{page} of %{total}:'
-  no_results: No results
-  loading: <a:loading:674758249291186191> Processing...
-  timed_out: Timed out - try again
-  global_check_failed: You are not allowed to use %{cmd_name}
+    zero: Hiçbir emoji bulunamadı
+    one: Sayfa %{page_no} / %{total}%{note}
+    many: Sayfa %{page_no} / %{total}%{note}
+  page_no: 'Sayfa %{page} / %{total}:'
+  no_results: Sonuç yok
+  loading: <a:loading:674758249291186191> İşleniyor...
+  timed_out: Zaman aşımına uğrandı - tekrar deneyin
+  global_check_failed: '%{cmd_name} kullanmanıza izin verilmiyor'
   requires_user_content: |
-    User content is not allowed in this server.
+    Bu sunucuda kullanıcı içeriğine izin verilmiyor.
   requires_user_content_admin: |
-    User content is not allowed in this server. You can allow it with
-    > ```%{prefix}server user_content on```
+    Bu sunucuda kullanıcı içeriğine izin verilmiyor.
+    > ```%{prefix}sunucu user_content on``` ile izin verebilirsiniz
   error_message: |
-    An error occurred whilst processing your command. It may not have completed correctly.
-    For help, and to report this as an issue, please join the testing server for this bot:
+    Komutunuz işlenirken bir hata oluştu. Doğru şekilde tamamlanmamış olabilir.
+    Yardım için ve bunu bir sorun olarak bildirmek için lütfen bu bot için test sunucusuna katılın:
     https://discord.gg/mv8RbHD
 
-    Error code: `%{event_id}`
+    Hata kodu: `%{event_id}`
   user_abused: |
-    The bot owner or global moderators have blocked you from using this bot due to previous abuse.
-    You cannot use any commands or otherwise make use of the bot's functionality.
+    Bot sahibi veya genel moderatörler, daha önceki kötüye kullanım nedeniyle bu botu kullanmanızı engelledi.
+    Herhangi bir komut kullanamaz veya botun işlevselliğini başka şekilde kullanamazsınız.
   user_spammed: |
-    You have been temporarily blocked from using NQN for triggering our automated spam detection system.
-    This message will only be sent at most once a day, and there is no way to appeal this block.
+    Otomatik spam algılama sistemimizi tetiklemek için NQN'yi kullanmanız geçici olarak engellendi.
+    Bu mesaj günde en fazla bir kez gönderilecek ve bu engel itiraz etmenin bir yolu yok.
 
-    You will be unblocked in under **5 minutes** from now.
+    Şu andan itibaren **5 dakikadan** kısa bir süre içinde engellemeniz kaldırılacak.
   support_server: |
-    You can join my support server here:
+    Destek sunucuma buradan katılabilirsiniz:
     http://discord.gg/XvzDPca
-    You can report bugs, request new features or ask for clarifications on how to use me.
+    Hataları bildirebilir, yeni özellikler talep edebilir veya beni nasıl kullanacağınıza dair açıklamalar isteyebilirsiniz.
   premium_required: |
-    To do this, you need to be a subscriber to NQN's Patreon: https://www.patreon.com/NQN
+    Bunu yapmak için NQN's Patreon'a abone olmanız gerekir: https://www.patreon.com/NQN
   invite_bad_perms:
     title: |
-      Hi, thanks for inviting NQN to %{guild_name}!
+      Merhaba, NQN'yi %{guild_name}'e davet ettiğiniz için teşekkürler!
     content: |
-      We've looked around and found that we don't quite have all the permissions we need to function properly though.
-      To fix this so you can properly use the bot, a link's been generated which will give all the relevent permissions to the bot:
+      Etrafa baktık ve düzgün çalışmak için ihtiyacımız olan tüm izinlere tam olarak sahip olmadığımızı gördük.
+      Botu düzgün bir şekilde kullanabilmeniz için bunu düzeltmek için, bota ilgili tüm izinleri verecek bir bağlantı oluşturuldu:
 
-      **[Fix Permissions](%{invite_url})**
-  webhook_limit: Webhook limit reached! Cannot run in this channel!
+      **[İzinleri Düzelt](%{invite_url})**
+  webhook_limit: Webhook sınırına ulaşıldı! Bu kanalda kullanılamaz!
