@@ -1,8 +1,8 @@
 ---
 exceptions:
   command_not_found: |
-    Command "%{command}" was not found.
-    Use `%{prefix}help` to see the command list
+    "%{command}" komutu bulunamadı.
+    Komut listesini görmek için `%{prefix}help` kullanın
   missing_required_argument:
     one: |-
       "%{param}" is a required argument that is missing.
