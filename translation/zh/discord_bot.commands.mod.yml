@@ -45,14 +45,14 @@ discord_bot:
         end_previous_n: 将结尾消息移到%{count} 前
         end_next_n: 将结尾消息移到%{count} 后
         move_start: 移动开始消息
-        start_previous_n: Move start message %{count} before
-        start_next_n: Move start message %{count} after
-        move_both: Move start and end
-        both_previous_n: Move start and end %{count} before
-        both_next_n: Move start and end %{count} after
+        start_previous_n: 将开始消息移到%{count} 前
+        start_next_n: 将开始消息移到%{count} 后
+        move_both: 移动开始和结尾消息
+        both_previous_n: 将开始和结尾消息移到%{count} 前
+        both_next_n: 将开始和结尾消息移到%{count} 后
         move:
-          one: Move message!
-          many: Move %{count} messages!
+          one: 移动消息！
+          many: 移动%{count} 条消息！
         move_all:
-          one: Move message!
-          many: Move all %{count} messages!
+          one: 移动消息！
+          many: 移动全部%{count} 条消息！
