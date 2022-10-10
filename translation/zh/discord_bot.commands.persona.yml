@@ -4,7 +4,7 @@ discord_bot:
     persona:
       not_enabled: |
         此伺服器中未啟用角色。
-        啟用角色會允許用戶在使用NQN時⚠️**自訂用戶名字**和**頭像**⚠️，因此此功能預設是關閉的。
+        啟用角色會允許用戶在使用NQN時 ⚠️**自訂用戶名字**和**頭像**⚠️，因此此功能預設是關閉的。
       enable_personas: 啟用角色
       name_regex: |
         角色名字只能包含英文字母、數字、破折號和下劃線，而且長度最多為 80 個字符。
@@ -42,7 +42,7 @@ discord_bot:
           您可以使用 %{prefix}persona rename %{short_name} new_name` 以重新命名角色
         registered_persona: |
           已創建了 %{short_name} 角色！
-          要以角色的身份發送訊息，請發送以 `%{short_name}:` 開頭的訓息，例如：
+          要以角色的身份發送訊息，請發送以 `%{short_name}:` 開頭的訊息，例如：
           > ```%{short_name}: 你好！```
           要將角色名字更改為“NQN”，請使用：
           > ```%{prefix}persona display_name %{short_name} NQN```
