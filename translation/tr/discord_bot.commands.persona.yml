@@ -3,23 +3,23 @@ discord_bot:
   commands:
     persona:
       not_enabled: |
-        Personas are not enabled in this server.
-        They allow users to use ⚠️**custom usernames** and **avatars**⚠️ with NQN, so are not enabled by default.
-      enable_personas: Enable personas
+        Persona'ları bu sunucuda etkinleştirilmemiştir.
+        Kullanıcıların NQN ile ⚠️**özel kullanıcı adları** ve **avatarlar**⚠️ kullanmasına izin verir, bu nedenle varsayılan olarak etkin değildir.
+      enable_personas: Persona'ları etkinleştir
       name_regex: |
-        Persona names can only contain alphanumerics, dashes and underscores, and be at most 80 characters long.
-        > '%{persona_name}' does not match these requirements.
+        Persona adları yalnızca alfasayısal, tire ve alt çizgi içerebilir ve en fazla 80 karakter uzunluğunda olabilir.
+        > '%{persona_name}' bu gereksinimlerle eşleşmiyor.
       max_display_name: |
-        Usernames can be at most 80 characters long
+        Kullanıcı adları en fazla 80 karakter uzunluğunda olabilir
       persona_doesnt_exist: |
-        You don't have a persona called %{short_name}!
-        Create one with `%{prefix}persona register %{short_name}`
+        %{short_name} adında bir personan yok!
+        `%{prefix}persona register %{short_name}` ile bir tane oluştur
       export:
         exported_list_short: |
-          Here's your exported personas, they should be compatible with Tupperbox and Pluralkit.
+          İşte dışa aktarılan persona'ların, Tupperbox ve Pluralkit ile uyumlu olmalılar.
         exported_list_long: |
-          Here's your exported personas, they should be compatible with Tupperbox and Pluralkit.
-          To share them with other people, they need to run:
+          İşte dışa aktarılan persona'ların, Tupperbox ve Pluralkit ile uyumlu olmalılar.
+          Bunları diğer insanlarla paylaşmak için kullanmaları gerekir:
           > `%{prefix}persona import %{url}`
       import_:
         import_incorrect: |
@@ -34,9 +34,9 @@ discord_bot:
         no_personas: |
           You don't have any personas!
       register:
-        display_name: Nickname
-        avatar_url: Avatar URL
-        create: Create Persona
+        display_name: Kullanıcı adı
+        avatar_url: Avatar URL'si
+        create: Persona Oluştur
         persona_exists: |
           You already have a persona called %{short_name}.
           You can rename it with `%{prefix}persona rename %{short_name} new_name`
