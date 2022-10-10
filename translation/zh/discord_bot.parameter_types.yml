@@ -33,8 +33,8 @@ discord_bot:
     NQNEmoji:
       name: NQN 表情符號
       description: |
-        An unrendered emoji NQN can transform
-        - A rendered Discord emoji or an emoji URL
+        NQN 能夠轉換的未被渲染的表情符號
+        - Discord 裡的表情符號或者其鏈結
     BlockedEmoji:
       name: 被禁止的表情符號
       description: |-
