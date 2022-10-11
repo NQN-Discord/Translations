@@ -1,19 +1,19 @@
 ---
 command_docs:
   gain_access_to_emojis:
-    name: Gain access to emojis
+    name: Emojilere erişin
   block_emote:
-    name: Block an emote
+    name: Bir emojiyi engelle
   audit_messages:
-    name: Audit NQN messages
+    name: NQN mesajlarını denetle
   delete_message:
-    name: Delete Message
+    name: Mesaj Sil
   edit_message:
-    name: Edit Message
+    name: Mesaj Düzenle
   find_author:
-    name: Find Author
+    name: Yazar Bul
   alias:
-    name: alias
+    name: takma ad
     short_doc: Manage the individual emotes you can use
     help: |
       Manage the individual emotes you can use
@@ -24,56 +24,56 @@ command_docs:
        - `page`: skip to a certain page
        - `order`: one of 'uses', 'random'
   alias-delete:
-    name: delete
+    name: sil
     short_doc: Don't want an alias anymore? Use this
     params:
       alias:
-        name: alias
+        name: takma ad
         description: |-
           Which alias do you want to remove?
   alias-delete_all:
-    name: delete_all
-    short_doc: I don't like any of my aliases
+    name: hepsini_sil
+    short_doc: Takma adlarımdan hiçbirini sevmiyorum
     help: |
-      Delete all of your aliases
+      Tüm takma adlarınızı silin
   alias-dm:
     name: dm
-    short_doc: Get a full list of your aliases in DMs
+    short_doc: DM'lerde takma adlarınızın tam listesini alın
     help: |
-      Have the bot send you a list of your aliases in your DMs
+      Botun size DM'lerinizde takma adlarınızın bir listesini göndermesini sağlayın
   alias-export:
-    name: export
-    short_doc: Export your alias list
+    name: dışa aktarmak
+    short_doc: Takma ad listenizi dışa aktarın
   alias-import:
-    name: import
+    name: içe aktarmak
     short_doc: Import someone else's alias list
     params:
       file:
-        name: file
+        name: dosya
         description: |-
           A file previously exported with /alias export
   alias-mine:
-    name: mine
+    name: benim
     short_doc: Get a list of aliases you've made
     params:
       page:
-        name: page
+        name: sayfa
         description: |-
           What page to start at?
   alias-rename:
-    name: rename
+    name: ad değiştir
     short_doc: Rename one of your aliases
     params:
       old_name:
-        name: old_name
+        name: eski_ad
         description: |-
           What's the name of the emoji you want to give a new name to?
       new_name:
-        name: new_name
+        name: yeni_ad
         description: |-
           What should it be renamed to?
   alias-search:
-    name: search
+    name: ara
     short_doc: Look for individual emotes
     help: |
       Look for individual emotes to use with NQN
@@ -84,7 +84,7 @@ command_docs:
        - `page`: skip to a certain page
        - `order`: one of 'uses', 'random'
   audit:
-    name: audit
+    name: denetim
     short_doc: Get audit logs for reposted messages for this channel
     help: |
       Get audit logs for reposted messages for this channel
@@ -93,24 +93,24 @@ command_docs:
 
       If both channel and members are to be unfiltered, use 'audit guild'
   delete:
-    name: delete
+    name: sil
     short_doc: Delete one of your messages reposted by NQN
     help: |
       Delete one of your messages reposted by NQN.
       By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
       You can also use Discord's message reply functionality to delete that message.
   edit:
-    name: edit
+    name: düzenle
     short_doc: Edit a message posted by NQN
     help: |
       Edits the content of one of your messages reposted by NQN.
       By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
       You can also use Discord's message reply functionality to edit that message.
   emote:
-    name: emote
+    name: emoji
     short_doc: Manage your server's emojis
   emote-block:
-    name: block
+    name: engelle
     short_doc: Block the use of an emote
     help: |
       Search for emojis to block in this server.
@@ -138,7 +138,7 @@ command_docs:
     name: block_list
     short_doc: View the list of emojis blocked in this server
   emote-info:
-    name: info
+    name: bilgi
     short_doc: Get information about an emote
     params:
       emoji:
@@ -146,7 +146,7 @@ command_docs:
         description: |-
           Which emoji to get information about?
   emote-jumbo:
-    name: jumbo
+    name: dev
     short_doc: Makes an emoji bigger
     params:
       emoji:
@@ -162,7 +162,7 @@ command_docs:
         description: |-
           Lock which emoji?
       role:
-        name: role
+        name: rol
         description: |-
           Lock the emoji to which role?
   emote-roleunlock:
@@ -174,7 +174,7 @@ command_docs:
         description: |-
           Unlock which emoji?
   emote-stats:
-    name: stats
+    name: istatistikler
     short_doc: See how often your server's emotes are used
   emote-unblock:
     name: unblock
@@ -185,7 +185,7 @@ command_docs:
         description: |-
           Which emoji to unblock?
   emote-upload:
-    name: upload
+    name: yükle
     short_doc: Upload an emote
     help: |
       Search for all the emotes the bot has ever seen and upload them to this server.
@@ -196,7 +196,7 @@ command_docs:
     short_doc: Upload an emoji from an attachment
     params:
       attachment:
-        name: attachment
+        name: ek
         description: |-
           Emoji image
   emote-upload-from_emote:
@@ -211,14 +211,14 @@ command_docs:
     name: from_search
     short_doc: Search for an emoji to upload to your server
   export:
-    name: export
+    name: dışa aktarmak
     short_doc: Export your emote list
   help:
-    name: help
+    name: yardım
     short_doc: Learn about my commands
     params:
       command:
-        name: command
+        name: komut
         description: |-
           What to learn about?
     help: |
@@ -232,7 +232,7 @@ command_docs:
       - You can still repost messages through our [dashboard](https://nqn.blue)
       - The bot will not respond to any messages you send that would be reposted through a webhook
   info:
-    name: info
+    name: bilgi
     short_doc: Internal statistics about the bot
   invite_me:
     name: invite_me
@@ -241,15 +241,15 @@ command_docs:
     name: mod
     short_doc: NQN moderation tools
   mod-audit:
-    name: audit
+    name: denetim
     short_doc: Get audit logs for reposted messages for this channel
     params:
       channel:
-        name: channel
+        name: kanal
         description: |-
           Filter to just messages in this channel
       user:
-        name: user
+        name: kullanıcı
         description: |-
           Filter to just messages by this user
     help: |
@@ -259,14 +259,14 @@ command_docs:
 
       If both channel and members are to be unfiltered, use 'audit guild'
   mod-ban:
-    name: ban
+    name: yasakla
     short_doc: Ban the user that posted a message
   mod-edit_topic:
     name: edit_topic
     short_doc: Add animated emojis to channel topics
     params:
       description:
-        name: description
+        name: açıklama
         description: |-
           The new channel description including emoji names
     help: |
@@ -297,7 +297,7 @@ command_docs:
     short_doc: See what emojis you can post with NQN
     params:
       page:
-        name: page
+        name: sayfa
         description: |-
           Which emojis to show?
         choices:
@@ -306,17 +306,17 @@ command_docs:
           aliases: Aliases
           packs: Packs
   owner:
-    name: owner
+    name: sahip
     short_doc: Forbidden knowledge lurks within
   nqn:
     name: nqn
     short_doc: Send a message with NQN
   nqn-message:
-    name: message
+    name: mesaj
     short_doc: Post a message with NQN emojis in it
     params:
       message:
-        name: message
+        name: mesaj
         description: |-
           The message to post
       persona:
@@ -324,7 +324,7 @@ command_docs:
         description: |-
           The persona to use
       attachment:
-        name: attachment
+        name: ek
         description: |-
           An attachment to send
   nqn-single_emoji:
@@ -340,7 +340,7 @@ command_docs:
         description: |-
           The persona to use
   pack:
-    name: pack
+    name: paket
     short_doc: Manage entire packs of emotes
   pack-dm:
     name: dm
@@ -348,45 +348,45 @@ command_docs:
     help: |
       Have the bot send you a complete list of your packs current emoji lists through your DMs.
   pack-join:
-    name: join
+    name: katıl
     short_doc: Subscribe to an emote pack
     params:
       pack:
-        name: pack
+        name: paket
         description: |-
           Which pack do you want to join?
   pack-leave:
-    name: leave
+    name: ayrıl
     short_doc: Unsubscribe from an emote pack
     params:
       pack:
-        name: pack
+        name: paket
         description: |-
           Which pack do you want to leave?
   pack-meta:
     name: meta
-    short_doc: Oooh... Pretty stats about your pack
+    short_doc: Oooh... Paketiniz hakkında güzel istatistikler
   pack-mine:
-    name: mine
+    name: benim
     short_doc: Get a list of emote packs you're subscribed to
   pack-publish:
-    name: publish
+    name: yayınla
     short_doc: Publish your emote server as an emote pack
     params:
       name:
-        name: name
+        name: isim
         description: |-
           What do you want to call your pack?
       public:
-        name: public
+        name: herkese açık
         description: |-
           Do you want people to be able to join your server through the bot without an invite?
   pack-rename:
-    name: rename
+    name: ad değiştir
     short_doc: Rename an emote pack
     params:
       new_name:
-        name: new_name
+        name: yeni_ad
         description: |-
           What do you want to call your pack?
   pack-save:
@@ -444,7 +444,7 @@ command_docs:
         description: |-
           What's the new avatar URL?
   persona-delete:
-    name: delete
+    name: sil
     short_doc: Delete one of your personas
     params:
       persona:
@@ -452,7 +452,7 @@ command_docs:
         description: |-
           Which persona are you deleting?
   persona-display_name:
-    name: display_name
+    name: ekran_adı
     short_doc: Change the username of a persona
     params:
       persona:
@@ -460,41 +460,41 @@ command_docs:
         description: |-
           Which persona are you changing the username for?
       display_name:
-        name: display_name
+        name: ekran_adı
         description: |-
           What's the new username?
   persona-dm:
     name: dm
     short_doc: DMs you a full list of your personas
   persona-export:
-    name: export
+    name: dışa aktarmak
     short_doc: Export your list of personas to a file
     help: |
       Export your list of personas to a file, which is compatible with other bots
   persona-import:
-    name: import
+    name: içe aktarmak
     short_doc: Import a previously exported list of personas
     params:
       file:
-        name: file
+        name: dosya
         description: |-
           A file previously exported with /persona export
     help: |
       Import a previously exported list of personas.
       Compatible with PluralKit and Tupperbox.
   persona-list:
-    name: list
+    name: liste
     short_doc: See a list of your personas
   persona-register:
     name: register
     short_doc: Register a persona for later use
     params:
       short_name:
-        name: short_name
+        name: kısa_ad
         description: |-
           What's your persona's prefix?
   persona-rename:
-    name: rename
+    name: ad değiştir
     short_doc: Give one of your personas a different name
     params:
       persona:
@@ -502,25 +502,25 @@ command_docs:
         description: |-
           Which persona are you changing the prefix of?
       new_name:
-        name: new_name
+        name: yeni_ad
         description: |-
           What will the new prefix be?
   premium:
     name: premium
-    short_doc: Premium stuff
+    short_doc: Premium şeyler
   premium-check:
     name: check
     short_doc: Recalculate your premium information
     help: |
       Recalculates your premium information, including the list of servers gaining premium from you.
   premium-help:
-    name: help
+    name: yardım
     short_doc: Information about NQN premium
   ranking:
     name: ranking
     short_doc: How high up is your server in our rankings?
   react:
-    name: react
+    name: tepki
     short_doc: React to a message with emojis
     params:
       emoji:
@@ -570,40 +570,40 @@ command_docs:
     short_doc: Post a list of server aliases
     params:
       channel:
-        name: channel
+        name: kanal
         description: |-
           Which channel do you want to post the server-wide emoji list to?
   server-alias-rename:
-    name: rename
+    name: ad değiştir
     short_doc: Rename a server alias
     params:
       old_name:
-        name: old_name
+        name: eski_ad
         description: |-
           What's the name of the emoji you want to give a new name to?
       new_name:
-        name: new_name
+        name: yeni_ad
         description: |-
           What should it be renamed to?
   server-alias-search:
-    name: search
+    name: ara
     short_doc: Allow anyone in the server to use an emote!
   server-dashboard_posting:
     name: dashboard_posting
     short_doc: Enable or disable posting messages through the bot dashboard
   server-audit_channel:
-    name: audit_channel
+    name: denetim_kanalı
     short_doc: Post messages the bot reposts
     params:
       channel:
-        name: channel
+        name: kanal
         description: |-
           Which channel should NQN post to? (None -> No channel)
   server-language:
-    name: language
+    name: dil
     short_doc: Set the bots language %{locale_flag_emojis}
   server-link:
-    name: link
+    name: bağlantı
     short_doc: Create a static emote, which when used posts an animated version of the emote instead!
     params:
       emoji:
@@ -617,43 +617,43 @@ command_docs:
     name: nitro
     short_doc: Enable or disable free nitro usage in this server
   server-pack:
-    name: pack
+    name: paket
     short_doc: Server Packs
   server-pack-join:
-    name: join
+    name: katıl
     short_doc: Subscribe to an emote pack server-wide
     params:
       pack:
-        name: pack
+        name: paket
         description: |-
           Which pack do you want to allow everyone in this server to use?
   server-pack-leave:
-    name: leave
+    name: ayrıl
     short_doc: Unsubscribe from an emote pack server-wide
     params:
       pack:
-        name: pack
+        name: paket
         description: |-
           Which pack do you want to remove access to from everyone?
   server-pack-list:
-    name: list
+    name: liste
     short_doc: List the packs this server can use
   server-pack-post:
     name: post
     short_doc: Post a list of server packs
   server-pack-search:
-    name: search
+    name: ara
     short_doc: Search for an emote pack to add server-wide
   server-permissions_debug:
     name: permissions_debug
     short_doc: Let NQN tell you what permissions it's missing
   server-personas:
-    name: personas
+    name: personalar
     short_doc: Enable or disable usage of personas
     help: |
       Allows users to post with arbitrary usernames and avatars
   server-pings:
-    name: pings
+    name: ping'ler
     short_doc: Enable or disable pings in messages for this server
     help: |
       Enable or disable pings in messages that NQN reposts on this server
@@ -695,16 +695,16 @@ command_docs:
         description: |-
           The role which people need to use NQN's emoji reposting
   server-stickers:
-    name: stickers
+    name: çıkartmalar
     short_doc: Enable or disable sticker usage in this guild
   server-user_content:
     name: user_content
     short_doc: Enable or disable user aliases and packs for this server
   sticker:
-    name: sticker
+    name: çıkartma
     short_doc: Manage your NQN stickers
   sticker-create:
-    name: create
+    name: oluştur
     short_doc: Create a sticker
     help: |
       Create a sticker from a file
@@ -718,11 +718,11 @@ command_docs:
     short_doc: Create a sticker
     params:
       sticker:
-        name: sticker
+        name: çıkartma
         description: |-
           The image to turn into a sticker
       name:
-        name: name
+        name: isim
         description: |-
           What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
   sticker-create-from_emote:
@@ -734,7 +734,7 @@ command_docs:
         description: |-
           …
       name:
-        name: name
+        name: isim
         description: |-
           What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
   sticker-create-from_search:
@@ -749,15 +749,15 @@ command_docs:
         description: |-
           The URL to the Telegram sticker pack
   sticker-delete:
-    name: delete
+    name: sil
     short_doc: Delete a sticker you own
     params:
       name:
-        name: name
+        name: isim
         description: |-
           Which sticker to delete
   sticker-import:
-    name: import
+    name: içe aktarmak
     short_doc: Import stickers from emotes
     help: |
       Import stickers from emotes
@@ -767,33 +767,33 @@ command_docs:
        - sticker import blue pat
       Note that the searching through emotes option does not support aliasing
   sticker-mine:
-    name: mine
+    name: benim
     short_doc: Find my stickers
   sticker-rename:
-    name: rename
+    name: ad değiştir
     short_doc: Rename a sticker you own
     params:
       old_name:
-        name: old_name
+        name: eski_ad
         description: |-
           Which sticker to rename
       new_name:
-        name: new_name
+        name: yeni_ad
         description: |-
           What to rename it to?
   sticker-search:
-    name: search
+    name: ara
     short_doc: Search through all the stickers NQN has, with an optional query
     params:
       search:
-        name: search
+        name: ara
         description: |-
           Which to search for?
   sticker-telegram:
     name: telegram
     short_doc: Import stickers from telegram
   support:
-    name: support
+    name: destek
     short_doc: Need some help with using me?
   tutorial:
     name: tutorial
