@@ -27,8 +27,8 @@ discord_bot:
           To create a persona, use `%{prefix}persona register`
         import_text: This command needs a json file attachment
         set_personas:
-          one: Imported one persona
-          many: Imported %{count} personas
+          one: Bir persona içe aktarıldı
+          many: '%{count} persona içe aktarıldı'
         invalid_persona: Do you wish to continue importing the rest of the file, ignoring this entry?
       list:
         no_personas: |
