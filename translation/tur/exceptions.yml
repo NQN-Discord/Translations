@@ -5,54 +5,54 @@ exceptions:
     Komut listesini görmek için `%{prefix}help` kullanın
   missing_required_argument:
     one: |-
-      "%{param}" is a required argument that is missing.
-      It should be: %{should_be}
+      "%{param}", eksik olan gerekli bir bağımsız değişkendir.
+      Şu olmalıdır: %{should_be}
     many: |
-      "%{param}" is a required argument that is missing.
-      It should be one of:
+      "%{param}", eksik olan gerekli bir bağımsız değişkendir.
+      Şunlardan biri olmalıdır:
       - %{should_be}
   bot_missing_permissions:
     one: |
-      %{bot_ping} is missing the following permission required to run this command:
+      %{bot_ping}, bu komutu kullanmak için gereken şu izne sahip değil:
       %{permissions_missing}
     many: |
-      %{bot_ping} is missing the following permissions required to run this command:
+      %{bot_ping}, bu komutu kullanmak için gereken aşağıdaki izinlere sahip değil:
       %{permissions_missing}
   user_missing_permissions:
     one: |
-      You are missing the following permission required to run this command:
+      Bu komutu kullanmak için gereken aşağıdaki iznin yok:
       %{permissions_missing}
     many: |
-      You are missing the following permissions required to run this command:
+      Bu komutu kullanmak için gereken aşağıdaki izinlere yok:
       %{permissions_missing}
   message_not_found: |
-    Message "%{param}" not found.
+    "%{param}" mesajı bulunamadı.
   channel_not_found: |
-    Channel "%{channel}" not found.
+    "%{channel}" kanalı bulunamadı.
   channel_not_readable: |
-    %{bot_ping} is missing the following permission in %{channel}:
+    %{bot_ping}, %{channel}'da şu izne sahip değil:
     %{permissions_missing}
   bad_argument:
     one: |
-      Could not interpret argument%{param}; should be:
+      %{param} argümanı yorumlanamadı; olmalı:
     many: |
-      Could not interpret argument%{param}, should be one of:
+      %{param} argümanı yorumlanamadı, şunlardan biri olmalıdır:
   no_dms: |
-    This command cannot be ran in DMs
+    Bu komut DM'lerde çalıştırılamaz
   permissions_missing_reasons:
     #These translations were designed to be short, and to fit on about 1 line on a mobile screen
     guild: |-
-      %{user_ping}'s roles don't include it
+      %{user_ping} rolleri bunu içermiyor
     member_overwrite: |-
-      Channel permissions explicitly deny %{user_ping}
+      Kanal izinleri %{user_ping} açıkça reddediyor
     role_overwrite:
       one: |-
-        Channel permissions denied for the role: %{roles}
+        Şu rol için kanal izinleri reddedildi: %{roles}
       many: |-
-        Channel permissions denied for these roles: %{roles}
+        Şu roller için kanal izinleri reddedildi: %{roles}
     member_role_overwrite:
       one: |-
-        Channel permissions explicitly deny %{user_ping} as well as role: %{roles}
+        Kanal izinleri, %{user_ping} ve ayrıca şu rolü açıkça reddediyor: %{roles}
       many: |-
-        Channel permissions explicitly deny %{user_ping} as well as roles: %{roles}
-  no_threads: This command cannot be used in threads.
+        Kanal izinleri, %{user_ping} ve rolleri açıkça reddediyor: %{roles}
+  no_threads: Bu komut alt başlıklarda kullanılamaz.
