@@ -1,0 +1,833 @@
+---
+command_docs:
+  gain_access_to_emojis:
+    name: Gain access to emojis
+  block_emote:
+    name: Block an emote
+  audit_messages:
+    name: Audit NQN messages
+  delete_message:
+    name: Delete Message
+  edit_message:
+    name: सन्देश सम्पादित करें
+  find_author:
+    name: Find Author
+  alias:
+    name: alias
+    short_doc: उन व्यक्तिगत ईमोट का प्रबंधन करें जिनका आप उपयोग कर सकते हैं
+    help: |
+      उन व्यक्तिगत ईमोट का प्रबंधन करें जिनका आप उपयोग कर सकते हैं
+
+      NQN's खोज सुविधा कुछ उन्नत सुविधाओं की अनुमति देती है:
+       - `exact`: (डिफ़ॉल्ट निष्क्रिय) यह केवल सटीक नाम के साथ इमोजी दिखाता है, जिसकी खोज की गयी थी|
+       - `animated`: या तो केवल गतिशील या स्थिर इमोजी दिखाता हैं
+       - `page`: एक निश्चित पृष्ठ पर जाएं
+       - `order`: इनमे से एक 'uses', 'random'
+  alias-delete:
+    name: delete
+    short_doc: कोई उपनाम नही चाहिए? इसे उपयोग करें
+    params:
+      alias:
+        name: alias
+        description: |-
+          Which alias do you want to remove?
+  alias-delete_all:
+    name: delete_all
+    short_doc: मुझे मेरा कोई भी उपनाम पसंद नही है
+    help: |
+      अपने सभी उपनाम हटाएँ
+  alias-dm:
+    name: dm
+    short_doc: DM में आपके सभी उपनामों की सूची प्राप्त करें
+    help: |
+      बॉट से अपने उपनामों की सूची अपनी DM में भिजवाएं
+  alias-export:
+    name: export
+    short_doc: अपनी उपनाम सूची को निर्यात करें
+  alias-import:
+    name: import
+    short_doc: किसी और की उपनाम सूची आयात करें
+    params:
+      file:
+        name: file
+        description: |-
+          A file previously exported with /alias export
+  alias-mine:
+    name: mine
+    short_doc: आपके द्वारा बनायें गए उपनामों की सूची प्राप्त करें
+    params:
+      page:
+        name: page
+        description: |-
+          What page to start at?
+  alias-rename:
+    name: rename
+    short_doc: किसी उपनाम का नाम बदलें
+    params:
+      old_name:
+        name: old_name
+        description: |-
+          What's the name of the emoji you want to give a new name to?
+      new_name:
+        name: new_name
+        description: |-
+          What should it be renamed to?
+  alias-search:
+    name: search
+    short_doc: व्यक्तिगत ईमोट की तलाश करें
+    help: |
+      NQN के साथ इस्तेमाल करने के लिए व्यक्तिगत ईमोट खोजें
+
+      NQN's खोज सुविधा कुछ उन्नत सुविधाओं की अनुमति देती है:
+       - `exact`: (डिफ़ॉल्ट निष्क्रिय) यह केवल सटीक नाम के साथ इमोजी दिखाता है, जिसकी खोज की गयी थी|
+       - `animated`: या तो केवल गतिशील या स्थिर इमोजी दिखाता हैं
+       - `page`: एक निश्चित पृष्ठ पर जाएं
+       - `order`: इनमे से एक 'uses', 'random'
+  audit:
+    name: audit
+    short_doc: इस चैनल के फिर से पोस्ट किये गए संदेशों के ऑडिट लॉग प्राप्त करें
+    help: |
+      इस चैनल के फिर से पोस्ट किये गए संदेशों के ऑडिट लॉग प्राप्त करें
+
+      वैकल्पिक[Channel] -> इसी चैनल के लॉग छांटें
+      वैकल्पिक[Member] -> इसी सदस्य के लॉग छांटें
+
+      यदि चैनल और सदस्य दोनों को नहीं छांटना है तो, 'ऑडिट गिल्ड' का उपयोग करें
+  delete:
+    name: delete
+    short_doc: NQN द्वारा रिपोस्ट किये गए अपने संदेशों में से एक सन्देश को हटाएँ
+    help: |
+      NQN द्वारा रिपोस्ट किये गए अपने संदेशों में से एक सन्देश को हटाएँ
+      डिफ़ॉल्ट रूप से, आपका नवीनतम सन्देश इस चैनल में से हट जाएगा, लेकिन वैकल्पिक रूप से आप एक सन्देश का URL देकर उसे हटवा सकते हैं।
+      आप उस सन्देश को हटाने के लिए Discord की सन्देश उत्तर कार्यक्षमता का भी उपयोग कर सकते हैं।
+  edit:
+    name: edit
+    short_doc: NQN द्वारा पोस्ट किये गए सन्देश को सम्पादित करें
+    help: |
+      NQN द्वारा रिपोस्ट किये गए अपने संदेशों में से एक सन्देश को सम्पादित करें।
+      डिफ़ॉल्ट रूप से, आपका नवीनतम सन्देश इस चैनल में से सम्पादित हो जाएगा, लेकिन वैकल्पिक रूप से आप एक सन्देश का URL देकर उसे हटवा सकते हैं
+      आप उस सन्देश को सम्पादित करने के लिए Discord की सन्देश उत्तर कार्यक्षमता का भी उपयोग कर सकते हैं।
+  emote:
+    name: emote
+    short_doc: Manage your server's emojis
+  emote-block:
+    name: block
+    short_doc: Block the use of an emote
+    help: |
+      इस सर्वर में ब्लॉक करने के लिए इमोजी खोजें।
+      जब यह इमोजी इस्तेमाल किया जाएगा, यह सर्वर की ऑटोमोड सूची में स्वचालित रूप से जोड़कर हटा दिया जाएगा।
+  emote-block-from_emote:
+    name: from_emote
+    short_doc: Block the use of an emote
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          Which emoji to block the use of?
+  emote-block-from_search:
+    name: from_search
+    short_doc: Block the use of an emote
+  emote-block-recently_used:
+    name: recently_used
+    short_doc: Block the use of an emote
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          Which emoji to block the use of?
+  emote-block_list:
+    name: block_list
+    short_doc: इस सर्वर में ब्लॉक हुए इमोजी की सूची देखें
+  emote-info:
+    name: info
+    short_doc: एक ईमोट के बारे में जानकारी प्राप्त करें
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          Which emoji to get information about?
+  emote-jumbo:
+    name: jumbo
+    short_doc: एक इमोजी को बड़ा बनता है
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          Which emoji to make jumbo sized?
+  emote-rolelock:
+    name: rolelock
+    short_doc: एक इमोजी को एक निश्चित रोल समूह तक सीमित करता है
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          Lock which emoji?
+      role:
+        name: रोल
+        description: |-
+          Lock the emoji to which role?
+  emote-roleunlock:
+    name: roleunlock
+    short_doc: किसी को भी लॉक किये गए ईमोट उपयोग करने की अनुमति देना
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          Unlock which emoji?
+  emote-stats:
+    name: stats
+    short_doc: देखें की आपके सर्वर के ईमोट का कितनी बार प्रयोग किया जाता है
+  emote-unblock:
+    name: unblock
+    short_doc: पहले से ब्लॉक किये गए इमोजी को अनब्लॉक करें
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          Which emoji to unblock?
+  emote-upload:
+    name: upload
+    short_doc: Upload an emote
+    help: |
+      सभी इमोजी की खोज करें, जिन्हें बॉट ने कभी देखा है और उन्हें इस सर्वर पर अपलोड करें।
+      यह कमांड आपको इमोजी अपलोड करने की अनुमति देता है।
+      आप इसे अपलोड करने के लिए एक फ़ाइल भी संलग्न कर सकते हैं
+  emote-upload-from_attachment:
+    name: from_attachment
+    short_doc: Upload an emoji from an attachment
+    params:
+      attachment:
+        name: attachment
+        description: |-
+          Emoji image
+  emote-upload-from_emote:
+    name: from_emote
+    short_doc: Upload an emoji from it's name or URL
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          Emoji or Emoji URL
+  emote-upload-from_search:
+    name: from_search
+    short_doc: Search for an emoji to upload to your server
+  export:
+    name: export
+    short_doc: अपनी ईमोट सूची को निर्यात करें
+  help:
+    name: help
+    short_doc: मेरी कमांड के बारे में जानें
+    params:
+      command:
+        name: command
+        description: |-
+          What to learn about?
+    help: |
+      उन कमांड के बारे में जानें जिन्हे आप में NQN में चला सकते हैं
+  ignore_me:
+    name: ignore_me
+    short_doc: NQN को आपके सन्देश रिपोस्ट करने से रोकें
+    help: |
+      इस कमांड को चलाने से NQN आपके द्वारा बॉट के साथ साझा किए गए किसी भी सर्वर में आपके किसी भी संदेश को दोबारा पोस्ट करने से रोकता है।
+      - कमांड अभी भी सक्रिय हैं, इस कमांड को फिर से चलने से आप सामान्य मोड में वापस आ जाएंगे
+      - आप अभी भी हमारे [dashboard](https://nqn.blue) के माध्यम से सन्देश भेज सकते हैं
+      - बॉट आपके द्वारा भेजे गए किसी भी सन्देश का जवाब नही देगा जो की वेबहुक के माध्यम से रिपोस्ट होना था
+  info:
+    name: info
+    short_doc: बॉट के आंतरिक आंकड़े
+  invite_me:
+    name: invite_me
+    short_doc: अपने सर्वर में बॉट को आमंत्रित करें!
+  mod:
+    name: mod
+    short_doc: NQN moderation tools
+  mod-audit:
+    name: audit
+    short_doc: इस चैनल के फिर से पोस्ट किये गए संदेशों के ऑडिट लॉग प्राप्त करें
+    params:
+      channel:
+        name: channel
+        description: |-
+          Filter to just messages in this channel
+      user:
+        name: उपयोगकर्ता
+        description: |-
+          Filter to just messages by this user
+    help: |
+      इस चैनल के फिर से पोस्ट किये गए संदेशों के ऑडिट लॉग प्राप्त करें
+      वैकल्पिक[Channel] -> इसी चैनल के लॉग छांटें
+      वैकल्पिक[Member] -> इसी सदस्य के लॉग छांटें
+
+      यदि चैनल और सदस्य दोनों को नहीं छांटना है तो, 'ऑडिट गिल्ड' का उपयोग करें
+  mod-ban:
+    name: ban
+    short_doc: संदेश पोस्ट करने वाले उपयोगकर्ता को प्रतिबंधित करें
+  mod-edit_topic:
+    name: edit_topic
+    short_doc: चैनल विषय में गतिशील इमोजी डालें
+    params:
+      description:
+        name: description
+        description: |-
+          The new channel description including emoji names
+    help: |
+      चैनल विवरण को बदलता है, उनमे गतिशील इमोजी की अनुमति देता है
+  mod-kick:
+    name: kick
+    short_doc: संदेश पोस्ट करने वाले उपभोक्ता को निकालें
+  mod-move:
+    name: move
+    short_doc: इस चैनल के 50 सबसे नवीनतम संदेशों को दूसरे चैनल में ले जाएँ
+    params:
+      channel:
+        name: channel
+        description: |-
+          The target channel to move to
+      messages:
+        name: messages
+        description: |-
+          How many messages to move?
+  mod-purge:
+    name: purge
+    short_doc: चैनल में बॉट के द्वारा भेजे गए कुछ सन्देश हटाएँ
+  mutuals:
+    name: mutuals
+    short_doc: उन सर्वेरों को देखें जिन्हे में आपके साथ साझा करता हूँ
+  my_emotes:
+    name: my_emotes
+    short_doc: देखें कि आप कौनसे इमोजी NQN से पोस्ट कर सकते हैं
+    params:
+      page:
+        name: page
+        description: |-
+          Which emojis to show?
+        choices:
+          current_server: वर्तमान सर्वर
+          mutual_servers: आपसी सर्वर
+          aliases: उपनाम
+          packs: पैक
+  owner:
+    name: owner
+    short_doc: निषिद्ध ज्ञान भीतर छिपा है
+  nqn:
+    name: nqn
+    short_doc: Send a message with NQN
+  nqn-message:
+    name: सन्देश
+    short_doc: Post a message with NQN emojis in it
+    params:
+      message:
+        name: सन्देश
+        description: |-
+          The message to post
+      persona:
+        name: persona
+        description: |-
+          The persona to use
+      attachment:
+        name: attachment
+        description: |-
+          An attachment to send
+  nqn-single_emoji:
+    name: single_emoji
+    short_doc: Post a message with just a single emoji in it
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          Which emoji to post
+      persona:
+        name: persona
+        description: |-
+          The persona to use
+  pack:
+    name: pack
+    short_doc: ईमोट के सम्पूर्ण को प्रबंधित करें
+  pack-dm:
+    name: dm
+    short_doc: DM में आपके सभी पैकों की सूची प्राप्त करें
+    help: |
+      बॉट से आपके पैक की इमोजी सूची अपनी DM में भिजवाएं।
+  pack-join:
+    name: join
+    short_doc: एक ईमोट पैक की सदस्यता लें
+    params:
+      pack:
+        name: pack
+        description: |-
+          Which pack do you want to join?
+  pack-leave:
+    name: leave
+    short_doc: एक ईमोट पैक की सदस्य्ता छोड़ें
+    params:
+      pack:
+        name: pack
+        description: |-
+          Which pack do you want to leave?
+  pack-meta:
+    name: meta
+    short_doc: ओह... आपके पैक के बारे में सुन्दर आंकड़ें
+  pack-mine:
+    name: mine
+    short_doc: आपके द्वारा सदस्यता लिए गए इमोट पैक की सूची प्राप्त करें
+  pack-publish:
+    name: publish
+    short_doc: अपने इमोट सर्वर को इमोट पैक के रूप में प्रकाशित करें
+    params:
+      name:
+        name: name
+        description: |-
+          What do you want to call your pack?
+      public:
+        name: सार्वजनिक
+        description: |-
+          Do you want people to be able to join your server through the bot without an invite?
+  pack-rename:
+    name: rename
+    short_doc: ईमोट पैक का नाम बदलें
+    params:
+      new_name:
+        name: new_name
+        description: |-
+          What do you want to call your pack?
+  pack-save:
+    name: save
+    short_doc: पैक से सभी ईमोट को इस सर्वर पर अपलोड करें
+    params:
+      name:
+        name: name
+        description: |-
+          Which pack are you downloading emojis to this server from?
+  pack-search:
+    name: search
+    short_doc: ईमोट के सम्पूर्ण पैक खोजें
+    params:
+      search:
+        name: search
+        description: |-
+          What kind of emojis are you looking for?
+      page:
+        name: page
+        description: |-
+          Which page of packs to start on?
+  pack-set_public:
+    name: set_public
+    short_doc: किसी को भी NQN के माध्यम से इस सर्वर से जुड़ने की अनुमति दें।
+    params:
+      enabled:
+        name: सक्षम
+        description: |-
+          Allow users to join this server through NQN without an invite?
+  pack-show:
+    name: show
+    short_doc: एक पैक की सामग्री दिखाएं
+    params:
+      pack:
+        name: pack
+        description: |-
+          Which pack to show the emojis of?
+  pack-unpublish:
+    name: unpublish
+    short_doc: नहीं चाहते कि यह सर्वर अब एक इमोट पैक रहे?
+  persona:
+    name: persona
+    short_doc: अपनी पहचानों को प्रबंधित करें
+  persona-avatar_url:
+    name: avatar_url
+    short_doc: किसी पहचान का अवतार सेट करें
+    params:
+      persona:
+        name: persona
+        description: |-
+          Which persona are you changing the username for?
+      avatar_url:
+        name: avatar_url
+        description: |-
+          What's the new avatar URL?
+  persona-delete:
+    name: delete
+    short_doc: अपनी एक पहचान को हटाएँ
+    params:
+      persona:
+        name: persona
+        description: |-
+          Which persona are you deleting?
+  persona-display_name:
+    name: display_name
+    short_doc: किसी पहचान का उपयोगकर्ता नाम बदलें
+    params:
+      persona:
+        name: persona
+        description: |-
+          Which persona are you changing the username for?
+      display_name:
+        name: display_name
+        description: |-
+          What's the new username?
+  persona-dm:
+    name: dm
+    short_doc: आपकी पहचानों की सूची आपको DM करें
+  persona-export:
+    name: export
+    short_doc: आपकी पहचानों को एक फाइल में निर्यात करें
+    help: |
+      आपकी पहचानों को एक फाइल में निर्यात करें, जो की अन्य बॉट के साथ अनुकूल हो
+  persona-import:
+    name: import
+    short_doc: पहले से निर्यातित की गयी पहचान सूची को आयात करें
+    params:
+      file:
+        name: file
+        description: |-
+          A file previously exported with /persona export
+    help: |
+      पहले से निर्यातित की गयी पहचान सूची को आयात करें।
+      PluralKit और Tupperbox के साथ अनुकूल।
+  persona-list:
+    name: सूची
+    short_doc: अपनी पहचानों की सूची देखें
+  persona-register:
+    name: register
+    short_doc: बाद में इस्तेमाल करने के लिए एक पहचान पंजीकृत करें
+    params:
+      short_name:
+        name: short_name
+        description: |-
+          What's your persona's prefix?
+  persona-rename:
+    name: rename
+    short_doc: अपनी कोई एक पहचान को एक अलग नाम दें
+    params:
+      persona:
+        name: persona
+        description: |-
+          Which persona are you changing the prefix of?
+      new_name:
+        name: new_name
+        description: |-
+          What will the new prefix be?
+  premium:
+    name: premium
+    short_doc: Premium stuff
+  premium-check:
+    name: check
+    short_doc: आपकी प्रीमियम जानकारी की पुनर्गणना करें
+    help: |
+      आपकी प्रीमियम जानकारी की पुनर्गणना करें, सर्वर जिन्हे आपसे प्रीमियम मिलता है की सूची सहित।
+  premium-help:
+    name: help
+    short_doc: NQN प्रीमियम के बारे में जानकारी
+  ranking:
+    name: ranking
+    short_doc: हमारी रैंकिंग में आपका सर्वर कितना ऊपर है?
+  react:
+    name: react
+    short_doc: एक सन्देश पर इमोजी के साथ प्रतिक्रिया दें
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          Which emoji to react with?
+      message:
+        name: सन्देश
+        description: |-
+          Which message to react to?
+    help: |
+      उस सन्देश पर प्रतिक्रिया देने के लिए Discord जवाब या सन्देश लिंक का उपयोग करें।
+      यह कमांड प्रतिक्रियाओं की सूची की अनुमति देती है, जिनमे से प्रत्येक को निर्दिष्ट क्रम में जोड़ा जाएगा।
+      **उन्हें रखने के लिए आपको जुड़ी हुई प्रतिक्रियाओं पर भी प्रतिक्रिया देनी होगी।**
+  server:
+    name: server
+    short_doc: Server Configuration
+  server-alias:
+    name: alias
+    short_doc: Server Aliases
+  server-alias-delete:
+    name: delete
+    short_doc: कोई ईमोट पसंद नही आयी? उन्हें बनायें ताकि उन्हें काम करना पड़े।
+    params:
+      alias:
+        name: alias
+        description: |-
+          Which alias do you want to remove?
+  server-alias-import:
+    name: import
+    short_doc: एक फाइल से सर्वर उपनामों की सूचीआयात करें।
+    params:
+      file:
+        name: file
+        description: |-
+          A file previously exported with /alias export
+  server-alias-list:
+    name: सूची
+    short_doc: उन सभी उपनामों को दिखाएं जिन्हें आपके सर्वर में कोई भी उपयोग कर सकता है
+    params:
+      page:
+        name: page
+        description: |-
+          Which page to start at?
+  server-alias-post:
+    name: post
+    short_doc: सर्वर उपनामों की एक सूची पोस्ट करें
+    params:
+      channel:
+        name: channel
+        description: |-
+          Which channel do you want to post the server-wide emoji list to?
+  server-alias-rename:
+    name: rename
+    short_doc: एक सर्वर उपनाम का नाम बदलें
+    params:
+      old_name:
+        name: old_name
+        description: |-
+          What's the name of the emoji you want to give a new name to?
+      new_name:
+        name: new_name
+        description: |-
+          What should it be renamed to?
+  server-alias-search:
+    name: search
+    short_doc: सर्वर सभी को ईमोट इस्तेमाल करने की अनुमति दें!
+  server-dashboard_posting:
+    name: dashboard_posting
+    short_doc: बॉट डैशबोर्ड के माध्यम से सन्देश भेजना सक्षम या अक्षम करें
+  server-audit_channel:
+    name: audit_channel
+    short_doc: बॉट रिपॉस्ट के संदेश पोस्ट करें
+    params:
+      channel:
+        name: channel
+        description: |-
+          Which channel should NQN post to? (None -> No channel)
+  server-language:
+    name: language
+    short_doc: बॉट की भाषा सेट करें %{locale_flag_emojis}
+  server-link:
+    name: link
+    short_doc: एक स्थिर ईमोट बनाएं, जिसका उपयोग करने पर बॉट इस इमोजी को एक एनिमेटेड संस्करण के रूप में पोस्ट करेगा!
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          Which emoji to create a static version of?
+  server-masked_links:
+    name: masked_links
+    short_doc: सर्वर में छिपी हुई लिंक सक्षम या अक्षम करें
+  server-nitro:
+    name: नाइट्रो
+    short_doc: 'इस सर्वर में नि: शुल्क नाइट्रो उपयोग को सक्षम या अक्षम करें'
+  server-pack:
+    name: pack
+    short_doc: Server Packs
+  server-pack-join:
+    name: join
+    short_doc: एक सर्वर-वाइड ईमोट पैक की सदस्यता लें
+    params:
+      pack:
+        name: pack
+        description: |-
+          Which pack do you want to allow everyone in this server to use?
+  server-pack-leave:
+    name: leave
+    short_doc: एक सर्वर-वाइड ईमोट पैक की सदस्यता समाप्त करें
+    params:
+      pack:
+        name: pack
+        description: |-
+          Which pack do you want to remove access to from everyone?
+  server-pack-list:
+    name: सूची
+    short_doc: इस सर्वर द्वारा उपयोग किए जा सकने वाले पैक को सूचीबद्ध करें
+  server-pack-post:
+    name: post
+    short_doc: सर्वर पैकों की एक सूची करें
+  server-pack-search:
+    name: search
+    short_doc: सर्वर में जोड़ने के लिए एक ईमोट पैक खोजें
+  server-permissions_debug:
+    name: permissions_debug
+    short_doc: NQN को बताने दे कि कौनसी अनुमति गायब है
+  server-personas:
+    name: पहचानें
+    short_doc: पहचानों का उपयोग सक्षम या अक्षम करें
+    help: |
+      उपयोगकर्ताओं को मनमाने नाम या अवतार पोस्ट करने की अनुमति दें
+  server-pings:
+    name: पिंग
+    short_doc: इस सर्वर में संदेशों में पिंग सक्षम या अक्षम करें
+    help: |
+      इस सर्वर में संदेशों में पिंग सक्षम या अक्षम करें जो की NQN इस सर्वर में रिपोस्ट करता है
+  server-phish_detection:
+    name: phish_detection
+    short_doc: इस सर्वर में फिशिंग सन्देश पहचान को सक्षम या अक्षम करें
+  server-prefix:
+    name: उपसर्ग
+    short_doc: NQN को दूसरे प्रीफिक्स को सुनने के लिए कमांड दे
+    help: |
+      NQN को दूसरे प्रीफिक्स को सुनने के लिए कमांड दे
+      उदाहरण आह्वान:
+      >>> %{prefix}server prefix <@%{bot_id}> ?
+    signature: |
+      @NQN#3454 [उपसर्ग=!]
+  server-message_link_previews:
+    name: message_link_previews
+    short_doc: Enable or disable message link previews in this server
+  server-settings:
+    name: सेटिंग
+    short_doc: इस सर्वर की सेटिंग देखें
+    help: |
+      NQN सर्वर सेटिंग देखें, फ़ीचरों, कॉन्फ़िगर हुए चैनल और पैक जानकारी सहित।
+  server-boost_channel:
+    name: boost_channel
+    short_doc: संदेश पोस्ट करें, जब भी कोई व्यक्ति top.gg पर सर्वर के साथ वोट करे
+  server-boost_role:
+    name: boost_role
+    short_doc: किसी उपयोगकर्ता को यह रोल दे जब वह इस सर्वर को NQN के द्वारा बूस्ट करे
+  server-nitro_role:
+    name: nitro_role
+    short_doc: उपयोगकर्ताओं को NQN का उपयोग करने के लिए एक रोल को जरूरी करता है
+    help: |
+      NQN नाइट्रो रेपोस्टिंग के लिए आवश्यक रोल को सेट करता है
+    params:
+      role:
+        name: रोल
+        description: |-
+          The role which people need to use NQN's emoji reposting
+  server-stickers:
+    name: स्टीकर
+    short_doc: इस गिल्ड में स्टिकर उपयोग को सक्षम या अक्षम करें
+  server-user_content:
+    name: user_content
+    short_doc: इस सर्वर के लिए उपयोगकर्ता उपनाम और पैक सक्षम या अक्षम करें
+  sticker:
+    name: sticker
+    short_doc: Manage your NQN stickers
+  sticker-create:
+    name: create
+    short_doc: Create a sticker
+    help: |
+      एक फाइल से स्टिकर बनाएं
+      एक इमेज अपलोड करें और इसे स्टिकर में बदलने के लिए इस कमांड का उपयोग करें।
+      स्टिकर का नाम फ़ाइलनाम या आपके द्वारा टाइप किए गए नाम से निर्धारित किया जाता है। उदाहरण के लिए: `sticker create BluePat.png`
+      NQN पर स्टिकर नाम अद्वितीय हैं, एक बार नाम लेने के बाद, आप इसे दोबारा नहीं ले सकते।
+      स्टिकर अधिकतम 8MB बड़े हो सकते हैं, और नाम केवल अक्षरांकीय हो सकते हैं।
+      स्टिकर को एक फ़ाइल एक्सटेंशन की आवश्यकता होती है, जोकि अक्षरांकीय होता है।
+  sticker-create-from_attachment:
+    name: from_attachment
+    short_doc: Create a sticker
+    params:
+      sticker:
+        name: sticker
+        description: |-
+          The image to turn into a sticker
+      name:
+        name: name
+        description: |-
+          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+  sticker-create-from_emote:
+    name: from_emote
+    short_doc: ईमोट से स्टीकर आयात करें
+    params:
+      emoji:
+        name: इमोजी
+        description: |-
+          …
+      name:
+        name: name
+        description: |-
+          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+  sticker-create-from_search:
+    name: from_search
+    short_doc: ईमोट से स्टीकर आयात करें
+  sticker-create-from_telegram:
+    name: from_telegram
+    short_doc: टेलीग्राम से स्टिकर आयात करें
+    params:
+      telegram_packname:
+        name: telegram_packname
+        description: |-
+          The URL to the Telegram sticker pack
+  sticker-delete:
+    name: delete
+    short_doc: अपना एक स्टीकर हटाएँ
+    params:
+      name:
+        name: name
+        description: |-
+          Which sticker to delete
+  sticker-import:
+    name: import
+    short_doc: ईमोट से स्टीकर आयात करें
+    help: |
+      ईमोट से स्टीकर आयात करें
+      या तो सीधे एक एमोट से, एक वैकल्पिक उपनाम के साथ
+      - sticker import :blue_smirk: smirk.png
+      या फिर NQN में उपलब्ध ईमोट से खोजकर
+      - sticker import blue pat
+      ध्यान दें, ईमोट विकल्प के माध्यम से खोज करना उपनामों का समर्थन नही करता
+  sticker-mine:
+    name: mine
+    short_doc: मेरे स्टिकर खोजें
+  sticker-rename:
+    name: rename
+    short_doc: अपने स्टीकर का नाम बदलें
+    params:
+      old_name:
+        name: old_name
+        description: |-
+          Which sticker to rename
+      new_name:
+        name: new_name
+        description: |-
+          What to rename it to?
+  sticker-search:
+    name: search
+    short_doc: NQN पर उपलब्ध सभी स्टीकर खोजें, एक वैकल्पिक सवाल के साथ
+    params:
+      search:
+        name: search
+        description: |-
+          Which to search for?
+  sticker-telegram:
+    name: telegram
+    short_doc: टेलीग्राम से स्टिकर आयात करें
+  support:
+    name: सहायता
+    short_doc: मुझे उपयोग करने के बारे में कुछ मदद चाहिए?
+  tutorial:
+    name: टुटोरिअल
+    short_doc: NQN के साथ इमोजी का उपयोग करना सीखें
+    params:
+      about:
+        name: about
+        description: |-
+          What to learn about?
+  whois:
+    name: whois
+    short_doc: पता लगाएं कि किसने सन्देश पोस्ट किया
+  _search:
+    params:
+      search:
+        name: search
+        description: |-
+          What are you searching for?
+      exact:
+        name: exact
+        description: |-
+          Show only emojis with exactly this name
+      animated:
+        name: animated
+        description: |-
+          Show only animated or static emojis?
+      page:
+        name: page
+        description: |-
+          Start from a page other than 1
+      order:
+        name: order
+        description: |-
+          Order results by?
+        choices:
+          random: random
+          relevance: relevance
