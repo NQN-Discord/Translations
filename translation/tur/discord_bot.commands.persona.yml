@@ -23,53 +23,53 @@ discord_bot:
           > `%{prefix}persona import %{url}`
       import_:
         import_incorrect: |
-          This command is used to import a persona list previously exported with `%{prefix}persona export`, or equivalent export commands from PluralKit and Tupperbox.
-          To create a persona, use `%{prefix}persona register`
-        import_text: This command needs a json file attachment
+          Bu komut, daha önce `%{prefix}persona export` ile dışa aktarılan bir kişi listesini veya PluralKit ve Tupperbox'tan eşdeğer dışa aktarma komutlarını içe aktarmak için kullanılır.
+          Bir persona oluşturmak için `%{prefix}persona register` kullanın
+        import_text: Bu komutun bir json dosyası ekine ihtiyacı var
         set_personas:
           one: Bir persona içe aktarıldı
           many: '%{count} persona içe aktarıldı'
-        invalid_persona: Do you wish to continue importing the rest of the file, ignoring this entry?
+        invalid_persona: Bu girişi yok sayarak dosyanın geri kalanını içe aktarmaya devam etmek istiyor musunuz?
       list:
         no_personas: |
-          You don't have any personas!
+          Hiç bir personan yok!
       register:
         display_name: Kullanıcı adı
         avatar_url: Avatar URL'si
         create: Persona Oluştur
         persona_exists: |
-          You already have a persona called %{short_name}.
-          You can rename it with `%{prefix}persona rename %{short_name} new_name`
+          Zaten %{short_name} adında bir personan var.
+          `%{prefix}persona rename %{short_name} new_name` ile yeniden adlandırabilirsiniz
         registered_persona: |
-          Registered %{short_name} as your persona!
-          To send messages as them, send a message starting with `%{short_name}:`, for example:
-          > ```%{short_name}: Hello!```
-          To change their username in messages to 'NQN', run:
+          Persona %{short_name} olarak kaydedildi!
+          Mesajları onlar gibi göndermek için `%{short_name}:` ile başlayan bir mesaj gönderin, örneğin:
+          > ```%{short_name}: Merhaba!```
+          Kullanıcı adlarını mesajlarda 'NQN' olarak değiştirmek için şunu kullanın:
           > ```%{prefix}persona display_name %{short_name} NQN```
-          To change their avatar in messages, run:
+          Avatarlarını mesajlarda değiştirmek için şunu çalıştırın:
           > ```%{prefix}persona avatar_url %{short_name} https://...```
       rename:
         renamed_persona: |
-          Renamed %{old_name} to %{new_name}.
+          %{old_name}, %{new_name} olarak yeniden adlandırıldı.
       avatar_url:
         persona_avatar_url: |
-          Set %{short_name}'s avatar.
+          %{short_name}'nin avatarını ayarla.
         avatar_regex: |
-          Avatars must be given as URLs to the image you want to use.
+          Avatarlar kullanmak istediğiniz görsele URL olarak verilmelidir.
       delete:
         persona_deleted: |
-          Deleted information about %{short_name}.
+          %{short_name} ile ilgili bilgiler silindi.
       display_name:
         renamed_persona_display_name: |
-          Set %{short_name}'s username to %{display_name}.
+          %{short_name} kullanıcı adını %{display_name} olarak ayarlandı.
       dm:
         send_dms:
           zero: |
-            You have no personas!
-            Get some with `%{prefix}persona register`
+            Hic bir personan yok!
+            `%{prefix}persona register` ile biraz alın
           one: |
-            This will send you a direct message; do you wish to continue?
+            Bu size doğrudan mesaj gönderecek; devam etmek istiyor musun?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            Bu size %{count} doğrudan mesaj gönderecek; devam etmek istiyor musun?
         blocked: |
-          You've blocked me, I can't message you!
+          Beni engelledin, sana mesaj atamıyorum!
