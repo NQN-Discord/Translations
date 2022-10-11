@@ -1,17 +1,17 @@
 ---
 discord_bot:
   rendered_message:
-    oops: Oops!
+    oops: 哎呀！
     external_emojis: |
-      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Server Settings**.
+      如果您想使用來自其他伺服器的表情符號，NQN 需要在**伺服器設定**中獲得「使用外部表情符號」的權限。
     override_external_emojis: |
-      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
-    download: Download
+      如果您想使用來自其他伺服器的表情符號，NQN 需要在**頻道設定**中獲得「使用外部表情符號」的權限。
+    download: 下載
     no_personas: |
-      Personas are not allowed in this server
+      角色功能已被關閉
     no_messageless_posting: |
-      A server administrator has disabled posting through the web dashboard and slash commands
+      此伺服器管理者已禁止成員在 Dashboard 或使用 Slash 指令發佈訊息
     no_slowmode_posting: |
-      Posting messages in channels with a slowmode is not allowed
-    enable_posting: Enable Posting
-    posted_message: Posted message
+      您不可以在已啟用慢速模式的頻道中發佈訊息
+    enable_posting: 允許發佈訊息
+    posted_message: 已發佈訊息
