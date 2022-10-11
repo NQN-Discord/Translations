@@ -2,52 +2,53 @@
 discord_bot:
   commands:
     alias:
-      no_alias: "沒有任何表情符號別號是 \\:%{name}:"
-      could_not_find: 未能找到表情符號別號
-      alphanumeric: 表情符號別號只可以包含英文字母、數字和下劃線
-      max_length: 表情符號別號的長度最多為 32 個字符
-      user_zero: 你並沒有表情符號別號
-      set_alias: 設定表情符號別號
+      no_alias: "You don't have an alias called \\:%{name}:"
+      could_not_find: Could not find alias
+      alphanumeric: Aliases can only contain alphanumerics and underscores
+      max_length: Alias names can be at most 32 characters long
+      user_zero: You have no aliases
+      set_alias: Set alias
       from_message:
-        no_emotes: 此訊息沒有包含任何自訂的表情符號！
+        no_emotes: This message doesn't have any custom emojis in it!
       delete:
-        deleted: '已刪除 \:%{name}:'
+        deleted: 'Deleted \:%{name}:'
       delete_all:
         confirm: |
-          您將會刪除您所有 **%{count}** 個表情符號別號，您確定嗎？
+          This will delete all **%{count}** of your aliases.
+          Are you sure you wish to continue?
         deleted:
-          one: 已刪除一個表情符號別號
-          many: 已刪除%{count}個表情符號別號
+          one: Deleted 1 alias
+          many: Deleted %{count} aliases
       created:
-        one: '您成功新增一個表情符號別號！請輸入以下使用別號：'
-        many: '您成功新增%{count}個表情符號別號！請輸入以下使用別號：'
+        one: 'You created an alias and can use it by typing:'
+        many: 'You created %{count} aliases and can use them by typing:'
       rename:
-        rename: 重新命名表情符號別號
-        alias_name: '表情符號別號：'
-        renamed: '已重新命名\:%{old}: 至 :%{new}:'
+        rename: Rename Alias
+        alias_name: 'Alias Name:'
+        renamed: 'Renamed \:%{old}: to :%{new}:'
       export:
-        exported_short: "以下是您的所有表情符號別號："
+        exported_short: "Here's your exported aliases:"
         exported_long: |
-          以下是您的所有表情符號別號：
-          您可以與其他人共享它們，他們需要使用以下指令：
+          Here's your exported aliases:
+          To share them with other people, they need to run:
           > `%{prefix}alias import %{url}`
       import_:
         import_incorrect: |
-          此指令是用來導入一系列以前使用 `%{prefix}alias export` 導出的表情符號別號。
-          您可以使用 `%{prefix}alias search` 指令從而新增表情符號別號
-        import_text: 此指令需要文本附件
-        import_lines_invalid: 無法設置在第 %{lines_invalid} 行上的表情符號別號，格式無效。
+          This command is used to import an alias list previously exported with `%{prefix}alias export`.
+          To create an alias, use `%{prefix}alias search`
+        import_text: This command needs a text file attachment
+        import_lines_invalid: Could not set aliases on lines %{lines_invalid}, invalid format.
         import_set:
-          one: 已設置%{count}個表情符號別號。
-          many: 已設置%{count}個表情符號別號。
+          one: Set %{count} alias.
+          many: Set %{count} aliases.
       dm:
         send_dms:
           zero: |
-            您沒有任何表情符號別號！
-            使用 `%{prefix}alias search` 尋找和設置表情符號別號
+            You have no aliases!
+            Get some with `%{prefix}alias search`
           one: |
-            這將向您發送私人訊息，您想繼續嗎？
+            This will send you a direct message; do you wish to continue?
           many: |
-            這將向您發送%{count}條私人訊息，您想繼續嗎？
+            This will send you %{count} direct messages; do you wish to continue?
         blocked: |-
-          您封鎖了我，我不能夠發送私人訊息給你！
+          You've blocked me, I can't message you!
