@@ -1,78 +1,77 @@
 ---
 global:
-  deleted_channel: '#已刪除的頻道'
-  author: 作者
-  jump_to_message: 跳到
-  go_to_message: 跳到訊息！
-  reply_to: '回覆至：'
-  cancelled: 已取消
-  website: 網站
-  details: 詳細
-  fix_permissions: 修理權限
-  success: 成功
+  deleted_channel: '#DeletedChannel'
+  author: Author
+  jump_to_message: Jump
+  go_to_message: Go to message!
+  reply_to: 'Reply to:'
+  cancelled: Cancelled
+  website: Website
+  details: Details
+  fix_permissions: Fix Permissions
+  success: Success
   yes: Yes
   no: No
-  dm_me: 發送私人訊息給我
-  next: 下一個
-  previous: 上一個
-  choose_emote: 選擇一些表情符號
+  dm_me: DM Me
+  next: Next
+  previous: Previous
+  choose_emote: Choose some emotes
   learn:
-    aliases: 了解有關表情符號別號的更多資訊
-    packs: 了解有關表情符號包的更多資訊
-    my_emotes: 搜索您可以使用的表情符號
-    personas: 了解有關角色的更多資訊
-  missing_permissions: 缺少權限
-  missing_add_reaction: 我需要「新增反應」權限以運行此指令！
-  missing_create_invite: 我需要「建立邀請」權限以運行此指令！
-  tabulated_delete_manage_messages: 未能刪除 menu，請給我「管理訊息」的權限
-  no_nitro_global: 此伺服器已禁用免費 Nitro 使用！
-  no_nitro_role: 只有有 %{role} 身分組的成員可以使用此指令！
-  user_missing_administrator: 您缺少了「管理者」權限，以致未能運作此指令：
-  user_missing_add_reaction: 您缺少了「新增反應」權限，以致未能運作此指令：
+    aliases: Learn more about aliases
+    packs: Learn more about packs
+    my_emotes: Find emojis I can use
+    personas: Learn more about personas
+  missing_permissions: Missing Permissions
+  missing_add_reaction: I need the 'Add Reactions' permission for this command!
+  missing_create_invite: I need the 'Create Instant Invite' permission for this command!
+  tabulated_delete_manage_messages: Could not delete menu - please give me Manage Messages
+  no_nitro_global: Nitro usage has been disabled in this server!
+  no_nitro_role: Only users with the <@&%{role}> role can use this command!
+  user_missing_administrator: You are missing the 'Administrator' permission to run this command.
+  user_missing_add_reaction: You are missing the 'Add Reactions' permission to run this command.
   tabulated_default_results:
-    one: "%{count} 項結果 (第 %{page_no} / %{total} 頁)：\n%{contents}"
-    many: "%{count} 項結果 (第 %{page_no} / %{total} 頁)：\n%{contents}"
+    one: "%{count} result (Page %{page_no} of %{total}):\n%{contents}"
+    many: "%{count} results (Page %{page_no} of %{total}):\n%{contents}"
   tabulated_results_page:
-    zero: 找不到表情符號
-    one: 第 %{page_no} / %{total} 頁 %{note}
-    many: 第 %{page_no} / %{total} 頁 %{note}
-  page_no: '第 %{page} / %{total} 頁'
-  no_results: 找不到符合搜尋字詞的結果
-  loading: <a:loading:674758249291186191> 處理中
-  timed_out: 時間到 - 請再重試
-  global_check_failed: 您不能夠使用 %{cmd_name} 指令
+    zero: No emotes found
+    one: Page %{page_no} of %{total}%{note}
+    many: Page %{page_no} of %{total}%{note}
+  page_no: 'Page %{page} of %{total}:'
+  no_results: No results
+  loading: <a:loading:674758249291186191> Processing...
+  timed_out: Timed out - try again
+  global_check_failed: You are not allowed to use %{cmd_name}
   requires_user_content: |
-    用戶內容已在此伺服器被禁止
+    User content is not allowed in this server.
   requires_user_content_admin: |
-    用戶內容已在此伺服器被禁止。您可以使用以下指令以重新啟用
+    User content is not allowed in this server. You can allow it with
     > ```%{prefix}server user_content on```
   error_message: |
-    運行指令時發生錯誤，以致任務沒法正確完成。
-    如需協助或報告問題，請加入此機器人的測試伺服器：
+    An error occurred whilst processing your command. It may not have completed correctly.
+    For help, and to report this as an issue, please join the testing server for this bot:
     https://discord.gg/mv8RbHD
 
-    錯誤代碼：`%{event_id}`
+    Error code: `%{event_id}`
   user_abused: |
-    由於您先前的濫用行為，機器人擁有者或管理者已禁止您使用本機器人。
-    您不能使用任何指令或以其他方式使用機器人的任何功能。
+    The bot owner or global moderators have blocked you from using this bot due to previous abuse.
+    You cannot use any commands or otherwise make use of the bot's functionality.
   user_spammed: |
-    由於您觸發我們的自動垃圾訊息檢測系統，您已被暫時禁止使用 NQN。
-    不要緊，您每天只能被封鎖最多一次。
-    請注意，您並且無法對此封鎖提出上訴。
+    You have been temporarily blocked from using NQN for triggering our automated spam detection system.
+    This message will only be sent at most once a day, and there is no way to appeal this block.
 
-    從現在起，您將在 **5 分鐘** 內被解除封鎖。
+    You will be unblocked in under **5 minutes** from now.
   support_server: |
-    你可以在這裡加入我的測試服務器：
+    You can join my support server here:
     http://discord.gg/XvzDPca
-    您可以報告錯誤、請求新功能或澄清如何使用我。
+    You can report bugs, request new features or ask for clarifications on how to use me.
   premium_required: |
-    為此，您需要成為 NQN 的 Patreon 的訂閱者：https://www.patreon.com/NQN
+    To do this, you need to be a subscriber to NQN's Patreon: https://www.patreon.com/NQN
   invite_bad_perms:
     title: |
-      您好，感謝您邀請 NQN 加入 %{guild_name}！
+      Hi, thanks for inviting NQN to %{guild_name}!
     content: |
-      經過審查後，我們發現機器人並不完全擁有正常運行所需的所有權限。
-      為了解決這個問題，以致您可以正確使用機器人，請使用以下鏈結以為機器人提供所有相關權限：
+      We've looked around and found that we don't quite have all the permissions we need to function properly though.
+      To fix this so you can properly use the bot, a link's been generated which will give all the relevent permissions to the bot:
 
-      **[修復權限](%{invite_url})**
-  webhook_limit: 已達到 Webhook 用量限制！無法在此頻道再使用 Webhook！
+      **[Fix Permissions](%{invite_url})**
+  webhook_limit: Webhook limit reached! Cannot run in this channel!
