@@ -3,67 +3,67 @@ discord_bot:
   parameter_types:
     #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
     SearchTerms:
-      name: 搜索字句
+      name: Search terms
       description: |-
-        搜索字句
+        Search terms
     Message:
-      name: 訊息
+      name: Message
       description: |-
-        您想回覆的訊息：
-        - 訊息鏈結 (`https://discord.com/channels/123456789/123456789/123456789`)
-        - 在此頻道裡的訊息的 ID (`123456789`)
-        - 頻道和訊息 ID (`123456789-123456789`)
-        - 當前頻道中由尾數上去第幾條訊息（第 `5` 條訊息）
+        A Discord reply to the message you want to target
+        - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
+        - A message id in the current channel (`123456789`)
+        - ChannelID-MessageID pair (`123456789-123456789`)
+        - How many messages ago it was in current channel (`5` messages ago)
     PartialEmoji:
-      name: 表情符號
+      name: Emoji
       description: |-
-        Discord 裡的表情符號或者其鏈結
+        A rendered Discord emoji or an emoji URL
     TextChannel:
-      name: 文字頻道
+      name: Text Channel
       description: |
-        提及文字頻道
+        A text channel mention
     User:
-      name: 用戶
+      name: User
       description: |
-        提及用戶
+        A user mention
     Role:
-      name: 身分組
+      name: Role
       description: |
-        提及身分組或其名稱
+        A role mention or name
     NQNEmoji:
-      name: NQN 表情符號
+      name: NQNEmoji
       description: |
-        NQN 能夠轉換的未被渲染的表情符號
-        - Discord 裡的表情符號或者其鏈結
+        An unrendered emoji NQN can transform
+        - A rendered Discord emoji or an emoji URL
     BlockedEmoji:
-      name: 被禁止的表情符號
+      name: BlockedEmoji
       description: |-
-        在此伺服器被禁止使用的表情符號的名稱
+        The name of an emoji that's blocked in this server
     CurrentGuildEmoji:
-      name: 伺服器表情符號
+      name: ServerEmoji
       description: |
-        當前伺服器的其中一個表情符號
+        An emoji in the current server
     None:
-      name: 空白
+      name: Empty
       description: |
-        沒有參數
+        No argument
     str:
-      name: 字符串
+      name: String
       description: |
-        一些文字
+        Some text
     int:
-      name: 整數
+      name: Integer
       description: |
-        一個整數
+        A number
     bool:
-      name: 布爾值
+      name: Boolean
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
-      name: 列表
+      name: List
       description: |-
-        最少
+        At least
     Union:
       name: Union
       description: |-
-        以下其中一個：
+        One of the following:
