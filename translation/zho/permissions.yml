@@ -1,76 +1,76 @@
 ---
 permissions:
   add_reactions: |-
-    新增反應
+    Add Reactions
   administrator: |-
-    管理者
+    Administrator
   attach_files: |-
-    附加檔案
+    Attach Files
   ban_members: |-
-    對成員停權
+    Ban Members
   change_nickname: |-
-    更改暱稱
+    Change Nickname
   connect: |-
-    連接
+    Connect
   create_instant_invite: |-
-    建立邀請
+    Create Instant Invite
   deafen_members: |-
-    讓成員拒聽
+    Deafen Members
   embed_links: |-
-    嵌入鏈結
+    Embed Links
   external_emojis: |-
-    外部表情符號
+    External Emojis
   kick_members: |-
-    踢出成員
+    Kick Members
   manage_channels: |-
-    管理頻道
+    Manage Channels
   manage_emojis: |-
-    管理表情符號
+    Manage Emojis
   manage_guild: |-
-    管理伺服器
+    Manage Server
   manage_messages: |-
-    管理訊息
+    Manage Messages
   manage_nicknames: |-
-    管理暱稱
+    Manage Nicknames
   manage_permissions: |-
-    管理身分組
+    Manage Roles
   manage_roles: |-
-    管理身分組
+    Manage Roles
   manage_threads: |-
-    管理討論串
+    Manage Threads
   manage_posts: |-
-    管理貼文
+    Manage Posts
   manage_webhooks: |-
-    管理 Webhooks
+    Manage Webhooks
   mention_everyone: |-
-    提及 @everyone
+    Mention Everyone
   move_members: |-
-    移動成員
+    Move Members
   mute_members: |-
-    將成員靜音
+    Mute Members
   priority_speaker: |-
-    優先發言者
+    Priority Speaker
   read_message_history: |-
-    讀取訊息歷史
+    Read Message History
   read_messages: |-
-    檢視訊息
+    Read Messages
   send_messages: |-
-    傳送訊息
+    Send Messages
   send_tts_messages: |-
-    傳送文字朗讀訊息
+    Send TTS Messages
   speak: |-
-    說話
+    Speak
   stream: |-
-    視訊通話
+    Stream
   use_external_emojis: |-
-    使用外部表情符號
+    Use External Emojis
   use_public_threads: |-
-    使用公開討論串
+    Use Public Threads
   use_voice_activation: |-
-    使用語音激活
+    Use Voice Activation
   view_audit_log: |-
-    檢視審核紀錄
+    View Audit Log
   view_channel: |-
-    檢視頻道
+    View Channel
   view_guild_insights: |-
-    檢視伺服器數據（Server Insights）
+    View Server Insights
