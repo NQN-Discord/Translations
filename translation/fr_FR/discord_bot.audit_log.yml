@@ -1,0 +1,21 @@
+---
+discord_bot:
+  audit_log:
+    cropped: (Rogné)
+    nsfw_censored: <Censuré; %{channel} est NSFW>
+    message_posted: |
+      Message posté dans %{channel} par %{author} %{cropped}
+      [Aller au lien](%{jump_url})
+    message_posted_persona: |
+      Message posté dans %{channel} par %{author} %{cropped}
+      ⚠️ Utilisation de Personnage ⚠️
+      > **%{persona}**
+      [Aller au lien](%{jump_url})
+    message_edited: |
+      Message edited in %{channel} by %{author} %{cropped}
+      [Aller au lien](%{jump_url})
+    phish_deleted: |
+      Message de phishing supprimé dans %{channel} par %{author}
+    blocked_message: |
+      Deleted message with blocked emotes in %{channel} by %{author}
+    audit_log_post: NQN au nom de %{author} (%{id})
