@@ -1,0 +1,46 @@
+---
+discord_bot:
+  commands:
+    sticker:
+      create:
+        attachment_needed: Du musst diesen Sticker mit diesem Befehl hochladen
+        image_needed: Die Datei muss ein Bild sein
+        sticker_exists: Ein Sticker mit dem Namen %{name} existiert bereits!
+        filename_invalid: '`%{name}` ist kein für Sticker zugelassener Name. Stickernamen müssen alphanumerisch sein, die Dateiendung muss ebenso alphanumerisch sein.'
+        too_large: Diese Datei ist zu groß. Sticker können nur 8MB groß sein
+        created: "Du  kannst nun `:%{name}:` nutzen\nNicht ganz richtig?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
+      mine:
+        no_stickers: Du hast keine Sticker
+      delete:
+        no_sticker: "- :%{name}: - Existiert nicht oder ist nicht deins"
+        sticker_deleted: '+ :%{name}:'
+        question:
+          zero: Keine Sticker zum Löschen!
+          one: Möchtest du diesen Sticker löschen?
+          many: Möchtest du alle %{count} Sticker löschen?
+        deleted_all:
+          one: '%{count} Sticker gelöscht'
+          many: '%{count} Sticker gelöscht'
+      rename:
+        filename_invalid: '`%{name}` ist kein für Sticker zugelassener Name. Stickernamen müssen alphanumerisch sein, die Dateiendung muss ebenso alphanumerisch sein.'
+        no_sticker: Dieser Sticker existiert nicht
+        permission_denied: Du kannst nicht den Sticker einer anderen Person umbenennen!
+        destination_taken: Der gewünschte Name ist bereits vergeben!
+        renamed: '\:%{old}: zu :%{new}: umbenannt'
+      search:
+        no_stickers: Keine Sticker gefunden
+      sticker_import:
+        filename_invalid: '`%{name}` ist kein für Sticker zugelassener Name. Stickernamen müssen alphanumerisch sein, die Dateiendung muss ebenso alphanumerisch sein.'
+        find_emote: Finde ein Emote, welches zu einem Sticker umgewandelt werden soll!
+        created: Du kannst jetzt `:%{name}:` nutzen
+        sticker_exists: Ein Sticker mit dem Namen `:%{name}:` existiert bereits, du kannst ihn nicht überschreiben.
+        duplicate_exists: Ein Sticker mit dem gleichen Bild existiert bereits unter dem Namen %{name}!
+      telegram_import:
+        pack_invalid: '`%{name}` ist kein gültiger Name eines Telegram-Sticker-Packs.'
+        telegram_unloaded: Telegram-Paket konnte nicht geladen werden - bitte teile das einem der Entwickler des Bots mit.
+        already_created: Bereits von jemand anderem erstellt; kann nicht überschrieben werden
+        finished_importing:
+          one: Importieren eines Stickers fertiggestellt
+          many: Importieren von %{count} Stickern fertiggestellt
+        search_future: "Um zukünftig nach diesen Stickern zu suchen, nutze:\n> `%{prefix}sticker search %{name}.`"
+        view: Sticker ansehen
