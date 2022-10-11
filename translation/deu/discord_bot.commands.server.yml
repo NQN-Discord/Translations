@@ -1,0 +1,142 @@
+---
+discord_bot:
+  commands:
+    server:
+      alias:
+        set_emote_title: 'Gib den Namen \:%{name}: als %{emote} für diesen Server an.'
+        set_emote_description:
+          zero: |
+            Dieser Server hat keine Emotes mehr übirg!
+            Für mehr Aliase kann jeder für den Bot unter %{url} abstimmen
+
+            Jeder kann dieses Emote nutzen, indem eingegeben wird:
+          one: |
+            Dieser Server hat ein Emote übrig, ehe er sein Maximum erreicht.
+            Für mehr Aliase kann jeder für den Bot unter %{url} abstimmen
+
+            Jeder kann dieses Emote nutzen, indem eingegeben wird:
+          many: |
+            Dieser Server hat %{count} Emotes übrig, ehe er sein Maximum erreicht.
+            Für mehr Aliase kann jeder für den Bot unter %{url} abstimmen
+
+            Jeder kann dieses Emote nutzen, indem eingegeben wird:
+        failed_aliases:
+          one: |
+            Ein Alias, welches nicht gerendert werden kann
+          many: |
+            %{failed_aliases} Aliase, die nicht gerendert werden können
+        max_title: Dieser Server hat bereits sein Maximum an Emotes/Packs erreicht!
+        max_description: |
+          :%{name}: wurde nicht als Server-Emote hinzugefügt.
+
+          Für mehr Aliase kann jeder für den Bot unter %{url} abstimmen
+        no_alias: Dieser Server hat kein Alias unter dem Namen %{name}
+        renamed: '%{emote} umbenannt von \:%{name}: zu :%{new}:'
+        no_aliases: Dieser Server hat keine globalen Aliase
+      nitro_role:
+        unset: Jeder in diesem Server kann kostenlose Nitro-Emotes mit NQN nutzen
+        set: Jetzt können nur Nutzer mit der %{role} -Rolle kostenlose Nitro-Emotes mit NQN nutzen
+      audit_channel:
+        unset: Deaktiviere den Audit-Kanal für diesen Server
+        set: Setze den Audit-Kanal für diesen Server auf %{channel}
+        no_webhooks: "Ich kann keine Webhook-Nachrichten in %{channel} posten.\nBitte gib mir 'Manage Webhooks' dort!"
+      boost_channel:
+        unset: Deaktiviere den Boost-Kanal für diesen Server
+        set: Setze den Boost-Kanal auf für diesen Server auf %{channel}
+      boost_role:
+        unset: Deaktiviere die Boost-Rolle für diesen Server
+        set: Setze die Boost-Rolle für diesen Server auf %{role}
+      boolean_options:
+        stickers_on: Aktiviere Sticker
+        stickers_off: Deaktiviere Sticker
+        nitro_on: Aktiviere kostenlose Nitro-Nutzung in diesem Server!
+        nitro_off: Deaktiviere kostenlose Nitro-Nutzung in diesem Server
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
+        masked_links_on: Aktiviere Nutzung verborgener URLs
+        masked_links_off: Deaktiviere Nutzung verborgener URLs
+        pings_on: Aktiviere Pings in reposteten Nachrichten
+        pings_off: Deaktiviere Pings in reposteten Nachrichten
+        user_content_on: |
+          Aktivierte Nutzung individueller Nutzeraliase und Packs
+          Sticker-Einstellungen wurden nicht verändert.
+        user_content_off: |
+          Deakitivierte Nutzung individueller Nutzeraliase und Packs.
+          Nur Aliase und Pax, die mit `%{prefix}server alias search` und `%{prefix}server pack search` hinzugefügt wurden, werden nutzbar sein sowie Emojis von diesem Server.
+          Sticker wurden auch automatisch deaktiviert.
+        personas_on: |
+          Aktivierte Nutzung von Identitäten.
+          Dies erlaubt jedem die Einrichtung eines anpassbaren Nutzernamens und Avatars, sei auf der Hut vor Imitation und Betrug.
+
+          NQN- Mitarbeitende empfehlen die Nutzung eines Audit-Kanals, wenn dieses Feature genutzt wird; falls du das noch nicht tust, kannst du es aktivieren mit
+          > ```!server set_audit_channel #channel``` #channel``` #channel```
+        personas_off: Deaktivierte Nutzung von Identitäten
+        dashboard_posting_on: Aktiviertes posten von Nachrichten von dem Bot-Dashboard
+        dashboard_posting_off: Deaktiviertes Posten von Nachrichten von dem Bot-Dashboard
+        phish_detection_on: Enabled phishing message detection in this server
+        phish_detection_off: Disabled phishing message detection in this server
+      link:
+        no_animated_emotes: |
+          Dieser Server hat keine animierten Emotes!
+          Du kannst nur animierte Emotes mit diesem Befehl verlinken.
+        too_many_static: Dieser Server hat zu viele statische Emotes! Versuche erst, ein paar zu löschen.
+        animated_only: Dieser Befehl funktioniert nur mit animierten Emotes - Er macht sie im Emote-Picker für nicht-Nitro-Nutzer als statische Emotes verfügbar!
+        emote_not_found: Konnte dieses Emote nicht finden! Versuche es mit `%{prefix}alias search` zu aliasen
+        upload_later: Konnte das Emote nicht hochladen, versuch es erneut in ein paar Stunden
+        choose_emote: 'Wähle ein Emote aus, für das ein statischer Link erstellt werden soll:'
+        create_static: Statisches Emote erstellen?
+        create_static_emote: Statisches Emote für %{emote} erstellen?
+        uploaded: Hochgeladen %{uploaded}!
+        uploaded_emote: "Hochgeladen %{uploaded}!\nNutze es, um %{emote} zu bekommen"
+      pack:
+        max_title: Dieser Server ist schon bei dem Maximum der Emotes/Packs angekommen!
+        max_description: |
+          %{name} wurde nicht als Server-Pack hinzugefügt.
+
+          Für more Aliase/Packs kann jeder für den Bot unter %{url} abstimmen
+        left_pack: "'%{guild_name}' verließ %{name}"
+        not_in_pack: Der Server hatte von vorneherein nicht %{name} als eine Server-Pack
+        invalid_group: <Invalid pack - Please Report>
+        join_server: (Join server)
+        no_longer_registered: '%{name} ist nicht mehr ein registriertes Emote-Pack'
+        already_joined: '%{guild_name} ist bereits %{name} beigetreten'
+        joined_long: |
+          '%{guild_name}' trat %{name} bei.
+          Jeder in diesem Server kann nun die folgenden Emotes nutzen, indem er den Namen inklusive der Doppelpunkte in den Chat eingibt:
+        no_packs: "'%{guild_name} ist global noch keinen Packs beigetreten!"
+      prefix:
+        instructions: "Um meinen neuen Präfix zu setzen, erwähne mich vor dem gewünschten Präfix, sodass unabsichtliche Änderungen zu vermeiden.\n> %{prefix}server prefix %{me} %{new}"
+        no_colon_prefix: NQN unterstützt keine Präfixe, die mit einem Doppelpunkt (:) starten
+        no_slash_prefix: NQN unterstützt keine Präfixe, die mit einem Slash (/) starten
+        set_prefix: Setze meinen Präfix auf `%{prefix}`
+      language:
+        choose: 'Wähle meine neue Sprache:'
+        set: Setze meine Sprache für diesen Server auf Deutsch
+        this_locale_name: English
+      config:
+        enabled: Aktiviert
+        disabled: Deaktiviert
+        prefix: Präfix
+        announcement: Ankündigungskanal
+        boost_channel: Boost-Kanal
+        boost_role: Boost- Rolle
+        audit_channel: Audit-Kanal
+        nitro_role: Nitro-Rolle
+        stickers: Sticker
+        nitro: Nitro
+        replies: Message Link Previews
+        masked_links: Verborgene URLs
+        pings: Pings
+        user_content: Nutzerinalt
+        personas: Identitäten
+        dashboard_posting: Dashboard Posting
+        phish_detection: Phish Detection
+        invite: Einladungslink
+        pack: Pack-Name
+        public: Öffentlich
+        member_count: Mitglieder
+        configure_features: Aktiviere Features
+        settings: Einstellungen
+        channels: Kanäle
+        features: Features
+        pack_info: Pack Info
