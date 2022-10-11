@@ -1,21 +1,21 @@
 ---
 discord_bot:
   audit_log:
-    cropped: (裁剪过的)
-    nsfw_censored: <经过审查; %{channel} 是限制级频道>
+    cropped: (經過裁剪)
+    nsfw_censored: <審查; %{channel} 是限制級頻道>
     message_posted: |
-      %{author} 在%{channel} 里发送消息%{cropped}
+      %{author} 在 %{channel} 發布訊息 %{cropped}
       [查看](%{jump_url})
     message_posted_persona: |
-      %{author} 在%{channel} 里发送消息%{cropped}
-      ⚠️ 使用人物 ⚠️
+      %{author} 在 %{channel} 發布訊息 %{cropped}
+      ⚠️ 使用角色 ⚠️
       > **%{persona}**
       [查看](%{jump_url})
     message_edited: |
-      %{author} 在%{channel} 里编辑消息%{cropped}
+      %{author} 在 %{channel} 編輯訊息 %{cropped}
       [查看](%{jump_url})
     phish_deleted: |
-      删除了%{author} 在%{channel} 发送的可疑消息
+      已刪除 %{author} 在 %{channel} 發布的可疑訊息
     blocked_message: |
-      删除了%{author} 在%{channel} 发送的含有禁用表情的消息
+      已刪除 %{author} 在 %{channel} 發布含有禁用表情符號的訊息
     audit_log_post: NQN 代表 %{author} (%{id})
