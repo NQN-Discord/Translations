@@ -272,7 +272,7 @@ command_docs:
     help: |
       Changes the channel description, allowing for animated emojis in them as well
   mod-kick:
-    name: kick
+    name: at
     short_doc: Kick the user that posted a message
   mod-move:
     name: taşımak
@@ -287,7 +287,7 @@ command_docs:
         description: |-
           Kaç mesaj taşınacak?
   mod-purge:
-    name: purge
+    name: temizle
     short_doc: Purge some messages reposted by the bot in this channel
   mutuals:
     name: mutuals
@@ -303,8 +303,8 @@ command_docs:
         choices:
           current_server: Current Server
           mutual_servers: Mutual Servers
-          aliases: Aliases
-          packs: Packs
+          aliases: Takma adlar
+          packs: Paketler
   owner:
     name: sahip
     short_doc: Forbidden knowledge lurks within
@@ -390,23 +390,23 @@ command_docs:
         description: |-
           What do you want to call your pack?
   pack-save:
-    name: save
+    name: kaydet
     short_doc: Upload all of the emotes from a pack to this server
     params:
       name:
-        name: name
+        name: isim
         description: |-
           Which pack are you downloading emojis to this server from?
   pack-search:
-    name: search
+    name: ara
     short_doc: Find entire packs of emotes
     params:
       search:
-        name: search
+        name: ara
         description: |-
           What kind of emojis are you looking for?
       page:
-        name: page
+        name: sayfa
         description: |-
           Which page of packs to start on?
   pack-set_public:
@@ -414,15 +414,15 @@ command_docs:
     short_doc: Allow anyone to join this server via NQN.
     params:
       enabled:
-        name: enabled
+        name: etkinleştirilmiş
         description: |-
           Allow users to join this server through NQN without an invite?
   pack-show:
-    name: show
+    name: göster
     short_doc: Show the contents of a pack
     params:
       pack:
-        name: pack
+        name: paket
         description: |-
           Which pack to show the emojis of?
   pack-unpublish:
@@ -509,7 +509,7 @@ command_docs:
     name: premium
     short_doc: Premium şeyler
   premium-check:
-    name: check
+    name: kontrol
     short_doc: Recalculate your premium information
     help: |
       Recalculates your premium information, including the list of servers gaining premium from you.
@@ -528,7 +528,7 @@ command_docs:
         description: |-
           Which emoji to react with?
       message:
-        name: message
+        name: mesaj
         description: |-
           Which message to react to?
     help: |
@@ -536,37 +536,37 @@ command_docs:
       The command allows a list of reactions, each of which will be added in the order specified.
       **You need to react to the added reactions as well for them to stay.**
   server:
-    name: server
+    name: sunucu
     short_doc: Server Configuration
   server-alias:
-    name: alias
+    name: takma ad
     short_doc: Server Aliases
   server-alias-delete:
-    name: delete
+    name: sil
     short_doc: Didn't like an emote? Make it so they've got to work for it.
     params:
       alias:
-        name: alias
+        name: takma ad
         description: |-
           Which alias do you want to remove?
   server-alias-import:
-    name: import
+    name: içe aktarmak
     short_doc: Import a list of server aliases from a file.
     params:
       file:
-        name: file
+        name: dosya
         description: |-
           A file previously exported with /alias export
   server-alias-list:
-    name: list
+    name: liste
     short_doc: Show all the aliases that anyone in your server can use
     params:
       page:
-        name: page
+        name: sayfa
         description: |-
           Which page to start at?
   server-alias-post:
-    name: post
+    name: ileti
     short_doc: Post a list of server aliases
     params:
       channel:
@@ -639,7 +639,7 @@ command_docs:
     name: liste
     short_doc: List the packs this server can use
   server-pack-post:
-    name: post
+    name: ileti
     short_doc: Post a list of server packs
   server-pack-search:
     name: ara
@@ -674,7 +674,7 @@ command_docs:
     name: message_link_previews
     short_doc: Enable or disable message link previews in this server
   server-settings:
-    name: settings
+    name: ayarlar
     short_doc: View the settings for this server
     help: |
       View NQN's server settings, including features, configured channels and pack information.
@@ -685,13 +685,13 @@ command_docs:
     name: boost_role
     short_doc: Give a user this role when they boost this server via NQN
   server-nitro_role:
-    name: nitro_role
+    name: nitro_rol
     short_doc: Require users to have a role to use NQN
     help: |
       Set a role that users need to use NQN for Nitro reposting
     params:
       role:
-        name: role
+        name: rol
         description: |-
           The role which people need to use NQN's emoji reposting
   server-stickers:
@@ -800,16 +800,16 @@ command_docs:
     short_doc: Learn how to use emotes with NQN
     params:
       about:
-        name: about
+        name: hakkında
         description: |-
           What to learn about?
   whois:
-    name: whois
+    name: kim
     short_doc: Find who posted a message
   _search:
     params:
       search:
-        name: search
+        name: ara
         description: |-
           What are you searching for?
       exact:
@@ -825,9 +825,9 @@ command_docs:
         description: |-
           Start from a page other than 1
       order:
-        name: order
+        name: emir
         description: |-
-          Order results by?
+          Sonuçları sırala?
         choices:
-          random: random
-          relevance: relevance
+          random: rastgele
+          relevance: alaka
