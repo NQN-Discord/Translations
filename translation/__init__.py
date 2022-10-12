@@ -13,7 +13,7 @@ from discord.ext.commands import Context
 from discord.app_commands import locale_str, TranslationContext, Command, Group, ContextMenu, TranslationContextLocation, Parameter
 from discord.app_commands import Translator as DpyTranslator
 
-from _singleton import Singleton
+from ._singleton import Singleton
 from ._create_owo import create_owo
 from ._ruamel_loader import YamlLoader
 
