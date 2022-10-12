@@ -1,4 +1,3 @@
----
 rest:
   join_server:
     joined: '%{user} sunucuya herkese açık emoji paketi aracılığıyla katıldı!'
