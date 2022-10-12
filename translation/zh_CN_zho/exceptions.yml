@@ -1,58 +1,58 @@
 ---
 exceptions:
   command_not_found: |
-    找不到「%{command}」指令
-    請使用 `%{prefix}help` 以瀏覽指令列表
+    Command "%{command}" was not found.
+    Use `%{prefix}help` to see the command list
   missing_required_argument:
     one: |-
-      缺少了「%{param}」參數。
-      應該是：%{should_be}
+      "%{param}" is a required argument that is missing.
+      It should be: %{should_be}
     many: |
-      缺少了「%{param}」參數。
-      應該是以下其中一個：
-      %{should_be}
+      "%{param}" is a required argument that is missing.
+      It should be one of:
+      - %{should_be}
   bot_missing_permissions:
     one: |
-      %{bot_ping} 缺少了以下權限，以致未能運作此指令：
+      %{bot_ping} is missing the following permission required to run this command:
       %{permissions_missing}
     many: |
-      %{bot_ping} 缺少了以下權限，以致未能運作此指令：
+      %{bot_ping} is missing the following permissions required to run this command:
       %{permissions_missing}
   user_missing_permissions:
     one: |
-      您缺少了以下權限，以致未能運作此指令：
+      You are missing the following permission required to run this command:
       %{permissions_missing}
     many: |
-      您缺少了以下權限，以致未能運作此指令：
+      You are missing the following permissions required to run this command:
       %{permissions_missing}
   message_not_found: |
-    找不到「%{param}」訊息
+    Message "%{param}" not found.
   channel_not_found: |
-    找不到「%{channel}」頻道
+    Channel "%{channel}" not found.
   channel_not_readable: |
-    %{bot_ping} 在 %{channel} 缺少了以下權限，以致未能運作此指令：
+    %{bot_ping} is missing the following permission in %{channel}:
     %{permissions_missing}
   bad_argument:
     one: |
-      %{param} 參數無效，應該是：
+      Could not interpret argument%{param}; should be:
     many: |
-      %{param} 參數無效，應該是以下其中一個：
+      Could not interpret argument%{param}, should be one of:
   no_dms: |
-    您不能在私人訊息中使用此指令
+    This command cannot be ran in DMs
   permissions_missing_reasons:
     #These translations were designed to be short, and to fit on about 1 line on a mobile screen
     guild: |-
-      %{user_ping} 的身分組不包括它
+      %{user_ping}'s roles don't include it
     member_overwrite: |-
-      %{user_ping} 被頻道權限明確禁止
+      Channel permissions explicitly deny %{user_ping}
     role_overwrite:
       one: |-
-        %{roles} 被頻道權限明確禁止
+        Channel permissions denied for the role: %{roles}
       many: |-
-        %{roles} 被頻道權限明確禁止
+        Channel permissions denied for these roles: %{roles}
     member_role_overwrite:
       one: |-
-        %{user_ping} 和 %{roles} 被頻道權限明確禁止
+        Channel permissions explicitly deny %{user_ping} as well as role: %{roles}
       many: |-
-        %{user_ping} 和 %{roles} 被頻道權限明確禁止
-  no_threads: 您不能在討論串中使用此指令.
+        Channel permissions explicitly deny %{user_ping} as well as roles: %{roles}
+  no_threads: This command cannot be used in threads.
