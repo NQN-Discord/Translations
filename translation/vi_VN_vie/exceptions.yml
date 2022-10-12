@@ -1,4 +1,3 @@
----
 exceptions:
   command_not_found: |
     Không tìm thấy lệnh "%{command}".
