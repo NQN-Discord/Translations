@@ -120,7 +120,7 @@ class DpyNQNTranslator(DpyTranslator):
 
 
 # Add here to release a language
-_released_locales = ("en", "es", "ru", "pt", "it", "vi", "fa")
+_released_locales = ("en", "es", "ru", "pt", "it", "vi", "fa", "nl")
 
 
 class Translator(metaclass=Singleton):
