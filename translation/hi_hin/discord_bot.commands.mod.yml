@@ -1,0 +1,58 @@
+---
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: ऑडिट करने के लिए कोई संदेश नहीं।
+        expand: विस्तारित करें
+        truncate: काटें
+      edit_topic:
+        edited: '%{channel} का विषय सम्पादित हुआ।'
+        edited_audit: "%{author} ने %{channel} का विषय इसमें सम्पादित किया:\n>>> %{description}"
+      ban:
+        owner: मैं मालिक को प्रतिबंधित नही कर सकता!
+        cannot_ban: मैं <@%{banee}> पर प्रतिबन्ध नहीं लगा सकता!
+        you_cannot_ban: आप <@%{banee}> को प्रतिबंधित नहीं कर सकते!
+        banned: <@%{banee}> (ID %{banee}) पर प्रतिबंध लगा दिया
+        banned_audit: '%{author} ने <@%{banee}> (ID %{banee}) पर प्रतिबन्ध लगा दिया'
+      kick:
+        owner: मैं मालिक को बाहर नहीं निकाल सकता!
+        cannot_kick: मैं <@%{kickee}> को बाहर नहीं निकाल सकता!
+        you_cannot_kick: आप <@%{kickee}> को बाहर नहीं निकाल सकते!
+        kicked: <@%{kickee}> (ID %{kickee}) को बाहर निकाल दिया
+        kicked_audit: '%{author} ने <@%{kickee}> (ID %{kickee}) को बाहर निकाल दिया'
+      purge:
+        '0_100': एक जगह से ले जाने के लिए संदेशों की संख्या 1 से 100 के बीच होनी चाहिए
+        audit:
+          one: '%{author} ने %{channel} में %{count} सन्देश हटा दिए'
+          many: '%{author} ने %{channel} में %{count} सन्देश हटा दिए'
+      move:
+        user_no_perms: आपके पास %{channel} में 'सन्देश भेजें' और 'सन्देश प्रबंधन' अनुमतियाँ नहीं हैं।
+        me_no_perms: मुझे %{channel} में 'सन्देश पढ़ें', 'वेबहुक प्रबंधन' और 'बाह्य इमोजी' अनुमति की आवश्यकता है।
+        message_limit: स्थानांतरित किये जाने वाले संदेशों की संख्या 1 से %{count} के बीच होनी चाहिए
+        forum_modal_title: Create a new post
+        forum_post_name: 'Post name:'
+        moved_to:
+          one: '%{count} सन्देश को %{to_channel} में ले जाय गया'
+          many: '%{count} संदेशों को %{to_channel} में ले जाय गया'
+        moved_from:
+          one: '%{author} ने %{count} सन्देश %{from_channel} से स्थानांतरित कर दिया'
+          many: '%{author} ने %{count} सन्देश %{from_channel} से स्थानांतरित कर दिए'
+        moved_to_from:
+          one: '%{author} ने %{count} सन्देश %{from_channel} से %{to_channel} में स्थानांतरित कर दिया'
+          many: '%{author} ने %{count} सन्देश %{from_channel} से %{to_channel} में स्थानांतरित कर दिए'
+        move_end: अंतिम सन्देश स्थानांतरित करें
+        end_previous_n: '%{count} संदेशों के पहले के अंतिम सन्देश को स्थानांतरित करें'
+        end_next_n: '%{count} संदेशों के बाद के अंतिम सन्देश को स्थानांतरित करें'
+        move_start: प्रारंभिक सन्देश स्थानांतरित करें
+        start_previous_n: '%{count} संदेशों के पहले के प्रारंभिक सन्देश को स्थानांतरित करें'
+        start_next_n: '%{count} संदेशों के बाद के प्रारंभिक सन्देश को स्थानांतरित करें'
+        move_both: प्रारंभिक और अंतिम को स्थानांतरित करें
+        both_previous_n: '%{count} सन्देश पहले प्रारंभिक और अंतिम स्थानांतरित करें'
+        both_next_n: '%{count} सन्देश बाद के प्रारंभिक और अंतिम स्थानांतरित करें'
+        move:
+          one: सन्देश स्थानांतरित करें!
+          many: '%{count} सन्देश स्थानांतरित करें!'
+        move_all:
+          one: Move message!
+          many: Move all %{count} messages!
