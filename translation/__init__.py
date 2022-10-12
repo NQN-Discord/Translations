@@ -1,9 +1,11 @@
 from typing import Callable, Union, Dict, Awaitable, Optional
 import i18n
+import os
 import unidecode
 import pathlib
 import copy
 import inspect
+import collections
 from discord import Guild, Locale
 from discord.app_commands.transformers import CommandParameter
 from discord.ext.commands import Context
@@ -117,42 +119,18 @@ class DpyNQNTranslator(DpyTranslator):
         return translated
 
 
-_released_locales = ("en", "es", "ru", "pt", "it", "vi", "fa", "nl")
+# Add here to release a language
+_released_locales = ("en", "es", "ru", "pt", "it", "vi", "fa")
 
 
 class Translator(metaclass=Singleton):
     locales = {
-        "en": "en",
-        "gb": "en",
         "us": "en",
         "uk": "en",
-        "de": "de",
-        "es": "es",
-        "ru": "ru",
-        "hi": "hi",
-        "fr": "fr",
-        "pt": "pt",
-        "br": "pt",
-        "ms": "ms",
-        "it": "it",
-        "vi": "vi",
-        "fa": "fa",
-        "nl": "nl",
-        "zh": "zh",
-        "tr": "tr"
     }
     released_locales = _released_locales
 
-    locale_flags = {
-        "en": "gb",
-        "es": "es",
-        "pt": "br",
-        "ru": "ru",
-        "vi": "vn",
-        "fa": "ir",
-        "it": "it",
-        "nl": "nl"
-    }
+    locale_flags = {}
 
     credits = {
         "es": (
@@ -179,11 +157,17 @@ class Translator(metaclass=Singleton):
         "nl": (
             "> <a:serstars:1026812692025049160> SerStars"
         ),
+        "tw": (
+            "> <:Ian:1029715165370920992> Ian\n"
+            "> ❄️ Arctic lights\n"
+        ),
+        "cn": (
+            "> <:Ian:1029715165370920992> Ian\n"
+            "> ❄️ Arctic lights\n"
+        )
     }
 
-    flag_emojis = {locale: "".join(chr(0x1f185+ord(c)) for c in flag_name) for locale, flag_name in locale_flags.items() if locale in _released_locales}
-    hidden_locales = ["owo"]
-    supported_locales = {*locales.values(), *hidden_locales}
+    hidden_locales = {"owo"}
 
     def __init__(self):
         self.get_locale = None
@@ -193,8 +177,24 @@ class Translator(metaclass=Singleton):
         i18n.set("skip_locale_root_data", True)
         i18n.resource_loader.register_loader(YamlLoader, ["yml"])
 
+        locale_dirs = {f.name for f in os.scandir(root_path) if f.is_dir()} - {"__pycache__", "zips"}
+        two_flag_three_full = [(*i.split("_"), i) for i in locale_dirs]
+        unique = {k for k, v in collections.Counter(two for two, _, _, _ in two_flag_three_full).items() if v == 1}
+        canonical_codes = {full: (two if two in unique else flag.lower()) for two, flag, three, full in two_flag_three_full}
+        assert len(canonical_codes) == len(set(canonical_codes.values()))
+        self.canonical_codes = set(canonical_codes.values()) | self.hidden_locales
+        assert self.canonical_codes >= set(self.released_locales)
+
+        for two, flag, three, full in two_flag_three_full:
+            self.locales[flag.lower()] = canonical_codes[full]
+        for two, flag, three, full in two_flag_three_full:
+            self.locales[canonical_codes[full]] = canonical_codes[full]
+            self.locales[three] = canonical_codes[full]
+            self.locale_flags[canonical_codes[full]] = flag.lower()
+        self.flag_emojis = {locale: "".join(chr(0x1f185+ord(c)) for c in self.locale_flags[locale]) for locale in _released_locales}
+
         for path in root_path.rglob("*.yml"):
-            locale = path.parent.name
+            locale = canonical_codes[path.parent.name]
             translations_dic = i18n.resource_loader.load_resource(str(path), None)
             i18n.resource_loader.load_translation_dic(translations_dic, "", locale)
 
@@ -208,7 +208,7 @@ class Translator(metaclass=Singleton):
         self.get_locale = get_locale
 
     def add_locale_commands(self, bot):
-        for locale in self.supported_locales:
+        for locale in self.canonical_codes:
             if locale != "owo":
                 # Some of the translations for owo are kind of rude/nonsensical. Lets not add these as commands
                 for command in bot.walk_commands():

@@ -3,95 +3,100 @@ discord_bot:
   commands:
     raw:
       buttons:
-        commands: कमांड
-        tutorial: टुटोरिअल
-        my_emotes: मेरी ईमोट
+        commands: Commands
+        tutorial: Tutorial
+        my_emotes: My Emotes
       depreciated_commands:
         renamed: |
-          यह कमांड का नाम बदलकर कर दिया गया है `%{prefix}%{new}`.
-          अगर आप इस सन्देश को दोबारा नही देखना चाहते तो, ❌ से प्रतिक्रिया दीजिये
-        ignored: '`%{name}` को आपके लिए अनदेखा किया गया'
+          This command has been renamed to `%{prefix}%{new}`.
+          If you don't want to see this message again, react with ❌
+        ignored: Ignored `%{name}` for you.
       edit:
-        never_posted: आपने इस चैनल में NQN के साथ कभी कोई सन्देश नहीं भेजा है!
+        never_posted: You've never posted a message with NQN in this channel!
         message_deleted: |
-          NQN के साथ आपका सबसे नवीनतम सन्देश इस चैनल से हटा दिया गया है!
-          कृपया एक सन्देश का चुनाव या तो उसे Discord के द्वारा जवाब देकर या, उसका URL पेस्ट कर करें
-        cannot_edit_no_nqn: आप इस सन्देश को लक्षित नही कर सकते क्योंकि यह NQN द्वारा पोस्ट नही किया गया है!
-        cannot_edit_different_user: आप इस सन्देश को लक्षित नही कर सकते क्योंकि यह आपके द्वारा पोस्ट नही किया गया है!
-        edit_message: सन्देश सम्पादित करें
-        new_content: 'नयी सामग्री:'
+          Your most recent message with NQN in this channel has been deleted!
+          Please choose a message either by replying to it with Discord, or by pasting it's jump URL
+        cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
+        cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
+        edit_message: Edit Message
+        new_content: 'New Content:'
       delete:
-        deleted: सन्देश सफलतापूर्वक हटा गया
+        deleted: Message successfully deleted
       export:
-        exported_list_short: "यह रहे आपके निर्यातित ईमोट:"
+        exported_list_short: "Here's your exported emotes:"
         exported_list_long: |
-          यह रहे आपके निर्यातित ईमोट:
-          इन्हे दूसरे लोगो के साथ साझा करने के लिए, उन्हें यह चलाना होगा:
+          Here's your exported emotes
+          To share them with other people, they need to run:
           > `%{prefix}alias import %{url}`
       ignore_me:
-        user_ignored: NQN अब आपके सन्देश रिपोस्ट नही करेगा। इस पुनः सक्षम करने के लिए यह कमांड दोबारा चलाइये
-        user_unignored: NQN आपके सन्देश रिपोस्ट करेगा
+        user_ignored: NQN will no longer repost your messages. Run this command again to re-enable
+        user_unignored: NQN will repost your messages as normal
       invite:
-        add_nqn: अपने सर्वर में NQN को शामिल करें!
+        add_nqn: Add NQN to your server!
       my_emotes:
-        current_guild: वर्तमान सर्वर
-        mutual_guilds: आपसी सर्वर
-        aliases: उपनाम
-        packs: पैक
+        current_guild: Current Server
+        mutual_guilds: Mutual Servers
+        aliases: Aliases
+        packs: Packs
         no_mutual_guilds: |
-          NQN आपको इस सर्वर में हमारे आपसी सर्वर से कोई भी इमोजी इस्तेमाल करने की अनुमति देता है।
-          वर्तमान में, इसके अलावा आपके पास NQN के साथ कोई आपसी सर्वर नही है।
+          NQN allows you to use any emoji from our mutual servers in this server.
+          Currently, you do not have any mutual servers with NQN, aside from this one.
 
-          अगर आप चाहते हैं तो, आप [NQN को अन्य सर्वर में आमंत्रित कर](%{bot_invite}) उसके सभी इमोजी की पहुँच प्राप्त कर सकते हैं।
+          If you want, you can [invite NQN to another server](%{bot_invite}) to gain access to it's emojis here.
       ranking:
-        vote_link: आप बॉट में और अधिक सर्वर ईमोट जोड़ने और सर्वर की श्रेणी बढ़ाने के लिए %{url} पर बॉट को वॉट दे सकते हैं।
-        top_server: सर्वाधिक सहायक सर्वर बनने के लिए बधाई हो <a:BluePat:679807864327766048>
-        thanks: बॉट को वोट देने के लिए धन्यवाद
+        vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
+        top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
+        thanks: Thanks for voting for the bot!
         ranking: |
-          NQN के इस्तेमाल करने वाले सभी सर्वेरों में %{guild} का स्थान है #%{rank}.
+          %{guild} is ranked #%{rank} out of all the servers using NQN.
 
           %{rank_leaderboard}
-          आपने NQN को %{total_votes} बार वोट दिए हैं। %{thanks}
+          You have voted %{total_votes} times for NQN. %{thanks}
 
           %{user_ranking}
 
           %{extra_message}
       emote_stats:
-        top_emotes: "इस सर्वर में सर्वाधिक इस्तेमाल किये जाने वाले इमोजी"
-        choose_page: "एक पृष्ठ चुनें"
-        never: "कभी उपयोग नही किये गए"
-        once: "एक बार उपयोग किये गए"
-        infrequent: "दुर्लभ उपयोग"
-        often: "अक्सर इस्तेमाल किये जाने वाले"
-        frequent: "बार-बार इस्तेमाल किये जाने वाले"
-        extreme: "अत्यधिक बार- बार उपयोग किये जाने वाले"
-        extraordinary: "असाधारण रूप से अत्यधिक उपयोग किये जाने वाले"
-        off_chart: "सारणी से बाहर"
+        top_emotes: "Top used emojis in this server"
+        choose_page: "Choose a page"
+
+        never: "Never used"
+        once: "Used once"
+        infrequent: "Infrequent use"
+        often: "Used often"
+        frequent: "Frequent use"
+        extreme: "Extremely frequent use"
+        extraordinary: "Extraordinarily frequently used"
+        off_chart: "Off the chart"
+
         times_used:
-          zero: "कभी उपयोग नही किये गए"
-          one: "एक बार उपयोग किये गए"
-          many: "~%{count} बार उपयोग किये गए"
+          zero: "Never used"
+          one: "Used once"
+          many: "~%{count} times used"
+
         times_used_per_day:
-          zero: "प्रति दिन एक बार से भी कम"
-          one: "लगभग दिन में एक बार"
-          many: "प्रतिदिन ~%{count} बार"
+          zero: "Less than once per day"
+          one: "About once per day"
+          many: "~%{count} times per day"
+
         emote_count:
-          zero: "कोई ईमोट नहीं"
-          one: "1 ईमोट"
-          many: "%{count} ईमोट"
-        boundary: "~%{min} - %{max} बार इस्तेमाल"
+          zero: "No emotes"
+          one: "1 emote"
+          many: "%{count} emotes"
+        boundary: "~%{min} - %{max} times used"
+
       tutorial:
-        choose_page: प्रशिक्षण ब्राउज करें
-        invalid_page: प्रशिक्षण में केवल %{count} पृष्ठ हैं!
-        permissions_missing: मुझे प्रशिक्षण लिखने के लिए इम्बेड लिखने और प्रतिक्रिया जोड़ने की आवश्यकता होगी। यह फिर से चलायी जा सकत है `%{prefix}tutorial`.
-        wrong_place: अगर मैंने सन्देश दिखने के लिए अगर गलत स्थान चुन लिया है तो, आप %{prefix}tutorial का इस्तेमाल कर आप अधिक सुविधाजनक चैनल में प्रशिक्षण चला सकते हैं। इस प्रशिक्षण में विभिन्न पृष्ठ हैं; उनके गायब हो जाने के बाद उन्हें देखने के लिए चलाइये %{prefix}tutorial.
-        default_emojis: डिफ़ॉल्ट इमोजी
-        default_emoji_list: "यह रही उन गतिशील ईमोट की सूची जो इस सर्वर में कोई भी डिफ़ॉल्ट रूप से इस्तेमाल कर सकता है - बस उन्हें लिखें, ईमोट के दोनों ओर :colons: निश्चित रूप से लिखें!"
-        page_0_title: Not Quite Nitro का प्रशिक्षण, TLDR
+        choose_page: Browse Tutorial
+        invalid_page: There are only %{count} pages in the tutorial!
+        permissions_missing: I need to be able to write embeds and add reactions to show my tutorial. It can be reran with `%{prefix}tutorial`.
+        wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
+        default_emojis: Default Emojis
+        default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
+        page_0_title: Tutorial for Not Quite Nitro, TLDR
         page_0_desc: |
-          %{locale_flag_emojis} **भाषा विकल्प** %{locale_flag_emojis}
+          %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
           > `%{prefix}server language`
-        page_0_0_name: अधिक ईमोट?
+        page_0_0_name: More Emotes?
         page_0_0_desc: |
           Everyone is able to use any emote that shares a server with both you and this bot.
           **There are several other ways to use emotes in servers you are not in:**
@@ -326,6 +331,8 @@ discord_bot:
         vi: 'Vietnamese:'
         fa: 'Persian:'
         nl: 'Dutch:'
+        cn: 'Chinese (Simplified)'
+        tw: 'Chinese (Traditional)'
         bot_stats: Discord Bot Statistics
         shard_info_name: Shard Info
         process_data_name: Bot process data
@@ -363,7 +370,7 @@ discord_bot:
       vote_opt_out:
         success: Successfully opted out of vote DMs
       whois:
-        found: लेखक है <@%{author}> (%{author})
+        found: The author is <@%{author}> (%{author})
         not_nqn: |
           This command currently only works on messages reposted by NQN.
         not_found: |

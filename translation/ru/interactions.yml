@@ -1,9 +1,0 @@
----
-interactions:
-  not_author: |
-    Только автор сообщения может взаимодействовать с ним
-  timed_out: |
-    Тайм-аут взаимодействия
-    Пожалуйста выполните команду снова
-  bot_timed_out: |
-    NQN has been timed out by a moderator and cannot respond.
