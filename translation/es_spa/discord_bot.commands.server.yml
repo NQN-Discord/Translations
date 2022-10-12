@@ -1,0 +1,145 @@
+---
+discord_bot:
+  commands:
+    server:
+      alias:
+        set_emote_title: 'Establecido \:%{name}: a %{emote} para este servidor.'
+        set_emote_description:
+          zero: |
+            ¡Este servidor no tiene mas emoticonos!
+            Para mas aliases, cualquiera puede votar por este bot en %{url}
+
+            Quien quiera puede utilizar este emoji escribiendo:
+          one: |
+            Este servidor tiene %{count} emoticono restantes hasta que alcance el maximo.
+            Para mas aliases, cualquiera puede votar por este bot en %{url}
+
+            Quien quiera puede utilizar este emoji escribiendo:
+          many: |
+            Este servidor tiene %{count} emoticonos restantes hasta que alcance el maximo.
+            Para mas aliases, cualquiera puede votar por este bot en %{url}
+
+            Quien quiera puede utilizar este emoji escribiendo:
+        failed_aliases:
+          one: |
+            Un alias el cual no puede ser renderizado
+          many: |
+            %{failed_aliases} alias los cuales no pueden ser renderizado
+        max_title: '¡Este servidor ha alcanzado el numero maximo de emoticonos/packs!'
+        max_description: |
+          :%{name}: No fue añadido como un emoticono en el servidor.
+
+          Para más aliases/packs, cualquiera puede votar por el bot en %{url}
+        no_alias: Este servidor no tiene un alias llamado %{name}
+        renamed: 'Renombrado %{emote} de \:%{name}: a :%{new}:'
+        no_aliases: Este servidor no tiene alias globales asignados
+      nitro_role:
+        unset: Todos en este servidor pueden utilizar emojis de nitro gratuitamente con NQN
+        set: Ahora solo usuarios con el rol %{role} pueden utilizar emojis de nitro gratuitamente con NQN
+      audit_channel:
+        unset: Quitado el registro de auditoria de este servidor
+        set: Establecido el registro de auditoria de este servidor a %{channel}
+        no_webhooks: "¡No puedo enviar webhooks en %{channel}.\nPor favor dame 'Gestionar webhooks' allí!"
+      boost_channel:
+        unset: Quitado el canal de boosts de este servidor
+        set: Establecido el canal de boosts para este servidor en %{channel}
+      boost_role:
+        unset: Quitado el rol de boosts de este servidor
+        set: Establecido el rol de boosts de este servidor a %{role}
+      boolean_options:
+        stickers_on: Habilitado el uso de stickers
+        stickers_off: Deshabilitado el uso de stickers
+        nitro_on: Habilitado el uso gratis de nitro en este servidor!
+        nitro_off: Deshabilitado el uso gratis de nitro en este servidor
+        replies_on: Se ha habilitado la vista previa de enlaces de mensajes
+        replies_off: Se ha deshabilitado la vista previa de enlaces de mensajes
+        masked_links_on: Habilitado el uso de URLs enmascarados
+        masked_links_off: Deshabilitado el uso de URLs enmascarados
+        pings_on: Habilitado los pings enn mensajes reenviados por NQN
+        pings_off: Deshabilitado los pings enn mensajes reenviados por NQN
+        user_content_on: |
+          Se habilitó el uso de los alias y packs de los usuarios.
+          La configuracion de los stickers no ha cambiado.
+        user_content_off: |
+          Se deshabilito el uso de los alias y packs de los usuarios.
+          Solo los alias y packs agregados con `%{prefix}server alias search` and `%{prefix}server pack search` podran ser usados junto con los emojis de este servidor.
+          Los stickers tambien han sido deshabilitados automaticamente.
+        personas_on: |
+          Se habilitó el uso de personajes.
+          Esto permite a cualquier usuario ajustar un nombre de usuario y avatar personalizados;
+          Este alerta de
+          This allows anyone to set a customisable username and avatar; be warey of impostores.
+
+          El staff de NQN recomienda fijar un canal de auditoria cuando se utiliza esta funcionalidad;
+          Si no lo has echo todavia, se puede fijar usando:
+          > ```!server set_audit_channel #channel``` #channel``` #channel```
+        personas_off: Se deshabilito el uso de personajes
+        dashboard_posting_on: Se habilita el envío de mensajes dese el panel en sito del bot
+        dashboard_posting_off: Se deshabilito el envío de mensajes dese el panel en sito del bot
+        phish_detection_on: Se habilito la detección de mensajes phishing en el servidor
+        phish_detection_off: Se deshabilito la detección de mensajes phishing en el servidor
+      link:
+        no_animated_emotes: |
+          Este servidor no tiene emojis animados!
+          Solo puedes utilizar este comando con emojis animados.
+        too_many_static: Este servidor tiene demasiados emojis estáticos! Trata eliminar algunos de estos primero.
+        animated_only: Este comando solo funciona con emojis animados - los hace disponibles en el seleccionador de emojis para usuarios sin nitro como emojis estáticos!
+        emote_not_found: No se pudo encontrar ese emoji! Trata asignarlo con `%{prefix}alias search`
+        upload_later: No se pudo subir el emoji; trata de vuelta en unas horas
+        choose_emote: 'Selecciona un emoji para el cual crear la conexión estática:'
+        create_static: '¿Crear un emoji estático?'
+        create_static_emote: '¿Crear un emoji estático para %{emote}?'
+        uploaded: Se subió %{uploaded}!
+        uploaded_emote: "Se subió %{uploaded}!\nUtilízalo para usar %{emote}"
+      pack:
+        max_title: Este servidor se encuentra al numero maximo de emojis/packs!
+        max_description: |
+          %{name} no se asigno como un pack del servidor.
+
+          Para más alias/packs, cualquiera puede votar por el bot en %{url}
+        left_pack: "'%{guild_name}' dejo el pack %{name}"
+        not_in_pack: Este servidor no tenía a %{name} asignado como pack del servidor
+        invalid_group: <Pack invalido - Por favor reportarlo>
+        join_server: (Unite al servidor)
+        no_longer_registered: '%{name} no es un pack de emojis registrado'
+        already_joined: '%{guild_name} ya esta unido a %{name}'
+        joined_long: |
+          '%{guild_name}' se unio a %{name}.
+          Todos en el servidor ahora pueden usar los siguientes emojis escribiendo su nombre en el chat, incluyendo los dos puntos:
+        no_packs: "'%{guild_name}' no esta unido a ningún pack!"
+      prefix:
+        instructions: "Para seleccionar mi prefijo, mencióname antes del prefijo deseado para prevenir cambios accidentales.\n> %{prefix}server prefix %{me} %{new}"
+        no_colon_prefix: El prefijo no puede comenzar con dos puntos (:)
+        no_slash_prefix: El prefijo no puede comenzar con barra (/)
+        set_prefix: Prefijo cambiado a `%{prefix}`
+      language:
+        choose: 'Selecciona mi nuevo lenguaje:'
+        set: Mi lenguaje en este servidor ahora es Español
+        this_locale_name: Español
+      config:
+        enabled: Habilitado
+        disabled: Deshabilitado
+        prefix: Prefijo
+        announcement: Canal de anuncios
+        boost_channel: Canal de votos
+        boost_role: Rol de votos
+        audit_channel: Canal de auditoria
+        nitro_role: Rol de Nitro
+        stickers: Stickers
+        nitro: Nitro
+        replies: Vista previa de enlaces de mensajes
+        masked_links: URLs enmascarados
+        pings: Menciones
+        user_content: Contenido de los Usuarios
+        personas: Personajes
+        dashboard_posting: Enviar mensajes con Sitio
+        phish_detection: Detección de mensajes phishing
+        invite: Enlace de invitación
+        pack: Nombre del Pack
+        public: Publico
+        member_count: Miembros
+        configure_features: Alterná Funciones Activas
+        settings: Configuración
+        channels: Canales
+        features: Funciones
+        pack_info: Info del pack
