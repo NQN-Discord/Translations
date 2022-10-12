@@ -1,0 +1,74 @@
+discord_bot:
+  commands:
+    persona:
+      not_enabled: |
+        Personas are not enabled in this server.
+        They allow users to use ⚠️**custom usernames** and **avatars**⚠️ with NQN, so are not enabled by default.
+      enable_personas: Enable personas
+      name_regex: |
+        Persona names can only contain alphanumerics, dashes and underscores, and be at most 80 characters long.
+        > '%{persona_name}' does not match these requirements.
+      max_display_name: |
+        Usernames can be at most 80 characters long
+      persona_doesnt_exist: |
+        You don't have a persona called %{short_name}!
+        Create one with `%{prefix}persona register %{short_name}`
+      export:
+        exported_list_short: |
+          Here's your exported personas, they should be compatible with Tupperbox and Pluralkit.
+        exported_list_long: |
+          Here's your exported personas, they should be compatible with Tupperbox and Pluralkit.
+          To share them with other people, they need to run:
+          > `%{prefix}persona import %{url}`
+      import_:
+        import_incorrect: |
+          This command is used to import a persona list previously exported with `%{prefix}persona export`, or equivalent export commands from PluralKit and Tupperbox.
+          To create a persona, use `%{prefix}persona register`
+        import_text: This command needs a json file attachment
+        set_personas:
+          one: Imported one persona
+          many: Imported %{count} personas
+        invalid_persona: Do you wish to continue importing the rest of the file, ignoring this entry?
+      list:
+        no_personas: |
+          You don't have any personas!
+      register:
+        display_name: Nickname
+        avatar_url: Avatar URL
+        create: Create Persona
+        persona_exists: |
+          You already have a persona called %{short_name}.
+          You can rename it with `%{prefix}persona rename %{short_name} new_name`
+        registered_persona: |
+          Registered %{short_name} as your persona!
+          To send messages as them, send a message starting with `%{short_name}:`, for example:
+          > ```%{short_name}: Hello!```
+          To change their username in messages to 'NQN', run:
+          > ```%{prefix}persona display_name %{short_name} NQN```
+          To change their avatar in messages, run:
+          > ```%{prefix}persona avatar_url %{short_name} https://...```
+      rename:
+        renamed_persona: |
+          Renamed %{old_name} to %{new_name}.
+      avatar_url:
+        persona_avatar_url: |
+          Set %{short_name}'s avatar.
+        avatar_regex: |
+          Avatars must be given as URLs to the image you want to use.
+      delete:
+        persona_deleted: |
+          Deleted information about %{short_name}.
+      display_name:
+        renamed_persona_display_name: |
+          Set %{short_name}'s username to %{display_name}.
+      dm:
+        send_dms:
+          zero: |
+            You have no personas!
+            Get some with `%{prefix}persona register`
+          one: |
+            This will send you a direct message; do you wish to continue?
+          many: |
+            This will send you %{count} direct messages; do you wish to continue?
+        blocked: |
+          You've blocked me, I can't message you!
