@@ -1,0 +1,53 @@
+discord_bot:
+  commands:
+    alias:
+      no_alias: "You don't have an alias called \\:%{name}:"
+      could_not_find: Could not find alias
+      alphanumeric: Aliases can only contain alphanumerics and underscores
+      max_length: Alias names can be at most 32 characters long
+      user_zero: You have no aliases
+      set_alias: Set alias
+      from_message:
+        no_emotes: This message doesn't have any custom emojis in it!
+      delete:
+        deleted: 'Deleted \:%{name}:'
+      delete_all:
+        confirm: |
+          This will delete all **%{count}** of your aliases.
+          Are you sure you wish to continue?
+        deleted:
+          one: Deleted 1 alias
+          many: Deleted %{count} aliases
+      created:
+        one: 'You created an alias and can use it by typing:'
+        many: 'You created %{count} aliases and can use them by typing:'
+      rename:
+        rename: Rename Alias
+        alias_name: 'Alias Name:'
+        renamed: 'Renamed \:%{old}: to :%{new}:'
+      export:
+        exported_short: "Here's your exported aliases:"
+        exported_long: |
+          Here's your exported aliases:
+          To share them with other people, they need to run:
+          > `%{prefix}alias import %{url}`
+      import_:
+        import_incorrect: |
+          This command is used to import an alias list previously exported with `%{prefix}alias export`.
+          To create an alias, use `%{prefix}alias search`
+        import_text: This command needs a text file attachment
+        import_lines_invalid: Could not set aliases on lines %{lines_invalid}, invalid format.
+        import_set:
+          one: Set %{count} alias.
+          many: Set %{count} aliases.
+      dm:
+        send_dms:
+          zero: |
+            You have no aliases!
+            Get some with `%{prefix}alias search`
+          one: |
+            This will send you a direct message; do you wish to continue?
+          many: |
+            This will send you %{count} direct messages; do you wish to continue?
+        blocked: |-
+          You've blocked me, I can't message you!
