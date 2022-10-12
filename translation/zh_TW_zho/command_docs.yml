@@ -1,4 +1,3 @@
----
 command_docs:
   gain_access_to_emojis:
     name: 享用表情符號
@@ -759,7 +758,7 @@ command_docs:
     short_doc: 從表情符號導入貼圖
     help: |
       從表情符號導入貼圖
-      可以直接來自表情符號，帶有可選別號 
+      可以直接來自表情符號，帶有可選別號
        - sticker import :blue_smirk: smirk.png
       或者通過搜索 NQN 的表情符號。
        - sticker import blue pat
