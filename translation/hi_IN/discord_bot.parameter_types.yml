@@ -1,0 +1,69 @@
+---
+discord_bot:
+  parameter_types:
+    #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+    SearchTerms:
+      name: खोज शब्द
+      description: |-
+        खोज शब्द
+    Message:
+      name: सन्देश
+      description: |-
+        आपके लक्षित सन्देश को जवाब दीजिये
+        - एक सन्देश URL(`https://discord.com/channels/123456789/123456789/123456789`)
+        - वर्तमान चैनल में सन्देश आईडी (`123456789`)
+        - चैनलआईडी-सन्देशआईडी का जोड़ा (`123456789-123456789`)
+        - यह वर्तमान चैनल में कितने संदेशों पहले था (`5` संदेशों पहले)
+    PartialEmoji:
+      name: इमोजी
+      description: |-
+        एक रेंडर हुआ Discord इमोजी या एक इमोजी URL
+    TextChannel:
+      name: टेक्स्ट चैनल
+      description: |
+        एक टेक्स्ट चैनल मेंशन
+    User:
+      name: उपयोगकर्ता
+      description: |
+        एक यूजर मेंशन
+    Role:
+      name: रोल
+      description: |
+        एक रोल मेंशन या नाम
+    NQNEmoji:
+      name: NQNइमोजी
+      description: |
+        एक बिना रेंडर हुआ इमोजी जिसे NQN बदल सकता है
+        - एक रेंडर हुए Discord इमोजी या इमोजी का URL
+    BlockedEmoji:
+      name: ब्लॉक्डइमोजी
+      description: |-
+        उस इमोजी का नाम जो इस सर्वर में ब्लॉक है
+    CurrentGuildEmoji:
+      name: सर्वरइमोजी
+      description: |
+        वर्तमान सर्वर में एक इमोजी
+    None:
+      name: खाली
+      description: |
+        कोई आर्गुमेंट नही
+    str:
+      name: स्ट्रिंग
+      description: |
+        कोई टेक्स्ट
+    int:
+      name: पूर्णांक
+      description: |
+        एक संख्या
+    bool:
+      name: बूलियन
+      description: |
+        `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
+    ListConverter:
+      name: सूची
+      description: |-
+        कम से कम
+    Union:
+      name: संघ
+      description: |-
+        निम्न में से एक:
