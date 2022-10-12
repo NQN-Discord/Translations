@@ -1,0 +1,58 @@
+---
+exceptions:
+  command_not_found: |
+    La commande «%{command}» n'a pas été trouvée.
+    Utilisez `%{prefix}help` pour voir la liste des commandes
+  missing_required_argument:
+    one: |-
+      «%{param}» est un argument requis mais n'a pas été spécifié.
+      Il devrait être: %{should_be}
+    many: |
+      «%{param}» est un argument requis mais n'a pas été spécifié.
+      Ils devraient être l'un d'entre eux:
+      - %{should_be}
+  bot_missing_permissions:
+    one: |
+      %{bot_ping} ne possède pas la permission requise suivante pour exécuter cette commande:
+      %{permissions_missing}
+    many: |
+      %{bot_ping} ne possède pas les permissions requises suivantes pour exécuter cette commande:
+      %{permissions_missing}
+  user_missing_permissions:
+    one: |
+      You are missing the following permission required to run this command:
+      %{permissions_missing}
+    many: |
+      You are missing the following permissions required to run this command:
+      %{permissions_missing}
+  message_not_found: |
+    Le message «%{param}» n'a pas été trouvé.
+  channel_not_found: |
+    Channel "%{channel}" not found.
+  channel_not_readable: |
+    %{bot_ping} is missing the following permission in %{channel}:
+    %{permissions_missing}
+  bad_argument:
+    one: |
+      Impossible d'interpréter l'argument%{param}; devrait être:
+    many: |
+      Impossible d'interpréter l'argument%{param}, devrait être l'un d'entre eux:
+  no_dms: |
+    Cette commande ne peut pas être exécutée dans les messages privés
+  permissions_missing_reasons:
+    #These translations were designed to be short, and to fit on about 1 line on a mobile screen
+    guild: |-
+      Les rôles de %{user_ping} ne l'incluent pas
+    member_overwrite: |-
+      Les permissions du canal refusent explicitement %{user_ping}
+    role_overwrite:
+      one: |-
+        Les permissions du canal refusées pour le rôle: %{roles}
+      many: |-
+        Les permissions du canal refusées pour les rôles: %{roles}
+    member_role_overwrite:
+      one: |-
+        Les permissions du canal refusent %{user_ping} ainsi que le rôle: %{roles}
+      many: |-
+        Les permissions du canal refusent %{user_ping} ainsi que les rôles: %{roles}
+  no_threads: This command cannot be used in threads.
