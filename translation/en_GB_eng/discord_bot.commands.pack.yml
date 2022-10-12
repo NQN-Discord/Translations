@@ -1,0 +1,69 @@
+discord_bot:
+  commands:
+    pack:
+      buttons:
+        add_to_everyone: Add to @everyone
+        join_pack: Join Pack
+        leave_pack: Leave Pack
+        join_server: Join Server
+        all: Save All
+      join:
+        no_pack: '%{name} is not a registered emote pack'
+        already_joined: You are already joined to %{name}
+        joined_pack: |
+          Joined %{name}.
+          You may now use the following emotes by typing its name into chat, including colons:
+      leave:
+        no_pack: '%{name} is not a registered emote pack'
+        already_left: You weren't in %{name} anyway
+        left: Left %{name}
+      meta:
+        needs_publishing: You cannot do this without first publishing this server as an emote pack.
+      mine:
+        no_packs: You don't have any packs!
+      publish:
+        already_published: This server is already published as a pack!
+        already_exists: An emote pack called %{name} already exists
+        published: Published emote pack %{name}. Anyone is able to save these emotes to their own server, and you assert that you are the owner of these emotes. To undo this, run `%{prefix}pack unpublish`.
+        pack_published: |
+          To gain access to all these emotes, run
+          >>> !pack join %{name}
+      rename:
+        already_exists: An emote pack called %{name} already exists
+        not_published: This server was not published before.
+        renamed: Renamed %{old} to %{new}
+      save:
+        none_left: After filtering out emotes with the same name as ones in this server, there were none left to import!
+        no_space: There's no space in this server to add any of the emotes in this pack.
+        failed_batch: |
+          Discord only allows bots to upload 50 emotes per hour.
+          NQN wasn't able to upload all the emotes in this batch, but you can run this command again in an hour to upload the rest
+        not_registered: '%{name} is not a registered emote pack'
+        upload_question: "Upload these emotes to this server?\n If you are not the owner of all of these emoji, choose N."
+        uploaded:
+          one: Uploaded %{count} emote
+          many: Uploaded %{count} emotes
+      search:
+        invalid_group: <Invalid pack - Please Report>
+      set_public:
+        needs_publishing: You cannot do this without first publishing this server as an emote pack.
+        public_on: Allowed invites via NQN.
+        public_off: Disabled invites via NQN.
+      show:
+        not_registered: '%{name} is not a registered emote pack'
+        pack_empty: This pack has no emotes in it!
+        join_pack: 'Contents of pack "%{name}":'
+      unpublish:
+        not_published: This server was not published before.
+        unpublished: Unpublished emote pack %{name}
+      dm:
+        send_dms:
+          zero: |
+            You have no packs!
+            Get some with `%{prefix}pack search`
+          one: |
+            This will send you a direct message; do you wish to continue?
+          many: |
+            This will send you %{count} direct messages; do you wish to continue?
+        blocked: |-
+          You've blocked me, I can't message you!
