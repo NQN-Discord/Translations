@@ -1,4 +1,3 @@
----
 discord:
   ext.commands.help:
     need_emojis: ' - Tôi cần quyền này để dùng emoji!'
