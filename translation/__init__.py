@@ -117,7 +117,7 @@ class DpyNQNTranslator(DpyTranslator):
         return translated
 
 
-_released_locales = ("en", "es", "ru", "pt", "it", "vi", "fa")
+_released_locales = ("en", "es", "ru", "pt", "it", "vi", "fa", "nl")
 
 
 class Translator(metaclass=Singleton):
@@ -138,7 +138,8 @@ class Translator(metaclass=Singleton):
         "vi": "vi",
         "fa": "fa",
         "nl": "nl",
-        "zh": "zh"
+        "zh": "zh",
+        "tr": "tr"
     }
     released_locales = _released_locales
 
