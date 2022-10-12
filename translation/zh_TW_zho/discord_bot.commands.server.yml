@@ -111,7 +111,7 @@ discord_bot:
         set_prefix: 已將我的前綴設置為 `%{prefix}`
       language:
         choose: '請選擇語言：'
-        set: 已將此伺服器的語言設置為英語
+        set: 已將此伺服器的語言設置為繁體中文
         this_locale_name: 英語
       config:
         enabled: 已啟用的

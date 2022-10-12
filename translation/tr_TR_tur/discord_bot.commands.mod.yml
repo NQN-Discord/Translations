@@ -3,23 +3,23 @@ discord_bot:
   commands:
     mod:
       audit:
-        no_messages: No messages to audit.
-        expand: Expand
-        truncate: Truncate
+        no_messages: Denetlenecek mesaj yok.
+        expand: Genişletmek
+        truncate: Kesmek
       edit_topic:
-        edited: Edited %{channel}'s topic.
-        edited_audit: "%{author} edited %{channel}'s topic to:\n>>> %{description}"
+        edited: '%{channel} konusu düzenlendi.'
+        edited_audit: "%{author}, %{channel} kanalın konusunu şu şekilde düzenledi:\n>>> %{description}"
       ban:
-        owner: I cannot ban the owner!
-        cannot_ban: I cannot ban <@%{banee}>!
-        you_cannot_ban: You cannot ban <@%{banee}>!
-        banned: Banned <@%{banee}> (ID %{banee})
-        banned_audit: '%{author} banned <@%{banee}> (ID %{banee})'
+        owner: Sahibi yasaklayamam!
+        cannot_ban: <@%{banee}>'yi yasaklayamam!
+        you_cannot_ban: <@%{banee}> yasaklayamazsın!
+        banned: <@%{banee}> (ID %{banee}) yasaklandı
+        banned_audit: '%{author} <@%{banee}> (ID %{banee}) yasakladı'
       kick:
-        owner: I cannot kick the owner!
-        cannot_kick: I cannot kick <@%{kickee}>!
-        you_cannot_kick: You cannot kick <@%{kickee}>!
-        kicked: Kicked <@%{kickee}> (ID %{kickee})
+        owner: Sahibi atamam!
+        cannot_kick: <@%{kickee}>'yi atamam!
+        you_cannot_kick: <@%{kickee}> atamazsın!
+        kicked: <@%{kickee}> (ID %{kickee}) atıldı
         kicked_audit: '%{author} kicked <@%{kickee}> (ID %{kickee})'
       purge:
         '0_100': Number of messages to move must be between 1 and 100
