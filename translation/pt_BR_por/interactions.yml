@@ -1,4 +1,3 @@
----
 interactions:
   not_author: |
     Apenas o autor da mensagem pode interagir com ela
