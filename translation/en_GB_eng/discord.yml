@@ -1,0 +1,35 @@
+discord:
+  ext.commands.help:
+    need_emojis: ' - I need this to use emojis!'
+    need_help: ' - I need this for the help command!'
+    nothing: ''
+    choose_page: Browse Commands
+    please_give: I won't function correctly without these!
+    fix_perms: |
+      - **[Fix Server Permissions](%{invite_url})**
+    nqn_help: NQN Help
+    my_prefix: |
+      My prefix for commands is `%{prefix}`
+    react_with_x_to_delete: |
+      React with ❌ (\:x:) to delete reposted messages!
+    user_ignored: |
+      You will be **IGNORED** when sending messages which would normally be reposted. To allow NQN to repost your messages, run:
+      > `%{prefix}ignore_me`
+    categories: Categories
+    everything_else: Everything else
+    really_useful: Really Useful Commands
+    useful_links: 'Useful links:'
+    website: Website
+    vote: Vote!
+    support: Support
+    emote_list: My Emotes
+    top_gg_vote: Voting for me at [top.gg](https://top.gg/bot/559426966151757824/vote) makes the bot better by increasing our visibility and allowing more emotes when we join a server.
+    bfd_vote: Giving me an upvote at [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) helps out our visibility. With every new server I join, my emote database gets larger.
+    what_is: What is Not Quite Nitro?
+    bot_description: |
+      Not Quite Nitro is a multipurpose utility bot which allows any user to use Nitro emotes.
+      We have an extremely large database of visually unique emotes which you can use in any server the bot is in with Manage Webhook permissions.
+
+      NQN also allows automatic quoting whenever a user posts a message link, the use of masked urls in chat and stickers, which are full size emotes.
+
+      You can invite me [to your server](https://discord.com/api/oauth2/authorize?%{params}).
