@@ -1,0 +1,142 @@
+---
+discord_bot:
+  commands:
+    server:
+      alias:
+        set_emote_title: 'Set \:%{name}: to %{emote} for this server.'
+        set_emote_description:
+          zero: |
+            This server has no emotes left!
+            For more aliases, anyone can vote for the bot at %{url}
+
+            Anyone can use this emote by typing:
+          one: |
+            This server has one emote left before it reaches it's maximum.
+            For more aliases, anyone can vote for the bot at %{url}
+
+            Anyone can use this emote by typing:
+          many: |
+            This server has %{count} emotes left before it reaches it's maximum.
+            For more aliases, anyone can vote for the bot at %{url}
+
+            Anyone can use this emote by typing:
+        failed_aliases:
+          one: |
+            One alias which cannot be rendered
+          many: |
+            %{failed_aliases} aliases which cannot be rendered
+        max_title: This server is at its maximum emote/pack count already!
+        max_description: |
+          :%{name}: was not added as a server emote.
+
+          For more aliases/packs, anyone can vote for the bot at %{url}
+        no_alias: This server does not have an alias called %{name}
+        renamed: 'Renamed %{emote} from \:%{name}: to :%{new}:'
+        no_aliases: This server has no global aliases
+      nitro_role:
+        unset: Anyone in this server can use free Nitro emotes with NQN
+        set: Now only users with the %{role} role can use free Nitro emotes with NQN
+      audit_channel:
+        unset: Unset the audit channel for this server
+        set: Set the audit channel for this server to %{channel}
+        no_webhooks: "I cannot post webhook messages to %{channel}.\nPlease give me 'Manage Webhooks' there!"
+      boost_channel:
+        unset: Unset the boost channel for this server
+        set: Set the boost channel for this server to %{channel}
+      boost_role:
+        unset: Unset the boost role for this server
+        set: Set the boost role for this server to %{role}
+      boolean_options:
+        stickers_on: Enabled stickers
+        stickers_off: Disabled stickers
+        nitro_on: Enabled free nitro usage in this server!
+        nitro_off: Disabled free nitro usage in this server
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
+        masked_links_on: Enabled masked URL usage
+        masked_links_off: Disabled masked URL usage
+        pings_on: Enabled pings in reposted messages
+        pings_off: Disabled pings in reposted messages
+        user_content_on: |
+          Enabled usage of individual user's aliases and packs
+          Sticker settings have not been changed.
+        user_content_off: |
+          Disabled usage of individual user's aliases and packs.
+          Only aliases and packs added with `%{prefix}server alias search` and `%{prefix}server pack search` will be usable, as well as emojis from this server.
+          Stickers have also been automatically disabled.
+        personas_on: |
+          Enabled usage of personas.
+          This allows anyone to set a customisable username and avatar; be warey of impersonation.
+
+          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
+          > ```!server set_audit_channel #channel```
+        personas_off: Disabled usage of personas
+        dashboard_posting_on: Enabled posting messages from the bot's dashboard
+        dashboard_posting_off: Disabled posting messages from the bot's dashboard
+        phish_detection_on: Enabled phishing message detection in this server
+        phish_detection_off: Disabled phishing message detection in this server
+      link:
+        no_animated_emotes: |
+          This server has no animated emotes!
+          You can only link animated emotes with this command.
+        too_many_static: This server has too many static emotes! Try deleting some first.
+        animated_only: This command only works with animated emotes - it makes them available in the emote picker for non-nitro users as static ones!
+        emote_not_found: Could not find that emote! Try aliasing it with `%{prefix}alias search`
+        upload_later: Could not upload emote; try again in a few hours
+        choose_emote: 'Choose an emote to create a static link for:'
+        create_static: Create a static emote?
+        create_static_emote: Create a static emote for %{emote}?
+        uploaded: Uploaded %{uploaded}!
+        uploaded_emote: "Uploaded %{uploaded}!\nUse it to get %{emote}"
+      pack:
+        max_title: This server is at its maximum emote/pack count already!
+        max_description: |
+          %{name} was not added as a server pack.
+
+          For more aliases/packs, anyone can vote for the bot at %{url}
+        left_pack: "'%{guild_name}' left %{name}"
+        not_in_pack: This server didn't have %{name} as a server pack to start with
+        invalid_group: <Invalid pack - Please Report>
+        join_server: (Join server)
+        no_longer_registered: '%{name} is no longer a registered emote pack'
+        already_joined: '%{guild_name} is already joined to %{name}'
+        joined_long: |
+          '%{guild_name}' joined %{name}.
+          Anyone in this server may now use the following emotes by typing its name into chat, including colons:
+        no_packs: "'%{guild_name}s' isn't joined to any packs globally!"
+      prefix:
+        instructions: "To set my prefix, mention me before the desired prefix so as to prevent accidental changes.\n> %{prefix}server prefix %{me} %{new}"
+        no_colon_prefix: NQN does not support prefixes starting with a colon (:)
+        no_slash_prefix: NQN does not support prefixes starting with a slash (/)
+        set_prefix: Set my prefix to `%{prefix}`
+      language:
+        choose: 'Choose my new language:'
+        set: Set my language to English for this server
+        this_locale_name: English
+      config:
+        enabled: Enabled
+        disabled: Disabled
+        prefix: Prefix
+        announcement: Announcement channel
+        boost_channel: Boost channel
+        boost_role: Boost role
+        audit_channel: Audit channel
+        nitro_role: Nitro role
+        stickers: Stickers
+        nitro: Nitro
+        replies: Message Link Previews
+        masked_links: Masked URLs
+        pings: Pings
+        user_content: User Content
+        personas: Personas
+        dashboard_posting: Dashboard Posting
+        phish_detection: Phish Detection
+        invite: Invite Link
+        pack: Pack Name
+        public: Public
+        member_count: Members
+        configure_features: Toggle Features
+        settings: Settings
+        channels: Channels
+        features: Features
+        pack_info: Pack Info
