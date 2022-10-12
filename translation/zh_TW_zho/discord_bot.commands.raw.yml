@@ -325,6 +325,8 @@ discord_bot:
         vi: '越南語：'
         fa: '波斯語：'
         nl: '荷蘭語：'
+        cn: 'Chinese (Simplified)'
+        tw: 'Chinese (Traditional)'
         bot_stats: Discord機器人統計
         shard_info_name: 數據庫資訊
         process_data_name: 機器人數據存取
