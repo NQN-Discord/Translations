@@ -1,4 +1,3 @@
----
 rest:
   join_server:
     joined: '%{user} vừa tham gia server thông qua gói emoji công khai!'
