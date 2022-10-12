@@ -1,0 +1,21 @@
+---
+discord_bot:
+  audit_log:
+    cropped: (Ausgeschnitten)
+    nsfw_censored: <Zensiert; %{channel} ist NSFW>
+    message_posted: |
+      Nachricht, die in %{channel} von %{author} gesendet wurde %{cropped}
+      [Jump Link](%{jump_url})
+    message_posted_persona: |
+      Nachricht, die in %{channel} von %{author} gesendet wurde %{cropped}
+      ⚠️ Nutzt Identität ⚠️
+      > **%{persona}**
+      [Jump Link](%{jump_url})
+    message_edited: |
+      Nachricht, die in %{channel} von %{author} gesendet wurde %{cropped}
+      [Jump Link](%{jump_url})
+    phish_deleted: |
+      Phishing-Nachricht in %{channel}von %{author} gelöscht
+    blocked_message: |
+      Deleted message with blocked emotes in %{channel} by %{author}
+    audit_log_post: NQN im Auftrag von %{author} (%{id})
