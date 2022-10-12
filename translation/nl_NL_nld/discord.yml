@@ -1,4 +1,3 @@
----
 discord:
   ext.commands.help:
     need_emojis: ' - Ik heb dit nodig om emoji''s te gebruiken!'
@@ -21,9 +20,9 @@ discord:
     really_useful: Echt Nuttige Commando's
     useful_links: 'Nuttige Links:'
     website: Website
-    vote: Stem!
+    vote: Stem op mij!
     support: Ondersteun
-    emote_list: Mijn Emoties
+    emote_list: Mijn Emoji's
     top_gg_vote: Door op mij te stemmen op [top.gg](https://top.gg/bot/559426966151757824/vote) wordt de bot beter door onze zichtbaarheid te vergroten en meer emoties toe te staan wanneer we lid worden van een server.
     bfd_vote: Mij een upvote te geven op [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) help onze zichtbaarheid. Met ekle nieuwe server die ik join, wordt mijn emoji-database groter.
     what_is: Wat is Not Quite Nitro?
