@@ -1,4 +1,3 @@
----
 discord:
   ext.commands.help:
     need_emojis: ' - Eu preciso disso para usar emojis!'
