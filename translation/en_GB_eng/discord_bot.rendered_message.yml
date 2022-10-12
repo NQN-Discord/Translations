@@ -1,0 +1,16 @@
+discord_bot:
+  rendered_message:
+    oops: Oops!
+    external_emojis: |
+      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Server Settings**.
+    override_external_emojis: |
+      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
+    download: Download
+    no_personas: |
+      Personas are not allowed in this server
+    no_messageless_posting: |
+      A server administrator has disabled posting through the web dashboard and slash commands
+    no_slowmode_posting: |
+      Posting messages in channels with a slowmode is not allowed
+    enable_posting: Enable Posting
+    posted_message: Posted message
