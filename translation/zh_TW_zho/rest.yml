@@ -1,4 +1,3 @@
----
 rest:
   join_server:
     joined: '%{user} 透過此伺服器的公眾表情符號包加入了伺服器！'
