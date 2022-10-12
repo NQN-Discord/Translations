@@ -1,0 +1,75 @@
+permissions:
+  add_reactions: |-
+    Add Reactions
+  administrator: |-
+    Administrator
+  attach_files: |-
+    Attach Files
+  ban_members: |-
+    Ban Members
+  change_nickname: |-
+    Change Nickname
+  connect: |-
+    Connect
+  create_instant_invite: |-
+    Create Instant Invite
+  deafen_members: |-
+    Deafen Members
+  embed_links: |-
+    Embed Links
+  external_emojis: |-
+    External Emojis
+  kick_members: |-
+    Kick Members
+  manage_channels: |-
+    Manage Channels
+  manage_emojis: |-
+    Manage Emojis
+  manage_guild: |-
+    Manage Server
+  manage_messages: |-
+    Manage Messages
+  manage_nicknames: |-
+    Manage Nicknames
+  manage_permissions: |-
+    Manage Roles
+  manage_roles: |-
+    Manage Roles
+  manage_threads: |-
+    Manage Threads
+  manage_posts: |-
+    Manage Posts
+  manage_webhooks: |-
+    Manage Webhooks
+  mention_everyone: |-
+    Mention Everyone
+  move_members: |-
+    Move Members
+  mute_members: |-
+    Mute Members
+  priority_speaker: |-
+    Priority Speaker
+  read_message_history: |-
+    Read Message History
+  read_messages: |-
+    Read Messages
+  send_messages: |-
+    Send Messages
+  send_tts_messages: |-
+    Send TTS Messages
+  speak: |-
+    Speak
+  stream: |-
+    Stream
+  use_external_emojis: |-
+    Use External Emojis
+  use_public_threads: |-
+    Use Public Threads
+  use_voice_activation: |-
+    Use Voice Activation
+  view_audit_log: |-
+    View Audit Log
+  view_channel: |-
+    View Channel
+  view_guild_insights: |-
+    View Server Insights
