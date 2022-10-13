@@ -83,7 +83,7 @@ command_docs:
        - `page`: Springe zu einer bestimmten Seite
        - `order`: Eins von 'uses', 'random'
   audit:
-    name: Audit
+    name: audit
     short_doc: Erhalte Audit Logs für repostete Nachhrichten für diesen Kanal
     help: |
       Erhalte Audit Logs für repostete Nachrichten für diesen Kanal
