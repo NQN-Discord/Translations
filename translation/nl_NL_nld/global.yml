@@ -1,4 +1,3 @@
----
 global:
   deleted_channel: '#VerwijderdKanaal'
   author: Auteur
@@ -47,7 +46,7 @@ global:
     Gebruikersinhoud is niet toegestaan op deze server. Je kunt het toestaan met > ```%{prefix}server user_content on```
   error_message: |
     Er is een fout opgetreden tijdens het verwerken van uw commando. Het is mogelijk niet correct voltooid.
-    Voor hulp en om dit als een probleem te melden, wordt u verzocht lid te worden van de testserver voor deze bot: 
+    Voor hulp en om dit als een probleem te melden, wordt u verzocht lid te worden van de testserver voor deze bot:
     https://discord.gg/mv8RbHD
 
     Foutcode: `%{event_id}`
