@@ -5,7 +5,7 @@ discord_bot:
       buttons:
         commands: Commands
         tutorial: Tutorial
-        my_emotes: My Emotes
+        my_emotes: 我的表情符号
       depreciated_commands:
         renamed: |
           This command has been renamed to `%{prefix}%{new}`.
@@ -326,6 +326,8 @@ discord_bot:
         vi: 'Vietnamese:'
         fa: 'Persian:'
         nl: 'Dutch:'
+        cn: 'Chinese (Simplified)'
+        tw: 'Chinese (Traditional)'
         bot_stats: Discord Bot Statistics
         shard_info_name: Shard Info
         process_data_name: Bot process data
