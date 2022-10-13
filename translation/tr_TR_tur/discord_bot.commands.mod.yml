@@ -48,7 +48,7 @@ discord_bot:
         start_next_n: Başlangıç mesajını %{count} sonra taşı
         move_both: Başlangıcı ve bitişi taşı
         both_previous_n: Başlangıcı ve bitişi %{count} önceye taşıyın
-        both_next_n: Move start and end %{count} after
+        both_next_n: Başlangıç mesajını %{count} önce taşı
         move:
           one: Mesaj taşı!
           many: '%{count} mesajıları taşıyın!'
