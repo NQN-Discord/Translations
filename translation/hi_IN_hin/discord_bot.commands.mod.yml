@@ -1,4 +1,3 @@
----
 discord_bot:
   commands:
     mod:
@@ -54,5 +53,5 @@ discord_bot:
           one: सन्देश स्थानांतरित करें!
           many: '%{count} सन्देश स्थानांतरित करें!'
         move_all:
-          one: Move message!
+          one: सन्देश स्थानांतरित करें!
           many: Move all %{count} messages!
