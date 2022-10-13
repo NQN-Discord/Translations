@@ -240,7 +240,7 @@ command_docs:
     name: mod
     short_doc: NQN moderation tools
   mod-audit:
-    name: Audit
+    name: audit
     short_doc: Erhalte Audit-Logs für repostete Nachrichten für diesen Kanal
     params:
       channel:
