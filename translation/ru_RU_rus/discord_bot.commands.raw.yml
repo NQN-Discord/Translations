@@ -309,6 +309,8 @@ discord_bot:
         vi: 'Vietnamese:'
         fa: 'Persian:'
         nl: 'Dutch:'
+        cn: 'Chinese (Simplified)'
+        tw: 'Chinese (Traditional)'
         bot_stats: Статистика Discord бота
         shard_info_name: Информация о шардах
         process_data_name: Данные процесса бота

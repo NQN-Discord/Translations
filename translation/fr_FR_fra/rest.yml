@@ -1,4 +1,3 @@
----
 rest:
   join_server:
     joined: '%{user} a rejoint le serveur depuis le pack d''emojis public !'

@@ -111,7 +111,7 @@ discord_bot:
         page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
         page_1_4_name: Deleting messages
         page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
-        page_2_title: Packs
+        page_2_title: पैक
         page_2_desc: |
           A pack is a bundle of emojis. After joining a pack, you gain access to the emojis it has.
         page_2_0_name: Joining emote packs
@@ -126,7 +126,7 @@ discord_bot:
           If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emote packs:
           > `%{prefix}pack publish MySuperCoolEmotePackName`
           You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
-        page_3_title: Aliases
+        page_3_title: उपनाम
         page_3_desc: |
           Aliases are just individual emotes which you give a name, and are then usable via that name.
 
@@ -144,13 +144,13 @@ discord_bot:
           If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
 
           If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
-        page_5_title: Masked URLs
+        page_5_title: छिपे हुए URL
         page_5_desc: |
           NQN allows users to send [Masked URLs](%{url}) as part of their regular messages.
 
           This uses standard markup, `[text to show](https://url.here)`.
           To send messages with buttons, use `[button title](button://url.here)`
-        page_6_title: Stickers
+        page_6_title: स्टीकर
         page_6_desc: |
           If you've ever wanted to send large images/stickers/emotes, you've come to the right place.
 
@@ -167,7 +167,7 @@ discord_bot:
           To view your stickers, use `%{prefix}stickers mine`.
 
           Note - to use Telegram stickers, you must first import them to the bot. The bot does not do this automatically.
-        page_7_title: Personas
+        page_7_title: पहचानें
         page_7_desc: |
           Personas allow anyone in your server to assume a given username and avatar distinct from their own.
           In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
@@ -326,6 +326,8 @@ discord_bot:
         vi: 'Vietnamese:'
         fa: 'Persian:'
         nl: 'Dutch:'
+        cn: 'Chinese (Simplified)'
+        tw: 'Chinese (Traditional)'
         bot_stats: Discord Bot Statistics
         shard_info_name: Shard Info
         process_data_name: Bot process data
@@ -333,7 +335,7 @@ discord_bot:
         package_info_name: Package info
         bot_metadata_name: Bot Metadata
         credits: Credits
-        author: Author
+        author: लेखक
         bot_latency: '> API/Bot Latency: %{bot_latency}ms'
         help_command: 'Help command: `%{prefix}help`'
         refresh: Refresh

@@ -18,7 +18,7 @@ discord_bot:
           Bitte wähle eine Nachricht, indem du mit Discord auf sie antwortest oder indem du ihre jump URL einfügst
         cannot_edit_no_nqn: Du kannst diese Nachricht nicht bearbeiten, da sie keine von NQN gesendete Nachricht ist!
         cannot_edit_different_user: Du kannst diese Nachricht nicht bearbeiten, da sie nicht von dir gesendet wurde!
-        edit_message: Edit Message
+        edit_message: Nachricht bearbeiten
         new_content: 'New Content:'
       delete:
         deleted: Nachricht erfolgreich gelöscht
@@ -326,6 +326,8 @@ discord_bot:
         vi: 'Vietnamese:'
         fa: 'Persian:'
         nl: 'Dutch:'
+        cn: 'Chinese (Simplified)'
+        tw: 'Chinese (Traditional)'
         bot_stats: Discord Bot Statistiken
         shard_info_name: Shard Info
         process_data_name: Bot Prozessdaten
