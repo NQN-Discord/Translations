@@ -1,4 +1,3 @@
----
 command_docs:
   gain_access_to_emojis:
     name: Emojilere erişin
@@ -821,7 +820,7 @@ command_docs:
         description: |-
           Show only animated or static emojis?
       page:
-        name: page
+        name: sayfa
         description: |-
           Start from a page other than 1
       order:
