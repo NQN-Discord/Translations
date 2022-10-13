@@ -1,4 +1,3 @@
----
 exceptions:
   command_not_found: |
     कमांड "%{command}" नहीं मिली
