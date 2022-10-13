@@ -1,4 +1,3 @@
----
 discord:
   ext.commands.help:
     need_emojis: ' - 我需要这个来使用表情符号！'
