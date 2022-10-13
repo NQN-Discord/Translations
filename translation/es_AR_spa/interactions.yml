@@ -1,4 +1,3 @@
----
 interactions:
   not_author: |
     Solo el usuario que uso el comando puede interactuar con este mensaje
