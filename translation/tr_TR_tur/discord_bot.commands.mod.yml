@@ -35,23 +35,23 @@ discord_bot:
           one: '%{count} mesaj %{to_channel}''a taşındı'
           many: '%{count} mesajları %{to_channel}''a taşındı'
         moved_from:
-          one: '%{author} moved %{count} message from %{from_channel}'
-          many: '%{author} moved %{count} messages from %{from_channel}'
+          one: '%{author}, %{count} mesaj %{from_channel} kanalından taşıdı'
+          many: '%{author}, %{count} mesajları %{from_channel} kanalından taşıdı'
         moved_to_from:
-          one: '%{author} moved %{count} message from %{from_channel} to %{to_channel}'
-          many: '%{author} moved %{count} messages from %{from_channel} to %{to_channel}'
+          one: '%{author}, %{count} mesajı %{from_channel}''dan %{to_channel}''a taşıdı'
+          many: '%{author}, %{count} mesajları %{from_channel}''dan %{to_channel}''a taşıdı'
         move_end: Bitiş mesajını taşı
         end_previous_n: '%{count} bitiş mesajını önceye taşı'
-        end_next_n: Move end message %{count} after
-        move_start: Move start message
-        start_previous_n: Move start message %{count} before
-        start_next_n: Move start message %{count} after
-        move_both: Move start and end
-        both_previous_n: Move start and end %{count} before
+        end_next_n: Bitiş mesajını %{count} sonra taşı
+        move_start: Başlangıç mesajını taşı
+        start_previous_n: '%{count} başlangıç mesajını önceye taşı'
+        start_next_n: Başlangıç mesajını %{count} sonra taşı
+        move_both: Başlangıcı ve bitişi taşı
+        both_previous_n: Başlangıcı ve bitişi %{count} önceye taşıyın
         both_next_n: Move start and end %{count} after
         move:
-          one: Move message!
-          many: Move %{count} messages!
+          one: Mesaj taşı!
+          many: '%{count} mesajıları taşıyın!'
         move_all:
-          one: Move message!
-          many: Move all %{count} messages!
+          one: Mesaj taşı!
+          many: Tüm %{count} mesajıları taşıyın!
