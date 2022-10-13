@@ -1,4 +1,3 @@
----
 discord_bot:
   commands:
     pack:
@@ -32,7 +31,7 @@ discord_bot:
       rename:
         already_exists: An emote pack called %{name} already exists
         not_published: This server was not published before.
-        renamed: Renamed %{old} to %{new}
+        renamed: '%{old}, %{new} olarak yeniden adlandırıldı'
       save:
         none_left: After filtering out emotes with the same name as ones in this server, there were none left to import!
         no_space: There's no space in this server to add any of the emotes in this pack.
@@ -63,8 +62,8 @@ discord_bot:
             You have no packs!
             Get some with `%{prefix}pack search`
           one: |
-            This will send you a direct message; do you wish to continue?
+            Bu size doğrudan mesaj gönderecek; devam etmek istiyor musun?
           many: |
-            This will send you %{count} direct messages; do you wish to continue?
+            Bu size %{count} doğrudan mesaj gönderecek; devam etmek istiyor musun?
         blocked: |-
-          You've blocked me, I can't message you!
+          Beni engelledin, sana mesaj atamıyorum!
