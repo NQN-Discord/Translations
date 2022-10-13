@@ -1,4 +1,3 @@
----
 command_docs:
   gain_access_to_emojis:
     name: Gain access to emojis
@@ -793,7 +792,7 @@ command_docs:
     name: telegram
     short_doc: Import stickers from telegram
   support:
-    name: support
+    name: 支持
     short_doc: Need some help with using me?
   tutorial:
     name: tutorial
