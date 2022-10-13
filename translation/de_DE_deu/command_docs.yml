@@ -1,4 +1,3 @@
----
 command_docs:
   gain_access_to_emojis:
     name: Zugang zu Emojis erhalten
@@ -84,7 +83,7 @@ command_docs:
        - `page`: Springe zu einer bestimmten Seite
        - `order`: Eins von 'uses', 'random'
   audit:
-    name: Audit
+    name: audit
     short_doc: Erhalte Audit Logs für repostete Nachhrichten für diesen Kanal
     help: |
       Erhalte Audit Logs für repostete Nachrichten für diesen Kanal
@@ -117,7 +116,7 @@ command_docs:
       Wenn das emoji benutzt wird, wird es automatisch gelöscht.
   emote-block-from_emote:
     name: from_emote
-    short_doc: Block the use of an emote
+    short_doc: Blockiere die nutzutung von einem emote
     params:
       emoji:
         name: emoji
@@ -125,10 +124,10 @@ command_docs:
           Which emoji to block the use of?
   emote-block-from_search:
     name: from_search
-    short_doc: Block the use of an emote
+    short_doc: Blockiere die nutzutung von einem emote
   emote-block-recently_used:
     name: recently_used
-    short_doc: Block the use of an emote
+    short_doc: Blockiere die nutzutung von einem emote
     params:
       emoji:
         name: emoji
@@ -211,7 +210,7 @@ command_docs:
     name: from_search
     short_doc: Search for an emoji to upload to your server
   export:
-    name: export
+    name: exportieren
     short_doc: Exportiere eine Liste deiner Emotes
   help:
     name: help
@@ -297,7 +296,7 @@ command_docs:
     short_doc: Sehe, welche Emojis du mit NQN posten kannst
     params:
       page:
-        name: page
+        name: seite
         description: |-
           Which emojis to show?
         choices:
@@ -343,7 +342,7 @@ command_docs:
     name: pack
     short_doc: Verwalte ganze Emote-Packs
   pack-dm:
-    name: dm
+    name: direkt_nachricht
     short_doc: Erhalte eine Liste aller deiner Packs in deine PNs.
     help: |
       Lasse dir eine vollständige Liste deiner aktuellen Packs und Emoji-Listen von dem Bot per PN zusenden.
@@ -367,7 +366,7 @@ command_docs:
     name: meta
     short_doc: Oooh... Schöne Statistiken über dein Pack
   pack-mine:
-    name: mine
+    name: mein
     short_doc: Erhalte eine Liste aller Emote-Packs, die du abonniert hast
   pack-publish:
     name: publish
@@ -382,11 +381,11 @@ command_docs:
         description: |-
           Do you want people to be able to join your server through the bot without an invite?
   pack-rename:
-    name: rename
+    name: umbenenen
     short_doc: Benenne ein EMote-Pack um
     params:
       new_name:
-        name: new_name
+        name: neuer_name
         description: |-
           What do you want to call your pack?
   pack-save:
@@ -398,15 +397,15 @@ command_docs:
         description: |-
           Which pack are you downloading emojis to this server from?
   pack-search:
-    name: search
+    name: suchen
     short_doc: Find entire packs of emotes
     params:
       search:
-        name: search
+        name: suchen
         description: |-
           What kind of emojis are you looking for?
       page:
-        name: page
+        name: seite
         description: |-
           Which page of packs to start on?
   pack-set_public:
@@ -444,7 +443,7 @@ command_docs:
         description: |-
           What's the new avatar URL?
   persona-delete:
-    name: delete
+    name: löschen
     short_doc: Lösche eine deiner Identitäten
     params:
       persona:
@@ -464,19 +463,19 @@ command_docs:
         description: |-
           What's the new username?
   persona-dm:
-    name: dm
+    name: direkt_nachricht
     short_doc: Sendet dir eine PN mit einer vollständigen Liste deiner Identitäten
   persona-export:
-    name: export
+    name: exportieren
     short_doc: Exportiert deine Identitäten-Liste in eine Datei
     help: |
       Exportiert deine Identitäten-Liste in eine Datei, welche mit anderen Bots kompatibel ist
   persona-import:
-    name: import
+    name: importieren
     short_doc: Import a previously exported list of personas
     params:
       file:
-        name: file
+        name: datei
         description: |-
           A file previously exported with /persona export
     help: |
@@ -494,7 +493,7 @@ command_docs:
         description: |-
           What's your persona's prefix?
   persona-rename:
-    name: rename
+    name: umbenenen
     short_doc: Gebe einer deiner Identitäten einen anderen Namen
     params:
       persona:
@@ -502,7 +501,7 @@ command_docs:
         description: |-
           Which persona are you changing the prefix of?
       new_name:
-        name: new_name
+        name: neuer_name
         description: |-
           What will the new prefix be?
   premium:
@@ -543,27 +542,27 @@ command_docs:
     name: alias
     short_doc: Server Aliases
   server-alias-delete:
-    name: delete
+    name: löschen
     short_doc: Du mochtest ein Emote nicht? Lass sie dafür arbeiten.
     params:
       alias:
         name: alias
         description: |-
-          Which alias do you want to remove?
+          Welchen alias willst du löschen?
   server-alias-import:
-    name: import
+    name: importieren
     short_doc: Import a list of server aliases from a file.
     params:
       file:
-        name: file
+        name: datei
         description: |-
-          A file previously exported with /alias export
+          Eine Datei die zuvor mit /alias exportieren exportiert wurde
   server-alias-list:
     name: liste
     short_doc: Zeige alle Identitäten, die jeder in deinem Server nutzen kann
     params:
       page:
-        name: page
+        name: seite
         description: |-
           Which page to start at?
   server-alias-post:
@@ -575,19 +574,19 @@ command_docs:
         description: |-
           Which channel do you want to post the server-wide emoji list to?
   server-alias-rename:
-    name: rename
+    name: umbenenen
     short_doc: Benenne eine Server-Identität um
     params:
       old_name:
-        name: old_name
+        name: alter_name
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          Welchen namen hat das emoji dem du einen neuen namen geben willst?
       new_name:
-        name: new_name
+        name: neuer_name
         description: |-
-          What should it be renamed to?
+          Wozu soll es umbenannt werden?
   server-alias-search:
-    name: search
+    name: suchen
     short_doc: Erlaube jedem in deinem Server, ein Emote zu nutzen!
   server-dashboard_posting:
     name: dashboard_posting
@@ -643,7 +642,7 @@ command_docs:
     name: post
     short_doc: Poste eine Liste von Server-Packs
   server-pack-search:
-    name: search
+    name: suchen
     short_doc: Suche nache einem Emote-Pack, um es serverweit hinzuzufügen
   server-permissions_debug:
     name: permissions_debug
@@ -750,7 +749,7 @@ command_docs:
         description: |-
           The URL to the Telegram sticker pack
   sticker-delete:
-    name: delete
+    name: löschen
     short_doc: Lösche einen Sticker
     params:
       name:
@@ -758,7 +757,7 @@ command_docs:
         description: |-
           Which sticker to delete
   sticker-import:
-    name: import
+    name: importieren
     short_doc: Importiere Sticker aus Emotes
     help: |
       Importiere Sticker aus Emotes
@@ -768,26 +767,26 @@ command_docs:
        - sticker import blue pat
       Bedenke, dass die Option der Suche von Emotes Aliasing nicht unterstützt.
   sticker-mine:
-    name: mine
+    name: mein
     short_doc: Finde meine Sticker
   sticker-rename:
-    name: rename
+    name: umbenenen
     short_doc: Benenne einen Sticker um
     params:
       old_name:
-        name: old_name
+        name: alter_name
         description: |-
           Which sticker to rename
       new_name:
-        name: new_name
+        name: neuer_name
         description: |-
           What to rename it to?
   sticker-search:
-    name: search
+    name: suchen
     short_doc: Suche durch alle Sticker, die NQN hat, mit einer optionalen Suchanfrage
     params:
       search:
-        name: search
+        name: suchen
         description: |-
           Which to search for?
   sticker-telegram:
@@ -810,7 +809,7 @@ command_docs:
   _search:
     params:
       search:
-        name: search
+        name: suchen
         description: |-
           What are you searching for?
       exact:
@@ -822,7 +821,7 @@ command_docs:
         description: |-
           Show only animated or static emojis?
       page:
-        name: page
+        name: seite
         description: |-
           Start from a page other than 1
       order:

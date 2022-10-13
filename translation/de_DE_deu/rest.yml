@@ -1,4 +1,3 @@
----
 rest:
   join_server:
     joined: '%{user} ist den Server über ein öffentliches Emote-Pack beigetreten!'

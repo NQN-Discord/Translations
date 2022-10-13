@@ -324,6 +324,8 @@ discord_bot:
         vi: 'Tiếng Việt:'
         fa: 'Tiếng Ba Tư:'
         nl: 'Tiếng Hà Lan:'
+        cn: 'Tiếng Trung (Giản Thể)'
+        tw: 'Tiếng Trung (Phồn Thể)'
         bot_stats: Thông tin số liệu của bot
         shard_info_name: Thông tin shard
         process_data_name: Dữ liệu xử lý của bot

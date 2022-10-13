@@ -1,4 +1,3 @@
----
 interactions:
   not_author: |
     只有訊息作者才可以與此訊息交互

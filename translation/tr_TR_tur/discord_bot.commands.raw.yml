@@ -5,7 +5,7 @@ discord_bot:
       buttons:
         commands: Commands
         tutorial: Tutorial
-        my_emotes: My Emotes
+        my_emotes: Emojilerim
       depreciated_commands:
         renamed: |
           This command has been renamed to `%{prefix}%{new}`.
@@ -18,7 +18,7 @@ discord_bot:
           Please choose a message either by replying to it with Discord, or by pasting it's jump URL
         cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
         cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
-        edit_message: Edit Message
+        edit_message: Mesaj Düzenle
         new_content: 'New Content:'
       delete:
         deleted: Message successfully deleted
@@ -36,8 +36,8 @@ discord_bot:
       my_emotes:
         current_guild: Current Server
         mutual_guilds: Mutual Servers
-        aliases: Aliases
-        packs: Packs
+        aliases: Takma adlar
+        packs: Paketler
         no_mutual_guilds: |
           NQN allows you to use any emoji from our mutual servers in this server.
           Currently, you do not have any mutual servers with NQN, aside from this one.
@@ -111,7 +111,7 @@ discord_bot:
         page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
         page_1_4_name: Deleting messages
         page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
-        page_2_title: Packs
+        page_2_title: Paketler
         page_2_desc: |
           A pack is a bundle of emojis. After joining a pack, you gain access to the emojis it has.
         page_2_0_name: Joining emote packs
@@ -126,7 +126,7 @@ discord_bot:
           If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emote packs:
           > `%{prefix}pack publish MySuperCoolEmotePackName`
           You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
-        page_3_title: Aliases
+        page_3_title: Takma adlar
         page_3_desc: |
           Aliases are just individual emotes which you give a name, and are then usable via that name.
 
@@ -326,6 +326,8 @@ discord_bot:
         vi: 'Vietnamese:'
         fa: 'Persian:'
         nl: 'Nederlands:'
+        cn: 'Chinese (Simplified)'
+        tw: 'Chinese (Traditional)'
         bot_stats: Discord Bot Statistics
         shard_info_name: Shard Info
         process_data_name: Bot process data
@@ -333,7 +335,7 @@ discord_bot:
         package_info_name: Package info
         bot_metadata_name: Bot Metadata
         credits: Credits
-        author: Author
+        author: Yazar
         bot_latency: '> API/Bot Latency: %{bot_latency}ms'
         help_command: 'Help command: `%{prefix}help`'
         refresh: Refresh

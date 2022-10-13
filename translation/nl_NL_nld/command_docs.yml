@@ -1,4 +1,3 @@
----
 command_docs:
   gain_access_to_emojis:
     name: Krijg toegang tot emoji's
@@ -166,7 +165,7 @@ command_docs:
         description: |-
           Vergrendel de emoji voor welke rol?
   emote-roleunlock:
-    name: roleunlock
+    name: rolontgrendelen
     short_doc: Iedereen toestaan een vergrendelde emote te gebruiken
     params:
       emoji:

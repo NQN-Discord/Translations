@@ -1,9 +1,8 @@
----
 discord_bot:
   parameter_types:
     #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
     SearchTerms:
-      name: Search terms
+      name: Arama terimleri
       description: |-
         Search terms
     Message:
