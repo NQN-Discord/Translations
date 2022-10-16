@@ -1,0 +1,45 @@
+discord_bot:
+  commands:
+    sticker:
+      create:
+        attachment_needed: You need to upload a sticker with this command
+        image_needed: The file needs to be an image
+        sticker_exists: A sticker called %{name} exists already!
+        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
+        too_large: This file is too large. Stickers can only be 8MB
+        created: "You can now use `:%{name}:`\nNot quite right?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
+      mine:
+        no_stickers: You have no stickers
+      delete:
+        no_sticker: "- :%{name}: - Doesn't exist or not yours"
+        sticker_deleted: '+ :%{name}:'
+        question:
+          zero: No stickers to delete!
+          one: Do you want to delete this sticker?
+          many: Do you want to delete all %{count} stickers?
+        deleted_all:
+          one: Deleted %{count} sticker
+          many: Deleted %{count} stickers
+      rename:
+        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
+        no_sticker: This sticker doesn't exist
+        permission_denied: You can't rename someone else's sticker!
+        destination_taken: The destination name is already taken!
+        renamed: 'Renamed \:%{old}: to :%{new}:'
+      search:
+        no_stickers: No stickers found
+      sticker_import:
+        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
+        find_emote: find an emote to turn into a sticker!
+        created: You can now use `:%{name}:`
+        sticker_exists: A sticker called `:%{name}:` already exists; you can't overwrite it.
+        duplicate_exists: A sticker with the same image called %{name} exists already!
+      telegram_import:
+        pack_invalid: '`%{name}` is not a valid Telegram sticker pack name'
+        telegram_unloaded: Telegram package not loaded - please report this to a bot developer.
+        already_created: Already created by someone else; cannot overwrite
+        finished_importing:
+          one: Finished importing one sticker
+          many: Finished importing %{count} stickers
+        search_future: "To search for these stickers in the future, use:\n> `%{prefix}sticker search %{name}.`"
+        view: View Stickers
