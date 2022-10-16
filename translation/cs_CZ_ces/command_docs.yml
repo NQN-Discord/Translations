@@ -36,7 +36,7 @@ command_docs:
     help: |
       Smazat všechny tvé aliasy
   alias-dm:
-    name: dm
+    name: sz
     short_doc: Get a full list of your aliases in DMs
     help: |
       Have the bot send you a list of your aliases in your DMs
@@ -48,27 +48,27 @@ command_docs:
     short_doc: Import someone else's alias list
     params:
       file:
-        name: file
+        name: soubor
         description: |-
           A file previously exported with /alias export
   alias-mine:
-    name: mine
+    name: moje
     short_doc: Get a list of aliases you've made
     params:
       page:
-        name: page
+        name: stránka
         description: |-
           What page to start at?
   alias-rename:
-    name: rename
+    name: přejmenovat
     short_doc: Rename one of your aliases
     params:
       old_name:
-        name: old_name
+        name: staré_jméno
         description: |-
           What's the name of the emoji you want to give a new name to?
       new_name:
-        name: new_name
+        name: nové_jméno
         description: |-
           What should it be renamed to?
   alias-search:
@@ -95,9 +95,9 @@ command_docs:
     name: smazat
     short_doc: Smazat jednu z tvých zpráv přeposlaných NQN
     help: |
-      Delete one of your messages reposted by NQN.
-      By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
-      You can also use Discord's message reply functionality to delete that message.
+      Smazat jednu z tvých zpráv přeposlaných NQN.
+      Ve výchozím nastavení se odstraní poslední zpráva v tomto kanálu, ale můžeš případně zadat URL jiné zprávy, aby byla smazána namísto ní.
+      K odstranění této zprávy můžeš také použít funkci odpovědi na zprávu Discordu.
   edit:
     name: edit
     short_doc: Edit a message posted by NQN
@@ -296,7 +296,7 @@ command_docs:
     short_doc: See what emojis you can post with NQN
     params:
       page:
-        name: page
+        name: stránka
         description: |-
           Which emojis to show?
         choices:
@@ -319,9 +319,9 @@ command_docs:
         description: |-
           The message to post
       persona:
-        name: persona
+        name: osobnost
         description: |-
-          The persona to use
+          Osobnost, kterou použít
       attachment:
         name: attachment
         description: |-
@@ -335,14 +335,14 @@ command_docs:
         description: |-
           Which emoji to post
       persona:
-        name: persona
+        name: osobnost
         description: |-
-          The persona to use
+          Osobnost, kterou použít
   pack:
     name: pack
     short_doc: Manage entire packs of emotes
   pack-dm:
-    name: dm
+    name: sz
     short_doc: Get a full list of your packs in your DMs
     help: |
       Have the bot send you a complete list of your packs current emoji lists through your DMs.
@@ -366,14 +366,14 @@ command_docs:
     name: meta
     short_doc: Oooh... Pretty stats about your pack
   pack-mine:
-    name: mine
+    name: moje
     short_doc: Get a list of emote packs you're subscribed to
   pack-publish:
     name: publish
     short_doc: Publish your emote server as an emote pack
     params:
       name:
-        name: name
+        name: jméno
         description: |-
           What do you want to call your pack?
       public:
@@ -381,11 +381,11 @@ command_docs:
         description: |-
           Do you want people to be able to join your server through the bot without an invite?
   pack-rename:
-    name: rename
+    name: přejmenovat
     short_doc: Rename an emote pack
     params:
       new_name:
-        name: new_name
+        name: nové_jméno
         description: |-
           What do you want to call your pack?
   pack-save:
@@ -393,7 +393,7 @@ command_docs:
     short_doc: Upload all of the emotes from a pack to this server
     params:
       name:
-        name: name
+        name: jméno
         description: |-
           Which pack are you downloading emojis to this server from?
   pack-search:
@@ -405,7 +405,7 @@ command_docs:
         description: |-
           What kind of emojis are you looking for?
       page:
-        name: page
+        name: stránka
         description: |-
           Which page of packs to start on?
   pack-set_public:
@@ -428,42 +428,42 @@ command_docs:
     name: unpublish
     short_doc: Don't want this server to be an emote pack anymore?
   persona:
-    name: persona
-    short_doc: Manage your personas
+    name: osobnost
+    short_doc: Spravovat své osobnosti
   persona-avatar_url:
     name: avatar_url
-    short_doc: Set the avatar of a persona
+    short_doc: Nastavit avatar osobnosti
     params:
       persona:
-        name: persona
+        name: osobnost
         description: |-
-          Which persona are you changing the username for?
+          Které osobnosti měníš uživatelské jméno?
       avatar_url:
         name: avatar_url
         description: |-
           What's the new avatar URL?
   persona-delete:
     name: smazat
-    short_doc: Delete one of your personas
+    short_doc: Smazat jednu z tvých osobností
     params:
       persona:
-        name: persona
+        name: osobnost
         description: |-
-          Which persona are you deleting?
+          Kterou osobnost mažeš?
   persona-display_name:
     name: display_name
-    short_doc: Change the username of a persona
+    short_doc: Změnit uživatelské jméno osobnosti
     params:
       persona:
-        name: persona
+        name: osobnost
         description: |-
-          Which persona are you changing the username for?
+          Které osobnosti měníš uživatelské jméno?
       display_name:
         name: display_name
         description: |-
           What's the new username?
   persona-dm:
-    name: dm
+    name: sz
     short_doc: DMs you a full list of your personas
   persona-export:
     name: export
@@ -475,7 +475,7 @@ command_docs:
     short_doc: Import a previously exported list of personas
     params:
       file:
-        name: file
+        name: soubor
         description: |-
           A file previously exported with /persona export
     help: |
@@ -489,19 +489,19 @@ command_docs:
     short_doc: Register a persona for later use
     params:
       short_name:
-        name: short_name
+        name: krátké_jméno
         description: |-
           What's your persona's prefix?
   persona-rename:
-    name: rename
+    name: přejmenovat
     short_doc: Give one of your personas a different name
     params:
       persona:
-        name: persona
+        name: osobnost
         description: |-
           Which persona are you changing the prefix of?
       new_name:
-        name: new_name
+        name: nové_jméno
         description: |-
           What will the new prefix be?
   premium:
@@ -553,7 +553,7 @@ command_docs:
     short_doc: Import a list of server aliases from a file.
     params:
       file:
-        name: file
+        name: soubor
         description: |-
           A file previously exported with /alias export
   server-alias-list:
@@ -561,7 +561,7 @@ command_docs:
     short_doc: Show all the aliases that anyone in your server can use
     params:
       page:
-        name: page
+        name: stránka
         description: |-
           Which page to start at?
   server-alias-post:
@@ -573,15 +573,15 @@ command_docs:
         description: |-
           Which channel do you want to post the server-wide emoji list to?
   server-alias-rename:
-    name: rename
+    name: přejmenovat
     short_doc: Rename a server alias
     params:
       old_name:
-        name: old_name
+        name: staré_jméno
         description: |-
           What's the name of the emoji you want to give a new name to?
       new_name:
-        name: new_name
+        name: nové_jméno
         description: |-
           What should it be renamed to?
   server-alias-search:
@@ -647,7 +647,7 @@ command_docs:
     name: permissions_debug
     short_doc: Let NQN tell you what permissions it's missing
   server-personas:
-    name: personas
+    name: osobnosti
     short_doc: Enable or disable usage of personas
     help: |
       Allows users to post with arbitrary usernames and avatars
@@ -721,7 +721,7 @@ command_docs:
         description: |-
           The image to turn into a sticker
       name:
-        name: name
+        name: jméno
         description: |-
           What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
   sticker-create-from_emote:
@@ -733,7 +733,7 @@ command_docs:
         description: |-
           …
       name:
-        name: name
+        name: jméno
         description: |-
           What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
   sticker-create-from_search:
@@ -749,12 +749,12 @@ command_docs:
           The URL to the Telegram sticker pack
   sticker-delete:
     name: smazat
-    short_doc: Delete a sticker you own
+    short_doc: Smazat nálepku, kterou vlastníš
     params:
       name:
-        name: name
+        name: jméno
         description: |-
-          Which sticker to delete
+          Kterou nálepku smazat
   sticker-import:
     name: import
     short_doc: Import stickers from emotes
@@ -766,18 +766,18 @@ command_docs:
        - sticker import blue pat
       Note that the searching through emotes option does not support aliasing
   sticker-mine:
-    name: mine
+    name: moje
     short_doc: Find my stickers
   sticker-rename:
-    name: rename
+    name: přejmenovat
     short_doc: Rename a sticker you own
     params:
       old_name:
-        name: old_name
+        name: staré_jméno
         description: |-
           Which sticker to rename
       new_name:
-        name: new_name
+        name: nové_jméno
         description: |-
           What to rename it to?
   sticker-search:
@@ -820,7 +820,7 @@ command_docs:
         description: |-
           Show only animated or static emojis?
       page:
-        name: page
+        name: stránka
         description: |-
           Start from a page other than 1
       order:
