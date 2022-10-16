@@ -1,0 +1,57 @@
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: No messages to audit.
+        expand: Expand
+        truncate: Truncate
+      edit_topic:
+        edited: Edited %{channel}'s topic.
+        edited_audit: "%{author} edited %{channel}'s topic to:\n>>> %{description}"
+      ban:
+        owner: I cannot ban the owner!
+        cannot_ban: I cannot ban <@%{banee}>!
+        you_cannot_ban: You cannot ban <@%{banee}>!
+        banned: Banned <@%{banee}> (ID %{banee})
+        banned_audit: '%{author} banned <@%{banee}> (ID %{banee})'
+      kick:
+        owner: I cannot kick the owner!
+        cannot_kick: I cannot kick <@%{kickee}>!
+        you_cannot_kick: You cannot kick <@%{kickee}>!
+        kicked: Kicked <@%{kickee}> (ID %{kickee})
+        kicked_audit: '%{author} kicked <@%{kickee}> (ID %{kickee})'
+      purge:
+        '0_100': Number of messages to move must be between 1 and 100
+        audit:
+          one: '%{author} purged %{count} message in %{channel}'
+          many: '%{author} purged %{count} messages in %{channel}'
+      move:
+        user_no_perms: You don't have both 'Send Messages' and 'Manage Messages' in %{channel}.
+        me_no_perms: I need to have 'Read Messages', 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
+        message_limit: Number of messages to move must be between 1 and %{count}
+        forum_modal_title: Create a new post
+        forum_post_name: 'Post name:'
+        moved_to:
+          one: Moved %{count} message to %{to_channel}
+          many: Moved %{count} messages to %{to_channel}
+        moved_from:
+          one: '%{author} moved %{count} message from %{from_channel}'
+          many: '%{author} moved %{count} messages from %{from_channel}'
+        moved_to_from:
+          one: '%{author} moved %{count} message from %{from_channel} to %{to_channel}'
+          many: '%{author} moved %{count} messages from %{from_channel} to %{to_channel}'
+        move_end: Move end message
+        end_previous_n: Move end message %{count} before
+        end_next_n: Move end message %{count} after
+        move_start: Move start message
+        start_previous_n: Move start message %{count} before
+        start_next_n: Move start message %{count} after
+        move_both: Move start and end
+        both_previous_n: Move start and end %{count} before
+        both_next_n: Move start and end %{count} after
+        move:
+          one: Move message!
+          many: Move %{count} messages!
+        move_all:
+          one: Move message!
+          many: Move all %{count} messages!
