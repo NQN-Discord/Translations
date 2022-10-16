@@ -1,0 +1,372 @@
+---
+discord_bot:
+  commands:
+    raw:
+      buttons:
+        commands: Commands
+        tutorial: Tutorial
+        my_emotes: My Emotes
+      depreciated_commands:
+        renamed: |
+          This command has been renamed to `%{prefix}%{new}`.
+          If you don't want to see this message again, react with ❌
+        ignored: Ignored `%{name}` for you.
+      edit:
+        never_posted: You've never posted a message with NQN in this channel!
+        message_deleted: |
+          Your most recent message with NQN in this channel has been deleted!
+          Please choose a message either by replying to it with Discord, or by pasting it's jump URL
+        cannot_edit_no_nqn: You cannot target this message as it's not a message NQN posted!
+        cannot_edit_different_user: You cannot target this message as it wasn't posted by you!
+        edit_message: Edit Message
+        new_content: 'New Content:'
+      delete:
+        deleted: Message successfully deleted
+      export:
+        exported_list_short: "Here's your exported emotes:"
+        exported_list_long: |
+          Here's your exported emotes
+          To share them with other people, they need to run:
+          > `%{prefix}alias import %{url}`
+      ignore_me:
+        user_ignored: NQN will no longer repost your messages. Run this command again to re-enable
+        user_unignored: NQN will repost your messages as normal
+      invite:
+        add_nqn: Add NQN to your server!
+      my_emotes:
+        current_guild: Current Server
+        mutual_guilds: Mutual Servers
+        aliases: Aliases
+        packs: Packs
+        no_mutual_guilds: |
+          NQN allows you to use any emoji from our mutual servers in this server.
+          Currently, you do not have any mutual servers with NQN, aside from this one.
+
+          If you want, you can [invite NQN to another server](%{bot_invite}) to gain access to it's emojis here.
+      ranking:
+        vote_link: You can vote for the bot at %{url} to add more serverwide emotes and to increase the server's rank.
+        top_server: Congrats on being the most supportive server <a:BluePat:679807864327766048>
+        thanks: Thanks for voting for the bot!
+        ranking: |
+          %{guild} is ranked #%{rank} out of all the servers using NQN.
+
+          %{rank_leaderboard}
+          You have voted %{total_votes} times for NQN. %{thanks}
+
+          %{user_ranking}
+
+          %{extra_message}
+      emote_stats:
+        top_emotes: "Top used emojis in this server"
+        choose_page: "Choose a page"
+        never: "Never used"
+        once: "Used once"
+        infrequent: "Infrequent use"
+        often: "Used often"
+        frequent: "Frequent use"
+        extreme: "Extremely frequent use"
+        extraordinary: "Extraordinarily frequently used"
+        off_chart: "Off the chart"
+        times_used:
+          zero: "Never used"
+          one: "Used once"
+          many: "~%{count} times used"
+        times_used_per_day:
+          zero: "Less than once per day"
+          one: "About once per day"
+          many: "~%{count} times per day"
+        emote_count:
+          zero: "No emotes"
+          one: "1 emote"
+          many: "%{count} emotes"
+        boundary: "~%{min} - %{max} times used"
+      tutorial:
+        choose_page: Browse Tutorial
+        invalid_page: There are only %{count} pages in the tutorial!
+        permissions_missing: I need to be able to write embeds and add reactions to show my tutorial. It can be reran with `%{prefix}tutorial`.
+        wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
+        default_emojis: Default Emojis
+        default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
+        page_0_title: Tutorial for Not Quite Nitro, TLDR
+        page_0_desc: |
+          %{locale_flag_emojis} **Language Options** %{locale_flag_emojis}
+          > `%{prefix}server language`
+        page_0_0_name: More Emotes?
+        page_0_0_desc: |
+          Everyone is able to use any emote that shares a server with both you and this bot.
+          **There are several other ways to use emotes in servers you are not in:**
+        page_0_1_name: "3\u20E3 Emote packs - Emote Bundles"
+        page_0_1_desc: '> `%{prefix}pack search`'
+        page_0_2_name: "4\u20E3 Aliases - Individual Emotes"
+        page_0_2_desc: '> `%{prefix}alias search EmoteName`'
+        page_1_title: Reactions
+        page_1_desc: You can only react with emotes you can use with NQN.
+        page_1_0_name: 'Reacting to the most recent message:'
+        page_1_0_desc: '> `%{prefix}react EmoteName`'
+        page_1_1_name: 'Reacting to a message in the same channel:'
+        page_1_1_desc: '> `%{prefix}react EmoteName` (Whilst replying to the target message)'
+        page_1_2_name: 'Reacting to recent messages:'
+        page_1_2_desc: "> `%{prefix}react MessagesAgo EmoteName`\nThis only works up to 20 messages ago."
+        page_1_3_name: 'Reacting to messages:'
+        page_1_3_desc: '> `%{prefix}react MessageURL EmoteName`'
+        page_1_4_name: Deleting messages
+        page_1_4_desc: "React to messages sent on your behalf with \u274C (\\:x:) to delete them."
+        page_2_title: Packs
+        page_2_desc: |
+          A pack is a bundle of emojis. After joining a pack, you gain access to the emojis it has.
+        page_2_0_name: Joining emote packs
+        page_2_0_desc: |
+          To search for emote packs, use `%{prefix}pack search`, optionally with a search query, such as `%{prefix}pack search dragon`.
+        page_2_1_name: Finding the emote packs you're in
+        page_2_1_desc: |
+          > `%{prefix}pack mine`
+          This command shows you a list of emote packs you're currently a member of, including the names of the emotes in each pack.
+        page_2_2_name: Publishing your own packs
+        page_2_2_desc: |
+          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emote packs:
+          > `%{prefix}pack publish MySuperCoolEmotePackName`
+          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
+        page_3_title: Aliases
+        page_3_desc: |
+          Aliases are just individual emotes which you give a name, and are then usable via that name.
+
+          If you know the exact name of the emote you want to add:
+          > `%{prefix}alias search :EmoteName:`
+
+          If you want to look through every emote NQN can let you use:
+          > `%{prefix}alias search whatever` (No colons if you don't know the exact name)
+        page_4_title: Message Link Previews
+        page_4_desc: |
+          NQN allows you to preview messages sent in different channels.
+
+          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
+
+          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+
+          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
+        page_5_title: Masked URLs
+        page_5_desc: |
+          NQN allows users to send [Masked URLs](%{url}) as part of their regular messages.
+
+          This uses standard markup, `[text to show](https://url.here)`.
+          To send messages with buttons, use `[button title](button://url.here)`
+        page_6_title: Stickers
+        page_6_desc: |
+          If you've ever wanted to send large images/stickers/emotes, you've come to the right place.
+
+          Inspired by Telegram, NQN brings stickers to Discord.
+          You can use them as you would an emote, except stickers have a file extension at the end.
+
+          Each message can contain up to 10 stickers.
+
+          You can create stickers with `%{prefix}sticker create` and upload an image file or by importing from Telegram.
+          This is done with `%{prefix}sticker telegram https://t.me/addstickers/sticker-pack-here`.
+
+          To search through stickers you can use with NQN, use `%{prefix}sticker search` with a optional search terms.
+
+          To view your stickers, use `%{prefix}stickers mine`.
+
+          Note - to use Telegram stickers, you must first import them to the bot. The bot does not do this automatically.
+        page_7_title: Personas
+        page_7_desc: |
+          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
+          In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
+
+          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
+          > name: Rest of message
+        page_8_title: Server Administration
+        page_8_desc: |
+          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
+          Anyone with **Manage Server** permissions can change server settings with the bot.
+
+          Here are the features you can toggle:
+
+           • Nitro - `%{prefix}server nitro`
+           • Stickers - `%{prefix}server stickers`
+           • Message Link Previews - `%{prefix}server message_link_previews`
+           • Personas - `%{prefix}server personas`
+           • Masked Links - `%{prefix}server masked_links`
+        page_8_0_name: Troubleshooting Issues
+        page_8_0_desc: |
+          In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:
+          **Manage Webhooks**, **Use External Emojis**, **Add Reactions**, **Read Messages** and **Manage Messages**.
+        page_8_1_name: "Not Quite Nitro's prefix:"
+        page_8_1_desc: |
+          Anyone with **Manage Server** permissions can change the prefix NQN uses.
+
+          The bot's current prefix for commands is `%{prefix}`, though it can be changed with
+          > %{prefix}server prefix %{ping} ?
+          This would change it to `?`, though any prefix works.
+
+          NQN will *always* listen to it's ping however regardless of other settings.
+        page_8_2_name: Auditing Messages
+        page_8_2_desc: |
+          NQN keeps a log of messages it reposts, as the original message gets removed.
+          This is in case that someone changes their name and avatar before posting an offensive message, or otherwise misbehaves using the bot.
+
+          To get the audited messages for the server, use `%{prefix}audit guild` or [visit our website](%{url}), select your server and then click on the cog at the top.
+
+          Only users with **Manage Server** and **View Audit Log** can view the logged messages.
+
+          An alternate approach which stays inside Discord is the Audit Channel, which can be set with `%{prefix}server set_audit_channel #channel`.
+          Any resent messages will be posted there with their current username, discriminator and user id.
+        page_8_3_name: 'Permissions:'
+        page_8_3_desc: |
+          NQN requires the 'Manage Webhooks' server permission to correctly function; reposting messages will not work without this.
+
+           • To disable commands from working in a specific channel, deny NQN 'Send Message' permissions there via user permissions.
+           • To disable reposting messages in a specific channel, deny NQN 'Manage Webhook' permissions there via user permissions.
+           • To disable all interactions in a specific channel, deny NQN 'Read Message' permissions there via user permissions.
+        page_8_4_name: 'Information Gathering:'
+        page_8_4_desc: |
+          NQN stores reposted messages such that users can delete them and for the audit log.
+          Every emote in your server is visible by anybody using the bot and is searchable, though unlinkable to your server.
+
+          Certain statistics about how the bot is used are gathered to inform choices as to how to improve the bot further but will never include generic messages sent by your users.
+        page_9_title: Advanced Usage
+        page_9_desc: |
+          If someone uses an emote, NQN allows you to use it as well, but only if it's been recently used in the server.
+          **NOTE:** If you've only just invited NQN, it won't know about any recently used emotes before it joined.
+
+          In the case that you have several emotes with the same name, the following order is used:
+
+          1. Aliases
+          2. The current server
+          3. Emote Packs
+          4. Other servers you share with NQN
+          5. Server wide aliases
+          6. Server wide packs
+          7. Recently used emojis in the current server
+          8. Recently shown packs in the current server
+
+          If you find yourself with clashing emotes, create the one you want to use as an alias, and that will override it.
+      react:
+        user_needs_to_react: |
+          Hey %{user_ping}!
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions after %{time} seconds.*
+        channel_empty: This channel is empty
+        invalid_react:
+          one: |
+            The following emote is not valid:
+            > %{not_found}
+            Emotes must only contain alphanumerics, underscores and up to a single dash.
+          many: |
+            The following emotes are not valid:
+            > %{not_found}
+            Emotes must only contain alphanumerics, underscores and up to a single dash.
+        emote_unusable:
+          one: |
+            The following emote cannot be used in reactions:
+            > %{unusable}
+            Emotes must be from servers NQN is a member of; if you upload it to a server the bot's in, it will become usable in reactions!
+          many: |
+            The following emotes cannot be used in reactions:
+            > %{unusable}
+            Emotes must be from servers NQN is a member of; if you upload them all to a server the bot's in, they will become usable in reactions!
+        emote_not_found:
+          one: |
+            Could not find emote %{not_found}
+            Have you added it as an alias with `%{prefix}alias search` or joined the corresponding emote pack with `%{prefix}pack search`?
+          many: |
+            Could not find emotes %{not_found}
+            Have you added all the emotes as aliases with `%{prefix}alias search` or joined the corresponding emote packs with `%{prefix}pack search`?
+        too_many_reacts:
+          one: This message has too many reactions to add a new one!
+          many: This message has too many reactions to add them all!
+        reacting:
+          one: Adding %{count} reaction; remember to react yourself for them to stay!
+          many: Adding %{count} reactions; remember to react yourself for them to stay!
+        blocked: '%{author} has blocked me, so I cannot add that reaction!'
+        on_behalf: NQN on behalf of %{author} (%{author_id})
+        audit_message: "%{author} reacted to [this message](<%{jump_url}>) in %{channel} with these emotes:\n"
+      info:
+        shard_data: |
+          > No. shards: %{shard_count} (%{shards_down} down)
+          > Average latency: %{average_latency}ms
+          > Current shard: %{current_shard}
+          > Current shard latency: %{current_latency}ms
+        process_data: |
+          > RAM usage: %{ram_usage}
+          > CPU usage: %{cpu_usage}%
+          > Network:
+          > - Sent: %{network_send}
+          > - Received: %{network_recv}
+        elasticsearch_metadata: |
+          > RAM usage: %{ram_usage}
+          > Disk space: %{disk_use}
+          > Network total: %{bytes_sent}
+        description: |
+          Author: %{owner}
+          Application name: %{app_name}
+          Help command: `%{prefix}help`
+        bot_metadata: |
+          > Uptime: %{uptime}
+          > Emote Servers: %{alias_servers_available} / %{alias_servers_total}
+          > Servers Loaded: %{guilds_loaded} / %{guilds}
+        guild_features:
+          zero: ''
+          one: |
+            > Server Feature: %{guild_features}
+          many: |
+            > Server Features: %{guild_features}
+        bot_credits: |
+          [Bot avatar and Wumpus art by Dooley](<https://www.dooleytm.com>) from [Wump Motes](https://discord.gg/pEjCBNF)
+
+          __Special thanks to the following people:__
+          > <:OriLove:726475603879919616> OrionVi
+          > <:bean:884394196415442985> Ben
+          > <:AetherSmile:726474477956759553> Aether Wake
+
+          __Translation Credits:__
+        es: 'Spanish:'
+        ru: 'Russian:'
+        pt: 'Portuguese:'
+        it: 'Italian:'
+        vi: 'Vietnamese:'
+        fa: 'Persian:'
+        nl: 'Dutch:'
+        cn: 'Chinese (Simplified)'
+        tw: 'Chinese (Traditional)'
+        bot_stats: Discord Bot Statistics
+        shard_info_name: Shard Info
+        process_data_name: Bot process data
+        elasticsearch_data_name: Elasticsearch data
+        package_info_name: Package info
+        bot_metadata_name: Bot Metadata
+        credits: Credits
+        author: Author
+        bot_latency: '> API/Bot Latency: %{bot_latency}ms'
+        help_command: 'Help command: `%{prefix}help`'
+        refresh: Refresh
+      upload_emote:
+        own_emojis_dont_ask_again: Yes; I own these
+        alphanumeric: ' - Must be alphanumeric with underscores'
+        size: ' - Must be between 1 and 32 characters long'
+        filesize: ' - Must be less than 256KB'
+        image: ' - Must be an image'
+        bad_name: "The name of the emote is incorrect:\n"
+        bad_attachment: "The attached emote is not valid:\n"
+        more_animated_needed: This server will have reached its limit for animated emotes, as it requires %{size}. Delete %{delete} and try again
+        more_static_needed: This server will have reached its limit for static emotes, as it requires %{size}. Delete %{delete} and try again
+        too_quick: Emotes are being created too quickly, try again in a few hours (Error code '%{e}')
+        this_emote: Is this the emote you meant?
+        emote_preview: |
+          Is this alright?
+          If you are **NOT** the owner of this emoji, or do not have permission to distribute it, select 'No'.
+        duplicate_name: |
+          This server already has an emote called %{name}
+          > %{e}
+          Do you still want to upload this emote?
+        created_emotes: '%{user} uploaded %{e}'
+        also_upload_static: |
+          Would you also like to upload a static version of this emoji?
+          Users without Nitro can use it from the emoji picker to send %{e}
+      vote_opt_out:
+        success: Successfully opted out of vote DMs
+      whois:
+        found: The author is <@%{author}> (%{author})
+        not_nqn: |
+          This command currently only works on messages reposted by NQN.
+        not_found: |
+          The author of that message could not be automatically found. Are you sure it was posted by NQN?
