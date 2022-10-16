@@ -3,7 +3,7 @@ discord_bot:
   commands:
     raw:
       buttons:
-        commands: Commands
+        commands: Komutlar
         tutorial: Tutorial
         my_emotes: Emojilerim
       depreciated_commands:
