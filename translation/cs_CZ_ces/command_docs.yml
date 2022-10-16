@@ -1,19 +1,19 @@
 command_docs:
   gain_access_to_emojis:
-    name: Gain access to emojis
+    name: Získat přístup k smajlíkům
   block_emote:
-    name: Block an emote
+    name: Blokovat smajlík
   audit_messages:
-    name: Audit NQN messages
+    name: Protokolovat zprávy NQN
   delete_message:
-    name: Delete Message
+    name: Smazat Zprávu
   edit_message:
-    name: Edit Message
+    name: Upravit Zprávu
   find_author:
-    name: Find Author
+    name: Najít Autora
   alias:
     name: alias
-    short_doc: Manage the individual emotes you can use
+    short_doc: Spravovat jednotlivé smajlíky, které můžeš používat
     help: |
       Manage the individual emotes you can use
 
@@ -23,7 +23,7 @@ command_docs:
        - `page`: skip to a certain page
        - `order`: one of 'uses', 'random'
   alias-delete:
-    name: delete
+    name: smazat
     short_doc: Don't want an alias anymore? Use this
     params:
       alias:
@@ -31,10 +31,10 @@ command_docs:
         description: |-
           Which alias do you want to remove?
   alias-delete_all:
-    name: delete_all
+    name: smazat_vše
     short_doc: I don't like any of my aliases
     help: |
-      Delete all of your aliases
+      Smazat všechny tvé aliasy
   alias-dm:
     name: dm
     short_doc: Get a full list of your aliases in DMs
@@ -92,8 +92,8 @@ command_docs:
 
       If both channel and members are to be unfiltered, use 'audit guild'
   delete:
-    name: delete
-    short_doc: Delete one of your messages reposted by NQN
+    name: smazat
+    short_doc: Smazat jednu z tvých zpráv přeposlaných NQN
     help: |
       Delete one of your messages reposted by NQN.
       By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
@@ -443,7 +443,7 @@ command_docs:
         description: |-
           What's the new avatar URL?
   persona-delete:
-    name: delete
+    name: smazat
     short_doc: Delete one of your personas
     params:
       persona:
@@ -541,7 +541,7 @@ command_docs:
     name: alias
     short_doc: Server Aliases
   server-alias-delete:
-    name: delete
+    name: smazat
     short_doc: Didn't like an emote? Make it so they've got to work for it.
     params:
       alias:
@@ -748,7 +748,7 @@ command_docs:
         description: |-
           The URL to the Telegram sticker pack
   sticker-delete:
-    name: delete
+    name: smazat
     short_doc: Delete a sticker you own
     params:
       name:
