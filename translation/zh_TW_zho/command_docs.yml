@@ -586,7 +586,7 @@ command_docs:
     name: 搜索
     short_doc: 允許所有人使用伺服器表情符號！
   server-dashboard_posting:
-    name: 由Dashboard發佈
+    name: 由dashboard發佈
     short_doc: 允許或禁止管理者使用機器人的 Dashboard 發佈訊息
   server-audit_channel:
     name: 紀錄頻道
@@ -738,11 +738,11 @@ command_docs:
     name: 來至搜索
     short_doc: 從表情符號導入貼圖
   sticker-create-from_telegram:
-    name: 來至 Telegram
+    name: 來至-telegram
     short_doc: 從 Telegram 導入貼圖
     params:
       telegram_packname:
-        name: Telegram 貼圖包名稱
+        name: telegram-貼圖包名稱
         description: |-
           Telegram 貼圖包的鏈結
   sticker-delete:
