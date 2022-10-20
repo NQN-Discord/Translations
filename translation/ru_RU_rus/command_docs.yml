@@ -1,16 +1,16 @@
 command_docs:
   gain_access_to_emojis:
-    name: Gain access to emojis
+    name: Получить доступ к эмодзи
   block_emote:
-    name: Block an emote
+    name: Заблокировать эмодзи
   audit_messages:
-    name: Audit NQN messages
+    name: Аудит сообщений NQN
   delete_message:
-    name: Delete Message
+    name: Удалить сообщение
   edit_message:
     name: Редактировать сообщение
   find_author:
-    name: Find Author
+    name: Найти Автора
   alias:
     name: alias
     short_doc: Управление тонной собственных эмодзи
@@ -18,12 +18,12 @@ command_docs:
       Помощь с управлением ваших собственными эмодзи
   alias-delete:
     name: delete
-    short_doc: Хотите избавится от эмодзи? Используйте эту команду
+    short_doc: Хотите избавиться от эмодзи? Используйте эту команду
     params:
       alias:
         name: alias
         description: |-
-          Which alias do you want to remove?
+          Какое эмодзи вы бы хотели удалить?
   alias-delete_all:
     name: delete_all
     short_doc: Мне не нравится ни один из моих псевдонимов
@@ -35,26 +35,26 @@ command_docs:
     help: |
       Попросите бота отправить вам список ваших псевдонимов в личных сообщениях
   alias-export:
-    name: export
+    name: экспортирование
     short_doc: Экспорт ваших великолепных эмодзи
   alias-import:
-    name: import
+    name: импортирование
     short_doc: Импортировать чей-то другой эмодзи
     params:
       file:
-        name: file
+        name: файл
         description: |-
-          A file previously exported with /alias export
+          Файл, ранее экспортированный с помощью /alias export
   alias-mine:
     name: mine
     short_doc: Вывод списка со всеми эмодзи, которыми вы владеете
     params:
       page:
-        name: page
+        name: страница
         description: |-
-          What page to start at?
+          С какой страницы стоит начать?
   alias-rename:
-    name: rename
+    name: переименование
     short_doc: Переименование эмодзи
     params:
       old_name:
@@ -64,9 +64,9 @@ command_docs:
       new_name:
         name: new_name
         description: |-
-          What should it be renamed to?
+          Как бы вы хотели его переименовать?
   alias-search:
-    name: search
+    name: поиск
     short_doc: Look for individual emotes
     help: |
       Найдите индивидуальные эмодзи, чтобы использовать их с NQN
@@ -77,7 +77,7 @@ command_docs:
       - `page`: переносит на указунную вами страницу поиска.
       - `order`: 'uses' / 'random' Ищет часто используемые или рандомные эмодзи.
   audit:
-    name: audit
+    name: аудит
     short_doc: Просмотр аудита сообщений
     help: |
       Получение аудита репостированных сообщений.
@@ -86,24 +86,24 @@ command_docs:
 
       Если и канал, и участники должны быть нефильтрованными, используйте 'audit guild'
   delete:
-    name: delete
+    name: удалить
     short_doc: Удаление вашего сообщения, отправленного через NQN
     help: |
       Удалит одно из ваших сообщений, отправленного через NQN.
       По умолчанию удаляется ваше последнее сообщение в этом канале, но вы можете дополнительно указать URL сообщения, чтобы удалить его.
       Вы также можете использовать функцию 'Ответить', чтобы удалить это сообщение.
   edit:
-    name: edit
+    name: отредактировать
     short_doc: Редактирование вашего сообщения, отправленного через NQN
     help: |
       Отредактирует ваше сообщение, отправленного через NQN.
       По умолчанию редактируется ваше последнее сообщение в этом канале, но вы можете дополнительно указать URL сообщения, чтобы изменить его.
       Вы также можете использовать функцию 'Ответить', чтобы отредактировать это сообщение.
   emote:
-    name: emote
-    short_doc: Manage your server's emojis
+    name: эмодзи
+    short_doc: Управляйте эмодзи вашего сервера
   emote-block:
-    name: block
+    name: заблокировать
     short_doc: Block the use of an emote
     help: |
       Search for emojis to block in this server.
