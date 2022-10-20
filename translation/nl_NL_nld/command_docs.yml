@@ -292,7 +292,7 @@ command_docs:
     name: gemeenschappelijken
     short_doc: Bekijk de servers die ik met je deel
   my_emotes:
-    name: mijn_emoji's
+    name: mijn_emojis
     short_doc: Bekijk welke emoji's je kunt posten met NQN
     params:
       page:
