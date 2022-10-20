@@ -16,5 +16,5 @@ discord_bot:
     phish_deleted: |
       Удалено фишинговое сообщение в %{channel} от %{author}
     blocked_message: |
-      Deleted message with blocked emotes in %{channel} by %{author}
+      Удалены сообщения с запрещёнными эмодзи в %{channel} от %{author}
     audit_log_post: NQN от имени <@%{author}> (%{id})
