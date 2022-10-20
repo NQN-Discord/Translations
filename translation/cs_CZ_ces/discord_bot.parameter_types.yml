@@ -1,0 +1,68 @@
+discord_bot:
+  parameter_types:
+    #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+    SearchTerms:
+      name: Search terms
+      description: |-
+        Search terms
+    Message:
+      name: Message
+      description: |-
+        A Discord reply to the message you want to target
+        - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
+        - A message id in the current channel (`123456789`)
+        - ChannelID-MessageID pair (`123456789-123456789`)
+        - How many messages ago it was in current channel (`5` messages ago)
+    PartialEmoji:
+      name: Emoji
+      description: |-
+        A rendered Discord emoji or an emoji URL
+    TextChannel:
+      name: Text Channel
+      description: |
+        A text channel mention
+    User:
+      name: User
+      description: |
+        A user mention
+    Role:
+      name: Role
+      description: |
+        A role mention or name
+    NQNEmoji:
+      name: NQNEmoji
+      description: |
+        An unrendered emoji NQN can transform
+        - A rendered Discord emoji or an emoji URL
+    BlockedEmoji:
+      name: BlockedEmoji
+      description: |-
+        The name of an emoji that's blocked in this server
+    CurrentGuildEmoji:
+      name: ServerEmoji
+      description: |
+        An emoji in the current server
+    None:
+      name: Empty
+      description: |
+        No argument
+    str:
+      name: String
+      description: |
+        Some text
+    int:
+      name: Integer
+      description: |
+        A number
+    bool:
+      name: Boolean
+      description: |
+        `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
+    ListConverter:
+      name: List
+      description: |-
+        At least
+    Union:
+      name: Union
+      description: |-
+        One of the following:

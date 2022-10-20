@@ -1,0 +1,46 @@
+premium:
+  no_premium: |
+    Your Patreon does not have premium status
+  no_patreon: |
+    No Patreon account associated with this Discord account
+  account_not_changed: |
+    Updated your premium server list; your linked Discord account has not changed
+  gained_premium: |
+    Linked your Discord account to Patreon! Your premium features are now applied to this account.
+  associate_account: |
+    No Patreon account associated with this Discord account.
+    [Associate your Discord account with Patreon](%{patreon_oauth})
+  updated_status: |
+    Your account status has been updated; check your direct messages.
+  user_gained_premium: |
+    Hey %{user_mention}, thanks for getting premium! We really appreciate your contribution <:BlueLove:831617205132329040>
+    Here's the list of servers that get premium access from you:
+    %{guild_list}
+    This list is calculated daily based on your shared servers with NQN where you have 'Administrator'. In case you want new access early, you can run
+    > `%{prefix}premium check`
+
+    NQN premium gives access to the following commands in those servers:
+  server_gained_premium:
+    one: |
+      Hey %{user_mention}!
+      Thanks to one of your administrators getting premium, your server %{guild_list} has unlocked the following commands:
+    many: |
+      Hey %{user_mention}!
+      Thanks to one of your administrators getting premium, the following servers you own now have premium access:
+      %{guild_list}
+
+      NQN premium gives access to the following commands in those servers:
+  user_lost_premium: |
+    Hey %{user_mention}, just wanted to let you know that you no longer have premium.
+    Thanks for your support^^
+  server_lost_premium:
+    one: |
+      Hey %{user_mention}, your server %{guild_list} no longer has premium access.
+      If you changed any premium only settings, they have now been reset.
+    many: |
+      Hey %{user_mention}, the following servers you own no longer have premium access:
+      %{guild_list}
+      If you changed any premium only settings, they have now been reset.
+  premium_commands: |
+    > `%{prefix}server set_nitro_role` - Restricts access to NQN to users with a specific role.
+    > `%{prefix}server user_content` - Enforces emojis posted via NQN to be ones in your server, in your `%{prefix}server alias` list or `%{prefix}server pack` list. When this setting is enabled, user content search based commands will be disabled.
