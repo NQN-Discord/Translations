@@ -6,6 +6,7 @@ import pathlib
 import copy
 import inspect
 import collections
+import regex
 from discord import Guild, Locale
 from discord.app_commands.transformers import CommandParameter
 from discord.ext.commands import Context
@@ -15,6 +16,9 @@ from discord.app_commands import Translator as DpyTranslator
 from _singleton import Singleton
 from ._create_owo import create_owo
 from ._ruamel_loader import YamlLoader
+
+
+command_name_regex = regex.compile(r"^[-_\p{L}\p{N}\p{sc=Deva}\p{sc=Thai}]{1,32}$")
 
 
 try:
@@ -114,6 +118,10 @@ class DpyNQNTranslator(DpyTranslator):
 
         translated = scope(translation_key)
         assert not translated.startswith("command_docs")
+        if translation_key == "name" and not isinstance(command, ContextMenu):
+            match = command_name_regex.match(translated)
+            if match is None:
+                raise AssertionError(f"{translation_key}:\n{translated}")
         if context.location == TranslationContextLocation.command_description:
             return translated[:100]
         return translated
