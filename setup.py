@@ -8,5 +8,5 @@ setup(
    author='Blue',
    url="https://nqn.blue/",
    packages=find_packages(),
-   install_requires=["python-i18n", "TextToOwO", "ruamel.yaml==0.17.21", "unidecode"]
+   install_requires=["python-i18n", "TextToOwO", "ruamel.yaml==0.17.21", "unidecode", "regex"]
 )

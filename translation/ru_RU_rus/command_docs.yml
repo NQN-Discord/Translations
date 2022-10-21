@@ -1,39 +1,45 @@
 command_docs:
   gain_access_to_emojis:
-    name: Gain access to emojis
+    name: Получение доступа к эмодзи
   block_emote:
-    name: Block an emote
+    name: Блокировка эмодзи
   audit_messages:
-    name: Audit NQN messages
+    name: Аудит сообщений NQN
   delete_message:
-    name: Delete Message
+    name: Удаление сообщения
   edit_message:
-    name: Редактировать сообщение
+    name: Редактирование сообщения
   find_author:
-    name: Find Author
+    name: Найти Автора
   alias:
     name: alias
     short_doc: Управление тонной собственных эмодзи
     help: |
-      Помощь с управлением ваших собственными эмодзи
+      Управление отдельными эмодзи, которые вы можете использовать
+
+      Поиск NQN позволяет использовать некоторые доп. функции:
+       - `exact`: (по умолчанию false) ищет эмодзи с УКАЗАННЫМ названием
+       - `animated`: показывает только анимированные или статические эмодзи
+       - `page`: переносит на указунную вами страницу поиска
+       - `order`: 'uses' / 'random' Ищет часто используемые или рандомные эмодзи
   alias-delete:
     name: delete
-    short_doc: Хотите избавится от эмодзи? Используйте эту команду
+    short_doc: Хотите избавиться от эмодзи? Используйте эту команду
     params:
       alias:
         name: alias
         description: |-
-          Which alias do you want to remove?
+          Какое эмодзи вы бы хотели удалить?
   alias-delete_all:
     name: delete_all
-    short_doc: Мне не нравится ни один из моих псевдонимов
+    short_doc: Мне не нравится ни один из моих эмодзи
     help: |
-      Удалите все свои псевдонимы
+      Удалить все сохранённые эмодзи
   alias-dm:
     name: dm
-    short_doc: Получите полный список ваших псевдонимов в личных сообщениях
+    short_doc: Полный список ваших эмодзи в ЛС
     help: |
-      Попросите бота отправить вам список ваших псевдонимов в личных сообщениях
+      Попросите бота отправить вам список ваших эмодзи в ЛС
   alias-export:
     name: export
     short_doc: Экспорт ваших великолепных эмодзи
@@ -44,15 +50,15 @@ command_docs:
       file:
         name: file
         description: |-
-          A file previously exported with /alias export
+          Файл, ранее экспортированный с помощью /alias export
   alias-mine:
     name: mine
-    short_doc: Вывод списка со всеми эмодзи, которыми вы владеете
+    short_doc: Вывод списка со всеми эмодзи, которые вы имеете
     params:
       page:
         name: page
         description: |-
-          What page to start at?
+          С какой страницы стоит начать?
   alias-rename:
     name: rename
     short_doc: Переименование эмодзи
@@ -60,14 +66,14 @@ command_docs:
       old_name:
         name: old_name
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          Как называется эмодзи, который вы бы хотели переименовать?
       new_name:
         name: new_name
         description: |-
-          What should it be renamed to?
+          Как бы вы хотели его переименовать?
   alias-search:
     name: search
-    short_doc: Look for individual emotes
+    short_doc: Поиск конкретных эмодзи
     help: |
       Найдите индивидуальные эмодзи, чтобы использовать их с NQN
 
@@ -80,159 +86,157 @@ command_docs:
     name: audit
     short_doc: Просмотр аудита сообщений
     help: |
-      Получение аудита репостированных сообщений.
-      Опция[#channel] -> Вы получите аудит указанного канала
-      Опция[@member] -> Вы получите аудит указанного пользователя(его репостированных сообщений)
+      Получение аудита отправленных ботом сообщений.
+      Опция[Channel] -> Вы получите аудит указанного канала
+      Опция[Member] -> Вы получите аудит сообщений указанного пользователя
 
       Если и канал, и участники должны быть нефильтрованными, используйте 'audit guild'
   delete:
     name: delete
-    short_doc: Удаление вашего сообщения, отправленного через NQN
+    short_doc: Удаление одного из ваших сообщений, отправленного через NQN
     help: |
-      Удалит одно из ваших сообщений, отправленного через NQN.
-      По умолчанию удаляется ваше последнее сообщение в этом канале, но вы можете дополнительно указать URL сообщения, чтобы удалить его.
-      Вы также можете использовать функцию 'Ответить', чтобы удалить это сообщение.
+      Удаление одного из ваших сообщений, отправленного через NQN.
+      По умолчанию удаляется ваше последнее сообщение в этом канале, но вы можете удалить конкретное сообщение, дополнительно указав его URL. Также можете задействовать функцию Discord "Ответить", чтобы удалить указанное сообщение.
   edit:
     name: edit
     short_doc: Редактирование вашего сообщения, отправленного через NQN
     help: |
-      Отредактирует ваше сообщение, отправленного через NQN.
-      По умолчанию редактируется ваше последнее сообщение в этом канале, но вы можете дополнительно указать URL сообщения, чтобы изменить его.
-      Вы также можете использовать функцию 'Ответить', чтобы отредактировать это сообщение.
+      Редактирование одного из ваших сообщений, отправленное через NQN.
+      По умолчанию отредактируется ваше последнее сообщение в этом канале, но вы можете отредактировать конкретное сообщение, дополнительно указав его URL. Также можете задействовать функцию Discord "Ответить", чтобы изменить указанное сообщение.
   emote:
     name: emote
-    short_doc: Manage your server's emojis
+    short_doc: Управление эмодзи сервера
   emote-block:
     name: block
-    short_doc: Block the use of an emote
+    short_doc: Блокирование использования эмодзи
     help: |
-      Search for emojis to block in this server.
-      When this emoji is used, it'll automatically be added to the server's automod list and be removed.
+      Поиск эмодзи которые вы бы хотели заблокировать на этом сервере.
+      Когда этот эмодзи будет использоваться, он автоматически будет удаляться.
   emote-block-from_emote:
     name: from_emote
-    short_doc: Block the use of an emote
+    short_doc: Блокирование использования эмодзи
     params:
       emoji:
         name: эмодзи
         description: |-
-          Which emoji to block the use of?
+          Какое эмодзи вы бы хотели заблокировать на сервере?
   emote-block-from_search:
     name: from_search
-    short_doc: Block the use of an emote
+    short_doc: Блокирование использования эмодзи
   emote-block-recently_used:
     name: recently_used
-    short_doc: Block the use of an emote
+    short_doc: Блокирование использования эмодзи
     params:
       emoji:
-        name: эмодзи
+        name: emoji
         description: |-
-          Which emoji to block the use of?
+          Какое эмодзи вы бы хотели заблокировать на сервере?
   emote-block_list:
     name: block_list
-    short_doc: View the list of emojis blocked in this server
+    short_doc: Список заблокированных эмодзи на этом сервере
   emote-info:
     name: info
-    short_doc: Get information about an emote
+    short_doc: Информация об выбранном эмодзи
     params:
       emoji:
-        name: эмодзи
+        name: emoji
         description: |-
-          Which emoji to get information about?
+          О каком эмодзи вы бы хотели получить информацию?
   emote-jumbo:
     name: jumbo
-    short_doc: Сделать эмодзи больше
+    short_doc: Сделать эмодзи чуть-чуть побольше
     params:
       emoji:
-        name: эмодзи
+        name: emoji
         description: |-
-          Which emoji to make jumbo sized?
+          Какое эмодзи вы бы хотели увеличить?
   emote-rolelock:
     name: rolelock
-    short_doc: Lock an emoji to a specific set of roles
+    short_doc: Блокирование использования эмодзи для выбранной вами роли
     params:
       emoji:
-        name: эмодзи
+        name: emoji
         description: |-
-          Lock which emoji?
+          Какое эмодзи надо заблокировать?
       role:
-        name: роль
+        name: role
         description: |-
-          Lock the emoji to which role?
+          Какой роле надо заблокировать использование этого эмодзи?
   emote-roleunlock:
     name: roleunlock
-    short_doc: Allow anyone to use a locked emote
+    short_doc: Разблокирование использования эмодзи для всех
     params:
       emoji:
-        name: эмодзи
+        name: emoji
         description: |-
-          Unlock which emoji?
+          Какое эмодзи надо разблокировать?
   emote-stats:
     name: stats
-    short_doc: See how often your server's emotes are used
+    short_doc: Аудит как часто используются эмодзи вашего сервера
   emote-unblock:
     name: unblock
-    short_doc: Unblock a previously blocked emoji
+    short_doc: Разблокирование использования эмодзи
     params:
       emoji:
-        name: эмодзи
+        name: emoji
         description: |-
-          Which emoji to unblock?
+          Какое эмодзи надо разблокировать?
   emote-upload:
     name: upload
-    short_doc: Upload an emote
+    short_doc: Загрузить эмодзи на сервер
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload it
+      Поиск всех эмодзи, которые бот когда-либо видел. Вы можете загрузить выбранные на этот сервер.
+      Эта команда позволяет загружать эмодзи.
+      Вы также можете прикрепить файл для загрузки
   emote-upload-from_attachment:
     name: from_attachment
-    short_doc: Upload an emoji from an attachment
+    short_doc: Загрузка эмодзи с прикреплённого файла
     params:
       attachment:
         name: attachment
         description: |-
-          Emoji image
+          Фотография эмодзи
   emote-upload-from_emote:
     name: from_emote
-    short_doc: Upload an emoji from it's name or URL
+    short_doc: Загрузка эмодзи по его имени или с помощью URL
     params:
       emoji:
-        name: эмодзи
+        name: emoji
         description: |-
-          Emoji or Emoji URL
+          Эмодзи или URL Эмодзи
   emote-upload-from_search:
     name: from_search
-    short_doc: Search for an emoji to upload to your server
+    short_doc: Поиск эмодзи для загрузки на сервер
   export:
     name: export
     short_doc: Экспорт вашего списка с эмодзи
   help:
     name: help
-    short_doc: Показывает это сообщение
+    short_doc: Полный список моих команд
     params:
       command:
         name: command
         description: |-
-          What to learn about?
+          О чём вы бы хотели узнать?
     help: |
-      Показывает это сообщение
+      Полный список моих команд
   ignore_me:
     name: ignore_me
-    short_doc: Не позволяет NQN взаимодействовать с вами
+    short_doc: Запретить NQN переотправлять ваши сообщения
     help: |
-      Введя эту команду, она останавливает NQN от повторной публикации любых ваших сообщений на любом сервере, которыми вы делитесь с ботом.
-      - Команды будут работать, повторное её использование вернёт вам возможность использовать бота.
-      - Вы все ещё можете публиковать сообщения через нашу [панель управления](https://nqn.blue)!
-      - Бот не будет отвечать ни на какие отправленные вами сообщения, которые могли быть отправлены через вебхук.
+      Введя эту команду, она останавливает NQN от повторной публикации любых ваших сообщений на любом сервере, где присутствует бот.
+      - Команды будут работать, повторное её использование вернёт вам возможность снова использовать бота
+      - Вы все ещё можете публиковать сообщения через нашу [панель управления](https://nqn.blue)
+      - Бот не будет отвечать ни на каке отправленные вами сообщения, которые могли быть отправлены через вебхук
   info:
     name: info
     short_doc: Статистика бота
   invite_me:
     name: invite_me
-    short_doc: Пригласит бота на ваш сервер!
+    short_doc: Приглашение бота на ваш сервер!
   mod:
     name: mod
-    short_doc: NQN moderation tools
+    short_doc: Инструменты модерации NQN
   mod-audit:
     name: audit
     short_doc: Просмотр аудита сообщений
@@ -240,33 +244,33 @@ command_docs:
       channel:
         name: channel
         description: |-
-          Filter to just messages in this channel
+          Отфильтровать только сообщения в этом канале
       user:
-        name: пользователь
+        name: user
         description: |-
-          Filter to just messages by this user
+          Отфильтровать сообщения по этому пользователю
     help: |
-      Получение аудита репостированных сообщений.
-      Опция[#channel] -> Вы получите аудит указанного канала
-      Опция[@member] -> Вы получите аудит указанного пользователя(его репостированных сообщений)
+      Получение аудита переотправленных сообщений.
+      Опция[Channel] -> Вы получите аудит указанного канала
+      Опция[Member] -> Вы получите аудит сообщений указанного пользователя
 
-      Если и канал, и участники должны быть нефильтрованными, используйте 'audit guild'
+      Если и канал, и участники должны быть не отфильтрованными, используйте 'audit guild'
   mod-ban:
     name: ban
-    short_doc: Требуется заблокировать пользователя? Эта команда вам поможет!
+    short_doc: Блокировка пользователя по его отправленному сообщению
   mod-edit_topic:
     name: edit_topic
-    short_doc: Изменение темы канала
+    short_doc: Добавление анимированных эмодзи в тему канала
     params:
       description:
         name: description
         description: |-
-          The new channel description including emoji names
+          Новая тема канала, включая названия эмодзи
     help: |
-      Украсьте тему одного из ваших каналов
+      Изменение темы канала, команда позволяет использовать в нем анимированные эмодзи
   mod-kick:
     name: kick
-    short_doc: Кик пользователя
+    short_doc: Кик пользователя по его отправленному сообщению
   mod-move:
     name: move
     short_doc: Перемещение до 50 последних сообщений из этого канала в другой
@@ -274,94 +278,94 @@ command_docs:
       channel:
         name: channel
         description: |-
-          The target channel to move to
+          Канал, в который требуется перенести сообщения
       messages:
         name: messages
         description: |-
-          How many messages to move?
+          Сколько сообщений нужно перенести?
   mod-purge:
     name: purge
-    short_doc: Purge some messages reposted by the bot in this channel
+    short_doc: Удаление сообщений отправленных ботом
   mutuals:
     name: mutuals
-    short_doc: Посмотрите сервера, с которыми я делюсь с вами
+    short_doc: Просмотр общих серверов с ботом
   my_emotes:
     name: my_emotes
-    short_doc: See what emojis you can post with NQN
+    short_doc: Просмотр эмодзи, которые вы можете отправлять с NQN
     params:
       page:
         name: page
         description: |-
-          Which emojis to show?
+          Какие эмодзи требуется показать?
         choices:
           current_server: Текущий сервер
           mutual_servers: Общие сервера
-          aliases: Алиасы
-          packs: Паки
+          aliases: Эмодзи
+          packs: Паки с эмодзи
   owner:
     name: owner
-    short_doc: Forbidden knowledge lurks within
+    short_doc: Запретные знания скрываются внутри!
   nqn:
     name: nqn
-    short_doc: Send a message with NQN
+    short_doc: Отправьте сообщение с помощью NQN
   nqn-message:
-    name: сообщение
-    short_doc: Post a message with NQN emojis in it
+    name: message
+    short_doc: Отправьте сообщение с эмодзи с помощью NQN
     params:
       message:
-        name: сообщение
+        name: message
         description: |-
-          The message to post
+          Сообщение, которое нужно отправить
       persona:
         name: persona
         description: |-
-          The persona to use
+          Профиль для использования
       attachment:
         name: attachment
         description: |-
-          An attachment to send
+          Файл для отправки
   nqn-single_emoji:
     name: single_emoji
-    short_doc: Post a message with just a single emoji in it
+    short_doc: Отправка сообщения с 1 эмодзи
     params:
       emoji:
-        name: эмодзи
+        name: emoji
         description: |-
-          Which emoji to post
+          Какое эмодзи требуется отправить
       persona:
         name: persona
         description: |-
-          The persona to use
+          Профиль для использования
   pack:
     name: pack
     short_doc: Управление целым паком с эмодзи
   pack-dm:
     name: dm
-    short_doc: Get a full list of your packs in your DMs
+    short_doc: Полный список ваших паков с эмодзи в ЛС
     help: |
-      Have the bot send you a complete list of your packs current emoji lists through your DMs.
+      Попросите бота отправить вам список ваших паков с эмодзи в ЛС.
   pack-join:
     name: join
-    short_doc: Присоединение одного из нескольких тысяч паков с эмодзи
+    short_doc: Присоединение пака с эмодзи
     params:
       pack:
         name: pack
         description: |-
-          Which pack do you want to join?
+          Какой пак вы бы хотели присоединить?
   pack-leave:
     name: leave
-    short_doc: Покинуть пак с эмодзи
+    short_doc: Отсоединение пака с эмодзи
     params:
       pack:
         name: pack
         description: |-
-          Which pack do you want to leave?
+          Какой пак вы бы хотели отсоединить?
   pack-meta:
     name: meta
-    short_doc: Чтож... Довольно хорошая статистика вашего пака
+    short_doc: Что-ж... Довольно хорошая статистика вашего пака
   pack-mine:
     name: mine
-    short_doc: Вывод списка присоединённых вами паков
+    short_doc: Список присоединённых вами паков
   pack-publish:
     name: publish
     short_doc: Создание вашего пака с эмодзи
@@ -369,11 +373,11 @@ command_docs:
       name:
         name: name
         description: |-
-          What do you want to call your pack?
+          Как бы вы хотели назвать свой пак?
       public:
-        name: публичность
+        name: public
         description: |-
-          Do you want people to be able to join your server through the bot without an invite?
+          Вы хотите, чтобы люди могли присоединиться к вашему серверу через бота без приглашения?
   pack-rename:
     name: rename
     short_doc: Переименование пака с эмодзи
@@ -381,7 +385,7 @@ command_docs:
       new_name:
         name: new_name
         description: |-
-          What do you want to call your pack?
+          Как бы вы хотели назвать свой пак?
   pack-save:
     name: save
     short_doc: Загрузка пака с эмодзи на ваш сервер
@@ -389,27 +393,27 @@ command_docs:
       name:
         name: name
         description: |-
-          Which pack are you downloading emojis to this server from?
+          С какого пака вы бы хотели загрузить эмодзи на этот сервер?
   pack-search:
     name: search
-    short_doc: Find entire packs of emotes
+    short_doc: Поиск целых паков с эмодзи
     params:
       search:
         name: search
         description: |-
-          What kind of emojis are you looking for?
+          Какие эмодзи вы ищите?
       page:
         name: page
         description: |-
-          Which page of packs to start on?
+          С какой страницы хотели бы начать искать паки?
   pack-set_public:
     name: set_public
-    short_doc: Перемещение по серверам через паки
+    short_doc: Разрешит любому присоединяться к вашему серверу через NQN. Всё легально!
     params:
       enabled:
-        name: включено
+        name: enabled
         description: |-
-          Allow users to join this server through NQN without an invite?
+          Разрешить пользователям присоединяться к этому серверу через NQN без приглашения?
   pack-show:
     name: show
     short_doc: Показ содержимого указанного вами пака
@@ -417,244 +421,244 @@ command_docs:
       pack:
         name: pack
         description: |-
-          Which pack to show the emojis of?
+          Какой пак вы бы хотели показать?
   pack-unpublish:
     name: unpublish
-    short_doc: Не хотите, чтобы этот сервер больше был паком?
+    short_doc: Вы точно хотите удалить свой пак с эмодзи?
   persona:
     name: persona
-    short_doc: Manage your personas
+    short_doc: Управление вашим профилем
   persona-avatar_url:
     name: avatar_url
-    short_doc: Set the avatar of a persona
+    short_doc: Загрузка аватара для профиля
     params:
       persona:
         name: persona
         description: |-
-          Which persona are you changing the username for?
+          Для какого профиля вы бы хотели сменить никнейм?
       avatar_url:
         name: avatar_url
         description: |-
-          What's the new avatar URL?
+          Укажите URL нового аватара для профиля.
   persona-delete:
     name: delete
-    short_doc: Delete one of your personas
+    short_doc: Удаление одного из ваших профилей
     params:
       persona:
         name: persona
         description: |-
-          Which persona are you deleting?
+          Какой профиль вы бы хотели удалить?
   persona-display_name:
     name: display_name
-    short_doc: Change the username of a persona
+    short_doc: Смена никнейма профиля
     params:
       persona:
         name: persona
         description: |-
-          Which persona are you changing the username for?
+          Для какого профиля вы бы хотели сменить никнейм?
       display_name:
         name: display_name
         description: |-
-          What's the new username?
+          Каким же будет новый никнейм?
   persona-dm:
     name: dm
-    short_doc: DMs you a full list of your personas
+    short_doc: Полный список ваших профилей в ЛС
   persona-export:
     name: export
-    short_doc: Export your list of personas to a file
+    short_doc: Экспортирование списка профилей в файл
     help: |
-      Export your list of personas to a file, which is compatible with other bots
+      Экспортирование списка профилей в файл, который совместим с другими ботами
   persona-import:
     name: import
-    short_doc: Import a previously exported list of personas
+    short_doc: Импортирование ранее экспортированного списка профилей
     params:
       file:
         name: file
         description: |-
-          A file previously exported with /persona export
+          Файл, ранее экспортированный с помощью /persona export
     help: |
-      Import a previously exported list of personas.
-      Compatible with PluralKit and Tupperbox.
+      Импортирование ранее экспортированный список профилей.
+      Совместим с PluralKit и Tupperbox.
   persona-list:
-    name: список
-    short_doc: See a list of your personas
+    name: list
+    short_doc: Полный список ваших профилей
   persona-register:
     name: register
-    short_doc: Register a persona for later use
+    short_doc: Зарегистрируйте профиль для последующего использования
     params:
       short_name:
         name: short_name
         description: |-
-          What's your persona's prefix?
+          Какой у вас профильный префикс?
   persona-rename:
     name: rename
-    short_doc: Give one of your personas a different name
+    short_doc: Смена никнейма одного из профилей
     params:
       persona:
         name: persona
         description: |-
-          Which persona are you changing the prefix of?
+          Префикс для какого профиля вы бы хотели изменить?
       new_name:
         name: new_name
         description: |-
-          What will the new prefix be?
+          Какой бы вы хотели новый префикс?
   premium:
     name: premium
-    short_doc: Premium stuff
+    short_doc: Премиум-плюшки
   premium-check:
     name: check
     short_doc: Проверка наличия премиум-статуса
     help: |
-      Информация о вашем премиум-статуса, включая перечень серверов, премиум которым вы дали.
+      Информация о вашем премиум-статуса, включая перечень серверов, где задействован премиум.
   premium-help:
     name: help
-    short_doc: Информация про премиум NQN'а
+    short_doc: Информация про премиум-статус в NQN
   ranking:
     name: ranking
     short_doc: Насколько высоко ваш сервер находится в нашем рейтинге?
   react:
     name: react
-    short_doc: React to a message with emojis
+    short_doc: Добавление реакций на сообщение
     params:
       emoji:
-        name: эмодзи
+        name: emoji
         description: |-
-          Which emoji to react with?
+          Какое эмодзи вы бы хотели добавить в реакции?
       message:
-        name: сообщение
+        name: message
         description: |-
-          Which message to react to?
+          К какому сообщению вы бы хотели добавить реакцию?
     help: |
-      Реагириует на n-ое или самое последнее сообщение
-      На заметку: Укажите ID сообщения, на которое нужно прореагировать, или n-ых сообщений назад (до 20)
-      Команда позволяет написать список эмодзи, каждый из которых будет добавлен в указанном порядке.
+      Используйте функцию ответа в Discord или URL сообщения, чтобы добавить реакцию на сообщение.
+      Команда позволяет добавлять несколько реакций на сообщение, каждая из которых будет добавлена ​​в указанном порядке.
+      **После того, как бот выставит реакции - вам нужно нажать на них, чтобы они остались.**
   server:
     name: server
-    short_doc: Server Configuration
+    short_doc: Конфигурация сервера
   server-alias:
     name: alias
-    short_doc: Server Aliases
+    short_doc: Эмодзи Сервера
   server-alias-delete:
     name: delete
-    short_doc: Не понравилось добавленно эмодзи? Просто удалите его со своего сервера!
+    short_doc: Не понравилось добавленное эмодзи? Просто удалите его со своего сервера!
     params:
       alias:
         name: alias
         description: |-
-          Which alias do you want to remove?
+          Какое эмодзи вы бы хотели удалить?
   server-alias-import:
     name: import
-    short_doc: Import a list of server aliases from a file.
+    short_doc: Импортирование списка серверных эмодзи из файла
     params:
       file:
         name: file
         description: |-
-          A file previously exported with /alias export
+          Файл, ранее экспортированный с помощью /alias export
   server-alias-list:
-    name: список
+    name: list
     short_doc: Показует эмодзи, которые может использовать каждый на вашем сервере
     params:
       page:
         name: page
         description: |-
-          Which page to start at?
+          С какой страницы начнём?
   server-alias-post:
     name: post
-    short_doc: Post a list of server aliases
+    short_doc: Список серверных эмодзи
     params:
       channel:
         name: channel
         description: |-
-          Which channel do you want to post the server-wide emoji list to?
+          В каком канале требуется опубликовать список серверных эмодзи?
   server-alias-rename:
     name: rename
-    short_doc: Переименуйте alias сервера
+    short_doc: Переименование эмодзи сервера
     params:
       old_name:
         name: old_name
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          Как называется эмодзи, который вы бы хотели переименовать?
       new_name:
         name: new_name
         description: |-
-          What should it be renamed to?
+          Как бы вы хотели его переименовать?
   server-alias-search:
     name: search
     short_doc: Разрешите любому на сервере использовать эмодзи!
   server-dashboard_posting:
     name: dashboard_posting
-    short_doc: Enable or disable posting messages through the bot dashboard
+    short_doc: Переключение отправки сообщений через панель управления ботом
   server-audit_channel:
     name: audit_channel
-    short_doc: Размещает репосты бота
+    short_doc: Аудит отправленных ботом сообщений
     params:
       channel:
         name: channel
         description: |-
-          Which channel should NQN post to? (None -> No channel)
+          В какой канал NQN должен публиковать сообщения? (Никакой? Ну ладно...)
   server-language:
     name: language
-    short_doc: Установите язык для бота
+    short_doc: Смена языка бота %{locale_flag_emojis}
   server-link:
     name: link
-    short_doc: Создайте статическую эмодзи, которая при использовании вместо неё публикует анимированную версию!
+    short_doc: Создание статической эмодзи, при публикации которой отправиться анимированное.
     params:
       emoji:
-        name: эмодзи
+        name: emoji
         description: |-
-          Which emoji to create a static version of?
+          Из какого эмодзи вы бы хотели сделать статическую версию?
   server-masked_links:
     name: masked_links
-    short_doc: Включение или отключение скрытых ссылки на этом сервере
+    short_doc: Переключение отправки скрытых ссылок на этом сервере
   server-nitro:
-    name: нитро
-    short_doc: Включите или отключите бесплатное использование нитро
+    name: nitro
+    short_doc: Переключение бесплатного использования нитро
   server-pack:
     name: pack
-    short_doc: Server Packs
+    short_doc: Серверные Паки с эмодзи
   server-pack-join:
     name: join
-    short_doc: Присоедините пак с эмодзи для сервера
+    short_doc: Присоединение пака с эмодзи к серверу
     params:
       pack:
         name: pack
         description: |-
-          Which pack do you want to allow everyone in this server to use?
+          Какой пак вы хотите разрешить использовать всем на этом сервере?
   server-pack-leave:
     name: leave
-    short_doc: Покидание пака с эмодзи на сервере
+    short_doc: Отсоединение пака с эмодзи от сервера
     params:
       pack:
         name: pack
         description: |-
-          Which pack do you want to remove access to from everyone?
+          К какому паку вы хотите закрыть доступ на использование для всех?
   server-pack-list:
-    name: список
-    short_doc: Список паков, которые может использовать этот сервер
+    name: list
+    short_doc: Список паков, которые можно использовать этот сервер
   server-pack-post:
     name: post
-    short_doc: Post a list of server packs
+    short_doc: Список присоединённых к серверу паков
   server-pack-search:
     name: search
     short_doc: Поиск паков для сервера
   server-permissions_debug:
     name: permissions_debug
-    short_doc: Let NQN tell you what permissions it's missing
+    short_doc: Список не выданных прав NQN на сервере
   server-personas:
-    name: персоны
-    short_doc: Enable or disable usage of personas
+    name: personas
+    short_doc: Переключение использования профилей
     help: |
-      Allows users to post with arbitrary usernames and avatars
+      Позволяет пользователям отправлять сообщения с поставленными ими именами и аватарами в профиле
   server-pings:
-    name: упоминания
-    short_doc: Переключает пинги в репостированных сообщениях
+    name: pings
+    short_doc: Переключение пингов в переотправляемых сообщениях
     help: |
-      Переключает пинги в репостированных сообщениях
+      Переключение пингов в переотправляемых сообщениях на этом сервере
   server-phish_detection:
     name: phish_detection
-    short_doc: Enable or disable phishing message detection for this server
+    short_doc: Переключение обнаружения фишинговых сообщений на этом сервере
   server-prefix:
-    name: префикс
+    name: prefix
     short_doc: Смена префикса у бота
     help: |
       Заставьте NQN реагировать на другой префикс.
@@ -662,165 +666,163 @@ command_docs:
       Пример того, как его поменять:
       >>> %{prefix}server prefix <@%{bot_id}> ?
     signature: |
-      @NQN#3454 [префикс=!]
+      @NQN#3454 [prefix=!]
   server-message_link_previews:
     name: message_link_previews
-    short_doc: Enable or disable message link previews in this server
+    short_doc: Переключение отображения превью отправляемых ссылок на этом сервере
   server-settings:
-    name: настройки
+    name: settings
     short_doc: Просмотр настроек этого сервера
     help: |
       Вывод списка настроек сервера NQN, включая функции, настроенные каналы и информацию о паке.
   server-boost_channel:
     name: boost_channel
-    short_doc: Публикует сообщения, когда кто-то голосует на сервере за бота на top.gg
+    short_doc: Публикация сообщения, когда кто-то голосует на сервере за бота на top.gg
   server-boost_role:
     name: boost_role
-    short_doc: Дайте пользователю эту роль, когда он голосует на этом сервер за NQN
+    short_doc: Выдача пользователю роли, когда он голосует на этом сервер за NQN
   server-nitro_role:
     name: nitro_role
     short_doc: Установка роли для использования NQN
     help: |
-      Команда позволяет установить определённую роль для ограничения использования NQN между участниками вашего сервера
+      Установка роли, которая позволит отправлять пользователям нитро-сообщения
     params:
       role:
-        name: роль
+        name: role
         description: |-
-          The role which people need to use NQN's emoji reposting
+          Роль, которая позволит отправлять пользователям нитро-сообщения
   server-stickers:
-    name: стикеры
-    short_doc: Включение или отключение использования стикеров на сервере
+    name: stickers
+    short_doc: Переключение использования стикеров на сервере
   server-user_content:
     name: user_content
-    short_doc: Включить или выключить эмодзи и паки для этого сервера
+    short_doc: Переключение использования эмодзи и паков для этого сервера
   sticker:
     name: sticker
-    short_doc: Manage your NQN stickers
+    short_doc: Управление NQN стикерами
   sticker-create:
     name: create
-    short_doc: Create a sticker
+    short_doc: Создание стикера
     help: |
-      Создаёт стикер из файла
-      Загрузите изображение и используйте эту команду, чтобы его его в стикер.
-      Имя стикера определяется именем файла или тем, что вы набираете. Например, «%{prefix}sticker create BluePat__.png__».
-      Имена стикеров уникальны в NQN, как только имя взято, оно исчезает.
+      Создание стикер из файла
+      Загрузите изображение и используйте эту команду, чтобы превратить его в стикер.
+      Имя стикера определяется именем файла или тем, что вы набираете. Например, `sticker create BluePat.png`
+      Имена стикеров уникальны в NQN, как только имя взято, оно более не будет доступным.
       Стикеры могут быть размером не более 8 МБ, а названия могут быть только буквенно-цифровыми.
       Стикерам необходимо расширение файла, которое также является буквенно-цифровым.
   sticker-create-from_attachment:
     name: from_attachment
-    short_doc: Create a sticker
+    short_doc: Создание стикера
     params:
       sticker:
         name: sticker
         description: |-
-          The image to turn into a sticker
+          Изображение, которое нужно превратить в стикер
       name:
         name: name
         description: |-
-          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+          Как вы хотите назвать стикер? Название должно быть буквенно-цифровым с `.` в нем, например `nqn.nqn`
   sticker-create-from_emote:
     name: from_emote
-    short_doc: Импортирует стикеры из эмодзи
+    short_doc: Импортирование стикеров из эмодзи
     params:
       emoji:
-        name: эмодзи
+        name: emoji
         description: |-
           …
       name:
         name: name
         description: |-
-          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+          Как вы хотите назвать стикер? Название должно быть буквенно-цифровым с `.` в нем, например `nqn.nqn`
   sticker-create-from_search:
     name: from_search
-    short_doc: Импортирует стикеры из эмодзи
+    short_doc: Импортирование стикеров из эмодзи
   sticker-create-from_telegram:
     name: from_telegram
-    short_doc: Импортирует стикеры из Telegram
+    short_doc: Импортирование стикеров из Telegram
     params:
       telegram_packname:
         name: telegram_packname
         description: |-
-          The URL to the Telegram sticker pack
+          URL стикер пака из Telegram
   sticker-delete:
     name: delete
-    short_doc: Удаляет стикер
+    short_doc: Удаление стикера
     params:
       name:
         name: name
         description: |-
-          Which sticker to delete
+          Какой стикер вы бы хотели удалить
   sticker-import:
     name: import
-    short_doc: Импортирует стикеры из эмодзи
+    short_doc: Импортирование стикеров из эмодзи
     help: |
-      Импортирует стикеры из эмодзи
-      Либо напрямую из эмодзи, с необязательным alias'ом
-       - %{prefix}sticker import :blue_smirk: smirk.png
-      Или путем поиска эмодзи, которые есть в NQN.
-       - %{prefix}sticker import blue pat
-      Обратите внимание, что опция поиска по эмодзи не поддерживает alias'ы.
+      Импортирование стикеров из эмодзи
+       - sticker import :blue_smirk: smirk.png
+      Или путём поиска эмодзи, который есть в NQN.
+       - sticker import import blue pat
   sticker-mine:
     name: mine
-    short_doc: Способ найти все ваши стикеры
+    short_doc: Поиск ваших стикеров
   sticker-rename:
     name: rename
-    short_doc: Переименовует стикер
+    short_doc: Переименовывание стикера
     params:
       old_name:
         name: old_name
         description: |-
-          Which sticker to rename
+          Какой стикер вы бы хотели переименовать
       new_name:
         name: new_name
         description: |-
-          What to rename it to?
+          Как бы вы хотели его переименовать?
   sticker-search:
     name: search
-    short_doc: Ищет стикеров, которые есть в NQN, с дополнительным запросом
+    short_doc: Поиск стикеров, которые есть в NQN, с дополнительным запросом
     params:
       search:
         name: search
         description: |-
-          Which to search for?
+          Что требуется найти?
   sticker-telegram:
     name: telegram
-    short_doc: Импортирует стикеры из Telegram
+    short_doc: Импортирование стикеров из Telegram
   support:
-    name: сервер_поддержки
-    short_doc: Нужна помощь в использовании меня?
+    name: support
+    short_doc: Тебе нужна помощь в моём использовании?
   tutorial:
-    name: обучение
+    name: tutorial
     short_doc: Учим, как использовать эмодзи вместе с NQN
     params:
       about:
         name: about
         description: |-
-          What to learn about?
+          О чём хотите узнать?
   whois:
     name: whois
-    short_doc: Найти пользователя, отправившего сообщение
+    short_doc: Поиск пользователя, отправившего сообщение
   _search:
     params:
       search:
         name: search
         description: |-
-          What are you searching for?
+          Что вы ищите?
       exact:
         name: exact
         description: |-
-          Show only emojis with exactly this name
+          Показывает только эмодзи с точно таким же названием
       animated:
         name: animated
         description: |-
-          Show only animated or static emojis?
+          Показывать только анимированные или статические эмодзи?
       page:
         name: page
         description: |-
-          Start from a page other than 1
+          Начать не с первой, а с другой страницы
       order:
         name: order
         description: |-
-          Order results by?
+          Упорядочить результаты...?
         choices:
           random: random
           relevance: relevance
