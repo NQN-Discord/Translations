@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Стикеры выключены
         nitro_on: Использование нитро включено!
         nitro_off: Использование нитро было отключено
-        replies_on: Enabled message link previews
-        replies_off: Disabled message link previews
+        replies_on: Включение превью ссылок в сообщениях
+        replies_off: Выключение превью ссылок в сообщениях
         masked_links_on: Скрытые ссылки включены
         masked_links_off: Скрытые ссылки были выключены
         pings_on: Пинги в репостированных сообщениях были включены
@@ -125,7 +125,7 @@ discord_bot:
         nitro_role: Роль нитро
         stickers: Стикеры
         nitro: Нитро
-        replies: Message Link Previews
+        replies: Превью ссылок в сообщениях
         masked_links: Скрытие ссылок
         pings: Упоминания
         user_content: Пользовательский контент
