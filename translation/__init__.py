@@ -48,7 +48,10 @@ class DpyNQNTranslator(DpyTranslator):
         Locale.brazil_portuguese: "pt",
         Locale.russian: "ru",
         Locale.spain_spanish: "es",
-
+        Locale.dutch: "nl",
+        Locale.vietnamese: "vi",
+        Locale.taiwan_chinese: "tw",
+        Locale.chinese: "cn"
     }
     _param_contexts = (
         TranslationContextLocation.parameter_name,
@@ -128,7 +131,7 @@ class DpyNQNTranslator(DpyTranslator):
 
 
 # Add here to release a language
-_released_locales = ("en", "es", "ru", "pt", "it", "vi", "fa", "nl")
+_released_locales = ("en", "es", "ru", "pt", "it", "vi", "fa", "nl", "tw")
 
 
 class Translator(metaclass=Singleton):
