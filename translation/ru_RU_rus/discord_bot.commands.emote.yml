@@ -18,13 +18,13 @@ discord_bot:
         animated_url: "Анимированная версия:"
         static_url: "Статическая версия:"
       rolelock:
-        success: "Locked roles for %{emoji} to %{roles}"
+        success: "Для ролей %{roles} была заблокирована эмодзи %{emoji}"
       roleunlock:
-        success: "Unlocked roles for %{emoji}"
+        success: "Разблокированы роли для %{emoji}"
       block:
         success:
           one: "Заблокированные эмодзи"
-          many: "Blocked %{count} emojis"
+          many: "Заблокировано %{count} эмодзи"
         audit:
           one: |
             %{author} заблокировал следующую эмодзи:
@@ -32,6 +32,6 @@ discord_bot:
             %{author} заблокировал следующие эмодзи:
       unblock:
         success: "Разблокированные эмодзи"
-        not_blocked: "Emoji wasn't blocked to start with"
+        not_blocked: "Этот эмодзи не был ранее заблокирован"
         audit: |
           %{author} разблокировал следующую эмодзи:
