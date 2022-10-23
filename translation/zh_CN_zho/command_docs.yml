@@ -39,92 +39,92 @@ command_docs:
     name: 私信
     short_doc: 在私信里获取您的所有表情符号别号
     help: |
-      Have the bot send you a list of your aliases in your DMs
+      让此机器人私信您您的所有表情符号别号
   alias-export:
-    name: export
-    short_doc: Export your alias list
+    name: 导出
+    short_doc: 导出您的表情符号别号
   alias-import:
-    name: import
-    short_doc: Import someone else's alias list
+    name: 导入
+    short_doc: 导入其他人的表情符号别号
     params:
       file:
-        name: file
+        name: 文件
         description: |-
-          A file previously exported with /alias export
+          以前使用 /alias 导出的一个文件
   alias-mine:
-    name: mine
-    short_doc: Get a list of aliases you've made
+    name: 我的
+    short_doc: 获得所有您创建的表情符号别号
     params:
       page:
-        name: page
+        name: 页面
         description: |-
-          What page to start at?
+          从哪一页开始？
   alias-rename:
-    name: rename
-    short_doc: Rename one of your aliases
+    name: 重命名
+    short_doc: 重命名您的一个表情符号别号
     params:
       old_name:
-        name: old_name
+        name: 旧的名字
         description: |-
-          What's the name of the emoji you want to give a new name to?
+          您想要重命名的表情符号叫做什么？
       new_name:
-        name: new_name
+        name: 新的名字
         description: |-
-          What should it be renamed to?
+          它应该被重命名成什么？
   alias-search:
-    name: search
-    short_doc: Look for individual emotes
+    name: 搜索
+    short_doc: 寻找表情符号
     help: |
-      Look for individual emotes to use with NQN
+      寻找您可以使用的表情符号
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      NQN允许以下高级搜索方式：
+       - `exact`：（预设为false）仅显示与搜索内容一模一样的表情符号
+       - `animated`：仅显示动态或静止的表情符号
+       - `page`：跳到某一页
+       - `order`：以 “使用次数” 或 “随机” 来排序页面
   audit:
-    name: audit
-    short_doc: Get audit logs for reposted messages for this channel
+    name: 记录
+    short_doc: 获取NQN在此频道转发的消息的记录
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
+      获取NQN在此频道转发的消息的记录
+      可选[Channel] -> 仅获得此频道的记录
+      可选[Member] -> 仅获得此成员的记录
 
-      If both channel and members are to be unfiltered, use 'audit guild'
+      如果频道和成员都不用被过滤，请使用 ’audit guild‘
   delete:
-    name: delete
-    short_doc: Delete one of your messages reposted by NQN
+    name: 删除
+    short_doc: 删除一条您被NQN转发的消息
     help: |
-      Delete one of your messages reposted by NQN.
-      By default, your most recent message in this channel is deleted, but you can optionally supply a message URL to delete that instead.
-      You can also use Discord's message reply functionality to delete that message.
+      删除一条您被NQN转发的消息。
+      预设下，您在次频道最新发出的消息将被删除，但您也可以提供消息链接来删除那条消息。
+      您还可以使用Discord的回复功能来删除那条消息。
   edit:
-    name: edit
-    short_doc: Edit a message posted by NQN
+    name: 编辑
+    short_doc: 编辑一条NQN发出的消息
     help: |
-      Edits the content of one of your messages reposted by NQN.
-      By default, your most recent message in this channel is edited, but you can optionally supply a message URL to edit that instead
-      You can also use Discord's message reply functionality to edit that message.
+      编辑一条您被NQN转发的消息。
+      预设下，您在次频道最新发出的消息将被编辑，但您也可以提供消息链接来编辑那条消息。
+      您还可以使用Discord的回复功能来编辑那条消息。
   emote:
-    name: emote
-    short_doc: Manage your server's emojis
+    name: 表情符号
+    short_doc: 管理您的伺服器的表情符号
   emote-block:
-    name: block
-    short_doc: Block the use of an emote
+    name: 禁止
+    short_doc: 禁止任何人使用一个表情符号
     help: |
-      Search for emojis to block in this server.
-      When this emoji is used, it'll automatically be added to the server's automod list and be removed.
+      搜索在这个伺服器中要被禁止的表情符号。
+      当有人使用此表情符号，它会自动添加到服务器的 automod 列表中并被删除。
   emote-block-from_emote:
-    name: from_emote
-    short_doc: Block the use of an emote
+    name: 来自表情符号
+    short_doc: 禁止任何人使用一个表情符号
     params:
       emoji:
-        name: emoji
+        name: 表情符号
         description: |-
-          Which emoji to block the use of?
+          要禁止使用哪个表情符号？
   emote-block-from_search:
-    name: from_search
-    short_doc: Block the use of an emote
+    name: 来自搜索
+    short_doc: 禁止任何人使用一个表情符号
   emote-block-recently_used:
     name: recently_used
     short_doc: Block the use of an emote
