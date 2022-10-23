@@ -1,43 +1,43 @@
 command_docs:
   gain_access_to_emojis:
-    name: Gain access to emojis
+    name: 享用表情符号
   block_emote:
-    name: Block an emote
+    name: 禁止一个表情符号
   audit_messages:
-    name: Audit NQN messages
+    name: 审核 NQN 的消息
   delete_message:
-    name: Delete Message
+    name: 删除消息
   edit_message:
-    name: Edit Message
+    name: 编辑消息
   find_author:
-    name: Find Author
+    name: 寻找作者
   alias:
-    name: alias
-    short_doc: Manage the individual emotes you can use
+    name: 表情符号别号
+    short_doc: 管理每个您可以使用的表情符号
     help: |
-      Manage the individual emotes you can use
+      管理每个您可以使用的表情符号
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+      NQN允许以下高级搜索方式：
+       - `exact`：（预设为false）仅显示与搜索内容一模一样的表情符号
+       - `animated`：仅显示动态或静止的表情符号
+       - `page`：跳到某一页
+       - `order`：以 “使用次数” 或 “随机” 来排序页面
   alias-delete:
-    name: delete
-    short_doc: Don't want an alias anymore? Use this
+    name: 删除
+    short_doc: 不想再使用表情符号别号了吗？用此指令
     params:
       alias:
-        name: alias
+        name: 表情符号别号
         description: |-
-          Which alias do you want to remove?
+          您想要移除那个表情符号别号？
   alias-delete_all:
-    name: delete_all
-    short_doc: I don't like any of my aliases
+    name: 删除全部
+    short_doc: 我不喜欢我所有的表情符号别号
     help: |
-      Delete all of your aliases
+      删除您所有的表情符号别号
   alias-dm:
-    name: dm
-    short_doc: Get a full list of your aliases in DMs
+    name: 私信
+    short_doc: 在私信里获取您的所有表情符号别号
     help: |
       Have the bot send you a list of your aliases in your DMs
   alias-export:
