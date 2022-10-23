@@ -2,36 +2,36 @@ discord_bot:
   commands:
     emote:
       info:
-        title: "Info about emote '%{name}':"
+        title: "Информация об эмодзи '%{name}':"
         id: "ID:"
-        server_daily_uses: "Daily uses in this server:"
-        server_uses: "Uses in this server:"
+        server_daily_uses: "Ежедневно использовалось на сервере:"
+        server_uses: "Использовалось на сервере:"
         approx_uses:
-          zero: "0"
-          one: "1"
-          many: "~%{count}"
-        total_uses_per_day: "Total uses per day:"
-        aka: "Also known as:"
-        locked_roles: "Locked to roles:"
-        upload_time: "Uploaded at:"
+          zero: "0 раз"
+          one: "1 раз"
+          many: "~%{count} раз"
+        total_uses_per_day: "Кол-во использований в течение дня:"
+        aka: "Также известно как:"
+        locked_roles: "Заблокирована для ролей:"
+        upload_time: "Было загружено:"
         url: "URL:"
-        animated_url: "Animated URL:"
-        static_url: "Static URL:"
+        animated_url: "Анимированная версия:"
+        static_url: "Статическая версия:"
       rolelock:
         success: "Locked roles for %{emoji} to %{roles}"
       roleunlock:
         success: "Unlocked roles for %{emoji}"
       block:
         success:
-          one: "Blocked emoji"
+          one: "Заблокированные эмодзи"
           many: "Blocked %{count} emojis"
         audit:
           one: |
-            %{author} blocked the following emote:
+            %{author} заблокировал следующую эмодзи:
           many: |
-            %{author} blocked the following emotes:
+            %{author} заблокировал следующие эмодзи:
       unblock:
-        success: "Unblocked emoji"
+        success: "Разблокированные эмодзи"
         not_blocked: "Emoji wasn't blocked to start with"
         audit: |
-          %{author} unblocked the following emote:
+          %{author} разблокировал следующую эмодзи:
