@@ -13,15 +13,15 @@ command_docs:
     name: Yazar Bul
   alias:
     name: takma ad
-    short_doc: Manage the individual emotes you can use
+    short_doc: Kullanabileceğiniz bireysel emojileri yönetin
     help: |
-      Manage the individual emotes you can use
+      Kullanabileceğiniz bireysel emojileri yönetin
 
-      NQN's search allows for some advanced features:
-       - `exact`: (default false) only show emotes with the exact name as searched for
-       - `animated`: either show only animated or static emotes
-       - `page`: skip to a certain page
-       - `order`: one of 'uses', 'random'
+       NQN'nin araması bazı gelişmiş özelliklere izin verir:
+       - "tam": (varsayılan yanlış) yalnızca tam adı arandığı şekilde olan ifadeleri gösterir
+       - "animasyonlu": yalnızca animasyonlu veya statik ifadeleri göster
+       - `sayfa`: belirli bir sayfaya atla
+       - 'sıra': 'kullanımlardan' biri, 'rastgele'
   alias-delete:
     name: sil
     short_doc: Don't want an alias anymore? Use this
