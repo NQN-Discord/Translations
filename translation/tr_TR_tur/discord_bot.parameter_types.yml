@@ -4,65 +4,65 @@ discord_bot:
     SearchTerms:
       name: Arama terimleri
       description: |-
-        Search terms
+        Arama terimleri
     Message:
-      name: Message
+      name: Mesaj
       description: |-
-        A Discord reply to the message you want to target
-        - A message URL (`https://discord.com/channels/123456789/123456789/123456789`)
-        - A message id in the current channel (`123456789`)
-        - ChannelID-MessageID pair (`123456789-123456789`)
-        - How many messages ago it was in current channel (`5` messages ago)
+        Hedeflemek istediğiniz mesaja bir Discord yanıtı
+         - Bir mesaj URL'si (`https://discord.com/channels/123456789/123456789/123456789`)
+         - Geçerli kanalda bir mesaj id (`123456789`)
+         - KanalİD-MesajİD çifti (`123456789-123456789`)
+         - Şu anki kanalda kaç mesaj önceydi (`5` mesaj önce)
     PartialEmoji:
       name: Emoji
       description: |-
-        A rendered Discord emoji or an emoji URL
+        İşlenmiş bir Discord emojisi veya bir emoji URL'si
     TextChannel:
-      name: Text Channel
+      name: Metin Kanalı
       description: |
-        A text channel mention
+        Bir metin kanal etiket
     User:
-      name: User
+      name: Kullanıcı
       description: |
-        A user mention
+        Bir kullanıcı etiketi
     Role:
-      name: Role
+      name: Rol
       description: |
-        A role mention or name
+        Bir rol etiket veya isim
     NQNEmoji:
       name: NQNEmoji
       description: |
-        An unrendered emoji NQN can transform
-        - A rendered Discord emoji or an emoji URL
+        İşlenmemiş bir emoji NQN dönüştürebilir
+         - İşlenmiş bir Discord emojisi veya bir emoji URL'si
     BlockedEmoji:
-      name: BlockedEmoji
+      name: EngellenenEmoji
       description: |-
-        The name of an emoji that's blocked in this server
+        Bu sunucuda engellenen bir emojinin adı
     CurrentGuildEmoji:
-      name: ServerEmoji
+      name: SunucuEmoji
       description: |
-        An emoji in the current server
+        Mevcut sunucudaki bir emoji
     None:
-      name: Empty
+      name: Boş
       description: |
-        No argument
+        Argümansız
     str:
-      name: String
+      name: Sicim
       description: |
-        Some text
+        Bazı metin
     int:
-      name: Integer
+      name: Tam sayı
       description: |
-        A number
+        Bir numara
     bool:
-      name: Boolean
+      name: Boole
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
-      name: List
+      name: Liste
       description: |-
-        At least
+        En azından
     Union:
-      name: Union
+      name: Birlik
       description: |-
-        One of the following:
+        Aşağıdakilerden biri:
