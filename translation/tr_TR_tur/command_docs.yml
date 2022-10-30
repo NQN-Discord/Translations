@@ -24,12 +24,12 @@ command_docs:
        - 'sıra': 'kullanımlardan' biri, 'rastgele'
   alias-delete:
     name: sil
-    short_doc: Don't want an alias anymore? Use this
+    short_doc: Artık bir takma ad istemiyor musun? Bunu kullan
     params:
       alias:
         name: takma ad
         description: |-
-          Which alias do you want to remove?
+          Hangi takma adı kaldırmak istiyorsunuz?
   alias-delete_all:
     name: hepsini_sil
     short_doc: Takma adlarımdan hiçbirini sevmiyorum
@@ -45,7 +45,7 @@ command_docs:
     short_doc: Takma ad listenizi dışa aktarın
   alias-import:
     name: içe aktarmak
-    short_doc: Import someone else's alias list
+    short_doc: Başka birinin takma ad listesini içe aktar
     params:
       file:
         name: dosya
