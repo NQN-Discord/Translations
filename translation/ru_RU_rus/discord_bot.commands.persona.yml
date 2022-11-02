@@ -2,69 +2,70 @@ discord_bot:
   commands:
     persona:
       not_enabled: |
-        Personas are not enabled in this server.
-        They allow users to use ⚠️**custom usernames** and **avatars**⚠️ with NQN, so are not enabled by default.
-      enable_personas: Enable personas
+        Профили отключены на этом сервере.
+        Они позволяют пользователям использовать ⚠️**пользовательские ники** и **аватары**⚠️ с NQN, поэтому по умолчанию они отключены.
+      enable_personas: Включить профили
       name_regex: |
-        Названия персоны могут содержать только буквы, цифры, тире и нижние подчёркивания, и не должны быть длинее 80 символов.
+        Названия профилей могут содержать только буквы, цифры, тире и нижние подчёркивания, и не должны быть длиннее 80 символов.
+        > '%{persona_name}' не соответствует этим требованиям.
       max_display_name: |
-        Ники не могут быть длинее 80 символов
+        Никнеймы не могут быть длиннее 80 символов
       persona_doesnt_exist: |
-        У вас нету персоны с названием %{short_name}!
-        Создайте её с помощью `%{prefix}persona register %{short_name}`
+        У вас нет профиля с названием %{short_name}!
+        Создайте его с помощью `%{prefix}persona register %{short_name}`
       export:
         exported_list_short: |
-          Вот ваши экспортированные персоны, они должны быть совместимы с Tupperbox и Pluralkit.
+          Вот ваши экспортированные профили, они могут быть совместимы с Tupperbox и Pluralkit.
         exported_list_long: |
-          Вот ваши экспортированные персоны, они должны быть совместимы с Tupperbox и Pluralkit.
-          Чтобы поделится ими с другими людьми, они должны выполнить:
+          Вот ваши экспортированные профили, они могут быть совместимы с Tupperbox и Pluralkit.
+          Чтобы поделиться ими с другими людьми, они должны ввести:
           > `%{prefix}persona import %{url}`
       import_:
         import_incorrect: |
-          This command is used to import a persona list previously exported with `%{prefix}persona export`, or equivalent export commands from PluralKit and Tupperbox.
-          To create a persona, use `%{prefix}persona register`
-        import_text: This command needs a json file attachment
+          Эта команда используется для импорта профилей, ранее экспортированных с помощью `%{prefix}persona export` или похожих команд для экспорта из PluralKit и Tupperbox.
+          Чтобы создать профиль, введите `%{prefix}persona register`
+        import_text: Для этой команды файл должен иметь json формат
         set_personas:
-          one: Imported one persona
-          many: Imported %{count} personas
-        invalid_persona: Do you wish to continue importing the rest of the file, ignoring this entry?
+          one: Импортирован 1 профиль
+          many: Импортировано %{count} профилей
+        invalid_persona: Вы точно хотите продолжить импортирование остальной части файла, игнорируя эту запись?
       list:
         no_personas: |
-          У вас нету персон!
+          У вас нет ни одного профиля!
       register:
-        display_name: Nickname
-        avatar_url: Avatar URL
-        create: Create Persona
+        display_name: Никнейм
+        avatar_url: Ссылка на Аватар
+        create: Создать Профиль
         persona_exists: |
-          У вас уже есть персона с названием %{short_name}.
-          Вы можете переименовать её с помощью `%{prefix}persona rename %{short_name} new_name`
+          У вас уже есть профиль с названием %{short_name}.
+          Вы можете переименовать его с помощью `%{prefix}persona rename %{short_name} новое_название`
         registered_persona: |
-          Я создал персону %{short_name}!
-          Чтобы отправлять сообщения от них, напишите сообщение начинающесия с `%{short_name}:`, к примеру:
+          Я создал профиль %{short_name}!
+          Чтобы отправлять сообщения от него, напишите сообщение начинающесия с `%{short_name}:`, к примеру:
           > ```%{short_name}: Привет!```
-          Чтобы сменить имя, выполните:
+          Чтобы сменить ник, введите:
           > ```%{prefix}persona display_name %{short_name} NQN```
-          Чтобы сменить аватарку, выполните:
+          Чтобы сменить аватарку, введите:
           > ```%{prefix}persona avatar_url %{short_name} https://...```
       rename:
         renamed_persona: |
-          Персона %{old_name} была переименована в %{new_name}.
+          Профиль %{old_name} был переименован в %{new_name}.
       avatar_url:
         persona_avatar_url: |
           Изменена аватарка для %{short_name}
         avatar_regex: |
-          Аватарки должны быть указаны как ссылки на картинку которую вы хотите использовать.
+          Чтобы сменить аватар, вставьте ссылку на нужное вам изображение.
       delete:
         persona_deleted: |
-          Персона %{short_name} была удалена.
+          Профиль %{short_name} был удалён.
       display_name:
         renamed_persona_display_name: |
-          Изменён ник в %{short_name} на %{display_name}.
+          Профиль %{short_name} переименован в %{display_name}.
       dm:
         send_dms:
           zero: |
-            У вас нету никаких персон
-            Вы можете получить их с помощью `%{prefix}persona register`
+            У вас нет ни одного профиля!
+            Вы можете создать его с помощью `%{prefix}persona register`
           one: |
             Это отправит вам сообщение в ЛС; продолжить?
           many: |

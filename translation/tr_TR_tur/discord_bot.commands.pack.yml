@@ -2,7 +2,7 @@ discord_bot:
   commands:
     pack:
       buttons:
-        add_to_everyone: Add to @everyone
+        add_to_everyone: '@everyone''na ekle'
         join_pack: Join Pack
         leave_pack: Leave Pack
         join_server: Join Server

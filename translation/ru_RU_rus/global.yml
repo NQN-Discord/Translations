@@ -2,7 +2,7 @@ global:
   deleted_channel: '#удалённый-канал'
   author: Автор
   jump_to_message: Перейти
-  go_to_message: Перейти на сообщение!
+  go_to_message: Перейти к сообщению
   reply_to: 'Отвечает на:'
   cancelled: Отменено
   website: Сайт
@@ -14,10 +14,10 @@ global:
   dm_me: Написать в ЛС
   next: Следующий
   previous: Предыдущий
-  choose_emote: Choose some emotes
+  choose_emote: Выберите некоторые эмодзи
   learn:
-    aliases: Learn more about aliases
-    packs: Learn more about packs
+    aliases: Узнайте больше об эмодзи
+    packs: Узнайте больше о паках
     my_emotes: Найти эмодзи, которые я могу использовать
     personas: Узнайте больше о персонах
   missing_permissions: Отсутствуют права

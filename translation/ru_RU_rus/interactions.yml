@@ -5,4 +5,4 @@ interactions:
     Тайм-аут взаимодействия
     Пожалуйста выполните команду снова
   bot_timed_out: |
-    NQN has been timed out by a moderator and cannot respond.
+    NQN находится в тайм-ауте и не может ответить.
