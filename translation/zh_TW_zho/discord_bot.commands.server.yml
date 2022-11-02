@@ -112,7 +112,7 @@ discord_bot:
       language:
         choose: '請選擇語言：'
         set: 已將此伺服器的語言設置為繁體中文
-        this_locale_name: 英語
+        this_locale_name: 繁體中文
       config:
         enabled: 已啟用的
         disabled: 已禁用的
