@@ -1,10 +1,10 @@
 discord:
   ext.commands.help:
-    need_emojis: ' - 我需要使用表情符號！'
+    need_emojis: ' - 我需要這個以使用表情符號！'
     need_help: ' - help 指令需要這個才能運作！'
     nothing: ''
     choose_page: 瀏覽指令
-    please_give: 沒有這些，我不能起作用！
+    please_give: 沒有這些，我無法正常運行！
     fix_perms: |
       - **[修理伺服器權限](%{invite_url})**
     nqn_help: NQN 說明
