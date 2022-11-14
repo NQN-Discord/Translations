@@ -7,7 +7,7 @@ discord:
     please_give: 沒有這些，我無法正常運行！
     fix_perms: |
       - **[修理伺服器權限](%{invite_url})**
-    nqn_help: NQN 說明
+    nqn_help: NQN 使用說明
     my_prefix: |
       我的指令前綴是 `%{prefix}`
     react_with_x_to_delete: |
