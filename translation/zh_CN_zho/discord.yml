@@ -11,7 +11,7 @@ discord:
     my_prefix: |
       我的指令的前缀是 `%{prefix}`
     react_with_x_to_delete: |
-      回复 ❌ (\:x:) 来删除转发的信息
+      添加 ❌ (\:x:) 反应来删除转发的信息
     user_ignored: |
       发送通常会重新发布的消息时，您将会被忽略。请运行以下指令来允许 NQN 重新发布您的消息：
       > `%{prefix}ignore_me`
