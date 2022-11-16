@@ -57,29 +57,29 @@ discord_bot:
 
           %{extra_message}
       emote_stats:
-        top_emotes: "Top used emojis in this server"
-        choose_page: "Choose a page"
-        never: "Never used"
-        once: "Used once"
-        infrequent: "Infrequent use"
-        often: "Used often"
-        frequent: "Frequent use"
-        extreme: "Extremely frequent use"
-        extraordinary: "Extraordinarily frequently used"
-        off_chart: "Off the chart"
+        top_emotes: "Emojis mais usados neste servidor"
+        choose_page: "Escolher uma página"
+        never: "Nunca usado"
+        once: "Usado uma vez"
+        infrequent: "Uso infrequente"
+        often: "Usado regularmente"
+        frequent: "Uso frequente"
+        extreme: "Uso muito frequente"
+        extraordinary: "Usado extraordinariamente frequentemente"
+        off_chart: "Usado até ao céu"
         times_used:
-          zero: "Never used"
-          one: "Used once"
-          many: "~%{count} times used"
+          zero: "Nunca usado"
+          one: "Usado uma vez"
+          many: "~%{count} vezes usado"
         times_used_per_day:
-          zero: "Less than once per day"
-          one: "About once per day"
-          many: "~%{count} times per day"
+          zero: "Menos de um por dia"
+          one: "Ao redor de um por dia"
+          many: "~%{count} vezes por dia"
         emote_count:
-          zero: "No emotes"
+          zero: "Sem emotes"
           one: "1 emote"
           many: "%{count} emotes"
-        boundary: "~%{min} - %{max} times used"
+        boundary: "~%{min} - %{max} vezes usado"
       tutorial:
         choose_page: Buscar em Tutorial
         invalid_page: Existem apenas %{count} páginas no tutorial!
@@ -135,15 +135,15 @@ discord_bot:
 
           Se você quiser procurar por um emoji mas não sabe o nome direito, você pode usar uma palavra chave e depois escolher um dos emojis da lista:
           > `%{prefix}alias search PalavraChave`
-        page_4_title: Message Link Previews
+        page_4_title: Visualização de links de mensagens
         page_4_desc: |
-          NQN allows you to preview messages sent in different channels.
+          O NQN permite que você responda a mensagens enviados há muito tempo.
 
-          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
+          Simplesmente copie o link da mensagem via Discord (o botão de compartilhar) e cole-o em sua mensagem, e ele publicará a mensagem que você está respondendo também.
 
-          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+          Se você não quiser que o bot repita o link de uma mensagem, pode colocá-lo em \<\>, e o bot não postará novamente.
 
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
+          Se um administrador do servidor deseja desabilitar esta funcionalidade em todo o servidor, ele pode usar `%{prefix}server replies off`.
         page_5_title: URLs camuflados
         page_5_desc: |
           O NQN permite que os usuários enviem [URLs camuflados] (%{url}) como parte de suas mensagens.
@@ -178,16 +178,16 @@ discord_bot:
           Use `%{prefix}persona` para ver todos os comandos de personagem
         page_8_title: Administração do Servidor
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          O NQN é altamente personalizável em termos de recursos, caso algum deles não seja apropriado para o seu servidor.
+          Qualquer pessoa com a permissão **Gerenciar servidor** pode alterar as configurações do bot neste servidor.
 
-          Here are the features you can toggle:
+          Aqui estão os recursos que você pode alternar:
 
            • Nitro - `%{prefix}server nitro`
-           • Stickers - `%{prefix}server stickers`
-           • Message Link Previews - `%{prefix}server message_link_previews`
-           • Personas - `%{prefix}server personas`
-           • Masked Links - `%{prefix}server masked_links`
+           • Figurinhas - `%{prefix}server stickers`
+           • Visualização de links de mensagens - `%{prefix}server replies`
+           • Personagens - `%{prefix}server personas`
+           • Links Camuflados - `%{prefix}server masked_links`
         page_8_0_name: Solução de problemas
         page_8_0_desc: |
           Para funcionar corretamente, o NQN precisa das seguintes permissões em __cada__ canal em que deseja usar o Nitro:
@@ -242,9 +242,9 @@ discord_bot:
           Se você tiver emojis conflitantes, crie um alias daquele que vocẽ quer usar e isso o substituirá.
       react:
         user_needs_to_react: |
-          Hey %{user_ping}!
-          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
-          *NQN will remove its reactions after %{time} seconds.*
+          Olá %{user_ping}!
+          O comando `%{prefix}react` adiciona reações à mensagem para você adicionar também, mesmo sem Nitro. Apenas clique em cada reação!
+          *NQN vai remover a reação após %{time} segundos.*
         channel_empty: Este canal está vazio
         invalid_react:
           one: |
@@ -325,10 +325,10 @@ discord_bot:
         pt: 'Português:'
         it: 'Italiano:'
         vi: 'Vietnamese:'
-        fa: 'Persian:'
-        nl: 'Dutch:'
-        cn: 'Chinese (Simplified)'
-        tw: 'Chinese (Traditional)'
+        fa: 'Persa:'
+        nl: 'Holandês:'
+        cn: 'Chinês (Simplificado)'
+        tw: 'Chinês (Tradicional)'
         bot_stats: Estatísticas do Bot no Discord
         shard_info_name: Informações sobre fragmentos
         process_data_name: Dados de processo do bot
@@ -339,7 +339,7 @@ discord_bot:
         author: Autor
         bot_latency: '> API/Bot - Latência: %{bot_latency}ms'
         help_command: 'Comando de ajuda: `%{prefix}help`'
-        refresh: Refresh
+        refresh: Atualizar
       upload_emote:
         own_emojis_dont_ask_again: Sim; Eu possuo esses
         alphanumeric: ' - Deve ser alfanumérico com *underscores*'
