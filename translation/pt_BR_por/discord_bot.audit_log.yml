@@ -16,5 +16,5 @@ discord_bot:
     phish_deleted: |
       Foi excluída uma mensagem maliciosa que continha link para um phishing em %{channel} de %{author}
     blocked_message: |
-      Deleted message with blocked emotes in %{channel} by %{author}
+      Mensagem apagado com emotes bloqueados em %{channel} por %{author}
     audit_log_post: NQN em nome de %{author} (%{id})
