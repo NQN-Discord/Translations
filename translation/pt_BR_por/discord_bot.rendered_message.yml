@@ -4,7 +4,7 @@ discord_bot:
     external_emojis: |
       In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Server Settings**.
     override_external_emojis: |
-      In order to use emojis from other servers, NQN needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
+      Em ordem para usar emojis de outros servidores, NQN precisa de permissão de "Usar Emojis Externos" nas **permissões do canal**.
     download: Baixar
     no_personas: |
       Os personagens não estão habilitados neste servidor
