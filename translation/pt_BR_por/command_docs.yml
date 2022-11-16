@@ -2,7 +2,7 @@ command_docs:
   gain_access_to_emojis:
     name: Ganhe acesso aos emojis
   block_emote:
-    name: Block an emote
+    name: Bloquear um emote
   audit_messages:
     name: Auditoria de mensagens NQN
   delete_message:
@@ -28,7 +28,7 @@ command_docs:
       alias:
         name: alias
         description: |-
-          Which alias do you want to remove?
+          Qual alias quer que eu remova?
   alias-delete_all:
     name: deletar_tudo
     short_doc: Eu não gosto de nenhum dos meus aliases
@@ -49,9 +49,9 @@ command_docs:
       file:
         name: arquivo
         description: |-
-          A file previously exported with /alias export
+          Um arquivo previamente exportado com /alias export
   alias-mine:
-    name: mine
+    name: meu
     short_doc: Obtenha uma lista de apelidos que você criou
     params:
       page:
@@ -63,11 +63,11 @@ command_docs:
     short_doc: Renomeie um de seus apelidos
     params:
       old_name:
-        name: old_name
+        name: nome_antigo
         description: |-
           Qual é o nome do emoji que você quer dar um novo nome?
       new_name:
-        name: new_name
+        name: novo_nome
         description: |-
           Como deve ser renomeado?
   alias-search:
@@ -112,7 +112,7 @@ command_docs:
       Busca de emojis para bloquear nesse servidor.
       Quando este emoji for usado, ele será automaticamente adicionado a lista de autônomos do servidor e será removido.
   emote-block-from_emote:
-    name: from_emote
+    name: de_emote
     short_doc: Bloquear o uso de um emote
     params:
       emoji:
@@ -120,10 +120,10 @@ command_docs:
         description: |-
           Que emoji bloquear o uso?
   emote-block-from_search:
-    name: from_search
+    name: de_busca
     short_doc: Bloquear o uso de um emote
   emote-block-recently_used:
-    name: recently_used
+    name: recentemente_usado
     short_doc: Bloquear o uso de um emote
     params:
       emoji:
@@ -131,7 +131,7 @@ command_docs:
         description: |-
           Que emoji bloquear o uso?
   emote-block_list:
-    name: block_list
+    name: lista_bloqueados
     short_doc: Ver lista de emojis bloqueados em seu servidor
   emote-info:
     name: informações
