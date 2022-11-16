@@ -36,7 +36,7 @@ permissions:
   manage_roles: |-
     Gerenciar Cargos
   manage_threads: |-
-    Gerencias tópicos
+    Gerenciar tópicos
   manage_posts: |-
     Gerenciar postagens
   manage_webhooks: |-
