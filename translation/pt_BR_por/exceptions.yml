@@ -54,4 +54,4 @@ exceptions:
         As permissões do canal foram negadas para %{user_ping} e também para o cargo: %{roles}
       many: |-
         As permissões do canal foram negadas para %{user_ping} e também para os cargos: %{roles}
-  no_threads: This command cannot be used in threads.
+  no_threads: Este comando não pode ser usado em tópicos.
