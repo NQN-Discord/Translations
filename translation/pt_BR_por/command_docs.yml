@@ -285,7 +285,7 @@ command_docs:
     name: purgar
     short_doc: Limpar algumas mensagens repostadas pelo bot neste canal
   mutuals:
-    name: mutos
+    name: mútuos
     short_doc: Veja os servidores que compartilho com você
   my_emotes:
     name: meus_emotes
@@ -297,7 +297,7 @@ command_docs:
           Quais emotes mostrar?
         choices:
           current_server: Este Servidor
-          mutual_servers: Servidores Compartilhados
+          mutual_servers: Servidores mútuos
           aliases: Aliases
           packs: Pacotes
   owner:
