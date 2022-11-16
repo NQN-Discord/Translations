@@ -148,7 +148,7 @@ command_docs:
       emoji:
         name: emoji
         description: |-
-          Which emoji to make jumbo sized?
+          Qual emoji para fazer tamanho jumbo?
   emote-rolelock:
     name: desbloqueio
     short_doc: Fixar um emoji a um conjunto específico de papéis
@@ -156,67 +156,67 @@ command_docs:
       emoji:
         name: emoji
         description: |-
-          Lock which emoji?
+          Bloquear qual emoji?
       role:
         name: cargo
         description: |-
-          Lock the emoji to which role?
+          Bloquear o emoji para qual cargo?
   emote-roleunlock:
-    name: roleunlock
-    short_doc: Allow anyone to use a locked emote
+    name: desbloquearcargo
+    short_doc: Permitir que todos usem emote bloqueado
     params:
       emoji:
         name: emoji
         description: |-
-          Unlock which emoji?
+          Desbloquear qual emoji?
   emote-stats:
     name: stats
-    short_doc: See how often your server's emotes are used
+    short_doc: Ver quão frequente os emotes do servidor são usados
   emote-unblock:
-    name: unblock
-    short_doc: Unblock a previously blocked emoji
+    name: desbloquear
+    short_doc: Desbloquear um emote previamente bloqueado
     params:
       emoji:
         name: emoji
         description: |-
-          Which emoji to unblock?
+          Qual emoji desbloquear?
   emote-upload:
-    name: upload
-    short_doc: Upload an emote
+    name: carregar
+    short_doc: Carregar um emote
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload it
+      Procura por todos emotes do bot que foram vistos ou carregados para o servidor.
+      Este comando deixa você carregar emotes.
+      Também pode anexar um arquivo para carregá-lo
   emote-upload-from_attachment:
-    name: from_attachment
-    short_doc: Upload an emoji from an attachment
+    name: de_anexo
+    short_doc: Carregar um emoji de um anexo
     params:
       attachment:
-        name: attachment
+        name: anexo
         description: |-
-          Emoji image
+          Imagem emoji
   emote-upload-from_emote:
-    name: from_emote
-    short_doc: Upload an emoji from it's name or URL
+    name: de_emote
+    short_doc: Carregar um emoji pelo nome ou URL
     params:
       emoji:
         name: emoji
         description: |-
-          Emoji or Emoji URL
+          Emoji ou Emoji URL
   emote-upload-from_search:
-    name: from_search
-    short_doc: Search for an emoji to upload to your server
+    name: de_busca
+    short_doc: Procurar por um emoji para carregar para o servidor
   export:
     name: exportar
     short_doc: Exporte sua lista de emoticons
   help:
-    name: help
+    name: ajuda
     short_doc: Mostra esta mensagem
     params:
       command:
-        name: command
+        name: comando
         description: |-
-          What to learn about?
+          O que aprender?
     help: |
       Mostra esta mensagem
   ignore_me:
@@ -231,11 +231,11 @@ command_docs:
     name: informações
     short_doc: Estatísticas internas sobre o bot
   invite_me:
-    name: invite_me
+    name: convide_me
     short_doc: Convide o bot para o seu servidor!
   mod:
     name: mod
-    short_doc: NQN moderation tools
+    short_doc: Ferramentas de moderação
   mod-audit:
     name: revisão
     short_doc: Obtenha registros de auditoria para mensagens repostadas para este canal
@@ -243,11 +243,11 @@ command_docs:
       channel:
         name: canal
         description: |-
-          Filter to just messages in this channel
+          Filtrar para apenas mensagens neste canal
       user:
         name: usuário
         description: |-
-          Filter to just messages by this user
+          Filtrar para mensagens deste usuário
     help: |
       Obtenha registros de auditoria para mensagens repostadas para este canal
       Opcional[Canal] -> Filtrar registros apenas para este canal
@@ -257,7 +257,7 @@ command_docs:
     name: proibir
     short_doc: Banir o usuário que postou uma mensagem
   mod-edit_topic:
-    name: edit_topic
+    name: editar_topico
     short_doc: Adicionar emojis animados aos tópicos do canal
     params:
       description:
@@ -267,7 +267,7 @@ command_docs:
     help: |
       Altera a descrição do canal, permitindo emojis animados neles também
   mod-kick:
-    name: kick
+    name: expulsar
     short_doc: Expulse o usuário que postou uma mensagem
   mod-move:
     name: mover
@@ -280,9 +280,9 @@ command_docs:
       messages:
         name: mensagem
         description: |-
-          How many messages to move?
+          Quantas mensagens mover?
   mod-purge:
-    name: purge
+    name: purgar
     short_doc: Limpar algumas mensagens repostadas pelo bot neste canal
   mutuals:
     name: mutuals
