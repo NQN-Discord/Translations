@@ -65,7 +65,7 @@ discord_bot:
         send_dms:
           zero: |
             Você não tem nenhum personagem!
-            Crie um com `%{prefix}persona register Nome`
+            Crie um com `%{prefix}persona register`
           one: |
             Isso vai te enviar uma mensagem direta; você quer continuar?
           many: |
