@@ -12,13 +12,13 @@ discord_bot:
           many: "~%{count}"
         total_uses_per_day: "Usos totais por dia:"
         aka: "Também conhecido como:"
-        locked_roles: "Bloqueado para cargos:"
+        locked_roles: "Restringido para cargos:"
         upload_time: "Carregado em:"
         url: "URL:"
         animated_url: "URL animado:"
         static_url: "URL estático:"
       rolelock:
-        success: "Bloqueado %{emoji} para %{roles}"
+        success: "%{emoji} foi restringido para %{roles}"
       roleunlock:
         success: "Desbloqueado %{emoji} para cargos"
       block:
