@@ -35,7 +35,7 @@ discord_bot:
         add_nqn: Adicione o NQN ao seu servidor!
       my_emotes:
         current_guild: Este Servidor
-        mutual_guilds: Servidores Compartilhados
+        mutual_guilds: Servidores Mútuos
         aliases: Aliases
         packs: Pacotes
         no_mutual_guilds: |
@@ -58,8 +58,8 @@ discord_bot:
           %{extra_message}
       emote_stats:
         top_emotes: "Emojis mais usados neste servidor"
-        choose_page: "Escolher uma página"
-        never: "Nunca usado"
+        choose_page: "Escolha uma página"
+        never: "Nunca foi usado"
         once: "Usado uma vez"
         infrequent: "Uso infrequente"
         often: "Usado regularmente"
@@ -76,7 +76,7 @@ discord_bot:
           one: "Ao redor de um por dia"
           many: "~%{count} vezes por dia"
         emote_count:
-          zero: "Sem emotes"
+          zero: "Nenhum emote"
           one: "1 emote"
           many: "%{count} emotes"
         boundary: "~%{min} - %{max} vezes usado"
