@@ -330,7 +330,7 @@ discord_bot:
         cn: 'Chinês (Simplificado)'
         tw: 'Chinês (Tradicional)'
         bot_stats: Estatísticas do Bot no Discord
-        shard_info_name: Informações sobre fragmentos
+        shard_info_name: Informações sobre shards
         process_data_name: Dados de processo do bot
         elasticsearch_data_name: Dados de pesquisa
         package_info_name: Informação sobre o pacote
