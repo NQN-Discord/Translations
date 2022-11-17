@@ -40,18 +40,18 @@ discord_bot:
         moved_to_from:
           one: '%{author} moveu %{count} mensagens de %{from_channel} para %{to_channel}'
           many: '%{author} moveu %{count} mensagens de %{from_channel} para %{to_channel}'
-        move_end: Mover mensagem
-        end_previous_n: Mover mensagem final antes de %{count}
-        end_next_n: Mover mensagem final depois de %{count}
+        move_end: Mover mensagem final
+        end_previous_n: Mover mensagem final %{count} mensagens antes
+        end_next_n: Mover mensagem final %{count} mensagens depois
         move_start: Mover mensagem inicial
-        start_previous_n: Mover mensagem inicial antes de %{count}
-        start_next_n: Mover mensagem inicial depois de %{count}
-        move_both: Mover inicial e final
-        both_previous_n: Mover inicial e inicial antes de %{count}
-        both_next_n: Mover inicial e final depois de %{count}
+        start_previous_n: Mover mensagem inicial %{count} mensagens antes
+        start_next_n: Mover mensagem inicial %{count} mensagens depois
+        move_both: Mover mensagem inicial e final
+        both_previous_n: Mover inicial e inicial %{count} mensagens antes
+        both_next_n: Mover inicial e final %{count} mensagens depois
         move:
           one: Mover mensagem!
           many: Mover %{count} mensagens!
         move_all:
           one: Mover mensagem!
-          many: Mover todas %{count} mensagens!
+          many: Mover %{count} mensagens!
