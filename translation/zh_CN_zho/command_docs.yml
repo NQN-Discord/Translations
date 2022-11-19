@@ -126,30 +126,30 @@ command_docs:
     name: 来自搜索
     short_doc: 禁止任何人使用一个表情符号
   emote-block-recently_used:
-    name: recently_used
-    short_doc: Block the use of an emote
+    name: 最近使用
+    short_doc: 禁止任何人使用一个表情符号
     params:
       emoji:
-        name: emoji
+        name: 表情符号
         description: |-
-          Which emoji to block the use of?
+          要禁止使用哪个表情符号？
   emote-block_list:
-    name: block_list
-    short_doc: View the list of emojis blocked in this server
+    name: 禁用列表
+    short_doc: 浏览在此伺服器所有被禁用的表情符号
   emote-info:
-    name: info
-    short_doc: Get information about an emote
+    name: 信息
+    short_doc: 获取关于一个表情符号的信息
     params:
       emoji:
-        name: emoji
+        name: 表情符号
         description: |-
-          Which emoji to get information about?
+          获取那个表情符号的信息？
   emote-jumbo:
     name: jumbo
-    short_doc: Makes an emoji bigger
+    short_doc: 放大一个表情符号
     params:
       emoji:
-        name: emoji
+        name: 表情符号
         description: |-
           Which emoji to make jumbo sized?
   emote-rolelock:
