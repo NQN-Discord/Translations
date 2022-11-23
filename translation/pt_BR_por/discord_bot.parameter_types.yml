@@ -35,19 +35,19 @@ discord_bot:
         Um emoji não renderizado NQN pode se transformar
         - Um emoji do discord renderizado ou uma URL de emoji
     BlockedEmoji:
-      name: BlockedEmoji
+      name: EmojiBloqueado
       description: |-
-        The name of an emoji that's blocked in this server
+        O nome de um emoji que está bloqueado neste servidor
     CurrentGuildEmoji:
-      name: ServerEmoji
+      name: EmojiServidor
       description: |
-        An emoji in the current server
+        Um emoji no servidor atual
     None:
       name: Vazio
       description: |
         Sem argumento
     str:
-      name: Fragmento
+      name: Texto
       description: |
         Algum texto
     int:
@@ -55,7 +55,7 @@ discord_bot:
       description: |
         Um número
     bool:
-      name: Boolean
+      name: Booleano
       description: |
         `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
     ListConverter:
