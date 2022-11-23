@@ -1,13 +1,13 @@
 discord:
   ext.commands.help:
-    need_emojis: ' - 我需要使用表情符號！'
+    need_emojis: ' - 我需要這個以使用表情符號！'
     need_help: ' - help 指令需要這個才能運作！'
     nothing: ''
     choose_page: 瀏覽指令
-    please_give: 沒有這些，我不能起作用！
+    please_give: 沒有這些，我無法正常運行！
     fix_perms: |
       - **[修理伺服器權限](%{invite_url})**
-    nqn_help: NQN 說明
+    nqn_help: NQN 使用說明
     my_prefix: |
       我的指令前綴是 `%{prefix}`
     react_with_x_to_delete: |
@@ -20,12 +20,12 @@ discord:
     really_useful: 非常有用的指令
     useful_links: '有用的鏈結'
     website: 網站
-    vote: 投票給機器人！
+    vote: 投票！
     support: 支援
     emote_list: 我的表情符號
     top_gg_vote: 請在 [top.gg](https://top.gg/bot/559426966151757824/vote) 投票給我。這樣能夠增加我的曝光率，從而改善我的功能和令我能夠加入更多表情符號。
     bfd_vote: 請在 [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) 點贊。這樣增加我的曝光率。當我加入每一個伺服器，我的數據庫可以容納更多表情符號。
-    what_is: 甚麼是Not Quite Nitro？
+    what_is: 甚麼是 Not Quite Nitro？
     bot_description: |
       Not Quite Nitro 是一個能夠讓所有使用者都可以使用Discord Nitro會員獨家表情符號的多功能機器人。
       我們的大型數據庫具有豐富而且獨一無二的表情符號。只要這個機器人在伺服器有管理Webhook的權限，你就可以自由地使用任何數據庫裡的表情符號。

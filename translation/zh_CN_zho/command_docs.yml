@@ -126,112 +126,112 @@ command_docs:
     name: 来自搜索
     short_doc: 禁止任何人使用一个表情符号
   emote-block-recently_used:
-    name: recently_used
-    short_doc: Block the use of an emote
+    name: 最近使用
+    short_doc: 禁止任何人使用一个表情符号
     params:
       emoji:
-        name: emoji
+        name: 表情符号
         description: |-
-          Which emoji to block the use of?
+          要禁止使用哪个表情符号？
   emote-block_list:
-    name: block_list
-    short_doc: View the list of emojis blocked in this server
+    name: 禁用列表
+    short_doc: 浏览在此伺服器所有被禁用的表情符号
   emote-info:
-    name: info
-    short_doc: Get information about an emote
+    name: 信息
+    short_doc: 获取关于一个表情符号的信息
     params:
       emoji:
-        name: emoji
+        name: 表情符号
         description: |-
-          Which emoji to get information about?
+          获取那个表情符号的信息？
   emote-jumbo:
-    name: jumbo
-    short_doc: Makes an emoji bigger
+    name: 放大
+    short_doc: 放大一个表情符号
     params:
       emoji:
-        name: emoji
+        name: 表情符号
         description: |-
-          Which emoji to make jumbo sized?
+          将哪个表情符号巨大化？
   emote-rolelock:
-    name: rolelock
-    short_doc: Lock an emoji to a specific set of roles
+    name: 锁定身分组
+    short_doc: 将表情符号锁定到一组特定的身分组
     params:
       emoji:
-        name: emoji
+        name: 表情符号
         description: |-
-          Lock which emoji?
+          锁定哪个表情符号？
       role:
-        name: role
+        name: 身分组
         description: |-
-          Lock the emoji to which role?
+          锁定这个表情符号到哪个身分组？
   emote-roleunlock:
-    name: roleunlock
-    short_doc: Allow anyone to use a locked emote
+    name: 解锁身分组
+    short_doc: 允许所有人使用一个之前被锁定的表情符号
     params:
       emoji:
-        name: emoji
+        name: 表情符号
         description: |-
-          Unlock which emoji?
+          解锁哪个表情符号？
   emote-stats:
-    name: stats
-    short_doc: See how often your server's emotes are used
+    name: 数据
+    short_doc: 查看您伺服器内表情符号的使用次数
   emote-unblock:
-    name: unblock
-    short_doc: Unblock a previously blocked emoji
+    name: 解禁
+    short_doc: 解禁一个以前被禁止了的表情符号
     params:
       emoji:
-        name: emoji
+        name: 表情符号
         description: |-
-          Which emoji to unblock?
+          解禁哪个表情符号？
   emote-upload:
-    name: upload
-    short_doc: Upload an emote
+    name: 上传
+    short_doc: 上传一个表情符号
     help: |
-      Search for all the emotes the bot has ever seen and upload them to this server.
-      This command allows you to upload emotes.
-      You can also attach a file to upload it
+      搜索此机器人见过的所有表情符号并将它们上传到这个伺服器。
+      这个指令允许您上传表情符号。
+      您也可以附加文件上传。
   emote-upload-from_attachment:
-    name: from_attachment
-    short_doc: Upload an emoji from an attachment
+    name: 来自附件
+    short_doc: 从附件里长传一个表情符号
     params:
       attachment:
-        name: attachment
+        name: 附件
         description: |-
-          Emoji image
+          表情符号图片
   emote-upload-from_emote:
-    name: from_emote
-    short_doc: Upload an emoji from it's name or URL
+    name: 来自表情符号
+    short_doc: 使用一个表情符号的名字或链接来上传它
     params:
       emoji:
-        name: emoji
+        name: 表情符号
         description: |-
-          Emoji or Emoji URL
+          表情符号或表情符号链接
   emote-upload-from_search:
-    name: from_search
-    short_doc: Search for an emoji to upload to your server
+    name: 来自搜索
+    short_doc: 搜索一个表情符号来上传到您的伺服器
   export:
-    name: export
-    short_doc: Export your emote list
+    name: 导出
+    short_doc: 导出您的表情符号列表
   help:
-    name: help
-    short_doc: Learn about my commands
+    name: 帮助
+    short_doc: 了解更多我的指令
     params:
       command:
-        name: command
+        name: 指令
         description: |-
-          What to learn about?
+          您想知道什么？
     help: |
-      Learn about the commands you can run with NQN
+      了解NQN的指令
   ignore_me:
-    name: ignore_me
-    short_doc: Stop NQN from reposting your messages
+    name: 忽视我
+    short_doc: 停止NQN转发您的消息
     help: |
-      Running this command stops NQN from reposting any of your messages in any server you share with the bot.
-      - Commands are still enabled, running this command again returns you to normal
-      - You can still repost messages through our [dashboard](https://nqn.blue)
-      - The bot will not respond to any messages you send that would be reposted through a webhook
+      使用此指令将禁止NQN在您与此机器人共同的伺服器转发您的消息。
+      - 指令仍处于启用状态，再次使用此指令将恢复您
+      - 您仍然可以通过我们的 [dashboard](https://nqn.blue) 转发消息
+      - 此机器人不会回复您从 Webhook 转发的任何消息
   info:
-    name: info
+    name: 信息
     short_doc: Internal statistics about the bot
   invite_me:
     name: invite_me

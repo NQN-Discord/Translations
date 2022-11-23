@@ -27,10 +27,10 @@ discord_bot:
           many: '%{author} limpou %{count} mensagens do canal %{channel}'
       move:
         user_no_perms: Você não tem as permissões 'Enviar mensagens' e 'Gerenciar mensagens' em %{channel}.
-        me_no_perms: I need to have 'Read Messages', 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
-        message_limit: Number of messages to move must be between 1 and %{count}
-        forum_modal_title: Create a new post
-        forum_post_name: 'Post name:'
+        me_no_perms: Preciso das permissões  'Ler mensagens', 'Gerencias Webhooks' e 'Emojis Externos' no %{channel}.
+        message_limit: Numero de mensagens para mover deve ser entre 1 e %{count}
+        forum_modal_title: Criar uma publicação
+        forum_post_name: 'Nome da publicação:'
         moved_to:
           one: Moveu %{count} mensagens para %{to_channel}
           many: Moved %{count} mensagens para %{to_channel}
@@ -40,18 +40,18 @@ discord_bot:
         moved_to_from:
           one: '%{author} moveu %{count} mensagens de %{from_channel} para %{to_channel}'
           many: '%{author} moveu %{count} mensagens de %{from_channel} para %{to_channel}'
-        move_end: Move end message
-        end_previous_n: Move end message %{count} before
-        end_next_n: Move end message %{count} after
-        move_start: Move start message
-        start_previous_n: Move start message %{count} before
-        start_next_n: Move start message %{count} after
-        move_both: Move start and end
-        both_previous_n: Move start and end %{count} before
-        both_next_n: Move start and end %{count} after
+        move_end: Mover mensagem final
+        end_previous_n: Mover mensagem final %{count} mensagens antes
+        end_next_n: Mover mensagem final %{count} mensagens depois
+        move_start: Mover mensagem inicial
+        start_previous_n: Mover mensagem inicial %{count} mensagens antes
+        start_next_n: Mover mensagem inicial %{count} mensagens depois
+        move_both: Mover mensagem inicial e final
+        both_previous_n: Mover inicial e inicial %{count} mensagens antes
+        both_next_n: Mover inicial e final %{count} mensagens depois
         move:
-          one: Move message!
-          many: Move %{count} messages!
+          one: Mover mensagem!
+          many: Mover %{count} mensagens!
         move_all:
-          one: Move message!
-          many: Move all %{count} messages!
+          one: Mover mensagem!
+          many: Mover %{count} mensagens!

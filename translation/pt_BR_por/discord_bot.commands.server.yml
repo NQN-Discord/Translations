@@ -51,8 +51,8 @@ discord_bot:
         stickers_off: Figurinhas desativadas
         nitro_on: Habilitado o uso de nitro gratuito neste servidor!
         nitro_off: Desativado o uso de nitro gratuito neste servidor
-        replies_on: Enabled message link previews
-        replies_off: Disabled message link previews
+        replies_on: Ativado visualização de links de mensagens
+        replies_off: Desativado visualização de links de mensagens
         masked_links_on: Habilitado o uso de URLs camuflados
         masked_links_off: Desativado o uso de URLs camuflados
         pings_on: Pings habilitados em mensagens repostadas
@@ -124,7 +124,7 @@ discord_bot:
         nitro_role: Cargo Nitro
         stickers: Figurinhas
         nitro: Nitro
-        replies: Message Link Previews
+        replies: Visualização de links de mensagens
         masked_links: URLs camuflados
         pings: Pings
         user_content: Conteúdo de Usuário
