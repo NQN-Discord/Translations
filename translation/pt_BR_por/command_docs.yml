@@ -421,7 +421,7 @@ command_docs:
         description: |-
           Mostrar qual pacote de emojis?
   pack-unpublish:
-    name: cancelar publicação
+    name: cancelar_publicação
     short_doc: Não quer que esse servidor seja mais um pacote de emotes?
   persona:
     name: personagem
