@@ -83,7 +83,6 @@ discord_bot:
       tutorial:
         choose_page: Navegar Tutorial
         invalid_page: '¡Solo hay %{count} páginas en el tutorial!'
-        permissions_missing: Necesito poder insertar enlaces y agregar reacciones para poder mostrar mi tutorial. Se puede volver a enviar con `%{prefix}tutorial`.
         wrong_place: Si elegí el lugar erróneo para mostrar este mensaje, puedes usar %{prefix}tutorial en un canal más apropiado para ver este tutorial allí. Hay múltiples páginas en este tutorial; ejecuta %{prefix}tutorial para mostrarlas luego de que estas desaparezcan.
         default_emojis: Emojis predeterminados
         default_emoji_list: "Por defecto, esta es la lista de todos los emojis animados que cualquiera en este servidor puede utilizar - ¡solo escribe los manualmente, asegurándote de incluir :los dos puntos: alrededor del nombre del emoji!"
