@@ -83,7 +83,6 @@ discord_bot:
       tutorial:
         choose_page: Sfoglia Tutorial
         invalid_page: Ci sono solo %{count} pagine nel tutorial!
-        permissions_missing: Devo essere in grado di scrivere embeds e aggiungere reazioni per mostrare il mio tutorial. Può essere ri-eseguito con `%{prefix}tutorial`.
         wrong_place: Se ho scelto il posto sbagliato per mostrare questo messaggio, puoi usare %{prefix}tutorial in un canale più conveniente per eseguire questo tutorial lì. Ci sono più pagine di questo tutorial; esegui %{prefix}tutorial per mostrarli dopo che sono scomparsi.
         default_emojis: Emoji Predefinite
         default_emoji_list: "Ecco un elenco di tutte le emote animate che chiunque su questo server può usare per impostazione predefinita - basta digitarle manualmente, assicurati di includere :due punti: intorno al nome dell'emote!"
