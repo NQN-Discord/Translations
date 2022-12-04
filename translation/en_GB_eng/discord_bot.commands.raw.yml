@@ -88,7 +88,6 @@ discord_bot:
       tutorial:
         choose_page: Browse Tutorial
         invalid_page: There are only %{count} pages in the tutorial!
-        permissions_missing: I need to be able to write embeds and add reactions to show my tutorial. It can be reran with `%{prefix}tutorial`.
         wrong_place: If I've chosen the wrong place to show this message, you can use %{prefix}tutorial in a more convenient channel to run this tutorial there. There are multiple pages to this tutorial; run %{prefix}tutorial to show them after they have disappeared.
         default_emojis: Default Emojis
         default_emoji_list: "Here's a list of all the animated emotes anyone on this server can use by default - just type them manually, making sure to include :colons: around the emote name!"
