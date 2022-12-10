@@ -43,15 +43,15 @@ exceptions:
     guild: |-
       %{user_ping}'s roles don't include it
     member_overwrite: |-
-      Channel permissions explicitly deny %{user_ping}
+      %{channel} permissions explicitly deny %{user_ping}
     role_overwrite:
       one: |-
-        Channel permissions denied for the role: %{roles}
+        %{channel} permissions denied for the role: %{roles}
       many: |-
-        Channel permissions denied for these roles: %{roles}
+        %{channel} permissions denied for these roles: %{roles}
     member_role_overwrite:
       one: |-
-        Channel permissions explicitly deny %{user_ping} as well as role: %{roles}
+        %{channel} permissions explicitly deny %{user_ping} as well as role: %{roles}
       many: |-
-        Channel permissions explicitly deny %{user_ping} as well as roles: %{roles}
+        %{channel} permissions explicitly deny %{user_ping} as well as roles: %{roles}
   no_threads: This command cannot be used in threads.
