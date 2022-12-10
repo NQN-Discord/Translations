@@ -43,15 +43,15 @@ exceptions:
     guild: |-
       %{user_ping} 的身分組不包括它
     member_overwrite: |-
-      %{user_ping} 被頻道權限明確禁止
+      %{channel} permissions explicitly deny %{user_ping}
     role_overwrite:
       one: |-
-        %{roles} 被頻道權限明確禁止
+        %{channel} permissions denied for the role: %{roles}
       many: |-
-        %{roles} 被頻道權限明確禁止
+        %{channel} permissions denied for these roles: %{roles}
     member_role_overwrite:
       one: |-
-        %{user_ping} 和 %{roles} 被頻道權限明確禁止
+        %{channel} permissions explicitly deny %{user_ping} as well as role: %{roles}
       many: |-
-        %{user_ping} 和 %{roles} 被頻道權限明確禁止
+        %{channel} permissions explicitly deny %{user_ping} as well as roles: %{roles}
   no_threads: 您不能在討論串中使用此指令.
