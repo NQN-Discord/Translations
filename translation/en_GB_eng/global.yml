@@ -21,13 +21,8 @@ global:
     my_emotes: Find emojis I can use
     personas: Learn more about personas
   missing_permissions: Missing Permissions
-  missing_add_reaction: I need the 'Add Reactions' permission for this command!
-  missing_create_invite: I need the 'Create Instant Invite' permission for this command!
-  tabulated_delete_manage_messages: Could not delete menu - please give me Manage Messages
   no_nitro_global: Nitro usage has been disabled in this server!
   no_nitro_role: Only users with the <@&%{role}> role can use this command!
-  user_missing_administrator: You are missing the 'Administrator' permission to run this command.
-  user_missing_add_reaction: You are missing the 'Add Reactions' permission to run this command.
   tabulated_default_results:
     one: "%{count} result (Page %{page_no} of %{total}):\n%{contents}"
     many: "%{count} results (Page %{page_no} of %{total}):\n%{contents}"
