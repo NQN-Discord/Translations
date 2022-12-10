@@ -46,12 +46,12 @@ exceptions:
       Los permisos del canal %{channel} niegan especificamente a %{user_ping}
     role_overwrite:
       one: |-
-        %{channel} permissions denied for the role: %{roles}
+        Los permisos del canal %{channel} niegan al rol: %{roles}
       many: |-
-        %{channel} permissions denied for these roles: %{roles}
+        Los permisos del canal %{channel} niegan los siguientes roles: %{roles}
     member_role_overwrite:
       one: |-
-        %{channel} permissions explicitly deny %{user_ping} as well as role: %{roles}
+        Los permisos del canal %{channel} niegan específicamente a %{user_ping} y al rol: %{roles}
       many: |-
-        %{channel} permissions explicitly deny %{user_ping} as well as roles: %{roles}
+        Los permisos del canal %{channel} niegan específicamente a %{user_ping} y a los roles: %{roles}
   no_threads: Este comando no puede ser usado en Hilos.
