@@ -21,13 +21,8 @@ global:
     my_emotes: Kullanabileceğim emojileri bul
     personas: Persona hakkında daha fazla bilgi edinin
   missing_permissions: Eksik İzinler
-  missing_add_reaction: Bu komut için 'Tepki Ekle' iznine ihtiyacım var!
-  missing_create_invite: Bu komut için 'Anında Davet Oluştur' iznine ihtiyacım var!
-  tabulated_delete_manage_messages: Menü silinemedi - lütfen bana Mesajları Yönetin'i verin
   no_nitro_global: Bu sunucuda nitro kullanımı devre dışı bırakıldı!
   no_nitro_role: Bu komutu yalnızca <@&%{role}> rolüne sahip kullanıcılar kullanabilir!
-  user_missing_administrator: Bu komutu çalıştırmak için 'Yönetici' izniniz yok.
-  user_missing_add_reaction: Bu komutu çalıştırmak için 'Tepki Ekle' izniniz yok.
   tabulated_default_results:
     one: "%{count} sonuç (Sayfa %{page_no} / %{total}):\n%{contents}"
     many: "%{count} sonuç (Sayfa %{page_no} / %{total}):\n%{contents}"
