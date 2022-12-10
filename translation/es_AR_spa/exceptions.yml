@@ -43,15 +43,15 @@ exceptions:
     guild: |-
       Los roles de %{user_ping} no lo incluyen
     member_overwrite: |-
-      Los permisos del canal niegan especificamenta %{user_ping}
+      Los permisos del canal %{channel} niegan especificamente a %{user_ping}
     role_overwrite:
       one: |-
-        Los permisos del canal niegan al rol: %{roles}
+        %{channel} permissions denied for the role: %{roles}
       many: |-
-        Los permisos del canal niegan al los roles: %{roles}
+        %{channel} permissions denied for these roles: %{roles}
     member_role_overwrite:
       one: |-
-        Los permisos del canal niegan a %{user_ping} y tambien al rol: %{roles}
+        %{channel} permissions explicitly deny %{user_ping} as well as role: %{roles}
       many: |-
-        Los permisos del canal niegan a %{user_ping} y tambien a los roles: %{roles}
+        %{channel} permissions explicitly deny %{user_ping} as well as roles: %{roles}
   no_threads: Este comando no puede ser usado en Hilos.
