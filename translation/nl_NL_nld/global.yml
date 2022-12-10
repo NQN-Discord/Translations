@@ -21,13 +21,8 @@ global:
     my_emotes: Zoek emoji's die ik kan gebruiken
     personas: Leer meer over persona's
   missing_permissions: Ontbrekende Machtigingen
-  missing_add_reaction: Ik heb deze machtiging 'Reacties Toevoegen' nodig voor deze commando!
-  missing_create_invite: Ik heb de machtiging 'Directe uitnodiging Creëren' nodig voor deze commando!
-  tabulated_delete_manage_messages: Kon menu niet verwijderen - geef me alsjeblieft Berichten Beheren
   no_nitro_global: Nitro-gebruik is uitgeschakeld op deze server!
   no_nitro_role: Alleen gebruikers met de rol <@&%{role}> kunnen deze commando gebruiken!
-  user_missing_administrator: U mist de machtiging 'Beheerder' om deze commando uit te voeren.
-  user_missing_add_reaction: U mist de machtiging 'Reacties Toevoegen' om deze commando uit te voeren.
   tabulated_default_results:
     one: "%{count} resultaat (Pagina %{page_no} van %{total}):\n%{contents}"
     many: "%{count} resultaten (Pagina %{page_no} van %{total}):\n%{contents}"

@@ -83,7 +83,6 @@ discord_bot:
       tutorial:
         choose_page: 瀏覽指南
         invalid_page: 此指南只有%{count}頁！
-        permissions_missing: 因為我沒有「嵌入鏈結」或「新增反應」的權限，我未能顯示使用指南。當您修復權限後，您可以再次使用此 `%{prefix}tutorial` 指令。
         wrong_place: 如果您不想在此頻道顯示使用指南，您可以在其他頻道使用 %{prefix}tutorial 以細看指南。請注意使用指南有多於一頁；如果您想再次瀏覽使用指南，您可以隨時使用 %{prefix}tutorial。
         default_emojis: 預設的表情符號
         default_emoji_list: "以下是此伺服器上任何人預設可以使用的所有動畫表情符號 - 您只需手動輸入它們的名字，記得在表情名稱周圍加上 :colons:！"

@@ -43,15 +43,15 @@ exceptions:
     guild: |-
       %{user_ping} rolleri bunu içermiyor
     member_overwrite: |-
-      Kanal izinleri %{user_ping} açıkça reddediyor
+      %{channel} permissions explicitly deny %{user_ping}
     role_overwrite:
       one: |-
-        Şu rol için kanal izinleri reddedildi: %{roles}
+        %{channel} permissions denied for the role: %{roles}
       many: |-
-        Şu roller için kanal izinleri reddedildi: %{roles}
+        %{channel} permissions denied for these roles: %{roles}
     member_role_overwrite:
       one: |-
-        Kanal izinleri, %{user_ping} ve ayrıca şu rolü açıkça reddediyor: %{roles}
+        %{channel} permissions explicitly deny %{user_ping} as well as role: %{roles}
       many: |-
-        Kanal izinleri, %{user_ping} ve rolleri açıkça reddediyor: %{roles}
+        %{channel} permissions explicitly deny %{user_ping} as well as roles: %{roles}
   no_threads: Bu komut alt başlıklarda kullanılamaz.

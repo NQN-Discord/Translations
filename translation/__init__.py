@@ -154,7 +154,8 @@ class Translator(metaclass=Singleton):
         ),
         "pt": (
             "> <:KingKiller:800410618074628146> KingKiller\n"
-            "> <:gil:873518552295014420> Gil"
+            "> <:gil:873518552295014420> Gil\n"
+            "> 🕵️ Unknown007"
         ),
         "it": (
             "> 👤 RVG|𝓵𝓸𝓻𝔂"

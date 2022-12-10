@@ -21,13 +21,8 @@ global:
     my_emotes: 搜索您可以使用的表情符號
     personas: 了解有關角色的更多資訊
   missing_permissions: 缺少權限
-  missing_add_reaction: 我需要「新增反應」權限以運行此指令！
-  missing_create_invite: 我需要「建立邀請」權限以運行此指令！
-  tabulated_delete_manage_messages: 未能刪除 menu，請給我「管理訊息」的權限
   no_nitro_global: 此伺服器已禁用免費 Nitro 使用！
   no_nitro_role: 只有有 %{role} 身分組的成員可以使用此指令！
-  user_missing_administrator: 您缺少了「管理者」權限，以致未能運作此指令：
-  user_missing_add_reaction: 您缺少了「新增反應」權限，以致未能運作此指令：
   tabulated_default_results:
     one: "%{count} 項結果 (第 %{page_no} / %{total} 頁)：\n%{contents}"
     many: "%{count} 項結果 (第 %{page_no} / %{total} 頁)：\n%{contents}"
