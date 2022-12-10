@@ -21,13 +21,8 @@ global:
     my_emotes: پیدا کردن ایموجی هایی که من می‌تونم استفاده کنم
     personas: درباره پرسونا ها بیشتر بدانید
   missing_permissions: دسترسی های ناکافی
-  missing_add_reaction: من به دسترسی 'Add Reactions' برای انجام این دستور نیازمندم!
-  missing_create_invite: من به دسترسی 'Create Instant Invite' برای انجام این دستور نیازمندم!
-  tabulated_delete_manage_messages: نمی‌توان منو را حذف نمود - لطفا به من دسترسی Manage Messages را بدهید
   no_nitro_global: استفاده از نیترو در این سرور غیرفعال شده!
   no_nitro_role: فقط کاربرانی با رول <@&%{role}> می توانند از این دستور استفاده کنند!
-  user_missing_administrator: شما دسترسی 'Administrator' را برای اجرای این دستور ندارید.
-  user_missing_add_reaction: شما دسترسی 'Add Reactions' را برای اجرای این دستور ندارید.
   tabulated_default_results:
     one: "%{count} نتیجه (صفحه %{page_no} از %{total}):\n%{contents}"
     many: "%{count} نتیجه (صفحه %{page_no} از %{total}):\n%{contents}"
