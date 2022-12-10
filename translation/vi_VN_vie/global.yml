@@ -21,13 +21,8 @@ global:
     my_emotes: Tìm emoji tôi có thể dùng
     personas: Tìm hiểu thêm về danh tính ảo
   missing_permissions: Thiếu quyền
-  missing_add_reaction: Tôi cần quyền 'Thêm emoji' để thực hiện lệnh đó!
-  missing_create_invite: Tôi cần quyền 'Tạo lời mời tức thì' để thực hiện lệnh đó!
-  tabulated_delete_manage_messages: Không thể xóa menu - vui lòng cung cấp cho tôi quyền 'Quản lý tin nhắn'
   no_nitro_global: Giời hạn vai trò đã bị vô hiệu trong server này!
   no_nitro_role: Chỉ người dùng với vai trò <@&%{role}> mới có thể dùng lệnh này!
-  user_missing_administrator: Bạn đang thiếu quyền 'Quản lý' để dùng lệnh này.
-  user_missing_add_reaction: Bạn cần quyền 'Thêm emoji' để dùng lệnh này.
   tabulated_default_results:
     one: "%{count} kết quả (Trang %{page_no} trong %{total}):\n%{contents}"
     many: "%{count} kết quả (Trang %{page_no} trong %{total}):\n%{contents}"
