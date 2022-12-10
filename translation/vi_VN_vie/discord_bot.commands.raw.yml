@@ -83,7 +83,6 @@ discord_bot:
       tutorial:
         choose_page: Hướng dẫn tìm kiếm
         invalid_page: Chỉ có %{count} trang trong hướng dẫn!
-        permissions_missing: Tôi cần quyền để tạo embed và thêm emoji để thể hiện hướng dẫn của tôi. Bạn có thể dùng lại `%{prefix}tutorial`.
         wrong_place: Nếu tôi gửi tin nhắn này ở chỗ không hợp lí thì bạn có thể dùng %{prefix}tutorial ở một kênh thuận tiện hơn để xem hết hướng dẫn ở đấy. Hướng dẫn này có nhiều trang; dùng %{prefix}tutorial để hiện lại hướng dẫn nếu chúng biến mất.
         default_emojis: Emoji mặc định
         default_emoji_list: "Đây là danh sách các emoji động mà ai trong server này đều có thể dùng - chỉ cần nhập đầy đủ tên của chúng, và nhớ kèm theo :colons: xung quanh tên của biêu cảm!"

@@ -43,15 +43,15 @@ exceptions:
     guild: |-
       De rollen van %{user_ping} bevatten het niet
     member_overwrite: |-
-      Kanaalmachtigingen weigeren expliciet %{user_ping}
+      %{channel} permissions explicitly deny %{user_ping}
     role_overwrite:
       one: |-
-        Kanaalmachtigingen geweigerd voor de rol: %{roles}
+        %{channel} permissions denied for the role: %{roles}
       many: |-
-        Kanaalmachtigingen geweigerd voor deze rollen: %{roles}
+        %{channel} permissions denied for these roles: %{roles}
     member_role_overwrite:
       one: |-
-        Kanaalmachtigingen weigeren expliciet %{user_ping} evenals rol: %{roles}
+        %{channel} permissions explicitly deny %{user_ping} as well as role: %{roles}
       many: |-
-        Kanaalmachtigingen weigeren expliciet %{user_ping} evenals rollen: %{roles}
+        %{channel} permissions explicitly deny %{user_ping} as well as roles: %{roles}
   no_threads: Deze commando kan niet in threads worden gebruikt.

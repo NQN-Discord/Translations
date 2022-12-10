@@ -21,13 +21,8 @@ global:
     my_emotes: Veja os emojis que você pode usar
     personas: Aprenda mais sobre personagens
   missing_permissions: Estas permissões estão faltando
-  missing_add_reaction: Preciso da permissão 'Adicionar reações' para este comando!
-  missing_create_invite: Preciso da permissão 'Criar convite' para este comando!
-  tabulated_delete_manage_messages: Não foi possível excluir o menu - Me dê a permissão 'Gerenciar Mensagens'
   no_nitro_global: O uso do Nitro foi desabilitado neste servidor!
   no_nitro_role: Somente usuários com o cargo <@&%{role}> podem usar este comando!
-  user_missing_administrator: Você não tem permissão de 'Administrador' para executar este comando.
-  user_missing_add_reaction: Você não tem a permissão 'Adicionar reações' para executar este comando.
   tabulated_default_results:
     one: "%{count} resultado (Página %{page_no} de %{total}):\n%{contents}"
     many: "%{count} resultados (Página %{page_no} de %{total}):\n%{contents}"

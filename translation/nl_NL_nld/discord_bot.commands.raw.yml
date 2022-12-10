@@ -83,7 +83,6 @@ discord_bot:
       tutorial:
         choose_page: Zoek een Tutorial
         invalid_page: Er zijn slechts %{count} pagina's in de tutorial!
-        permissions_missing: Ik moet embeds kunnen schrijven en reacties kunnen toevoegen om mijn tutorial te laten zien. Het kan opnieuw worden uitgevoerd met `%{prefix}tutorial`.
         wrong_place: Als ik de verkeerde plaats heb gekozen om dit bericht weer te geven, kun je %{prefix}tutorial in een handiger kanaal gebruiken om deze tutorial daar uit te voeren. Deze tutorial heeft meerdere pagina's; voer de %{prefix}tutorial uit om ze te tonen nadat ze verdwenen zijn.
         default_emojis: Standaar Emoji's
         default_emoji_list: "Hier is een lijst van alle geanimeerde emoji's die iedereen op deze server standaard kan gebruiken - typ ze gewoon handmatig en zorg ervoor dat :colons: rond de emoji naam staan!"
