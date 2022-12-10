@@ -21,13 +21,8 @@ global:
     my_emotes: Найти эмодзи, которые я могу использовать
     personas: Узнайте больше о персонах
   missing_permissions: Отсутствуют права
-  missing_add_reaction: Мне требуется право 'Добавлять реакции' (Add Reactions) для этой команды!
-  missing_create_invite: Мне требуется право 'Создавать приглашения' (Create Instant Invite) для этой команды!
-  tabulated_delete_manage_messages: Не удалось удалить меню - Пожалуйста, дайте мне право 'Управлять сообщениями' (Manage Messages)
   no_nitro_global: На этом сервере отключено использование нитро!
   no_nitro_role: Только пользователи с ролью <@&%{role}> могут использовать эту команду!
-  user_missing_administrator: У вас отсутствует право 'Администратор' для выполнения этой команды.
-  user_missing_add_reaction: У вас нет разрешения 'Добавить реакции' для выполнения этой команды
   tabulated_default_results:
     one: "%{count} результат (Страница %{page_no} из %{total}):\n%{contents}"
     many: "%{count} результатов (Страница %{page_no} из %{total}):\n%{contents}"
