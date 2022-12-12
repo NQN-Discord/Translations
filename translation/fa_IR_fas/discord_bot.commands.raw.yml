@@ -327,8 +327,8 @@ discord_bot:
         vi: 'ویتنامی:'
         fa: 'فارسی:'
         nl: 'هلندی:'
-        cn: 'Chinese (Simplified)'
-        tw: 'Chinese (Traditional)'
+        cn: 'چینی (ساده‌شده)'
+        tw: 'چینی (قدیمی)'
         bot_stats: وضعیت بات دیسکورد
         shard_info_name: اطلاعات شارد
         process_data_name: اطلاعات پردازش بات
