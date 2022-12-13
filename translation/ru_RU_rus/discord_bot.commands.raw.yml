@@ -53,13 +53,13 @@ discord_bot:
           %{user_ranking}
           %{extra_message}
       emote_stats:
-        top_emotes: "Top used emojis in this server"
-        choose_page: "Choose a page"
-        never: "Never used"
-        once: "Used once"
-        infrequent: "Infrequent use"
+        top_emotes: "Наиболее часто используемые эмодзи на этом сервере"
+        choose_page: "Выберите страницу"
+        never: "Никогда не использовался"
+        once: "Использовался один раз"
+        infrequent: "Нечастое использование"
         often: "Used often"
-        frequent: "Frequent use"
+        frequent: "Частое использование"
         extreme: "Extremely frequent use"
         extraordinary: "Extraordinarily frequently used"
         off_chart: "Off the chart"
