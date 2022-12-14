@@ -53,29 +53,29 @@ discord_bot:
           %{user_ranking}
           %{extra_message}
       emote_stats:
-        top_emotes: "Top used emojis in this server"
-        choose_page: "Choose a page"
-        never: "Never used"
-        once: "Used once"
-        infrequent: "Infrequent use"
-        often: "Used often"
-        frequent: "Frequent use"
-        extreme: "Extremely frequent use"
-        extraordinary: "Extraordinarily frequently used"
-        off_chart: "Off the chart"
+        top_emotes: "Наиболее часто используемые эмодзи на этом сервере"
+        choose_page: "Выберите страницу"
+        never: "Никогда не использовался"
+        once: "Использовался один раз"
+        infrequent: "Нечастое использование"
+        often: "Часто используется"
+        frequent: "Частое использование"
+        extreme: "Крайне частое использование"
+        extraordinary: "Чрезвычайно часто используемые"
+        off_chart: "Вне графика"
         times_used:
-          zero: "Never used"
-          one: "Used once"
-          many: "~%{count} times used"
+          zero: "Никогда не использовался"
+          one: "Использовался один раз"
+          many: "~%{count} раз используется"
         times_used_per_day:
-          zero: "Less than once per day"
-          one: "About once per day"
-          many: "~%{count} times per day"
+          zero: "Менее одного раза в день"
+          one: "Примерно раз в день"
+          many: "~%{count} раз в день"
         emote_count:
-          zero: "No emotes"
-          one: "1 emote"
-          many: "%{count} emotes"
-        boundary: "~%{min} - %{max} times used"
+          zero: "Нет эмоций"
+          one: "1 эмоция"
+          many: "%{count} эмоций"
+        boundary: "~%{min} - %{max} раз использовано"
       tutorial:
         choose_page: Обзор туториала
         invalid_page: Туториал имеет всего %{count} страниц!
@@ -98,8 +98,8 @@ discord_bot:
         page_1_desc: Вы можете реагировать только эмоциями, которые можно использовать с NQN.
         page_1_0_name: 'Реагирует на самое последнее сообщение.'
         page_1_0_desc: '> `%{prefix}react ИмяЭмодзи`'
-        page_1_1_name: 'Reacting to a message in the same channel:'
-        page_1_1_desc: '> `%{prefix}react EmoteName` (Whilst replying to the target message)'
+        page_1_1_name: 'Реагирование на сообщение в том же канале:'
+        page_1_1_desc: '> `%{prefix}react EmoteName` (При ответе на целевое сообщение)'
         page_1_2_name: 'Реагирует на последнее сообщение:'
         page_1_2_desc: "> `%{prefix}react СообщенийНазад ИмяЭмодзи`\nЭто работает только до 20 сообщений назад."
         page_1_3_name: 'Реагирует на старое сообщение:'
@@ -129,15 +129,15 @@ discord_bot:
           > `%{prefix}alias search :ИмяЭмодзи:`
           Если вы хотите просмотреть все эмодзи, NQN может позволить вам использовать:
           > `%{prefix}alias search ИмяЭмодзи` (Без двоеточий, если вы не знаете точное имя)
-        page_4_title: Message Link Previews
+        page_4_title: Предварительный просмотр ссылок на сообщения
         page_4_desc: |
-          NQN allows you to preview messages sent in different channels.
+          NQN позволяет просматривать сообщения, отправленные в разных каналах.
 
-          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
+          Просто скопируйте ссылку на сообщение через Discord (кнопка Share на мобильном, а затем в буфер обмена), а затем вставьте ее в свое сообщение, и оно также опубликует сообщение, на которое вы ссылаетесь.
 
-          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+          Если вы не хотите, чтобы бот репостил ссылку на сообщение, вы можете окружить ее \<\>, и бот не будет её репостить.
 
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
+          Если администратор сервера хочет отключить эту функцию на всем сервере, он может использовать `%{prefix}server message_link_previews off`.
         page_5_title: Скрытые ссылки
         page_5_desc: |
           NQN позволяет отправлять [Скрытые ссылки](%{url}), как часть обычного сообщения.
@@ -155,23 +155,23 @@ discord_bot:
           Примечание - чтобы использовать стикеры Telegram, необходимо сначала импортировать их в бота. Бот не делает этого автоматически.
         page_7_title: Персоны
         page_7_desc: |
-          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
-          In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
+          Персоны позволяют любому пользователю на вашем сервере принимать имя пользователя и аватар, отличные от его собственных.
+          Чтобы использовать персоны на сервере, необходимо выполнить команду `%{prefix}server personas on`.
 
-          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
-          > name: Rest of message
+          Чтобы создать персону, используйте команду `%{prefix}persona register name`. После этого вы сможете отправлять сообщения от имени этой персоны, отправив сообщение:
+          > имя: Остальная часть сообщения
         page_8_title: Администрирование сервера
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          NQN в значительной степени настраивается в плане набора функций, в случае если некоторые из них не подходят для вашего сервера.
+          Любой человек с правами **Управление сервером** может изменять настройки сервера с помощью бота.
 
-          Here are the features you can toggle:
+          Вот функции, которые можно переключать:
 
-           • Nitro - `%{prefix}server nitro`
-           • Stickers - `%{prefix}server stickers`
-           • Message Link Previews - `%{prefix}server message_link_previews`
-           • Personas - `%{prefix}server personas`
-           • Masked Links - `%{prefix}server masked_links`
+           - Нитро - `%{prefix}server nitro`.
+           - Стикеры - `%{prefix}server stickers`
+           - Просмотр ссылок на сообщения - `%{prefix}server message_link_previews`.
+           - Персоны - `%{prefix}server personas`
+           - Маскированные ссылки - `%{prefix}server masked_links`
         page_8_0_name: Устранение неполадок
         page_8_0_desc: |
           Для корректной работы NQN необходимы следующие разрешения в __каждом__ канале, в котором вы хотите использовать Nitro.:
@@ -227,9 +227,9 @@ discord_bot:
           Если вы обнаружите, что у вас есть конфликтующие эмодзи, создайте тот, который вы хотите использовать в качестве alias'а, и бот переопределит его.
       react:
         user_needs_to_react: |
-          Hey %{user_ping}!
-          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
-          *NQN will remove its reactions after %{time} seconds.*
+          Привет %{user_ping}!
+          Команда `%{prefix}react` добавляет реакции к сообщению, так что вы можете добавлять их даже без Nitro. Просто нажмите на каждую реакцию!
+          *NQN удалит свои реакции через %{time} секунд.*
         channel_empty: Этот канал пуст
         invalid_react:
           one: |
@@ -304,12 +304,12 @@ discord_bot:
         es: 'Испанский:'
         ru: 'Русский:'
         pt: 'Португальский:'
-        it: 'Italian:'
-        vi: 'Vietnamese:'
-        fa: 'Persian:'
-        nl: 'Dutch:'
-        cn: 'Chinese (Simplified)'
-        tw: 'Chinese (Traditional)'
+        it: 'Итальянский:'
+        vi: 'Вьетнамский:'
+        fa: 'Персидский:'
+        nl: 'Голландский:'
+        cn: 'Китайский (упрощенный)'
+        tw: 'Китайский (традиционный)'
         bot_stats: Статистика Discord бота
         shard_info_name: Информация о шардах
         process_data_name: Данные процесса бота
@@ -320,7 +320,7 @@ discord_bot:
         author: Автор
         bot_latency: '> API/Задержка бота: %{bot_latency}ms'
         help_command: 'Команда помощи: `%{prefix}help`'
-        refresh: Refresh
+        refresh: Обновить
       upload_emote:
         own_emojis_dont_ask_again: Да; Я владею ими
         alphanumeric: ' - Должен быть буквенно-цифровым с подчеркиванием'
@@ -349,6 +349,6 @@ discord_bot:
       whois:
         found: Автором является <@%{author}> (%{author})
         not_nqn: |
-          This command currently only works on messages reposted by NQN.
+          В настоящее время эта команда работает только для сообщений, репостнутых NQN.
         not_found: |
-          The author of that message could not be automatically found. Are you sure it was posted by NQN?
+          Автор этого сообщения не может быть автоматически найден. Вы уверены, что это сообщение было размещено NQN?
