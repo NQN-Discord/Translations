@@ -167,7 +167,7 @@ class Translator(metaclass=Singleton):
             "> <:momiAwO:975011926604148756> Momiji"
         ),
         "nl": (
-            "> <a:serstars:1026812692025049160> SerStars"
+            "> <a:SerStars:1066451095741792327> SerStars"
         ),
         "tw": (
             "> <:Ian:1029715165370920992> Ian\n"
