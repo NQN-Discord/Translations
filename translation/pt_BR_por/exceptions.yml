@@ -43,15 +43,15 @@ exceptions:
     guild: |-
       Os cargos de %{user_ping} não incluem isso
     member_overwrite: |-
-      %{channel} permissions explicitly deny %{user_ping}
+      as permissões do canal %{channel} foram negadas para %{user_ping}
     role_overwrite:
       one: |-
-        %{channel} permissions denied for the role: %{roles}
+        as permissões do canal %{channel} foram negadas para o cargo: %{roles}
       many: |-
-        %{channel} permissions denied for these roles: %{roles}
+        as permissões do canal %{channel} foram negadas para os cargos: %{roles}
     member_role_overwrite:
       one: |-
-        %{channel} permissions explicitly deny %{user_ping} as well as role: %{roles}
+        as permissões do canal %{channel} foram negadas para %{user_ping} e o cargo: %{roles}
       many: |-
-        %{channel} permissions explicitly deny %{user_ping} as well as roles: %{roles}
+        as permissões do canal %{channel} foram negadas para %{user_ping} e os cargos: %{roles}
   no_threads: Este comando não pode ser usado em tópicos.

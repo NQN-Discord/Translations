@@ -43,15 +43,15 @@ exceptions:
     guild: |-
       Vai trò của %{user_ping} không có nó
     member_overwrite: |-
-      %{channel} permissions explicitly deny %{user_ping}
+      Quyền đã bị chặn rõ ràng trong %{channel} cho %{user_ping}
     role_overwrite:
       one: |-
-        %{channel} permissions denied for the role: %{roles}
+        Quyền đã bị chặn trong %{channel} cho vai trò: %{roles}
       many: |-
-        %{channel} permissions denied for these roles: %{roles}
+        Quyền đã bị chặn trong %{channel} cho các vai trò: %{roles}
     member_role_overwrite:
       one: |-
-        %{channel} permissions explicitly deny %{user_ping} as well as role: %{roles}
+        Quyền đã bị chặn rõ ràng trong %{channel} cho %{user_ping} cũng như vai trò: %{roles}
       many: |-
-        %{channel} permissions explicitly deny %{user_ping} as well as roles: %{roles}
+        Quyền đã bị chặn rõ ràng trong %{channel} cho %{user_ping} cũng như các vai trò: %{roles}
   no_threads: Lệnh này không thể được sử dụng trong kênh chủ đề.

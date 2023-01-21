@@ -43,15 +43,15 @@ exceptions:
     guild: |-
       رول هایی که %{user_ping} دارد، شامل این دسترسی نمی شوند
     member_overwrite: |-
-      %{channel} permissions explicitly deny %{user_ping}
+      دسترسی های %{channel} به طور خاصی %{user_ping} را منع می‌کنند
     role_overwrite:
       one: |-
-        %{channel} permissions denied for the role: %{roles}
+        دسترسی های %{channel} برای نقش رو‌به‌رو منع شده‌اند: %{roles}
       many: |-
-        %{channel} permissions denied for these roles: %{roles}
+        دسترسی های %{channel} برای نقش های رو‌به‌رو منع شده‌اند: %{roles}
     member_role_overwrite:
       one: |-
-        %{channel} permissions explicitly deny %{user_ping} as well as role: %{roles}
+        دسترسی های %{channel} به طور خاصی هم %{user_ping} و هم نقش روبه‌رو را منع می‌کنند: %{roles}
       many: |-
-        %{channel} permissions explicitly deny %{user_ping} as well as roles: %{roles}
+        دسترسی های %{channel} به طور خاصی هم %{user_ping} و هم نقش های روبه‌رو را منع می‌کنند: %{roles}
   no_threads: این دستور نمیتواند در رشته ها استفاده شود.
