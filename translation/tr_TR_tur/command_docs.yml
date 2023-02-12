@@ -115,7 +115,7 @@ command_docs:
       Search for emojis to block in this server.
       When this emoji is used, it'll automatically be added to the server's automod list and be removed.
   emote-block-from_emote:
-    name: from_emote
+    name: emoji_dan
     short_doc: Block the use of an emote
     params:
       emoji:
@@ -123,7 +123,7 @@ command_docs:
         description: |-
           Which emoji to block the use of?
   emote-block-from_search:
-    name: from_search
+    name: ara_dan
     short_doc: Block the use of an emote
   emote-block-recently_used:
     name: recently_used
@@ -134,7 +134,7 @@ command_docs:
         description: |-
           Which emoji to block the use of?
   emote-block_list:
-    name: block_list
+    name: engel_liste
     short_doc: View the list of emojis blocked in this server
   emote-info:
     name: bilgi
@@ -153,7 +153,7 @@ command_docs:
         description: |-
           Which emoji to make jumbo sized?
   emote-rolelock:
-    name: rolelock
+    name: rolekilit
     short_doc: Lock an emoji to a specific set of roles
     params:
       emoji:
@@ -199,7 +199,7 @@ command_docs:
         description: |-
           Emoji image
   emote-upload-from_emote:
-    name: from_emote
+    name: emoji_dan
     short_doc: Upload an emoji from it's name or URL
     params:
       emoji:
@@ -547,7 +547,7 @@ command_docs:
       alias:
         name: takma ad
         description: |-
-          Which alias do you want to remove?
+          Hangi takma adı kaldırmak istiyorsunuz?
   server-alias-import:
     name: içe aktarmak
     short_doc: Import a list of server aliases from a file.
