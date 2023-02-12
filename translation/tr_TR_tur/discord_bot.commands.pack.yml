@@ -3,64 +3,64 @@ discord_bot:
     pack:
       buttons:
         add_to_everyone: '@everyone''na ekle'
-        join_pack: Join Pack
-        leave_pack: Leave Pack
-        join_server: Join Server
-        all: Save All
+        join_pack: Pakete Katıl
+        leave_pack: Paketen Ayrıl
+        join_server: Sunucuya Katıl
+        all: Hepsini Kaydet
       join:
-        no_pack: '%{name} is not a registered emote pack'
-        already_joined: You are already joined to %{name}
+        no_pack: '%{name} kayıtlı bir emoji paketi değil'
+        already_joined: '%{name}''e zaten katıldınız'
         joined_pack: |
-          Joined %{name}.
-          You may now use the following emotes by typing its name into chat, including colons:
+          %{name} katıldı.
+          Artık aşağıdaki emojileri, iki nokta üst üste de dahil olmak üzere adını sohbete yazarak kullanabilirsiniz:
       leave:
-        no_pack: '%{name} is not a registered emote pack'
-        already_left: You weren't in %{name} anyway
-        left: Left %{name}
+        no_pack: '%{name} kayıtlı bir emoji paketi değil'
+        already_left: Zaten %{name} içinde değildin
+        left: '%{name}''dan ayrıldı'
       meta:
-        needs_publishing: You cannot do this without first publishing this server as an emote pack.
+        needs_publishing: Bunu, önce bu sunucuyu bir emoji paketi olarak yayınlamadan yapamazsınız.
       mine:
-        no_packs: You don't have any packs!
+        no_packs: Hiç bir paketiniz yok!
       publish:
-        already_published: This server is already published as a pack!
-        already_exists: An emote pack called %{name} already exists
-        published: Published emote pack %{name}. Anyone is able to save these emotes to their own server, and you assert that you are the owner of these emotes. To undo this, run `%{prefix}pack unpublish`.
+        already_published: Bu sunucu zaten bir paket olarak yayınlandı!
+        already_exists: '%{name} adlı bir emoji paketi zaten var'
+        published: '%{name} emoji paketi yayınlandı. Bu emojileri herkes kendi sunucusuna kaydedebiliyor ve siz bu emojilerin sahibi olduğunuzu iddia ediyorsunuz. Bunu geri almak için `%{prefix}pack unpublish` komutunu kullanın.'
         pack_published: |
-          To gain access to all these emotes, run
+          Tüm bu emojilere erişmek için şunu kullanın:
           >>> !pack join %{name}
       rename:
-        already_exists: An emote pack called %{name} already exists
-        not_published: This server was not published before.
+        already_exists: '%{name} adlı bir emoji paketi zaten var'
+        not_published: Bu sunucu daha önce yayınlanmadı.
         renamed: '%{old}, %{new} olarak yeniden adlandırıldı'
       save:
-        none_left: After filtering out emotes with the same name as ones in this server, there were none left to import!
-        no_space: There's no space in this server to add any of the emotes in this pack.
+        none_left: Bu sunucudakilerle aynı ada sahip emojileri filtreledikten sonra içe aktarılacak emoji kalmamıştı!
+        no_space: Bu paketteki herhangi bir emojiyi eklemek için bu sunucuda yer yok.
         failed_batch: |
-          Discord only allows bots to upload 50 emotes per hour.
-          NQN wasn't able to upload all the emotes in this batch, but you can run this command again in an hour to upload the rest
-        not_registered: '%{name} is not a registered emote pack'
-        upload_question: "Upload these emotes to this server?\n If you are not the owner of all of these emoji, choose N."
+          Discord, botların saatte yalnızca 50 emoji yüklemesine izin verir.
+          NQN, bu gruptaki tüm emojileri yükleyemedi, ancak geri kalanını yüklemek için bu komutu bir saat içinde tekrar çalıştırabilirsiniz
+        not_registered: '%{name} kayıtlı bir emoji paketi değil'
+        upload_question: "Bu emojiler bu sunucuya yüklensin mi?\n Tüm bu emojilerin sahibi değilseniz, N'yi seçin."
         uploaded:
-          one: Uploaded %{count} emote
-          many: Uploaded %{count} emotes
+          one: '%{count} emoji yüklendi'
+          many: '%{count} emoji''ler yüklendi'
       search:
-        invalid_group: <Invalid pack - Please Report>
+        invalid_group: <Geçersiz paket - Lütfen Bildirin>
       set_public:
-        needs_publishing: You cannot do this without first publishing this server as an emote pack.
-        public_on: Allowed invites via NQN.
-        public_off: Disabled invites via NQN.
+        needs_publishing: Bunu, önce bu sunucuyu bir emoji paketi olarak yayınlamadan yapamazsınız.
+        public_on: NQN'den davetler izin verildi.
+        public_off: NQN'den davetler izin verilmedi.
       show:
-        not_registered: '%{name} is not a registered emote pack'
-        pack_empty: This pack has no emotes in it!
-        join_pack: 'Contents of pack "%{name}":'
+        not_registered: '%{name} kayıtlı bir emoji paketi değil'
+        pack_empty: Bu pakette emoji yok!
+        join_pack: '"%{name}" paketinin içeriği:'
       unpublish:
-        not_published: This server was not published before.
-        unpublished: Unpublished emote pack %{name}
+        not_published: Bu sunucu daha önce yayınlanmadı.
+        unpublished: Yayınlanmamış emoji paketi %{name}
       dm:
         send_dms:
           zero: |
-            You have no packs!
-            Get some with `%{prefix}pack search`
+            Paketiniz yok!
+            `%{prefix}pack search` ile biraz alın
           one: |
             Bu size doğrudan mesaj gönderecek; devam etmek istiyor musun?
           many: |

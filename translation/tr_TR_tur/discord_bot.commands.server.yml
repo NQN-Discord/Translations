@@ -112,31 +112,31 @@ discord_bot:
       language:
         choose: 'Choose my new language:'
         set: Set my language to English for this server
-        this_locale_name: English
+        this_locale_name: İngilizce
       config:
-        enabled: Enabled
-        disabled: Disabled
+        enabled: Etkin
+        disabled: Engelli
         prefix: Prefix
-        announcement: Announcement channel
-        boost_channel: Boost channel
-        boost_role: Boost role
-        audit_channel: Audit channel
-        nitro_role: Nitro role
-        stickers: Stickers
+        announcement: Duyuru kanalı
+        boost_channel: Boost kanalı
+        boost_role: Boost rol
+        audit_channel: Denetim kanalı
+        nitro_role: Nitro rol
+        stickers: Çıkartmalar
         nitro: Nitro
-        replies: Message Link Previews
-        masked_links: Masked URLs
-        pings: Pings
-        user_content: User Content
-        personas: Personas
-        dashboard_posting: Dashboard Posting
-        phish_detection: Phish Detection
-        invite: Invite Link
-        pack: Pack Name
-        public: Public
-        member_count: Members
-        configure_features: Toggle Features
-        settings: Settings
-        channels: Channels
-        features: Features
-        pack_info: Pack Info
+        replies: Mesaj Bağlantısı Önizlemeleri
+        masked_links: Maskelenmiş URL'ler
+        pings: Ping'ler
+        user_content: Kullanıcı İçeriği
+        personas: Personalar
+        dashboard_posting: Dashboard Paylaşılım
+        phish_detection: Kimlik Avı Tespiti
+        invite: Davet Bağlantısı
+        pack: Paket Adı
+        public: Herkese açık
+        member_count: Üyeler
+        configure_features: Özellikleri Değiştir
+        settings: Ayarlar
+        channels: Kanalar
+        features: Özellikler
+        pack_info: Paket Bilgi

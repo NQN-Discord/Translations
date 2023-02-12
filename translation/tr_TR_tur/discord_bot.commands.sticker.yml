@@ -2,44 +2,44 @@ discord_bot:
   commands:
     sticker:
       create:
-        attachment_needed: You need to upload a sticker with this command
-        image_needed: The file needs to be an image
-        sticker_exists: A sticker called %{name} exists already!
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        too_large: This file is too large. Stickers can only be 8MB
-        created: "You can now use `:%{name}:`\nNot quite right?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
+        attachment_needed: Bu komutla bir çıkartma yüklemeniz gerekiyor
+        image_needed: Dosyanın bir resim olması gerekiyor
+        sticker_exists: '%{name} adında bir çıkartma zaten var!'
+        filename_invalid: '`%{name}`, çıkartmalar için izin verilen bir ad değil. Alfanümerik bir dosya uzantısına sahip alfanümerik olmalıdırlar.'
+        too_large: Bu dosya çok büyük. Çıkartmalar yalnızca 8 Mb olabilir
+        created: "Artık `:%{name}:` kullanabilirsiniz\nTam olarak doğru değil?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
       mine:
-        no_stickers: You have no stickers
+        no_stickers: Çıkartmanız yok
       delete:
-        no_sticker: "- :%{name}: - Doesn't exist or not yours"
+        no_sticker: "- :%{name}: - Yok veya sizin değil"
         sticker_deleted: '+ :%{name}:'
         question:
-          zero: No stickers to delete!
-          one: Do you want to delete this sticker?
-          many: Do you want to delete all %{count} stickers?
+          zero: Silinecek çıkartma yok!
+          one: Bu çıkartmayı silmek istiyor musunuz?
+          many: Tüm %{count} çıkartmaları silmek istiyor musunuz?
         deleted_all:
-          one: Deleted %{count} sticker
-          many: Deleted %{count} stickers
+          one: '%{count} çıkartması silindi'
+          many: '%{count} çıkartmalar silindi'
       rename:
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        no_sticker: This sticker doesn't exist
-        permission_denied: You can't rename someone else's sticker!
-        destination_taken: The destination name is already taken!
+        filename_invalid: '`%{name}`, çıkartmalar için izin verilen bir ad değil. Alfanümerik bir dosya uzantısına sahip alfanümerik olmalıdırlar.'
+        no_sticker: Bu çıkartma mevcut değil
+        permission_denied: Başkasının çıkartmasını yeniden adlandıramazsınız!
+        destination_taken: Hedef adı zaten alınmış!
         renamed: '\:%{old}: yeniden adlandırıldı: :%{new}:'
       search:
-        no_stickers: No stickers found
+        no_stickers: Çıkartma bulunamadı
       sticker_import:
-        filename_invalid: '`%{name}` is not an allowed name for stickers. They must be alphanumeric, with an alphanumeric file extension.'
-        find_emote: find an emote to turn into a sticker!
-        created: You can now use `:%{name}:`
-        sticker_exists: A sticker called `:%{name}:` already exists; you can't overwrite it.
-        duplicate_exists: A sticker with the same image called %{name} exists already!
+        filename_invalid: '`%{name}`, çıkartmalar için izin verilen bir ad değil. Alfanümerik bir dosya uzantısına sahip alfanümerik olmalıdırlar.'
+        find_emote: çıkartmaya dönüşecek bir ifade bulun!
+        created: Artık `:%{name}:` kullanabilirsiniz
+        sticker_exists: '`:%{name}:` adlı bir çıkartma zaten var; üzerine yazamazsınız.'
+        duplicate_exists: Aynı resme sahip %{name} adında bir çıkartma zaten var!
       telegram_import:
-        pack_invalid: '`%{name}` is not a valid Telegram sticker pack name'
-        telegram_unloaded: Telegram package not loaded - please report this to a bot developer.
-        already_created: Already created by someone else; cannot overwrite
+        pack_invalid: '`%{name}` geçerli bir Telegram çıkartma paketi adı değil'
+        telegram_unloaded: Telegram paketi yüklenmedi - lütfen bunu bir bot geliştiricisine bildirin.
+        already_created: Zaten başkası tarafından oluşturulmuş; üzerine yazılamaz
         finished_importing:
-          one: Finished importing one sticker
-          many: Finished importing %{count} stickers
-        search_future: "To search for these stickers in the future, use:\n> `%{prefix}sticker search %{name}.`"
-        view: View Stickers
+          one: Bir çıkartmanın içe aktarılması tamamlandı
+          many: '%{count} çıkartmaların içe aktarılması tamamlandı'
+        search_future: "Gelecekte bu çıkartmaları aramak için şunu kullanın:\n> `%{prefix}sticker search %{name}.`"
+        view: Çıkartmaları Görüntüle
