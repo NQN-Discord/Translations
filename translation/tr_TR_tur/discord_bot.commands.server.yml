@@ -11,10 +11,10 @@ discord_bot:
 
             Herkes yazarak bu emojiyi kullanabilir:
           one: |
-            This server has one emote left before it reaches it's maximum.
-            For more aliases, anyone can vote for the bot at %{url}
+            Bu sunucu, maksimum değerine ulaşmadan önce bir emoji kaldı.
+            Daha fazla takma ad için herkes %{url} adresinden bota oy verebilir.
 
-            Anyone can use this emote by typing:
+            Herkes yazarak bu emojiyi kullanabilir:
           many: |
             This server has %{count} emotes left before it reaches it's maximum.
             For more aliases, anyone can vote for the bot at %{url}
@@ -22,10 +22,10 @@ discord_bot:
             Anyone can use this emote by typing:
         failed_aliases:
           one: |
-            One alias which cannot be rendered
+            Oluşturulamayan bir takma ad
           many: |
-            %{failed_aliases} aliases which cannot be rendered
-        max_title: This server is at its maximum emote/pack count already!
+            Oluşturulamayan %{failed_aliases} takma adlar
+        max_title: Bu sunucu şimdiden maksimum emoji/paket sayısına ulaştı!
         max_description: |
           :%{name}: was not added as a server emote.
 
