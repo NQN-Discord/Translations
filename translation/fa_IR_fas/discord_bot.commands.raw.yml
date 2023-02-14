@@ -170,11 +170,11 @@ discord_bot:
           نکته - برای استفاده از استیکر های تلگرام، شما بایستی آنها را وارد بات کنید. بات به صورت خودکار اینکار را انجام نمی دهد.
         page_7_title: پرسونا ها
         page_7_desc: |
-          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
-          In order to use personas in a server, you first need to run `%{prefix}server personas on`.
+          پرسونا ها، به همه در سرور شما این اجازه را می دهد که با نام های کاربری و آواتار های متفاوت خودشون، در سرور فعالیت کنند.
+          برای استفاده از پرسونا ها در سرور خود، باید اول دستور ‎`%{prefix}server personas on` را اجرا کنید.
 
-          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
-          > name: Rest of message
+          برای ساخت یک پرسونا، عبارت ‎`%{prefix}persona register name` را وارد کنید. بعد از آن، شما می توانید پیام خود را با استفاده از پرسونای خود بفرستید:
+          > name: هرچه دل تنگت میخواهد بفرست
         page_8_title: مدیریت سرور
         page_8_desc: |
           بات NQN به شدت قابل شخصی سازی است، از این لحاظ دسته ویژگی های زیادی دارد که در بعضی موارد حتی ممکن است مربوط به سرور شما نشوند.
