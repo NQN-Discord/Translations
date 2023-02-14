@@ -95,7 +95,7 @@ discord_bot:
 
           Voor meer aliassen/pakketten kan iedereen op de bot stemmen op %{url}
         left_pack: "'%{guild_name}' heeft %{name} verlaten"
-        not_in_pack: Deze server had om te beginnen geen %{name} als serverpakket
+        not_in_pack: Dit server had om te beginnen geen %{name} als serverpakket
         invalid_group: <Ongeldig pakket - Meld dit alstublieft>
         join_server: (Aan Server deelnemen)
         no_longer_registered: '%{name} is niet langer een geregistreerd emoji-pakket'
