@@ -168,11 +168,11 @@ discord_bot:
           注意 - 要使用 Telegram 貼圖的話，您必須先將它們導入 NQN。我不會自動執行此操作。
         page_7_title: 角色
         page_7_desc: |
-          角色允許您在伺服器中使用與他們自己不同的自訂用戶名和頭像去發佈訊息。
-          如果您要在伺服器中啟用此功能，您首先需要使用 `%{prefix}server personas on`。
+          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
+          In order to use personas in a server, you first need to run `%{prefix}server personas on`.
 
-          想要創建角色的話，請使用 `%{prefix}persona register name`。之後，您可以通過以下格式利用角色發佈訊息L：
-          > 角色名稱: 您想發佈訊息的其餘部分
+          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
+          > name: Rest of message
         page_8_title: 伺服器管理
         page_8_desc: |
           NQN 在自訂功能設定方面非常靈活，從而避免出現一些不適合您伺服器的設定。
