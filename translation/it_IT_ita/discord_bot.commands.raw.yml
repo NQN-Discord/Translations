@@ -168,11 +168,11 @@ discord_bot:
           Nota - per usare gli adesivi Telegram, devi prima importarli nel bot. Il bot non lo fa automaticamente.
         page_7_title: Personaggi
         page_7_desc: |
-          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
-          In order to use personas in a server, you first need to run `%{prefix}server personas on`.
+          I personaggi permettono a chiunque nel tuo server di assumere un dato nome utente e avatar diverso dal proprio.
+          Per poter utilizzare le persone in un server, è necessario eseguire `%{prefix}server personas on`.
 
-          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
-          > name: Rest of message
+          Per creare un personaggio, usa `%{prefix}persona register name`. Dopo di che, è possibile inviare messaggi come quel personaggio inviando un messaggio:
+          > nome: Resto del messaggio
         page_8_title: Amministrazione Server
         page_8_desc: |
           NQN è altamente personalizzabile in termini di set di funzionalità, nel caso in cui alcuni di essi non siano adatti al tuo server.
