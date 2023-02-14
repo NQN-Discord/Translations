@@ -3,13 +3,13 @@ discord_bot:
   commands:
     server:
       alias:
-        set_emote_title: 'Set \:%{name}: to %{emote} for this server.'
+        set_emote_title: 'Bu sunucu için \:%{name}: öğesini %{emote} olarak ayarlayın.'
         set_emote_description:
           zero: |
-            This server has no emotes left!
-            For more aliases, anyone can vote for the bot at %{url}
+            Bu sunucuda hiç emoji kalmadı!
+            Daha fazla takma ad için herkes %{url} adresinden bota oy verebilir.
 
-            Anyone can use this emote by typing:
+            Herkes yazarak bu emojiyi kullanabilir:
           one: |
             This server has one emote left before it reaches it's maximum.
             For more aliases, anyone can vote for the bot at %{url}
@@ -65,11 +65,11 @@ discord_bot:
           Only aliases and packs added with `%{prefix}server alias search` and `%{prefix}server pack search` will be usable, as well as emojis from this server.
           Stickers have also been automatically disabled.
         personas_on: |
-          Enabled usage of personas.
-          This allows anyone to set a customisable username and avatar; be warey of impersonation.
+          Kişilerin etkin kullanımı.
+          Bu, herkesin özelleştirilebilir bir kullanıcı adı ve avatar ayarlamasına olanak tanır; kimliğe bürünmeye karşı dikkatli olun.
 
-          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
-          > ```!server set_audit_channel #channel``` #channel```
+          NQN personeli, bu özelliği kullanırken bir denetim kanalı ayarlamanızı önerir; henüz yapmadıysanız, ile etkinleştirilebilir
+          > ```!server set_audit_channel #kanal```
         personas_off: Disabled usage of personas
         dashboard_posting_on: Enabled posting messages from the bot's dashboard
         dashboard_posting_off: Disabled posting messages from the bot's dashboard
@@ -94,24 +94,24 @@ discord_bot:
           %{name} was not added as a server pack.
 
           For more aliases/packs, anyone can vote for the bot at %{url}
-        left_pack: "'%{guild_name}' left %{name}"
-        not_in_pack: This server didn't have %{name} as a server pack to start with
-        invalid_group: <Invalid pack - Please Report>
-        join_server: (Join server)
-        no_longer_registered: '%{name} is no longer a registered emote pack'
-        already_joined: '%{guild_name} is already joined to %{name}'
+        left_pack: "'%{guild_name}' %{name}'den ayrıldı"
+        not_in_pack: Bu sunucu, başlamak için bir sunucu paketi olarak %{name}'e sahip değildi
+        invalid_group: <Geçersiz paket - Lütfen Bildirin>
+        join_server: (Sunucuya Katıl)
+        no_longer_registered: '%{name} artık kayıtlı bir emoji paketi değil'
+        already_joined: '%{guild_name} zaten %{name}''e katıldı'
         joined_long: |
-          '%{guild_name}' joined %{name}.
-          Anyone in this server may now use the following emotes by typing its name into chat, including colons:
-        no_packs: "'%{guild_name}s' isn't joined to any packs globally!"
+          '%{guild_name}', %{name}'a katıldı.
+          Bu sunucudaki herkes artık adını iki nokta üst üste de dahil olmak üzere sohbete yazarak aşağıdaki emojileri kullanabilir:
+        no_packs: "'%{guild_name}s' dünya çapında hiçbir pakete katılmadı!"
       prefix:
-        instructions: "To set my prefix, mention me before the desired prefix so as to prevent accidental changes.\n> %{prefix}server prefix %{me} %{new}"
-        no_colon_prefix: NQN does not support prefixes starting with a colon (:)
-        no_slash_prefix: NQN does not support prefixes starting with a slash (/)
-        set_prefix: Set my prefix to `%{prefix}`
+        instructions: "Prefix'imi ayarlamak için, yanlışlıkla değişiklik yapılmasını önlemek için istenen önekten önce beni etiketle.\n> %{prefix}sunucu öneki %{me} %{new}"
+        no_colon_prefix: NQN, iki nokta üst üste (:) ile başlayan prefixleri desteklemez
+        no_slash_prefix: NQN, eğik çizgi (/) ile başlayan prefixleri desteklemez
+        set_prefix: Prefix `%{prefix}` olarak ayarla
       language:
-        choose: 'Choose my new language:'
-        set: Set my language to English for this server
+        choose: 'Yeni dilimi seç:'
+        set: Bu sunucuya dilim Türkçe olarak ayarlandı
         this_locale_name: İngilizce
       config:
         enabled: Etkin
