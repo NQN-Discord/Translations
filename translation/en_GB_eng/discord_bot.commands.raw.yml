@@ -174,7 +174,7 @@ discord_bot:
         page_7_title: Personas
         page_7_desc: |
           Personas allow anyone in your server to assume a given username and avatar distinct from their own.
-          In order to use personas in a server, you fist need to run `%{prefix}server personas on`.
+          In order to use personas in a server, you first need to run `%{prefix}server personas on`.
 
           To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
           > name: Rest of message
