@@ -168,11 +168,11 @@ discord_bot:
           Lưu ý - để dùng sticker từ Telegram, bạn phải tải chúng lên cho bot trước. Bot sẽ không tự động làm việc này.
         page_7_title: Danh tính ảo
         page_7_desc: |
-          Danh tính ảo cho phép mọi người trong server của bạn có một tên và ảnh hồ sơ ảo để ẩn thân phận.
-          Trước khi dùng danh tính ảo trong server, bạn cần phải dùng `%{prefix}server personas on` trước.
+          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
+          In order to use personas in a server, you first need to run `%{prefix}server personas on`.
 
-          Để tạo một danh tính ảo, dùng `%{prefix}persona register Tên`. Sau đó, bạn có thể gửi tin nhắn dưới danh tính ảo đó bằng cách gửi tin nhắn như sau:
-          > Tên: Tin nhắn
+          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
+          > name: Rest of message
         page_8_title: Quản lý server
         page_8_desc: |
           NQN cho phép khả năng tùy chỉnh cao đối với các tính năng có sẵn, trong trường hợp chúng không phù hợp cho server của bạn.
