@@ -168,11 +168,11 @@ discord_bot:
           Opmerking - om Telegram-stickers te gebruiken, moet u ze eerst in de bot importeren. De bot doet dit niet automatisch.
         page_7_title: Persona's
         page_7_desc: |
-          Met persona's kan iedereen op uw server een bepaalde gebruikersnaam en avatar aannemen die verschilt van die van henzelf.
-          Om persona's op een server te gebruiken, moet je eerst `%{prefix}server personas op` uitvoeren.
+          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
+          In order to use personas in a server, you first need to run `%{prefix}server personas on`.
 
-          Om een persona aan te maken, gebruik je `%{prefix}persona register name`. Daarna kun je berichten verzenden als die persona door een bericht te sturen:
-          > naam: Rest van bericht
+          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
+          > name: Rest of message
         page_8_title: Serverbeheer
         page_8_desc: |
           NQN is sterk aanpasbaar in termen van functiesets, voor het geval sommige niet geschikt zijn voor uw server.
