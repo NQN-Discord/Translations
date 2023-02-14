@@ -155,11 +155,11 @@ discord_bot:
           Примечание - чтобы использовать стикеры Telegram, необходимо сначала импортировать их в бота. Бот не делает этого автоматически.
         page_7_title: Персоны
         page_7_desc: |
-          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
-          In order to use personas in a server, you first need to run `%{prefix}server personas on`.
+          Персоны позволяют любому пользователю на вашем сервере принимать имя пользователя и аватар, отличные от его собственных.
+          Чтобы использовать персоны на сервере, необходимо выполнить команду `%{prefix}server personas on`.
 
-          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
-          > name: Rest of message
+          Чтобы создать персону, используйте команду `%{prefix}persona register name`. После этого вы сможете отправлять сообщения от имени этой персоны, отправив сообщение:
+          > имя: Остальная часть сообщения
         page_8_title: Администрирование сервера
         page_8_desc: |
           NQN в значительной степени настраивается в плане набора функций, в случае если некоторые из них не подходят для вашего сервера.
