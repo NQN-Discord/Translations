@@ -65,12 +65,12 @@ discord_bot:
           Only aliases and packs added with `%{prefix}server alias search` and `%{prefix}server pack search` will be usable, as well as emojis from this server.
           Stickers have also been automatically disabled.
         personas_on: |
-          Kişilerin etkin kullanımı.
+          Personaların etkin kullanımı.
           Bu, herkesin özelleştirilebilir bir kullanıcı adı ve avatar ayarlamasına olanak tanır; kimliğe bürünmeye karşı dikkatli olun.
 
           NQN personeli, bu özelliği kullanırken bir denetim kanalı ayarlamanızı önerir; henüz yapmadıysanız, ile etkinleştirilebilir
           > ```!server set_audit_channel #kanal```
-        personas_off: Disabled usage of personas
+        personas_off: Personaların engelli kullanımı
         dashboard_posting_on: Enabled posting messages from the bot's dashboard
         dashboard_posting_off: Disabled posting messages from the bot's dashboard
         phish_detection_on: Enabled phishing message detection in this server
