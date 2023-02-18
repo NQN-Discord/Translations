@@ -41,14 +41,20 @@ discord_bot:
           one: '%{author} ha spostato %{count} messaggi da %{from_channel} a %{to_channel}'
           many: '%{author} ha spostato %{count} messaggi da %{from_channel} a %{to_channel}'
         move_end: Muovi messaggio finale
-        end_previous_n: Muovi %{count} messaggi finali prima
-        end_next_n: Muovi %{count} messaggi finali dopo
+        end_previous_n:
+          - 
+        end_next_n:
+          - 
         move_start: Muovi messaggio iniziale
-        start_previous_n: Muovi %{count} messaggi iniziali prima
-        start_next_n: Muovi %{count} messaggi iniziali dopo
+        start_previous_n:
+          - 
+        start_next_n:
+          - 
         move_both: Muovi iniziale e finale
-        both_previous_n: Muovi %{count} iniziali e finali prima
-        both_next_n: Muovi %{count} inziali e finali dopo
+        both_previous_n:
+          - 
+        both_next_n:
+          - 
         move:
           one: Muovi messaggio!
           many: Muovi %{count} messaggi!
