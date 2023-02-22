@@ -1,0 +1,37 @@
+discord_bot:
+  commands:
+    emote:
+      info:
+        title: "اطلاعات درباره شکلک '%{name}':"
+        id: "شناسه (ID):"
+        server_daily_uses: "میزان استفاده روزانه در سرور:"
+        server_uses: "میزان استفاده در سرور:"
+        approx_uses:
+          zero: "0"
+          one: "1"
+          many: "~%{count}"
+        total_uses_per_day: "میزان استفاده کلی در هر روز:"
+        aka: "همچنین شناخته می شود به عنوان:"
+        locked_roles: "قفل شده بر روی نقش های:"
+        upload_time: "آپلود شده در:"
+        url: "آدرس URL:"
+        animated_url: "آدرس URL تصویر متحرک:"
+        static_url: "آدرس URL تصویر ثابت:"
+      rolelock:
+        success: "استفاده از ‎%{emoji} بر روی نقش های ‎%{roles} قفل شد"
+      roleunlock:
+        success: "استفاده از ‎%{emoji} برای همه نقش ها آزاد شد"
+      block:
+        success:
+          one: "ایموجی بلاک شد"
+          many: "%{count} ایموجی بلاک شد"
+        audit:
+          one: |
+            شکلک زیر برای استفاده کردن توسط ‎ %{author}بلاک شدند:
+          many: |
+            شکلک های زیر برای استفاده کردن توسط ‎ %{author}بلاک شدند:
+      unblock:
+        success: "ایموجی آنبلاک شد"
+        not_blocked: "این ایموجی از همان اول هم بلاک نشده بود"
+        audit: |
+          شکلک زیر برای استفاده کردن توسط ‎ %{author}آنبلاک شدند:
