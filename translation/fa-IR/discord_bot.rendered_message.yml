@@ -1,0 +1,16 @@
+discord_bot:
+  rendered_message:
+    oops: اوخ!
+    external_emojis: |
+      برای استفاده ایموجی ها از دیگر سرور ها، NQN بایستی دسترسی 'Use External Emojis' را در **تنظیمات سرور** داشته باشد.
+    override_external_emojis: |
+      برای استفاده ایموجی ها از دیگر سرور ها، NQN بایستی دسترسی 'Use External Emojis' را در **تنظیمات دسترسی های کانال** داشته باشد.
+    download: دانلود
+    no_personas: |
+      پرسونا ها برای این سرور مجاز نیستند
+    no_messageless_posting: |
+      ادمین سرور ارسال پیام را از طریق داشبورد سایت و اسلش کامند ها، غیرفعال کرده
+    no_slowmode_posting: |
+      ارسال پیام به کانال هایی که slowmode دارند، مجاز نیست
+    enable_posting: فعال سازی ارسال پیام
+    posted_message: پیام ارسال شد
