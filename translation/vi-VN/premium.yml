@@ -1,0 +1,46 @@
+premium:
+  no_premium: |
+    Patreon của bạn không có trạng thái premium
+  no_patreon: |
+    Tài khoản Discord này không có liên kết với tài khoản Patreon nào
+  account_not_changed: |
+    Đã cập nhật danh sách server premium của bạn; tài khoản Discord được liên kết không thay đổi
+  gained_premium: |
+    Đã liên kết tài khoản Discord của bạn với Patreon! Các tính năng premium từ giờ sẽ áp dụng với tài khoản này.
+  associate_account: |
+    Tài khoản Discord này không có liên kết với tài khoản Patreon nào.
+    [Liên kết trài khoản Discord của bạn với Patreon](%{patreon_oauth})
+  updated_status: |
+    Trạng thái tài khoản của bạn đã được cập nhật; kiểm tra tin nhắn trực tiếp của bạn.
+  user_gained_premium: |
+    Này %{user_mention}, cảm ơn vì đã đăng kí premium! Chúng tôi rất cảm kính vì sự giúp đỡ của bạn <:BlueLove:831617205132329040>
+    Đây là danh sách các server được hưởng Premium từ bạn:
+    %{guild_list}
+    Danh sách này được cập nhật hằng ngày đựa trên các server có cả bạn và NQN mà bạn có quyền 'Quản lý' trong đó. Trong trường hợp bạn muốn dùng tính năng mới trước, dùng
+    > `%{prefix}premium check`
+
+    NQN premium cho phép dùng các lệnh sau trong các server trên:
+  server_gained_premium:
+    one: |
+      Này %{user_mention}!
+      Cảm ơn vì một trong số quản lý của bạn đã nhận premium, server của bạn %{guild_list} hiện đã có thể dùng các lệnh sau:
+    many: |
+      Này %{user_mention}!
+      Cảm ơn vì một trong số quản lý của bạn đã nhận premium, các server mà bạn sở hữu bây giờ đã có thể dùng các tính năng premium:
+      %{guild_list}
+
+      NQN premium cho phép dùng các lệnh sau trong các server trên:
+  user_lost_premium: |
+    Này %{user_mention}, chỉ muốn nhắc bạn là bạn không còn sở hữu premium nữa.
+    Cảm ơn vì đã giúp đỡ chúng tôi ^^
+  server_lost_premium:
+    one: |
+      Này %{user_mention}, server của bạn, %{guild_list}, hiện không còn khả năng dùng các tính năng premium.
+      Nếu bạn có thay đổi các tính năng dành riêng cho premium nào thì bây giờ chúng đã bị đặt lại.
+    many: |
+      Này %{user_mention}, các server mà bạn sở hữu hiện không còn khả năng dùng các tính năng premium:
+      %{guild_list}
+      Nếu bạn có thay đổi các tính năng dành riêng cho premium nào thì bây giờ chúng đã bị đặt lại.
+  premium_commands: |
+    > `%{prefix}server set_nitro_role` - Giới hạn quyền dùng NQN với một vai trò cho người dùng.
+    > `%{prefix}server user_content` - Giới hạn emoji được gửi bởi NQN chỉ được từ server, từ danh sách `%{prefix}server alias` hoặc `%{prefix}server pack`. Khi cài đặt này được bật, các lệnh tìm kiếm khác sẽ bị vô hiệu hóa.
