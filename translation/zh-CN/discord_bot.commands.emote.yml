@@ -1,0 +1,37 @@
+discord_bot:
+  commands:
+    emote:
+      info:
+        title: "表情符号%{name} 的相关信息:"
+        id: "ID:"
+        server_daily_uses: "在这个伺服器里的日用量:"
+        server_uses: "在这个伺服器里的用量:"
+        approx_uses:
+          zero: "零"
+          one: "一"
+          many: "~%{count}"
+        total_uses_per_day: "每日的总用量:"
+        aka: "也被称为:"
+        locked_roles: "锁定身分组:"
+        upload_time: "上传于:"
+        url: "链接:"
+        animated_url: "动态链接:"
+        static_url: "静止链接:"
+      rolelock:
+        success: "锁定%{emoji} 到%{roles} 身分组"
+      roleunlock:
+        success: "已解锁%{emoji} 的身分组"
+      block:
+        success:
+          one: "禁止的表情符号"
+          many: "禁止了%{count} 个表情符号"
+        audit:
+          one: |
+            %{author} 禁止了以下表情符号:
+          many: |
+            %{author} 禁止了以下表情符号:
+      unblock:
+        success: "解禁的表情符号"
+        not_blocked: "从来没被禁止的表情符号"
+        audit: |
+          %{author} 解禁了以下表情符号:
