@@ -1,0 +1,45 @@
+discord_bot:
+  commands:
+    sticker:
+      create:
+        attachment_needed: Bu komutla bir çıkartma yüklemeniz gerekiyor
+        image_needed: Dosyanın bir resim olması gerekiyor
+        sticker_exists: '%{name} adında bir çıkartma zaten var!'
+        filename_invalid: '`%{name}`, çıkartmalar için izin verilen bir ad değil. Alfanümerik bir dosya uzantısına sahip alfanümerik olmalıdırlar.'
+        too_large: Bu dosya çok büyük. Çıkartmalar yalnızca 8 Mb olabilir
+        created: "Artık `:%{name}:` kullanabilirsiniz\nTam olarak doğru değil?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
+      mine:
+        no_stickers: Çıkartmanız yok
+      delete:
+        no_sticker: "- :%{name}: - Yok veya sizin değil"
+        sticker_deleted: '+ :%{name}:'
+        question:
+          zero: Silinecek çıkartma yok!
+          one: Bu çıkartmayı silmek istiyor musunuz?
+          many: Tüm %{count} çıkartmaları silmek istiyor musunuz?
+        deleted_all:
+          one: '%{count} çıkartması silindi'
+          many: '%{count} çıkartmalar silindi'
+      rename:
+        filename_invalid: '`%{name}`, çıkartmalar için izin verilen bir ad değil. Alfanümerik bir dosya uzantısına sahip alfanümerik olmalıdırlar.'
+        no_sticker: Bu çıkartma mevcut değil
+        permission_denied: Başkasının çıkartmasını yeniden adlandıramazsınız!
+        destination_taken: Hedef adı zaten alınmış!
+        renamed: '\:%{old}: yeniden adlandırıldı: :%{new}:'
+      search:
+        no_stickers: Çıkartma bulunamadı
+      sticker_import:
+        filename_invalid: '`%{name}`, çıkartmalar için izin verilen bir ad değil. Alfanümerik bir dosya uzantısına sahip alfanümerik olmalıdırlar.'
+        find_emote: çıkartmaya dönüşecek bir ifade bulun!
+        created: Artık `:%{name}:` kullanabilirsiniz
+        sticker_exists: '`:%{name}:` adlı bir çıkartma zaten var; üzerine yazamazsınız.'
+        duplicate_exists: Aynı resme sahip %{name} adında bir çıkartma zaten var!
+      telegram_import:
+        pack_invalid: '`%{name}` geçerli bir Telegram çıkartma paketi adı değil'
+        telegram_unloaded: Telegram paketi yüklenmedi - lütfen bunu bir bot geliştiricisine bildirin.
+        already_created: Zaten başkası tarafından oluşturulmuş; üzerine yazılamaz
+        finished_importing:
+          one: Bir çıkartmanın içe aktarılması tamamlandı
+          many: '%{count} çıkartmaların içe aktarılması tamamlandı'
+        search_future: "Gelecekte bu çıkartmaları aramak için şunu kullanın:\n> `%{prefix}sticker search %{name}.`"
+        view: Çıkartmaları Görüntüle
