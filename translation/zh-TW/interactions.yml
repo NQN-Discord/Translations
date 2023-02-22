@@ -1,0 +1,8 @@
+interactions:
+  not_author: |
+    只有訊息作者才可以與此訊息交互
+  timed_out: |
+    交互等候逾時。
+    請再次使用此指令。
+  bot_timed_out: |
+    NQN 已在伺服器被禁止一切行為（timeout），因此無法回應此交互。
