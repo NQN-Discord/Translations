@@ -1,0 +1,53 @@
+discord_bot:
+  commands:
+    alias:
+      no_alias: "Non hai un alias chiamato \\:%{name}:"
+      could_not_find: Impossibile trovare l'alias
+      alphanumeric: Gli alias possono contenere solo caratteri alfanumerici e trattini bassi
+      max_length: I nomi degli alias possono essere lunghi al massimo 32 caratteri
+      user_zero: Non hai alias
+      set_alias: Imposta alias
+      from_message:
+        no_emotes: Questo messaggio non contiene nessuna emoji personalizzata!
+      delete:
+        deleted: 'Eliminato \:%{name}:'
+      delete_all:
+        confirm: |
+          Questo eliminerà tutti i **%{count}** dei tuoi alias.
+          Sei sicuro di voler continuare?
+        deleted:
+          one: Eliminato 1 alias
+          many: Eliminato %{count} alias
+      created:
+        one: 'Hai creato un alias e puoi usarlo digitando:'
+        many: 'Hai creato %{count} alias e puoi usarli digitando:'
+      rename:
+        rename: Rinomina Alias
+        alias_name: 'Nome Alias:'
+        renamed: 'Rinominato \:%{old}: a :%{new}:'
+      export:
+        exported_short: "Ecco i tuoi alias esportati:"
+        exported_long: |
+          Ecco i tuoi alias esportati:
+          Per condividerli con altre persone, devono eseguire:
+          > `%{prefix}alias import %{url}`
+      import_:
+        import_incorrect: |
+          Questo comando viene utilizzato per importare una lista di alias precedentemente esportata con `%{prefix}alias export`.
+          Per creare un alias, usa `%{prefix}alias search`
+        import_text: Questo comando ha bisogno di un file di testo allegato
+        import_lines_invalid: Impossibile impostare gli alias sulle righe %{lines_invalid}, formato non valido.
+        import_set:
+          one: Imposta %{count} alias.
+          many: Imposta %{count} alias.
+      dm:
+        send_dms:
+          zero: |
+            Non hai alias!
+            Ottienine alcuni con `%{prefix}alias search`
+          one: |
+            Questo ti invierà un messaggio diretto; vuoi continuare?
+          many: |
+            Questo ti invierà %{count} messaggi diretti; vuoi continuare?
+        blocked: |-
+          Mi hai bloccato, non posso messaggiarti!
