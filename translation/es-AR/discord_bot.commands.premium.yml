@@ -1,0 +1,10 @@
+discord_bot:
+  commands:
+    premium:
+      get_premium: Obtiené NQN premium
+      premium_description: |
+        Aunque NQN es primariamente un bot gratis, tenemos algunas funcionalidades premium para apoyar el desarollo del bot.
+        Si quieres contribuir, puedes subsibirte al patron del bot: https://www.patreon.com/NQN
+      premium_commands_title: Commandos Premium
+      premium_commands_content: |-
+        Los siguientes comandos solo pueden ser utilizados si tu servidor tiene premium, el cual es habilitado cuando cualquier usuario con permiso 'Administrador' esta subscripto a nuestro Patron.
