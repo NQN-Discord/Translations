@@ -1,0 +1,20 @@
+discord_bot:
+  audit_log:
+    cropped: (Bijgesneden)
+    nsfw_censored: <Gecensureerd; %{channel} is NSFW>
+    message_posted: |
+      Bericht geplaatst in %{channel} bij %{author} %{cropped}
+      [Spring Link](%{jump_url})
+    message_posted_persona: |
+      Bericht geplaatst in %{channel} bij %{author} %{cropped}
+      ⚠️ Persona gebruiken ⚠️
+      > **%{persona}**
+      [Spring Link](%{jump_url})
+    message_edited: |
+      Bericht bewerkt in %{channel} bij %{author} %{cropped}
+      [Spring Link](%{jump_url})
+    phish_deleted: |
+      Phishingbericht verwijderd in %{channel} bij %{author}
+    blocked_message: |
+      Verwijderd bericht met geblokkeerde emoji's in %{channel} bij %{author}
+    audit_log_post: NQN namens %{author} (%{id})
