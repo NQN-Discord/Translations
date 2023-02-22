@@ -1,0 +1,37 @@
+discord:
+  ext.commands.help:
+    need_emojis: ' - ¡Necesito esto para usar emojis!'
+    need_help: ' - ¡Necesito esto para el comando de ayuda(help)!'
+    nothing: ''
+    choose_page: Navegar lista de comandos
+    please_give: '¡No funcionare correctamente sin estos!'
+    fix_perms: |
+      - **[Arreglo de permisos del servidor](%{invite_url})**
+    nqn_help: NQN Ayuda
+    my_prefix: |
+      Mi prefijo para comandos es `%{prefix}`
+    react_with_x_to_delete: |
+      ¡Reacciona con ❌ (\:x:) para eliminar mensajes reenviados!
+    user_ignored: |
+      Seras **IGNORADO** cuando envíes mensajes que normalmente serian re-enviados por el bot. Para permitir que NQN re-envié tus mensajes, corre:
+      > `%{prefix}ignore_me`
+    categories: Categorías
+    everything_else: Todo el resto
+    really_useful: Comandos muy útiles
+    useful_links: 'Links útiles:'
+    website: Sitio
+    vote: '¡Vota!'
+    support: Soporte técnico
+    emote_list: Mis emojis
+    top_gg_vote: Votando por mi en [top.gg](https://top.gg/bot/559426966151757824/vote) mejora el bot al aumentar nuestra visibilidad y permitiendo más emojis cuando nos unimos a un servidor.
+    bfd_vote: Dando me un voto en [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) ayuda a la visibilidad del bot. Con cada nuevo servidor al que me uno, mi colección de emojis incrementa en tamaño.
+    what_is: '¿Que es Not Quite Nitro?'
+    bot_description: |
+      Not Quite Nitro es un bot de utilidad multipropósito que permite a cualquier usuario usar emojis que requerirían de nitro.
+      Tenemos una base de datos extremadamente grande de emojis visualmente únicos que puedes usar en cualquier servidor en el que esté el bot con permisos de Gestionar Webhooks.
+
+
+      NQN también permite citas automáticas cada vez que un usuario publica un enlace de un mensaje, el uso de URLs enmascarados en chat y stickers, que son emojis de tamaño completo.
+
+
+      Puedes invitarme a [tu servidor](https://discord.com/api/oauth2/authorize?%{params}).
