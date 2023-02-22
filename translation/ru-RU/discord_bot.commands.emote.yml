@@ -1,0 +1,37 @@
+discord_bot:
+  commands:
+    emote:
+      info:
+        title: "Информация об эмодзи '%{name}':"
+        id: "ID:"
+        server_daily_uses: "Ежедневно использовалось на сервере:"
+        server_uses: "Использовалось на сервере:"
+        approx_uses:
+          zero: "0 раз"
+          one: "1 раз"
+          many: "~%{count} раз"
+        total_uses_per_day: "Кол-во использований в течение дня:"
+        aka: "Также известно как:"
+        locked_roles: "Заблокирована для ролей:"
+        upload_time: "Было загружено:"
+        url: "URL:"
+        animated_url: "Анимированная версия:"
+        static_url: "Статическая версия:"
+      rolelock:
+        success: "Для ролей %{roles} была заблокирована эмодзи %{emoji}"
+      roleunlock:
+        success: "Разблокированы роли для %{emoji}"
+      block:
+        success:
+          one: "Заблокированные эмодзи"
+          many: "Заблокировано %{count} эмодзи"
+        audit:
+          one: |
+            %{author} заблокировал следующую эмодзи:
+          many: |
+            %{author} заблокировал следующие эмодзи:
+      unblock:
+        success: "Разблокированные эмодзи"
+        not_blocked: "Этот эмодзи не был ранее заблокирован"
+        audit: |
+          %{author} разблокировал следующую эмодзи:
