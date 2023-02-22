@@ -1,0 +1,8 @@
+interactions:
+  not_author: |
+    Solo l'autore del messaggio può interagire con questo messaggio
+  timed_out: |
+    Interazione scaduta.
+    Si prega di eseguire nuovamente il comando.
+  bot_timed_out: |
+    NQN è stato mutato da un moderatore e non può rispondere.
