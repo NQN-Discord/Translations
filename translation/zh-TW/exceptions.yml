@@ -1,0 +1,57 @@
+exceptions:
+  command_not_found: |
+    找不到「%{command}」指令
+    請使用 `%{prefix}help` 以瀏覽指令列表
+  missing_required_argument:
+    one: |-
+      缺少了「%{param}」參數。
+      應該是：%{should_be}
+    many: |
+      缺少了「%{param}」參數。
+      應該是以下其中一個：
+      %{should_be}
+  bot_missing_permissions:
+    one: |
+      %{bot_ping} 缺少了以下權限，以致未能運作此指令：
+      %{permissions_missing}
+    many: |
+      %{bot_ping} 缺少了以下權限，以致未能運作此指令：
+      %{permissions_missing}
+  user_missing_permissions:
+    one: |
+      您缺少了以下權限，以致未能運作此指令：
+      %{permissions_missing}
+    many: |
+      您缺少了以下權限，以致未能運作此指令：
+      %{permissions_missing}
+  message_not_found: |
+    找不到「%{param}」訊息
+  channel_not_found: |
+    找不到「%{channel}」頻道
+  channel_not_readable: |
+    %{bot_ping} 在 %{channel} 缺少了以下權限，以致未能運作此指令：
+    %{permissions_missing}
+  bad_argument:
+    one: |
+      %{param} 參數無效，應該是：
+    many: |
+      %{param} 參數無效，應該是以下其中一個：
+  no_dms: |
+    您不能在私人訊息中使用此指令
+  permissions_missing_reasons:
+    #These translations were designed to be short, and to fit on about 1 line on a mobile screen
+    guild: |-
+      %{user_ping} 的身分組不包括它
+    member_overwrite: |-
+      %{user_ping} 被 %{channel} 頻道權限明確禁止
+    role_overwrite:
+      one: |-
+        %{roles} 被 %{channel} 頻道權限明確禁止
+      many: |-
+        %{roles} 被 %{channel} 頻道權限明確禁止
+    member_role_overwrite:
+      one: |-
+        %{user_ping} 和 %{roles} 被 %{channel} 頻道權限明確禁止
+      many: |-
+        %{user_ping} 和 %{roles} 被 %{channel} 頻道權限明確禁止
+  no_threads: 您不能在討論串中使用此指令.
