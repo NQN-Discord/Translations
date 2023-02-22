@@ -1,0 +1,71 @@
+global:
+  deleted_channel: '#DeletedChannel'
+  author: Autore
+  jump_to_message: Vai a
+  go_to_message: Vai al messaggio!
+  reply_to: 'Rispondi a:'
+  cancelled: Annullato
+  website: Sito Web
+  details: Dettagli
+  fix_permissions: Correggi Permessi
+  success: Successo
+  yes: Yes
+  no: No
+  dm_me: Inviami un DM
+  next: Successivo
+  previous: Precedente
+  choose_emote: Scegli alcune emote
+  learn:
+    aliases: Maggiori informazioni sugli alias
+    packs: Maggiori informazioni sui pacchetti
+    my_emotes: Trova emoji che posso usare
+    personas: Maggiori informazioni sui personaggi
+  missing_permissions: Permessi Mancanti
+  no_nitro_global: L'utilizzo del nitro è stato disabilitato in questo server!
+  no_nitro_role: Solo gli utenti con il ruolo <@&%{role}> possono usare questo comando!
+  tabulated_default_results:
+    one: "%{count} risultato (Pagina %{page_no} di %{total}):\n%{contents}"
+    many: "%{count} risultati (Pagina %{page_no} di %{total}):\n%{contents}"
+  tabulated_results_page:
+    zero: Nessuna emote trovata
+    one: Pagina %{page_no} di %{total}%{note}
+    many: Pagina %{page_no} di %{total}%{note}
+  page_no: 'Pagina %{page} di %{total}:'
+  no_results: Nessun risultato
+  loading: <a:loading:674758249291186191> Elaborazione...
+  timed_out: Tempo scaduto - riprova
+  global_check_failed: Non hai il permesso di usare %{cmd_name}
+  requires_user_content: |
+    Il contenuto utente non è consentito in questo server.
+  requires_user_content_admin: |
+    Il contenuto utente non è consentito in questo server. Puoi consentirlo con
+    > ```%{prefix}server user_content on ```
+  error_message: |
+    Si è verificato un errore durante l'elaborazione del comando. Potrebbe non essere stato completato correttamente.
+    Per aiutare, e per segnalare questo come problema, unisciti al server di test per questo bot:
+    https://discord.gg/mv8RbHD
+
+    Codice errore: `%{event_id}`
+  user_abused: |
+    Il proprietario del bot o moderatori globali ti hanno impedito di utilizzare questo bot a causa di abusi precedenti.
+    Non è possibile utilizzare alcun comando o utilizzare la funzionalità del bot.
+  user_spammed: |
+    Sei stato temporaneamente bloccato dall'utilizzo di NQN per aver attivato il nostro sistema automatico di rilevamento dello spam.
+    Questo messaggio sarà inviato al massimo una volta al giorno e non c'è modo di fare appello a questo blocco.
+
+    Sarai sbloccato tra meno di **5 minuti** da ora.
+  support_server: |
+    Puoi unirti al mio server di supporto qui:
+    http://discord.gg/XvzDPca
+    Puoi segnalare bug, richiedere nuove funzionalità o chiedere chiarimenti su come usarmi.
+  premium_required: |
+    Per fare questo, devi essere iscritto al Patreon di NQN: https://www.patreon.com/NQN
+  invite_bad_perms:
+    title: |
+      Ciao, grazie per aver invitato NQN a %{guild_name}!
+    content: |
+      Ci siamo guardati intorno e abbiamo scoperto che non abbiamo abbastanza tutti i permessi di cui abbiamo bisogno per funzionare correttamente.
+      Per risolvere questo problema è utilizzare correttamente il bot, è stato generato un link che darà tutte le autorizzazioni necessarie al bot:
+
+      **[Risolvi Permessi](%{invite_url})**
+  webhook_limit: Limite Webhook raggiunto! Impossibile eseguire in questo canale!
