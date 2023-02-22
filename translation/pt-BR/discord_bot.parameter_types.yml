@@ -1,0 +1,68 @@
+discord_bot:
+  parameter_types:
+    #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+    SearchTerms:
+      name: Termos de pesquisa
+      description: |-
+        Termos de pesquisa
+    Message:
+      name: Mensagem
+      description: |-
+        Uma resposta do Discord para a mensagem que você deseja segmentar
+        - Um URL de mensagem (`https://discord.com/channels/123456789/123456789/123456789`)
+        - Um id de mensagem no canal atual (`123456789`)
+        - Par ChannelID-MessageID (`123456789-123456789`)
+        - Quantas mensagens atrás estava no canal atual (`5` mensagens atrás)
+    PartialEmoji:
+      name: Emoji
+      description: |-
+        Um emoji do Discord renderizado ou uma URL de emoji
+    TextChannel:
+      name: Canal de Texto
+      description: |
+        Uma menção ao canal de texto
+    User:
+      name: Usuário
+      description: |
+        Uma menção do usuário
+    Role:
+      name: Cargo
+      description: |
+        Uma menção de Cargo ou nome
+    NQNEmoji:
+      name: NQNEmoji
+      description: |
+        Um emoji não renderizado NQN pode se transformar
+        - Um emoji do discord renderizado ou uma URL de emoji
+    BlockedEmoji:
+      name: EmojiBloqueado
+      description: |-
+        O nome de um emoji que está bloqueado neste servidor
+    CurrentGuildEmoji:
+      name: EmojiServidor
+      description: |
+        Um emoji no servidor atual
+    None:
+      name: Vazio
+      description: |
+        Sem argumento
+    str:
+      name: Texto
+      description: |
+        Algum texto
+    int:
+      name: Inteiro
+      description: |
+        Um número
+    bool:
+      name: Booleano
+      description: |
+        `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
+    ListConverter:
+      name: Lista
+      description: |-
+        Pelo menos
+    Union:
+      name: União
+      description: |-
+        Um dos seguintes:
