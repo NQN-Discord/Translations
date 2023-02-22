@@ -1,0 +1,37 @@
+discord_bot:
+  commands:
+    emote:
+      info:
+        title: "Info over emoji '%{name}':"
+        id: "ID:"
+        server_daily_uses: "Dagelijks gebruik in deze server:"
+        server_uses: "Gebruikt in deze server:"
+        approx_uses:
+          zero: "0"
+          one: "1"
+          many: "~%{count}"
+        total_uses_per_day: "Totaal gebruik per dag:"
+        aka: "Ook bekend als:"
+        locked_roles: "Vergrendeld voor rollen:"
+        upload_time: "Geüpload op:"
+        url: "URL:"
+        animated_url: "Geanimeerde URL:"
+        static_url: "Statische URL:"
+      rolelock:
+        success: "Vergendelde rollen voor %{emoji} tot %{roles}"
+      roleunlock:
+        success: "Ontgrendelde rollen voor %{emoji}"
+      block:
+        success:
+          one: "Geblokkeerde emoji"
+          many: "%{count} emoji's geblokkeerd"
+        audit:
+          one: |
+            %{author} heeft de volgende emoji geblokkeerd:
+          many: |
+            %{author} heeft de volgende emoji's geblokkeerd:
+      unblock:
+        success: "Gedeblokkeerde emoji"
+        not_blocked: "Emoji was om te beginnen niet geblokkeerd"
+        audit: |
+          %{author} heeft de volgende emoji gedeblokkeerd:
