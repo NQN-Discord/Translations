@@ -1,0 +1,57 @@
+exceptions:
+  command_not_found: |
+    Không tìm thấy lệnh "%{command}".
+    dùng `%{prefix}help` để xem danh sách lệnh
+  missing_required_argument:
+    one: |-
+      Đang thiếu phần quan trọng là "%{param}".
+      Nó nên là: %{should_be}
+    many: |
+      Cần có "%{param}" đang thiếu.
+      Nó nên là một trong:
+      - %{should_be}
+  bot_missing_permissions:
+    one: |
+      %{bot_ping} đang thiếu quyền sau để dùng lệnh này:
+      %{permissions_missing}
+    many: |
+      %{bot_ping} đang thiếu các quyền sau để dùng lệnh này:
+      %{permissions_missing}
+  user_missing_permissions:
+    one: |
+      Bạn đang thiếu quyền sau để dùng lệnh này:
+      %{permissions_missing}
+    many: |
+      Bạn đang thiếu các quyền sau để dùng lệnh này:
+      %{permissions_missing}
+  message_not_found: |
+    Không tìm thấy tin nhắn "%{param}".
+  channel_not_found: |
+    Không tìm thấy kênh "%{channel}".
+  channel_not_readable: |
+    %{bot_ping} đang thiếu quyền sau trong %{channel}:
+    %{permissions_missing}
+  bad_argument:
+    one: |
+      Không thể diễn tả %{param}; nên là:
+    many: |
+      Không thể diễn tả %{param}; nên là một trong:
+  no_dms: |
+    Lệnh này không thể được dùng trong tin nhắn trực tiếp
+  permissions_missing_reasons:
+    #These translations were designed to be short, and to fit on about 1 line on a mobile screen
+    guild: |-
+      Vai trò của %{user_ping} không có nó
+    member_overwrite: |-
+      Quyền đã bị chặn rõ ràng trong %{channel} cho %{user_ping}
+    role_overwrite:
+      one: |-
+        Quyền đã bị chặn trong %{channel} cho vai trò: %{roles}
+      many: |-
+        Quyền đã bị chặn trong %{channel} cho các vai trò: %{roles}
+    member_role_overwrite:
+      one: |-
+        Quyền đã bị chặn rõ ràng trong %{channel} cho %{user_ping} cũng như vai trò: %{roles}
+      many: |-
+        Quyền đã bị chặn rõ ràng trong %{channel} cho %{user_ping} cũng như các vai trò: %{roles}
+  no_threads: Lệnh này không thể được sử dụng trong kênh chủ đề.
