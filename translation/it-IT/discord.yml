@@ -1,0 +1,35 @@
+discord:
+  ext.commands.help:
+    need_emojis: ' - Ho bisogno di questo per utilizzare le emoji!'
+    need_help: ' - Ho bisogno di questo per il comando di aiuto!'
+    nothing: ''
+    choose_page: Sfoglia i Comandi
+    please_give: Non funzionerò correttamente senza questi!
+    fix_perms: |
+      - **[Correggi Permessi Server](%{invite_url})**
+    nqn_help: Pannello di Aiuto NQN
+    my_prefix: |
+      Il mio prefisso per i comandi è `%{prefix}`
+    react_with_x_to_delete: |
+      Reagisci con ❌ (\:x:) per eliminare i messaggi ripubblicati!
+    user_ignored: |
+      Sarai **IGNORATO** quando invierai messaggi che verrebbero normalmente ripubblicati. Per consentire a NQN di ripubblicare i messaggi, esegui:
+      > `%{prefix}ignore_me`
+    categories: Categorie
+    everything_else: Tutto il resto
+    really_useful: Comandi Davvero Utili
+    useful_links: 'Link utili:'
+    website: Sito Web
+    vote: Vota!
+    support: Assistenza
+    emote_list: Le Mie Emote
+    top_gg_vote: Votando per me su [top.gg](https://top.gg/bot/559426966151757824/vote) migliora il bot aumentando la nostra visibilità e consentendo più emote quando ci uniamo a un server.
+    bfd_vote: Dandomi un voto positivo su [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) aiuta la nostra visibilità. Con ogni nuovo server in cui entro, il mio database emote diventa più grande.
+    what_is: Che cos'é Not Quite Nitro?
+    bot_description: |
+      Not Quite Nitro è un bot multiuso di utilità che permette a qualsiasi utente di utilizzare le emote Nitro.
+      Abbiamo un database estremamente grande di emote visivamente uniche che è possibile utilizzare in qualsiasi server in cui il bot è co Gestione autorizzazioni Webhook.
+
+      NQN permette anche la citazione automatica ogni volta che un utente pubblica un link di messaggio, l'uso di url mascherati in chat e adesivi, che sono emote di dimensioni piene.
+
+      Puoi invitarmi [al tuo server](https://discord.com/api/oauth2/authorize?%{params}).
