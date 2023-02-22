@@ -1,0 +1,35 @@
+discord:
+  ext.commands.help:
+    need_emojis: ' - Emojileri kullanmak için buna ihtiyacım var!'
+    need_help: ' - Yardım komutu için buna ihtiyacım var!'
+    nothing: ''
+    choose_page: Komutlara Gözat
+    please_give: Bunlar olmadan düzgün çalışmayacağım!
+    fix_perms: |
+      - **[Sunucu İzinlerini Düzeltin](%{invite_url})**
+    nqn_help: NQN Yardım
+    my_prefix: |
+      Komutlar için prefix'im `%{prefix}`
+    react_with_x_to_delete: |
+      Yeniden gönderilen mesajları silmek için ❌ (\:x:) ile tepki verin!
+    user_ignored: |
+      Normalde yeniden gönderilecek mesajları gönderirken **GÖRMEZDEN** gelinecek. NQN'nin mesajlarınızı yeniden göndermesine izin vermek için şunu kullanın:
+      > `%{prefix}ignore_me`
+    categories: Kategoriler
+    everything_else: Diğer her şey
+    really_useful: Gerçekten Faydalı Komutlar
+    useful_links: 'Kullanışlı bağlantılar:'
+    website: Web site
+    vote: Oy Ver!
+    support: Destek
+    emote_list: Emojilerim
+    top_gg_vote: '[top.gg](https://top.gg/bot/559426966151757824/vote) adresinde bana oy vermek, görünürlüğümüzü artırarak ve bir sunucuya katıldığımızda daha fazla ifadeye izin vererek botu daha iyi hale getiriyor.'
+    bfd_vote: '[Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote)''da bana oy vermek görünürlüğümüze yardımcı oluyor. Katıldığım her yeni sunucuyla birlikte emoji veritabanım büyüyor.'
+    what_is: Not Quite Nitro nedir?
+    bot_description: |
+      Not Quite Nitro, herhangi bir kullanıcının Nitro emojileri kullanmasına izin veren çok amaçlı bir yardımcı bottur.
+      Botun bulunduğu herhangi bir sunucuda Webhook'lar Yönetme izinleriyle kullanabileceğiniz, görsel olarak benzersiz emojileri oluşan son derece geniş bir veri tabanı var.
+
+      NQN ayrıca, bir kullanıcı bir mesaj bağlantısı gönderdiğinde otomatik alıntı yapmaya, sohbette maskeli URL'lerin kullanımına ve tam boyutlu ifadeler olan çıkartmalara izin verir.
+
+      Beni [sunucunuza](https://discord.com/api/oauth2/authorize?%{params}) davet edebilirsiniz.
