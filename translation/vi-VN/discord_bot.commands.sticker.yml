@@ -1,0 +1,45 @@
+discord_bot:
+  commands:
+    sticker:
+      create:
+        attachment_needed: Bạn cần thêm một sticker với lệnh này
+        image_needed: Tập tin phải là một hình ảnh
+        sticker_exists: Đã có một sticker mang tên %{name}!
+        filename_invalid: '`%{name}` không thể là tên cho sticker. Chúng chỉ nên chứa chữ và số, với định dạng tệp là chữ và số.'
+        too_large: Ảnh này quá lớn, sticker chỉ được lớn tối đa 8Mb
+        created: "Bạn giờ đã có thể dùng `:%{name}:`\nChưa đúng lắm?\n`%{prefix}sticker rename %{name} TenMoi.%{ext}`"
+      mine:
+        no_stickers: Bạn chưa có sticker nào
+      delete:
+        no_sticker: "- :%{name}: - Không tồn tại hoặc không phải của bạn"
+        sticker_deleted: '+ :%{name}:'
+        question:
+          zero: Không có sticker để xóa!
+          one: Bạn có muốn xóa sticker này?
+          many: Bạn có muốn xóa %{count} sticker này?
+        deleted_all:
+          one: Đã xóa %{count} sticker
+          many: Đã xóa %{count} sticker
+      rename:
+        filename_invalid: '`%{name}` không thể là tên cho sticker. Chúng chỉ nên chứa chữ và số, với định dạng tệp là chữ và số.'
+        no_sticker: Sticker này không tồn tại
+        permission_denied: Bạn không thể đổi tên sticker của người khác!
+        destination_taken: Tên mà bạn muốn dùng đã được sử dụng!
+        renamed: 'Đả đổi tên \:%{old}: thành :%{new}:'
+      search:
+        no_stickers: Không tìm thấy sticker
+      sticker_import:
+        filename_invalid: '`%{name}` không thể là tên cho sticker. Chúng chỉ nên chứa chữ và số, với định dạng tệp là chữ và số.'
+        find_emote: tìm một emoji để biến thành sticker!
+        created: Bây giờ bạn có thể dùng `:%{name}:`
+        sticker_exists: Sticker có tên `:%{name}:` đã tồn tại; bạn không thể ghi đè lên nó.
+        duplicate_exists: Sticker với cùng hình ảnh mang tên %{name} đã tồn tại!
+      telegram_import:
+        pack_invalid: '`%{name}` không phải là tên gói sticker Telegram hợp lệ'
+        telegram_unloaded: Không thể tải gói sticker Telegram - vui lòng báo cáo việc này đến nhà phát triển bot.
+        already_created: Đã được tạo bởi ai khác; không thể ghi đè
+        finished_importing:
+          one: Hoàn tất tải lên một sticker
+          many: Hoàn tất tải lên %{count} sticker
+        search_future: "Để tìm kiếm các stickerh này trong tương lai, dùng:\n> `%{prefix}sticker search %{name}`"
+        view: Xem sticker
