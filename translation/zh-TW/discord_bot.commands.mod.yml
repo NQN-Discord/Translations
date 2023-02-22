@@ -1,0 +1,63 @@
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: 沒有可以審查的訊息。
+        expand: 展開
+        truncate: 收縮
+      edit_topic:
+        edited: 已編輯 %{channel} 頻道主題。
+        edited_audit: "%{author} 編輯了 %{channel} 的頻道主題：\n>>> %{description}"
+      ban:
+        owner: 我不能對伺服器主人停權！
+        cannot_ban: 我不能對 <@%{banee}> 停權！
+        you_cannot_ban: 您不能對 <@%{banee}> 停權！
+        banned: 已對 <@%{banee}> 停權 (ID %{banee})
+        banned_audit: '%{author} 已對 <@%{banee}> 停權 (ID %{banee})'
+      kick:
+        owner: 我不能踢出伺服器主人！
+        cannot_kick: 我不能踢出 <@%{kickee}> ！
+        you_cannot_kick: 您不能踢出 <@%{kickee}> ！
+        kicked: 已踢出 <@%{kickee}> (ID %{kickee})
+        kicked_audit: '%{author} 踢出了 <@%{kickee}> (ID %{kickee})'
+      purge:
+        '0_100': 刪除的訊息數量必須在1至10之間
+        audit:
+          one: '%{author} 刪除了%{count} 條在 %{channel} 裡的訊息'
+          many: '%{author} 刪除了%{count} 條在 %{channel} 裡的訊息'
+      move:
+        user_no_perms: 您在 %{channel} 中沒有「傳送訊息」和「管理訊息」的權限。
+        me_no_perms: 我需要在 %{channel} 有「檢視頻道」、「管理 Webhooks」和「使用外部表情符號」的權限。
+        message_limit: 移動的訊息數量必須在1至%{count}之間
+        forum_modal_title: 新增貼文
+        forum_post_name: '貼文標題:'
+        moved_to:
+          one: 已移動%{count}條訊息到 %{to_channel}
+          many: 已移動%{count}條訊息到 %{to_channel}
+        moved_from:
+          one: '%{author} 移動了%{count} 條在 %{from_channel} 裡的訊息'
+          many: '%{author} 移動了%{count} 條在 %{from_channel} 裡的訊息'
+        moved_to_from:
+          one: '%{author} 移動了%{count} 條在 %{from_channel} 裡的訊息到 %{to_channel}'
+          many: '%{author} 移動了%{count} 條在 %{from_channel} 裡的訊息到 %{to_channel}'
+        move_end: 修正將移動的結尾訊息
+        end_previous_n:
+          - 
+        end_next_n:
+          - 
+        move_start: 修正將移動的開始訊息
+        start_previous_n:
+          - 
+        start_next_n:
+          - 
+        move_both: 修正將移動的開始和結尾訊息
+        both_previous_n:
+          - 
+        both_next_n:
+          - 
+        move:
+          one: 移動訊息！
+          many: 移動%{count}條訊息！
+        move_all:
+          one: 移動訊息！
+          many: 移動全部%{count}條訊息！
