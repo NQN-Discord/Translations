@@ -1,0 +1,16 @@
+discord_bot:
+  rendered_message:
+    oops: Oops!
+    external_emojis: |
+      Em ordem para usar emojis de outros servidores, NQN precisa de permissão de "Usar Emojis Externos" nas **permissões do servidor**.
+    override_external_emojis: |
+      Em ordem para usar emojis de outros servidores, NQN precisa de permissão de "Usar Emojis Externos" nas **permissões do canal**.
+    download: Baixar
+    no_personas: |
+      Os personagens não estão habilitados neste servidor
+    no_messageless_posting: |
+      Um administrador desativou o envio de mensagens pelo *dashboard* e por commandos slash
+    no_slowmode_posting: |
+      Enviar mensagens em canais com o modo lento não é permitido
+    enable_posting: Habilitar envio de mensagens
+    posted_message: Mensagem enviada
