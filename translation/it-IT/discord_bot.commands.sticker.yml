@@ -1,0 +1,45 @@
+discord_bot:
+  commands:
+    sticker:
+      create:
+        attachment_needed: Devi caricare un adesivo con questo comando
+        image_needed: Il file deve essere un'immagine
+        sticker_exists: Un adesivo chiamato %{name} esiste già!
+        filename_invalid: '`%{name}` non è un nome consentito per gli adesivi. Devono essere alfanumerici, con un''estensione alfanumerica.'
+        too_large: Questo file è troppo grande. Gli adesivi possono essere massimo 8MB
+        created: "Ora puoi usare `:%{name}:`\nNon è giusto?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
+      mine:
+        no_stickers: Non hai adesivi
+      delete:
+        no_sticker: "- :%{name}: - Non esiste o non è tuo"
+        sticker_deleted: '+ :%{name}:'
+        question:
+          zero: Nessun adesivo da eliminare!
+          one: Vuoi eliminare questo adesivo?
+          many: Vuoi eliminare %{count} adesivi?
+        deleted_all:
+          one: Eliminato %{count} sticker
+          many: Eliminati %{count} sticker
+      rename:
+        filename_invalid: '`%{name}` non è un nome consentito per gli adesivi. Devono essere alfanumerici, con un''estensione alfanumerica.'
+        no_sticker: Questo adesivo non esiste
+        permission_denied: Non puoi rinominare l'adesivo di qualcun altro!
+        destination_taken: Il nome di destinazione è già preso!
+        renamed: 'Rinominato \:%{old}: a :%{new}:'
+      search:
+        no_stickers: Nessun adesivo trovato
+      sticker_import:
+        filename_invalid: '`%{name}` non è un nome consentito per gli adesivi. Devono essere alfanumerici, con un''estensione alfanumerica.'
+        find_emote: trova un emote da trasformare in un adesivo!
+        created: Ora puoi usare `:%{name}:`
+        sticker_exists: Un adesivo chiamato `:%{name}:` esiste già; non puoi sovrascriverlo.
+        duplicate_exists: Esiste già un adesivo con la stessa immagine chiamato %{name}!
+      telegram_import:
+        pack_invalid: '`%{name}` non è un valido pacchetto adesivi di Telegram'
+        telegram_unloaded: Pacchetto Telegram non caricato - si prega di segnalare questo a uno sviluppatore di bot.
+        already_created: Già creato da qualcun altro; non puoi sovrascrivere
+        finished_importing:
+          one: Importato un adesivo
+          many: Importati %{count} adesivi
+        search_future: "Per cercare questi adesivi in futuro, utilizzare:\n> `%{prefix}sticker search %{name}.`"
+        view: Visualizza Adesivi
