@@ -1,0 +1,74 @@
+discord_bot:
+  commands:
+    persona:
+      not_enabled: |
+        Persona's zijn niet ingeschakeld op deze server.
+        Ze stellen gebruikers in staat om ⚠️**aangepaste gebruikersnamen** en **avatars**⚠️ te gebruiken met NQN, en zijn dus niet standaard ingeschakeld.
+      enable_personas: Persona's inschakelen
+      name_regex: |
+        Personanamen mogen alleen alfanumerieke tekens, streepjes en onderstrepingstekens bevatten en mogen maximaal 80 tekens lang zijn.
+        > '%{persona_name}' voldoet niet aan deze vereisten.
+      max_display_name: |
+        Gebruikersnamen mogen maximaal 80 tekens lang zijn
+      persona_doesnt_exist: |
+        Je hebt geen persona genaamd %{short_name}!
+        Maak er een aan met `%{prefix}persona register %{short_name}`
+      export:
+        exported_list_short: |
+          Dit zijn je geëxporteerde persona's, ze zouden compatibel moeten zijn met Tupperbox en Pluralkit.
+        exported_list_long: |
+          Dit zijn je geëxporteerde persona's, ze zouden compatibel moeten zijn met Tupperbox en Pluralkit.
+          Om ze met andere mensen te delen, moeten ze het volgende uitvoeren:
+          > `%{prefix}persona import %{url}`
+      import_:
+        import_incorrect: |
+          Dit commando wordt gebruikt om een personalijst te importeren die eerder is geëxporteerd met `%{prefix}persona export`, of gelijkwaardige exportcommando's van PluralKit en Tupperbox.
+          Om een persona aan te maken, gebruik je `%{prefix}persona register`
+        import_text: Deze opdracht heeft een json-bestandsbijlage nodig
+        set_personas:
+          one: Eén persona geïmporteerd
+          many: '%{count} persona''s geïmporteerd'
+        invalid_persona: Wilt u doorgaan met het importeren van de rest van het bestand en deze invoer negeren?
+      list:
+        no_personas: |
+          Je hebt geen persona's!
+      register:
+        display_name: Gebruikersnaam
+        avatar_url: Avatar URL
+        create: Creëer Persona
+        persona_exists: |
+          Je hebt al een persona genaamd %{short_name}.
+          Je kunt het hernoemen met `%{prefix}persona rename %{short_name} nieuwe_naam`
+        registered_persona: |
+          %{short_name} geregistreerd als je persona!
+          Om berichten als hen te verzenden, verzendt u een bericht dat begint met `%{short_name}:`, bijvoorbeeld:
+          > ```%{short_name}: Hallo!```
+          Om hun gebruikersnaam in berichten te veranderen in 'NQN', voer je uit:
+          > ```%{prefix}persona display_name %{short_name} NQN```
+          Voer het volgende uit om hun avatar in berichten te wijzigen:
+          > ```%{prefix}persona avatar_url %{short_name} https://...```
+      rename:
+        renamed_persona: |
+          Hernoemd %{old_name} naar %{new_name}.
+      avatar_url:
+        persona_avatar_url: |
+          Stel de avatar van %{short_name} in.
+        avatar_regex: |
+          Avatars moeten worden gegeven als URL's naar de afbeelding die u wilt gebruiken.
+      delete:
+        persona_deleted: |
+          Informatie over %{short_name} verwijderd.
+      display_name:
+        renamed_persona_display_name: |
+          Stel de gebruikersnaam van %{short_name} in op %{display_name}.
+      dm:
+        send_dms:
+          zero: |
+            Je hebt geen persona's!
+            Krijg wat met `%{prefix}persona register`
+          one: |
+            Dit zal u een direct bericht sturen; wil je doorgaan?
+          many: |
+            Dit zal je %{count} directe berichten sturen; wil je doorgaan?
+        blocked: |
+          Je hebt me geblokkeerd, ik kan je geen berichten sturen!
