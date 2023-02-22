@@ -1,0 +1,45 @@
+discord_bot:
+  commands:
+    sticker:
+      create:
+        attachment_needed: 您需要附加貼圖以供上傳！
+        image_needed: 文件格式必須是影像檔
+        sticker_exists: 有個叫 %{name} 的貼圖已經存在！
+        filename_invalid: '您不能夠使用 `%{name}` 作為貼圖的名字。它們以及其文件副檔名必須只含有英文字母或數字。'
+        too_large: 此圖像檔太大了！貼圖文件大小只可以最多是 8MB。
+        created: "您現在可以使用 `:%{name}:` 了！\n覺得名字不好？\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
+      mine:
+        no_stickers: 你並沒有貼圖
+      delete:
+        no_sticker: "- :%{name}: 並不存在或並不屬於您"
+        sticker_deleted: '+ :%{name}:'
+        question:
+          zero: 沒有任何貼圖可以刪除
+          one: 您想刪除此貼圖嗎？
+          many: 您想刪除%{count}個貼圖嗎？
+        deleted_all:
+          one: 已刪除%{count}個貼圖
+          many: 已刪除%{count}個貼圖
+      rename:
+        filename_invalid: '您不能夠使用 `%{name}` 作為貼圖的名字。它們以及其文件副檔名必須只含有英文字母或數字。'
+        no_sticker: 此貼圖並不存在
+        permission_denied: 您不能重新命名別人的貼圖！
+        destination_taken: 這個貼圖名字已經被取用了！
+        renamed: '已重新命名\:%{old}: 至 :%{new}:'
+      search:
+        no_stickers: 未找到貼圖
+      sticker_import:
+        filename_invalid: '您不能夠使用 `%{name}` 作為貼圖的名字。它們以及其文件副檔名必須只含有英文字母或數字。'
+        find_emote: 將表情符號新增為貼圖！
+        created: 您現在可以使用 `:%{name}:` 啦
+        sticker_exists: 一個叫 %{name} 的貼圖已經存在；您不能使用這個名字。
+        duplicate_exists: 一個叫 %{name} 而且是相同的貼圖已經存在！
+      telegram_import:
+        pack_invalid: '`%{name}` 不是有效的 Telegram 貼圖包名稱'
+        telegram_unloaded: 我未能導入 Telegram 貼圖包，請報告給機器人開發人員。
+        already_created: 其他人已經導入了此 Telegram 貼圖包；您無法再導入！
+        finished_importing:
+          one: 已完成導入貼圖
+          many: 已完成導入%{count}個貼圖
+        search_future: "要以後尋找這些貼圖，請使用以下指令\n> `%{prefix}sticker search %{name}.`"
+        view: 查看貼圖
