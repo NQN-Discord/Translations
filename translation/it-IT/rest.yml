@@ -1,0 +1,12 @@
+rest:
+  join_server:
+    joined: '%{user} è entrato nel server attraverso il pacchetto di emote pubblico!'
+  vote:
+    guild_rank: '%{guild} è ora #%{guild_rank}'
+    vote_text: |
+      <@%{user}> ha appena votato per il server su %{site}!
+      %{guild} ora può usare %{max_emotes} emote lato server
+    vote_text_rank: |
+      <@%{user}> ha appena votato per il server su %{site}!
+      %{guild} ora può usare %{max_emotes} emote lato server e in classifica é #%{guild_rank} #%{guild_rank}
+    voted: Votato per NQN
