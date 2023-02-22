@@ -1,0 +1,37 @@
+discord_bot:
+  commands:
+    emote:
+      info:
+        title: "'%{name}' emoji hakkında bilgi:"
+        id: "İD:"
+        server_daily_uses: "Bu sunucuda günlük kullanımlar:"
+        server_uses: "Bu sunucuda kullanımlar:"
+        approx_uses:
+          zero: "0"
+          one: "1"
+          many: "~%{count}"
+        total_uses_per_day: "Günlük toplam kullanım:"
+        aka: "Ayrıca şöyle bilinir:"
+        locked_roles: "Rollere kilitlendi:"
+        upload_time: "Şu zamanda yüklendi:"
+        url: "URL:"
+        animated_url: "Animasyonlu URL:"
+        static_url: "Statik URL:"
+      rolelock:
+        success: "%{emoji} için kilitli roller %{roles}"
+      roleunlock:
+        success: "%{emoji} için kilidi açılmış roller"
+      block:
+        success:
+          one: "Engellenen emoji"
+          many: "%{count} emoji engellendi"
+        audit:
+          one: |
+            %{author} şu emojiyi engelledi:
+          many: |
+            %{author} şu emojileri engelledi:
+      unblock:
+        success: "Engellenmemiş emoji"
+        not_blocked: "Emoji başlamak için engellenmedi"
+        audit: |
+          %{author} şu emojinin engellemesini kaldırdı:
