@@ -1,0 +1,53 @@
+discord_bot:
+  commands:
+    alias:
+      no_alias: "Вы не имеете эмодзи с именем \\:%{name}:"
+      could_not_find: Не удалось найти эмодзи
+      alphanumeric: Эмодзи могут содержать только буквы, цифры и символы подчеркивания.
+      max_length: Название эмодзи должно быть не больше 32 символов в длину
+      user_zero: У вас нет каких-либо эмодзи
+      set_alias: Set alias
+      from_message:
+        no_emotes: Сообщение не имеет пользовательских эмодзи!
+      delete:
+        deleted: 'Вы удалили \:%{name}:'
+      delete_all:
+        confirm: |
+          Это удалит все **%{count}** псевдонимов.
+          Вы действительно хотите продолжить?
+        deleted:
+          one: Удалён 1 псевдоним
+          many: Удалены %{count} псевдонимов
+      created:
+        one: 'Вы создали псевдоним и можете использовать его, написав:'
+        many: 'Вы создали %{count} псевдонимов и можете использовать их, написав:'
+      rename:
+        rename: Изменить псевдоним
+        alias_name: 'Псевдоним:'
+        renamed: 'Переименовано с \:%{old}: на :%{new}:'
+      export:
+        exported_short: "Here's your exported aliases:"
+        exported_long: |
+          Here's your exported aliases:
+          To share them with other people, they need to run:
+          > `%{prefix}alias import %{url}`
+      import_:
+        import_incorrect: |
+          This command is used to import an alias list previously exported with `%{prefix}alias export`.
+          To create an alias, use `%{prefix}alias search`
+        import_text: This command needs a text file attachment
+        import_lines_invalid: Could not set aliases on lines %{lines_invalid}, invalid format.
+        import_set:
+          one: Set %{count} alias.
+          many: Set %{count} aliases.
+      dm:
+        send_dms:
+          zero: |
+            You have no aliases!
+            Get some with `%{prefix}alias search`
+          one: |
+            Это отправит вам сообщение в ЛС; вы хотите продолжить?
+          many: |
+            Это отправит %{count} сообщений в ЛС; вы хотите продолжить?
+        blocked: |-
+          Я не могу написать вам, так как вы отключили личные сообщения или заблокировали меня!
