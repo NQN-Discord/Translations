@@ -1,0 +1,46 @@
+premium:
+  no_premium: |
+    Patreon'unuzun premium statüsü yok
+  no_patreon: |
+    Bu Discord hesabıyla ilişkili Patreon hesabı yok
+  account_not_changed: |
+    Premium sunucu listeniz güncellendi; bağlı Discord hesabınız değişmedi
+  gained_premium: |
+    Discord hesabını Patreon'a bağladın! Premium özellikleriniz artık bu hesaba uygulandı.
+  associate_account: |
+    Bu Discord hesabıyla ilişkili Patreon hesabı yok.
+    [Discord hesabınızı Patreon ile ilişkilendirin](%{patreon_oauth})
+  updated_status: |
+    Hesap durumunuz güncellendi; doğrudan mesajlarınızı kontrol edin.
+  user_gained_premium: |
+    Merhaba %{user_mention}, premium aldığınız için teşekkürler! Katkılarınız için gerçekten minnettarız <:BlueLove:831617205132329040>
+    Sizden premium erişim alan sunucuların listesi:
+    %{guild_list}
+    Bu liste, 'Yönetici'izin olduğu NQN ile paylaşılan sunucularınıza göre günlük olarak hesaplanır. Erken yeni erişim istiyorsanız, çalıştırabilirsiniz
+    > `%{prefix}premium check`
+
+    NQN premium, bu sunucularda aşağıdaki komutlara erişim sağlar:
+  server_gained_premium:
+    one: |
+      Merhaba %{user_mention}!
+      Yöneticilerinizden birinin premium alması sayesinde, sunucunuz %{guild_list} aşağıdaki komutların kilidini açtı:
+    many: |
+      Merhaba %{user_mention}!
+      Yöneticilerinizden birinin premium alması sayesinde, sahip olduğunuz aşağıdaki sunucular artık premium erişime sahip:
+      %{guild_list}
+
+      NQN premium, bu sunucularda aşağıdaki komutlara erişim sağlar:
+  user_lost_premium: |
+    Merhaba %{user_mention}, artık premium almadığınızı bildirmek istedim.
+    Desteğin için teşekkürler ^-^
+  server_lost_premium:
+    one: |
+      Merhaba %{user_mention}, sunucunuz %{guild_list} artık premium erişime sahip değil.
+      Yalnızca premium ayarlarından herhangi birini değiştirdiyseniz, bunlar şimdi sıfırlanmıştır.
+    many: |
+      Merhaba %{user_mention}, sahip olduğunuz şu sunucuların artık premium erişimi yok:
+      %{guild_list}
+      Yalnızca premium ayarlarından herhangi birini değiştirdiyseniz, bunlar şimdi sıfırlanmıştır.
+  premium_commands: |
+    > `%{prefix}server set_nitro_role` - Belirli bir role sahip kullanıcıların NQN'ye erişimini kısıtlar.
+    > `%{prefix}server user_content` - NQN aracılığıyla gönderilen emojilerin sunucunuzda, "%{prefix}server alias" listenizde veya "%{prefix}server pack" listenizde olmasını zorunlu kılar. Bu ayar etkinleştirildiğinde, kullanıcı içeriği arama tabanlı komutlar devre dışı bırakılır.
