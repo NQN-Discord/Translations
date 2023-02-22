@@ -1,0 +1,69 @@
+discord_bot:
+  commands:
+    pack:
+      buttons:
+        add_to_everyone: 加到 @everyone
+        join_pack: 加入表情符號包
+        leave_pack: 退出表情符號包
+        join_server: 加入伺服器
+        all: 全部儲存
+      join:
+        no_pack: '%{name} 並不是已註冊的表情符號包'
+        already_joined: 您已經加入了 %{name}
+        joined_pack: |
+          已加入 %{name}
+          只需要輸入表情符號的名字（連冒號）就可以在聊天室裡使用這些表情符號：
+      leave:
+        no_pack: '%{name} 並不是已註冊的表情符號包'
+        already_left: 反正您也未有加入 %{name}
+        left: 已退出 %{name} 表情符號包
+      meta:
+        needs_publishing: 如果您不先發佈伺服器為表情符號包，您將無法執行此操作。
+      mine:
+        no_packs: 您並沒有任何表情符號包！
+      publish:
+        already_published: 此伺服器已經被發佈為表情符號包！
+        already_exists: '%{name} 表情符號包已經存在'
+        published: 已發佈表情符號包 %{name}。任何用戶都可以將這些表情符號保存到他們自己的伺服器上。您並且承諾您是這些表情的擁有者。如要取消此操作，請使用 `%{prefix}pack unpublish`。
+        pack_published: |
+          如要存取這些表情符號，請使用
+          >>> !pack join %{name}
+      rename:
+        already_exists: '%{name} 表情符號包已經存在'
+        not_published: 此伺服器從來沒有被發佈。
+        renamed: 已重新命名 %{old} 至 %{new}
+      save:
+        none_left: 經過篩去與此伺服器同名的表情符號後，沒有可以導入的表情符號剩下！
+        no_space: 此伺服器沒有多餘空間加入表情符號包裡的表情符號。
+        failed_batch: |
+          Discord 只允許機器人每小時上傳50個表情符號。
+          NQN 未能夠上傳所有表情符號，但您可以使用同一個指令去上傳餘下的表情符號。
+        not_registered: '%{name} 並不是已註冊的表情符號包'
+        upload_question: "您確定要上傳這些表情符號到此伺服器嗎？\n如果您不是這些表情符號的擁有者，請選擇 N。"
+        uploaded:
+          one: 已上傳 %{count} 個表情符號
+          many: 已上傳 %{count} 個表情符號
+      search:
+        invalid_group: <無效的表情符號包 - 請聯絡我們>
+      set_public:
+        needs_publishing: 如果您不先發佈伺服器為表情符號包，您將無法執行此操作。
+        public_on: 允許通過 NQN 進行邀請。
+        public_off: 禁止通過 NQN 進行邀請。
+      show:
+        not_registered: '%{name} 並不是已註冊的表情符號包'
+        pack_empty: 此表情符號包沒有任何表情符號！
+        join_pack: '表情符號包 %{name} 的內容：'
+      unpublish:
+        not_published: 此伺服器從來沒有被發佈。
+        unpublished: 已取消發布表情符號包 %{name}
+      dm:
+        send_dms:
+          zero: |
+            您沒有任何表情符號包！
+            使用 `%{prefix}pack search` 尋找和加入表情符號包
+          one: |
+            這將向您發送私人訊息，您想繼續嗎？
+          many: |
+            這將向您發送%{count}條私人訊息，您想繼續嗎？
+        blocked: |-
+          您封鎖了我，我不能夠發送私人訊息給你！
