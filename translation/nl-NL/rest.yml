@@ -1,0 +1,12 @@
+rest:
+  join_server:
+    joined: '%{user} is lid geworden van de server via het openbare emoji-pakket!'
+  vote:
+    guild_rank: '%{guild} is nu #%{guild_rank}'
+    vote_text: |
+      <@%{user}> heeft zojuist gestemd voor de server op %{site}!
+      %{guild} kan nu %{max_emotes} serverbreed emoji's gebruiken
+    vote_text_rank: |
+      <@%{user}> heeft zojuist gestemd voor de server op %{site}!
+      %{guild} kan nu %{max_emotes} serverbreed emotes gebruiken en is gerangschikt #%{guild_rank} #%{guild_rank}
+    voted: Gestemd op NQN
