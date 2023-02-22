@@ -1,0 +1,12 @@
+rest:
+  join_server:
+    joined: '%{user} sunucuya herkese açık emoji paketi aracılığıyla katıldı!'
+  vote:
+    guild_rank: '%{guild} artık #%{guild_rank}'
+    vote_text: |
+      <@%{user}> az önce %{site}'daki sunucuya oy verdi!
+      %{guild} artık sunucu genelinde %{max_emotes} emoji kullanabilir
+    vote_text_rank: |
+      <@%{user}> az önce %{site}'daki sunucuya oy verdi!
+      %{guild} artık sunucu genelinde %{max_emotes} emoji kullanabilir ve #%{guild_rank} derecesindedir #%{guild_rank}
+    voted: NQN için oylandı
