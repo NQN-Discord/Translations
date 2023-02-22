@@ -1,0 +1,16 @@
+discord_bot:
+  rendered_message:
+    oops: Ối!
+    external_emojis: |
+      Để có thể dùng emoji từ server khác, NQN cần phải có quyền 'Dùng emoji mở rộng' trong **Cài đặt server**.
+    override_external_emojis: |
+      Để có thể dùng emoji từ server khác, NQN cần phải có quyền 'Dùng emoji mở rộng' trong **Cài đặt quyền hạn của kênh**.
+    download: Tải về
+    no_personas: |
+      Danh tính ảo đã bị vô hiệu trong server này
+    no_messageless_posting: |
+      Quản lý của server đã vô hiệu gửi tin nhắn từ trang web và lệnh dùng slash
+    no_slowmode_posting: |
+      Gửi tin nhắn trong kênh chat có chế độ chậm đã bị vô hiệu
+    enable_posting: Cho phép gửi tin
+    posted_message: Đã gửi tin nhắn
