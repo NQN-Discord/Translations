@@ -1,0 +1,63 @@
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: Không có tin nhắn để kiểm tra.
+        expand: Mở rộng
+        truncate: Lược bớt
+      edit_topic:
+        edited: Đã chỉnh sửa chủ đề của %{channel}.
+        edited_audit: "%{author} đã chỉnh sửa chủ đề của %{channel} thành:\n>>> %{description}"
+      ban:
+        owner: Tôi không thể cấm chủ server!
+        cannot_ban: Tôi không thể cấm <@%{banee}>!
+        you_cannot_ban: Bạn không thể cấm <@%{banee}>!
+        banned: Đã cấm <@%{banee}> (ID %{banee})
+        banned_audit: '%{author} đã cấm <@%{banee}> (ID %{banee})'
+      kick:
+        owner: Tôi không thể đuổi chủ server!
+        cannot_kick: Tôi không thể đuổi <@%{kickee}>!
+        you_cannot_kick: Bạn không thể đuổi <@%{kickee}>!
+        kicked: Đã đuổi <@%{kickee}> (ID %{kickee})
+        kicked_audit: '%{author} đã đuổi <@%{kickee}> (ID %{kickee})'
+      purge:
+        '0_100': Số lượng tin nhắn để xóa phải là một số từ 1 đến 100
+        audit:
+          one: '%{author} đã xóa %{count} tin nhắn trong %{channel}'
+          many: '%{author} đã xóa %{count} tin nhắn trong %{channel}'
+      move:
+        user_no_perms: Bạn không có quyền 'Gửi tin nhắn' và 'Quản lý tin nhắn' trong %{channel}.
+        me_no_perms: Tôi cần quyền 'Đọc tin nhắn', 'Quản lý webhook' và 'Dùng emoji mở rộng' trong %{channel}.
+        message_limit: Số lượng tin nhắn để chuyển đi phải từ 1 đến %{count}
+        forum_modal_title: Tạo bài đăng mới
+        forum_post_name: 'Tên bài đăng:'
+        moved_to:
+          one: Đã chuyển %{count} tin nhắn đến %{to_channel}
+          many: Đã chuyển %{count} tin nhắn đến %{to_channel}
+        moved_from:
+          one: '%{author} đã chuyển %{count} tin nhắn từ %{from_channel}'
+          many: '%{author} đã chuyển %{count} tin nhắn từ %{from_channel}'
+        moved_to_from:
+          one: '%{author} đã chuyển %{count} tin nhắn từ %{from_channel} đến %{to_channel}'
+          many: '%{author} đã chuyển %{count} tin nhắn từ %{from_channel} đến %{to_channel}'
+        move_end: Tin nhắn cuối để chuyển
+        end_previous_n:
+          - 
+        end_next_n:
+          - 
+        move_start: Tin nhắn đầu để chuyển
+        start_previous_n:
+          - 
+        start_next_n:
+          - 
+        move_both: Chuyển cả tin nhắn đầu và cuối
+        both_previous_n:
+          - 
+        both_next_n:
+          - 
+        move:
+          one: Chuyển tin nhắn!
+          many: Chuyển %{count} tin nhắn!
+        move_all:
+          one: Chuyển tin nhắn!
+          many: Chuyển hết %{count} tin nhắn!
