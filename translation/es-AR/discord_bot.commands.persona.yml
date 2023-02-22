@@ -1,0 +1,74 @@
+discord_bot:
+  commands:
+    persona:
+      not_enabled: |
+        Los personajes no estan habilitados en este servidor.
+        Estos permiten el uso de ⚠️**nombres de usuario** y **fotos de perfil personalizados** ⚠ con NQN, por esto no estan habilitados por defecto.
+      enable_personas: Habilitar personajes
+      name_regex: |
+        El nombre de los personajes solo puede contener caracteres alfanuméricos, guiones e guiones bajos y no puede superar 80 caracteres en total.
+        > '%{persona_name}' no cumple con estos requerimientos.
+      max_display_name: |
+        El nombre de usuario de los personajes no puede superar 80 caracteres en total
+      persona_doesnt_exist: |
+        ¡No tienes un personaje llamado %{short_name}!
+        Crea uno con `%{prefix}persona register %{short_name}`
+      export:
+        exported_list_short: |
+          Aquí estan tus personajes exportados, estos deberian ser compatibles con Tupperbox y Pluralkit.
+        exported_list_long: |
+          Aquí estan tus personajes exportados, estos deberian ser compatibles con Tupperbox y Pluralkit.
+          Para compartirlos con otras personas, ellos tienen que usar:
+          > `%{prefix}persona import %{url}`
+      import_:
+        import_incorrect: |
+          Este commando es utilizado para importar una lista de personajes previamente exportados con `%{prefix}persona export`, o los comandos equivalentes de PluralKit and Tupperbox.
+          Para crear un personaje, utiliza `%{prefix}persona register`
+        import_text: Este commando requiere de un adjunto tipo JSON
+        set_personas:
+          one: Se importo un personaje
+          many: Se importaron %{count} personajes
+        invalid_persona: '¿Desesas continuar importando el resto del archivo, ignorando este error?'
+      list:
+        no_personas: |
+          ¡No tienes ningún personaje!
+      register:
+        display_name: Apodo
+        avatar_url: URL de la foto de perfil
+        create: Crear Personaje
+        persona_exists: |
+          Ya tienes un personaje llamado %{short_name}.
+          Puedes renombrarlo con `%{prefix}persona rename %{short_name} nombre_nuevo`
+        registered_persona: |
+          ¡Se registro %{short_name} como tu personaje!
+          Para enviar un mensaje como ellos, envia un mensaje empezando con `%{short_name}:`,por ejemplo:
+          > ```%{short_name}: Hola!```
+          Para cambiar el nombre en los mensajes a "NQN", usa:
+          > ```%{prefix}persona display_name %{short_name} NQN```
+          Para ajustar el avatar en el mensaje, usa:
+          > ```%{prefix}persona avatar_url %{short_name} https://...```
+      rename:
+        renamed_persona: |
+          Se a renombrado %{old_name} a %{new_name}.
+      avatar_url:
+        persona_avatar_url: |
+          Se fijo el avatar de %{short_name}
+        avatar_regex: |
+          Los avatars deben ser dados como URLs de la imagen que desas usar.
+      delete:
+        persona_deleted: |
+          Se elimino la informacion sobre %{short_name}.
+      display_name:
+        renamed_persona_display_name: |
+          Se fijo el nombre de usuario de %{short_name} a %{display_name}.
+      dm:
+        send_dms:
+          zero: |
+            No tienes ningun personaje!
+            Creá algunos con `%{prefix}persona register`
+          one: |
+            Esto te enviara un mensaje directo; ¿Desesas continuar?
+          many: |
+            Esto te enviara %{count} mensajes directos; ¿Desesas continuar?
+        blocked: |
+          Me has bloqueado ¡No puedo enviarte mensajes!
