@@ -1,0 +1,35 @@
+discord:
+  ext.commands.help:
+    need_emojis: ' - Ik heb dit nodig om emoji''s te gebruiken!'
+    need_help: ' - Ik heb dit nodig voor het help-commando!'
+    nothing: ''
+    choose_page: Door Commando's bladeren
+    please_give: Ik zal niet correct functioneren zonder deze!
+    fix_perms: |
+      - **[Servermachtigingen repareren](%{invite_url})**
+    nqn_help: NQN Help
+    my_prefix: |
+      Mijn prefix voor commando's is `%{prefix}`
+    react_with_x_to_delete: |
+      Reageer met ❌ (\:x:) om opnieuw geplaatste berichten te verwijderen!
+    user_ignored: |
+      U wordt **GENEGEERD** bij het verzenden van berichten die normaal gesproken opnieuw worden gepost. Voer het volgende uit om NQN toe te staan uw berichten opnieuw te posten:
+      > `%{prefix}ignore_me`
+    categories: Categorieën
+    everything_else: Al de rest
+    really_useful: Echt Nuttige Commando's
+    useful_links: 'Nuttige Links:'
+    website: Website
+    vote: Stem op mij!
+    support: Ondersteun
+    emote_list: Mijn Emoji's
+    top_gg_vote: Door op mij te stemmen op [top.gg](https://top.gg/bot/559426966151757824/vote) wordt de bot beter door onze zichtbaarheid te vergroten en meer emoties toe te staan wanneer we lid worden van een server.
+    bfd_vote: Mij een upvote te geven op [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) help onze zichtbaarheid. Met ekle nieuwe server die ik join, wordt mijn emoji-database groter.
+    what_is: Wat is Not Quite Nitro?
+    bot_description: |
+      Not Quite Nitro is een multifunctionele hulpprogamma-bot waarmee elke gebruiker Nitro-emoji's kan gebruiken.
+      We hebben een extreem grote database met visueel unieke emoji's die je kunt gebruiken op elke server waarop de bot zich bevindt met de machtigingen Webhooks beheren.
+
+      NQN werkt ook wanneer een gebruiker berichtlink plaatst, het gebruik van gemaskeerde urls in de chat en stickers, dit zijn emojis op volledige grootte.
+
+      Je kunt me uitnodigen [voor je server](https://discord.com/api/oauth2/authorize?%{params}).
