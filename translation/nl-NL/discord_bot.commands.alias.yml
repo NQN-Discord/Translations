@@ -1,0 +1,53 @@
+discord_bot:
+  commands:
+    alias:
+      no_alias: "U heeft geen alias genaamd \\:%{name}:"
+      could_not_find: Kon alias niet vinden
+      alphanumeric: Aliassen kunnen alleen alfanumerieke tekens en onderstrepingstekens bevatten
+      max_length: Aliasnamen mogen maximaal 32 tegens lang zijn
+      user_zero: Je hebt geen aliassen
+      set_alias: Alias instellen
+      from_message:
+        no_emotes: Dit bericht bevat geen aangepaste emoji's!
+      delete:
+        deleted: 'Verwijderd \:%{name}:'
+      delete_all:
+        confirm: |
+          Hiermee worden alle **%{count}** van uw aliassen verwijderd.
+          Weet je zeker dat je wilt doorgaan?
+        deleted:
+          one: 1 alias verwijderd
+          many: '%{count} aliases verwijderd'
+      created:
+        one: 'U hebt een alias gemaakt en kunt deze gebruiken door te typen:'
+        many: 'Je hebt %{count} aliassen gemaakt en kunt deze gebruiken door te typen:'
+      rename:
+        rename: Alias hernoemen
+        alias_name: 'Alias Naam:'
+        renamed: 'Hernoemd \:%{old}: naar :%{new}:'
+      export:
+        exported_short: "Dit zijn uw geëxporteerde aliassen:"
+        exported_long: |
+          Dit zijn uw geëxporteerde aliassen:
+          Om ze met andere mensen te delen, moeten ze het volgende uitvoeren:
+          > `%{prefix}alias import %{url}`
+      import_:
+        import_incorrect: |
+          Dit commando wordt gebruikt om een aliaslijst te importeren die eerder is geëxporteerd met `%{prefix}alias export`.
+          Gebruik `%{prefix}alias search` om een alias te maken
+        import_text: Deze commando heeft een tekstbestandsbijlage nodig
+        import_lines_invalid: Kon geen aliassen instellen op regels %{lines_invalid}, ongeldige indeling.
+        import_set:
+          one: Stel %{count} alias in.
+          many: Stel %{count} aliassen in.
+      dm:
+        send_dms:
+          zero: |
+            Je hebt geen aliassen!
+            Haal wat op met `%{prefix}alias search`
+          one: |
+            Dit zal u een directe bericht sturen; wil je doorgaan?
+          many: |
+            Dit zal je %{count} directe berichten sturen; wil je doorgaan?
+        blocked: |-
+          Je hebt me geblokkeerd, ik kan je geen berichten sturen!
