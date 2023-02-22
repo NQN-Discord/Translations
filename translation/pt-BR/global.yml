@@ -1,0 +1,69 @@
+global:
+  deleted_channel: '#Canal-Excluído'
+  author: Autor
+  jump_to_message: Pular
+  go_to_message: Ir para a mensagem!
+  reply_to: 'Respondendo a:'
+  cancelled: Cancelado
+  website: Website
+  details: Detalhes
+  fix_permissions: Consertar permissões
+  success: Sucesso
+  yes: Yes
+  no: No
+  dm_me: Me mande um DM
+  next: Próximo
+  previous: Anterior
+  choose_emote: Escolha alguns emotes
+  learn:
+    aliases: Aprenda mais sobre aliases
+    packs: Aprenda mais sobre pacotes
+    my_emotes: Veja os emojis que você pode usar
+    personas: Aprenda mais sobre personagens
+  missing_permissions: Estas permissões estão faltando
+  no_nitro_global: O uso do Nitro foi desabilitado neste servidor!
+  no_nitro_role: Somente usuários com o cargo <@&%{role}> podem usar este comando!
+  tabulated_default_results:
+    one: "%{count} resultado (Página %{page_no} de %{total}):\n%{contents}"
+    many: "%{count} resultados (Página %{page_no} de %{total}):\n%{contents}"
+  tabulated_results_page:
+    zero: Nenhum emote encontrado
+    one: Página %{page_no} de %{total}%{note}
+    many: Página %{page_no} de %{total}%{note}
+  page_no: 'Página %{page} de %{total}:'
+  no_results: Nenhum resultado
+  loading: <a:loading:674758249291186191> Processando...
+  timed_out: Tempo limite atingido - tente novamente
+  global_check_failed: Você não tem permissão para usar %{cmd_name}
+  requires_user_content: |
+    A função Conteúdo de Usuário está bloqueada para este servidor.
+  requires_user_content_admin: |
+    A função Conteúdo de Usuário está bloqueada para este servidor. Você pode ativar esta função com
+    > ```%{prefix}server user_content on```
+  error_message: |
+    Ocorreu um erro ao processar seu comando. Ele pode não ter sido concluído corretamente.
+    Para relatar o problema e obter ajuda, junte-se ao servidor de teste para este bot:
+    https://discord.gg/mv8RbHD
+
+    Código do erro: `%{event_id}`
+  user_abused: |
+    O proprietário do bot ou moderadores globais bloquearam você de usar este bot devido a abusos anteriores.
+    Você não pode usar nenhum comando ou qualquer outra funcionalidade do bot.
+  user_spammed: |
+    Você foi temporariamente impedido de usar o NQN por acionar nosso sistema automatizado de detecção de spam.
+    Esta mensagem será mostrada no máximo uma vez por dia, e não há como contestar este bloqueio.
+    Você será desbloqueado dentro de ** 5 minutos **.
+  support_server: |
+    Você pode entrar no meu servidor de suporte aqui:
+    http://discord.gg/XvzDPca
+    Você pode relatar bugs, solicitar novos recursos ou pedir esclarecimentos sobre como usar o bot.
+  premium_required: |
+    Para fazer isso, você precisa ser um assinante Patreon do NQN: https://www.patreon.com/NQN
+  invite_bad_perms:
+    title: |
+      Olá, obrigado por convidar o NQN para %{guild_name}!
+    content: |
+      Nós demos uma olhada e descobrimos que não temos todas as permissões de que precisamos para funcionar corretamente.
+      Para consertar isso e permitir que o bot funcione corretamente, foi gerado um link que dará todas as permissões relevantes para o bot:
+      **[Corrigir permissões](%{invite_url})**
+  webhook_limit: Limite de Webhook atingido! Não é possível executar neste canal!
