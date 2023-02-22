@@ -1,0 +1,63 @@
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: Sem mensagens para ver.
+        expand: Expandir
+        truncate: Encurtar
+      edit_topic:
+        edited: A descrição de %{channel} foi alterada.
+        edited_audit: "%{author} alterou a descrição de %{channel} para:\n>>> %{description}"
+      ban:
+        owner: Eu não posso banir o dono!
+        cannot_ban: Eu não posso banir <@%{banee}>!
+        you_cannot_ban: Você não pode banir <@%{banee}>!
+        banned: Foi banido o usuário <@%{banee}> (ID %{banee})
+        banned_audit: '%{author} baniu <@%{banee}> (ID %{banee})'
+      kick:
+        owner: Eu não posso expulsar o dono!
+        cannot_kick: Eu não posso expulsar <@%{kickee}>!
+        you_cannot_kick: Você não pode expulsar <@%{kickee}>!
+        kicked: Foi expulso o usuário <@%{kickee}> (ID %{kickee})
+        kicked_audit: '%{author} expulsou <@%{kickee}> (ID %{kickee})'
+      purge:
+        '0_100': O número de mensagens a serem movidas deve estar entre 1 e 100
+        audit:
+          one: '%{author} limpou %{count} mensagens do canal %{channel}'
+          many: '%{author} limpou %{count} mensagens do canal %{channel}'
+      move:
+        user_no_perms: Você não tem as permissões 'Enviar mensagens' e 'Gerenciar mensagens' em %{channel}.
+        me_no_perms: Preciso das permissões  'Ler mensagens', 'Gerencias Webhooks' e 'Emojis Externos' no %{channel}.
+        message_limit: Numero de mensagens para mover deve ser entre 1 e %{count}
+        forum_modal_title: Criar uma publicação
+        forum_post_name: 'Nome da publicação:'
+        moved_to:
+          one: Moveu %{count} mensagens para %{to_channel}
+          many: Moved %{count} mensagens para %{to_channel}
+        moved_from:
+          one: '%{author} moveu %{count} mensagens de %{from_channel}'
+          many: '%{author} moveu %{count} mensagens de %{from_channel}'
+        moved_to_from:
+          one: '%{author} moveu %{count} mensagens de %{from_channel} para %{to_channel}'
+          many: '%{author} moveu %{count} mensagens de %{from_channel} para %{to_channel}'
+        move_end: Mover mensagem final
+        end_previous_n:
+          - 
+        end_next_n:
+          - 
+        move_start: Mover mensagem inicial
+        start_previous_n:
+          - 
+        start_next_n:
+          - 
+        move_both: Mover mensagem inicial e final
+        both_previous_n:
+          - 
+        both_next_n:
+          - 
+        move:
+          one: Mover mensagem!
+          many: Mover %{count} mensagens!
+        move_all:
+          one: Mover mensagem!
+          many: Mover %{count} mensagens!
