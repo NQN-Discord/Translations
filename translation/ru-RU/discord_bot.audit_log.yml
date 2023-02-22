@@ -1,0 +1,20 @@
+discord_bot:
+  audit_log:
+    cropped: (Сокращено)
+    nsfw_censored: <Зацензурено; %{channel} является NSFW-каналом>
+    message_posted: |
+      Сообщение отправлено в %{channel} от %{author} %{cropped}
+      [Перейти на сообщение](%{jump_url})
+    message_posted_persona: |
+      Сообщение отправлено в %{channel} от %{author} %{cropped}
+      ⚠️ Персона была использована ⚠️
+      > **%{persona}**
+      [Перейти на сообщение](%{jump_url})
+    message_edited: |
+      Сообщение в канале %{channel} было переименовано %{author} %{cropped}
+      [Перейти на сообщение](%{jump_url})
+    phish_deleted: |
+      Удалено фишинговое сообщение в %{channel} от %{author}
+    blocked_message: |
+      Удалены сообщения с запрещёнными эмодзи в %{channel} от %{author}
+    audit_log_post: NQN от имени <@%{author}> (%{id})
