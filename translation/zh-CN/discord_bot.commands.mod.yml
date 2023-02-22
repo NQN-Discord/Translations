@@ -1,0 +1,63 @@
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: 没有可以审查的消息。
+        expand: 展开
+        truncate: 截短
+      edit_topic:
+        edited: 修改了%{channel} 的频道主题。
+        edited_audit: "%{author} 把%{channel} 的频道主题更改成了：\n>>> %{description}"
+      ban:
+        owner: 我不能查禁伺服器主人！
+        cannot_ban: 我不能查禁<@%{banee}> ！
+        you_cannot_ban: 你不能查禁<@%{banee}> ！
+        banned: 已查禁 <@%{banee}> (ID %{banee})
+        banned_audit: '%{author} 查禁了 <@%{banee}> (ID %{banee})'
+      kick:
+        owner: 我不能踢出伺服器主人！
+        cannot_kick: 我不能踢出<@%{kickee}> ！
+        you_cannot_kick: 您不能踢出<@%{kickee}> ！
+        kicked: 已踢出 <@%{kickee}> (ID %{kickee})
+        kicked_audit: '%{author} 踢出了 <@%{kickee}> (ID %{kickee})'
+      purge:
+        '0_100': 要移动的消息数量必须在1至100之间
+        audit:
+          one: '%{author} 删除了%{count} 条在%{channel} 里的消息'
+          many: '%{author} 删除了%{count} 条在%{channel} 里的消息'
+      move:
+        user_no_perms: 您在 %{channel} 中没有“发送消息”和“管理消息”权限。
+        me_no_perms: 我需要在%{channel} 里拥有 "浏览消息”，“管理Webhooks” 和 “使用外部表情符号” 的权限。
+        message_limit: 要移动的消息数量必须在1至%{count} 之间
+        forum_modal_title: 创建新帖文
+        forum_post_name: '贴文标题：'
+        moved_to:
+          one: 移动了%{count} 条消息到%{to_channel}
+          many: 移动了%{count} 条消息到%{to_channel}
+        moved_from:
+          one: '%{author} 从%{from_channel} 移动了%{count} 条消息'
+          many: '%{author} 从%{from_channel} 移动了%{count} 条消息'
+        moved_to_from:
+          one: '%{author} 移动了%{count} 条在%{from_channel} 里的消息到%{to_channel}'
+          many: '%{author} 移动了%{count} 条在%{from_channel} 里的消息到%{to_channel}'
+        move_end: 移动结尾消息
+        end_previous_n:
+          - 
+        end_next_n:
+          - 
+        move_start: 移动开始消息
+        start_previous_n:
+          - 
+        start_next_n:
+          - 
+        move_both: 移动开始和结尾消息
+        both_previous_n:
+          - 
+        both_next_n:
+          - 
+        move:
+          one: 移动消息！
+          many: 移动%{count} 条消息！
+        move_all:
+          one: 移动消息！
+          many: 移动全部%{count} 条消息！
