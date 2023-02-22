@@ -1,0 +1,57 @@
+exceptions:
+  command_not_found: |
+    دستور ‎"%{command}" یافت نشد.
+    از ‎`%{prefix}help` برای دیدن لیست دستورات دردسترس استفاده کنید
+  missing_required_argument:
+    one: |-
+      محتوای "%{param}" یک آرگومان اجباری است که در اینجا یافت نشد
+      این مورد باید شامل همچین چیزی باشد: ‎%{should_be}
+    many: |
+      محتوای "%{param}" یک آرگومان اجباری است که در اینجا یافت نشد
+      این مورد باید شامل یکی از این چیز ها باشد:
+      - %{should_be}
+  bot_missing_permissions:
+    one: |
+      ‎%{bot_ping} دسترسی موردنیاز زیر را برای اجرای این دستور ندارد:
+      %{permissions_missing}
+    many: |
+      ‎%{bot_ping} دسترسی موردنیاز زیر را برای اجرای این دستور ندارد:
+      %{permissions_missing}
+  user_missing_permissions:
+    one: |
+      شما دسترسی موردنیاز زیر را برای اجرای این دستور ندارید:
+      %{permissions_missing}
+    many: |
+      شما دسترسی های موردنیاز زیر را برای اجرای این دستور ندارید:
+      %{permissions_missing}
+  message_not_found: |
+    پیام ‎"%{param}" یافت نشد.
+  channel_not_found: |
+    کانال ‎"%{channel}" یافت نشد.
+  channel_not_readable: |
+    دستور ‎%{bot_ping} دسترسی های موردنیاز زیر را در ‎%{channel} ندارد:
+    %{permissions_missing}
+  bad_argument:
+    one: |
+      نمی توان آرگومان ‎%{param} را تفسیر نمود; بایستی این باشد:
+    many: |
+      نمی توان آرگومان ‎%{param} را تفسیر نمود، بایستی باشد یکی از:
+  no_dms: |
+    این دستور را نمی توان در DM ها اجرا کرد
+  permissions_missing_reasons:
+    #These translations were designed to be short, and to fit on about 1 line on a mobile screen
+    guild: |-
+      رول هایی که %{user_ping} دارد، شامل این دسترسی نمی شوند
+    member_overwrite: |-
+      دسترسی های %{channel} به طور خاصی %{user_ping} را منع می‌کنند
+    role_overwrite:
+      one: |-
+        دسترسی های %{channel} برای نقش رو‌به‌رو منع شده‌اند: %{roles}
+      many: |-
+        دسترسی های %{channel} برای نقش های رو‌به‌رو منع شده‌اند: %{roles}
+    member_role_overwrite:
+      one: |-
+        دسترسی های %{channel} به طور خاصی هم %{user_ping} و هم نقش روبه‌رو را منع می‌کنند: %{roles}
+      many: |-
+        دسترسی های %{channel} به طور خاصی هم %{user_ping} و هم نقش های روبه‌رو را منع می‌کنند: %{roles}
+  no_threads: این دستور نمیتواند در رشته ها استفاده شود.
