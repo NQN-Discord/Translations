@@ -1,0 +1,20 @@
+discord_bot:
+  audit_log:
+    cropped: (Recortado)
+    nsfw_censored: <Censurado; %{channel} es NSFW>
+    message_posted: |
+      Mensaje enviado en %{channel} por %{author} %{cropped}
+      [Ir al mensaje](%{jump_url})
+    message_posted_persona: |
+      Mensaje enviado en %{channel} por %{author} %{cropped}
+      ⚠️ Utilizando un personaje ⚠️
+      > **%{persona}**
+      [Ir al mensaje](%{jump_url})
+    message_edited: |
+      Mensaje editado en %{channel} por %{author} %{cropped}
+      [Ir al mensaje](%{jump_url})
+    phish_deleted: |
+      Se borró un mensaje malicioso que contenía un enlace phishing en %{channel} de %{author}
+    blocked_message: |
+      Un mensaje de %{author} que contenía emojis bloqueados fue eliminado en %{channel}
+    audit_log_post: NQN por parte de %{author} (%{id})
