@@ -1,0 +1,68 @@
+discord_bot:
+  parameter_types:
+    #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+    SearchTerms:
+      name: Условия поиска
+      description: |-
+        Условия поиска
+    Message:
+      name: Сообщение
+      description: |-
+        Ответ Discord на сообщение, на которое вы хотите нацелиться
+        - URL сообщения (`https://discord.com/channels/123456789/123456789/123456789`)
+        - Идентификатор сообщения в текущем канале (`123456789`)
+        - Пара ChannelID-MessageID (`123456789-123456789`)
+        - Сколько сообщений назад оно было в текущем канале (`5` сообщений назад)
+    PartialEmoji:
+      name: Эмодзи
+      description: |-
+        Отображаемый эмодзи Discord или URL-адрес эмодзи
+    TextChannel:
+      name: Текстовый канал
+      description: |
+        Упоминание текстового канала
+    User:
+      name: Пользователь
+      description: |
+        Упоминание пользователя
+    Role:
+      name: Роль
+      description: |
+        Упоминание роли или имени
+    NQNEmoji:
+      name: NQNЭмодзи
+      description: |
+        Не преобразованный эмодзи NQN может трансформироваться
+        - Рендеринг эмодзи Discord или URL-адрес эмодзи
+    BlockedEmoji:
+      name: BlockedEmoji
+      description: |-
+        The name of an emoji that's blocked in this server
+    CurrentGuildEmoji:
+      name: ServerEmoji
+      description: |
+        An emoji in the current server
+    None:
+      name: Пусто
+      description: |
+        Нет аргументов
+    str:
+      name: Строка
+      description: |
+        Некоторый текст
+    int:
+      name: Целое число
+      description: |
+        Число
+    bool:
+      name: Boolean
+      description: |
+        `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
+    ListConverter:
+      name: Список
+      description: |-
+        По крайней мере
+    Union:
+      name: Союз
+      description: |-
+        Одно из следующих:
