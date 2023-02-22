@@ -1,0 +1,8 @@
+interactions:
+  not_author: |
+    Chỉ tác giả của tin nhắn mới có thể tương tác với tin nhắn này
+  timed_out: |
+    Hết thời gian tương tác.
+    Vui lòng dùng lệnh lại.
+  bot_timed_out: |
+    NQN đã bị hạn chế bởi quản trị viên và không thể phản hồi.
