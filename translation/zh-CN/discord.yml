@@ -1,0 +1,35 @@
+discord:
+  ext.commands.help:
+    need_emojis: ' - 我需要这个来使用表情符号！'
+    need_help: ' - 我需要用这个才能使用help指令！'
+    nothing: ''
+    choose_page: 浏览指令
+    please_give: 没有这些， 我没办法正常运行！
+    fix_perms: |
+      - **[修理服务器权限](%{invite_url})**
+    nqn_help: NQN 使用说明
+    my_prefix: |
+      我的指令的前缀是 `%{prefix}`
+    react_with_x_to_delete: |
+      添加 ❌ (\:x:) 反应来删除转发的信息
+    user_ignored: |
+      发送通常会重新发布的消息时，您将会被忽略。请运行以下指令来允许 NQN 重新发布您的消息：
+      > `%{prefix}ignore_me`
+    categories: 类别
+    everything_else: 其他东西
+    really_useful: 非常有用的指令
+    useful_links: '有用的链接'
+    website: 网站
+    vote: 投票！
+    support: 支援
+    emote_list: 我的表情符号
+    top_gg_vote: 请在 [top.gg](https://top.gg/bot/559426966151757824/vote) 投票给我。这样能让我被更多人看见， 从而在加入伺服器时，我能使用更多表情符号。
+    bfd_vote: 请在 [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) 投票给我，从而能我被更多人看见。 每当我加入一个伺服器， 我的数据库会扩大， 并容纳更多表情符号。
+    what_is: 什么是 Not Quite Nitro？
+    bot_description: |
+      Not Quite Nitro 是一个能让任何用户使用Nitro表情符号的多功能机器人。
+      我们拥有着包含丰富且独一无二的表情符号的超大数据库，并且只要您的伺服器有管理Webhook的权限，您就可以使用这些表情符号。
+
+      NQN还可以在用户发送链接或使用屏蔽链接和贴纸时自动引用消息。
+
+      您可以添加我 [到您的伺服器](https://discord.com/api/oauth2/authorize?%{params})。
