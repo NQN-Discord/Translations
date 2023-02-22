@@ -1,0 +1,75 @@
+permissions:
+  add_reactions: |-
+    新增反應
+  administrator: |-
+    管理者
+  attach_files: |-
+    附加檔案
+  ban_members: |-
+    對成員停權
+  change_nickname: |-
+    更改暱稱
+  connect: |-
+    連接
+  create_instant_invite: |-
+    建立邀請
+  deafen_members: |-
+    讓成員拒聽
+  embed_links: |-
+    嵌入鏈結
+  external_emojis: |-
+    外部表情符號
+  kick_members: |-
+    踢出成員
+  manage_channels: |-
+    管理頻道
+  manage_emojis: |-
+    管理表情符號
+  manage_guild: |-
+    管理伺服器
+  manage_messages: |-
+    管理訊息
+  manage_nicknames: |-
+    管理暱稱
+  manage_permissions: |-
+    管理身分組
+  manage_roles: |-
+    管理身分組
+  manage_threads: |-
+    管理討論串
+  manage_posts: |-
+    管理貼文
+  manage_webhooks: |-
+    管理 Webhooks
+  mention_everyone: |-
+    提及 @everyone
+  move_members: |-
+    移動成員
+  mute_members: |-
+    將成員靜音
+  priority_speaker: |-
+    優先發言者
+  read_message_history: |-
+    讀取訊息歷史
+  read_messages: |-
+    檢視訊息
+  send_messages: |-
+    傳送訊息
+  send_tts_messages: |-
+    傳送文字朗讀訊息
+  speak: |-
+    說話
+  stream: |-
+    視訊通話
+  use_external_emojis: |-
+    使用外部表情符號
+  use_public_threads: |-
+    使用公開討論串
+  use_voice_activation: |-
+    使用語音激活
+  view_audit_log: |-
+    檢視審核紀錄
+  view_channel: |-
+    檢視頻道
+  view_guild_insights: |-
+    檢視伺服器數據（Server Insights）
