@@ -1,0 +1,8 @@
+interactions:
+  not_author: |
+    Apenas o autor da mensagem pode interagir com ela
+  timed_out: |
+    Tempo de espera esgotado.
+    Por favor use o comando novamente.
+  bot_timed_out: |
+    O NQN foi expirado por um moderador e não pode responder.
