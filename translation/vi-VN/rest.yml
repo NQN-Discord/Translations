@@ -1,0 +1,12 @@
+rest:
+  join_server:
+    joined: '%{user} vừa tham gia server thông qua gói emoji công khai!'
+  vote:
+    guild_rank: '%{guild} hiện đang ở hạng #%{guild_rank}'
+    vote_text: |
+      <@%{user}> vừa vote cho server trên %{site}!
+      %{guild} hiện có thể dùng %{max_emotes} emoji liên server
+    vote_text_rank: |
+      <@%{user}> vừa vote cho server trên %{site}!
+      %{guild} hiện có thể dùng %{max_emotes} emoji liên server và hiện đang xếp hạng #%{guild_rank} #%{guild_rank}
+    voted: Đã vote cho NQN
