@@ -1,0 +1,72 @@
+global:
+  deleted_channel: '#已刪除的頻道'
+  author: 作者
+  jump_to_message: 跳到
+  go_to_message: 跳到訊息！
+  reply_to: '回覆至：'
+  cancelled: 已取消
+  website: 網站
+  details: 詳細
+  fix_permissions: 修理權限
+  success: 成功
+  yes: Yes
+  no: No
+  dm_me: 發送私人訊息給我
+  next: 下一個
+  previous: 上一個
+  choose_emote: 選擇一些表情符號
+  learn:
+    aliases: 了解有關表情符號別號的更多資訊
+    packs: 了解有關表情符號包的更多資訊
+    my_emotes: 搜索您可以使用的表情符號
+    personas: 了解有關角色的更多資訊
+  missing_permissions: 缺少權限
+  no_nitro_global: 此伺服器已禁用免費 Nitro 使用！
+  no_nitro_role: 只有有 %{role} 身分組的成員可以使用此指令！
+  tabulated_default_results:
+    one: "%{count} 項結果 (第 %{page_no} / %{total} 頁)：\n%{contents}"
+    many: "%{count} 項結果 (第 %{page_no} / %{total} 頁)：\n%{contents}"
+  tabulated_results_page:
+    zero: 找不到表情符號
+    one: 第 %{page_no} / %{total} 頁 %{note}
+    many: 第 %{page_no} / %{total} 頁 %{note}
+  page_no: '第 %{page} / %{total} 頁'
+  no_results: 找不到符合搜尋字詞的結果
+  loading: <a:loading:674758249291186191> 處理中
+  timed_out: 時間到 - 請再重試
+  global_check_failed: 您不能夠使用 %{cmd_name} 指令
+  requires_user_content: |
+    用戶內容已在此伺服器被禁止
+  requires_user_content_admin: |
+    用戶內容已在此伺服器被禁止。您可以使用以下指令以重新啟用
+    > ```%{prefix}server user_content on```
+  error_message: |
+    運行指令時發生錯誤，以致任務沒法正確完成。
+    如需協助或報告問題，請加入此機器人的測試伺服器：
+    https://discord.gg/mv8RbHD
+
+    錯誤代碼：`%{event_id}`
+  user_abused: |
+    由於您先前的濫用行為，機器人擁有者或管理者已禁止您使用本機器人。
+    您不能使用任何指令或以其他方式使用機器人的任何功能。
+  user_spammed: |
+    由於您觸發我們的自動垃圾訊息檢測系統，您已被暫時禁止使用 NQN。
+    不要緊，您每天只能被封鎖最多一次。
+    請注意，您並且無法對此封鎖提出上訴。
+
+    從現在起，您將在 **5 分鐘** 內被解除封鎖。
+  support_server: |
+    你可以在這裡加入我的測試服務器：
+    http://discord.gg/XvzDPca
+    您可以報告錯誤、請求新功能或澄清如何使用我。
+  premium_required: |
+    為此，您需要成為 NQN 的 Patreon 的訂閱者：https://www.patreon.com/NQN
+  invite_bad_perms:
+    title: |
+      您好，感謝您邀請 NQN 加入 %{guild_name}！
+    content: |
+      經過審查後，我們發現機器人並不完全擁有正常運行所需的所有權限。
+      為了解決這個問題，以致您可以正確使用機器人，請使用以下鏈結以為機器人提供所有相關權限：
+
+      **[修復權限](%{invite_url})**
+  webhook_limit: 已達到 Webhook 用量限制！無法在此頻道再使用 Webhook！
