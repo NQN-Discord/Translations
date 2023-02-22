@@ -1,0 +1,69 @@
+discord_bot:
+  commands:
+    pack:
+      buttons:
+        add_to_everyone: '@everyone''na ekle'
+        join_pack: Pakete Katıl
+        leave_pack: Paketen Ayrıl
+        join_server: Sunucuya Katıl
+        all: Hepsini Kaydet
+      join:
+        no_pack: '%{name} kayıtlı bir emoji paketi değil'
+        already_joined: '%{name}''e zaten katıldınız'
+        joined_pack: |
+          %{name} katıldı.
+          Artık aşağıdaki emojileri, iki nokta üst üste de dahil olmak üzere adını sohbete yazarak kullanabilirsiniz:
+      leave:
+        no_pack: '%{name} kayıtlı bir emoji paketi değil'
+        already_left: Zaten %{name} içinde değildin
+        left: '%{name}''dan ayrıldı'
+      meta:
+        needs_publishing: Bunu, önce bu sunucuyu bir emoji paketi olarak yayınlamadan yapamazsınız.
+      mine:
+        no_packs: Hiç bir paketiniz yok!
+      publish:
+        already_published: Bu sunucu zaten bir paket olarak yayınlandı!
+        already_exists: '%{name} adlı bir emoji paketi zaten var'
+        published: '%{name} emoji paketi yayınlandı. Bu emojileri herkes kendi sunucusuna kaydedebiliyor ve siz bu emojilerin sahibi olduğunuzu iddia ediyorsunuz. Bunu geri almak için `%{prefix}pack unpublish` komutunu kullanın.'
+        pack_published: |
+          Tüm bu emojilere erişmek için şunu kullanın:
+          >>> !pack join %{name}
+      rename:
+        already_exists: '%{name} adlı bir emoji paketi zaten var'
+        not_published: Bu sunucu daha önce yayınlanmadı.
+        renamed: '%{old}, %{new} olarak yeniden adlandırıldı'
+      save:
+        none_left: Bu sunucudakilerle aynı ada sahip emojileri filtreledikten sonra içe aktarılacak emoji kalmamıştı!
+        no_space: Bu paketteki herhangi bir emojiyi eklemek için bu sunucuda yer yok.
+        failed_batch: |
+          Discord, botların saatte yalnızca 50 emoji yüklemesine izin verir.
+          NQN, bu gruptaki tüm emojileri yükleyemedi, ancak geri kalanını yüklemek için bu komutu bir saat içinde tekrar çalıştırabilirsiniz
+        not_registered: '%{name} kayıtlı bir emoji paketi değil'
+        upload_question: "Bu emojiler bu sunucuya yüklensin mi?\n Tüm bu emojilerin sahibi değilseniz, N'yi seçin."
+        uploaded:
+          one: '%{count} emoji yüklendi'
+          many: '%{count} emoji''ler yüklendi'
+      search:
+        invalid_group: <Geçersiz paket - Lütfen Bildirin>
+      set_public:
+        needs_publishing: Bunu, önce bu sunucuyu bir emoji paketi olarak yayınlamadan yapamazsınız.
+        public_on: NQN'den davetler izin verildi.
+        public_off: NQN'den davetler izin verilmedi.
+      show:
+        not_registered: '%{name} kayıtlı bir emoji paketi değil'
+        pack_empty: Bu pakette emoji yok!
+        join_pack: '"%{name}" paketinin içeriği:'
+      unpublish:
+        not_published: Bu sunucu daha önce yayınlanmadı.
+        unpublished: Yayınlanmamış emoji paketi %{name}
+      dm:
+        send_dms:
+          zero: |
+            Paketiniz yok!
+            `%{prefix}pack search` ile biraz alın
+          one: |
+            Bu size doğrudan mesaj gönderecek; devam etmek istiyor musun?
+          many: |
+            Bu size %{count} doğrudan mesaj gönderecek; devam etmek istiyor musun?
+        blocked: |-
+          Beni engelledin, sana mesaj atamıyorum!
