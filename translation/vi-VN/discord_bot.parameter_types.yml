@@ -1,0 +1,68 @@
+discord_bot:
+  parameter_types:
+    #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+    SearchTerms:
+      name: Từ khóa tìm kiếm
+      description: |-
+        Từ khóa tìm kiếm
+    Message:
+      name: Tin nhắn
+      description: |-
+        Một tin nhắn mà bạn muốn trả lời trên Discord
+        - Một link đến tin nhắn (`https://discord.com/channels/123456789/123456789/123456789`)
+        - ID của một tin nhắn trong kênh hiện tại (`123456789987654321`)
+        - Cặp ID của kênh - tin nhắn (`123456789-123456789`)
+        - Tin nhắn thứ bao nhiêu kể từ tin nhắn này về trước trong kênh (`5` tin nhắn trước)
+    PartialEmoji:
+      name: Biểu cảm
+      description: |-
+        Emoji Dsicord được hiển thị hoặc link của emoji
+    TextChannel:
+      name: Kênh chat
+      description: |
+        Đề cập đến một kênh chat
+    User:
+      name: Người dùng
+      description: |
+        Đề cập đến một người dùng
+    Role:
+      name: Vai trò
+      description: |
+        Đề cập đến một vai trò hoặc tên của nó
+    NQNEmoji:
+      name: NQNEmoji
+      description: |
+        Một emoji chưa được hiển thị NQN có thể dùng
+        - Một emoji Discord dược hiển thị hoặc link của emoji
+    BlockedEmoji:
+      name: BlockedEmoji
+      description: |-
+        Tên của emoji mà bạn muốn khóa trong server
+    CurrentGuildEmoji:
+      name: ServerEmoji
+      description: |
+        Môt emoji trong server này
+    None:
+      name: Trống
+      description: |
+        Không có nội dung
+    str:
+      name: Văn bản
+      description: |
+        Một văn bản nhỏ
+    int:
+      name: Số nguyên
+      description: |
+        Một con số nguyên
+    bool:
+      name: Giá trị bật tắt
+      description: |
+        `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
+    ListConverter:
+      name: Danh sách
+      description: |-
+        Ít nhất
+    Union:
+      name: Chọn một
+      description: |-
+        Một trong số sau:
