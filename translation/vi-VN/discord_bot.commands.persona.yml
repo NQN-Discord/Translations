@@ -1,0 +1,74 @@
+discord_bot:
+  commands:
+    persona:
+      not_enabled: |
+        Danh tính ảo đã bị vô hiệu hóa trong server này.
+        Nó cho phép người dùng sử dụng ⚠️**tên tự chọn** và **ảnh hồ sơ**⚠️ với NQN, vậy nên không được mặc định kích hoạt.
+      enable_personas: Kích hoạt danh tính ảo
+      name_regex: |
+        Tên danh tính ảo chỉ nên chứa chữ và số, dấu gạch ngang và gạch dưới, và dài tối đa 80 kí tự.
+        > '%{persona_name}' không đảm bảo được những điều kiện trên.
+      max_display_name: |
+        Tên người dùng không nên dài hơn 80 kí tự
+      persona_doesnt_exist: |
+        Bạn không có danh tính ảo nào tên là %{short_name} cả!
+        Tạo một cái dùng lệnh `%{prefix}persona register %{short_name}`
+      export:
+        exported_list_short: |
+          Đây là danh sách danh tính ảo đã được xuất ra của bạn, chúng có thể được sử dụng với Tupperbox và Pluralkit.
+        exported_list_long: |
+          Đây là danh sách danh tính ảo đã được xuất ra của bạn, chúng có thể được sử dụng với Tupperbox và Pluralkit.
+          Để chia sẻ chúng cho người khác, họ sẽ cần phải dùng:
+          > `%{prefix}persona import %{url}`
+      import_:
+        import_incorrect: |
+          Lệnh này dùng để nhập một danh sách danh tính ảo vừa đực xuất bằng lệnh `%{prefix}personaexport`, hoặc nhừng lệnh xuất tương tự từ PluralKit và Tupperbox.
+          Để tạo một danh tính ảo, dùng `%{prefix}persona register`
+        import_text: Lệnh này cần một tệp json đính kèm
+        set_personas:
+          one: Đã nhập một danh tính ảo
+          many: Đã nhập %{count} danh tính ảo
+        invalid_persona: Bạn có muốn tiếp tục nhập số còn lại trong tệp và bỏ qua cái này?
+      list:
+        no_personas: |
+          Bạn không có danh tính ảo nào!
+      register:
+        display_name: Biệt danh
+        avatar_url: URL ảnh hồ sơ
+        create: Tạo danh tính ảo
+        persona_exists: |
+          Bạn đã có một danh tính ảo tên là %{short_name}.
+          Bạn có thể đổi tên nó dùng lệnh `%{prefix}persona rename %{short_name} tên_mới`
+        registered_persona: |
+          Đã tạo danh tính ảo với tên %{short_name}!
+          Để gửi tin nhắn với chúng, gửi tin nhắn bắt đầu với `%{short_name}:`, ví dụ:
+          > ```%{short_name}: Chào!```
+          Để đổi biệt danh của chúng trong nhắn tin thành 'NQN', dùng:
+          > ```%{prefix}persona display_name %{short_name} NQN```
+          Để thay đổi ảnh đại diện của chúng trong nhắn tin, dùng:
+          > ```%{prefix}parsona avatar_url %{short_name} https://...```
+      rename:
+        renamed_persona: |
+          Đã đổi tên %{old_name} thành %{new_name}.
+      avatar_url:
+        persona_avatar_url: |
+          Đặt ảnh hồ sơ cho %{short_name}.
+        avatar_regex: |
+          Ảnh hồ sơ bạn muốn dùng nên được thêm dưới đạng một URL.
+      delete:
+        persona_deleted: |
+          Đã xóa thông tin của %{short_name}.
+      display_name:
+        renamed_persona_display_name: |
+          Đã đặt tên người dùng cho %{short_name} thành %{display_name}.
+      dm:
+        send_dms:
+          zero: |
+            Bạn chưa có danh tính ảo nào!
+            Tạo một số với lệnh `%{prefix}persona register`
+          one: |
+            Bạn sẽ nhận tin nhắn trực tiếp từ bot; bạn có muốn tiếp tục?
+          many: |
+            Bạn sẽ nhận %{count} tin nhắn trực tiếp từ bot; bạn có muốn tiếp tục?
+        blocked: |
+          Hãy kiểm tra cài đặt riêng tư vì tôi không thể gửi tin nhắn trực tiếp cho bạn!
