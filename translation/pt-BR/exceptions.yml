@@ -1,0 +1,57 @@
+exceptions:
+  command_not_found: |
+    O comando "%{command}" não foi encontrado.
+    Use `%{prefix}help` para ver a lista de comandos
+  missing_required_argument:
+    one: |-
+      "%{param}" é um argumento obrigatório que está faltando.
+      Deveria ser: %{should_be}
+    many: |
+      "%{param}" é um argumento obrigatório que está faltando.
+      Deveria ser um desses:
+      - %{should_be}
+  bot_missing_permissions:
+    one: |
+      %{bot_ping} Não possui a seguinte permissão obrigatória para executar este comando:
+      %{permissions_missing}
+    many: |
+      %{bot_ping} Não possui as seguintes permissões obrigatórias para executar este comando:
+      %{permissions_missing}
+  user_missing_permissions:
+    one: |
+      Falta-lhe a seguinte permissão obrigatória para executar este comando:
+      %{permissions_missing}
+    many: |
+      Falta-lhe as seguintes permissões obrigatórias para executar este comando:
+      %{permissions_missing}
+  message_not_found: |
+    A mensagem "%{param}" não foi encontrada.
+  channel_not_found: |
+    O canal "%{channel}" não pôde ser encontrado.
+  channel_not_readable: |
+    O %{bot_ping} precisa das seguintes permissões no canal %{channel}:
+    %{permissions_missing}
+  bad_argument:
+    one: |
+      Não foi possível interpretar o argumento %{param}; deveria ser:
+    many: |
+      Não foi possível interpretar o argumento %{param}; deveria ser um desses:
+  no_dms: |
+    Este comando não pode ser executado em MDs
+  permissions_missing_reasons:
+    #These translations were designed to be short, and to fit on about 1 line on a mobile screen
+    guild: |-
+      Os cargos de %{user_ping} não incluem isso
+    member_overwrite: |-
+      as permissões do canal %{channel} foram negadas para %{user_ping}
+    role_overwrite:
+      one: |-
+        as permissões do canal %{channel} foram negadas para o cargo: %{roles}
+      many: |-
+        as permissões do canal %{channel} foram negadas para os cargos: %{roles}
+    member_role_overwrite:
+      one: |-
+        as permissões do canal %{channel} foram negadas para %{user_ping} e o cargo: %{roles}
+      many: |-
+        as permissões do canal %{channel} foram negadas para %{user_ping} e os cargos: %{roles}
+  no_threads: Este comando não pode ser usado em tópicos.
