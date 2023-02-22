@@ -1,0 +1,63 @@
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: Ningún mensaje a auditar.
+        expand: Expandir
+        truncate: Truncar
+      edit_topic:
+        edited: Se edito la descripción de %{channel}
+        edited_audit: "%{author} edito la descripción de %{channel} a:\n>>> %{description}"
+      ban:
+        owner: '¡No puedo banear al dueño/a!'
+        cannot_ban: '¡No puedo banear a <@%{banee}>!'
+        you_cannot_ban: '¡No puedes banear a <@%{banee}>!'
+        banned: Baneado <@%{banee}> (ID %{banee})
+        banned_audit: '%{author} baneo a <@%{banee}> (ID %{banee})'
+      kick:
+        owner: '¡No puedo expulsar al dueño/a!'
+        cannot_kick: '¡No puedo expulsar a <@%{kickee}>!'
+        you_cannot_kick: '¡No puedes expulsar a <@%{kickee}>!'
+        kicked: Expulsado <@%{kickee}> (ID %{kickee})
+        kicked_audit: '%{author} expulso <@%{kickee}> (ID %{kickee})'
+      purge:
+        '0_100': Numero de mensajes a mover entre 1 y 100
+        audit:
+          one: '%{author} purgo %{count} mensajes en %{channel}'
+          many: '%{author} purgo %{count} mensajes en %{channel}'
+      move:
+        user_no_perms: No tienes 'Mandar Mensajes' y 'Gestionar Mensajes' en %{channel}.
+        me_no_perms: Necesito tener los permisos "Leer Mensajes", "Gestionar Webhooks" y "Emojis Externos" en %{channel}.
+        message_limit: El número de mensajes a mover debe ser entre 1 y %{count}
+        forum_modal_title: Crear una publicación
+        forum_post_name: 'Nombre de la Publicación:'
+        moved_to:
+          one: Se movió %{count} mensaje a %{to_channel}
+          many: Se movieron %{count} mensajes a %{to_channel}
+        moved_from:
+          one: '%{author} movió %{count} mensaje de %{from_channel}'
+          many: '%{author} movió %{count} mensajes de %{from_channel}'
+        moved_to_from:
+          one: '%{author} movió %{count} mensaje de %{from_channel} a %{to_channel}'
+          many: '%{author} movió %{count} mensajes de %{from_channel} a %{to_channel}'
+        move_end: Mueve el mensaje final a mover
+        end_previous_n:
+          - 
+        end_next_n:
+          - 
+        move_start: Mueve el mensaje inicial a mover
+        start_previous_n:
+          - 
+        start_next_n:
+          - 
+        move_both: Mueve el mensaje inicial y final
+        both_previous_n:
+          - 
+        both_next_n:
+          - 
+        move:
+          one: '¡Mueve el mensaje!'
+          many: '¡Mueve %{count} mensajes!'
+        move_all:
+          one: '¡Mueve el mensaje!'
+          many: '¡Mueve %{count} mensajes!'
