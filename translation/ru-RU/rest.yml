@@ -1,0 +1,12 @@
+rest:
+  join_server:
+    joined: '%{user} присоеденился к серверу через публичный пак эмодзи!'
+  vote:
+    guild_rank: '%{guild} сейчас #%{guild_rank}'
+    vote_text: |
+      <@%{user}> проголосовал за сервер на %{site}!
+      Серверу %{guild} теперь доступно %{max_emotes} глобальных эмодзи
+    vote_text_rank: |
+      <@%{user}> проголосовал за сервер на %{site}!
+      Серверу %{guild} теперь доступно %{max_emotes} глобальных эмодзи и он на #%{guild_rank} месте #%{guild_rank}
+    voted: Проголосовал за NQN
