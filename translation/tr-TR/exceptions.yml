@@ -1,0 +1,57 @@
+exceptions:
+  command_not_found: |
+    "%{command}" komutu bulunamadı.
+    Komut listesini görmek için `%{prefix}help` kullanın
+  missing_required_argument:
+    one: |-
+      "%{param}", eksik olan gerekli bir bağımsız değişkendir.
+      Şu olmalıdır: %{should_be}
+    many: |
+      "%{param}", eksik olan gerekli bir bağımsız değişkendir.
+      Şunlardan biri olmalıdır:
+      - %{should_be}
+  bot_missing_permissions:
+    one: |
+      %{bot_ping}, bu komutu kullanmak için gereken şu izne sahip değil:
+      %{permissions_missing}
+    many: |
+      %{bot_ping}, bu komutu kullanmak için gereken aşağıdaki izinlere sahip değil:
+      %{permissions_missing}
+  user_missing_permissions:
+    one: |
+      Bu komutu kullanmak için gereken aşağıdaki iznin yok:
+      %{permissions_missing}
+    many: |
+      Bu komutu kullanmak için gereken aşağıdaki izinlere yok:
+      %{permissions_missing}
+  message_not_found: |
+    "%{param}" mesajı bulunamadı.
+  channel_not_found: |
+    "%{channel}" kanalı bulunamadı.
+  channel_not_readable: |
+    %{bot_ping}, %{channel}'da şu izne sahip değil:
+    %{permissions_missing}
+  bad_argument:
+    one: |
+      %{param} argümanı yorumlanamadı; olmalı:
+    many: |
+      %{param} argümanı yorumlanamadı, şunlardan biri olmalıdır:
+  no_dms: |
+    Bu komut DM'lerde çalıştırılamaz
+  permissions_missing_reasons:
+    #These translations were designed to be short, and to fit on about 1 line on a mobile screen
+    guild: |-
+      %{user_ping} rolleri bunu içermiyor
+    member_overwrite: |-
+      %{channel} izinleri, %{user_ping}'i açıkça reddediyor
+    role_overwrite:
+      one: |-
+        %{channel} izinleri, rol: %{roles}, için reddedildi
+      many: |-
+        Şu roller için %{channel} izinleri reddedildi: %{roles}
+    member_role_overwrite:
+      one: |-
+        %{channel} izinleri, %{user_ping} ve ayrıca şu rolü açıkça reddediyor: %{roles}
+      many: |-
+        %{channel} izinleri, %{user_ping} ve ayrıca şu rolleri açıkça reddediyor: %{roles}
+  no_threads: Bu komut alt başlıklarda kullanılamaz.
