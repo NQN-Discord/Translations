@@ -1,0 +1,68 @@
+discord_bot:
+  parameter_types:
+    #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+    SearchTerms:
+      name: Zoektermen
+      description: |-
+        Zoektermen
+    Message:
+      name: Bericht
+      description: |-
+        Een Discord-antwoord op het bericht dat u wilt targeten
+        - Een bericht-URL (`https://discord.com/channels/123456789/123456789/123456789`)
+        - Een bericht-ID in het huidige kanaal (`123456789`)
+        - KanaalID-BerichtID-paar (`123456789-123456789`)
+        - Hoeveel berichten geleden het was in het huidige kanaal (`5` berichten geleden)
+    PartialEmoji:
+      name: Emoji
+      description: |-
+        Een weergegeven Discord-emoji of een emoji-URL
+    TextChannel:
+      name: Tekst Kanaal
+      description: |
+        Een vermelding van een tekstkanaal
+    User:
+      name: Gebruiker
+      description: |
+        Een gebruikersvermelding
+    Role:
+      name: Rol
+      description: |
+        Een rolvermelding of naam
+    NQNEmoji:
+      name: NQNEmoji
+      description: |
+        Een niet-gerenderde emoji NQN kan transformeren
+        - Een weergegeven Discord-emoji of een emoji-URL
+    BlockedEmoji:
+      name: GeblokkeerdEmoji
+      description: |-
+        De naam van een emoji die is geblokkeerd op deze server
+    CurrentGuildEmoji:
+      name: ServerEmoji
+      description: |
+        Een emoji op de huidige server
+    None:
+      name: Leeg
+      description: |
+        Geen argument
+    str:
+      name: String
+      description: |
+        Wat tekst
+    int:
+      name: Geheel getal
+      description: |
+        Een getal
+    bool:
+      name: Booleaans
+      description: |
+        `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
+    ListConverter:
+      name: Lijst
+      description: |-
+        Tenminste
+    Union:
+      name: Unie
+      description: |-
+        Een van de volgende:
