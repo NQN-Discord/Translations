@@ -1,0 +1,8 @@
+interactions:
+  not_author: |
+    Solo el usuario que uso el comando puede interactuar con este mensaje
+  timed_out: |
+    Tiempo de espera agotado.
+    Por favor use el comando de nuevo.
+  bot_timed_out: |
+    NQN fue puesto en aislamiento temporal por un moderador y no puede responder.
