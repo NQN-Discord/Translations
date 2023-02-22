@@ -1,0 +1,68 @@
+discord_bot:
+  parameter_types:
+    #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+    SearchTerms:
+      name: Termini di ricerca
+      description: |-
+        Termini di ricerca
+    Message:
+      name: Messaggio
+      description: |-
+        Una risposta Discord al messaggio che si desidera raggiungere
+        - Un messaggio URL (`https://discord.com/channels/123456789/123456789/123456789`)
+        - Un id messaggio nel canale corrente (`123456789`)
+        - Coppia ChannelID-MessageID (`123456789-123456789`)
+        - Messaggi precedenti nel canale attuale (`5` messaggi fa)
+    PartialEmoji:
+      name: Emoji
+      description: |-
+        Una emoji Discord renderizzata o un URL emoji
+    TextChannel:
+      name: Canale Testuale
+      description: |
+        Una menzione di un canale testuale
+    User:
+      name: Utente
+      description: |
+        Una menzione utente
+    Role:
+      name: Ruolo
+      description: |
+        Una menzione di ruolo o un nome
+    NQNEmoji:
+      name: EmojiNQN
+      description: |
+        Una emoji non reindirizzata che NQN può trasformare
+        - Una emoji Discord renderizzata o un URL emoji
+    BlockedEmoji:
+      name: EmojiBloccata
+      description: |-
+        Il nome di una emoji che è bloccata in questo server
+    CurrentGuildEmoji:
+      name: EmojiServer
+      description: |
+        Una emoji nel server attuale
+    None:
+      name: Vuoto
+      description: |
+        Nessun argomento
+    str:
+      name: Stringa
+      description: |
+        Un po' di testo
+    int:
+      name: Intero
+      description: |
+        Un numero
+    bool:
+      name: Booleano
+      description: |
+        `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
+    ListConverter:
+      name: Elenco
+      description: |-
+        Almeno
+    Union:
+      name: Unione
+      description: |-
+        Uno dei seguenti:
