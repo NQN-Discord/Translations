@@ -1,0 +1,46 @@
+premium:
+  no_premium: |
+    O seu Patreon não tem status premium
+  no_patreon: |
+    Não há nenhuma conta Patreon associada com a sua conta do Discord
+  account_not_changed: |
+    Sua lista de servidores premium foi atualizada; Sua conta do Discord não sofreu alterações.
+  gained_premium: |
+    ¡Se conecto tu cuenta de discord con Patron! Tus funciones premium se han aplicado a esta cuenta-
+  associate_account: |
+    Não há nenhuma conta Patreon associada com a esta conta do discord.
+    [Associar a sua conta do Discord ao Patreon](%{patreon_oauth})
+  updated_status: |
+    O status premium da sua conta foi atualizado; Veja as mensagens privadas.
+  user_gained_premium: |
+    Olá %{user_mention}, obrigado por adquirir o Premium! Nós estamos muito gratos pela sua contribuição <:BlueLove:831617205132329040>
+    Aqui está a lista de servidores que conseguem acesso premium por vocẽ:
+    %{guild_list}
+    Esta lista é atualizada diariamente se baseando nos servidores que vocẽ compartilha com o NQN nos quais você tem permissão de 'Administrador'. Se quiser acessá-la, execute:
+    > `%{prefix}premium check`
+
+    O NQN premium te dá acesso aos seguintes comandos nesses servidores:
+  server_gained_premium:
+    one: |
+      Olá %{user_mention}!
+      Graças à aquisição premium de um de seus administradores, seu servidor %{guild_list} desbloqueou os seguintes comandos:
+    many: |
+      Olá %{user_mention}!
+      Graças à aquisição premium de um de seus administradores, os seguintes servidores agora têm acesso premium:
+      %{guild_list}
+
+      O NQN premium te dá acesso aos seguintes comandos nesses servidores:
+  user_lost_premium: |
+    Olá %{user_mention}, só queriamos deixar você ciente de que você não tem mais o premium.
+    Muito obrigado por sua contribuição ^^
+  server_lost_premium:
+    one: |
+      Olá %{user_mention}, seu servidor %{guild_list} não tem mais acesso premium.
+      Se você alterou alguma configuração premium no passado, ela foi resetada.
+    many: |
+      Olá %{user_mention}, os seguintes servidores seus não têm mais acesso premium:
+      %{guild_list}
+      Se você alterou alguma configuração premium no passado, ela foi resetada.
+  premium_commands: |
+    > `%{prefix}server set_nitro_role` - Restringe o acesso ao NQN bot a usuários com um cargo específico.
+    > `%{prefix}server user_content` - Só pode enviar emojis com NQN se eles estiverem em seu servidor, em `%{prefix}server alias` ou `%{prefix}server pack`. Quando essa configuração está habilitada, comandos para buscar conteúdo de usuário são desativados.
