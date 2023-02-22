@@ -1,0 +1,45 @@
+discord_bot:
+  commands:
+    sticker:
+      create:
+        attachment_needed: Necesitas subir un sticker con este comando
+        image_needed: El archivo tiene que ser una imagen
+        sticker_exists: '¡Ya existe un sticker llamado %{name}!'
+        filename_invalid: '`%{name}` no es un nombre valido para stickers. Deben ser alfanuméricos, con una extensión alfanumérica.'
+        too_large: Este archivo es demasiado grande. Los stickers no pueden exceder 8MB
+        created: "Ahora puedes usar `:%{name}:`\n¿No es lo que deseabas?\n`%{prefix}sticker rename %{name} new_name.%{ext}`"
+      mine:
+        no_stickers: No tienes ningún sticker
+      delete:
+        no_sticker: "- :%{name}: - No existe o no es tuyo"
+        sticker_deleted: '+ :%{name}:'
+        question:
+          zero: '¡No se encontró ningún sticker para borrar!'
+          one: '¿Deseas eliminar este sticker?'
+          many: '¿Deseas eliminar los %{count} stickers?'
+        deleted_all:
+          one: Se a eliminado %{count} sticker
+          many: Se han eliminado %{count} stickers
+      rename:
+        filename_invalid: '`%{name}` no es un nombre valido para stickers. Deben ser alfanuméricos, con una extensión alfanumérica.'
+        no_sticker: Este sticker no existe
+        permission_denied: '¡No puedes renombrar el sticker de otra persona!'
+        destination_taken: '¡Ese nombre ya esta tomado por otro sticker!'
+        renamed: 'Renombrado \:%{name}: a :%{new}:'
+      search:
+        no_stickers: No se encontró ningún sticker
+      sticker_import:
+        filename_invalid: '`%{name}` no es un nombre valido para stickers. Deben ser alfanuméricos, con una extensión alfanumérica.'
+        find_emote: '¡Encuentra un emoji para convertirlo en un sticker!'
+        created: Ahora puedes utilizar `:%{name}:`
+        sticker_exists: Un sticker llamado `:%{name}:` ya existe; no puedes usar ese nombre.
+        duplicate_exists: '¡Un sticker con la misma imagen y nombrado "%{name}" ya existe!'
+      telegram_import:
+        pack_invalid: '`%{name}` no es un nombre valido de un pack de stickers de Telegram'
+        telegram_unloaded: Pack de Telegram no cargado - Por favor reportar esto al desarrollador del bot.
+        already_created: Ya creado por alguien mas; no se puede sobrescribir
+        finished_importing:
+          one: Se termino de importar un sticker
+          many: Se termino de importar %{count} stickers
+        search_future: "Para buscar estos stickers en el futuro, usa:\n> `%{prefix}sticker search %{name}.`"
+        view: Ver Stickers
