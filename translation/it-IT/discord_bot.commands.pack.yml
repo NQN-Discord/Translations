@@ -1,0 +1,69 @@
+discord_bot:
+  commands:
+    pack:
+      buttons:
+        add_to_everyone: Aggiungi a @everyone
+        join_pack: Unisciti al Pacchetto
+        leave_pack: Lascia il Pacchetto
+        join_server: Unisciti al Server
+        all: Salva Tutto
+      join:
+        no_pack: '%{name} non è un pacchetto di emote registrato'
+        already_joined: Sei già iscritto a %{name}
+        joined_pack: |
+          Unito %{name}.
+          Ora puoi usare le seguenti emote digitando il loro nomi in chat, inclusi i due punti:
+      leave:
+        no_pack: '%{name} non è un pacchetto di emote registrato'
+        already_left: Non eri comunque in %{name}
+        left: Uscito da %{name}
+      meta:
+        needs_publishing: Non puoi farlo senza pubblicare prima questo server come pacchetto di emote.
+      mine:
+        no_packs: Non hai nessun pacchetto!
+      publish:
+        already_published: Questo server è già pubblicato come pacchetto!
+        already_exists: Esiste già un pacchetto di emote chiamato %{name}
+        published: Pubblicato il pacchetto di emote %{name}. Chiunque è in grado di salvare queste emote sul proprio server, e si afferma che sei il proprietario di queste emote. Per annullare questa operazione, esegui `%{prefix}pack unpublish`.
+        pack_published: |
+          Per accedere a tutte queste emote, digita
+          >>> !pack join %{name}
+      rename:
+        already_exists: Esiste già un pacchetto di emote chiamato %{name}
+        not_published: Questo server non è mai stato pubblicato.
+        renamed: Rinominato %{old} in %{new}
+      save:
+        none_left: Dopo aver filtrato le emote con lo stesso nome di quelle in questo server, non è rimasto niente da importare!
+        no_space: Non c'è spazio in questo server per aggiungere una qualsiasi delle emote in questo pacchetto.
+        failed_batch: |
+          Discord permette solo ai bot di caricare 50 emotes all'ora.
+          NQN non è stato in grado di caricare tutte le emote in questo pack, ma puoi eseguire nuovamente questo comando in un'ora per caricare il resto
+        not_registered: '%{name} non è un pacchetto di emote registrato'
+        upload_question: "Carica queste emote su questo server?\n Se non sei il proprietario di tutte queste emoji, scegli N."
+        uploaded:
+          one: Caricate %{count} emote
+          many: Caricate %{count} emote
+      search:
+        invalid_group: <Invalid pack - Please Report>
+      set_public:
+        needs_publishing: Non puoi farlo senza pubblicare prima questo server come pacchetto di emote.
+        public_on: Inviti consentiti tramite NQN.
+        public_off: Inviti disabilitati tramite NQN.
+      show:
+        not_registered: '%{name} non è un pacchetto di emote registrato'
+        pack_empty: Questo pacchetto non ha emote in esso!
+        join_pack: 'Contenuto del pacchetto "%{name}":'
+      unpublish:
+        not_published: Questo server non è mai stato pubblicato.
+        unpublished: Pacchetto di emote %{name} non pubblicato
+      dm:
+        send_dms:
+          zero: |
+            Non hai pacchetti!
+            Ottieni alcuni pacchetti con `%{prefix}pack search`
+          one: |
+            Questo ti invierà un messaggio diretto; vuoi continuare?
+          many: |
+            Questo ti invierà %{count} messaggi diretti; vuoi continuare?
+        blocked: |-
+          Mi hai bloccato, non posso messaggiarti!
