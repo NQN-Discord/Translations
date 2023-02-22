@@ -1,0 +1,63 @@
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: Geen berichten om te controleren.
+        expand: Uitbreiden
+        truncate: Afkappen
+      edit_topic:
+        edited: Bewerkt het onderwerp van %{channel}.
+        edited_audit: "%{author} heeft het onderwerp van %{channel} gewijzigd naar:\n>>> %{description}"
+      ban:
+        owner: Ik kan de eigenaar niet verbannen!
+        cannot_ban: Ik kan niet <@%{banee}> verbannen!
+        you_cannot_ban: Je kan niet <@%{banee}> verbannen!
+        banned: <@%{banee}> (ID %{banee}) verbannen
+        banned_audit: '%{author} heeft <@%{banee}> (ID %{banee}) verbannen'
+      kick:
+        owner: Ik kan de eigenaar niet kicken!
+        cannot_kick: Ik kan niet <@%{kickee}> kicken!
+        you_cannot_kick: Je kan niet <@%{kickee}> kicken!
+        kicked: <@%{kickee}> (ID %{kickee}) gekickt
+        kicked_audit: '%{author} heeft <@%{kickee}> (ID %{kickee}) gekickt'
+      purge:
+        '0_100': Aantal te verplaatsen berichten moet tussen 1 en 100 zijn
+        audit:
+          one: '%{author} heeft %{count} berichten in %{channel} verwijderd'
+          many: '%{author} heeft %{count} berichten in %{channel} verwijderd'
+      move:
+        user_no_perms: Je hebt geen 'Berichten Verzenden' en 'Berichten Beheren' machtiging in %{channel}.
+        me_no_perms: Ik moet de machtigingen 'Berichten Lezen', 'Webhooks Beheren' en 'Externe emoji's' hebben in %{channel}.
+        message_limit: Het aantal te verplaatsen berichten moet tussen 1 en %{count} liggen
+        forum_modal_title: Maak een nieuwe post
+        forum_post_name: 'Post naam:'
+        moved_to:
+          one: '%{count} bericht verplaatst naar %{to_channel}'
+          many: '%{count} berichten verplaatst naar %{to_channel}'
+        moved_from:
+          one: '%{author} heeft %{count} bericht verplaatst van %{from_channel}'
+          many: '%{author} heeft %{count} berichten verplaatst van %{from_channel}'
+        moved_to_from:
+          one: '%{author} heeft %{count} bericht verplaatst van %{from_channel} naar %{to_channel}'
+          many: '%{author} heeft %{count} berichten verplaatst van %{from_channel} naar %{to_channel}'
+        move_end: Eindbericht verplaatsen
+        end_previous_n:
+          - 
+        end_next_n:
+          - 
+        move_start: Startbericht verplaatsen
+        start_previous_n:
+          - 
+        start_next_n:
+          - 
+        move_both: Verplaats begin en einde
+        both_previous_n:
+          - 
+        both_next_n:
+          - 
+        move:
+          one: Verplaats bericht!
+          many: Verplaats %{count} berichten!
+        move_all:
+          one: Verplaats bericht!
+          many: Verplaats alle %{count} berichten!
