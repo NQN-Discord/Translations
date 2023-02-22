@@ -1,0 +1,8 @@
+interactions:
+  not_author: |
+    Yalnızca gönderinin yazarı bu gönderiyle etkileşim kurabilir
+  timed_out: |
+    Entegrasyon zaman aşımına uğradı.
+    Lütfen komutu tekrar çalıştırın.
+  bot_timed_out: |
+    NQN bir moderatör tarafından zaman aşımına uğradı ve yanıt veremiyor.
