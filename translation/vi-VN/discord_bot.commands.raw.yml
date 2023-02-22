@@ -1,0 +1,369 @@
+---
+discord_bot:
+  commands:
+    raw:
+      buttons:
+        commands: Lệnh
+        tutorial: Hướng dẫn
+        my_emotes: Emoji của tôi
+      depreciated_commands:
+        renamed: |
+          Lệnh này đã được đổi thành `%{prefix}%{new}`.
+          Nếu bạn không muốn thấy tin nhắn này nữa, phản ứng với ❌
+        ignored: Đã bỏ qua `%{name}` cho bạn.
+      edit:
+        never_posted: Bạn chưa từng có tin nhắn nào được gửi bởi NQN trong kênh này!
+        message_deleted: |
+          Đã xóa tin nhắn gần nhất của bạn được gửi bởi NQN trong kênh này!
+          Vui lòng chọn một tin nhắn bằng cách trả lời nó, hoặc dùng đường dẫn đến tin nhắn
+        cannot_edit_no_nqn: Bạn không thể nhắm đến tin nhắn này vì nó không phải được gửi bởi NQN!
+        cannot_edit_different_user: Bạn không thể nhắm đến tin nhắn này vì nó không phải được gửi bởi bạn!
+        edit_message: Chỉnh sửa tin nhắn
+        new_content: 'Nội dung mới:'
+      delete:
+        deleted: Đã xóa tin nhắn thành công
+      export:
+        exported_list_short: "Đây là những emoji đã xuất của bạn:"
+        exported_list_long: |
+          Đây là những emoji đã xuất của bạn
+          Để chia sẻ chúng cho người khác, họ sẽ cần phải dùng:
+          > `%{prefix}alias import %{url}`
+      ignore_me:
+        user_ignored: NQN sẽ không thay thế tin nhắn của bạn nữa. Dùng lệnh này lại để cho phép bot thay tin nhắn của bạn
+        user_unignored: NQN sẽ tiếp tục thay thế tin nhắn của bạn như cũ
+      invite:
+        add_nqn: Thêm NQN vào server của bạn!
+      my_emotes:
+        current_guild: Server hiện tại
+        mutual_guilds: Server chung
+        aliases: Tên thay thế
+        packs: Gói emoji
+        no_mutual_guilds: |
+          NQN cho phép bạn dùng bất kì emoji nào từ bất kì server chung nào trong server này.
+          Hiện tại, bạn không có server chung nào có NQN ngoài server này.
+
+          Nếu muốn, bãn có thể [mời NQN vào server khác](%{bot_invite}) để có thể dùng emoji đó trong này.
+      ranking:
+        vote_link: Bạn có thể vote cho bot tại %{url} để có thể thêm nhiều emoji dùng trong server và nâng cấp bậc của server.
+        top_server: Chúc mừng vì đã đặt được danh hiệu server hỗ trợ nhiều nhất <a:BluePat:679807864327766048>
+        thanks: Cảm ơn vì đã vote cho bot!
+        ranking: |
+          %{guild} đang ở hạng thứ #%{rank} trong tổng số server đang dùng NQN.
+
+          %{rank_leaderboard}
+          Bạn đã vote %{total_votes} lần cho NQN. %{thanks}
+
+          %{user_ranking}
+
+          %{extra_message}
+      emote_stats:
+        top_emotes: "Emoji được dùng nhiều nhất trong server này"
+        choose_page: "Chọn một trang"
+        never: "Chưa từng được dùng"
+        once: "Được dùng một lần"
+        infrequent: "Ít được dùng"
+        often: "Đôi khi dùng"
+        frequent: "Thường được dùng"
+        extreme: "Dùng rất nhiều"
+        extraordinary: "Dùng cực nhiều"
+        off_chart: "Như kiểu lúc nào cũng dùng"
+        times_used:
+          zero: "Chưa từng được dùng"
+          one: "Được dùng một lần"
+          many: "Đã dùng khoảng %{count} lần"
+        times_used_per_day:
+          zero: "Ít hơn một lần mỗi ngày"
+          one: "Khoảng 1 lần mỗi ngày"
+          many: "Khoảng %{count} lần mỗi ngày"
+        emote_count:
+          zero: "Không có emoji"
+          one: "1 emoji"
+          many: "%{count} emoji"
+        boundary: "Được dùng tầm %{min} - %{max} lần"
+      tutorial:
+        choose_page: Hướng dẫn tìm kiếm
+        invalid_page: Chỉ có %{count} trang trong hướng dẫn!
+        wrong_place: Nếu tôi gửi tin nhắn này ở chỗ không hợp lí thì bạn có thể dùng %{prefix}tutorial ở một kênh thuận tiện hơn để xem hết hướng dẫn ở đấy. Hướng dẫn này có nhiều trang; dùng %{prefix}tutorial để hiện lại hướng dẫn nếu chúng biến mất.
+        default_emojis: Emoji mặc định
+        default_emoji_list: "Đây là danh sách các emoji động mà ai trong server này đều có thể dùng - chỉ cần nhập đầy đủ tên của chúng, và nhớ kèm theo :colons: xung quanh tên của biêu cảm!"
+        page_0_title: Hướng dẫn dùng Not Quite Nitro, dành cho người lười
+        page_0_desc: |
+          %{locale_flag_emojis} **Tùy chỉnh ngôn ngữ** %{locale_flag_emojis}
+          > `%{prefix}server language`
+        page_0_0_name: Thêm emoji?
+        page_0_0_desc: |
+          Mọi người đều có thể dùng bất kì emoji nào có trong server chung với bạn và bot.
+          **Cũng có những cách khác để dùng emoji từ server mà bạn không tham gia:**
+        page_0_1_name: "3\u20E3 Gói emoji - Bao emoji"
+        page_0_1_desc: '> `%{prefix}pack search`'
+        page_0_2_name: "4\u20E3 Tên thay thế - Tách biệt từng emoji"
+        page_0_2_desc: '> `%{prefix}alias search TênBiểuCảm`'
+        page_1_title: Thêm cảm xúc
+        page_1_desc: Bạn có thể thêm cảm xúc cho tin nhắn với những emoji bạn có thể dùng với NQN.
+        page_1_0_name: 'Bày tỏ cảm xúc với tin nhắn gần nhất:'
+        page_1_0_desc: '> `%{prefix}react TênBiểuCảm`'
+        page_1_1_name: 'Bày tỏ cảm xúc với tin nhắn trong cùng kênh:'
+        page_1_1_desc: '> `%{prefix}react TênBiểuCảm` (trong khi đang trả lời tin nhắn đó)'
+        page_1_2_name: 'Bày tỏ cảm xúc với tin nhắn gần đó:'
+        page_1_2_desc: "> `%{prefix}react MessagesAgo TênBiểuCảm`\nLệnh này chỉ hoạt động trong tầm 20 tin nhắn về trước."
+        page_1_3_name: 'Bày tỏ cảm xúc với tin nhắn:'
+        page_1_3_desc: '> `%{prefix}react URLTinNhắn TênBiểuCảm`'
+        page_1_4_name: Xóa tin nhắn
+        page_1_4_desc: "Bày tỏ emoji lên tin nhắn được gửi thay danh bạn bằng \u274C (\\:x:) để xóa nó."
+        page_2_title: Gói emoji
+        page_2_desc: |
+          Một gói emoji bao gồm nhiều emoji. Sau khi tham gia một gói, bạn sẽ có thể dùng các emoji có trong đó.
+        page_2_0_name: Tham gia gói emoji
+        page_2_0_desc: |
+          Để tìm các gói emoji, dùng `%{prefix}pack search`, có thể thêm tên để tìm, ví dụ như `%{prefix}pack search dragon`.
+        page_2_1_name: Tìm các gói emoji mà bạn đã tham gia
+        page_2_1_desc: |
+          > `%{prefix}pack mine`
+          Lệnh này sẽ hiển thị danh sách các gói emoji mà bạn đã tham gia, bao gồm cả tên emoji trong mỗi gói.
+        page_2_2_name: Công khai gói emoji của bạn
+        page_2_2_desc: |
+          Nếu bạn có quyền **quản lý server**, bạn có thể công khai gói emoji của riêng bạn bao gồm các emoji có trong server:
+          > `%{prefix}pack publish TênGóiBiểuCảmCăngĐét`
+          Bạn cũng có thể công khai gói cho mọi người có thể tham gia bằng lệnh `%{prefix}pack set_public yes` để ai cũng có thể tham gia gói của bạn với bot mà không cần phải ở trong server của bạn.
+        page_3_title: Tên thay thế
+        page_3_desc: |
+          Tên thay thế bản chất chỉ là tên khác của những emoji mà bạn cho, và chúng có thể được dùng với những cái tên đó.
+
+          Nếu bạn biết chính xác tên của một emoji mà bạn muốn thêm:
+          > `%{prefix}alias search :EmoteName:`
+
+          Nếu bạn muốn xem qua các emoji mà bạn có thể dùng qua NQN:
+          > `%{prefix}alias search GiCungDuoc` (Không cần dấu hai chấm nếu bạn không nhớ rõ tên)
+        page_4_title: Link đến tin nhắn đang trả lời
+        page_4_desc: |
+          NQN cho phép bạn xem qua tin nhắn từ các kênh khác.
+
+          Chỉ cần sao chép link đến tin nhắn đó (trên di động là nút chia sẻ - sao chép) rồi dán nó vào tin nhắn của bạn, và bot sẽ thay thế tin nhắn của bạn kèm theo tin nhắn được dẫn đến.
+
+          Nếu bạn không muốn bot thay thế tin nhắn của bạn, chỉ cần bao quanh link đó bằng cặp ngoặc \<\>.
+
+          Nếu một quản lý trong server muốn vô hiệu hóa tính năng này, họ có thể dùng `%{prefix}server message_link_previews off`.
+        page_5_title: URL đã che
+        page_5_desc: |
+          NQN cho phép người dùng gửi tin nhắn [với URL đã che](%{url}) ngay trong tin nhắn của họ.
+
+          Tính năng này sử dụng các thức thông dụng, `[văn bản hiển thị](https://url.tai.day)`.
+          Để gửi tin nhắn có kèm theo nút, dùng `[tiêu đề nút](button://url.tai.day)`.
+        page_6_title: Sticker
+        page_6_desc: |
+          Nếu bạn từng muốn gửi ảnh/sticker/emoji lớn thì bạn tìm đến đúng nơi rồi đấy.
+
+          Lấy cảm hứng từ Telegram, NQN mang sticker đến với Discord.
+          Bạn có thể dùng chúng như emoji, ngoại trừ sticker có thêm định dạng tệp ở cuối tên.
+
+          Mỗi tin nhắn có thể chứa lên đến 10 sticker.
+
+          Bạn có thể tạo sticker với lệnh `%{prefix}sticker create` và tải lên một hình ảnh hoặc tải lên từ Telegram.
+          Nó có thể được thực hiện bằng lệnh `%{prefix}sticker telegram https://t.me/addstickers/goi-nhan-dan`.
+
+          Để tìm kiếm sticker bạn có thể dùng với NQN, dùng `%{prefix}sticker search` với từ khóa tùy ý.
+
+          Để xem các sticker của bạn, dùng `%{prefix}sticker mine`.
+
+          Lưu ý - để dùng sticker từ Telegram, bạn phải tải chúng lên cho bot trước. Bot sẽ không tự động làm việc này.
+        page_7_title: Danh tính ảo
+        page_7_desc: |
+          Danh tính ảo cho phép mọi người trong server của bạn có một tên và ảnh hồ sơ ảo để ẩn thân phận.
+          Trước khi dùng danh tính ảo trong server, bạn cần phải dùng `%{prefix}server personas on` trước.
+
+          Để tạo một danh tính ảo, dùng `%{prefix}persona register Tên`. Sau đó, bạn có thể gửi tin nhắn dưới danh tính ảo đó bằng cách gửi tin nhắn như sau:
+          > Tên: Tin nhắn
+        page_8_title: Quản lý server
+        page_8_desc: |
+          NQN cho phép khả năng tùy chỉnh cao đối với các tính năng có sẵn, trong trường hợp chúng không phù hợp cho server của bạn.
+          Bất kì ai có quyền **Quản lý server** đều có thể thay đổi cài đặt của bot cho server.
+
+          Sau đây là những thứ mà bạn có thể thay đổi:
+
+           • Nitro - `%{prefix}server nitro`
+           • Sticker - `%{prefix}server stickers`
+           • Xem tin nhắn được liên kết - `%{prefix}server message_link_previews`
+           • Danh tính ảo - `%{prefix}server personas`
+           • Hyperlink - `%{prefix}server masked_links`
+        page_8_0_name: Khắc phục một số vấn đề
+        page_8_0_desc: |
+          Để có thể hoạt động bình thường, NQN sẽ cần các quyền sau trong __mọi kênh__ mà bạn muốn dùng tính năng:
+          **Quản lý Webhook**, **Dùng emoji mở rộng**, **Thêm emoji**, **Xem kênh** và **Quản lý tin nhắn**.
+        page_8_1_name: "Prefix của Not Quite Nitro:"
+        page_8_1_desc: |
+          Bất kì ai với quyền **Quản lý server** có thể thay đổi prefx của NQN.
+
+          Prefix hiện tại của bot là `%{prefix}`, và bạn có thể thay đổi nó với lệnh
+          > %{prefix}server prefix %{ping} ?
+          Lệnh này sẽ thay đổi prefix thành `?`, mà kí tự nào cũng có thể dùng được.
+
+          NQN **sẽ luôn** nghe theo ping cho dù bạn có cài đặt thế nào đi nữa.
+        page_8_2_name: Lưu vết tin nhắn
+        page_8_2_desc: |
+          NQN sẽ liên tục ghi lại các tin nhắn mà nó đã thay thế với tin nhắn của người dùng.
+          Việc này nhằm trường hợp ai đó đổi tên và ảnh hồ sơ trước khi gửi một tin nhắn mang tính xúc phạm, hoặc cư xử không đúng thông qua bot.
+
+          Để cho bot lưu vết tin nhắn cho server, dùng `%{prefix}audit guild` hay [đi đến trang web của chúng tôi](%{url}), chọn server của bạn và nhấp vào biểu tượng bánh răng ở phía trên bên trái.
+
+          Chỉ người dùng có quyền **Quản lý server** và **Xem nhật ký chỉnh sửa** mới có thể xem các tin nhắn đã lưu vết.
+
+          Một cách khác có thể làm ngay trong Discord là tạo kênh lưu vết, sau đó đặt với lệnh `%{prefix}server set_audit_channel #kênh`.
+          Mọi tin nhắn được thay thế sẽ được lưu lại trong kênh đó với tên người dùng kèm số phân biệt và id người dùng.
+        page_8_3_name: 'Quyền hạn:'
+        page_8_3_desc: |
+          NQN cần có quyền 'Quản lý Webhook' trong server để có thể hoạt động bình thường; việc thay thế tin nhắn sẽ không khả thi khi thiếu quyền này.
+
+           • Để vô hiệu hóa lệnh của NQN trong một kênh bất kì, chặn quyền 'Gửi tin nhắn' của bot thông qua chỉnh sửa quyền hạn trong kênh.
+           • Để chặn việc NQN thay thế tin nhắn trong một kênh, chặn quyền 'Quản lý Webhook' của bot thông qua chỉnh sửa quyền hạn trong kênh.
+           • Để chặn mọi hoạt động của NQN trong một kênh, chặn quyền 'Xem kênh' của bot thông qua chỉnh sửa quyền hạn trong kênh.
+        page_8_4_name: 'Thu thập thông tin:'
+        page_8_4_desc: |
+          NQN lưu trữ các tin nhắn được thay thế để người dùng có thể xóa chúng hay dùng cho việc lưu vết.
+          Mọi emoji trong server của bạn đều có thể được nhìn thấy bởi mọi người và có thể được tìm kiếm, cho dù chúng không thể liên kết với server của bạn.
+
+          Một số chỉ số về mức hoạt động của bot được thu thập để hỗ trợ việc cải thiện bot tốt hơn nhưng sẽ không bao giờ lưu dữ liệu tin nhắn khác được gửi của người dùng.
+        page_9_title: Tính năng nâng cao
+        page_9_desc: |
+          Nếu có ai dùng emoji nào đó, bạn cũng sẽ có thể dùng nó, nhưng chỉ khi nó được dùng gần đây trong server.
+          **LƯU Ý:** Nếu bạn chỉ mới thêm NQN vào server, nó sẽ không biết được các emoji vừa được dùng trong server trước lúc nó tham gia.
+
+          Trong trường hợp bạn có nhiều emoji cùng tên, emoji sẽ được ưu tiên theo thứ tự sau:
+
+          1. Tên thay thế
+          2. Server hiện tại
+          3. Gói emoji
+          4. Server khác mà NQN và bạn có chung
+          5. Tên gọi khác liên server
+          6. Gói emoji liên server
+          7. Emoji được dùng gần đó trong server
+          8. Gói emoji được hiện ra gần đó trong server
+
+          Nếu bạn thường xuyên bị xung đột emoji, hãy đặt tên thay thế cho cái mà bạn muốn dùng và nó sẽ được ưu tiên.
+      react:
+        user_needs_to_react: |
+          Này %{user_ping}!
+          Lệnh `%{prefix}react` thêm emoji vào tin nhắn bạn muốn để bạn có thể dùng các emoji khác để bày tỏ cảm xúc mà không cần Nitro. Bạn chỉ cần nhấp vào các emoji đó!
+          *NQN sẽ tự động bỏ emoji của chính nó sau %{time} giây.*
+        channel_empty: Kênh này đang trống
+        invalid_react:
+          one: |
+            Emoji sau không hợp lệ:
+            > %{not_found}
+            Emoji chỉ nên là số và chữ, dấu gạch dưới và nhiều nhất một dấu gạch ngang.
+          many: |
+            Emoji sau không hợp lệ:
+            > %{not_found}
+            Emoji chỉ nên là số và chữ, dấu gạch dưới và nhiều nhất một dấu gạch ngang.
+        emote_unusable:
+          one: |
+            Emoji sau không thể được sử dụng:
+            > %{unusable}
+            Emoji phải từ một server mà NQN có trong đó; nếu bạn tải emoji này lên một server có bot trong đó, nó sẽ có thể được dùng trong bày tỏ cảm xúc!
+          many: |
+            Emoji sau không thể được sử dụng:
+            > %{unusable}
+            Emoji phải từ một server mà NQN có trong đó; nếu bạn tải emoji này lên một server có bot trong đó, nó sẽ có thể được dùng trong bày tỏ cảm xúc!
+        emote_not_found:
+          one: |
+            Không thể tìm thấy %{not_found}
+            Bạn đã thêm nó dưới dạng tên thay thế với `%{prefix}alias search` hay đã tham gia gói emoji có nó với `%{prefix}pack search` chưa?
+          many: |
+            Không thể tìm thấy %{not_found}
+            Bạn đã thêm nó dưới dạng tên thay thế với `%{prefix}alias search` hay đã tham gia gói emoji có nó với `%{prefix}pack search` chưa?
+        too_many_reacts:
+          one: Tin nhắn này đã có quá nhiều emoji để thêm!
+          many: Tin nhắn này đã có quá nhiều emoji để thêm chúng!
+        reacting:
+          one: Đang thêm %{count} emoji; nhớ là bày tỏ vào để giữ chúng!
+          many: Đang thêm %{count} emoji; nhớ là bày tỏ vào để giữ chúng!
+        blocked: '%{author} đã chặn tôi, vậy nên tôi không thể bày tỏ cảm xúc lên tin nhắn của họ!'
+        on_behalf: NQN thay danh %{author} (%{author_id})
+        audit_message: "%{author} đã bày tỏ cảm xúc với [tin nhắn](<%{jump_url}>) trong %{channel} với những emoji sau:\n"
+      info:
+        shard_data: |
+          > số lượng shard: %{shard_count} (chết %{shards_down})
+          > Độ trễ trung bình: %{average_latency}ms
+          > Shard hiện tại: %{current_shard}
+          > Độ trễ của shard: %{current_latency}ms
+        process_data: |
+          > Mức sử dụng RAM: %{ram_usage}
+          > Mức sử dụng CPU: %{cpu_usage}%
+          > Kết nối mạng:
+          > - Gửi đi: %{network_send}
+          > - Nhận về: %{network_recv}
+        elasticsearch_metadata: |
+          > Mức sử dụng RAM: %{ram_usage}
+          > Kích thước đĩa cứng: %{disk_use}
+          > Tổng đường truyền mạng: %{bytes_sent}
+        description: |
+          Tác giả: %{owner}
+          Tên ứng dụng: %{app_name}
+          Lệnh trợ giúp: `%{prefix}help`
+        bot_metadata: |
+          > Thời gian hoạt động: %{uptime}
+          > Server chứa emoji: %{alias_servers_available} / %{alias_servers_total}
+          > Server đã được tải: %{guilds_loaded} / %{guilds}
+        guild_features:
+          zero: ''
+          one: |
+            > Tính năng server: %{guild_features}
+          many: |
+            > Tính năng server: %{guild_features}
+        bot_credits: |
+          [Ảnh hồ sơ của bot và tranh vẽ Wumpus bởi Dooley](<https://www.dooleytm.com>) từ [Wump Motes](https://discord.gg/pEjCBNF)
+
+          __Chân thành cảm ơn đến những người sau:__
+          > <:OriLove:726475603879919616> OrionVi
+          > <:bean:884394196415442985> Ben
+          > <:AetherSmile:726474477956759553> Aether Wake
+        es: 'Tiếng Tây Ban Nha:'
+        ru: 'Tiếng Nga:'
+        pt: 'Tiếng Bồ Đào Nha:'
+        it: 'Tiếng Ý:'
+        vi: 'Tiếng Việt:'
+        fa: 'Tiếng Ba Tư:'
+        nl: 'Tiếng Hà Lan:'
+        cn: 'Tiếng Trung (Giản Thể)'
+        tw: 'Tiếng Trung (Phồn Thể)'
+        bot_stats: Thông tin số liệu của bot
+        shard_info_name: Thông tin shard
+        process_data_name: Dữ liệu xử lý của bot
+        elasticsearch_data_name: Dữ liệu phản hồi của bot
+        package_info_name: Thông tin hệ thống
+        bot_metadata_name: Thông tin bot
+        credits: Credit
+        author: Tác giả
+        bot_latency: '> Độ trễ của API/bot: %{bot_latency}ms'
+        help_command: 'Lệnh trợ giúp: `%{prefix}help`'
+        refresh: Làm mới
+      upload_emote:
+        own_emojis_dont_ask_again: Đúng vậy; tôi sỡ hữu chúng
+        alphanumeric: ' - Phải là chữ cái và số với dấu gạch dưới'
+        size: ' - Phải dài từ 1 đến 32 kí tự'
+        filesize: ' - Phải nhỏ hơn 256Kb'
+        image: ' - Phải là một hình ảnh'
+        bad_name: "Sai tên của emoji:\n"
+        bad_attachment: "Emoji được đính kèm không hợp lệ:\n"
+        more_animated_needed: Server đã đạt giới hạn emoji động, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
+        more_static_needed: Server đã đạt giới hạn emoji, tối đa cho phép hiện tại là %{size}. Hãy xóa %{delete} và thử lại
+        too_quick: Emoji đang được thêm quá nhanh, thử lại sau vài giờ (Mã lỗi '%{e}')
+        this_emote: Đây có phải mà emoji mà bạn muốn?
+        emote_preview: |
+          Nó đúng không?
+          Nếu bạn **KHÔNG PHẢI** chủ sỡ hữu của emoji này, hoặc không có quyền phân tán nó, chọn 'Không'.
+        duplicate_name: |
+          Server này đã có emoji tên là %{name}
+          > %{e}
+          Bạn vẫn muốn tải lên emoji này chứ?
+        created_emotes: '%{user} vừa tải lên %{e}'
+        also_upload_static: |
+          Bạn có muốn tải lên luôn bản tĩnh của emoji này?
+          Người dùng không có Nitro có thể dùng nó trong server để gửi %{e}
+      vote_opt_out:
+        success: Thành công hủy nhận tin nhắn trực tiếp về vote
+      whois:
+        found: Tác giả là <@%{author}> (%{author})
+        not_nqn: |
+          Lệnh này hiện chỉ có thể được dùng trên tin nhắn được thay thế bởi NQN.
+        not_found: |
+          Tác giả của tin nhắn đó không thể được tìm thấy một cách tự động. Bạn có chắc nó được gửi bởi NQN chứ?
