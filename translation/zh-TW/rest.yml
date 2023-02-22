@@ -1,0 +1,13 @@
+rest:
+  join_server:
+    joined: '%{user} 透過此伺服器的公眾表情符號包加入了伺服器！'
+  vote:
+    guild_rank: '%{guild} 現在排名是 #%{guild_rank}'
+    vote_text: |
+      <@%{user}> 剛剛在 %{site} 投票給此伺服器！
+      所有用戶現在可以在 %{guild} 使用 %{max_emotes} 個屬於這伺服器的表情符號
+    vote_text_rank: |
+      <@%{user}> 剛剛在 %{site} 投票給此伺服器！
+      所有用戶現在可以在 %{guild} 使用 %{max_emotes} 個屬於這伺服器的表情符號
+      本伺服器現在排名是 #%{guild_rank}！ #%{guild_rank}
+    voted: 已成功投票給NQN
