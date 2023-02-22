@@ -1,0 +1,71 @@
+global:
+  deleted_channel: '#SilinmişKanal'
+  author: Yazar
+  jump_to_message: Zıpla
+  go_to_message: Mesaja git!
+  reply_to: 'Cevap:'
+  cancelled: İptal Edildi
+  website: Website
+  details: Detaylar
+  fix_permissions: İzinleri Düzelt
+  success: Başarılı
+  yes: Yes
+  no: No
+  dm_me: Bana mesaj at
+  next: Sonraki
+  previous: Önceki
+  choose_emote: Bazı emojiler seçin
+  learn:
+    aliases: Takma adlar hakkında daha fazla bilgi edinin
+    packs: Paketler hakkında daha fazla bilgi edinin
+    my_emotes: Kullanabileceğim emojileri bul
+    personas: Persona hakkında daha fazla bilgi edinin
+  missing_permissions: Eksik İzinler
+  no_nitro_global: Bu sunucuda nitro kullanımı devre dışı bırakıldı!
+  no_nitro_role: Bu komutu yalnızca <@&%{role}> rolüne sahip kullanıcılar kullanabilir!
+  tabulated_default_results:
+    one: "%{count} sonuç (Sayfa %{page_no} / %{total}):\n%{contents}"
+    many: "%{count} sonuç (Sayfa %{page_no} / %{total}):\n%{contents}"
+  tabulated_results_page:
+    zero: Hiçbir emoji bulunamadı
+    one: Sayfa %{page_no} / %{total}%{note}
+    many: Sayfa %{page_no} / %{total}%{note}
+  page_no: 'Sayfa %{page} / %{total}:'
+  no_results: Sonuç yok
+  loading: <a:loading:674758249291186191> İşleniyor...
+  timed_out: Zaman aşımına uğrandı - tekrar deneyin
+  global_check_failed: '%{cmd_name} kullanmanıza izin verilmiyor'
+  requires_user_content: |
+    Bu sunucuda kullanıcı içeriğine izin verilmiyor.
+  requires_user_content_admin: |
+    Bu sunucuda kullanıcı içeriğine izin verilmiyor.
+    > ```%{prefix}sunucu user_content on``` ile izin verebilirsiniz
+  error_message: |
+    Komutunuz işlenirken bir hata oluştu. Doğru şekilde tamamlanmamış olabilir.
+    Yardım için ve bunu bir sorun olarak bildirmek için lütfen bu bot için test sunucusuna katılın:
+    https://discord.gg/mv8RbHD
+
+    Hata kodu: `%{event_id}`
+  user_abused: |
+    Bot sahibi veya genel moderatörler, daha önceki kötüye kullanım nedeniyle bu botu kullanmanızı engelledi.
+    Herhangi bir komut kullanamaz veya botun işlevselliğini başka şekilde kullanamazsınız.
+  user_spammed: |
+    Otomatik spam algılama sistemimizi tetiklemek için NQN'yi kullanmanız geçici olarak engellendi.
+    Bu mesaj günde en fazla bir kez gönderilecek ve bu engel itiraz etmenin bir yolu yok.
+
+    Şu andan itibaren **5 dakikadan** kısa bir süre içinde engellemeniz kaldırılacak.
+  support_server: |
+    Destek sunucuma buradan katılabilirsiniz:
+    http://discord.gg/XvzDPca
+    Hataları bildirebilir, yeni özellikler talep edebilir veya beni nasıl kullanacağınıza dair açıklamalar isteyebilirsiniz.
+  premium_required: |
+    Bunu yapmak için NQN's Patreon'a abone olmanız gerekir: https://www.patreon.com/NQN
+  invite_bad_perms:
+    title: |
+      Merhaba, NQN'yi %{guild_name}'e davet ettiğiniz için teşekkürler!
+    content: |
+      Etrafa baktık ve düzgün çalışmak için ihtiyacımız olan tüm izinlere tam olarak sahip olmadığımızı gördük.
+      Botu düzgün bir şekilde kullanabilmeniz için bunu düzeltmek için, bota ilgili tüm izinleri verecek bir bağlantı oluşturuldu:
+
+      **[İzinleri Düzelt](%{invite_url})**
+  webhook_limit: Webhook sınırına ulaşıldı! Bu kanalda kullanılamaz!
