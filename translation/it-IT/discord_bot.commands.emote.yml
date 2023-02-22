@@ -1,0 +1,37 @@
+discord_bot:
+  commands:
+    emote:
+      info:
+        title: "Informazioni sulla emote '%{name}':"
+        id: "ID:"
+        server_daily_uses: "Usi giornalieri in questo server:"
+        server_uses: "Usi in questo server:"
+        approx_uses:
+          zero: "0"
+          one: "1"
+          many: "~%{count}"
+        total_uses_per_day: "Usi totali al giorno:"
+        aka: "Anche conosciuta come:"
+        locked_roles: "Bloccata ai ruoli:"
+        upload_time: "Caricata il:"
+        url: "URL:"
+        animated_url: "URL animato:"
+        static_url: "URL statico:"
+      rolelock:
+        success: "Ruoli bloccati per %{emoji} a %{roles}"
+      roleunlock:
+        success: "Ruoli sbloccati per %{emoji}"
+      block:
+        success:
+          one: "Emoji bloccata"
+          many: "Bloccate %{count} emoji"
+        audit:
+          one: |
+            %{author} ha bloccato la seguente emote:
+          many: |
+            %{author} ha bloccato le seguenti emote:
+      unblock:
+        success: "Emoji sbloccata"
+        not_blocked: "L'emoji non era comunque bloccata"
+        audit: |
+          %{author} ha sbloccato la seguente emote:
