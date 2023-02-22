@@ -1,0 +1,68 @@
+discord_bot:
+  parameter_types:
+    #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+    SearchTerms:
+      name: Arama terimleri
+      description: |-
+        Arama terimleri
+    Message:
+      name: Mesaj
+      description: |-
+        Hedeflemek istediğiniz mesaja bir Discord yanıtı
+        - Bir mesaj URL'si (`https://discord.com/channels/123456789/123456789/123456789`)
+        - Geçerli kanalda bir mesaj id (`123456789`)
+        - KanalİD-MesajİD çifti (`123456789-123456789`)
+        - Şu anki kanalda kaç mesaj önceydi (`5` mesaj önce)
+    PartialEmoji:
+      name: Emoji
+      description: |-
+        İşlenmiş bir Discord emojisi veya bir emoji URL'si
+    TextChannel:
+      name: Metin Kanalı
+      description: |
+        Bir metin kanal etiket
+    User:
+      name: Kullanıcı
+      description: |
+        Bir kullanıcı etiketi
+    Role:
+      name: Rol
+      description: |
+        Bir rol etiket veya isim
+    NQNEmoji:
+      name: NQNEmoji
+      description: |
+        İşlenmemiş bir emoji NQN dönüştürebilir
+         - İşlenmiş bir Discord emojisi veya bir emoji URL'si
+    BlockedEmoji:
+      name: EngellenenEmoji
+      description: |-
+        Bu sunucuda engellenen bir emojinin adı
+    CurrentGuildEmoji:
+      name: SunucuEmoji
+      description: |
+        Mevcut sunucudaki bir emoji
+    None:
+      name: Boş
+      description: |
+        Argümansız
+    str:
+      name: Sicim
+      description: |
+        Bazı metin
+    int:
+      name: Tam sayı
+      description: |
+        Bir numara
+    bool:
+      name: Boole
+      description: |
+        `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
+    ListConverter:
+      name: Liste
+      description: |-
+        En azından
+    Union:
+      name: Birlik
+      description: |-
+        Aşağıdakilerden biri:
