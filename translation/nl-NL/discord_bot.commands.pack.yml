@@ -1,0 +1,69 @@
+discord_bot:
+  commands:
+    pack:
+      buttons:
+        add_to_everyone: Toevoegen aan @everyone
+        join_pack: Aan Pakket deelnemen
+        leave_pack: Pakket Verlaten
+        join_server: Aan Server deelnemen
+        all: Sla Alles Op
+      join:
+        no_pack: '%{name} is geen geregistreerd emoji-pakket'
+        already_joined: Je bent al lid van %{name}
+        joined_pack: |
+          Lid geworden van %{name}.
+          Je kunt nu de volgende emoji's gebruiken door de naam in de chat te typen, inclusief dubbele punten:
+      leave:
+        no_pack: '%{name} is geen geregistreerd emoji-pakket'
+        already_left: Je was toch niet in %{name}
+        left: '%{name} verlaten'
+      meta:
+        needs_publishing: U kunt dit niet doen zonder deze server eerst als een emoji-pakket te publiceren.
+      mine:
+        no_packs: Je hebt geen pakketten!
+      publish:
+        already_published: Deze server is al gepubliceerd als een pakket!
+        already_exists: Er bestaat al een emoji-pakket met de naam %{name}
+        published: Gepubliceerd emoji-pakket %{name}. Iedereen kan deze emoji's op zijn eigen server opslaan en jij beweert de eigenaar van deze emoji's te zijn. Om dit ongedaan te maken, voert u `%{prefix}pack unpublish` uit.
+        pack_published: |
+          Om toegang te krijgen tot al deze emoji's, gebruik
+          >>> !pack join %{name}
+      rename:
+        already_exists: Er bestaat al een emoji-pakket met de naam %{name}
+        not_published: Deze server is niet eerder gepubliceerd.
+        renamed: Hernoemd %{old} naar %{new}
+      save:
+        none_left: Na het uitfilteren van emoji's met dezelfde naam als die op deze server, waren er geen meer om te importeren!
+        no_space: Er is geen ruimte op deze server om een van de emoji's in dit pakket toe te voegen.
+        failed_batch: |
+          Discord staat alleen bots toe om 50 emoji's per uur te uploaden.
+          NQN kon niet alle emoji's in deze batch uploaden, maar je kunt deze commando over een uur opnieuw uitvoeren om de rest te uploaden
+        not_registered: '%{name} is geen geregistreerd emoji-pakket'
+        upload_question: "Deze emoji's uploaden naar deze server?\n Als je niet de eigenaar bent van al deze emoji's, kies dan N."
+        uploaded:
+          one: '%{count} emoji geüpload'
+          many: '%{count} emoji''s geüpload'
+      search:
+        invalid_group: <Ongeldig pakket - Meld dit alstublieft>
+      set_public:
+        needs_publishing: U kunt dit niet doen zonder deze server eerst als een emoji-pakket te publiceren.
+        public_on: Toegestane uitnodigingen via NQN.
+        public_off: Uitgeschakelde uitnodigingen via NQN.
+      show:
+        not_registered: '%{name} is geen geregistreerd emoji-pakket'
+        pack_empty: Dit pakket bevat geen emoji's!
+        join_pack: 'Inhoud van pakket "%{name}":'
+      unpublish:
+        not_published: Deze server is niet eerder gepubliceerd.
+        unpublished: Niet-gepubliceerd emoji-pakket %{name}
+      dm:
+        send_dms:
+          zero: |
+            Je hebt geen pakken!
+            Haal wat met `%{prefix}pack search`
+          one: |
+            Dit zal u een direct bericht sturen; wil je doorgaan?
+          many: |
+            Dit zal je %{count} directe berichten sturen; wil je doorgaan?
+        blocked: |-
+          Je hebt me geblokkeerd, ik kan je geen berichten sturen!
