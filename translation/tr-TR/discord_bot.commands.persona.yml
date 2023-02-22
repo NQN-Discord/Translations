@@ -1,0 +1,74 @@
+discord_bot:
+  commands:
+    persona:
+      not_enabled: |
+        Persona'ları bu sunucuda etkinleştirilmemiştir.
+        Kullanıcıların NQN ile ⚠️**özel kullanıcı adları** ve **avatarlar**⚠️ kullanmasına izin verir, bu nedenle varsayılan olarak etkin değildir.
+      enable_personas: Persona'ları etkinleştir
+      name_regex: |
+        Persona adları yalnızca alfasayısal, tire ve alt çizgi içerebilir ve en fazla 80 karakter uzunluğunda olabilir.
+        > '%{persona_name}' bu gereksinimlerle eşleşmiyor.
+      max_display_name: |
+        Kullanıcı adları en fazla 80 karakter uzunluğunda olabilir
+      persona_doesnt_exist: |
+        %{short_name} adında bir personan yok!
+        `%{prefix}persona register %{short_name}` ile bir tane oluştur
+      export:
+        exported_list_short: |
+          İşte dışa aktarılan persona'ların, Tupperbox ve Pluralkit ile uyumlu olmalılar.
+        exported_list_long: |
+          İşte dışa aktarılan persona'ların, Tupperbox ve Pluralkit ile uyumlu olmalılar.
+          Bunları diğer insanlarla paylaşmak için kullanmaları gerekir:
+          > `%{prefix}persona import %{url}`
+      import_:
+        import_incorrect: |
+          Bu komut, daha önce `%{prefix}persona export` ile dışa aktarılan bir kişi listesini veya PluralKit ve Tupperbox'tan eşdeğer dışa aktarma komutlarını içe aktarmak için kullanılır.
+          Bir persona oluşturmak için `%{prefix}persona register` kullanın
+        import_text: Bu komutun bir json dosyası ekine ihtiyacı var
+        set_personas:
+          one: Bir persona içe aktarıldı
+          many: '%{count} persona içe aktarıldı'
+        invalid_persona: Bu girişi yok sayarak dosyanın geri kalanını içe aktarmaya devam etmek istiyor musunuz?
+      list:
+        no_personas: |
+          Hiç bir personan yok!
+      register:
+        display_name: Kullanıcı adı
+        avatar_url: Avatar URL'si
+        create: Persona Oluştur
+        persona_exists: |
+          Zaten %{short_name} adında bir personan var.
+          `%{prefix}persona rename %{short_name} new_name` ile yeniden adlandırabilirsiniz
+        registered_persona: |
+          Persona %{short_name} olarak kaydedildi!
+          Mesajları onlar gibi göndermek için `%{short_name}:` ile başlayan bir mesaj gönderin, örneğin:
+          > ```%{short_name}: Merhaba!```
+          Kullanıcı adlarını mesajlarda 'NQN' olarak değiştirmek için şunu kullanın:
+          > ```%{prefix}persona display_name %{short_name} NQN```
+          Avatarlarını mesajlarda değiştirmek için şunu çalıştırın:
+          > ```%{prefix}persona avatar_url %{short_name} https://...```
+      rename:
+        renamed_persona: |
+          %{old_name}, %{new_name} olarak yeniden adlandırıldı.
+      avatar_url:
+        persona_avatar_url: |
+          %{short_name}'nin avatarını ayarla.
+        avatar_regex: |
+          Avatarlar kullanmak istediğiniz görsele URL olarak verilmelidir.
+      delete:
+        persona_deleted: |
+          %{short_name} ile ilgili bilgiler silindi.
+      display_name:
+        renamed_persona_display_name: |
+          %{short_name} kullanıcı adını %{display_name} olarak ayarlandı.
+      dm:
+        send_dms:
+          zero: |
+            Hic bir personan yok!
+            `%{prefix}persona register` ile biraz alın
+          one: |
+            Bu size doğrudan mesaj gönderecek; devam etmek istiyor musun?
+          many: |
+            Bu size %{count} doğrudan mesaj gönderecek; devam etmek istiyor musun?
+        blocked: |
+          Beni engelledin, sana mesaj atamıyorum!
