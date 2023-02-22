@@ -1,0 +1,35 @@
+discord:
+  ext.commands.help:
+    need_emojis: ' - Tôi cần quyền này để dùng emoji!'
+    need_help: ' - Tôi cần quyền này để thực hiện lệnh "help"!'
+    nothing: ''
+    choose_page: Tìm kiếm lệnh
+    please_give: Tôi không thể hoạt động chính xác nếu thiếu những quyền này!
+    fix_perms: |
+      - **[Chỉnh sửa quyền trong server](%{invite_url})**
+    nqn_help: Trợ giúp NQN
+    my_prefix: |
+      Prefix của tôi trong server này là `%{prefix}`
+    react_with_x_to_delete: |
+      Phản hồi với ❌ (\:x:) để xóa tin nhắn vừa được thay thế!
+    user_ignored: |
+      Tin nhắn của bạn sẽ bị **BỎ QUA** khi bạn gửi tin mà thông thường chúng phải được thay thế. Để cho phép NQN tiếp tục thay thế tin nhắn của bạn, dùng:
+      > `%{prefix}ignore_me`
+    categories: Danh mục
+    everything_else: Những thứ khác
+    really_useful: Những lệnh cực hữu dụng
+    useful_links: 'Các link hữu dụng:'
+    website: Trang web
+    vote: Vote!
+    support: Hỗ trợ
+    emote_list: Emoji của tôi
+    top_gg_vote: Vote cho tôi trên [top.gg](https://top.gg/bot/559426966151757824/vote) để giúp chúng tôi tiếp cận được nhiều người dùng hơn, đồng thời làm tăng sự phong phú về số lượng emoji khi tôi tham gia server mới.
+    bfd_vote: Cho tôi 1 vote trên [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) để giúp chúng tôi tăng xuất hiện ở nhiều server hơn. Cứ mỗi server mới mà tôi tham gia thì số lượng emoji tôi có thể dùng cũng sẽ nhiều hơn.
+    what_is: Not Quite Nitro là gì?
+    bot_description: |
+      Not Quite Nitro (NQN) là một bot tiện ích giúp bạn có thể dùng nhiều emoji cần Nitro.
+      Chúng tôi có một hệ thống lưu trữ cực lớn với nhiều emoji độc lạ mà bạn có thể dùng trong mọi server có bot này với quyền Quản lý Webhook được bật cho nó.
+
+      NQN cũng thực hiện tự động trích dẫn mỗi khi người dùng gửi link đến một tin nhắn, tận dụng khả năng của hyperlink trong nhắn tin và sticker, hay còn là emoji cỡ lớn.
+
+      Bạn có thể mời tôi vào [server của bạn](https://discord.com/api/oauth2/authorize?%{params}).
