@@ -1,0 +1,830 @@
+command_docs:
+  gain_access_to_emojis:
+    name: 享用表情符號
+  block_emote:
+    name: 封鎖表情符號
+  audit_messages:
+    name: 審核 NQN 的訊息
+  delete_message:
+    name: 刪除訊息
+  edit_message:
+    name: 編輯訊息
+  find_author:
+    name: 尋找訊息作者
+  alias:
+    name: 表情符號別號
+    short_doc: 管理您可以使用的表情符號
+    help: |
+      管理您可以使用的表情符號
+
+      NQN 的搜索有一些強大功能：
+       - `exact`：（預設為 false）僅顯示與搜索字句一模一樣名稱的表情符號
+       - `animated`：僅顯示動畫或靜態表情符號
+       - `page`：跳到某個頁面
+       - `order`：用「使用次數」或「隨機」作為頁面排序
+  alias-delete:
+    name: 刪除
+    short_doc: 不想再使用表請符號別號了嗎？使用此指令
+    params:
+      alias:
+        name: 表情符號別號
+        description: |-
+          您想刪除哪個表情符號別號？
+  alias-delete_all:
+    name: 全部刪除
+    short_doc: 我不喜歡我全部表情符號包的別號
+    help: |
+      刪除全部表情符號的別號
+  alias-dm:
+    name: 私人訊息
+    short_doc: 在私人訊息中獲取您擁有的表情符號別號的完整列表
+    help: |
+      在私人訊息中獲取您擁有的表情符號別號的完整列表
+  alias-export:
+    name: 導出
+    short_doc: 導出您的表情符號別號
+  alias-import:
+    name: 導入
+    short_doc: 導入其他人的表情符號別號
+    params:
+      file:
+        name: 文件
+        description: |-
+          以前使用 /alias export 導出的文件
+  alias-mine:
+    name: 屬於我的
+    short_doc: 獲取您所有已創建的表情符號別號的列表
+    params:
+      page:
+        name: 頁面
+        description: |-
+          從哪個頁面開始？
+  alias-rename:
+    name: 重新命名
+    short_doc: 重新命名其中一個表情符號的別號
+    params:
+      old_name:
+        name: 舊的名字
+        description: |-
+          您想重新命名的表情符號是叫甚麼名字？
+      new_name:
+        name: 新的名字
+        description: |-
+          新的名字
+  alias-search:
+    name: 搜索
+    short_doc: 尋找表情符號
+    help: |
+      尋找您可以使用的表情符號
+
+      NQN 的搜索有一些強大功能：
+       - `exact`：（預設為 false）僅顯示與搜索字句一模一樣名稱的表情符號
+       - `animated`：僅顯示動畫或靜態表情符號
+       - `page`：跳到某個頁面
+       - `order`：用「使用次數」或「隨機」作為頁面排序
+  audit:
+    name: 紀錄
+    short_doc: 獲取此頻道由 NQN 轉發的訊息的紀錄
+    help: |
+      獲取此頻道由 NQN 轉發的訊息的紀錄
+      可選[Channel] -> 僅獲取在此頻道發佈的訊息
+      可選[Member] -> 僅獲取由其中一個伺服器成員發佈的訊息
+
+      如果頻道和伺服器成員都不用過濾，請則使用「audit guild」
+  delete:
+    name: 刪除
+    short_doc: 刪除其中一條 NQN 轉發由您發佈的訊息
+    help: |
+      刪除其中一條 NQN 轉發由您發佈的訊息。
+      在預設情況下，您在此頻道中的最新被轉發的訊息會被刪除，但您可以選擇提供訊息鏈結以刪除該訊息。
+      您還可以使用 Discord 的訊息回覆功能來刪除該訊息。
+  edit:
+    name: 編輯
+    short_doc: 編輯其中一條 NQN 轉發由您發佈的訊息
+    help: |
+      編輯其中一條 NQN 轉發由您發佈的訊息。
+      在預設情況下，您在此頻道中的最新被轉發的訊息會被編輯，但您可以選擇提供訊息鏈結以編輯該訊息。
+      您還可以使用 Discord 的訊息回覆功能來編輯該消息。
+  emote:
+    name: 表情符號
+    short_doc: 管理您伺服器中的表情符號
+  emote-block:
+    name: 封鎖
+    short_doc: 禁止任何人使用其中一個表情符號
+    help: |
+      搜索在伺服器中要封鎖的表情符號。
+      當有人使用此表情符號時，它會自動被刪除。
+  emote-block-from_emote:
+    name: 來至表情符號
+    short_doc: 禁止任何人使用其中一個表情符號
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          您想禁止人使用哪個表情符號？
+  emote-block-from_search:
+    name: 來至搜索
+    short_doc: 禁止任何人使用其中一個表情符號
+  emote-block-recently_used:
+    name: 最近使用
+    short_doc: 禁止任何人使用其中一個表情符號
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          您想禁止人使用哪個表情符號？
+  emote-block_list:
+    name: block_list
+    short_doc: 查看所有在此伺服器器中被禁止使用表情符號的黑名單
+  emote-info:
+    name: 資訊
+    short_doc: 獲取有關一個表情符號的資訊
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          您想獲取哪個表情符號的資訊？
+  emote-jumbo:
+    name: 放大
+    short_doc: 放大表情符號
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          您想放大哪個表情符號？
+  emote-rolelock:
+    name: 鎖定身分組
+    short_doc: 將表情符號鎖定到只有一個特定的身分組的成員使用
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          您想鎖定哪個表情符號？
+      role:
+        name: 身分組
+        description: |-
+          您想鎖定表情符號到哪個身分組？
+  emote-roleunlock:
+    name: 解鎖身分組
+    short_doc: 允許所有人使用一個之前被鎖定的表情符號
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          您想解鎖哪個表情符號？
+  emote-stats:
+    name: 數據
+    short_doc: 查看您伺服器中的表情符號的用量
+  emote-unblock:
+    name: 解除封鎖
+    short_doc: 移除以前被禁止使用的表情符號的限制
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          您想移除哪個表情符號的限制？
+  emote-upload:
+    name: 上傳
+    short_doc: 上傳表情符號
+    help: |
+      搜索機器人所有以前見過的表情符號並將它們上傳到此伺服器。
+      此指令也允許您上傳表情符號，您只需附加文件上傳
+  emote-upload-from_attachment:
+    name: 來至附件
+    short_doc: 從附件上傳表情符號
+    params:
+      attachment:
+        name: 附件
+        description: |-
+          表情符號的圖像
+  emote-upload-from_emote:
+    name: 來至表情符號
+    short_doc: 從名字或鏈結上傳表情符號
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          表情符號或者表情符號的鏈結
+  emote-upload-from_search:
+    name: 來至搜索
+    short_doc: 搜索表情符號以上傳到您的伺服器
+  export:
+    name: 導出
+    short_doc: 導出您的表情符號的列表
+  help:
+    name: 指南
+    short_doc: 了解更多有關我的指令的資訊
+    params:
+      command:
+        name: 指令
+        description: |-
+          您想知道甚麼？
+    help: |
+      了解更多有關我的指令的資訊
+  ignore_me:
+    name: 忽視我
+    short_doc: 停止 NQN 轉發您的訊息
+    help: |
+      使用此指令會​​禁止 NQN 在您與機器人共享的任何伺服器中轉發您的任何訊息。
+      - 指令仍處於啟用狀態，再次運行此指令可恢復 NQN 轉發您的訊息
+      - 您仍然可以通過我們的 [dashboard](https://nqn.blue) 轉發訊息
+      - 機器人不會響應您發送的任何通過 Webhook 轉發的訊息
+  info:
+    name: 資訊
+    short_doc: 關於機器人的內部數據
+  invite_me:
+    name: 邀請
+    short_doc: 新增NQN至您的伺服器！
+  mod:
+    name: 管理
+    short_doc: NQN 管理工具
+  mod-audit:
+    name: 紀錄
+    short_doc: 獲取此頻道由 NQN 轉發的訊息的紀錄
+    params:
+      channel:
+        name: 頻道
+        description: |-
+          只獲取在此頻道的訊息
+      user:
+        name: 用戶
+        description: |-
+          只獲取由此用戶發送的訊息
+    help: |
+      獲取此頻道由 NQN 轉發的訊息的紀錄
+      可選[Channel] -> 僅獲取在此頻道發佈的訊息
+      可選[Member] -> 僅獲取由其中一個伺服器成員發佈的訊息
+
+      如果頻道和伺服器成員都不用過濾，請則使用「audit guild」
+  mod-ban:
+    name: 停權
+    short_doc: 對發送訊息的用戶停權
+  mod-edit_topic:
+    name: 編輯頻道主題
+    short_doc: 將動態表情符號新增至頻道主題
+    params:
+      description:
+        name: 頻道主題
+        description: |-
+          新的頻道主題（可以包括表情符號）
+    help: |
+      編輯頻道主題，以及在主題中加入動態表情符號！
+  mod-kick:
+    name: 踢出
+    short_doc: 提出發送訊息的用戶
+  mod-move:
+    name: 移動
+    short_doc: 將最多50條在當前頻道中的訊息移至另一個頻道
+    params:
+      channel:
+        name: 頻道
+        description: |-
+          移至的頻道
+      messages:
+        name: 訊息數量
+        description: |-
+          移動幾多條訊息？
+  mod-purge:
+    name: 刪除
+    short_doc: 刪除一些在當前頻道由 NQN 轉發的訊息
+  mutuals:
+    name: 共同伺服器
+    short_doc: 查看您和我的共同伺服器
+  my_emotes:
+    name: 我的表情符號
+    short_doc: 查看我可以通過 NQN 使用的表情符號
+    params:
+      page:
+        name: 頁面
+        description: |-
+          顯示哪個表情符號？
+        choices:
+          current_server: 當前的伺服器
+          mutual_servers: 共同的伺服器
+          aliases: 表情符號別號
+          packs: 表情符號包
+  owner:
+    name: 主人
+    short_doc: 禁忌的知識潛伏在裡面
+  nqn:
+    name: nqn
+    short_doc: 透過 NQN 發佈訊息
+  nqn-message:
+    name: 訊息
+    short_doc: 發佈訊息（可以包含表情符號）
+    params:
+      message:
+        name: 訊息
+        description: |-
+          要發佈的訊息
+      persona:
+        name: 角色
+        description: |-
+          使用哪個角色
+      attachment:
+        name: 附件
+        description: |-
+          上傳附件
+  nqn-single_emoji:
+    name: 單一表情符號
+    short_doc: 發佈只有一個表情符號的訊息
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          發佈哪個表情符號
+      persona:
+        name: 角色
+        description: |-
+          使用哪個角色
+  pack:
+    name: 表情符號包
+    short_doc: 管理整個表情符號包
+  pack-dm:
+    name: 私訊
+    short_doc: 在私人訊息中獲取您擁有的表情符號包的完整列表
+    help: |
+      在私人訊息中獲取您擁有的表情符號包的完整列表.
+  pack-join:
+    name: 加入
+    short_doc: 加入表情符號包
+    params:
+      pack:
+        name: 表情符號包
+        description: |-
+          加入哪個表情符號包？
+  pack-leave:
+    name: 退出
+    short_doc: 退出表情符號包
+    params:
+      pack:
+        name: 表情符號包
+        description: |-
+          退出哪個表情符號包？
+  pack-meta:
+    name: 資訊
+    short_doc: 喔……關於您的表情符號包的漂亮統計數據
+  pack-mine:
+    name: 屬於我的
+    short_doc: 獲取您所有已加入的表情符號包的列表
+  pack-publish:
+    name: 發佈
+    short_doc: 發佈伺服器為表情符號包
+    params:
+      name:
+        name: 名稱
+        description: |-
+          您想給表情符號包起甚麼名字？
+      public:
+        name: 公開
+        description: |-
+          您允許任何人不需通過邀請直接加入此伺服器嗎？
+  pack-rename:
+    name: 重新命名
+    short_doc: 重新命名表情符號包
+    params:
+      new_name:
+        name: 新的名字
+        description: |-
+          您想給表情符號包起甚麼名字？
+  pack-save:
+    name: 儲存
+    short_doc: 將表情符號包中的所有表情符號上傳到此伺服器
+    params:
+      name:
+        name: 名稱
+        description: |-
+          您從哪個表情符號包下載表情符號到此伺服器？
+  pack-search:
+    name: 搜索
+    short_doc: 搜索整個表情符號包
+    params:
+      search:
+        name: 搜索
+        description: |-
+          您在尋找哪類的表情符號？
+      page:
+        name: 頁面
+        description: |-
+          從哪個頁面開始？
+  pack-set_public:
+    name: 公開
+    short_doc: 允許任何人通過 NQN 加入此伺服器。
+    params:
+      enabled:
+        name: 已啟用
+        description: |-
+          允許任何人不需通過邀請直接加入此伺服器？
+  pack-show:
+    name: 顯示
+    short_doc: 顯示表情符號包的內容：
+    params:
+      pack:
+        name: 表情符號包
+        description: |-
+          哪個表情符號包？
+  pack-unpublish:
+    name: 下架
+    short_doc: 不想再讓此伺服器成為表情符號包？
+  persona:
+    name: 角色
+    short_doc: 管理您的角色
+  persona-avatar_url:
+    name: 頭像鏈結
+    short_doc: 設置角色的頭像
+    params:
+      persona:
+        name: 角色
+        description: |-
+          您想重新命名哪個角色？
+      avatar_url:
+        name: 頭像鏈結
+        description: |-
+          新的頭像鏈結是甚麼？
+  persona-delete:
+    name: 刪除
+    short_doc: 刪除您其中一個角色
+    params:
+      persona:
+        name: 角色
+        description: |-
+          刪除哪個角色?
+  persona-display_name:
+    name: 名稱
+    short_doc: 重新設置角色的名稱
+    params:
+      persona:
+        name: 角色
+        description: |-
+          您想重新命名哪個角色？
+      display_name:
+        name: 名稱
+        description: |-
+          新的名字是甚麼？
+  persona-dm:
+    name: 私訊
+    short_doc: 在私人訊息中獲取您所有角色的完整列表
+  persona-export:
+    name: 導出
+    short_doc: 導出您所有角色的列表
+    help: |
+      導出您所有角色、並且能夠與其他機器人兼容的列表，
+  persona-import:
+    name: 導入
+    short_doc: 導入以前導出的角色列表
+    params:
+      file:
+        name: 文件
+        description: |-
+          以前使用 /persona 導出的文件
+    help: |
+      導入以前導出的角色列表，並且與 PluralKit 和 Tupperbox 兼容。
+  persona-list:
+    name: 列表
+    short_doc: 查看您所有角色的列表
+  persona-register:
+    name: 創建
+    short_doc: 創建新的角色
+    params:
+      short_name:
+        name: 簡稱
+        description: |-
+          您的角色的簡稱是甚麼？
+  persona-rename:
+    name: 重新命名
+    short_doc: 重新命名您其中一個角色
+    params:
+      persona:
+        name: 角色
+        description: |-
+          您想重新命名哪個角色的簡稱？
+      new_name:
+        name: 新的名字
+        description: |-
+          新的簡稱是甚麼？
+  premium:
+    name: 高級版
+    short_doc: 高級版的東西
+  premium-check:
+    name: 檢查
+    short_doc: 重新計算您的高級版的資訊
+    help: |
+      重新計算您的高級版的資訊，包括所有從您獲得高級版的伺服器。
+  premium-help:
+    name: 指南
+    short_doc: NQN 高級版的資訊
+  ranking:
+    name: 排名
+    short_doc: 您的伺服器排名多高？
+  react:
+    name: 新增反應
+    short_doc: 在訊息上新增表情符號反應
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          新增哪個表情符號為反應？
+      message:
+        name: 訊息
+        description: |-
+          新增反應到哪個訊息？
+    help: |
+      使用 Discord 回覆或訊息鏈結對該訊息新增反應。
+      此指令允許用戶新增多於一個反應，每個反應會將按指定的順序添加。
+      **您還需要對已添加的反應做出反應，以使它們得以保持。**
+  server:
+    name: 伺服器
+    short_doc: 伺服器配置
+  server-alias:
+    name: 表情符號別號
+    short_doc: 伺服器表情符號別號
+  server-alias-delete:
+    name: 刪除
+    short_doc: 不喜歡表情符號？
+    params:
+      alias:
+        name: 表情符號別號
+        description: |-
+          您想刪除哪個表情符號別號？
+  server-alias-import:
+    name: 導入
+    short_doc: 導入一系列伺服器的表情符號別號的文件。
+    params:
+      file:
+        name: 文件
+        description: |-
+          以前使用 /alias export 導出的文件
+  server-alias-list:
+    name: 列表
+    short_doc: 顯示任何伺服器成員都可以使用的表情符號別號
+    params:
+      page:
+        name: 頁面
+        description: |-
+          從哪個頁面開始？
+  server-alias-post:
+    name: 發佈
+    short_doc: 發佈一系列伺服器表情符號別號
+    params:
+      channel:
+        name: 頻道
+        description: |-
+          您想發佈伺服器表情符號列表到哪個頻道？
+  server-alias-rename:
+    name: 重新命名
+    short_doc: 重新命名其中一個伺服器的表情符號別號
+    params:
+      old_name:
+        name: 舊的名字
+        description: |-
+          您想重新命名的表情符號是叫甚麼名字？
+      new_name:
+        name: 新的名字
+        description: |-
+          新的名字
+  server-alias-search:
+    name: 搜索
+    short_doc: 允許所有人使用伺服器表情符號！
+  server-dashboard_posting:
+    name: 由dashboard發佈
+    short_doc: 允許或禁止管理者使用機器人的 Dashboard 發佈訊息
+  server-audit_channel:
+    name: 紀錄頻道
+    short_doc: 紀錄由NQN轉發的訊息
+    params:
+      channel:
+        name: 頻道
+        description: |-
+          您想在哪個頻道紀錄NQN轉發的訊息？(None -> 沒有頻道)
+  server-language:
+    name: 語言
+    short_doc: 設置機器人的語言 %{locale_flag_emojis}
+  server-link:
+    name: 鏈結
+    short_doc: 創建一個靜態表情符號，以致當用戶使用它時會發佈為其動畫版本！
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          請選擇一個表情符號以創建靜態版本：
+  server-masked_links:
+    name: 隱蔽網址
+    short_doc: 在此伺服器中啟用或禁用隱蔽網址
+  server-nitro:
+    name: nitro
+    short_doc: 在此伺服器中啟用或禁用免費 Nitro 功能
+  server-pack:
+    name: 表情符號包
+    short_doc: 伺服器表情符號包
+  server-pack-join:
+    name: 加入
+    short_doc: 為整個伺服器加入一個表情符號包
+    params:
+      pack:
+        name: 表情符號包
+        description: |-
+          您想讓這個伺服器中的每個成員使用哪個表情符號包？
+  server-pack-leave:
+    name: 退出
+    short_doc: 為整個伺服器退出一個表情符號包
+    params:
+      pack:
+        name: 表情符號包
+        description: |-
+          您想禁止伺服器中成員使用哪個表情符號包？
+  server-pack-list:
+    name: 列表
+    short_doc: 顯示任何伺服器成員都可以使用的表情符號包
+  server-pack-post:
+    name: 發佈
+    short_doc: 發佈一系列伺服器表情符號包
+  server-pack-search:
+    name: 搜索
+    short_doc: 搜索表情符號包以將伺服器加入到該表情符號包
+  server-permissions_debug:
+    name: 權限調試
+    short_doc: 讓 NQN 告訴您機器人缺少了哪些權限
+  server-personas:
+    name: 角色
+    short_doc: 在此伺服器中啟用或禁用角色
+    help: |
+      允許用戶使用自訂用戶名和頭像發佈訊息
+  server-pings:
+    name: 提及
+    short_doc: 在此伺服器中允許或禁止在訊息提及
+    help: |
+      在此伺服器中允許或禁止在由 NQN 轉發的訊息提及
+  server-phish_detection:
+    name: 檢查可疑訊息
+    short_doc: 已允許或禁止在此伺服器中檢查可疑訊息
+  server-prefix:
+    name: 前綴
+    short_doc: 更改 NQN 的前綴
+    help: |
+      更改 NQN 的前綴
+
+      示例（將前綴改為 `?`）：
+      >>> %{prefix}server prefix <@%{bot_id}> ?
+    signature: |
+      @NQN#3454 [前綴=!]
+  server-message_link_previews:
+    name: 預覽訊息鏈結
+    short_doc: 在此伺服器中啟用或禁用預覽訊息鏈結功能
+  server-settings:
+    name: 設置
+    short_doc: 查看伺服器的設置
+    help: |
+      查看 NQN 在的伺服器設置，包括功能、配置的頻道和表情符號包的資訊。
+  server-boost_channel:
+    name: 加成頻道
+    short_doc: 每當有人在 top.gg 上透過伺服器投票時發佈訊息
+  server-boost_role:
+    name: 加成身分組
+    short_doc: 當用戶通過 NQN 加成此伺服器時授予用戶此身分組
+  server-nitro_role:
+    name: 加成身分組
+    short_doc: 要求用戶需要具有特定的身分組才能使用 NQN
+    help: |
+      要求用戶需要具有特定的身分組才能使用 NQN 轉發訊息的功能
+    params:
+      role:
+        name: 身分組
+        description: |-
+          用戶需要使用 NQN 轉發訊息的功能的身分組
+  server-stickers:
+    name: 貼圖
+    short_doc: 在此伺服器中啟用或禁用貼紙
+  server-user_content:
+    name: 用戶內容
+    short_doc: 在此伺服器中啟用或禁用表情符號別號和表情符號包
+  sticker:
+    name: 貼圖
+    short_doc: 管理您 NQN 裡的表情符號
+  sticker-create:
+    name: 創建
+    short_doc: 創建貼圖
+    help: |
+      從附件創建貼圖
+      請同時上傳附件和使用此指令以創建貼圖。
+      您上傳附件的檔案名稱會將是貼圖的名稱，您也可以輸入自訂名稱 `sticker create BluePat.png`。
+      在 NQN，貼圖名稱只可以使用一次，當任何人已使用某個名稱，其他人並不可以取用。
+      上傳檔案大小最大為 8MB，名稱只能是英文字母和數字。
+      上傳檔案的副檔名也必須是英文字母和數字。
+  sticker-create-from_attachment:
+    name: 來至附件
+    short_doc: 創建貼圖
+    params:
+      sticker:
+        name: 貼圖
+        description: |-
+          新增為貼圖的圖像
+      name:
+        name: 名稱
+        description: |-
+          怎麼命名您的貼圖。必須是帶有 `.` 、英文字母或數字，例如 `nqn.nqn`
+  sticker-create-from_emote:
+    name: 來至表情符號
+    short_doc: 從表情符號導入貼圖
+    params:
+      emoji:
+        name: 表情符號
+        description: |-
+          …
+      name:
+        name: 名稱
+        description: |-
+          怎麼命名您的貼圖。必須是帶有 `.` 、英文字母或數字，例如 `nqn.nqn`
+  sticker-create-from_search:
+    name: 來至搜索
+    short_doc: 從表情符號導入貼圖
+  sticker-create-from_telegram:
+    name: 來至-telegram
+    short_doc: 從 Telegram 導入貼圖
+    params:
+      telegram_packname:
+        name: telegram-貼圖包名稱
+        description: |-
+          Telegram 貼圖包的鏈結
+  sticker-delete:
+    name: 刪除
+    short_doc: 刪除您的貼圖
+    params:
+      name:
+        name: 名稱
+        description: |-
+          刪除哪個貼圖
+  sticker-import:
+    name: 導入
+    short_doc: 從表情符號導入貼圖
+    help: |
+      從表情符號導入貼圖
+      可以直接來自表情符號，帶有可選別號
+       - sticker import :blue_smirk: smirk.png
+      或者通過搜索 NQN 的表情符號。
+       - sticker import blue pat
+      請注意，通過搜索功能導入貼圖的話並不支持新增別號
+  sticker-mine:
+    name: 屬於我的
+    short_doc: 搜索我的貼圖
+  sticker-rename:
+    name: 重新命名
+    short_doc: 重新命名您的貼圖
+    params:
+      old_name:
+        name: 舊的名字
+        description: |-
+          重新命名哪個貼圖
+      new_name:
+        name: 新的名字
+        description: |-
+          新的名字
+  sticker-search:
+    name: 搜索
+    short_doc: 搜索所有 NQN 有的表情符號，可以帶有搜索字句
+    params:
+      search:
+        name: 搜索
+        description: |-
+          搜索甚麼？
+  sticker-telegram:
+    name: telegram
+    short_doc: 從 Telegram 導入貼圖
+  support:
+    name: 支援
+    short_doc: 需要一些有關使用我的援助嗎？
+  tutorial:
+    name: 使用指南
+    short_doc: 了解如何利用 NQN 使用表情符號
+    params:
+      about:
+        name: 關於
+        description: |-
+          您想知道甚麼？
+  whois:
+    name: 誰
+    short_doc: 查找發佈訊息的用戶
+  _search:
+    params:
+      search:
+        name: 搜索
+        description: |-
+          您在尋找甚麼？
+      exact:
+        name: 一模一樣
+        description: |-
+          僅顯示具有跟輸入字句一模一樣名稱的表情符號
+      animated:
+        name: 動畫
+        description: |-
+          只顯示動畫或靜態表情符號？
+      page:
+        name: 頁面
+        description: |-
+          由第一頁以後的頁面開始
+      order:
+        name: 排序
+        description: |-
+          用哪個方法作為頁面排序
+        choices:
+          random: 隨機
+          relevance: 關聯
