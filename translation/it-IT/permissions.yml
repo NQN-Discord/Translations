@@ -1,0 +1,75 @@
+permissions:
+  add_reactions: |-
+    Aggiungi Reazioni
+  administrator: |-
+    Amministratore
+  attach_files: |-
+    Allega File
+  ban_members: |-
+    Bandisci Membri
+  change_nickname: |-
+    Modifica Soprannome
+  connect: |-
+    Connetti
+  create_instant_invite: |-
+    Crea Invito Istantaneo
+  deafen_members: |-
+    Silenzia Membri
+  embed_links: |-
+    Incorpora Link
+  external_emojis: |-
+    Emoji Esterne
+  kick_members: |-
+    Espelli Membri
+  manage_channels: |-
+    Gestisci Canali
+  manage_emojis: |-
+    Gestisci Emoji
+  manage_guild: |-
+    Gestisci Server
+  manage_messages: |-
+    Gestisci Messaggi
+  manage_nicknames: |-
+    Gestisci Soprannomi
+  manage_permissions: |-
+    Gestisci Ruoli
+  manage_roles: |-
+    Gestisci Ruoli
+  manage_threads: |-
+    Gestisci Thread
+  manage_posts: |-
+    Gestisci Post
+  manage_webhooks: |-
+    Gestisci Webhook
+  mention_everyone: |-
+    Menziona Tutti
+  move_members: |-
+    Sposta Membri
+  mute_members: |-
+    Muta Membri
+  priority_speaker: |-
+    Priorità di Parola
+  read_message_history: |-
+    Leggi Cronologia Messaggi
+  read_messages: |-
+    Leggi Messaggi
+  send_messages: |-
+    Invia Messaggi
+  send_tts_messages: |-
+    Invia Messaggi TTS
+  speak: |-
+    Parla
+  stream: |-
+    Stream
+  use_external_emojis: |-
+    Usa Emoji Esterne
+  use_public_threads: |-
+    Usa Thread Pubblici
+  use_voice_activation: |-
+    Usa Attivazione Vocale
+  view_audit_log: |-
+    Visualizza Registro di Controllo
+  view_channel: |-
+    Visualizza Canale
+  view_guild_insights: |-
+    Visualizza Informazioni Server
