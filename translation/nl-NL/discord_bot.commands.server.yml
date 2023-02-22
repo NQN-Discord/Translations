@@ -1,0 +1,142 @@
+---
+discord_bot:
+  commands:
+    server:
+      alias:
+        set_emote_title: 'Stel \:%{name}: in op %{emote} voor deze server.'
+        set_emote_description:
+          zero: |
+            Deze server heeft geen emoji's meer!
+            Voor meer aliassen kan iedereen op de bot stemmen op %{url}
+
+            Iedereen kan deze emoji gebruiken door te typen:
+          one: |
+            Deze server heeft nog één emoji over voordat deze zijn maximum bereikt.
+            Voor meer aliassen kan iedereen op de bot stemmen op %{url}
+
+            Iedereen kan deze emoji gebruiken door te typen:
+          many: |
+            Deze server heeft nog %{count} emoji's over voordat deze zijn maximum bereikt.
+            Voor meer aliassen kan iedereen op de bot stemmen op %{url}
+
+            Iedereen kan deze emoji gebruiken door te typen:
+        failed_aliases:
+          one: |
+            Eén alias die niet kan worden weergegeven
+          many: |
+            %{failed_aliases} aliassen die niet kunnen worden weergegeven
+        max_title: Deze server heeft al zijn maximale aantal emoji's/pakketten!
+        max_description: |
+          :%{name}: is niet toegevoegd als server-emoji.
+
+          Voor meer aliassen/pakketten kan iedereen op de bot stemmen op %{url}
+        no_alias: Deze server heeft geen alias met de naam %{name}
+        renamed: 'Hernoemd %{emote} van \:%{name}: naar :%{new}:'
+        no_aliases: Deze server heeft geen wereldwijde aliassen
+      nitro_role:
+        unset: Iedereen op deze server kan gratis Nitro-emoji's gebruiken met NQN
+        set: Nu kunnen alleen gebruikers met de rol %{role} gratis Nitro-emoji's gebruiken met NQN
+      audit_channel:
+        unset: Schakel het audit-kanaal voor deze server uit
+        set: Stel het audit-kanaal voor deze server in voor %{channel}
+        no_webhooks: "Ik kan geen webhook-berichten plaatsen op %{channel}.\nGeef me daar 'Webhooks Beheren'!"
+      boost_channel:
+        unset: Schakel het boostkanaal voor deze server uit
+        set: Stel het boostkanaal voor deze server in voor %{channel}
+      boost_role:
+        unset: Schakel de boost-rol voor deze server uit
+        set: Stel de boost-rol voor deze server in voor %{role}
+      boolean_options:
+        stickers_on: Ingeschakelde stickers
+        stickers_off: Uitgeschakelde stickers
+        nitro_on: Gratis nitro-gebruik op deze server ingeschakeld!
+        nitro_off: Gratis nitro-gebruik op deze server uitgeschakeld
+        replies_on: Voorvertoningen van berichtenlinks ingeschakeld
+        replies_off: Voorvertoningen van berichtenlinks uitgeschakeld
+        masked_links_on: Gebruik van gemaskeerde URL's ingeschakeld
+        masked_links_off: Gebruik van gemaskeerde URL's uitgeschakeld
+        pings_on: Vermelden ingeschakeld in opnieuw geposte berichten
+        pings_off: Vermelden uitgeschakeld in opnieuw geposte berichten
+        user_content_on: |
+          Ingeschakeld gebruik van aliassen en pakketten van individuele gebruikers
+          Stickerinstellingen zijn niet gewijzigd.
+        user_content_off: |
+          Uitgeschakeld gebruik van aliassen en pakketten van individuele gebruikers.
+          Alleen aliassen en packs die zijn toegevoegd met `%{prefix}server alias search` en `%{prefix}server pack search` zijn bruikbaar, evenals emoji's van deze server.
+          Stickers zijn ook automatisch uitgeschakeld.
+        personas_on: |
+          Gebruik van persona's ingeschakeld.
+          Hierdoor kan iedereen een aanpasbare gebruikersnaam en avatar instellen; pas op voor nabootsing.
+
+          NQN-medewerkers raden aan om een auditkanaal in te stellen bij gebruik van deze functie; als je dat nog niet hebt gedaan, kan het worden ingeschakeld met
+          > ```!server set_audit_channel #kanaal``` #channel```
+        personas_off: Gebruik van persona's uitgeschakeld
+        dashboard_posting_on: Berichten-plaatsen vanaf het dashboard van de bot ingeschakeld
+        dashboard_posting_off: Berichten-plaatsen vanaf het dashboard van de bot uitgeschakeld
+        phish_detection_on: Detectie van phishingberichten op deze server ingeschakeld
+        phish_detection_off: Detectie van phishingberichten op deze server uitgeschakeld
+      link:
+        no_animated_emotes: |
+          Deze server heeft geen geanimeerde emoji's!
+          Je kunt met deze commando alleen geanimeerde emoji's koppelen.
+        too_many_static: Deze server heeft te veel statische emoji's! Probeer eerst wat te verwijderen.
+        animated_only: Deze commando werkt alleen met geanimeerde emoji's - het maakt ze beschikbaar in de emojikiezer voor niet-nitro-gebruikers als statische!
+        emote_not_found: Kon die emoji niet vinden! Probeer het een alias te geven met `%{prefix}alias search`
+        upload_later: Kan emoji niet uploaden; probeer het over een paar uur opnieuw
+        choose_emote: 'Kies een emoji om een statische link te maken voor:'
+        create_static: Een statische emoji maken?
+        create_static_emote: Een statische emote maken voor %{emote}?
+        uploaded: '%{uploaded} geüpload!'
+        uploaded_emote: "%{uploaded} geüpload!\nGebruik het om %{emote} te krijgen"
+      pack:
+        max_title: Deze server heeft al zijn maximale aantal emoji's/pakketten!
+        max_description: |
+          %{name} is niet toegevoegd als serverpakket.
+
+          Voor meer aliassen/pakketten kan iedereen op de bot stemmen op %{url}
+        left_pack: "'%{guild_name}' heeft %{name} verlaten"
+        not_in_pack: Dit server had om te beginnen geen %{name} als serverpakket
+        invalid_group: <Ongeldig pakket - Meld dit alstublieft>
+        join_server: (Aan Server deelnemen)
+        no_longer_registered: '%{name} is niet langer een geregistreerd emoji-pakket'
+        already_joined: '%{guild_name} is al lid van %{name}'
+        joined_long: |
+          '%{guild_name}' is lid geworden van %{name}.
+          Iedereen op deze server kan nu de volgende emoji's gebruiken door de naam in de chat te typen, inclusief dubbele punten:
+        no_packs: "'%{guild_name}s' is niet deelgenomen aan pakketten wereldwijd!"
+      prefix:
+        instructions: "Om mijn prefix in te stellen, vermeldt u mij vóór het gewenste prefix om onbedoelde wijzigingen te voorkomen.\n> %{prefix}server prefix %{me} %{new}"
+        no_colon_prefix: NQN ondersteunt geen prefixen die beginnen met een dubbele punt (:)
+        no_slash_prefix: NQN ondersteunt geen prefixen die beginnen met een slash (/)
+        set_prefix: Prefix ingesteld op `%{prefix}`
+      language:
+        choose: 'Kies mijn nieuwe taal:'
+        set: Mijn taal is ingesteld op Nederlands
+        this_locale_name: Nederlands
+      config:
+        enabled: Ingeschakeld
+        disabled: Uitgeschakeld
+        prefix: Prefix
+        announcement: Aankondigingskanaal
+        boost_channel: Boost kanaal
+        boost_role: Boost Rol
+        audit_channel: Auditkanaal
+        nitro_role: Nitro Rol
+        stickers: Stickers
+        nitro: Nitro
+        replies: Berichtenlink Voorbeelden
+        masked_links: Gemaskeerde URL's
+        pings: Pings
+        user_content: Gebruikersinhoud
+        personas: Persona's
+        dashboard_posting: Dashboard Posting
+        phish_detection: Phish-detectie
+        invite: Uitnodigingslink
+        pack: Pakket Naam
+        public: Publiek
+        member_count: Leden
+        configure_features: Toggle Functies
+        settings: Instellingen
+        channels: Kanalen
+        features: Functies
+        pack_info: Pakket Info
