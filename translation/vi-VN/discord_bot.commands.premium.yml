@@ -1,0 +1,10 @@
+discord_bot:
+  commands:
+    premium:
+      get_premium: Sở hữu ngay NQN Premium
+      premium_description: |
+        Mặc dù NQN là bot miễn phí, một số tính năng của nó chỉ dành cho premium nhằm hỗ trợ phát triển bot.
+        Nếu bạn cũng muốn giúp, bạn có thể tham gia Patreon của bot: https://www.patreon.com/NQN
+      premium_commands_title: Các lệnh Premium
+      premium_commands_content: |-
+        Những lệnh sau chỉ khả dụng nếu server của bạn có trạng thái premium, có thể được kích hoạt nếu người dùng nào trong server có quyền 'Quản lý' đăng kí cho Patreon của bot.
