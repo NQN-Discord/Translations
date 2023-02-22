@@ -1,0 +1,68 @@
+discord_bot:
+  parameter_types:
+    #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+    SearchTerms:
+      name: پارامتر جستجو
+      description: |-
+        پارامتر جستجو
+    Message:
+      name: پیام
+      description: |-
+        یک پاسخ دیسکورد به پیامی که می خواهید به هدفتان بفرستید
+        - یک آدرس URL پیام (`https://discord.com/channels/123456789/123456789/123456789`)
+        - یک id از کانال فعالی (`123456789`)
+        - IDکانال-IDپیام سرهم (`123456789-123456789`)
+        - چقدر پیام قبل تر در کانال فعلی (`5` پیام قبل تر)
+    PartialEmoji:
+      name: ایموجی
+      description: |-
+        یک ایموجی ظاهر شده دیسکورد یا آدرس URL یک ایموجی
+    TextChannel:
+      name: کانال متنی
+      description: |
+        منشن یک کانال متنی
+    User:
+      name: کاربر
+      description: |
+        منشن یک کاربر
+    Role:
+      name: نقش
+      description: |
+        منشن یا نام یک نقش
+    NQNEmoji:
+      name: ایموجیNQN
+      description: |
+        ایموجی ظاهر نشده‌ای از NQN که می تواند تبدیل شود
+        - یک ایموجی ظاهر شده یسکورد یا آدرس URL یک ایموجی
+    BlockedEmoji:
+      name: ایموجی‌بلاک‌شده
+      description: |-
+        نام ایموجی که در این سرور از استفاده بلاک شده
+    CurrentGuildEmoji:
+      name: ایموجی‌سرور
+      description: |
+        یک ایموجی از این سرور
+    None:
+      name: خالی
+      description: |
+        بدون آرگومان
+    str:
+      name: رشته
+      description: |
+        متن
+    int:
+      name: انتیجر
+      description: |
+        یک عدد
+    bool:
+      name: بولن
+      description: |
+        `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
+    ListConverter:
+      name: لیست
+      description: |-
+        حداقلش
+    Union:
+      name: اتحاد
+      description: |-
+        یکی از موارد زیر:
