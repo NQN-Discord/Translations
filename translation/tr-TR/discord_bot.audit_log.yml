@@ -1,0 +1,20 @@
+discord_bot:
+  audit_log:
+    cropped: (Kırpılmış)
+    nsfw_censored: <Sansürlü; %{channel} NSFW>
+    message_posted: |
+      %{author} %{cropped} tarafından, %{channel} kanalına gönderilen mesaj
+      [Atlama Bağlantısı](%{jump_url})
+    message_posted_persona: |
+      %{author} %{cropped} tarafından, %{channel} kanalına gönderilen mesaj
+      ⚠️ Persona'yı Kullanma ⚠️
+      > **%{persona}**
+      [Atlama Bağlantısı](%{jump_url})
+    message_edited: |
+      %{author} %{cropped} tarafından, %{channel} kanalına düzenlenen mesaj
+      [Atlama Bağlantısı](%{jump_url})
+    phish_deleted: |
+      %{author} tarafından, %{channel} kanalındaki kimlik avı mesajı silindi
+    blocked_message: |
+      %{author} tarafından, %{channel} kanalında engellenen emojiler silinen mesaj
+    audit_log_post: '%{author} (%{id}) adına NQN'
