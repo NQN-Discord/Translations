@@ -1,3 +1,3 @@
 files:
   - source: /translation/en_GB_eng/**/*.yml
-    translation: /translation/%locale_with_underscore%_%three_letters_code%/**/%original_file_name%
+    translation: /translation/%locale%/**/%original_file_name%
