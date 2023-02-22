@@ -1,0 +1,53 @@
+discord_bot:
+  commands:
+    alias:
+      no_alias: "\\:%{name}: adında bir takma adınız yok"
+      could_not_find: Takma ad bulunamadı
+      alphanumeric: Takma adlar yalnızca alfasayısal ve alt çizgi içerebilir
+      max_length: Takma adlar en fazla 32 karakter uzunluğunda olabilir
+      user_zero: Takma adınız yok
+      set_alias: Takma ad ayarla
+      from_message:
+        no_emotes: Bu mesajın içinde herhangi bir özel emoji yok!
+      delete:
+        deleted: '\:%{name}: silindi'
+      delete_all:
+        confirm: |
+          Bu, takma adlarınızın **%{count}** tümünü siler.
+          Devam etmek istediğinizden emin misiniz?
+        deleted:
+          one: 1 takma ad silindi
+          many: '%{count} takma ad silindi'
+      created:
+        one: 'Bir takma ad oluşturdunuz ve şunu yazarak kullanabilirsiniz:'
+        many: '%{count} takma ad oluşturdunuz ve bunları yazarak kullanabilirsiniz:'
+      rename:
+        rename: Takma Adı Yeniden Adlandır
+        alias_name: 'Takma Ad:'
+        renamed: '\:%{old}: yeniden adlandırıldı: :%{new}:'
+      export:
+        exported_short: "Dışa aktarılan takma adlarınız:"
+        exported_long: |
+          Dışa aktarılan takma adlarınız:
+          Bunları diğer insanlarla paylaşmak için kullanmaları gerekir:
+          > `%{prefix}alias import %{url}`
+      import_:
+        import_incorrect: |
+          Bu komut, daha önce `%{prefix}alias export` ile dışa aktarılan bir takma ad listesini içe aktarmak için kullanılır.
+          Takma ad oluşturmak için `%{prefix}takma ad araması` kullanın
+        import_text: Bu komutun bir metin dosyası ekine ihtiyacı var
+        import_lines_invalid: '%{lines_invalid} satırlarında takma adlar ayarlanamadı, geçersiz biçim.'
+        import_set:
+          one: '%{count} takma ad ayarlayın.'
+          many: '%{count} takma ad ayarlayın.'
+      dm:
+        send_dms:
+          zero: |
+            Takma adınız yok!
+            `%{prefix}alias search` ile biraz alın
+          one: |
+            Bu size doğrudan bir mesaj gönderecektir; devam etmek istiyor musun?
+          many: |
+            Bu size %{count} doğrudan mesaj gönderecek; devam etmek istiyor musun?
+        blocked: |-
+          Beni engelledin, sana mesaj atamıyorum!
