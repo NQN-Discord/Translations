@@ -1,0 +1,71 @@
+global:
+  deleted_channel: '#DeletedChannel'
+  author: Author
+  jump_to_message: Jump
+  go_to_message: Go to message!
+  reply_to: 'Reply to:'
+  cancelled: Cancelled
+  website: 网站
+  details: Details
+  fix_permissions: Fix Permissions
+  success: Success
+  yes: Yes
+  no: No
+  dm_me: DM Me
+  next: Next
+  previous: Previous
+  choose_emote: Choose some emotes
+  learn:
+    aliases: Learn more about aliases
+    packs: Learn more about packs
+    my_emotes: Find emojis I can use
+    personas: Learn more about personas
+  missing_permissions: Missing Permissions
+  no_nitro_global: Nitro usage has been disabled in this server!
+  no_nitro_role: Only users with the <@&%{role}> role can use this command!
+  tabulated_default_results:
+    one: "%{count} result (Page %{page_no} of %{total}):\n%{contents}"
+    many: "%{count} results (Page %{page_no} of %{total}):\n%{contents}"
+  tabulated_results_page:
+    zero: No emotes found
+    one: Page %{page_no} of %{total}%{note}
+    many: Page %{page_no} of %{total}%{note}
+  page_no: 'Page %{page} of %{total}:'
+  no_results: No results
+  loading: <a:loading:674758249291186191> Processing...
+  timed_out: Timed out - try again
+  global_check_failed: You are not allowed to use %{cmd_name}
+  requires_user_content: |
+    User content is not allowed in this server.
+  requires_user_content_admin: |
+    User content is not allowed in this server. You can allow it with
+    > ```%{prefix}server user_content on```
+  error_message: |
+    An error occurred whilst processing your command. It may not have completed correctly.
+    For help, and to report this as an issue, please join the testing server for this bot:
+    https://discord.gg/mv8RbHD
+
+    Error code: `%{event_id}`
+  user_abused: |
+    The bot owner or global moderators have blocked you from using this bot due to previous abuse.
+    You cannot use any commands or otherwise make use of the bot's functionality.
+  user_spammed: |
+    You have been temporarily blocked from using NQN for triggering our automated spam detection system.
+    This message will only be sent at most once a day, and there is no way to appeal this block.
+
+    You will be unblocked in under **5 minutes** from now.
+  support_server: |
+    You can join my support server here:
+    http://discord.gg/XvzDPca
+    You can report bugs, request new features or ask for clarifications on how to use me.
+  premium_required: |
+    To do this, you need to be a subscriber to NQN's Patreon: https://www.patreon.com/NQN
+  invite_bad_perms:
+    title: |
+      Hi, thanks for inviting NQN to %{guild_name}!
+    content: |
+      We've looked around and found that we don't quite have all the permissions we need to function properly though.
+      To fix this so you can properly use the bot, a link's been generated which will give all the relevent permissions to the bot:
+
+      **[Fix Permissions](%{invite_url})**
+  webhook_limit: Webhook limit reached! Cannot run in this channel!
