@@ -1,0 +1,37 @@
+discord_bot:
+  commands:
+    emote:
+      info:
+        title: "Thông tin về emoji '%{name}':"
+        id: "ID:"
+        server_daily_uses: "Lượt dùng mỗi ngày trong server này:"
+        server_uses: "Tổng lượt dùng trong server này:"
+        approx_uses:
+          zero: "0"
+          one: "1"
+          many: "~%{count}"
+        total_uses_per_day: "Tổng lượt dùng mỗi ngày:"
+        aka: "Cũng được biết đến như:"
+        locked_roles: "Chỉ dành cho các vai trò:"
+        upload_time: "Được tải lên lúc:"
+        url: "URL:"
+        animated_url: "URL động:"
+        static_url: "URL tĩnh:"
+      rolelock:
+        success: "%{emoji} sẽ chỉ được dùng bởi vai trò %{roles}"
+      roleunlock:
+        success: "Đã gỡ giới hạn dùng cho %{emoji}"
+      block:
+        success:
+          one: "Đã khóa emoji"
+          many: "Đã khóa %{count} emoji"
+        audit:
+          one: |
+            %{author} đã khóa các emoji sau:
+          many: |
+            %{author} đã khóa các emoji sau:
+      unblock:
+        success: "Đã gỡ khóa emoji"
+        not_blocked: "Emoji không bị khóa để gỡ khóa"
+        audit: |
+          %{author} đã gỡ khóa các emoji sau:
