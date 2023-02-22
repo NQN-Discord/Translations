@@ -1,0 +1,10 @@
+discord_bot:
+  commands:
+    premium:
+      get_premium: Haal NQN Premium
+      premium_description: |
+        Hoewel NQN in de eerste plaats een gratis bot is, hebben we enkele premiumfuncties om de ontwikkeling te ondersteunen.
+        Als je wilt helpen, kun je je abonneren op de Patreon van de bot: https://www.patreon.com/NQN
+      premium_commands_title: Premium Commando's
+      premium_commands_content: |-
+        De volgende commando's kunnen alleen worden gebruikt als uw server de premium-status heeft, die is ingeschakeld wanneer een gebruiker met de 'Beheerder' machtiging is geabonneerd op onze Patreon.
