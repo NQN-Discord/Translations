@@ -1,0 +1,54 @@
+discord_bot:
+  commands:
+    alias:
+      no_alias: "No tienes un alias llamado \\:%{name}:"
+      could_not_find: No se pudo encontrar el alias
+      alphanumeric: Los alias solo pueden llevar caracteres alfanuméricos y guiones bajos
+      max_length: Los nombres de los alias solo pueden ser hasta 32 caracteres
+      user_zero: No tienes ningún alias
+      set_alias: Establecer alias
+      from_message:
+        no_emotes: '¡Este mensaje no contiene ningún emoji!'
+      delete:
+        deleted: 'Eliminado \:%{name}:'
+      delete_all:
+        confirm: |
+          Esto eliminara todos tus **%{count}** alias.
+          ¿Estás seguro que quieres continuar?
+        deleted:
+          one: 1 alias eliminado
+          many: '%{count} alias eliminados'
+      created:
+        one: 'Has creado un alias y lo puedes utilizar escribiendo:'
+        many: 'Has creado %{count} alias y los puedes utilizar escribiendo:'
+      rename:
+        rename: Renombrar Alias
+        alias_name: 'Nuevo nombre del Alias:'
+        renamed: 'Renombrado \:%{old}: a :%{new}:'
+      export:
+        exported_short: "Aquí están tus aliases exportados:"
+        exported_long: |
+          Aquí están tus aliases exportados:
+          Para compartirlos con otras personas debes utilizar:
+          > `%{prefix}alias import %{url}`
+      import_:
+        import_incorrect: |
+          Este comando es utilizado para importar una lista de aliases anteriormente exportadas con `%{prefix}alias export`.
+          Para crear un alias utiliza `%{prefix}alias search`
+        import_text: Este comando necesita un archivo de texto adjuntado
+        import_lines_invalid: No se pudo poner el alias en lineas %{lines_invalid}, formato invalido.
+        import_set:
+          one: Establecido %{count} alias.
+          many: Establecidos %{count} aliases.
+      dm:
+        send_dms:
+          zero: |
+            ¡No tienes ningún alias!
+            Asignatelos con `%{prefix}alias search`
+          one: |
+            Esto te enviara un mensaje privado; ¿deseas continuar?
+          many: |
+            Esto te enviara %{count} mensajes privados; ¿deseas continuar?
+        blocked: |-
+          Me has bloqueado :c
+          ¡No te puedo evniar mensajes!
