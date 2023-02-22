@@ -1,0 +1,75 @@
+permissions:
+  add_reactions: |-
+    Tepkiler Ekle
+  administrator: |-
+    Yönetici
+  attach_files: |-
+    Dosyaları Ekle
+  ban_members: |-
+    Üyeleri Yasakla
+  change_nickname: |-
+    Kullanıcı Adı Değiştir
+  connect: |-
+    Bağlan
+  create_instant_invite: |-
+    Anında Davet Oluştur
+  deafen_members: |-
+    Sağır Üyeler
+  embed_links: |-
+    Bağlantı Yerleştir
+  external_emojis: |-
+    Harici Emojiler
+  kick_members: |-
+    Üyeleri At
+  manage_channels: |-
+    Kanaları Yönet
+  manage_emojis: |-
+    Emojileri Yönet
+  manage_guild: |-
+    Sunucuyu Yönet
+  manage_messages: |-
+    Mesajları Yönet
+  manage_nicknames: |-
+    Kullanıcı Adlarını Yönet
+  manage_permissions: |-
+    Rolleri Yönet
+  manage_roles: |-
+    Rolleri Yönet
+  manage_threads: |-
+    Alt Başlıkları Yönet
+  manage_posts: |-
+    Gönderileri Yönet
+  manage_webhooks: |-
+    Webhook'ları Yönet
+  mention_everyone: |-
+    Everyone Bahset
+  move_members: |-
+    Üyeleri Taşı
+  mute_members: |-
+    Üyeleri Sustur
+  priority_speaker: |-
+    Öncelikli Konuşmacı
+  read_message_history: |-
+    Mesaj Geçmişini Oku
+  read_messages: |-
+    Mesajları Oku
+  send_messages: |-
+    Mesaj Gönder
+  send_tts_messages: |-
+    Metin Okuma Mesajı Gönder
+  speak: |-
+    Konuş
+  stream: |-
+    Yayın
+  use_external_emojis: |-
+    Harici Emoji Kullan
+  use_public_threads: |-
+    Herkese Açık Alt Başlıklar Kullan
+  use_voice_activation: |-
+    Ses Eylemini Kullan
+  view_audit_log: |-
+    Denetim Kaydı Görüntüle
+  view_channel: |-
+    Kanalı Görüntüle
+  view_guild_insights: |-
+    Sunucu Bilgilerini Görüntüle
