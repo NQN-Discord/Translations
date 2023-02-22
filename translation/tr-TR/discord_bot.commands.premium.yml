@@ -1,0 +1,10 @@
+discord_bot:
+  commands:
+    premium:
+      get_premium: NQN Premium'u Alın
+      premium_description: |
+        NQN öncelikle ücretsiz bir bot olsa da, geliştirmeyi desteklemeye yardımcı olacak bazı yalnızca premium özelliklere sahibiz.
+        Yardım etmek isterseniz botun Patreon'una abone olabilirsiniz: https://www.patreon.com/NQN
+      premium_commands_title: Premium Komutlar
+      premium_commands_content: |-
+        Aşağıdaki komutlar, yalnızca sunucunuz, 'Yönetici' iznine sahip herhangi bir kullanıcı Patreon'umuza abone olduğunda etkinleştirilen premium durumuna sahipse kullanılabilir.
