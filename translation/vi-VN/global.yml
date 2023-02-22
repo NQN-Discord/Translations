@@ -1,0 +1,71 @@
+global:
+  deleted_channel: '#KênhĐãBịXóa'
+  author: Tác giả
+  jump_to_message: Đi đến
+  go_to_message: Đi đến tin nhắn!
+  reply_to: 'Đang trả lời:'
+  cancelled: Đã hủy
+  website: Trang web
+  details: Thông tin
+  fix_permissions: Sửa quyền hạn
+  success: Thành công
+  yes: Yes
+  no: No
+  dm_me: Nhắn riêng tôi
+  next: Tiếp
+  previous: Trước
+  choose_emote: Chọn một số emoji
+  learn:
+    aliases: Tìm hiểu thêm về tên thay thế
+    packs: Tìm hiểu thêm về gói emoji
+    my_emotes: Tìm emoji tôi có thể dùng
+    personas: Tìm hiểu thêm về danh tính ảo
+  missing_permissions: Thiếu quyền
+  no_nitro_global: Giời hạn vai trò đã bị vô hiệu trong server này!
+  no_nitro_role: Chỉ người dùng với vai trò <@&%{role}> mới có thể dùng lệnh này!
+  tabulated_default_results:
+    one: "%{count} kết quả (Trang %{page_no} trong %{total}):\n%{contents}"
+    many: "%{count} kết quả (Trang %{page_no} trong %{total}):\n%{contents}"
+  tabulated_results_page:
+    zero: Không tìm thấy emoji
+    one: Trang %{page_no} trong %{total}%{note}
+    many: Trang %{page_no} trong %{total}%{note}
+  page_no: 'Trang %{page} trong %{total}:'
+  no_results: Không có kết quả
+  loading: <a:loading:674758249291186191> Đang xử lý...
+  timed_out: Hết thời gian - thử lại sau
+  global_check_failed: Bạn không thể dùng lệnh %{cmd_name}
+  requires_user_content: |
+    Nội dung riêng không được cho phép trong server này.
+  requires_user_content_admin: |
+    Nội dung riêng không được cho phép trong server này. Bạn có thể cho phép nó với lệnh
+    > ```%{prefix}server user_content on```
+  error_message: |
+    Có lỗi xảy ra khi xử lý lệnh của bạn. Nó có thể không được thực hiện chính xác.
+    Để hỗ trợ và báo cáo về vấn đề này, vui lòng tham gia server thử nghiệm của bot:
+    https://discord.gg/mv8RbHD
+
+    Mã lỗi: `%{event_id}`
+  user_abused: |
+    Chủ sở hữu bot hoặc quản trị viên nào đó đã khóa khả năng sử dụng bot của bạn vì có hành vi lạm dụng.
+    Bạn sẽ không thể dùng lệnh của bot hay bất kì tính năng nào của bot.
+  user_spammed: |
+    Bạn đã bị tạm khóa sử dụng NQN vì đã kích hoạt hệ thống nhận diện spam của chúng tôi.
+    Tin nhắn này sẽ chỉ được gửi nhiều nhất một lần mỗi ngày, và bạn sẽ không thể yêu cầu gỡ khóa.
+
+    Bạn sẽ được gỡ khóa trong dưới **5 phút** kể từ bây giờ.
+  support_server: |
+    Bạn có thể tham gia server hỗ trợ của tôi:
+    http://discord.gg/XvzDPca
+    Bạn có thể báo cáo lỗi, yêu cầu tính năng mới hoặc hỏi để xác nhận cách để dùng tôi.
+  premium_required: |
+    Để làm điều này, bạn cần phải đăng kí vào Patreon của NQN: https://www.patreon.com/NQN
+  invite_bad_perms:
+    title: |
+      Chào, cảm ơn vì đã mời NQN vào %{guild_name}!
+    content: |
+      Chúng tôi đã kiểm tra xung quanh và nhận thấy là chúng tôi chưa có đủ quyền cần thiết để hoạt động trơn tru.
+      Để giải quyết vấn đề này, chúng tôi sẽ cho bạn một link để mời lại bot và thêm các quyền còn thiếu đó:
+
+      **[Sửa quyền hạn](%{invite_url})**
+  webhook_limit: Đã đặt giới hạn webhook trong kênh! Không thể dùng trong kênh này!
