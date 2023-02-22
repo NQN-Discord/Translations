@@ -1,0 +1,68 @@
+discord_bot:
+  parameter_types:
+    #params = {param.annotation for c in ctx.bot.walk_commands() for param in c.params.values()}
+    SearchTerms:
+      name: Terminos de busqueda
+      description: |-
+        Terminos de busquedad
+    Message:
+      name: Mensajes
+      description: |-
+        Una respuesta al mensaje desado
+        - El enlace del mensaje (`https://discord.com/channels/123456789/123456789/123456789`)
+        - El id del mensaje en el canal actual (`123456789`)
+        - Un par de IdCanal-IdMensaje (`123456789-123456789`)
+        - El numero de mensajes atras en el canal (`5` mensajes atras)
+    PartialEmoji:
+      name: Emoji
+      description: |-
+        El emoji cargado o el enlace del emoji
+    TextChannel:
+      name: Canal de Texto
+      description: |
+        Una mencion del canal de texto
+    User:
+      name: Usuario
+      description: |
+        Una mencion del Usuario
+    Role:
+      name: Rol
+      description: |
+        Una mencion del rol
+    NQNEmoji:
+      name: NQNEmoji
+      description: |
+        El nombre de un emoji que NQN pueda usar
+        - El emoji cargado o el enlace del emoji
+    BlockedEmoji:
+      name: EmojiBloqueado
+      description: |-
+        El nombre del emoji que está bloqueado en este servidor
+    CurrentGuildEmoji:
+      name: EmojiDelServidor
+      description: |
+        Un emoji en este servidor
+    None:
+      name: Vacio
+      description: |
+        Sin argumentos
+    str:
+      name: Texto
+      description: |
+        Algun texto
+    int:
+      name: Numero
+      description: |
+        Un numero, sin decimales
+    bool:
+      name: Boolean
+      description: |
+        `[y]es`, `[n]o`, `[t]rue`, `[f]alse`, `enable`, `disable`, `on`, `off`, `0`, `1`
+    ListConverter:
+      name: Lista
+      description: |-
+        Al menos
+    Union:
+      name: Union
+      description: |-
+        Uno de los siguientes:
