@@ -1,0 +1,75 @@
+permissions:
+  add_reactions: |-
+    Reacties Toevoegen
+  administrator: |-
+    Beheerder
+  attach_files: |-
+    Voeg Bestanden Toe
+  ban_members: |-
+    Leden Verbannen
+  change_nickname: |-
+    Gebruikersnaam Wijzigen
+  connect: |-
+    Verbind
+  create_instant_invite: |-
+    Maak Directe Uitnodiging
+  deafen_members: |-
+    Onhoorbaar Leden
+  embed_links: |-
+    Ingesloten Links
+  external_emojis: |-
+    Externe Emoji's
+  kick_members: |-
+    Kick Leden
+  manage_channels: |-
+    Kanalen Beheren
+  manage_emojis: |-
+    Emoji's Beheren
+  manage_guild: |-
+    Server Beheren
+  manage_messages: |-
+    Berichten Beheren
+  manage_nicknames: |-
+    Gebruikersnamen Beheren
+  manage_permissions: |-
+    Rollen Beheren
+  manage_roles: |-
+    Rollen Beheren
+  manage_threads: |-
+    Threads Beheren
+  manage_posts: |-
+    Posts Beheren
+  manage_webhooks: |-
+    Webhooks Beheren
+  mention_everyone: |-
+    Everyone Vermelden
+  move_members: |-
+    Leden Verplaatsen
+  mute_members: |-
+    Leden Dempen
+  priority_speaker: |-
+    Prioirteitsspreker
+  read_message_history: |-
+    Berichtgeschiedenis Lezen
+  read_messages: |-
+    Berichten Lezen
+  send_messages: |-
+    Berichten Verzenden
+  send_tts_messages: |-
+    Tekst-Naar-Spraakberichten Verzenden
+  speak: |-
+    Spreken
+  stream: |-
+    Stream
+  use_external_emojis: |-
+    Externe Emoji's Gebruiken
+  use_public_threads: |-
+    Openbare Threads Gebruiken
+  use_voice_activation: |-
+    Spraakactivatie Gebruiken
+  view_audit_log: |-
+    Audit-Logboek Weergeven
+  view_channel: |-
+    Kanaal Bekijken
+  view_guild_insights: |-
+    Serverinzichten Bekijken
