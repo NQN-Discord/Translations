@@ -1,0 +1,16 @@
+discord_bot:
+  rendered_message:
+    oops: 哎呀！
+    external_emojis: |
+      如果您想使用來自其他伺服器的表情符號，NQN 需要在**伺服器設定**中獲得「使用外部表情符號」的權限。
+    override_external_emojis: |
+      如果您想使用來自其他伺服器的表情符號，NQN 需要在**頻道設定**中獲得「使用外部表情符號」的權限。
+    download: 下載
+    no_personas: |
+      角色功能已被關閉
+    no_messageless_posting: |
+      此伺服器管理者已禁止成員在 Dashboard 或使用 Slash 指令發佈訊息
+    no_slowmode_posting: |
+      您不可以在已啟用慢速模式的頻道中發佈訊息
+    enable_posting: 允許發佈訊息
+    posted_message: 已發佈訊息
