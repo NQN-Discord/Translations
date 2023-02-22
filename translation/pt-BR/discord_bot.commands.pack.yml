@@ -1,0 +1,69 @@
+discord_bot:
+  commands:
+    pack:
+      buttons:
+        add_to_everyone: Adicionar a @everyone
+        join_pack: Se juntar ao pacote
+        leave_pack: Abandonar o pacote
+        join_server: Entrar no servidor
+        all: Salvar todos
+      join:
+        no_pack: '%{name} não é um pacote de emoji registrado'
+        already_joined: Você já se juntou a %{name}
+        joined_pack: |
+          Você entrou em %{name}.
+          Agora você pode usar os seguintes emojis digitando seu nome no chat, incluindo os dois pontos:
+      leave:
+        no_pack: '%{name} não é um pacote de emoji registrado'
+        already_left: Você já não estava em %{name} mesmo
+        left: Você abandonou %{name}
+      meta:
+        needs_publishing: Você não pode fazer isso sem primeiro publicar os emojis deste servidor como um pacote de emoji.
+      mine:
+        no_packs: Você não tem pacotes!
+      publish:
+        already_published: Este servidor já tem um pacote de emojis publicado!
+        already_exists: Já existe um pacote de emoji chamado %{name}
+        published: O pacote de emoji %{name} foi publicado. Qualquer pessoa pode salvar esses emojis em seu próprio servidor, e você afirma ser o dono deles. Para desfazer isso, execute `%{prefix}pack unpublish`.
+        pack_published: |
+          Para poder usar todos esse emojis, execute
+          >>> !pack join %{name}
+      rename:
+        already_exists: Já existe um pacote de emoji chamado %{name}
+        not_published: Este servidor não foi publicado antes.
+        renamed: '%{old} foi renomeado para %{new}'
+      save:
+        none_left: Depois de filtrar os emojis com o mesmo nome que os deste servidor, não sobrou nenhum para importar!
+        no_space: Não há espaço neste servidor para adicionar algum dos emojis deste pacote.
+        failed_batch: |
+          O Discord só permite que os bots carreguem 50 emojis por hora.
+          NQN não foi capaz de fazer upload de todos os emojis neste lote, mas você pode executar este comando novamente em uma hora para fazer o upload do resto
+        not_registered: '%{name} não é um pacote de emoji registrado'
+        upload_question: "Fazer upload desses emojis para este servidor? \n Se você não for o proprietário de todos esses emojis, escolha N."
+        uploaded:
+          one: '%{count} emoji carregado'
+          many: '%{count} emojis carregados'
+      search:
+        invalid_group: <Pacote inválido - Por favor, relate isso ao dono do pacote>
+      set_public:
+        needs_publishing: Você não pode fazer isso sem primeiro publicar os emojis deste servidor como um pacote de emoji.
+        public_on: O convite via NQN foi habilitado.
+        public_off: O convite via NQN foi desabilitado.
+      show:
+        not_registered: '%{name} não é um pacote de emoji registrado'
+        pack_empty: Este pacote não tem emojis!
+        join_pack: 'Junte-se ao `%{name}` e use todos esses emojis. Execute `%{prefix}pack join %{name}`'
+      unpublish:
+        not_published: Este servidor não foi publicado antes.
+        unpublished: A publicação do pacote %{name} foi cancelada.
+      dm:
+        send_dms:
+          zero: |
+            Você não tem pacotes!
+            Consiga algum usando `%{prefix}pack search`
+          one: |
+            Isso vai te mandar uma mensagem privada; Você quer continuar?
+          many: |
+            Isso vai te mandar %{count} mensagens privadas; Você quer continuar?
+        blocked: |-
+          Você me bloqueou. Não consigo mandar mensagens!
