@@ -1,0 +1,63 @@
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: Denetlenecek mesaj yok.
+        expand: Genişletmek
+        truncate: Kesmek
+      edit_topic:
+        edited: '%{channel} konusu düzenlendi.'
+        edited_audit: "%{author}, %{channel} kanalın konusunu şu şekilde düzenledi:\n>>> %{description}"
+      ban:
+        owner: Sahibi yasaklayamam!
+        cannot_ban: <@%{banee}>'yi yasaklayamam!
+        you_cannot_ban: <@%{banee}> yasaklayamazsın!
+        banned: <@%{banee}> (ID %{banee}) yasaklandı
+        banned_audit: '%{author} <@%{banee}> (ID %{banee}) yasakladı'
+      kick:
+        owner: Sahibi atamam!
+        cannot_kick: <@%{kickee}>'yi atamam!
+        you_cannot_kick: <@%{kickee}> atamazsın!
+        kicked: <@%{kickee}> (ID %{kickee}) atıldı
+        kicked_audit: '%{author}, <@%{kickee}>''yi (ID %{kickee}) attı'
+      purge:
+        '0_100': Taşınacak mesaj sayısı 1 ile 100 arasında olmalıdır
+        audit:
+          one: '%{author}, %{channel} içindeki %{count} mesajı temizledi'
+          many: '%{author}, %{channel} içindeki %{count} mesajları temizledi'
+      move:
+        user_no_perms: '%{channel}''da hem ''Mesaj Gönder'' hem de ''Mesajları Yönet''e sahip değilsiniz.'
+        me_no_perms: '%{channel} içinde ''Mesajları Oku'', ''Webhooklarını Yönet'' ve ''Harici Emojileri'' izinlerine ihtiyacım var.'
+        message_limit: Taşınacak mesaj sayısı 1 ile %{count} arasında olmalıdır
+        forum_modal_title: Yeni bir gönderi oluştur
+        forum_post_name: 'Gönderı ismi:'
+        moved_to:
+          one: '%{count} mesaj %{to_channel}''a taşındı'
+          many: '%{count} mesajları %{to_channel}''a taşındı'
+        moved_from:
+          one: '%{author}, %{count} mesaj %{from_channel} kanalından taşıdı'
+          many: '%{author}, %{count} mesajları %{from_channel} kanalından taşıdı'
+        moved_to_from:
+          one: '%{author}, %{count} mesajı %{from_channel}''dan %{to_channel}''a taşıdı'
+          many: '%{author}, %{count} mesajları %{from_channel}''dan %{to_channel}''a taşıdı'
+        move_end: Bitiş mesajını taşı
+        end_previous_n:
+          - 
+        end_next_n:
+          - 
+        move_start: Başlangıç mesajını taşı
+        start_previous_n:
+          - 
+        start_next_n:
+          - 
+        move_both: Başlangıcı ve bitişi taşı
+        both_previous_n:
+          - 
+        both_next_n:
+          - 
+        move:
+          one: Mesaj taşı!
+          many: '%{count} mesajıları taşıyın!'
+        move_all:
+          one: Mesaj taşı!
+          many: Tüm %{count} mesajıları taşıyın!
