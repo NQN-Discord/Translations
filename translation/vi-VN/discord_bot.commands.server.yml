@@ -1,0 +1,142 @@
+---
+discord_bot:
+  commands:
+    server:
+      alias:
+        set_emote_title: 'Đã đặt \:%{name}: thành %{emote} cho server này.'
+        set_emote_description:
+          zero: |
+            Server này không còn chỗ trống nào!
+            Để có thêm tên thay thế, mọi người có thể vote cho bot tại %{url}
+
+            Bất kì ai cũng có thể dùng emoji này bằng cách nhập:
+          one: |
+            Server này chỉ còn một chỗ trước khi đạt đến giới hạn tên thay thế.
+            Để có thêm tên thay thế, mọi người có thể vote cho bot tại %{url}
+
+            Bất kì ai cũng có thể dùng emoji này bằng cách nhập:
+          many: |
+            Server này còn %{count} chỗ trước khi đạt đến giới hạn tên thay thế.
+            Để có thêm tên thay thế, mọi người có thể vote cho bot tại %{url}
+
+            Bất kì ai cũng có thể dùng emoji này bằng cách nhập:
+        failed_aliases:
+          one: |
+            Một tên thay thế không thể được hiển thị
+          many: |
+            %{failed_aliases} tên thay thế không thể được hiển thị
+        max_title: Server này đã đạt giới hạn số lượng emoji/gói emoji rồi!
+        max_description: |
+          :%{name}: chưa được thêm vào server.
+
+          Để có thêm tên thay thế/gói emoji, mọi người có thể vote cho bot tại %{url}
+        no_alias: Server này không có tên thay thế nào là %{name}
+        renamed: 'Đã đổi tên %{emote} từ \:%{name}: thành :%{new}:'
+        no_aliases: Server này không có tên thay thế công khai
+      nitro_role:
+        unset: Bất kì ai trong server đều có thể dùng emoji Nitro miễn phí với NQN
+        set: Từ giờ chỉ ai có vai trò %{role} mới có thể dùng emoji Nitro miễn phí với NQN
+      audit_channel:
+        unset: Đã gỡ kênh lưu vết khỏi server này
+        set: Đã đặt %{channel} làm kênh lưu vết cho server này
+        no_webhooks: "Tôi không thể gửi tin nhăbs webhook trong %{channel}.\nVui lòng cho tôi quyền 'Quản lý webhook' trong đó!"
+      boost_channel:
+        unset: Đã gỡ kênh tăng cường khỏi server này
+        set: Đã đặt %{channel} làm kênh tăng cường cho server này
+      boost_role:
+        unset: Đã gỡ vai trò tăng cường khỏi server này
+        set: Đã đặt %{role} làm vai trò tăng cường cho server này
+      boolean_options:
+        stickers_on: Đã kích hoạt sticker
+        stickers_off: Đã vô hiệu sticker
+        nitro_on: Đã kích hoạt dùng emoji nitro miễn phí cho server này!
+        nitro_off: Đã vô hiệu dùng emoji nitro miễn phí cho server này
+        replies_on: Đã kích hoạt hiện tin nhắn được liên kết
+        replies_off: Đã vô hiệu hiện tin nhắn được liên kết
+        masked_links_on: Đã kích hoạt dùng URL đã che
+        masked_links_off: Đã vô hiệu dùng URL đã che
+        pings_on: Đã kích hoạt nhắc tên trong tin nhắn được thay thế
+        pings_off: Đã vô hiệu nhắc tên trong tin nhắn được thay thế
+        user_content_on: |
+          Đã kích hoạt dùng tên thay thế và gói riêng cho từng người dùng
+          Cài đặt sticker vẫn chưa bị thay đổi.
+        user_content_off: |
+          Đã vô hiệu dùng tên thay thế và gói riêng cho từng người dùng.
+          Chỉ có tên thay thế và gói được thêm với lệnh `%{prefix}server alias search` và `%{prefix}server pack search` sẽ khả dụng trong server, cùng với emoji của server này.
+          Sticker cũng đã được vô hiệu tự động.
+        personas_on: |
+          Enabled usage of personas.
+          This allows anyone to set a customisable username and avatar; be warey of impersonation.
+
+          NQN staff recommend setting an audit channel when using this feature; if you haven't already, it can be enabled with
+          > ```!server set_audit_channel #channel``` #channel```
+        personas_off: Đã vô hiệu dùng danh tính ảo
+        dashboard_posting_on: Đã kích hoạt gửi tin nhắn qua bot trên bảng điều khiển
+        dashboard_posting_off: Đã vô hiệu gửi tin nhắn qua bot trên bảng điều khiển
+        phish_detection_on: Đã kích hoạt nhận diện tin nhắn lừa đảo cho server này
+        phish_detection_off: Đã vô hiệu nhận diện tin nhắn lừa đảo cho server này
+      link:
+        no_animated_emotes: |
+          Server này không có emoji động nào!
+          Bạn chỉ có thể liên kết emoji động với lệnh này.
+        too_many_static: Server này có quá nhiều emoji tĩnh rồi! Hãy xóa bớt trước đã.
+        animated_only: Lệnh này chỉ hoạt động với emoji động - nó làm cho chúng trở nên khả dụng dưới dạng emoji tĩnh để người dùng không có nitro có thể chọn!
+        emote_not_found: Không thể tìm thấy emoji đó! Thử tìm tên thay thế của nó với `%{prefix}alias search`
+        upload_later: Không thể tải lên emoji; thử lại sau vài giờ
+        choose_emote: 'Chọn một emoji để tạo một liên kết tĩnh:'
+        create_static: Tạo một emoji tĩnh?
+        create_static_emote: Tạo một emoji tĩnh cho %{emote}?
+        uploaded: Đã tải lên %{uploaded}!
+        uploaded_emote: "Đã tải lên %{uploaded}!\nDùng nó để có %{emote}"
+      pack:
+        max_title: Server này đã đạt giới hạn emoji/gói rồi!
+        max_description: |
+          %{name} chưa được thêm vào server
+
+          Để có thêm tên thay thế/gói, mọi người có thể vote cho bot tại %{url}
+        left_pack: "'%{guild_name}' đã rời %{name}"
+        not_in_pack: Server này không có gói tên %{name} để dùng
+        invalid_group: <Invalid pack - Please Report>
+        join_server: (Tham gia server)
+        no_longer_registered: '%{name} không còn là một gói khả dụng nữa'
+        already_joined: '%{guild_name} đã tham gia %{name} rồi'
+        joined_long: |
+          '%{guild_name}' đã tham gia %{name}.
+          Bất kì ai trong server này sẽ có thể dùng các emoji sau bằng cách nhập tên của chúng trên khung trò chuyện kèm theo dấu hai chấm:
+        no_packs: "%{guild_name} chưa tham gia vào gói công khai nào!"
+      prefix:
+        instructions: "Để đặt prefix của tôi, hãy nhắc tên tôi trước prefix mới đó để tránh việc thay đổi ngoài ý muốn.\n> %{prefix}server prefix %{me} %{new}"
+        no_colon_prefix: NQN không hỗ trợ prefix bắt đầu với dấu hai chấm (:)
+        no_slash_prefix: NQN không hỗ trợ prefix bắt đầu với dấu gạch chéo (/)
+        set_prefix: Đã đặt prefix của tôi thành `%{prefix}`
+      language:
+        choose: 'Chọn ngôn ngữ mới cho tôi:'
+        set: Đã đặt ngôn ngữ của tôi thành tiêng Việt cho server này
+        this_locale_name: tiếng Việt
+      config:
+        enabled: Đã kích hoạt
+        disabled: Đã vô hiệu
+        prefix: Prefix
+        announcement: Kênh thông báo
+        boost_channel: Kênh tăng cường
+        boost_role: Vai trò tăng cường
+        audit_channel: Kênh lưu vết
+        nitro_role: Vai trò Nitro
+        stickers: Sticker
+        nitro: Nitro
+        replies: Xem tin nhắn được liên kết
+        masked_links: URL đã che
+        pings: Nhắc tên
+        user_content: Nội dung người dùng
+        personas: Danh tính ảo
+        dashboard_posting: Gửi từ bảng điều khiển
+        phish_detection: Nhận diện lừa đảo
+        invite: Link mời
+        pack: Tên gói emoji
+        public: Công khai
+        member_count: Thành viên
+        configure_features: Bật/tắt tính năng
+        settings: Cài đặt
+        channels: Kênh
+        features: Tính năng
+        pack_info: Thông tin gói
