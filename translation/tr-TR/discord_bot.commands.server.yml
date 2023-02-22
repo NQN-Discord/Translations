@@ -1,0 +1,142 @@
+---
+discord_bot:
+  commands:
+    server:
+      alias:
+        set_emote_title: 'Bu sunucu için \:%{name}: öğesini %{emote} olarak ayarlayın.'
+        set_emote_description:
+          zero: |
+            Bu sunucuda hiç emoji kalmadı!
+            Daha fazla takma ad için herkes %{url} adresinden bota oy verebilir.
+
+            Herkes yazarak bu emojiyi kullanabilir:
+          one: |
+            Bu sunucu, maksimum değerine ulaşmadan önce bir emoji kaldı.
+            Daha fazla takma ad için herkes %{url} adresinden bota oy verebilir.
+
+            Herkes yazarak bu emojiyi kullanabilir:
+          many: |
+            This server has %{count} emotes left before it reaches it's maximum.
+            For more aliases, anyone can vote for the bot at %{url}
+
+            Anyone can use this emote by typing:
+        failed_aliases:
+          one: |
+            Oluşturulamayan bir takma ad
+          many: |
+            Oluşturulamayan %{failed_aliases} takma adlar
+        max_title: Bu sunucu şimdiden maksimum emoji/paket sayısına ulaştı!
+        max_description: |
+          :%{name}: was not added as a server emote.
+
+          For more aliases/packs, anyone can vote for the bot at %{url}
+        no_alias: This server does not have an alias called %{name}
+        renamed: 'Renamed %{emote} from \:%{name}: to :%{new}:'
+        no_aliases: This server has no global aliases
+      nitro_role:
+        unset: Anyone in this server can use free Nitro emotes with NQN
+        set: Now only users with the %{role} role can use free Nitro emotes with NQN
+      audit_channel:
+        unset: Unset the audit channel for this server
+        set: Set the audit channel for this server to %{channel}
+        no_webhooks: "I cannot post webhook messages to %{channel}.\nPlease give me 'Manage Webhooks' there!"
+      boost_channel:
+        unset: Unset the boost channel for this server
+        set: Set the boost channel for this server to %{channel}
+      boost_role:
+        unset: Unset the boost role for this server
+        set: Set the boost role for this server to %{role}
+      boolean_options:
+        stickers_on: Enabled stickers
+        stickers_off: Disabled stickers
+        nitro_on: Enabled free nitro usage in this server!
+        nitro_off: Disabled free nitro usage in this server
+        replies_on: Enabled message link previews
+        replies_off: Disabled message link previews
+        masked_links_on: Enabled masked URL usage
+        masked_links_off: Disabled masked URL usage
+        pings_on: Enabled pings in reposted messages
+        pings_off: Disabled pings in reposted messages
+        user_content_on: |
+          Enabled usage of individual user's aliases and packs
+          Sticker settings have not been changed.
+        user_content_off: |
+          Disabled usage of individual user's aliases and packs.
+          Only aliases and packs added with `%{prefix}server alias search` and `%{prefix}server pack search` will be usable, as well as emojis from this server.
+          Stickers have also been automatically disabled.
+        personas_on: |
+          Personaların etkin kullanımı.
+          Bu, herkesin özelleştirilebilir bir kullanıcı adı ve avatar ayarlamasına olanak tanır; kimliğe bürünmeye karşı dikkatli olun.
+
+          NQN personeli, bu özelliği kullanırken bir denetim kanalı ayarlamanızı önerir; henüz yapmadıysanız, ile etkinleştirilebilir
+          > ```!server set_audit_channel #kanal```
+        personas_off: Personaların engelli kullanımı
+        dashboard_posting_on: Enabled posting messages from the bot's dashboard
+        dashboard_posting_off: Disabled posting messages from the bot's dashboard
+        phish_detection_on: Enabled phishing message detection in this server
+        phish_detection_off: Disabled phishing message detection in this server
+      link:
+        no_animated_emotes: |
+          This server has no animated emotes!
+          You can only link animated emotes with this command.
+        too_many_static: This server has too many static emotes! Try deleting some first.
+        animated_only: This command only works with animated emotes - it makes them available in the emote picker for non-nitro users as static ones!
+        emote_not_found: Could not find that emote! Try aliasing it with `%{prefix}alias search`
+        upload_later: Could not upload emote; try again in a few hours
+        choose_emote: 'Choose an emote to create a static link for:'
+        create_static: Create a static emote?
+        create_static_emote: Create a static emote for %{emote}?
+        uploaded: Uploaded %{uploaded}!
+        uploaded_emote: "Uploaded %{uploaded}!\nUse it to get %{emote}"
+      pack:
+        max_title: This server is at its maximum emote/pack count already!
+        max_description: |
+          %{name} was not added as a server pack.
+
+          For more aliases/packs, anyone can vote for the bot at %{url}
+        left_pack: "'%{guild_name}' %{name}'den ayrıldı"
+        not_in_pack: Bu sunucu, başlamak için bir sunucu paketi olarak %{name}'e sahip değildi
+        invalid_group: <Geçersiz paket - Lütfen Bildirin>
+        join_server: (Sunucuya Katıl)
+        no_longer_registered: '%{name} artık kayıtlı bir emoji paketi değil'
+        already_joined: '%{guild_name} zaten %{name}''e katıldı'
+        joined_long: |
+          '%{guild_name}', %{name}'a katıldı.
+          Bu sunucudaki herkes artık adını iki nokta üst üste de dahil olmak üzere sohbete yazarak aşağıdaki emojileri kullanabilir:
+        no_packs: "'%{guild_name}s' dünya çapında hiçbir pakete katılmadı!"
+      prefix:
+        instructions: "Prefix'imi ayarlamak için, yanlışlıkla değişiklik yapılmasını önlemek için istenen önekten önce beni etiketle.\n> %{prefix}sunucu öneki %{me} %{new}"
+        no_colon_prefix: NQN, iki nokta üst üste (:) ile başlayan prefixleri desteklemez
+        no_slash_prefix: NQN, eğik çizgi (/) ile başlayan prefixleri desteklemez
+        set_prefix: Prefix `%{prefix}` olarak ayarla
+      language:
+        choose: 'Yeni dilimi seç:'
+        set: Bu sunucuya dilim Türkçe olarak ayarlandı
+        this_locale_name: İngilizce
+      config:
+        enabled: Etkin
+        disabled: Engelli
+        prefix: Prefix
+        announcement: Duyuru kanalı
+        boost_channel: Boost kanalı
+        boost_role: Boost rol
+        audit_channel: Denetim kanalı
+        nitro_role: Nitro rol
+        stickers: Çıkartmalar
+        nitro: Nitro
+        replies: Mesaj Bağlantısı Önizlemeleri
+        masked_links: Maskelenmiş URL'ler
+        pings: Ping'ler
+        user_content: Kullanıcı İçeriği
+        personas: Personalar
+        dashboard_posting: Dashboard Paylaşılım
+        phish_detection: Kimlik Avı Tespiti
+        invite: Davet Bağlantısı
+        pack: Paket Adı
+        public: Herkese açık
+        member_count: Üyeler
+        configure_features: Özellikleri Değiştir
+        settings: Ayarlar
+        channels: Kanalar
+        features: Özellikler
+        pack_info: Paket Bilgi
