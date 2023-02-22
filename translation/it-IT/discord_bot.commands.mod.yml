@@ -1,0 +1,63 @@
+discord_bot:
+  commands:
+    mod:
+      audit:
+        no_messages: Nessun messaggio da controllare.
+        expand: Espandi
+        truncate: Tronca
+      edit_topic:
+        edited: Modificato l'argomento di %{channel}.
+        edited_audit: "%{author} ha modificato l'argomento di %{channel} a:\n>>> %{description}"
+      ban:
+        owner: Non posso bannare il proprietario!
+        cannot_ban: Non posso bannare <@%{banee}>!
+        you_cannot_ban: Non puoi bannare <@%{banee}>!
+        banned: Bannato <@%{banee}> (ID %{banee})
+        banned_audit: '%{author} ha bannato <@%{banee}> (ID %{banee})'
+      kick:
+        owner: Non posso espellere il proprietario!
+        cannot_kick: Non posso espellere <@%{kickee}>!
+        you_cannot_kick: Non puoi espellere <@%{kickee}>!
+        kicked: Espulso <@%{kickee}> (ID %{kickee})
+        kicked_audit: '%{author} ha espulso <@%{kickee}> (ID %{kickee})'
+      purge:
+        '0_100': Il numero di messaggi da spostare deve essere compreso tra 1 e 100
+        audit:
+          one: '%{author} ha eliminato %{count} messaggio in %{channel}'
+          many: '%{author} ha eliminato %{count} messaggi in %{channel}'
+      move:
+        user_no_perms: Non hai sia 'Invia messaggi' che 'Gestisci messaggi' in %{channel}.
+        me_no_perms: Necessito di 'Leggi Messaggi', 'Gestisci Webhook' e 'Usa Emoji Esterne' permessi in %{channel}.
+        message_limit: Il numero di messaggi da spostare deve essere compreso tra 1 e %{count}
+        forum_modal_title: Crea un nuovo post
+        forum_post_name: 'Nome post:'
+        moved_to:
+          one: Spostati %{count} messaggi in %{to_channel}
+          many: Spostati %{count} messaggi in %{to_channel}
+        moved_from:
+          one: '%{author} ha spostato %{count} messaggi da %{from_channel}'
+          many: '%{author} ha spostato %{count} messaggi da %{from_channel}'
+        moved_to_from:
+          one: '%{author} ha spostato %{count} messaggi da %{from_channel} a %{to_channel}'
+          many: '%{author} ha spostato %{count} messaggi da %{from_channel} a %{to_channel}'
+        move_end: Muovi messaggio finale
+        end_previous_n:
+          - 
+        end_next_n:
+          - 
+        move_start: Muovi messaggio iniziale
+        start_previous_n:
+          - 
+        start_next_n:
+          - 
+        move_both: Muovi iniziale e finale
+        both_previous_n:
+          - 
+        both_next_n:
+          - 
+        move:
+          one: Muovi messaggio!
+          many: Muovi %{count} messaggi!
+        move_all:
+          one: Muovi messaggio!
+          many: Muovi tutti %{count} messaggi!
