@@ -1,0 +1,70 @@
+global:
+  deleted_channel: '#VerwijderdKanaal'
+  author: Auteur
+  jump_to_message: Spring
+  go_to_message: Ga naar bericht!
+  reply_to: 'Antwoord aan:'
+  cancelled: Geannuleerd
+  website: Website
+  details: Details
+  fix_permissions: Machtigingen repareren
+  success: Succes
+  yes: Yes
+  no: No
+  dm_me: DM Mij
+  next: Volgende
+  previous: Vorige
+  choose_emote: Kies paar emoji's
+  learn:
+    aliases: Leer meer over aliassen
+    packs: Leer meer over packs
+    my_emotes: Zoek emoji's die ik kan gebruiken
+    personas: Leer meer over persona's
+  missing_permissions: Ontbrekende Machtigingen
+  no_nitro_global: Nitro-gebruik is uitgeschakeld op deze server!
+  no_nitro_role: Alleen gebruikers met de rol <@&%{role}> kunnen deze commando gebruiken!
+  tabulated_default_results:
+    one: "%{count} resultaat (Pagina %{page_no} van %{total}):\n%{contents}"
+    many: "%{count} resultaten (Pagina %{page_no} van %{total}):\n%{contents}"
+  tabulated_results_page:
+    zero: Geen emoji's gevonden
+    one: Pagina %{page_no} van %{total}%{note}
+    many: Pagina %{page_no} van %{total}%{note}
+  page_no: 'Pagina %{page} van %{total}:'
+  no_results: Geen resultaten
+  loading: <a:loading:674758249291186191> Verwerken...
+  timed_out: Time-out - probeer het opnieuw
+  global_check_failed: U mag %{cmd_name} niet gebruiken
+  requires_user_content: |
+    Gebruikersinhoud is niet toegestaan op deze server.
+  requires_user_content_admin: |
+    Gebruikersinhoud is niet toegestaan op deze server. Je kunt het toestaan met > ```%{prefix}server user_content on```
+  error_message: |
+    Er is een fout opgetreden tijdens het verwerken van uw commando. Het is mogelijk niet correct voltooid.
+    Voor hulp en om dit als een probleem te melden, wordt u verzocht lid te worden van de testserver voor deze bot:
+    https://discord.gg/mv8RbHD
+
+    Foutcode: `%{event_id}`
+  user_abused: |
+    De boteigenaar of de wereldwijde moderators hebben je het gebruik van deze bot geblokkeerd vanwege eerder misbruik.
+    U kunt geen commando's meer gebruiken of andere functionaliteit gebruiken van de bot.
+  user_spammed: |
+    U bent tijdelijk geblokkeerd voor het gebruiken van NQN voor het van ons geautomatiseerde spamdetectiesysteem.
+    Dit bericht wordt maximaal één keer per dag verzonden en er is geen mogelijkheid om tegen deze blokkering in beroep te gaan.
+
+    U wordt vanaf nu binnen **5 minuten** gedeblokkeerd.
+  support_server: |
+    Je kunt hier lid worden van mijn ondersteuningsserver:
+    http://discord.gg/XvzDPca
+    U kunt bugs melden, nieuwe functies aanvragen of om opheldering vragen over hoe u mij kunt gebruiken.
+  premium_required: |
+    Om dit te doen, moet u een abonnee zijn van NQN's Patreon: https://www.patreon.com/NQN
+  invite_bad_perms:
+    title: |
+      Hi, bedankt voor het uitnodigen van NQN voor %{guild_name}!
+    content: |
+      We hebben rondgekeken en ontdekten dat we niet helemaal over alle rechten beschikken die we nodig hebben om goed te kunnen functioneren.
+      Om dit op te lossen, zodat je de bot goed kunt gebruiken, is er een link gegenereerd die alle relevante rechten aan de bot geeft:
+
+      **[Machtigingen Herstellen](%{invite_url})**
+  webhook_limit: Webhook-limit bereikt! Kan niet worden uitgevoerd in dit kanaal!
