@@ -1,0 +1,53 @@
+discord_bot:
+  commands:
+    alias:
+      no_alias: "Bạn không có tên thay thế nào là \\:%{name}: cả"
+      could_not_find: Không thể tìm thấy tên thay thế
+      alphanumeric: Tên thay thế chỉ nên chứa chữ, số và gấu gạch dưới
+      max_length: Tên thay thế không nên dài hơn 32 kí tự
+      user_zero: Bạn chưa có tên thay thế nào
+      set_alias: Đặt tên thay thế
+      from_message:
+        no_emotes: Tin nhắn này không có emoji nào trong đó cả!
+      delete:
+        deleted: 'Xóa \:%{name}:'
+      delete_all:
+        confirm: |
+          Việc này sẽ xóa toàn bộ **%{count}** tên thay thế của bạn.
+          Bạn có chắc muốn thực hiện việc này chứ?
+        deleted:
+          one: Đã xóa 1 tên thay thế
+          many: Đã xóa %{count} tên thay thế
+      created:
+        one: 'Bạn vừa tạo một tên thay thế và bạn có thể dùng nó bằng cách nhập:'
+        many: 'Bạn vừa tạo %{count} tên thay thế và bạn có thể dùng chúng bằng cách nhập:'
+      rename:
+        rename: Đổi tên tên thay thế
+        alias_name: 'Tên thay thế:'
+        renamed: 'Đã đổi tên \:%{old}: thành :%{new}:'
+      export:
+        exported_short: "Dây là những tên thay thế đã xuất của bạn:"
+        exported_long: |
+          Dây là những tên thay thế đã xuất của bạn:
+          Để chia sẻ chúng cho người khác, họ sẽ cần phải dùng:
+          > `%{prefix}alias import %{url}`
+      import_:
+        import_incorrect: |
+          Lệnh này dùng để nhập một dãy tên thay thế vừa đực xuất bằng lệnh `%{prefix}alias export`.
+          Để tạo tên thay thế, dùng `%{prefix}alias search`
+        import_text: Lệnh này cần một tệp văn bản đính kèm
+        import_lines_invalid: Không thể nhập tên thay thế ở dòng %{lines_invalid}, định dạng không hợp lệ.
+        import_set:
+          one: Đặt %{count} tên thay thế.
+          many: Đặt %{count} tên thay thế.
+      dm:
+        send_dms:
+          zero: |
+            Bạn chưa có tên thay thế nào!
+            Thêm một số với lệnh `%{prefix}alias search`
+          one: |
+            Bạn sẽ nhận tin nhắn trực tiếp từ bot; bạn có muốn tiếp tục?
+          many: |
+            Bạn sẽ nhận %{count} tin nhắn trực tiếp từ bot; bạn có muốn tiếp tục?
+        blocked: |-
+          Hãy kiểm tra cài đặt riêng tư vì tôi không thể gửi tin nhắn trực tiếp cho bạn!
