@@ -1,0 +1,75 @@
+permissions:
+  add_reactions: |-
+    Bày tỏ cảm xúc
+  administrator: |-
+    Quản lý
+  attach_files: |-
+    Đính kèm tập tin
+  ban_members: |-
+    Cấm thành viên
+  change_nickname: |-
+    Đổi biệt danh
+  connect: |-
+    Kết nối
+  create_instant_invite: |-
+    Tạo lời mời tức thì
+  deafen_members: |-
+    Tắt nghe thành viên
+  embed_links: |-
+    Nhúng liên kết
+  external_emojis: |-
+    Dùng emoji mở rộng
+  kick_members: |-
+    Đuổi thành viên
+  manage_channels: |-
+    Quản lý kênh
+  manage_emojis: |-
+    Quản lý emoji
+  manage_guild: |-
+    Quản lý server
+  manage_messages: |-
+    Quản lý tin nhắn
+  manage_nicknames: |-
+    Quản lý biệt danh
+  manage_permissions: |-
+    Quản lý vai trò
+  manage_roles: |-
+    Quản lý vai trò
+  manage_threads: |-
+    Quản lý chủ đề
+  manage_posts: |-
+    Quản lý bài đăng
+  manage_webhooks: |-
+    Quản lý Webhook
+  mention_everyone: |-
+    Đề cập @everyone
+  move_members: |-
+    Di chuyển thành viên
+  mute_members: |-
+    Tắt âm thành viên
+  priority_speaker: |-
+    Người nói ưu tiên
+  read_message_history: |-
+    Đọc lịch sử tin nhắn
+  read_messages: |-
+    Đọc tin nhắn
+  send_messages: |-
+    Gửi tin nhắn
+  send_tts_messages: |-
+    Gửi tin nhắn văn bản thành giọng nói
+  speak: |-
+    Nói
+  stream: |-
+    Video
+  use_external_emojis: |-
+    Dùng emoji mở rộng
+  use_public_threads: |-
+    Tạo chủ đề công khai
+  use_voice_activation: |-
+    Sử dụng hoạt động voice
+  view_audit_log: |-
+    Xem nhật kí chỉnh sửa
+  view_channel: |-
+    Xem kênh
+  view_guild_insights: |-
+    Xem thống kê server
