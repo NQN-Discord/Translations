@@ -1,0 +1,45 @@
+discord_bot:
+  commands:
+    sticker:
+      create:
+        attachment_needed: Você precisa carregar uma figurinha com este comando
+        image_needed: O arquivo precisa ser uma imagem
+        sticker_exists: Já existe uma figurinha chamada %{name}!
+        filename_invalid: '`%{name}` não é um nome válido para figurinhas. Os nomes devem ser alfanuméricos, com uma extensão de arquivo alfanumérica.'
+        too_large: Esse arquivo é muito grande. Figurinhas podem ser de até 8MB apenas
+        created: "Agora você pode usar `:%{name}:`\nQuer mudar o nome?\n`%{prefix}sticker rename %{name} novo_nome.%{ext}`"
+      mine:
+        no_stickers: Você não tem figurinhas
+      delete:
+        no_sticker: "- :%{name}: - Não existe ou não é seu"
+        sticker_deleted: '+ :%{name}:'
+        question:
+          zero: Sem figurinhas para excluir!
+          one: Quer excluir esta figurinha?
+          many: Deseja excluir todas as %{count} figurinhas?
+        deleted_all:
+          one: Foi excluída %{count} figurinha
+          many: Foram excluídas %{count} figurinhas
+      rename:
+        filename_invalid: '`%{name}` não é um nome permitido para adesivos. Eles devem ser alfanuméricos, com uma extensão de arquivo alfanumérica.'
+        no_sticker: Este adesivo não existe
+        permission_denied: Você não pode renomear o adesivo de outra pessoa!
+        destination_taken: O nome do destino já foi escolhido!
+        renamed: 'Renomeado \:%{old}: para :%{new}:'
+      search:
+        no_stickers: Nenhum adesivo encontrado
+      sticker_import:
+        filename_invalid: '`%{name}` não é um nome válido para figurinhas. Os nomes devem ser alfanuméricos, com uma extensão de arquivo alfanumérica.'
+        find_emote: encontre um emoji para transformá-lo em uma figurinha!
+        created: Agora você pode usar `:%{name}:`
+        sticker_exists: Já existe uma figurinha chamada `:%{name}:`; você não pode substituí-la.
+        duplicate_exists: Uma figurinha com a mesma imagem e chamada %{name} já existe!
+      telegram_import:
+        pack_invalid: '`%{name}` não é um nome válido de pacote de figurinhas do Telegram'
+        telegram_unloaded: O pacote do Telegram não foi carregado - informe isso a um dos desenvolvedores do bot
+        already_created: Já criado por outra pessoa; não pode ser substituído
+        finished_importing:
+          one: Concluída a importação de uma figurinha
+          many: Concluída a importação de %{count} figurinhas
+        search_future: "Para pesquisar por essas figurinhas no futuro, use: \n>`%{prefix}sticker search %{name}.`"
+        view: Ver Figurinhas
