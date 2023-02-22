@@ -1,0 +1,828 @@
+command_docs:
+  gain_access_to_emojis:
+    name: Gain access to emojis
+  block_emote:
+    name: Block an emote
+  audit_messages:
+    name: Audit NQN messages
+  delete_message:
+    name: Delete Message
+  edit_message:
+    name: ویرایش پیام
+  find_author:
+    name: Find Author
+  alias:
+    name: اختصار
+    short_doc: مدیریت جداگانه شکلک هایی که می توانید استفاده کنید
+    help: |
+      مدیریت شکلک های جدا از هم و متفاوتی که شما می توانید استفاده کنید
+
+      جستجوی NQN به شما اجازه استفاده پیشرفته دستورات را می دهد:
+       - `exact`: (پیشفرض false) فقط شکلک هایی با نام دقیقاً مشابه نوشته شده جستجو خواهند شد
+       - `animated`: اینکه شکلک ها فقط متحرک باشند یا تصویر ثابت
+       - `page`: رفتن به یک صفحه مشخص
+       - `order`: یکی از موارد 'uses' یا 'random'
+  alias-delete:
+    name: حذف
+    short_doc: دیگر نمی خواهید از یک اختصار استفاده کنید؟ اینم راه حل
+    params:
+      alias:
+        name: اختصار
+        description: |-
+          کدام اختصار را میخواهید حذف کنید؟
+  alias-delete_all:
+    name: حذف_همه
+    short_doc: هیچ یک از اختصار هایتان را نمی‌خواهید؟ اینم راه حل
+    help: |
+      حذف همه اختصار های شما
+  alias-dm:
+    name: دایرکت
+    short_doc: DM دریافت یک لیست کامل از اختصار ها در
+    help: |
+      ارسال لیست تمامی اختصار های شما به طور مستقیم به شما (DM) توسط بات
+  alias-export:
+    name: استخراج
+    short_doc: استخراج لیست اختصار های شما
+  alias-import:
+    name: واردکردن
+    short_doc: وارد کردن لیست اختصار های فردی دیگر
+    params:
+      file:
+        name: فایل
+        description: |-
+          یک فایل که با /alias export از قبل استخراج شده
+  alias-mine:
+    name: دراختیارمن
+    short_doc: دریافت لیستی از اختصار هایی که ساخته‌اید
+    params:
+      page:
+        name: صفحه
+        description: |-
+          از چه صفحه‌ای شروع شود؟
+  alias-rename:
+    name: تغییرنام
+    short_doc: تغییر نام یکی از اختصار هایتان
+    params:
+      old_name:
+        name: نام_قبلی
+        description: |-
+          نام ایموجی که میخواهید به آن یک نام جدید بدهید، چیست؟
+      new_name:
+        name: نام_جدید
+        description: |-
+          باید به چه نامی تغییر یابد؟
+  alias-search:
+    name: جستجو
+    short_doc: گشتن به دنبال شکلک های متفاوت
+    help: |
+      گشتن برای شکلک های متفاوت برای استفاده در NQN
+
+      جستجوی NQN به شما اجازه استفاده پیشرفته دستورات را می دهد:
+       - `exact`: (پیشفرض false) فقط شکلک هایی با نام دقیقاً مشابه نوشته شده جستجو خواهند شد
+       - `animated`: اینکه شکلک ها فقط متحرک باشند یا تصویر ثابت
+       - `page`: رفتن به یک صفحه مشخص
+       - `order`: یکی از موارد 'uses' یا 'random'
+  audit:
+    name: سابقه
+    short_doc: دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
+    help: |
+      دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
+      اختیاری[Channel] -> فیلتر کردن ضبط سوابق فقط به این کانال
+      اختیاری[Member]-> فیلتر کردن ضبط سوابق فقط به این اعضاء
+  delete:
+    name: حذف
+    short_doc: NQN حذف یکی از پیام های تغییر یافته شما توسط
+    help: |
+      حذف یکی از پیام های تغییر یافته شما توسط NQN
+      به طور پیش‌فرض، آخرین پیامی که تبدیل آن برای شما صورت گرفته پاک خواهد شد، اما می توانید در انتها آدرس URL پیام مورد نظر را نیز شامل کنید تا آن پاک شود.
+      شما همچنین می توانید با استفاده از ویژگی رپلای خود دیسکورد نیز پیام مورد نظر را نیز همینگونه تعیین کنید.
+  edit:
+    name: ویرایش
+    short_doc: NQN ویرایش یکی از پیام های تبدیل شده توسط
+    help: |
+      ویرایش یکی از پیام های تبدیل شده توسط NQN
+      به طور پیش‌فرض، آخرین پیامی که تبدیل آن برای شما صورت گرفته پاک خواهد شد، اما می توانید در انتها آدرس URL پیام مورد نظر را نیز شامل کنید تا آن پاک شود.
+      شما همچنین می توانید با استفاده از ویژگی رپلای خود دیسکورد نیز پیام مورد نظر را نیز همینگونه تعیین کنید.
+  emote:
+    name: شکلک
+    short_doc: مدیریت ایموجی های سرور
+  emote-block:
+    name: بلاک‌کردن
+    short_doc: بلاک کردن استفاده از یک شکلک
+    help: |
+      جستجو برای بلاک کردن استفاده از یک ایموجی در این سرور.
+      وقتی این ایموجی استفاده بشود، به طور خودکار به لیست مدیریت خودکار سرور اضافه خواهد شد تا حذف و از ارسال آن جلوگیری شود.
+  emote-block-from_emote:
+    name: از_شکلک
+    short_doc: بلاک کردن استفاده از یک شکلک
+    params:
+      emoji:
+        name: ایموجی
+        description: |-
+          کدام ایموجی را از استفاده منع کرد؟
+  emote-block-from_search:
+    name: از_جستجو
+    short_doc: بلاک کردن استفاده از یک شکلک
+  emote-block-recently_used:
+    name: استفاده‌شده_اخیر
+    short_doc: بلاک کردن استفاده از یک شکلک
+    params:
+      emoji:
+        name: ایموجی
+        description: |-
+          کدام ایموجی را از استفاده منع کرد؟
+  emote-block_list:
+    name: لیست_بلاک
+    short_doc: مشاهده لیست ایموجی های بلاک شده در این سرور
+  emote-info:
+    name: درباره
+    short_doc: دریافت اطلاعات درباره یک شکلک
+    params:
+      emoji:
+        name: شکلک
+        description: |-
+          اطلاعات درباره کدام ایموجی می‌خواهید؟
+  emote-jumbo:
+    name: jumbo
+    short_doc: یک ایموجی را بزرگ‌تر می‌کند
+    params:
+      emoji:
+        name: شکلک
+        description: |-
+          Which emoji to make jumbo sized?
+  emote-rolelock:
+    name: rolelock
+    short_doc: قفل کردن استفاده از یک ایموجی به یکسری رول های خاص
+    params:
+      emoji:
+        name: شکلک
+        description: |-
+          کدام ایموجی قفل شود؟
+      role:
+        name: رول
+        description: |-
+          کدام رول از استفاده این ایموجی قفل شود؟
+  emote-roleunlock:
+    name: بازکردن_رول
+    short_doc: اجازه دادن به همه برای استفاده از یک شکلک قفل شده
+    params:
+      emoji:
+        name: ایموجی
+        description: |-
+          بازکردن قفل کدام ایموجی؟
+  emote-stats:
+    name: آمار
+    short_doc: دیدن آمار مربوط به تعداد دفعات استفاده از شکلک ها
+  emote-unblock:
+    name: آن‌بلاک_کردن
+    short_doc: ایموجی از قبل بلاک شده را از این حالت خارج می کند
+    params:
+      emoji:
+        name: ایموجی
+        description: |-
+          کدام ایموجی را آن‌بلاک شود؟
+  emote-upload:
+    name: آپلود
+    short_doc: آپلود یک شکلک
+    help: |
+      جستجو برای تمامی شکلک هایی که بات تا به حال دیده و آپلود کردن آنها به این سرور.
+      این دستور به شما اجازه می دهد تا شکلک هایی آپلود کنید.
+      شما همچنین می توانید یک فایل ضمیمه را همراه آن آپلود کنید
+  emote-upload-from_attachment:
+    name: از_ضمیمه
+    short_doc: آپلود یک ایموجی با یک ضمیمه
+    params:
+      attachment:
+        name: ضمیمه
+        description: |-
+          تصویر ایموجی
+  emote-upload-from_emote:
+    name: از_شکلک
+    short_doc: آپلود یک ایموجی با استفاده از نام یا آدرس URL آن
+    params:
+      emoji:
+        name: شکلک
+        description: |-
+          ایموجی یا آدرس URL ایموجی
+  emote-upload-from_search:
+    name: از_جستجو
+    short_doc: جستجو برای یک ایموجی برای آپلود در سرور شما
+  export:
+    name: استخراج
+    short_doc: استخراج لیست اختصار های شما
+  help:
+    name: راهنما
+    short_doc: شناخت بیشتر از دستورات من
+    params:
+      command:
+        name: دستور
+        description: |-
+          آیا مایل هستید که بیشتر بیاموزید؟
+    help: |
+      آشنایی با دستوراتی که می توانید با NQN از آنها استفاده کنید
+  ignore_me:
+    name: ازمن_بگذر
+    short_doc: از تبدیل پیام های شما NQN متوقف کردن
+    help: |
+      اجرای این دستور NQN را از تبدیل پیام هایتان در هر سروری که شما و بات در آن هستید، متوقف می کند.
+      - دستورات برای استفاده همچنان فعال هستند، اجرای مجدد این دستور همه چیز را دوباره به حالت عادی برمیگرداند
+      - شما همچنان می توانید پیام های خود را از طریق استفاده از [dashboard](https://nqn.blue)، تبدیل کنید
+      - بات هیچ یک از پیام های شما که از طریق webhook فرستاده شده باشند، پاسخ نخواهد داد
+  info:
+    name: درباره
+    short_doc: اطلاعات پشت‌صحنه درباره بات
+  invite_me:
+    name: دعوت_من
+    short_doc: '!دعوت بات به سرور خودتان'
+  mod:
+    name: مدیریت
+    short_doc: ابزار های مدیریتی NQN
+  mod-audit:
+    name: سابقه
+    short_doc: دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
+    params:
+      channel:
+        name: کانال
+        description: |-
+          فیلتر فقط پیام های این کانال
+      user:
+        name: کاربر
+        description: |-
+          فیلتر فقط پیام های این کاربر
+    help: |
+      دریافت سوابق اجرایی درباره پیام های تغییر یافته و ارسال شده در این کانال
+      اختیاری[Channel] -> فیلتر کردن ضبط سوابق فقط به این کانال
+      اختیاری[Member]-> فیلتر کردن ضبط سوابق فقط به این اعضاء
+  mod-ban:
+    name: بن
+    short_doc: بن کردن کاربری که یک پیام را فرستاده
+  mod-edit_topic:
+    name: ویرایش_توضیحات
+    short_doc: افزودن ایموجی های متحرک به قسمت توضیحات یک کانال
+    params:
+      description:
+        name: توضیحات
+        description: |-
+          توضیحات جدید کانال با مشمول کردن نام ایموجی ها
+    help: |
+      قسمت توضیحات یک کانال را تغییر می دهد، که باعث می شود بتوان از ایموجی های متحرک نیز در آنها استفاده کرد
+  mod-kick:
+    name: بیرون_انداختن
+    short_doc: بیرون انداختن کاربری که یک پیام را فرستاده
+  mod-move:
+    name: انتقال
+    short_doc: انتقال تا حداکثر 50 پیام های اخیر فرستاده شده در کانالی به کانال دیگر
+    params:
+      channel:
+        name: کانال
+        description: |-
+          کانال مقصد برای انتقال
+      messages:
+        name: پیام‌ها
+        description: |-
+          چه تعداد پیام منتقل شوند؟
+  mod-purge:
+    name: پاک_کردن
+    short_doc: حذف تعدادی از پیام هایی که توسط بات تبدیل‌شان صورت گرفته در این کانال
+  mutuals:
+    name: اشتراکات
+    short_doc: نمایش سرور هایی که من و شما باهم در آنها هستیم
+  my_emotes:
+    name: شکلک‌های_من
+    short_doc: آنها را ارسال کنید NQN مشاهده ایموجی هایی که می توانید با
+    params:
+      page:
+        name: صفحه
+        description: |-
+          چه ایموجی های نمایش داده شوند؟
+        choices:
+          current_server: سرور فعلی
+          mutual_servers: سرور های مشترک
+          aliases: اختصار‌ها
+          packs: بسته‌ها
+  owner:
+    name: دارنده
+    short_doc: اطلاعاتی درباره دانشی که داخل این بات فرونهانده شده
+  nqn:
+    name: nqn
+    short_doc: ارسال یک پیام با NQN
+  nqn-message:
+    name: پیام
+    short_doc: ارسال یک پیام با شکلک های NQN در آن
+    params:
+      message:
+        name: پیام
+        description: |-
+          پیامی که ارسال شود
+      persona:
+        name: پرسونا
+        description: |-
+          پرسونای مورد استفاده
+      attachment:
+        name: ضمیمه
+        description: |-
+          ضمیمه ارسالی
+  nqn-single_emoji:
+    name: یک_ایموجی
+    short_doc: ارسال یک پیام با یک ایموجی در آن
+    params:
+      emoji:
+        name: ایموجی
+        description: |-
+          کدام ایموجی ارسال شود
+      persona:
+        name: پرسونا
+        description: |-
+          پرسونای مورد استفاده
+  pack:
+    name: بسته
+    short_doc: مدیریت همه بسته های شکلک
+  pack-dm:
+    name: دایرکت
+    short_doc: DM دریافت یک لیست کامل از بسته های شکلک شما در
+    help: |
+      ارسال یک لیست کامل از بسته های شکلک شما، به طور مستقیم به شما (DM) توسط بات.
+  pack-join:
+    name: پیوستن
+    short_doc: مشترک شدن در یک بسته شکلک
+    params:
+      pack:
+        name: بسته
+        description: |-
+          تمایل پیوستن به کدام بسته را دارید؟
+  pack-leave:
+    name: ترک
+    short_doc: لغو اشتراک با یک بسته شکلک
+    params:
+      pack:
+        name: بسته
+        description: |-
+          چه بسته‌ای را می‌خواهید ترک کنید؟
+  pack-meta:
+    name: meta
+    short_doc: اوه اینجا رو نگاه... یه سری اطلاعات درباره بسته شکلک شما
+  pack-mine:
+    name: دراختیارمن
+    short_doc: دریافت لیستی از بسته هایی که شما مشترک آنها شدید
+  pack-publish:
+    name: publish
+    short_doc: منتشر کردن شکلک های سرور شما به عنوان یک بسته شکلک
+    params:
+      name:
+        name: name
+        description: |-
+          What do you want to call your pack?
+      public:
+        name: عمومی
+        description: |-
+          Do you want people to be able to join your server through the bot without an invite?
+  pack-rename:
+    name: تغییرنام
+    short_doc: تغییر نام یک بسته شکلک
+    params:
+      new_name:
+        name: نام_جدید
+        description: |-
+          What do you want to call your pack?
+  pack-save:
+    name: save
+    short_doc: آپلود کردن تمامی شکلک های یک بسته به این سرور
+    params:
+      name:
+        name: name
+        description: |-
+          Which pack are you downloading emojis to this server from?
+  pack-search:
+    name: جستجو
+    short_doc: گشتن به دنبال بسته شکلک های متفاوت
+    params:
+      search:
+        name: جستجو
+        description: |-
+          What kind of emojis are you looking for?
+      page:
+        name: صفحه
+        description: |-
+          Which page of packs to start on?
+  pack-set_public:
+    name: set_public
+    short_doc: NQN اجازه دادن به پیوستن همه از طریق دعوت توسط
+    params:
+      enabled:
+        name: فعال
+        description: |-
+          Allow users to join this server through NQN without an invite?
+  pack-show:
+    name: show
+    short_doc: نمایش محتوای یک بسته
+    params:
+      pack:
+        name: بسته
+        description: |-
+          Which pack to show the emojis of?
+  pack-unpublish:
+    name: unpublish
+    short_doc: برداشتن انتشار شکلک های این سرور
+  persona:
+    name: پرسونا
+    short_doc: مدیریت پرسونا های شما
+  persona-avatar_url:
+    name: avatar_url
+    short_doc: تنظیم آواتار یک پرسونا
+    params:
+      persona:
+        name: پرسونا
+        description: |-
+          Which persona are you changing the username for?
+      avatar_url:
+        name: avatar_url
+        description: |-
+          What's the new avatar URL?
+  persona-delete:
+    name: حذف
+    short_doc: حذف یکی از پرسونا های شما
+    params:
+      persona:
+        name: پرسونا
+        description: |-
+          Which persona are you deleting?
+  persona-display_name:
+    name: display_name
+    short_doc: تغییر نام‌کاربری یک پرسونا
+    params:
+      persona:
+        name: پرسونا
+        description: |-
+          Which persona are you changing the username for?
+      display_name:
+        name: display_name
+        description: |-
+          What's the new username?
+  persona-dm:
+    name: دایرکت
+    short_doc: ارسال پیام مستقیم از لیستی کامل از پرسونا های شما
+  persona-export:
+    name: استخراج
+    short_doc: استخراج لیست پرسونا های شما درون یک فایل
+    help: |
+      استخراج لیست پرسونا های شما درون یک فایل، که با بقیه بات ها سازگاری هم داشته باشد
+  persona-import:
+    name: واردکردن
+    short_doc: وارد کردن یک لیست از پرسونا های از قبل استخراج شده
+    params:
+      file:
+        name: فایل
+        description: |-
+          A file previously exported with /persona export
+    help: |
+      وارد کردن یک لیست از پرسونا های از قبل استخراج شده.
+      با بات های PluralKit و Tupperbox سازگاری دارد.
+  persona-list:
+    name: لیست
+    short_doc: مشاهده لیستی از پرسونا های شما
+  persona-register:
+    name: register
+    short_doc: ثبت یک پرسونا برای استفاده
+    params:
+      short_name:
+        name: short_name
+        description: |-
+          What's your persona's prefix?
+  persona-rename:
+    name: تغییرنام
+    short_doc: دادن یک نام متفاوت به یکی از پرسونا های شما
+    params:
+      persona:
+        name: پرسونا
+        description: |-
+          Which persona are you changing the prefix of?
+      new_name:
+        name: نام_جدید
+        description: |-
+          What will the new prefix be?
+  premium:
+    name: premium
+    short_doc: Premium stuff
+  premium-check:
+    name: check
+    short_doc: محاسبه مجدد اطلاعات پریمیوم شما
+    help: |
+      محاسبه مجدد اطلاعات پریمیوم شما، از جمله لیستی از سرور هایی که از پریمیوم شما منفعت می برند.
+  premium-help:
+    name: راهنما
+    short_doc: NQN اطلاعات مربوط به پریمیوم بات
+  ranking:
+    name: ranking
+    short_doc: در سطح‌بندی ما، سرور شما در چه رده‌ای قرار دارد؟
+  react:
+    name: react
+    short_doc: ری‌اکت کردن به یک پیام با ایموجی های مختلف
+    params:
+      emoji:
+        name: شکلک
+        description: |-
+          Which emoji to react with?
+      message:
+        name: پیام
+        description: |-
+          Which message to react to?
+    help: |
+      از ویژگی رپلای دیسکورد یا لینک آن پیام برای مشخص کردن پیامی که می خواهید به آن ری‌اکت کنید، استفاده کنید.
+      این دستور به شما اجازه می دهد لیستی از ایموجی ها را برای ری‌اکت کردن، انتخاب و به ترتیب استفاده کنید.
+      **شما نیز باید به ری‌اکشنی که ظاهر شد نیز ری‌اکت کنید تا آن ری‌اکشن باقی بماند.**
+  server:
+    name: server
+    short_doc: Server Configuration
+  server-alias:
+    name: اختصار
+    short_doc: Server Aliases
+  server-alias-delete:
+    name: حذف
+    short_doc: از یک شکلک خوشتان نیامد؟ خب کاری کنید که بقیه برای استفاده از آن، خودشان زحمت بکشند
+    params:
+      alias:
+        name: اختصار
+        description: |-
+          کدام اختصار را میخواهید حذف کنید؟
+  server-alias-import:
+    name: واردکردن
+    short_doc: وارد کردن لیستی از اختصار های سرور با یک فایل.
+    params:
+      file:
+        name: فایل
+        description: |-
+          یک فایل که با /alias export از قبل استخراج شده
+  server-alias-list:
+    name: لیست
+    short_doc: نمایش لیستی از اختصار هایی که همه در سرور می توانند از آنها استفاده کنند
+    params:
+      page:
+        name: صفحه
+        description: |-
+          Which page to start at?
+  server-alias-post:
+    name: post
+    short_doc: ارسال یک لیست از اختصار های سرور
+    params:
+      channel:
+        name: کانال
+        description: |-
+          Which channel do you want to post the server-wide emoji list to?
+  server-alias-rename:
+    name: تغییرنام
+    short_doc: تغییر نام یک اختصار سرور
+    params:
+      old_name:
+        name: نام_قبلی
+        description: |-
+          نام ایموجی که میخواهید به آن یک نام جدید بدهید، چیست؟
+      new_name:
+        name: نام_جدید
+        description: |-
+          باید به چه نامی تغییر یابد؟
+  server-alias-search:
+    name: جستجو
+    short_doc: اجازه دادن به همه در این سرور برای استفاده از یک شکلک!
+  server-dashboard_posting:
+    name: dashboard_posting
+    short_doc: فعال یا غیرفعال سازی استفاده از داشبورد سایت برای ارسال پیام
+  server-audit_channel:
+    name: audit_channel
+    short_doc: ارسال پیام هایی که بات آنها را تبدیل می کند
+    params:
+      channel:
+        name: کانال
+        description: |-
+          Which channel should NQN post to? (None -> No channel)
+  server-language:
+    name: language
+    short_doc: تنظیم زبان بات %{locale_flag_emojis}
+  server-link:
+    name: link
+    short_doc: ساخت یک شکلک ثابت به عنوان نسخه متحرک آن، که با فرستادن نسخه ثابت، به نسخه متحرکش تبدیل شود!
+    params:
+      emoji:
+        name: شکلک
+        description: |-
+          Which emoji to create a static version of?
+  server-masked_links:
+    name: masked_links
+    short_doc: فعال کردن متن های لینک دار در این سرور
+  server-nitro:
+    name: نیترو
+    short_doc: استفاده رایگان از شکلک های نیترو را در این سرور فعال یا غیرفعال می‌کند
+  server-pack:
+    name: بسته
+    short_doc: Server Packs
+  server-pack-join:
+    name: پیوستن
+    short_doc: مشترک شدن به یک بسته شکلک به صورت گسترده در بین سرور ها
+    params:
+      pack:
+        name: بسته
+        description: |-
+          Which pack do you want to allow everyone in this server to use?
+  server-pack-leave:
+    name: ترک
+    short_doc: لغو اشتراک یک بسته شکلک به صورت گسترده در بین سرور ها
+    params:
+      pack:
+        name: بسته
+        description: |-
+          Which pack do you want to remove access to from everyone?
+  server-pack-list:
+    name: لیست
+    short_doc: لیست بسته هایی که این سرور می تواند استفاده کند
+  server-pack-post:
+    name: post
+    short_doc: ارسال یک لیست از بسته شکلک های سرور
+  server-pack-search:
+    name: جستجو
+    short_doc: جستجو در بین بسته شکلک های به صورت گسترده در بین سرور ها
+  server-permissions_debug:
+    name: permissions_debug
+    short_doc: به نمایش دسترسی هایی که کم دارد NQN اجازه دادن به
+  server-personas:
+    name: پرسونا ها
+    short_doc: فعال یا غیرفعال سازی استفاده از پرسونا ها
+    help: |
+      اجازه دادن به کاربران برای استفاده از نام ها و آواتار های غیرحقیقی
+  server-pings:
+    name: پینگ‌ها
+    short_doc: فعال یا غیرفعال کردن استفاده از پینگ ها در پیام های این سرور
+    help: |
+      فعال یا غیرفعال کردن استفاده از پینگ ها در پیام های این سرور
+  server-phish_detection:
+    name: phish_detection
+    short_doc: فعال یا غیرفعال کردن تشخیص فیشینگ از پیام های این سرور
+  server-prefix:
+    name: پیشوند
+    short_doc: NQN تعیین پیشوند جدید برای استفاده از
+    help: |
+      تعیین پیشوند جدید برای استفاده NQN.
+
+      مثال فراخواندن:
+      >>> %{prefix}server prefix <@%{bot_id}> ?
+    signature: |
+      @NQN#3454 [prefix=!]
+  server-message_link_previews:
+    name: پیشنمایش‌لینک‌پیام
+    short_doc: فعال یا غیرفعال کردن پیشنمایش لینک پیام ها در این سرور
+  server-settings:
+    name: تنظیمات
+    short_doc: نمایش تنظیمات این سرور
+    help: |
+      نمایش تنظیمات NQN در سرور، از جمله ویژگی ها، کانال های تنظیم شده و اطلاعات مرتبط به بسته های شکلک.
+  server-boost_channel:
+    name: boost_channel
+    short_doc: ارسال پیام هروقت که فردی به بات در top.gg رائ داد
+  server-boost_role:
+    name: boost_role
+    short_doc: دادن این رول توسط NQN وقتی یک کاربر سرور را بوست کرد
+  server-nitro_role:
+    name: nitro_role
+    short_doc: نیازمند به یک رول می کند NQN کاربر را برای استفاده از
+    help: |
+      برای استفاده کاربر از ویژگی نیتروی NQN، یک رول الزامی را تنظیم می کند
+    params:
+      role:
+        name: رول
+        description: |-
+          رولی که مردم برای استفاده از تبدیل کردن پیام NQN به آن نیاز دارند
+  server-stickers:
+    name: استیکر ها
+    short_doc: فعال یا غیرفعال سازی استفاده از استیکر ها در این سرور
+  server-user_content:
+    name: user_content
+    short_doc: فعال یا غیرفعال کردن استفاده از اختصار ها و بسته های کاربران در این سرور
+  sticker:
+    name: sticker
+    short_doc: Manage your NQN stickers
+  sticker-create:
+    name: create
+    short_doc: Create a sticker
+    help: |
+      ساختن یک استیکر از یک فایل
+      آپلود تصویر و استفاده از این دستور برای تبدیل آن به یک استیکر.
+      نام استیکر توسط نام خود فایل تعیین خواهد شد، یا تقریبا همان چیزی که برای مثال در ‎`sticker create BluePat.png` وارد می کنید.
+      نام استیکر ها در کل NQN یکتا هستند، یعنی اگر یک نام گرفته شده، دیگر نمی شود آن را گرفت.
+      استیکر ها فقط میتوانند حداکثر 8 مگابایت حجم داشته باشند، و نام‌هایشان هم فقط باید متشکل از حروف الفبا یا اعداد انگلیسی باشد.
+      استیکر ها به یک فایل افزونه نیازمند هستند، که آن هم از حروف الفبا و اعداد تشکیل می شود.
+  sticker-create-from_attachment:
+    name: از_ضمیمه
+    short_doc: Create a sticker
+    params:
+      sticker:
+        name: sticker
+        description: |-
+          The image to turn into a sticker
+      name:
+        name: name
+        description: |-
+          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+  sticker-create-from_emote:
+    name: از_شکلک
+    short_doc: وارد کردن استیکر ها از شکلک ها
+    params:
+      emoji:
+        name: شکلک
+        description: |-
+          …
+      name:
+        name: name
+        description: |-
+          What to call your sticker. Must be alphanumeric with a `.` in it, like `nqn.nqn`
+  sticker-create-from_search:
+    name: از_جستجو
+    short_doc: وارد کردن استیکر ها از شکلک ها
+  sticker-create-from_telegram:
+    name: from_telegram
+    short_doc: وارد کردن استیکر از تلگرام
+    params:
+      telegram_packname:
+        name: telegram_packname
+        description: |-
+          The URL to the Telegram sticker pack
+  sticker-delete:
+    name: حذف
+    short_doc: حذف یک استیکر
+    params:
+      name:
+        name: name
+        description: |-
+          Which sticker to delete
+  sticker-import:
+    name: واردکردن
+    short_doc: وارد کردن استیکر ها از شکلک ها
+    help: |
+      وارد کردن استیکر ها از شکلک ها
+      یا با استفاده مستقیم از شکلک، یا با اختصار های اختیاری
+       - sticker import :blue_smirk: smirk.png
+      یا از طریق گشتن در بین شکلک هایی که NQN دارد.
+      - sticker import blue pat
+      توجه داشته باشید که جستجو در بین شکلک ها از اختصار های سفارشی پشتیبانی نمی کند
+  sticker-mine:
+    name: دراختیارمن
+    short_doc: دریافت لیست استیکر های شما
+  sticker-rename:
+    name: تغییرنام
+    short_doc: تغییر نام یک استیکر
+    params:
+      old_name:
+        name: نام_قبلی
+        description: |-
+          Which sticker to rename
+      new_name:
+        name: نام_جدید
+        description: |-
+          What to rename it to?
+  sticker-search:
+    name: جستجو
+    short_doc: البته با جستار های اختیاری ،NQN جستجو در بین همه استیکر های
+    params:
+      search:
+        name: جستجو
+        description: |-
+          Which to search for?
+  sticker-telegram:
+    name: telegram
+    short_doc: وارد کردن استیکر از تلگرام
+  support:
+    name: پشتیبانی
+    short_doc: یکم کمک برای استفاده از من لازم دارید؟
+  tutorial:
+    name: آموزش
+    short_doc: NQN آشنایی بیشتر با نحوه استفاده از شکلک های
+    params:
+      about:
+        name: about
+        description: |-
+          آیا مایل هستید که بیشتر بیاموزید؟
+  whois:
+    name: whois
+    short_doc: پیدا کردن کسی که این پیام را برای تبدیل فرستاده
+  _search:
+    params:
+      search:
+        name: جستجو
+        description: |-
+          What are you searching for?
+      exact:
+        name: exact
+        description: |-
+          Show only emojis with exactly this name
+      animated:
+        name: animated
+        description: |-
+          Show only animated or static emojis?
+      page:
+        name: صفحه
+        description: |-
+          Start from a page other than 1
+      order:
+        name: order
+        description: |-
+          Order results by?
+        choices:
+          random: random
+          relevance: relevance
