@@ -1,0 +1,74 @@
+discord_bot:
+  commands:
+    persona:
+      not_enabled: |
+        استفاده از پرسونا در این سرور فعال نشده.
+        پرسونا ها به کاربران اجازه می‌دهند که ⚠️ **نام کاربری** و **آواتار های سفارشی**⚠️ برای خودشان توسط NQN داشته باشند، که به طور پیشفرض، این مورد غیرفعال است.
+      enable_personas: فعالسازی پرسونا ها
+      name_regex: |
+        نام های مورد استفاده در پرسونا فقط می توانند حاوی حروف الفبا، اعداد، - و _ باشند و طولشان حداکثر 80 کاراکتر میتواند باشند.
+        > '%{persona_name}' این نام با این موارد ضروری مطابقت ندارد.
+      max_display_name: |
+        نام‌کاربری می تواند حداکثر 80 کاراکتر باشد
+      persona_doesnt_exist: |
+        شما هیچ پرسونایی به نام %{short_name} ندارید!
+        با استفاده از ‎`%{prefix}persona register %{short_name}` یک عدد برای خود بسازید
+      export:
+        exported_list_short: |
+          این هم از پرسونا های استخراج شده شما، این ها باید با Tupperbox و Pluralkit همخوانی داشته باشند.
+        exported_list_long: |
+          این هم از پرسونا های استخراج شده شما، این ها باید با Tupperbox و Pluralkit همخوانی داشته باشند.
+          برای به اشتراک گذاشتن آنها با بقیه، بقیه باید از این دستور استفاده کنند:
+          > `%{prefix}persona import %{url}`
+      import_:
+        import_incorrect: |
+          این دستور برای وارد کردن یک لیست از قبل استخراج شده پرسونا، که از PluralKit یا Tupperbox یا با استفاده از ‎`%{prefix}persona export` به دست آمده، مورد استفاده است.
+          برای ساختن یک پرسونا، از ‎`%{prefix}persona register` استفاده کنید
+        import_text: این دستور به یک فایل json پیوست شده نیاز دارد
+        set_personas:
+          one: یک پرسونا وارد شد
+          many: '%{count} پرسونا وارد شد'
+        invalid_persona: آیا می‌خواهید که با کنار گذاشتن این بخش، به وارد کردن بقیه فایل ادامه دهید؟
+      list:
+        no_personas: |
+          شما هیچ پرسونایی ندارید!
+      register:
+        display_name: نام مستعار
+        avatar_url: آدرس URL آواتار
+        create: ساخت پرسونا
+        persona_exists: |
+          شما از قبل یک پرسونا به نام %{short_name} دارید.
+          شما می توانید نام آن را با استفاده از ‎`%{prefix}persona rename %{short_name} new_name` تغییر دهید
+        registered_persona: |
+          نام %{short_name} به عنوان یک پرسونا از شما ثبت شد!
+          برای ارسال پیام از طرف ایشان، یک پیام که با ‎`%{short_name}:` شروع می شود، بفرستید. برای مثال:
+          > ```%{short_name}: Hello!```
+          برای تغییر نام‌کاربری مورد استفاده در پیام هایی که 'NQN' به عنوان پرسونا می‌فرستد، از این دستور استفاده کنید:
+          > ```%{prefix}persona display_name %{short_name} NQN```
+          برای تغییر آواتار مورد استفاده در آن پیام ها نیز می توانید این مورد را اجرا کنید:
+          > ```%{prefix}persona avatar_url %{short_name} https://...```
+      rename:
+        renamed_persona: |
+          نام از %{old_name} به %{new_name} تغییر یافت.
+      avatar_url:
+        persona_avatar_url: |
+          آواتار برای %{short_name} تنظیم شد.
+        avatar_regex: |
+          برای استفاده یک عکس برای آواتار ها، باید یک آدرس URL داده شود.
+      delete:
+        persona_deleted: |
+          اطلاعات مربوط به %{short_name} حذف شد.
+      display_name:
+        renamed_persona_display_name: |
+          نام مورد نمایش برای %{short_name}، به %{display_name} تنظیم شد.
+      dm:
+        send_dms:
+          zero: |
+            !شما هیچ پرسونایی ندارید
+            تعدادی برای خود درست کنید ‎`%{prefix}persona register` با استفاده از
+          one: |
+            این به شما یک پیام مستقیم (دایرکت) می‌فرستد. آیا تمایل به ادامه دارید؟
+          many: |
+            این به شما %{count} پیام مستقیم (دایرکت) می‌فرستد. آیا تمایل به ادامه دارید؟
+        blocked: |
+          شما من را بلاک کرده‌اید، من نمی‌توانم به شما مستقیماً پیام بفرستم!
