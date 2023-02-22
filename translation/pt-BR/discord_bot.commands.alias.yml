@@ -1,0 +1,54 @@
+discord_bot:
+  commands:
+    alias:
+      no_alias: "Você não tem um alias chamado \\:%{name}:"
+      could_not_find: Não foi possível encontrar esse alias
+      alphanumeric: Os aliases podem conter apenas alfanuméricos e *underscores*
+      max_length: Os nomes dos aliases podem ter no máximo 32 caracteres
+      user_zero: Você não tem aliases
+      set_alias: Defenir alias
+      from_message:
+        no_emotes: Essa mensagem não tem nenhum emoji!
+      delete:
+        deleted: 'O alias \:%{name}: foi excluído'
+      delete_all:
+        confirm: |
+          Isso vai excluir todos os seus **%{count}** aliases.
+          Tem certeza que deseja continuar?
+        deleted:
+          one: 1 alias foi excluído
+          many: '%{count} aliases foram excluídos'
+      created:
+        one: 'Você criou um alias e pode usá-lo digitando:'
+        many: 'Você criou %{count} aliases e pode usá-los digitando:'
+      rename:
+        rename: Renomear Alias
+        alias_name: 'Nome do Alias:'
+        renamed: '\:%{old}: foi renomeado para :%{new}:'
+      export:
+        exported_short: "Aqui estão seus aliases exportados:"
+        exported_long: |
+          Aqui estão seus aliases exportados:
+          Para para que outras pesssoas possam usá-los, eles precisam executar:
+          > `%{prefix}alias import %{url}
+      import_:
+        import_incorrect: |
+          Este comando é usado para importar uma lista de aliases previamente exportada com `%{prefix}alias export`.
+          Para procurar um emoji e criar um alias dele, use `%{prefix}alias search`
+        import_text: Este comando precisa de um anexo de arquivo de texto
+        import_lines_invalid: Não foi possível definir aliases nas linhas %{lines_invalid}, formato inválido.
+        import_set:
+          one: '%{count} alias foi definido.'
+          many: '%{count} aliases foram definidos.'
+      dm:
+        send_dms:
+          zero: |
+            Você não tem aliases!
+            Consiga alguns procurando emojis com `%{prefix}alias search`
+          one: |
+            Isso te enviará uma mensagem privada; Você deseja continuar?
+          many: |
+            Isso te enviará várias mensagens privadas; Você deseja continuar?
+        blocked: |-
+          Você me bloqueou! :O
+          Eu não posso te enviar mensagens!
