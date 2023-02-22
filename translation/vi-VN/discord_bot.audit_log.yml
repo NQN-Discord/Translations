@@ -1,0 +1,20 @@
+discord_bot:
+  audit_log:
+    cropped: (Đã cắt xén)
+    nsfw_censored: <Censored; %{channel} is NSFW>
+    message_posted: |
+      Tin nhắn được gửi trong %{channel} bởi %{author} %{cropped}
+      [Đến tin nhắn](%{jump_url})
+    message_posted_persona: |
+      Tin nhắn được gửi trong %{channel} bởi %{author} %{cropped}
+      ⚠️ Sử dụng danh tính⚠️
+      > **%{persona}**
+      [Đến tin nhắn](%{jump_url})
+    message_edited: |
+      Tin nhắn được chỉnh sửa trong %{channel} bởi %{author} %{cropped}
+      [Đến tin nhắn](%{jump_url})
+    phish_deleted: |
+      Đã xóa tin nhắn lừa đảo trong %{channel} bởi %{author}
+    blocked_message: |
+      Đã xóa tin nhắn của %{author} với emoji bị khóa trong %{channel}
+    audit_log_post: NQN thay mặt %{author} (%{id})
