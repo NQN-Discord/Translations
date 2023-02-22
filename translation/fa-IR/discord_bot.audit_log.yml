@@ -1,0 +1,20 @@
+discord_bot:
+  audit_log:
+    cropped: (بریده شد)
+    nsfw_censored: <سانسور شد; %{channel} یک کانال NSFW است>
+    message_posted: |
+      پیام در %{channel} توسط %{author} %{cropped} و ارسال شد
+      [پرش به پیام](%{jump_url})
+    message_posted_persona: |
+      پیام در %{channel} توسط %{author} %{cropped} و ارسال شد
+      ⚠️ با استفاده از پرسونا ⚠️
+      > **%{persona}**
+      [پرش به پیام](%{jump_url})
+    message_edited: |
+      پیام در %{channel} توسط %{author} %{cropped} و ویرایش شد
+      [پرش به پیام](%{jump_url})
+    phish_deleted: |
+      پیام تقلبی در %{channel} ارسال شده توسط %{author} حذف شد
+    blocked_message: |
+      پیام حاوی شکلک های بلاک شده در %{channel} ارسال شده توسط %{author} حذف شد
+    audit_log_post: بات NQN از طرف %{author} (%{id})
