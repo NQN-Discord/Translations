@@ -1,0 +1,57 @@
+exceptions:
+  command_not_found: |
+    Commando "%{command}" was niet gevonden.
+    Gebruik `%{prefix}help` om een lijst met commando's te zien
+  missing_required_argument:
+    one: |-
+      "%{param}" is een verplichte argument dat ontbreekt.
+      Het zou moeten zijn: %{should_be}
+    many: |
+      "%{param}" is een verplicht argument dat ontbreekt.
+      Het moet een van deze zijn:
+      -%{should_be}
+  bot_missing_permissions:
+    one: |
+      %{bot_ping} mist de volgende machtiging die nodig is om deze commando uit te voeren:
+      %{permissions_missing}
+    many: |
+      %{bot_ping} mist de volgende machtigingen die nodig is om deze commando uit te voeren:
+      %{permissions_missing}
+  user_missing_permissions:
+    one: |
+      U mist de volgende machtiging die nodig is om deze commando uit te voeren:
+      %{permissions_missing}
+    many: |
+      U mist de volgende machtigingen die nodig zijn om deze commando uit te voeren:
+      %{permissions_missing}
+  message_not_found: |
+    Bericht "%{param}" niet gevonden.
+  channel_not_found: |
+    Kanaal "%{channel}" niet gevonden.
+  channel_not_readable: |
+    %{bot_ping} mist de volgende machtiging in %{channel}:
+    %{permissions_missing}
+  bad_argument:
+    one: |
+      Kon argument%{param} niet interpreteren; zou moeten zijn:
+    many: |
+      Kon argument%{param} niet interpreteren, moet een van de volgende zijn:
+  no_dms: |
+    Deze commando kan niet worden uitgevoerd in DM's
+  permissions_missing_reasons:
+    #These translations were designed to be short, and to fit on about 1 line on a mobile screen
+    guild: |-
+      De rollen van %{user_ping} bevatten het niet
+    member_overwrite: |-
+      %{channel} rechten nadrukkelijk weigeren %{user_ping}
+    role_overwrite:
+      one: |-
+        %{channel} rechten geweigerd voor de rol: %{roles}
+      many: |-
+        %{channel} rechten geweigerd voor deze rollen: %{roles}
+    member_role_overwrite:
+      one: |-
+        %{channel} rechten nadrukkelijk weigeren %{user_ping} ook als de rol: %{roles}
+      many: |-
+        %{channel} rechten nadrukkelijk weigeren %{user_ping} ook als de rollen: %{roles}
+  no_threads: Deze commando kan niet in threads worden gebruikt.
