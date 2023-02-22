@@ -1,0 +1,8 @@
+interactions:
+  not_author: |
+    Alleen de auteur van het bericht mag met dit bericht communiceren
+  timed_out: |
+    Interactie time-out.
+    Voer de commando opnieuw uit.
+  bot_timed_out: |
+    NQN heeft een time-out gekregen van een moderator en kan niet reageren.
