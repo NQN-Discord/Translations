@@ -41,20 +41,14 @@ discord_bot:
           one: '%{author}, %{count} mesajı %{from_channel}''dan %{to_channel}''a taşıdı'
           many: '%{author}, %{count} mesajları %{from_channel}''dan %{to_channel}''a taşıdı'
         move_end: Bitiş mesajını taşı
-        end_previous_n:
-          - 
-        end_next_n:
-          - 
+        end_previous_n: "%{count} bitiş mesajını önceye taşı"
+        end_next_n: "Bitiş mesajını %{count} sonra taşı"
         move_start: Başlangıç mesajını taşı
-        start_previous_n:
-          - 
-        start_next_n:
-          - 
+        start_previous_n: "%{count} başlangıç mesajını önceye taşı"
+        start_next_n: "Başlangıç mesajını %{count} sonra taşı"
         move_both: Başlangıcı ve bitişi taşı
-        both_previous_n:
-          - 
-        both_next_n:
-          - 
+        both_previous_n: "Başlangıcı ve bitişi %{count} önceye taşıyın"
+        both_next_n: "Başlangıç mesajını %{count} önce taşı"
         move:
           one: Mesaj taşı!
           many: '%{count} mesajıları taşıyın!'
