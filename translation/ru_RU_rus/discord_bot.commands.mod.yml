@@ -41,20 +41,14 @@ discord_bot:
           one: '%{author} переместил %{count} сообщение из %{from_channel} в %{to_channel}'
           many: '%{author} переместил %{count} сообщений из %{from_channel} в %{to_channel}'
         move_end: Move end message
-        end_previous_n:
-          - 
-        end_next_n:
-          - 
+        end_previous_n: "Move end message %{count} before"
+        end_next_n: "Move end message %{count} after"
         move_start: Move start message
-        start_previous_n:
-          - 
-        start_next_n:
-          - 
+        start_previous_n: "Move start message %{count} before"
+        start_next_n: "Move start message %{count} after"
         move_both: Move start and end
-        both_previous_n:
-          - 
-        both_next_n:
-          - 
+        both_previous_n: "Move start and end %{count} before"
+        both_next_n: "Move start and end %{count} after"
         move:
           one: Move message!
           many: Move %{count} messages!
