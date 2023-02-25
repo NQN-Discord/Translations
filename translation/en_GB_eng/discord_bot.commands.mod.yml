@@ -44,22 +44,16 @@ discord_bot:
           many: '%{author} moved %{count} messages from %{from_channel} to %{to_channel}'
 
         move_end: Move end message
-        end_previous_n:
-          Move end message %{count} before
-        end_next_n:
-          Move end message %{count} after
+        end_previous_n: "Move end message %{count} before"
+        end_next_n: "Move end message %{count} after"
 
         move_start: Move start message
-        start_previous_n:
-          Move start message %{count} before
-        start_next_n:
-          Move start message %{count} after
+        start_previous_n: "Move start message %{count} before"
+        start_next_n: "Move start message %{count} after"
 
         move_both: Move start and end
-        both_previous_n:
-          Move start and end %{count} before
-        both_next_n:
-          Move start and end %{count} after
+        both_previous_n: "Move start and end %{count} before"
+        both_next_n: "Move start and end %{count} after"
 
         move:
           one: Move message!

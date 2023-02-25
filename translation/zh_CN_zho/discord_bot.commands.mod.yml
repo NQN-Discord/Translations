@@ -41,14 +41,14 @@ discord_bot:
           one: '%{author} 移动了%{count} 条在%{from_channel} 里的消息到%{to_channel}'
           many: '%{author} 移动了%{count} 条在%{from_channel} 里的消息到%{to_channel}'
         move_end: 移动结尾消息
-        end_previous_n: 将结尾消息移到%{count} 前
-        end_next_n: 将结尾消息移到%{count} 后
+        end_previous_n: "将结尾消息移到%{count} 前"
+        end_next_n: "将结尾消息移到%{count} 后"
         move_start: 移动开始消息
-        start_previous_n: 将开始消息移到%{count} 前
-        start_next_n: 将开始消息移到%{count} 后
+        start_previous_n: "将开始消息移到%{count} 前"
+        start_next_n: "将开始消息移到%{count} 后"
         move_both: 移动开始和结尾消息
-        both_previous_n: 将开始和结尾消息移到%{count} 前
-        both_next_n: 将开始和结尾消息移到%{count} 后
+        both_previous_n: "将开始和结尾消息移到%{count} 前"
+        both_next_n: "将开始和结尾消息移到%{count} 后"
         move:
           one: 移动消息！
           many: 移动%{count} 条消息！

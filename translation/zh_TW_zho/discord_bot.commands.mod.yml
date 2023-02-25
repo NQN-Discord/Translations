@@ -41,14 +41,14 @@ discord_bot:
           one: '%{author} 移動了%{count} 條在 %{from_channel} 裡的訊息到 %{to_channel}'
           many: '%{author} 移動了%{count} 條在 %{from_channel} 裡的訊息到 %{to_channel}'
         move_end: 修正將移動的結尾訊息
-        end_previous_n: 修正將移動的結尾訊息到前%{count}條
-        end_next_n: 修正將移動的結尾訊息到後%{count}條
+        end_previous_n: "修正將移動的結尾訊息到前%{count}條"
+        end_next_n: "修正將移動的結尾訊息到後%{count}條"
         move_start: 修正將移動的開始訊息
-        start_previous_n: 修正將移動的開始訊息到前%{count}條
-        start_next_n: 修正將移動的開始訊息到後%{count}條
+        start_previous_n: "修正將移動的開始訊息到前%{count}條"
+        start_next_n: "修正將移動的開始訊息到後%{count}條"
         move_both: 修正將移動的開始和結尾訊息
-        both_previous_n: 修正將移動的開始和結尾訊息到前%{count}條
-        both_next_n: 修正將移動的開始和結尾訊息到後%{count}條
+        both_previous_n: "修正將移動的開始和結尾訊息到前%{count}條"
+        both_next_n: "修正將移動的開始和結尾訊息到後%{count}條"
         move:
           one: 移動訊息！
           many: 移動%{count}條訊息！

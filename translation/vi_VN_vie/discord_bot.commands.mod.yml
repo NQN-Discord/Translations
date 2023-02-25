@@ -41,14 +41,14 @@ discord_bot:
           one: '%{author} đã chuyển %{count} tin nhắn từ %{from_channel} đến %{to_channel}'
           many: '%{author} đã chuyển %{count} tin nhắn từ %{from_channel} đến %{to_channel}'
         move_end: Tin nhắn cuối để chuyển
-        end_previous_n: Chuyển tin nhắn cuối về %{count} tin nhắn trước
-        end_next_n: Chuyển tin nhắn cuối đến %{count} tin nhắn sau
+        end_previous_n: "Chuyển tin nhắn cuối về %{count} tin nhắn trước"
+        end_next_n: "Chuyển tin nhắn cuối đến %{count} tin nhắn sau"
         move_start: Tin nhắn đầu để chuyển
-        start_previous_n: Chuyển tin nhắn đầu về %{count} tin nhắn trước
-        start_next_n: Chuyển tin nhắn đầu đến %{count} tin nhắn sau
+        start_previous_n: "Chuyển tin nhắn đầu về %{count} tin nhắn trước"
+        start_next_n: "Chuyển tin nhắn đầu đến %{count} tin nhắn sau"
         move_both: Chuyển cả tin nhắn đầu và cuối
-        both_previous_n: Chuyển tin nhắn đầu và cuối về %{count} tin nhắn trước
-        both_next_n: Chuyển tin nhắn đầu và cuối đến %{count} tin nhắn sau
+        both_previous_n: "Chuyển tin nhắn đầu và cuối về %{count} tin nhắn trước"
+        both_next_n: "Chuyển tin nhắn đầu và cuối đến %{count} tin nhắn sau"
         move:
           one: Chuyển tin nhắn!
           many: Chuyển %{count} tin nhắn!

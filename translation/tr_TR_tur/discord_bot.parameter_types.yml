@@ -9,10 +9,10 @@ discord_bot:
       name: Mesaj
       description: |-
         Hedeflemek istediğiniz mesaja bir Discord yanıtı
-         - Bir mesaj URL'si (`https://discord.com/channels/123456789/123456789/123456789`)
-         - Geçerli kanalda bir mesaj id (`123456789`)
-         - KanalİD-MesajİD çifti (`123456789-123456789`)
-         - Şu anki kanalda kaç mesaj önceydi (`5` mesaj önce)
+        - Bir mesaj URL'si (`https://discord.com/channels/123456789/123456789/123456789`)
+        - Geçerli kanalda bir mesaj id (`123456789`)
+        - KanalİD-MesajİD çifti (`123456789-123456789`)
+        - Şu anki kanalda kaç mesaj önceydi (`5` mesaj önce)
     PartialEmoji:
       name: Emoji
       description: |-

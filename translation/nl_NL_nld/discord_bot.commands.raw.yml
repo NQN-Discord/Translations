@@ -171,7 +171,7 @@ discord_bot:
           Met persona's kan iedereen op uw server een bepaalde gebruikersnaam en avatar aannemen die verschilt van die van henzelf.
           Om persona's op een server te gebruiken, moet je eerst `%{prefix}server personas op` uitvoeren.
 
-          Om een persona aan te maken, gebruik je `%{prefix}persona register name`. Daarna kun je berichten verzenden als die persona door een bericht te sturen:
+          Om een persona aan te maken, gebruik je eerst `%{prefix}persona register name`. Daarna kun je berichten verzenden als die persona door een bericht te sturen:
           > naam: Rest van bericht
         page_8_title: Serverbeheer
         page_8_desc: |
