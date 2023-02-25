@@ -41,20 +41,14 @@ discord_bot:
           one: 'کاربر %{author}، به تعداد %{count} پیام را از کانال %{from_channel} به کانال %{to_channel} منتقل کرد'
           many: 'کاربر %{author}، به تعداد %{count} پیام را از کانال %{from_channel} به کانال %{to_channel} منتقل کرد'
         move_end: جابه‌جا کردن پیام پایان
-        end_previous_n:
-          - 
-        end_next_n:
-          - 
+        end_previous_n: "جابه‌جا کردن پیام پایان به %{count} قبل"
+        end_next_n: "جابه‌جا کردن پیام پایان به %{count} بعد"
         move_start: جابه‌جا کردن پیام شروع
-        start_previous_n:
-          - 
-        start_next_n:
-          - 
+        start_previous_n: "جابه‌جا کردن پیام شروع به %{count} قبل"
+        start_next_n: "جابه‌جا کردن پیام شروع به %{count} بعد"
         move_both: جابه‌جا کردن پیام شروع و پایان
-        both_previous_n:
-          - 
-        both_next_n:
-          - 
+        both_previous_n: "جابه‌جا کردن پیام شروع و پایان به %{count} قبل"
+        both_next_n: "جابه‌جا کردن پیام شروع و پایان به %{count} بعد"
         move:
           one: جابه‌جا کردن پیام!
           many: جابه‌جا کردن %{count} پیام!
