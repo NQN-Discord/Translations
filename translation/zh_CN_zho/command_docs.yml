@@ -240,8 +240,8 @@ command_docs:
     name: mod
     short_doc: NQN moderation tools
   mod-audit:
-    name: audit
-    short_doc: Get audit logs for reposted messages for this channel
+    name: 记录
+    short_doc: 获取NQN在此频道转发的消息的记录
     params:
       channel:
         name: channel
@@ -252,11 +252,11 @@ command_docs:
         description: |-
           Filter to just messages by this user
     help: |
-      Get audit logs for reposted messages for this channel
-      Optional[Channel] -> Filter logs to this channel only
-      Optional[Member] -> Filter logs to this member only
+      获取NQN在此频道转发的消息的记录
+      可选[Channel] -> 仅获得此频道的记录
+      可选[Member] -> 仅获得此成员的记录
 
-      If both channel and members are to be unfiltered, use 'audit guild'
+      如果频道和成员都不用被过滤，请使用 ’audit guild‘
   mod-ban:
     name: ban
     short_doc: Ban the user that posted a message
