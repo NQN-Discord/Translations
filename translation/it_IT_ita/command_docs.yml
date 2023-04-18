@@ -451,6 +451,9 @@ command_docs:
         name: personaggio
         description: |-
           Quale personaggio vuoi cancellare?
+  persona-delete-all:
+    name: delete_all
+    short_doc: Delete all of your personas
   persona-display_name:
     name: nome_mostrato
     short_doc: Cambia il nome utente di un personaggio
