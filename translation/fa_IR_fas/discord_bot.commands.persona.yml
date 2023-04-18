@@ -58,6 +58,12 @@ discord_bot:
       delete:
         persona_deleted: |
           اطلاعات مربوط به %{short_name} حذف شد.
+      delete_all:
+        confirm: |
+          This will delete all **%{count}** of your personas.
+          Are you sure you wish to continue?
+        all_deleted: |
+          Deleted all your personas.
       display_name:
         renamed_persona_display_name: |
           نام مورد نمایش برای %{short_name}، به %{display_name} تنظیم شد.
