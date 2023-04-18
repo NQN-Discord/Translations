@@ -452,8 +452,8 @@ command_docs:
         description: |-
           ¿Qué personaje estás eliminando?
   persona-delete-all:
-    name: delete_all
-    short_doc: Delete all of your personas
+    name: eliminar_todos
+    short_doc: Elimina todos tus personajes
   persona-display_name:
     name: nombre_visible
     short_doc: Cambia el nombre de usuario de uno de tus personajes
