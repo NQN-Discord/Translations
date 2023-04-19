@@ -60,10 +60,10 @@ discord_bot:
           Informazioni eliminate su %{short_name}.
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your personas.
-          Are you sure you wish to continue?
+          Questo eliminerà tutti i **%{count}** dei tuoi personaggi.
+          Sei sicuro di voler continuare?
         all_deleted: |
-          Deleted all your personas.
+          Eliminati tutti i tuoi personaggi.
       display_name:
         renamed_persona_display_name: |
           Imposta il nome utente di %{short_name} a %{display_name}.
