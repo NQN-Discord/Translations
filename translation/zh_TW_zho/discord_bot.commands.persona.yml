@@ -58,6 +58,12 @@ discord_bot:
       delete:
         persona_deleted: |
           已刪除了 %{short_name} 的資料。
+      delete_all:
+        confirm: |
+          This will delete all **%{count}** of your personas.
+          Are you sure you wish to continue?
+        all_deleted: |
+          Deleted all your personas.
       display_name:
         renamed_persona_display_name: |
           已設置 %{short_name} 的名字至 %{display_name}。

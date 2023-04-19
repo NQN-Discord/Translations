@@ -449,6 +449,9 @@ command_docs:
         name: 角色
         description: |-
           刪除哪個角色?
+  persona-delete-all:
+    name: delete_all
+    short_doc: Delete all of your personas
   persona-display_name:
     name: 名稱
     short_doc: 重新設置角色的名稱
