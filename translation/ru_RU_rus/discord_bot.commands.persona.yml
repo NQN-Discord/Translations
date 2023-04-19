@@ -58,6 +58,12 @@ discord_bot:
       delete:
         persona_deleted: |
           Профиль %{short_name} был удалён.
+      delete_all:
+        confirm: |
+          This will delete all **%{count}** of your personas.
+          Are you sure you wish to continue?
+        all_deleted: |
+          Deleted all your personas.
       display_name:
         renamed_persona_display_name: |
           Профиль %{short_name} переименован в %{display_name}.

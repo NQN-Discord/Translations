@@ -58,6 +58,12 @@ discord_bot:
       delete:
         persona_deleted: |
           Đã xóa thông tin của %{short_name}.
+      delete_all:
+        confirm: |
+          Việc này sẽ xóa toàn bộ **%{count}** danh tính ảo của bạn.
+          Bạn có chắc muốn thực hiện việc này chứ?
+        all_deleted: |
+          Đã xóa tất cả danh tính ảo của bạn.
       display_name:
         renamed_persona_display_name: |
           Đã đặt tên người dùng cho %{short_name} thành %{display_name}.
