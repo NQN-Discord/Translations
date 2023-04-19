@@ -60,10 +60,10 @@ discord_bot:
           Đã xóa thông tin của %{short_name}.
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your personas.
-          Are you sure you wish to continue?
+          Việc này sẽ xóa toàn bộ **%{count}** danh tính ảo của bạn.
+          Bạn có chắc muốn thực hiện việc này chứ?
         all_deleted: |
-          Deleted all your personas.
+          Đã xóa tất cả danh tính ảo của bạn.
       display_name:
         renamed_persona_display_name: |
           Đã đặt tên người dùng cho %{short_name} thành %{display_name}.
