@@ -451,8 +451,8 @@ command_docs:
         description: |-
           Danh tính ảo mà bạn muốn xóa?
   persona-delete-all:
-    name: delete_all
-    short_doc: Delete all of your personas
+    name: xóa_tất_cả
+    short_doc: Xóa tất cả danh tính ảo của bạn
   persona-display_name:
     name: tên_hiển_thị
     short_doc: Thay đổi tên của một danh tính ảo
