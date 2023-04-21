@@ -60,10 +60,10 @@ discord_bot:
           اطلاعات مربوط به %{short_name} حذف شد.
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your personas.
-          Are you sure you wish to continue?
+          این تمام **%{count}** عدد پرسونا های شما را حذف خواهد کرد.
+          آیا مطمعنید که می‌خواهید ادامه دهید؟
         all_deleted: |
-          Deleted all your personas.
+          تمام پرسونا های شما حذف شدند.
       display_name:
         renamed_persona_display_name: |
           نام مورد نمایش برای %{short_name}، به %{display_name} تنظیم شد.
