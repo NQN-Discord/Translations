@@ -60,10 +60,10 @@ discord_bot:
           Informatie over %{short_name} verwijderd.
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your personas.
-          Are you sure you wish to continue?
+          Dit zal alle **%{count}** van je persona's verwijderen.
+          Weetje zeker dat je wilt doorgaan?
         all_deleted: |
-          Deleted all your personas.
+          Al je persona's verwijderd.
       display_name:
         renamed_persona_display_name: |
           Stel de gebruikersnaam van %{short_name} in op %{display_name}.
