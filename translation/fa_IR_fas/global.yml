@@ -14,6 +14,7 @@ global:
   dm_me: به من مستقیماً پیام بده (DM)
   next: بعدی
   previous: قبلی
+  undo: Undo
   choose_emote: تعدادی از شکلک هارا انتخاب کنید
   learn:
     aliases: درباره اختصار ها بیشتر بدانید
