@@ -58,6 +58,12 @@ discord_bot:
       delete:
         persona_deleted: |
           اطلاعات مربوط به %{short_name} حذف شد.
+      delete_all:
+        confirm: |
+          این تمام **%{count}** عدد پرسونا های شما را حذف خواهد کرد.
+          آیا مطمعنید که می‌خواهید ادامه دهید؟
+        all_deleted: |
+          تمام پرسونا های شما حذف شدند.
       display_name:
         renamed_persona_display_name: |
           نام مورد نمایش برای %{short_name}، به %{display_name} تنظیم شد.

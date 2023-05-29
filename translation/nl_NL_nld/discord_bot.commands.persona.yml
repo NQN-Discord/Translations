@@ -58,6 +58,12 @@ discord_bot:
       delete:
         persona_deleted: |
           Informatie over %{short_name} verwijderd.
+      delete_all:
+        confirm: |
+          Dit zal alle **%{count}** van je persona's verwijderen.
+          Weetje zeker dat je wilt doorgaan?
+        all_deleted: |
+          Al je persona's verwijderd.
       display_name:
         renamed_persona_display_name: |
           Stel de gebruikersnaam van %{short_name} in op %{display_name}.

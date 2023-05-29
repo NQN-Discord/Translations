@@ -446,6 +446,9 @@ command_docs:
         name: پرسونا
         description: |-
           Which persona are you deleting?
+  persona-delete-all:
+    name: حذف_همه
+    short_doc: حذف همه پرسونا های شما
   persona-display_name:
     name: display_name
     short_doc: تغییر نام‌کاربری یک پرسونا

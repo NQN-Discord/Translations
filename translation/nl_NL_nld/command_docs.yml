@@ -450,6 +450,9 @@ command_docs:
         name: persona
         description: |-
           Welke persona verwijder je?
+  persona-delete-all:
+    name: verwijder_alles
+    short_doc: Verwijder al je persona's
   persona-display_name:
     name: weergavenaam
     short_doc: De gebruikersnaam van een persona wijzigen

@@ -450,6 +450,9 @@ command_docs:
         name: persona
         description: |-
           Which persona are you deleting?
+  persona-delete-all:
+    name: delete_all
+    short_doc: Delete all of your personas
   persona-display_name:
     name: display_name
     short_doc: Change the username of a persona
