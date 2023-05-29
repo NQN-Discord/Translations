@@ -14,6 +14,7 @@ global:
   dm_me: Inviami un DM
   next: Successivo
   previous: Precedente
+  undo: Undo
   choose_emote: Scegli alcune emote
   learn:
     aliases: Maggiori informazioni sugli alias
