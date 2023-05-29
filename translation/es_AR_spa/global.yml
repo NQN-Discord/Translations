@@ -14,6 +14,7 @@ global:
   dm_me: Enviame MD
   next: Siguiente
   previous: Anterior
+  undo: Deshacer
   choose_emote: Elige algunos emojis
   learn:
     aliases: Aprende más sobre alias
