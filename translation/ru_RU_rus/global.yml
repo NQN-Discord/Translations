@@ -14,6 +14,7 @@ global:
   dm_me: Написать в ЛС
   next: Следующий
   previous: Предыдущий
+  undo: Undo
   choose_emote: Выберите некоторые эмодзи
   learn:
     aliases: Узнайте больше об эмодзи
