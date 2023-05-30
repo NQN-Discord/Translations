@@ -14,7 +14,7 @@ global:
   dm_me: Nhắn riêng tôi
   next: Tiếp
   previous: Trước
-  undo: Undo
+  undo: Hoàn tác
   choose_emote: Chọn một số emoji
   learn:
     aliases: Tìm hiểu thêm về tên thay thế
