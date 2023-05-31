@@ -63,7 +63,7 @@ discord_bot:
           This will delete all **%{count}** of your personas.
           Are you sure you wish to continue?
         all_deleted: |
-          Deleted all your personas.
+          Apagar todos os seus personagens.
       display_name:
         renamed_persona_display_name: |
           O nome de usuário de %{short_name} foi definido para %{display_name}.
