@@ -60,8 +60,8 @@ discord_bot:
           O personagem %{short_name} foi excluído.
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your personas.
-          Are you sure you wish to continue?
+          Isso vai excluir todos os seus **%{count}** personagens.
+          Tem certeza que deseja continuar?
         all_deleted: |
           Apagar todos os seus personagens.
       display_name:
