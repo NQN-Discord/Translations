@@ -29,7 +29,7 @@ command_docs:
       alias:
         name: 表情符號別名
         description: |-
-          您想刪除哪個f表情符號別名？
+          您想刪除哪個表情符號別名？
   alias-delete_all:
     name: 全部刪除
     short_doc: 我不喜歡我全部表情符號包的別名
@@ -93,14 +93,14 @@ command_docs:
       如果頻道和伺服器使用者都不用過濾，請則使用「audit guild」
   delete:
     name: 刪除
-    short_doc: 刪除其中 1 則由 NQN 轉發的訊息
+    short_doc: 刪除其中一則由 NQN 轉發的訊息
     help: |
       刪除其中一則由 NQN 轉發的訊息。
       在預設情況下，您在此頻道中的最新被轉發的訊息會被刪除，但您可以選擇提供訊息連結以刪除該訊息。
       您還可以使用 Discord 的訊息回覆功能來刪除該訊息。
   edit:
     name: 編輯
-    short_doc: 編輯其中 1 則由 NQN 轉發的訊息
+    short_doc: 編輯其中一則由 NQN 轉發的訊息
     help: |
       編輯其中一則由 NQN 轉發的訊息。
       在預設情況下，您在此頻道中的最新被轉發的訊息會被編輯，但您可以選擇提供訊息連結以編輯該訊息。
