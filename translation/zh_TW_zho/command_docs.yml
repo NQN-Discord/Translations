@@ -48,9 +48,9 @@ command_docs:
     short_doc: 導入其他人的表情符號別號
     params:
       file:
-        name: 文件
+        name: 檔案
         description: |-
-          以前使用 /alias export 導出的文件
+          以前使用 /alias export 導出的檔案
   alias-mine:
     name: 屬於我的
     short_doc: 獲取您所有已創建的表情符號別號的列表
@@ -66,13 +66,13 @@ command_docs:
       old_name:
         name: 舊的名字
         description: |-
-          您想重新命名的表情符號是叫甚麼名字？
+          您想重新命名的表情符號的名稱是什麼？
       new_name:
         name: 新的名字
         description: |-
-          新的名字
+          它應該被重新命名為什麼？
   alias-search:
-    name: 搜索
+    name: 搜尋
     short_doc: 尋找表情符號
     help: |
       尋找您可以使用的表情符號
@@ -84,25 +84,25 @@ command_docs:
        - `order`：用「使用次數」或「隨機」作為頁面排序
   audit:
     name: 紀錄
-    short_doc: 獲取此頻道由 NQN 轉發的訊息的紀錄
+    short_doc: 獲取此頻道的轉發訊息的審核日誌
     help: |
-      獲取此頻道由 NQN 轉發的訊息的紀錄
+      獲取此頻道的轉發訊息的審核日誌
       可選[Channel] -> 僅獲取在此頻道發佈的訊息
-      可選[Member] -> 僅獲取由其中一個伺服器成員發佈的訊息
+      可選[Member] -> 僅獲取由其中 1 個伺服器成員發佈的訊息
 
       如果頻道和伺服器成員都不用過濾，請則使用「audit guild」
   delete:
     name: 刪除
-    short_doc: 刪除其中一條 NQN 轉發由您發佈的訊息
+    short_doc: 刪除其中 1 則由 NQN 轉發的訊息
     help: |
-      刪除其中一條 NQN 轉發由您發佈的訊息。
-      在預設情況下，您在此頻道中的最新被轉發的訊息會被刪除，但您可以選擇提供訊息鏈結以刪除該訊息。
+      刪除其中 1 則由 NQN 轉發的訊息。
+      在預設情況下，您在此頻道中的最新被轉發的訊息會被刪除，但您可以選擇提供訊息連結以刪除該訊息。
       您還可以使用 Discord 的訊息回覆功能來刪除該訊息。
   edit:
     name: 編輯
-    short_doc: 編輯其中一條 NQN 轉發由您發佈的訊息
+    short_doc: 編輯其中 1 則由 NQN 轉發的訊息
     help: |
-      編輯其中一條 NQN 轉發由您發佈的訊息。
+      編輯其中 1 則由 NQN 轉發的訊息。
       在預設情況下，您在此頻道中的最新被轉發的訊息會被編輯，但您可以選擇提供訊息鏈結以編輯該訊息。
       您還可以使用 Discord 的訊息回覆功能來編輯該消息。
   emote:
@@ -110,35 +110,35 @@ command_docs:
     short_doc: 管理您伺服器中的表情符號
   emote-block:
     name: 封鎖
-    short_doc: 禁止任何人使用其中一個表情符號
+    short_doc: 禁止任何人使用其中 1 個表情符號
     help: |
       搜索在伺服器中要封鎖的表情符號。
       當有人使用此表情符號時，它會自動被刪除。
   emote-block-from_emote:
-    name: 來至表情符號
-    short_doc: 禁止任何人使用其中一個表情符號
+    name: 來自表情符號
+    short_doc: 禁止任何人使用其中 1 個表情符號
     params:
       emoji:
         name: 表情符號
         description: |-
           您想禁止人使用哪個表情符號？
   emote-block-from_search:
-    name: 來至搜索
-    short_doc: 禁止任何人使用其中一個表情符號
+    name: 來至搜尋
+    short_doc: 禁止任何人使用其中 1 個表情符號
   emote-block-recently_used:
     name: 最近使用
-    short_doc: 禁止任何人使用其中一個表情符號
+    short_doc: 禁止任何人使用其中 1 個表情符號
     params:
       emoji:
         name: 表情符號
         description: |-
           您想禁止人使用哪個表情符號？
   emote-block_list:
-    name: block_list
-    short_doc: 查看所有在此伺服器器中被禁止使用表情符號的黑名單
+    name: 封鎖名單
+    short_doc: 查看所有在此伺服器器中被禁止使用表情符號的封鎖名單
   emote-info:
     name: 資訊
-    short_doc: 獲取有關一個表情符號的資訊
+    short_doc: 獲取有關 1 個表情符號的資訊
     params:
       emoji:
         name: 表情符號
@@ -154,7 +154,7 @@ command_docs:
           您想放大哪個表情符號？
   emote-rolelock:
     name: 鎖定身分組
-    short_doc: 將表情符號鎖定到只有一個特定的身分組的成員使用
+    short_doc: 將表情符號鎖定到只有 1 個特定的身分組的成員使用
     params:
       emoji:
         name: 表情符號
@@ -166,7 +166,7 @@ command_docs:
           您想鎖定表情符號到哪個身分組？
   emote-roleunlock:
     name: 解鎖身分組
-    short_doc: 允許所有人使用一個之前被鎖定的表情符號
+    short_doc: 允許所有人使用 1 個之前被鎖定的表情符號
     params:
       emoji:
         name: 表情符號
