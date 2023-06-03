@@ -14,19 +14,19 @@ global:
   dm_me: 發送私人訊息給我
   next: 下一個
   previous: 上一個
-  undo: Undo
+  undo: 復原
   choose_emote: 選擇一些表情符號
   learn:
-    aliases: 了解有關表情符號別號的更多資訊
+    aliases: 了解有關表情符號別名的更多資訊
     packs: 了解有關表情符號包的更多資訊
     my_emotes: 搜尋您可以使用的表情符號
     personas: 了解有關角色的更多資訊
   missing_permissions: 缺少權限
-  no_nitro_global: 此伺服器已禁用免費 Nitro 使用！
-  no_nitro_role: 只有有 %{role} 身分組的成員可以使用此指令！
+  no_nitro_global: 此伺服器已停用免費 Nitro 使用！
+  no_nitro_role: 只有有 %{role} 身分組的使用者可以使用此指令！
   tabulated_default_results:
-    one: "%{count} 項結果 (第 %{page_no} / %{total} 頁)：\n%{contents}"
-    many: "%{count} 項結果 (第 %{page_no} / %{total} 頁)：\n%{contents}"
+    one: "%{count} 項結果（第 %{page_no} 頁 / 共 %{total} 頁）：\n%{contents}"
+    many: "%{count} 項結果（第 %{page_no} 頁 / 共 %{total} 頁）：\n%{contents}"
   tabulated_results_page:
     zero: 找不到表情符號
     one: 第 %{page_no} / %{total} 頁 %{note}
@@ -34,12 +34,12 @@ global:
   page_no: '第 %{page} / %{total} 頁'
   no_results: 找不到符合搜尋字詞的結果
   loading: <a:loading:674758249291186191> 處理中
-  timed_out: 時間到 - 請再重試
+  timed_out: 時間到 - 請重新嘗試
   global_check_failed: 您不能夠使用 %{cmd_name} 指令
   requires_user_content: |
-    用戶內容已在此伺服器被禁止
+    使用者內容已在此伺服器被禁止
   requires_user_content_admin: |
-    用戶內容已在此伺服器被禁止。您可以使用以下指令以重新啟用
+    使用者內容已在此伺服器被禁止。您可以使用以下指令以重新啟用
     > ```%{prefix}server user_content on```
   error_message: |
     運行指令時發生錯誤，以致任務沒法正確完成。
@@ -67,7 +67,7 @@ global:
       您好，感謝您邀請 NQN 加入 %{guild_name}！
     content: |
       經過審查後，我們發現機器人並不完全擁有正常運行所需的所有權限。
-      為了解決這個問題，以致您可以正確使用機器人，請使用以下鏈結以為機器人提供所有相關權限：
+      為了解決這個問題，以致您可以正確使用機器人，請使用以下網址以為機器人提供所有相關權限：
 
       **[修復權限](%{invite_url})**
-  webhook_limit: 已達到 Webhook 用量限制！無法在此頻道再使用 Webhook！
+  webhook_limit: 已達到 Webhook 使用限制！無法在此頻道再使用 Webhook！
