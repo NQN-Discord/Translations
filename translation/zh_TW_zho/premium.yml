@@ -1,47 +1,47 @@
 premium:
   no_premium: |
-    您並不是Patreon高級版會員
+    您並不是 Patreon Premium 會員
   no_patreon: |
     沒有 Patreon 帳戶與此 Discord 帳戶有聯繫
   account_not_changed: |
-    已更新您所擁有高級版權限的伺服器；您所連接的 Discord 帳戶未有受到影響
+    已更新您所擁有 Premium 權限的伺服器；您所連接的 Discord 帳戶未有受到影響
   gained_premium: |
-    成功將您的 Discord 帳戶連接到 Patreon。您現在可以使用NQN高級版的功能。
+    成功將您的 Discord 帳戶連接到 Patreon。您現在可以使用 NQN Premium 版的功能。
   associate_account: |
     沒有 Patreon 帳戶與此 Discord 帳戶有聯繫。
     [連接您的 Discord 和 Patreon 帳戶](%{patreon_oauth})
   updated_status: |
     您的會員身分已被更新；請查看您的DM。
   user_gained_premium: |
-    嗨 %{user_mention}，感謝您成為NQN高級版的會員！我們非常感謝您的貢獻 <:BlueLove:831617205132329040>
-    以下是一些因為您而獲得NQN高級版使用權限的伺服器：
+    嗨 %{user_mention}，感謝您成為 NQN Premium 的會員！我們非常感謝您的貢獻 <:BlueLove:831617205132329040>
+    以下是一些因為您而獲得 NQN Premium 使用權限的伺服器：
     %{guild_list}
-    該列表將根據您有「管理員」權限所在的伺服器每天更新。如果您發現有伺服器還沒獲得高級版的使用權限，請使用以下指令啟用：
+    該列表將根據您有「管理員」權限所在的伺服器每天更新。如果您發現有伺服器還沒獲得 Premium 版的使用權限，請使用以下指令啟用：
     > `%{prefix}premium check`
 
-    作為 NQN 高級版會員，您可以在這些伺服器中使用以下會員專用指令：
+    作為 NQN Premium 會員，您可以在這些伺服器中使用以下會員專用指令：
   server_gained_premium:
     one: |
       嗨 %{user_mention}！
-      因為您的伺服器其中一位「管理員」成為了高級版會員，您可以在 %{guild_list} 使用以下高級版專用的指令：
+      因為您的伺服器其中一位「管理員」成為了 Premium 會員，您可以在 %{guild_list} 使用以下 Premium 專用的指令：
     many: |
       嗨 %{user_mention}！
-      因為您的伺服器其中一位「管理員」成為了高級版會員，以下伺服器已經擁有高級版的使用權限：
+      因為您的伺服器其中一位「管理員」成為了 Premium 會員，以下伺服器已經擁有 Premium 的使用權限：
       %{guild_list}
 
-      NQN 高級版允許用戶在這些伺服器中使用以下高級版專用的指令：
+      NQN Premium 允許使用者在這些伺服器中使用以下 Premium 專用的指令：
   user_lost_premium: |
-    嗨 %{user_mention}，提提您已經不是NQN高級版會員。
+    嗨 %{user_mention}，提醒您已經不是 NQN Premium 會員。
     感謝您的寶貴支持 ^-^
   server_lost_premium:
     one: |
-      嗨 %{user_mention}，提提您 %{guild_list} 已經不再擁有NQN高級版的使用權限。
-      如果您以前更改了任何高級版專用的設置，它們現在已經被重置。
+      嗨 %{user_mention}，提提您 %{guild_list} 已經不再擁有 NQN Premium 的使用權限。
+      如果您以前更改了任何 Premium 專用的設定，它們現在已經被重置。
     many: |
-      嗨 %{user_mention}，提提您以下伺服器已經不再擁有NQN高級版的使用權限。
+      嗨 %{user_mention}，提醒您以下伺服器已經不再擁有 NQN Premium 的使用權限。
       %{guild_list}
 
-      如果您以前更改了任何高級版專用的設置，它們現在已經被重置。
+      如果您以前更改了任何 Premium 專用的設定，它們現在已經被重置。
   premium_commands: |
     > `%{prefix}server set_nitro_role` - 限制伺服器中具有特定身分組的使用者使用 NQN。
-    > `%{prefix}server user_content` - 限制 NQN 所發布的表情符號必須是在您的伺服器中，在您的 `%{prefix}server alias` 別號列表或 `%{prefix}server pack` 表情符號包列表中。啟用此功能後，伺服器成員不可以使用有關搜尋的指令。
+    > `%{prefix}server user_content` - 限制 NQN 所發布的表情符號必須是在您的伺服器中，在您的 `%{prefix}server alias` 別名列表或 `%{prefix}server pack` 表情符號包列表中。啟用此功能後，伺服器使用者不可以使用有關搜尋的指令。
