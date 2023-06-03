@@ -173,8 +173,8 @@ command_docs:
         description: |-
           您想解鎖哪個表情符號？
   emote-stats:
-    name: 數據
-    short_doc: 查看您伺服器中的表情符號的用量
+    name: 統計資料
+    short_doc: 查看您伺服器中的表情符號的使用次數
   emote-unblock:
     name: 解除封鎖
     short_doc: 移除以前被禁止使用的表情符號的限制
@@ -187,8 +187,9 @@ command_docs:
     name: 上傳
     short_doc: 上傳表情符號
     help: |
-      搜索機器人所有以前見過的表情符號並將它們上傳到此伺服器。
-      此指令也允許您上傳表情符號，您只需附加文件上傳
+      搜尋機器人所有以前見過的表情符號並將它們上傳到此伺服器。
+      此指令允許您上傳表情符號。
+      您也可以附加 1 個檔案來上傳它
   emote-upload-from_attachment:
     name: 來至附件
     short_doc: 從附件上傳表情符號
@@ -196,18 +197,18 @@ command_docs:
       attachment:
         name: 附件
         description: |-
-          表情符號的圖像
+          表情符號的圖片
   emote-upload-from_emote:
     name: 來至表情符號
-    short_doc: 從名字或鏈結上傳表情符號
+    short_doc: 從表情符號的名稱或網址上傳表情符號
     params:
       emoji:
         name: 表情符號
         description: |-
-          表情符號或者表情符號的鏈結
+          表情符號或者表情符號的網址
   emote-upload-from_search:
-    name: 來至搜索
-    short_doc: 搜索表情符號以上傳到您的伺服器
+    name: 來至搜尋
+    short_doc: 搜尋表情符號以上傳到您的伺服器
   export:
     name: 導出
     short_doc: 導出您的表情符號的列表
@@ -227,29 +228,29 @@ command_docs:
     help: |
       使用此指令會​​禁止 NQN 在您與機器人共享的任何伺服器中轉發您的任何訊息。
       - 指令仍處於啟用狀態，再次運行此指令可恢復 NQN 轉發您的訊息
-      - 您仍然可以通過我們的 [dashboard](https://nqn.blue) 轉發訊息
-      - 機器人不會響應您發送的任何通過 Webhook 轉發的訊息
+      - 您仍然可以通過我們的 [控制面板](https://nqn.blue) 轉發訊息
+      - 機器人不會回應您發送的任何透過 Webhook 轉發的訊息
   info:
     name: 資訊
-    short_doc: 關於機器人的內部數據
+    short_doc: 關於機器人的內部統計資訊
   invite_me:
     name: 邀請
-    short_doc: 新增NQN至您的伺服器！
+    short_doc: 新增 NQN 至您的伺服器！
   mod:
     name: 管理
     short_doc: NQN 管理工具
   mod-audit:
     name: 紀錄
-    short_doc: 獲取此頻道由 NQN 轉發的訊息的紀錄
+    short_doc: 獲取此頻道的轉發訊息的審核日誌
     params:
       channel:
         name: 頻道
         description: |-
           只獲取在此頻道的訊息
       user:
-        name: 用戶
+        name: 使用者
         description: |-
-          只獲取由此用戶發送的訊息
+          只獲取由此使用者發送的訊息
     help: |
       獲取此頻道由 NQN 轉發的訊息的紀錄
       可選[Channel] -> 僅獲取在此頻道發佈的訊息
@@ -258,23 +259,23 @@ command_docs:
       如果頻道和伺服器成員都不用過濾，請則使用「audit guild」
   mod-ban:
     name: 停權
-    short_doc: 對發送訊息的用戶停權
+    short_doc: 對發送訊息的使用者停權
   mod-edit_topic:
     name: 編輯頻道主題
     short_doc: 將動態表情符號新增至頻道主題
     params:
       description:
-        name: 頻道主題
+        name: 簡介
         description: |-
-          新的頻道主題（可以包括表情符號）
+          新的頻道描述，包括表情符號名稱
     help: |
       編輯頻道主題，以及在主題中加入動態表情符號！
   mod-kick:
     name: 踢出
-    short_doc: 提出發送訊息的用戶
+    short_doc: 踢出發送訊息的用戶
   mod-move:
     name: 移動
-    short_doc: 將最多50條在當前頻道中的訊息移至另一個頻道
+    short_doc: 將最多 50 則在目前頻道中的訊息移至另一個頻道
     params:
       channel:
         name: 頻道
@@ -283,10 +284,10 @@ command_docs:
       messages:
         name: 訊息數量
         description: |-
-          移動幾多條訊息？
+          移動幾多則訊息？
   mod-purge:
     name: 刪除
-    short_doc: 刪除一些在當前頻道由 NQN 轉發的訊息
+    short_doc: 刪除一些在此頻道由 NQN 轉發的訊息
   mutuals:
     name: 共同伺服器
     short_doc: 查看您和我的共同伺服器
@@ -299,19 +300,19 @@ command_docs:
         description: |-
           顯示哪個表情符號？
         choices:
-          current_server: 當前的伺服器
+          current_server: 目前的伺服器
           mutual_servers: 共同的伺服器
           aliases: 表情符號別號
-          packs: 表情符號包
+          packs: 表情符號組
   owner:
-    name: 主人
+    name: 擁有者
     short_doc: 禁忌的知識潛伏在裡面
   nqn:
     name: nqn
     short_doc: 透過 NQN 發佈訊息
   nqn-message:
     name: 訊息
-    short_doc: 發佈訊息（可以包含表情符號）
+    short_doc: 在訊息中使用 NQN 表情符號
     params:
       message:
         name: 訊息
@@ -327,7 +328,7 @@ command_docs:
           上傳附件
   nqn-single_emoji:
     name: 單一表情符號
-    short_doc: 發佈只有一個表情符號的訊息
+    short_doc: 發佈只有 1 個表情符號的訊息
     params:
       emoji:
         name: 表情符號
@@ -338,8 +339,8 @@ command_docs:
         description: |-
           使用哪個角色
   pack:
-    name: 表情符號包
-    short_doc: 管理整個表情符號包
+    name: 表情符號組
+    short_doc: 管理整個表情符號組
   pack-dm:
     name: 私訊
     short_doc: 在私人訊息中獲取您擁有的表情符號包的完整列表
