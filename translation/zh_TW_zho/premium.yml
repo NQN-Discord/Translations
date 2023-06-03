@@ -43,5 +43,5 @@ premium:
 
       如果您以前更改了任何高級版專用的設置，它們現在已經被重置。
   premium_commands: |
-    > `%{prefix}server set_nitro_role` - 限制伺服器中具有特定身分組的用戶使用 NQN。
-    > `%{prefix}server user_content` - 限制 NQN 所發布的表情符號必須是在您的伺服器中，在您的 `%{prefix}server alias` 別號列表或 `%{prefix}server pack` 表情符號包列表中。啟用此功能後，伺服器成員不可以使用有關搜索的指令。
+    > `%{prefix}server set_nitro_role` - 限制伺服器中具有特定身分組的使用者使用 NQN。
+    > `%{prefix}server user_content` - 限制 NQN 所發布的表情符號必須是在您的伺服器中，在您的 `%{prefix}server alias` 別號列表或 `%{prefix}server pack` 表情符號包列表中。啟用此功能後，伺服器成員不可以使用有關搜尋的指令。
