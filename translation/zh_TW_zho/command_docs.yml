@@ -17,7 +17,7 @@ command_docs:
     help: |
       管理您可以使用的表情符號
 
-      NQN 的搜索有一些強大功能：
+      NQN 的搜尋有一些強大功能：
        - `exact`：（預設為 false）僅顯示與搜索字句一模一樣名稱的表情符號
        - `animated`：僅顯示動畫或靜態表情符號
        - `page`：跳到某個頁面
@@ -88,7 +88,7 @@ command_docs:
     help: |
       獲取此頻道的轉發訊息的審核日誌
       可選[Channel] -> 僅獲取在此頻道發佈的訊息
-      可選[Member] -> 僅獲取由其中 1 個伺服器成員發佈的訊息
+      可選[Member] -> 僅獲取由其中一個伺服器成員發佈的訊息
 
       如果頻道和伺服器成員都不用過濾，請則使用「audit guild」
   delete:
@@ -110,13 +110,13 @@ command_docs:
     short_doc: 管理您伺服器中的表情符號
   emote-block:
     name: 封鎖
-    short_doc: 禁止任何人使用其中 1 個表情符號
+    short_doc: 禁止任何人使用其中一個表情符號
     help: |
-      搜索在伺服器中要封鎖的表情符號。
+      搜尋在伺服器中要封鎖的表情符號。
       當有人使用此表情符號時，它會自動被刪除。
   emote-block-from_emote:
     name: 來自表情符號
-    short_doc: 禁止任何人使用其中 1 個表情符號
+    short_doc: 禁止任何人使用其中一個表情符號
     params:
       emoji:
         name: 表情符號
@@ -124,10 +124,10 @@ command_docs:
           您想禁止人使用哪個表情符號？
   emote-block-from_search:
     name: 來至搜尋
-    short_doc: 禁止任何人使用其中 1 個表情符號
+    short_doc: 禁止任何人使用其中一個表情符號
   emote-block-recently_used:
     name: 最近使用
-    short_doc: 禁止任何人使用其中 1 個表情符號
+    short_doc: 禁止任何人使用其中一個表情符號
     params:
       emoji:
         name: 表情符號
@@ -138,7 +138,7 @@ command_docs:
     short_doc: 查看所有在此伺服器器中被禁止使用表情符號的封鎖名單
   emote-info:
     name: 資訊
-    short_doc: 獲取有關 1 個表情符號的資訊
+    short_doc: 獲取有關一個表情符號的資訊
     params:
       emoji:
         name: 表情符號
@@ -154,7 +154,7 @@ command_docs:
           您想放大哪個表情符號？
   emote-rolelock:
     name: 鎖定身分組
-    short_doc: 將表情符號鎖定到只有 1 個特定的身分組的成員使用
+    short_doc: 將表情符號鎖定到只有一個特定的身分組的成員使用
     params:
       emoji:
         name: 表情符號
@@ -166,7 +166,7 @@ command_docs:
           您想鎖定表情符號到哪個身分組？
   emote-roleunlock:
     name: 解鎖身分組
-    short_doc: 允許所有人使用 1 個之前被鎖定的表情符號
+    short_doc: 允許所有人使用一個之前被鎖定的表情符號
     params:
       emoji:
         name: 表情符號
@@ -189,7 +189,7 @@ command_docs:
     help: |
       搜尋機器人所有以前見過的表情符號並將它們上傳到此伺服器。
       此指令允許您上傳表情符號。
-      您也可以附加 1 個檔案來上傳它
+      您也可以附加一個檔案來上傳它
   emote-upload-from_attachment:
     name: 來至附件
     short_doc: 從附件上傳表情符號
@@ -272,7 +272,7 @@ command_docs:
       編輯頻道主題，以及在主題中加入動態表情符號！
   mod-kick:
     name: 踢出
-    short_doc: 踢出發送訊息的用戶
+    short_doc: 踢出發送訊息的使用者
   mod-move:
     name: 移動
     short_doc: 將最多 50 則在目前頻道中的訊息移至另一個頻道
@@ -328,7 +328,7 @@ command_docs:
           上傳附件
   nqn-single_emoji:
     name: 單一表情符號
-    short_doc: 發佈只有 1 個表情符號的訊息
+    short_doc: 發佈只有一個表情符號的訊息
     params:
       emoji:
         name: 表情符號
@@ -340,7 +340,7 @@ command_docs:
           使用哪個角色
   pack:
     name: 表情符號組
-    short_doc: 管理整個表情符號組
+    short_doc: 管理整個表情符號包
   pack-dm:
     name: 私訊
     short_doc: 在私人訊息中獲取您擁有的表情符號包的完整列表
@@ -364,7 +364,7 @@ command_docs:
           退出哪個表情符號包？
   pack-meta:
     name: 資訊
-    short_doc: 喔……關於您的表情符號包的漂亮統計數據
+    short_doc: 喔... 關於您的表情符號包的漂亮統計數據
   pack-mine:
     name: 屬於我的
     short_doc: 獲取您所有已加入的表情符號包的列表
@@ -375,7 +375,7 @@ command_docs:
       name:
         name: 名稱
         description: |-
-          您想給表情符號包起甚麼名字？
+          您想將表情符號包命名為什麼名稱？
       public:
         name: 公開
         description: |-
@@ -387,7 +387,7 @@ command_docs:
       new_name:
         name: 新的名字
         description: |-
-          您想給表情符號包起甚麼名字？
+          您想將表情符號包命名為什麼名稱？
   pack-save:
     name: 儲存
     short_doc: 將表情符號包中的所有表情符號上傳到此伺服器
@@ -397,11 +397,11 @@ command_docs:
         description: |-
           您從哪個表情符號包下載表情符號到此伺服器？
   pack-search:
-    name: 搜索
+    name: 搜尋
     short_doc: 搜索整個表情符號包
     params:
       search:
-        name: 搜索
+        name: 搜尋
         description: |-
           您在尋找哪類的表情符號？
       page:
@@ -451,7 +451,7 @@ command_docs:
         description: |-
           刪除哪個角色?
   persona-delete-all:
-    name: delete_all
+    name: 全部刪除
     short_doc: Delete all of your personas
   persona-display_name:
     name: 名稱
@@ -533,8 +533,8 @@ command_docs:
         description: |-
           新增反應到哪個訊息？
     help: |
-      使用 Discord 回覆或訊息鏈結對該訊息新增反應。
-      此指令允許用戶新增多於一個反應，每個反應會將按指定的順序添加。
+      使用 Discord 回覆或訊息連結對該訊息新增反應。
+      此指令允許使用者新增多於一個反應，每個反應會將按指定的順序添加。
       **您還需要對已添加的反應做出反應，以使它們得以保持。**
   server:
     name: 伺服器
@@ -587,7 +587,7 @@ command_docs:
         description: |-
           新的名字
   server-alias-search:
-    name: 搜索
+    name: 搜尋
     short_doc: 允許所有人使用伺服器表情符號！
   server-dashboard_posting:
     name: 由dashboard發佈
@@ -605,7 +605,7 @@ command_docs:
     short_doc: 設置機器人的語言 %{locale_flag_emojis}
   server-link:
     name: 鏈結
-    short_doc: 創建一個靜態表情符號，以致當用戶使用它時會發佈為其動畫版本！
+    short_doc: 創建一個靜態表情符號，以致當使用者使用它時會發佈為其動畫版本！
     params:
       emoji:
         name: 表情符號
@@ -643,8 +643,8 @@ command_docs:
     name: 發佈
     short_doc: 發佈一系列伺服器表情符號包
   server-pack-search:
-    name: 搜索
-    short_doc: 搜索表情符號包以將伺服器加入到該表情符號包
+    name: 搜尋
+    short_doc: 搜尋表情符號包以將伺服器加入到該表情符號包
   server-permissions_debug:
     name: 權限調試
     short_doc: 讓 NQN 告訴您機器人缺少了哪些權限
@@ -652,7 +652,7 @@ command_docs:
     name: 角色
     short_doc: 在此伺服器中啟用或禁用角色
     help: |
-      允許用戶使用自訂用戶名和頭像發佈訊息
+      允許成員使用自訂使用者名稱和頭像發佈訊息
   server-pings:
     name: 提及
     short_doc: 在此伺服器中允許或禁止在訊息提及
@@ -739,7 +739,7 @@ command_docs:
         description: |-
           怎麼命名您的貼圖。必須是帶有 `.` 、英文字母或數字，例如 `nqn.nqn`
   sticker-create-from_search:
-    name: 來至搜索
+    name: 來至搜尋
     short_doc: 從表情符號導入貼圖
   sticker-create-from_telegram:
     name: 來至-telegram
@@ -766,10 +766,10 @@ command_docs:
        - sticker import :blue_smirk: smirk.png
       或者通過搜索 NQN 的表情符號。
        - sticker import blue pat
-      請注意，通過搜索功能導入貼圖的話並不支持新增別號
+      請注意，通過搜尋功能導入貼圖的話並不支持新增別號
   sticker-mine:
     name: 屬於我的
-    short_doc: 搜索我的貼圖
+    short_doc: 搜尋我的貼圖
   sticker-rename:
     name: 重新命名
     short_doc: 重新命名您的貼圖
@@ -783,13 +783,13 @@ command_docs:
         description: |-
           新的名字
   sticker-search:
-    name: 搜索
-    short_doc: 搜索所有 NQN 有的表情符號，可以帶有搜索字句
+    name: 搜尋
+    short_doc: 搜尋所有 NQN 有的表情符號，可以帶有搜索字句
     params:
       search:
-        name: 搜索
+        name: 搜尋
         description: |-
-          搜索甚麼？
+          搜尋什麼？
   sticker-telegram:
     name: telegram
     short_doc: 從 Telegram 導入貼圖
@@ -810,7 +810,7 @@ command_docs:
   _search:
     params:
       search:
-        name: 搜索
+        name: 搜尋
         description: |-
           您在尋找甚麼？
       exact:
