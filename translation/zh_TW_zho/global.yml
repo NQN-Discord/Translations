@@ -19,7 +19,7 @@ global:
   learn:
     aliases: 了解有關表情符號別號的更多資訊
     packs: 了解有關表情符號包的更多資訊
-    my_emotes: 搜索您可以使用的表情符號
+    my_emotes: 搜尋您可以使用的表情符號
     personas: 了解有關角色的更多資訊
   missing_permissions: 缺少權限
   no_nitro_global: 此伺服器已禁用免費 Nitro 使用！
