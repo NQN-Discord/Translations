@@ -3,16 +3,16 @@ discord_bot:
     persona:
       not_enabled: |
         此伺服器中未啟用角色。
-        啟用角色會允許用戶在使用NQN時 ⚠️**自訂用戶名字**和**頭像**⚠️，因此此功能預設是關閉的。
+        啟用角色會允許使用者在使用NQN時 ⚠️**自訂使用者名稱**和**頭像**⚠️，因此此功能預設是關閉的。
       enable_personas: 啟用角色
       name_regex: |
-        角色名字只能包含英文字母、數字、破折號和下劃線，而且長度最多為 80 個字符。
+        角色名稱只能包含英文字母、數字、破折號和下劃線，而且長度最多為 80 個字元。
         > '%{persona_name}' 並不符合這些要求。
       max_display_name: |
-        角色名字的長度最多為 80 個字符
+        角色名稱的長度最多為 80 個字元
       persona_doesnt_exist: |
         您沒有一個角色叫 %{short_name}！
-        您可以使用 `%{prefix}persona register %{short_name}` 以創建角色
+        您可以使用 `%{prefix}persona register %{short_name}` 以建立角色
       export:
         exported_list_short: |
           以下是您導出的角色，您應該可以在 Tupperbox 或 Pluralkit 使用這些角色。
@@ -23,27 +23,27 @@ discord_bot:
       import_:
         import_incorrect: |
           此命令用於導入先前使用 `%{prefix}persona export` 導出的角色列表，或來自 PluralKit 或 Tupperbox 的導出命令。
-          您可以使用 `%{prefix}persona register` 以創建角色
-        import_text: 此指令需要JSON附件
+          您可以使用 `%{prefix}persona register` 以建立角色
+        import_text: 此指令需要 JSON 附件
         set_personas:
           one: 已導入一個角色
           many: 已導入 %{count} 個角色
-        invalid_persona: 我將忽略此文字輸入項目，您是否希望繼續導入文件的其餘部分？
+        invalid_persona: 我將忽略此文字輸入項目，您是否希望繼續導入檔案的其餘部分？
       list:
         no_personas: |
           您並沒有任何角色！
       register:
         display_name: 別名
-        avatar_url: 頭像鏈結
-        create: 創建角色
+        avatar_url: 頭像網址
+        create: 建立角色
         persona_exists: |
           您已經有一個角色叫 %{short_name}！
           您可以使用 %{prefix}persona rename %{short_name} new_name` 以重新命名角色
         registered_persona: |
-          已創建了 %{short_name} 角色！
+          已建立了 %{short_name} 角色！
           要以角色的身份發送訊息，請發送以 `%{short_name}:` 開頭的訊息，例如：
           > ```%{short_name}: 你好！```
-          要將角色名字更改為“NQN”，請使用：
+          要將角色名稱更改為「NQN」，請使用：
           > ```%{prefix}persona display_name %{short_name} NQN```
           要更改角色的頭像，請使用：
           > ```%{prefix}persona avatar_url %{short_name} https://...```
@@ -52,29 +52,29 @@ discord_bot:
           已重新命名 %{old_name} 至 %{new_name}.
       avatar_url:
         persona_avatar_url: |
-          已設置 %{short_name} 的頭像。
+          已設定 %{short_name} 的頭像。
         avatar_regex: |
-          頭像必須是您要使用的圖像的鏈結。
+          頭像必須是您要使用的圖像的網址。
       delete:
         persona_deleted: |
           已刪除了 %{short_name} 的資料。
       delete_all:
         confirm: |
-          This will delete all **%{count}** of your personas.
-          Are you sure you wish to continue?
+          您將會刪除您所有 **%{count}** 個角色。
+          您確定嗎？
         all_deleted: |
-          Deleted all your personas.
+          刪除您所有的角色。
       display_name:
         renamed_persona_display_name: |
-          已設置 %{short_name} 的名字至 %{display_name}。
+          已設定 %{short_name} 的名稱至 %{display_name}。
       dm:
         send_dms:
           zero: |
             您並沒有任何角色！
-            您可以使用 `%{prefix}persona register` 以創建角色
+            您可以使用 `%{prefix}persona register` 以建立角色
           one: |
             這將向您發送私人訊息，您想繼續嗎？
           many: |
-            這將向您發送%{count}條私人訊息，您想繼續嗎？
+            這將向您發送 %{count} 則私人訊息，您想繼續嗎？
         blocked: |
           您封鎖了我，我不能夠發送私人訊息給你！
