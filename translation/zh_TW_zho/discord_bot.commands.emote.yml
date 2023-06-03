@@ -2,21 +2,21 @@ discord_bot:
   commands:
     emote:
       info:
-        title: "關於表情符號 '%{name}':"
+        title: "關於表情符號 '%{name}'："
         id: "ID:"
-        server_daily_uses: "表情符號在伺服器每天的用量:"
-        server_uses: "表情符號在伺服器的用量:"
+        server_daily_uses: "表情符號在伺服器每天的用量："
+        server_uses: "表情符號在伺服器的用量："
         approx_uses:
           zero: "零"
           one: "一"
           many: "～%{count}"
-        total_uses_per_day: "每天的總用量:"
-        aka: "也被稱為:"
-        locked_roles: "鎖定了身分組:"
+        total_uses_per_day: "每天的總用量："
+        aka: "也被稱為："
+        locked_roles: "鎖定了身分組："
         upload_time: "上傳於:"
-        url: "連結:"
-        animated_url: "動畫連結:"
-        static_url: "靜止連結:"
+        url: "網址："
+        animated_url: "動畫網址："
+        static_url: "靜止網址："
       rolelock:
         success: "已 鎖定 %{emoji} 至 %{roles} 身分組"
       roleunlock:
@@ -27,11 +27,11 @@ discord_bot:
           many: "已封鎖 %{count} 個表情符號"
         audit:
           one: |
-            %{author} 封鎖了以下表情符號:
+            %{author} 封鎖了以下表情符號：
           many: |
-            %{author} 封鎖了以下幾個表情符號:
+            %{author} 封鎖了以下幾個表情符號：
       unblock:
         success: "已解除表情符號封鎖"
         not_blocked: "此表情符號從來沒有被封鎖"
         audit: |
-          %{author} 解除封鎖了以下表情符號:
+          %{author} 解除封鎖了以下表情符號：
