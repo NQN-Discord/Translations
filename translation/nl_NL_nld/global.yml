@@ -14,7 +14,7 @@ global:
   dm_me: DM Mij
   next: Volgende
   previous: Vorige
-  undo: Undo
+  undo: Ongedaan maken
   choose_emote: Kies paar emoji's
   learn:
     aliases: Leer meer over aliassen
