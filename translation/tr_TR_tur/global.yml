@@ -14,6 +14,7 @@ global:
   dm_me: Bana mesaj at
   next: Sonraki
   previous: Önceki
+  undo: Undo
   choose_emote: Bazı emojiler seçin
   learn:
     aliases: Takma adlar hakkında daha fazla bilgi edinin
