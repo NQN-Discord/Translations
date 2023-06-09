@@ -168,11 +168,10 @@ discord_bot:
           Observação - para usar figurinhas do Telegram, você deve primeiro importá-las para o bot. O bot não faz isso automaticamente.
         page_7_title: Personagens
         page_7_desc: |
-          Personas allow anyone in your server to assume a given username and avatar distinct from their own.
-          In order to use personas in a server, you first need to run `%{prefix}server personas on`.
+          Personagens permitem todos no seu servidor assumir a um nome e avatar distintos.
+          Em ordem a usar personagens no servidor, primeiro é necessário usar `%{prefix}server personas on`.
 
-          To create a persona, use `%{prefix}persona register name`. After that, you can send messages as that persona by sending a message:
-          > name: Rest of message
+          Para criar a personagem, use `%{prefix}persona register name`. Após isso, pode mandar mensagens como a personagem editando a mensagem: > Nome: resto da mensagem
         page_8_title: Administração do Servidor
         page_8_desc: |
           O NQN é altamente personalizável em termos de recursos, caso algum deles não seja apropriado para o seu servidor.
@@ -239,9 +238,9 @@ discord_bot:
           Se você tiver emojis conflitantes, crie um alias daquele que vocẽ quer usar e isso o substituirá.
       react:
         user_needs_to_react: |
-          Olá %{user_ping}!
-          O comando `%{prefix}react` adiciona reações à mensagem para você adicionar também, mesmo sem Nitro. Apenas clique em cada reação!
-          *NQN vai remover a reação após %{time} segundos.*
+          Hey %{user_ping}!
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions from %{message_link} after %{time} seconds.*
         channel_empty: Este canal está vazio
         invalid_react:
           one: |
@@ -272,8 +271,8 @@ discord_bot:
           one: Esta mensagem já tem muitas reações, não posso adicionar mais!
           many: Esta mensagem já tem muitas reações, não posso adicionar todas!
         reacting:
-          one: Adicionando %{count} reação; lembre-se de clicar na reação para fazê-la permanecer na mensagem!
-          many: Adicionando %{count} reações; lembre-se de clicar nas reações para fazê-las permanecerem na mensagem!
+          one: Adding %{count} reaction to %{message_link}; remember to react yourself for them to stay!
+          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
         blocked: '%{author} me bloqueou, então não posso adicionar essa reação!'
         on_behalf: NQN, da parte de %{author} (%{author_id})
         audit_message: "%{author} reagiu a [esta mensagem](<%{jump_url}>) em %{channel} com estes emojis:\n"

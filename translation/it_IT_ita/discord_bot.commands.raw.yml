@@ -242,8 +242,8 @@ discord_bot:
       react:
         user_needs_to_react: |
           Hey %{user_ping}!
-          Il comando `%{prefix}react` aggiunge le reazioni al messaggio, permettendoti di aggiungerle anche tu, anche senza Nitro. Basta cliccare su ogni reazione!
-          *NQN rimuoverà le sue reazioni dopo %{time} secondi.*
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions from %{message_link} after %{time} seconds.*
         channel_empty: Questo canale è vuoto
         invalid_react:
           one: |
@@ -274,8 +274,8 @@ discord_bot:
           one: Questo messaggio ha troppe reazioni per aggiungerne una nuova!
           many: Questo messaggio ha troppe reazioni per aggiungerle tutti!
         reacting:
-          one: Aggiunta %{count} reazione; ricordati di reagire anche tu affinchè rimanga!
-          many: Aggiunte %{count} reazioni; ricordati di reagire anche tu affinchè rimangano!
+          one: Adding %{count} reaction to %{message_link}; remember to react yourself for them to stay!
+          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
         blocked: '%{author} mi ha bloccato, quindi non posso aggiungere questa reazione!'
         on_behalf: NQN per conto di %{author} (%{author_id})
         audit_message: "%{author} ha reagito a [questo messaggio](<%{jump_url}>) in %{channel} con queste emote:\n"
