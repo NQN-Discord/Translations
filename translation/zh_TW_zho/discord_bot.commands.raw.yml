@@ -240,9 +240,9 @@ discord_bot:
           如果您發現自己有多個同名的表情符號，我們建議在您多數想使用的表情符號新增別名，這樣 NQN 會知道您首選用該名稱的表情符號，以防 NQN 錯誤使用其他表情符號。
       react:
         user_needs_to_react: |
-          嗨 %{user_ping}！
-          當您使用 `%{prefix}react` 指令時，我會在訊息上新增反應，從而令到您儘管沒有Nitro仍然可以新增Nitro專用表情符號的反應！
-          *NQN 會在%{time}秒後移除該反應。*
+          Hey %{user_ping}!
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions from %{message_link} after %{time} seconds.*
         channel_empty: 此頻道是空的
         invalid_react:
           one: |
@@ -273,8 +273,8 @@ discord_bot:
           one: 此訊息的反應太多，無法新增更多反應！
           many: 此訊息的反應太多，無法新增更多反應！
         reacting:
-          one: 正在新增 %{count} 個反應；記得自己也要反應，從而讓反應留下來！
-          many: 正在新增 %{count} 個反應；記得自己也要反應，從而讓反應留下來！
+          one: Adding %{count} reaction to %{message_link}; remember to react yourself for them to stay!
+          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
         blocked: '%{author} 封鎖了我，所以我無法新增該反應！'
         on_behalf: NQN 代表 %{author} (%{author_id})
         audit_message: "%{author} 在 %{channel} 中的 [訊息](<%{jump_url}>) 新增了以下表情符號反應：\n"
