@@ -238,9 +238,9 @@ discord_bot:
           Se você tiver emojis conflitantes, crie um alias daquele que vocẽ quer usar e isso o substituirá.
       react:
         user_needs_to_react: |
-          Olá %{user_ping}!
-          O comando `%{prefix}react` adiciona reações à mensagem para você adicionar também, mesmo sem Nitro. Apenas clique em cada reação!
-          *NQN vai remover a reação após %{time} segundos.*
+          Hey %{user_ping}!
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions from %{message_link} after %{time} seconds.*
         channel_empty: Este canal está vazio
         invalid_react:
           one: |
@@ -271,8 +271,8 @@ discord_bot:
           one: Esta mensagem já tem muitas reações, não posso adicionar mais!
           many: Esta mensagem já tem muitas reações, não posso adicionar todas!
         reacting:
-          one: Adicionando %{count} reação; lembre-se de clicar na reação para fazê-la permanecer na mensagem!
-          many: Adicionando %{count} reações; lembre-se de clicar nas reações para fazê-las permanecerem na mensagem!
+          one: Adding %{count} reaction to %{message_link}; remember to react yourself for them to stay!
+          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
         blocked: '%{author} me bloqueou, então não posso adicionar essa reação!'
         on_behalf: NQN, da parte de %{author} (%{author_id})
         audit_message: "%{author} reagiu a [esta mensagem](<%{jump_url}>) em %{channel} com estes emojis:\n"
