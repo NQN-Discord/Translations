@@ -242,8 +242,8 @@ discord_bot:
       react:
         user_needs_to_react: |
           Hey %{user_ping}!
-          Het commando `%{prefix}react` voegt de reacties toe aan het bericht, zodat je ze ook kunt toevoegen, zelfs zonder Nitro. Klik gewoon op elke reactie!
-          *NQN zal zijn reacties na %{time} seconden verwijderen.*
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions from %{message_link} after %{time} seconds.*
         channel_empty: Dit kanaal is leeg
         invalid_react:
           one: |
@@ -274,8 +274,8 @@ discord_bot:
           one: Dit bericht heeft te veel reacties om een nieuwe toe te voegen!
           many: Dit bericht heeft te veel reacties om ze allemaal toe te voegen!
         reacting:
-          one: '%{count} reactie toevoegen; vergeet niet om zelf te reageren zodat ze blijven!'
-          many: '%{count} reacties toevoegen; vergeet niet om zelf te reageren zodat ze blijven!'
+          one: Adding %{count} reaction to %{message_link}; remember to react yourself for them to stay!
+          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
         blocked: '%{author} heeft mij geblokkeerd, dus ik kan die reactie niet toevoegen!'
         on_behalf: NQN namens %{author} (%{author_id})
         audit_message: "%{author} reageerde op [dit bericht](<%{jump_url}>) in %{channel} met deze emoji's:\n"
