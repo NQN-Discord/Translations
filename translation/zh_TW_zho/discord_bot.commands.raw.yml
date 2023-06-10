@@ -274,7 +274,7 @@ discord_bot:
           many: 此訊息的反應太多，無法新增更多反應！
         reacting:
           one: 正在新增 %{count} 個反應；記得自己也要反應到 %{message_link}，從而讓反應留下來！
-          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
+          many: 正在新增 %{count} 個反應；記得自己也要反應到 %{message_link}，從而讓反應留下來！
         blocked: '%{author} 封鎖了我，所以我無法新增該反應！'
         on_behalf: NQN 代表 %{author} (%{author_id})
         audit_message: "%{author} 在 %{channel} 中的 [訊息](<%{jump_url}>) 新增了以下表情符號反應：\n"
