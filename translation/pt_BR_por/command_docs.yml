@@ -447,8 +447,8 @@ command_docs:
         description: |-
           Qual personagem você está apagando?
   persona-delete-all:
-    name: delete_all
-    short_doc: Delete all of your personas
+    name: apagar_tudo
+    short_doc: Apagar todos os seus personagens
   persona-display_name:
     name: nome_visivel
     short_doc: Alterar o nome de usuário de uma pessoa

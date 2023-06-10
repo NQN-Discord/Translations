@@ -6,7 +6,7 @@ permissions:
   attach_files: |-
     附加檔案
   ban_members: |-
-    對成員停權
+    對使用者停權
   change_nickname: |-
     更改暱稱
   connect: |-
@@ -14,13 +14,13 @@ permissions:
   create_instant_invite: |-
     建立邀請
   deafen_members: |-
-    讓成員拒聽
+    讓使用者拒聽
   embed_links: |-
-    嵌入鏈結
+    嵌入連結
   external_emojis: |-
     外部表情符號
   kick_members: |-
-    踢出成員
+    踢出使用者
   manage_channels: |-
     管理頻道
   manage_emojis: |-
@@ -44,9 +44,9 @@ permissions:
   mention_everyone: |-
     提及 @everyone
   move_members: |-
-    移動成員
+    移動使用者
   mute_members: |-
-    將成員靜音
+    將使用者靜音
   priority_speaker: |-
     優先發言者
   read_message_history: |-
@@ -72,4 +72,4 @@ permissions:
   view_channel: |-
     檢視頻道
   view_guild_insights: |-
-    檢視伺服器數據（Server Insights）
+    檢視伺服器資料（Server Insights）

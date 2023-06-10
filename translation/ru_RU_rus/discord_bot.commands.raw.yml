@@ -227,9 +227,9 @@ discord_bot:
           Если вы обнаружите, что у вас есть конфликтующие эмодзи, создайте тот, который вы хотите использовать в качестве alias'а, и бот переопределит его.
       react:
         user_needs_to_react: |
-          Привет %{user_ping}!
-          Команда `%{prefix}react` добавляет реакции к сообщению, так что вы можете добавлять их даже без Nitro. Просто нажмите на каждую реакцию!
-          *NQN удалит свои реакции через %{time} секунд.*
+          Hey %{user_ping}!
+          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
+          *NQN will remove its reactions from %{message_link} after %{time} seconds.*
         channel_empty: Этот канал пуст
         invalid_react:
           one: |
@@ -258,8 +258,8 @@ discord_bot:
           one: На этом сообщение слишком много реакций, чтобы добавить новое!
           many: На этом сообщение слишком много реакций, чтобы добавить их все!
         reacting:
-          one: Добавлена %{count} реакция; не забудьте нажать на неё, чтобы она осталась!
-          many: Добавлено %{count} реакций(-и); не забудьте нажать на них, чтобы они остались!
+          one: Adding %{count} reaction to %{message_link}; remember to react yourself for them to stay!
+          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
         blocked: '%{author} заблокировал меня, я не могу ставить реакции на его сообщения!'
         on_behalf: NQN опубликовал сообщение от %{author} (%{author_id})
         audit_message: "%{author} поставил реакцию на [это сообщение](<%{jump_url}>) в %{channel} со следующими эмодзи:\n"

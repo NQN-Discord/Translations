@@ -12,7 +12,7 @@ discord_bot:
         already_joined: 您已經加入了 %{name}
         joined_pack: |
           已加入 %{name}
-          只需要輸入表情符號的名字（連冒號）就可以在聊天室裡使用這些表情符號：
+          只需要輸入表情符號的名稱（連冒號）就可以在聊天室裡使用這些表情符號：
       leave:
         no_pack: '%{name} 並不是已註冊的表情符號包'
         already_left: 反正您也未有加入 %{name}
@@ -24,7 +24,7 @@ discord_bot:
       publish:
         already_published: 此伺服器已經被發佈為表情符號包！
         already_exists: '%{name} 表情符號包已經存在'
-        published: 已發佈表情符號包 %{name}。任何用戶都可以將這些表情符號保存到他們自己的伺服器上。您並且承諾您是這些表情的擁有者。如要取消此操作，請使用 `%{prefix}pack unpublish`。
+        published: 已發佈表情符號包 %{name}。任何使用者都可以將這些表情符號保存到他們自己的伺服器上。您並且承諾您是這些表情的擁有者。如要取消此操作，請使用 `%{prefix}pack unpublish`。
         pack_published: |
           如要存取這些表情符號，請使用
           >>> !pack join %{name}
@@ -36,8 +36,8 @@ discord_bot:
         none_left: 經過篩去與此伺服器同名的表情符號後，沒有可以導入的表情符號剩下！
         no_space: 此伺服器沒有多餘空間加入表情符號包裡的表情符號。
         failed_batch: |
-          Discord 只允許機器人每小時上傳50個表情符號。
-          NQN 未能夠上傳所有表情符號，但您可以使用同一個指令去上傳餘下的表情符號。
+          Discord 只允許機器人每小時上傳 50 個表情符號。
+          NQN 未能夠上傳所有表情符號，但您可以使用同一個指令來上傳剩下的表情符號。
         not_registered: '%{name} 並不是已註冊的表情符號包'
         upload_question: "您確定要上傳這些表情符號到此伺服器嗎？\n如果您不是這些表情符號的擁有者，請選擇 N。"
         uploaded:
@@ -64,6 +64,6 @@ discord_bot:
           one: |
             這將向您發送私人訊息，您想繼續嗎？
           many: |
-            這將向您發送%{count}條私人訊息，您想繼續嗎？
+            這將向您發送 %{count} 則私人訊息，您想繼續嗎？
         blocked: |-
           您封鎖了我，我不能夠發送私人訊息給你！
