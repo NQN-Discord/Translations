@@ -241,9 +241,9 @@ discord_bot:
           Nếu bạn thường xuyên bị xung đột emoji, hãy đặt tên thay thế cho cái mà bạn muốn dùng và nó sẽ được ưu tiên.
       react:
         user_needs_to_react: |
-          Hey %{user_ping}!
-          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
-          *NQN will remove its reactions from %{message_link} after %{time} seconds.*
+          Xin chào %{user_ping}!
+          Lệnh `%{prefix}react` thêm biểu cảm vào tin nhắn để bạn cũng có thể thêm chúng, ngay cả khi không có Nitro. Chỉ cần nhấp vào mỗi phản ứng!
+          *NQN sẽ xóa các biểu cảm của mình khỏi %{message_link} sau %{time} giây.*
         channel_empty: Kênh này đang trống
         invalid_react:
           one: |
