@@ -241,9 +241,9 @@ discord_bot:
           Nếu bạn thường xuyên bị xung đột emoji, hãy đặt tên thay thế cho cái mà bạn muốn dùng và nó sẽ được ưu tiên.
       react:
         user_needs_to_react: |
-          Hey %{user_ping}!
-          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
-          *NQN will remove its reactions from %{message_link} after %{time} seconds.*
+          Xin chào %{user_ping}!
+          Lệnh `%{prefix}react` thêm biểu cảm vào tin nhắn để bạn cũng có thể thêm chúng, ngay cả khi không có Nitro. Chỉ cần nhấp vào mỗi phản ứng!
+          *NQN sẽ xóa các biểu cảm của mình khỏi %{message_link} sau %{time} giây.*
         channel_empty: Kênh này đang trống
         invalid_react:
           one: |
@@ -274,8 +274,8 @@ discord_bot:
           one: Tin nhắn này đã có quá nhiều emoji để thêm!
           many: Tin nhắn này đã có quá nhiều emoji để thêm chúng!
         reacting:
-          one: Adding %{count} reaction to %{message_link}; remember to react yourself for them to stay!
-          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
+          one: Đang thêm %{count} emoji; nhớ là bày tỏ vào để giữ chúng!
+          many: Đang thêm %{count} emoji; nhớ là bày tỏ vào để giữ chúng!
         blocked: '%{author} đã chặn tôi, vậy nên tôi không thể bày tỏ cảm xúc lên tin nhắn của họ!'
         on_behalf: NQN thay danh %{author} (%{author_id})
         audit_message: "%{author} đã bày tỏ cảm xúc với [tin nhắn](<%{jump_url}>) trong %{channel} với những emoji sau:\n"
