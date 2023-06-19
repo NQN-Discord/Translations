@@ -24,6 +24,9 @@ discord_bot:
       publish:
         already_published: این سرور از قبل به عنوان یک سرور با بسته شکلک، منتشر شده!
         already_exists: بسته شکلک به نام ‎%{name} از قبل وجود دارد
+        no_emojis_in_packs: |
+          ## :x: Packs can't have emojis in their name.
+          *Did you know? Emote packs contain every emote in the server you run this command in.*
         published: بسته شکلک به نام ‎ %{name}منتشر شد. همه الان می توانند از این شکلک ها در سرور خود استفاده کنند، و شما دارنده این سری بسته شکلک هستید. برای بازگرداندن این عمل، دستور ‎`%{prefix}pack unpublish` را استفاده کنید.
         pack_published: |
           برای دسترسی یافتن به همه این شکلک ها، دستور زیر را اجرا کنید

@@ -119,9 +119,9 @@ discord_bot:
           Эта команда показывает список паков, участником которых вы в данный момент являетесь, включая названия эмодзи в каждом паке.
         page_2_2_name: Публикация собственных паков
         page_2_2_desc: |
-          Если у бота есть право **Управление сервером**, вы можете опубликовать свой собственный пак, содержащего ВСЕ эмодзи с вашего сервера:
-          > `%{prefix}pack publish МоёСуперКрутоеНазваниеДляПака`
-          Вы также можете сделать свой пак общедоступным с помощью `%{prefix}pack set_public yes`, чтобы люди с других серверов могли присоединяться к вашему с помощью бота без приглашения.
+          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emojis:
+          > `%{prefix}pack publish MySuperCoolEmotePackName`
+          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
         page_3_title: Алиасы
         page_3_desc: |
           Алиасы - это просто индвидуальные эмодзи, которым вы можете лично дать название и с помощью него использовать эмодзи.
