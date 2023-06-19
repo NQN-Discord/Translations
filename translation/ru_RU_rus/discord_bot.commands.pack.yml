@@ -24,6 +24,9 @@ discord_bot:
       publish:
         already_published: Этот сервер уже опубликован, как пак!
         already_exists: Имя с паком %{name} уже существует.
+        no_emojis_in_packs: |
+          ## :x: Packs can't have emojis in their name.
+          *Did you know? Emote packs contain every emote in the server you run this command in.*
         published: Пак с эмодзи %{name} был опубликован! Теперь любой может сохранить эти эмодзи на своём сервере, и вы подтверждаете, что являетесь владельцем этих эмодзи. Чтобы отменить действие, напишите `%{prefix}pack unpublish`.
         pack_published: |
           Чтобы получить доступ к этим эмодзи, выполните
