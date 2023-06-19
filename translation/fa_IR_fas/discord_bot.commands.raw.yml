@@ -122,10 +122,9 @@ discord_bot:
           این دستور به شما یک لیست از بسته های شکلکی که شما به آنها پیوسته‌اید نشان می دهد، علاوه بر یک سری اطلاعات دیگر مثل نام هرکدام از بسته ها.
         page_2_2_name: منتشر کردن بسته شکلک خودتان
         page_2_2_desc: |
-          اگر شما دسترسی **Manage Server** را دارید، شما می توانید بسته شکلک خود را که حاوی تمام شکلک های سرور هست، به عنوان یک بسته شکلک منتشر کنید:
+          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emojis:
           > `%{prefix}pack publish MySuperCoolEmotePackName`
-          شما همچنین می توانید بسته شکلک خود را در دسترس عموم برای استفاده قرار دهید.
-          با استفاده از ‎`%{prefix}pack set_public yes` مردم این اجازه را پیدا می کنند که بدون دعوت، توسط بات وارد سرور شما شوند.
+          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
         page_3_title: اختصار ها
         page_3_desc: |
           اختصار ها، شکلک های مجزایی هستند که شما به آنها یک نام می دهید، و آنها با با همان نام برای شما قابل استفاده می شوند.
