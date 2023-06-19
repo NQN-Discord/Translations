@@ -122,9 +122,9 @@ discord_bot:
           Lệnh này sẽ hiển thị danh sách các gói emoji mà bạn đã tham gia, bao gồm cả tên emoji trong mỗi gói.
         page_2_2_name: Công khai gói emoji của bạn
         page_2_2_desc: |
-          Nếu bạn có quyền **quản lý server**, bạn có thể công khai gói emoji của riêng bạn bao gồm các emoji có trong server:
-          > `%{prefix}pack publish TênGóiBiểuCảmCăngĐét`
-          Bạn cũng có thể công khai gói cho mọi người có thể tham gia bằng lệnh `%{prefix}pack set_public yes` để ai cũng có thể tham gia gói của bạn với bot mà không cần phải ở trong server của bạn.
+          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emojis:
+          > `%{prefix}pack publish MySuperCoolEmotePackName`
+          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
         page_3_title: Tên thay thế
         page_3_desc: |
           Tên thay thế bản chất chỉ là tên khác của những emoji mà bạn cho, và chúng có thể được dùng với những cái tên đó.
