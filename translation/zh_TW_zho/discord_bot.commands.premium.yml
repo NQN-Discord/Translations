@@ -1,9 +1,9 @@
 discord_bot:
   commands:
     premium:
-      get_premium: 獲取 NQN 高級版
+      get_premium: 獲取 NQN Premium
       premium_description: |
-        儘管 NQN 主要是一個提供免費服務的機器人，我們也要一些高級版專用的功能。如果您想支持我們繼續開發新功能，您可以訂閱 NQN 的 Patreon: https://www.patreon.com/NQN
-      premium_commands_title: 高級版指令
+        儘管 NQN 主要是一個提供免費服務的機器人，我們也要一些 Premium 專用的功能。如果您想支持我們繼續開發新功能，您可以訂閱 NQN 的 Patreon: https://www.patreon.com/NQN
+      premium_commands_title: Premium 指令
       premium_commands_content: |-
-        您只可以在有訂閱高級版的伺服器裡面使用以下指令。只要任何一個伺服器「管理者」有訂閱的 NQN 的 Patreon 的話，該伺服器就可以享用高級版的指令。
+        您只可以在有訂閱 Premium 的伺服器裡面使用以下指令。只要任何一個伺服器「管理者」有訂閱的 NQN 的 Patreon 的話，該伺服器就可以享用 Premium 的指令。

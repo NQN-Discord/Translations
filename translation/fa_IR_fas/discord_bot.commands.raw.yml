@@ -245,7 +245,7 @@ discord_bot:
         user_needs_to_react: |
           هی %{user_ping}!
           دستور ‎`%{prefix}react` به پیام ها ری‌اکشن اضافه می کند که اینجوری بتوانید شما هم خودتان ری‌اکشن خود را اضافه کنید، حتی بدون اینکه نیترو داشته باشید. فقط روی هر ری‌اکشن اضافه شده یک بار کلیک کنید تا آن از طرف شما باقی بماند!
-          *توجه داشته باشید که NQN پس از %{time} ثانیه، ری‌اکشن هایی که خودش به پیام اضافه نموده را برمیدارد.*
+          *توجه داشته باشید که NQN پس از %{time} ثانیه، ری‌اکشن های خودش را از %{message_link} برمیدارد.*
         channel_empty: این کانال خالی است
         invalid_react:
           one: |
@@ -276,8 +276,8 @@ discord_bot:
           one: این پیام ری‌اکشن های زیادی برای افزودن یکی جدید دارد!
           many: این پیام ری‌اکشن های زیادی برای افزودن همه اینها را دارد!
         reacting:
-          one: درحال افزودن %{count} ری‌اکشن. یادتان نرود که خودتان هم باید آنها را ری‌اکت کنید تا باقی بمانند!
-          many: درحال افزودن %{count} ری‌اکشن. یادتان نرود که خودتان هم باید آنها را ری‌اکت کنید تا باقی بمانند!
+          one: Adding %{count} reaction to %{message_link}; remember to react yourself for them to stay!
+          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
         blocked: 'سازنده %{author} من را مسدود کرده، پس با این حساب من نمی توانم آن ری‌اکشن را اضافه کنم! '
         on_behalf: بات NQN از طرف %{author} (%{author_id})
         audit_message: "ایجاد کننده %{author} به [این پیام](<%{jump_url}>) در کانال %{channel} با این شکلک ها، ری‌اکت کرد:\n"

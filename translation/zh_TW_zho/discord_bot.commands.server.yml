@@ -3,74 +3,74 @@ discord_bot:
   commands:
     server:
       alias:
-        set_emote_title: '將此伺服器中 %{emote} 的名字設置為 \:%{name}: 。'
+        set_emote_title: '將此伺服器中 %{emote} 的名稱設定為 \:%{name}: 。'
         set_emote_description:
           zero: |
-            此伺服器不可以在新增表情符號別號了！
-            如您需要為更多表情符號新增別號，只要在 %{url} 為機器人投票就可以了
+            此伺服器不可以在新增表情符號別名了！
+            如您需要為更多表情符號新增別名，只要在 %{url} 為機器人投票就可以了
 
             無論如何，任何人現在都可以通過輸入以下內容來使用此表情符號：
           one: |
-            此伺服器只可以再新增最多一個表情符號別號了！
-            如您需要為更多表情符號新增別號，只要在 %{url} 為機器人投票就可以了
+            此伺服器只可以再新增最多一個表情符號別名了！
+            如您需要為更多表情符號新增別名，只要在 %{url} 為機器人投票就可以了
 
             無論如何，任何人現在都可以通過輸入以下內容來使用此表情符號：
           many: |
-            此伺服器只可以再新增最多%{count}個表情符號別號了！
-            如您需要為更多表情符號新增別號，只要在 %{url} 為機器人投票就可以了
+            此伺服器只可以再新增最多 %{count} 個表情符號別名了！
+            如您需要為更多表情符號新增別名，只要在 %{url} 為機器人投票就可以了
 
             無論如何，任何人現在都可以通過輸入以下內容來使用此表情符號：
         failed_aliases:
           one: |
-            未能成功顯示一個表情符號別號
+            未能成功顯示一個表情符號別名
           many: |
-            未能成功顯示%{failed_aliases}個表情符號別號
+            未能成功顯示%{failed_aliases}個表情符號別名
         max_title: 此伺服器已經用盡了的表情符號/表情符號包的定額！
         max_description: |
           :%{name}: 未有被新增為伺服器的表情符號。
 
-          您可以在 %{url} 為機器人投票以新增更多別號/表情符號包，
-        no_alias: 此伺服器沒有一個表情符號別號叫 %{name}
+          您可以在 %{url} 為機器人投票以新增更多別名/表情符號包，
+        no_alias: 此伺服器沒有一個表情符號別名叫 %{name}
         renamed: '已將 %{emote} 由\:%{name}: 重新命名為 :%{new}:'
-        no_aliases: 此伺服器沒有任何表情符號別號
+        no_aliases: 此伺服器沒有任何表情符號別名
       nitro_role:
-        unset: 此伺服器中的所有成員都可以通過 NQN 免費使用的 Nitro 專用的表情符號
-        set: 此伺服器中的只有 %{role} 身分組的成員可以通過 NQN 免費使用的 Nitro 專用的表情符號
+        unset: 此伺服器中的所有使用者都可以通過 NQN 免費使用的 Nitro 專用的表情符號
+        set: 此伺服器中的只有 %{role} 身分組的使用者可以通過 NQN 免費使用的 Nitro 專用的表情符號
       audit_channel:
-        unset: 已取消在此伺服器設置審核日誌頻道
-        set: 已在此伺服器設置 %{channel} 為審核日誌頻道
+        unset: 已取消在此伺服器設定審核日誌頻道
+        set: 已在此伺服器設定 %{channel} 為審核日誌頻道
         no_webhooks: "我未能夠在 %{channel} 發佈 Webhook 訊息。\n請在該頻道給我「管理 Webhooks」權限！"
       boost_channel:
-        unset: 已取消在此伺服器設置加成頻道
-        set: 已在此伺服器設置 %{channel} 為加成頻道
+        unset: 已取消在此伺服器設定加成頻道
+        set: 已在此伺服器設定 %{channel} 為加成頻道
       boost_role:
-        unset: 已取消在此伺服器設置加成的身分組
-        set: 已在此伺服器設置 %{role} 為加成的身分組
+        unset: 已取消在此伺服器設定加成的身分組
+        set: 已在此伺服器設定 %{role} 為加成的身分組
       boolean_options:
         stickers_on: 已啟用貼圖功能
-        stickers_off: 已禁用貼圖功能
+        stickers_off: 已停用貼圖功能
         nitro_on: 已在此伺服器中啟用免費的 Nitro 功能！
-        nitro_off: 已在此伺服器中禁用免費的 Nitro 功能
-        replies_on: 已啟用訊息鏈結預覽功能
-        replies_off: 已禁用訊息鏈結預覽功能
-        masked_links_on: 已啟用屏蔽鏈結的功能
-        masked_links_off: 已禁用屏蔽鏈結的功能
+        nitro_off: 已在此伺服器中停用免費的 Nitro 功能
+        replies_on: 已啟用訊息連結預覽功能
+        replies_off: 已停用訊息連結預覽功能
+        masked_links_on: 已啟用屏蔽網址的功能
+        masked_links_off: 已停用屏蔽網址的功能
         pings_on: 已允許在 NQN 重新發佈的訊息中使用 ping
         pings_off: 已禁止在 NQN 重新發佈的訊息中使用 ping
         user_content_on: |
-          已啟用用戶使用別號和表情符號包的功能
-          有關貼圖的設置尚未更改。
+          已啟用使用者使用別名和表情符號包的功能
+          有關貼圖的設定尚未更改。
         user_content_off: |
-          已禁用用戶使用別號和表情符號包的功能。
-          伺服器成員只可以使用那些用 `%{prefix}server alias search` 和 `%{prefix}server pack search` 新增的別號和表情符號包，以及原本來自此伺服器的表情符號。
-          貼圖已被一同禁用。
+          已停用使用者使用別名和表情符號包的功能。
+          伺服器使用者只可以使用那些用 `%{prefix}server alias search` 和 `%{prefix}server pack search` 新增的別名和表情符號包，以及原本來自此伺服器的表情符號。
+          貼圖已被一同停用。
         personas_on: |
           已啟用角色的功能。
-          這樣會允許任何人設置自訂的用戶名和頭像；請慎防冒名頂替。
+          這樣會允許任何人設定自訂的使用者名和頭像；請慎防冒名頂替。
 
-          NQN 建議您在使用此功能時設置審核日誌以便翻查紀錄；如果還沒有的話，您可以使用
+          NQN 建議您在使用此功能時設定審核日誌以便翻查紀錄；如果還沒有的話，您可以使用
           > ```!server set_audit_channel #channel``` #channel```
-        personas_off: 已禁用角色的功能
+        personas_off: 已停用角色的功能
         dashboard_posting_on: 已允許管理者使用機器人的 Dashboard 發佈訊息
         dashboard_posting_off: 已禁止管理者使用機器人的 Dashboard 發佈訊息
         phish_detection_on: 已開始在此伺服器中檢查可疑訊息
@@ -80,12 +80,12 @@ discord_bot:
           此伺服器並沒有動畫表情符號！
           您只可以使用此指令連接動畫表情符號。
         too_many_static: 此伺服器的靜態表情符號太多了！請刪除一些後再重試。
-        animated_only: 此指令僅適用於動畫表情符號 - 沒有 Nitro 的用戶都可以在表情符號選擇器中選擇它們當作靜態表情以共使用！
-        emote_not_found: 未能找到表情符號！請嘗試使用 `%{prefix}alias search` 為其設置別號
+        animated_only: 此指令僅適用於動畫表情符號 - 沒有 Nitro 的使用者都可以在表情符號選擇器中選擇它們當作靜態表情以共使用！
+        emote_not_found: 未能找到表情符號！請嘗試使用 `%{prefix}alias search` 為其設定別名
         upload_later: 無法上傳表情符號；請在幾個小時後再重試
-        choose_emote: '請選擇一個表情符號以創建靜態鏈結：'
-        create_static: 創建靜態表情符號嗎？
-        create_static_emote: 為 %{emote} 創建靜態表情符號嗎？
+        choose_emote: '請選擇一個表情符號以建立靜態連結：'
+        create_static: 建立靜態表情符號嗎？
+        create_static_emote: 為 %{emote} 建立靜態表情符號嗎？
         uploaded: 以上傳 %{uploaded}！
         uploaded_emote: "以上傳 %{uploaded}！\n您可以用它來使用 %{emote}"
       pack:
@@ -93,7 +93,7 @@ discord_bot:
         max_description: |
           %{name} 未有被新增為伺服器的表情符號包。
 
-          您可以在 %{url} 為機器人投票以新增更多別號/表情符號包，
+          您可以在 %{url} 為機器人投票以新增更多別名/表情符號包，
         left_pack: "%{guild_name} 已退出 %{name}"
         not_in_pack: 此伺服器根本就沒有叫 %{name} 的表情符號包
         invalid_group: <無效的表情符號包 - 請聯絡我們>
@@ -102,20 +102,20 @@ discord_bot:
         already_joined: '%{guild_name} 已經加入了 %{name}'
         joined_long: |
           %{guild_name} 已加入 %{name}
-          任何伺服器的成員只需要輸入表情符號的名字（連冒號）就可以在聊天室裡使用這些表情符號：
+          任何伺服器的使用者只需要輸入表情符號的名稱（連冒號）就可以在聊天室裡使用這些表情符號：
         no_packs: "'%{guild_name}s' 未有加入任何表情符號包！"
       prefix:
-        instructions: "要重新設置我的前綴的話，請在訊息中提及我、然後再輸入新的前綴，以防前綴受到意外更改。\n> %{prefix}server prefix %{me} %{new}"
-        no_colon_prefix: NQN 並不可以設置以冒號 (:) 開頭的前綴
-        no_slash_prefix: NQN 並不可以設置以斜杠 (/) 開頭的前綴
-        set_prefix: 已將我的前綴設置為 `%{prefix}`
+        instructions: "要重新設定我的前綴的話，請在訊息中提及我、然後再輸入新的前綴，以防前綴受到意外更改。\n> %{prefix}server prefix %{me} %{new}"
+        no_colon_prefix: NQN 並不可以設定以冒號 (:) 開頭的前綴
+        no_slash_prefix: NQN 並不可以設定以斜杠 (/) 開頭的前綴
+        set_prefix: 已將我的前綴設定為 `%{prefix}`
       language:
         choose: '請選擇語言：'
-        set: 已將此伺服器的語言設置為繁體中文
+        set: 已將此伺服器的語言設定為繁體中文
         this_locale_name: 繁體中文
       config:
         enabled: 已啟用的
-        disabled: 已禁用的
+        disabled: 已停用的
         prefix: 前綴
         announcement: 公告頻道
         boost_channel: 加成的頻道
@@ -124,19 +124,19 @@ discord_bot:
         nitro_role: Nitro 的身分組
         stickers: 貼圖
         nitro: Nitro
-        replies: 預覽訊息鏈結
+        replies: 預覽訊息連結
         masked_links: 隱蔽網址
         pings: 提及 (Pings)
-        user_content: 用戶內容
+        user_content: 使用者內容
         personas: 角色
         dashboard_posting: 在 Dashboard 發發佈訊息
         phish_detection: 檢查可疑訊息
-        invite: 邀請鏈結
-        pack: 表情符號包的名字
+        invite: 邀請連結
+        pack: 表情符號包的名稱
         public: 公眾
-        member_count: 成員
+        member_count: 使用者
         configure_features: 切換功能
-        settings: 設置
+        settings: 設定
         channels: 頻道
         features: 功能
         pack_info: 表情符號包的資訊

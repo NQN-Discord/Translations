@@ -1,52 +1,52 @@
 discord_bot:
   commands:
     alias:
-      no_alias: "沒有任何表情符號別號是 \\:%{name}:"
-      could_not_find: 未能找到表情符號別號
-      alphanumeric: 表情符號別號只可以包含英文字母、數字和下劃線
-      max_length: 表情符號別號的長度最多為 32 個字符
-      user_zero: 你並沒有表情符號別號
-      set_alias: 設定表情符號別號
+      no_alias: "沒有任何表情符號別名是 \\:%{name}:"
+      could_not_find: 未能找到表情符號別名
+      alphanumeric: 表情符號別名只可以包含英文字母、數字和下劃線
+      max_length: 表情符號別名的長度最多為 32 個字元
+      user_zero: 你並沒有表情符號別名
+      set_alias: 設定表情符號別名
       from_message:
         no_emotes: 此訊息沒有包含任何自訂的表情符號！
       delete:
         deleted: '已刪除 \:%{name}:'
       delete_all:
         confirm: |
-          您將會刪除您所有 **%{count}** 個表情符號別號，您確定嗎？
+          您將會刪除您所有 **%{count}** 個表情符號別名，您確定嗎？
         deleted:
-          one: 已刪除一個表情符號別號
-          many: 已刪除%{count}個表情符號別號
+          one: 已刪除一個表情符號別名
+          many: 已刪除 %{count} 個表情符號別名
       created:
-        one: '您成功新增一個表情符號別號！請輸入以下使用別號：'
-        many: '您成功新增%{count}個表情符號別號！請輸入以下使用別號：'
+        one: '您成功新增一個表情符號別名！請輸入以下使用別名：'
+        many: '您成功新增 %{count} 個表情符號別名！請輸入以下使用別名：'
       rename:
-        rename: 重新命名表情符號別號
-        alias_name: '表情符號別號：'
+        rename: 重新命名表情符號別名
+        alias_name: '表情符號別名：'
         renamed: '已重新命名\:%{old}: 至 :%{new}:'
       export:
-        exported_short: "以下是您的所有表情符號別號："
+        exported_short: "以下是您的所有表情符號別名："
         exported_long: |
-          以下是您的所有表情符號別號：
+          以下是您的所有表情符號別名：
           您可以與其他人共享它們，他們需要使用以下指令：
           > `%{prefix}alias import %{url}`
       import_:
         import_incorrect: |
-          此指令是用來導入一系列以前使用 `%{prefix}alias export` 導出的表情符號別號。
-          您可以使用 `%{prefix}alias search` 指令從而新增表情符號別號
-        import_text: 此指令需要文本附件
-        import_lines_invalid: 無法設置在第 %{lines_invalid} 行上的表情符號別號，格式無效。
+          此指令是用來導入一系列以前使用 `%{prefix}alias export` 導出的表情符號別名。
+          您可以使用 `%{prefix}alias search` 指令從而新增表情符號別名
+        import_text: 此指令需要文字檔案附件
+        import_lines_invalid: 無法設定在第 %{lines_invalid} 行上的表情符號別名，格式無效。
         import_set:
-          one: 已設置%{count}個表情符號別號。
-          many: 已設置%{count}個表情符號別號。
+          one: 已設定 %{count} 個表情符號別名。
+          many: 已設定 %{count} 個表情符號別名。
       dm:
         send_dms:
           zero: |
-            您沒有任何表情符號別號！
-            使用 `%{prefix}alias search` 尋找和設置表情符號別號
+            您沒有任何表情符號別名！
+            使用 `%{prefix}alias search` 尋找和設定表情符號別名
           one: |
             這將向您發送私人訊息，您想繼續嗎？
           many: |
-            這將向您發送%{count}條私人訊息，您想繼續嗎？
+            這將向您發送 %{count} 則私人訊息，您想繼續嗎？
         blocked: |-
           您封鎖了我，我不能夠發送私人訊息給你！
