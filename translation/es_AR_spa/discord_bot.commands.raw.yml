@@ -122,9 +122,9 @@ discord_bot:
           Este comando te muestra la lista de packs de emojis los cuales tienes asignados, incluyendo los nombres de todos los emojis en cada pack.
         page_2_2_name: Publicando tus propios packs
         page_2_2_desc: |
-          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emojis:
-          > `%{prefix}pack publish MySuperCoolEmotePackName`
-          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
+          Si tienes el permiso **Gestionar Servidor**, entonces puedes publicar tu propio pack conteniendo todos los emojis de tu servidor:
+          > `%{prefix}pack publish MiSuperCoolNombreDePack`
+          También puedes hacer tu propio pack publico con `%{prefix}pack set_public yes` para permitir que gente de otros servidores se unan al servidor a través del bot, sin requerir invitación.
         page_3_title: Alias
         page_3_desc: |
           Los Alias solo son emojis individuales a los cuales le otorgas un nombre, lo cual te permite usarlos a través de este nombre.
