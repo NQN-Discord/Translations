@@ -127,7 +127,7 @@ discord_bot:
           This command shows you a list of emote packs you're currently a member of, including the names of the emotes in each pack.
         page_2_2_name: Publishing your own packs
         page_2_2_desc: |
-          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emote packs:
+          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emojis:
           > `%{prefix}pack publish MySuperCoolEmotePackName`
           You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
         page_3_title: Aliases
