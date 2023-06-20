@@ -122,9 +122,9 @@ discord_bot:
           Deze commando toont je een lijst met emoji-pakketten waarvan je momenteel lid bent, inclusief de namen van de emoji's in elk pack.
         page_2_2_name: Uw eigen pakketten publiceren
         page_2_2_desc: |
-          Als je **Server beheren**-machtigingen hebt, kun je je eigen emoji-pakket publiceren dat alle emoji-pakketten van je server bevat:
-          > `%{prefix}pack publish NaamVanMijnSupercooleEmojiPakket`
-          Je kunt je pakket ook openbaar samenvoegen met `%{prefix}pack set_public yes` om mensen van andere servers toe te staan met de bot mee te doen, zonder een uitnodiging.
+          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emojis:
+          > `%{prefix}pack publish MySuperCoolEmotePackName`
+          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
         page_3_title: Aliassen
         page_3_desc: |
           Aliassen zijn slechts individuele emoji's die je een naam geeft, en vervolgens via die naam bruikbaar zijn.
