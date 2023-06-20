@@ -25,8 +25,8 @@ discord_bot:
         already_published: Server này đã được công khai là một gói emoji!
         already_exists: Đã có một gói emoji mang tên %{name}
         no_emojis_in_packs: |
-          ## :x: Packs can't have emojis in their name.
-          *Did you know? Emote packs contain every emote in the server you run this command in.*
+          ## :x: Tên của gói biểu cảm không được chứa emoji.
+          *Bạn có biết? Các gói biểu cảm bao gồm các biểu cảm của server nơi mà bạn dùng lệnh này.*
         published: Đã công khai gói emoji %{name}. Mọi người có thể lưu những emoji này về server của họ, và bạn khẳng định rằng mình là chủ sở hữu những emoji đó. Không muốn công khai? Dùng `%{prefix}pack unpublish`.
         pack_published: |
           Để có thể dùng những emoji này, dùng
