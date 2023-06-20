@@ -122,9 +122,10 @@ discord_bot:
           این دستور به شما یک لیست از بسته های شکلکی که شما به آنها پیوسته‌اید نشان می دهد، علاوه بر یک سری اطلاعات دیگر مثل نام هرکدام از بسته ها.
         page_2_2_name: منتشر کردن بسته شکلک خودتان
         page_2_2_desc: |
-          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emojis:
+          اگر شما دسترسی **Manage Server** را دارید، شما می توانید بسته شکلک خود را که حاوی تمام شکلک های سرور هست، منتشر کنید:
           > `%{prefix}pack publish MySuperCoolEmotePackName`
-          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
+          شما همچنین می توانید بسته شکلک خود را در دسترس عموم برای استفاده قرار دهید.
+          با استفاده از ‎`%{prefix}pack set_public yes` مردم این اجازه را پیدا می کنند که بدون دعوت، توسط بات وارد سرور شما شوند.
         page_3_title: اختصار ها
         page_3_desc: |
           اختصار ها، شکلک های مجزایی هستند که شما به آنها یک نام می دهید، و آنها با با همان نام برای شما قابل استفاده می شوند.
@@ -275,8 +276,8 @@ discord_bot:
           one: این پیام ری‌اکشن های زیادی برای افزودن یکی جدید دارد!
           many: این پیام ری‌اکشن های زیادی برای افزودن همه اینها را دارد!
         reacting:
-          one: Adding %{count} reaction to %{message_link}; remember to react yourself for them to stay!
-          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
+          one: درحال افزودن %{count} ری‌اکشن به %{message_link}؛ به یاد داشته باشید که خودتان نیز به آنها ری‌اکشن دهید تا باقی بمانند!
+          many: درحال افزودن %{count} ری‌اکشن به %{message_link}؛ به یاد داشته باشید که خودتان نیز به آنها ری‌اکشن دهید تا باقی بمانند!
         blocked: 'سازنده %{author} من را مسدود کرده، پس با این حساب من نمی توانم آن ری‌اکشن را اضافه کنم! '
         on_behalf: بات NQN از طرف %{author} (%{author_id})
         audit_message: "ایجاد کننده %{author} به [این پیام](<%{jump_url}>) در کانال %{channel} با این شکلک ها، ری‌اکت کرد:\n"
