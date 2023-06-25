@@ -25,8 +25,8 @@ discord_bot:
         already_published: Deze server is al gepubliceerd als een pakket!
         already_exists: Er bestaat al een emoji-pakket met de naam %{name}
         no_emojis_in_packs: |
-          ## :x: Packs can't have emojis in their name.
-          *Did you know? Emote packs contain every emote in the server you run this command in.*
+          ## :x: Pakketten kunnen geen emoji's in hun naam bevatten.
+          *Wist je dat? Emoji-pakketten bevatten elke emoji op de server waarop je deze opdracht uitvoert.*
         published: Gepubliceerd emoji-pakket %{name}. Iedereen kan deze emoji's op zijn eigen server opslaan en jij beweert de eigenaar van deze emoji's te zijn. Om dit ongedaan te maken, voert u `%{prefix}pack unpublish` uit.
         pack_published: |
           Om toegang te krijgen tot al deze emoji's, gebruik
