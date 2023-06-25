@@ -122,9 +122,9 @@ discord_bot:
           Deze commando toont je een lijst met emoji-pakketten waarvan je momenteel lid bent, inclusief de namen van de emoji's in elk pack.
         page_2_2_name: Uw eigen pakketten publiceren
         page_2_2_desc: |
-          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emojis:
-          > `%{prefix}pack publish MySuperCoolEmotePackName`
-          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
+          Als je **Server Beheren**-machtigingen hebt, kun je je eigen emoji-pakket publiceren dat alle emoji's van je server bevat:
+          > `%{prefix}pack publish NaamVanMijnSupercooleEmojiPakket`
+          Je kunt je pakket ook openbaar samenvoegen met `%{prefix}pack set_publix yes` om mensen van andere servers toe te staan met de bot mee te doen, zonder een uitnodiging.
         page_3_title: Aliassen
         page_3_desc: |
           Aliassen zijn slechts individuele emoji's die je een naam geeft, en vervolgens via die naam bruikbaar zijn.
@@ -242,8 +242,8 @@ discord_bot:
       react:
         user_needs_to_react: |
           Hey %{user_ping}!
-          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
-          *NQN will remove its reactions from %{message_link} after %{time} seconds.*
+          Het commando `%{prefix}react` voegt de reacties toe aan get bericht, zodat je ze ook kunt toevoegen, zelfs zonder Nitro. Klik gewoon op elke reactie!
+          *NQN zal zijn reacties na %{time} seconde verwijderen van %{message_link}.*
         channel_empty: Dit kanaal is leeg
         invalid_react:
           one: |
@@ -274,8 +274,8 @@ discord_bot:
           one: Dit bericht heeft te veel reacties om een nieuwe toe te voegen!
           many: Dit bericht heeft te veel reacties om ze allemaal toe te voegen!
         reacting:
-          one: Adding %{count} reaction to %{message_link}; remember to react yourself for them to stay!
-          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
+          one: '%{count} reactie worden toegevoegd aan %{message_link}; vergeet niet om zelf te reageren zodat ze blijven!'
+          many: '%{count} reacties worden toegevoegd aan %{message_link}; vergeet niet om zelf te reageren zodat ze blijven!'
         blocked: '%{author} heeft mij geblokkeerd, dus ik kan die reactie niet toevoegen!'
         on_behalf: NQN namens %{author} (%{author_id})
         audit_message: "%{author} reageerde op [dit bericht](<%{jump_url}>) in %{channel} met deze emoji's:\n"
