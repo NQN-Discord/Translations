@@ -122,9 +122,8 @@ discord_bot:
           Esse comando mostra uma lista dos pacotes dos quais você é membro, e mostra também o nome dos emojis em cada pacote.
         page_2_2_name: Publicar seu próprio pacote
         page_2_2_desc: |
-          Se tiver a permissão **Gerenciar servidor**, você pode publicar seu próprio pacote de emoji contendo todos os emojis do seu servidor:
-          > `%{prefix}pack publish UmNomeFodaDeUmPacoteFoda`
-          Você também pode tornar seu pacote publicamente disponivel com `%{prefix}pack set_public yes` para permitir que pessoas de outros servidores se juntem ao seu servidor através do bot.
+          Se você tem a permissão **Gerenciar Servidor**, você pode publicar os seus pacotes de reação contendo todos os emojis do servidor: `> `%{prefix}pack publish OmeuPacoteReacoesSuperBacana`
+          Você também pode fazer um pacote disponível ao público com `%{prefix}pack set_public yes` para permitir as pessoas de outros servidores entrarem no seu através do bot, sem um convite.
         page_3_title: Aliases
         page_3_desc: |
           Aliases são apenas emojis individuais que você pode adicionar e depois renomear. Você pode utilizá-los com o nome que deu a eles.
@@ -238,9 +237,9 @@ discord_bot:
           Se você tiver emojis conflitantes, crie um alias daquele que vocẽ quer usar e isso o substituirá.
       react:
         user_needs_to_react: |
-          Hey %{user_ping}!
-          The `%{prefix}react` command adds the reactions to the message so you can add them as well, even without Nitro. Just click on each reaction!
-          *NQN will remove its reactions from %{message_link} after %{time} seconds.*
+          Olá %{user_ping}!
+          O comando `%{prefix}react` adiciona reações à mensagem para que você as possa adicionar também, mesmo sem Nitro. Apenas clique em cada reação!
+          *NQN irá remover a reação de %{message_link} após %{time} segundos.*
         channel_empty: Este canal está vazio
         invalid_react:
           one: |
@@ -271,8 +270,8 @@ discord_bot:
           one: Esta mensagem já tem muitas reações, não posso adicionar mais!
           many: Esta mensagem já tem muitas reações, não posso adicionar todas!
         reacting:
-          one: Adding %{count} reaction to %{message_link}; remember to react yourself for them to stay!
-          many: Adding %{count} reactions to %{message_link}; remember to react yourself for them to stay!
+          one: Adicionando %{count} reação a %{message_link}; lembre-se de adicionar a sua reação para ficar permanente!
+          many: Adicionando %{count} reações a %{message_link}; lembre-se de adicionar a sua reação para ficar permanente!
         blocked: '%{author} me bloqueou, então não posso adicionar essa reação!'
         on_behalf: NQN, da parte de %{author} (%{author_id})
         audit_message: "%{author} reagiu a [esta mensagem](<%{jump_url}>) em %{channel} com estes emojis:\n"

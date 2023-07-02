@@ -122,7 +122,7 @@ discord_bot:
           Questo comando ti mostra una lista di pacchetti emote di cui sei attualmente membro, compresi i nomi delle emote in ogni pacchetto.
         page_2_2_name: Pubblicare i tuoi pacchetti
         page_2_2_desc: |
-          Se hai il permess0 **Gestisci server**, puoi pubblicare il tuo pacchetto emote contenente tutti i pacchetti emote del tuo server:
+          Se hai il permess0 **Gestisci server**, puoi pubblicare il tuo pacchetto emote contenente tutte le emoji del tuo server:
           > `%{prefix}pubblica MySuperCoolEmotePackName`
           Puoi anche rendere il tuo pacchetto pubblicamente accessibile con `%{prefix}pack set_public yes` per consentire alle persone di altri server di unirsi al tuo pacchetto con il bot, senza invito.
         page_3_title: Alias

@@ -24,6 +24,9 @@ discord_bot:
       publish:
         already_published: Bu sunucu zaten bir paket olarak yayınlandı!
         already_exists: '%{name} adlı bir emoji paketi zaten var'
+        no_emojis_in_packs: |
+          ## :x: Packs can't have emojis in their name.
+          *Did you know? Emote packs contain every emote in the server you run this command in.*
         published: '%{name} emoji paketi yayınlandı. Bu emojileri herkes kendi sunucusuna kaydedebiliyor ve siz bu emojilerin sahibi olduğunuzu iddia ediyorsunuz. Bunu geri almak için `%{prefix}pack unpublish` komutunu kullanın.'
         pack_published: |
           Tüm bu emojilere erişmek için şunu kullanın:

@@ -24,6 +24,9 @@ discord_bot:
       publish:
         already_published: '¡Este servidor ya esta publicado como un pack!'
         already_exists: Un pack de emoticonos llamado %{name} ya existe
+        no_emojis_in_packs: |
+          ## :x: Los packs no pueden tener emojis en su nombre. 
+          *¿Sabías que los Packs de emoji contienen todos los emojis del servidor donde corres este comando?*
         published: Publicado pack %{name}. Cualquier persona es capaz de añadir estos emoticonos a su servidor, y tu aseguras que eres el dueño de estos emoticonos. Para deshacer esto escribe `%{prefix}pack unpublish`.
         pack_published: |
           Para obtener acceso a estos emojis, usa:
