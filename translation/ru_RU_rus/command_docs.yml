@@ -134,6 +134,9 @@ command_docs:
   emote-block_list:
     name: block_list
     short_doc: Список заблокированных эмодзи на этом сервере
+  emote-export:
+    name: export
+    short_doc: Export this server's emojis to a zip file
   emote-info:
     name: info
     short_doc: Информация об выбранном эмодзи
