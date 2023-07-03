@@ -136,6 +136,9 @@ command_docs:
   emote-block_list:
     name: 封鎖名單
     short_doc: 查看所有在此伺服器器中被禁止使用表情符號的封鎖名單
+  emote-export:
+    name: export
+    short_doc: Export this server's emojis to a zip file
   emote-info:
     name: 資訊
     short_doc: 獲取有關一個表情符號的資訊

@@ -134,6 +134,9 @@ command_docs:
   emote-block_list:
     name: لیست_بلاک
     short_doc: مشاهده لیست ایموجی های بلاک شده در این سرور
+  emote-export:
+    name: export
+    short_doc: Export this server's emojis to a zip file
   emote-info:
     name: درباره
     short_doc: دریافت اطلاعات درباره یک شکلک
