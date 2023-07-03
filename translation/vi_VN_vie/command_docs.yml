@@ -136,6 +136,9 @@ command_docs:
   emote-block_list:
     name: danh_sách_chặn
     short_doc: Xem danh sách các emoji bị khóa trong server này
+  emote-export:
+    name: export
+    short_doc: Export this server's emojis to a zip file
   emote-info:
     name: thông_tin
     short_doc: Lấy thông tin của một emoji

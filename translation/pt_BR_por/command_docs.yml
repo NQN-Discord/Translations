@@ -133,6 +133,9 @@ command_docs:
   emote-block_list:
     name: lista_bloqueados
     short_doc: Ver lista de emojis bloqueados em seu servidor
+  emote-export:
+    name: export
+    short_doc: Export this server's emojis to a zip file
   emote-info:
     name: info
     short_doc: Obter informações sobre um emote
