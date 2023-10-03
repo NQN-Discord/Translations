@@ -25,8 +25,8 @@ discord_bot:
         already_published: 此伺服器已經被發佈為表情符號包！
         already_exists: '%{name} 表情符號包已經存在'
         no_emojis_in_packs: |
-          ## :x: Packs can't have emojis in their name.
-          *Did you know? Emote packs contain every emote in the server you run this command in.*
+          ## :x: 表情符號包的名字不可以包含表情符號啊！
+          *你知道嗎？表情符號包是包含著該伺服器的所有表情符號！*
         published: 已發佈表情符號包 %{name}。任何使用者都可以將這些表情符號保存到他們自己的伺服器上。您並且承諾您是這些表情的擁有者。如要取消此操作，請使用 `%{prefix}pack unpublish`。
         pack_published: |
           如要存取這些表情符號，請使用
