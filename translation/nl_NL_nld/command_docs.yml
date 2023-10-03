@@ -137,8 +137,8 @@ command_docs:
     name: blok_list
     short_doc: Bekijk de lijst met emoji's die op deze server zijn geblokkeerd
   emote-export:
-    name: export
-    short_doc: Export this server's emojis to a zip file
+    name: exporteer
+    short_doc: Exporteer de emoji's van deze server naar een zipbestand
   emote-info:
     name: info
     short_doc: Krijg informatie over een emoji
