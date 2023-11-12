@@ -29,8 +29,10 @@ discord_bot:
         user_no_perms: Non hai sia 'Invia messaggi' che 'Gestisci messaggi' in %{channel}.
         me_no_perms: Necessito di 'Leggi Messaggi', 'Gestisci Webhook' e 'Usa Emoji Esterne' permessi in %{channel}.
         message_limit: Il numero di messaggi da spostare deve essere compreso tra 1 e %{count}
+        move_to_new_thread: "Move to new thread"
         forum_modal_title: Crea un nuovo post
         forum_post_name: 'Nome post:'
+        moving_to: "Moving to %{to_channel}"
         moved_to:
           one: Spostati %{count} messaggi in %{to_channel}
           many: Spostati %{count} messaggi in %{to_channel}
