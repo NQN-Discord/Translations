@@ -30,9 +30,13 @@ discord_bot:
         me_no_perms: I need to have 'Read Messages', 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
         message_limit: Number of messages to move must be between 1 and %{count}
 
+        move_to_new_thread: "Move to new thread"
+
         forum_modal_title: Create a new post
         forum_post_name: 'Post name:'
 
+        moving_to: "Moving to %{to_channel}"
+        
         moved_to:
           one: Moved %{count} message to %{to_channel}
           many: Moved %{count} messages to %{to_channel}
