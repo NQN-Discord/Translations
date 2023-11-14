@@ -29,10 +29,10 @@ discord_bot:
         user_no_perms: Você não tem as permissões 'Enviar mensagens' e 'Gerenciar mensagens' em %{channel}.
         me_no_perms: Preciso das permissões  'Ler mensagens', 'Gerencias Webhooks' e 'Emojis Externos' no %{channel}.
         message_limit: Numero de mensagens para mover deve ser entre 1 e %{count}
-        move_to_new_thread: "Move to new thread"
+        move_to_new_thread: "Mover para um novo tópico"
         forum_modal_title: Criar uma publicação
         forum_post_name: 'Nome da publicação:'
-        moving_to: "Moving to %{to_channel}"
+        moving_to: "Movendo para %{to_channel}"
         moved_to:
           one: Moveu %{count} mensagens para %{to_channel}
           many: Moved %{count} mensagens para %{to_channel}
