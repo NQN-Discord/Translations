@@ -29,8 +29,10 @@ discord_bot:
         user_no_perms: '%{channel}''da hem ''Mesaj Gönder'' hem de ''Mesajları Yönet''e sahip değilsiniz.'
         me_no_perms: '%{channel} içinde ''Mesajları Oku'', ''Webhooklarını Yönet'' ve ''Harici Emojileri'' izinlerine ihtiyacım var.'
         message_limit: Taşınacak mesaj sayısı 1 ile %{count} arasında olmalıdır
+        move_to_new_thread: "Move to new thread"
         forum_modal_title: Yeni bir gönderi oluştur
         forum_post_name: 'Gönderı ismi:'
+        moving_to: "Moving to %{to_channel}"
         moved_to:
           one: '%{count} mesaj %{to_channel}''a taşındı'
           many: '%{count} mesajları %{to_channel}''a taşındı'

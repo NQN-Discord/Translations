@@ -29,8 +29,10 @@ discord_bot:
         user_no_perms: شما هردو دسترسی 'Send Messages' و 'Manage Messages' را در کانال %{channel} ندارید.
         me_no_perms: من بایستی دسترسی های 'Read Messages'، 'Manage Webhooks' و 'External Emojis' را در %{channel} داشته باشم.
         message_limit: تعداد پیام ها برای جابه‌جا کردن باید بین 1 تا %{count} عدد باشد
+        move_to_new_thread: "انتقال به رشته جدید"
         forum_modal_title: ساخت یک پست جدید
         forum_post_name: 'نام پست:'
+        moving_to: "درحال انتقال به %{to_channel}"
         moved_to:
           one: '%{count} پیام به کانال %{to_channel} انتقال داده شد'
           many: '%{count} پیام به کانال %{to_channel} انتقال داده شد'
