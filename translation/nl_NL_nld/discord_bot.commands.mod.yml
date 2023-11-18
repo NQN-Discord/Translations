@@ -29,8 +29,10 @@ discord_bot:
         user_no_perms: Je hebt geen 'Berichten Verzenden' en 'Berichten Beheren' machtiging in %{channel}.
         me_no_perms: Ik moet de machtigingen 'Berichten Lezen', 'Webhooks Beheren' en 'Externe emoji's' hebben in %{channel}.
         message_limit: Het aantal te verplaatsen berichten moet tussen 1 en %{count} liggen
+        move_to_new_thread: "Move to new thread"
         forum_modal_title: Maak een nieuwe post
         forum_post_name: 'Post naam:'
+        moving_to: "Moving to %{to_channel}"
         moved_to:
           one: '%{count} bericht verplaatst naar %{to_channel}'
           many: '%{count} berichten verplaatst naar %{to_channel}'
