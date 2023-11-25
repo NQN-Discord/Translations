@@ -14,7 +14,7 @@ permissions:
   create_instant_invite: |-
     Crear Invitacion
   create_public_threads: |-
-    Create Public Threads
+    Crear un hilo público
   deafen_members: |-
     Ensordecer Miembros
   embed_links: |-
