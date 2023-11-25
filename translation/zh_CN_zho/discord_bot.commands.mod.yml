@@ -26,8 +26,6 @@ discord_bot:
           one: '%{author} 删除了%{count} 条在%{channel} 里的消息'
           many: '%{author} 删除了%{count} 条在%{channel} 里的消息'
       move:
-        user_no_perms: 您在 %{channel} 中没有“发送消息”和“管理消息”权限。
-        me_no_perms: 我需要在%{channel} 里拥有 "浏览消息”，“管理Webhooks” 和 “使用外部表情符号” 的权限。
         message_limit: 要移动的消息数量必须在1至%{count} 之间
         move_to_new_thread: "Move to new thread"
         forum_modal_title: 创建新帖文
