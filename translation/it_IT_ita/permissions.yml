@@ -14,7 +14,7 @@ permissions:
   create_instant_invite: |-
     Crea Invito Istantaneo
   create_public_threads: |-
-    Create Public Threads
+    Crea Thread Pubblici
   deafen_members: |-
     Silenzia Membri
   embed_links: |-
