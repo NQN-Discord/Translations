@@ -17,6 +17,13 @@ exceptions:
     many: |
       %{bot_ping} đang thiếu các quyền sau để dùng lệnh này:
       %{permissions_missing}
+  bot_missing_permissions_in_channel:
+    one: |
+      %{bot_ping} is missing the following permission in %{channel}:
+      %{permissions_missing}
+    many: |
+      %{bot_ping} is missing the following permissions in %{channel}:
+      %{permissions_missing}
   user_missing_permissions:
     one: |
       Bạn đang thiếu quyền sau để dùng lệnh này:
@@ -24,13 +31,17 @@ exceptions:
     many: |
       Bạn đang thiếu các quyền sau để dùng lệnh này:
       %{permissions_missing}
+  user_missing_permissions_in_channel:
+    one: |
+      You are missing the following permission in %{channel}:
+      %{permissions_missing}
+    many: |
+      You are missing the following permissions in %{channel}:
+      %{permissions_missing}
   message_not_found: |
     Không tìm thấy tin nhắn "%{param}".
   channel_not_found: |
     Không tìm thấy kênh "%{channel}".
-  channel_not_readable: |
-    %{bot_ping} đang thiếu quyền sau trong %{channel}:
-    %{permissions_missing}
   bad_argument:
     one: |
       Không thể diễn tả %{param}; nên là:
