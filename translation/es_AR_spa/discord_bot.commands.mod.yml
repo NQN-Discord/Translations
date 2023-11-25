@@ -26,8 +26,6 @@ discord_bot:
           one: '%{author} purgo %{count} mensajes en %{channel}'
           many: '%{author} purgo %{count} mensajes en %{channel}'
       move:
-        user_no_perms: No tienes 'Mandar Mensajes' y 'Gestionar Mensajes' en %{channel}.
-        me_no_perms: Necesito tener los permisos "Leer Mensajes", "Gestionar Webhooks" y "Emojis Externos" en %{channel}.
         message_limit: El número de mensajes a mover debe ser entre 1 y %{count}
         move_to_new_thread: "Mover a un nuevo hilo"
         forum_modal_title: Crear una publicación
