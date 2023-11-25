@@ -13,6 +13,8 @@ permissions:
     Conectar
   create_instant_invite: |-
     Criar um convite instantâneo
+  create_public_threads: |-
+    Create Public Threads
   deafen_members: |-
     Ensurdecer Membros
   embed_links: |-
