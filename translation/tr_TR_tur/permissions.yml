@@ -13,6 +13,8 @@ permissions:
     Bağlan
   create_instant_invite: |-
     Anında Davet Oluştur
+  create_public_threads: |-
+    Create Public Threads
   deafen_members: |-
     Sağır Üyeler
   embed_links: |-
