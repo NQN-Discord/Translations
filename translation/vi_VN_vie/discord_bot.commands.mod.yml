@@ -26,8 +26,6 @@ discord_bot:
           one: '%{author} đã xóa %{count} tin nhắn trong %{channel}'
           many: '%{author} đã xóa %{count} tin nhắn trong %{channel}'
       move:
-        user_no_perms: Bạn không có quyền 'Gửi tin nhắn' và 'Quản lý tin nhắn' trong %{channel}.
-        me_no_perms: Tôi cần quyền 'Đọc tin nhắn', 'Quản lý webhook' và 'Dùng emoji mở rộng' trong %{channel}.
         message_limit: Số lượng tin nhắn để chuyển đi phải từ 1 đến %{count}
         move_to_new_thread: "Chuyển đến chủ đề mới"
         forum_modal_title: Tạo bài đăng mới
