@@ -13,6 +13,8 @@ permissions:
     Kết nối
   create_instant_invite: |-
     Tạo lời mời tức thì
+  create_public_threads: |-
+    Create Public Threads
   deafen_members: |-
     Tắt nghe thành viên
   embed_links: |-
