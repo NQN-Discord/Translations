@@ -26,8 +26,6 @@ discord_bot:
           one: '%{author} heeft %{count} berichten in %{channel} verwijderd'
           many: '%{author} heeft %{count} berichten in %{channel} verwijderd'
       move:
-        user_no_perms: Je hebt geen 'Berichten Verzenden' en 'Berichten Beheren' machtiging in %{channel}.
-        me_no_perms: Ik moet de machtigingen 'Berichten Lezen', 'Webhooks Beheren' en 'Externe emoji's' hebben in %{channel}.
         message_limit: Het aantal te verplaatsen berichten moet tussen 1 en %{count} liggen
         move_to_new_thread: "Move to new thread"
         forum_modal_title: Maak een nieuwe post
