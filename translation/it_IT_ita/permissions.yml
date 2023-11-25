@@ -13,6 +13,8 @@ permissions:
     Connetti
   create_instant_invite: |-
     Crea Invito Istantaneo
+  create_public_threads: |-
+    Create Public Threads
   deafen_members: |-
     Silenzia Membri
   embed_links: |-
