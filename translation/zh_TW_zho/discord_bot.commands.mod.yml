@@ -29,8 +29,10 @@ discord_bot:
         user_no_perms: 您在 %{channel} 中沒有「傳送訊息」和「管理訊息」的權限。
         me_no_perms: 我需要在 %{channel} 有「檢視頻道」、「管理 Webhooks」和「使用外部表情符號」的權限。
         message_limit: 移動的訊息數量必須在 1 至 %{count} 之間
+        move_to_new_thread: "Move to new thread"
         forum_modal_title: 新增貼文
         forum_post_name: '貼文標題：'
+        moving_to: "Moving to %{to_channel}"
         moved_to:
           one: 已移動 %{count} 則訊息到 %{to_channel}
           many: 已移動 %{count} 則訊息到 %{to_channel}
