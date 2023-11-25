@@ -26,8 +26,6 @@ discord_bot:
           one: '%{author} purged %{count} message in %{channel}'
           many: '%{author} purged %{count} messages in %{channel}'
       move:
-        user_no_perms: You don't have both 'Send Messages' and 'Manage Messages' in %{channel}.
-        me_no_perms: I need to have 'Read Messages', 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
         message_limit: Number of messages to move must be between 1 and %{count}
 
         move_to_new_thread: "Move to new thread"
