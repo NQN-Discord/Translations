@@ -19,10 +19,10 @@ exceptions:
       %{permissions_missing}
   bot_missing_permissions_in_channel:
     one: |
-      %{bot_ping} is missing the following permission in %{channel}:
+      درحال حاضر %{bot_ping} دسترسی لازم را در کانال %{channel} ندارد:
       %{permissions_missing}
     many: |
-      %{bot_ping} is missing the following permissions in %{channel}:
+      درحال حاضر %{bot_ping} دسترسی های لازم را در کانال %{channel} ندارد:
       %{permissions_missing}
   user_missing_permissions:
     one: |
@@ -33,10 +33,10 @@ exceptions:
       %{permissions_missing}
   user_missing_permissions_in_channel:
     one: |
-      You are missing the following permission in %{channel}:
+      شما در کانال %{channel} دسترسی لازم را ندارید:
       %{permissions_missing}
     many: |
-      You are missing the following permissions in %{channel}:
+      شما در کانال %{channel} دسترسی های لازم را ندارید:
       %{permissions_missing}
   message_not_found: |
     پیام ‎"%{param}" یافت نشد.
