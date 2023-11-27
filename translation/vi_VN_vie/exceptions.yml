@@ -31,10 +31,10 @@ exceptions:
       %{permissions_missing}
   user_missing_permissions_in_channel:
     one: |
-      You are missing the following permission in %{channel}:
+      Bạn đang thiếu quyền sau trong %{channel}:
       %{permissions_missing}
     many: |
-      You are missing the following permissions in %{channel}:
+      Bạn đang thiếu các quyền sau trong %{channel}:
       %{permissions_missing}
   message_not_found: |
     Không tìm thấy tin nhắn "%{param}".
