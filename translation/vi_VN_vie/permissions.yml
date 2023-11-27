@@ -2,9 +2,9 @@ permissions:
   add_reactions: |-
     Bày tỏ cảm xúc
   administrator: |-
-    Quản lý
+    Quản trị
   attach_files: |-
-    Đính kèm tập tin
+    Đính kèm tệp
   ban_members: |-
     Cấm thành viên
   change_nickname: |-
@@ -14,7 +14,7 @@ permissions:
   create_instant_invite: |-
     Tạo lời mời tức thì
   create_public_threads: |-
-    Create Public Threads
+    Tạo chủ đề công khai
   deafen_members: |-
     Tắt nghe thành viên
   embed_links: |-
