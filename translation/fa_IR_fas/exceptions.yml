@@ -17,6 +17,13 @@ exceptions:
     many: |
       ‎%{bot_ping} دسترسی موردنیاز زیر را برای اجرای این دستور ندارد:
       %{permissions_missing}
+  bot_missing_permissions_in_channel:
+    one: |
+      درحال حاضر %{bot_ping} دسترسی لازم را در کانال %{channel} ندارد:
+      %{permissions_missing}
+    many: |
+      درحال حاضر %{bot_ping} دسترسی های لازم را در کانال %{channel} ندارد:
+      %{permissions_missing}
   user_missing_permissions:
     one: |
       شما دسترسی موردنیاز زیر را برای اجرای این دستور ندارید:
@@ -24,13 +31,17 @@ exceptions:
     many: |
       شما دسترسی های موردنیاز زیر را برای اجرای این دستور ندارید:
       %{permissions_missing}
+  user_missing_permissions_in_channel:
+    one: |
+      شما در کانال %{channel} دسترسی لازم را ندارید:
+      %{permissions_missing}
+    many: |
+      شما در کانال %{channel} دسترسی های لازم را ندارید:
+      %{permissions_missing}
   message_not_found: |
     پیام ‎"%{param}" یافت نشد.
   channel_not_found: |
     کانال ‎"%{channel}" یافت نشد.
-  channel_not_readable: |
-    دستور ‎%{bot_ping} دسترسی های موردنیاز زیر را در ‎%{channel} ندارد:
-    %{permissions_missing}
   bad_argument:
     one: |
       نمی توان آرگومان ‎%{param} را تفسیر نمود; بایستی این باشد:

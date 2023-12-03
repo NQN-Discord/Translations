@@ -26,8 +26,6 @@ discord_bot:
           one: '%{author} очистил %{count} сообщение в %{channel}'
           many: '%{author} очистил %{count} сообщений в %{channel}'
       move:
-        user_no_perms: У вас нет  'Отправлять сообщение' и 'Управлять сообщениями' в %{channel}.
-        me_no_perms: I need to have 'Read Messages', 'Manage Webhooks' and 'External Emojis' permissions in %{channel}.
         message_limit: Number of messages to move must be between 1 and %{count}
         move_to_new_thread: "Move to new thread"
         forum_modal_title: Create a new post
