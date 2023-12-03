@@ -13,6 +13,8 @@ permissions:
     Verbind
   create_instant_invite: |-
     Maak Directe Uitnodiging
+  create_public_threads: |-
+    Create Public Threads
   deafen_members: |-
     Onhoorbaar Leden
   embed_links: |-

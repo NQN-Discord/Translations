@@ -17,6 +17,13 @@ exceptions:
     many: |
       %{bot_ping} le faltan los siguientes permisos para usar este comando:
       %{permissions_missing}
+  bot_missing_permissions_in_channel:
+    one: |
+      A %{bot_ping} le falta el siguiente permiso en el canal %{channel}:
+      %{permissions_missing}
+    many: |
+      A %{bot_ping} le faltan los siguientes permisos en el canal %{channel}:
+      %{permissions_missing}
   user_missing_permissions:
     one: |
       Te falta el siguiente permiso necesario para usar este comando:
@@ -24,13 +31,17 @@ exceptions:
     many: |
       Te falta los siguientes permisos necesarios para usar este comando:
       %{permissions_missing}
+  user_missing_permissions_in_channel:
+    one: |
+      Te falta el siguiente permiso necesario en %{channel} para usar este comando:
+      %{permissions_missing}
+    many: |
+      Te faltan los siguientes permisos en %{channel} para usar este comando:
+      %{permissions_missing}
   message_not_found: |
     El mensaje "%{param}" no se pudo encontrado.
   channel_not_found: |
     El canal "%{channel}" no se pudo encontrar.
-  channel_not_readable: |
-    A %{bot_ping} le falta el siguiente permiso en el canal %{channel}:
-    %{permissions_missing}
   bad_argument:
     one: |
       No se pudo interpretar %{param}; deberia ser:
