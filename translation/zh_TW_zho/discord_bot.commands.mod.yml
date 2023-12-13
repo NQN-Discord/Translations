@@ -27,10 +27,10 @@ discord_bot:
           many: '%{author} 刪除了 %{count} 則在 %{channel} 裡的訊息'
       move:
         message_limit: 移動的訊息數量必須在 1 至 %{count} 之間
-        move_to_new_thread: "Move to new thread"
+        move_to_new_thread: "移到新的討論串"
         forum_modal_title: 新增貼文
         forum_post_name: '貼文標題：'
-        moving_to: "Moving to %{to_channel}"
+        moving_to: "正在移到%{to_channel}"
         moved_to:
           one: 已移動 %{count} 則訊息到 %{to_channel}
           many: 已移動 %{count} 則訊息到 %{to_channel}
