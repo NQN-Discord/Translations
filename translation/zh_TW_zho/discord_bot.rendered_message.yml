@@ -14,3 +14,5 @@ discord_bot:
       您不可以在已啟用慢速模式的頻道中發佈訊息
     enable_posting: 允許發佈訊息
     posted_message: 已發佈訊息
+    found_blocked_emotes: |
+      The message you tried to send contained emotes blocked in this server.
