@@ -16,6 +16,7 @@ global:
   previous: Anterior
   undo: Deshacer
   choose_emote: Elige algunos emojis
+  continue: Continue
   learn:
     aliases: Aprende más sobre alias
     packs: Aprende más sobre packs
