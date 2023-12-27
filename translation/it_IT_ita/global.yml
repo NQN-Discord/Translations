@@ -16,6 +16,7 @@ global:
   previous: Precedente
   undo: Annulla
   choose_emote: Scegli alcune emote
+  continue: Continue
   learn:
     aliases: Maggiori informazioni sugli alias
     packs: Maggiori informazioni sui pacchetti
