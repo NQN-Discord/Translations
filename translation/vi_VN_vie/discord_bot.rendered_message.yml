@@ -14,3 +14,5 @@ discord_bot:
       Gửi tin nhắn trong kênh chat có chế độ chậm đã bị vô hiệu
     enable_posting: Cho phép gửi tin
     posted_message: Đã gửi tin nhắn
+    found_blocked_emotes: |
+      The message you tried to send contained emotes blocked in this server.
