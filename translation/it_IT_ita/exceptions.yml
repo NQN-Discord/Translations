@@ -17,6 +17,13 @@ exceptions:
     many: |
       %{bot_ping} non ha i seguenti permessi richiesti per eseguire questo comando:
       %{permissions_missing}
+  bot_missing_permissions_in_channel:
+    one: |
+      %{bot_ping} non ha il seguente permesso in %{channel}:
+      %{permissions_missing}
+    many: |
+      %{bot_ping} non ha i seguenti permessi in %{channel}:
+      %{permissions_missing}
   user_missing_permissions:
     one: |
       Ti manca il seguente permesso richiesto per eseguire questo comando:
@@ -24,13 +31,17 @@ exceptions:
     many: |
       Ti mancano i seguenti permessi richiesti per eseguire questo comando:
       %{permissions_missing}
+  user_missing_permissions_in_channel:
+    one: |
+      Non hai il seguente permesso in %{channel}:
+      %{permissions_missing}
+    many: |
+      Non hai i seguenti permessi in %{channel}:
+      %{permissions_missing}
   message_not_found: |
     Messaggio "%{param}" non trovato.
   channel_not_found: |
     Canale "%{channel}" non trovato.
-  channel_not_readable: |
-    %{bot_ping} non ha il seguente permesso in %{channel}:
-    %{permissions_missing}
   bad_argument:
     one: |
       Impossibile interpretare l'argomento%{param}; dovrebbe essere:

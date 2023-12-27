@@ -26,8 +26,6 @@ discord_bot:
           one: '%{author} limpou %{count} mensagens do canal %{channel}'
           many: '%{author} limpou %{count} mensagens do canal %{channel}'
       move:
-        user_no_perms: Você não tem as permissões 'Enviar mensagens' e 'Gerenciar mensagens' em %{channel}.
-        me_no_perms: Preciso das permissões  'Ler mensagens', 'Gerencias Webhooks' e 'Emojis Externos' no %{channel}.
         message_limit: Numero de mensagens para mover deve ser entre 1 e %{count}
         move_to_new_thread: "Mover para um novo tópico"
         forum_modal_title: Criar uma publicação
