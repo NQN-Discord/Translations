@@ -15,4 +15,4 @@ discord_bot:
     enable_posting: Abilita Pubblicazione
     posted_message: Messaggio pubblicato
     found_blocked_emotes: |
-      The message you tried to send contained emotes blocked in this server.
+      Il messaggio che hai provato ad inviare contiene emoji bloccate in questo server.
