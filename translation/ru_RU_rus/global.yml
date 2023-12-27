@@ -16,6 +16,7 @@ global:
   previous: Предыдущий
   undo: Undo
   choose_emote: Выберите некоторые эмодзи
+  continue: Continue
   learn:
     aliases: Узнайте больше об эмодзи
     packs: Узнайте больше о паках
