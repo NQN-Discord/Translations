@@ -15,4 +15,4 @@ discord_bot:
     enable_posting: Habilitar envio de mensagens
     posted_message: Mensagem enviada
     found_blocked_emotes: |
-      The message you tried to send contained emotes blocked in this server.
+      A mensagem que tentou enviar continha emotes bloqueados neste servidor.
