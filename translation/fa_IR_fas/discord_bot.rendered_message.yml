@@ -15,4 +15,4 @@ discord_bot:
     enable_posting: فعال سازی ارسال پیام
     posted_message: پیام ارسال شد
     found_blocked_emotes: |
-      The message you tried to send contained emotes blocked in this server.
+      پیامی که تلاش داشتید بفرستید حاوی ایموجی بود که استفاده آن در این سرور مسدود شده.
