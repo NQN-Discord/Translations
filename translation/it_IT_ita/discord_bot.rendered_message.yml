@@ -14,3 +14,5 @@ discord_bot:
       Non è consentito pubblicare messaggi nei canali con modalità lenta
     enable_posting: Abilita Pubblicazione
     posted_message: Messaggio pubblicato
+    found_blocked_emotes: |
+      Il messaggio che hai provato ad inviare contiene emoji bloccate in questo server.

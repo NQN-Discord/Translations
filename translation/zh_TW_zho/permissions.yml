@@ -14,7 +14,7 @@ permissions:
   create_instant_invite: |-
     建立邀請
   create_public_threads: |-
-    Create Public Threads
+    建立公眾討論串
   deafen_members: |-
     讓使用者拒聽
   embed_links: |-
