@@ -16,6 +16,7 @@ global:
   previous: 上一個
   undo: 復原
   choose_emote: 選擇一些表情符號
+  continue: Continue
   learn:
     aliases: 了解有關表情符號別名的更多資訊
     packs: 了解有關表情符號包的更多資訊

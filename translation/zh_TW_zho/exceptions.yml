@@ -19,10 +19,10 @@ exceptions:
       %{permissions_missing}
   bot_missing_permissions_in_channel:
     one: |
-      %{bot_ping} is missing the following permission in %{channel}:
+      %{bot_ping} 在 %{channel} 缺少了以下權限，以致未能運作此指令：
       %{permissions_missing}
     many: |
-      %{bot_ping} is missing the following permissions in %{channel}:
+      %{bot_ping} 在 %{channel} 缺少了以下幾個權限，以致未能運作此指令：
       %{permissions_missing}
   user_missing_permissions:
     one: |
@@ -33,10 +33,10 @@ exceptions:
       %{permissions_missing}
   user_missing_permissions_in_channel:
     one: |
-      You are missing the following permission in %{channel}:
+      你在 %{channel} 缺少了以下權限：
       %{permissions_missing}
     many: |
-      You are missing the following permissions in %{channel}:
+      你在 %{channel} 缺少了以下幾個權限：
       %{permissions_missing}
   message_not_found: |
     找不到「%{param}」訊息
