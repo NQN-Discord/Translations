@@ -15,4 +15,4 @@ discord_bot:
     enable_posting: Plaatsen Inschakelen
     posted_message: Geplaatst bericht
     found_blocked_emotes: |
-      The message you tried to send contained emotes blocked in this server.
+      Het bericht dat je probeerde te sturen bevatte emoji's die op deze server geblokkeerd zijn.
