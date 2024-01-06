@@ -19,10 +19,10 @@ exceptions:
       %{permissions_missing}
   bot_missing_permissions_in_channel:
     one: |
-      %{bot_ping} is missing the following permission in %{channel}:
+      %{bot_ping} mist de volgende machtiging in %{channel}:
       %{permissions_missing}
     many: |
-      %{bot_ping} is missing the following permissions in %{channel}:
+      %{bot_ping} mist de volgende machtigingen in %{channel}:
       %{permissions_missing}
   user_missing_permissions:
     one: |
@@ -33,10 +33,10 @@ exceptions:
       %{permissions_missing}
   user_missing_permissions_in_channel:
     one: |
-      You are missing the following permission in %{channel}:
+      Je mist de volgende machtiging in %{channel}:
       %{permissions_missing}
     many: |
-      You are missing the following permissions in %{channel}:
+      Je mist de volgende machtigingen in %{channel}:
       %{permissions_missing}
   message_not_found: |
     Bericht "%{param}" niet gevonden.
