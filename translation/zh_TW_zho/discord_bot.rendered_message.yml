@@ -15,4 +15,4 @@ discord_bot:
     enable_posting: 允許發佈訊息
     posted_message: 已發佈訊息
     found_blocked_emotes: |
-      The message you tried to send contained emotes blocked in this server.
+      你嘗試發送的信息包含了伺服器禁止使用的表情符號
