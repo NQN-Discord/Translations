@@ -14,7 +14,7 @@ permissions:
   create_instant_invite: |-
     Maak Directe Uitnodiging
   create_public_threads: |-
-    Create Public Threads
+    Openbare Threads Openen
   deafen_members: |-
     Onhoorbaar Leden
   embed_links: |-

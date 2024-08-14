@@ -14,3 +14,5 @@ discord_bot:
       Berichten plaatsen in kanalen met een slow-modus is niet toegestaan
     enable_posting: Plaatsen Inschakelen
     posted_message: Geplaatst bericht
+    found_blocked_emotes: |
+      Het bericht dat je probeerde te sturen bevatte emoji's die op deze server geblokkeerd zijn.

@@ -14,3 +14,5 @@ discord_bot:
       Enviar mensagens em canais com o modo lento não é permitido
     enable_posting: Habilitar envio de mensagens
     posted_message: Mensagem enviada
+    found_blocked_emotes: |
+      A mensagem que tentou enviar continha emotes bloqueados neste servidor.

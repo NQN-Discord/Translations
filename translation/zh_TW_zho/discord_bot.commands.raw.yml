@@ -122,9 +122,9 @@ discord_bot:
           此指令向您顯示您目前已加入的表情符號包，包括每個表情符號包中的表情符號名稱。
         page_2_2_name: 發佈自己的表情符號包
         page_2_2_desc: |
-          If you have **Manage Server** permissions, you can publish your own emote pack containing all of your server's emojis:
+          如果您有 **管理伺服器** 權限，您可以發佈伺服器上所有表情符號為表情符號包，其中包含您伺服器的所有已加入的表情符號包：
           > `%{prefix}pack publish MySuperCoolEmotePackName`
-          You can also make your pack publicly joinable with `%{prefix}pack set_public yes` to allow people from other servers join yours with the bot, without an invite.
+          您還可以使用 `%{prefix}pack set_public yes` 以公開您的表情符號包，以允許來自其他伺服器的人無需邀請就可以加入您的伺服器。
         page_3_title: 表情符號別名
         page_3_desc: |
           這些表情符號別名只不過是表情符號的另一個名稱。這樣的話，您就可以利用通過該表情符號的別名以使用這些表情符號。

@@ -16,6 +16,7 @@ global:
   previous: Önceki
   undo: Undo
   choose_emote: Bazı emojiler seçin
+  continue: Continue
   learn:
     aliases: Takma adlar hakkında daha fazla bilgi edinin
     packs: Paketler hakkında daha fazla bilgi edinin
