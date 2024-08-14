@@ -20,4 +20,4 @@ dependencies = [
 
 [tool.setuptools.packages]
 # Pure Python packages/modules and configuration files
-find = { where = ["translation"] }
+find = { where = ["."] }
