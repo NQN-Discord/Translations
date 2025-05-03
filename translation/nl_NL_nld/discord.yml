@@ -7,7 +7,7 @@ discord:
     subcommands: Browse Subcommands
     please_give: Ik zal niet correct functioneren zonder deze!
     fix_perms: |
-      Fix Server Permissions
+      Servermachtigingen repareren
     nqn_help: NQN Help
     my_prefix: |
       Mijn prefix voor commando's is `%{prefix}`
