@@ -7,7 +7,7 @@ discord:
     subcommands: Browse Subcommands
     please_give: Eu não funcionarei corretamente sem estes!
     fix_perms: |
-      Fix Server Permissions
+      Corrigir permissões do servidor
     nqn_help: NQN Ajuda
     my_prefix: |
       Meu prefixo para comandos é `%{prefix}`
