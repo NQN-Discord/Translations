@@ -94,10 +94,10 @@ discord_bot:
         page_0_0_desc: |
           Todos pueden utilizar cualquier emoji que comparte un servidor con vos y el bot
           **Hay distintas formas para utilizar emojis de servidores de los que no perteneces:**"
-        page_0_1_name: "Emote packs - Emote Bundles"
+        page_0_1_name: "Packs de emojis - Paquete de emojis"
         page_0_1_desc: '`%{prefix}pack search`'
-        page_0_2_name: "Aliases - Individual Emotes"
-        page_0_2_desc: '`%{prefix}alias search EmoteName`'
+        page_0_2_name: "Aliases - Emojis Individuales"
+        page_0_2_desc: '`%{prefix}alias search NombreDelEmoji`'
         page_1_title: Reacciones
         page_1_desc: Solo puedes reaccionar con emojis que puedes utilizar con NQN.
         page_1_0_name: 'Reaccionar al mensaje más reciente:'
@@ -136,14 +136,14 @@ discord_bot:
           > `%{prefix}alias search CualquierCosa` (Sin los dos puntos si no conoces el nombre exacto)
         page_4_title: Vista previa de enlaces de mensajes
         page_4_desc: |
-          NQN allows you to preview messages sent in different channels.
+          NQN permite responder a mensajes mandados hace mucho tiempo.
 
-          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
+          Simplemente copia el enlace del mensaje via discord (en el celular la opción de compartir y entonces al clipboard) y pégalo en tu mensaje, entonces NQN va a mandar el mensaje al que estas respondiendo también.
 
-          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
-        page_4_0_name: Administration
+          Si no quieres que el bot repita el mensaje del enlace, podes rodearlo con \<\>, y el bot no le reenviara.
+        page_4_0_name: Administración
         page_4_0_desc: |
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
+          Si un administrador quiere remover esta funcionalidad en su servidor, pueden utilizar `%{prefix}servir.
         page_6_title: Stickers
         page_6_desc: |
           Si en algún momento deseaste mandar imagenes/stickers/emotes de mayor tamaño, entonces estas en el ligar indicado.
@@ -170,15 +170,15 @@ discord_bot:
           > nombre: mensaje a enviar
         page_8_title: Configuración de servidor
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          NQN es altamente personalizable en sus funciones, en caso de que algunas no sean apropiadas para su servidor.
+          Cualquiera con el permiso **Gestionar Servidor** puede modificar la configuración del bot en su servidor.
 
-          Here are the features you can toggle:
+          Estas son las funciones que puedes modificar:
 
            • Nitro - `%{prefix}server nitro`
            • Stickers - `%{prefix}server stickers`
-           • Message Link Previews - `%{prefix}server message_link_previews`
-           • Personas - `%{prefix}server personas`
+           • Respuestas - `%{prefix}server replies`
+           • Personajes - `%{prefix}server personas`
         page_8_0_name: Solución de problemas y cambio de prefijo
         page_8_0_desc: |
           Para poder funcionar correctamente, NQN requiere los permisos siguientes en __todo__ canal donde desees utilizar Nitro:
