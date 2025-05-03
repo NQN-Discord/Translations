@@ -7,7 +7,7 @@ discord:
     subcommands: Browse Subcommands
     please_give: Tôi không thể hoạt động chính xác nếu thiếu những quyền này!
     fix_perms: |
-      Fix Server Permissions
+      Chỉnh sửa quyền trong server
     nqn_help: Trợ giúp NQN
     my_prefix: |
       Prefix của tôi trong server này là `%{prefix}`
