@@ -94,10 +94,10 @@ discord_bot:
         page_0_0_desc: |
           همه می توانند از شکلک های سرور هایی که هم بات و هم خودشان در آنجا حضور دارند، استفاده کنند.
           **چند راه برای استفاده از شکلک های سرور هایی که شما در آنها نیستید، وجود دارد.**
-        page_0_1_name: "3\u20E3 بسته های شکلک - مجموعه‌ای از شکلک های باهم"
-        page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 اختصار ها - شکلک های جداگانه"
-        page_0_2_desc: '> `%{prefix}alias search EmoteName`'
+        page_0_1_name: "Emote packs - Emote Bundles"
+        page_0_1_desc: '`%{prefix}pack search`'
+        page_0_2_name: "Aliases - Individual Emotes"
+        page_0_2_desc: '`%{prefix}alias search EmoteName`'
         page_1_title: ری‌اکشن ها
         page_1_desc: شما فقط می توانید با شکلک هایی که توسط NQN استفاده می‌شوند، به پیام ها ری‌اکت کنید.
         page_1_0_name: 'ری‌اکت کردن به آخرین پیام ارسال شده:'
@@ -137,19 +137,14 @@ discord_bot:
           > `%{prefix}alias search whatever` (هیچ دو نقطه‌ای نگذارید اگر اسم دقیق را نمی دانید)
         page_4_title: پیشنمایش لینک پیام
         page_4_desc: |
-          بات NQN به شما این اجازه را میدهد که پیشنمایش پیام هایی که در کانال های مختلف ارسال شده‌اند را ببینید.
+          NQN allows you to preview messages sent in different channels.
 
-          به راحتی فقط لازم است که لینک آن پیام را در دیسکورد (دکمه اشتراک گذاشتن در موبایل و کپی کردن آن در کلیپ‌بورد) بردارید و در پیام خود آن را شامل کنید. سپس با ارسال آن، پیام شما نمایش داده خواهد شد و همراه با آن، پیام دیگر به صورت یک اشاره نیز نمایش داده خواهد شد.
+          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
 
-          اگر نمیخواهید که بات پیام شما را تبدیل کند، می توانید در اول و آخر پیام خود ‎`\<\>` را شامل کرده و سپس بات آن پیام را تبدیل نخواهد کرد.
-
-          اگر ادمینی سرور بخواهد که این ویژگی از سرور غیرفعال شود، میتوانند از ‎`%{prefix}server message_link_previews off` استفاده کنند.
-        page_5_title: متن های لینک دار
-        page_5_desc: |
-          بات NQN به کاربران این اجازه را می دهد تا از [متن های لینک دار](%{url}) به عنوان قسمتی از پیام های عادی که میفرستند، استفاده کنند.
-
-          این روش استفاده کلی برای اعمال یک آدرس URL لینک بر روی متن است: ‎`[Salam Amoo](https://url.here)`
-          برای ارسال پیام با دکمه، اینگونه استفاده کنید: ‎`[Bezan roye in dokmeh](button://url.here)`
+          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+        page_4_0_name: Administration
+        page_4_0_desc: |
+          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
         page_6_title: استیکر ها
         page_6_desc: |
           اگر تا به حال خواسته‌اید که تصاویر/استیکرها/شکلک‌هایی در اندازه بزرگ بفرستید، دقیقاً به جای مناسبی مراجعه کرده‌اید.
@@ -177,16 +172,15 @@ discord_bot:
           > name: هرچه دل تنگت میخواهد بفرست
         page_8_title: مدیریت سرور
         page_8_desc: |
-          بات NQN به شدت قابل شخصی سازی است، از این لحاظ دسته ویژگی های زیادی دارد که در بعضی موارد حتی ممکن است مربوط به سرور شما نشوند.
-          هرکسی با دسترسی **Manage Server** می تواند تنظیمات بات را در سرور تغییر دهد.
+          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
+          Anyone with **Manage Server** permissions can change server settings with the bot.
 
-          این ها به طور کلی، ویژگی هایی هستند که شما می توانید آنها را فعال یا غیرفعال کنید:
+          Here are the features you can toggle:
 
-           • نیترو - ‎`%{prefix}server nitro`
-           • استیکر ها - ‎`%{prefix}server stickers`
-           • پیشنمایش لینک پیام - ‎`%{prefix}server message_link_previews`
-           • پرسونا ها - ‎`%{prefix}server personas`
-           • متن لینک دار - ‎`%{prefix}server masked_links`
+           • Nitro - `%{prefix}server nitro`
+           • Stickers - `%{prefix}server stickers`
+           • Message Link Previews - `%{prefix}server message_link_previews`
+           • Personas - `%{prefix}server personas`
         page_8_0_name: ایرادیابی مشکلات
         page_8_0_desc: |
           برای اینکه بات به درستی عمل کند، NQN نیازمند به داشتن دسترسی های زیر در __همه__ کانال های شماست تا ویژگی نیترو در آنها مورد استفاده قرار بگیرد:
