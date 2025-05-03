@@ -4,9 +4,10 @@ discord:
     need_help: ' - Tôi cần quyền này để thực hiện lệnh "help"!'
     nothing: ''
     choose_page: Tìm kiếm lệnh
+    subcommands: Browse Subcommands
     please_give: Tôi không thể hoạt động chính xác nếu thiếu những quyền này!
     fix_perms: |
-      - **[Chỉnh sửa quyền trong server](%{invite_url})**
+      Chỉnh sửa quyền trong server
     nqn_help: Trợ giúp NQN
     my_prefix: |
       Prefix của tôi trong server này là `%{prefix}`

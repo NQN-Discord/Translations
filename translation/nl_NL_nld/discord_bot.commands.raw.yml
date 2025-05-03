@@ -94,10 +94,10 @@ discord_bot:
         page_0_0_desc: |
           Iedereen kan elke emoji gebruiken die een server deelt met jou en deze bot.
           **Er zijn verschillende andere manieren om emoji's te gebruiken op servers waar u zich niet op bevindt:**
-        page_0_1_name: "3\u20E3 Emoji-pakketten - Emoji-bundels"
-        page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Aliassen - Individuele Emoji's"
-        page_0_2_desc: '> `%{prefix}alias search EmoteName`'
+        page_0_1_name: "Emoji-pakketten - Emoji-bundels"
+        page_0_1_desc: '`%{prefix}pack search`'
+        page_0_2_name: "Aliassen - Individuele Emoji's"
+        page_0_2_desc: '`%{prefix}alias search EmoteName`'
         page_1_title: Reacties
         page_1_desc: Je kunt alleen reageren met emoji's die je kunt gebruiken met NQN.
         page_1_0_name: 'Reageren op het meest recente bericht:'
@@ -141,14 +141,9 @@ discord_bot:
           Kopieer eenvoudig de berichtlink via Discord (de Share-knop op mobiel en vervolgens naar het klembord) en plak deze in uw bericht, en het bericht waarnaar u verwijst ook.
 
           Als u niet wilt dat de bot een berichtlink opnieuw plaatst, kunt u deze omringen tussen \<\>, en de bot zal niet opnieuw posten.
-
+        page_4_0_name: Administration
+        page_4_0_desc: |
           Als een serverbeheerder deze functionaliteit op de hele server wil uitschakelen, kunnen ze `%{prefix}server message_link_previews off` gebruiken.
-        page_5_title: Gemaskeerde URL's
-        page_5_desc: |
-          Met NQN kunnen gebruikers [Gemaskeerde URL's](%{url}) verzenden als onderdeel van hun gebruikelijke berichten.
-
-          Dit gebruikt standaard opmaak, `[te tonen tekst](https://url.here)`.
-          Gebruik `[knop titel](button://url.here)` om berichten met knoppen te verzenden
         page_6_title: Stickers
         page_6_desc: |
           Als je ooit grote afbeeldingen/stickers/emoji's hebt willen versturen, ben je hier aan het juiste adres.
@@ -184,7 +179,6 @@ discord_bot:
            • Stickers - `%{prefix}server stickers`
            • Berichtlinkvoorbeelden - `%{prefix}server message_link_previews`
            • Persona's - `%{prefix}server personas`
-           • Gemaskeerde Links - `%{prefix}server masked_links`
         page_8_0_name: Probleemoplossen Problemen
         page_8_0_desc: |
           Om correct te kunnen werken, heeft NQN de volgende machtigingen nodig in __every__ kanaal waarin u Nitro wilt gebruiken:

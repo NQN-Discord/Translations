@@ -1,0 +1,23 @@
+[build-system]
+requires = [
+    "setuptools>=60",
+    "setuptools-scm>=8.0"
+]
+
+
+[project]
+name = "translation"
+version = "0.2.0"
+description = "Translation files for NQN"
+
+dependencies = [
+    "python-i18n",
+    "TextToOwO",
+    "ruamel.yaml==0.17.21",
+    "unidecode",
+    "regex"
+]
+
+[tool.setuptools.packages]
+# Pure Python packages/modules and configuration files
+find = { where = ["."] }
