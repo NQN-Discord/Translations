@@ -7,7 +7,7 @@ discord:
     subcommands: Browse Subcommands
     please_give: من بدون این موارد، نمی تونم به درستی کار کنم!
     fix_perms: |
-      Fix Server Permissions
+      برطرف کردن دسترسی های سرور
     nqn_help: راهنما NQN
     my_prefix: |
       پیشوند برای استفاده از من، `%{prefix}` می باشد
