@@ -7,7 +7,7 @@ discord:
     subcommands: Browse Subcommands
     please_give: 没有这些， 我没办法正常运行！
     fix_perms: |
-      Fix Server Permissions
+      修復伺服器權限
     nqn_help: NQN 使用说明
     my_prefix: |
       我的指令的前缀是 `%{prefix}`
