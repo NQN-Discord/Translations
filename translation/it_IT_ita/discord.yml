@@ -4,10 +4,10 @@ discord:
     need_help: ' - Ho bisogno di questo per il comando di aiuto!'
     nothing: ''
     choose_page: Sfoglia i Comandi
-    subcommands: Browse Subcommands
+    subcommands: Sfoglia i Sottocomandi
     please_give: Non funzionerò correttamente senza questi!
     fix_perms: |
-      Fix Server Permissions
+      Risolvi Permessi Server
     nqn_help: Pannello di Aiuto NQN
     my_prefix: |
       Il mio prefisso per i comandi è `%{prefix}`
