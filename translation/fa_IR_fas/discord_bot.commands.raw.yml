@@ -144,7 +144,7 @@ discord_bot:
           اگر نمیخواهید که بات پیام شما را تبدیل کند، می توانید در اول و آخر پیام خود ‎`\<\>` را شامل کرده و سپس بات آن پیام را تبدیل نخواهد کرد.
         page_4_0_name: Administration
         page_4_0_desc: |
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
+          اگر ادمینی سرور بخواهد که این ویژگی از سرور غیرفعال شود، میتوانند از ‎`%{prefix}server message_link_previews off` استفاده کنند.
         page_6_title: استیکر ها
         page_6_desc: |
           اگر تا به حال خواسته‌اید که تصاویر/استیکرها/شکلک‌هایی در اندازه بزرگ بفرستید، دقیقاً به جای مناسبی مراجعه کرده‌اید.
