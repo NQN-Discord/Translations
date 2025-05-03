@@ -90,10 +90,10 @@ discord_bot:
         page_0_0_desc: |
           Каждый может использовать любой эмодзи, который находится на сервере и с вами, и с этим ботом.
           **Есть несколько других способов использовать их на серверах, на которых вы не находитесь:**
-        page_0_1_name: "3⃣ Паки с эмодзи - Связка нескольких эмодзи"
-        page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4⃣ Alias'ы - Индивидуальные эмодзи"
-        page_0_2_desc: '> `%{prefix}alias search ИмяЭмодзи`'
+        page_0_1_name: "Emote packs - Emote Bundles"
+        page_0_1_desc: '`%{prefix}pack search`'
+        page_0_2_name: "Aliases - Individual Emotes"
+        page_0_2_desc: '`%{prefix}alias search EmoteName`'
         page_1_title: Реакции
         page_1_desc: Вы можете реагировать только эмоциями, которые можно использовать с NQN.
         page_1_0_name: 'Реагирует на самое последнее сообщение.'
@@ -131,17 +131,14 @@ discord_bot:
           > `%{prefix}alias search ИмяЭмодзи` (Без двоеточий, если вы не знаете точное имя)
         page_4_title: Предварительный просмотр ссылок на сообщения
         page_4_desc: |
-          NQN позволяет просматривать сообщения, отправленные в разных каналах.
+          NQN allows you to preview messages sent in different channels.
 
-          Просто скопируйте ссылку на сообщение через Discord (кнопка Share на мобильном, а затем в буфер обмена), а затем вставьте ее в свое сообщение, и оно также опубликует сообщение, на которое вы ссылаетесь.
+          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
 
-          Если вы не хотите, чтобы бот репостил ссылку на сообщение, вы можете окружить ее \<\>, и бот не будет её репостить.
-
-          Если администратор сервера хочет отключить эту функцию на всем сервере, он может использовать `%{prefix}server message_link_previews off`.
-        page_5_title: Скрытые ссылки
-        page_5_desc: |
-          NQN позволяет отправлять [Скрытые ссылки](%{url}), как часть обычного сообщения.
-          Используется стандартная разметка, `[текст для показа](https://url.here)`.
+          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+        page_4_0_name: Administration
+        page_4_0_desc: |
+          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
         page_6_title: Стикеры
         page_6_desc: |
           Если вы когда-нибудь хотели отправлять большие изображения/стикеры/эмодзи, вы попали в нужное место.
@@ -162,16 +159,15 @@ discord_bot:
           > имя: Остальная часть сообщения
         page_8_title: Администрирование сервера
         page_8_desc: |
-          NQN в значительной степени настраивается в плане набора функций, в случае если некоторые из них не подходят для вашего сервера.
-          Любой человек с правами **Управление сервером** может изменять настройки сервера с помощью бота.
+          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
+          Anyone with **Manage Server** permissions can change server settings with the bot.
 
-          Вот функции, которые можно переключать:
+          Here are the features you can toggle:
 
-           - Нитро - `%{prefix}server nitro`.
-           - Стикеры - `%{prefix}server stickers`
-           - Просмотр ссылок на сообщения - `%{prefix}server message_link_previews`.
-           - Персоны - `%{prefix}server personas`
-           - Маскированные ссылки - `%{prefix}server masked_links`
+           • Nitro - `%{prefix}server nitro`
+           • Stickers - `%{prefix}server stickers`
+           • Message Link Previews - `%{prefix}server message_link_previews`
+           • Personas - `%{prefix}server personas`
         page_8_0_name: Устранение неполадок
         page_8_0_desc: |
           Для корректной работы NQN необходимы следующие разрешения в __каждом__ канале, в котором вы хотите использовать Nitro.:
