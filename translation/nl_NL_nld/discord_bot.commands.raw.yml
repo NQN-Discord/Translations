@@ -94,9 +94,9 @@ discord_bot:
         page_0_0_desc: |
           Iedereen kan elke emoji gebruiken die een server deelt met jou en deze bot.
           **Er zijn verschillende andere manieren om emoji's te gebruiken op servers waar u zich niet op bevindt:**
-        page_0_1_name: "Emote packs - Emote Bundles"
+        page_0_1_name: "Emoji-pakketten - Emoji-bundels"
         page_0_1_desc: '`%{prefix}pack search`'
-        page_0_2_name: "Aliases - Individual Emotes"
+        page_0_2_name: "Aliassen - Individuele Emoji's"
         page_0_2_desc: '`%{prefix}alias search EmoteName`'
         page_1_title: Reacties
         page_1_desc: Je kunt alleen reageren met emoji's die je kunt gebruiken met NQN.
@@ -136,14 +136,14 @@ discord_bot:
           > `%{prefix}alias whatever` (Geen dubbele punten als u de exacte naam niet weet)
         page_4_title: Berichtenlink Voorbeelden
         page_4_desc: |
-          NQN allows you to preview messages sent in different channels.
+          Met NQN kunt u berichten bekijken die via verschillende kanalen zijn verzonden.
 
-          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
+          Kopieer eenvoudig de berichtlink via Discord (de Share-knop op mobiel en vervolgens naar het klembord) en plak deze in uw bericht, en het bericht waarnaar u verwijst ook.
 
-          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+          Als u niet wilt dat de bot een berichtlink opnieuw plaatst, kunt u deze omringen tussen \<\>, en de bot zal niet opnieuw posten.
         page_4_0_name: Administration
         page_4_0_desc: |
-          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
+          Als een serverbeheerder deze functionaliteit op de hele server wil uitschakelen, kunnen ze `%{prefix}server message_link_previews off` gebruiken.
         page_6_title: Stickers
         page_6_desc: |
           Als je ooit grote afbeeldingen/stickers/emoji's hebt willen versturen, ben je hier aan het juiste adres.
@@ -170,15 +170,15 @@ discord_bot:
           > naam: Rest van bericht
         page_8_title: Serverbeheer
         page_8_desc: |
-          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
-          Anyone with **Manage Server** permissions can change server settings with the bot.
+          NQN is sterk aanpasbaar in termen van functiesets, voor het geval sommige niet geschikt zijn voor uw server.
+          Iedereen met de machtiging **Server Beheren** kan de serverinstellingen wijzigen met de bot.
 
-          Here are the features you can toggle:
+          Dit zijn de functies die u kunt wijzigen:
 
            • Nitro - `%{prefix}server nitro`
            • Stickers - `%{prefix}server stickers`
-           • Message Link Previews - `%{prefix}server message_link_previews`
-           • Personas - `%{prefix}server personas`
+           • Berichtlinkvoorbeelden - `%{prefix}server message_link_previews`
+           • Persona's - `%{prefix}server personas`
         page_8_0_name: Probleemoplossen Problemen
         page_8_0_desc: |
           Om correct te kunnen werken, heeft NQN de volgende machtigingen nodig in __every__ kanaal waarin u Nitro wilt gebruiken:
