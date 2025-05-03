@@ -94,10 +94,10 @@ discord_bot:
         page_0_0_desc: |
           任何Discord使用者都可以使用與我共享伺服器的任何表情符號。
           **還有其他幾種方法可以使用您不在的伺服器中的表情符號：**
-        page_0_1_name: "3\u20E3 表情符號包"
-        page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 表情符號別名"
-        page_0_2_desc: '> `%{prefix}alias search EmoteName`'
+        page_0_1_name: "Emote packs - Emote Bundles"
+        page_0_1_desc: '`%{prefix}pack search`'
+        page_0_2_name: "Aliases - Individual Emotes"
+        page_0_2_desc: '`%{prefix}alias search EmoteName`'
         page_1_title: 反應
         page_1_desc: 您只能使用可在 NQN 使用的表情符號新增反應。
         page_1_0_name: '在最近訊息新增反應：'
@@ -136,19 +136,14 @@ discord_bot:
           > `%{prefix}alias search whatever`（如果您不知道確切的名稱，請不要在名稱周邊加上冒號）
         page_4_title: 預覽訊息連結
         page_4_desc: |
-          NQN 允許您預覽在不同頻道準備發佈的訊息。
+          NQN allows you to preview messages sent in different channels.
 
-          只需通過 Discord 複製訊息連結，然後將其貼上到您的訊息中，NQN 也會幫您發佈您所引用的訊息。
+          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
 
-          如果您不希望我重新發佈訊息連結，您可以將連結包圍在 \<\> 中，機器人就不會幫您發佈您所引用的訊息。
-
-          如果伺服器管理員想要在整個伺服器中停用此功能，他們可以使用 `%{prefix}server message_link_previews off` 以關掉此功能。
-        page_5_title: 隱蔽網址
-        page_5_desc: |
-          NQN 允許使用者在將常規訊息中加入 [隱蔽網址](%{url})。
-
-          如果您要在訊息中加入連結，請使用這個格式：`[顯示文字](https://網頁連結)`
-          如果您要在訊息中加入按鈕，請使用這個格式：`[按鈕文字](button://網頁連結)`
+          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+        page_4_0_name: Administration
+        page_4_0_desc: |
+          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
         page_6_title: 貼圖
         page_6_desc: |
           如果您曾經想傳送大圖片／貼圖／表情符號，那麼您來對了地方。
@@ -175,16 +170,15 @@ discord_bot:
           > 角色名稱: 您想發佈訊息的其餘部分
         page_8_title: 伺服器管理
         page_8_desc: |
-          NQN 在自訂功能設定方面非常靈活，從而避免出現一些不適合您伺服器的設定。
-          任何具有**管理伺服器**權限的人都可以更改或自訂機器人在該伺服器的設定。
+          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
+          Anyone with **Manage Server** permissions can change server settings with the bot.
 
-          以下是您可以更改或自訂的功能：
+          Here are the features you can toggle:
 
            • Nitro - `%{prefix}server nitro`
-           • 貼圖 - `%{prefix}server stickers`
-           • 預覽訊息連結 - `%{prefix}server message_link_previews`
-           • 角色 - `%{prefix}server personas`
-           • 隱蔽網址 - `%{prefix}server masked_links`
+           • Stickers - `%{prefix}server stickers`
+           • Message Link Previews - `%{prefix}server message_link_previews`
+           • Personas - `%{prefix}server personas`
         page_8_0_name: 排查故障
         page_8_0_desc: |
           為了確保 NQN 能夠正常運作，NQN 在每一個（__every__）您希望使用 Nitro 表情符號的頻道中需要以下權限：
