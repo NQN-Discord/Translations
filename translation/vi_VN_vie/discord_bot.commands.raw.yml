@@ -94,10 +94,10 @@ discord_bot:
         page_0_0_desc: |
           Mọi người đều có thể dùng bất kì emoji nào có trong server chung với bạn và bot.
           **Cũng có những cách khác để dùng emoji từ server mà bạn không tham gia:**
-        page_0_1_name: "3\u20E3 Gói emoji - Bao emoji"
-        page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Tên thay thế - Tách biệt từng emoji"
-        page_0_2_desc: '> `%{prefix}alias search TênBiểuCảm`'
+        page_0_1_name: "Emote packs - Emote Bundles"
+        page_0_1_desc: '`%{prefix}pack search`'
+        page_0_2_name: "Aliases - Individual Emotes"
+        page_0_2_desc: '`%{prefix}alias search EmoteName`'
         page_1_title: Thêm cảm xúc
         page_1_desc: Bạn có thể thêm cảm xúc cho tin nhắn với những emoji bạn có thể dùng với NQN.
         page_1_0_name: 'Bày tỏ cảm xúc với tin nhắn gần nhất:'
@@ -136,19 +136,14 @@ discord_bot:
           > `%{prefix}alias search GiCungDuoc` (Không cần dấu hai chấm nếu bạn không nhớ rõ tên)
         page_4_title: Link đến tin nhắn đang trả lời
         page_4_desc: |
-          NQN cho phép bạn xem qua tin nhắn từ các kênh khác.
+          NQN allows you to preview messages sent in different channels.
 
-          Chỉ cần sao chép link đến tin nhắn đó (trên di động là nút chia sẻ - sao chép) rồi dán nó vào tin nhắn của bạn, và bot sẽ thay thế tin nhắn của bạn kèm theo tin nhắn được dẫn đến.
+          Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
 
-          Nếu bạn không muốn bot thay thế tin nhắn của bạn, chỉ cần bao quanh link đó bằng cặp ngoặc \<\>.
-
-          Nếu một quản lý trong server muốn vô hiệu hóa tính năng này, họ có thể dùng `%{prefix}server message_link_previews off`.
-        page_5_title: URL đã che
-        page_5_desc: |
-          NQN cho phép người dùng gửi tin nhắn [với URL đã che](%{url}) ngay trong tin nhắn của họ.
-
-          Tính năng này sử dụng các thức thông dụng, `[văn bản hiển thị](https://url.tai.day)`.
-          Để gửi tin nhắn có kèm theo nút, dùng `[tiêu đề nút](button://url.tai.day)`.
+          If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
+        page_4_0_name: Administration
+        page_4_0_desc: |
+          If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
         page_6_title: Sticker
         page_6_desc: |
           Nếu bạn từng muốn gửi ảnh/sticker/emoji lớn thì bạn tìm đến đúng nơi rồi đấy.
@@ -175,16 +170,15 @@ discord_bot:
           > Tên: Tin nhắn
         page_8_title: Quản lý server
         page_8_desc: |
-          NQN cho phép khả năng tùy chỉnh cao đối với các tính năng có sẵn, trong trường hợp chúng không phù hợp cho server của bạn.
-          Bất kì ai có quyền **Quản lý server** đều có thể thay đổi cài đặt của bot cho server.
+          NQN is heavily customisable in terms of feature sets, in case some of them aren't appropriate for your server.
+          Anyone with **Manage Server** permissions can change server settings with the bot.
 
-          Sau đây là những thứ mà bạn có thể thay đổi:
+          Here are the features you can toggle:
 
            • Nitro - `%{prefix}server nitro`
-           • Sticker - `%{prefix}server stickers`
-           • Xem tin nhắn được liên kết - `%{prefix}server message_link_previews`
-           • Danh tính ảo - `%{prefix}server personas`
-           • Hyperlink - `%{prefix}server masked_links`
+           • Stickers - `%{prefix}server stickers`
+           • Message Link Previews - `%{prefix}server message_link_previews`
+           • Personas - `%{prefix}server personas`
         page_8_0_name: Khắc phục một số vấn đề
         page_8_0_desc: |
           Để có thể hoạt động bình thường, NQN sẽ cần các quyền sau trong __mọi kênh__ mà bạn muốn dùng tính năng:
