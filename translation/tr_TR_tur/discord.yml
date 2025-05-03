@@ -4,9 +4,10 @@ discord:
     need_help: ' - Yardım komutu için buna ihtiyacım var!'
     nothing: ''
     choose_page: Komutlara Gözat
+    subcommands: Browse Subcommands
     please_give: Bunlar olmadan düzgün çalışmayacağım!
     fix_perms: |
-      - **[Sunucu İzinlerini Düzeltin](%{invite_url})**
+      Sunucu İzinlerini Düzeltin
     nqn_help: NQN Yardım
     my_prefix: |
       Komutlar için prefix'im `%{prefix}`

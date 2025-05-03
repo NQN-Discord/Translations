@@ -4,9 +4,10 @@ discord:
     need_help: ' - من به این برای دستور راهنما نیاز دارم!'
     nothing: ''
     choose_page: لیست دستورات
+    subcommands: Browse Subcommands
     please_give: من بدون این موارد، نمی تونم به درستی کار کنم!
     fix_perms: |
-      - **[برطرف کردن دسترسی های سرور](%{invite_url})**
+      برطرف کردن دسترسی های سرور
     nqn_help: راهنما NQN
     my_prefix: |
       پیشوند برای استفاده از من، `%{prefix}` می باشد

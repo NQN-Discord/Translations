@@ -94,10 +94,10 @@ discord_bot:
         page_0_0_desc: |
           Todos pueden utilizar cualquier emoji que comparte un servidor con vos y el bot
           **Hay distintas formas para utilizar emojis de servidores de los que no perteneces:**"
-        page_0_1_name: "3⃣ Packs de emojis - Paquete de emojis"
-        page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4⃣ Aliases - Emojis Individuales"
-        page_0_2_desc: '> `%{prefix}alias search NombreDelEmoji`'
+        page_0_1_name: "Packs de emojis - Paquete de emojis"
+        page_0_1_desc: '`%{prefix}pack search`'
+        page_0_2_name: "Aliases - Emojis Individuales"
+        page_0_2_desc: '`%{prefix}alias search NombreDelEmoji`'
         page_1_title: Reacciones
         page_1_desc: Solo puedes reaccionar con emojis que puedes utilizar con NQN.
         page_1_0_name: 'Reaccionar al mensaje más reciente:'
@@ -138,17 +138,12 @@ discord_bot:
         page_4_desc: |
           NQN permite responder a mensajes mandados hace mucho tiempo.
 
-          Simplemente copia el enlace del mensaje via discord (en el celular la opción de compartir y entonces al clipboard)y pégalo en tu mensaje, entonces NQN va a mandar el mensaje al que estas respondiendo también.
+          Simplemente copia el enlace del mensaje via discord (en el celular la opción de compartir y entonces al clipboard) y pégalo en tu mensaje, entonces NQN va a mandar el mensaje al que estas respondiendo también.
 
           Si no quieres que el bot repita el mensaje del enlace, podes rodearlo con \<\>, y el bot no le reenviara.
-
-          Si un administrador quiere remover esta funcionalidad en su servidor, pueden utilizar `%{prefix}server replies off`.
-        page_5_title: URLs enmascarados
-        page_5_desc: |
-          NQN permite a los usuarios mandar [URLs enmascarados](%{url})como parte de sus mensajes.
-
-          Esto utiliza el método estándar, `[texto a mostrar](https://url.aqui)`.
-          Para enviar mensajes con botones, usas `[Texto del Boton](button://url.aqui)`
+        page_4_0_name: Administración
+        page_4_0_desc: |
+          Si un administrador quiere remover esta funcionalidad en su servidor, pueden utilizar `%{prefix}servir.
         page_6_title: Stickers
         page_6_desc: |
           Si en algún momento deseaste mandar imagenes/stickers/emotes de mayor tamaño, entonces estas en el ligar indicado.
@@ -184,7 +179,6 @@ discord_bot:
            • Stickers - `%{prefix}server stickers`
            • Respuestas - `%{prefix}server replies`
            • Personajes - `%{prefix}server personas`
-           • Enlaces Enmascarados - `%{prefix}server masked_links`
         page_8_0_name: Solución de problemas y cambio de prefijo
         page_8_0_desc: |
           Para poder funcionar correctamente, NQN requiere los permisos siguientes en __todo__ canal donde desees utilizar Nitro:

@@ -4,9 +4,10 @@ discord:
     need_help: ' - Мне требуется это для команды помощи!'
     nothing: ''
     choose_page: Посмотреть команды
+    subcommands: Browse Subcommands
     please_give: Я могу не корректно работать, если вы не выдадите мне требуемые права!
     fix_perms: |
-      - **[Изменить права](%{invite_url})**
+      Изменить права
     nqn_help: 'NQN: Помощь'
     my_prefix: |
       Моим префиксом является `%{prefix}`

@@ -4,9 +4,10 @@ discord:
     need_help: ' - 我需要用这个才能使用help指令！'
     nothing: ''
     choose_page: 浏览指令
+    subcommands: Browse Subcommands
     please_give: 没有这些， 我没办法正常运行！
     fix_perms: |
-      - **[修理服务器权限](%{invite_url})**
+      修理服务器权限
     nqn_help: NQN 使用说明
     my_prefix: |
       我的指令的前缀是 `%{prefix}`

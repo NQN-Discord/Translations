@@ -94,10 +94,10 @@ discord_bot:
         page_0_0_desc: |
           Você pode usar qualquer emoji que compartilhe um servidor com você e este bot.
           **Existem várias formas de usar emojis de servidores em que você não está:**
-        page_0_1_name: "3⃣ Pacotes de Emoji"
-        page_0_1_desc: '> `%{prefix}pack search NomeDoPacote`'
-        page_0_2_name: "4⃣ Emojis Individuais - Aliases"
-        page_0_2_desc: '> `%{prefix}alias search NomeDoEmoji`'
+        page_0_1_name: "Pacotes de Emoji"
+        page_0_1_desc: '`%{prefix}pack search NomeDoPacote`'
+        page_0_2_name: "Emojis Individuais - Aliases"
+        page_0_2_desc: '`%{prefix}alias search NomeDoEmoji`'
         page_1_title: Reações
         page_1_desc: Você só pode reagir com emojis que pode usar no NQN.
         page_1_0_name: 'Reagindo à mensagem mais recente:'
@@ -140,14 +140,9 @@ discord_bot:
           Simplesmente copie o link da mensagem via Discord (o botão de compartilhar) e cole-o em sua mensagem, e ele publicará a mensagem que você está respondendo também.
 
           Se você não quiser que o bot repita o link de uma mensagem, pode colocá-lo em \<\>, e o bot não postará novamente.
-
+        page_4_0_name: Administration
+        page_4_0_desc: |
           Se um administrador do servidor deseja desabilitar esta funcionalidade em todo o servidor, ele pode usar `%{prefix}server replies off`.
-        page_5_title: URLs camuflados
-        page_5_desc: |
-          O NQN permite que os usuários enviem [URLs camuflados] (%{url}) como parte de suas mensagens.
-
-          Esta função usa marcação padrão, `[texto para mostrar](https://url.aqui)`.
-          Para enviar mensagens com botões, `[texto do botão](button://url.aqui)`.
         page_6_title: Figurinhas
         page_6_desc: |
           Se você quer enviar imagens/adesivos/emojis grandes, você veio ao lugar certo.
@@ -182,7 +177,6 @@ discord_bot:
            • Figurinhas - `%{prefix}server stickers`
            • Visualização de links de mensagens - `%{prefix}server replies`
            • Personagens - `%{prefix}server personas`
-           • Links Camuflados - `%{prefix}server masked_links`
         page_8_0_name: Solução de problemas
         page_8_0_desc: |
           Para funcionar corretamente, o NQN precisa das seguintes permissões em __cada__ canal em que deseja usar o Nitro:

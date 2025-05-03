@@ -94,10 +94,10 @@ discord_bot:
         page_0_0_desc: |
           Chiunque è in grado di utilizzare qualsiasi emote che condivide un server con te e con questo bot.
           **Ci sono diversi altri modi per utilizzare le emote nei server in cui non sei dentro:**
-        page_0_1_name: "3\u20E3 Pacchetti Emote - Bundle Emote"
-        page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Alias - Emote Individuali"
-        page_0_2_desc: '> `%{prefix}alias search NomeEmote`'
+        page_0_1_name: "Pacchetti Emote - Bundle Emote"
+        page_0_1_desc: '`%{prefix}pack search`'
+        page_0_2_name: "Alias - Emote Individuali"
+        page_0_2_desc: '`%{prefix}alias search NomeEmote`'
         page_1_title: Reazioni
         page_1_desc: Puoi reagire solo con le emote che puoi usare con NQN.
         page_1_0_name: 'Reagire al messaggio più recente:'
@@ -141,14 +141,9 @@ discord_bot:
           Basta copiare il link del messaggio tramite Discord (il pulsante Condividi sul cellulare e poi negli appunti) e incollarlo nel messaggio, e pubblicherà anche il messaggio a cui fa riferimento
 
           Se non vuoi che il bot ripubblichi un link di messaggio, puoi circondarlo con \<\>, e il bot non lo ripubblicherà.
-
+        page_4_0_name: Amministrazione
+        page_4_0_desc: |
           Se un amministratore del server vuole disabilitare questa funzionalità in tutto il server, può usare `%{prefix}server message_link_previews off`.
-        page_5_title: URL Mascherati
-        page_5_desc: |
-          NQN consente agli utenti di inviare [URL Mascherati](%{url}) come parte dei loro messaggi regolari.
-
-          Questo utilizza markup standard, `[testo da mostrare](https://url.here)`.
-          Per inviare messaggi con pulsanti, usa `[titolo pulsante](button://url.here)`
         page_6_title: Adesivi
         page_6_desc: |
           Se hai sempre voluto inviare grandi immagini/adesivi/emote, sei arrivato nel posto giusto.
@@ -184,7 +179,6 @@ discord_bot:
            • Adesivi - `%{prefix}server stickers`
            • Anteprima Link Messaggi - `%{prefix}server message_link_previews`
            • Personaggi - `%{prefix}server personas`
-           • Link Mascherati - `%{prefix}server masked_links`
         page_8_0_name: Risoluzione Problemi
         page_8_0_desc: |
           Per funzionare correttamente, NQN ha bisogno dei seguenti permessi nel canale __every__ in cui si desidera utilizzare Nitro in:

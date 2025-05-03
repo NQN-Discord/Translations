@@ -4,9 +4,10 @@ discord:
     need_help: ' - Ik heb dit nodig voor het help-commando!'
     nothing: ''
     choose_page: Door Commando's bladeren
+    subcommands: Browse Subcommands
     please_give: Ik zal niet correct functioneren zonder deze!
     fix_perms: |
-      - **[Servermachtigingen repareren](%{invite_url})**
+      Servermachtigingen repareren
     nqn_help: NQN Help
     my_prefix: |
       Mijn prefix voor commando's is `%{prefix}`
