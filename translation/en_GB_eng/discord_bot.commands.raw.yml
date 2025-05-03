@@ -99,10 +99,10 @@ discord_bot:
         page_0_0_desc: |
           Everyone is able to use any emote that shares a server with both you and this bot.
           **There are several other ways to use emotes in servers you are not in:**
-        page_0_1_name: "3\u20E3 Emote packs - Emote Bundles"
-        page_0_1_desc: '> `%{prefix}pack search`'
-        page_0_2_name: "4\u20E3 Aliases - Individual Emotes"
-        page_0_2_desc: '> `%{prefix}alias search EmoteName`'
+        page_0_1_name: "Emote packs - Emote Bundles"
+        page_0_1_desc: '`%{prefix}pack search`'
+        page_0_2_name: "Aliases - Individual Emotes"
+        page_0_2_desc: '`%{prefix}alias search EmoteName`'
         page_1_title: Reactions
         page_1_desc: You can only react with emotes you can use with NQN.
         page_1_0_name: 'Reacting to the most recent message:'
@@ -146,14 +146,9 @@ discord_bot:
           Simply copy the message link via Discord (the Share button on mobile and then to clipboard) and then paste it into your message, and it'll post the message you're referencing as well.
 
           If you don't want the bot to repost a message link, you can surround it in \<\>, and the bot will not repost.
-
+        page_4_0_name: Administration
+        page_4_0_desc: |
           If a server admin wants to disable this functionality throughout the server, they can use `%{prefix}server message_link_previews off`.
-        page_5_title: Masked URLs
-        page_5_desc: |
-          NQN allows users to send [Masked URLs](%{url}) as part of their regular messages.
-
-          This uses standard markup, `[text to show](https://url.here)`.
-          To send messages with buttons, use `[button title](button://url.here)`
         page_6_title: Stickers
         page_6_desc: |
           If you've ever wanted to send large images/stickers/emotes, you've come to the right place.
@@ -189,7 +184,6 @@ discord_bot:
            • Stickers - `%{prefix}server stickers`
            • Message Link Previews - `%{prefix}server message_link_previews`
            • Personas - `%{prefix}server personas`
-           • Masked Links - `%{prefix}server masked_links`
         page_8_0_name: Troubleshooting Issues
         page_8_0_desc: |
           In order to run correctly, NQN needs the following permissions in __every__ channel you wish to use Nitro in:
