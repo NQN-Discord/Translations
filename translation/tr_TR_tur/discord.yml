@@ -7,7 +7,7 @@ discord:
     subcommands: Browse Subcommands
     please_give: Bunlar olmadan düzgün çalışmayacağım!
     fix_perms: |
-      Fix Server Permissions
+      Sunucu İzinlerini Düzeltin
     nqn_help: NQN Yardım
     my_prefix: |
       Komutlar için prefix'im `%{prefix}`
