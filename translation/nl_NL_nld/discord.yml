@@ -4,7 +4,7 @@ discord:
     need_help: ' - Ik heb dit nodig voor het help-commando!'
     nothing: ''
     choose_page: Door Commando's bladeren
-    subcommands: Browse Subcommands
+    subcommands: Door Subcommando's bladeren
     please_give: Ik zal niet correct functioneren zonder deze!
     fix_perms: |
       Servermachtigingen repareren
