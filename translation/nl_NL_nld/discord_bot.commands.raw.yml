@@ -141,7 +141,7 @@ discord_bot:
           Kopieer eenvoudig de berichtlink via Discord (de Share-knop op mobiel en vervolgens naar het klembord) en plak deze in uw bericht, en het bericht waarnaar u verwijst ook.
 
           Als u niet wilt dat de bot een berichtlink opnieuw plaatst, kunt u deze omringen tussen \<\>, en de bot zal niet opnieuw posten.
-        page_4_0_name: Administration
+        page_4_0_name: Beheer
         page_4_0_desc: |
           Als een serverbeheerder deze functionaliteit op de hele server wil uitschakelen, kunnen ze `%{prefix}server message_link_previews off` gebruiken.
         page_6_title: Stickers
