@@ -141,7 +141,7 @@ discord_bot:
           只需通過 Discord 複製訊息連結，然後將其貼上到您的訊息中，NQN 也會幫您發佈您所引用的訊息。
 
           如果您不希望我重新發佈訊息連結，您可以將連結包圍在 \<\> 中，機器人就不會幫您發佈您所引用的訊息。
-        page_4_0_name: Administration
+        page_4_0_name: 管理者
         page_4_0_desc: |
           如果伺服器管理員想要在整個伺服器中停用此功能，他們可以使用 `%{prefix}server message_link_previews off` 以關掉此功能。
         page_6_title: 貼圖

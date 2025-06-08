@@ -15,13 +15,13 @@ command_docs:
     name: 表情符號別名
     short_doc: 管理您可以使用的表情符號
     help: |
-      管理您可以使用的表情符號
+      管理您可使用的個別表情符號
 
       NQN 的搜尋有一些強大功能：
-       - `exact`：（預設為 false）僅顯示與搜索字句一模一樣名稱的表情符號
-       - `animated`：僅顯示動畫或靜態表情符號
-       - `page`：跳到某個頁面
-       - `order`：用「使用次數」或「隨機」作為頁面排序
+       - `exact`：（預設為 false）僅顯示與搜尋字詞完全相符的表情符號
+       - `animated`：選擇只顯示動態或靜態表情符號
+       - `page`：跳至特定頁面
+       - `order`：可為「使用次數」(uses)、「隨機」(random) 之一
   alias-delete:
     name: 刪除
     short_doc: 不想再使用表請符號別名了嗎？使用此指令
@@ -37,23 +37,23 @@ command_docs:
       刪除全部表情符號的別名
   alias-dm:
     name: 私人訊息
-    short_doc: 在私人訊息中獲取您擁有的表情符號別名的完整列表
+    short_doc: 在私人訊息中取得您所有別名的完整清單
     help: |
-      在私人訊息中獲取您擁有的表情符號別名的完整列表
+      讓機器人透過私人訊息傳送您別名的清單給您
   alias-export:
-    name: 導出
-    short_doc: 導出您的表情符號別名
+    name: 匯出
+    short_doc: 匯出您的別名清單
   alias-import:
-    name: 導入
-    short_doc: 導入其他人的表情符號別名
+    name: 匯入
+    short_doc: 匯入導入其他人的別名清單
     params:
       file:
         name: 檔案
         description: |-
-          以前使用 /alias export 導出的檔案
+          先前透過 /alias export 匯出的檔案
   alias-mine:
     name: 屬於我的
-    short_doc: 獲取您所有已建立的表情符號別名的列表
+    short_doc: 取的所有您建立的表情符號別名清單
     params:
       page:
         name: 頁面
