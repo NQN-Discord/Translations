@@ -118,19 +118,25 @@ discord_bot:
         enabled: Включено
         disabled: Выключено
         prefix: Префикс
-        announcement: Канал объявлений
         boost_channel: Канал буста
         boost_role: Роль буста
         audit_channel: Канал аудита
+        audit_channel_description: |
+          NQN posts messages to this channel when users send messages through the bot, or when administrative events happen
         nitro_role: Роль нитро
         stickers: Стикеры
+        stickers_description: "Allows users to use NQN stickers in chat."
         nitro: Нитро
+        nitro_description: "Allows users to use free Nitro emotes with NQN."
         replies: Превью ссылок в сообщениях
-        masked_links: Скрытие ссылок
+        replies_description: "Messages with message links will be reposted with a preview of the linked content."
         pings: Упоминания
+        pings_description: "Reposted messages will forward pings from the original message."
         user_content: Пользовательский контент
         personas: Персоны
+        personas_description: "Allows users to set custom usernames and avatars."
         dashboard_posting: Публикация с панели управления
+        dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
         phish_detection: Обнаружение фишинга
         invite: Приглашение на сервер
         pack: Имя пака

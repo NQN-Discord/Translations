@@ -4,7 +4,7 @@ discord:
     need_help: ' - Eu preciso disso para o comando de ajuda!'
     nothing: ''
     choose_page: Buscar em Comandos
-    subcommands: Browse Subcommands
+    subcommands: Procurar Subcomandos
     please_give: Eu não funcionarei corretamente sem estes!
     fix_perms: |
       Corrigir permissões do servidor

@@ -11,6 +11,10 @@ command_docs:
     name: 编辑消息
   find_author:
     name: 寻找作者
+  kick_author:
+    name: Kick Author
+  ban_author:
+    name: Ban Author
   alias:
     name: 表情符号别号
     short_doc: 管理每个您可以使用的表情符号

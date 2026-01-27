@@ -57,6 +57,8 @@ permissions:
     Leer Mensajes
   send_messages: |-
     Enviar Mensajes
+  send_messages_in_threads: |-
+    Enviar mensajes en hilios
   send_tts_messages: |-
     Enviar Mensajes De Texto A Voz
   speak: |-

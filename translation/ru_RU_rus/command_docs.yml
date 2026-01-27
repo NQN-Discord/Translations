@@ -11,6 +11,10 @@ command_docs:
     name: Редактирование сообщения
   find_author:
     name: Найти Автора
+  kick_author:
+    name: Kick Author
+  ban_author:
+    name: Ban Author
   alias:
     name: alias
     short_doc: Управление тонной собственных эмодзи

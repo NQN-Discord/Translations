@@ -11,6 +11,10 @@ command_docs:
     name: Modifica Messaggio
   find_author:
     name: Trova Autore
+  kick_author:
+    name: Kick Author
+  ban_author:
+    name: Ban Author
   alias:
     name: alias
     short_doc: Gestisci le singole emote che puoi usare

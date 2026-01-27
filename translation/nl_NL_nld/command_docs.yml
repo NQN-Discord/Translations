@@ -11,6 +11,10 @@ command_docs:
     name: Bericht Bewerken
   find_author:
     name: Vind Auteur
+  kick_author:
+    name: Kick Author
+  ban_author:
+    name: Ban Author
   alias:
     name: alias
     short_doc: Beheer de individuele emoji's die je kunt gebruiken
