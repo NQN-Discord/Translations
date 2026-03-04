@@ -117,19 +117,25 @@ discord_bot:
         enabled: 已啟用的
         disabled: 已停用的
         prefix: 前綴
-        announcement: 公告頻道
         boost_channel: 加成的頻道
         boost_role: 加成的身分組
         audit_channel: 審核日誌的頻道
+        audit_channel_description: |
+          NQN posts messages to this channel when users repost messages, or when administrative events happen
         nitro_role: Nitro 的身分組
         stickers: 貼圖
+        stickers_description: "Allows users to use NQN stickers in chat."
         nitro: Nitro
+        nitro_description: "Allows users to use free Nitro emotes with NQN."
         replies: 預覽訊息連結
-        masked_links: 隱蔽網址
+        replies_description: "Messages with message links will be reposted with a preview of the linked content."
         pings: 提及 (Pings)
+        pings_description: "Reposted messages will forward pings from the original message."
         user_content: 使用者內容
         personas: 角色
+        personas_description: "Allows users to set custom usernames and avatars."
         dashboard_posting: 在 Dashboard 發發佈訊息
+        dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
         phish_detection: 檢查可疑訊息
         invite: 邀請連結
         pack: 表情符號包的名稱
