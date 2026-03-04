@@ -121,7 +121,7 @@ discord_bot:
         boost_role: 加成的身分組
         audit_channel: 審核日誌的頻道
         audit_channel_description: |
-          NQN posts messages to this channel when users repost messages, or when administrative events happen
+          NQN posts messages to this channel when users send messages through the bot, or when administrative events happen
         nitro_role: Nitro 的身分組
         stickers: 貼圖
         stickers_description: "Allows users to use NQN stickers in chat."
