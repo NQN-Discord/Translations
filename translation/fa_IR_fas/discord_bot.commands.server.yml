@@ -117,19 +117,25 @@ discord_bot:
         enabled: فعال
         disabled: غیرفعال
         prefix: پیشوند
-        announcement: کانال اخبار
         boost_channel: کانال بوست
         boost_role: نقش بوستر
         audit_channel: کانال سوابق
+        audit_channel_description: |
+          NQN posts messages to this channel when users repost messages, or when administrative events happen
         nitro_role: نقش نیترو
         stickers: استیکر ها
+        stickers_description: "Allows users to use NQN stickers in chat."
         nitro: نیترو
+        nitro_description: "Allows users to use free Nitro emotes with NQN."
         replies: پیشنمایش لینک پیام
-        masked_links: متن های لینک دار
+        replies_description: "Messages with message links will be reposted with a preview of the linked content."
         pings: پینگ‌ها
+        pings_description: "Reposted messages will forward pings from the original message."
         user_content: محتوای کاربر
         personas: پرسونا ها
+        personas_description: "Allows users to set custom usernames and avatars."
         dashboard_posting: پست کردن از طریق داشبورد
+        dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
         phish_detection: شناسایی فیشینگ
         invite: لینک دعوت
         pack: نام بسته
