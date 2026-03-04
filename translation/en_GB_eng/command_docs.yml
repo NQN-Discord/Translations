@@ -11,6 +11,10 @@ command_docs:
     name: Edit Message
   find_author:
     name: Find Author
+  kick_author:
+    name: Kick Author
+  ban_author:
+    name: Ban Author
 
   alias:
     name: alias
