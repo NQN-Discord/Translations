@@ -117,19 +117,25 @@ discord_bot:
         enabled: Đã kích hoạt
         disabled: Đã vô hiệu
         prefix: Prefix
-        announcement: Kênh thông báo
         boost_channel: Kênh tăng cường
         boost_role: Vai trò tăng cường
         audit_channel: Kênh lưu vết
+        audit_channel_description: |
+          NQN posts messages to this channel when users repost messages, or when administrative events happen
         nitro_role: Vai trò Nitro
         stickers: Sticker
+        stickers_description: "Allows users to use NQN stickers in chat."
         nitro: Nitro
+        nitro_description: "Allows users to use free Nitro emotes with NQN."
         replies: Xem tin nhắn được liên kết
-        masked_links: URL đã che
+        replies_description: "Messages with message links will be reposted with a preview of the linked content."
         pings: Nhắc tên
+        pings_description: "Reposted messages will forward pings from the original message."
         user_content: Nội dung người dùng
         personas: Danh tính ảo
+        personas_description: "Allows users to set custom usernames and avatars."
         dashboard_posting: Gửi từ bảng điều khiển
+        dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
         phish_detection: Nhận diện lừa đảo
         invite: Link mời
         pack: Tên gói emoji
