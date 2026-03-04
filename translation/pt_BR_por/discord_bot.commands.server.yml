@@ -121,7 +121,7 @@ discord_bot:
         boost_role: Cargo Boost
         audit_channel: Canal de auditoria
         audit_channel_description: |
-          NQN posts messages to this channel when users repost messages, or when administrative events happen
+          NQN posts messages to this channel when users send messages through the bot, or when administrative events happen
         nitro_role: Cargo Nitro
         stickers: Figurinhas
         stickers_description: "Allows users to use NQN stickers in chat."
