@@ -11,6 +11,10 @@ command_docs:
     name: Mesaj Düzenle
   find_author:
     name: Yazar Bul
+  kick_author:
+    name: Kick Author
+  ban_author:
+    name: Ban Author
   alias:
     name: takma ad
     short_doc: Kullanabileceğiniz bireysel emojileri yönetin

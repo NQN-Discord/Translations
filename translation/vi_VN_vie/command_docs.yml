@@ -11,6 +11,10 @@ command_docs:
     name: Chỉnh sửa tin nhắn
   find_author:
     name: Tìm người gửi
+  kick_author:
+    name: Kick Author
+  ban_author:
+    name: Ban Author
   alias:
     name: tên_thay_thế
     short_doc: Quản lý các emoji riêng biệt để bạn dùng

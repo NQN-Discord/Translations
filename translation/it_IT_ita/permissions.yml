@@ -57,6 +57,8 @@ permissions:
     Leggi Messaggi
   send_messages: |-
     Invia Messaggi
+  send_messages_in_threads: |-
+    Send Messages in Threads
   send_tts_messages: |-
     Invia Messaggi TTS
   speak: |-

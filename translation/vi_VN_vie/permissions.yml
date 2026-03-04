@@ -57,6 +57,8 @@ permissions:
     Đọc tin nhắn
   send_messages: |-
     Gửi tin nhắn
+  send_messages_in_threads: |-
+    Send Messages in Threads
   send_tts_messages: |-
     Gửi tin nhắn văn bản thành giọng nói
   speak: |-

@@ -18,24 +18,11 @@ from ._create_owo import create_owo
 from ._ruamel_loader import YamlLoader
 
 
+LOCALE_FILTER = os.getenv("LOCALE_FILTER")
+
+
 command_name_regex = regex.compile(r"^[-_\p{L}\p{N}\p{sc=Deva}\p{sc=Thai}]{1,32}$")
-
-
-try:
-    from prometheus_client import Counter
-except ImportError:
-    translate_function = None
-else:
-    keys_used = Counter(
-        "keys_used",
-        "Translation keys used",
-        labelnames=["key"],
-        namespace="translation"
-    )
-
-    def translate_function(key, **kwargs):
-        keys_used.labels(key=key).inc()
-        return i18n.t(key, **kwargs)
+translate_function = None
 
 
 class DpyNQNTranslator(DpyTranslator):
@@ -190,12 +177,15 @@ class Translator(metaclass=Singleton):
         i18n.resource_loader.register_loader(YamlLoader, ["yml"])
 
         locale_dirs = {f.name for f in os.scandir(root_path) if f.is_dir()} - {"__pycache__", "zips"}
+        if locale_filter := self._get_locale_filter():
+            locale_dirs &= locale_filter
         two_flag_three_full = [(*i.split("_"), i) for i in locale_dirs]
         unique = {k for k, v in collections.Counter(two for two, _, _, _ in two_flag_three_full).items() if v == 1}
         canonical_codes = {full: (two if two in unique else flag.lower()) for two, flag, three, full in two_flag_three_full}
         assert len(canonical_codes) == len(set(canonical_codes.values()))
         self.canonical_codes = set(canonical_codes.values()) | self.hidden_locales
-        assert self.canonical_codes >= set(self.released_locales)
+        if locale_filter is None:
+            assert self.canonical_codes >= set(self.released_locales)
 
         for two, flag, three, full in two_flag_three_full:
             self.locales[flag.lower()] = canonical_codes[full]
@@ -203,10 +193,13 @@ class Translator(metaclass=Singleton):
             self.locales[canonical_codes[full]] = canonical_codes[full]
             self.locales[three] = canonical_codes[full]
             self.locale_flags[canonical_codes[full]] = flag.lower()
-        self.flag_emojis = {locale: "".join(chr(0x1f185+ord(c)) for c in self.locale_flags[locale]) for locale in _released_locales}
+        self.flag_emojis = {locale: "".join(chr(0x1f185+ord(c)) for c in self.locale_flags[locale]) for locale in _released_locales if locale in self.locale_flags}
 
         for path in root_path.rglob("*.yml"):
-            locale = canonical_codes[path.parent.name]
+            locale = canonical_codes.get(path.parent.name)
+            if locale is None:
+                # If we've filtered the locale, don't load it
+                continue
             translations_dic = i18n.resource_loader.load_resource(str(path), None)
             i18n.resource_loader.load_translation_dic(translations_dic, "", locale)
 
@@ -273,6 +266,10 @@ class Translator(metaclass=Singleton):
             "locale": locale.strip(" "),
             "locale_flag_emojis": " ".join(self.flag_emojis.values())
         }
+
+    def _get_locale_filter(self) -> Optional[set[str]]:
+        if LOCALE_FILTER:
+            return set(LOCALE_FILTER.split(" "))
 
 
 class TranslatorWithContext:

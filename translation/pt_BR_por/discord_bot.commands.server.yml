@@ -117,19 +117,25 @@ discord_bot:
         enabled: Habilitado
         disabled: Desabilitado
         prefix: Prefixo
-        announcement: Canal de anúncios
         boost_channel: Canal de Boosts
         boost_role: Cargo Boost
         audit_channel: Canal de auditoria
+        audit_channel_description: |
+          NQN posts messages to this channel when users send messages through the bot, or when administrative events happen
         nitro_role: Cargo Nitro
         stickers: Figurinhas
+        stickers_description: "Allows users to use NQN stickers in chat."
         nitro: Nitro
+        nitro_description: "Allows users to use free Nitro emotes with NQN."
         replies: Visualização de links de mensagens
-        masked_links: URLs camuflados
+        replies_description: "Messages with message links will be reposted with a preview of the linked content."
         pings: Pings
+        pings_description: "Reposted messages will forward pings from the original message."
         user_content: Conteúdo de Usuário
         personas: Personagens
+        personas_description: "Allows users to set custom usernames and avatars."
         dashboard_posting: Enviar mensagens pelo Dashboard
+        dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
         phish_detection: Detecção de Phish
         invite: Link de convite
         pack: Nome do Pacote

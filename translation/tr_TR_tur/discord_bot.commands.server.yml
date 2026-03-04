@@ -117,19 +117,25 @@ discord_bot:
         enabled: Etkin
         disabled: Engelli
         prefix: Prefix
-        announcement: Duyuru kanalı
         boost_channel: Boost kanalı
         boost_role: Boost rol
         audit_channel: Denetim kanalı
+        audit_channel_description: |
+          NQN posts messages to this channel when users send messages through the bot, or when administrative events happen
         nitro_role: Nitro rol
         stickers: Çıkartmalar
+        stickers_description: "Allows users to use NQN stickers in chat."
         nitro: Nitro
+        nitro_description: "Allows users to use free Nitro emotes with NQN."
         replies: Mesaj Bağlantısı Önizlemeleri
-        masked_links: Maskelenmiş URL'ler
+        replies_description: "Messages with message links will be reposted with a preview of the linked content."
         pings: Ping'ler
+        pings_description: "Reposted messages will forward pings from the original message."
         user_content: Kullanıcı İçeriği
         personas: Personalar
+        personas_description: "Allows users to set custom usernames and avatars."
         dashboard_posting: Dashboard Paylaşılım
+        dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
         phish_detection: Kimlik Avı Tespiti
         invite: Davet Bağlantısı
         pack: Paket Adı

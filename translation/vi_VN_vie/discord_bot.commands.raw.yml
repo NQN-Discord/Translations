@@ -141,7 +141,7 @@ discord_bot:
           Chỉ cần sao chép link đến tin nhắn đó (trên di động là nút chia sẻ - sao chép) rồi dán nó vào tin nhắn của bạn, và bot sẽ thay thế tin nhắn của bạn kèm theo tin nhắn được dẫn đến.
 
           Nếu bạn không muốn bot thay thế tin nhắn của bạn, chỉ cần bao quanh link đó bằng cặp ngoặc \<\>.
-        page_4_0_name: Administration
+        page_4_0_name: Quản trị
         page_4_0_desc: |
           Nếu một quản lý trong server muốn vô hiệu hóa tính năng này, họ có thể dùng `%{prefix}server message_link_previews off`.
         page_6_title: Sticker

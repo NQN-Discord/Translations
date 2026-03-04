@@ -11,6 +11,10 @@ command_docs:
     name: ویرایش پیام
   find_author:
     name: Find Author
+  kick_author:
+    name: Kick Author
+  ban_author:
+    name: Ban Author
   alias:
     name: اختصار
     short_doc: مدیریت جداگانه شکلک هایی که می توانید استفاده کنید

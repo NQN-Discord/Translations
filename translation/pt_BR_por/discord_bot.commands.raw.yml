@@ -140,7 +140,7 @@ discord_bot:
           Simplesmente copie o link da mensagem via Discord (o botão de compartilhar) e cole-o em sua mensagem, e ele publicará a mensagem que você está respondendo também.
 
           Se você não quiser que o bot repita o link de uma mensagem, pode colocá-lo em \<\>, e o bot não postará novamente.
-        page_4_0_name: Administration
+        page_4_0_name: Administrador
         page_4_0_desc: |
           Se um administrador do servidor deseja desabilitar esta funcionalidade em todo o servidor, ele pode usar `%{prefix}server replies off`.
         page_6_title: Figurinhas
