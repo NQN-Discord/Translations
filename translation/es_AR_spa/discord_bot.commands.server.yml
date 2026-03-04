@@ -124,21 +124,21 @@ discord_bot:
         boost_role: Rol de votos
         audit_channel: Canal de auditoria
         audit_channel_description: |
-          NQN posts messages to this channel when users send messages through the bot, or when administrative events happen
+          NQN envía mensajes a este canal cuando usuarios envían mensajes con NQN, o cuando ocurren acciones administrativas
         nitro_role: Rol de Nitro
         stickers: Stickers
-        stickers_description: "Allows users to use NQN stickers in chat."
+        stickers_description: "Permite a los usuarios usar stickers de NQN en el canal."
         nitro: Nitro
-        nitro_description: "Allows users to use free Nitro emotes with NQN."
+        nitro_description: "Permite a los usuarios usar emojis Nitro gratuitamente con NQN."
         replies: Vista previa de enlaces de mensajes
-        replies_description: "Messages with message links will be reposted with a preview of the linked content."
+        replies_description: "Mensajes con URLs a otros mensajes serán reenviados con una previsualización del contenido."
         pings: Menciones
-        pings_description: "Reposted messages will forward pings from the original message."
+        pings_description: "Los mensajes reenviados reenviarán menciones del mensaje original."
         user_content: Contenido de los Usuarios
         personas: Personajes
-        personas_description: "Allows users to set custom usernames and avatars."
+        personas_description: "Permite a los usuarios usar nombres de usuario y fotos de perfil personalizados."
         dashboard_posting: Enviar mensajes con Sitio
-        dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
+        dashboard_posting_description: "Permite a los usuarios enviar mensajes desde el panel en el sito del bot (ignorando AutoMod)."
         phish_detection: Detección de mensajes phishing
         invite: Enlace de invitación
         pack: Nombre del Pack
