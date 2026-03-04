@@ -117,19 +117,25 @@ discord_bot:
         enabled: Enabled
         disabled: Disabled
         prefix: Prefix
-        announcement: Announcement channel
         boost_channel: Boost channel
         boost_role: Boost role
         audit_channel: Audit channel
+        audit_channel_description: |
+          NQN posts messages to this channel when users repost messages, or when administrative events happen
         nitro_role: Nitro role
         stickers: Stickers
+        stickers_description: "Allows users to use NQN stickers in chat."
         nitro: Nitro
+        nitro_description: "Allows users to use free Nitro emotes with NQN."
         replies: Message Link Previews
-        masked_links: Masked URLs
+        replies_description: "Messages with message links will be reposted with a preview of the linked content."
         pings: Pings
+        pings_description: "Reposted messages will forward pings from the original message."
         user_content: User Content
         personas: Personas
+        personas_description: "Allows users to set custom usernames and avatars."
         dashboard_posting: Dashboard Posting
+        dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
         phish_detection: Phish Detection
         invite: Invite Link
         pack: Pack Name
