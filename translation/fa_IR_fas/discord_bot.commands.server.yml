@@ -121,7 +121,7 @@ discord_bot:
         boost_role: نقش بوستر
         audit_channel: کانال سوابق
         audit_channel_description: |
-          NQN posts messages to this channel when users repost messages, or when administrative events happen
+          NQN posts messages to this channel when users send messages through the bot, or when administrative events happen
         nitro_role: نقش نیترو
         stickers: استیکر ها
         stickers_description: "Allows users to use NQN stickers in chat."
