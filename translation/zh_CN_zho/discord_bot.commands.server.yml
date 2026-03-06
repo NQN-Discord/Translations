@@ -120,8 +120,8 @@ discord_bot:
         boost_channel: Boost channel
         boost_role: Boost role
         audit_channel: Audit channel
-        audit_channel_description: |
-          NQN posts messages to this channel when users send messages through the bot, or when administrative events happen
+        audit_channel_description: |-
+          NQN posts messages here when users send messages using the bot, or when administrative events happen
         nitro_role: Nitro role
         stickers: Stickers
         stickers_description: "Allows users to use NQN stickers in chat."
