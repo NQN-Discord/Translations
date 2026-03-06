@@ -120,8 +120,8 @@ discord_bot:
         boost_channel: Kênh tăng cường
         boost_role: Vai trò tăng cường
         audit_channel: Kênh lưu vết
-        audit_channel_description: |
-          NQN posts messages to this channel when users send messages through the bot, or when administrative events happen
+        audit_channel_description: |-
+          NQN posts messages here when users send messages using the bot, or when administrative events happen
         nitro_role: Vai trò Nitro
         stickers: Sticker
         stickers_description: "Allows users to use NQN stickers in chat."
