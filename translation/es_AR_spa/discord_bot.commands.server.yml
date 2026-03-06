@@ -124,7 +124,7 @@ discord_bot:
         boost_role: Rol de votos
         audit_channel: Canal de auditoria
         audit_channel_description: |-
-          NQN posts messages here when users send messages using the bot, or when administrative events happen
+          NQN envía mensajes aquí cuando usuarios envían mensajes con NQN o cuando por eventos administrativas
         nitro_role: Rol de Nitro
         stickers: Stickers
         stickers_description: "Permite a los usuarios usar stickers de NQN en el canal."
