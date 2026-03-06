@@ -121,8 +121,8 @@ discord_bot:
         boost_channel: Канал буста
         boost_role: Роль буста
         audit_channel: Канал аудита
-        audit_channel_description: |
-          NQN posts messages to this channel when users send messages through the bot, or when administrative events happen
+        audit_channel_description: |-
+          NQN posts messages here when users send messages using the bot, or when administrative events happen
         nitro_role: Роль нитро
         stickers: Стикеры
         stickers_description: "Allows users to use NQN stickers in chat."
@@ -137,6 +137,8 @@ discord_bot:
         personas_description: "Allows users to set custom usernames and avatars."
         dashboard_posting: Публикация с панели управления
         dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
+        emojis_indexable: Discoverable Emojis
+        emojis_indexable_description: "Emojis in this server will show up in the bot's search results."
         phish_detection: Обнаружение фишинга
         invite: Приглашение на сервер
         pack: Имя пака
