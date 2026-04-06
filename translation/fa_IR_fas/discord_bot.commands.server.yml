@@ -136,6 +136,8 @@ discord_bot:
         personas_description: "Allows users to set custom usernames and avatars."
         dashboard_posting: پست کردن از طریق داشبورد
         dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
+        emojis_indexable: Discoverable Emojis
+        emojis_indexable_description: "Emojis in this server will show up in the bot's search results."
         phish_detection: شناسایی فیشینگ
         invite: لینک دعوت
         pack: نام بسته
