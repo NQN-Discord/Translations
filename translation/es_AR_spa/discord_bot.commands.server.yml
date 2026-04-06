@@ -139,8 +139,8 @@ discord_bot:
         personas_description: "Permite a los usuarios usar nombres de usuario y fotos de perfil personalizados."
         dashboard_posting: Enviar mensajes con Sitio
         dashboard_posting_description: "Permite a los usuarios enviar mensajes desde el panel en el sito del bot (ignorando AutoMod)."
-        emojis_indexable: Discoverable Emojis
-        emojis_indexable_description: "Emojis in this server will show up in the bot's search results."
+        emojis_indexable: Emojis descubribles
+        emojis_indexable_description: "Los emojis de este servidor aparecerán en los resultados de búsqueda del bot."
         phish_detection: Detección de mensajes phishing
         invite: Enlace de invitación
         pack: Nombre del Pack
