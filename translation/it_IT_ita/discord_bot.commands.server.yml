@@ -121,7 +121,7 @@ discord_bot:
         boost_role: Ruolo di boost
         audit_channel: Canale di Controllo
         audit_channel_description: |-
-          NQN posts messages here when users send messages using the bot, or when administrative events happen
+          NQN manda messaggi qui quando gli utenti scrivono usando il bot o se accadono azioni amministrative
         nitro_role: Ruolo nitro
         stickers: Adesivi
         stickers_description: "Autorizza gli utenti ad usare gli sticker NQN in chat."
@@ -130,14 +130,14 @@ discord_bot:
         replies: Anteprima Link Messaggi
         replies_description: "I messaggi con dei link verranno repostati con una preview del contenuto del link."
         pings: Ping
-        pings_description: "Reposted messages will forward pings from the original message."
+        pings_description: "I messaggi repostati inoltrerrano i ping del messaggio originale."
         user_content: Contenuto Utente
         personas: Personaggi
-        personas_description: "Allows users to set custom usernames and avatars."
+        personas_description: "Autorizza gli utenti ad impostare nomi utente ed avatar personalizzati."
         dashboard_posting: Pubblicazione dalla Dashboard
-        dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
-        emojis_indexable: Discoverable Emojis
-        emojis_indexable_description: "Emojis in this server will show up in the bot's search results."
+        dashboard_posting_description: "Autorizza gli utenti ad inviare messaggi dalla dashboard del bot, forse bypassando l'automod."
+        emojis_indexable: Emoji Scopribili
+        emojis_indexable_description: "Le emoji in questo server verranno mostrate nei risultati di ricerca del bot."
         phish_detection: Rilevamento Phishing
         invite: Link di Invito
         pack: Nome Pacchetto
