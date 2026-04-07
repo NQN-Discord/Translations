@@ -124,11 +124,11 @@ discord_bot:
           NQN posts messages here when users send messages using the bot, or when administrative events happen
         nitro_role: Ruolo nitro
         stickers: Adesivi
-        stickers_description: "Allows users to use NQN stickers in chat."
+        stickers_description: "Autorizza gli utenti ad usare gli sticker NQN in chat."
         nitro: Nitro
-        nitro_description: "Allows users to use free Nitro emotes with NQN."
+        nitro_description: "Autorizza gli utenti ad usare le emote gratuite Nitro con NQN."
         replies: Anteprima Link Messaggi
-        replies_description: "Messages with message links will be reposted with a preview of the linked content."
+        replies_description: "I messaggi con dei link verranno repostati con una preview del contenuto del link."
         pings: Ping
         pings_description: "Reposted messages will forward pings from the original message."
         user_content: Contenuto Utente
