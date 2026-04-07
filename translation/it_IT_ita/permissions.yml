@@ -58,7 +58,7 @@ permissions:
   send_messages: |-
     Invia Messaggi
   send_messages_in_threads: |-
-    Send Messages in Threads
+    Invia Messaggi nei Thread
   send_tts_messages: |-
     Invia Messaggi TTS
   speak: |-
