@@ -12,9 +12,9 @@ command_docs:
   find_author:
     name: Trova Autore
   kick_author:
-    name: Kick Author
+    name: Espelli Autore
   ban_author:
-    name: Ban Author
+    name: Bandisci Autore
   alias:
     name: alias
     short_doc: Gestisci le singole emote che puoi usare
@@ -266,7 +266,7 @@ command_docs:
 
       Se entrambi, canali e membri non devono essere filtrati, usa 'audit guild'
   mod-ban:
-    name: ban
+    name: bandisci
     short_doc: Bandisci l'utente che ha pubblicato un messaggio
   mod-edit_topic:
     name: modifica_argomento
