@@ -12,9 +12,9 @@ command_docs:
   find_author:
     name: Encontrar autor
   kick_author:
-    name: Kick Author
+    name: Autor do Kick
   ban_author:
-    name: Ban Author
+    name: Autor do ban
   alias:
     name: alias
     short_doc: Gerenciar os emotes individuais que você pode usar
@@ -30,19 +30,19 @@ command_docs:
     short_doc: Não quer mais um alias? Use isso
     params:
       alias:
-        name: alias
+        name: pseudônimo
         description: |-
-          Qual alias quer remover?
+          Qual pseudônimo quer remover?
   alias-delete_all:
     name: apagar_tudo
-    short_doc: Eu não gosto de nenhum dos meus aliases
+    short_doc: Eu não gosto de nenhum dos meus pseudônimos
     help: |
-      Apaga todos os seus aliases
+      Apaga todos os seus pseudônimos
   alias-dm:
     name: pv
-    short_doc: Receba uma lista de seus aliases no PV
+    short_doc: Receba uma lista de seus pseudônimos no PV
     help: |
-      Faça com que o bot te envie uma lista de seus aliases no privado
+      Faça com que o bot te envie uma lista de seus pseudônimos no privado
   alias-export:
     name: exportar
     short_doc: Exportar sua lista de apelidos
