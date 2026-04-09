@@ -124,7 +124,7 @@ discord_bot:
           NQN posts messages here when users send messages using the bot, or when administrative events happen
         nitro_role: Cargo Nitro
         stickers: Figurinhas
-        stickers_description: "Allows users to use NQN stickers in chat."
+        stickers_description: "Permite que os usuários usem figurinhas NQN no chat."
         nitro: Nitro
         nitro_description: "Allows users to use free Nitro emotes with NQN."
         replies: Visualização de links de mensagens
