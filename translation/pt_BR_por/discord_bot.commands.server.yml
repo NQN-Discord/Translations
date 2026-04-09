@@ -121,23 +121,24 @@ discord_bot:
         boost_role: Cargo Boost
         audit_channel: Canal de auditoria
         audit_channel_description: |-
-          NQN posts messages here when users send messages using the bot, or when administrative events happen
+          NQN posta mensagens aqui quando usuários enviam mensagens pelo bot, ou em eventos administrativos.
+
         nitro_role: Cargo Nitro
         stickers: Figurinhas
         stickers_description: "Permite que os usuários usem figurinhas NQN no chat."
         nitro: Nitro
-        nitro_description: "Allows users to use free Nitro emotes with NQN."
+        nitro_description: "Permite que os usuários usem emojis Nitro gratuitamente com NQN"
         replies: Visualização de links de mensagens
-        replies_description: "Messages with message links will be reposted with a preview of the linked content."
+        replies_description: "Mensagens com links serão republicadas com uma prévia do conteúdo vinculado."
         pings: Pings
-        pings_description: "Reposted messages will forward pings from the original message."
+        pings_description: "As mensagens republicadas encaminharão os pings da mensagem original."
         user_content: Conteúdo de Usuário
         personas: Personagens
-        personas_description: "Allows users to set custom usernames and avatars."
+        personas_description: "Permite aos usuários definir nomes de usuário e avatares personalizados."
         dashboard_posting: Enviar mensagens pelo Dashboard
-        dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
-        emojis_indexable: Discoverable Emojis
-        emojis_indexable_description: "Emojis in this server will show up in the bot's search results."
+        dashboard_posting_description: "Permite postar mensagens via dashboard do bot, burlando o automod."
+        emojis_indexable: Emojis detectáveis
+        emojis_indexable_description: "Os emojis neste servidor aparecerão nos resultados de pesquisa do bot."
         phish_detection: Detecção de Phish
         invite: Link de convite
         pack: Nome do Pacote
