@@ -16,7 +16,7 @@ command_docs:
   ban_author:
     name: Bandisci Autore
   move_message:
-    name: Move Message
+    name: Muovi Messaggio
   alias:
     name: alias
     short_doc: Gestisci le singole emote che puoi usare
