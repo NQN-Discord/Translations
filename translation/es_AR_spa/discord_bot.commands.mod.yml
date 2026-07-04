@@ -27,6 +27,8 @@ discord_bot:
           many: '%{author} purgo %{count} mensajes en %{channel}'
       move:
         message_limit: El número de mensajes a mover debe ser entre 1 y %{count}
+        target_channel: Channel to move messages to
+        only_this_message: Move only this message
         move_to_new_thread: "Mover a un nuevo hilo"
         forum_modal_title: Crear una publicación
         forum_post_name: 'Nombre de la Publicación:'
