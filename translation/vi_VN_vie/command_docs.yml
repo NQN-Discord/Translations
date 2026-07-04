@@ -12,9 +12,11 @@ command_docs:
   find_author:
     name: Tìm người gửi
   kick_author:
-    name: Kick Author
+    name: Đá tác giả
   ban_author:
-    name: Ban Author
+    name: Cấm tác giả
+  move_message:
+    name: Move Message
   alias:
     name: tên_thay_thế
     short_doc: Quản lý các emoji riêng biệt để bạn dùng
