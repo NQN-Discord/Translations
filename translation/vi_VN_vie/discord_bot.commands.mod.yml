@@ -27,6 +27,8 @@ discord_bot:
           many: '%{author} đã xóa %{count} tin nhắn trong %{channel}'
       move:
         message_limit: Số lượng tin nhắn để chuyển đi phải từ 1 đến %{count}
+        target_channel: Channel to move messages to
+        only_this_message: Move only this message
         move_to_new_thread: "Chuyển đến chủ đề mới"
         forum_modal_title: Tạo bài đăng mới
         forum_post_name: 'Tên bài đăng:'

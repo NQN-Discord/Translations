@@ -15,6 +15,8 @@ command_docs:
     name: Autor do Kick
   ban_author:
     name: Autor do ban
+  move_message:
+    name: Move Message
   alias:
     name: alias
     short_doc: Gerenciar os emotes individuais que você pode usar

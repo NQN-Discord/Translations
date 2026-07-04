@@ -27,6 +27,8 @@ discord_bot:
           many: '%{author} limpou %{count} mensagens do canal %{channel}'
       move:
         message_limit: Numero de mensagens para mover deve ser entre 1 e %{count}
+        target_channel: Channel to move messages to
+        only_this_message: Move only this message
         move_to_new_thread: "Mover para um novo tópico"
         forum_modal_title: Criar uma publicação
         forum_post_name: 'Nome da publicação:'
