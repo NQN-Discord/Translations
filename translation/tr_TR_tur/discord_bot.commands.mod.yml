@@ -27,6 +27,8 @@ discord_bot:
           many: '%{author}, %{channel} içindeki %{count} mesajları temizledi'
       move:
         message_limit: Taşınacak mesaj sayısı 1 ile %{count} arasında olmalıdır
+        target_channel: Channel to move messages to
+        only_this_message: Move only this message
         move_to_new_thread: "Move to new thread"
         forum_modal_title: Yeni bir gönderi oluştur
         forum_post_name: 'Gönderı ismi:'

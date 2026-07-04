@@ -15,6 +15,8 @@ command_docs:
     name: Kick Author
   ban_author:
     name: Ban Author
+  move_message:
+    name: Move Message
   alias:
     name: 表情符号别号
     short_doc: 管理每个您可以使用的表情符号

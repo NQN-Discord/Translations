@@ -27,6 +27,8 @@ discord_bot:
           many: '%{author} 删除了%{count} 条在%{channel} 里的消息'
       move:
         message_limit: 要移动的消息数量必须在1至%{count} 之间
+        target_channel: Channel to move messages to
+        only_this_message: Move only this message
         move_to_new_thread: "Move to new thread"
         forum_modal_title: 创建新帖文
         forum_post_name: '贴文标题：'

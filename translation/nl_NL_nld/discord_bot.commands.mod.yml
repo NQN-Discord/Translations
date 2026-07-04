@@ -27,6 +27,8 @@ discord_bot:
           many: '%{author} heeft %{count} berichten in %{channel} verwijderd'
       move:
         message_limit: Het aantal te verplaatsen berichten moet tussen 1 en %{count} liggen
+        target_channel: Channel to move messages to
+        only_this_message: Move only this message
         move_to_new_thread: "Naar een nieuwe thread verplaatsen"
         forum_modal_title: Maak een nieuwe post
         forum_post_name: 'Post naam:'
