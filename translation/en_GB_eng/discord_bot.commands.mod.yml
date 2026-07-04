@@ -27,6 +27,8 @@ discord_bot:
           many: '%{author} purged %{count} messages in %{channel}'
       move:
         message_limit: Number of messages to move must be between 1 and %{count}
+        target_channel: Channel to move messages to
+        only_this_message: Move only this message
 
         move_to_new_thread: "Move to new thread"
 
