@@ -121,23 +121,23 @@ discord_bot:
         boost_role: Vai trò tăng cường
         audit_channel: Kênh lưu vết
         audit_channel_description: |-
-          NQN posts messages here when users send messages using the bot, or when administrative events happen
+          NQN sẽ thông báo ở đây khi người dùng nhắn tin thông qua bot, hoặc khi có hoạt động quản trị diễn ra
         nitro_role: Vai trò Nitro
         stickers: Sticker
-        stickers_description: "Allows users to use NQN stickers in chat."
+        stickers_description: "Cho phép người dùng dùng nhãn dán NQN trên kênh chat."
         nitro: Nitro
-        nitro_description: "Allows users to use free Nitro emotes with NQN."
+        nitro_description: "Cho phép người dùng dùng emoji Nitro miễn phí với NQN."
         replies: Xem tin nhắn được liên kết
-        replies_description: "Messages with message links will be reposted with a preview of the linked content."
+        replies_description: "Tin nhắn có kèm link đến tin nhắn khác sẽ được thay thế để kèm nội dung của tin nhắn được link."
         pings: Nhắc tên
-        pings_description: "Reposted messages will forward pings from the original message."
+        pings_description: "Tin nhắn thay thế sẽ chuyển tiếp ping từ tin nhắn gốc."
         user_content: Nội dung người dùng
         personas: Danh tính ảo
-        personas_description: "Allows users to set custom usernames and avatars."
+        personas_description: "Cho phép người dùng đặt tên và ảnh đại diện tự chọn."
         dashboard_posting: Gửi từ bảng điều khiển
-        dashboard_posting_description: "Allows users to post messages from the bot's dashboard, potentially bypassing automod."
-        emojis_indexable: Discoverable Emojis
-        emojis_indexable_description: "Emojis in this server will show up in the bot's search results."
+        dashboard_posting_description: "Cho phép người dùng gửi tin nhắn từ bảng điều khiển, có khả năng bỏ qua quản lý tự động."
+        emojis_indexable: Emoji công khai
+        emojis_indexable_description: "Emoji trong server này sẽ hiển thị trên kết quả tìm kiếm của bot."
         phish_detection: Nhận diện lừa đảo
         invite: Link mời
         pack: Tên gói emoji
