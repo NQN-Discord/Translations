@@ -27,8 +27,8 @@ discord_bot:
           many: '%{author} ha eliminato %{count} messaggi in %{channel}'
       move:
         message_limit: Il numero di messaggi da spostare deve essere compreso tra 1 e %{count}
-        target_channel: Channel to move messages to
-        only_this_message: Move only this message
+        target_channel: Canale verso cui muovere il messaggio
+        only_this_message: Muovi solo questo messaggio
         move_to_new_thread: "Muovi in un nuovo thread"
         forum_modal_title: Crea un nuovo post
         forum_post_name: 'Nome post:'
