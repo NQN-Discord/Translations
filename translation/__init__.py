@@ -229,12 +229,6 @@ class Translator(metaclass=Singleton):
                                 raise AssertionError("Command duplicated with translation")
                             bot.all_commands[name] = command
 
-            def inner(locale: str):
-                async def run_locale(ctx, *, rest):
-                    await bot.process_commands(ctx.message, ctx.prefix, rest, locale_override=locale)
-                return run_locale
-            bot.command(hidden=True, name=locale)(inner(locale))
-
     async def setup_translation(self, ctx: Context, guild_locale: str = None):
         if guild_locale is None:
             try:
